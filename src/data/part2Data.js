@@ -114,7 +114,7 @@ export const part2Data = {
     "text": "Why did you join the club?",
     "samples": [
       {
-        "en": "I decided to join this club because I am passionate about gardening. It allows me to reduce stress.",
+        "en": "I decided to join this club because I am very passionate about gardening. It really allows me to reduce stress.",
         "vi": "Tôi quyết định tham gia câu lạc bộ vì đam mê sở thích này. Nó cho phép tôi đạt được nhiều lợi ích thiết thực."
       },
       {
@@ -122,7 +122,7 @@ export const part2Data = {
         "vi": "Lý do chính tôi tham gia là sự quan tâm mãnh liệt với sở thích này. Ở đây giúp tôi học hỏi và cải thiện rất nhiều."
       },
       {
-        "en": "I have always been interested in gardening. Therefore, joining this club gives me a great opportunity to explore more.",
+        "en": "I have always been deeply interested in gardening. Therefore, joining this club gives me a great opportunity to explore more.",
         "vi": "Tôi luôn quan tâm đến lĩnh vực này. Vì vậy, tham gia câu lạc bộ cho tôi cơ hội tuyệt vời để khám phá thêm."
       }
     ],
@@ -312,7 +312,7 @@ export const part2Data = {
         "vi": "Tôi rất thích đi xem phim vì nó rất giải trí. Hoạt động này giúp tôi tìm sự bình yên trong tâm trí và thư giãn sau một ngày dài."
       },
       {
-        "en": "What I like most is watching TV series, which is very engaging. It gives me an opportunity to relax.",
+        "en": "What I like most is watching TV series, which is very engaging. It gives me a good opportunity to relax.",
         "vi": "Điều tôi thích nhất là xem phim truyền hình, việc này rất lôi cuốn. Nó cho tôi cơ hội để thư giãn."
       },
       {
@@ -344,7 +344,7 @@ export const part2Data = {
         "vi": "Không, tôi không thường xuyên đi bằng ô tô. Tôi có xu hướng đi bằng phương tiện công cộng vì nó rất tiện lợi và giúp tôi bảo vệ môi trường."
       },
       {
-        "en": "Yes, I am a huge fan of cars, so I always choose to drive my car to work. It not only saves my commuting time but also makes me feel comfortable.",
+        "en": "Yes, I am a huge fan of cars, so I always choose to drive to work. It not only saves my commuting time but also makes me feel comfortable.",
         "vi": "Vâng, tôi là một người rất mê ô tô, nên tôi luôn chọn lái xe đi làm. Việc này không chỉ tiết kiệm thời gian mà còn làm tôi thấy thoải mái."
       }
     ],
@@ -392,7 +392,7 @@ export const part2Data = {
     "text": "Why are you interested in travel?",
     "samples": [
       {
-        "en": "I decided to join this club because I am passionate about traveling. It allows me to discover new places.",
+        "en": "I decided to join this club because I am really passionate about traveling. It allows me to discover new places.",
         "vi": "Tôi quyết định tham gia câu lạc bộ vì đam mê sở thích này. Nó cho phép tôi đạt được nhiều lợi ích thiết thực."
       },
       {
@@ -400,7 +400,7 @@ export const part2Data = {
         "vi": "Lý do chính tôi tham gia là sự quan tâm mãnh liệt với sở thích này. Ở đây giúp tôi học hỏi và cải thiện rất nhiều."
       },
       {
-        "en": "I have always been interested in traveling. Therefore, joining this club gives me a great opportunity to explore more.",
+        "en": "I have always been deeply interested in traveling. Therefore, joining this club gives me a great opportunity to explore more.",
         "vi": "Tôi luôn quan tâm đến lĩnh vực này. Vì vậy, tham gia câu lạc bộ cho tôi cơ hội tuyệt vời để khám phá thêm."
       }
     ],
@@ -448,7 +448,7 @@ export const part2Data = {
     "text": "In which cases do you often use foreign languages?",
     "samples": [
       {
-        "en": "I often use English when traveling abroad. It is very essential and helps me understand other cultures easily.",
+        "en": "I often use the English language when traveling abroad. It is very essential and helps me understand other cultures easily.",
         "vi": "Tôi thường sử dụng tiếng Anh khi du lịch nước ngoài. Điều đó rất thiết yếu và giúp tôi dễ dàng hiểu các văn hóa khác."
       },
       {
@@ -813,7 +813,7 @@ export const part2Data = {
     "text": "When do you usually have to come into contact with English?",
     "samples": [
       {
-        "en": "I often use English when traveling abroad. It is very essential and helps me understand other cultures easily.",
+        "en": "I often use the English language when traveling abroad. It is very essential and helps me understand other cultures easily.",
         "vi": "Tôi thường sử dụng tiếng Anh khi du lịch nước ngoài. Điều đó rất thiết yếu và giúp tôi dễ dàng hiểu các văn hóa khác."
       },
       {
@@ -897,7 +897,7 @@ export const part2Data = {
     "text": "When do you usually use English?",
     "samples": [
       {
-        "en": "I often use English when traveling abroad. It is very essential and helps me understand other cultures easily.",
+        "en": "I often use the English language when traveling abroad. It is very essential and helps me understand other cultures easily.",
         "vi": "Tôi thường sử dụng tiếng Anh khi du lịch nước ngoài. Điều đó rất thiết yếu và giúp tôi dễ dàng hiểu các văn hóa khác."
       },
       {
