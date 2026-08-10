@@ -17,16 +17,16 @@ export const part3Data = {
       ],
       "samples": [
         {
-          "en": "Regarding your question, a treasured item I have kept for ages is a cute teddy bear. Because it is a special gift from my best friend, I always clean it regularly.",
-          "vi": "Về câu hỏi của bạn, một món đồ quý giá tôi đã giữ từ rất lâu là một con gấu bông dễ thương. Bởi vì nó là một món quà đặc biệt từ bạn thân, tôi luôn lau chùi nó thường xuyên."
+          "en": "Regarding your question, a treasured item I have kept for ages is a cute teddy bear. Because it is a special gift from my best friend, I always clean it regularly to keep it nice.",
+          "vi": "Về câu hỏi của bạn, một món đồ quý giá tôi đã giữ từ rất lâu là một con gấu bông dễ thương. Bởi vì nó là một món quà đặc biệt từ bạn thân, tôi luôn lau chùi nó thường xuyên để giữ nó luôn đẹp."
         },
         {
-          "en": "One thing that holds immense sentimental value is a vintage camera. I make sure to preserve it carefully because it is irreplaceable to me.",
-          "vi": "Một thứ mang giá trị tinh thần to lớn là chiếc máy ảnh cổ. Tôi đảm bảo bảo quản nó cẩn thận vì nó không thể thay thế đối với tôi."
+          "en": "One thing that holds immense sentimental value for me is a vintage camera from my grandfather. I make sure to preserve it carefully because it is completely irreplaceable to me and my entire family.",
+          "vi": "Một thứ mang giá trị tinh thần to lớn đối với tôi là chiếc máy ảnh cổ từ ông tôi. Tôi đảm bảo bảo quản nó cẩn thận vì nó hoàn toàn không thể thay thế đối với tôi và cả gia đình tôi."
         },
         {
-          "en": "To be honest, the oldest thing I own is a family heirloom. I cherish it deeply since it constantly represents my family heritage.",
-          "vi": "Thành thật mà nói, thứ cũ nhất mà tôi sở hữu là vật gia truyền. Tôi vô cùng trân trọng nó vì nó luôn đại diện cho di sản gia đình tôi."
+          "en": "To be honest, the absolute oldest thing I currently own is a beautiful family heirloom. I cherish it deeply since it constantly represents my family heritage and connects me to my roots.",
+          "vi": "Thành thật mà nói, thứ cũ nhất mà tôi hiện sở hữu là một vật gia truyền tuyệt đẹp. Tôi vô cùng trân trọng nó vì nó luôn đại diện cho di sản gia đình tôi và kết nối tôi với cội nguồn của mình."
         }
       ]
     },
@@ -46,16 +46,16 @@ export const part3Data = {
       ],
       "samples": [
         {
-          "en": "I believe taking a course at your local college is a fantastic idea. It will help you master basic techniques quickly and eventually build a solid foundation.",
-          "vi": "Tôi tin rằng tham gia một khóa học tại trường cao đẳng địa phương là một ý tưởng tuyệt vời. Nó sẽ giúp bạn nắm vững các kỹ thuật cơ bản nhanh chóng và cuối cùng là xây dựng một nền tảng vững chắc."
+          "en": "I truly believe taking a course at your local college is a fantastic idea for beginners. It will help you master basic techniques quickly and eventually build a solid foundation for your future art projects.",
+          "vi": "Tôi thực sự tin rằng tham gia một khóa học tại trường cao đẳng địa phương là một ý tưởng tuyệt vời cho người mới bắt đầu. Nó sẽ giúp bạn nắm vững các kỹ thuật cơ bản nhanh chóng và cuối cùng là xây dựng một nền tảng vững chắc cho các dự án nghệ thuật tương lai của bạn."
         },
         {
-          "en": "In my opinion, enrolling in a formal class is a worthwhile investment. You will receive professional guidance, which can improve your artistic skills significantly.",
-          "vi": "Theo ý kiến của tôi, đăng ký một lớp học chính thức là một sự đầu tư xứng đáng. Bạn sẽ nhận được sự hướng dẫn chuyên nghiệp, điều này có thể cải thiện đáng kể kỹ năng nghệ thuật của bạn."
+          "en": "In my honest opinion, enrolling in a formal class is definitely a worthwhile investment. You will receive professional guidance, which can improve your artistic skills significantly and help you become a better painter over time.",
+          "vi": "Theo ý kiến thành thật của tôi, đăng ký một lớp học chính thức chắc chắn là một sự đầu tư xứng đáng. Bạn sẽ nhận được sự hướng dẫn chuyên nghiệp, điều này có thể cải thiện đáng kể kỹ năng nghệ thuật của bạn và giúp bạn trở thành một họa sĩ giỏi hơn theo thời gian."
         },
         {
-          "en": "If I were you, I would definitely register because it is the most effective way. Having the opportunity to interact with experienced instructors will certainly help you find your unique painting style.",
-          "vi": "Nếu tôi là bạn, tôi chắc chắn sẽ đăng ký vì đó là cách hiệu quả nhất. Việc có cơ hội tương tác với những người hướng dẫn giàu kinh nghiệm chắc chắn sẽ giúp bạn tìm ra phong cách vẽ độc đáo của bạn."
+          "en": "If I were you, I would definitely register for the class because it is the most effective way. Having the opportunity to interact with experienced instructors will certainly help you find your unique painting style.",
+          "vi": "Nếu tôi là bạn, tôi chắc chắn sẽ đăng ký lớp học vì đó là cách hiệu quả nhất. Việc có cơ hội tương tác với những người hướng dẫn giàu kinh nghiệm chắc chắn sẽ giúp bạn tìm ra phong cách vẽ độc đáo của bạn."
         }
       ]
     },
@@ -75,16 +75,16 @@ export const part3Data = {
       ],
       "samples": [
         {
-          "en": "I completely disagree with the criticism because street art is a beautiful form of self-expression. It can successfully convey powerful social messages.",
-          "vi": "Tôi hoàn toàn không đồng ý với lời chỉ trích vì nghệ thuật đường phố là một hình thức thể hiện bản thân tuyệt đẹp. Nó có thể truyền tải thành công các thông điệp xã hội mạnh mẽ."
+          "en": "I completely disagree with the negative criticism because street art is a beautiful form of self-expression. It can successfully convey powerful social messages to the public and make our modern cities look much more interesting.",
+          "vi": "Tôi hoàn toàn không đồng ý với những lời chỉ trích tiêu cực vì nghệ thuật đường phố là một hình thức thể hiện bản thân tuyệt đẹp. Nó có thể truyền tải thành công các thông điệp xã hội mạnh mẽ tới công chúng và làm cho các thành phố hiện đại của chúng ta trông thú vị hơn nhiều."
         },
         {
-          "en": "While some consider it vandalism, I think it is a vibrant addition to the city. Instead of banning it, we should designate specific areas for artists to showcase local artistic talents.",
-          "vi": "Mặc dù một số người coi đó là hành vi phá hoại, tôi nghĩ nó là một sự bổ sung sống động cho thành phố. Thay vì cấm, chúng ta nên chỉ định các khu vực cụ thể cho các nghệ sĩ để trưng bày tài năng nghệ thuật địa phương."
+          "en": "While some people consider it vandalism, I strongly think it is a vibrant addition to the city. Instead of banning it, we should designate specific areas for artists to showcase local artistic talents safely.",
+          "vi": "Mặc dù một số người coi đó là hành vi phá hoại, tôi thực sự nghĩ nó là một sự bổ sung sống động cho thành phố. Thay vì cấm, chúng ta nên chỉ định các khu vực cụ thể cho các nghệ sĩ để trưng bày tài năng nghệ thuật địa phương một cách an toàn."
         },
         {
-          "en": "In my view, street art is an essential part of urban culture that helps beautify dull concrete walls. If authorities regulate it properly, it will benefit everyone.",
-          "vi": "Theo quan điểm của tôi, nghệ thuật đường phố là một phần thiết yếu của văn hóa đô thị giúp làm đẹp những bức tường bê tông nhàm chán. Nếu chính quyền quản lý nó một cách hợp lý, nó sẽ mang lại lợi ích cho tất cả mọi người."
+          "en": "In my personal view, street art is an essential part of urban culture that helps beautify dull concrete walls. If local authorities regulate it properly, it will undoubtedly benefit everyone living in the community.",
+          "vi": "Theo quan điểm cá nhân của tôi, nghệ thuật đường phố là một phần thiết yếu của văn hóa đô thị giúp làm đẹp những bức tường bê tông nhàm chán. Nếu chính quyền địa phương quản lý nó một cách hợp lý, nó chắc chắn sẽ mang lại lợi ích cho tất cả mọi người sống trong cộng đồng."
         }
       ]
     }
@@ -106,16 +106,16 @@ export const part3Data = {
       ],
       "samples": [
         {
-          "en": "The last time I had a genuinely good meal was last weekend to celebrate my birthday. I enjoyed a delicious homemade pizza and it tasted absolutely heavenly.",
-          "vi": "Lần gần nhất tôi có một bữa ăn thực sự ngon là cuối tuần trước để mừng sinh nhật. Tôi đã thưởng thức một chiếc bánh pizza tự làm ngon tuyệt và nó có vị ngon tuyệt đỉnh."
+          "en": "The last time I had a genuinely good meal was last weekend to celebrate my birthday with friends. I enjoyed a delicious homemade pizza, and I must say it tasted absolutely heavenly to all of us.",
+          "vi": "Lần gần nhất tôi có một bữa ăn thực sự ngon là cuối tuần trước để mừng sinh nhật cùng bạn bè. Tôi đã thưởng thức một chiếc bánh pizza tự làm ngon tuyệt, và tôi phải nói rằng nó có vị ngon tuyệt đỉnh đối với tất cả chúng tôi."
         },
         {
-          "en": "I vividly remember eating some authentic traditional pho yesterday after a stressful working day. I must admit that the flavors were perfectly balanced.",
-          "vi": "Tôi nhớ rất rõ đã ăn một chút phở truyền thống chuẩn vị hôm qua sau một ngày làm việc căng thẳng. Tôi phải thừa nhận rằng hương vị được cân bằng hoàn hảo."
+          "en": "I vividly remember eating some authentic traditional pho yesterday evening after a very stressful working day. I must admit that the rich flavors were perfectly balanced, making it a truly unforgettable dining experience for me.",
+          "vi": "Tôi nhớ rất rõ đã ăn một chút phở truyền thống chuẩn vị vào tối hôm qua sau một ngày làm việc rất căng thẳng. Tôi phải thừa nhận rằng hương vị đậm đà được cân bằng hoàn hảo, khiến nó trở thành một trải nghiệm ăn uống thực sự khó quên đối với tôi."
         },
         {
-          "en": "To be honest, my best recent dining experience was two days ago during a family gathering. We ordered a mouth-watering seafood hotpot, and it instantly melted in my mouth.",
-          "vi": "Thành thật mà nói, trải nghiệm ăn uống tốt nhất gần đây của tôi là hai ngày trước trong một buổi tụ họp gia đình. Chúng tôi gọi một nồi lẩu hải sản hấp dẫn, và nó tan ngay trong miệng tôi."
+          "en": "To be honest, my absolute best recent dining experience was two days ago during a lovely family gathering. We ordered a mouth-watering seafood hotpot, and the fresh fish instantly melted in my mouth.",
+          "vi": "Thành thật mà nói, trải nghiệm ăn uống tuyệt vời nhất gần đây của tôi là hai ngày trước trong một buổi tụ họp gia đình đáng yêu. Chúng tôi đã gọi một nồi lẩu hải sản hấp dẫn, và cá tươi đã tan ngay trong miệng tôi."
         }
       ]
     },
@@ -135,16 +135,16 @@ export const part3Data = {
       ],
       "samples": [
         {
-          "en": "If you visit my country, you must definitely try our world-famous beef noodle soup. It features a rich and aromatic broth, so I highly recommend you try it at local street food stalls.",
-          "vi": "Nếu bạn đến thăm đất nước tôi, bạn nhất định phải thử món phở bò nổi tiếng thế giới của chúng tôi. Nó có nước dùng đậm đà và thơm phức, vì vậy tôi thực sự khuyên bạn nên thử nó ở các quầy thức ăn đường phố địa phương."
+          "en": "If you ever visit my country, you must definitely try our world-famous beef noodle soup. It features a rich and aromatic broth, so I highly recommend you try it at local street food stalls for authenticity.",
+          "vi": "Nếu bạn từng đến thăm đất nước tôi, bạn nhất định phải thử món phở bò nổi tiếng thế giới của chúng tôi. Nó có nước dùng đậm đà và thơm phức, vì vậy tôi thực sự khuyên bạn nên thử nó ở các quầy thức ăn đường phố địa phương để có sự chân thực."
         },
         {
-          "en": "I strongly suggest that you taste savory Vietnamese crispy pancakes. Since it perfectly balances sweet and savory flavors, the best way to enjoy it is to eat it while it is still piping hot.",
-          "vi": "Tôi thực sự khuyên bạn nên nếm thử bánh xèo Việt Nam giòn rụm. Vì nó cân bằng hoàn hảo giữa hương vị mặn và ngọt, cách tốt nhất để thưởng thức nó là ăn khi nó vẫn còn nóng hổi."
+          "en": "I strongly suggest that you taste savory Vietnamese crispy pancakes during your trip. Since it perfectly balances sweet and savory flavors, the best way to enjoy it is to eat it while it is still piping hot.",
+          "vi": "Tôi thực sự khuyên bạn nên nếm thử bánh xèo Việt Nam giòn rụm trong chuyến đi của bạn. Vì nó cân bằng hoàn hảo giữa hương vị mặn và ngọt, cách tốt nhất để thưởng thức nó là ăn khi nó vẫn còn nóng hổi."
         },
         {
-          "en": "A must-try delicacy here is the iconic banh mi sandwich. It is filled with fresh herbs and meat, and I advise you to pair it with traditional iced tea for an authentic experience.",
-          "vi": "Một món ngon không thể bỏ qua ở đây là bánh mì kẹp mang tính biểu tượng. Nó chứa đầy các loại thảo mộc tươi và thịt, và tôi khuyên bạn nên kết hợp nó với trà đá truyền thống để có trải nghiệm đích thực."
+          "en": "A definite must-try delicacy here is the iconic banh mi sandwich. It is filled with fresh herbs and meat, and I advise you to pair it with traditional iced tea for an unforgettable, authentic dining experience.",
+          "vi": "Một món ngon nhất định phải thử ở đây là bánh mì kẹp mang tính biểu tượng. Nó chứa đầy các loại thảo mộc tươi và thịt, và tôi khuyên bạn nên kết hợp nó với trà đá truyền thống để có trải nghiệm ẩm thực đích thực và khó quên."
         }
       ]
     },
@@ -164,16 +164,16 @@ export const part3Data = {
       ],
       "samples": [
         {
-          "en": "I totally agree with this statement because it contains excessive amounts of calories. Instead of eating it daily, we should consume it occasionally as a treat.",
-          "vi": "Tôi hoàn toàn đồng ý với nhận định này vì nó chứa lượng calo quá mức. Thay vì ăn hàng ngày, chúng ta nên tiêu thụ nó thỉnh thoảng như một phần thưởng."
+          "en": "I totally agree with this statement because it contains excessive amounts of calories and unhealthy fats. Instead of eating it daily, we should only consume it occasionally as a special treat on the weekends.",
+          "vi": "Tôi hoàn toàn đồng ý với nhận định này vì nó chứa lượng calo và chất béo không lành mạnh quá mức. Thay vì ăn hàng ngày, chúng ta chỉ nên tiêu thụ nó thỉnh đầu như một phần thưởng đặc biệt vào cuối tuần."
         },
         {
-          "en": "In my opinion, I partly agree with this opinion. Since it is a highly processed food, the best approach is to make homemade versions with fresh vegetables.",
-          "vi": "Theo ý kiến của tôi, tôi đồng ý một phần với ý kiến này. Vì nó là một loại thực phẩm chế biến cao, cách tốt nhất là làm các phiên bản tự làm với các loại rau tươi."
+          "en": "In my honest opinion, I partly agree with this opinion about pizza. Since it is a highly processed food, the best approach is to make healthier homemade versions with fresh vegetables from the local market.",
+          "vi": "Theo ý kiến thành thật của tôi, tôi đồng ý một phần với ý kiến này về bánh pizza. Vì nó là một loại thực phẩm chế biến cao, cách tốt nhất là làm các phiên bản tự làm lành mạnh hơn với các loại rau tươi từ chợ địa phương."
         },
         {
-          "en": "While pizza is incredibly tasty, I think we should strike a balance because it can lead to dangerous obesity. Therefore, it is wise to choose healthier toppings and thin crusts.",
-          "vi": "Mặc dù bánh pizza cực kỳ ngon, tôi nghĩ chúng ta nên đạt được sự cân bằng vì nó có thể dẫn đến bệnh béo phì nguy hiểm. Do đó, thật khôn ngoan khi chọn toppings lành mạnh hơn và lớp vỏ mỏng."
+          "en": "While pizza is incredibly tasty, I think we should strike a balance because overeating it can lead to dangerous obesity. Therefore, it is very wise to choose healthier toppings and thin crusts whenever possible.",
+          "vi": "Mặc dù bánh pizza cực kỳ ngon, tôi nghĩ chúng ta nên đạt được sự cân bằng vì ăn quá nhiều có thể dẫn đến bệnh béo phì nguy hiểm. Do đó, rất khôn ngoan khi chọn toppings lành mạnh hơn và lớp vỏ mỏng bất cứ khi nào có thể."
         }
       ]
     }
@@ -195,16 +195,16 @@ export const part3Data = {
       ],
       "samples": [
         {
-          "en": "When hanging out, we usually grab a cup of coffee at a cozy café and then watch a blockbuster movie. This helps us unwind after a hectic week.",
-          "vi": "Khi đi chơi, chúng tôi thường uống cà phê tại một quán cà phê ấm cúng và sau đó xem một bộ phim bom tấn. Điều này giúp chúng tôi thư giãn sau một tuần bận rộn."
+          "en": "When hanging out, we usually grab a cup of coffee at a cozy café and then watch an exciting blockbuster movie together. This fun routine really helps us unwind after a long and hectic week.",
+          "vi": "Khi đi chơi, chúng tôi thường uống cà phê tại một quán cà phê ấm cúng và sau đó cùng nhau xem một bộ phim bom tấn thú vị. Thói quen vui vẻ này thực sự giúp chúng tôi thư giãn sau một tuần dài bận rộn."
         },
         {
-          "en": "We love to dine out at local eateries or go window shopping at the mall. It is always a fantastic way to strengthen our tight bond.",
-          "vi": "Chúng tôi thích ăn ngoài tại các quán ăn địa phương hoặc đi ngắm đồ ở trung tâm mua sắm. Đó luôn là một cách tuyệt vời để củng cố mối quan hệ bền chặt của chúng tôi."
+          "en": "We absolutely love to dine out at local eateries or go window shopping at the large shopping mall. It is always a fantastic and relaxing way to strengthen our tight bond over the weekends.",
+          "vi": "Chúng tôi hoàn toàn thích ăn ngoài tại các quán ăn địa phương hoặc đi ngắm đồ ở trung tâm mua sắm lớn. Đó luôn là một cách tuyệt vời và thư giãn để củng cố mối quan hệ bền chặt của chúng tôi vào dịp cuối tuần."
         },
         {
-          "en": "Typically, my friends and I have a lovely picnic in the park. Afterwards, we might play board games together in order to share our latest updates.",
-          "vi": "Thông thường, tôi và bạn bè có một buổi dã ngoại tuyệt đẹp trong công viên. Sau đó, chúng tôi có thể cùng nhau chơi board game để chia sẻ những thông tin mới nhất của chúng tôi."
+          "en": "Typically, my close friends and I have a lovely picnic in the city park. Afterwards, we might play some board games together in order to comfortably share our latest life updates and interesting personal stories.",
+          "vi": "Thông thường, những người bạn thân và tôi có một buổi dã ngoại tuyệt đẹp trong công viên thành phố. Sau đó, chúng tôi có thể cùng nhau chơi một số board game để thoải mái chia sẻ những cập nhật cuộc sống mới nhất và những câu chuyện cá nhân thú vị."
         }
       ]
     },
@@ -224,16 +224,16 @@ export const part3Data = {
       ],
       "samples": [
         {
-          "en": "I absolutely believe it is easier because they have more free time to socialize. Furthermore, they can meet peers easily at school.",
-          "vi": "Tôi hoàn toàn tin rằng điều đó dễ dàng hơn vì họ có nhiều thời gian rảnh rỗi hơn để giao lưu. Hơn nữa, họ có thể gặp gỡ bạn bè đồng trang lứa dễ dàng ở trường."
+          "en": "I absolutely believe it is much easier for them because they have more free time to socialize every day. Furthermore, they can meet many friendly peers easily at school during their various classes and breaks.",
+          "vi": "Tôi hoàn toàn tin rằng điều đó dễ dàng hơn nhiều đối với họ vì họ có nhiều thời gian rảnh rỗi hơn để giao lưu mỗi ngày. Hơn nữa, họ có thể gặp gỡ nhiều bạn bè thân thiện dễ dàng ở trường trong các lớp học và giờ nghỉ khác nhau."
         },
         {
-          "en": "In my opinion, I think they have a huge advantage. Young people are generally more open-minded, which allows them to share common interests and hobbies.",
-          "vi": "Theo ý kiến của tôi, tôi nghĩ họ có một lợi thế to lớn. Những người trẻ tuổi nói chung là cởi mở hơn, điều này cho phép họ chia sẻ những sở thích và đam mê chung."
+          "en": "In my opinion, I truly think they have a huge advantage nowadays. Young people are generally much more open-minded, which naturally allows them to share common interests and exciting hobbies with new acquaintances very quickly.",
+          "vi": "Theo ý kiến của tôi, tôi thực sự nghĩ họ có một lợi thế to lớn ngày nay. Những người trẻ tuổi nói chung là cởi mở hơn rất nhiều, điều này tự nhiên cho phép họ chia sẻ những sở thích và đam mê thú vị với những người mới quen rất nhanh."
         },
         {
-          "en": "I strongly agree with this since they frequently participate in group activities. Besides, it is convenient for them to connect quickly through social media.",
-          "vi": "Tôi rất đồng tình với điều này vì họ thường xuyên tham gia các hoạt động nhóm. Bên cạnh đó, thật thuận tiện cho họ khi kết nối nhanh chóng thông qua mạng xã hội."
+          "en": "I strongly agree with this idea since they frequently participate in various group activities. Besides, it is extremely convenient for them to connect quickly with others through popular social media platforms in their free time.",
+          "vi": "Tôi rất đồng tình với ý tưởng này vì họ thường xuyên tham gia các hoạt động nhóm khác nhau. Bên cạnh đó, cực kỳ thuận tiện cho họ khi kết nối nhanh chóng với những người khác thông qua các nền tảng mạng xã hội phổ biến trong thời gian rảnh."
         }
       ]
     },
@@ -253,16 +253,16 @@ export const part3Data = {
       ],
       "samples": [
         {
-          "en": "I completely agree with this statement because devices help us overcome geographical barriers instantly. However, we must still maintain genuine face-to-face interactions.",
-          "vi": "Tôi hoàn toàn đồng ý với nhận định này vì các thiết bị giúp chúng ta vượt qua rào cản địa lý ngay lập tức. Tuy nhiên, chúng ta vẫn phải duy trì các tương tác trực tiếp chân chính."
+          "en": "I completely agree with this statement because modern devices help us overcome geographical barriers instantly. However, we must still maintain genuine face-to-face interactions to build truly meaningful and lasting friendships in our daily lives.",
+          "vi": "Tôi hoàn toàn đồng ý với nhận định này vì các thiết bị hiện đại giúp chúng ta vượt qua rào cản địa lý ngay lập tức. Tuy nhiên, chúng ta vẫn phải duy trì các tương tác trực tiếp chân chính để xây dựng những tình bạn thực sự ý nghĩa và lâu dài trong cuộc sống hàng ngày."
         },
         {
-          "en": "In my view, I see the tremendous benefits of technology. We can join online communities easily, but it remains crucial to be careful of fake online identities.",
-          "vi": "Theo quan điểm của tôi, tôi thấy những lợi ích to lớn của công nghệ. Chúng ta có thể tham gia các cộng đồng trực tuyến một cách dễ dàng, nhưng vẫn rất quan trọng để cẩn thận với những danh tính ảo giả mạo."
+          "en": "In my personal view, I clearly see the tremendous benefits of modern technology. We can join online communities easily, but it remains absolutely crucial to be careful of fake online identities when making new friends.",
+          "vi": "Theo quan điểm cá nhân của tôi, tôi thấy rõ những lợi ích to lớn của công nghệ hiện đại. Chúng ta có thể tham gia các cộng đồng trực tuyến một cách dễ dàng, nhưng vẫn vô cùng quan trọng để cẩn thận với những danh tính trực tuyến giả mạo khi kết bạn mới."
         },
         {
-          "en": "I firmly support this idea since smartphones allow us to find like-minded people globally. Even so, we should avoid digital addiction.",
-          "vi": "Tôi hết sức ủng hộ ý tưởng này vì điện thoại thông minh cho phép chúng ta tìm những người cùng chí hướng trên toàn cầu. Mặc dù vậy, chúng ta nên tránh việc nghiện thiết bị kỹ thuật số."
+          "en": "I firmly support this interesting idea since smart smartphones allow us to easily find like-minded people globally. Even so, we should always try to avoid digital addiction by spending adequate time socializing in the real world.",
+          "vi": "Tôi hết sức ủng hộ ý tưởng thú vị này vì điện thoại thông minh cho phép chúng ta dễ dàng tìm những người cùng chí hướng trên toàn cầu. Mặc dù vậy, chúng ta nên luôn cố gắng tránh việc nghiện kỹ thuật số bằng cách dành đủ thời gian giao tiếp trong thế giới thực."
         }
       ]
     }
@@ -284,16 +284,16 @@ export const part3Data = {
       ],
       "samples": [
         {
-          "en": "Fortunately, I have a harmonious relationship with them. We respect each other's privacy and try to communicate openly and politely.",
-          "vi": "May mắn thay, tôi có mối quan hệ hài hòa với họ. Chúng tôi tôn trọng sự riêng tư của nhau và cố gắng giao tiếp cởi mở và lịch sự."
+          "en": "Fortunately, I have a very harmonious relationship with all of them right now. We always respect each other's privacy and try to communicate openly and politely whenever a small problem arises in our peaceful neighborhood.",
+          "vi": "May mắn thay, hiện tại tôi có một mối quan hệ rất hài hòa với tất cả bọn họ. Chúng tôi luôn tôn trọng sự riêng tư của nhau và cố gắng giao tiếp cởi mở và lịch sự bất cứ khi nào một vấn đề nhỏ phát sinh trong khu phố yên bình của chúng tôi."
         },
         {
-          "en": "I am lucky to get along very well. Because we always help each other in need, we can easily avoid unnecessary conflicts.",
-          "vi": "Tôi may mắn khi rất hòa thuận. Vì chúng tôi luôn giúp đỡ nhau khi cần, chúng tôi có thể dễ dàng tránh những xung đột không cần thiết."
+          "en": "I am incredibly lucky to get along very well with my current neighbors. Because we always help each other in times of need, we can easily avoid unnecessary conflicts and maintain a truly peaceful living environment.",
+          "vi": "Tôi vô cùng may mắn khi rất hòa thuận với những người hàng xóm hiện tại. Vì chúng tôi luôn giúp đỡ nhau lúc cần thiết, chúng tôi có thể dễ dàng tránh những xung đột không cần thiết và duy trì một môi trường sống thực sự yên bình."
         },
         {
-          "en": "Actually, I maintain a respectful distance. Whenever there is noise, we tolerate minor inconveniences and still share food occasionally.",
-          "vi": "Thực ra, tôi duy trì một khoảng cách tôn trọng. Bất cứ khi nào có tiếng ồn, chúng tôi chấp nhận những sự bất tiện nhỏ và thỉnh thoảng vẫn chia sẻ đồ ăn."
+          "en": "Actually, I prefer to maintain a respectful distance from the people living next door. Whenever there is loud noise, we politely tolerate minor inconveniences and still share delicious food occasionally to keep the peace intact.",
+          "vi": "Thực ra, tôi thích duy trì một khoảng cách tôn trọng với những người sống bên cạnh. Bất cứ khi nào có tiếng ồn lớn, chúng tôi lịch sự chấp nhận những sự bất tiện nhỏ và thỉnh thoảng vẫn chia sẻ những món ăn ngon để giữ gìn hòa bình."
         }
       ]
     },
@@ -313,16 +313,16 @@ export const part3Data = {
       ],
       "samples": [
         {
-          "en": "I definitely prefer modern buildings because they offer advanced security systems. This helps ensure a convenient lifestyle.",
-          "vi": "Tôi chắc chắn thích các tòa nhà hiện đại hơn vì chúng cung cấp các hệ thống an ninh tiên tiến. Điều này giúp đảm bảo một lối sống thuận tiện."
+          "en": "I definitely prefer living in modern buildings because they offer highly advanced security systems and better facilities. This amazing advantage helps ensure a very comfortable and convenient lifestyle for me and my entire family every day.",
+          "vi": "Tôi chắc chắn thích sống trong các tòa nhà hiện đại hơn vì chúng cung cấp các hệ thống an ninh tiên tiến cao và cơ sở vật chất tốt hơn. Lợi thế tuyệt vời này giúp đảm bảo một lối sống rất thoải mái và thuận tiện cho tôi và cả gia đình mỗi ngày."
         },
         {
-          "en": "In my opinion, I lean towards newly built apartments. They provide high-quality amenities, which will require far less maintenance.",
-          "vi": "Theo ý kiến của tôi, tôi nghiêng về các căn hộ mới xây. Chúng cung cấp các tiện nghi chất lượng cao, điều này sẽ đòi hỏi ít công bảo trì hơn nhiều."
+          "en": "In my honest opinion, I lean towards newly built apartments in the city center. They provide excellent high-quality amenities, which will require far less maintenance and save me a significant amount of time and money.",
+          "vi": "Theo ý kiến thành thật của tôi, tôi nghiêng về các căn hộ mới xây ở trung tâm thành phố. Chúng cung cấp các tiện nghi chất lượng cao tuyệt vời, điều này sẽ đòi hỏi ít công bảo trì hơn nhiều và tiết kiệm cho tôi một lượng thời gian và tiền bạc đáng kể."
         },
         {
-          "en": "Personally, I choose contemporary housing since they feature smart home technologies and save significantly on energy bills.",
-          "vi": "Cá nhân tôi, tôi chọn nhà ở đương đại vì chúng trang bị công nghệ nhà thông minh và tiết kiệm đáng kể hóa đơn năng lượng."
+          "en": "Personally, I always choose contemporary housing since they feature amazing smart home technologies and highly efficient appliances. These wonderful modern additions help me save significantly on energy bills while protecting the environment at the same time.",
+          "vi": "Cá nhân tôi luôn chọn nhà ở đương đại vì chúng trang bị công nghệ nhà thông minh tuyệt vời và các thiết bị hiệu suất cao. Những sự bổ sung hiện đại tuyệt vời này giúp tôi tiết kiệm đáng kể hóa đơn năng lượng trong khi đồng thời bảo vệ môi trường."
         }
       ]
     },
@@ -342,16 +342,16 @@ export const part3Data = {
       ],
       "samples": [
         {
-          "en": "I completely agree with this because it helps reduce carbon emissions globally. For instance, we can install solar panels.",
-          "vi": "Tôi hoàn toàn đồng ý với điều này vì nó giúp giảm lượng khí thải carbon trên toàn cầu. Ví dụ, chúng ta có thể lắp đặt các tấm pin năng lượng mặt trời."
+          "en": "I completely agree with this important idea because it helps reduce harmful carbon emissions globally. For instance, we can easily install solar panels on our roofs to generate clean energy and minimize our environmental footprint.",
+          "vi": "Tôi hoàn toàn đồng ý với ý tưởng quan trọng này vì nó giúp giảm lượng khí thải carbon có hại trên toàn cầu. Ví dụ, chúng ta có thể dễ dàng lắp đặt các tấm pin năng lượng mặt trời trên mái nhà để tạo ra năng lượng sạch và giảm thiểu dấu chân môi trường của chúng ta."
         },
         {
-          "en": "In my view, I strongly support eco-friendly designs. If we maximize natural light and ventilation, we will lower long-term living costs.",
-          "vi": "Theo quan điểm của tôi, tôi mạnh mẽ ủng hộ các thiết kế thân thiện với môi trường. Nếu chúng ta tối đa hóa ánh sáng tự nhiên và thông gió, chúng ta sẽ giảm được chi phí sinh hoạt dài hạn."
+          "en": "In my personal view, I strongly support eco-friendly architectural designs for all homes. If we maximize natural light and ventilation, we will naturally lower our long-term living costs while keeping the indoor atmosphere fresh and healthy.",
+          "vi": "Theo quan điểm cá nhân của tôi, tôi mạnh mẽ ủng hộ các thiết kế kiến trúc thân thiện với môi trường cho mọi ngôi nhà. Nếu chúng ta tối đa hóa ánh sáng và thông gió tự nhiên, chúng ta sẽ tự nhiên giảm được chi phí sinh hoạt dài hạn trong khi giữ cho bầu không khí trong nhà trong lành và khỏe mạnh."
         },
         {
-          "en": "I think this is absolutely essential since we need to protect our fragile ecosystem. Therefore, designers should use sustainable building materials.",
-          "vi": "Tôi nghĩ điều này hoàn toàn cần thiết vì chúng ta cần bảo vệ hệ sinh thái mỏng manh của mình. Do đó, các nhà thiết kế nên sử dụng vật liệu xây dựng bền vững."
+          "en": "I truly think this is absolutely essential right now since we urgently need to protect our fragile ecosystem. Therefore, architects and designers should always prioritize using sustainable building materials when constructing modern houses in the future.",
+          "vi": "Tôi thực sự nghĩ điều này là hoàn toàn cần thiết ngay lúc này vì chúng ta khẩn cấp cần bảo vệ hệ sinh thái mỏng manh của mình. Do đó, các kiến trúc sư và nhà thiết kế nên luôn ưu tiên sử dụng vật liệu xây dựng bền vững khi xây dựng các ngôi nhà hiện đại trong tương lai."
         }
       ]
     }
@@ -373,16 +373,16 @@ export const part3Data = {
       ],
       "samples": [
         {
-          "en": "Since you live in an apartment, I highly recommend you adopt vertical gardening. You can place them on your small balcony to maximize your limited space.",
-          "vi": "Vì bạn sống trong một căn hộ, tôi thực sự khuyên bạn nên áp dụng làm vườn thẳng đứng. Bạn có thể đặt chúng trên ban công nhỏ của bạn để tối đa hóa không gian hạn chế."
+          "en": "Since you currently live in a small apartment, I highly recommend you adopt vertical gardening. You can easily place them on your small balcony to efficiently maximize your limited space and create a tiny green oasis.",
+          "vi": "Vì bạn hiện đang sống trong một căn hộ nhỏ, tôi thực sự khuyên bạn nên áp dụng làm vườn thẳng đứng. Bạn có thể dễ dàng đặt chúng trên ban công nhỏ của bạn để tối đa hóa hiệu quả không gian hạn chế và tạo ra một ốc đảo xanh nhỏ bé."
         },
         {
-          "en": "One fantastic idea is to install wall-mounted shelves near sunny windows. Not only does it save room, but it also helps add a beautiful touch of greenery indoors.",
-          "vi": "Một ý tưởng tuyệt vời là lắp đặt các kệ treo tường gần các cửa sổ đầy nắng. Nó không chỉ tiết kiệm không gian mà còn giúp mang lại một chút sắc xanh tuyệt đẹp cho trong nhà."
+          "en": "One truly fantastic idea is to install wall-mounted shelves near your sunny windows. Not only does it save valuable room, but it also helps add a very beautiful touch of refreshing greenery indoors for everyone to enjoy.",
+          "vi": "Một ý tưởng thực sự tuyệt vời là lắp đặt các kệ treo tường gần các cửa sổ đầy nắng của bạn. Nó không chỉ tiết kiệm không gian quý giá mà còn giúp thêm một chút sắc xanh tươi mát vô cùng đẹp đẽ trong nhà cho mọi người cùng thưởng thức."
         },
         {
-          "en": "You should definitely consider deciding to utilize hanging baskets along the bright corridors. This creative setup will instantly create a wonderfully refreshing vibe.",
-          "vi": "Bạn chắc chắn nên cân nhắc quyết định sử dụng giỏ treo dọc theo các hành lang sáng sủa. Thiết lập sáng tạo này sẽ ngay lập tức tạo ra một bầu không khí vô cùng tươi mát."
+          "en": "You should definitely consider deciding to utilize beautiful hanging baskets along the bright corridors of your apartment. This highly creative setup will instantly create a wonderfully refreshing vibe that makes coming home an absolute joy.",
+          "vi": "Bạn chắc chắn nên cân nhắc quyết định sử dụng những giỏ treo tuyệt đẹp dọc theo các hành lang sáng sủa của căn hộ. Thiết lập đầy tính sáng tạo này sẽ ngay lập tức tạo ra một bầu không khí vô cùng tươi mát khiến việc trở về nhà là một niềm vui tuyệt đối."
         }
       ]
     },
@@ -402,16 +402,16 @@ export const part3Data = {
       ],
       "samples": [
         {
-          "en": "I absolutely agree with this because it brings vibrant colors to the property. Therefore, it makes the entire house feel much more relaxing.",
-          "vi": "Tôi hoàn toàn đồng ý với điều này vì nó mang lại màu sắc rực rỡ cho ngôi nhà. Do đó, nó làm cho toàn bộ ngôi nhà có cảm giác thư giãn hơn nhiều."
+          "en": "I absolutely agree with this opinion because a well-kept garden brings vibrant colors to the property. Therefore, it naturally makes the entire house feel much more relaxing and peaceful for all the residents living there.",
+          "vi": "Tôi hoàn toàn đồng ý với ý kiến này vì một khu vườn được chăm sóc tốt mang lại màu sắc rực rỡ cho ngôi nhà. Do đó, nó tự nhiên làm cho toàn bộ ngôi nhà có cảm giác thư giãn và yên bình hơn rất nhiều cho tất cả các cư dân sống ở đó."
         },
         {
-          "en": "In my opinion, I strongly believe it does. A well-maintained garden creates a stunning natural landscape and helps the home look incredibly welcoming.",
-          "vi": "Theo ý kiến của tôi, tôi mạnh mẽ tin là như vậy. Một khu vườn được chăm sóc tốt tạo ra một cảnh quan thiên nhiên tuyệt đẹp và giúp ngôi nhà trông cực kỳ chào đón."
+          "en": "In my personal opinion, I strongly believe it does. A well-maintained garden creates a stunning natural landscape right outside your door and helps the entire home look incredibly welcoming to both the owners and their guests.",
+          "vi": "Theo ý kiến cá nhân của tôi, tôi mạnh mẽ tin là như vậy. Một khu vườn được chăm sóc tốt tạo ra một cảnh quan thiên nhiên tuyệt đẹp ngay ngoài cửa nhà bạn và giúp toàn bộ ngôi nhà trông vô cùng chào đón đối với cả chủ nhà và khách của họ."
         },
         {
-          "en": "I think a garden is essential since it softens the harsh architectural lines. This wonderful addition makes living spaces connect residents with nature deeply.",
-          "vi": "Tôi nghĩ một khu vườn là thiết yếu vì nó làm dịu đi những đường nét kiến trúc cứng nhắc. Sự bổ sung tuyệt vời này làm cho không gian sống kết nối cư dân với thiên nhiên một cách sâu sắc."
+          "en": "I truly think a lovely garden is essential since it effectively softens the harsh architectural lines of modern buildings. This wonderful addition makes living spaces connect residents with nature deeply, greatly improving their overall daily mood.",
+          "vi": "Tôi thực sự nghĩ một khu vườn đáng yêu là thiết yếu vì nó làm mềm đi một cách hiệu quả các đường nét kiến trúc thô cứng của các tòa nhà hiện đại. Sự bổ sung tuyệt vời này làm cho không gian sống kết nối cư dân với thiên nhiên sâu sắc, cải thiện đáng kể tâm trạng chung hằng ngày của họ."
         }
       ]
     },
@@ -431,16 +431,16 @@ export const part3Data = {
       ],
       "samples": [
         {
-          "en": "In my opinion, vegetables provide essential vitamins and minerals. Thus, they effectively boost our immune system and help us maintain a healthy weight.",
-          "vi": "Theo tôi, rau xanh cung cấp các vitamin và khoáng chất thiết yếu. Do đó, chúng tăng cường hiệu quả hệ miễn dịch và giúp chúng ta duy trì cân nặng khỏe mạnh."
+          "en": "In my honest opinion, fresh vegetables provide essential vitamins and minerals for our bodies. Thus, they effectively boost our immune system and help us maintain a healthy weight, which is incredibly important for a long life.",
+          "vi": "Theo ý kiến thành thật của tôi, các loại rau tươi cung cấp các vitamin và khoáng chất thiết yếu cho cơ thể chúng ta. Do đó, chúng tăng cường hiệu quả hệ miễn dịch và giúp chúng ta duy trì cân nặng khỏe mạnh, điều này vô cùng quan trọng cho một cuộc sống trường thọ."
         },
         {
-          "en": "I believe the main benefit is that they are an excellent source of dietary fiber. Consequently, eating them will improve digestion significantly and keep our skin glowing.",
-          "vi": "Tôi tin rằng lợi ích chính là chúng là một nguồn cung cấp chất xơ dồi dào. Hậu quả là, việc ăn chúng sẽ cải thiện tiêu hóa đáng kể và giữ cho làn da chúng ta rạng rỡ."
+          "en": "I strongly believe the main benefit is that they are an excellent source of dietary fiber. Consequently, eating them daily will improve digestion significantly and keep our skin glowing, making us look much younger and healthier.",
+          "vi": "Tôi mạnh mẽ tin rằng lợi ích chính là chúng là một nguồn cung cấp chất xơ tuyệt vời. Hậu quả là, ăn chúng hàng ngày sẽ cải thiện tiêu hóa đáng kể và giữ cho làn da chúng ta rạng rỡ, khiến chúng ta trông trẻ trung và khỏe mạnh hơn nhiều."
         },
         {
-          "en": "Personally, I think because they contain powerful antioxidants, they naturally lower the risk of chronic diseases. This allows us to promote overall longevity.",
-          "vi": "Cá nhân tôi nghĩ rằng vì chúng chứa các chất chống oxy hóa mạnh mẽ, chúng làm giảm nguy cơ mắc các bệnh mãn tính một cách tự nhiên. Điều này cho phép chúng ta nâng cao tuổi thọ tổng thể."
+          "en": "Personally, I truly think because they contain powerful antioxidants, they naturally lower the risk of dangerous chronic diseases. This amazing benefit allows us to promote overall longevity and enjoy a much happier, active lifestyle as we age.",
+          "vi": "Cá nhân tôi thực sự nghĩ rằng vì chúng chứa các chất chống oxy hóa mạnh mẽ, chúng tự nhiên làm giảm nguy cơ mắc các bệnh mãn tính nguy hiểm. Lợi ích tuyệt vời này cho phép chúng ta nâng cao tuổi thọ tổng thể và tận hưởng một lối sống năng động, hạnh phúc hơn nhiều khi chúng ta già đi."
         }
       ]
     }
@@ -3132,16 +3132,16 @@ export const part3Data = {
       ],
       "samples": [
         {
-          "en": "I remember when I decided to explore in the city. I felt completely disoriented after losing my way. Fortunately, I managed to retrace my steps back to the hotel safely.",
-          "vi": "Tôi nhớ khi tôi quyết định khám phá thành phố. Tôi cảm thấy hoàn toàn mất phương hướng sau khi lạc đường. May mắn thay, tôi đã tìm được đường về khách sạn an toàn."
+          "en": "I clearly remember when I decided to explore alone in the massive city. I felt completely disoriented after losing my way. Fortunately, I finally managed to retrace my steps back to the hotel safely before it got dark.",
+          "vi": "Tôi nhớ rõ khi tôi quyết định khám phá một mình trong thành phố rộng lớn. Tôi cảm thấy hoàn toàn mất phương hướng sau khi lạc đường. May mắn thay, cuối cùng tôi đã có thể lần theo dấu vết trở lại khách sạn an toàn trước khi trời tối."
         },
         {
-          "en": "Once, I chose to wander alone in a foreign country. I became incredibly terrified when I realized I was lost. However, I used my phone to locate the right path.",
-          "vi": "Có lần, tôi chọn đi lang thang một mình ở một vùng quê xa lạ. Tôi trở nên vô cùng khiếp sợ khi nhận ra mình bị lạc. Tuy nhiên, tôi đã dùng điện thoại để tìm ra đúng đường."
+          "en": "Once, I bravely chose to wander alone in a completely foreign country. I became incredibly terrified when I realized I was lost. However, I calmly used my smartphone's GPS to accurately locate the right path back to safety.",
+          "vi": "Có lần, tôi dũng cảm chọn đi lang thang một mình ở một đất nước hoàn toàn xa lạ. Tôi trở nên vô cùng khiếp sợ khi nhận ra mình bị lạc. Tuy nhiên, tôi đã bình tĩnh sử dụng GPS của điện thoại thông minh để tìm chính xác con đường dẫn về nơi an toàn."
         },
         {
-          "en": "I love to traverse whenever I visit new places. Last year, I felt overwhelmed when I got lost in London, but I could navigate my way by asking local people.",
-          "vi": "Tôi thích đi ngang qua bất cứ khi nào tôi đến thăm những địa điểm mới. Năm ngoái, tôi cảm thấy choáng ngợp khi bị lạc ở London, nhưng tôi có thể điều hướng bằng cách hỏi người dân địa phương."
+          "en": "I absolutely love to traverse on foot whenever I visit new exciting places. Last year, I felt incredibly overwhelmed when I got lost in London, but I could easily navigate my way by politely asking the friendly local people.",
+          "vi": "Tôi vô cùng thích đi bộ ngang qua bất cứ khi nào tôi đến thăm những địa điểm mới thú vị. Năm ngoái, tôi cảm thấy vô cùng choáng ngợp khi bị lạc ở London, nhưng tôi có thể dễ dàng điều hướng bằng cách lịch sự hỏi người dân địa phương thân thiện."
         }
       ]
     },
@@ -3161,16 +3161,16 @@ export const part3Data = {
       ],
       "samples": [
         {
-          "en": "I personally prefer visiting the wilderness during my holidays. Being there makes me feel incredibly tranquil. It is the perfect environment for me to unwind after a long stressful week.",
-          "vi": "Cá nhân tôi thích đến thăm vùng hoang dã trong những kỳ nghỉ. Ở đó khiến tôi cảm thấy vô cùng yên tĩnh. Đó là một môi trường hoàn hảo để tôi thư giãn sau một tuần dài căng thẳng."
+          "en": "I personally prefer visiting the remote wilderness during my long holidays. Being there surrounded by tall trees makes me feel incredibly tranquil. It is the perfect environment for me to fully unwind after a long, stressful working week.",
+          "vi": "Cá nhân tôi thích đến thăm vùng hoang dã hẻo lánh trong những kỳ nghỉ dài. Ở đó được bao quanh bởi những cái cây cao khiến tôi cảm thấy vô cùng yên tĩnh. Đó là một môi trường hoàn hảo để tôi hoàn toàn thư giãn sau một tuần làm việc dài căng thẳng."
         },
         {
-          "en": "My favorite destination is definitely the sanctuary near my hometown. The atmosphere there is always very serene. I go there frequently because it helps me rejuvenate and forget my worries.",
-          "vi": "Điểm đến yêu thích của tôi chắc chắn là khu bảo tồn gần quê tôi. Không khí ở đó luôn rất thanh bình. Tôi thường đến đó vì nó giúp tôi trẻ lại và quên đi những lo lắng."
+          "en": "My absolute favorite destination is definitely the peaceful wildlife sanctuary located near my hometown. The atmosphere there is always very serene. I go there frequently because it truly helps me rejuvenate my tired mind and completely forget my daily worries.",
+          "vi": "Điểm đến tuyệt đối yêu thích của tôi chắc chắn là khu bảo tồn động vật hoang dã yên bình nằm gần quê tôi. Không khí ở đó luôn rất thanh bình. Tôi thường xuyên đến đó vì nó thực sự giúp tôi phục hồi tâm trí mệt mỏi và hoàn toàn quên đi những lo lắng hàng ngày."
         },
         {
-          "en": "I highly recommend exploring a natural landscape whenever possible. You will certainly feel captivated surrounded by nature. It gives everyone a wonderful opportunity to disconnect and enjoy life peacefully.",
-          "vi": "Tôi thực sự khuyên bạn nên khám phá một phong cảnh thiên nhiên bất cứ khi nào có thể. Bạn chắc chắn sẽ cảm thấy bị say đắm khi được bao quanh bởi thiên nhiên. Nó mang lại cho mọi người cơ hội tuyệt vời để ngắt kết nối và tận hưởng cuộc sống một cách thanh bình."
+          "en": "I highly recommend thoroughly exploring a beautiful natural landscape whenever possible. You will certainly feel deeply captivated when surrounded by pristine nature. It gives absolutely everyone a wonderful opportunity to disconnect from technology and enjoy life peacefully.",
+          "vi": "Tôi thực sự khuyên bạn nên khám phá kỹ lưỡng một phong cảnh thiên nhiên tuyệt đẹp bất cứ khi nào có thể. Bạn chắc chắn sẽ cảm thấy bị say đắm sâu sắc khi được bao quanh bởi thiên nhiên nguyên sơ. Nó mang lại cho tất cả mọi người một cơ hội tuyệt vời để ngắt kết nối với công nghệ và tận hưởng cuộc sống thanh bình."
         }
       ]
     },
@@ -3190,16 +3190,16 @@ export const part3Data = {
       ],
       "samples": [
         {
-          "en": "I strongly agree that large groups have a detrimental effect on nature. They can easily damage the delicate ecosystem. Therefore, we must regulate the number of visitors to protect nature.",
-          "vi": "Tôi hoàn toàn đồng ý rằng các nhóm lớn có tác động có hại đến thiên nhiên. Chúng có thể dễ dàng làm hỏng hệ sinh thái mỏng manh. Do đó, chúng ta phải quy định số lượng du khách để bảo vệ thiên nhiên."
+          "en": "I strongly agree that large tourist groups have a heavily detrimental effect on nature. They can easily damage the delicate local ecosystem. Therefore, we must strictly regulate the number of daily visitors to fully protect nature for future generations.",
+          "vi": "Tôi hoàn toàn đồng ý rằng các nhóm du lịch lớn có tác động có hại nặng nề đến thiên nhiên. Chúng có thể dễ dàng làm hỏng hệ sinh thái địa phương mỏng manh. Do đó, chúng ta phải quy định nghiêm ngặt số lượng du khách hàng ngày để bảo vệ hoàn toàn thiên nhiên cho các thế hệ tương lai."
         },
         {
-          "en": "It is clear that mass tourism brings devastating consequences to natural sites. The local habitat suffers greatly from overcrowding. The government should mitigate these activities before it is absolutely too late.",
-          "vi": "Rõ ràng là du lịch đại chúng mang lại những hậu quả tàn phá cho các địa điểm tự nhiên. Môi trường sống địa phương bị ảnh hưởng nặng nề bởi tình trạng quá tải. Chính phủ nên giảm nhẹ các hoạt động này trước khi quá muộn."
+          "en": "It is completely clear that mass tourism brings devastating consequences to beautiful natural sites. The local wildlife habitat suffers greatly from severe overcrowding. The government should quickly mitigate these harmful activities before it is absolutely too late for the environment.",
+          "vi": "Hoàn toàn rõ ràng là du lịch đại chúng mang lại những hậu quả tàn phá cho các địa điểm tự nhiên tuyệt đẹp. Môi trường sống của động vật hoang dã địa phương bị ảnh hưởng nặng nề bởi tình trạng quá tải nghiêm trọng. Chính phủ nên nhanh chóng giảm nhẹ các hoạt động có hại này trước khi quá muộn đối với môi trường."
         },
         {
-          "en": "Large holiday groups are undoubtedly disruptive to many pristine locations. They leave rubbish that ruins the biodiversity. We need to preserve tourism immediately to keep these areas beautiful and clean.",
-          "vi": "Các nhóm nghỉ lễ lớn chắc chắn gây rắc rối cho nhiều địa điểm hoang sơ. Họ để lại rác làm hỏng đa dạng sinh học. Chúng ta cần bảo tồn du lịch ngay lập tức để giữ cho các khu vực này luôn đẹp và sạch sẽ."
+          "en": "Large holiday groups are undoubtedly very disruptive to many pristine, untouched locations. They carelessly leave behind rubbish that severely ruins the rich biodiversity. We need to preserve sustainable tourism immediately to keep these fragile areas perfectly beautiful and clean.",
+          "vi": "Các nhóm nghỉ lễ lớn chắc chắn rất gây rắc rối cho nhiều địa điểm nguyên sơ, chưa được chạm tới. Họ bất cẩn để lại rác rưởi phá hoại nghiêm trọng sự đa dạng sinh học phong phú. Chúng ta cần bảo tồn du lịch bền vững ngay lập tức để giữ cho các khu vực mỏng manh này luôn hoàn hảo, đẹp đẽ và sạch sẽ."
         }
       ]
     }
