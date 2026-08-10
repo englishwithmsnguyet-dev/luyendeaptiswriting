@@ -404,8 +404,10 @@ const Part2 = () => {
               style={{ minHeight: '150px', resize: 'vertical' }}
               placeholder="Start writing your answer here..."
               value={answer}
-              onChange={(e) => setAnswer(e.target.value)}
-              readOnly={!!gradingResult}
+              onChange={(e) => {
+                setAnswer(e.target.value);
+                if (gradingResult) setGradingResult(null);
+              }}
             />
             
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: '0.5rem' }}>

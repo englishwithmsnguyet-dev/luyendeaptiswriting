@@ -31,6 +31,12 @@ const Part1 = () => {
 
   const handleTextChange = (id, value) => {
     setAnswers(prev => ({ ...prev, [id]: value }));
+    setGradingResults(prev => {
+      if (!prev[id]) return prev;
+      const newResults = { ...prev };
+      delete newResults[id];
+      return newResults;
+    });
   };
 
   const getWordCount = (text) => {
@@ -224,7 +230,6 @@ const Part1 = () => {
                   placeholder="Your answer..."
                   value={answers[q.id] || ''}
                   onChange={(e) => handleTextChange(q.id, e.target.value)}
-                  readOnly={!!feedback} // Disable input after grading this question
                 />
                 
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: '0.5rem' }}>

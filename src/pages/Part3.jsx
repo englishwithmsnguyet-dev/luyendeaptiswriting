@@ -56,6 +56,12 @@ const Part3 = () => {
 
   const handleAnswerChange = (qKey, value) => {
     setAnswers(prev => ({ ...prev, [qKey]: value }));
+    setGradingResults(prev => {
+      if (!prev[qKey]) return prev;
+      const newResults = { ...prev };
+      delete newResults[qKey];
+      return newResults;
+    });
   };
 
   const toggleTranslation = (qKey) => {
@@ -378,11 +384,10 @@ const Part3 = () => {
                 
                 <textarea
                   className="premium-input"
-                  style={{ minHeight: '100px', resize: 'vertical' }}
-                  placeholder="Start writing your reply here..."
-                  value={ansText}
+                  style={{ minHeight: '120px', resize: 'vertical' }}
+                  placeholder={`Start writing your answer for ${qKey}...`}
+                  value={answers[qKey] || ''}
                   onChange={(e) => handleAnswerChange(qKey, e.target.value)}
-                  readOnly={!!totalScore}
                 />
                 
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: '0.5rem' }}>
