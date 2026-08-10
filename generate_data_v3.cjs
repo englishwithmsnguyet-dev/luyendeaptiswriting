@@ -137,14 +137,14 @@ function getSpecificContent(clubName, question) {
         } else if (clubName === "Garden club") {
           hobby = "gardening";
           vocab = [
-            "✨ [sở thích]: <strong>gardening</strong> (làm vườn), <strong>exploring nature</strong> (khám phá thiên nhiên), <strong>doing outdoor activities</strong> (tham gia hoạt động ngoài trời)",
-            "✨ [lợi ích - Vo]: <strong>reduce stress</strong> (giảm căng thẳng), <strong>find peace of mind</strong> (tìm sự bình yên trong tâm trí), <strong>protect the environment</strong> (bảo vệ môi trường)"
+            "✨ [sở thích]: <strong>gardening</strong> (làm vườn), <strong>exploring nature</strong> (khám phá thiên nhiên), <strong>doing outdoor activities</strong> (tham gia hoạt động ngoài trời), <strong>growing organic vegetables</strong> (trồng rau sạch), <strong>planting colorful flowers</strong> (trồng hoa rực rỡ), <strong>designing my own garden</strong> (thiết kế khu vườn của riêng mình)",
+            "✨ [lợi ích - Vo]: <strong>reduce stress</strong> (giảm căng thẳng), <strong>find peace of mind</strong> (tìm sự bình yên trong tâm trí), <strong>protect the environment</strong> (bảo vệ môi trường), <strong>provide healthy food for my family</strong> (cung cấp thực phẩm sạch cho gia đình), <strong>connect with nature</strong> (hòa mình vào thiên nhiên), <strong>escape from city noise</strong> (thoát khỏi tiếng ồn đô thị), <strong>improve my physical health</strong> (cải thiện sức khỏe thể chất)"
           ];
         } else if (clubName === "Sports club") {
           hobby = "playing sports";
           vocab = [
-            "✨ [sở thích]: <strong>playing sports</strong> (chơi thể thao), <strong>staying active</strong> (sống năng động), <strong>working out</strong> (tập thể dục)",
-            "✨ [lợi ích - Vo]: <strong>stay in good shape</strong> (giữ dáng), <strong>prevent health problems</strong> (phòng tránh vấn đề sức khỏe), <strong>strengthen cardiovascular health</strong> (tăng cường sức khỏe tim mạch)"
+            "✨ [sở thích]: <strong>playing sports</strong> (chơi thể thao), <strong>staying active</strong> (sống năng động), <strong>working out</strong> (tập thể dục), <strong>playing tennis</strong> (chơi quần vợt), <strong>joining a football team</strong> (tham gia đội bóng đá), <strong>doing yoga</strong> (tập yoga)",
+            "✨ [lợi ích - Vo]: <strong>stay in good shape</strong> (giữ dáng), <strong>prevent health problems</strong> (phòng tránh vấn đề sức khỏe), <strong>strengthen cardiovascular health</strong> (tăng cường sức khỏe tim mạch), <strong>build teamwork skills</strong> (xây dựng kỹ năng làm việc nhóm), <strong>relieve work pressure</strong> (giảm áp lực công việc), <strong>boost my energy levels</strong> (tăng cường mức năng lượng), <strong>expand my social circle</strong> (mở rộng mối quan hệ xã hội)"
           ];
         } else if (clubName === "Book club") {
           hobby = "reading books";
@@ -155,14 +155,14 @@ function getSpecificContent(clubName, question) {
         } else if (clubName === "Travel club") {
           hobby = "traveling";
           vocab = [
-            "✨ [sở thích]: <strong>traveling</strong> (du lịch), <strong>exploring new places</strong> (khám phá vùng đất mới), <strong>learning about cultures</strong> (tìm hiểu văn hóa)",
-            "✨ [lợi ích - Vo]: <strong>discover new places</strong> (khám phá những nơi mới), <strong>explore different cultures</strong> (tìm hiểu các nền văn hóa khác nhau), <strong>create unforgettable memories</strong> (tạo ra những kỷ niệm khó quên)"
+            "✨ [sở thích]: <strong>traveling</strong> (du lịch), <strong>exploring new places</strong> (khám phá vùng đất mới), <strong>learning about cultures</strong> (tìm hiểu văn hóa), <strong>taking photographs</strong> (chụp ảnh), <strong>trying local cuisines</strong> (thử các món ăn địa phương), <strong>backpacking around the world</strong> (du lịch bụi vòng quanh thế giới)",
+            "✨ [lợi ích - Vo]: <strong>discover new places</strong> (khám phá những nơi mới), <strong>explore different cultures</strong> (tìm hiểu các nền văn hóa khác nhau), <strong>create unforgettable memories</strong> (tạo ra những kỷ niệm khó quên), <strong>broaden my horizons</strong> (mở rộng tầm nhìn), <strong>step out of my comfort zone</strong> (bước ra khỏi vùng an toàn), <strong>meet interesting people</strong> (gặp gỡ những người thú vị), <strong>unwind after a busy month</strong> (thư giãn sau một tháng bận rộn)"
           ];
         } else if (clubName === "Movie club") {
           hobby = "watching movies";
           vocab = [
-            "✨ [sở thích]: <strong>watching movies</strong> (xem phim), <strong>going to the cinema</strong> (đi xem phim), <strong>discussing movie plots</strong> (thảo luận cốt truyện phim)",
-            "✨ [lợi ích - Vo]: <strong>find peace of mind</strong> (tìm sự bình yên trong tâm trí), <strong>relax after a long day</strong> (thư giãn sau một ngày dài), <strong>expand my social circle</strong> (mở rộng mối quan hệ xã hội)"
+            "✨ [sở thích]: <strong>watching movies</strong> (xem phim), <strong>going to the cinema</strong> (đi xem phim), <strong>discussing movie plots</strong> (thảo luận cốt truyện phim), <strong>reviewing new releases</strong> (đánh giá các bộ phim mới ra mắt), <strong>watching independent films</strong> (xem phim độc lập), <strong>binge-watching TV series</strong> (cày phim truyền hình)",
+            "✨ [lợi ích - Vo]: <strong>find peace of mind</strong> (tìm sự bình yên trong tâm trí), <strong>relax after a long day</strong> (thư giãn sau một ngày dài), <strong>expand my social circle</strong> (mở rộng mối quan hệ xã hội), <strong>experience different emotions</strong> (trải nghiệm nhiều cảm xúc khác nhau), <strong>improve my language skills</strong> (cải thiện kỹ năng ngôn ngữ), <strong>bond with my friends</strong> (gắn kết với bạn bè)"
           ];
         } else if (clubName === "Community club") {
           hobby = "doing volunteer work";
@@ -173,8 +173,8 @@ function getSpecificContent(clubName, question) {
         } else if (clubName === "Science club") {
           hobby = "doing experiments";
           vocab = [
-            "✨ [sở thích]: <strong>doing experiments</strong> (làm thí nghiệm), <strong>learning about the universe</strong> (tìm hiểu về vũ trụ), <strong>staying updated with technology</strong> (cập nhật công nghệ mới)",
-            "✨ [lợi ích - Vo]: <strong>widen my knowledge</strong> (mở rộng kiến thức), <strong>develop my logical thinking</strong> (phát triển tư duy logic), <strong>discover new things</strong> (khám phá điều mới)"
+            "✨ [sở thích]: <strong>doing experiments</strong> (làm thí nghiệm), <strong>learning about the universe</strong> (tìm hiểu về vũ trụ), <strong>staying updated with technology</strong> (cập nhật công nghệ mới), <strong>reading scientific journals</strong> (đọc tạp chí khoa học), <strong>attending science workshops</strong> (tham gia hội thảo khoa học), <strong>building robots</strong> (chế tạo robot)",
+            "✨ [lợi ích - Vo]: <strong>widen my knowledge</strong> (mở rộng kiến thức), <strong>develop my logical thinking</strong> (phát triển tư duy logic), <strong>discover new things</strong> (khám phá điều mới), <strong>satisfy my curiosity</strong> (thỏa mãn sự tò mò), <strong>apply theories into practice</strong> (áp dụng lý thuyết vào thực tế), <strong>solve complex problems</strong> (giải quyết các vấn đề phức tạp)"
           ];
         }
         
@@ -193,9 +193,9 @@ function getSpecificContent(clubName, question) {
 
     case "Healthy club": // "Tell me the classes you want to take and what times and days are suitable for you."
       vocab = [
-        "✨ [lớp học]: <strong>yoga classes</strong> (lớp yoga), <strong>swimming sessions</strong> (buổi bơi lội), <strong>aerobics classes</strong> (lớp thể dục nhịp điệu)",
-        "✨ [thời gian]: <strong>every Monday evening</strong> (mỗi tối thứ Hai), <strong>on weekend mornings</strong> (vào các buổi sáng cuối tuần), <strong>after working hours</strong> (sau giờ làm việc)",
-        "✨ [lợi ích - Vo]: <strong>stay in good shape</strong> (giữ dáng), <strong>prevent health problems</strong> (phòng tránh vấn đề sức khỏe), <strong>strengthen cardiovascular health</strong> (tăng cường sức khỏe tim mạch)"
+        "✨ [lớp học]: <strong>yoga classes</strong> (lớp yoga), <strong>swimming sessions</strong> (buổi bơi lội), <strong>aerobics classes</strong> (lớp thể dục nhịp điệu), <strong>meditation workshops</strong> (hội thảo thiền định), <strong>nutrition courses</strong> (khóa học dinh dưỡng), <strong>mental health seminars</strong> (hội thảo sức khỏe tinh thần)",
+        "✨ [thời gian]: <strong>every Monday evening</strong> (mỗi tối thứ Hai), <strong>on weekend mornings</strong> (vào các buổi sáng cuối tuần), <strong>after working hours</strong> (sau giờ làm việc), <strong>during my lunch break</strong> (trong giờ nghỉ trưa), <strong>early in the morning</strong> (sáng sớm)",
+        "✨ [lợi ích - Vo]: <strong>stay in good shape</strong> (giữ dáng), <strong>prevent health problems</strong> (phòng tránh vấn đề sức khỏe), <strong>strengthen cardiovascular health</strong> (tăng cường sức khỏe tim mạch), <strong>maintain a balanced diet</strong> (duy trì chế độ ăn cân bằng), <strong>improve my mental well-being</strong> (cải thiện sức khỏe tinh thần), <strong>boost my immune system</strong> (tăng cường hệ miễn dịch)"
       ];
       samples = [
         { en: "I can attend classes every Monday evening and I would like to learn yoga. It helps me stay in good shape effectively.", vi: "Tôi có thể tham gia các lớp học vào mỗi tối thứ Hai và tôi muốn học yoga. Việc này giúp tôi giữ dáng hiệu quả." },
@@ -249,9 +249,9 @@ function getSpecificContent(clubName, question) {
 
     case "Home living club": // "Describe where you live."
       vocab = [
-        "✨ [địa điểm]: <strong>a cozy apartment</strong> (một căn hộ ấm cúng), <strong>a spacious house</strong> (một ngôi nhà rộng rãi), <strong>a modern flat</strong> (một căn hộ hiện đại)",
-        "✨ [tính từ]: <strong>comfortable</strong> (thoải mái), <strong>well-decorated</strong> (được trang trí đẹp), <strong>peaceful</strong> (yên bình), <strong>convenient</strong> (tiện nghi)",
-        "✨ [lợi ích - Vo]: <strong>find peace of mind</strong> (tìm sự bình yên trong tâm trí), <strong>relax after a long day</strong> (thư giãn sau một ngày dài), <strong>enjoy my private space</strong> (tận hưởng không gian riêng tư)"
+        "✨ [địa điểm]: <strong>a cozy apartment</strong> (một căn hộ ấm cúng), <strong>a spacious house</strong> (một ngôi nhà rộng rãi), <strong>a modern flat</strong> (một căn hộ hiện đại), <strong>a suburban house</strong> (một ngôi nhà ở ngoại ô), <strong>a smart home</strong> (một ngôi nhà thông minh)",
+        "✨ [tính từ]: <strong>comfortable</strong> (thoải mái), <strong>well-decorated</strong> (được trang trí đẹp), <strong>peaceful</strong> (yên bình), <strong>convenient</strong> (tiện nghi), <strong>minimalist</strong> (tối giản), <strong>energy-efficient</strong> (tiết kiệm năng lượng)",
+        "✨ [lợi ích - Vo]: <strong>find peace of mind</strong> (tìm sự bình yên trong tâm trí), <strong>relax after a long day</strong> (thư giãn sau một ngày dài), <strong>enjoy my private space</strong> (tận hưởng không gian riêng tư), <strong>host gatherings with friends</strong> (tổ chức các buổi tụ tập bạn bè), <strong>work from home comfortably</strong> (làm việc tại nhà thoải mái), <strong>raise my children in a safe environment</strong> (nuôi dạy con trong môi trường an toàn)"
       ];
       samples = [
         { en: "I would like to tell you about my cozy apartment, which is very comfortable and well-decorated. It helps me find peace of mind and relax.", vi: "Tôi muốn kể cho bạn về căn hộ ấm cúng của mình, nơi rất thoải mái và được trang trí đẹp. Nó giúp tôi tìm sự bình yên và thư giãn." },
@@ -267,9 +267,9 @@ function getSpecificContent(clubName, question) {
 
     case "Television club": // "Do you usually watch TV?"
       vocab = [
-        "✨ [thể loại / hoạt động]: <strong>watching blockbusters</strong> (xem phim bom tấn), <strong>going to the cinema</strong> (đi xem phim), <strong>watching TV series</strong> (xem phim truyền hình)",
-        "✨ [tính từ]: <strong>entertaining</strong> (mang tính giải trí), <strong>engaging</strong> (lôi cuốn), <strong>thrilling</strong> (kịch tính)",
-        "✨ [lợi ích - Vo]: <strong>find peace of mind</strong> (tìm sự bình yên trong tâm trí), <strong>relax after a long day</strong> (thư giãn sau một ngày dài), <strong>expand my social circle</strong> (mở rộng mối quan hệ xã hội)"
+        "✨ [thể loại / hoạt động]: <strong>watching blockbusters</strong> (xem phim bom tấn), <strong>going to the cinema</strong> (đi xem phim), <strong>watching TV series</strong> (xem phim truyền hình), <strong>watching live sports</strong> (xem thể thao trực tiếp), <strong>following news channels</strong> (theo dõi các kênh tin tức), <strong>watching educational programs</strong> (xem các chương trình giáo dục)",
+        "✨ [tính từ]: <strong>entertaining</strong> (mang tính giải trí), <strong>engaging</strong> (lôi cuốn), <strong>thrilling</strong> (kịch tính), <strong>informative</strong> (nhiều thông tin), <strong>thought-provoking</strong> (gợi suy nghĩ)",
+        "✨ [lợi ích - Vo]: <strong>find peace of mind</strong> (tìm sự bình yên trong tâm trí), <strong>relax after a long day</strong> (thư giãn sau một ngày dài), <strong>expand my social circle</strong> (mở rộng mối quan hệ xã hội), <strong>stay informed about world events</strong> (cập nhật các sự kiện thế giới), <strong>learn new skills easily</strong> (học kỹ năng mới dễ dàng), <strong>spend quality time with family</strong> (dành thời gian chất lượng bên gia đình)"
       ];
       samples = [
         { en: "I am really fond of going to the cinema because it is very entertaining. It helps me find peace of mind and relax after a long day.", vi: "Tôi rất thích đi xem phim vì nó rất giải trí. Hoạt động này giúp tôi tìm sự bình yên trong tâm trí và thư giãn sau một ngày dài." },
@@ -304,9 +304,9 @@ function getSpecificContent(clubName, question) {
 
     case "Film club": // "Please write some of your favorite films and why you like watching them."
       vocab = [
-        "✨ [thể loại phim]: <strong>action movies</strong> (phim hành động), <strong>romantic comedies</strong> (phim hài lãng mạn), <strong>sci-fi films</strong> (phim khoa học viễn tưởng)",
-        "✨ [tính từ]: <strong>captivating</strong> (cuốn hút), <strong>thrilling</strong> (kịch tính), <strong>hilarious</strong> (hài hước), <strong>eye-opening</strong> (mở mang tầm mắt)",
-        "✨ [lợi ích - Vo]: <strong>escape from daily stress</strong> (thoát khỏi căng thẳng hàng ngày), <strong>widen my knowledge</strong> (mở rộng kiến thức), <strong>develop my imagination</strong> (phát triển trí tưởng tượng)"
+        "✨ [thể loại phim]: <strong>action movies</strong> (phim hành động), <strong>romantic comedies</strong> (phim hài lãng mạn), <strong>sci-fi films</strong> (phim khoa học viễn tưởng), <strong>classic movies</strong> (phim kinh điển), <strong>psychological thrillers</strong> (phim kinh dị tâm lý), <strong>historical dramas</strong> (phim cổ trang / lịch sử)",
+        "✨ [tính từ]: <strong>captivating</strong> (cuốn hút), <strong>thrilling</strong> (kịch tính), <strong>hilarious</strong> (hài hước), <strong>eye-opening</strong> (mở mang tầm mắt), <strong>heartwarming</strong> (cảm động), <strong>mind-bending</strong> (hại não)",
+        "✨ [lợi ích - Vo]: <strong>escape from daily stress</strong> (thoát khỏi căng thẳng hàng ngày), <strong>widen my knowledge</strong> (mở rộng kiến thức), <strong>develop my imagination</strong> (phát triển trí tưởng tượng), <strong>appreciate cinematic art</strong> (thưởng thức nghệ thuật điện ảnh), <strong>improve my critical thinking</strong> (cải thiện tư duy phản biện), <strong>discuss meaningful messages</strong> (thảo luận những thông điệp ý nghĩa)"
       ];
       samples = [
         { en: "I am really keen on action movies because they are very thrilling. Enjoying them helps me escape from daily stress and relax after a long day.", vi: "Tôi rất thích phim hành động vì chúng rất kịch tính. Thưởng thức chúng giúp tôi thoát khỏi căng thẳng hàng ngày và thư giãn sau một ngày dài." },
@@ -344,9 +344,9 @@ function getSpecificContent(clubName, question) {
     case "Nature club 2": // "What do you like doing when you spend time outdoors?"
       if (clubName === "Language club") {
         vocab = [
-          "✨ [hoạt động]: <strong>learning English</strong> (học tiếng Anh), <strong>speaking with foreigners</strong> (nói chuyện với người nước ngoài), <strong>practicing English daily</strong> (thực hành tiếng Anh mỗi ngày)",
-          "✨ [tính từ]: <strong>essential</strong> (thiết yếu), <strong>practical</strong> (thực tế), <strong>helpful</strong> (hữu ích), <strong>challenging but rewarding</strong> (đầy thử thách nhưng xứng đáng)",
-          "✨ [lợi ích - Vo]: <strong>learn to adapt to new environments</strong> (học cách thích nghi môi trường mới), <strong>build my confidence</strong> (xây dựng sự tự tin), <strong>improve my communication skills</strong> (cải thiện kỹ năng giao tiếp)"
+          "✨ [hoạt động]: <strong>learning English</strong> (học tiếng Anh), <strong>speaking with foreigners</strong> (nói chuyện với người nước ngoài), <strong>practicing English daily</strong> (thực hành tiếng Anh mỗi ngày), <strong>learning a second language</strong> (học ngôn ngữ thứ hai), <strong>joining language exchange events</strong> (tham gia sự kiện giao lưu ngôn ngữ), <strong>watching movies without subtitles</strong> (xem phim không cần phụ đề)",
+          "✨ [tính từ]: <strong>essential</strong> (thiết yếu), <strong>practical</strong> (thực tế), <strong>helpful</strong> (hữu ích), <strong>challenging but rewarding</strong> (đầy thử thách nhưng xứng đáng), <strong>fascinating</strong> (hấp dẫn), <strong>interactive</strong> (có tính tương tác)",
+          "✨ [lợi ích - Vo]: <strong>learn to adapt to new environments</strong> (học cách thích nghi môi trường mới), <strong>build my confidence</strong> (xây dựng sự tự tin), <strong>improve my communication skills</strong> (cải thiện kỹ năng giao tiếp), <strong>boost my career prospects</strong> (nâng cao triển vọng nghề nghiệp), <strong>communicate globally</strong> (giao tiếp toàn cầu), <strong>understand different cultures</strong> (hiểu các nền văn hóa khác nhau)"
         ];
       } else {
         vocab = [
