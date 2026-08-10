@@ -36,8 +36,9 @@ Object.keys(clubsDataRaw).forEach((clubName) => {
 
   if (group === "hobby") {
     q1_vocab = [
-      "✨ [lý do tham gia]: <strong>share my passion for this field</strong> (chia sẻ đam mê trong lĩnh vực này), <strong>meet like-minded people</strong> (gặp gỡ những người cùng chí hướng), <strong>relax after a long day</strong> (thư giãn sau một ngày dài)",
-      "✨ [mục tiêu]: <strong>enhance my creative skills</strong> (nâng cao kỹ năng sáng tạo), <strong>expand my knowledge</strong> (mở rộng kiến thức), <strong>find a healthy work-life balance</strong> (tìm kiếm sự cân bằng giữa công việc và cuộc sống)"
+      "✨ [lý do tham gia]: <strong>share my passion for this field</strong> (chia sẻ đam mê trong lĩnh vực này), <strong>meet like-minded people</strong> (gặp gỡ những người cùng chí hướng), <strong>relax after a long day</strong> (thư giãn sau một ngày dài), <strong>escape from daily routine</strong> (thoát khỏi thói quen hàng ngày), <strong>pursue a lifelong interest</strong> (theo đuổi sở thích cả đời), <strong>immerse myself in creativity</strong> (đắm chìm trong sự sáng tạo)",
+      "✨ [mục tiêu]: <strong>enhance my creative skills</strong> (nâng cao kỹ năng sáng tạo), <strong>expand my knowledge</strong> (mở rộng kiến thức), <strong>find a healthy work-life balance</strong> (tìm kiếm sự cân bằng giữa công việc và cuộc sống), <strong>express myself freely</strong> (thể hiện bản thân một cách tự do), <strong>master new techniques</strong> (thành thạo các kỹ thuật mới), <strong>stay inspired and motivated</strong> (giữ nguồn cảm hứng và động lực)",
+      "✨ [lợi ích cá nhân]: <strong>boost my imagination</strong> (thúc đẩy trí tưởng tượng), <strong>clear my mind</strong> (làm trí óc minh mẫn), <strong>spark my creativity</strong> (khơi dậy sự sáng tạo), <strong>cultivate a positive mindset</strong> (nuôi dưỡng tư duy tích cực)"
     ];
     q1_samples = [
       { en: "I decided to join this club to share my passion for this field and meet like-minded people. I hope to enhance my creative skills effectively.", vi: "Tôi quyết định tham gia câu lạc bộ này để chia sẻ đam mê và gặp gỡ những người cùng chí hướng. Tôi hy vọng sẽ nâng cao kỹ năng sáng tạo hiệu quả." },
@@ -46,8 +47,9 @@ Object.keys(clubsDataRaw).forEach((clubName) => {
     ];
   } else if (group === "academic") {
     q1_vocab = [
-      "✨ [lý do tham gia]: <strong>boost my career prospects</strong> (nâng cao triển vọng nghề nghiệp), <strong>expand my professional network</strong> (mở rộng mạng lưới chuyên môn), <strong>stay updated with new trends</strong> (cập nhật các xu hướng mới)",
-      "✨ [mục tiêu]: <strong>improve my practical skills</strong> (cải thiện kỹ năng thực tế), <strong>gain valuable experience</strong> (thu được kinh nghiệm quý báu), <strong>exchange innovative ideas</strong> (trao đổi những ý tưởng đổi mới)"
+      "✨ [lý do tham gia]: <strong>boost my career prospects</strong> (nâng cao triển vọng nghề nghiệp), <strong>expand my professional network</strong> (mở rộng mạng lưới chuyên môn), <strong>stay updated with new trends</strong> (cập nhật các xu hướng mới), <strong>acquire in-demand skills</strong> (trang bị các kỹ năng đang được săn đón), <strong>build a strong foundation</strong> (xây dựng nền tảng vững chắc), <strong>stay ahead of the curve</strong> (đi trước đón đầu)",
+      "✨ [mục tiêu]: <strong>improve my practical skills</strong> (cải thiện kỹ năng thực tế), <strong>gain valuable experience</strong> (thu được kinh nghiệm quý báu), <strong>exchange innovative ideas</strong> (trao đổi những ý tưởng đổi mới), <strong>overcome professional challenges</strong> (vượt qua những thách thức nghề nghiệp), <strong>unlock my full potential</strong> (khai phá toàn bộ tiềm năng), <strong>think outside the box</strong> (suy nghĩ đột phá)",
+      "✨ [năng lực lõi]: <strong>enhance critical thinking</strong> (nâng cao tư duy phản biện), <strong>solve complex problems</strong> (giải quyết các vấn đề phức tạp), <strong>foster academic excellence</strong> (thúc đẩy sự xuất sắc trong học thuật), <strong>promote continuous learning</strong> (thúc đẩy học tập không ngừng)"
     ];
     q1_samples = [
       { en: "I joined this club to boost my career prospects and expand my professional network. I hope to improve my practical skills for my future jobs.", vi: "Tôi tham gia CLB để nâng cao triển vọng nghề nghiệp và mở rộng mạng lưới. Tôi hy vọng cải thiện kỹ năng thực tế cho công việc tương lai." },
@@ -56,8 +58,9 @@ Object.keys(clubsDataRaw).forEach((clubName) => {
     ];
   } else if (group === "health") {
     q1_vocab = [
-      "✨ [lý do tham gia]: <strong>stay in good shape</strong> (giữ dáng), <strong>relieve daily stress</strong> (giảm căng thẳng hàng ngày), <strong>adopt a healthier lifestyle</strong> (áp dụng lối sống lành mạnh hơn)",
-      "✨ [mục tiêu]: <strong>strengthen my physical endurance</strong> (tăng cường sức bền thể chất), <strong>boost my emotional well-being</strong> (nâng cao sức khỏe tinh thần), <strong>burn calories effectively</strong> (đốt cháy calo hiệu quả)"
+      "✨ [lý do tham gia]: <strong>stay in good shape</strong> (giữ dáng), <strong>relieve daily stress</strong> (giảm căng thẳng hàng ngày), <strong>adopt a healthier lifestyle</strong> (áp dụng lối sống lành mạnh hơn), <strong>maintain a balanced diet</strong> (duy trì chế độ ăn cân bằng), <strong>keep fit and active</strong> (giữ cơ thể cân đối và năng động), <strong>overcome a sedentary lifestyle</strong> (vượt qua lối sống thụ động)",
+      "✨ [mục tiêu]: <strong>strengthen my physical endurance</strong> (tăng cường sức bền thể chất), <strong>boost my emotional well-being</strong> (nâng cao sức khỏe tinh thần), <strong>burn calories effectively</strong> (đốt cháy calo hiệu quả), <strong>build muscle strength</strong> (tăng cường sức mạnh cơ bắp), <strong>improve cardiovascular health</strong> (cải thiện sức khỏe tim mạch), <strong>increase flexibility</strong> (tăng cường sự dẻo dai)",
+      "✨ [trạng thái tinh thần]: <strong>feel refreshed and energized</strong> (cảm thấy sảng khoái và tràn đầy năng lượng), <strong>clear mental fog</strong> (xua tan sự trì trệ của trí óc), <strong>boost self-confidence</strong> (nâng cao sự tự tin), <strong>achieve inner peace</strong> (đạt được sự bình yên nội tâm)"
     ];
     q1_samples = [
       { en: "I decided to join this club to stay in good shape and relieve daily stress. I hope to strengthen my physical endurance effectively.", vi: "Tôi tham gia CLB để giữ dáng và giảm căng thẳng. Tôi hy vọng sẽ tăng cường sức bền thể chất một cách hiệu quả." },
@@ -66,8 +69,9 @@ Object.keys(clubsDataRaw).forEach((clubName) => {
     ];
   } else {
     q1_vocab = [
-      "✨ [lý do tham gia]: <strong>broaden my horizons</strong> (mở rộng tầm nhìn), <strong>contribute to the community</strong> (đóng góp cho cộng đồng), <strong>make meaningful connections</strong> (tạo ra những kết nối ý nghĩa)",
-      "✨ [mục tiêu]: <strong>experience new things</strong> (trải nghiệm những điều mới), <strong>develop my soft skills</strong> (phát triển kỹ năng mềm), <strong>find peace of mind</strong> (tìm sự bình yên trong tâm trí)"
+      "✨ [lý do tham gia]: <strong>broaden my horizons</strong> (mở rộng tầm nhìn), <strong>contribute to the community</strong> (đóng góp cho cộng đồng), <strong>make meaningful connections</strong> (tạo ra những kết nối ý nghĩa), <strong>step out of my comfort zone</strong> (bước ra khỏi vùng an toàn), <strong>seek personal growth</strong> (tìm kiếm sự phát triển cá nhân), <strong>embrace diversity</strong> (đón nhận sự đa dạng)",
+      "✨ [mục tiêu]: <strong>experience new things</strong> (trải nghiệm những điều mới), <strong>develop my soft skills</strong> (phát triển kỹ năng mềm), <strong>find peace of mind</strong> (tìm sự bình yên trong tâm trí), <strong>give back to society</strong> (cống hiến lại cho xã hội), <strong>build lifelong friendships</strong> (xây dựng tình bạn trọn đời), <strong>enrich my soul</strong> (làm phong phú tâm hồn)",
+      "✨ [kỹ năng xã hội]: <strong>improve communication skills</strong> (cải thiện kỹ năng giao tiếp), <strong>foster teamwork</strong> (thúc đẩy tinh thần đồng đội), <strong>build empathy</strong> (xây dựng sự thấu cảm), <strong>navigate social situations easily</strong> (dễ dàng xoay sở trong các tình huống xã hội)"
     ];
     q1_samples = [
       { en: "I joined this club to broaden my horizons and make meaningful connections. I hope to experience new things and learn from others.", vi: "Tôi tham gia CLB để mở rộng tầm nhìn và tạo các kết nối ý nghĩa. Tôi hy vọng trải nghiệm những điều mới mẻ và học hỏi từ người khác." },
@@ -79,8 +83,9 @@ Object.keys(clubsDataRaw).forEach((clubName) => {
   // --- QUESTION 2 ---
   let q2_q = "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?";
   let q2_vocab = [
-    "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
-    "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+    "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm), <strong>I couldn't agree more</strong> (Tôi hoàn toàn đồng ý), <strong>I have mixed feelings about this</strong> (Tôi có cảm xúc lẫn lộn về việc này)",
+    "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống), <strong>foster personal development</strong> (thúc đẩy sự phát triển cá nhân), <strong>offer priceless value</strong> (mang lại giá trị vô giá), <strong>pay off in the long run</strong> (mang lại thành quả về lâu dài)",
+    "✨ [bác bỏ ý kiến]: <strong>it is totally unfounded</strong> (điều đó hoàn toàn vô căn cứ), <strong>miss the bigger picture</strong> (bỏ lỡ bức tranh toàn cảnh), <strong>focus too much on the short term</strong> (quá chú trọng vào trước mắt), <strong>underestimate the true value</strong> (đánh giá thấp giá trị thực sự)"
   ];
   let q2_samples = [
     { en: "I completely disagree with that idea. Joining club activities is a worthwhile investment because it helps me relieve stress and enrich my life experiences.", vi: "Tôi hoàn toàn không đồng ý. Tham gia hoạt động CLB là khoản đầu tư xứng đáng vì nó giúp tôi giảm căng thẳng và làm phong phú trải nghiệm sống." },
@@ -91,8 +96,9 @@ Object.keys(clubsDataRaw).forEach((clubName) => {
   // --- QUESTION 3 ---
   let q3_q = "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?";
   let q3_vocab = [
-    "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
-    "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+    "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm), <strong>launch a social media challenge</strong> (phát động một thử thách trên mạng xã hội), <strong>plan a networking mixer</strong> (lên kế hoạch cho buổi giao lưu kết nối), <strong>arrange a weekend retreat</strong> (sắp xếp một chuyến dã ngoại cuối tuần)",
+    "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện), <strong>boost community engagement</strong> (tăng cường sự gắn kết cộng đồng), <strong>foster a sense of belonging</strong> (nuôi dưỡng cảm giác thuộc về), <strong>leave a lasting impression</strong> (để lại ấn tượng sâu sắc)",
+    "✨ [cách thức thực hiện]: <strong>collaborate with local sponsors</strong> (hợp tác với các nhà tài trợ địa phương), <strong>leverage digital platforms</strong> (tận dụng các nền tảng kỹ thuật số), <strong>distribute eye-catching flyers</strong> (phân phát các tờ rơi bắt mắt), <strong>offer attractive incentives</strong> (cung cấp các ưu đãi hấp dẫn), <strong>invite guest speakers</strong> (mời các diễn giả khách mời)"
   ];
   let q3_samples = [
     { en: "I highly recommend that we host a free workshop for beginners. This will definitely attract potential members and create a welcoming environment for everyone.", vi: "Tôi chân thành đề xuất chúng ta nên tổ chức hội thảo miễn phí cho người mới. Điều này chắc chắn sẽ thu hút thành viên tiềm năng và tạo môi trường thân thiện." },
