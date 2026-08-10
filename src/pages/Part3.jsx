@@ -9,9 +9,8 @@ const Part3 = () => {
   
   const [answers, setAnswers] = useState({ q1: '', q2: '', q3: '' });
   const [gradingResults, setGradingResults] = useState({ q1: null, q2: null, q3: null });
-  const [showVocab, setShowVocab] = useState({ q1: false, q2: false, q3: false });
-  const [showTranslation, setShowTranslation] = useState({ q1: false, q2: false, q3: false });
   const [showTemplate, setShowTemplate] = useState({ q1: false, q2: false, q3: false });
+  const [showTranslation, setShowTranslation] = useState({ q1: false, q2: false, q3: false });
   const [isGrading, setIsGrading] = useState(false);
   const [totalScore, setTotalScore] = useState(null);
 
@@ -45,9 +44,8 @@ const Part3 = () => {
     setQuestionData(part3Data[selectedClub]);
     setAnswers({ q1: '', q2: '', q3: '' });
     setGradingResults({ q1: null, q2: null, q3: null });
-    setShowVocab({ q1: false, q2: false, q3: false });
-    setShowTranslation({ q1: false, q2: false, q3: false });
     setShowTemplate({ q1: false, q2: false, q3: false });
+    setShowTranslation({ q1: false, q2: false, q3: false });
     setTotalScore(null);
   }, [selectedClub]);
 
@@ -56,13 +54,6 @@ const Part3 = () => {
     return text.trim().split(/\s+/).length;
   };
 
-  const handleAnswerChange = (qKey, value) => {
-    setAnswers(prev => ({ ...prev, [qKey]: value }));
-  };
-
-  const toggleVocab = (qKey) => {
-    setShowVocab(prev => ({ ...prev, [qKey]: !prev[qKey] }));
-  };
   const toggleTranslation = (qKey) => {
     setShowTranslation(prev => ({ ...prev, [qKey]: !prev[qKey] }));
   };
@@ -243,7 +234,6 @@ const Part3 = () => {
             const count = getWordCount(ansText);
             const isOutOfRange = count > 0 && (count < 30 || count > 40);
             const isGoodRange = count >= 30 && count <= 40;
-            const isVocabVisible = showVocab[qKey];
             const isTranslationVisible = showTranslation[qKey];
             const isTemplateVisible = showTemplate[qKey];
             
@@ -280,13 +270,6 @@ const Part3 = () => {
                           {isTranslationVisible ? 'Ẩn dịch' : 'Dịch'}
                         </button>
                       )}
-                      <button 
-                        className={`btn-translate ${isVocabVisible ? 'active' : ''}`}
-                        onClick={() => toggleVocab(qKey)}
-                        title="Gợi ý từ vựng & bài mẫu"
-                      >
-                        {isVocabVisible ? 'Ẩn gợi ý & bài mẫu' : 'Xem gợi ý & bài mẫu'}
-                      </button>
                     </div>
 
                     {isTranslationVisible && qData.vi && (
@@ -295,7 +278,7 @@ const Part3 = () => {
                       </div>
                     )}
 
-                    {isTemplateVisible && qData.templates && qData.templates.length > 0 && (
+                    {isTemplateVisible && (
                       <div style={{ 
                         marginBottom: '1rem', 
                         padding: '0.75rem', 
@@ -306,32 +289,27 @@ const Part3 = () => {
                         fontSize: '0.95rem',
                         lineHeight: '1.5'
                       }}>
-                        <div style={{ fontWeight: '600', marginBottom: '0.5rem', color: '#B45309' }}>Khung đáp án gợi ý:</div>
-                        <ul style={{ listStyleType: 'none', paddingLeft: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '0.8rem' }}>
-                          {qData.templates.map((tpl, idx) => (
-                            <li key={idx} style={{ paddingBottom: '0.5rem', borderBottom: idx !== qData.templates.length - 1 ? '1px dashed rgba(0,0,0,0.1)' : 'none' }}>
-                              <span style={{ fontWeight: '600', marginRight: '0.3rem' }}>Cách {idx + 1}:</span>
-                              <span dangerouslySetInnerHTML={{ 
-                                __html: tpl.replace(/\[(.*?)\]/g, '<span style="color: #D97706; font-weight: 700;">[$1]</span>') 
-                              }} />
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
-                    )}
+                        {qData.templates && qData.templates.length > 0 && (
+                          <div style={{ marginBottom: qData.vocab && qData.vocab.length > 0 ? '1rem' : '0' }}>
+                            <div style={{ fontWeight: '600', marginBottom: '0.5rem', color: '#B45309' }}>Khung đáp án gợi ý:</div>
+                            <ul style={{ listStyleType: 'none', paddingLeft: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '0.8rem' }}>
+                              {qData.templates.map((tpl, idx) => (
+                                <li key={idx} style={{ paddingBottom: '0.5rem', borderBottom: idx !== qData.templates.length - 1 ? '1px dashed rgba(0,0,0,0.1)' : 'none' }}>
+                                  <span style={{ fontWeight: '600', marginRight: '0.3rem' }}>Cách {idx + 1}:</span>
+                                  <span dangerouslySetInnerHTML={{ 
+                                    __html: tpl.replace(/\[(.*?)\]/g, '<span style="color: #D97706; font-weight: 700;">[$1]</span>') 
+                                  }} />
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                        )}
 
-                    {isVocabVisible && (
-                      <div style={{ 
-                        marginTop: '1rem', 
-                        padding: '1rem', 
-                        backgroundColor: '#F8FAFC', 
-                        border: '1px dashed #94A3B8',
-                        borderRadius: '8px',
-                        color: 'var(--primary)',
-                        fontSize: '0.95rem'
-                      }}>
                         {qData.vocab && qData.vocab.length > 0 && (
-                          <div style={{ marginBottom: '1.5rem' }}>
+                          <div style={{ 
+                            paddingTop: qData.templates && qData.templates.length > 0 ? '1rem' : '0', 
+                            borderTop: qData.templates && qData.templates.length > 0 ? '2px solid rgba(180, 83, 9, 0.1)' : 'none'
+                          }}>
                             <div style={{ fontWeight: '600', marginBottom: '0.8rem', color: '#B45309' }}>TỪ VỰNG HỮU ÍCH:</div>
                             <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
                               {qData.vocab.map((vocabItem, idx) => {
@@ -361,13 +339,16 @@ const Part3 = () => {
                                               cursor: 'pointer', 
                                               padding: '0.2rem', 
                                               borderRadius: '50%',
-                                              width: '24px',
-                                              height: '24px',
+                                              width: '28px',
+                                              height: '28px',
                                               display: 'flex', 
                                               alignItems: 'center', 
                                               justifyContent: 'center',
                                               transition: 'all 0.2s'
                                             }}
+                                            title={`Nghe phát âm: ${item.en}`}
+                                            onMouseEnter={(e) => e.currentTarget.style.background = 'rgba(217, 119, 6, 0.2)'}
+                                            onMouseLeave={(e) => e.currentTarget.style.background = 'rgba(217, 119, 6, 0.1)'}
                                           >
                                             🔊
                                           </button>
@@ -382,27 +363,6 @@ const Part3 = () => {
                                 );
                               })}
                             </div>
-                          </div>
-                        )}
-                        
-                        {qData.samples && qData.samples.length > 0 && (
-                          <div style={{ borderTop: '2px solid rgba(180, 83, 9, 0.1)', paddingTop: '1rem' }}>
-                            <div style={{ fontWeight: '600', marginBottom: '0.8rem', color: '#B45309' }}>💡 BÀI MẪU (30-40 words):</div>
-                            <ul style={{ listStyleType: 'none', paddingLeft: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '0.8rem' }}>
-                              {qData.samples.map((sample, idx) => (
-                                <li key={idx} style={{ 
-                                  backgroundColor: 'white', 
-                                  padding: '0.75rem', 
-                                  borderRadius: '6px',
-                                  border: '1px solid rgba(0,0,0,0.05)'
-                                }}>
-                                  <div style={{ fontWeight: '700', color: 'var(--primary)', marginBottom: '0.3rem' }}>
-                                    {sample.en}
-                                  </div>
-                                  <div style={{ color: 'var(--text-muted)', fontSize: '0.85rem' }}>Dịch: {sample.vi}</div>
-                                </li>
-                              ))}
-                            </ul>
                           </div>
                         )}
                       </div>
@@ -435,6 +395,35 @@ const Part3 = () => {
                       Điểm: {gResult.score} / 5
                     </div>
                     <div style={{ whiteSpace: 'pre-line', lineHeight: '1.5' }}>{gResult.feedback}</div>
+                    
+                    {/* Sample Answers shown after grading */}
+                    <div style={{ marginTop: '0.75rem', paddingTop: '0.75rem', borderTop: '1px solid rgba(0,0,0,0.1)' }}>
+                      <div style={{ fontWeight: '600', marginBottom: '0.5rem', color: 'var(--primary)' }}>
+                        💡 {qData.samples.length} Đáp án tham khảo:
+                      </div>
+                      {qData.samples && qData.samples.length > 0 && (
+                        <ul style={{ listStyleType: 'none', paddingLeft: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '0.6rem' }}>
+                          {qData.samples.map((sample, idx) => (
+                            <li key={idx} style={{ 
+                              fontSize: '0.95rem', 
+                              backgroundColor: '#FFFFFF', 
+                              padding: '0.75rem', 
+                              borderRadius: '6px',
+                              textAlign: 'justify',
+                              lineHeight: '1.5',
+                              boxShadow: '0 1px 2px rgba(0,0,0,0.05)',
+                              border: '1px solid rgba(0,0,0,0.05)'
+                            }}>
+                              <div style={{ fontWeight: '700', color: 'var(--primary)' }}>
+                                <span style={{ color: '#B45309', marginRight: '4px' }}>{idx + 1}.</span> 
+                                {sample.en}
+                              </div>
+                              <div style={{ color: 'var(--text-muted)', fontSize: '0.85rem', marginTop: '0.3rem' }}>Dịch: {sample.vi}</div>
+                            </li>
+                          ))}
+                        </ul>
+                      )}
+                    </div>
                   </div>
                 )}
               </div>
