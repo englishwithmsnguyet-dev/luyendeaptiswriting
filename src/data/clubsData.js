@@ -416,24 +416,24 @@ export const clubsData = {
       "text": "What is your favorite time of the year?",
       "samples": [
         {
-          "en": "I like the morning.",
-          "vi": "Tôi thích buổi sáng."
+          "en": "I like the spring.",
+          "vi": "Tôi thích mùa xuân."
         },
         {
-          "en": "Evening is my favorite.",
-          "vi": "Buổi tối là lúc tôi thích."
+          "en": "Summer is my favorite.",
+          "vi": "Mùa hè là lúc tôi thích."
         },
         {
-          "en": "I love the afternoon.",
-          "vi": "Tôi yêu buổi chiều."
+          "en": "I love the autumn.",
+          "vi": "Tôi yêu mùa thu."
         },
         {
-          "en": "Night time is the best.",
-          "vi": "Ban đêm là tuyệt nhất."
+          "en": "Winter is the best.",
+          "vi": "Mùa đông là tuyệt nhất."
         },
         {
-          "en": "I like early morning.",
-          "vi": "Tôi thích sáng sớm."
+          "en": "I like Tet holiday.",
+          "vi": "Tôi thích kỳ nghỉ Tết."
         }
       ],
       "vi": "Bản dịch gợi ý: What is your favorite time of the year?"
@@ -2990,24 +2990,24 @@ export const clubsData = {
       "text": "What is your favorite time of the year?",
       "samples": [
         {
-          "en": "I like the morning.",
-          "vi": "Tôi thích buổi sáng."
+          "en": "I like the spring.",
+          "vi": "Tôi thích mùa xuân."
         },
         {
-          "en": "Evening is my favorite.",
-          "vi": "Buổi tối là lúc tôi thích."
+          "en": "Summer is my favorite.",
+          "vi": "Mùa hè là lúc tôi thích."
         },
         {
-          "en": "I love the afternoon.",
-          "vi": "Tôi yêu buổi chiều."
+          "en": "I love the autumn.",
+          "vi": "Tôi yêu mùa thu."
         },
         {
-          "en": "Night time is the best.",
-          "vi": "Ban đêm là tuyệt nhất."
+          "en": "Winter is the best.",
+          "vi": "Mùa đông là tuyệt nhất."
         },
         {
-          "en": "I like early morning.",
-          "vi": "Tôi thích sáng sớm."
+          "en": "I like Tet holiday.",
+          "vi": "Tôi thích kỳ nghỉ Tết."
         }
       ],
       "vi": "Bản dịch gợi ý: What is your favorite time of the year?"
@@ -4634,24 +4634,24 @@ export const clubsData = {
       "text": "What is your favorite time of the year?",
       "samples": [
         {
-          "en": "I like the morning.",
-          "vi": "Tôi thích buổi sáng."
+          "en": "I like the spring.",
+          "vi": "Tôi thích mùa xuân."
         },
         {
-          "en": "Evening is my favorite.",
-          "vi": "Buổi tối là lúc tôi thích."
+          "en": "Summer is my favorite.",
+          "vi": "Mùa hè là lúc tôi thích."
         },
         {
-          "en": "I love the afternoon.",
-          "vi": "Tôi yêu buổi chiều."
+          "en": "I love the autumn.",
+          "vi": "Tôi yêu mùa thu."
         },
         {
-          "en": "Night time is the best.",
-          "vi": "Ban đêm là tuyệt nhất."
+          "en": "Winter is the best.",
+          "vi": "Mùa đông là tuyệt nhất."
         },
         {
-          "en": "I like early morning.",
-          "vi": "Tôi thích sáng sớm."
+          "en": "I like Tet holiday.",
+          "vi": "Tôi thích kỳ nghỉ Tết."
         }
       ],
       "vi": "Bản dịch gợi ý: What is your favorite time of the year?"
