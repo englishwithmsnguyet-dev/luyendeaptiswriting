@@ -1376,24 +1376,24 @@ export const clubsData = {
       "text": "What is your first school?",
       "samples": [
         {
-          "en": "My first school",
-          "vi": "Trường đầu tiên của tôi"
+          "en": "ABC Primary School.",
+          "vi": "Trường Tiểu học ABC."
         },
         {
-          "en": "A local primary school",
-          "vi": "Một trường tiểu học địa phương"
+          "en": "It was Le Loi School.",
+          "vi": "Đó là trường Lê Lợi."
         },
         {
-          "en": "It was very small",
-          "vi": "Nó rất nhỏ"
+          "en": "A small local primary school.",
+          "vi": "Một trường tiểu học nhỏ ở địa phương."
         },
         {
-          "en": "I don't remember well",
-          "vi": "Tôi không nhớ rõ lắm"
+          "en": "It was in my hometown.",
+          "vi": "Nó ở quê tôi."
         },
         {
-          "en": "A public school nearby",
-          "vi": "Một trường công lập gần đó"
+          "en": "I went to ABC School.",
+          "vi": "Tôi học ở trường ABC."
         }
       ],
       "vi": "Bản dịch gợi ý: Ngôi trường đầu tiên của bạn là gì?"
@@ -4471,24 +4471,24 @@ export const clubsData = {
       "text": "What is your first school?",
       "samples": [
         {
-          "en": "A local primary school",
-          "vi": "Một trường tiểu học địa phương"
+          "en": "ABC Primary School.",
+          "vi": "Trường Tiểu học ABC."
         },
         {
-          "en": "Le Loi primary school",
-          "vi": "Trường tiểu học Lê Lợi"
+          "en": "It was Le Loi School.",
+          "vi": "Đó là trường Lê Lợi."
         },
         {
-          "en": "It was near my house",
-          "vi": "Nó ở gần nhà tôi"
+          "en": "A small local primary school.",
+          "vi": "Một trường tiểu học nhỏ ở địa phương."
         },
         {
-          "en": "A small village school",
-          "vi": "Một ngôi trường nhỏ ở làng"
+          "en": "It was in my hometown.",
+          "vi": "Nó ở quê tôi."
         },
         {
-          "en": "I went to Hoa Binh",
-          "vi": "Tôi đã học ở Hòa Bình"
+          "en": "I went to ABC School.",
+          "vi": "Tôi học ở trường ABC."
         }
       ],
       "vi": "Bản dịch gợi ý: Ngôi trường đầu tiên của bạn là gì?"
@@ -5376,24 +5376,24 @@ export const clubsData = {
       "text": "What is your first school?",
       "samples": [
         {
-          "en": "It was Riverside Primary",
-          "vi": "Đó là trường tiểu học Riverside"
+          "en": "ABC Primary School.",
+          "vi": "Trường Tiểu học ABC."
         },
         {
-          "en": "A local public school",
-          "vi": "Một trường công lập địa phương"
+          "en": "It was Le Loi School.",
+          "vi": "Đó là trường Lê Lợi."
         },
         {
-          "en": "Sunnyside Elementary",
-          "vi": "Trường tiểu học Sunnyside"
+          "en": "A small local primary school.",
+          "vi": "Một trường tiểu học nhỏ ở địa phương."
         },
         {
-          "en": "My town's primary school",
-          "vi": "Trường tiểu học của thị trấn tôi"
+          "en": "It was in my hometown.",
+          "vi": "Nó ở quê tôi."
         },
         {
-          "en": "I went to Oak School",
-          "vi": "Tôi đã học trường Oak"
+          "en": "I went to ABC School.",
+          "vi": "Tôi học ở trường ABC."
         }
       ],
       "vi": "Bản dịch gợi ý: Ngôi trường đầu tiên của bạn là gì?"
