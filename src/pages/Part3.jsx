@@ -11,7 +11,7 @@ const Part3 = () => {
   const [gradingResults, setGradingResults] = useState({ q1: null, q2: null, q3: null });
   const [showTemplate, setShowTemplate] = useState({ q1: false, q2: false, q3: false });
   const [showTranslation, setShowTranslation] = useState({ q1: false, q2: false, q3: false });
-  const [isGrading, setIsGrading] = useState(false);
+  const [isGrading, setIsGrading] = useState({ q1: false, q2: false, q3: false });
   const [totalScore, setTotalScore] = useState(null);
 
   const playAudio = (word) => {
@@ -167,17 +167,19 @@ const Part3 = () => {
     return { score, feedback, status };
   };
 
-  const handleGradeAll = async () => {
-    setIsGrading(true);
-    setTotalScore(null);
-    
-    const resQ1 = await gradeSingleAnswer(answers.q1, questionData.q1, 'q1');
-    const resQ2 = await gradeSingleAnswer(answers.q2, questionData.q2, 'q2');
-    const resQ3 = await gradeSingleAnswer(answers.q3, questionData.q3, 'q3');
-    
-    setGradingResults({ q1: resQ1, q2: resQ2, q3: resQ3 });
-    setTotalScore(resQ1.score + resQ2.score + resQ3.score);
-    setIsGrading(false);
+  const handleGradeSingle = async (qKey) => {
+    setIsGrading(prev => ({ ...prev, [qKey]: true }));
+    const res = await gradeSingleAnswer(answers[qKey], questionData[qKey], qKey);
+    setGradingResults(prev => {
+      const newResults = { ...prev, [qKey]: res };
+      
+      // Calculate total if all 3 are graded
+      if (newResults.q1 && newResults.q2 && newResults.q3) {
+        setTotalScore(newResults.q1.score + newResults.q2.score + newResults.q3.score);
+      }
+      return newResults;
+    });
+    setIsGrading(prev => ({ ...prev, [qKey]: false }));
   };
 
   const clearGrade = () => {
@@ -384,6 +386,28 @@ const Part3 = () => {
                     Words: {count} / 40
                     {isOutOfRange && <span style={{ marginLeft: '0.5rem', fontSize: '0.8rem' }}>(Yêu cầu 30-40 từ)</span>}
                   </div>
+                  
+                  {!gResult ? (
+                    <button 
+                      className="btn btn-secondary" 
+                      style={{ padding: '0.4rem 1rem', fontSize: '0.85rem', opacity: isGrading[qKey] ? 0.7 : 1, cursor: isGrading[qKey] ? 'not-allowed' : 'pointer' }} 
+                      onClick={() => handleGradeSingle(qKey)}
+                      disabled={isGrading[qKey]}
+                    >
+                      {isGrading[qKey] ? 'Đang chấm...' : 'Chấm điểm'}
+                    </button>
+                  ) : (
+                    <button 
+                      className="btn btn-primary" 
+                      style={{ padding: '0.4rem 1rem', fontSize: '0.85rem', backgroundColor: 'var(--border-color)', color: 'var(--text-main)' }} 
+                      onClick={() => {
+                        setGradingResults(prev => ({...prev, [qKey]: null}));
+                        setTotalScore(null);
+                      }}
+                    >
+                      Làm lại
+                    </button>
+                  )}
                 </div>
 
                 {gResult && (
@@ -432,42 +456,30 @@ const Part3 = () => {
         </div>
 
         {/* Global Grading Section */}
-        <div style={{ 
-          marginTop: '1rem', 
-          padding: '1.5rem', 
-          backgroundColor: '#F8FAFC', 
-          borderRadius: '8px', 
-          border: '1px solid var(--border-color)',
-          display: 'flex',
-          flexDirection: 'column',
-          alignItems: 'center',
-          gap: '1rem'
-        }}>
-          {totalScore !== null && (
+        {totalScore !== null && (
+          <div style={{ 
+            marginTop: '1rem', 
+            padding: '1.5rem', 
+            backgroundColor: '#F8FAFC', 
+            borderRadius: '8px', 
+            border: '1px solid var(--border-color)',
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            gap: '1rem'
+          }}>
             <div style={{ fontSize: '1.5rem', fontWeight: 'bold', color: 'var(--primary)' }}>
               TỔNG ĐIỂM PART 3: {totalScore} / 15
             </div>
-          )}
-          
-          {!totalScore ? (
-            <button 
-              className="btn btn-primary" 
-              style={{ padding: '0.75rem 2rem', fontSize: '1rem', width: '100%', maxWidth: '300px', opacity: isGrading ? 0.7 : 1, cursor: isGrading ? 'not-allowed' : 'pointer' }} 
-              onClick={handleGradeAll}
-              disabled={isGrading}
-            >
-              {isGrading ? 'Đang chấm điểm (Vui lòng đợi)...' : 'Chấm điểm toàn bộ'}
-            </button>
-          ) : (
             <button 
               className="btn btn-secondary" 
               style={{ padding: '0.75rem 2rem', fontSize: '1rem', width: '100%', maxWidth: '300px' }} 
               onClick={clearGrade}
             >
-              Làm lại Part 3
+              Làm lại toàn bộ Part 3
             </button>
-          )}
-        </div>
+          </div>
+        )}
       </div>
     </div>
   );

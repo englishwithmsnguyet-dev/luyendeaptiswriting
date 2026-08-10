@@ -134,7 +134,7 @@ clubs.forEach((clubName, index) => {
       templates: [
         "I completely disagree with that idea. [Quan điểm của bạn] is actually a worthwhile investment because [lý do].",
         "I partly agree, but saying it is bad is a misconception. In fact, [quan điểm của bạn] brings long-term benefits.",
-        "That argument is totally unfounded. People often underestimate the true value of [vấn đề được nhắc tới]. I believe that..."
+        "That argument is totally unfounded. People often underestimate the true value of [vấn đề được nhắc tới]. I believe that [quan điểm của bạn]."
       ],
       samples: q2_samples
     },
