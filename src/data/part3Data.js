@@ -6,9 +6,15 @@ export const part3Data = {
     "q1": {
       "member": "Member A",
       "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vi": "Chào bạn! Chào mừng đến với câu lạc bộ. Tôi đã là thành viên được vài tháng. Tại sao bạn lại quyết định tham gia câu lạc bộ này và bạn hy vọng đạt được điều gì ở đây?",
       "vocab": [
         "✨ [lý do tham gia]: <strong>share my passion for this field</strong> (chia sẻ đam mê trong lĩnh vực này), <strong>meet like-minded people</strong> (gặp gỡ những người cùng chí hướng), <strong>relax after a long day</strong> (thư giãn sau một ngày dài)",
         "✨ [mục tiêu]: <strong>enhance my creative skills</strong> (nâng cao kỹ năng sáng tạo), <strong>expand my knowledge</strong> (mở rộng kiến thức), <strong>find a healthy work-life balance</strong> (tìm kiếm sự cân bằng giữa công việc và cuộc sống)"
+      ],
+      "templates": [
+        "I decided to join this club to [lý do tham gia]. I hope to [mục tiêu].",
+        "I joined the club mainly to [lý do tham gia]. My main goal is to [mục tiêu] through our activities.",
+        "Being part of this club allows me to [lý do tham gia]. I hope to [mục tiêu]."
       ],
       "samples": [
         {
@@ -28,9 +34,15 @@ export const part3Data = {
     "q2": {
       "member": "Member B",
       "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vi": "Xin chào! Một số người nghĩ rằng dành thời gian cho các hoạt động câu lạc bộ là lãng phí thời gian và tiền bạc. Ý kiến của bạn về vấn đề này là gì?",
       "vocab": [
         "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
         "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "templates": [
+        "[quan điểm] with that idea. Joining club activities is [lợi ích đối lập] because it helps me relieve stress.",
+        "[quan điểm]. In fact, these activities [lợi ích đối lập] and expand my social network.",
+        "[quan điểm] if the club is expensive. However, most activities are affordable and provide a great chance to develop myself."
       ],
       "samples": [
         {
@@ -50,9 +62,15 @@ export const part3Data = {
     "q3": {
       "member": "Member C",
       "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vi": "Chào bạn! Câu lạc bộ của chúng ta đang lên kế hoạch tổ chức một sự kiện đặc biệt vào tháng tới để thu hút thêm nhiều người trong cộng đồng. Bạn có gợi ý nào không?",
       "vocab": [
         "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
         "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "templates": [
+        "I highly recommend that we [gợi ý sự kiện]. This will definitely [mục đích] and engage everyone.",
+        "Why don't we [gợi ý sự kiện] next month? It is an excellent way to [mục đích].",
+        "I think [gợi ý sự kiện] would be a fantastic idea. It not only helps people but also [mục đích]."
       ],
       "samples": [
         {
@@ -74,9 +92,15 @@ export const part3Data = {
     "q1": {
       "member": "Member A",
       "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vi": "Chào bạn! Chào mừng đến với câu lạc bộ. Tôi đã là thành viên được vài tháng. Tại sao bạn lại quyết định tham gia câu lạc bộ này và bạn hy vọng đạt được điều gì ở đây?",
       "vocab": [
         "✨ [lý do tham gia]: <strong>broaden my horizons</strong> (mở rộng tầm nhìn), <strong>contribute to the community</strong> (đóng góp cho cộng đồng), <strong>make meaningful connections</strong> (tạo ra những kết nối ý nghĩa)",
         "✨ [mục tiêu]: <strong>experience new things</strong> (trải nghiệm những điều mới), <strong>develop my soft skills</strong> (phát triển kỹ năng mềm), <strong>find peace of mind</strong> (tìm sự bình yên trong tâm trí)"
+      ],
+      "templates": [
+        "I decided to join this club to [lý do tham gia]. I hope to [mục tiêu].",
+        "I joined the club mainly to [lý do tham gia]. My main goal is to [mục tiêu] through our activities.",
+        "Being part of this club allows me to [lý do tham gia]. I hope to [mục tiêu]."
       ],
       "samples": [
         {
@@ -96,9 +120,15 @@ export const part3Data = {
     "q2": {
       "member": "Member B",
       "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vi": "Xin chào! Một số người nghĩ rằng dành thời gian cho các hoạt động câu lạc bộ là lãng phí thời gian và tiền bạc. Ý kiến của bạn về vấn đề này là gì?",
       "vocab": [
         "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
         "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "templates": [
+        "[quan điểm] with that idea. Joining club activities is [lợi ích đối lập] because it helps me relieve stress.",
+        "[quan điểm]. In fact, these activities [lợi ích đối lập] and expand my social network.",
+        "[quan điểm] if the club is expensive. However, most activities are affordable and provide a great chance to develop myself."
       ],
       "samples": [
         {
@@ -118,9 +148,15 @@ export const part3Data = {
     "q3": {
       "member": "Member C",
       "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vi": "Chào bạn! Câu lạc bộ của chúng ta đang lên kế hoạch tổ chức một sự kiện đặc biệt vào tháng tới để thu hút thêm nhiều người trong cộng đồng. Bạn có gợi ý nào không?",
       "vocab": [
         "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
         "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "templates": [
+        "I highly recommend that we [gợi ý sự kiện]. This will definitely [mục đích] and engage everyone.",
+        "Why don't we [gợi ý sự kiện] next month? It is an excellent way to [mục đích].",
+        "I think [gợi ý sự kiện] would be a fantastic idea. It not only helps people but also [mục đích]."
       ],
       "samples": [
         {
@@ -142,9 +178,15 @@ export const part3Data = {
     "q1": {
       "member": "Member A",
       "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vi": "Chào bạn! Chào mừng đến với câu lạc bộ. Tôi đã là thành viên được vài tháng. Tại sao bạn lại quyết định tham gia câu lạc bộ này và bạn hy vọng đạt được điều gì ở đây?",
       "vocab": [
         "✨ [lý do tham gia]: <strong>broaden my horizons</strong> (mở rộng tầm nhìn), <strong>contribute to the community</strong> (đóng góp cho cộng đồng), <strong>make meaningful connections</strong> (tạo ra những kết nối ý nghĩa)",
         "✨ [mục tiêu]: <strong>experience new things</strong> (trải nghiệm những điều mới), <strong>develop my soft skills</strong> (phát triển kỹ năng mềm), <strong>find peace of mind</strong> (tìm sự bình yên trong tâm trí)"
+      ],
+      "templates": [
+        "I decided to join this club to [lý do tham gia]. I hope to [mục tiêu].",
+        "I joined the club mainly to [lý do tham gia]. My main goal is to [mục tiêu] through our activities.",
+        "Being part of this club allows me to [lý do tham gia]. I hope to [mục tiêu]."
       ],
       "samples": [
         {
@@ -164,9 +206,15 @@ export const part3Data = {
     "q2": {
       "member": "Member B",
       "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vi": "Xin chào! Một số người nghĩ rằng dành thời gian cho các hoạt động câu lạc bộ là lãng phí thời gian và tiền bạc. Ý kiến của bạn về vấn đề này là gì?",
       "vocab": [
         "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
         "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "templates": [
+        "[quan điểm] with that idea. Joining club activities is [lợi ích đối lập] because it helps me relieve stress.",
+        "[quan điểm]. In fact, these activities [lợi ích đối lập] and expand my social network.",
+        "[quan điểm] if the club is expensive. However, most activities are affordable and provide a great chance to develop myself."
       ],
       "samples": [
         {
@@ -186,9 +234,15 @@ export const part3Data = {
     "q3": {
       "member": "Member C",
       "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vi": "Chào bạn! Câu lạc bộ của chúng ta đang lên kế hoạch tổ chức một sự kiện đặc biệt vào tháng tới để thu hút thêm nhiều người trong cộng đồng. Bạn có gợi ý nào không?",
       "vocab": [
         "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
         "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "templates": [
+        "I highly recommend that we [gợi ý sự kiện]. This will definitely [mục đích] and engage everyone.",
+        "Why don't we [gợi ý sự kiện] next month? It is an excellent way to [mục đích].",
+        "I think [gợi ý sự kiện] would be a fantastic idea. It not only helps people but also [mục đích]."
       ],
       "samples": [
         {
@@ -210,9 +264,15 @@ export const part3Data = {
     "q1": {
       "member": "Member A",
       "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vi": "Chào bạn! Chào mừng đến với câu lạc bộ. Tôi đã là thành viên được vài tháng. Tại sao bạn lại quyết định tham gia câu lạc bộ này và bạn hy vọng đạt được điều gì ở đây?",
       "vocab": [
         "✨ [lý do tham gia]: <strong>broaden my horizons</strong> (mở rộng tầm nhìn), <strong>contribute to the community</strong> (đóng góp cho cộng đồng), <strong>make meaningful connections</strong> (tạo ra những kết nối ý nghĩa)",
         "✨ [mục tiêu]: <strong>experience new things</strong> (trải nghiệm những điều mới), <strong>develop my soft skills</strong> (phát triển kỹ năng mềm), <strong>find peace of mind</strong> (tìm sự bình yên trong tâm trí)"
+      ],
+      "templates": [
+        "I decided to join this club to [lý do tham gia]. I hope to [mục tiêu].",
+        "I joined the club mainly to [lý do tham gia]. My main goal is to [mục tiêu] through our activities.",
+        "Being part of this club allows me to [lý do tham gia]. I hope to [mục tiêu]."
       ],
       "samples": [
         {
@@ -232,9 +292,15 @@ export const part3Data = {
     "q2": {
       "member": "Member B",
       "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vi": "Xin chào! Một số người nghĩ rằng dành thời gian cho các hoạt động câu lạc bộ là lãng phí thời gian và tiền bạc. Ý kiến của bạn về vấn đề này là gì?",
       "vocab": [
         "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
         "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "templates": [
+        "[quan điểm] with that idea. Joining club activities is [lợi ích đối lập] because it helps me relieve stress.",
+        "[quan điểm]. In fact, these activities [lợi ích đối lập] and expand my social network.",
+        "[quan điểm] if the club is expensive. However, most activities are affordable and provide a great chance to develop myself."
       ],
       "samples": [
         {
@@ -254,9 +320,15 @@ export const part3Data = {
     "q3": {
       "member": "Member C",
       "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vi": "Chào bạn! Câu lạc bộ của chúng ta đang lên kế hoạch tổ chức một sự kiện đặc biệt vào tháng tới để thu hút thêm nhiều người trong cộng đồng. Bạn có gợi ý nào không?",
       "vocab": [
         "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
         "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "templates": [
+        "I highly recommend that we [gợi ý sự kiện]. This will definitely [mục đích] and engage everyone.",
+        "Why don't we [gợi ý sự kiện] next month? It is an excellent way to [mục đích].",
+        "I think [gợi ý sự kiện] would be a fantastic idea. It not only helps people but also [mục đích]."
       ],
       "samples": [
         {
@@ -278,9 +350,15 @@ export const part3Data = {
     "q1": {
       "member": "Member A",
       "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vi": "Chào bạn! Chào mừng đến với câu lạc bộ. Tôi đã là thành viên được vài tháng. Tại sao bạn lại quyết định tham gia câu lạc bộ này và bạn hy vọng đạt được điều gì ở đây?",
       "vocab": [
         "✨ [lý do tham gia]: <strong>stay in good shape</strong> (giữ dáng), <strong>relieve daily stress</strong> (giảm căng thẳng hàng ngày), <strong>adopt a healthier lifestyle</strong> (áp dụng lối sống lành mạnh hơn)",
         "✨ [mục tiêu]: <strong>strengthen my physical endurance</strong> (tăng cường sức bền thể chất), <strong>boost my emotional well-being</strong> (nâng cao sức khỏe tinh thần), <strong>burn calories effectively</strong> (đốt cháy calo hiệu quả)"
+      ],
+      "templates": [
+        "I decided to join this club to [lý do tham gia]. I hope to [mục tiêu].",
+        "I joined the club mainly to [lý do tham gia]. My main goal is to [mục tiêu] through our activities.",
+        "Being part of this club allows me to [lý do tham gia]. I hope to [mục tiêu]."
       ],
       "samples": [
         {
@@ -300,9 +378,15 @@ export const part3Data = {
     "q2": {
       "member": "Member B",
       "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vi": "Xin chào! Một số người nghĩ rằng dành thời gian cho các hoạt động câu lạc bộ là lãng phí thời gian và tiền bạc. Ý kiến của bạn về vấn đề này là gì?",
       "vocab": [
         "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
         "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "templates": [
+        "[quan điểm] with that idea. Joining club activities is [lợi ích đối lập] because it helps me relieve stress.",
+        "[quan điểm]. In fact, these activities [lợi ích đối lập] and expand my social network.",
+        "[quan điểm] if the club is expensive. However, most activities are affordable and provide a great chance to develop myself."
       ],
       "samples": [
         {
@@ -322,9 +406,15 @@ export const part3Data = {
     "q3": {
       "member": "Member C",
       "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vi": "Chào bạn! Câu lạc bộ của chúng ta đang lên kế hoạch tổ chức một sự kiện đặc biệt vào tháng tới để thu hút thêm nhiều người trong cộng đồng. Bạn có gợi ý nào không?",
       "vocab": [
         "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
         "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "templates": [
+        "I highly recommend that we [gợi ý sự kiện]. This will definitely [mục đích] and engage everyone.",
+        "Why don't we [gợi ý sự kiện] next month? It is an excellent way to [mục đích].",
+        "I think [gợi ý sự kiện] would be a fantastic idea. It not only helps people but also [mục đích]."
       ],
       "samples": [
         {
@@ -346,9 +436,15 @@ export const part3Data = {
     "q1": {
       "member": "Member A",
       "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vi": "Chào bạn! Chào mừng đến với câu lạc bộ. Tôi đã là thành viên được vài tháng. Tại sao bạn lại quyết định tham gia câu lạc bộ này và bạn hy vọng đạt được điều gì ở đây?",
       "vocab": [
         "✨ [lý do tham gia]: <strong>stay in good shape</strong> (giữ dáng), <strong>relieve daily stress</strong> (giảm căng thẳng hàng ngày), <strong>adopt a healthier lifestyle</strong> (áp dụng lối sống lành mạnh hơn)",
         "✨ [mục tiêu]: <strong>strengthen my physical endurance</strong> (tăng cường sức bền thể chất), <strong>boost my emotional well-being</strong> (nâng cao sức khỏe tinh thần), <strong>burn calories effectively</strong> (đốt cháy calo hiệu quả)"
+      ],
+      "templates": [
+        "I decided to join this club to [lý do tham gia]. I hope to [mục tiêu].",
+        "I joined the club mainly to [lý do tham gia]. My main goal is to [mục tiêu] through our activities.",
+        "Being part of this club allows me to [lý do tham gia]. I hope to [mục tiêu]."
       ],
       "samples": [
         {
@@ -368,9 +464,15 @@ export const part3Data = {
     "q2": {
       "member": "Member B",
       "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vi": "Xin chào! Một số người nghĩ rằng dành thời gian cho các hoạt động câu lạc bộ là lãng phí thời gian và tiền bạc. Ý kiến của bạn về vấn đề này là gì?",
       "vocab": [
         "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
         "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "templates": [
+        "[quan điểm] with that idea. Joining club activities is [lợi ích đối lập] because it helps me relieve stress.",
+        "[quan điểm]. In fact, these activities [lợi ích đối lập] and expand my social network.",
+        "[quan điểm] if the club is expensive. However, most activities are affordable and provide a great chance to develop myself."
       ],
       "samples": [
         {
@@ -390,9 +492,15 @@ export const part3Data = {
     "q3": {
       "member": "Member C",
       "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vi": "Chào bạn! Câu lạc bộ của chúng ta đang lên kế hoạch tổ chức một sự kiện đặc biệt vào tháng tới để thu hút thêm nhiều người trong cộng đồng. Bạn có gợi ý nào không?",
       "vocab": [
         "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
         "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "templates": [
+        "I highly recommend that we [gợi ý sự kiện]. This will definitely [mục đích] and engage everyone.",
+        "Why don't we [gợi ý sự kiện] next month? It is an excellent way to [mục đích].",
+        "I think [gợi ý sự kiện] would be a fantastic idea. It not only helps people but also [mục đích]."
       ],
       "samples": [
         {
@@ -414,9 +522,15 @@ export const part3Data = {
     "q1": {
       "member": "Member A",
       "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vi": "Chào bạn! Chào mừng đến với câu lạc bộ. Tôi đã là thành viên được vài tháng. Tại sao bạn lại quyết định tham gia câu lạc bộ này và bạn hy vọng đạt được điều gì ở đây?",
       "vocab": [
         "✨ [lý do tham gia]: <strong>share my passion for this field</strong> (chia sẻ đam mê trong lĩnh vực này), <strong>meet like-minded people</strong> (gặp gỡ những người cùng chí hướng), <strong>relax after a long day</strong> (thư giãn sau một ngày dài)",
         "✨ [mục tiêu]: <strong>enhance my creative skills</strong> (nâng cao kỹ năng sáng tạo), <strong>expand my knowledge</strong> (mở rộng kiến thức), <strong>find a healthy work-life balance</strong> (tìm kiếm sự cân bằng giữa công việc và cuộc sống)"
+      ],
+      "templates": [
+        "I decided to join this club to [lý do tham gia]. I hope to [mục tiêu].",
+        "I joined the club mainly to [lý do tham gia]. My main goal is to [mục tiêu] through our activities.",
+        "Being part of this club allows me to [lý do tham gia]. I hope to [mục tiêu]."
       ],
       "samples": [
         {
@@ -436,9 +550,15 @@ export const part3Data = {
     "q2": {
       "member": "Member B",
       "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vi": "Xin chào! Một số người nghĩ rằng dành thời gian cho các hoạt động câu lạc bộ là lãng phí thời gian và tiền bạc. Ý kiến của bạn về vấn đề này là gì?",
       "vocab": [
         "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
         "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "templates": [
+        "[quan điểm] with that idea. Joining club activities is [lợi ích đối lập] because it helps me relieve stress.",
+        "[quan điểm]. In fact, these activities [lợi ích đối lập] and expand my social network.",
+        "[quan điểm] if the club is expensive. However, most activities are affordable and provide a great chance to develop myself."
       ],
       "samples": [
         {
@@ -458,9 +578,15 @@ export const part3Data = {
     "q3": {
       "member": "Member C",
       "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vi": "Chào bạn! Câu lạc bộ của chúng ta đang lên kế hoạch tổ chức một sự kiện đặc biệt vào tháng tới để thu hút thêm nhiều người trong cộng đồng. Bạn có gợi ý nào không?",
       "vocab": [
         "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
         "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "templates": [
+        "I highly recommend that we [gợi ý sự kiện]. This will definitely [mục đích] and engage everyone.",
+        "Why don't we [gợi ý sự kiện] next month? It is an excellent way to [mục đích].",
+        "I think [gợi ý sự kiện] would be a fantastic idea. It not only helps people but also [mục đích]."
       ],
       "samples": [
         {
@@ -482,9 +608,15 @@ export const part3Data = {
     "q1": {
       "member": "Member A",
       "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vi": "Chào bạn! Chào mừng đến với câu lạc bộ. Tôi đã là thành viên được vài tháng. Tại sao bạn lại quyết định tham gia câu lạc bộ này và bạn hy vọng đạt được điều gì ở đây?",
       "vocab": [
         "✨ [lý do tham gia]: <strong>stay in good shape</strong> (giữ dáng), <strong>relieve daily stress</strong> (giảm căng thẳng hàng ngày), <strong>adopt a healthier lifestyle</strong> (áp dụng lối sống lành mạnh hơn)",
         "✨ [mục tiêu]: <strong>strengthen my physical endurance</strong> (tăng cường sức bền thể chất), <strong>boost my emotional well-being</strong> (nâng cao sức khỏe tinh thần), <strong>burn calories effectively</strong> (đốt cháy calo hiệu quả)"
+      ],
+      "templates": [
+        "I decided to join this club to [lý do tham gia]. I hope to [mục tiêu].",
+        "I joined the club mainly to [lý do tham gia]. My main goal is to [mục tiêu] through our activities.",
+        "Being part of this club allows me to [lý do tham gia]. I hope to [mục tiêu]."
       ],
       "samples": [
         {
@@ -504,9 +636,15 @@ export const part3Data = {
     "q2": {
       "member": "Member B",
       "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vi": "Xin chào! Một số người nghĩ rằng dành thời gian cho các hoạt động câu lạc bộ là lãng phí thời gian và tiền bạc. Ý kiến của bạn về vấn đề này là gì?",
       "vocab": [
         "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
         "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "templates": [
+        "[quan điểm] with that idea. Joining club activities is [lợi ích đối lập] because it helps me relieve stress.",
+        "[quan điểm]. In fact, these activities [lợi ích đối lập] and expand my social network.",
+        "[quan điểm] if the club is expensive. However, most activities are affordable and provide a great chance to develop myself."
       ],
       "samples": [
         {
@@ -526,9 +664,15 @@ export const part3Data = {
     "q3": {
       "member": "Member C",
       "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vi": "Chào bạn! Câu lạc bộ của chúng ta đang lên kế hoạch tổ chức một sự kiện đặc biệt vào tháng tới để thu hút thêm nhiều người trong cộng đồng. Bạn có gợi ý nào không?",
       "vocab": [
         "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
         "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "templates": [
+        "I highly recommend that we [gợi ý sự kiện]. This will definitely [mục đích] and engage everyone.",
+        "Why don't we [gợi ý sự kiện] next month? It is an excellent way to [mục đích].",
+        "I think [gợi ý sự kiện] would be a fantastic idea. It not only helps people but also [mục đích]."
       ],
       "samples": [
         {
@@ -550,9 +694,15 @@ export const part3Data = {
     "q1": {
       "member": "Member A",
       "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vi": "Chào bạn! Chào mừng đến với câu lạc bộ. Tôi đã là thành viên được vài tháng. Tại sao bạn lại quyết định tham gia câu lạc bộ này và bạn hy vọng đạt được điều gì ở đây?",
       "vocab": [
         "✨ [lý do tham gia]: <strong>boost my career prospects</strong> (nâng cao triển vọng nghề nghiệp), <strong>expand my professional network</strong> (mở rộng mạng lưới chuyên môn), <strong>stay updated with new trends</strong> (cập nhật các xu hướng mới)",
         "✨ [mục tiêu]: <strong>improve my practical skills</strong> (cải thiện kỹ năng thực tế), <strong>gain valuable experience</strong> (thu được kinh nghiệm quý báu), <strong>exchange innovative ideas</strong> (trao đổi những ý tưởng đổi mới)"
+      ],
+      "templates": [
+        "I decided to join this club to [lý do tham gia]. I hope to [mục tiêu].",
+        "I joined the club mainly to [lý do tham gia]. My main goal is to [mục tiêu] through our activities.",
+        "Being part of this club allows me to [lý do tham gia]. I hope to [mục tiêu]."
       ],
       "samples": [
         {
@@ -572,9 +722,15 @@ export const part3Data = {
     "q2": {
       "member": "Member B",
       "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vi": "Xin chào! Một số người nghĩ rằng dành thời gian cho các hoạt động câu lạc bộ là lãng phí thời gian và tiền bạc. Ý kiến của bạn về vấn đề này là gì?",
       "vocab": [
         "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
         "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "templates": [
+        "[quan điểm] with that idea. Joining club activities is [lợi ích đối lập] because it helps me relieve stress.",
+        "[quan điểm]. In fact, these activities [lợi ích đối lập] and expand my social network.",
+        "[quan điểm] if the club is expensive. However, most activities are affordable and provide a great chance to develop myself."
       ],
       "samples": [
         {
@@ -594,9 +750,15 @@ export const part3Data = {
     "q3": {
       "member": "Member C",
       "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vi": "Chào bạn! Câu lạc bộ của chúng ta đang lên kế hoạch tổ chức một sự kiện đặc biệt vào tháng tới để thu hút thêm nhiều người trong cộng đồng. Bạn có gợi ý nào không?",
       "vocab": [
         "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
         "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "templates": [
+        "I highly recommend that we [gợi ý sự kiện]. This will definitely [mục đích] and engage everyone.",
+        "Why don't we [gợi ý sự kiện] next month? It is an excellent way to [mục đích].",
+        "I think [gợi ý sự kiện] would be a fantastic idea. It not only helps people but also [mục đích]."
       ],
       "samples": [
         {
@@ -618,9 +780,15 @@ export const part3Data = {
     "q1": {
       "member": "Member A",
       "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vi": "Chào bạn! Chào mừng đến với câu lạc bộ. Tôi đã là thành viên được vài tháng. Tại sao bạn lại quyết định tham gia câu lạc bộ này và bạn hy vọng đạt được điều gì ở đây?",
       "vocab": [
         "✨ [lý do tham gia]: <strong>boost my career prospects</strong> (nâng cao triển vọng nghề nghiệp), <strong>expand my professional network</strong> (mở rộng mạng lưới chuyên môn), <strong>stay updated with new trends</strong> (cập nhật các xu hướng mới)",
         "✨ [mục tiêu]: <strong>improve my practical skills</strong> (cải thiện kỹ năng thực tế), <strong>gain valuable experience</strong> (thu được kinh nghiệm quý báu), <strong>exchange innovative ideas</strong> (trao đổi những ý tưởng đổi mới)"
+      ],
+      "templates": [
+        "I decided to join this club to [lý do tham gia]. I hope to [mục tiêu].",
+        "I joined the club mainly to [lý do tham gia]. My main goal is to [mục tiêu] through our activities.",
+        "Being part of this club allows me to [lý do tham gia]. I hope to [mục tiêu]."
       ],
       "samples": [
         {
@@ -640,9 +808,15 @@ export const part3Data = {
     "q2": {
       "member": "Member B",
       "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vi": "Xin chào! Một số người nghĩ rằng dành thời gian cho các hoạt động câu lạc bộ là lãng phí thời gian và tiền bạc. Ý kiến của bạn về vấn đề này là gì?",
       "vocab": [
         "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
         "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "templates": [
+        "[quan điểm] with that idea. Joining club activities is [lợi ích đối lập] because it helps me relieve stress.",
+        "[quan điểm]. In fact, these activities [lợi ích đối lập] and expand my social network.",
+        "[quan điểm] if the club is expensive. However, most activities are affordable and provide a great chance to develop myself."
       ],
       "samples": [
         {
@@ -662,9 +836,15 @@ export const part3Data = {
     "q3": {
       "member": "Member C",
       "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vi": "Chào bạn! Câu lạc bộ của chúng ta đang lên kế hoạch tổ chức một sự kiện đặc biệt vào tháng tới để thu hút thêm nhiều người trong cộng đồng. Bạn có gợi ý nào không?",
       "vocab": [
         "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
         "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "templates": [
+        "I highly recommend that we [gợi ý sự kiện]. This will definitely [mục đích] and engage everyone.",
+        "Why don't we [gợi ý sự kiện] next month? It is an excellent way to [mục đích].",
+        "I think [gợi ý sự kiện] would be a fantastic idea. It not only helps people but also [mục đích]."
       ],
       "samples": [
         {
@@ -686,9 +866,15 @@ export const part3Data = {
     "q1": {
       "member": "Member A",
       "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vi": "Chào bạn! Chào mừng đến với câu lạc bộ. Tôi đã là thành viên được vài tháng. Tại sao bạn lại quyết định tham gia câu lạc bộ này và bạn hy vọng đạt được điều gì ở đây?",
       "vocab": [
         "✨ [lý do tham gia]: <strong>broaden my horizons</strong> (mở rộng tầm nhìn), <strong>contribute to the community</strong> (đóng góp cho cộng đồng), <strong>make meaningful connections</strong> (tạo ra những kết nối ý nghĩa)",
         "✨ [mục tiêu]: <strong>experience new things</strong> (trải nghiệm những điều mới), <strong>develop my soft skills</strong> (phát triển kỹ năng mềm), <strong>find peace of mind</strong> (tìm sự bình yên trong tâm trí)"
+      ],
+      "templates": [
+        "I decided to join this club to [lý do tham gia]. I hope to [mục tiêu].",
+        "I joined the club mainly to [lý do tham gia]. My main goal is to [mục tiêu] through our activities.",
+        "Being part of this club allows me to [lý do tham gia]. I hope to [mục tiêu]."
       ],
       "samples": [
         {
@@ -708,9 +894,15 @@ export const part3Data = {
     "q2": {
       "member": "Member B",
       "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vi": "Xin chào! Một số người nghĩ rằng dành thời gian cho các hoạt động câu lạc bộ là lãng phí thời gian và tiền bạc. Ý kiến của bạn về vấn đề này là gì?",
       "vocab": [
         "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
         "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "templates": [
+        "[quan điểm] with that idea. Joining club activities is [lợi ích đối lập] because it helps me relieve stress.",
+        "[quan điểm]. In fact, these activities [lợi ích đối lập] and expand my social network.",
+        "[quan điểm] if the club is expensive. However, most activities are affordable and provide a great chance to develop myself."
       ],
       "samples": [
         {
@@ -730,9 +922,15 @@ export const part3Data = {
     "q3": {
       "member": "Member C",
       "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vi": "Chào bạn! Câu lạc bộ của chúng ta đang lên kế hoạch tổ chức một sự kiện đặc biệt vào tháng tới để thu hút thêm nhiều người trong cộng đồng. Bạn có gợi ý nào không?",
       "vocab": [
         "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
         "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "templates": [
+        "I highly recommend that we [gợi ý sự kiện]. This will definitely [mục đích] and engage everyone.",
+        "Why don't we [gợi ý sự kiện] next month? It is an excellent way to [mục đích].",
+        "I think [gợi ý sự kiện] would be a fantastic idea. It not only helps people but also [mục đích]."
       ],
       "samples": [
         {
@@ -754,9 +952,15 @@ export const part3Data = {
     "q1": {
       "member": "Member A",
       "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vi": "Chào bạn! Chào mừng đến với câu lạc bộ. Tôi đã là thành viên được vài tháng. Tại sao bạn lại quyết định tham gia câu lạc bộ này và bạn hy vọng đạt được điều gì ở đây?",
       "vocab": [
         "✨ [lý do tham gia]: <strong>share my passion for this field</strong> (chia sẻ đam mê trong lĩnh vực này), <strong>meet like-minded people</strong> (gặp gỡ những người cùng chí hướng), <strong>relax after a long day</strong> (thư giãn sau một ngày dài)",
         "✨ [mục tiêu]: <strong>enhance my creative skills</strong> (nâng cao kỹ năng sáng tạo), <strong>expand my knowledge</strong> (mở rộng kiến thức), <strong>find a healthy work-life balance</strong> (tìm kiếm sự cân bằng giữa công việc và cuộc sống)"
+      ],
+      "templates": [
+        "I decided to join this club to [lý do tham gia]. I hope to [mục tiêu].",
+        "I joined the club mainly to [lý do tham gia]. My main goal is to [mục tiêu] through our activities.",
+        "Being part of this club allows me to [lý do tham gia]. I hope to [mục tiêu]."
       ],
       "samples": [
         {
@@ -776,9 +980,15 @@ export const part3Data = {
     "q2": {
       "member": "Member B",
       "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vi": "Xin chào! Một số người nghĩ rằng dành thời gian cho các hoạt động câu lạc bộ là lãng phí thời gian và tiền bạc. Ý kiến của bạn về vấn đề này là gì?",
       "vocab": [
         "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
         "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "templates": [
+        "[quan điểm] with that idea. Joining club activities is [lợi ích đối lập] because it helps me relieve stress.",
+        "[quan điểm]. In fact, these activities [lợi ích đối lập] and expand my social network.",
+        "[quan điểm] if the club is expensive. However, most activities are affordable and provide a great chance to develop myself."
       ],
       "samples": [
         {
@@ -798,9 +1008,15 @@ export const part3Data = {
     "q3": {
       "member": "Member C",
       "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vi": "Chào bạn! Câu lạc bộ của chúng ta đang lên kế hoạch tổ chức một sự kiện đặc biệt vào tháng tới để thu hút thêm nhiều người trong cộng đồng. Bạn có gợi ý nào không?",
       "vocab": [
         "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
         "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "templates": [
+        "I highly recommend that we [gợi ý sự kiện]. This will definitely [mục đích] and engage everyone.",
+        "Why don't we [gợi ý sự kiện] next month? It is an excellent way to [mục đích].",
+        "I think [gợi ý sự kiện] would be a fantastic idea. It not only helps people but also [mục đích]."
       ],
       "samples": [
         {
@@ -822,9 +1038,15 @@ export const part3Data = {
     "q1": {
       "member": "Member A",
       "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vi": "Chào bạn! Chào mừng đến với câu lạc bộ. Tôi đã là thành viên được vài tháng. Tại sao bạn lại quyết định tham gia câu lạc bộ này và bạn hy vọng đạt được điều gì ở đây?",
       "vocab": [
         "✨ [lý do tham gia]: <strong>broaden my horizons</strong> (mở rộng tầm nhìn), <strong>contribute to the community</strong> (đóng góp cho cộng đồng), <strong>make meaningful connections</strong> (tạo ra những kết nối ý nghĩa)",
         "✨ [mục tiêu]: <strong>experience new things</strong> (trải nghiệm những điều mới), <strong>develop my soft skills</strong> (phát triển kỹ năng mềm), <strong>find peace of mind</strong> (tìm sự bình yên trong tâm trí)"
+      ],
+      "templates": [
+        "I decided to join this club to [lý do tham gia]. I hope to [mục tiêu].",
+        "I joined the club mainly to [lý do tham gia]. My main goal is to [mục tiêu] through our activities.",
+        "Being part of this club allows me to [lý do tham gia]. I hope to [mục tiêu]."
       ],
       "samples": [
         {
@@ -844,9 +1066,15 @@ export const part3Data = {
     "q2": {
       "member": "Member B",
       "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vi": "Xin chào! Một số người nghĩ rằng dành thời gian cho các hoạt động câu lạc bộ là lãng phí thời gian và tiền bạc. Ý kiến của bạn về vấn đề này là gì?",
       "vocab": [
         "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
         "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "templates": [
+        "[quan điểm] with that idea. Joining club activities is [lợi ích đối lập] because it helps me relieve stress.",
+        "[quan điểm]. In fact, these activities [lợi ích đối lập] and expand my social network.",
+        "[quan điểm] if the club is expensive. However, most activities are affordable and provide a great chance to develop myself."
       ],
       "samples": [
         {
@@ -866,9 +1094,15 @@ export const part3Data = {
     "q3": {
       "member": "Member C",
       "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vi": "Chào bạn! Câu lạc bộ của chúng ta đang lên kế hoạch tổ chức một sự kiện đặc biệt vào tháng tới để thu hút thêm nhiều người trong cộng đồng. Bạn có gợi ý nào không?",
       "vocab": [
         "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
         "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "templates": [
+        "I highly recommend that we [gợi ý sự kiện]. This will definitely [mục đích] and engage everyone.",
+        "Why don't we [gợi ý sự kiện] next month? It is an excellent way to [mục đích].",
+        "I think [gợi ý sự kiện] would be a fantastic idea. It not only helps people but also [mục đích]."
       ],
       "samples": [
         {
@@ -890,9 +1124,15 @@ export const part3Data = {
     "q1": {
       "member": "Member A",
       "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vi": "Chào bạn! Chào mừng đến với câu lạc bộ. Tôi đã là thành viên được vài tháng. Tại sao bạn lại quyết định tham gia câu lạc bộ này và bạn hy vọng đạt được điều gì ở đây?",
       "vocab": [
         "✨ [lý do tham gia]: <strong>boost my career prospects</strong> (nâng cao triển vọng nghề nghiệp), <strong>expand my professional network</strong> (mở rộng mạng lưới chuyên môn), <strong>stay updated with new trends</strong> (cập nhật các xu hướng mới)",
         "✨ [mục tiêu]: <strong>improve my practical skills</strong> (cải thiện kỹ năng thực tế), <strong>gain valuable experience</strong> (thu được kinh nghiệm quý báu), <strong>exchange innovative ideas</strong> (trao đổi những ý tưởng đổi mới)"
+      ],
+      "templates": [
+        "I decided to join this club to [lý do tham gia]. I hope to [mục tiêu].",
+        "I joined the club mainly to [lý do tham gia]. My main goal is to [mục tiêu] through our activities.",
+        "Being part of this club allows me to [lý do tham gia]. I hope to [mục tiêu]."
       ],
       "samples": [
         {
@@ -912,9 +1152,15 @@ export const part3Data = {
     "q2": {
       "member": "Member B",
       "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vi": "Xin chào! Một số người nghĩ rằng dành thời gian cho các hoạt động câu lạc bộ là lãng phí thời gian và tiền bạc. Ý kiến của bạn về vấn đề này là gì?",
       "vocab": [
         "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
         "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "templates": [
+        "[quan điểm] with that idea. Joining club activities is [lợi ích đối lập] because it helps me relieve stress.",
+        "[quan điểm]. In fact, these activities [lợi ích đối lập] and expand my social network.",
+        "[quan điểm] if the club is expensive. However, most activities are affordable and provide a great chance to develop myself."
       ],
       "samples": [
         {
@@ -934,9 +1180,15 @@ export const part3Data = {
     "q3": {
       "member": "Member C",
       "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vi": "Chào bạn! Câu lạc bộ của chúng ta đang lên kế hoạch tổ chức một sự kiện đặc biệt vào tháng tới để thu hút thêm nhiều người trong cộng đồng. Bạn có gợi ý nào không?",
       "vocab": [
         "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
         "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "templates": [
+        "I highly recommend that we [gợi ý sự kiện]. This will definitely [mục đích] and engage everyone.",
+        "Why don't we [gợi ý sự kiện] next month? It is an excellent way to [mục đích].",
+        "I think [gợi ý sự kiện] would be a fantastic idea. It not only helps people but also [mục đích]."
       ],
       "samples": [
         {
@@ -958,9 +1210,15 @@ export const part3Data = {
     "q1": {
       "member": "Member A",
       "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vi": "Chào bạn! Chào mừng đến với câu lạc bộ. Tôi đã là thành viên được vài tháng. Tại sao bạn lại quyết định tham gia câu lạc bộ này và bạn hy vọng đạt được điều gì ở đây?",
       "vocab": [
         "✨ [lý do tham gia]: <strong>broaden my horizons</strong> (mở rộng tầm nhìn), <strong>contribute to the community</strong> (đóng góp cho cộng đồng), <strong>make meaningful connections</strong> (tạo ra những kết nối ý nghĩa)",
         "✨ [mục tiêu]: <strong>experience new things</strong> (trải nghiệm những điều mới), <strong>develop my soft skills</strong> (phát triển kỹ năng mềm), <strong>find peace of mind</strong> (tìm sự bình yên trong tâm trí)"
+      ],
+      "templates": [
+        "I decided to join this club to [lý do tham gia]. I hope to [mục tiêu].",
+        "I joined the club mainly to [lý do tham gia]. My main goal is to [mục tiêu] through our activities.",
+        "Being part of this club allows me to [lý do tham gia]. I hope to [mục tiêu]."
       ],
       "samples": [
         {
@@ -980,9 +1238,15 @@ export const part3Data = {
     "q2": {
       "member": "Member B",
       "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vi": "Xin chào! Một số người nghĩ rằng dành thời gian cho các hoạt động câu lạc bộ là lãng phí thời gian và tiền bạc. Ý kiến của bạn về vấn đề này là gì?",
       "vocab": [
         "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
         "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "templates": [
+        "[quan điểm] with that idea. Joining club activities is [lợi ích đối lập] because it helps me relieve stress.",
+        "[quan điểm]. In fact, these activities [lợi ích đối lập] and expand my social network.",
+        "[quan điểm] if the club is expensive. However, most activities are affordable and provide a great chance to develop myself."
       ],
       "samples": [
         {
@@ -1002,9 +1266,15 @@ export const part3Data = {
     "q3": {
       "member": "Member C",
       "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vi": "Chào bạn! Câu lạc bộ của chúng ta đang lên kế hoạch tổ chức một sự kiện đặc biệt vào tháng tới để thu hút thêm nhiều người trong cộng đồng. Bạn có gợi ý nào không?",
       "vocab": [
         "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
         "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "templates": [
+        "I highly recommend that we [gợi ý sự kiện]. This will definitely [mục đích] and engage everyone.",
+        "Why don't we [gợi ý sự kiện] next month? It is an excellent way to [mục đích].",
+        "I think [gợi ý sự kiện] would be a fantastic idea. It not only helps people but also [mục đích]."
       ],
       "samples": [
         {
@@ -1026,9 +1296,15 @@ export const part3Data = {
     "q1": {
       "member": "Member A",
       "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vi": "Chào bạn! Chào mừng đến với câu lạc bộ. Tôi đã là thành viên được vài tháng. Tại sao bạn lại quyết định tham gia câu lạc bộ này và bạn hy vọng đạt được điều gì ở đây?",
       "vocab": [
         "✨ [lý do tham gia]: <strong>share my passion for this field</strong> (chia sẻ đam mê trong lĩnh vực này), <strong>meet like-minded people</strong> (gặp gỡ những người cùng chí hướng), <strong>relax after a long day</strong> (thư giãn sau một ngày dài)",
         "✨ [mục tiêu]: <strong>enhance my creative skills</strong> (nâng cao kỹ năng sáng tạo), <strong>expand my knowledge</strong> (mở rộng kiến thức), <strong>find a healthy work-life balance</strong> (tìm kiếm sự cân bằng giữa công việc và cuộc sống)"
+      ],
+      "templates": [
+        "I decided to join this club to [lý do tham gia]. I hope to [mục tiêu].",
+        "I joined the club mainly to [lý do tham gia]. My main goal is to [mục tiêu] through our activities.",
+        "Being part of this club allows me to [lý do tham gia]. I hope to [mục tiêu]."
       ],
       "samples": [
         {
@@ -1048,9 +1324,15 @@ export const part3Data = {
     "q2": {
       "member": "Member B",
       "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vi": "Xin chào! Một số người nghĩ rằng dành thời gian cho các hoạt động câu lạc bộ là lãng phí thời gian và tiền bạc. Ý kiến của bạn về vấn đề này là gì?",
       "vocab": [
         "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
         "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "templates": [
+        "[quan điểm] with that idea. Joining club activities is [lợi ích đối lập] because it helps me relieve stress.",
+        "[quan điểm]. In fact, these activities [lợi ích đối lập] and expand my social network.",
+        "[quan điểm] if the club is expensive. However, most activities are affordable and provide a great chance to develop myself."
       ],
       "samples": [
         {
@@ -1070,9 +1352,15 @@ export const part3Data = {
     "q3": {
       "member": "Member C",
       "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vi": "Chào bạn! Câu lạc bộ của chúng ta đang lên kế hoạch tổ chức một sự kiện đặc biệt vào tháng tới để thu hút thêm nhiều người trong cộng đồng. Bạn có gợi ý nào không?",
       "vocab": [
         "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
         "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "templates": [
+        "I highly recommend that we [gợi ý sự kiện]. This will definitely [mục đích] and engage everyone.",
+        "Why don't we [gợi ý sự kiện] next month? It is an excellent way to [mục đích].",
+        "I think [gợi ý sự kiện] would be a fantastic idea. It not only helps people but also [mục đích]."
       ],
       "samples": [
         {
@@ -1094,9 +1382,15 @@ export const part3Data = {
     "q1": {
       "member": "Member A",
       "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vi": "Chào bạn! Chào mừng đến với câu lạc bộ. Tôi đã là thành viên được vài tháng. Tại sao bạn lại quyết định tham gia câu lạc bộ này và bạn hy vọng đạt được điều gì ở đây?",
       "vocab": [
         "✨ [lý do tham gia]: <strong>boost my career prospects</strong> (nâng cao triển vọng nghề nghiệp), <strong>expand my professional network</strong> (mở rộng mạng lưới chuyên môn), <strong>stay updated with new trends</strong> (cập nhật các xu hướng mới)",
         "✨ [mục tiêu]: <strong>improve my practical skills</strong> (cải thiện kỹ năng thực tế), <strong>gain valuable experience</strong> (thu được kinh nghiệm quý báu), <strong>exchange innovative ideas</strong> (trao đổi những ý tưởng đổi mới)"
+      ],
+      "templates": [
+        "I decided to join this club to [lý do tham gia]. I hope to [mục tiêu].",
+        "I joined the club mainly to [lý do tham gia]. My main goal is to [mục tiêu] through our activities.",
+        "Being part of this club allows me to [lý do tham gia]. I hope to [mục tiêu]."
       ],
       "samples": [
         {
@@ -1116,9 +1410,15 @@ export const part3Data = {
     "q2": {
       "member": "Member B",
       "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vi": "Xin chào! Một số người nghĩ rằng dành thời gian cho các hoạt động câu lạc bộ là lãng phí thời gian và tiền bạc. Ý kiến của bạn về vấn đề này là gì?",
       "vocab": [
         "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
         "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "templates": [
+        "[quan điểm] with that idea. Joining club activities is [lợi ích đối lập] because it helps me relieve stress.",
+        "[quan điểm]. In fact, these activities [lợi ích đối lập] and expand my social network.",
+        "[quan điểm] if the club is expensive. However, most activities are affordable and provide a great chance to develop myself."
       ],
       "samples": [
         {
@@ -1138,9 +1438,15 @@ export const part3Data = {
     "q3": {
       "member": "Member C",
       "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vi": "Chào bạn! Câu lạc bộ của chúng ta đang lên kế hoạch tổ chức một sự kiện đặc biệt vào tháng tới để thu hút thêm nhiều người trong cộng đồng. Bạn có gợi ý nào không?",
       "vocab": [
         "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
         "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "templates": [
+        "I highly recommend that we [gợi ý sự kiện]. This will definitely [mục đích] and engage everyone.",
+        "Why don't we [gợi ý sự kiện] next month? It is an excellent way to [mục đích].",
+        "I think [gợi ý sự kiện] would be a fantastic idea. It not only helps people but also [mục đích]."
       ],
       "samples": [
         {
@@ -1162,9 +1468,15 @@ export const part3Data = {
     "q1": {
       "member": "Member A",
       "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vi": "Chào bạn! Chào mừng đến với câu lạc bộ. Tôi đã là thành viên được vài tháng. Tại sao bạn lại quyết định tham gia câu lạc bộ này và bạn hy vọng đạt được điều gì ở đây?",
       "vocab": [
         "✨ [lý do tham gia]: <strong>broaden my horizons</strong> (mở rộng tầm nhìn), <strong>contribute to the community</strong> (đóng góp cho cộng đồng), <strong>make meaningful connections</strong> (tạo ra những kết nối ý nghĩa)",
         "✨ [mục tiêu]: <strong>experience new things</strong> (trải nghiệm những điều mới), <strong>develop my soft skills</strong> (phát triển kỹ năng mềm), <strong>find peace of mind</strong> (tìm sự bình yên trong tâm trí)"
+      ],
+      "templates": [
+        "I decided to join this club to [lý do tham gia]. I hope to [mục tiêu].",
+        "I joined the club mainly to [lý do tham gia]. My main goal is to [mục tiêu] through our activities.",
+        "Being part of this club allows me to [lý do tham gia]. I hope to [mục tiêu]."
       ],
       "samples": [
         {
@@ -1184,9 +1496,15 @@ export const part3Data = {
     "q2": {
       "member": "Member B",
       "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vi": "Xin chào! Một số người nghĩ rằng dành thời gian cho các hoạt động câu lạc bộ là lãng phí thời gian và tiền bạc. Ý kiến của bạn về vấn đề này là gì?",
       "vocab": [
         "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
         "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "templates": [
+        "[quan điểm] with that idea. Joining club activities is [lợi ích đối lập] because it helps me relieve stress.",
+        "[quan điểm]. In fact, these activities [lợi ích đối lập] and expand my social network.",
+        "[quan điểm] if the club is expensive. However, most activities are affordable and provide a great chance to develop myself."
       ],
       "samples": [
         {
@@ -1206,9 +1524,15 @@ export const part3Data = {
     "q3": {
       "member": "Member C",
       "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vi": "Chào bạn! Câu lạc bộ của chúng ta đang lên kế hoạch tổ chức một sự kiện đặc biệt vào tháng tới để thu hút thêm nhiều người trong cộng đồng. Bạn có gợi ý nào không?",
       "vocab": [
         "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
         "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "templates": [
+        "I highly recommend that we [gợi ý sự kiện]. This will definitely [mục đích] and engage everyone.",
+        "Why don't we [gợi ý sự kiện] next month? It is an excellent way to [mục đích].",
+        "I think [gợi ý sự kiện] would be a fantastic idea. It not only helps people but also [mục đích]."
       ],
       "samples": [
         {
@@ -1230,9 +1554,15 @@ export const part3Data = {
     "q1": {
       "member": "Member A",
       "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vi": "Chào bạn! Chào mừng đến với câu lạc bộ. Tôi đã là thành viên được vài tháng. Tại sao bạn lại quyết định tham gia câu lạc bộ này và bạn hy vọng đạt được điều gì ở đây?",
       "vocab": [
         "✨ [lý do tham gia]: <strong>boost my career prospects</strong> (nâng cao triển vọng nghề nghiệp), <strong>expand my professional network</strong> (mở rộng mạng lưới chuyên môn), <strong>stay updated with new trends</strong> (cập nhật các xu hướng mới)",
         "✨ [mục tiêu]: <strong>improve my practical skills</strong> (cải thiện kỹ năng thực tế), <strong>gain valuable experience</strong> (thu được kinh nghiệm quý báu), <strong>exchange innovative ideas</strong> (trao đổi những ý tưởng đổi mới)"
+      ],
+      "templates": [
+        "I decided to join this club to [lý do tham gia]. I hope to [mục tiêu].",
+        "I joined the club mainly to [lý do tham gia]. My main goal is to [mục tiêu] through our activities.",
+        "Being part of this club allows me to [lý do tham gia]. I hope to [mục tiêu]."
       ],
       "samples": [
         {
@@ -1252,9 +1582,15 @@ export const part3Data = {
     "q2": {
       "member": "Member B",
       "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vi": "Xin chào! Một số người nghĩ rằng dành thời gian cho các hoạt động câu lạc bộ là lãng phí thời gian và tiền bạc. Ý kiến của bạn về vấn đề này là gì?",
       "vocab": [
         "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
         "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "templates": [
+        "[quan điểm] with that idea. Joining club activities is [lợi ích đối lập] because it helps me relieve stress.",
+        "[quan điểm]. In fact, these activities [lợi ích đối lập] and expand my social network.",
+        "[quan điểm] if the club is expensive. However, most activities are affordable and provide a great chance to develop myself."
       ],
       "samples": [
         {
@@ -1274,9 +1610,15 @@ export const part3Data = {
     "q3": {
       "member": "Member C",
       "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vi": "Chào bạn! Câu lạc bộ của chúng ta đang lên kế hoạch tổ chức một sự kiện đặc biệt vào tháng tới để thu hút thêm nhiều người trong cộng đồng. Bạn có gợi ý nào không?",
       "vocab": [
         "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
         "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "templates": [
+        "I highly recommend that we [gợi ý sự kiện]. This will definitely [mục đích] and engage everyone.",
+        "Why don't we [gợi ý sự kiện] next month? It is an excellent way to [mục đích].",
+        "I think [gợi ý sự kiện] would be a fantastic idea. It not only helps people but also [mục đích]."
       ],
       "samples": [
         {
@@ -1298,9 +1640,15 @@ export const part3Data = {
     "q1": {
       "member": "Member A",
       "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vi": "Chào bạn! Chào mừng đến với câu lạc bộ. Tôi đã là thành viên được vài tháng. Tại sao bạn lại quyết định tham gia câu lạc bộ này và bạn hy vọng đạt được điều gì ở đây?",
       "vocab": [
         "✨ [lý do tham gia]: <strong>share my passion for this field</strong> (chia sẻ đam mê trong lĩnh vực này), <strong>meet like-minded people</strong> (gặp gỡ những người cùng chí hướng), <strong>relax after a long day</strong> (thư giãn sau một ngày dài)",
         "✨ [mục tiêu]: <strong>enhance my creative skills</strong> (nâng cao kỹ năng sáng tạo), <strong>expand my knowledge</strong> (mở rộng kiến thức), <strong>find a healthy work-life balance</strong> (tìm kiếm sự cân bằng giữa công việc và cuộc sống)"
+      ],
+      "templates": [
+        "I decided to join this club to [lý do tham gia]. I hope to [mục tiêu].",
+        "I joined the club mainly to [lý do tham gia]. My main goal is to [mục tiêu] through our activities.",
+        "Being part of this club allows me to [lý do tham gia]. I hope to [mục tiêu]."
       ],
       "samples": [
         {
@@ -1320,9 +1668,15 @@ export const part3Data = {
     "q2": {
       "member": "Member B",
       "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vi": "Xin chào! Một số người nghĩ rằng dành thời gian cho các hoạt động câu lạc bộ là lãng phí thời gian và tiền bạc. Ý kiến của bạn về vấn đề này là gì?",
       "vocab": [
         "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
         "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "templates": [
+        "[quan điểm] with that idea. Joining club activities is [lợi ích đối lập] because it helps me relieve stress.",
+        "[quan điểm]. In fact, these activities [lợi ích đối lập] and expand my social network.",
+        "[quan điểm] if the club is expensive. However, most activities are affordable and provide a great chance to develop myself."
       ],
       "samples": [
         {
@@ -1342,9 +1696,15 @@ export const part3Data = {
     "q3": {
       "member": "Member C",
       "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vi": "Chào bạn! Câu lạc bộ của chúng ta đang lên kế hoạch tổ chức một sự kiện đặc biệt vào tháng tới để thu hút thêm nhiều người trong cộng đồng. Bạn có gợi ý nào không?",
       "vocab": [
         "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
         "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "templates": [
+        "I highly recommend that we [gợi ý sự kiện]. This will definitely [mục đích] and engage everyone.",
+        "Why don't we [gợi ý sự kiện] next month? It is an excellent way to [mục đích].",
+        "I think [gợi ý sự kiện] would be a fantastic idea. It not only helps people but also [mục đích]."
       ],
       "samples": [
         {
@@ -1366,9 +1726,15 @@ export const part3Data = {
     "q1": {
       "member": "Member A",
       "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vi": "Chào bạn! Chào mừng đến với câu lạc bộ. Tôi đã là thành viên được vài tháng. Tại sao bạn lại quyết định tham gia câu lạc bộ này và bạn hy vọng đạt được điều gì ở đây?",
       "vocab": [
         "✨ [lý do tham gia]: <strong>stay in good shape</strong> (giữ dáng), <strong>relieve daily stress</strong> (giảm căng thẳng hàng ngày), <strong>adopt a healthier lifestyle</strong> (áp dụng lối sống lành mạnh hơn)",
         "✨ [mục tiêu]: <strong>strengthen my physical endurance</strong> (tăng cường sức bền thể chất), <strong>boost my emotional well-being</strong> (nâng cao sức khỏe tinh thần), <strong>burn calories effectively</strong> (đốt cháy calo hiệu quả)"
+      ],
+      "templates": [
+        "I decided to join this club to [lý do tham gia]. I hope to [mục tiêu].",
+        "I joined the club mainly to [lý do tham gia]. My main goal is to [mục tiêu] through our activities.",
+        "Being part of this club allows me to [lý do tham gia]. I hope to [mục tiêu]."
       ],
       "samples": [
         {
@@ -1388,9 +1754,15 @@ export const part3Data = {
     "q2": {
       "member": "Member B",
       "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vi": "Xin chào! Một số người nghĩ rằng dành thời gian cho các hoạt động câu lạc bộ là lãng phí thời gian và tiền bạc. Ý kiến của bạn về vấn đề này là gì?",
       "vocab": [
         "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
         "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "templates": [
+        "[quan điểm] with that idea. Joining club activities is [lợi ích đối lập] because it helps me relieve stress.",
+        "[quan điểm]. In fact, these activities [lợi ích đối lập] and expand my social network.",
+        "[quan điểm] if the club is expensive. However, most activities are affordable and provide a great chance to develop myself."
       ],
       "samples": [
         {
@@ -1410,9 +1782,15 @@ export const part3Data = {
     "q3": {
       "member": "Member C",
       "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vi": "Chào bạn! Câu lạc bộ của chúng ta đang lên kế hoạch tổ chức một sự kiện đặc biệt vào tháng tới để thu hút thêm nhiều người trong cộng đồng. Bạn có gợi ý nào không?",
       "vocab": [
         "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
         "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "templates": [
+        "I highly recommend that we [gợi ý sự kiện]. This will definitely [mục đích] and engage everyone.",
+        "Why don't we [gợi ý sự kiện] next month? It is an excellent way to [mục đích].",
+        "I think [gợi ý sự kiện] would be a fantastic idea. It not only helps people but also [mục đích]."
       ],
       "samples": [
         {
@@ -1434,9 +1812,15 @@ export const part3Data = {
     "q1": {
       "member": "Member A",
       "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vi": "Chào bạn! Chào mừng đến với câu lạc bộ. Tôi đã là thành viên được vài tháng. Tại sao bạn lại quyết định tham gia câu lạc bộ này và bạn hy vọng đạt được điều gì ở đây?",
       "vocab": [
         "✨ [lý do tham gia]: <strong>broaden my horizons</strong> (mở rộng tầm nhìn), <strong>contribute to the community</strong> (đóng góp cho cộng đồng), <strong>make meaningful connections</strong> (tạo ra những kết nối ý nghĩa)",
         "✨ [mục tiêu]: <strong>experience new things</strong> (trải nghiệm những điều mới), <strong>develop my soft skills</strong> (phát triển kỹ năng mềm), <strong>find peace of mind</strong> (tìm sự bình yên trong tâm trí)"
+      ],
+      "templates": [
+        "I decided to join this club to [lý do tham gia]. I hope to [mục tiêu].",
+        "I joined the club mainly to [lý do tham gia]. My main goal is to [mục tiêu] through our activities.",
+        "Being part of this club allows me to [lý do tham gia]. I hope to [mục tiêu]."
       ],
       "samples": [
         {
@@ -1456,9 +1840,15 @@ export const part3Data = {
     "q2": {
       "member": "Member B",
       "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vi": "Xin chào! Một số người nghĩ rằng dành thời gian cho các hoạt động câu lạc bộ là lãng phí thời gian và tiền bạc. Ý kiến của bạn về vấn đề này là gì?",
       "vocab": [
         "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
         "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "templates": [
+        "[quan điểm] with that idea. Joining club activities is [lợi ích đối lập] because it helps me relieve stress.",
+        "[quan điểm]. In fact, these activities [lợi ích đối lập] and expand my social network.",
+        "[quan điểm] if the club is expensive. However, most activities are affordable and provide a great chance to develop myself."
       ],
       "samples": [
         {
@@ -1478,9 +1868,15 @@ export const part3Data = {
     "q3": {
       "member": "Member C",
       "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vi": "Chào bạn! Câu lạc bộ của chúng ta đang lên kế hoạch tổ chức một sự kiện đặc biệt vào tháng tới để thu hút thêm nhiều người trong cộng đồng. Bạn có gợi ý nào không?",
       "vocab": [
         "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
         "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "templates": [
+        "I highly recommend that we [gợi ý sự kiện]. This will definitely [mục đích] and engage everyone.",
+        "Why don't we [gợi ý sự kiện] next month? It is an excellent way to [mục đích].",
+        "I think [gợi ý sự kiện] would be a fantastic idea. It not only helps people but also [mục đích]."
       ],
       "samples": [
         {
@@ -1502,9 +1898,15 @@ export const part3Data = {
     "q1": {
       "member": "Member A",
       "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vi": "Chào bạn! Chào mừng đến với câu lạc bộ. Tôi đã là thành viên được vài tháng. Tại sao bạn lại quyết định tham gia câu lạc bộ này và bạn hy vọng đạt được điều gì ở đây?",
       "vocab": [
         "✨ [lý do tham gia]: <strong>broaden my horizons</strong> (mở rộng tầm nhìn), <strong>contribute to the community</strong> (đóng góp cho cộng đồng), <strong>make meaningful connections</strong> (tạo ra những kết nối ý nghĩa)",
         "✨ [mục tiêu]: <strong>experience new things</strong> (trải nghiệm những điều mới), <strong>develop my soft skills</strong> (phát triển kỹ năng mềm), <strong>find peace of mind</strong> (tìm sự bình yên trong tâm trí)"
+      ],
+      "templates": [
+        "I decided to join this club to [lý do tham gia]. I hope to [mục tiêu].",
+        "I joined the club mainly to [lý do tham gia]. My main goal is to [mục tiêu] through our activities.",
+        "Being part of this club allows me to [lý do tham gia]. I hope to [mục tiêu]."
       ],
       "samples": [
         {
@@ -1524,9 +1926,15 @@ export const part3Data = {
     "q2": {
       "member": "Member B",
       "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vi": "Xin chào! Một số người nghĩ rằng dành thời gian cho các hoạt động câu lạc bộ là lãng phí thời gian và tiền bạc. Ý kiến của bạn về vấn đề này là gì?",
       "vocab": [
         "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
         "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "templates": [
+        "[quan điểm] with that idea. Joining club activities is [lợi ích đối lập] because it helps me relieve stress.",
+        "[quan điểm]. In fact, these activities [lợi ích đối lập] and expand my social network.",
+        "[quan điểm] if the club is expensive. However, most activities are affordable and provide a great chance to develop myself."
       ],
       "samples": [
         {
@@ -1546,9 +1954,15 @@ export const part3Data = {
     "q3": {
       "member": "Member C",
       "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vi": "Chào bạn! Câu lạc bộ của chúng ta đang lên kế hoạch tổ chức một sự kiện đặc biệt vào tháng tới để thu hút thêm nhiều người trong cộng đồng. Bạn có gợi ý nào không?",
       "vocab": [
         "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
         "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "templates": [
+        "I highly recommend that we [gợi ý sự kiện]. This will definitely [mục đích] and engage everyone.",
+        "Why don't we [gợi ý sự kiện] next month? It is an excellent way to [mục đích].",
+        "I think [gợi ý sự kiện] would be a fantastic idea. It not only helps people but also [mục đích]."
       ],
       "samples": [
         {
@@ -1570,9 +1984,15 @@ export const part3Data = {
     "q1": {
       "member": "Member A",
       "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vi": "Chào bạn! Chào mừng đến với câu lạc bộ. Tôi đã là thành viên được vài tháng. Tại sao bạn lại quyết định tham gia câu lạc bộ này và bạn hy vọng đạt được điều gì ở đây?",
       "vocab": [
         "✨ [lý do tham gia]: <strong>boost my career prospects</strong> (nâng cao triển vọng nghề nghiệp), <strong>expand my professional network</strong> (mở rộng mạng lưới chuyên môn), <strong>stay updated with new trends</strong> (cập nhật các xu hướng mới)",
         "✨ [mục tiêu]: <strong>improve my practical skills</strong> (cải thiện kỹ năng thực tế), <strong>gain valuable experience</strong> (thu được kinh nghiệm quý báu), <strong>exchange innovative ideas</strong> (trao đổi những ý tưởng đổi mới)"
+      ],
+      "templates": [
+        "I decided to join this club to [lý do tham gia]. I hope to [mục tiêu].",
+        "I joined the club mainly to [lý do tham gia]. My main goal is to [mục tiêu] through our activities.",
+        "Being part of this club allows me to [lý do tham gia]. I hope to [mục tiêu]."
       ],
       "samples": [
         {
@@ -1592,9 +2012,15 @@ export const part3Data = {
     "q2": {
       "member": "Member B",
       "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vi": "Xin chào! Một số người nghĩ rằng dành thời gian cho các hoạt động câu lạc bộ là lãng phí thời gian và tiền bạc. Ý kiến của bạn về vấn đề này là gì?",
       "vocab": [
         "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
         "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "templates": [
+        "[quan điểm] with that idea. Joining club activities is [lợi ích đối lập] because it helps me relieve stress.",
+        "[quan điểm]. In fact, these activities [lợi ích đối lập] and expand my social network.",
+        "[quan điểm] if the club is expensive. However, most activities are affordable and provide a great chance to develop myself."
       ],
       "samples": [
         {
@@ -1614,9 +2040,15 @@ export const part3Data = {
     "q3": {
       "member": "Member C",
       "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vi": "Chào bạn! Câu lạc bộ của chúng ta đang lên kế hoạch tổ chức một sự kiện đặc biệt vào tháng tới để thu hút thêm nhiều người trong cộng đồng. Bạn có gợi ý nào không?",
       "vocab": [
         "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
         "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "templates": [
+        "I highly recommend that we [gợi ý sự kiện]. This will definitely [mục đích] and engage everyone.",
+        "Why don't we [gợi ý sự kiện] next month? It is an excellent way to [mục đích].",
+        "I think [gợi ý sự kiện] would be a fantastic idea. It not only helps people but also [mục đích]."
       ],
       "samples": [
         {
@@ -1638,9 +2070,15 @@ export const part3Data = {
     "q1": {
       "member": "Member A",
       "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vi": "Chào bạn! Chào mừng đến với câu lạc bộ. Tôi đã là thành viên được vài tháng. Tại sao bạn lại quyết định tham gia câu lạc bộ này và bạn hy vọng đạt được điều gì ở đây?",
       "vocab": [
         "✨ [lý do tham gia]: <strong>boost my career prospects</strong> (nâng cao triển vọng nghề nghiệp), <strong>expand my professional network</strong> (mở rộng mạng lưới chuyên môn), <strong>stay updated with new trends</strong> (cập nhật các xu hướng mới)",
         "✨ [mục tiêu]: <strong>improve my practical skills</strong> (cải thiện kỹ năng thực tế), <strong>gain valuable experience</strong> (thu được kinh nghiệm quý báu), <strong>exchange innovative ideas</strong> (trao đổi những ý tưởng đổi mới)"
+      ],
+      "templates": [
+        "I decided to join this club to [lý do tham gia]. I hope to [mục tiêu].",
+        "I joined the club mainly to [lý do tham gia]. My main goal is to [mục tiêu] through our activities.",
+        "Being part of this club allows me to [lý do tham gia]. I hope to [mục tiêu]."
       ],
       "samples": [
         {
@@ -1660,9 +2098,15 @@ export const part3Data = {
     "q2": {
       "member": "Member B",
       "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vi": "Xin chào! Một số người nghĩ rằng dành thời gian cho các hoạt động câu lạc bộ là lãng phí thời gian và tiền bạc. Ý kiến của bạn về vấn đề này là gì?",
       "vocab": [
         "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
         "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "templates": [
+        "[quan điểm] with that idea. Joining club activities is [lợi ích đối lập] because it helps me relieve stress.",
+        "[quan điểm]. In fact, these activities [lợi ích đối lập] and expand my social network.",
+        "[quan điểm] if the club is expensive. However, most activities are affordable and provide a great chance to develop myself."
       ],
       "samples": [
         {
@@ -1682,9 +2126,15 @@ export const part3Data = {
     "q3": {
       "member": "Member C",
       "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vi": "Chào bạn! Câu lạc bộ của chúng ta đang lên kế hoạch tổ chức một sự kiện đặc biệt vào tháng tới để thu hút thêm nhiều người trong cộng đồng. Bạn có gợi ý nào không?",
       "vocab": [
         "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
         "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "templates": [
+        "I highly recommend that we [gợi ý sự kiện]. This will definitely [mục đích] and engage everyone.",
+        "Why don't we [gợi ý sự kiện] next month? It is an excellent way to [mục đích].",
+        "I think [gợi ý sự kiện] would be a fantastic idea. It not only helps people but also [mục đích]."
       ],
       "samples": [
         {
@@ -1706,9 +2156,15 @@ export const part3Data = {
     "q1": {
       "member": "Member A",
       "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vi": "Chào bạn! Chào mừng đến với câu lạc bộ. Tôi đã là thành viên được vài tháng. Tại sao bạn lại quyết định tham gia câu lạc bộ này và bạn hy vọng đạt được điều gì ở đây?",
       "vocab": [
         "✨ [lý do tham gia]: <strong>share my passion for this field</strong> (chia sẻ đam mê trong lĩnh vực này), <strong>meet like-minded people</strong> (gặp gỡ những người cùng chí hướng), <strong>relax after a long day</strong> (thư giãn sau một ngày dài)",
         "✨ [mục tiêu]: <strong>enhance my creative skills</strong> (nâng cao kỹ năng sáng tạo), <strong>expand my knowledge</strong> (mở rộng kiến thức), <strong>find a healthy work-life balance</strong> (tìm kiếm sự cân bằng giữa công việc và cuộc sống)"
+      ],
+      "templates": [
+        "I decided to join this club to [lý do tham gia]. I hope to [mục tiêu].",
+        "I joined the club mainly to [lý do tham gia]. My main goal is to [mục tiêu] through our activities.",
+        "Being part of this club allows me to [lý do tham gia]. I hope to [mục tiêu]."
       ],
       "samples": [
         {
@@ -1728,9 +2184,15 @@ export const part3Data = {
     "q2": {
       "member": "Member B",
       "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vi": "Xin chào! Một số người nghĩ rằng dành thời gian cho các hoạt động câu lạc bộ là lãng phí thời gian và tiền bạc. Ý kiến của bạn về vấn đề này là gì?",
       "vocab": [
         "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
         "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "templates": [
+        "[quan điểm] with that idea. Joining club activities is [lợi ích đối lập] because it helps me relieve stress.",
+        "[quan điểm]. In fact, these activities [lợi ích đối lập] and expand my social network.",
+        "[quan điểm] if the club is expensive. However, most activities are affordable and provide a great chance to develop myself."
       ],
       "samples": [
         {
@@ -1750,9 +2212,15 @@ export const part3Data = {
     "q3": {
       "member": "Member C",
       "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vi": "Chào bạn! Câu lạc bộ của chúng ta đang lên kế hoạch tổ chức một sự kiện đặc biệt vào tháng tới để thu hút thêm nhiều người trong cộng đồng. Bạn có gợi ý nào không?",
       "vocab": [
         "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
         "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "templates": [
+        "I highly recommend that we [gợi ý sự kiện]. This will definitely [mục đích] and engage everyone.",
+        "Why don't we [gợi ý sự kiện] next month? It is an excellent way to [mục đích].",
+        "I think [gợi ý sự kiện] would be a fantastic idea. It not only helps people but also [mục đích]."
       ],
       "samples": [
         {
@@ -1774,9 +2242,15 @@ export const part3Data = {
     "q1": {
       "member": "Member A",
       "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vi": "Chào bạn! Chào mừng đến với câu lạc bộ. Tôi đã là thành viên được vài tháng. Tại sao bạn lại quyết định tham gia câu lạc bộ này và bạn hy vọng đạt được điều gì ở đây?",
       "vocab": [
         "✨ [lý do tham gia]: <strong>share my passion for this field</strong> (chia sẻ đam mê trong lĩnh vực này), <strong>meet like-minded people</strong> (gặp gỡ những người cùng chí hướng), <strong>relax after a long day</strong> (thư giãn sau một ngày dài)",
         "✨ [mục tiêu]: <strong>enhance my creative skills</strong> (nâng cao kỹ năng sáng tạo), <strong>expand my knowledge</strong> (mở rộng kiến thức), <strong>find a healthy work-life balance</strong> (tìm kiếm sự cân bằng giữa công việc và cuộc sống)"
+      ],
+      "templates": [
+        "I decided to join this club to [lý do tham gia]. I hope to [mục tiêu].",
+        "I joined the club mainly to [lý do tham gia]. My main goal is to [mục tiêu] through our activities.",
+        "Being part of this club allows me to [lý do tham gia]. I hope to [mục tiêu]."
       ],
       "samples": [
         {
@@ -1796,9 +2270,15 @@ export const part3Data = {
     "q2": {
       "member": "Member B",
       "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vi": "Xin chào! Một số người nghĩ rằng dành thời gian cho các hoạt động câu lạc bộ là lãng phí thời gian và tiền bạc. Ý kiến của bạn về vấn đề này là gì?",
       "vocab": [
         "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
         "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "templates": [
+        "[quan điểm] with that idea. Joining club activities is [lợi ích đối lập] because it helps me relieve stress.",
+        "[quan điểm]. In fact, these activities [lợi ích đối lập] and expand my social network.",
+        "[quan điểm] if the club is expensive. However, most activities are affordable and provide a great chance to develop myself."
       ],
       "samples": [
         {
@@ -1818,9 +2298,15 @@ export const part3Data = {
     "q3": {
       "member": "Member C",
       "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vi": "Chào bạn! Câu lạc bộ của chúng ta đang lên kế hoạch tổ chức một sự kiện đặc biệt vào tháng tới để thu hút thêm nhiều người trong cộng đồng. Bạn có gợi ý nào không?",
       "vocab": [
         "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
         "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "templates": [
+        "I highly recommend that we [gợi ý sự kiện]. This will definitely [mục đích] and engage everyone.",
+        "Why don't we [gợi ý sự kiện] next month? It is an excellent way to [mục đích].",
+        "I think [gợi ý sự kiện] would be a fantastic idea. It not only helps people but also [mục đích]."
       ],
       "samples": [
         {
@@ -1842,9 +2328,15 @@ export const part3Data = {
     "q1": {
       "member": "Member A",
       "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vi": "Chào bạn! Chào mừng đến với câu lạc bộ. Tôi đã là thành viên được vài tháng. Tại sao bạn lại quyết định tham gia câu lạc bộ này và bạn hy vọng đạt được điều gì ở đây?",
       "vocab": [
         "✨ [lý do tham gia]: <strong>share my passion for this field</strong> (chia sẻ đam mê trong lĩnh vực này), <strong>meet like-minded people</strong> (gặp gỡ những người cùng chí hướng), <strong>relax after a long day</strong> (thư giãn sau một ngày dài)",
         "✨ [mục tiêu]: <strong>enhance my creative skills</strong> (nâng cao kỹ năng sáng tạo), <strong>expand my knowledge</strong> (mở rộng kiến thức), <strong>find a healthy work-life balance</strong> (tìm kiếm sự cân bằng giữa công việc và cuộc sống)"
+      ],
+      "templates": [
+        "I decided to join this club to [lý do tham gia]. I hope to [mục tiêu].",
+        "I joined the club mainly to [lý do tham gia]. My main goal is to [mục tiêu] through our activities.",
+        "Being part of this club allows me to [lý do tham gia]. I hope to [mục tiêu]."
       ],
       "samples": [
         {
@@ -1864,9 +2356,15 @@ export const part3Data = {
     "q2": {
       "member": "Member B",
       "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vi": "Xin chào! Một số người nghĩ rằng dành thời gian cho các hoạt động câu lạc bộ là lãng phí thời gian và tiền bạc. Ý kiến của bạn về vấn đề này là gì?",
       "vocab": [
         "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
         "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "templates": [
+        "[quan điểm] with that idea. Joining club activities is [lợi ích đối lập] because it helps me relieve stress.",
+        "[quan điểm]. In fact, these activities [lợi ích đối lập] and expand my social network.",
+        "[quan điểm] if the club is expensive. However, most activities are affordable and provide a great chance to develop myself."
       ],
       "samples": [
         {
@@ -1886,9 +2384,15 @@ export const part3Data = {
     "q3": {
       "member": "Member C",
       "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vi": "Chào bạn! Câu lạc bộ của chúng ta đang lên kế hoạch tổ chức một sự kiện đặc biệt vào tháng tới để thu hút thêm nhiều người trong cộng đồng. Bạn có gợi ý nào không?",
       "vocab": [
         "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
         "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "templates": [
+        "I highly recommend that we [gợi ý sự kiện]. This will definitely [mục đích] and engage everyone.",
+        "Why don't we [gợi ý sự kiện] next month? It is an excellent way to [mục đích].",
+        "I think [gợi ý sự kiện] would be a fantastic idea. It not only helps people but also [mục đích]."
       ],
       "samples": [
         {
@@ -1910,9 +2414,15 @@ export const part3Data = {
     "q1": {
       "member": "Member A",
       "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vi": "Chào bạn! Chào mừng đến với câu lạc bộ. Tôi đã là thành viên được vài tháng. Tại sao bạn lại quyết định tham gia câu lạc bộ này và bạn hy vọng đạt được điều gì ở đây?",
       "vocab": [
         "✨ [lý do tham gia]: <strong>stay in good shape</strong> (giữ dáng), <strong>relieve daily stress</strong> (giảm căng thẳng hàng ngày), <strong>adopt a healthier lifestyle</strong> (áp dụng lối sống lành mạnh hơn)",
         "✨ [mục tiêu]: <strong>strengthen my physical endurance</strong> (tăng cường sức bền thể chất), <strong>boost my emotional well-being</strong> (nâng cao sức khỏe tinh thần), <strong>burn calories effectively</strong> (đốt cháy calo hiệu quả)"
+      ],
+      "templates": [
+        "I decided to join this club to [lý do tham gia]. I hope to [mục tiêu].",
+        "I joined the club mainly to [lý do tham gia]. My main goal is to [mục tiêu] through our activities.",
+        "Being part of this club allows me to [lý do tham gia]. I hope to [mục tiêu]."
       ],
       "samples": [
         {
@@ -1932,9 +2442,15 @@ export const part3Data = {
     "q2": {
       "member": "Member B",
       "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vi": "Xin chào! Một số người nghĩ rằng dành thời gian cho các hoạt động câu lạc bộ là lãng phí thời gian và tiền bạc. Ý kiến của bạn về vấn đề này là gì?",
       "vocab": [
         "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
         "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "templates": [
+        "[quan điểm] with that idea. Joining club activities is [lợi ích đối lập] because it helps me relieve stress.",
+        "[quan điểm]. In fact, these activities [lợi ích đối lập] and expand my social network.",
+        "[quan điểm] if the club is expensive. However, most activities are affordable and provide a great chance to develop myself."
       ],
       "samples": [
         {
@@ -1954,9 +2470,15 @@ export const part3Data = {
     "q3": {
       "member": "Member C",
       "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vi": "Chào bạn! Câu lạc bộ của chúng ta đang lên kế hoạch tổ chức một sự kiện đặc biệt vào tháng tới để thu hút thêm nhiều người trong cộng đồng. Bạn có gợi ý nào không?",
       "vocab": [
         "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
         "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "templates": [
+        "I highly recommend that we [gợi ý sự kiện]. This will definitely [mục đích] and engage everyone.",
+        "Why don't we [gợi ý sự kiện] next month? It is an excellent way to [mục đích].",
+        "I think [gợi ý sự kiện] would be a fantastic idea. It not only helps people but also [mục đích]."
       ],
       "samples": [
         {
@@ -1978,9 +2500,15 @@ export const part3Data = {
     "q1": {
       "member": "Member A",
       "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vi": "Chào bạn! Chào mừng đến với câu lạc bộ. Tôi đã là thành viên được vài tháng. Tại sao bạn lại quyết định tham gia câu lạc bộ này và bạn hy vọng đạt được điều gì ở đây?",
       "vocab": [
         "✨ [lý do tham gia]: <strong>boost my career prospects</strong> (nâng cao triển vọng nghề nghiệp), <strong>expand my professional network</strong> (mở rộng mạng lưới chuyên môn), <strong>stay updated with new trends</strong> (cập nhật các xu hướng mới)",
         "✨ [mục tiêu]: <strong>improve my practical skills</strong> (cải thiện kỹ năng thực tế), <strong>gain valuable experience</strong> (thu được kinh nghiệm quý báu), <strong>exchange innovative ideas</strong> (trao đổi những ý tưởng đổi mới)"
+      ],
+      "templates": [
+        "I decided to join this club to [lý do tham gia]. I hope to [mục tiêu].",
+        "I joined the club mainly to [lý do tham gia]. My main goal is to [mục tiêu] through our activities.",
+        "Being part of this club allows me to [lý do tham gia]. I hope to [mục tiêu]."
       ],
       "samples": [
         {
@@ -2000,9 +2528,15 @@ export const part3Data = {
     "q2": {
       "member": "Member B",
       "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vi": "Xin chào! Một số người nghĩ rằng dành thời gian cho các hoạt động câu lạc bộ là lãng phí thời gian và tiền bạc. Ý kiến của bạn về vấn đề này là gì?",
       "vocab": [
         "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
         "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "templates": [
+        "[quan điểm] with that idea. Joining club activities is [lợi ích đối lập] because it helps me relieve stress.",
+        "[quan điểm]. In fact, these activities [lợi ích đối lập] and expand my social network.",
+        "[quan điểm] if the club is expensive. However, most activities are affordable and provide a great chance to develop myself."
       ],
       "samples": [
         {
@@ -2022,9 +2556,15 @@ export const part3Data = {
     "q3": {
       "member": "Member C",
       "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vi": "Chào bạn! Câu lạc bộ của chúng ta đang lên kế hoạch tổ chức một sự kiện đặc biệt vào tháng tới để thu hút thêm nhiều người trong cộng đồng. Bạn có gợi ý nào không?",
       "vocab": [
         "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
         "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "templates": [
+        "I highly recommend that we [gợi ý sự kiện]. This will definitely [mục đích] and engage everyone.",
+        "Why don't we [gợi ý sự kiện] next month? It is an excellent way to [mục đích].",
+        "I think [gợi ý sự kiện] would be a fantastic idea. It not only helps people but also [mục đích]."
       ],
       "samples": [
         {
@@ -2046,9 +2586,15 @@ export const part3Data = {
     "q1": {
       "member": "Member A",
       "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vi": "Chào bạn! Chào mừng đến với câu lạc bộ. Tôi đã là thành viên được vài tháng. Tại sao bạn lại quyết định tham gia câu lạc bộ này và bạn hy vọng đạt được điều gì ở đây?",
       "vocab": [
         "✨ [lý do tham gia]: <strong>boost my career prospects</strong> (nâng cao triển vọng nghề nghiệp), <strong>expand my professional network</strong> (mở rộng mạng lưới chuyên môn), <strong>stay updated with new trends</strong> (cập nhật các xu hướng mới)",
         "✨ [mục tiêu]: <strong>improve my practical skills</strong> (cải thiện kỹ năng thực tế), <strong>gain valuable experience</strong> (thu được kinh nghiệm quý báu), <strong>exchange innovative ideas</strong> (trao đổi những ý tưởng đổi mới)"
+      ],
+      "templates": [
+        "I decided to join this club to [lý do tham gia]. I hope to [mục tiêu].",
+        "I joined the club mainly to [lý do tham gia]. My main goal is to [mục tiêu] through our activities.",
+        "Being part of this club allows me to [lý do tham gia]. I hope to [mục tiêu]."
       ],
       "samples": [
         {
@@ -2068,9 +2614,15 @@ export const part3Data = {
     "q2": {
       "member": "Member B",
       "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vi": "Xin chào! Một số người nghĩ rằng dành thời gian cho các hoạt động câu lạc bộ là lãng phí thời gian và tiền bạc. Ý kiến của bạn về vấn đề này là gì?",
       "vocab": [
         "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
         "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "templates": [
+        "[quan điểm] with that idea. Joining club activities is [lợi ích đối lập] because it helps me relieve stress.",
+        "[quan điểm]. In fact, these activities [lợi ích đối lập] and expand my social network.",
+        "[quan điểm] if the club is expensive. However, most activities are affordable and provide a great chance to develop myself."
       ],
       "samples": [
         {
@@ -2090,9 +2642,15 @@ export const part3Data = {
     "q3": {
       "member": "Member C",
       "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vi": "Chào bạn! Câu lạc bộ của chúng ta đang lên kế hoạch tổ chức một sự kiện đặc biệt vào tháng tới để thu hút thêm nhiều người trong cộng đồng. Bạn có gợi ý nào không?",
       "vocab": [
         "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
         "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "templates": [
+        "I highly recommend that we [gợi ý sự kiện]. This will definitely [mục đích] and engage everyone.",
+        "Why don't we [gợi ý sự kiện] next month? It is an excellent way to [mục đích].",
+        "I think [gợi ý sự kiện] would be a fantastic idea. It not only helps people but also [mục đích]."
       ],
       "samples": [
         {
@@ -2114,9 +2672,15 @@ export const part3Data = {
     "q1": {
       "member": "Member A",
       "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vi": "Chào bạn! Chào mừng đến với câu lạc bộ. Tôi đã là thành viên được vài tháng. Tại sao bạn lại quyết định tham gia câu lạc bộ này và bạn hy vọng đạt được điều gì ở đây?",
       "vocab": [
         "✨ [lý do tham gia]: <strong>stay in good shape</strong> (giữ dáng), <strong>relieve daily stress</strong> (giảm căng thẳng hàng ngày), <strong>adopt a healthier lifestyle</strong> (áp dụng lối sống lành mạnh hơn)",
         "✨ [mục tiêu]: <strong>strengthen my physical endurance</strong> (tăng cường sức bền thể chất), <strong>boost my emotional well-being</strong> (nâng cao sức khỏe tinh thần), <strong>burn calories effectively</strong> (đốt cháy calo hiệu quả)"
+      ],
+      "templates": [
+        "I decided to join this club to [lý do tham gia]. I hope to [mục tiêu].",
+        "I joined the club mainly to [lý do tham gia]. My main goal is to [mục tiêu] through our activities.",
+        "Being part of this club allows me to [lý do tham gia]. I hope to [mục tiêu]."
       ],
       "samples": [
         {
@@ -2136,9 +2700,15 @@ export const part3Data = {
     "q2": {
       "member": "Member B",
       "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vi": "Xin chào! Một số người nghĩ rằng dành thời gian cho các hoạt động câu lạc bộ là lãng phí thời gian và tiền bạc. Ý kiến của bạn về vấn đề này là gì?",
       "vocab": [
         "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
         "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "templates": [
+        "[quan điểm] with that idea. Joining club activities is [lợi ích đối lập] because it helps me relieve stress.",
+        "[quan điểm]. In fact, these activities [lợi ích đối lập] and expand my social network.",
+        "[quan điểm] if the club is expensive. However, most activities are affordable and provide a great chance to develop myself."
       ],
       "samples": [
         {
@@ -2158,9 +2728,15 @@ export const part3Data = {
     "q3": {
       "member": "Member C",
       "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vi": "Chào bạn! Câu lạc bộ của chúng ta đang lên kế hoạch tổ chức một sự kiện đặc biệt vào tháng tới để thu hút thêm nhiều người trong cộng đồng. Bạn có gợi ý nào không?",
       "vocab": [
         "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
         "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "templates": [
+        "I highly recommend that we [gợi ý sự kiện]. This will definitely [mục đích] and engage everyone.",
+        "Why don't we [gợi ý sự kiện] next month? It is an excellent way to [mục đích].",
+        "I think [gợi ý sự kiện] would be a fantastic idea. It not only helps people but also [mục đích]."
       ],
       "samples": [
         {
@@ -2182,9 +2758,15 @@ export const part3Data = {
     "q1": {
       "member": "Member A",
       "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vi": "Chào bạn! Chào mừng đến với câu lạc bộ. Tôi đã là thành viên được vài tháng. Tại sao bạn lại quyết định tham gia câu lạc bộ này và bạn hy vọng đạt được điều gì ở đây?",
       "vocab": [
         "✨ [lý do tham gia]: <strong>boost my career prospects</strong> (nâng cao triển vọng nghề nghiệp), <strong>expand my professional network</strong> (mở rộng mạng lưới chuyên môn), <strong>stay updated with new trends</strong> (cập nhật các xu hướng mới)",
         "✨ [mục tiêu]: <strong>improve my practical skills</strong> (cải thiện kỹ năng thực tế), <strong>gain valuable experience</strong> (thu được kinh nghiệm quý báu), <strong>exchange innovative ideas</strong> (trao đổi những ý tưởng đổi mới)"
+      ],
+      "templates": [
+        "I decided to join this club to [lý do tham gia]. I hope to [mục tiêu].",
+        "I joined the club mainly to [lý do tham gia]. My main goal is to [mục tiêu] through our activities.",
+        "Being part of this club allows me to [lý do tham gia]. I hope to [mục tiêu]."
       ],
       "samples": [
         {
@@ -2204,9 +2786,15 @@ export const part3Data = {
     "q2": {
       "member": "Member B",
       "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vi": "Xin chào! Một số người nghĩ rằng dành thời gian cho các hoạt động câu lạc bộ là lãng phí thời gian và tiền bạc. Ý kiến của bạn về vấn đề này là gì?",
       "vocab": [
         "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
         "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "templates": [
+        "[quan điểm] with that idea. Joining club activities is [lợi ích đối lập] because it helps me relieve stress.",
+        "[quan điểm]. In fact, these activities [lợi ích đối lập] and expand my social network.",
+        "[quan điểm] if the club is expensive. However, most activities are affordable and provide a great chance to develop myself."
       ],
       "samples": [
         {
@@ -2226,9 +2814,15 @@ export const part3Data = {
     "q3": {
       "member": "Member C",
       "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vi": "Chào bạn! Câu lạc bộ của chúng ta đang lên kế hoạch tổ chức một sự kiện đặc biệt vào tháng tới để thu hút thêm nhiều người trong cộng đồng. Bạn có gợi ý nào không?",
       "vocab": [
         "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
         "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "templates": [
+        "I highly recommend that we [gợi ý sự kiện]. This will definitely [mục đích] and engage everyone.",
+        "Why don't we [gợi ý sự kiện] next month? It is an excellent way to [mục đích].",
+        "I think [gợi ý sự kiện] would be a fantastic idea. It not only helps people but also [mục đích]."
       ],
       "samples": [
         {
@@ -2250,9 +2844,15 @@ export const part3Data = {
     "q1": {
       "member": "Member A",
       "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vi": "Chào bạn! Chào mừng đến với câu lạc bộ. Tôi đã là thành viên được vài tháng. Tại sao bạn lại quyết định tham gia câu lạc bộ này và bạn hy vọng đạt được điều gì ở đây?",
       "vocab": [
         "✨ [lý do tham gia]: <strong>boost my career prospects</strong> (nâng cao triển vọng nghề nghiệp), <strong>expand my professional network</strong> (mở rộng mạng lưới chuyên môn), <strong>stay updated with new trends</strong> (cập nhật các xu hướng mới)",
         "✨ [mục tiêu]: <strong>improve my practical skills</strong> (cải thiện kỹ năng thực tế), <strong>gain valuable experience</strong> (thu được kinh nghiệm quý báu), <strong>exchange innovative ideas</strong> (trao đổi những ý tưởng đổi mới)"
+      ],
+      "templates": [
+        "I decided to join this club to [lý do tham gia]. I hope to [mục tiêu].",
+        "I joined the club mainly to [lý do tham gia]. My main goal is to [mục tiêu] through our activities.",
+        "Being part of this club allows me to [lý do tham gia]. I hope to [mục tiêu]."
       ],
       "samples": [
         {
@@ -2272,9 +2872,15 @@ export const part3Data = {
     "q2": {
       "member": "Member B",
       "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vi": "Xin chào! Một số người nghĩ rằng dành thời gian cho các hoạt động câu lạc bộ là lãng phí thời gian và tiền bạc. Ý kiến của bạn về vấn đề này là gì?",
       "vocab": [
         "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
         "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "templates": [
+        "[quan điểm] with that idea. Joining club activities is [lợi ích đối lập] because it helps me relieve stress.",
+        "[quan điểm]. In fact, these activities [lợi ích đối lập] and expand my social network.",
+        "[quan điểm] if the club is expensive. However, most activities are affordable and provide a great chance to develop myself."
       ],
       "samples": [
         {
@@ -2294,9 +2900,15 @@ export const part3Data = {
     "q3": {
       "member": "Member C",
       "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vi": "Chào bạn! Câu lạc bộ của chúng ta đang lên kế hoạch tổ chức một sự kiện đặc biệt vào tháng tới để thu hút thêm nhiều người trong cộng đồng. Bạn có gợi ý nào không?",
       "vocab": [
         "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
         "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "templates": [
+        "I highly recommend that we [gợi ý sự kiện]. This will definitely [mục đích] and engage everyone.",
+        "Why don't we [gợi ý sự kiện] next month? It is an excellent way to [mục đích].",
+        "I think [gợi ý sự kiện] would be a fantastic idea. It not only helps people but also [mục đích]."
       ],
       "samples": [
         {
@@ -2318,9 +2930,15 @@ export const part3Data = {
     "q1": {
       "member": "Member A",
       "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vi": "Chào bạn! Chào mừng đến với câu lạc bộ. Tôi đã là thành viên được vài tháng. Tại sao bạn lại quyết định tham gia câu lạc bộ này và bạn hy vọng đạt được điều gì ở đây?",
       "vocab": [
         "✨ [lý do tham gia]: <strong>share my passion for this field</strong> (chia sẻ đam mê trong lĩnh vực này), <strong>meet like-minded people</strong> (gặp gỡ những người cùng chí hướng), <strong>relax after a long day</strong> (thư giãn sau một ngày dài)",
         "✨ [mục tiêu]: <strong>enhance my creative skills</strong> (nâng cao kỹ năng sáng tạo), <strong>expand my knowledge</strong> (mở rộng kiến thức), <strong>find a healthy work-life balance</strong> (tìm kiếm sự cân bằng giữa công việc và cuộc sống)"
+      ],
+      "templates": [
+        "I decided to join this club to [lý do tham gia]. I hope to [mục tiêu].",
+        "I joined the club mainly to [lý do tham gia]. My main goal is to [mục tiêu] through our activities.",
+        "Being part of this club allows me to [lý do tham gia]. I hope to [mục tiêu]."
       ],
       "samples": [
         {
@@ -2340,9 +2958,15 @@ export const part3Data = {
     "q2": {
       "member": "Member B",
       "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vi": "Xin chào! Một số người nghĩ rằng dành thời gian cho các hoạt động câu lạc bộ là lãng phí thời gian và tiền bạc. Ý kiến của bạn về vấn đề này là gì?",
       "vocab": [
         "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
         "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "templates": [
+        "[quan điểm] with that idea. Joining club activities is [lợi ích đối lập] because it helps me relieve stress.",
+        "[quan điểm]. In fact, these activities [lợi ích đối lập] and expand my social network.",
+        "[quan điểm] if the club is expensive. However, most activities are affordable and provide a great chance to develop myself."
       ],
       "samples": [
         {
@@ -2362,9 +2986,15 @@ export const part3Data = {
     "q3": {
       "member": "Member C",
       "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vi": "Chào bạn! Câu lạc bộ của chúng ta đang lên kế hoạch tổ chức một sự kiện đặc biệt vào tháng tới để thu hút thêm nhiều người trong cộng đồng. Bạn có gợi ý nào không?",
       "vocab": [
         "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
         "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "templates": [
+        "I highly recommend that we [gợi ý sự kiện]. This will definitely [mục đích] and engage everyone.",
+        "Why don't we [gợi ý sự kiện] next month? It is an excellent way to [mục đích].",
+        "I think [gợi ý sự kiện] would be a fantastic idea. It not only helps people but also [mục đích]."
       ],
       "samples": [
         {
@@ -2386,9 +3016,15 @@ export const part3Data = {
     "q1": {
       "member": "Member A",
       "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vi": "Chào bạn! Chào mừng đến với câu lạc bộ. Tôi đã là thành viên được vài tháng. Tại sao bạn lại quyết định tham gia câu lạc bộ này và bạn hy vọng đạt được điều gì ở đây?",
       "vocab": [
         "✨ [lý do tham gia]: <strong>stay in good shape</strong> (giữ dáng), <strong>relieve daily stress</strong> (giảm căng thẳng hàng ngày), <strong>adopt a healthier lifestyle</strong> (áp dụng lối sống lành mạnh hơn)",
         "✨ [mục tiêu]: <strong>strengthen my physical endurance</strong> (tăng cường sức bền thể chất), <strong>boost my emotional well-being</strong> (nâng cao sức khỏe tinh thần), <strong>burn calories effectively</strong> (đốt cháy calo hiệu quả)"
+      ],
+      "templates": [
+        "I decided to join this club to [lý do tham gia]. I hope to [mục tiêu].",
+        "I joined the club mainly to [lý do tham gia]. My main goal is to [mục tiêu] through our activities.",
+        "Being part of this club allows me to [lý do tham gia]. I hope to [mục tiêu]."
       ],
       "samples": [
         {
@@ -2408,9 +3044,15 @@ export const part3Data = {
     "q2": {
       "member": "Member B",
       "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vi": "Xin chào! Một số người nghĩ rằng dành thời gian cho các hoạt động câu lạc bộ là lãng phí thời gian và tiền bạc. Ý kiến của bạn về vấn đề này là gì?",
       "vocab": [
         "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
         "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "templates": [
+        "[quan điểm] with that idea. Joining club activities is [lợi ích đối lập] because it helps me relieve stress.",
+        "[quan điểm]. In fact, these activities [lợi ích đối lập] and expand my social network.",
+        "[quan điểm] if the club is expensive. However, most activities are affordable and provide a great chance to develop myself."
       ],
       "samples": [
         {
@@ -2430,9 +3072,15 @@ export const part3Data = {
     "q3": {
       "member": "Member C",
       "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vi": "Chào bạn! Câu lạc bộ của chúng ta đang lên kế hoạch tổ chức một sự kiện đặc biệt vào tháng tới để thu hút thêm nhiều người trong cộng đồng. Bạn có gợi ý nào không?",
       "vocab": [
         "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
         "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "templates": [
+        "I highly recommend that we [gợi ý sự kiện]. This will definitely [mục đích] and engage everyone.",
+        "Why don't we [gợi ý sự kiện] next month? It is an excellent way to [mục đích].",
+        "I think [gợi ý sự kiện] would be a fantastic idea. It not only helps people but also [mục đích]."
       ],
       "samples": [
         {
@@ -2454,9 +3102,15 @@ export const part3Data = {
     "q1": {
       "member": "Member A",
       "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vi": "Chào bạn! Chào mừng đến với câu lạc bộ. Tôi đã là thành viên được vài tháng. Tại sao bạn lại quyết định tham gia câu lạc bộ này và bạn hy vọng đạt được điều gì ở đây?",
       "vocab": [
         "✨ [lý do tham gia]: <strong>share my passion for this field</strong> (chia sẻ đam mê trong lĩnh vực này), <strong>meet like-minded people</strong> (gặp gỡ những người cùng chí hướng), <strong>relax after a long day</strong> (thư giãn sau một ngày dài)",
         "✨ [mục tiêu]: <strong>enhance my creative skills</strong> (nâng cao kỹ năng sáng tạo), <strong>expand my knowledge</strong> (mở rộng kiến thức), <strong>find a healthy work-life balance</strong> (tìm kiếm sự cân bằng giữa công việc và cuộc sống)"
+      ],
+      "templates": [
+        "I decided to join this club to [lý do tham gia]. I hope to [mục tiêu].",
+        "I joined the club mainly to [lý do tham gia]. My main goal is to [mục tiêu] through our activities.",
+        "Being part of this club allows me to [lý do tham gia]. I hope to [mục tiêu]."
       ],
       "samples": [
         {
@@ -2476,9 +3130,15 @@ export const part3Data = {
     "q2": {
       "member": "Member B",
       "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vi": "Xin chào! Một số người nghĩ rằng dành thời gian cho các hoạt động câu lạc bộ là lãng phí thời gian và tiền bạc. Ý kiến của bạn về vấn đề này là gì?",
       "vocab": [
         "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
         "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "templates": [
+        "[quan điểm] with that idea. Joining club activities is [lợi ích đối lập] because it helps me relieve stress.",
+        "[quan điểm]. In fact, these activities [lợi ích đối lập] and expand my social network.",
+        "[quan điểm] if the club is expensive. However, most activities are affordable and provide a great chance to develop myself."
       ],
       "samples": [
         {
@@ -2498,9 +3158,15 @@ export const part3Data = {
     "q3": {
       "member": "Member C",
       "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vi": "Chào bạn! Câu lạc bộ của chúng ta đang lên kế hoạch tổ chức một sự kiện đặc biệt vào tháng tới để thu hút thêm nhiều người trong cộng đồng. Bạn có gợi ý nào không?",
       "vocab": [
         "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
         "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "templates": [
+        "I highly recommend that we [gợi ý sự kiện]. This will definitely [mục đích] and engage everyone.",
+        "Why don't we [gợi ý sự kiện] next month? It is an excellent way to [mục đích].",
+        "I think [gợi ý sự kiện] would be a fantastic idea. It not only helps people but also [mục đích]."
       ],
       "samples": [
         {
@@ -2522,9 +3188,15 @@ export const part3Data = {
     "q1": {
       "member": "Member A",
       "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vi": "Chào bạn! Chào mừng đến với câu lạc bộ. Tôi đã là thành viên được vài tháng. Tại sao bạn lại quyết định tham gia câu lạc bộ này và bạn hy vọng đạt được điều gì ở đây?",
       "vocab": [
         "✨ [lý do tham gia]: <strong>share my passion for this field</strong> (chia sẻ đam mê trong lĩnh vực này), <strong>meet like-minded people</strong> (gặp gỡ những người cùng chí hướng), <strong>relax after a long day</strong> (thư giãn sau một ngày dài)",
         "✨ [mục tiêu]: <strong>enhance my creative skills</strong> (nâng cao kỹ năng sáng tạo), <strong>expand my knowledge</strong> (mở rộng kiến thức), <strong>find a healthy work-life balance</strong> (tìm kiếm sự cân bằng giữa công việc và cuộc sống)"
+      ],
+      "templates": [
+        "I decided to join this club to [lý do tham gia]. I hope to [mục tiêu].",
+        "I joined the club mainly to [lý do tham gia]. My main goal is to [mục tiêu] through our activities.",
+        "Being part of this club allows me to [lý do tham gia]. I hope to [mục tiêu]."
       ],
       "samples": [
         {
@@ -2544,9 +3216,15 @@ export const part3Data = {
     "q2": {
       "member": "Member B",
       "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vi": "Xin chào! Một số người nghĩ rằng dành thời gian cho các hoạt động câu lạc bộ là lãng phí thời gian và tiền bạc. Ý kiến của bạn về vấn đề này là gì?",
       "vocab": [
         "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
         "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "templates": [
+        "[quan điểm] with that idea. Joining club activities is [lợi ích đối lập] because it helps me relieve stress.",
+        "[quan điểm]. In fact, these activities [lợi ích đối lập] and expand my social network.",
+        "[quan điểm] if the club is expensive. However, most activities are affordable and provide a great chance to develop myself."
       ],
       "samples": [
         {
@@ -2566,9 +3244,15 @@ export const part3Data = {
     "q3": {
       "member": "Member C",
       "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vi": "Chào bạn! Câu lạc bộ của chúng ta đang lên kế hoạch tổ chức một sự kiện đặc biệt vào tháng tới để thu hút thêm nhiều người trong cộng đồng. Bạn có gợi ý nào không?",
       "vocab": [
         "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
         "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "templates": [
+        "I highly recommend that we [gợi ý sự kiện]. This will definitely [mục đích] and engage everyone.",
+        "Why don't we [gợi ý sự kiện] next month? It is an excellent way to [mục đích].",
+        "I think [gợi ý sự kiện] would be a fantastic idea. It not only helps people but also [mục đích]."
       ],
       "samples": [
         {
@@ -2590,9 +3274,15 @@ export const part3Data = {
     "q1": {
       "member": "Member A",
       "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vi": "Chào bạn! Chào mừng đến với câu lạc bộ. Tôi đã là thành viên được vài tháng. Tại sao bạn lại quyết định tham gia câu lạc bộ này và bạn hy vọng đạt được điều gì ở đây?",
       "vocab": [
         "✨ [lý do tham gia]: <strong>stay in good shape</strong> (giữ dáng), <strong>relieve daily stress</strong> (giảm căng thẳng hàng ngày), <strong>adopt a healthier lifestyle</strong> (áp dụng lối sống lành mạnh hơn)",
         "✨ [mục tiêu]: <strong>strengthen my physical endurance</strong> (tăng cường sức bền thể chất), <strong>boost my emotional well-being</strong> (nâng cao sức khỏe tinh thần), <strong>burn calories effectively</strong> (đốt cháy calo hiệu quả)"
+      ],
+      "templates": [
+        "I decided to join this club to [lý do tham gia]. I hope to [mục tiêu].",
+        "I joined the club mainly to [lý do tham gia]. My main goal is to [mục tiêu] through our activities.",
+        "Being part of this club allows me to [lý do tham gia]. I hope to [mục tiêu]."
       ],
       "samples": [
         {
@@ -2612,9 +3302,15 @@ export const part3Data = {
     "q2": {
       "member": "Member B",
       "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vi": "Xin chào! Một số người nghĩ rằng dành thời gian cho các hoạt động câu lạc bộ là lãng phí thời gian và tiền bạc. Ý kiến của bạn về vấn đề này là gì?",
       "vocab": [
         "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
         "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "templates": [
+        "[quan điểm] with that idea. Joining club activities is [lợi ích đối lập] because it helps me relieve stress.",
+        "[quan điểm]. In fact, these activities [lợi ích đối lập] and expand my social network.",
+        "[quan điểm] if the club is expensive. However, most activities are affordable and provide a great chance to develop myself."
       ],
       "samples": [
         {
@@ -2634,9 +3330,15 @@ export const part3Data = {
     "q3": {
       "member": "Member C",
       "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vi": "Chào bạn! Câu lạc bộ của chúng ta đang lên kế hoạch tổ chức một sự kiện đặc biệt vào tháng tới để thu hút thêm nhiều người trong cộng đồng. Bạn có gợi ý nào không?",
       "vocab": [
         "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
         "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "templates": [
+        "I highly recommend that we [gợi ý sự kiện]. This will definitely [mục đích] and engage everyone.",
+        "Why don't we [gợi ý sự kiện] next month? It is an excellent way to [mục đích].",
+        "I think [gợi ý sự kiện] would be a fantastic idea. It not only helps people but also [mục đích]."
       ],
       "samples": [
         {
@@ -2658,9 +3360,15 @@ export const part3Data = {
     "q1": {
       "member": "Member A",
       "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vi": "Chào bạn! Chào mừng đến với câu lạc bộ. Tôi đã là thành viên được vài tháng. Tại sao bạn lại quyết định tham gia câu lạc bộ này và bạn hy vọng đạt được điều gì ở đây?",
       "vocab": [
         "✨ [lý do tham gia]: <strong>boost my career prospects</strong> (nâng cao triển vọng nghề nghiệp), <strong>expand my professional network</strong> (mở rộng mạng lưới chuyên môn), <strong>stay updated with new trends</strong> (cập nhật các xu hướng mới)",
         "✨ [mục tiêu]: <strong>improve my practical skills</strong> (cải thiện kỹ năng thực tế), <strong>gain valuable experience</strong> (thu được kinh nghiệm quý báu), <strong>exchange innovative ideas</strong> (trao đổi những ý tưởng đổi mới)"
+      ],
+      "templates": [
+        "I decided to join this club to [lý do tham gia]. I hope to [mục tiêu].",
+        "I joined the club mainly to [lý do tham gia]. My main goal is to [mục tiêu] through our activities.",
+        "Being part of this club allows me to [lý do tham gia]. I hope to [mục tiêu]."
       ],
       "samples": [
         {
@@ -2680,9 +3388,15 @@ export const part3Data = {
     "q2": {
       "member": "Member B",
       "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vi": "Xin chào! Một số người nghĩ rằng dành thời gian cho các hoạt động câu lạc bộ là lãng phí thời gian và tiền bạc. Ý kiến của bạn về vấn đề này là gì?",
       "vocab": [
         "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
         "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "templates": [
+        "[quan điểm] with that idea. Joining club activities is [lợi ích đối lập] because it helps me relieve stress.",
+        "[quan điểm]. In fact, these activities [lợi ích đối lập] and expand my social network.",
+        "[quan điểm] if the club is expensive. However, most activities are affordable and provide a great chance to develop myself."
       ],
       "samples": [
         {
@@ -2702,9 +3416,15 @@ export const part3Data = {
     "q3": {
       "member": "Member C",
       "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vi": "Chào bạn! Câu lạc bộ của chúng ta đang lên kế hoạch tổ chức một sự kiện đặc biệt vào tháng tới để thu hút thêm nhiều người trong cộng đồng. Bạn có gợi ý nào không?",
       "vocab": [
         "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
         "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "templates": [
+        "I highly recommend that we [gợi ý sự kiện]. This will definitely [mục đích] and engage everyone.",
+        "Why don't we [gợi ý sự kiện] next month? It is an excellent way to [mục đích].",
+        "I think [gợi ý sự kiện] would be a fantastic idea. It not only helps people but also [mục đích]."
       ],
       "samples": [
         {

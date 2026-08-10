@@ -100,10 +100,31 @@ Object.keys(clubsDataRaw).forEach((clubName) => {
     { en: "I think running a charity campaign would be a fantastic idea. It not only helps people in need but also builds a positive image for our club.", vi: "Tôi nghĩ thực hiện một chiến dịch từ thiện sẽ là ý tưởng tuyệt vời. Nó không chỉ giúp người khó khăn mà còn xây dựng hình ảnh tích cực cho CLB." }
   ];
 
+  let q1_vi = "Chào bạn! Chào mừng đến với câu lạc bộ. Tôi đã là thành viên được vài tháng. Tại sao bạn lại quyết định tham gia câu lạc bộ này và bạn hy vọng đạt được điều gì ở đây?";
+  let q1_templates = [
+    "I decided to join this club to [lý do tham gia]. I hope to [mục tiêu].",
+    "I joined the club mainly to [lý do tham gia]. My main goal is to [mục tiêu] through our activities.",
+    "Being part of this club allows me to [lý do tham gia]. I hope to [mục tiêu]."
+  ];
+
+  let q2_vi = "Xin chào! Một số người nghĩ rằng dành thời gian cho các hoạt động câu lạc bộ là lãng phí thời gian và tiền bạc. Ý kiến của bạn về vấn đề này là gì?";
+  let q2_templates = [
+    "[quan điểm] with that idea. Joining club activities is [lợi ích đối lập] because it helps me relieve stress.",
+    "[quan điểm]. In fact, these activities [lợi ích đối lập] and expand my social network.",
+    "[quan điểm] if the club is expensive. However, most activities are affordable and provide a great chance to develop myself."
+  ];
+
+  let q3_vi = "Chào bạn! Câu lạc bộ của chúng ta đang lên kế hoạch tổ chức một sự kiện đặc biệt vào tháng tới để thu hút thêm nhiều người trong cộng đồng. Bạn có gợi ý nào không?";
+  let q3_templates = [
+    "I highly recommend that we [gợi ý sự kiện]. This will definitely [mục đích] and engage everyone.",
+    "Why don't we [gợi ý sự kiện] next month? It is an excellent way to [mục đích].",
+    "I think [gợi ý sự kiện] would be a fantastic idea. It not only helps people but also [mục đích]."
+  ];
+
   part3Data[clubName] = {
-    q1: { member: "Member A", question: q1_q, vocab: q1_vocab, samples: q1_samples },
-    q2: { member: "Member B", question: q2_q, vocab: q2_vocab, samples: q2_samples },
-    q3: { member: "Member C", question: q3_q, vocab: q3_vocab, samples: q3_samples }
+    q1: { member: "Member A", question: q1_q, vi: q1_vi, vocab: q1_vocab, templates: q1_templates, samples: q1_samples },
+    q2: { member: "Member B", question: q2_q, vi: q2_vi, vocab: q2_vocab, templates: q2_templates, samples: q2_samples },
+    q3: { member: "Member C", question: q3_q, vi: q3_vi, vocab: q3_vocab, templates: q3_templates, samples: q3_samples }
   };
 });
 

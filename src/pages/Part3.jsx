@@ -10,6 +10,8 @@ const Part3 = () => {
   const [answers, setAnswers] = useState({ q1: '', q2: '', q3: '' });
   const [gradingResults, setGradingResults] = useState({ q1: null, q2: null, q3: null });
   const [showVocab, setShowVocab] = useState({ q1: false, q2: false, q3: false });
+  const [showTranslation, setShowTranslation] = useState({ q1: false, q2: false, q3: false });
+  const [showTemplate, setShowTemplate] = useState({ q1: false, q2: false, q3: false });
   const [isGrading, setIsGrading] = useState(false);
   const [totalScore, setTotalScore] = useState(null);
 
@@ -44,6 +46,8 @@ const Part3 = () => {
     setAnswers({ q1: '', q2: '', q3: '' });
     setGradingResults({ q1: null, q2: null, q3: null });
     setShowVocab({ q1: false, q2: false, q3: false });
+    setShowTranslation({ q1: false, q2: false, q3: false });
+    setShowTemplate({ q1: false, q2: false, q3: false });
     setTotalScore(null);
   }, [selectedClub]);
 
@@ -58,6 +62,12 @@ const Part3 = () => {
 
   const toggleVocab = (qKey) => {
     setShowVocab(prev => ({ ...prev, [qKey]: !prev[qKey] }));
+  };
+  const toggleTranslation = (qKey) => {
+    setShowTranslation(prev => ({ ...prev, [qKey]: !prev[qKey] }));
+  };
+  const toggleTemplate = (qKey) => {
+    setShowTemplate(prev => ({ ...prev, [qKey]: !prev[qKey] }));
   };
 
   const gradeSingleAnswer = async (answerText, questionObj, qKey) => {
@@ -234,6 +244,8 @@ const Part3 = () => {
             const isOutOfRange = count > 0 && (count < 30 || count > 40);
             const isGoodRange = count >= 30 && count <= 40;
             const isVocabVisible = showVocab[qKey];
+            const isTranslationVisible = showTranslation[qKey];
+            const isTemplateVisible = showTemplate[qKey];
             
             return (
               <div className="question-block" key={qKey} style={{ marginBottom: '2rem', paddingBottom: '2rem', borderBottom: index < 2 ? '1px dashed var(--border-color)' : 'none' }}>
@@ -249,7 +261,25 @@ const Part3 = () => {
                       {qData.question}
                     </div>
                     
-                    <div style={{ display: 'flex', justifyContent: 'flex-start', gap: '0.5rem' }}>
+                    <div style={{ display: 'flex', justifyContent: 'flex-start', gap: '0.5rem', marginBottom: '0.5rem' }}>
+                      {qData.templates && qData.templates.length > 0 && (
+                        <button 
+                          className={`btn-translate ${isTemplateVisible ? 'active' : ''}`}
+                          onClick={() => toggleTemplate(qKey)}
+                          title="Gợi ý cấu trúc"
+                        >
+                          {isTemplateVisible ? 'Ẩn cấu trúc' : 'Gợi ý cấu trúc'}
+                        </button>
+                      )}
+                      {qData.vi && (
+                        <button 
+                          className={`btn-translate ${isTranslationVisible ? 'active' : ''}`}
+                          onClick={() => toggleTranslation(qKey)}
+                          title="Dịch câu hỏi"
+                        >
+                          {isTranslationVisible ? 'Ẩn dịch' : 'Dịch'}
+                        </button>
+                      )}
                       <button 
                         className={`btn-translate ${isVocabVisible ? 'active' : ''}`}
                         onClick={() => toggleVocab(qKey)}
@@ -258,6 +288,37 @@ const Part3 = () => {
                         {isVocabVisible ? 'Ẩn gợi ý & bài mẫu' : 'Xem gợi ý & bài mẫu'}
                       </button>
                     </div>
+
+                    {isTranslationVisible && qData.vi && (
+                      <div style={{ color: 'var(--text-muted)', fontSize: '0.9rem', fontStyle: 'italic', marginBottom: '1rem', marginLeft: '0.5rem' }}>
+                        {qData.vi}
+                      </div>
+                    )}
+
+                    {isTemplateVisible && qData.templates && qData.templates.length > 0 && (
+                      <div style={{ 
+                        marginBottom: '1rem', 
+                        padding: '0.75rem', 
+                        backgroundColor: '#F8FAFC', 
+                        border: '1px dashed #94A3B8',
+                        borderRadius: '6px',
+                        color: 'var(--primary)',
+                        fontSize: '0.95rem',
+                        lineHeight: '1.5'
+                      }}>
+                        <div style={{ fontWeight: '600', marginBottom: '0.5rem', color: '#B45309' }}>Khung đáp án gợi ý:</div>
+                        <ul style={{ listStyleType: 'none', paddingLeft: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '0.8rem' }}>
+                          {qData.templates.map((tpl, idx) => (
+                            <li key={idx} style={{ paddingBottom: '0.5rem', borderBottom: idx !== qData.templates.length - 1 ? '1px dashed rgba(0,0,0,0.1)' : 'none' }}>
+                              <span style={{ fontWeight: '600', marginRight: '0.3rem' }}>Cách {idx + 1}:</span>
+                              <span dangerouslySetInnerHTML={{ 
+                                __html: tpl.replace(/\[(.*?)\]/g, '<span style="color: #D97706; font-weight: 700;">[$1]</span>') 
+                              }} />
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
 
                     {isVocabVisible && (
                       <div style={{ 
