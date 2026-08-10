@@ -11,9 +11,9 @@ export const part3Data = {
         "✨ [Bảo quản]: <strong>keep it in pristine condition</strong> (giữ nó trong tình trạng nguyên vẹn), <strong>pass down through generations</strong> (truyền lại qua nhiều thế hệ), <strong>preserve carefully</strong> (bảo quản cẩn thận), <strong>stand the test of time</strong> (chống lại thử thách của thời gian)"
       ],
       "templates": [
-        "Regarding your question, a treasured item I have kept for ages is [món đồ bạn trân trọng]. It holds immense sentimental value and reminds me of [kỷ niệm].",
-        "One thing that holds immense sentimental value to me is [món đồ]. I preserve it carefully because it represents [giá trị/ý nghĩa].",
-        "To be honest, the oldest thing I own is [món đồ cũ]. Reading/seeing it brings back fond memories, and I feel deeply attached to it as a witness to [sự kiện]."
+        "Regarding your question, a treasured item I have kept for ages is [Đồ vật ý nghĩa]. It holds immense sentimental value and brings back [Cảm xúc].",
+        "One thing that holds immense sentimental value to me is [Đồ vật ý nghĩa]. I [Bảo quản] carefully because it represents [Cảm xúc].",
+        "To be honest, the oldest thing I own is [Đồ vật ý nghĩa]. By ensuring to [Bảo quản], I feel deeply attached to it because it evokes [Cảm xúc]."
       ],
       "samples": [
         {
@@ -40,9 +40,9 @@ export const part3Data = {
         "✨ [Hậu quả]: <strong>environmental degradation</strong> (sự suy thoái môi trường), <strong>excessive waste</strong> (rác thải quá mức), <strong>deplete natural resources</strong> (làm cạn kiệt tài nguyên thiên nhiên), <strong>carbon footprint</strong> (lượng khí thải carbon)"
       ],
       "templates": [
-        "I believe this throwaway culture is primarily caused by [nguyên nhân 1] and [nguyên nhân 2]. Buying new products is often cheaper than repairing broken ones.",
-        "In my opinion, this concerning trend happens because [nguyên nhân]. Unfortunately, this excessive consumerism inevitably leads to [hậu quả].",
-        "It is undeniable that people constantly upgrade their belongings to [lý do]. However, this dangerous habit significantly increases [hậu quả tiêu cực]."
+        "I believe this [Thực trạng] is primarily caused by [Nguyên nhân]. Buying new products is often cheaper than repairing broken ones.",
+        "In my opinion, this concerning trend happens because of [Nguyên nhân]. Unfortunately, this excessive consumerism inevitably leads to [Hậu quả].",
+        "It is undeniable that people constantly upgrade their belongings to follow [Thực trạng]. However, this dangerous habit significantly increases [Hậu quả]."
       ],
       "samples": [
         {
@@ -69,9 +69,9 @@ export const part3Data = {
         "✨ [Kết quả]: <strong>evoke strong emotions</strong> (gợi lên những cảm xúc mạnh mẽ), <strong>foster community connection</strong> (thúc đẩy sự gắn kết cộng đồng), <strong>attract diverse audiences</strong> (thu hút lượng khán giả đa dạng), <strong>create a memorable experience</strong> (tạo ra một trải nghiệm đáng nhớ)"
       ],
       "templates": [
-        "I highly recommend that we curate a gallery where members can [hành động 1]. Doing this will undoubtedly evoke strong emotions from visitors.",
-        "One fantastic idea is to encourage members to [hành động]. We can arrange items chronologically to show [mục đích], creating a memorable experience.",
-        "To make the exhibition truly engaging, we should [đề xuất]. This approach will successfully foster community connection and attract [đối tượng]."
+        "I highly recommend that we [Hoạt động trưng bày]. Doing this will undoubtedly [Kết quả].",
+        "One fantastic idea is to encourage members to [Kể chuyện]. We can arrange items chronologically to show how things have evolved, creating [Kết quả].",
+        "To make the exhibition truly engaging, we should [Hoạt động trưng bày]. This approach will successfully [Kết quả] and encourage members to [Kể chuyện]."
       ],
       "samples": [
         {
@@ -100,9 +100,9 @@ export const part3Data = {
         "✨ [Văn hóa]: <strong>local specialties</strong> (đặc sản địa phương), <strong>cultural authenticity</strong> (sự chân thực văn hóa), <strong>traditional cuisine</strong> (ẩm thực truyền thống), <strong>adventurous eater</strong> (người thích khám phá ẩm thực)"
       ],
       "templates": [
-        "The most bizarre dish I have ever tried is [tên món ăn]. Despite its [đặc điểm kỳ lạ], it was surprisingly delicious and offered a memorable tasting experience.",
-        "During a recent trip, I bravely tasted [tên món ăn] made from [nguyên liệu]. It completely forced me to step out of my culinary comfort zone but tasted [cảm nhận].",
-        "To my absolute surprise, the weirdest food I ate was [tên món ăn]. As an adventurous eater, I deeply appreciated the cultural authenticity behind [đặc điểm]."
+        "The most bizarre dish I have ever tried is [Món ăn]. Despite its unusual look, it was surprisingly delicious and offered [Trải nghiệm].",
+        "During a recent trip, I bravely tasted [Món ăn]. It completely forced me to [Trải nghiệm] but it truly reflects [Văn hóa].",
+        "To my absolute surprise, the weirdest food I ate was [Món ăn]. As an adventurous eater, I deeply appreciated the [Văn hóa]."
       ],
       "samples": [
         {
@@ -129,9 +129,9 @@ export const part3Data = {
         "✨ [Đánh giá]: <strong>a double-edged sword</strong> (con dao hai lưỡi), <strong>strike a balance</strong> (đạt được sự cân bằng), <strong>exercise caution</strong> (thận trọng), <strong>informed choices</strong> (lựa chọn sáng suốt)"
       ],
       "templates": [
-        "In my view, this trend is a double-edged sword because [lý do]. While exploring exotic delicacies boosts the local economy, it also carries [rủi ro].",
-        "I firmly believe it is a positive development since it [lợi ích 1]. Trying unconventional ingredients significantly broadens one's palate and promotes [lợi ích 2].",
-        "While it promotes cultural exchange, we must also consider [hạn chế]. It is crucial to exercise caution and make informed choices about [vấn đề]."
+        "In my view, this trend is [Đánh giá]. While exploring exotic delicacies helps [Tích cực], it also carries [Tiêu cực].",
+        "I firmly believe it is a positive development since it helps [Tích cực]. Trying unconventional ingredients significantly broadens one's palate.",
+        "While it helps [Tích cực], we must also consider [Tiêu cực]. It is crucial to [Đánh giá] about this issue."
       ],
       "samples": [
         {
@@ -158,9 +158,9 @@ export const part3Data = {
         "✨ [Mục tiêu]: <strong>attract food enthusiasts</strong> (thu hút những người đam mê ẩm thực), <strong>generate widespread buzz</strong> (tạo ra tiếng vang rộng rãi), <strong>maximize engagement</strong> (tối đa hóa sự tương tác), <strong>boost club membership</strong> (tăng số lượng thành viên câu lạc bộ)"
       ],
       "templates": [
-        "I strongly recommend that we organize a [tên sự kiện] featuring [hoạt động]. This fun activity will definitely spark curiosity and attract [đối tượng].",
-        "One fantastic approach is to set up [hoạt động] with unconventional ingredients. We can provide a unique sensory journey that will generate [kết quả].",
-        "To maximize engagement, we could host a [tên cuộc thi] where members [hành động]. These interactive stalls will be incredibly entertaining and leave a lasting impression."
+        "I strongly recommend that we [Hoạt động]. This fun activity will definitely [Trải nghiệm] and help [Mục tiêu].",
+        "One fantastic approach is to [Hoạt động]. By doing this, we can provide [Trải nghiệm] that will generate [Mục tiêu].",
+        "To achieve our [Mục tiêu], we could [Hoạt động]. These interactive stalls will be incredibly entertaining and provide [Trải nghiệm]."
       ],
       "samples": [
         {
@@ -189,9 +189,9 @@ export const part3Data = {
         "✨ [Lợi ích]: <strong>unwind after a hectic week</strong> (thư giãn sau một tuần bận rộn), <strong>strengthen our bond</strong> (củng cố mối quan hệ), <strong>share our latest updates</strong> (chia sẻ những thông tin mới nhất), <strong>relieve daily stress</strong> (giảm căng thẳng hàng ngày)"
       ],
       "templates": [
-        "I usually hang out with my close friends on a [tần suất]. We typically [hoạt động 1] to share our latest updates and unwind after [thời gian bận rộn].",
-        "Whenever time permits, we love to gather and [hoạt động]. It is a fantastic way to relieve daily stress and significantly strengthen our bond.",
-        "My friends and I catch up regularly every [thời điểm]. We normally [hoạt động 1] or [hoạt động 2], which brings immense joy to our busy lives."
+        "I usually hang out with my close friends [Tần suất]. We typically [Hoạt động] to share our latest updates and [Lợi ích].",
+        "Whenever time permits, we love to gather and [Hoạt động]. It is a fantastic way to [Lợi ích] and strengthen our bond.",
+        "My friends and I catch up regularly [Tần suất]. We normally [Hoạt động], which brings immense joy and helps [Lợi ích]."
       ],
       "samples": [
         {
@@ -218,9 +218,9 @@ export const part3Data = {
         "✨ [Tầm quan trọng thực tế]: <strong>read body language</strong> (đọc ngôn ngữ cơ thể), <strong>convey real emotions</strong> (truyền tải cảm xúc thật), <strong>build profound relationships</strong> (xây dựng các mối quan hệ sâu sắc), <strong>foster empathy</strong> (thúc đẩy sự thấu cảm)"
       ],
       "templates": [
-        "While virtual interactions are highly convenient, I believe they often lack [điều còn thiếu]. Face-to-face meetings are crucial because they allow us to [lợi ích].",
-        "It is concerning because relying too heavily on digital platforms can severely diminish [kỹ năng gì]. Teenagers might struggle to navigate real-life situations and feel [cảm xúc].",
-        "Although social media allows instant messaging, it completely lacks [điều còn thiếu]. Without the ability to foster empathy, excessive screen time can frequently cause [hậu quả]."
+        "While [Giao tiếp ảo] are highly convenient, I believe they often [Hạn chế]. Face-to-face meetings are crucial because they allow us to [Tầm quan trọng thực tế].",
+        "It is concerning because relying too heavily on [Giao tiếp ảo] can severely [Hạn chế]. Teenagers might struggle to navigate real-life situations.",
+        "Although social media allows [Giao tiếp ảo], it completely lacks the warmth of in-person communication. We need to [Tầm quan trọng thực tế] otherwise it will [Hạn chế]."
       ],
       "samples": [
         {
@@ -247,9 +247,9 @@ export const part3Data = {
         "✨ [Hành động]: <strong>make a lasting impact</strong> (tạo ra tác động lâu dài), <strong>allocate resources wisely</strong> (phân bổ nguồn lực một cách khôn ngoan), <strong>raise funds effectively</strong> (gây quỹ hiệu quả), <strong>distribute essential supplies</strong> (phân phát các nhu yếu phẩm thiết yếu)"
       ],
       "templates": [
-        "I strongly suggest that we sponsor poor children because it is an investment in [mục tiêu]. By providing [sự giúp đỡ], we can help them completely break [hậu quả].",
-        "In my opinion, supporting the elderly who live alone is highly crucial. Offering [sự giúp đỡ] will significantly alleviate their loneliness and improve [điều gì].",
-        "While both groups need help, focusing on [nhóm đối tượng] will make a lasting impact. If we raise funds effectively to [mục đích], they will eventually [kết quả]."
+        "I strongly suggest that we sponsor poor children because it helps [Trẻ em nghèo]. By deciding to [Hành động], we can help them completely break the vicious cycle of poverty.",
+        "In my opinion, supporting the elderly who live alone is highly crucial. Offering them support will significantly [Người già neo đơn] and [Hành động].",
+        "While both groups need help, focusing on poor children will [Hành động]. If we raise funds effectively to [Trẻ em nghèo], they will eventually give back to society."
       ],
       "samples": [
         {
@@ -278,9 +278,9 @@ export const part3Data = {
         "✨ [Kết nối]: <strong>filled with love and laughter</strong> (tràn ngập tình yêu và tiếng cười), <strong>a safe haven</strong> (một nơi trú ẩn an toàn), <strong>cherished family moments</strong> (những khoảnh khắc gia đình đáng trân trọng), <strong>warm interactions</strong> (những tương tác ấm áp)"
       ],
       "templates": [
-        "In my opinion, a beautiful home is primarily defined by [yếu tố 1] and [yếu tố 2]. These elements instantly create a cozy and welcoming atmosphere.",
-        "Beyond just elegant furniture, what truly makes a home beautiful is the sense of [cảm giác] it provides. Decluttered spaces that reflect your personal taste can [kết quả].",
-        "I strongly believe that a beautiful home must be filled with [yếu tố 1] and [yếu tố 2]. Even with minimalist design, cherished family moments genuinely make any living space stunning."
+        "In my opinion, a beautiful home is primarily defined by [Kiến trúc & Nội thất]. These elements instantly create [Không khí].",
+        "Beyond just [Kiến trúc & Nội thất], what truly makes a home beautiful is [Không khí]. Decluttered spaces that reflect your personal taste can provide [Kết nối].",
+        "I strongly believe that a beautiful home must be filled with [Kết nối]. Even with [Kiến trúc & Nội thất], cherished family moments genuinely create [Không khí]."
       ],
       "samples": [
         {
@@ -307,9 +307,9 @@ export const part3Data = {
         "✨ [Giải pháp thay thế]: <strong>DIY projects</strong> (các dự án tự làm), <strong>repurpose old items</strong> (tái sử dụng đồ cũ), <strong>affordable decor</strong> (đồ trang trí giá cả phải chăng), <strong>smart spatial planning</strong> (quy hoạch không gian thông minh)"
       ],
       "templates": [
-        "I completely disagree because that is a complete misconception. Price does not equal taste, and a home can look gorgeous through [giải pháp 1] and [giải pháp 2].",
-        "While expensive items are nice, they are definitely not a determining factor. The true beauty of a home stems from [yếu tố 1] and [yếu tố 2].",
-        "That statement is highly superficial. [yếu tố quan trọng hơn] matter much more. A well-organized room with repurposed old items will always feel much warmer than [thứ khác]."
+        "I completely disagree because that is [Bác bỏ]. Price does not equal taste, and a home can look gorgeous through [Giá trị thực sự] or [Giải pháp thay thế].",
+        "While expensive items are nice, they are [Bác bỏ]. The true beauty of a home stems from [Giá trị thực sự], such as utilizing [Giải pháp thay thế].",
+        "That statement is [Bác bỏ]. [Giá trị thực sự] matter much more. A well-organized room with [Giải pháp thay thế] will always feel much warmer."
       ],
       "samples": [
         {
@@ -336,9 +336,9 @@ export const part3Data = {
         "✨ [Sản xuất]: <strong>feature guest experts</strong> (mời các chuyên gia khách mời), <strong>showcase real members' homes</strong> (trưng bày ngôi nhà của các thành viên thực tế), <strong>ensure high production quality</strong> (đảm bảo chất lượng sản xuất cao), <strong>engage the audience interactively</strong> (tương tác hai chiều với khán giả)"
       ],
       "templates": [
-        "I strongly support this brilliant idea because it will undoubtedly [kết quả 1]. By providing [nội dung chương trình], we can easily inspire viewers to [kết quả 2].",
-        "This television show would be a fantastic opportunity to [kết quả]. We should definitely feature [nội dung] to offer highly relatable and visually stunning content.",
-        "To make the show successful, I highly suggest that we [hành động 1] and [hành động 2]. Ensuring high production quality will make our advice appear professional."
+        "I strongly support this brilliant idea because it will undoubtedly [Tác động]. By providing [Nội dung chương trình], we can easily inspire viewers.",
+        "This television show would be a fantastic opportunity to [Tác động]. We should definitely feature [Nội dung chương trình] and [Sản xuất] to offer highly relatable content.",
+        "To make the show successful, I highly suggest that we [Sản xuất]. Sharing [Nội dung chương trình] will make our advice appear professional and [Tác động]."
       ],
       "samples": [
         {
@@ -367,9 +367,9 @@ export const part3Data = {
         "✨ [Chăm sóc]: <strong>require minimal maintenance</strong> (yêu cầu bảo dưỡng tối thiểu), <strong>thrive in sunlight</strong> (phát triển mạnh dưới ánh nắng mặt trời), <strong>water regularly</strong> (tưới nước thường xuyên), <strong>flourish in spring</strong> (nở rộ vào mùa xuân)"
       ],
       "templates": [
-        "My absolute favorite flower is the [tên hoa]. Its [đặc điểm] instantly evoke incredibly positive feelings and constantly inspire me to [hành động/cảm xúc].",
-        "I have a deep affection for the [tên hoa]. It elegantly symbolizes [ý nghĩa 1] and [ý nghĩa 2] because it [đặc điểm nở hoa/phát triển].",
-        "The flower I admire the most is the [tên hoa]. Not only does it thrive beautifully with minimal maintenance, but its [đặc điểm] also helps me [kết quả]."
+        "My absolute favorite flower is the sunflower. Its [Đặc điểm] instantly evoke positive feelings and [Ý nghĩa].",
+        "I have a deep affection for the lotus. It elegantly symbolizes [Ý nghĩa] and only needs [Chăm sóc].",
+        "The flower I admire the most is the lavender. Not only does it thrive beautifully with [Chăm sóc], but its [Đặc điểm] also helps me relax."
       ],
       "samples": [
         {
@@ -396,9 +396,9 @@ export const part3Data = {
         "✨ [Lợi ích]: <strong>purify indoor air</strong> (thanh lọc không khí trong nhà), <strong>add a touch of greenery</strong> (thêm một chút sắc xanh), <strong>create a refreshing vibe</strong> (tạo cảm giác tươi mới), <strong>require minimal soil</strong> (yêu cầu rất ít đất trồng)"
       ],
       "templates": [
-        "Since your house is small, I highly recommend [giải pháp]. By installing [vật dụng 1] or using [vật dụng 2], you can easily maximize your limited space.",
-        "One fantastic solution for limited space is to grow [tên cây] in [vị trí]. Not only do they require minimal maintenance, but they also provide [lợi ích].",
-        "You should definitely consider utilizing [giải pháp 1] and [giải pháp 2]. These lovely low-maintenance plants fit perfectly on tiny desks and help [lợi ích]."
+        "Since your house is small, I highly recommend [Giải pháp không gian]. By utilizing this, you can easily grow [Lựa chọn cây trồng].",
+        "One fantastic solution for limited space is to grow [Lựa chọn cây trồng]. Not only do they require minimal maintenance, but they also provide [Lợi ích].",
+        "You should definitely consider [Giải pháp không gian]. These lovely [Lựa chọn cây trồng] fit perfectly on tiny desks and help [Lợi ích]."
       ],
       "samples": [
         {
@@ -425,9 +425,9 @@ export const part3Data = {
         "✨ [Mục tiêu]: <strong>foster a love for nature</strong> (nuôi dưỡng tình yêu thiên nhiên), <strong>build an eco-friendly community</strong> (xây dựng một cộng đồng thân thiện với môi trường), <strong>encourage active participation</strong> (khuyến khích sự tham gia tích cực), <strong>spark immense interest</strong> (khơi dậy sự hứng thú to lớn)"
       ],
       "templates": [
-        "I strongly suggest that we host a [tên sự kiện]. Providing [thứ gì đó] and distributing [tài liệu] will effectively encourage active participation and spark immense interest.",
-        "It would be a brilliant idea to set up a [tên hoạt động]. This exciting activity allows attendees to trade [thứ gì đó], effortlessly helping us build [kết quả].",
-        "To attract more members, we could organize a [tên hoạt động] and invite [đối tượng khách mời]. Discussing [chủ đề] in such an engaging way will definitely foster [kết quả]."
+        "I strongly suggest that we [Hoạt động thực hành]. Providing free seeds and [Chia sẻ kiến thức] will effectively help [Mục tiêu].",
+        "It would be a brilliant idea to [Hoạt động thực hành]. This exciting activity allows attendees to trade plants, effortlessly helping us [Mục tiêu].",
+        "To attract more members, we could [Chia sẻ kiến thức]. Discussing sustainable practices in such an engaging way will definitely [Mục tiêu]."
       ],
       "samples": [
         {
