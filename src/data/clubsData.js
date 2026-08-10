@@ -433,8 +433,8 @@ export const clubsData = {
           "vi": "Mùa thu rất đẹp."
         },
         {
-          "en": "I like December most.",
-          "vi": "Tôi thích tháng mười hai nhất."
+          "en": "I love Tet holiday.",
+          "vi": "Tôi yêu kỳ nghỉ Tết."
         }
       ],
       "vi": "Bản dịch gợi ý: Thời điểm yêu thích trong năm của bạn là lúc nào?"
@@ -3007,8 +3007,8 @@ export const clubsData = {
           "vi": "Mùa đông là thời gian tuyệt nhất."
         },
         {
-          "en": "I like the New Year.",
-          "vi": "Tôi thích dịp Năm mới."
+          "en": "I love Tet holiday.",
+          "vi": "Tôi yêu kỳ nghỉ Tết."
         }
       ],
       "vi": "Bản dịch gợi ý: Khoảng thời gian yêu thích của bạn trong năm là khi nào?"
