@@ -21,9 +21,9 @@ buildClub("Art club",
   "I kept a painting for a long time. Tell me a thing that you have had for a long time.",
   "Tôi đã giữ một bức tranh trong một thời gian dài. Hãy kể cho tôi nghe một món đồ mà bạn đã giữ rất lâu.",
   [
-    "✨ [Đồ vật ý nghĩa]: <strong>a vintage camera</strong> (chiếc máy ảnh cổ), <strong>a cute teddy bear</strong> (một con gấu bông dễ thương), <strong>a family heirloom</strong> (vật gia truyền)",
-    "✨ [Đặc điểm]: <strong>holds immense sentimental value</strong> (mang giá trị tinh thần to lớn), <strong>is a special gift from my best friend</strong> (là món quà đặc biệt từ bạn thân), <strong>represents my family heritage</strong> (đại diện cho di sản gia đình)",
-    "✨ [Hành động]: <strong>cherish it deeply</strong> (vô cùng trân trọng nó), <strong>clean it regularly</strong> (lau chùi nó thường xuyên), <strong>preserve it carefully</strong> (bảo quản nó cẩn thận)"
+    "✨ [Đồ vật ý nghĩa]: <strong>a vintage camera</strong> (chiếc máy ảnh cổ), <strong>a cute teddy bear</strong> (một con gấu bông dễ thương), <strong>an old watch</strong> (chiếc đồng hồ cũ), <strong>a family heirloom</strong> (vật gia truyền)",
+    "✨ [Đặc điểm]: <strong>holds immense sentimental value</strong> (mang giá trị tinh thần to lớn), <strong>is a special gift from my best friend</strong> (là món quà đặc biệt từ bạn thân), <strong>looks very beautiful</strong> (trông rất đẹp), <strong>represents my family heritage</strong> (đại diện cho di sản gia đình)",
+    "✨ [Hành động]: <strong>cherish it deeply</strong> (vô cùng trân trọng nó), <strong>clean it regularly</strong> (lau chùi nó thường xuyên), <strong>use it every single day</strong> (sử dụng nó mỗi ngày), <strong>preserve it carefully</strong> (bảo quản nó cẩn thận)"
   ],
   [
     "Regarding your question, a treasured item I have kept for ages is [Đồ vật ý nghĩa]. Because it [Đặc điểm], I always [Hành động].",
