@@ -54,6 +54,10 @@ const Part3 = () => {
     return text.trim().split(/\s+/).length;
   };
 
+  const handleAnswerChange = (qKey, value) => {
+    setAnswers(prev => ({ ...prev, [qKey]: value }));
+  };
+
   const toggleTranslation = (qKey) => {
     setShowTranslation(prev => ({ ...prev, [qKey]: !prev[qKey] }));
   };
