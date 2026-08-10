@@ -6,18 +6,27 @@ import { part3Data } from '../data/part3Data';
 export const exportToWord = async () => {
   const studentName = localStorage.getItem('aptis_student_name') || 'Khach';
   
-  // Fetch answers
+  // Fetch answers per club
   let p1Answers = {};
   let p2Answers = {};
   let p3Answers = {};
   
-  try {
-    p1Answers = JSON.parse(localStorage.getItem('aptis_p1_answers')) || {};
-    p2Answers = JSON.parse(localStorage.getItem('aptis_p2_answers')) || {};
-    p3Answers = JSON.parse(localStorage.getItem('aptis_p3_answers')) || {};
-  } catch (e) {
-    console.error("Error parsing answers from localStorage", e);
-  }
+  clubsData.forEach(club => {
+    try {
+      const p1 = localStorage.getItem(`aptis_p1_answers_${club.name}`);
+      if (p1) p1Answers[club.name] = JSON.parse(p1);
+      
+      const p2 = localStorage.getItem(`aptis_p2_answer_${club.name}`);
+      if (p2) p2Answers[club.name] = p2;
+    } catch(e) {}
+  });
+
+  Object.keys(part3Data).forEach(clubName => {
+    try {
+      const p3 = localStorage.getItem(`aptis_p3_answers_${clubName}`);
+      if (p3) p3Answers[clubName] = JSON.parse(p3);
+    } catch(e) {}
+  });
 
   const children = [];
 
