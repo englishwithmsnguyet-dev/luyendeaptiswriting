@@ -1,6 +1,7 @@
 import { Document, Packer, Paragraph, TextRun, HeadingLevel } from 'docx';
 import { saveAs } from 'file-saver';
 import { clubsData } from '../data/clubsData';
+import { part2Data } from '../data/part2Data';
 import { part3Data } from '../data/part3Data';
 
 export const exportToWord = async () => {
@@ -11,13 +12,13 @@ export const exportToWord = async () => {
   let p2Answers = {};
   let p3Answers = {};
   
-  clubsData.forEach(club => {
+  Object.keys(clubsData).forEach(clubName => {
     try {
-      const p1 = localStorage.getItem(`aptis_p1_answers_${club.name}`);
-      if (p1) p1Answers[club.name] = JSON.parse(p1);
+      const p1 = localStorage.getItem(`aptis_p1_answers_${clubName}`);
+      if (p1) p1Answers[clubName] = JSON.parse(p1);
       
-      const p2 = localStorage.getItem(`aptis_p2_answer_${club.name}`);
-      if (p2) p2Answers[club.name] = p2;
+      const p2 = localStorage.getItem(`aptis_p2_answer_${clubName}`);
+      if (p2) p2Answers[clubName] = p2;
     } catch(e) {}
   });
 
@@ -85,8 +86,8 @@ export const exportToWord = async () => {
     );
 
     answeredClubsP1.forEach(clubName => {
-      const club = clubsData.find(c => c.name === clubName);
-      if (club) {
+      const clubQuestions = clubsData[clubName];
+      if (clubQuestions) {
         children.push(
           new Paragraph({
             text: `Club: ${clubName}`,
@@ -97,7 +98,8 @@ export const exportToWord = async () => {
         const ans = p1Answers[clubName];
         if (ans) {
           Object.keys(ans).forEach((qKey, index) => {
-            const questionText = club.questions[index]?.en || `Question ${index + 1}`;
+            // Find question by id instead of index, or fallback
+            const questionText = clubQuestions.find(q => q.id === qKey)?.text || `Question ${index + 1}`;
             addQA(questionText, ans[qKey]);
           });
         }
@@ -117,8 +119,8 @@ export const exportToWord = async () => {
     );
 
     answeredClubsP2.forEach(clubName => {
-      const club = clubsData.find(c => c.name === clubName);
-      if (club) {
+      const clubData = part2Data[clubName];
+      if (clubData) {
         children.push(
           new Paragraph({
             text: `Club: ${clubName}`,
@@ -126,7 +128,8 @@ export const exportToWord = async () => {
             spacing: { before: 300, after: 100 },
           })
         );
-        const questionText = club.part2_question?.en || "Question for Part 2";
+        
+        const questionText = clubData.text || "Question for Part 2";
         addQA(questionText, p2Answers[clubName]);
       }
     });
