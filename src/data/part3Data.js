@@ -6,9 +6,9 @@ export const part3Data = {
       "question": "I kept a painting for a long time. Tell me a thing that you have had for a long time.",
       "vi": "Tôi đã giữ một bức tranh trong một thời gian dài. Hãy kể cho tôi nghe một món đồ mà bạn đã giữ rất lâu.",
       "vocab": [
-        "✨ [Đồ vật ý nghĩa]: <strong>a vintage camera</strong> (chiếc máy ảnh cổ), <strong>a cute teddy bear</strong> (một con gấu bông dễ thương), <strong>an old watch</strong> (chiếc đồng hồ cũ), <strong>a family heirloom</strong> (vật gia truyền)",
-        "✨ [Đặc điểm]: <strong>holds immense sentimental value</strong> (mang giá trị tinh thần to lớn), <strong>is a special gift from my best friend</strong> (là món quà đặc biệt từ bạn thân), <strong>looks very beautiful</strong> (trông rất đẹp), <strong>represents my family heritage</strong> (đại diện cho di sản gia đình)",
-        "✨ [Hành động]: <strong>cherish it deeply</strong> (vô cùng trân trọng nó), <strong>clean it regularly</strong> (lau chùi nó thường xuyên), <strong>use it every single day</strong> (sử dụng nó mỗi ngày), <strong>preserve it carefully</strong> (bảo quản nó cẩn thận)"
+        "✨ [Đồ vật ý nghĩa]: <strong>an old watch</strong> (chiếc đồng hồ cũ), <strong>a cute teddy bear</strong> (một con gấu bông dễ thương), <strong>a vintage camera</strong> (chiếc máy ảnh cổ), <strong>a family heirloom</strong> (vật gia truyền), <strong>a gold necklace</strong> (sợi dây chuyền vàng)",
+        "✨ [Đặc điểm]: <strong>looks very beautiful</strong> (trông rất đẹp), <strong>is a special gift from my best friend</strong> (là món quà đặc biệt từ bạn thân), <strong>holds immense sentimental value</strong> (mang giá trị tinh thần to lớn), <strong>represents my family heritage</strong> (đại diện cho di sản gia đình), <strong>has a unique design</strong> (có thiết kế độc đáo)",
+        "✨ [Hành động]: <strong>use it every single day</strong> (sử dụng nó mỗi ngày), <strong>clean it regularly</strong> (lau chùi nó thường xuyên), <strong>cherish it deeply</strong> (vô cùng trân trọng nó), <strong>preserve it carefully</strong> (bảo quản nó cẩn thận), <strong>keep it in a safe box</strong> (cất nó trong hộp an toàn)"
       ],
       "templates": [
         "Regarding your question, a treasured item I have kept for ages is [Đồ vật ý nghĩa]. Because it [Đặc điểm], I always [Hành động].",
@@ -35,9 +35,9 @@ export const part3Data = {
       "question": "I would like to learn painting, but I have not found an effective way. Should I take a course at my local college? Please, give me some advice.",
       "vi": "Tôi muốn học vẽ tranh, nhưng tôi chưa tìm ra cách hiệu quả. Tôi có nên tham gia một khóa học tại trường cao đẳng địa phương không? Xin hãy cho tôi lời khuyên.",
       "vocab": [
-        "✨ [Nhận định]: <strong>a fantastic idea</strong> (một ý tưởng tuyệt vời), <strong>a worthwhile investment</strong> (một sự đầu tư xứng đáng), <strong>the most effective way</strong> (cách hiệu quả nhất)",
-        "✨ [Lợi ích khóa học]: <strong>master basic techniques quickly</strong> (nắm vững các kỹ thuật cơ bản nhanh chóng), <strong>receive professional guidance</strong> (nhận được sự hướng dẫn chuyên nghiệp), <strong>interact with experienced instructors</strong> (tương tác với những người hướng dẫn giàu kinh nghiệm)",
-        "✨ [Kết quả]: <strong>improve your artistic skills significantly</strong> (cải thiện đáng kể kỹ năng nghệ thuật của bạn), <strong>build a solid foundation</strong> (xây dựng một nền tảng vững chắc), <strong>find your unique painting style</strong> (tìm ra phong cách vẽ độc đáo của bạn)"
+        "✨ [Nhận định]: <strong>a good idea</strong> (một ý tưởng hay), <strong>the best choice</strong> (sự lựa chọn tốt nhất), <strong>a fantastic idea</strong> (một ý tưởng tuyệt vời), <strong>a worthwhile investment</strong> (một sự đầu tư xứng đáng), <strong>the most effective way</strong> (cách hiệu quả nhất)",
+        "✨ [Lợi ích khóa học]: <strong>learn how to paint</strong> (học cách vẽ tranh), <strong>meet new friends</strong> (gặp gỡ bạn mới), <strong>master basic techniques quickly</strong> (nắm vững các kỹ thuật cơ bản nhanh chóng), <strong>receive professional guidance</strong> (nhận được sự hướng dẫn chuyên nghiệp), <strong>interact with experienced instructors</strong> (tương tác với những người hướng dẫn giàu kinh nghiệm)",
+        "✨ [Kết quả]: <strong>draw better pictures</strong> (vẽ những bức tranh đẹp hơn), <strong>feel very happy</strong> (cảm thấy rất vui vẻ), <strong>improve your artistic skills significantly</strong> (cải thiện đáng kể kỹ năng nghệ thuật của bạn), <strong>build a solid foundation</strong> (xây dựng một nền tảng vững chắc), <strong>find your unique painting style</strong> (tìm ra phong cách vẽ độc đáo của bạn)"
       ],
       "templates": [
         "I believe taking a course at your local college is [Nhận định]. It will help you [Lợi ích khóa học] and eventually [Kết quả].",
@@ -64,9 +64,9 @@ export const part3Data = {
       "question": "Street art – where people paint on the building – is becoming popular. However, some people criticize that it is bad. What is your opinion?",
       "vi": "Nghệ thuật đường phố - nơi mọi người vẽ lên tòa nhà - đang trở nên phổ biến. Tuy nhiên, một số người chỉ trích rằng nó là xấu. Ý kiến của bạn là gì?",
       "vocab": [
-        "✨ [Đánh giá]: <strong>a beautiful form of self-expression</strong> (một hình thức thể hiện bản thân tuyệt đẹp), <strong>an essential part of urban culture</strong> (một phần thiết yếu của văn hóa đô thị), <strong>a vibrant addition to the city</strong> (một sự bổ sung sống động cho thành phố)",
-        "✨ [Mặt tích cực]: <strong>beautify dull concrete walls</strong> (làm đẹp những bức tường bê tông nhàm chán), <strong>convey powerful social messages</strong> (truyền tải những thông điệp xã hội mạnh mẽ), <strong>showcase local artistic talents</strong> (trưng bày tài năng nghệ thuật địa phương)",
-        "✨ [Giải pháp]: <strong>designate specific areas for artists</strong> (chỉ định các khu vực cụ thể cho nghệ sĩ), <strong>regulate it properly</strong> (quản lý nó một cách hợp lý), <strong>differentiate it from vandalism</strong> (phân biệt nó với hành vi phá hoại)"
+        "✨ [Đánh giá]: <strong>really nice</strong> (thật sự đẹp), <strong>a good thing</strong> (một điều tốt), <strong>a beautiful form of self-expression</strong> (một hình thức thể hiện bản thân tuyệt đẹp), <strong>an essential part of urban culture</strong> (một phần thiết yếu của văn hóa đô thị), <strong>a vibrant addition to the city</strong> (một sự bổ sung sống động cho thành phố)",
+        "✨ [Mặt tích cực]: <strong>make streets colorful</strong> (làm cho đường phố rực rỡ), <strong>help people relax</strong> (giúp mọi người thư giãn), <strong>beautify dull concrete walls</strong> (làm đẹp những bức tường bê tông nhàm chán), <strong>convey powerful social messages</strong> (truyền tải những thông điệp xã hội mạnh mẽ), <strong>showcase local artistic talents</strong> (trưng bày tài năng nghệ thuật địa phương)",
+        "✨ [Giải pháp]: <strong>give them free spaces</strong> (cho họ không gian miễn phí), <strong>support young artists</strong> (ủng hộ các nghệ sĩ trẻ), <strong>designate specific areas for artists</strong> (chỉ định các khu vực cụ thể cho nghệ sĩ), <strong>regulate it properly</strong> (quản lý nó một cách hợp lý), <strong>differentiate it from vandalism</strong> (phân biệt nó với hành vi phá hoại)"
       ],
       "templates": [
         "I completely disagree with the criticism because street art is [Đánh giá]. It can successfully [Mặt tích cực].",
@@ -95,9 +95,9 @@ export const part3Data = {
       "question": "Tell me the last time you had a good meal.",
       "vi": "Hãy kể cho tôi nghe lần gần nhất bạn có một bữa ăn ngon.",
       "vocab": [
-        "✨ [Thời điểm & Dịp]: <strong>last weekend to celebrate my birthday</strong> (cuối tuần trước để mừng sinh nhật tôi), <strong>two days ago during a family gathering</strong> (hai ngày trước trong một buổi tụ họp gia đình), <strong>yesterday after a stressful working day</strong> (hôm qua sau một ngày làm việc căng thẳng)",
-        "✨ [Món ăn]: <strong>a delicious homemade pizza</strong> (một chiếc bánh pizza tự làm thơm ngon), <strong>some authentic traditional pho</strong> (một ít phở truyền thống chuẩn vị), <strong>a mouth-watering seafood hotpot</strong> (một nồi lẩu hải sản hấp dẫn)",
-        "✨ [Cảm nhận]: <strong>it tasted absolutely heavenly</strong> (nó có vị ngon tuyệt đỉnh), <strong>the flavors were perfectly balanced</strong> (hương vị được cân bằng hoàn hảo), <strong>it instantly melted in my mouth</strong> (nó tan ngay trong miệng tôi)"
+        "✨ [Thời điểm & Dịp]: <strong>last night</strong> (tối qua), <strong>on my birthday</strong> (vào ngày sinh nhật của tôi), <strong>last weekend to celebrate my birthday</strong> (cuối tuần trước để mừng sinh nhật tôi), <strong>two days ago during a family gathering</strong> (hai ngày trước trong một buổi tụ họp gia đình), <strong>yesterday after a stressful working day</strong> (hôm qua sau một ngày làm việc căng thẳng)",
+        "✨ [Món ăn]: <strong>a big hamburger</strong> (một chiếc hamburger lớn), <strong>a bowl of hot soup</strong> (một bát súp nóng), <strong>a delicious homemade pizza</strong> (một chiếc bánh pizza tự làm thơm ngon), <strong>some authentic traditional pho</strong> (một ít phở truyền thống chuẩn vị), <strong>a mouth-watering seafood hotpot</strong> (một nồi lẩu hải sản hấp dẫn)",
+        "✨ [Cảm nhận]: <strong>it was very yummy</strong> (nó rất ngon), <strong>I liked it a lot</strong> (tôi rất thích nó), <strong>it tasted absolutely heavenly</strong> (nó có vị ngon tuyệt đỉnh), <strong>the flavors were perfectly balanced</strong> (hương vị được cân bằng hoàn hảo), <strong>it instantly melted in my mouth</strong> (nó tan ngay trong miệng tôi)"
       ],
       "templates": [
         "The last time I had a genuinely good meal was [Thời điểm & Dịp]. I enjoyed [Món ăn] and [Cảm nhận].",
@@ -124,9 +124,9 @@ export const part3Data = {
       "question": "I want to visit your country. Do you have any suggestions for me on what delicious food to eat?",
       "vi": "Tôi muốn đến thăm đất nước của bạn. Bạn có gợi ý nào cho tôi về những món ăn ngon không?",
       "vocab": [
-        "✨ [Món đề xuất]: <strong>our world-famous beef noodle soup</strong> (món phở bò nổi tiếng thế giới của chúng tôi), <strong>savory Vietnamese crispy pancakes</strong> (bánh xèo Việt Nam giòn rụm), <strong>the iconic banh mi sandwich</strong> (bánh mì kẹp mang tính biểu tượng)",
-        "✨ [Đặc điểm món ăn]: <strong>it features a rich and aromatic broth</strong> (nó có nước dùng đậm đà và thơm phức), <strong>it is filled with fresh herbs and meat</strong> (nó chứa đầy các loại rau thơm tươi và thịt), <strong>it perfectly balances sweet and savory flavors</strong> (nó cân bằng hoàn hảo hương vị mặn ngọt)",
-        "✨ [Lời khuyên]: <strong>try it at local street food stalls</strong> (hãy thử nó tại các quầy thức ăn đường phố địa phương), <strong>eat it while it is still piping hot</strong> (hãy ăn nó khi nó vẫn còn nóng hổi), <strong>pair it with traditional iced tea</strong> (kết hợp nó với trà đá truyền thống)"
+        "✨ [Món đề xuất]: <strong>spring rolls</strong> (chả giò), <strong>broken rice</strong> (cơm tấm), <strong>our world-famous beef noodle soup</strong> (món phở bò nổi tiếng thế giới của chúng tôi), <strong>savory Vietnamese crispy pancakes</strong> (bánh xèo Việt Nam giòn rụm), <strong>the iconic banh mi sandwich</strong> (bánh mì kẹp mang tính biểu tượng)",
+        "✨ [Đặc điểm món ăn]: <strong>it is cheap and tasty</strong> (nó rẻ và ngon), <strong>it has fresh vegetables</strong> (nó có rau tươi), <strong>it features a rich and aromatic broth</strong> (nó có nước dùng đậm đà và thơm phức), <strong>it is filled with fresh herbs and meat</strong> (nó chứa đầy các loại rau thơm tươi và thịt), <strong>it perfectly balances sweet and savory flavors</strong> (nó cân bằng hoàn hảo hương vị mặn ngọt)",
+        "✨ [Lời khuyên]: <strong>buy it on the street</strong> (mua nó trên đường phố), <strong>eat it for breakfast</strong> (ăn nó vào bữa sáng), <strong>try it at local street food stalls</strong> (hãy thử nó tại các quầy thức ăn đường phố địa phương), <strong>eat it while it is still piping hot</strong> (hãy ăn nó khi nó vẫn còn nóng hổi), <strong>pair it with traditional iced tea</strong> (kết hợp nó với trà đá truyền thống)"
       ],
       "templates": [
         "If you visit my country, you must definitely try [Món đề xuất]. [Đặc điểm món ăn], so I highly recommend you [Lời khuyên].",
@@ -153,9 +153,9 @@ export const part3Data = {
       "question": "Today, many people eat pizza. But it is not healthy and they should limit eating it. What is your opinion?",
       "vi": "Ngày nay, nhiều người ăn bánh pizza. Nhưng nó không tốt cho sức khỏe và họ nên hạn chế ăn nó. Ý kiến của bạn là gì?",
       "vocab": [
-        "✨ [Quan điểm]: <strong>totally agree with this statement</strong> (hoàn toàn đồng ý với nhận định này), <strong>partly agree with this opinion</strong> (đồng ý một phần với ý kiến này), <strong>think we should strike a balance</strong> (nghĩ rằng chúng ta nên đạt được sự cân bằng)",
-        "✨ [Lý do sức khỏe]: <strong>it contains excessive amounts of calories</strong> (nó chứa quá nhiều calo), <strong>it is a highly processed food</strong> (nó là một loại thực phẩm chế biến kỹ), <strong>it can lead to dangerous obesity</strong> (nó có thể dẫn đến bệnh béo phì nguy hiểm)",
-        "✨ [Giải pháp thay thế]: <strong>consume it occasionally as a treat</strong> (thỉnh thoảng ăn nó như một phần thưởng), <strong>make homemade versions with fresh vegetables</strong> (làm các phiên bản tự làm với rau củ tươi), <strong>choose healthier toppings and thin crusts</strong> (chọn các loại nhân lành mạnh hơn và đế mỏng)"
+        "✨ [Quan điểm]: <strong>agree with this</strong> (đồng ý với điều này), <strong>think this is true</strong> (nghĩ điều này là đúng), <strong>totally agree with this statement</strong> (hoàn toàn đồng ý với nhận định này), <strong>partly agree with this opinion</strong> (đồng ý một phần với ý kiến này), <strong>think we should strike a balance</strong> (nghĩ rằng chúng ta nên đạt được sự cân bằng)",
+        "✨ [Lý do sức khỏe]: <strong>it has too much fat</strong> (nó có quá nhiều chất béo), <strong>it makes you gain weight</strong> (nó làm bạn tăng cân), <strong>it contains excessive amounts of calories</strong> (nó chứa quá nhiều calo), <strong>it is a highly processed food</strong> (nó là một loại thực phẩm chế biến kỹ), <strong>it can lead to dangerous obesity</strong> (nó có thể dẫn đến bệnh béo phì nguy hiểm)",
+        "✨ [Giải pháp thay thế]: <strong>eat it once a week</strong> (ăn nó một lần một tuần), <strong>eat more salads instead</strong> (ăn nhiều salad thay thế), <strong>consume it occasionally as a treat</strong> (thỉnh thoảng ăn nó như một phần thưởng), <strong>make homemade versions with fresh vegetables</strong> (làm các phiên bản tự làm với rau củ tươi), <strong>choose healthier toppings and thin crusts</strong> (chọn các loại nhân lành mạnh hơn và đế mỏng)"
       ],
       "templates": [
         "I [Quan điểm] because [Lý do sức khỏe]. Instead of eating it daily, we should [Giải pháp thay thế].",
@@ -184,9 +184,9 @@ export const part3Data = {
       "question": "What do you do when you go out with your friends?",
       "vi": "Bạn thường làm gì khi đi ra ngoài với bạn bè?",
       "vocab": [
-        "✨ [Hoạt động ăn uống]: <strong>grab a cup of coffee at a cozy café</strong> (đi uống cà phê tại một quán nhỏ ấm cúng), <strong>dine out at local eateries</strong> (ăn ngoài tại các quán ăn địa phương), <strong>have a lovely picnic in the park</strong> (tổ chức một buổi dã ngoại đáng yêu trong công viên)",
-        "✨ [Hoạt động giải trí]: <strong>watch a blockbuster movie</strong> (xem một bộ phim bom tấn), <strong>go window shopping at the mall</strong> (đi ngắm đồ ở trung tâm thương mại), <strong>play board games together</strong> (cùng nhau chơi board game)",
-        "✨ [Lợi ích]: <strong>share our latest updates</strong> (chia sẻ những thông tin mới nhất), <strong>unwind after a hectic week</strong> (thư giãn sau một tuần bận rộn), <strong>strengthen our tight bond</strong> (củng cố mối quan hệ bền chặt của chúng tôi)"
+        "✨ [Hoạt động ăn uống]: <strong>eat fast food</strong> (ăn thức ăn nhanh), <strong>drink milk tea</strong> (uống trà sữa), <strong>grab a cup of coffee at a cozy café</strong> (đi uống cà phê tại một quán nhỏ ấm cúng), <strong>dine out at local eateries</strong> (ăn ngoài tại các quán ăn địa phương), <strong>have a lovely picnic in the park</strong> (tổ chức một buổi dã ngoại đáng yêu trong công viên)",
+        "✨ [Hoạt động giải trí]: <strong>play video games</strong> (chơi trò chơi điện tử), <strong>walk around the city</strong> (đi dạo quanh thành phố), <strong>watch a blockbuster movie</strong> (xem một bộ phim bom tấn), <strong>go window shopping at the mall</strong> (đi ngắm đồ ở trung tâm thương mại), <strong>play board games together</strong> (cùng nhau chơi board game)",
+        "✨ [Lợi ích]: <strong>feel very happy</strong> (cảm thấy rất vui vẻ), <strong>talk about school</strong> (nói về trường học), <strong>share our latest updates</strong> (chia sẻ những thông tin mới nhất), <strong>unwind after a hectic week</strong> (thư giãn sau một tuần bận rộn), <strong>strengthen our tight bond</strong> (củng cố mối quan hệ bền chặt của chúng tôi)"
       ],
       "templates": [
         "When hanging out, we usually [Hoạt động ăn uống] and then [Hoạt động giải trí]. This helps us [Lợi ích].",
@@ -213,9 +213,9 @@ export const part3Data = {
       "question": "Is it easier for young people to have friends?",
       "vi": "Thanh niên kết bạn có dễ dàng hơn không?",
       "vocab": [
-        "✨ [Quan điểm]: <strong>absolutely believe it is easier</strong> (hoàn toàn tin rằng điều đó dễ dàng hơn), <strong>think they have a huge advantage</strong> (nghĩ rằng họ có một lợi thế to lớn), <strong>strongly agree with this</strong> (rất đồng tình với điều này)",
-        "✨ [Lý do]: <strong>have more free time to socialize</strong> (có nhiều thời gian rảnh rỗi hơn để giao lưu), <strong>are generally more open-minded</strong> (nhìn chung là cởi mở hơn), <strong>frequently participate in group activities</strong> (thường xuyên tham gia các hoạt động nhóm)",
-        "✨ [Yếu tố hỗ trợ]: <strong>meet peers easily at school</strong> (gặp gỡ bạn bè đồng trang lứa dễ dàng ở trường), <strong>share common interests and hobbies</strong> (chia sẻ những sở thích và đam mê chung), <strong>connect quickly through social media</strong> (kết nối nhanh chóng qua mạng xã hội)"
+        "✨ [Quan điểm]: <strong>think so</strong> (nghĩ vậy), <strong>agree with this</strong> (đồng ý với điều này), <strong>absolutely believe it is easier</strong> (hoàn toàn tin rằng điều đó dễ dàng hơn), <strong>think they have a huge advantage</strong> (nghĩ rằng họ có một lợi thế to lớn), <strong>strongly agree with this</strong> (rất đồng tình với điều này)",
+        "✨ [Lý do]: <strong>go to school every day</strong> (đi học mỗi ngày), <strong>play sports together</strong> (chơi thể thao cùng nhau), <strong>have more free time to socialize</strong> (có nhiều thời gian rảnh rỗi hơn để giao lưu), <strong>are generally more open-minded</strong> (nhìn chung là cởi mở hơn), <strong>frequently participate in group activities</strong> (thường xuyên tham gia các hoạt động nhóm)",
+        "✨ [Yếu tố hỗ trợ]: <strong>meet peers easily at school</strong> (gặp gỡ bạn bè đồng trang lứa dễ dàng ở trường), <strong>share common interests and hobbies</strong> (chia sẻ những sở thích và đam mê chung), <strong>connect quickly through social media</strong> (kết nối nhanh chóng qua mạng xã hội), <strong>use smartphones a lot</strong> (sử dụng điện thoại thông minh nhiều), <strong>talk online easily</strong> (nói chuyện trực tuyến dễ dàng)"
       ],
       "templates": [
         "I [Quan điểm] because they [Lý do]. Furthermore, they can [Yếu tố hỗ trợ].",
@@ -242,9 +242,9 @@ export const part3Data = {
       "question": "It is much easier to make new friends these days because of computers and mobile phones. Do you agree? Why or why not?",
       "vi": "Ngày nay kết bạn mới dễ dàng hơn rất nhiều nhờ máy tính và điện thoại di động. Bạn có đồng ý không? Tại sao hoặc tại sao không?",
       "vocab": [
-        "✨ [Sự đồng ý]: <strong>completely agree with this statement</strong> (hoàn toàn đồng ý với nhận định này), <strong>see the tremendous benefits of technology</strong> (thấy được những lợi ích to lớn của công nghệ), <strong>firmly support this idea</strong> (ủng hộ mạnh mẽ ý tưởng này)",
-        "✨ [Lý do công nghệ]: <strong>overcome geographical barriers instantly</strong> (vượt qua các rào cản địa lý ngay lập tức), <strong>join online communities easily</strong> (tham gia các cộng đồng trực tuyến dễ dàng), <strong>find like-minded people globally</strong> (tìm những người cùng chí hướng trên toàn cầu)",
-        "✨ [Hạn chế cần lưu ý]: <strong>maintain genuine face-to-face interactions</strong> (duy trì các tương tác trực tiếp chân thật), <strong>be careful of fake online identities</strong> (cẩn thận với các danh tính trực tuyến giả mạo), <strong>avoid digital addiction</strong> (tránh chứng nghiện kỹ thuật số)"
+        "✨ [Sự đồng ý]: <strong>agree with this</strong> (đồng ý với điều này), <strong>think it is true</strong> (nghĩ rằng nó đúng), <strong>completely agree with this statement</strong> (hoàn toàn đồng ý với nhận định này), <strong>see the tremendous benefits of technology</strong> (thấy được những lợi ích to lớn của công nghệ), <strong>firmly support this idea</strong> (ủng hộ mạnh mẽ ý tưởng này)",
+        "✨ [Lý do công nghệ]: <strong>chat with everyone</strong> (nhắn tin với mọi người), <strong>make video calls</strong> (gọi điện video), <strong>overcome geographical barriers instantly</strong> (vượt qua các rào cản địa lý ngay lập tức), <strong>join online communities easily</strong> (tham gia các cộng đồng trực tuyến dễ dàng), <strong>find like-minded people globally</strong> (tìm những người cùng chí hướng trên toàn cầu)",
+        "✨ [Hạn chế cần lưu ý]: <strong>meet people in real life</strong> (gặp gỡ mọi người ngoài đời thực), <strong>be careful of strangers</strong> (cẩn thận với người lạ), <strong>maintain genuine face-to-face interactions</strong> (duy trì các tương tác trực tiếp chân thật), <strong>be careful of fake online identities</strong> (cẩn thận với các danh tính trực tuyến giả mạo), <strong>avoid digital addiction</strong> (tránh chứng nghiện kỹ thuật số)"
       ],
       "templates": [
         "I [Sự đồng ý] because devices help us [Lý do công nghệ]. However, we must still [Hạn chế cần lưu ý].",
@@ -273,9 +273,9 @@ export const part3Data = {
       "question": "I have a bad relationship with my neighbors because they often make noise. Tell me how is your relationship with your neighbors?",
       "vi": "Tôi có mối quan hệ tồi tệ với những người hàng xóm vì họ thường làm ồn. Hãy cho tôi biết mối quan hệ của bạn với hàng xóm như thế nào?",
       "vocab": [
-        "✨ [Tình trạng mối quan hệ]: <strong>have a harmonious relationship</strong> (có một mối quan hệ hài hòa), <strong>get along very well</strong> (rất hòa thuận), <strong>maintain a respectful distance</strong> (duy trì một khoảng cách tôn trọng)",
-        "✨ [Hành động tích cực]: <strong>respect each other's privacy</strong> (tôn trọng sự riêng tư của nhau), <strong>always help each other in need</strong> (luôn giúp đỡ lẫn nhau khi cần thiết), <strong>share food occasionally</strong> (thỉnh thoảng chia sẻ đồ ăn)",
-        "✨ [Giải quyết vấn đề]: <strong>communicate openly and politely</strong> (giao tiếp cởi mở và lịch sự), <strong>avoid unnecessary conflicts</strong> (tránh những xung đột không cần thiết), <strong>tolerate minor inconveniences</strong> (chấp nhận những sự bất tiện nhỏ)"
+        "✨ [Tình trạng mối quan hệ]: <strong>have a good relationship</strong> (có mối quan hệ tốt), <strong>am very friendly</strong> (rất thân thiện), <strong>have a harmonious relationship</strong> (có một mối quan hệ hài hòa), <strong>get along very well</strong> (rất hòa thuận), <strong>maintain a respectful distance</strong> (duy trì một khoảng cách tôn trọng)",
+        "✨ [Hành động tích cực]: <strong>say hello every day</strong> (chào hỏi mỗi ngày), <strong>share some fresh fruits</strong> (chia sẻ một ít trái cây tươi), <strong>respect each other's privacy</strong> (tôn trọng sự riêng tư của nhau), <strong>always help each other in need</strong> (luôn giúp đỡ lẫn nhau khi cần thiết), <strong>share food occasionally</strong> (thỉnh thoảng chia sẻ đồ ăn)",
+        "✨ [Giải quyết vấn đề]: <strong>smile and talk softly</strong> (mỉm cười và nói nhẹ nhàng), <strong>ignore small noises</strong> (bỏ qua những tiếng ồn nhỏ), <strong>communicate openly and politely</strong> (giao tiếp cởi mở và lịch sự), <strong>avoid unnecessary conflicts</strong> (tránh những xung đột không cần thiết), <strong>tolerate minor inconveniences</strong> (chấp nhận những sự bất tiện nhỏ)"
       ],
       "templates": [
         "Fortunately, I [Tình trạng mối quan hệ] with them. We [Hành động tích cực] and try to [Giải quyết vấn đề].",
@@ -302,9 +302,9 @@ export const part3Data = {
       "question": "Do you prefer living in old buildings or modern buildings? Why?",
       "vi": "Bạn thích sống ở những tòa nhà cũ hay tòa nhà hiện đại hơn? Tại sao?",
       "vocab": [
-        "✨ [Lựa chọn]: <strong>definitely prefer modern buildings</strong> (chắc chắn thích các tòa nhà hiện đại hơn), <strong>lean towards newly built apartments</strong> (thiên về các căn hộ mới xây), <strong>choose contemporary housing</strong> (chọn nhà ở đương đại)",
-        "✨ [Lý do hiện đại]: <strong>offer advanced security systems</strong> (cung cấp hệ thống an ninh tiên tiến), <strong>provide high-quality amenities</strong> (cung cấp các tiện nghi chất lượng cao), <strong>feature smart home technologies</strong> (có công nghệ nhà thông minh)",
-        "✨ [Lợi ích]: <strong>ensure a convenient lifestyle</strong> (đảm bảo một lối sống tiện lợi), <strong>require far less maintenance</strong> (yêu cầu bảo trì ít hơn nhiều), <strong>save significantly on energy bills</strong> (tiết kiệm đáng kể hóa đơn năng lượng)"
+        "✨ [Lựa chọn]: <strong>like new buildings</strong> (thích các tòa nhà mới), <strong>want to live in smart homes</strong> (muốn sống trong nhà thông minh), <strong>definitely prefer modern buildings</strong> (chắc chắn thích các tòa nhà hiện đại hơn), <strong>lean towards newly built apartments</strong> (thiên về các căn hộ mới xây), <strong>choose contemporary housing</strong> (chọn nhà ở đương đại)",
+        "✨ [Lý do hiện đại]: <strong>have fast elevators</strong> (có thang máy nhanh), <strong>are very clean and safe</strong> (rất sạch sẽ và an toàn), <strong>offer advanced security systems</strong> (cung cấp hệ thống an ninh tiên tiến), <strong>provide high-quality amenities</strong> (cung cấp các tiện nghi chất lượng cao), <strong>feature smart home technologies</strong> (có công nghệ nhà thông minh)",
+        "✨ [Lợi ích]: <strong>save my time</strong> (tiết kiệm thời gian của tôi), <strong>make me feel comfortable</strong> (làm tôi cảm thấy thoải mái), <strong>ensure a convenient lifestyle</strong> (đảm bảo một lối sống tiện lợi), <strong>require far less maintenance</strong> (yêu cầu bảo trì ít hơn nhiều), <strong>save significantly on energy bills</strong> (tiết kiệm đáng kể hóa đơn năng lượng)"
       ],
       "templates": [
         "I [Lựa chọn] because they [Lý do hiện đại]. This helps [Lợi ích].",
@@ -331,9 +331,9 @@ export const part3Data = {
       "question": "The house should be designed in a way that is good for the environment. Do you agree?",
       "vi": "Ngôi nhà nên được thiết kế theo cách tốt cho môi trường. Bạn có đồng ý không?",
       "vocab": [
-        "✨ [Sự đồng ý]: <strong>completely agree with this</strong> (hoàn toàn đồng ý với điều này), <strong>strongly support eco-friendly designs</strong> (mạnh mẽ ủng hộ các thiết kế thân thiện với môi trường), <strong>think this is absolutely essential</strong> (nghĩ rằng điều này là hoàn toàn cần thiết)",
-        "✨ [Đặc điểm thiết kế]: <strong>install solar panels</strong> (lắp đặt các tấm pin năng lượng mặt trời), <strong>maximize natural light and ventilation</strong> (tối đa hóa ánh sáng và thông gió tự nhiên), <strong>use sustainable building materials</strong> (sử dụng vật liệu xây dựng bền vững)",
-        "✨ [Tác động]: <strong>reduce carbon emissions globally</strong> (giảm lượng khí thải carbon trên toàn cầu), <strong>protect our fragile ecosystem</strong> (bảo vệ hệ sinh thái mỏng manh của chúng sửa), <strong>lower long-term living costs</strong> (giảm chi phí sinh hoạt dài hạn)"
+        "✨ [Sự đồng ý]: <strong>agree with this</strong> (đồng ý với điều này), <strong>think this is right</strong> (nghĩ rằng điều này là đúng), <strong>completely agree with this</strong> (hoàn toàn đồng ý với điều này), <strong>strongly support eco-friendly designs</strong> (mạnh mẽ ủng hộ các thiết kế thân thiện với môi trường), <strong>think this is absolutely essential</strong> (nghĩ rằng điều này là hoàn toàn cần thiết)",
+        "✨ [Đặc điểm thiết kế]: <strong>plant trees around the house</strong> (trồng cây quanh nhà), <strong>use big windows</strong> (sử dụng cửa sổ lớn), <strong>install solar panels</strong> (lắp đặt các tấm pin năng lượng mặt trời), <strong>maximize natural light and ventilation</strong> (tối đa hóa ánh sáng và thông gió tự nhiên), <strong>use sustainable building materials</strong> (sử dụng vật liệu xây dựng bền vững)",
+        "✨ [Tác động]: <strong>protect the earth</strong> (bảo vệ trái đất), <strong>save electricity</strong> (tiết kiệm điện), <strong>reduce carbon emissions globally</strong> (giảm lượng khí thải carbon trên toàn cầu), <strong>protect our fragile ecosystem</strong> (bảo vệ hệ sinh thái mỏng manh của chúng sửa), <strong>lower long-term living costs</strong> (giảm chi phí sinh hoạt dài hạn)"
       ],
       "templates": [
         "I [Sự đồng ý] because it helps [Tác động]. For instance, we can [Đặc điểm thiết kế].",
@@ -362,9 +362,9 @@ export const part3Data = {
       "question": "I want to plant some flowers but I live in an apartment. Do you have any ideas on how I can do this?",
       "vi": "Tôi muốn trồng vài bông hoa nhưng tôi sống trong một căn hộ. Bạn có ý tưởng nào về cách tôi có thể làm điều này không?",
       "vocab": [
-        "✨ [Giải pháp]: <strong>adopt vertical gardening</strong> (áp dụng làm vườn thẳng đứng), <strong>install wall-mounted shelves</strong> (lắp đặt các kệ treo tường), <strong>utilize hanging baskets</strong> (sử dụng giỏ treo)",
-        "✨ [Vị trí]: <strong>on your small balcony</strong> (trên ban công nhỏ của bạn), <strong>near sunny windows</strong> (gần các cửa sổ đầy nắng), <strong>along the bright corridors</strong> (dọc theo các hành lang sáng sủa)",
-        "✨ [Lợi ích]: <strong>maximize your limited space</strong> (tối đa hóa không gian hạn chế của bạn), <strong>add a beautiful touch of greenery indoors</strong> (thêm một chút sắc xanh tuyệt đẹp trong nhà), <strong>create a wonderfully refreshing vibe</strong> (tạo ra một bầu không khí vô cùng tươi mới)"
+        "✨ [Giải pháp]: <strong>use small pots</strong> (sử dụng những chậu nhỏ), <strong>buy indoor plants</strong> (mua cây trồng trong nhà), <strong>adopt vertical gardening</strong> (áp dụng làm vườn thẳng đứng), <strong>install wall-mounted shelves</strong> (lắp đặt các kệ treo tường), <strong>utilize hanging baskets</strong> (sử dụng giỏ treo)",
+        "✨ [Vị trí]: <strong>on the tables</strong> (trên bàn), <strong>near the doors</strong> (gần cửa ra vào), <strong>on your small balcony</strong> (trên ban công nhỏ của bạn), <strong>near sunny windows</strong> (gần các cửa sổ đầy nắng), <strong>along the bright corridors</strong> (dọc theo các hành lang sáng sủa)",
+        "✨ [Lợi ích]: <strong>make the room nice</strong> (làm cho căn phòng đẹp hơn), <strong>save space</strong> (tiết kiệm không gian), <strong>maximize your limited space</strong> (tối đa hóa không gian hạn chế của bạn), <strong>add a beautiful touch of greenery indoors</strong> (thêm một chút sắc xanh tuyệt đẹp trong nhà), <strong>create a wonderfully refreshing vibe</strong> (tạo ra một bầu không khí vô cùng tươi mới)"
       ],
       "templates": [
         "Since you live in an apartment, I highly recommend you [Giải pháp]. You can place them [Vị trí] to [Lợi ích].",
@@ -391,9 +391,9 @@ export const part3Data = {
       "question": "Do you think having a garden makes a house beautiful?",
       "vi": "Bạn có nghĩ rằng việc có một khu vườn làm cho một ngôi nhà trở nên đẹp đẽ không?",
       "vocab": [
-        "✨ [Quan điểm]: <strong>absolutely agree with this</strong> (hoàn toàn đồng ý với điều này), <strong>strongly believe it does</strong> (mạnh mẽ tin rằng nó là như vậy), <strong>think a garden is essential</strong> (nghĩ rằng một khu vườn là thiết yếu)",
-        "✨ [Lý do thẩm mỹ]: <strong>brings vibrant colors to the property</strong> (mang lại màu sắc rực rỡ cho tài sản), <strong>creates a stunning natural landscape</strong> (tạo ra một cảnh quan thiên nhiên tuyệt đẹp), <strong>softens the harsh architectural lines</strong> (làm mềm mại các đường nét kiến trúc thô cứng)",
-        "✨ [Cảm nhận]: <strong>feel much more relaxing</strong> (cảm thấy thư giãn hơn nhiều), <strong>look incredibly welcoming</strong> (trông vô cùng thân thiện), <strong>connect residents with nature deeply</strong> (kết nối cư dân với thiên nhiên một cách sâu sắc)"
+        "✨ [Quan điểm]: <strong>think so</strong> (nghĩ vậy), <strong>agree with you</strong> (đồng ý với bạn), <strong>absolutely agree with this</strong> (hoàn toàn đồng ý với điều này), <strong>strongly believe it does</strong> (mạnh mẽ tin rằng nó là như vậy), <strong>think a garden is essential</strong> (nghĩ rằng một khu vườn là thiết yếu)",
+        "✨ [Lý do thẩm mỹ]: <strong>has many lovely flowers</strong> (có nhiều hoa đẹp), <strong>looks very colorful</strong> (trông rất rực rỡ), <strong>brings vibrant colors to the property</strong> (mang lại màu sắc rực rỡ cho tài sản), <strong>creates a stunning natural landscape</strong> (tạo ra một cảnh quan thiên nhiên tuyệt đẹp), <strong>softens the harsh architectural lines</strong> (làm mềm mại các đường nét kiến trúc thô cứng)",
+        "✨ [Cảm nhận]: <strong>look nice</strong> (trông đẹp), <strong>feel happy</strong> (cảm thấy hạnh phúc), <strong>feel much more relaxing</strong> (cảm thấy thư giãn hơn nhiều), <strong>look incredibly welcoming</strong> (trông vô cùng thân thiện), <strong>connect residents with nature deeply</strong> (kết nối cư dân với thiên nhiên một cách sâu sắc)"
       ],
       "templates": [
         "I [Quan điểm] because it [Lý do thẩm mỹ]. Therefore, it makes the entire house [Cảm nhận].",
@@ -420,9 +420,9 @@ export const part3Data = {
       "question": "What are the benefits of eating vegetables? Can you tell me your opinion on this?",
       "vi": "Những lợi ích của việc ăn rau là gì? Bạn có thể cho tôi biết ý kiến của bạn về điều này?",
       "vocab": [
-        "✨ [Dinh dưỡng]: <strong>provide essential vitamins and minerals</strong> (cung cấp các vitamin và khoáng chất thiết yếu), <strong>are an excellent source of dietary fiber</strong> (là một nguồn chất xơ tuyệt vời), <strong>contain powerful antioxidants</strong> (chứa các chất chống oxy hóa mạnh mẽ)",
-        "✨ [Sức khỏe thể chất]: <strong>boost our immune system</strong> (tăng cường hệ thống miễn dịch của chúng ta), <strong>improve digestion significantly</strong> (cải thiện tiêu hóa đáng kể), <strong>lower the risk of chronic diseases</strong> (làm giảm nguy cơ mắc các bệnh mãn tính)",
-        "✨ [Sức khỏe tổng thể]: <strong>maintain a healthy weight</strong> (duy trì mức cân nặng khỏe mạnh), <strong>keep our skin glowing</strong> (giữ cho làn da của chúng ta rạng rỡ), <strong>promote overall longevity</strong> (thúc đẩy tuổi thọ tổng thể)"
+        "✨ [Dinh dưỡng]: <strong>have a lot of water</strong> (có nhiều nước), <strong>contain many vitamins</strong> (chứa nhiều vitamin), <strong>provide essential vitamins and minerals</strong> (cung cấp các vitamin và khoáng chất thiết yếu), <strong>are an excellent source of dietary fiber</strong> (là một nguồn chất xơ tuyệt vời), <strong>contain powerful antioxidants</strong> (chứa các chất chống oxy hóa mạnh mẽ)",
+        "✨ [Sức khỏe thể chất]: <strong>help you stay fit</strong> (giúp bạn giữ dáng), <strong>make you strong</strong> (làm cho bạn khỏe mạnh), <strong>boost our immune system</strong> (tăng cường hệ thống miễn dịch của chúng ta), <strong>improve digestion significantly</strong> (cải thiện tiêu hóa đáng kể), <strong>lower the risk of chronic diseases</strong> (làm giảm nguy cơ mắc các bệnh mãn tính)",
+        "✨ [Sức khỏe tổng thể]: <strong>live longer</strong> (sống lâu hơn), <strong>feel energetic</strong> (cảm thấy tràn đầy năng lượng), <strong>maintain a healthy weight</strong> (duy trì mức cân nặng khỏe mạnh), <strong>keep our skin glowing</strong> (giữ cho làn da của chúng ta rạng rỡ), <strong>promote overall longevity</strong> (thúc đẩy tuổi thọ tổng thể)"
       ],
       "templates": [
         "In my opinion, vegetables [Dinh dưỡng]. Thus, they effectively [Sức khỏe thể chất] and help us [Sức khỏe tổng thể].",
