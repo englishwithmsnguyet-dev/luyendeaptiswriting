@@ -16,14 +16,74 @@ const Part1 = () => {
   // Store translation visibility state per question id
   const [showTranslation, setShowTranslation] = useState({});
 
+  // Add state for completed clubs
+  const [completedClubs, setCompletedClubs] = useState([]);
+
+  useEffect(() => {
+    const updateCompleted = () => {
+      setCompletedClubs(JSON.parse(localStorage.getItem('aptis_p1_completed') || '[]'));
+    };
+    updateCompleted();
+    window.addEventListener('progressUpdate', updateCompleted);
+    return () => window.removeEventListener('progressUpdate', updateCompleted);
+  }, []);
+
   // Reset answers when club changes
   useEffect(() => {
     const newQuestions = clubsData[selectedClub];
     setQuestions(newQuestions);
-    setAnswers(newQuestions.reduce((acc, q) => ({ ...acc, [q.id]: '' }), {}));
-    setGradingResults({}); // Clear previous results
+    
+    const savedAnswers = localStorage.getItem(`aptis_p1_answers_${selectedClub}`);
+    const savedGrades = localStorage.getItem(`aptis_p1_grades_${selectedClub}`);
+
+    if (savedAnswers) {
+      setAnswers(JSON.parse(savedAnswers));
+    } else {
+      setAnswers(newQuestions.reduce((acc, q) => ({ ...acc, [q.id]: '' }), {}));
+    }
+
+    if (savedGrades) {
+      setGradingResults(JSON.parse(savedGrades));
+    } else {
+      setGradingResults({}); // Clear previous results
+    }
+
     setShowTranslation({});
   }, [selectedClub]);
+
+  // Auto save answers
+  useEffect(() => {
+    if (Object.keys(answers).length > 0) {
+      localStorage.setItem(`aptis_p1_answers_${selectedClub}`, JSON.stringify(answers));
+    }
+  }, [answers, selectedClub]);
+
+  // Auto save grades & update completion
+  useEffect(() => {
+    localStorage.setItem(`aptis_p1_grades_${selectedClub}`, JSON.stringify(gradingResults));
+
+    const qIds = clubsData[selectedClub]?.map(q => q.id) || [];
+    if (qIds.length > 0) {
+      const allSuccess = qIds.every(id => gradingResults[id] && gradingResults[id].status === 'success');
+      
+      const completed = JSON.parse(localStorage.getItem('aptis_p1_completed') || '[]');
+      let changed = false;
+      
+      if (allSuccess && !completed.includes(selectedClub)) {
+        completed.push(selectedClub);
+        changed = true;
+      } else if (!allSuccess && completed.includes(selectedClub)) {
+        const idx = completed.indexOf(selectedClub);
+        completed.splice(idx, 1);
+        changed = true;
+      }
+      
+      if (changed) {
+        localStorage.setItem('aptis_p1_completed', JSON.stringify(completed));
+        window.dispatchEvent(new Event('progressUpdate'));
+      }
+    }
+  }, [gradingResults, selectedClub]);
 
   const toggleTranslation = (qId) => {
     setShowTranslation(prev => ({ ...prev, [qId]: !prev[qId] }));
@@ -178,7 +238,9 @@ const Part1 = () => {
             }}
           >
             {clubNames.map(name => (
-              <option key={name} value={name}>{name}</option>
+              <option key={name} value={name}>
+                {completedClubs.includes(name) ? `✅ ${name}` : name}
+              </option>
             ))}
           </select>
           <ChevronDown 

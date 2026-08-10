@@ -1,9 +1,45 @@
-import React from 'react';
-import { ArrowRight, Info, CheckCircle2 } from 'lucide-react';
+import React, { useState, useEffect } from 'react';
+import { ArrowRight, Info, CheckCircle2, Trash2 } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
   const navigate = useNavigate();
+  
+  const [progress, setProgress] = useState({
+    p1: 0,
+    p2: 0,
+    p3: 0
+  });
+
+  const loadProgress = () => {
+    const p1 = JSON.parse(localStorage.getItem('aptis_p1_completed') || '[]');
+    const p2 = JSON.parse(localStorage.getItem('aptis_p2_completed') || '[]');
+    const p3 = JSON.parse(localStorage.getItem('aptis_p3_completed') || '[]');
+    setProgress({ p1: p1.length, p2: p2.length, p3: p3.length });
+  };
+
+  useEffect(() => {
+    loadProgress();
+    window.addEventListener('progressUpdate', loadProgress);
+    return () => window.removeEventListener('progressUpdate', loadProgress);
+  }, []);
+
+  const handleClearProgress = () => {
+    if (window.confirm('Bạn có chắc chắn muốn xóa toàn bộ tiến độ học (bao gồm câu trả lời và kết quả chấm điểm) không?')) {
+      // Collect keys to remove to avoid clearing other potential site data not related to progress
+      const keysToRemove = [];
+      for (let i = 0; i < localStorage.length; i++) {
+        const key = localStorage.key(i);
+        if (key && key.startsWith('aptis_p')) {
+          keysToRemove.push(key);
+        }
+      }
+      keysToRemove.forEach(k => localStorage.removeItem(k));
+      loadProgress();
+      window.dispatchEvent(new Event('progressUpdate'));
+      alert('Đã xóa toàn bộ tiến độ học thành công!');
+    }
+  };
 
   return (
     <div>
@@ -11,6 +47,55 @@ const Home = () => {
       <p className="page-description">
         Dành riêng cho học viên của <strong>English With Miss Nguyet</strong>. Hãy làm quen với cấu trúc bài thi và luyện tập để đạt kết quả tốt nhất.
       </p>
+
+      {/* Progress Dashboard */}
+      <div className="card" style={{ marginBottom: '1.5rem', borderLeft: '4px solid #10B981' }}>
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
+          <h2 style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: 'var(--primary)', margin: 0 }}>
+            <CheckCircle2 size={24} color="#10B981" />
+            <span>Tiến độ học tập</span>
+          </h2>
+          <button 
+            className="btn btn-secondary" 
+            onClick={handleClearProgress}
+            style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', padding: '0.4rem 0.8rem', fontSize: '0.85rem' }}
+          >
+            <Trash2 size={16} /> Xóa tiến độ
+          </button>
+        </div>
+        
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '1rem' }}>
+          <div style={{ padding: '1rem', background: 'var(--bg-main)', borderRadius: 'var(--radius-md)' }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '0.5rem' }}>
+              <strong style={{ color: 'var(--primary)' }}>Part 1</strong>
+              <span style={{ color: 'var(--text-muted)' }}>{progress.p1} / 40</span>
+            </div>
+            <div style={{ width: '100%', height: '8px', background: '#e2e8f0', borderRadius: '4px', overflow: 'hidden' }}>
+              <div style={{ width: `${(progress.p1 / 40) * 100}%`, height: '100%', background: '#10B981', transition: 'width 0.3s ease' }}></div>
+            </div>
+          </div>
+          
+          <div style={{ padding: '1rem', background: 'var(--bg-main)', borderRadius: 'var(--radius-md)' }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '0.5rem' }}>
+              <strong style={{ color: 'var(--primary)' }}>Part 2</strong>
+              <span style={{ color: 'var(--text-muted)' }}>{progress.p2} / 40</span>
+            </div>
+            <div style={{ width: '100%', height: '8px', background: '#e2e8f0', borderRadius: '4px', overflow: 'hidden' }}>
+              <div style={{ width: `${(progress.p2 / 40) * 100}%`, height: '100%', background: '#3b82f6', transition: 'width 0.3s ease' }}></div>
+            </div>
+          </div>
+          
+          <div style={{ padding: '1rem', background: 'var(--bg-main)', borderRadius: 'var(--radius-md)' }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '0.5rem' }}>
+              <strong style={{ color: 'var(--primary)' }}>Part 3</strong>
+              <span style={{ color: 'var(--text-muted)' }}>{progress.p3} / 40</span>
+            </div>
+            <div style={{ width: '100%', height: '8px', background: '#e2e8f0', borderRadius: '4px', overflow: 'hidden' }}>
+              <div style={{ width: `${(progress.p3 / 40) * 100}%`, height: '100%', background: '#8b5cf6', transition: 'width 0.3s ease' }}></div>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <div className="card">
         <h2 style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '1.5rem', color: 'var(--primary)' }}>
