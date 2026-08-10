@@ -1,0 +1,2725 @@
+// Tệp này được tạo tự động bởi generate_part3_data.cjs
+// Vui lòng không sửa trực tiếp nếu không cần thiết. Cập nhật script thay thế.
+
+export const part3Data = {
+  "Art club": {
+    "q1": {
+      "member": "Member A",
+      "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vocab": [
+        "✨ [lý do tham gia]: <strong>share my passion for this field</strong> (chia sẻ đam mê trong lĩnh vực này), <strong>meet like-minded people</strong> (gặp gỡ những người cùng chí hướng), <strong>relax after a long day</strong> (thư giãn sau một ngày dài)",
+        "✨ [mục tiêu]: <strong>enhance my creative skills</strong> (nâng cao kỹ năng sáng tạo), <strong>expand my knowledge</strong> (mở rộng kiến thức), <strong>find a healthy work-life balance</strong> (tìm kiếm sự cân bằng giữa công việc và cuộc sống)"
+      ],
+      "samples": [
+        {
+          "en": "I decided to join this club to share my passion for this field and meet like-minded people. I hope to enhance my creative skills effectively.",
+          "vi": "Tôi quyết định tham gia câu lạc bộ này để chia sẻ đam mê và gặp gỡ những người cùng chí hướng. Tôi hy vọng sẽ nâng cao kỹ năng sáng tạo hiệu quả."
+        },
+        {
+          "en": "I joined the club mainly to relax after a long day at work. My main goal is to find a healthy work-life balance through our activities.",
+          "vi": "Tôi tham gia CLB chủ yếu để thư giãn sau ngày dài làm việc. Mục tiêu chính là tìm sự cân bằng giữa công việc và cuộc sống thông qua các hoạt động."
+        },
+        {
+          "en": "Being part of this club allows me to expand my knowledge significantly. I hope to learn from experienced members and improve my skills.",
+          "vi": "Tham gia CLB cho phép tôi mở rộng kiến thức đáng kể. Tôi hy vọng học hỏi từ các thành viên giàu kinh nghiệm và cải thiện kỹ năng."
+        }
+      ]
+    },
+    "q2": {
+      "member": "Member B",
+      "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vocab": [
+        "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
+        "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "samples": [
+        {
+          "en": "I completely disagree with that idea. Joining club activities is a worthwhile investment because it helps me relieve stress and enrich my life experiences.",
+          "vi": "Tôi hoàn toàn không đồng ý. Tham gia hoạt động CLB là khoản đầu tư xứng đáng vì nó giúp tôi giảm căng thẳng và làm phong phú trải nghiệm sống."
+        },
+        {
+          "en": "That is a common misconception. In fact, these activities bring long-term benefits, such as improving my overall well-being and expanding my social network.",
+          "vi": "Đó là một quan niệm sai lầm phổ biến. Thực tế, các hoạt động này mang lại lợi ích lâu dài, như cải thiện sức khỏe tổng thể và mở rộng mối quan hệ xã hội."
+        },
+        {
+          "en": "I partly agree if the club is expensive. However, most activities are affordable and provide a great chance to develop myself and learn new skills.",
+          "vi": "Tôi đồng ý một phần nếu CLB quá đắt đỏ. Tuy nhiên, hầu hết hoạt động đều phải chăng và mang lại cơ hội tuyệt vời để phát triển bản thân và học kỹ năng mới."
+        }
+      ]
+    },
+    "q3": {
+      "member": "Member C",
+      "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vocab": [
+        "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
+        "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "samples": [
+        {
+          "en": "I highly recommend that we host a free workshop for beginners. This will definitely attract potential members and create a welcoming environment for everyone.",
+          "vi": "Tôi chân thành đề xuất chúng ta nên tổ chức hội thảo miễn phí cho người mới. Điều này chắc chắn sẽ thu hút thành viên tiềm năng và tạo môi trường thân thiện."
+        },
+        {
+          "en": "Why don't we organize an outdoor festival next month? It is an excellent way to raise public awareness about our club and engage the community.",
+          "vi": "Tại sao chúng ta không tổ chức lễ hội ngoài trời vào tháng tới? Đây là cách tuyệt vời để nâng cao nhận thức cộng đồng về CLB và gắn kết mọi người."
+        },
+        {
+          "en": "I think running a charity campaign would be a fantastic idea. It not only helps people in need but also builds a positive image for our club.",
+          "vi": "Tôi nghĩ thực hiện một chiến dịch từ thiện sẽ là ý tưởng tuyệt vời. Nó không chỉ giúp người khó khăn mà còn xây dựng hình ảnh tích cực cho CLB."
+        }
+      ]
+    }
+  },
+  "Food club": {
+    "q1": {
+      "member": "Member A",
+      "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vocab": [
+        "✨ [lý do tham gia]: <strong>broaden my horizons</strong> (mở rộng tầm nhìn), <strong>contribute to the community</strong> (đóng góp cho cộng đồng), <strong>make meaningful connections</strong> (tạo ra những kết nối ý nghĩa)",
+        "✨ [mục tiêu]: <strong>experience new things</strong> (trải nghiệm những điều mới), <strong>develop my soft skills</strong> (phát triển kỹ năng mềm), <strong>find peace of mind</strong> (tìm sự bình yên trong tâm trí)"
+      ],
+      "samples": [
+        {
+          "en": "I joined this club to broaden my horizons and make meaningful connections. I hope to experience new things and learn from others.",
+          "vi": "Tôi tham gia CLB để mở rộng tầm nhìn và tạo các kết nối ý nghĩa. Tôi hy vọng trải nghiệm những điều mới mẻ và học hỏi từ người khác."
+        },
+        {
+          "en": "My primary reason for joining is to contribute to the community actively. I aim to develop my soft skills through our diverse activities.",
+          "vi": "Lý do chính của tôi là để đóng góp tích cực cho cộng đồng. Tôi hướng đến việc phát triển kỹ năng mềm thông qua các hoạt động đa dạng."
+        },
+        {
+          "en": "I decided to join because I want to find peace of mind after a busy week. I hope to balance my life and enjoy our events.",
+          "vi": "Tôi quyết định tham gia vì muốn tìm sự bình yên sau một tuần bận rộn. Tôi hy vọng cân bằng cuộc sống và tận hưởng các sự kiện."
+        }
+      ]
+    },
+    "q2": {
+      "member": "Member B",
+      "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vocab": [
+        "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
+        "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "samples": [
+        {
+          "en": "I completely disagree with that idea. Joining club activities is a worthwhile investment because it helps me relieve stress and enrich my life experiences.",
+          "vi": "Tôi hoàn toàn không đồng ý. Tham gia hoạt động CLB là khoản đầu tư xứng đáng vì nó giúp tôi giảm căng thẳng và làm phong phú trải nghiệm sống."
+        },
+        {
+          "en": "That is a common misconception. In fact, these activities bring long-term benefits, such as improving my overall well-being and expanding my social network.",
+          "vi": "Đó là một quan niệm sai lầm phổ biến. Thực tế, các hoạt động này mang lại lợi ích lâu dài, như cải thiện sức khỏe tổng thể và mở rộng mối quan hệ xã hội."
+        },
+        {
+          "en": "I partly agree if the club is expensive. However, most activities are affordable and provide a great chance to develop myself and learn new skills.",
+          "vi": "Tôi đồng ý một phần nếu CLB quá đắt đỏ. Tuy nhiên, hầu hết hoạt động đều phải chăng và mang lại cơ hội tuyệt vời để phát triển bản thân và học kỹ năng mới."
+        }
+      ]
+    },
+    "q3": {
+      "member": "Member C",
+      "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vocab": [
+        "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
+        "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "samples": [
+        {
+          "en": "I highly recommend that we host a free workshop for beginners. This will definitely attract potential members and create a welcoming environment for everyone.",
+          "vi": "Tôi chân thành đề xuất chúng ta nên tổ chức hội thảo miễn phí cho người mới. Điều này chắc chắn sẽ thu hút thành viên tiềm năng và tạo môi trường thân thiện."
+        },
+        {
+          "en": "Why don't we organize an outdoor festival next month? It is an excellent way to raise public awareness about our club and engage the community.",
+          "vi": "Tại sao chúng ta không tổ chức lễ hội ngoài trời vào tháng tới? Đây là cách tuyệt vời để nâng cao nhận thức cộng đồng về CLB và gắn kết mọi người."
+        },
+        {
+          "en": "I think running a charity campaign would be a fantastic idea. It not only helps people in need but also builds a positive image for our club.",
+          "vi": "Tôi nghĩ thực hiện một chiến dịch từ thiện sẽ là ý tưởng tuyệt vời. Nó không chỉ giúp người khó khăn mà còn xây dựng hình ảnh tích cực cho CLB."
+        }
+      ]
+    }
+  },
+  "Social club": {
+    "q1": {
+      "member": "Member A",
+      "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vocab": [
+        "✨ [lý do tham gia]: <strong>broaden my horizons</strong> (mở rộng tầm nhìn), <strong>contribute to the community</strong> (đóng góp cho cộng đồng), <strong>make meaningful connections</strong> (tạo ra những kết nối ý nghĩa)",
+        "✨ [mục tiêu]: <strong>experience new things</strong> (trải nghiệm những điều mới), <strong>develop my soft skills</strong> (phát triển kỹ năng mềm), <strong>find peace of mind</strong> (tìm sự bình yên trong tâm trí)"
+      ],
+      "samples": [
+        {
+          "en": "I joined this club to broaden my horizons and make meaningful connections. I hope to experience new things and learn from others.",
+          "vi": "Tôi tham gia CLB để mở rộng tầm nhìn và tạo các kết nối ý nghĩa. Tôi hy vọng trải nghiệm những điều mới mẻ và học hỏi từ người khác."
+        },
+        {
+          "en": "My primary reason for joining is to contribute to the community actively. I aim to develop my soft skills through our diverse activities.",
+          "vi": "Lý do chính của tôi là để đóng góp tích cực cho cộng đồng. Tôi hướng đến việc phát triển kỹ năng mềm thông qua các hoạt động đa dạng."
+        },
+        {
+          "en": "I decided to join because I want to find peace of mind after a busy week. I hope to balance my life and enjoy our events.",
+          "vi": "Tôi quyết định tham gia vì muốn tìm sự bình yên sau một tuần bận rộn. Tôi hy vọng cân bằng cuộc sống và tận hưởng các sự kiện."
+        }
+      ]
+    },
+    "q2": {
+      "member": "Member B",
+      "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vocab": [
+        "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
+        "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "samples": [
+        {
+          "en": "I completely disagree with that idea. Joining club activities is a worthwhile investment because it helps me relieve stress and enrich my life experiences.",
+          "vi": "Tôi hoàn toàn không đồng ý. Tham gia hoạt động CLB là khoản đầu tư xứng đáng vì nó giúp tôi giảm căng thẳng và làm phong phú trải nghiệm sống."
+        },
+        {
+          "en": "That is a common misconception. In fact, these activities bring long-term benefits, such as improving my overall well-being and expanding my social network.",
+          "vi": "Đó là một quan niệm sai lầm phổ biến. Thực tế, các hoạt động này mang lại lợi ích lâu dài, như cải thiện sức khỏe tổng thể và mở rộng mối quan hệ xã hội."
+        },
+        {
+          "en": "I partly agree if the club is expensive. However, most activities are affordable and provide a great chance to develop myself and learn new skills.",
+          "vi": "Tôi đồng ý một phần nếu CLB quá đắt đỏ. Tuy nhiên, hầu hết hoạt động đều phải chăng và mang lại cơ hội tuyệt vời để phát triển bản thân và học kỹ năng mới."
+        }
+      ]
+    },
+    "q3": {
+      "member": "Member C",
+      "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vocab": [
+        "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
+        "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "samples": [
+        {
+          "en": "I highly recommend that we host a free workshop for beginners. This will definitely attract potential members and create a welcoming environment for everyone.",
+          "vi": "Tôi chân thành đề xuất chúng ta nên tổ chức hội thảo miễn phí cho người mới. Điều này chắc chắn sẽ thu hút thành viên tiềm năng và tạo môi trường thân thiện."
+        },
+        {
+          "en": "Why don't we organize an outdoor festival next month? It is an excellent way to raise public awareness about our club and engage the community.",
+          "vi": "Tại sao chúng ta không tổ chức lễ hội ngoài trời vào tháng tới? Đây là cách tuyệt vời để nâng cao nhận thức cộng đồng về CLB và gắn kết mọi người."
+        },
+        {
+          "en": "I think running a charity campaign would be a fantastic idea. It not only helps people in need but also builds a positive image for our club.",
+          "vi": "Tôi nghĩ thực hiện một chiến dịch từ thiện sẽ là ý tưởng tuyệt vời. Nó không chỉ giúp người khó khăn mà còn xây dựng hình ảnh tích cực cho CLB."
+        }
+      ]
+    }
+  },
+  "Beautiful homes club": {
+    "q1": {
+      "member": "Member A",
+      "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vocab": [
+        "✨ [lý do tham gia]: <strong>broaden my horizons</strong> (mở rộng tầm nhìn), <strong>contribute to the community</strong> (đóng góp cho cộng đồng), <strong>make meaningful connections</strong> (tạo ra những kết nối ý nghĩa)",
+        "✨ [mục tiêu]: <strong>experience new things</strong> (trải nghiệm những điều mới), <strong>develop my soft skills</strong> (phát triển kỹ năng mềm), <strong>find peace of mind</strong> (tìm sự bình yên trong tâm trí)"
+      ],
+      "samples": [
+        {
+          "en": "I joined this club to broaden my horizons and make meaningful connections. I hope to experience new things and learn from others.",
+          "vi": "Tôi tham gia CLB để mở rộng tầm nhìn và tạo các kết nối ý nghĩa. Tôi hy vọng trải nghiệm những điều mới mẻ và học hỏi từ người khác."
+        },
+        {
+          "en": "My primary reason for joining is to contribute to the community actively. I aim to develop my soft skills through our diverse activities.",
+          "vi": "Lý do chính của tôi là để đóng góp tích cực cho cộng đồng. Tôi hướng đến việc phát triển kỹ năng mềm thông qua các hoạt động đa dạng."
+        },
+        {
+          "en": "I decided to join because I want to find peace of mind after a busy week. I hope to balance my life and enjoy our events.",
+          "vi": "Tôi quyết định tham gia vì muốn tìm sự bình yên sau một tuần bận rộn. Tôi hy vọng cân bằng cuộc sống và tận hưởng các sự kiện."
+        }
+      ]
+    },
+    "q2": {
+      "member": "Member B",
+      "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vocab": [
+        "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
+        "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "samples": [
+        {
+          "en": "I completely disagree with that idea. Joining club activities is a worthwhile investment because it helps me relieve stress and enrich my life experiences.",
+          "vi": "Tôi hoàn toàn không đồng ý. Tham gia hoạt động CLB là khoản đầu tư xứng đáng vì nó giúp tôi giảm căng thẳng và làm phong phú trải nghiệm sống."
+        },
+        {
+          "en": "That is a common misconception. In fact, these activities bring long-term benefits, such as improving my overall well-being and expanding my social network.",
+          "vi": "Đó là một quan niệm sai lầm phổ biến. Thực tế, các hoạt động này mang lại lợi ích lâu dài, như cải thiện sức khỏe tổng thể và mở rộng mối quan hệ xã hội."
+        },
+        {
+          "en": "I partly agree if the club is expensive. However, most activities are affordable and provide a great chance to develop myself and learn new skills.",
+          "vi": "Tôi đồng ý một phần nếu CLB quá đắt đỏ. Tuy nhiên, hầu hết hoạt động đều phải chăng và mang lại cơ hội tuyệt vời để phát triển bản thân và học kỹ năng mới."
+        }
+      ]
+    },
+    "q3": {
+      "member": "Member C",
+      "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vocab": [
+        "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
+        "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "samples": [
+        {
+          "en": "I highly recommend that we host a free workshop for beginners. This will definitely attract potential members and create a welcoming environment for everyone.",
+          "vi": "Tôi chân thành đề xuất chúng ta nên tổ chức hội thảo miễn phí cho người mới. Điều này chắc chắn sẽ thu hút thành viên tiềm năng và tạo môi trường thân thiện."
+        },
+        {
+          "en": "Why don't we organize an outdoor festival next month? It is an excellent way to raise public awareness about our club and engage the community.",
+          "vi": "Tại sao chúng ta không tổ chức lễ hội ngoài trời vào tháng tới? Đây là cách tuyệt vời để nâng cao nhận thức cộng đồng về CLB và gắn kết mọi người."
+        },
+        {
+          "en": "I think running a charity campaign would be a fantastic idea. It not only helps people in need but also builds a positive image for our club.",
+          "vi": "Tôi nghĩ thực hiện một chiến dịch từ thiện sẽ là ý tưởng tuyệt vời. Nó không chỉ giúp người khó khăn mà còn xây dựng hình ảnh tích cực cho CLB."
+        }
+      ]
+    }
+  },
+  "Garden club": {
+    "q1": {
+      "member": "Member A",
+      "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vocab": [
+        "✨ [lý do tham gia]: <strong>stay in good shape</strong> (giữ dáng), <strong>relieve daily stress</strong> (giảm căng thẳng hàng ngày), <strong>adopt a healthier lifestyle</strong> (áp dụng lối sống lành mạnh hơn)",
+        "✨ [mục tiêu]: <strong>strengthen my physical endurance</strong> (tăng cường sức bền thể chất), <strong>boost my emotional well-being</strong> (nâng cao sức khỏe tinh thần), <strong>burn calories effectively</strong> (đốt cháy calo hiệu quả)"
+      ],
+      "samples": [
+        {
+          "en": "I decided to join this club to stay in good shape and relieve daily stress. I hope to strengthen my physical endurance effectively.",
+          "vi": "Tôi tham gia CLB để giữ dáng và giảm căng thẳng. Tôi hy vọng sẽ tăng cường sức bền thể chất một cách hiệu quả."
+        },
+        {
+          "en": "I joined because I want to adopt a healthier lifestyle. My main goal is to boost my emotional well-being and meet active people.",
+          "vi": "Tôi tham gia vì muốn áp dụng lối sống lành mạnh hơn. Mục tiêu chính là nâng cao sức khỏe tinh thần và gặp gỡ những người năng động."
+        },
+        {
+          "en": "Being a member helps me burn calories effectively after working hours. I hope to maintain my physical health and regain my energy.",
+          "vi": "Là một thành viên giúp tôi đốt cháy calo hiệu quả sau giờ làm. Tôi hy vọng duy trì sức khỏe thể chất và nạp lại năng lượng."
+        }
+      ]
+    },
+    "q2": {
+      "member": "Member B",
+      "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vocab": [
+        "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
+        "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "samples": [
+        {
+          "en": "I completely disagree with that idea. Joining club activities is a worthwhile investment because it helps me relieve stress and enrich my life experiences.",
+          "vi": "Tôi hoàn toàn không đồng ý. Tham gia hoạt động CLB là khoản đầu tư xứng đáng vì nó giúp tôi giảm căng thẳng và làm phong phú trải nghiệm sống."
+        },
+        {
+          "en": "That is a common misconception. In fact, these activities bring long-term benefits, such as improving my overall well-being and expanding my social network.",
+          "vi": "Đó là một quan niệm sai lầm phổ biến. Thực tế, các hoạt động này mang lại lợi ích lâu dài, như cải thiện sức khỏe tổng thể và mở rộng mối quan hệ xã hội."
+        },
+        {
+          "en": "I partly agree if the club is expensive. However, most activities are affordable and provide a great chance to develop myself and learn new skills.",
+          "vi": "Tôi đồng ý một phần nếu CLB quá đắt đỏ. Tuy nhiên, hầu hết hoạt động đều phải chăng và mang lại cơ hội tuyệt vời để phát triển bản thân và học kỹ năng mới."
+        }
+      ]
+    },
+    "q3": {
+      "member": "Member C",
+      "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vocab": [
+        "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
+        "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "samples": [
+        {
+          "en": "I highly recommend that we host a free workshop for beginners. This will definitely attract potential members and create a welcoming environment for everyone.",
+          "vi": "Tôi chân thành đề xuất chúng ta nên tổ chức hội thảo miễn phí cho người mới. Điều này chắc chắn sẽ thu hút thành viên tiềm năng và tạo môi trường thân thiện."
+        },
+        {
+          "en": "Why don't we organize an outdoor festival next month? It is an excellent way to raise public awareness about our club and engage the community.",
+          "vi": "Tại sao chúng ta không tổ chức lễ hội ngoài trời vào tháng tới? Đây là cách tuyệt vời để nâng cao nhận thức cộng đồng về CLB và gắn kết mọi người."
+        },
+        {
+          "en": "I think running a charity campaign would be a fantastic idea. It not only helps people in need but also builds a positive image for our club.",
+          "vi": "Tôi nghĩ thực hiện một chiến dịch từ thiện sẽ là ý tưởng tuyệt vời. Nó không chỉ giúp người khó khăn mà còn xây dựng hình ảnh tích cực cho CLB."
+        }
+      ]
+    }
+  },
+  "Sports club": {
+    "q1": {
+      "member": "Member A",
+      "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vocab": [
+        "✨ [lý do tham gia]: <strong>stay in good shape</strong> (giữ dáng), <strong>relieve daily stress</strong> (giảm căng thẳng hàng ngày), <strong>adopt a healthier lifestyle</strong> (áp dụng lối sống lành mạnh hơn)",
+        "✨ [mục tiêu]: <strong>strengthen my physical endurance</strong> (tăng cường sức bền thể chất), <strong>boost my emotional well-being</strong> (nâng cao sức khỏe tinh thần), <strong>burn calories effectively</strong> (đốt cháy calo hiệu quả)"
+      ],
+      "samples": [
+        {
+          "en": "I decided to join this club to stay in good shape and relieve daily stress. I hope to strengthen my physical endurance effectively.",
+          "vi": "Tôi tham gia CLB để giữ dáng và giảm căng thẳng. Tôi hy vọng sẽ tăng cường sức bền thể chất một cách hiệu quả."
+        },
+        {
+          "en": "I joined because I want to adopt a healthier lifestyle. My main goal is to boost my emotional well-being and meet active people.",
+          "vi": "Tôi tham gia vì muốn áp dụng lối sống lành mạnh hơn. Mục tiêu chính là nâng cao sức khỏe tinh thần và gặp gỡ những người năng động."
+        },
+        {
+          "en": "Being a member helps me burn calories effectively after working hours. I hope to maintain my physical health and regain my energy.",
+          "vi": "Là một thành viên giúp tôi đốt cháy calo hiệu quả sau giờ làm. Tôi hy vọng duy trì sức khỏe thể chất và nạp lại năng lượng."
+        }
+      ]
+    },
+    "q2": {
+      "member": "Member B",
+      "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vocab": [
+        "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
+        "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "samples": [
+        {
+          "en": "I completely disagree with that idea. Joining club activities is a worthwhile investment because it helps me relieve stress and enrich my life experiences.",
+          "vi": "Tôi hoàn toàn không đồng ý. Tham gia hoạt động CLB là khoản đầu tư xứng đáng vì nó giúp tôi giảm căng thẳng và làm phong phú trải nghiệm sống."
+        },
+        {
+          "en": "That is a common misconception. In fact, these activities bring long-term benefits, such as improving my overall well-being and expanding my social network.",
+          "vi": "Đó là một quan niệm sai lầm phổ biến. Thực tế, các hoạt động này mang lại lợi ích lâu dài, như cải thiện sức khỏe tổng thể và mở rộng mối quan hệ xã hội."
+        },
+        {
+          "en": "I partly agree if the club is expensive. However, most activities are affordable and provide a great chance to develop myself and learn new skills.",
+          "vi": "Tôi đồng ý một phần nếu CLB quá đắt đỏ. Tuy nhiên, hầu hết hoạt động đều phải chăng và mang lại cơ hội tuyệt vời để phát triển bản thân và học kỹ năng mới."
+        }
+      ]
+    },
+    "q3": {
+      "member": "Member C",
+      "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vocab": [
+        "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
+        "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "samples": [
+        {
+          "en": "I highly recommend that we host a free workshop for beginners. This will definitely attract potential members and create a welcoming environment for everyone.",
+          "vi": "Tôi chân thành đề xuất chúng ta nên tổ chức hội thảo miễn phí cho người mới. Điều này chắc chắn sẽ thu hút thành viên tiềm năng và tạo môi trường thân thiện."
+        },
+        {
+          "en": "Why don't we organize an outdoor festival next month? It is an excellent way to raise public awareness about our club and engage the community.",
+          "vi": "Tại sao chúng ta không tổ chức lễ hội ngoài trời vào tháng tới? Đây là cách tuyệt vời để nâng cao nhận thức cộng đồng về CLB và gắn kết mọi người."
+        },
+        {
+          "en": "I think running a charity campaign would be a fantastic idea. It not only helps people in need but also builds a positive image for our club.",
+          "vi": "Tôi nghĩ thực hiện một chiến dịch từ thiện sẽ là ý tưởng tuyệt vời. Nó không chỉ giúp người khó khăn mà còn xây dựng hình ảnh tích cực cho CLB."
+        }
+      ]
+    }
+  },
+  "Book club": {
+    "q1": {
+      "member": "Member A",
+      "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vocab": [
+        "✨ [lý do tham gia]: <strong>share my passion for this field</strong> (chia sẻ đam mê trong lĩnh vực này), <strong>meet like-minded people</strong> (gặp gỡ những người cùng chí hướng), <strong>relax after a long day</strong> (thư giãn sau một ngày dài)",
+        "✨ [mục tiêu]: <strong>enhance my creative skills</strong> (nâng cao kỹ năng sáng tạo), <strong>expand my knowledge</strong> (mở rộng kiến thức), <strong>find a healthy work-life balance</strong> (tìm kiếm sự cân bằng giữa công việc và cuộc sống)"
+      ],
+      "samples": [
+        {
+          "en": "I decided to join this club to share my passion for this field and meet like-minded people. I hope to enhance my creative skills effectively.",
+          "vi": "Tôi quyết định tham gia câu lạc bộ này để chia sẻ đam mê và gặp gỡ những người cùng chí hướng. Tôi hy vọng sẽ nâng cao kỹ năng sáng tạo hiệu quả."
+        },
+        {
+          "en": "I joined the club mainly to relax after a long day at work. My main goal is to find a healthy work-life balance through our activities.",
+          "vi": "Tôi tham gia CLB chủ yếu để thư giãn sau ngày dài làm việc. Mục tiêu chính là tìm sự cân bằng giữa công việc và cuộc sống thông qua các hoạt động."
+        },
+        {
+          "en": "Being part of this club allows me to expand my knowledge significantly. I hope to learn from experienced members and improve my skills.",
+          "vi": "Tham gia CLB cho phép tôi mở rộng kiến thức đáng kể. Tôi hy vọng học hỏi từ các thành viên giàu kinh nghiệm và cải thiện kỹ năng."
+        }
+      ]
+    },
+    "q2": {
+      "member": "Member B",
+      "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vocab": [
+        "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
+        "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "samples": [
+        {
+          "en": "I completely disagree with that idea. Joining club activities is a worthwhile investment because it helps me relieve stress and enrich my life experiences.",
+          "vi": "Tôi hoàn toàn không đồng ý. Tham gia hoạt động CLB là khoản đầu tư xứng đáng vì nó giúp tôi giảm căng thẳng và làm phong phú trải nghiệm sống."
+        },
+        {
+          "en": "That is a common misconception. In fact, these activities bring long-term benefits, such as improving my overall well-being and expanding my social network.",
+          "vi": "Đó là một quan niệm sai lầm phổ biến. Thực tế, các hoạt động này mang lại lợi ích lâu dài, như cải thiện sức khỏe tổng thể và mở rộng mối quan hệ xã hội."
+        },
+        {
+          "en": "I partly agree if the club is expensive. However, most activities are affordable and provide a great chance to develop myself and learn new skills.",
+          "vi": "Tôi đồng ý một phần nếu CLB quá đắt đỏ. Tuy nhiên, hầu hết hoạt động đều phải chăng và mang lại cơ hội tuyệt vời để phát triển bản thân và học kỹ năng mới."
+        }
+      ]
+    },
+    "q3": {
+      "member": "Member C",
+      "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vocab": [
+        "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
+        "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "samples": [
+        {
+          "en": "I highly recommend that we host a free workshop for beginners. This will definitely attract potential members and create a welcoming environment for everyone.",
+          "vi": "Tôi chân thành đề xuất chúng ta nên tổ chức hội thảo miễn phí cho người mới. Điều này chắc chắn sẽ thu hút thành viên tiềm năng và tạo môi trường thân thiện."
+        },
+        {
+          "en": "Why don't we organize an outdoor festival next month? It is an excellent way to raise public awareness about our club and engage the community.",
+          "vi": "Tại sao chúng ta không tổ chức lễ hội ngoài trời vào tháng tới? Đây là cách tuyệt vời để nâng cao nhận thức cộng đồng về CLB và gắn kết mọi người."
+        },
+        {
+          "en": "I think running a charity campaign would be a fantastic idea. It not only helps people in need but also builds a positive image for our club.",
+          "vi": "Tôi nghĩ thực hiện một chiến dịch từ thiện sẽ là ý tưởng tuyệt vời. Nó không chỉ giúp người khó khăn mà còn xây dựng hình ảnh tích cực cho CLB."
+        }
+      ]
+    }
+  },
+  "Healthy club": {
+    "q1": {
+      "member": "Member A",
+      "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vocab": [
+        "✨ [lý do tham gia]: <strong>stay in good shape</strong> (giữ dáng), <strong>relieve daily stress</strong> (giảm căng thẳng hàng ngày), <strong>adopt a healthier lifestyle</strong> (áp dụng lối sống lành mạnh hơn)",
+        "✨ [mục tiêu]: <strong>strengthen my physical endurance</strong> (tăng cường sức bền thể chất), <strong>boost my emotional well-being</strong> (nâng cao sức khỏe tinh thần), <strong>burn calories effectively</strong> (đốt cháy calo hiệu quả)"
+      ],
+      "samples": [
+        {
+          "en": "I decided to join this club to stay in good shape and relieve daily stress. I hope to strengthen my physical endurance effectively.",
+          "vi": "Tôi tham gia CLB để giữ dáng và giảm căng thẳng. Tôi hy vọng sẽ tăng cường sức bền thể chất một cách hiệu quả."
+        },
+        {
+          "en": "I joined because I want to adopt a healthier lifestyle. My main goal is to boost my emotional well-being and meet active people.",
+          "vi": "Tôi tham gia vì muốn áp dụng lối sống lành mạnh hơn. Mục tiêu chính là nâng cao sức khỏe tinh thần và gặp gỡ những người năng động."
+        },
+        {
+          "en": "Being a member helps me burn calories effectively after working hours. I hope to maintain my physical health and regain my energy.",
+          "vi": "Là một thành viên giúp tôi đốt cháy calo hiệu quả sau giờ làm. Tôi hy vọng duy trì sức khỏe thể chất và nạp lại năng lượng."
+        }
+      ]
+    },
+    "q2": {
+      "member": "Member B",
+      "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vocab": [
+        "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
+        "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "samples": [
+        {
+          "en": "I completely disagree with that idea. Joining club activities is a worthwhile investment because it helps me relieve stress and enrich my life experiences.",
+          "vi": "Tôi hoàn toàn không đồng ý. Tham gia hoạt động CLB là khoản đầu tư xứng đáng vì nó giúp tôi giảm căng thẳng và làm phong phú trải nghiệm sống."
+        },
+        {
+          "en": "That is a common misconception. In fact, these activities bring long-term benefits, such as improving my overall well-being and expanding my social network.",
+          "vi": "Đó là một quan niệm sai lầm phổ biến. Thực tế, các hoạt động này mang lại lợi ích lâu dài, như cải thiện sức khỏe tổng thể và mở rộng mối quan hệ xã hội."
+        },
+        {
+          "en": "I partly agree if the club is expensive. However, most activities are affordable and provide a great chance to develop myself and learn new skills.",
+          "vi": "Tôi đồng ý một phần nếu CLB quá đắt đỏ. Tuy nhiên, hầu hết hoạt động đều phải chăng và mang lại cơ hội tuyệt vời để phát triển bản thân và học kỹ năng mới."
+        }
+      ]
+    },
+    "q3": {
+      "member": "Member C",
+      "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vocab": [
+        "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
+        "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "samples": [
+        {
+          "en": "I highly recommend that we host a free workshop for beginners. This will definitely attract potential members and create a welcoming environment for everyone.",
+          "vi": "Tôi chân thành đề xuất chúng ta nên tổ chức hội thảo miễn phí cho người mới. Điều này chắc chắn sẽ thu hút thành viên tiềm năng và tạo môi trường thân thiện."
+        },
+        {
+          "en": "Why don't we organize an outdoor festival next month? It is an excellent way to raise public awareness about our club and engage the community.",
+          "vi": "Tại sao chúng ta không tổ chức lễ hội ngoài trời vào tháng tới? Đây là cách tuyệt vời để nâng cao nhận thức cộng đồng về CLB và gắn kết mọi người."
+        },
+        {
+          "en": "I think running a charity campaign would be a fantastic idea. It not only helps people in need but also builds a positive image for our club.",
+          "vi": "Tôi nghĩ thực hiện một chiến dịch từ thiện sẽ là ý tưởng tuyệt vời. Nó không chỉ giúp người khó khăn mà còn xây dựng hình ảnh tích cực cho CLB."
+        }
+      ]
+    }
+  },
+  "Technology club": {
+    "q1": {
+      "member": "Member A",
+      "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vocab": [
+        "✨ [lý do tham gia]: <strong>boost my career prospects</strong> (nâng cao triển vọng nghề nghiệp), <strong>expand my professional network</strong> (mở rộng mạng lưới chuyên môn), <strong>stay updated with new trends</strong> (cập nhật các xu hướng mới)",
+        "✨ [mục tiêu]: <strong>improve my practical skills</strong> (cải thiện kỹ năng thực tế), <strong>gain valuable experience</strong> (thu được kinh nghiệm quý báu), <strong>exchange innovative ideas</strong> (trao đổi những ý tưởng đổi mới)"
+      ],
+      "samples": [
+        {
+          "en": "I joined this club to boost my career prospects and expand my professional network. I hope to improve my practical skills for my future jobs.",
+          "vi": "Tôi tham gia CLB để nâng cao triển vọng nghề nghiệp và mở rộng mạng lưới. Tôi hy vọng cải thiện kỹ năng thực tế cho công việc tương lai."
+        },
+        {
+          "en": "My main reason for joining is to stay updated with new trends in this field. I aim to exchange innovative ideas with other members.",
+          "vi": "Lý do chính của tôi là để cập nhật các xu hướng mới trong lĩnh vực này. Tôi hướng đến việc trao đổi ý tưởng đổi mới với các thành viên khác."
+        },
+        {
+          "en": "I decided to become a member to gain valuable experience from experts. I hope to apply this knowledge to solve real-world problems effectively.",
+          "vi": "Tôi quyết định trở thành thành viên để thu được kinh nghiệm từ các chuyên gia. Tôi hy vọng áp dụng kiến thức này để giải quyết vấn đề thực tế hiệu quả."
+        }
+      ]
+    },
+    "q2": {
+      "member": "Member B",
+      "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vocab": [
+        "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
+        "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "samples": [
+        {
+          "en": "I completely disagree with that idea. Joining club activities is a worthwhile investment because it helps me relieve stress and enrich my life experiences.",
+          "vi": "Tôi hoàn toàn không đồng ý. Tham gia hoạt động CLB là khoản đầu tư xứng đáng vì nó giúp tôi giảm căng thẳng và làm phong phú trải nghiệm sống."
+        },
+        {
+          "en": "That is a common misconception. In fact, these activities bring long-term benefits, such as improving my overall well-being and expanding my social network.",
+          "vi": "Đó là một quan niệm sai lầm phổ biến. Thực tế, các hoạt động này mang lại lợi ích lâu dài, như cải thiện sức khỏe tổng thể và mở rộng mối quan hệ xã hội."
+        },
+        {
+          "en": "I partly agree if the club is expensive. However, most activities are affordable and provide a great chance to develop myself and learn new skills.",
+          "vi": "Tôi đồng ý một phần nếu CLB quá đắt đỏ. Tuy nhiên, hầu hết hoạt động đều phải chăng và mang lại cơ hội tuyệt vời để phát triển bản thân và học kỹ năng mới."
+        }
+      ]
+    },
+    "q3": {
+      "member": "Member C",
+      "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vocab": [
+        "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
+        "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "samples": [
+        {
+          "en": "I highly recommend that we host a free workshop for beginners. This will definitely attract potential members and create a welcoming environment for everyone.",
+          "vi": "Tôi chân thành đề xuất chúng ta nên tổ chức hội thảo miễn phí cho người mới. Điều này chắc chắn sẽ thu hút thành viên tiềm năng và tạo môi trường thân thiện."
+        },
+        {
+          "en": "Why don't we organize an outdoor festival next month? It is an excellent way to raise public awareness about our club and engage the community.",
+          "vi": "Tại sao chúng ta không tổ chức lễ hội ngoài trời vào tháng tới? Đây là cách tuyệt vời để nâng cao nhận thức cộng đồng về CLB và gắn kết mọi người."
+        },
+        {
+          "en": "I think running a charity campaign would be a fantastic idea. It not only helps people in need but also builds a positive image for our club.",
+          "vi": "Tôi nghĩ thực hiện một chiến dịch từ thiện sẽ là ý tưởng tuyệt vời. Nó không chỉ giúp người khó khăn mà còn xây dựng hình ảnh tích cực cho CLB."
+        }
+      ]
+    }
+  },
+  "Business club": {
+    "q1": {
+      "member": "Member A",
+      "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vocab": [
+        "✨ [lý do tham gia]: <strong>boost my career prospects</strong> (nâng cao triển vọng nghề nghiệp), <strong>expand my professional network</strong> (mở rộng mạng lưới chuyên môn), <strong>stay updated with new trends</strong> (cập nhật các xu hướng mới)",
+        "✨ [mục tiêu]: <strong>improve my practical skills</strong> (cải thiện kỹ năng thực tế), <strong>gain valuable experience</strong> (thu được kinh nghiệm quý báu), <strong>exchange innovative ideas</strong> (trao đổi những ý tưởng đổi mới)"
+      ],
+      "samples": [
+        {
+          "en": "I joined this club to boost my career prospects and expand my professional network. I hope to improve my practical skills for my future jobs.",
+          "vi": "Tôi tham gia CLB để nâng cao triển vọng nghề nghiệp và mở rộng mạng lưới. Tôi hy vọng cải thiện kỹ năng thực tế cho công việc tương lai."
+        },
+        {
+          "en": "My main reason for joining is to stay updated with new trends in this field. I aim to exchange innovative ideas with other members.",
+          "vi": "Lý do chính của tôi là để cập nhật các xu hướng mới trong lĩnh vực này. Tôi hướng đến việc trao đổi ý tưởng đổi mới với các thành viên khác."
+        },
+        {
+          "en": "I decided to become a member to gain valuable experience from experts. I hope to apply this knowledge to solve real-world problems effectively.",
+          "vi": "Tôi quyết định trở thành thành viên để thu được kinh nghiệm từ các chuyên gia. Tôi hy vọng áp dụng kiến thức này để giải quyết vấn đề thực tế hiệu quả."
+        }
+      ]
+    },
+    "q2": {
+      "member": "Member B",
+      "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vocab": [
+        "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
+        "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "samples": [
+        {
+          "en": "I completely disagree with that idea. Joining club activities is a worthwhile investment because it helps me relieve stress and enrich my life experiences.",
+          "vi": "Tôi hoàn toàn không đồng ý. Tham gia hoạt động CLB là khoản đầu tư xứng đáng vì nó giúp tôi giảm căng thẳng và làm phong phú trải nghiệm sống."
+        },
+        {
+          "en": "That is a common misconception. In fact, these activities bring long-term benefits, such as improving my overall well-being and expanding my social network.",
+          "vi": "Đó là một quan niệm sai lầm phổ biến. Thực tế, các hoạt động này mang lại lợi ích lâu dài, như cải thiện sức khỏe tổng thể và mở rộng mối quan hệ xã hội."
+        },
+        {
+          "en": "I partly agree if the club is expensive. However, most activities are affordable and provide a great chance to develop myself and learn new skills.",
+          "vi": "Tôi đồng ý một phần nếu CLB quá đắt đỏ. Tuy nhiên, hầu hết hoạt động đều phải chăng và mang lại cơ hội tuyệt vời để phát triển bản thân và học kỹ năng mới."
+        }
+      ]
+    },
+    "q3": {
+      "member": "Member C",
+      "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vocab": [
+        "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
+        "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "samples": [
+        {
+          "en": "I highly recommend that we host a free workshop for beginners. This will definitely attract potential members and create a welcoming environment for everyone.",
+          "vi": "Tôi chân thành đề xuất chúng ta nên tổ chức hội thảo miễn phí cho người mới. Điều này chắc chắn sẽ thu hút thành viên tiềm năng và tạo môi trường thân thiện."
+        },
+        {
+          "en": "Why don't we organize an outdoor festival next month? It is an excellent way to raise public awareness about our club and engage the community.",
+          "vi": "Tại sao chúng ta không tổ chức lễ hội ngoài trời vào tháng tới? Đây là cách tuyệt vời để nâng cao nhận thức cộng đồng về CLB và gắn kết mọi người."
+        },
+        {
+          "en": "I think running a charity campaign would be a fantastic idea. It not only helps people in need but also builds a positive image for our club.",
+          "vi": "Tôi nghĩ thực hiện một chiến dịch từ thiện sẽ là ý tưởng tuyệt vời. Nó không chỉ giúp người khó khăn mà còn xây dựng hình ảnh tích cực cho CLB."
+        }
+      ]
+    }
+  },
+  "Home living club": {
+    "q1": {
+      "member": "Member A",
+      "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vocab": [
+        "✨ [lý do tham gia]: <strong>broaden my horizons</strong> (mở rộng tầm nhìn), <strong>contribute to the community</strong> (đóng góp cho cộng đồng), <strong>make meaningful connections</strong> (tạo ra những kết nối ý nghĩa)",
+        "✨ [mục tiêu]: <strong>experience new things</strong> (trải nghiệm những điều mới), <strong>develop my soft skills</strong> (phát triển kỹ năng mềm), <strong>find peace of mind</strong> (tìm sự bình yên trong tâm trí)"
+      ],
+      "samples": [
+        {
+          "en": "I joined this club to broaden my horizons and make meaningful connections. I hope to experience new things and learn from others.",
+          "vi": "Tôi tham gia CLB để mở rộng tầm nhìn và tạo các kết nối ý nghĩa. Tôi hy vọng trải nghiệm những điều mới mẻ và học hỏi từ người khác."
+        },
+        {
+          "en": "My primary reason for joining is to contribute to the community actively. I aim to develop my soft skills through our diverse activities.",
+          "vi": "Lý do chính của tôi là để đóng góp tích cực cho cộng đồng. Tôi hướng đến việc phát triển kỹ năng mềm thông qua các hoạt động đa dạng."
+        },
+        {
+          "en": "I decided to join because I want to find peace of mind after a busy week. I hope to balance my life and enjoy our events.",
+          "vi": "Tôi quyết định tham gia vì muốn tìm sự bình yên sau một tuần bận rộn. Tôi hy vọng cân bằng cuộc sống và tận hưởng các sự kiện."
+        }
+      ]
+    },
+    "q2": {
+      "member": "Member B",
+      "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vocab": [
+        "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
+        "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "samples": [
+        {
+          "en": "I completely disagree with that idea. Joining club activities is a worthwhile investment because it helps me relieve stress and enrich my life experiences.",
+          "vi": "Tôi hoàn toàn không đồng ý. Tham gia hoạt động CLB là khoản đầu tư xứng đáng vì nó giúp tôi giảm căng thẳng và làm phong phú trải nghiệm sống."
+        },
+        {
+          "en": "That is a common misconception. In fact, these activities bring long-term benefits, such as improving my overall well-being and expanding my social network.",
+          "vi": "Đó là một quan niệm sai lầm phổ biến. Thực tế, các hoạt động này mang lại lợi ích lâu dài, như cải thiện sức khỏe tổng thể và mở rộng mối quan hệ xã hội."
+        },
+        {
+          "en": "I partly agree if the club is expensive. However, most activities are affordable and provide a great chance to develop myself and learn new skills.",
+          "vi": "Tôi đồng ý một phần nếu CLB quá đắt đỏ. Tuy nhiên, hầu hết hoạt động đều phải chăng và mang lại cơ hội tuyệt vời để phát triển bản thân và học kỹ năng mới."
+        }
+      ]
+    },
+    "q3": {
+      "member": "Member C",
+      "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vocab": [
+        "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
+        "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "samples": [
+        {
+          "en": "I highly recommend that we host a free workshop for beginners. This will definitely attract potential members and create a welcoming environment for everyone.",
+          "vi": "Tôi chân thành đề xuất chúng ta nên tổ chức hội thảo miễn phí cho người mới. Điều này chắc chắn sẽ thu hút thành viên tiềm năng và tạo môi trường thân thiện."
+        },
+        {
+          "en": "Why don't we organize an outdoor festival next month? It is an excellent way to raise public awareness about our club and engage the community.",
+          "vi": "Tại sao chúng ta không tổ chức lễ hội ngoài trời vào tháng tới? Đây là cách tuyệt vời để nâng cao nhận thức cộng đồng về CLB và gắn kết mọi người."
+        },
+        {
+          "en": "I think running a charity campaign would be a fantastic idea. It not only helps people in need but also builds a positive image for our club.",
+          "vi": "Tôi nghĩ thực hiện một chiến dịch từ thiện sẽ là ý tưởng tuyệt vời. Nó không chỉ giúp người khó khăn mà còn xây dựng hình ảnh tích cực cho CLB."
+        }
+      ]
+    }
+  },
+  "Television club": {
+    "q1": {
+      "member": "Member A",
+      "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vocab": [
+        "✨ [lý do tham gia]: <strong>share my passion for this field</strong> (chia sẻ đam mê trong lĩnh vực này), <strong>meet like-minded people</strong> (gặp gỡ những người cùng chí hướng), <strong>relax after a long day</strong> (thư giãn sau một ngày dài)",
+        "✨ [mục tiêu]: <strong>enhance my creative skills</strong> (nâng cao kỹ năng sáng tạo), <strong>expand my knowledge</strong> (mở rộng kiến thức), <strong>find a healthy work-life balance</strong> (tìm kiếm sự cân bằng giữa công việc và cuộc sống)"
+      ],
+      "samples": [
+        {
+          "en": "I decided to join this club to share my passion for this field and meet like-minded people. I hope to enhance my creative skills effectively.",
+          "vi": "Tôi quyết định tham gia câu lạc bộ này để chia sẻ đam mê và gặp gỡ những người cùng chí hướng. Tôi hy vọng sẽ nâng cao kỹ năng sáng tạo hiệu quả."
+        },
+        {
+          "en": "I joined the club mainly to relax after a long day at work. My main goal is to find a healthy work-life balance through our activities.",
+          "vi": "Tôi tham gia CLB chủ yếu để thư giãn sau ngày dài làm việc. Mục tiêu chính là tìm sự cân bằng giữa công việc và cuộc sống thông qua các hoạt động."
+        },
+        {
+          "en": "Being part of this club allows me to expand my knowledge significantly. I hope to learn from experienced members and improve my skills.",
+          "vi": "Tham gia CLB cho phép tôi mở rộng kiến thức đáng kể. Tôi hy vọng học hỏi từ các thành viên giàu kinh nghiệm và cải thiện kỹ năng."
+        }
+      ]
+    },
+    "q2": {
+      "member": "Member B",
+      "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vocab": [
+        "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
+        "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "samples": [
+        {
+          "en": "I completely disagree with that idea. Joining club activities is a worthwhile investment because it helps me relieve stress and enrich my life experiences.",
+          "vi": "Tôi hoàn toàn không đồng ý. Tham gia hoạt động CLB là khoản đầu tư xứng đáng vì nó giúp tôi giảm căng thẳng và làm phong phú trải nghiệm sống."
+        },
+        {
+          "en": "That is a common misconception. In fact, these activities bring long-term benefits, such as improving my overall well-being and expanding my social network.",
+          "vi": "Đó là một quan niệm sai lầm phổ biến. Thực tế, các hoạt động này mang lại lợi ích lâu dài, như cải thiện sức khỏe tổng thể và mở rộng mối quan hệ xã hội."
+        },
+        {
+          "en": "I partly agree if the club is expensive. However, most activities are affordable and provide a great chance to develop myself and learn new skills.",
+          "vi": "Tôi đồng ý một phần nếu CLB quá đắt đỏ. Tuy nhiên, hầu hết hoạt động đều phải chăng và mang lại cơ hội tuyệt vời để phát triển bản thân và học kỹ năng mới."
+        }
+      ]
+    },
+    "q3": {
+      "member": "Member C",
+      "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vocab": [
+        "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
+        "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "samples": [
+        {
+          "en": "I highly recommend that we host a free workshop for beginners. This will definitely attract potential members and create a welcoming environment for everyone.",
+          "vi": "Tôi chân thành đề xuất chúng ta nên tổ chức hội thảo miễn phí cho người mới. Điều này chắc chắn sẽ thu hút thành viên tiềm năng và tạo môi trường thân thiện."
+        },
+        {
+          "en": "Why don't we organize an outdoor festival next month? It is an excellent way to raise public awareness about our club and engage the community.",
+          "vi": "Tại sao chúng ta không tổ chức lễ hội ngoài trời vào tháng tới? Đây là cách tuyệt vời để nâng cao nhận thức cộng đồng về CLB và gắn kết mọi người."
+        },
+        {
+          "en": "I think running a charity campaign would be a fantastic idea. It not only helps people in need but also builds a positive image for our club.",
+          "vi": "Tôi nghĩ thực hiện một chiến dịch từ thiện sẽ là ý tưởng tuyệt vời. Nó không chỉ giúp người khó khăn mà còn xây dựng hình ảnh tích cực cho CLB."
+        }
+      ]
+    }
+  },
+  "Car club": {
+    "q1": {
+      "member": "Member A",
+      "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vocab": [
+        "✨ [lý do tham gia]: <strong>broaden my horizons</strong> (mở rộng tầm nhìn), <strong>contribute to the community</strong> (đóng góp cho cộng đồng), <strong>make meaningful connections</strong> (tạo ra những kết nối ý nghĩa)",
+        "✨ [mục tiêu]: <strong>experience new things</strong> (trải nghiệm những điều mới), <strong>develop my soft skills</strong> (phát triển kỹ năng mềm), <strong>find peace of mind</strong> (tìm sự bình yên trong tâm trí)"
+      ],
+      "samples": [
+        {
+          "en": "I joined this club to broaden my horizons and make meaningful connections. I hope to experience new things and learn from others.",
+          "vi": "Tôi tham gia CLB để mở rộng tầm nhìn và tạo các kết nối ý nghĩa. Tôi hy vọng trải nghiệm những điều mới mẻ và học hỏi từ người khác."
+        },
+        {
+          "en": "My primary reason for joining is to contribute to the community actively. I aim to develop my soft skills through our diverse activities.",
+          "vi": "Lý do chính của tôi là để đóng góp tích cực cho cộng đồng. Tôi hướng đến việc phát triển kỹ năng mềm thông qua các hoạt động đa dạng."
+        },
+        {
+          "en": "I decided to join because I want to find peace of mind after a busy week. I hope to balance my life and enjoy our events.",
+          "vi": "Tôi quyết định tham gia vì muốn tìm sự bình yên sau một tuần bận rộn. Tôi hy vọng cân bằng cuộc sống và tận hưởng các sự kiện."
+        }
+      ]
+    },
+    "q2": {
+      "member": "Member B",
+      "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vocab": [
+        "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
+        "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "samples": [
+        {
+          "en": "I completely disagree with that idea. Joining club activities is a worthwhile investment because it helps me relieve stress and enrich my life experiences.",
+          "vi": "Tôi hoàn toàn không đồng ý. Tham gia hoạt động CLB là khoản đầu tư xứng đáng vì nó giúp tôi giảm căng thẳng và làm phong phú trải nghiệm sống."
+        },
+        {
+          "en": "That is a common misconception. In fact, these activities bring long-term benefits, such as improving my overall well-being and expanding my social network.",
+          "vi": "Đó là một quan niệm sai lầm phổ biến. Thực tế, các hoạt động này mang lại lợi ích lâu dài, như cải thiện sức khỏe tổng thể và mở rộng mối quan hệ xã hội."
+        },
+        {
+          "en": "I partly agree if the club is expensive. However, most activities are affordable and provide a great chance to develop myself and learn new skills.",
+          "vi": "Tôi đồng ý một phần nếu CLB quá đắt đỏ. Tuy nhiên, hầu hết hoạt động đều phải chăng và mang lại cơ hội tuyệt vời để phát triển bản thân và học kỹ năng mới."
+        }
+      ]
+    },
+    "q3": {
+      "member": "Member C",
+      "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vocab": [
+        "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
+        "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "samples": [
+        {
+          "en": "I highly recommend that we host a free workshop for beginners. This will definitely attract potential members and create a welcoming environment for everyone.",
+          "vi": "Tôi chân thành đề xuất chúng ta nên tổ chức hội thảo miễn phí cho người mới. Điều này chắc chắn sẽ thu hút thành viên tiềm năng và tạo môi trường thân thiện."
+        },
+        {
+          "en": "Why don't we organize an outdoor festival next month? It is an excellent way to raise public awareness about our club and engage the community.",
+          "vi": "Tại sao chúng ta không tổ chức lễ hội ngoài trời vào tháng tới? Đây là cách tuyệt vời để nâng cao nhận thức cộng đồng về CLB và gắn kết mọi người."
+        },
+        {
+          "en": "I think running a charity campaign would be a fantastic idea. It not only helps people in need but also builds a positive image for our club.",
+          "vi": "Tôi nghĩ thực hiện một chiến dịch từ thiện sẽ là ý tưởng tuyệt vời. Nó không chỉ giúp người khó khăn mà còn xây dựng hình ảnh tích cực cho CLB."
+        }
+      ]
+    }
+  },
+  "Language club": {
+    "q1": {
+      "member": "Member A",
+      "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vocab": [
+        "✨ [lý do tham gia]: <strong>boost my career prospects</strong> (nâng cao triển vọng nghề nghiệp), <strong>expand my professional network</strong> (mở rộng mạng lưới chuyên môn), <strong>stay updated with new trends</strong> (cập nhật các xu hướng mới)",
+        "✨ [mục tiêu]: <strong>improve my practical skills</strong> (cải thiện kỹ năng thực tế), <strong>gain valuable experience</strong> (thu được kinh nghiệm quý báu), <strong>exchange innovative ideas</strong> (trao đổi những ý tưởng đổi mới)"
+      ],
+      "samples": [
+        {
+          "en": "I joined this club to boost my career prospects and expand my professional network. I hope to improve my practical skills for my future jobs.",
+          "vi": "Tôi tham gia CLB để nâng cao triển vọng nghề nghiệp và mở rộng mạng lưới. Tôi hy vọng cải thiện kỹ năng thực tế cho công việc tương lai."
+        },
+        {
+          "en": "My main reason for joining is to stay updated with new trends in this field. I aim to exchange innovative ideas with other members.",
+          "vi": "Lý do chính của tôi là để cập nhật các xu hướng mới trong lĩnh vực này. Tôi hướng đến việc trao đổi ý tưởng đổi mới với các thành viên khác."
+        },
+        {
+          "en": "I decided to become a member to gain valuable experience from experts. I hope to apply this knowledge to solve real-world problems effectively.",
+          "vi": "Tôi quyết định trở thành thành viên để thu được kinh nghiệm từ các chuyên gia. Tôi hy vọng áp dụng kiến thức này để giải quyết vấn đề thực tế hiệu quả."
+        }
+      ]
+    },
+    "q2": {
+      "member": "Member B",
+      "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vocab": [
+        "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
+        "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "samples": [
+        {
+          "en": "I completely disagree with that idea. Joining club activities is a worthwhile investment because it helps me relieve stress and enrich my life experiences.",
+          "vi": "Tôi hoàn toàn không đồng ý. Tham gia hoạt động CLB là khoản đầu tư xứng đáng vì nó giúp tôi giảm căng thẳng và làm phong phú trải nghiệm sống."
+        },
+        {
+          "en": "That is a common misconception. In fact, these activities bring long-term benefits, such as improving my overall well-being and expanding my social network.",
+          "vi": "Đó là một quan niệm sai lầm phổ biến. Thực tế, các hoạt động này mang lại lợi ích lâu dài, như cải thiện sức khỏe tổng thể và mở rộng mối quan hệ xã hội."
+        },
+        {
+          "en": "I partly agree if the club is expensive. However, most activities are affordable and provide a great chance to develop myself and learn new skills.",
+          "vi": "Tôi đồng ý một phần nếu CLB quá đắt đỏ. Tuy nhiên, hầu hết hoạt động đều phải chăng và mang lại cơ hội tuyệt vời để phát triển bản thân và học kỹ năng mới."
+        }
+      ]
+    },
+    "q3": {
+      "member": "Member C",
+      "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vocab": [
+        "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
+        "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "samples": [
+        {
+          "en": "I highly recommend that we host a free workshop for beginners. This will definitely attract potential members and create a welcoming environment for everyone.",
+          "vi": "Tôi chân thành đề xuất chúng ta nên tổ chức hội thảo miễn phí cho người mới. Điều này chắc chắn sẽ thu hút thành viên tiềm năng và tạo môi trường thân thiện."
+        },
+        {
+          "en": "Why don't we organize an outdoor festival next month? It is an excellent way to raise public awareness about our club and engage the community.",
+          "vi": "Tại sao chúng ta không tổ chức lễ hội ngoài trời vào tháng tới? Đây là cách tuyệt vời để nâng cao nhận thức cộng đồng về CLB và gắn kết mọi người."
+        },
+        {
+          "en": "I think running a charity campaign would be a fantastic idea. It not only helps people in need but also builds a positive image for our club.",
+          "vi": "Tôi nghĩ thực hiện một chiến dịch từ thiện sẽ là ý tưởng tuyệt vời. Nó không chỉ giúp người khó khăn mà còn xây dựng hình ảnh tích cực cho CLB."
+        }
+      ]
+    }
+  },
+  "Travel club": {
+    "q1": {
+      "member": "Member A",
+      "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vocab": [
+        "✨ [lý do tham gia]: <strong>broaden my horizons</strong> (mở rộng tầm nhìn), <strong>contribute to the community</strong> (đóng góp cho cộng đồng), <strong>make meaningful connections</strong> (tạo ra những kết nối ý nghĩa)",
+        "✨ [mục tiêu]: <strong>experience new things</strong> (trải nghiệm những điều mới), <strong>develop my soft skills</strong> (phát triển kỹ năng mềm), <strong>find peace of mind</strong> (tìm sự bình yên trong tâm trí)"
+      ],
+      "samples": [
+        {
+          "en": "I joined this club to broaden my horizons and make meaningful connections. I hope to experience new things and learn from others.",
+          "vi": "Tôi tham gia CLB để mở rộng tầm nhìn và tạo các kết nối ý nghĩa. Tôi hy vọng trải nghiệm những điều mới mẻ và học hỏi từ người khác."
+        },
+        {
+          "en": "My primary reason for joining is to contribute to the community actively. I aim to develop my soft skills through our diverse activities.",
+          "vi": "Lý do chính của tôi là để đóng góp tích cực cho cộng đồng. Tôi hướng đến việc phát triển kỹ năng mềm thông qua các hoạt động đa dạng."
+        },
+        {
+          "en": "I decided to join because I want to find peace of mind after a busy week. I hope to balance my life and enjoy our events.",
+          "vi": "Tôi quyết định tham gia vì muốn tìm sự bình yên sau một tuần bận rộn. Tôi hy vọng cân bằng cuộc sống và tận hưởng các sự kiện."
+        }
+      ]
+    },
+    "q2": {
+      "member": "Member B",
+      "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vocab": [
+        "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
+        "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "samples": [
+        {
+          "en": "I completely disagree with that idea. Joining club activities is a worthwhile investment because it helps me relieve stress and enrich my life experiences.",
+          "vi": "Tôi hoàn toàn không đồng ý. Tham gia hoạt động CLB là khoản đầu tư xứng đáng vì nó giúp tôi giảm căng thẳng và làm phong phú trải nghiệm sống."
+        },
+        {
+          "en": "That is a common misconception. In fact, these activities bring long-term benefits, such as improving my overall well-being and expanding my social network.",
+          "vi": "Đó là một quan niệm sai lầm phổ biến. Thực tế, các hoạt động này mang lại lợi ích lâu dài, như cải thiện sức khỏe tổng thể và mở rộng mối quan hệ xã hội."
+        },
+        {
+          "en": "I partly agree if the club is expensive. However, most activities are affordable and provide a great chance to develop myself and learn new skills.",
+          "vi": "Tôi đồng ý một phần nếu CLB quá đắt đỏ. Tuy nhiên, hầu hết hoạt động đều phải chăng và mang lại cơ hội tuyệt vời để phát triển bản thân và học kỹ năng mới."
+        }
+      ]
+    },
+    "q3": {
+      "member": "Member C",
+      "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vocab": [
+        "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
+        "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "samples": [
+        {
+          "en": "I highly recommend that we host a free workshop for beginners. This will definitely attract potential members and create a welcoming environment for everyone.",
+          "vi": "Tôi chân thành đề xuất chúng ta nên tổ chức hội thảo miễn phí cho người mới. Điều này chắc chắn sẽ thu hút thành viên tiềm năng và tạo môi trường thân thiện."
+        },
+        {
+          "en": "Why don't we organize an outdoor festival next month? It is an excellent way to raise public awareness about our club and engage the community.",
+          "vi": "Tại sao chúng ta không tổ chức lễ hội ngoài trời vào tháng tới? Đây là cách tuyệt vời để nâng cao nhận thức cộng đồng về CLB và gắn kết mọi người."
+        },
+        {
+          "en": "I think running a charity campaign would be a fantastic idea. It not only helps people in need but also builds a positive image for our club.",
+          "vi": "Tôi nghĩ thực hiện một chiến dịch từ thiện sẽ là ý tưởng tuyệt vời. Nó không chỉ giúp người khó khăn mà còn xây dựng hình ảnh tích cực cho CLB."
+        }
+      ]
+    }
+  },
+  "Cinema club": {
+    "q1": {
+      "member": "Member A",
+      "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vocab": [
+        "✨ [lý do tham gia]: <strong>share my passion for this field</strong> (chia sẻ đam mê trong lĩnh vực này), <strong>meet like-minded people</strong> (gặp gỡ những người cùng chí hướng), <strong>relax after a long day</strong> (thư giãn sau một ngày dài)",
+        "✨ [mục tiêu]: <strong>enhance my creative skills</strong> (nâng cao kỹ năng sáng tạo), <strong>expand my knowledge</strong> (mở rộng kiến thức), <strong>find a healthy work-life balance</strong> (tìm kiếm sự cân bằng giữa công việc và cuộc sống)"
+      ],
+      "samples": [
+        {
+          "en": "I decided to join this club to share my passion for this field and meet like-minded people. I hope to enhance my creative skills effectively.",
+          "vi": "Tôi quyết định tham gia câu lạc bộ này để chia sẻ đam mê và gặp gỡ những người cùng chí hướng. Tôi hy vọng sẽ nâng cao kỹ năng sáng tạo hiệu quả."
+        },
+        {
+          "en": "I joined the club mainly to relax after a long day at work. My main goal is to find a healthy work-life balance through our activities.",
+          "vi": "Tôi tham gia CLB chủ yếu để thư giãn sau ngày dài làm việc. Mục tiêu chính là tìm sự cân bằng giữa công việc và cuộc sống thông qua các hoạt động."
+        },
+        {
+          "en": "Being part of this club allows me to expand my knowledge significantly. I hope to learn from experienced members and improve my skills.",
+          "vi": "Tham gia CLB cho phép tôi mở rộng kiến thức đáng kể. Tôi hy vọng học hỏi từ các thành viên giàu kinh nghiệm và cải thiện kỹ năng."
+        }
+      ]
+    },
+    "q2": {
+      "member": "Member B",
+      "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vocab": [
+        "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
+        "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "samples": [
+        {
+          "en": "I completely disagree with that idea. Joining club activities is a worthwhile investment because it helps me relieve stress and enrich my life experiences.",
+          "vi": "Tôi hoàn toàn không đồng ý. Tham gia hoạt động CLB là khoản đầu tư xứng đáng vì nó giúp tôi giảm căng thẳng và làm phong phú trải nghiệm sống."
+        },
+        {
+          "en": "That is a common misconception. In fact, these activities bring long-term benefits, such as improving my overall well-being and expanding my social network.",
+          "vi": "Đó là một quan niệm sai lầm phổ biến. Thực tế, các hoạt động này mang lại lợi ích lâu dài, như cải thiện sức khỏe tổng thể và mở rộng mối quan hệ xã hội."
+        },
+        {
+          "en": "I partly agree if the club is expensive. However, most activities are affordable and provide a great chance to develop myself and learn new skills.",
+          "vi": "Tôi đồng ý một phần nếu CLB quá đắt đỏ. Tuy nhiên, hầu hết hoạt động đều phải chăng và mang lại cơ hội tuyệt vời để phát triển bản thân và học kỹ năng mới."
+        }
+      ]
+    },
+    "q3": {
+      "member": "Member C",
+      "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vocab": [
+        "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
+        "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "samples": [
+        {
+          "en": "I highly recommend that we host a free workshop for beginners. This will definitely attract potential members and create a welcoming environment for everyone.",
+          "vi": "Tôi chân thành đề xuất chúng ta nên tổ chức hội thảo miễn phí cho người mới. Điều này chắc chắn sẽ thu hút thành viên tiềm năng và tạo môi trường thân thiện."
+        },
+        {
+          "en": "Why don't we organize an outdoor festival next month? It is an excellent way to raise public awareness about our club and engage the community.",
+          "vi": "Tại sao chúng ta không tổ chức lễ hội ngoài trời vào tháng tới? Đây là cách tuyệt vời để nâng cao nhận thức cộng đồng về CLB và gắn kết mọi người."
+        },
+        {
+          "en": "I think running a charity campaign would be a fantastic idea. It not only helps people in need but also builds a positive image for our club.",
+          "vi": "Tôi nghĩ thực hiện một chiến dịch từ thiện sẽ là ý tưởng tuyệt vời. Nó không chỉ giúp người khó khăn mà còn xây dựng hình ảnh tích cực cho CLB."
+        }
+      ]
+    }
+  },
+  "Language club 2": {
+    "q1": {
+      "member": "Member A",
+      "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vocab": [
+        "✨ [lý do tham gia]: <strong>boost my career prospects</strong> (nâng cao triển vọng nghề nghiệp), <strong>expand my professional network</strong> (mở rộng mạng lưới chuyên môn), <strong>stay updated with new trends</strong> (cập nhật các xu hướng mới)",
+        "✨ [mục tiêu]: <strong>improve my practical skills</strong> (cải thiện kỹ năng thực tế), <strong>gain valuable experience</strong> (thu được kinh nghiệm quý báu), <strong>exchange innovative ideas</strong> (trao đổi những ý tưởng đổi mới)"
+      ],
+      "samples": [
+        {
+          "en": "I joined this club to boost my career prospects and expand my professional network. I hope to improve my practical skills for my future jobs.",
+          "vi": "Tôi tham gia CLB để nâng cao triển vọng nghề nghiệp và mở rộng mạng lưới. Tôi hy vọng cải thiện kỹ năng thực tế cho công việc tương lai."
+        },
+        {
+          "en": "My main reason for joining is to stay updated with new trends in this field. I aim to exchange innovative ideas with other members.",
+          "vi": "Lý do chính của tôi là để cập nhật các xu hướng mới trong lĩnh vực này. Tôi hướng đến việc trao đổi ý tưởng đổi mới với các thành viên khác."
+        },
+        {
+          "en": "I decided to become a member to gain valuable experience from experts. I hope to apply this knowledge to solve real-world problems effectively.",
+          "vi": "Tôi quyết định trở thành thành viên để thu được kinh nghiệm từ các chuyên gia. Tôi hy vọng áp dụng kiến thức này để giải quyết vấn đề thực tế hiệu quả."
+        }
+      ]
+    },
+    "q2": {
+      "member": "Member B",
+      "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vocab": [
+        "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
+        "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "samples": [
+        {
+          "en": "I completely disagree with that idea. Joining club activities is a worthwhile investment because it helps me relieve stress and enrich my life experiences.",
+          "vi": "Tôi hoàn toàn không đồng ý. Tham gia hoạt động CLB là khoản đầu tư xứng đáng vì nó giúp tôi giảm căng thẳng và làm phong phú trải nghiệm sống."
+        },
+        {
+          "en": "That is a common misconception. In fact, these activities bring long-term benefits, such as improving my overall well-being and expanding my social network.",
+          "vi": "Đó là một quan niệm sai lầm phổ biến. Thực tế, các hoạt động này mang lại lợi ích lâu dài, như cải thiện sức khỏe tổng thể và mở rộng mối quan hệ xã hội."
+        },
+        {
+          "en": "I partly agree if the club is expensive. However, most activities are affordable and provide a great chance to develop myself and learn new skills.",
+          "vi": "Tôi đồng ý một phần nếu CLB quá đắt đỏ. Tuy nhiên, hầu hết hoạt động đều phải chăng và mang lại cơ hội tuyệt vời để phát triển bản thân và học kỹ năng mới."
+        }
+      ]
+    },
+    "q3": {
+      "member": "Member C",
+      "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vocab": [
+        "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
+        "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "samples": [
+        {
+          "en": "I highly recommend that we host a free workshop for beginners. This will definitely attract potential members and create a welcoming environment for everyone.",
+          "vi": "Tôi chân thành đề xuất chúng ta nên tổ chức hội thảo miễn phí cho người mới. Điều này chắc chắn sẽ thu hút thành viên tiềm năng và tạo môi trường thân thiện."
+        },
+        {
+          "en": "Why don't we organize an outdoor festival next month? It is an excellent way to raise public awareness about our club and engage the community.",
+          "vi": "Tại sao chúng ta không tổ chức lễ hội ngoài trời vào tháng tới? Đây là cách tuyệt vời để nâng cao nhận thức cộng đồng về CLB và gắn kết mọi người."
+        },
+        {
+          "en": "I think running a charity campaign would be a fantastic idea. It not only helps people in need but also builds a positive image for our club.",
+          "vi": "Tôi nghĩ thực hiện một chiến dịch từ thiện sẽ là ý tưởng tuyệt vời. Nó không chỉ giúp người khó khăn mà còn xây dựng hình ảnh tích cực cho CLB."
+        }
+      ]
+    }
+  },
+  "Travel club 2": {
+    "q1": {
+      "member": "Member A",
+      "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vocab": [
+        "✨ [lý do tham gia]: <strong>broaden my horizons</strong> (mở rộng tầm nhìn), <strong>contribute to the community</strong> (đóng góp cho cộng đồng), <strong>make meaningful connections</strong> (tạo ra những kết nối ý nghĩa)",
+        "✨ [mục tiêu]: <strong>experience new things</strong> (trải nghiệm những điều mới), <strong>develop my soft skills</strong> (phát triển kỹ năng mềm), <strong>find peace of mind</strong> (tìm sự bình yên trong tâm trí)"
+      ],
+      "samples": [
+        {
+          "en": "I joined this club to broaden my horizons and make meaningful connections. I hope to experience new things and learn from others.",
+          "vi": "Tôi tham gia CLB để mở rộng tầm nhìn và tạo các kết nối ý nghĩa. Tôi hy vọng trải nghiệm những điều mới mẻ và học hỏi từ người khác."
+        },
+        {
+          "en": "My primary reason for joining is to contribute to the community actively. I aim to develop my soft skills through our diverse activities.",
+          "vi": "Lý do chính của tôi là để đóng góp tích cực cho cộng đồng. Tôi hướng đến việc phát triển kỹ năng mềm thông qua các hoạt động đa dạng."
+        },
+        {
+          "en": "I decided to join because I want to find peace of mind after a busy week. I hope to balance my life and enjoy our events.",
+          "vi": "Tôi quyết định tham gia vì muốn tìm sự bình yên sau một tuần bận rộn. Tôi hy vọng cân bằng cuộc sống và tận hưởng các sự kiện."
+        }
+      ]
+    },
+    "q2": {
+      "member": "Member B",
+      "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vocab": [
+        "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
+        "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "samples": [
+        {
+          "en": "I completely disagree with that idea. Joining club activities is a worthwhile investment because it helps me relieve stress and enrich my life experiences.",
+          "vi": "Tôi hoàn toàn không đồng ý. Tham gia hoạt động CLB là khoản đầu tư xứng đáng vì nó giúp tôi giảm căng thẳng và làm phong phú trải nghiệm sống."
+        },
+        {
+          "en": "That is a common misconception. In fact, these activities bring long-term benefits, such as improving my overall well-being and expanding my social network.",
+          "vi": "Đó là một quan niệm sai lầm phổ biến. Thực tế, các hoạt động này mang lại lợi ích lâu dài, như cải thiện sức khỏe tổng thể và mở rộng mối quan hệ xã hội."
+        },
+        {
+          "en": "I partly agree if the club is expensive. However, most activities are affordable and provide a great chance to develop myself and learn new skills.",
+          "vi": "Tôi đồng ý một phần nếu CLB quá đắt đỏ. Tuy nhiên, hầu hết hoạt động đều phải chăng và mang lại cơ hội tuyệt vời để phát triển bản thân và học kỹ năng mới."
+        }
+      ]
+    },
+    "q3": {
+      "member": "Member C",
+      "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vocab": [
+        "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
+        "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "samples": [
+        {
+          "en": "I highly recommend that we host a free workshop for beginners. This will definitely attract potential members and create a welcoming environment for everyone.",
+          "vi": "Tôi chân thành đề xuất chúng ta nên tổ chức hội thảo miễn phí cho người mới. Điều này chắc chắn sẽ thu hút thành viên tiềm năng và tạo môi trường thân thiện."
+        },
+        {
+          "en": "Why don't we organize an outdoor festival next month? It is an excellent way to raise public awareness about our club and engage the community.",
+          "vi": "Tại sao chúng ta không tổ chức lễ hội ngoài trời vào tháng tới? Đây là cách tuyệt vời để nâng cao nhận thức cộng đồng về CLB và gắn kết mọi người."
+        },
+        {
+          "en": "I think running a charity campaign would be a fantastic idea. It not only helps people in need but also builds a positive image for our club.",
+          "vi": "Tôi nghĩ thực hiện một chiến dịch từ thiện sẽ là ý tưởng tuyệt vời. Nó không chỉ giúp người khó khăn mà còn xây dựng hình ảnh tích cực cho CLB."
+        }
+      ]
+    }
+  },
+  "College club": {
+    "q1": {
+      "member": "Member A",
+      "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vocab": [
+        "✨ [lý do tham gia]: <strong>boost my career prospects</strong> (nâng cao triển vọng nghề nghiệp), <strong>expand my professional network</strong> (mở rộng mạng lưới chuyên môn), <strong>stay updated with new trends</strong> (cập nhật các xu hướng mới)",
+        "✨ [mục tiêu]: <strong>improve my practical skills</strong> (cải thiện kỹ năng thực tế), <strong>gain valuable experience</strong> (thu được kinh nghiệm quý báu), <strong>exchange innovative ideas</strong> (trao đổi những ý tưởng đổi mới)"
+      ],
+      "samples": [
+        {
+          "en": "I joined this club to boost my career prospects and expand my professional network. I hope to improve my practical skills for my future jobs.",
+          "vi": "Tôi tham gia CLB để nâng cao triển vọng nghề nghiệp và mở rộng mạng lưới. Tôi hy vọng cải thiện kỹ năng thực tế cho công việc tương lai."
+        },
+        {
+          "en": "My main reason for joining is to stay updated with new trends in this field. I aim to exchange innovative ideas with other members.",
+          "vi": "Lý do chính của tôi là để cập nhật các xu hướng mới trong lĩnh vực này. Tôi hướng đến việc trao đổi ý tưởng đổi mới với các thành viên khác."
+        },
+        {
+          "en": "I decided to become a member to gain valuable experience from experts. I hope to apply this knowledge to solve real-world problems effectively.",
+          "vi": "Tôi quyết định trở thành thành viên để thu được kinh nghiệm từ các chuyên gia. Tôi hy vọng áp dụng kiến thức này để giải quyết vấn đề thực tế hiệu quả."
+        }
+      ]
+    },
+    "q2": {
+      "member": "Member B",
+      "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vocab": [
+        "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
+        "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "samples": [
+        {
+          "en": "I completely disagree with that idea. Joining club activities is a worthwhile investment because it helps me relieve stress and enrich my life experiences.",
+          "vi": "Tôi hoàn toàn không đồng ý. Tham gia hoạt động CLB là khoản đầu tư xứng đáng vì nó giúp tôi giảm căng thẳng và làm phong phú trải nghiệm sống."
+        },
+        {
+          "en": "That is a common misconception. In fact, these activities bring long-term benefits, such as improving my overall well-being and expanding my social network.",
+          "vi": "Đó là một quan niệm sai lầm phổ biến. Thực tế, các hoạt động này mang lại lợi ích lâu dài, như cải thiện sức khỏe tổng thể và mở rộng mối quan hệ xã hội."
+        },
+        {
+          "en": "I partly agree if the club is expensive. However, most activities are affordable and provide a great chance to develop myself and learn new skills.",
+          "vi": "Tôi đồng ý một phần nếu CLB quá đắt đỏ. Tuy nhiên, hầu hết hoạt động đều phải chăng và mang lại cơ hội tuyệt vời để phát triển bản thân và học kỹ năng mới."
+        }
+      ]
+    },
+    "q3": {
+      "member": "Member C",
+      "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vocab": [
+        "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
+        "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "samples": [
+        {
+          "en": "I highly recommend that we host a free workshop for beginners. This will definitely attract potential members and create a welcoming environment for everyone.",
+          "vi": "Tôi chân thành đề xuất chúng ta nên tổ chức hội thảo miễn phí cho người mới. Điều này chắc chắn sẽ thu hút thành viên tiềm năng và tạo môi trường thân thiện."
+        },
+        {
+          "en": "Why don't we organize an outdoor festival next month? It is an excellent way to raise public awareness about our club and engage the community.",
+          "vi": "Tại sao chúng ta không tổ chức lễ hội ngoài trời vào tháng tới? Đây là cách tuyệt vời để nâng cao nhận thức cộng đồng về CLB và gắn kết mọi người."
+        },
+        {
+          "en": "I think running a charity campaign would be a fantastic idea. It not only helps people in need but also builds a positive image for our club.",
+          "vi": "Tôi nghĩ thực hiện một chiến dịch từ thiện sẽ là ý tưởng tuyệt vời. Nó không chỉ giúp người khó khăn mà còn xây dựng hình ảnh tích cực cho CLB."
+        }
+      ]
+    }
+  },
+  "Movie club": {
+    "q1": {
+      "member": "Member A",
+      "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vocab": [
+        "✨ [lý do tham gia]: <strong>share my passion for this field</strong> (chia sẻ đam mê trong lĩnh vực này), <strong>meet like-minded people</strong> (gặp gỡ những người cùng chí hướng), <strong>relax after a long day</strong> (thư giãn sau một ngày dài)",
+        "✨ [mục tiêu]: <strong>enhance my creative skills</strong> (nâng cao kỹ năng sáng tạo), <strong>expand my knowledge</strong> (mở rộng kiến thức), <strong>find a healthy work-life balance</strong> (tìm kiếm sự cân bằng giữa công việc và cuộc sống)"
+      ],
+      "samples": [
+        {
+          "en": "I decided to join this club to share my passion for this field and meet like-minded people. I hope to enhance my creative skills effectively.",
+          "vi": "Tôi quyết định tham gia câu lạc bộ này để chia sẻ đam mê và gặp gỡ những người cùng chí hướng. Tôi hy vọng sẽ nâng cao kỹ năng sáng tạo hiệu quả."
+        },
+        {
+          "en": "I joined the club mainly to relax after a long day at work. My main goal is to find a healthy work-life balance through our activities.",
+          "vi": "Tôi tham gia CLB chủ yếu để thư giãn sau ngày dài làm việc. Mục tiêu chính là tìm sự cân bằng giữa công việc và cuộc sống thông qua các hoạt động."
+        },
+        {
+          "en": "Being part of this club allows me to expand my knowledge significantly. I hope to learn from experienced members and improve my skills.",
+          "vi": "Tham gia CLB cho phép tôi mở rộng kiến thức đáng kể. Tôi hy vọng học hỏi từ các thành viên giàu kinh nghiệm và cải thiện kỹ năng."
+        }
+      ]
+    },
+    "q2": {
+      "member": "Member B",
+      "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vocab": [
+        "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
+        "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "samples": [
+        {
+          "en": "I completely disagree with that idea. Joining club activities is a worthwhile investment because it helps me relieve stress and enrich my life experiences.",
+          "vi": "Tôi hoàn toàn không đồng ý. Tham gia hoạt động CLB là khoản đầu tư xứng đáng vì nó giúp tôi giảm căng thẳng và làm phong phú trải nghiệm sống."
+        },
+        {
+          "en": "That is a common misconception. In fact, these activities bring long-term benefits, such as improving my overall well-being and expanding my social network.",
+          "vi": "Đó là một quan niệm sai lầm phổ biến. Thực tế, các hoạt động này mang lại lợi ích lâu dài, như cải thiện sức khỏe tổng thể và mở rộng mối quan hệ xã hội."
+        },
+        {
+          "en": "I partly agree if the club is expensive. However, most activities are affordable and provide a great chance to develop myself and learn new skills.",
+          "vi": "Tôi đồng ý một phần nếu CLB quá đắt đỏ. Tuy nhiên, hầu hết hoạt động đều phải chăng và mang lại cơ hội tuyệt vời để phát triển bản thân và học kỹ năng mới."
+        }
+      ]
+    },
+    "q3": {
+      "member": "Member C",
+      "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vocab": [
+        "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
+        "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "samples": [
+        {
+          "en": "I highly recommend that we host a free workshop for beginners. This will definitely attract potential members and create a welcoming environment for everyone.",
+          "vi": "Tôi chân thành đề xuất chúng ta nên tổ chức hội thảo miễn phí cho người mới. Điều này chắc chắn sẽ thu hút thành viên tiềm năng và tạo môi trường thân thiện."
+        },
+        {
+          "en": "Why don't we organize an outdoor festival next month? It is an excellent way to raise public awareness about our club and engage the community.",
+          "vi": "Tại sao chúng ta không tổ chức lễ hội ngoài trời vào tháng tới? Đây là cách tuyệt vời để nâng cao nhận thức cộng đồng về CLB và gắn kết mọi người."
+        },
+        {
+          "en": "I think running a charity campaign would be a fantastic idea. It not only helps people in need but also builds a positive image for our club.",
+          "vi": "Tôi nghĩ thực hiện một chiến dịch từ thiện sẽ là ý tưởng tuyệt vời. Nó không chỉ giúp người khó khăn mà còn xây dựng hình ảnh tích cực cho CLB."
+        }
+      ]
+    }
+  },
+  "Walking club": {
+    "q1": {
+      "member": "Member A",
+      "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vocab": [
+        "✨ [lý do tham gia]: <strong>stay in good shape</strong> (giữ dáng), <strong>relieve daily stress</strong> (giảm căng thẳng hàng ngày), <strong>adopt a healthier lifestyle</strong> (áp dụng lối sống lành mạnh hơn)",
+        "✨ [mục tiêu]: <strong>strengthen my physical endurance</strong> (tăng cường sức bền thể chất), <strong>boost my emotional well-being</strong> (nâng cao sức khỏe tinh thần), <strong>burn calories effectively</strong> (đốt cháy calo hiệu quả)"
+      ],
+      "samples": [
+        {
+          "en": "I decided to join this club to stay in good shape and relieve daily stress. I hope to strengthen my physical endurance effectively.",
+          "vi": "Tôi tham gia CLB để giữ dáng và giảm căng thẳng. Tôi hy vọng sẽ tăng cường sức bền thể chất một cách hiệu quả."
+        },
+        {
+          "en": "I joined because I want to adopt a healthier lifestyle. My main goal is to boost my emotional well-being and meet active people.",
+          "vi": "Tôi tham gia vì muốn áp dụng lối sống lành mạnh hơn. Mục tiêu chính là nâng cao sức khỏe tinh thần và gặp gỡ những người năng động."
+        },
+        {
+          "en": "Being a member helps me burn calories effectively after working hours. I hope to maintain my physical health and regain my energy.",
+          "vi": "Là một thành viên giúp tôi đốt cháy calo hiệu quả sau giờ làm. Tôi hy vọng duy trì sức khỏe thể chất và nạp lại năng lượng."
+        }
+      ]
+    },
+    "q2": {
+      "member": "Member B",
+      "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vocab": [
+        "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
+        "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "samples": [
+        {
+          "en": "I completely disagree with that idea. Joining club activities is a worthwhile investment because it helps me relieve stress and enrich my life experiences.",
+          "vi": "Tôi hoàn toàn không đồng ý. Tham gia hoạt động CLB là khoản đầu tư xứng đáng vì nó giúp tôi giảm căng thẳng và làm phong phú trải nghiệm sống."
+        },
+        {
+          "en": "That is a common misconception. In fact, these activities bring long-term benefits, such as improving my overall well-being and expanding my social network.",
+          "vi": "Đó là một quan niệm sai lầm phổ biến. Thực tế, các hoạt động này mang lại lợi ích lâu dài, như cải thiện sức khỏe tổng thể và mở rộng mối quan hệ xã hội."
+        },
+        {
+          "en": "I partly agree if the club is expensive. However, most activities are affordable and provide a great chance to develop myself and learn new skills.",
+          "vi": "Tôi đồng ý một phần nếu CLB quá đắt đỏ. Tuy nhiên, hầu hết hoạt động đều phải chăng và mang lại cơ hội tuyệt vời để phát triển bản thân và học kỹ năng mới."
+        }
+      ]
+    },
+    "q3": {
+      "member": "Member C",
+      "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vocab": [
+        "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
+        "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "samples": [
+        {
+          "en": "I highly recommend that we host a free workshop for beginners. This will definitely attract potential members and create a welcoming environment for everyone.",
+          "vi": "Tôi chân thành đề xuất chúng ta nên tổ chức hội thảo miễn phí cho người mới. Điều này chắc chắn sẽ thu hút thành viên tiềm năng và tạo môi trường thân thiện."
+        },
+        {
+          "en": "Why don't we organize an outdoor festival next month? It is an excellent way to raise public awareness about our club and engage the community.",
+          "vi": "Tại sao chúng ta không tổ chức lễ hội ngoài trời vào tháng tới? Đây là cách tuyệt vời để nâng cao nhận thức cộng đồng về CLB và gắn kết mọi người."
+        },
+        {
+          "en": "I think running a charity campaign would be a fantastic idea. It not only helps people in need but also builds a positive image for our club.",
+          "vi": "Tôi nghĩ thực hiện một chiến dịch từ thiện sẽ là ý tưởng tuyệt vời. Nó không chỉ giúp người khó khăn mà còn xây dựng hình ảnh tích cực cho CLB."
+        }
+      ]
+    }
+  },
+  "Community club": {
+    "q1": {
+      "member": "Member A",
+      "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vocab": [
+        "✨ [lý do tham gia]: <strong>broaden my horizons</strong> (mở rộng tầm nhìn), <strong>contribute to the community</strong> (đóng góp cho cộng đồng), <strong>make meaningful connections</strong> (tạo ra những kết nối ý nghĩa)",
+        "✨ [mục tiêu]: <strong>experience new things</strong> (trải nghiệm những điều mới), <strong>develop my soft skills</strong> (phát triển kỹ năng mềm), <strong>find peace of mind</strong> (tìm sự bình yên trong tâm trí)"
+      ],
+      "samples": [
+        {
+          "en": "I joined this club to broaden my horizons and make meaningful connections. I hope to experience new things and learn from others.",
+          "vi": "Tôi tham gia CLB để mở rộng tầm nhìn và tạo các kết nối ý nghĩa. Tôi hy vọng trải nghiệm những điều mới mẻ và học hỏi từ người khác."
+        },
+        {
+          "en": "My primary reason for joining is to contribute to the community actively. I aim to develop my soft skills through our diverse activities.",
+          "vi": "Lý do chính của tôi là để đóng góp tích cực cho cộng đồng. Tôi hướng đến việc phát triển kỹ năng mềm thông qua các hoạt động đa dạng."
+        },
+        {
+          "en": "I decided to join because I want to find peace of mind after a busy week. I hope to balance my life and enjoy our events.",
+          "vi": "Tôi quyết định tham gia vì muốn tìm sự bình yên sau một tuần bận rộn. Tôi hy vọng cân bằng cuộc sống và tận hưởng các sự kiện."
+        }
+      ]
+    },
+    "q2": {
+      "member": "Member B",
+      "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vocab": [
+        "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
+        "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "samples": [
+        {
+          "en": "I completely disagree with that idea. Joining club activities is a worthwhile investment because it helps me relieve stress and enrich my life experiences.",
+          "vi": "Tôi hoàn toàn không đồng ý. Tham gia hoạt động CLB là khoản đầu tư xứng đáng vì nó giúp tôi giảm căng thẳng và làm phong phú trải nghiệm sống."
+        },
+        {
+          "en": "That is a common misconception. In fact, these activities bring long-term benefits, such as improving my overall well-being and expanding my social network.",
+          "vi": "Đó là một quan niệm sai lầm phổ biến. Thực tế, các hoạt động này mang lại lợi ích lâu dài, như cải thiện sức khỏe tổng thể và mở rộng mối quan hệ xã hội."
+        },
+        {
+          "en": "I partly agree if the club is expensive. However, most activities are affordable and provide a great chance to develop myself and learn new skills.",
+          "vi": "Tôi đồng ý một phần nếu CLB quá đắt đỏ. Tuy nhiên, hầu hết hoạt động đều phải chăng và mang lại cơ hội tuyệt vời để phát triển bản thân và học kỹ năng mới."
+        }
+      ]
+    },
+    "q3": {
+      "member": "Member C",
+      "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vocab": [
+        "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
+        "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "samples": [
+        {
+          "en": "I highly recommend that we host a free workshop for beginners. This will definitely attract potential members and create a welcoming environment for everyone.",
+          "vi": "Tôi chân thành đề xuất chúng ta nên tổ chức hội thảo miễn phí cho người mới. Điều này chắc chắn sẽ thu hút thành viên tiềm năng và tạo môi trường thân thiện."
+        },
+        {
+          "en": "Why don't we organize an outdoor festival next month? It is an excellent way to raise public awareness about our club and engage the community.",
+          "vi": "Tại sao chúng ta không tổ chức lễ hội ngoài trời vào tháng tới? Đây là cách tuyệt vời để nâng cao nhận thức cộng đồng về CLB và gắn kết mọi người."
+        },
+        {
+          "en": "I think running a charity campaign would be a fantastic idea. It not only helps people in need but also builds a positive image for our club.",
+          "vi": "Tôi nghĩ thực hiện một chiến dịch từ thiện sẽ là ý tưởng tuyệt vời. Nó không chỉ giúp người khó khăn mà còn xây dựng hình ảnh tích cực cho CLB."
+        }
+      ]
+    }
+  },
+  "Museum club": {
+    "q1": {
+      "member": "Member A",
+      "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vocab": [
+        "✨ [lý do tham gia]: <strong>broaden my horizons</strong> (mở rộng tầm nhìn), <strong>contribute to the community</strong> (đóng góp cho cộng đồng), <strong>make meaningful connections</strong> (tạo ra những kết nối ý nghĩa)",
+        "✨ [mục tiêu]: <strong>experience new things</strong> (trải nghiệm những điều mới), <strong>develop my soft skills</strong> (phát triển kỹ năng mềm), <strong>find peace of mind</strong> (tìm sự bình yên trong tâm trí)"
+      ],
+      "samples": [
+        {
+          "en": "I joined this club to broaden my horizons and make meaningful connections. I hope to experience new things and learn from others.",
+          "vi": "Tôi tham gia CLB để mở rộng tầm nhìn và tạo các kết nối ý nghĩa. Tôi hy vọng trải nghiệm những điều mới mẻ và học hỏi từ người khác."
+        },
+        {
+          "en": "My primary reason for joining is to contribute to the community actively. I aim to develop my soft skills through our diverse activities.",
+          "vi": "Lý do chính của tôi là để đóng góp tích cực cho cộng đồng. Tôi hướng đến việc phát triển kỹ năng mềm thông qua các hoạt động đa dạng."
+        },
+        {
+          "en": "I decided to join because I want to find peace of mind after a busy week. I hope to balance my life and enjoy our events.",
+          "vi": "Tôi quyết định tham gia vì muốn tìm sự bình yên sau một tuần bận rộn. Tôi hy vọng cân bằng cuộc sống và tận hưởng các sự kiện."
+        }
+      ]
+    },
+    "q2": {
+      "member": "Member B",
+      "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vocab": [
+        "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
+        "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "samples": [
+        {
+          "en": "I completely disagree with that idea. Joining club activities is a worthwhile investment because it helps me relieve stress and enrich my life experiences.",
+          "vi": "Tôi hoàn toàn không đồng ý. Tham gia hoạt động CLB là khoản đầu tư xứng đáng vì nó giúp tôi giảm căng thẳng và làm phong phú trải nghiệm sống."
+        },
+        {
+          "en": "That is a common misconception. In fact, these activities bring long-term benefits, such as improving my overall well-being and expanding my social network.",
+          "vi": "Đó là một quan niệm sai lầm phổ biến. Thực tế, các hoạt động này mang lại lợi ích lâu dài, như cải thiện sức khỏe tổng thể và mở rộng mối quan hệ xã hội."
+        },
+        {
+          "en": "I partly agree if the club is expensive. However, most activities are affordable and provide a great chance to develop myself and learn new skills.",
+          "vi": "Tôi đồng ý một phần nếu CLB quá đắt đỏ. Tuy nhiên, hầu hết hoạt động đều phải chăng và mang lại cơ hội tuyệt vời để phát triển bản thân và học kỹ năng mới."
+        }
+      ]
+    },
+    "q3": {
+      "member": "Member C",
+      "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vocab": [
+        "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
+        "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "samples": [
+        {
+          "en": "I highly recommend that we host a free workshop for beginners. This will definitely attract potential members and create a welcoming environment for everyone.",
+          "vi": "Tôi chân thành đề xuất chúng ta nên tổ chức hội thảo miễn phí cho người mới. Điều này chắc chắn sẽ thu hút thành viên tiềm năng và tạo môi trường thân thiện."
+        },
+        {
+          "en": "Why don't we organize an outdoor festival next month? It is an excellent way to raise public awareness about our club and engage the community.",
+          "vi": "Tại sao chúng ta không tổ chức lễ hội ngoài trời vào tháng tới? Đây là cách tuyệt vời để nâng cao nhận thức cộng đồng về CLB và gắn kết mọi người."
+        },
+        {
+          "en": "I think running a charity campaign would be a fantastic idea. It not only helps people in need but also builds a positive image for our club.",
+          "vi": "Tôi nghĩ thực hiện một chiến dịch từ thiện sẽ là ý tưởng tuyệt vời. Nó không chỉ giúp người khó khăn mà còn xây dựng hình ảnh tích cực cho CLB."
+        }
+      ]
+    }
+  },
+  "Writing club": {
+    "q1": {
+      "member": "Member A",
+      "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vocab": [
+        "✨ [lý do tham gia]: <strong>boost my career prospects</strong> (nâng cao triển vọng nghề nghiệp), <strong>expand my professional network</strong> (mở rộng mạng lưới chuyên môn), <strong>stay updated with new trends</strong> (cập nhật các xu hướng mới)",
+        "✨ [mục tiêu]: <strong>improve my practical skills</strong> (cải thiện kỹ năng thực tế), <strong>gain valuable experience</strong> (thu được kinh nghiệm quý báu), <strong>exchange innovative ideas</strong> (trao đổi những ý tưởng đổi mới)"
+      ],
+      "samples": [
+        {
+          "en": "I joined this club to boost my career prospects and expand my professional network. I hope to improve my practical skills for my future jobs.",
+          "vi": "Tôi tham gia CLB để nâng cao triển vọng nghề nghiệp và mở rộng mạng lưới. Tôi hy vọng cải thiện kỹ năng thực tế cho công việc tương lai."
+        },
+        {
+          "en": "My main reason for joining is to stay updated with new trends in this field. I aim to exchange innovative ideas with other members.",
+          "vi": "Lý do chính của tôi là để cập nhật các xu hướng mới trong lĩnh vực này. Tôi hướng đến việc trao đổi ý tưởng đổi mới với các thành viên khác."
+        },
+        {
+          "en": "I decided to become a member to gain valuable experience from experts. I hope to apply this knowledge to solve real-world problems effectively.",
+          "vi": "Tôi quyết định trở thành thành viên để thu được kinh nghiệm từ các chuyên gia. Tôi hy vọng áp dụng kiến thức này để giải quyết vấn đề thực tế hiệu quả."
+        }
+      ]
+    },
+    "q2": {
+      "member": "Member B",
+      "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vocab": [
+        "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
+        "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "samples": [
+        {
+          "en": "I completely disagree with that idea. Joining club activities is a worthwhile investment because it helps me relieve stress and enrich my life experiences.",
+          "vi": "Tôi hoàn toàn không đồng ý. Tham gia hoạt động CLB là khoản đầu tư xứng đáng vì nó giúp tôi giảm căng thẳng và làm phong phú trải nghiệm sống."
+        },
+        {
+          "en": "That is a common misconception. In fact, these activities bring long-term benefits, such as improving my overall well-being and expanding my social network.",
+          "vi": "Đó là một quan niệm sai lầm phổ biến. Thực tế, các hoạt động này mang lại lợi ích lâu dài, như cải thiện sức khỏe tổng thể và mở rộng mối quan hệ xã hội."
+        },
+        {
+          "en": "I partly agree if the club is expensive. However, most activities are affordable and provide a great chance to develop myself and learn new skills.",
+          "vi": "Tôi đồng ý một phần nếu CLB quá đắt đỏ. Tuy nhiên, hầu hết hoạt động đều phải chăng và mang lại cơ hội tuyệt vời để phát triển bản thân và học kỹ năng mới."
+        }
+      ]
+    },
+    "q3": {
+      "member": "Member C",
+      "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vocab": [
+        "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
+        "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "samples": [
+        {
+          "en": "I highly recommend that we host a free workshop for beginners. This will definitely attract potential members and create a welcoming environment for everyone.",
+          "vi": "Tôi chân thành đề xuất chúng ta nên tổ chức hội thảo miễn phí cho người mới. Điều này chắc chắn sẽ thu hút thành viên tiềm năng và tạo môi trường thân thiện."
+        },
+        {
+          "en": "Why don't we organize an outdoor festival next month? It is an excellent way to raise public awareness about our club and engage the community.",
+          "vi": "Tại sao chúng ta không tổ chức lễ hội ngoài trời vào tháng tới? Đây là cách tuyệt vời để nâng cao nhận thức cộng đồng về CLB và gắn kết mọi người."
+        },
+        {
+          "en": "I think running a charity campaign would be a fantastic idea. It not only helps people in need but also builds a positive image for our club.",
+          "vi": "Tôi nghĩ thực hiện một chiến dịch từ thiện sẽ là ý tưởng tuyệt vời. Nó không chỉ giúp người khó khăn mà còn xây dựng hình ảnh tích cực cho CLB."
+        }
+      ]
+    }
+  },
+  "Computer club": {
+    "q1": {
+      "member": "Member A",
+      "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vocab": [
+        "✨ [lý do tham gia]: <strong>boost my career prospects</strong> (nâng cao triển vọng nghề nghiệp), <strong>expand my professional network</strong> (mở rộng mạng lưới chuyên môn), <strong>stay updated with new trends</strong> (cập nhật các xu hướng mới)",
+        "✨ [mục tiêu]: <strong>improve my practical skills</strong> (cải thiện kỹ năng thực tế), <strong>gain valuable experience</strong> (thu được kinh nghiệm quý báu), <strong>exchange innovative ideas</strong> (trao đổi những ý tưởng đổi mới)"
+      ],
+      "samples": [
+        {
+          "en": "I joined this club to boost my career prospects and expand my professional network. I hope to improve my practical skills for my future jobs.",
+          "vi": "Tôi tham gia CLB để nâng cao triển vọng nghề nghiệp và mở rộng mạng lưới. Tôi hy vọng cải thiện kỹ năng thực tế cho công việc tương lai."
+        },
+        {
+          "en": "My main reason for joining is to stay updated with new trends in this field. I aim to exchange innovative ideas with other members.",
+          "vi": "Lý do chính của tôi là để cập nhật các xu hướng mới trong lĩnh vực này. Tôi hướng đến việc trao đổi ý tưởng đổi mới với các thành viên khác."
+        },
+        {
+          "en": "I decided to become a member to gain valuable experience from experts. I hope to apply this knowledge to solve real-world problems effectively.",
+          "vi": "Tôi quyết định trở thành thành viên để thu được kinh nghiệm từ các chuyên gia. Tôi hy vọng áp dụng kiến thức này để giải quyết vấn đề thực tế hiệu quả."
+        }
+      ]
+    },
+    "q2": {
+      "member": "Member B",
+      "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vocab": [
+        "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
+        "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "samples": [
+        {
+          "en": "I completely disagree with that idea. Joining club activities is a worthwhile investment because it helps me relieve stress and enrich my life experiences.",
+          "vi": "Tôi hoàn toàn không đồng ý. Tham gia hoạt động CLB là khoản đầu tư xứng đáng vì nó giúp tôi giảm căng thẳng và làm phong phú trải nghiệm sống."
+        },
+        {
+          "en": "That is a common misconception. In fact, these activities bring long-term benefits, such as improving my overall well-being and expanding my social network.",
+          "vi": "Đó là một quan niệm sai lầm phổ biến. Thực tế, các hoạt động này mang lại lợi ích lâu dài, như cải thiện sức khỏe tổng thể và mở rộng mối quan hệ xã hội."
+        },
+        {
+          "en": "I partly agree if the club is expensive. However, most activities are affordable and provide a great chance to develop myself and learn new skills.",
+          "vi": "Tôi đồng ý một phần nếu CLB quá đắt đỏ. Tuy nhiên, hầu hết hoạt động đều phải chăng và mang lại cơ hội tuyệt vời để phát triển bản thân và học kỹ năng mới."
+        }
+      ]
+    },
+    "q3": {
+      "member": "Member C",
+      "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vocab": [
+        "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
+        "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "samples": [
+        {
+          "en": "I highly recommend that we host a free workshop for beginners. This will definitely attract potential members and create a welcoming environment for everyone.",
+          "vi": "Tôi chân thành đề xuất chúng ta nên tổ chức hội thảo miễn phí cho người mới. Điều này chắc chắn sẽ thu hút thành viên tiềm năng và tạo môi trường thân thiện."
+        },
+        {
+          "en": "Why don't we organize an outdoor festival next month? It is an excellent way to raise public awareness about our club and engage the community.",
+          "vi": "Tại sao chúng ta không tổ chức lễ hội ngoài trời vào tháng tới? Đây là cách tuyệt vời để nâng cao nhận thức cộng đồng về CLB và gắn kết mọi người."
+        },
+        {
+          "en": "I think running a charity campaign would be a fantastic idea. It not only helps people in need but also builds a positive image for our club.",
+          "vi": "Tôi nghĩ thực hiện một chiến dịch từ thiện sẽ là ý tưởng tuyệt vời. Nó không chỉ giúp người khó khăn mà còn xây dựng hình ảnh tích cực cho CLB."
+        }
+      ]
+    }
+  },
+  "Music club": {
+    "q1": {
+      "member": "Member A",
+      "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vocab": [
+        "✨ [lý do tham gia]: <strong>share my passion for this field</strong> (chia sẻ đam mê trong lĩnh vực này), <strong>meet like-minded people</strong> (gặp gỡ những người cùng chí hướng), <strong>relax after a long day</strong> (thư giãn sau một ngày dài)",
+        "✨ [mục tiêu]: <strong>enhance my creative skills</strong> (nâng cao kỹ năng sáng tạo), <strong>expand my knowledge</strong> (mở rộng kiến thức), <strong>find a healthy work-life balance</strong> (tìm kiếm sự cân bằng giữa công việc và cuộc sống)"
+      ],
+      "samples": [
+        {
+          "en": "I decided to join this club to share my passion for this field and meet like-minded people. I hope to enhance my creative skills effectively.",
+          "vi": "Tôi quyết định tham gia câu lạc bộ này để chia sẻ đam mê và gặp gỡ những người cùng chí hướng. Tôi hy vọng sẽ nâng cao kỹ năng sáng tạo hiệu quả."
+        },
+        {
+          "en": "I joined the club mainly to relax after a long day at work. My main goal is to find a healthy work-life balance through our activities.",
+          "vi": "Tôi tham gia CLB chủ yếu để thư giãn sau ngày dài làm việc. Mục tiêu chính là tìm sự cân bằng giữa công việc và cuộc sống thông qua các hoạt động."
+        },
+        {
+          "en": "Being part of this club allows me to expand my knowledge significantly. I hope to learn from experienced members and improve my skills.",
+          "vi": "Tham gia CLB cho phép tôi mở rộng kiến thức đáng kể. Tôi hy vọng học hỏi từ các thành viên giàu kinh nghiệm và cải thiện kỹ năng."
+        }
+      ]
+    },
+    "q2": {
+      "member": "Member B",
+      "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vocab": [
+        "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
+        "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "samples": [
+        {
+          "en": "I completely disagree with that idea. Joining club activities is a worthwhile investment because it helps me relieve stress and enrich my life experiences.",
+          "vi": "Tôi hoàn toàn không đồng ý. Tham gia hoạt động CLB là khoản đầu tư xứng đáng vì nó giúp tôi giảm căng thẳng và làm phong phú trải nghiệm sống."
+        },
+        {
+          "en": "That is a common misconception. In fact, these activities bring long-term benefits, such as improving my overall well-being and expanding my social network.",
+          "vi": "Đó là một quan niệm sai lầm phổ biến. Thực tế, các hoạt động này mang lại lợi ích lâu dài, như cải thiện sức khỏe tổng thể và mở rộng mối quan hệ xã hội."
+        },
+        {
+          "en": "I partly agree if the club is expensive. However, most activities are affordable and provide a great chance to develop myself and learn new skills.",
+          "vi": "Tôi đồng ý một phần nếu CLB quá đắt đỏ. Tuy nhiên, hầu hết hoạt động đều phải chăng và mang lại cơ hội tuyệt vời để phát triển bản thân và học kỹ năng mới."
+        }
+      ]
+    },
+    "q3": {
+      "member": "Member C",
+      "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vocab": [
+        "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
+        "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "samples": [
+        {
+          "en": "I highly recommend that we host a free workshop for beginners. This will definitely attract potential members and create a welcoming environment for everyone.",
+          "vi": "Tôi chân thành đề xuất chúng ta nên tổ chức hội thảo miễn phí cho người mới. Điều này chắc chắn sẽ thu hút thành viên tiềm năng và tạo môi trường thân thiện."
+        },
+        {
+          "en": "Why don't we organize an outdoor festival next month? It is an excellent way to raise public awareness about our club and engage the community.",
+          "vi": "Tại sao chúng ta không tổ chức lễ hội ngoài trời vào tháng tới? Đây là cách tuyệt vời để nâng cao nhận thức cộng đồng về CLB và gắn kết mọi người."
+        },
+        {
+          "en": "I think running a charity campaign would be a fantastic idea. It not only helps people in need but also builds a positive image for our club.",
+          "vi": "Tôi nghĩ thực hiện một chiến dịch từ thiện sẽ là ý tưởng tuyệt vời. Nó không chỉ giúp người khó khăn mà còn xây dựng hình ảnh tích cực cho CLB."
+        }
+      ]
+    }
+  },
+  "Fashion club": {
+    "q1": {
+      "member": "Member A",
+      "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vocab": [
+        "✨ [lý do tham gia]: <strong>share my passion for this field</strong> (chia sẻ đam mê trong lĩnh vực này), <strong>meet like-minded people</strong> (gặp gỡ những người cùng chí hướng), <strong>relax after a long day</strong> (thư giãn sau một ngày dài)",
+        "✨ [mục tiêu]: <strong>enhance my creative skills</strong> (nâng cao kỹ năng sáng tạo), <strong>expand my knowledge</strong> (mở rộng kiến thức), <strong>find a healthy work-life balance</strong> (tìm kiếm sự cân bằng giữa công việc và cuộc sống)"
+      ],
+      "samples": [
+        {
+          "en": "I decided to join this club to share my passion for this field and meet like-minded people. I hope to enhance my creative skills effectively.",
+          "vi": "Tôi quyết định tham gia câu lạc bộ này để chia sẻ đam mê và gặp gỡ những người cùng chí hướng. Tôi hy vọng sẽ nâng cao kỹ năng sáng tạo hiệu quả."
+        },
+        {
+          "en": "I joined the club mainly to relax after a long day at work. My main goal is to find a healthy work-life balance through our activities.",
+          "vi": "Tôi tham gia CLB chủ yếu để thư giãn sau ngày dài làm việc. Mục tiêu chính là tìm sự cân bằng giữa công việc và cuộc sống thông qua các hoạt động."
+        },
+        {
+          "en": "Being part of this club allows me to expand my knowledge significantly. I hope to learn from experienced members and improve my skills.",
+          "vi": "Tham gia CLB cho phép tôi mở rộng kiến thức đáng kể. Tôi hy vọng học hỏi từ các thành viên giàu kinh nghiệm và cải thiện kỹ năng."
+        }
+      ]
+    },
+    "q2": {
+      "member": "Member B",
+      "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vocab": [
+        "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
+        "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "samples": [
+        {
+          "en": "I completely disagree with that idea. Joining club activities is a worthwhile investment because it helps me relieve stress and enrich my life experiences.",
+          "vi": "Tôi hoàn toàn không đồng ý. Tham gia hoạt động CLB là khoản đầu tư xứng đáng vì nó giúp tôi giảm căng thẳng và làm phong phú trải nghiệm sống."
+        },
+        {
+          "en": "That is a common misconception. In fact, these activities bring long-term benefits, such as improving my overall well-being and expanding my social network.",
+          "vi": "Đó là một quan niệm sai lầm phổ biến. Thực tế, các hoạt động này mang lại lợi ích lâu dài, như cải thiện sức khỏe tổng thể và mở rộng mối quan hệ xã hội."
+        },
+        {
+          "en": "I partly agree if the club is expensive. However, most activities are affordable and provide a great chance to develop myself and learn new skills.",
+          "vi": "Tôi đồng ý một phần nếu CLB quá đắt đỏ. Tuy nhiên, hầu hết hoạt động đều phải chăng và mang lại cơ hội tuyệt vời để phát triển bản thân và học kỹ năng mới."
+        }
+      ]
+    },
+    "q3": {
+      "member": "Member C",
+      "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vocab": [
+        "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
+        "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "samples": [
+        {
+          "en": "I highly recommend that we host a free workshop for beginners. This will definitely attract potential members and create a welcoming environment for everyone.",
+          "vi": "Tôi chân thành đề xuất chúng ta nên tổ chức hội thảo miễn phí cho người mới. Điều này chắc chắn sẽ thu hút thành viên tiềm năng và tạo môi trường thân thiện."
+        },
+        {
+          "en": "Why don't we organize an outdoor festival next month? It is an excellent way to raise public awareness about our club and engage the community.",
+          "vi": "Tại sao chúng ta không tổ chức lễ hội ngoài trời vào tháng tới? Đây là cách tuyệt vời để nâng cao nhận thức cộng đồng về CLB và gắn kết mọi người."
+        },
+        {
+          "en": "I think running a charity campaign would be a fantastic idea. It not only helps people in need but also builds a positive image for our club.",
+          "vi": "Tôi nghĩ thực hiện một chiến dịch từ thiện sẽ là ý tưởng tuyệt vời. Nó không chỉ giúp người khó khăn mà còn xây dựng hình ảnh tích cực cho CLB."
+        }
+      ]
+    }
+  },
+  "Cooking club": {
+    "q1": {
+      "member": "Member A",
+      "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vocab": [
+        "✨ [lý do tham gia]: <strong>share my passion for this field</strong> (chia sẻ đam mê trong lĩnh vực này), <strong>meet like-minded people</strong> (gặp gỡ những người cùng chí hướng), <strong>relax after a long day</strong> (thư giãn sau một ngày dài)",
+        "✨ [mục tiêu]: <strong>enhance my creative skills</strong> (nâng cao kỹ năng sáng tạo), <strong>expand my knowledge</strong> (mở rộng kiến thức), <strong>find a healthy work-life balance</strong> (tìm kiếm sự cân bằng giữa công việc và cuộc sống)"
+      ],
+      "samples": [
+        {
+          "en": "I decided to join this club to share my passion for this field and meet like-minded people. I hope to enhance my creative skills effectively.",
+          "vi": "Tôi quyết định tham gia câu lạc bộ này để chia sẻ đam mê và gặp gỡ những người cùng chí hướng. Tôi hy vọng sẽ nâng cao kỹ năng sáng tạo hiệu quả."
+        },
+        {
+          "en": "I joined the club mainly to relax after a long day at work. My main goal is to find a healthy work-life balance through our activities.",
+          "vi": "Tôi tham gia CLB chủ yếu để thư giãn sau ngày dài làm việc. Mục tiêu chính là tìm sự cân bằng giữa công việc và cuộc sống thông qua các hoạt động."
+        },
+        {
+          "en": "Being part of this club allows me to expand my knowledge significantly. I hope to learn from experienced members and improve my skills.",
+          "vi": "Tham gia CLB cho phép tôi mở rộng kiến thức đáng kể. Tôi hy vọng học hỏi từ các thành viên giàu kinh nghiệm và cải thiện kỹ năng."
+        }
+      ]
+    },
+    "q2": {
+      "member": "Member B",
+      "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vocab": [
+        "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
+        "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "samples": [
+        {
+          "en": "I completely disagree with that idea. Joining club activities is a worthwhile investment because it helps me relieve stress and enrich my life experiences.",
+          "vi": "Tôi hoàn toàn không đồng ý. Tham gia hoạt động CLB là khoản đầu tư xứng đáng vì nó giúp tôi giảm căng thẳng và làm phong phú trải nghiệm sống."
+        },
+        {
+          "en": "That is a common misconception. In fact, these activities bring long-term benefits, such as improving my overall well-being and expanding my social network.",
+          "vi": "Đó là một quan niệm sai lầm phổ biến. Thực tế, các hoạt động này mang lại lợi ích lâu dài, như cải thiện sức khỏe tổng thể và mở rộng mối quan hệ xã hội."
+        },
+        {
+          "en": "I partly agree if the club is expensive. However, most activities are affordable and provide a great chance to develop myself and learn new skills.",
+          "vi": "Tôi đồng ý một phần nếu CLB quá đắt đỏ. Tuy nhiên, hầu hết hoạt động đều phải chăng và mang lại cơ hội tuyệt vời để phát triển bản thân và học kỹ năng mới."
+        }
+      ]
+    },
+    "q3": {
+      "member": "Member C",
+      "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vocab": [
+        "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
+        "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "samples": [
+        {
+          "en": "I highly recommend that we host a free workshop for beginners. This will definitely attract potential members and create a welcoming environment for everyone.",
+          "vi": "Tôi chân thành đề xuất chúng ta nên tổ chức hội thảo miễn phí cho người mới. Điều này chắc chắn sẽ thu hút thành viên tiềm năng và tạo môi trường thân thiện."
+        },
+        {
+          "en": "Why don't we organize an outdoor festival next month? It is an excellent way to raise public awareness about our club and engage the community.",
+          "vi": "Tại sao chúng ta không tổ chức lễ hội ngoài trời vào tháng tới? Đây là cách tuyệt vời để nâng cao nhận thức cộng đồng về CLB và gắn kết mọi người."
+        },
+        {
+          "en": "I think running a charity campaign would be a fantastic idea. It not only helps people in need but also builds a positive image for our club.",
+          "vi": "Tôi nghĩ thực hiện một chiến dịch từ thiện sẽ là ý tưởng tuyệt vời. Nó không chỉ giúp người khó khăn mà còn xây dựng hình ảnh tích cực cho CLB."
+        }
+      ]
+    }
+  },
+  "Nature club": {
+    "q1": {
+      "member": "Member A",
+      "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vocab": [
+        "✨ [lý do tham gia]: <strong>stay in good shape</strong> (giữ dáng), <strong>relieve daily stress</strong> (giảm căng thẳng hàng ngày), <strong>adopt a healthier lifestyle</strong> (áp dụng lối sống lành mạnh hơn)",
+        "✨ [mục tiêu]: <strong>strengthen my physical endurance</strong> (tăng cường sức bền thể chất), <strong>boost my emotional well-being</strong> (nâng cao sức khỏe tinh thần), <strong>burn calories effectively</strong> (đốt cháy calo hiệu quả)"
+      ],
+      "samples": [
+        {
+          "en": "I decided to join this club to stay in good shape and relieve daily stress. I hope to strengthen my physical endurance effectively.",
+          "vi": "Tôi tham gia CLB để giữ dáng và giảm căng thẳng. Tôi hy vọng sẽ tăng cường sức bền thể chất một cách hiệu quả."
+        },
+        {
+          "en": "I joined because I want to adopt a healthier lifestyle. My main goal is to boost my emotional well-being and meet active people.",
+          "vi": "Tôi tham gia vì muốn áp dụng lối sống lành mạnh hơn. Mục tiêu chính là nâng cao sức khỏe tinh thần và gặp gỡ những người năng động."
+        },
+        {
+          "en": "Being a member helps me burn calories effectively after working hours. I hope to maintain my physical health and regain my energy.",
+          "vi": "Là một thành viên giúp tôi đốt cháy calo hiệu quả sau giờ làm. Tôi hy vọng duy trì sức khỏe thể chất và nạp lại năng lượng."
+        }
+      ]
+    },
+    "q2": {
+      "member": "Member B",
+      "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vocab": [
+        "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
+        "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "samples": [
+        {
+          "en": "I completely disagree with that idea. Joining club activities is a worthwhile investment because it helps me relieve stress and enrich my life experiences.",
+          "vi": "Tôi hoàn toàn không đồng ý. Tham gia hoạt động CLB là khoản đầu tư xứng đáng vì nó giúp tôi giảm căng thẳng và làm phong phú trải nghiệm sống."
+        },
+        {
+          "en": "That is a common misconception. In fact, these activities bring long-term benefits, such as improving my overall well-being and expanding my social network.",
+          "vi": "Đó là một quan niệm sai lầm phổ biến. Thực tế, các hoạt động này mang lại lợi ích lâu dài, như cải thiện sức khỏe tổng thể và mở rộng mối quan hệ xã hội."
+        },
+        {
+          "en": "I partly agree if the club is expensive. However, most activities are affordable and provide a great chance to develop myself and learn new skills.",
+          "vi": "Tôi đồng ý một phần nếu CLB quá đắt đỏ. Tuy nhiên, hầu hết hoạt động đều phải chăng và mang lại cơ hội tuyệt vời để phát triển bản thân và học kỹ năng mới."
+        }
+      ]
+    },
+    "q3": {
+      "member": "Member C",
+      "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vocab": [
+        "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
+        "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "samples": [
+        {
+          "en": "I highly recommend that we host a free workshop for beginners. This will definitely attract potential members and create a welcoming environment for everyone.",
+          "vi": "Tôi chân thành đề xuất chúng ta nên tổ chức hội thảo miễn phí cho người mới. Điều này chắc chắn sẽ thu hút thành viên tiềm năng và tạo môi trường thân thiện."
+        },
+        {
+          "en": "Why don't we organize an outdoor festival next month? It is an excellent way to raise public awareness about our club and engage the community.",
+          "vi": "Tại sao chúng ta không tổ chức lễ hội ngoài trời vào tháng tới? Đây là cách tuyệt vời để nâng cao nhận thức cộng đồng về CLB và gắn kết mọi người."
+        },
+        {
+          "en": "I think running a charity campaign would be a fantastic idea. It not only helps people in need but also builds a positive image for our club.",
+          "vi": "Tôi nghĩ thực hiện một chiến dịch từ thiện sẽ là ý tưởng tuyệt vời. Nó không chỉ giúp người khó khăn mà còn xây dựng hình ảnh tích cực cho CLB."
+        }
+      ]
+    }
+  },
+  "English club 2": {
+    "q1": {
+      "member": "Member A",
+      "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vocab": [
+        "✨ [lý do tham gia]: <strong>boost my career prospects</strong> (nâng cao triển vọng nghề nghiệp), <strong>expand my professional network</strong> (mở rộng mạng lưới chuyên môn), <strong>stay updated with new trends</strong> (cập nhật các xu hướng mới)",
+        "✨ [mục tiêu]: <strong>improve my practical skills</strong> (cải thiện kỹ năng thực tế), <strong>gain valuable experience</strong> (thu được kinh nghiệm quý báu), <strong>exchange innovative ideas</strong> (trao đổi những ý tưởng đổi mới)"
+      ],
+      "samples": [
+        {
+          "en": "I joined this club to boost my career prospects and expand my professional network. I hope to improve my practical skills for my future jobs.",
+          "vi": "Tôi tham gia CLB để nâng cao triển vọng nghề nghiệp và mở rộng mạng lưới. Tôi hy vọng cải thiện kỹ năng thực tế cho công việc tương lai."
+        },
+        {
+          "en": "My main reason for joining is to stay updated with new trends in this field. I aim to exchange innovative ideas with other members.",
+          "vi": "Lý do chính của tôi là để cập nhật các xu hướng mới trong lĩnh vực này. Tôi hướng đến việc trao đổi ý tưởng đổi mới với các thành viên khác."
+        },
+        {
+          "en": "I decided to become a member to gain valuable experience from experts. I hope to apply this knowledge to solve real-world problems effectively.",
+          "vi": "Tôi quyết định trở thành thành viên để thu được kinh nghiệm từ các chuyên gia. Tôi hy vọng áp dụng kiến thức này để giải quyết vấn đề thực tế hiệu quả."
+        }
+      ]
+    },
+    "q2": {
+      "member": "Member B",
+      "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vocab": [
+        "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
+        "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "samples": [
+        {
+          "en": "I completely disagree with that idea. Joining club activities is a worthwhile investment because it helps me relieve stress and enrich my life experiences.",
+          "vi": "Tôi hoàn toàn không đồng ý. Tham gia hoạt động CLB là khoản đầu tư xứng đáng vì nó giúp tôi giảm căng thẳng và làm phong phú trải nghiệm sống."
+        },
+        {
+          "en": "That is a common misconception. In fact, these activities bring long-term benefits, such as improving my overall well-being and expanding my social network.",
+          "vi": "Đó là một quan niệm sai lầm phổ biến. Thực tế, các hoạt động này mang lại lợi ích lâu dài, như cải thiện sức khỏe tổng thể và mở rộng mối quan hệ xã hội."
+        },
+        {
+          "en": "I partly agree if the club is expensive. However, most activities are affordable and provide a great chance to develop myself and learn new skills.",
+          "vi": "Tôi đồng ý một phần nếu CLB quá đắt đỏ. Tuy nhiên, hầu hết hoạt động đều phải chăng và mang lại cơ hội tuyệt vời để phát triển bản thân và học kỹ năng mới."
+        }
+      ]
+    },
+    "q3": {
+      "member": "Member C",
+      "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vocab": [
+        "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
+        "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "samples": [
+        {
+          "en": "I highly recommend that we host a free workshop for beginners. This will definitely attract potential members and create a welcoming environment for everyone.",
+          "vi": "Tôi chân thành đề xuất chúng ta nên tổ chức hội thảo miễn phí cho người mới. Điều này chắc chắn sẽ thu hút thành viên tiềm năng và tạo môi trường thân thiện."
+        },
+        {
+          "en": "Why don't we organize an outdoor festival next month? It is an excellent way to raise public awareness about our club and engage the community.",
+          "vi": "Tại sao chúng ta không tổ chức lễ hội ngoài trời vào tháng tới? Đây là cách tuyệt vời để nâng cao nhận thức cộng đồng về CLB và gắn kết mọi người."
+        },
+        {
+          "en": "I think running a charity campaign would be a fantastic idea. It not only helps people in need but also builds a positive image for our club.",
+          "vi": "Tôi nghĩ thực hiện một chiến dịch từ thiện sẽ là ý tưởng tuyệt vời. Nó không chỉ giúp người khó khăn mà còn xây dựng hình ảnh tích cực cho CLB."
+        }
+      ]
+    }
+  },
+  "Debate club": {
+    "q1": {
+      "member": "Member A",
+      "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vocab": [
+        "✨ [lý do tham gia]: <strong>boost my career prospects</strong> (nâng cao triển vọng nghề nghiệp), <strong>expand my professional network</strong> (mở rộng mạng lưới chuyên môn), <strong>stay updated with new trends</strong> (cập nhật các xu hướng mới)",
+        "✨ [mục tiêu]: <strong>improve my practical skills</strong> (cải thiện kỹ năng thực tế), <strong>gain valuable experience</strong> (thu được kinh nghiệm quý báu), <strong>exchange innovative ideas</strong> (trao đổi những ý tưởng đổi mới)"
+      ],
+      "samples": [
+        {
+          "en": "I joined this club to boost my career prospects and expand my professional network. I hope to improve my practical skills for my future jobs.",
+          "vi": "Tôi tham gia CLB để nâng cao triển vọng nghề nghiệp và mở rộng mạng lưới. Tôi hy vọng cải thiện kỹ năng thực tế cho công việc tương lai."
+        },
+        {
+          "en": "My main reason for joining is to stay updated with new trends in this field. I aim to exchange innovative ideas with other members.",
+          "vi": "Lý do chính của tôi là để cập nhật các xu hướng mới trong lĩnh vực này. Tôi hướng đến việc trao đổi ý tưởng đổi mới với các thành viên khác."
+        },
+        {
+          "en": "I decided to become a member to gain valuable experience from experts. I hope to apply this knowledge to solve real-world problems effectively.",
+          "vi": "Tôi quyết định trở thành thành viên để thu được kinh nghiệm từ các chuyên gia. Tôi hy vọng áp dụng kiến thức này để giải quyết vấn đề thực tế hiệu quả."
+        }
+      ]
+    },
+    "q2": {
+      "member": "Member B",
+      "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vocab": [
+        "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
+        "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "samples": [
+        {
+          "en": "I completely disagree with that idea. Joining club activities is a worthwhile investment because it helps me relieve stress and enrich my life experiences.",
+          "vi": "Tôi hoàn toàn không đồng ý. Tham gia hoạt động CLB là khoản đầu tư xứng đáng vì nó giúp tôi giảm căng thẳng và làm phong phú trải nghiệm sống."
+        },
+        {
+          "en": "That is a common misconception. In fact, these activities bring long-term benefits, such as improving my overall well-being and expanding my social network.",
+          "vi": "Đó là một quan niệm sai lầm phổ biến. Thực tế, các hoạt động này mang lại lợi ích lâu dài, như cải thiện sức khỏe tổng thể và mở rộng mối quan hệ xã hội."
+        },
+        {
+          "en": "I partly agree if the club is expensive. However, most activities are affordable and provide a great chance to develop myself and learn new skills.",
+          "vi": "Tôi đồng ý một phần nếu CLB quá đắt đỏ. Tuy nhiên, hầu hết hoạt động đều phải chăng và mang lại cơ hội tuyệt vời để phát triển bản thân và học kỹ năng mới."
+        }
+      ]
+    },
+    "q3": {
+      "member": "Member C",
+      "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vocab": [
+        "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
+        "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "samples": [
+        {
+          "en": "I highly recommend that we host a free workshop for beginners. This will definitely attract potential members and create a welcoming environment for everyone.",
+          "vi": "Tôi chân thành đề xuất chúng ta nên tổ chức hội thảo miễn phí cho người mới. Điều này chắc chắn sẽ thu hút thành viên tiềm năng và tạo môi trường thân thiện."
+        },
+        {
+          "en": "Why don't we organize an outdoor festival next month? It is an excellent way to raise public awareness about our club and engage the community.",
+          "vi": "Tại sao chúng ta không tổ chức lễ hội ngoài trời vào tháng tới? Đây là cách tuyệt vời để nâng cao nhận thức cộng đồng về CLB và gắn kết mọi người."
+        },
+        {
+          "en": "I think running a charity campaign would be a fantastic idea. It not only helps people in need but also builds a positive image for our club.",
+          "vi": "Tôi nghĩ thực hiện một chiến dịch từ thiện sẽ là ý tưởng tuyệt vời. Nó không chỉ giúp người khó khăn mà còn xây dựng hình ảnh tích cực cho CLB."
+        }
+      ]
+    }
+  },
+  "Outdoor club": {
+    "q1": {
+      "member": "Member A",
+      "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vocab": [
+        "✨ [lý do tham gia]: <strong>stay in good shape</strong> (giữ dáng), <strong>relieve daily stress</strong> (giảm căng thẳng hàng ngày), <strong>adopt a healthier lifestyle</strong> (áp dụng lối sống lành mạnh hơn)",
+        "✨ [mục tiêu]: <strong>strengthen my physical endurance</strong> (tăng cường sức bền thể chất), <strong>boost my emotional well-being</strong> (nâng cao sức khỏe tinh thần), <strong>burn calories effectively</strong> (đốt cháy calo hiệu quả)"
+      ],
+      "samples": [
+        {
+          "en": "I decided to join this club to stay in good shape and relieve daily stress. I hope to strengthen my physical endurance effectively.",
+          "vi": "Tôi tham gia CLB để giữ dáng và giảm căng thẳng. Tôi hy vọng sẽ tăng cường sức bền thể chất một cách hiệu quả."
+        },
+        {
+          "en": "I joined because I want to adopt a healthier lifestyle. My main goal is to boost my emotional well-being and meet active people.",
+          "vi": "Tôi tham gia vì muốn áp dụng lối sống lành mạnh hơn. Mục tiêu chính là nâng cao sức khỏe tinh thần và gặp gỡ những người năng động."
+        },
+        {
+          "en": "Being a member helps me burn calories effectively after working hours. I hope to maintain my physical health and regain my energy.",
+          "vi": "Là một thành viên giúp tôi đốt cháy calo hiệu quả sau giờ làm. Tôi hy vọng duy trì sức khỏe thể chất và nạp lại năng lượng."
+        }
+      ]
+    },
+    "q2": {
+      "member": "Member B",
+      "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vocab": [
+        "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
+        "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "samples": [
+        {
+          "en": "I completely disagree with that idea. Joining club activities is a worthwhile investment because it helps me relieve stress and enrich my life experiences.",
+          "vi": "Tôi hoàn toàn không đồng ý. Tham gia hoạt động CLB là khoản đầu tư xứng đáng vì nó giúp tôi giảm căng thẳng và làm phong phú trải nghiệm sống."
+        },
+        {
+          "en": "That is a common misconception. In fact, these activities bring long-term benefits, such as improving my overall well-being and expanding my social network.",
+          "vi": "Đó là một quan niệm sai lầm phổ biến. Thực tế, các hoạt động này mang lại lợi ích lâu dài, như cải thiện sức khỏe tổng thể và mở rộng mối quan hệ xã hội."
+        },
+        {
+          "en": "I partly agree if the club is expensive. However, most activities are affordable and provide a great chance to develop myself and learn new skills.",
+          "vi": "Tôi đồng ý một phần nếu CLB quá đắt đỏ. Tuy nhiên, hầu hết hoạt động đều phải chăng và mang lại cơ hội tuyệt vời để phát triển bản thân và học kỹ năng mới."
+        }
+      ]
+    },
+    "q3": {
+      "member": "Member C",
+      "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vocab": [
+        "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
+        "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "samples": [
+        {
+          "en": "I highly recommend that we host a free workshop for beginners. This will definitely attract potential members and create a welcoming environment for everyone.",
+          "vi": "Tôi chân thành đề xuất chúng ta nên tổ chức hội thảo miễn phí cho người mới. Điều này chắc chắn sẽ thu hút thành viên tiềm năng và tạo môi trường thân thiện."
+        },
+        {
+          "en": "Why don't we organize an outdoor festival next month? It is an excellent way to raise public awareness about our club and engage the community.",
+          "vi": "Tại sao chúng ta không tổ chức lễ hội ngoài trời vào tháng tới? Đây là cách tuyệt vời để nâng cao nhận thức cộng đồng về CLB và gắn kết mọi người."
+        },
+        {
+          "en": "I think running a charity campaign would be a fantastic idea. It not only helps people in need but also builds a positive image for our club.",
+          "vi": "Tôi nghĩ thực hiện một chiến dịch từ thiện sẽ là ý tưởng tuyệt vời. Nó không chỉ giúp người khó khăn mà còn xây dựng hình ảnh tích cực cho CLB."
+        }
+      ]
+    }
+  },
+  "English club 3": {
+    "q1": {
+      "member": "Member A",
+      "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vocab": [
+        "✨ [lý do tham gia]: <strong>boost my career prospects</strong> (nâng cao triển vọng nghề nghiệp), <strong>expand my professional network</strong> (mở rộng mạng lưới chuyên môn), <strong>stay updated with new trends</strong> (cập nhật các xu hướng mới)",
+        "✨ [mục tiêu]: <strong>improve my practical skills</strong> (cải thiện kỹ năng thực tế), <strong>gain valuable experience</strong> (thu được kinh nghiệm quý báu), <strong>exchange innovative ideas</strong> (trao đổi những ý tưởng đổi mới)"
+      ],
+      "samples": [
+        {
+          "en": "I joined this club to boost my career prospects and expand my professional network. I hope to improve my practical skills for my future jobs.",
+          "vi": "Tôi tham gia CLB để nâng cao triển vọng nghề nghiệp và mở rộng mạng lưới. Tôi hy vọng cải thiện kỹ năng thực tế cho công việc tương lai."
+        },
+        {
+          "en": "My main reason for joining is to stay updated with new trends in this field. I aim to exchange innovative ideas with other members.",
+          "vi": "Lý do chính của tôi là để cập nhật các xu hướng mới trong lĩnh vực này. Tôi hướng đến việc trao đổi ý tưởng đổi mới với các thành viên khác."
+        },
+        {
+          "en": "I decided to become a member to gain valuable experience from experts. I hope to apply this knowledge to solve real-world problems effectively.",
+          "vi": "Tôi quyết định trở thành thành viên để thu được kinh nghiệm từ các chuyên gia. Tôi hy vọng áp dụng kiến thức này để giải quyết vấn đề thực tế hiệu quả."
+        }
+      ]
+    },
+    "q2": {
+      "member": "Member B",
+      "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vocab": [
+        "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
+        "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "samples": [
+        {
+          "en": "I completely disagree with that idea. Joining club activities is a worthwhile investment because it helps me relieve stress and enrich my life experiences.",
+          "vi": "Tôi hoàn toàn không đồng ý. Tham gia hoạt động CLB là khoản đầu tư xứng đáng vì nó giúp tôi giảm căng thẳng và làm phong phú trải nghiệm sống."
+        },
+        {
+          "en": "That is a common misconception. In fact, these activities bring long-term benefits, such as improving my overall well-being and expanding my social network.",
+          "vi": "Đó là một quan niệm sai lầm phổ biến. Thực tế, các hoạt động này mang lại lợi ích lâu dài, như cải thiện sức khỏe tổng thể và mở rộng mối quan hệ xã hội."
+        },
+        {
+          "en": "I partly agree if the club is expensive. However, most activities are affordable and provide a great chance to develop myself and learn new skills.",
+          "vi": "Tôi đồng ý một phần nếu CLB quá đắt đỏ. Tuy nhiên, hầu hết hoạt động đều phải chăng và mang lại cơ hội tuyệt vời để phát triển bản thân và học kỹ năng mới."
+        }
+      ]
+    },
+    "q3": {
+      "member": "Member C",
+      "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vocab": [
+        "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
+        "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "samples": [
+        {
+          "en": "I highly recommend that we host a free workshop for beginners. This will definitely attract potential members and create a welcoming environment for everyone.",
+          "vi": "Tôi chân thành đề xuất chúng ta nên tổ chức hội thảo miễn phí cho người mới. Điều này chắc chắn sẽ thu hút thành viên tiềm năng và tạo môi trường thân thiện."
+        },
+        {
+          "en": "Why don't we organize an outdoor festival next month? It is an excellent way to raise public awareness about our club and engage the community.",
+          "vi": "Tại sao chúng ta không tổ chức lễ hội ngoài trời vào tháng tới? Đây là cách tuyệt vời để nâng cao nhận thức cộng đồng về CLB và gắn kết mọi người."
+        },
+        {
+          "en": "I think running a charity campaign would be a fantastic idea. It not only helps people in need but also builds a positive image for our club.",
+          "vi": "Tôi nghĩ thực hiện một chiến dịch từ thiện sẽ là ý tưởng tuyệt vời. Nó không chỉ giúp người khó khăn mà còn xây dựng hình ảnh tích cực cho CLB."
+        }
+      ]
+    }
+  },
+  "English club": {
+    "q1": {
+      "member": "Member A",
+      "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vocab": [
+        "✨ [lý do tham gia]: <strong>boost my career prospects</strong> (nâng cao triển vọng nghề nghiệp), <strong>expand my professional network</strong> (mở rộng mạng lưới chuyên môn), <strong>stay updated with new trends</strong> (cập nhật các xu hướng mới)",
+        "✨ [mục tiêu]: <strong>improve my practical skills</strong> (cải thiện kỹ năng thực tế), <strong>gain valuable experience</strong> (thu được kinh nghiệm quý báu), <strong>exchange innovative ideas</strong> (trao đổi những ý tưởng đổi mới)"
+      ],
+      "samples": [
+        {
+          "en": "I joined this club to boost my career prospects and expand my professional network. I hope to improve my practical skills for my future jobs.",
+          "vi": "Tôi tham gia CLB để nâng cao triển vọng nghề nghiệp và mở rộng mạng lưới. Tôi hy vọng cải thiện kỹ năng thực tế cho công việc tương lai."
+        },
+        {
+          "en": "My main reason for joining is to stay updated with new trends in this field. I aim to exchange innovative ideas with other members.",
+          "vi": "Lý do chính của tôi là để cập nhật các xu hướng mới trong lĩnh vực này. Tôi hướng đến việc trao đổi ý tưởng đổi mới với các thành viên khác."
+        },
+        {
+          "en": "I decided to become a member to gain valuable experience from experts. I hope to apply this knowledge to solve real-world problems effectively.",
+          "vi": "Tôi quyết định trở thành thành viên để thu được kinh nghiệm từ các chuyên gia. Tôi hy vọng áp dụng kiến thức này để giải quyết vấn đề thực tế hiệu quả."
+        }
+      ]
+    },
+    "q2": {
+      "member": "Member B",
+      "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vocab": [
+        "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
+        "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "samples": [
+        {
+          "en": "I completely disagree with that idea. Joining club activities is a worthwhile investment because it helps me relieve stress and enrich my life experiences.",
+          "vi": "Tôi hoàn toàn không đồng ý. Tham gia hoạt động CLB là khoản đầu tư xứng đáng vì nó giúp tôi giảm căng thẳng và làm phong phú trải nghiệm sống."
+        },
+        {
+          "en": "That is a common misconception. In fact, these activities bring long-term benefits, such as improving my overall well-being and expanding my social network.",
+          "vi": "Đó là một quan niệm sai lầm phổ biến. Thực tế, các hoạt động này mang lại lợi ích lâu dài, như cải thiện sức khỏe tổng thể và mở rộng mối quan hệ xã hội."
+        },
+        {
+          "en": "I partly agree if the club is expensive. However, most activities are affordable and provide a great chance to develop myself and learn new skills.",
+          "vi": "Tôi đồng ý một phần nếu CLB quá đắt đỏ. Tuy nhiên, hầu hết hoạt động đều phải chăng và mang lại cơ hội tuyệt vời để phát triển bản thân và học kỹ năng mới."
+        }
+      ]
+    },
+    "q3": {
+      "member": "Member C",
+      "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vocab": [
+        "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
+        "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "samples": [
+        {
+          "en": "I highly recommend that we host a free workshop for beginners. This will definitely attract potential members and create a welcoming environment for everyone.",
+          "vi": "Tôi chân thành đề xuất chúng ta nên tổ chức hội thảo miễn phí cho người mới. Điều này chắc chắn sẽ thu hút thành viên tiềm năng và tạo môi trường thân thiện."
+        },
+        {
+          "en": "Why don't we organize an outdoor festival next month? It is an excellent way to raise public awareness about our club and engage the community.",
+          "vi": "Tại sao chúng ta không tổ chức lễ hội ngoài trời vào tháng tới? Đây là cách tuyệt vời để nâng cao nhận thức cộng đồng về CLB và gắn kết mọi người."
+        },
+        {
+          "en": "I think running a charity campaign would be a fantastic idea. It not only helps people in need but also builds a positive image for our club.",
+          "vi": "Tôi nghĩ thực hiện một chiến dịch từ thiện sẽ là ý tưởng tuyệt vời. Nó không chỉ giúp người khó khăn mà còn xây dựng hình ảnh tích cực cho CLB."
+        }
+      ]
+    }
+  },
+  "Photography club": {
+    "q1": {
+      "member": "Member A",
+      "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vocab": [
+        "✨ [lý do tham gia]: <strong>share my passion for this field</strong> (chia sẻ đam mê trong lĩnh vực này), <strong>meet like-minded people</strong> (gặp gỡ những người cùng chí hướng), <strong>relax after a long day</strong> (thư giãn sau một ngày dài)",
+        "✨ [mục tiêu]: <strong>enhance my creative skills</strong> (nâng cao kỹ năng sáng tạo), <strong>expand my knowledge</strong> (mở rộng kiến thức), <strong>find a healthy work-life balance</strong> (tìm kiếm sự cân bằng giữa công việc và cuộc sống)"
+      ],
+      "samples": [
+        {
+          "en": "I decided to join this club to share my passion for this field and meet like-minded people. I hope to enhance my creative skills effectively.",
+          "vi": "Tôi quyết định tham gia câu lạc bộ này để chia sẻ đam mê và gặp gỡ những người cùng chí hướng. Tôi hy vọng sẽ nâng cao kỹ năng sáng tạo hiệu quả."
+        },
+        {
+          "en": "I joined the club mainly to relax after a long day at work. My main goal is to find a healthy work-life balance through our activities.",
+          "vi": "Tôi tham gia CLB chủ yếu để thư giãn sau ngày dài làm việc. Mục tiêu chính là tìm sự cân bằng giữa công việc và cuộc sống thông qua các hoạt động."
+        },
+        {
+          "en": "Being part of this club allows me to expand my knowledge significantly. I hope to learn from experienced members and improve my skills.",
+          "vi": "Tham gia CLB cho phép tôi mở rộng kiến thức đáng kể. Tôi hy vọng học hỏi từ các thành viên giàu kinh nghiệm và cải thiện kỹ năng."
+        }
+      ]
+    },
+    "q2": {
+      "member": "Member B",
+      "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vocab": [
+        "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
+        "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "samples": [
+        {
+          "en": "I completely disagree with that idea. Joining club activities is a worthwhile investment because it helps me relieve stress and enrich my life experiences.",
+          "vi": "Tôi hoàn toàn không đồng ý. Tham gia hoạt động CLB là khoản đầu tư xứng đáng vì nó giúp tôi giảm căng thẳng và làm phong phú trải nghiệm sống."
+        },
+        {
+          "en": "That is a common misconception. In fact, these activities bring long-term benefits, such as improving my overall well-being and expanding my social network.",
+          "vi": "Đó là một quan niệm sai lầm phổ biến. Thực tế, các hoạt động này mang lại lợi ích lâu dài, như cải thiện sức khỏe tổng thể và mở rộng mối quan hệ xã hội."
+        },
+        {
+          "en": "I partly agree if the club is expensive. However, most activities are affordable and provide a great chance to develop myself and learn new skills.",
+          "vi": "Tôi đồng ý một phần nếu CLB quá đắt đỏ. Tuy nhiên, hầu hết hoạt động đều phải chăng và mang lại cơ hội tuyệt vời để phát triển bản thân và học kỹ năng mới."
+        }
+      ]
+    },
+    "q3": {
+      "member": "Member C",
+      "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vocab": [
+        "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
+        "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "samples": [
+        {
+          "en": "I highly recommend that we host a free workshop for beginners. This will definitely attract potential members and create a welcoming environment for everyone.",
+          "vi": "Tôi chân thành đề xuất chúng ta nên tổ chức hội thảo miễn phí cho người mới. Điều này chắc chắn sẽ thu hút thành viên tiềm năng và tạo môi trường thân thiện."
+        },
+        {
+          "en": "Why don't we organize an outdoor festival next month? It is an excellent way to raise public awareness about our club and engage the community.",
+          "vi": "Tại sao chúng ta không tổ chức lễ hội ngoài trời vào tháng tới? Đây là cách tuyệt vời để nâng cao nhận thức cộng đồng về CLB và gắn kết mọi người."
+        },
+        {
+          "en": "I think running a charity campaign would be a fantastic idea. It not only helps people in need but also builds a positive image for our club.",
+          "vi": "Tôi nghĩ thực hiện một chiến dịch từ thiện sẽ là ý tưởng tuyệt vời. Nó không chỉ giúp người khó khăn mà còn xây dựng hình ảnh tích cực cho CLB."
+        }
+      ]
+    }
+  },
+  "Nature club 2": {
+    "q1": {
+      "member": "Member A",
+      "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vocab": [
+        "✨ [lý do tham gia]: <strong>stay in good shape</strong> (giữ dáng), <strong>relieve daily stress</strong> (giảm căng thẳng hàng ngày), <strong>adopt a healthier lifestyle</strong> (áp dụng lối sống lành mạnh hơn)",
+        "✨ [mục tiêu]: <strong>strengthen my physical endurance</strong> (tăng cường sức bền thể chất), <strong>boost my emotional well-being</strong> (nâng cao sức khỏe tinh thần), <strong>burn calories effectively</strong> (đốt cháy calo hiệu quả)"
+      ],
+      "samples": [
+        {
+          "en": "I decided to join this club to stay in good shape and relieve daily stress. I hope to strengthen my physical endurance effectively.",
+          "vi": "Tôi tham gia CLB để giữ dáng và giảm căng thẳng. Tôi hy vọng sẽ tăng cường sức bền thể chất một cách hiệu quả."
+        },
+        {
+          "en": "I joined because I want to adopt a healthier lifestyle. My main goal is to boost my emotional well-being and meet active people.",
+          "vi": "Tôi tham gia vì muốn áp dụng lối sống lành mạnh hơn. Mục tiêu chính là nâng cao sức khỏe tinh thần và gặp gỡ những người năng động."
+        },
+        {
+          "en": "Being a member helps me burn calories effectively after working hours. I hope to maintain my physical health and regain my energy.",
+          "vi": "Là một thành viên giúp tôi đốt cháy calo hiệu quả sau giờ làm. Tôi hy vọng duy trì sức khỏe thể chất và nạp lại năng lượng."
+        }
+      ]
+    },
+    "q2": {
+      "member": "Member B",
+      "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vocab": [
+        "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
+        "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "samples": [
+        {
+          "en": "I completely disagree with that idea. Joining club activities is a worthwhile investment because it helps me relieve stress and enrich my life experiences.",
+          "vi": "Tôi hoàn toàn không đồng ý. Tham gia hoạt động CLB là khoản đầu tư xứng đáng vì nó giúp tôi giảm căng thẳng và làm phong phú trải nghiệm sống."
+        },
+        {
+          "en": "That is a common misconception. In fact, these activities bring long-term benefits, such as improving my overall well-being and expanding my social network.",
+          "vi": "Đó là một quan niệm sai lầm phổ biến. Thực tế, các hoạt động này mang lại lợi ích lâu dài, như cải thiện sức khỏe tổng thể và mở rộng mối quan hệ xã hội."
+        },
+        {
+          "en": "I partly agree if the club is expensive. However, most activities are affordable and provide a great chance to develop myself and learn new skills.",
+          "vi": "Tôi đồng ý một phần nếu CLB quá đắt đỏ. Tuy nhiên, hầu hết hoạt động đều phải chăng và mang lại cơ hội tuyệt vời để phát triển bản thân và học kỹ năng mới."
+        }
+      ]
+    },
+    "q3": {
+      "member": "Member C",
+      "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vocab": [
+        "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
+        "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "samples": [
+        {
+          "en": "I highly recommend that we host a free workshop for beginners. This will definitely attract potential members and create a welcoming environment for everyone.",
+          "vi": "Tôi chân thành đề xuất chúng ta nên tổ chức hội thảo miễn phí cho người mới. Điều này chắc chắn sẽ thu hút thành viên tiềm năng và tạo môi trường thân thiện."
+        },
+        {
+          "en": "Why don't we organize an outdoor festival next month? It is an excellent way to raise public awareness about our club and engage the community.",
+          "vi": "Tại sao chúng ta không tổ chức lễ hội ngoài trời vào tháng tới? Đây là cách tuyệt vời để nâng cao nhận thức cộng đồng về CLB và gắn kết mọi người."
+        },
+        {
+          "en": "I think running a charity campaign would be a fantastic idea. It not only helps people in need but also builds a positive image for our club.",
+          "vi": "Tôi nghĩ thực hiện một chiến dịch từ thiện sẽ là ý tưởng tuyệt vời. Nó không chỉ giúp người khó khăn mà còn xây dựng hình ảnh tích cực cho CLB."
+        }
+      ]
+    }
+  },
+  "Film club": {
+    "q1": {
+      "member": "Member A",
+      "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vocab": [
+        "✨ [lý do tham gia]: <strong>share my passion for this field</strong> (chia sẻ đam mê trong lĩnh vực này), <strong>meet like-minded people</strong> (gặp gỡ những người cùng chí hướng), <strong>relax after a long day</strong> (thư giãn sau một ngày dài)",
+        "✨ [mục tiêu]: <strong>enhance my creative skills</strong> (nâng cao kỹ năng sáng tạo), <strong>expand my knowledge</strong> (mở rộng kiến thức), <strong>find a healthy work-life balance</strong> (tìm kiếm sự cân bằng giữa công việc và cuộc sống)"
+      ],
+      "samples": [
+        {
+          "en": "I decided to join this club to share my passion for this field and meet like-minded people. I hope to enhance my creative skills effectively.",
+          "vi": "Tôi quyết định tham gia câu lạc bộ này để chia sẻ đam mê và gặp gỡ những người cùng chí hướng. Tôi hy vọng sẽ nâng cao kỹ năng sáng tạo hiệu quả."
+        },
+        {
+          "en": "I joined the club mainly to relax after a long day at work. My main goal is to find a healthy work-life balance through our activities.",
+          "vi": "Tôi tham gia CLB chủ yếu để thư giãn sau ngày dài làm việc. Mục tiêu chính là tìm sự cân bằng giữa công việc và cuộc sống thông qua các hoạt động."
+        },
+        {
+          "en": "Being part of this club allows me to expand my knowledge significantly. I hope to learn from experienced members and improve my skills.",
+          "vi": "Tham gia CLB cho phép tôi mở rộng kiến thức đáng kể. Tôi hy vọng học hỏi từ các thành viên giàu kinh nghiệm và cải thiện kỹ năng."
+        }
+      ]
+    },
+    "q2": {
+      "member": "Member B",
+      "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vocab": [
+        "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
+        "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "samples": [
+        {
+          "en": "I completely disagree with that idea. Joining club activities is a worthwhile investment because it helps me relieve stress and enrich my life experiences.",
+          "vi": "Tôi hoàn toàn không đồng ý. Tham gia hoạt động CLB là khoản đầu tư xứng đáng vì nó giúp tôi giảm căng thẳng và làm phong phú trải nghiệm sống."
+        },
+        {
+          "en": "That is a common misconception. In fact, these activities bring long-term benefits, such as improving my overall well-being and expanding my social network.",
+          "vi": "Đó là một quan niệm sai lầm phổ biến. Thực tế, các hoạt động này mang lại lợi ích lâu dài, như cải thiện sức khỏe tổng thể và mở rộng mối quan hệ xã hội."
+        },
+        {
+          "en": "I partly agree if the club is expensive. However, most activities are affordable and provide a great chance to develop myself and learn new skills.",
+          "vi": "Tôi đồng ý một phần nếu CLB quá đắt đỏ. Tuy nhiên, hầu hết hoạt động đều phải chăng và mang lại cơ hội tuyệt vời để phát triển bản thân và học kỹ năng mới."
+        }
+      ]
+    },
+    "q3": {
+      "member": "Member C",
+      "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vocab": [
+        "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
+        "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "samples": [
+        {
+          "en": "I highly recommend that we host a free workshop for beginners. This will definitely attract potential members and create a welcoming environment for everyone.",
+          "vi": "Tôi chân thành đề xuất chúng ta nên tổ chức hội thảo miễn phí cho người mới. Điều này chắc chắn sẽ thu hút thành viên tiềm năng và tạo môi trường thân thiện."
+        },
+        {
+          "en": "Why don't we organize an outdoor festival next month? It is an excellent way to raise public awareness about our club and engage the community.",
+          "vi": "Tại sao chúng ta không tổ chức lễ hội ngoài trời vào tháng tới? Đây là cách tuyệt vời để nâng cao nhận thức cộng đồng về CLB và gắn kết mọi người."
+        },
+        {
+          "en": "I think running a charity campaign would be a fantastic idea. It not only helps people in need but also builds a positive image for our club.",
+          "vi": "Tôi nghĩ thực hiện một chiến dịch từ thiện sẽ là ý tưởng tuyệt vời. Nó không chỉ giúp người khó khăn mà còn xây dựng hình ảnh tích cực cho CLB."
+        }
+      ]
+    }
+  },
+  "Reading club": {
+    "q1": {
+      "member": "Member A",
+      "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vocab": [
+        "✨ [lý do tham gia]: <strong>share my passion for this field</strong> (chia sẻ đam mê trong lĩnh vực này), <strong>meet like-minded people</strong> (gặp gỡ những người cùng chí hướng), <strong>relax after a long day</strong> (thư giãn sau một ngày dài)",
+        "✨ [mục tiêu]: <strong>enhance my creative skills</strong> (nâng cao kỹ năng sáng tạo), <strong>expand my knowledge</strong> (mở rộng kiến thức), <strong>find a healthy work-life balance</strong> (tìm kiếm sự cân bằng giữa công việc và cuộc sống)"
+      ],
+      "samples": [
+        {
+          "en": "I decided to join this club to share my passion for this field and meet like-minded people. I hope to enhance my creative skills effectively.",
+          "vi": "Tôi quyết định tham gia câu lạc bộ này để chia sẻ đam mê và gặp gỡ những người cùng chí hướng. Tôi hy vọng sẽ nâng cao kỹ năng sáng tạo hiệu quả."
+        },
+        {
+          "en": "I joined the club mainly to relax after a long day at work. My main goal is to find a healthy work-life balance through our activities.",
+          "vi": "Tôi tham gia CLB chủ yếu để thư giãn sau ngày dài làm việc. Mục tiêu chính là tìm sự cân bằng giữa công việc và cuộc sống thông qua các hoạt động."
+        },
+        {
+          "en": "Being part of this club allows me to expand my knowledge significantly. I hope to learn from experienced members and improve my skills.",
+          "vi": "Tham gia CLB cho phép tôi mở rộng kiến thức đáng kể. Tôi hy vọng học hỏi từ các thành viên giàu kinh nghiệm và cải thiện kỹ năng."
+        }
+      ]
+    },
+    "q2": {
+      "member": "Member B",
+      "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vocab": [
+        "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
+        "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "samples": [
+        {
+          "en": "I completely disagree with that idea. Joining club activities is a worthwhile investment because it helps me relieve stress and enrich my life experiences.",
+          "vi": "Tôi hoàn toàn không đồng ý. Tham gia hoạt động CLB là khoản đầu tư xứng đáng vì nó giúp tôi giảm căng thẳng và làm phong phú trải nghiệm sống."
+        },
+        {
+          "en": "That is a common misconception. In fact, these activities bring long-term benefits, such as improving my overall well-being and expanding my social network.",
+          "vi": "Đó là một quan niệm sai lầm phổ biến. Thực tế, các hoạt động này mang lại lợi ích lâu dài, như cải thiện sức khỏe tổng thể và mở rộng mối quan hệ xã hội."
+        },
+        {
+          "en": "I partly agree if the club is expensive. However, most activities are affordable and provide a great chance to develop myself and learn new skills.",
+          "vi": "Tôi đồng ý một phần nếu CLB quá đắt đỏ. Tuy nhiên, hầu hết hoạt động đều phải chăng và mang lại cơ hội tuyệt vời để phát triển bản thân và học kỹ năng mới."
+        }
+      ]
+    },
+    "q3": {
+      "member": "Member C",
+      "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vocab": [
+        "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
+        "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "samples": [
+        {
+          "en": "I highly recommend that we host a free workshop for beginners. This will definitely attract potential members and create a welcoming environment for everyone.",
+          "vi": "Tôi chân thành đề xuất chúng ta nên tổ chức hội thảo miễn phí cho người mới. Điều này chắc chắn sẽ thu hút thành viên tiềm năng và tạo môi trường thân thiện."
+        },
+        {
+          "en": "Why don't we organize an outdoor festival next month? It is an excellent way to raise public awareness about our club and engage the community.",
+          "vi": "Tại sao chúng ta không tổ chức lễ hội ngoài trời vào tháng tới? Đây là cách tuyệt vời để nâng cao nhận thức cộng đồng về CLB và gắn kết mọi người."
+        },
+        {
+          "en": "I think running a charity campaign would be a fantastic idea. It not only helps people in need but also builds a positive image for our club.",
+          "vi": "Tôi nghĩ thực hiện một chiến dịch từ thiện sẽ là ý tưởng tuyệt vời. Nó không chỉ giúp người khó khăn mà còn xây dựng hình ảnh tích cực cho CLB."
+        }
+      ]
+    }
+  },
+  "Fitness club": {
+    "q1": {
+      "member": "Member A",
+      "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vocab": [
+        "✨ [lý do tham gia]: <strong>stay in good shape</strong> (giữ dáng), <strong>relieve daily stress</strong> (giảm căng thẳng hàng ngày), <strong>adopt a healthier lifestyle</strong> (áp dụng lối sống lành mạnh hơn)",
+        "✨ [mục tiêu]: <strong>strengthen my physical endurance</strong> (tăng cường sức bền thể chất), <strong>boost my emotional well-being</strong> (nâng cao sức khỏe tinh thần), <strong>burn calories effectively</strong> (đốt cháy calo hiệu quả)"
+      ],
+      "samples": [
+        {
+          "en": "I decided to join this club to stay in good shape and relieve daily stress. I hope to strengthen my physical endurance effectively.",
+          "vi": "Tôi tham gia CLB để giữ dáng và giảm căng thẳng. Tôi hy vọng sẽ tăng cường sức bền thể chất một cách hiệu quả."
+        },
+        {
+          "en": "I joined because I want to adopt a healthier lifestyle. My main goal is to boost my emotional well-being and meet active people.",
+          "vi": "Tôi tham gia vì muốn áp dụng lối sống lành mạnh hơn. Mục tiêu chính là nâng cao sức khỏe tinh thần và gặp gỡ những người năng động."
+        },
+        {
+          "en": "Being a member helps me burn calories effectively after working hours. I hope to maintain my physical health and regain my energy.",
+          "vi": "Là một thành viên giúp tôi đốt cháy calo hiệu quả sau giờ làm. Tôi hy vọng duy trì sức khỏe thể chất và nạp lại năng lượng."
+        }
+      ]
+    },
+    "q2": {
+      "member": "Member B",
+      "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vocab": [
+        "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
+        "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "samples": [
+        {
+          "en": "I completely disagree with that idea. Joining club activities is a worthwhile investment because it helps me relieve stress and enrich my life experiences.",
+          "vi": "Tôi hoàn toàn không đồng ý. Tham gia hoạt động CLB là khoản đầu tư xứng đáng vì nó giúp tôi giảm căng thẳng và làm phong phú trải nghiệm sống."
+        },
+        {
+          "en": "That is a common misconception. In fact, these activities bring long-term benefits, such as improving my overall well-being and expanding my social network.",
+          "vi": "Đó là một quan niệm sai lầm phổ biến. Thực tế, các hoạt động này mang lại lợi ích lâu dài, như cải thiện sức khỏe tổng thể và mở rộng mối quan hệ xã hội."
+        },
+        {
+          "en": "I partly agree if the club is expensive. However, most activities are affordable and provide a great chance to develop myself and learn new skills.",
+          "vi": "Tôi đồng ý một phần nếu CLB quá đắt đỏ. Tuy nhiên, hầu hết hoạt động đều phải chăng và mang lại cơ hội tuyệt vời để phát triển bản thân và học kỹ năng mới."
+        }
+      ]
+    },
+    "q3": {
+      "member": "Member C",
+      "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vocab": [
+        "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
+        "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "samples": [
+        {
+          "en": "I highly recommend that we host a free workshop for beginners. This will definitely attract potential members and create a welcoming environment for everyone.",
+          "vi": "Tôi chân thành đề xuất chúng ta nên tổ chức hội thảo miễn phí cho người mới. Điều này chắc chắn sẽ thu hút thành viên tiềm năng và tạo môi trường thân thiện."
+        },
+        {
+          "en": "Why don't we organize an outdoor festival next month? It is an excellent way to raise public awareness about our club and engage the community.",
+          "vi": "Tại sao chúng ta không tổ chức lễ hội ngoài trời vào tháng tới? Đây là cách tuyệt vời để nâng cao nhận thức cộng đồng về CLB và gắn kết mọi người."
+        },
+        {
+          "en": "I think running a charity campaign would be a fantastic idea. It not only helps people in need but also builds a positive image for our club.",
+          "vi": "Tôi nghĩ thực hiện một chiến dịch từ thiện sẽ là ý tưởng tuyệt vời. Nó không chỉ giúp người khó khăn mà còn xây dựng hình ảnh tích cực cho CLB."
+        }
+      ]
+    }
+  },
+  "Science club": {
+    "q1": {
+      "member": "Member A",
+      "question": "Hi! Welcome to the club. I've been a member for a few months. Why did you decide to join this club and what do you hope to achieve here?",
+      "vocab": [
+        "✨ [lý do tham gia]: <strong>boost my career prospects</strong> (nâng cao triển vọng nghề nghiệp), <strong>expand my professional network</strong> (mở rộng mạng lưới chuyên môn), <strong>stay updated with new trends</strong> (cập nhật các xu hướng mới)",
+        "✨ [mục tiêu]: <strong>improve my practical skills</strong> (cải thiện kỹ năng thực tế), <strong>gain valuable experience</strong> (thu được kinh nghiệm quý báu), <strong>exchange innovative ideas</strong> (trao đổi những ý tưởng đổi mới)"
+      ],
+      "samples": [
+        {
+          "en": "I joined this club to boost my career prospects and expand my professional network. I hope to improve my practical skills for my future jobs.",
+          "vi": "Tôi tham gia CLB để nâng cao triển vọng nghề nghiệp và mở rộng mạng lưới. Tôi hy vọng cải thiện kỹ năng thực tế cho công việc tương lai."
+        },
+        {
+          "en": "My main reason for joining is to stay updated with new trends in this field. I aim to exchange innovative ideas with other members.",
+          "vi": "Lý do chính của tôi là để cập nhật các xu hướng mới trong lĩnh vực này. Tôi hướng đến việc trao đổi ý tưởng đổi mới với các thành viên khác."
+        },
+        {
+          "en": "I decided to become a member to gain valuable experience from experts. I hope to apply this knowledge to solve real-world problems effectively.",
+          "vi": "Tôi quyết định trở thành thành viên để thu được kinh nghiệm từ các chuyên gia. Tôi hy vọng áp dụng kiến thức này để giải quyết vấn đề thực tế hiệu quả."
+        }
+      ]
+    },
+    "q2": {
+      "member": "Member B",
+      "question": "Hello! Some people think that spending time on club activities is a waste of time and money. What is your opinion on this?",
+      "vocab": [
+        "✨ [quan điểm]: <strong>I completely disagree</strong> (Tôi hoàn toàn không đồng ý), <strong>I partly agree, but...</strong> (Tôi đồng ý một phần, nhưng...), <strong>That is a misconception</strong> (Đó là một quan niệm sai lầm)",
+        "✨ [lợi ích đối lập]: <strong>a worthwhile investment</strong> (một khoản đầu tư xứng đáng), <strong>bring long-term benefits</strong> (mang lại lợi ích lâu dài), <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể), <strong>enrich my life experiences</strong> (làm phong phú trải nghiệm sống)"
+      ],
+      "samples": [
+        {
+          "en": "I completely disagree with that idea. Joining club activities is a worthwhile investment because it helps me relieve stress and enrich my life experiences.",
+          "vi": "Tôi hoàn toàn không đồng ý. Tham gia hoạt động CLB là khoản đầu tư xứng đáng vì nó giúp tôi giảm căng thẳng và làm phong phú trải nghiệm sống."
+        },
+        {
+          "en": "That is a common misconception. In fact, these activities bring long-term benefits, such as improving my overall well-being and expanding my social network.",
+          "vi": "Đó là một quan niệm sai lầm phổ biến. Thực tế, các hoạt động này mang lại lợi ích lâu dài, như cải thiện sức khỏe tổng thể và mở rộng mối quan hệ xã hội."
+        },
+        {
+          "en": "I partly agree if the club is expensive. However, most activities are affordable and provide a great chance to develop myself and learn new skills.",
+          "vi": "Tôi đồng ý một phần nếu CLB quá đắt đỏ. Tuy nhiên, hầu hết hoạt động đều phải chăng và mang lại cơ hội tuyệt vời để phát triển bản thân và học kỹ năng mới."
+        }
+      ]
+    },
+    "q3": {
+      "member": "Member C",
+      "question": "Hi there! Our club is planning to organize a special event next month to attract more people in our local community. Do you have any suggestions for what we should do?",
+      "vocab": [
+        "✨ [gợi ý sự kiện]: <strong>host a free workshop</strong> (tổ chức một buổi hội thảo miễn phí), <strong>organize an outdoor festival</strong> (tổ chức một lễ hội ngoài trời), <strong>run a charity campaign</strong> (thực hiện một chiến dịch từ thiện), <strong>set up an exhibition</strong> (tổ chức một buổi triển lãm)",
+        "✨ [mục đích]: <strong>raise public awareness</strong> (nâng cao nhận thức cộng đồng), <strong>attract potential members</strong> (thu hút thành viên tiềm năng), <strong>create a welcoming environment</strong> (tạo ra một môi trường thân thiện)"
+      ],
+      "samples": [
+        {
+          "en": "I highly recommend that we host a free workshop for beginners. This will definitely attract potential members and create a welcoming environment for everyone.",
+          "vi": "Tôi chân thành đề xuất chúng ta nên tổ chức hội thảo miễn phí cho người mới. Điều này chắc chắn sẽ thu hút thành viên tiềm năng và tạo môi trường thân thiện."
+        },
+        {
+          "en": "Why don't we organize an outdoor festival next month? It is an excellent way to raise public awareness about our club and engage the community.",
+          "vi": "Tại sao chúng ta không tổ chức lễ hội ngoài trời vào tháng tới? Đây là cách tuyệt vời để nâng cao nhận thức cộng đồng về CLB và gắn kết mọi người."
+        },
+        {
+          "en": "I think running a charity campaign would be a fantastic idea. It not only helps people in need but also builds a positive image for our club.",
+          "vi": "Tôi nghĩ thực hiện một chiến dịch từ thiện sẽ là ý tưởng tuyệt vời. Nó không chỉ giúp người khó khăn mà còn xây dựng hình ảnh tích cực cho CLB."
+        }
+      ]
+    }
+  }
+};
