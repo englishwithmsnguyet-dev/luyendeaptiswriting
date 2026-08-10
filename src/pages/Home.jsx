@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { ArrowRight, Info, CheckCircle2, Trash2 } from 'lucide-react';
+import { ArrowRight, Info, CheckCircle2, Trash2, Download } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
+import { exportToWord } from '../utils/exportToWord';
 
 const Home = () => {
   const navigate = useNavigate();
@@ -55,13 +56,22 @@ const Home = () => {
             <CheckCircle2 size={24} color="#10B981" />
             <span>Tiến độ học tập</span>
           </h2>
-          <button 
-            className="btn btn-secondary" 
-            onClick={handleClearProgress}
-            style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', padding: '0.4rem 0.8rem', fontSize: '0.85rem' }}
-          >
-            <Trash2 size={16} /> Xóa tiến độ
-          </button>
+          <div style={{ display: 'flex', gap: '0.5rem' }}>
+            <button 
+              className="btn btn-primary" 
+              onClick={exportToWord}
+              style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', padding: '0.4rem 0.8rem', fontSize: '0.85rem' }}
+            >
+              <Download size={16} /> Tải bài làm (Word)
+            </button>
+            <button 
+              className="btn btn-secondary" 
+              onClick={handleClearProgress}
+              style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', padding: '0.4rem 0.8rem', fontSize: '0.85rem' }}
+            >
+              <Trash2 size={16} /> Xóa tiến độ
+            </button>
+          </div>
         </div>
         
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '1rem' }}>
