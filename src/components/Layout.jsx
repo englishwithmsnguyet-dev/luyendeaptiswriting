@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { Outlet } from 'react-router-dom';
 import Sidebar from './Sidebar';
-import { Clock, User } from 'lucide-react';
+import { User } from 'lucide-react';
 import LoginModal, { submitToGoogleForm } from './LoginModal';
+import TimerBadge from './TimerBadge';
 
 const Layout = () => {
   const [studentName, setStudentName] = useState(localStorage.getItem('aptis_student_name'));
@@ -52,10 +53,7 @@ const Layout = () => {
                   </button>
                 </div>
               )}
-              <div className="timer-badge">
-                <Clock size={18} />
-                <span>50:00</span>
-              </div>
+              <TimerBadge />
             </div>
           </header>
           
