@@ -32,12 +32,12 @@ const LoginModal = ({ onLogin }) => {
       <div style={{ background: 'white', padding: '2.5rem', borderRadius: '12px', maxWidth: '450px', width: '90%', boxShadow: '0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)' }}>
         <h2 style={{ marginBottom: '1rem', color: 'var(--primary)', textAlign: 'center', fontSize: '1.5rem' }}>Đăng nhập / Điểm danh</h2>
         <p style={{ marginBottom: '1.5rem', color: 'var(--text-muted)', textAlign: 'center', lineHeight: '1.5' }}>
-          Vui lòng nhập <strong>Họ tên và Lớp</strong> của bạn để hệ thống ghi nhận sự tham gia của bạn trong buổi học hôm nay.
+          Vui lòng nhập <strong>Họ tên</strong> của bạn để hệ thống ghi nhận sự tham gia của bạn trong buổi học hôm nay.
         </p>
         <form onSubmit={handleSubmit}>
           <input 
             type="text" 
-            placeholder="Ví dụ: Nguyễn Văn A - Lớp 10A1" 
+            placeholder="Ví dụ: Nguyễn Văn A" 
             value={name} 
             onChange={(e) => setName(e.target.value)}
             style={{ 
