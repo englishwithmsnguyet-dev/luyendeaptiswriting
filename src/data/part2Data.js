@@ -134,7 +134,7 @@ export const part2Data = {
     ],
     "vocabulary": [
       "✨ [sở thích]: <strong>gardening</strong> (làm vườn), <strong>exploring nature</strong> (khám phá thiên nhiên), <strong>doing outdoor activities</strong> (tham gia hoạt động ngoài trời), <strong>growing organic vegetables</strong> (trồng rau sạch), <strong>planting colorful flowers</strong> (trồng hoa rực rỡ), <strong>designing my own garden</strong> (thiết kế khu vườn của riêng mình)",
-      "✨ [lợi ích - Vo]: <strong>reduce stress</strong> (giảm căng thẳng), <strong>find peace of mind</strong> (tìm sự bình yên trong tâm trí), <strong>protect the environment</strong> (bảo vệ môi trường), <strong>provide healthy food for my family</strong> (cung cấp thực phẩm sạch cho gia đình), <strong>connect with nature</strong> (hòa mình vào thiên nhiên), <strong>escape from city noise</strong> (thoát khỏi tiếng ồn đô thị), <strong>improve my physical health</strong> (cải thiện sức khỏe thể chất)"
+      "✨ [lợi ích - Vo]: <strong>reduce stress</strong> (giảm căng thẳng), <strong>find peace of mind</strong> (tìm sự bình yên trong tâm trí), <strong>protect the environment</strong> (bảo vệ môi trường), <strong>provide healthy food for my family</strong> (cung cấp thực phẩm sạch cho gia đình), <strong>connect with nature</strong> (hòa mình vào thiên nhiên), <strong>escape from city noise</strong> (thoát khỏi tiếng ồn đô thị), <strong>improve my physical health</strong> (cải thiện sức khỏe thể chất), <strong>immerse myself in nature</strong> (đắm mình vào thiên nhiên)"
     ]
   },
   "Sports club": {
