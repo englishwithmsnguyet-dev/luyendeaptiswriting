@@ -1114,5 +1114,33 @@ export const part2Data = {
       "✨ [sở thích]: <strong>doing experiments</strong> (làm thí nghiệm), <strong>learning about the universe</strong> (tìm hiểu về vũ trụ), <strong>staying updated with technology</strong> (cập nhật công nghệ mới), <strong>reading scientific journals</strong> (đọc tạp chí khoa học), <strong>attending science workshops</strong> (tham gia hội thảo khoa học), <strong>building robots</strong> (chế tạo robot)",
       "✨ [lợi ích - Vo]: <strong>widen my knowledge</strong> (mở rộng kiến thức), <strong>develop my logical thinking</strong> (phát triển tư duy logic), <strong>discover new things</strong> (khám phá điều mới), <strong>satisfy my curiosity</strong> (thỏa mãn sự tò mò), <strong>apply theories into practice</strong> (áp dụng lý thuyết vào thực tế), <strong>solve complex problems</strong> (giải quyết các vấn đề phức tạp)"
     ]
+  },
+  "Film club 2": {
+    "text": "Tell me about the last time you watched a good movie.",
+    "samples": [
+      {
+        "en": "The last time I watched an action movie was about two weeks ago. It was a very thrilling experience because I could relax after a long day.",
+        "vi": "Lần cuối cùng tôi xem một bộ phim hành động là khoảng hai tuần trước. Đó là một trải nghiệm rất kịch tính vì tôi có thể thư giãn sau một ngày dài."
+      },
+      {
+        "en": "It was a memorable day when I watched a romantic comedy last weekend. It was extremely entertaining and helped me laugh a lot.",
+        "vi": "Đó là một ngày đáng nhớ khi tôi xem một bộ phim hài lãng mạn vào cuối tuần trước. Nó cực kỳ mang tính giải trí và giúp tôi cười rất nhiều."
+      },
+      {
+        "en": "A few days ago, I watched a documentary. It turned out to be a thought-provoking day that allowed me to broaden my horizons.",
+        "vi": "Vài ngày trước, tôi đã xem một bộ phim tài liệu. Hóa ra đó là một ngày gợi nhiều suy nghĩ cho phép tôi mở mang tầm mắt."
+      }
+    ],
+    "vi": "Bản dịch gợi ý: Tell me about the last time you watched a good movie.",
+    "templates": [
+      "The last time I watched [thể loại phim] was about two weeks ago. It was a very [tính từ] experience because I could [lợi ích - Vo].",
+      "It was a memorable day when I watched [thể loại phim] last weekend. It was extremely [tính từ] and helped me [lợi ích - Vo].",
+      "A few days ago, I watched [thể loại phim]. It turned out to be a [tính từ] day that allowed me to [lợi ích - Vo]."
+    ],
+    "vocabulary": [
+      "✨ [thể loại phim]: <strong>an action movie</strong> (một bộ phim hành động), <strong>a romantic comedy</strong> (một bộ phim hài lãng mạn), <strong>a sci-fi movie</strong> (một bộ phim khoa học viễn tưởng), <strong>a documentary</strong> (một bộ phim tài liệu), <strong>a horror movie</strong> (một bộ phim kinh dị), <strong>an animated movie</strong> (một bộ phim hoạt hình)",
+      "✨ [tính từ]: <strong>inspiring</strong> (truyền cảm hứng), <strong>thought-provoking</strong> (gợi suy nghĩ), <strong>fascinating</strong> (hấp dẫn), <strong>entertaining</strong> (mang tính giải trí), <strong>hilarious</strong> (vui nhộn), <strong>thrilling</strong> (kịch tính)",
+      "✨ [lợi ích - Vo]: <strong>relax after a long day</strong> (thư giãn sau một ngày dài), <strong>forget my daily stress</strong> (quên đi căng thẳng hằng ngày), <strong>laugh a lot</strong> (cười rất nhiều), <strong>broaden my horizons</strong> (mở mang tầm mắt), <strong>learn meaningful life lessons</strong> (học những bài học ý nghĩa), <strong>find peace of mind</strong> (tìm sự bình yên)"
+    ]
   }
 };
