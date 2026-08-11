@@ -1009,26 +1009,26 @@ export const part2Data = {
     "text": "Please write some of your favorite films and why you like watching them.",
     "samples": [
       {
-        "en": "I am really keen on Marvel superhero movies because they are very thrilling. Enjoying them helps me escape from daily stress and relax after a long day.",
-        "vi": "Tôi rất thích các bộ phim siêu anh hùng Marvel vì chúng rất kịch tính. Thưởng thức chúng giúp tôi thoát khỏi căng thẳng hàng ngày và thư giãn sau một ngày dài."
+        "en": "I am really keen on action films like Fast and Furious because they are very thrilling. Enjoying them helps me escape from daily stress and relax after a long day.",
+        "vi": "Tôi rất thích các bộ phim hành động như Fast and Furious vì chúng rất kịch tính. Thưởng thức chúng giúp tôi thoát khỏi căng thẳng hàng ngày và thư giãn sau một ngày dài."
       },
       {
-        "en": "My favorite is Disney animated movies. They are incredibly hilarious and allow me to find peace of mind easily after work.",
-        "vi": "Yêu thích nhất của tôi là các bộ phim hoạt hình Disney. Chúng vô cùng hài hước và cho phép tôi tìm thấy sự bình yên trong tâm trí dễ dàng sau giờ làm."
+        "en": "My favorite is animated movies like Kung Fu Panda. They are incredibly hilarious and allow me to find peace of mind easily after work.",
+        "vi": "Yêu thích nhất của tôi là phim hoạt hình như Kung Fu Panda. Chúng vô cùng hài hước và cho phép tôi tìm thấy sự bình yên trong tâm trí dễ dàng sau giờ làm."
       },
       {
-        "en": "I have always liked blockbusters like Avatar. They are quite captivating and give me a good chance to develop my imagination and widen my knowledge.",
-        "vi": "Tôi luôn thích những bộ phim bom tấn như Avatar. Chúng khá cuốn hút và cho tôi cơ hội tốt để phát triển trí tưởng tượng và mở rộng kiến thức."
+        "en": "I have always liked sci-fi films like Avatar. They are quite captivating and give me a good chance to develop my imagination and widen my knowledge.",
+        "vi": "Tôi luôn thích những bộ phim khoa học viễn tưởng như Avatar. Chúng khá cuốn hút và cho tôi cơ hội tốt để phát triển trí tưởng tượng và mở rộng kiến thức."
       }
     ],
     "vi": "Bản dịch gợi ý: Please write some of your favorite films and why you like watching them.",
     "templates": [
-      "I am really keen on [tên phim] because they are very [tính từ]. Enjoying them helps me [lợi ích - Vo].",
-      "My favorite is [tên phim]. They are incredibly [tính từ] and allow me to [lợi ích - Vo].",
-      "I have always liked [tên phim]. They are quite [tính từ] and give me a good chance to [lợi ích - Vo]."
+      "I am really keen on [thể loại & tên phim] because they are very [tính từ]. Enjoying them helps me [lợi ích - Vo].",
+      "My favorite is [thể loại & tên phim]. They are incredibly [tính từ] and allow me to [lợi ích - Vo].",
+      "I have always liked [thể loại & tên phim]. They are quite [tính từ] and give me a good chance to [lợi ích - Vo]."
     ],
     "vocabulary": [
-      "✨ [tên phim]: <strong>Harry Potter films</strong> (loạt phim Harry Potter), <strong>Marvel superhero movies</strong> (các bộ phim siêu anh hùng Marvel), <strong>blockbusters like Avatar</strong> (những bộ phim bom tấn như Avatar), <strong>classic films like Titanic</strong> (những bộ phim kinh điển như Titanic), <strong>Disney animated movies</strong> (các bộ phim hoạt hình Disney), <strong>action films like Fast and Furious</strong> (các bộ phim hành động như Fast and Furious)",
+      "✨ [thể loại & tên phim]: <strong>action films like Fast and Furious</strong> (phim hành động như Fast and Furious), <strong>sci-fi films like Avatar</strong> (phim khoa học viễn tưởng như Avatar), <strong>romantic comedies like Titanic</strong> (phim hài lãng mạn như Titanic), <strong>animated movies like Kung Fu Panda</strong> (phim hoạt hình như Kung Fu Panda), <strong>classic films like Harry Potter</strong> (phim kinh điển như Harry Potter), <strong>superhero movies like The Avengers</strong> (phim siêu anh hùng như The Avengers)",
       "✨ [tính từ]: <strong>captivating</strong> (cuốn hút), <strong>thrilling</strong> (kịch tính), <strong>hilarious</strong> (hài hước), <strong>eye-opening</strong> (mở mang tầm mắt), <strong>heartwarming</strong> (cảm động), <strong>mind-bending</strong> (hại não)",
       "✨ [lợi ích - Vo]: <strong>escape from daily stress</strong> (thoát khỏi căng thẳng hàng ngày), <strong>widen my knowledge</strong> (mở rộng kiến thức), <strong>develop my imagination</strong> (phát triển trí tưởng tượng), <strong>appreciate cinematic art</strong> (thưởng thức nghệ thuật điện ảnh), <strong>improve my critical thinking</strong> (cải thiện tư duy phản biện), <strong>discuss meaningful messages</strong> (thảo luận những thông điệp ý nghĩa)"
     ]
