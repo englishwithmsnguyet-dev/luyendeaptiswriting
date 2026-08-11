@@ -8,7 +8,7 @@ export const part2Data = {
         "vi": "Tôi rất thích tác phẩm Đêm Đầy Sao vì nó rất cuốn hút. Thưởng thức nó giúp tôi nâng cao sự sáng tạo và thư giãn sau một ngày dài."
       },
       {
-        "en": "My favorite is a picture of my hometown, which has a deep meaning. It is incredibly inspiring and allows me to find peace of mind easily.",
+        "en": "My favorite is a picture of my hometown, which has a deep meaning. It is extremely inspiring and allows me to find peace of mind easily.",
         "vi": "Yêu thích nhất của tôi là bức ảnh quê hương, nó mang một ý nghĩa sâu sắc. Nó cực kỳ truyền cảm hứng và cho phép tôi tìm sự bình yên trong tâm trí dễ dàng."
       },
       {
@@ -18,7 +18,7 @@ export const part2Data = {
     ],
     "templates": [
       "I am really keen on [tác phẩm / phong cách] because it is very [tính từ]. Enjoying it helps me [lợi ích - Vo] and relax after a long day.",
-      "My favorite is [tác phẩm / phong cách], which has a deep meaning. It is incredibly [tính từ] and allows me to [lợi ích - Vo] easily.",
+      "My favorite is [tác phẩm / phong cách], which has a deep meaning. It is extremely [tính từ] and allows me to [lợi ích - Vo] easily.",
       "I have always liked [tác phẩm / phong cách]. It is quite [tính từ] and gives me a good chance to [lợi ích - Vo]."
     ],
     "vocabulary": [
@@ -256,7 +256,7 @@ export const part2Data = {
         "vi": "Tôi thường đi mua sắm ở cửa hàng thời trang vì nó rất hợp thời trang. Nó giúp tôi giữ phong cách và tăng tự tin."
       },
       {
-        "en": "I tend to go shopping at supermarkets at the weekend. It is incredibly well-organized and allows me to buy essential items easily.",
+        "en": "I tend to go shopping at supermarkets at the weekend. It is extremely well-organized and allows me to buy essential items easily.",
         "vi": "Tôi có xu hướng đi mua sắm ở siêu thị vào cuối tuần. Nó vô cùng ngăn nắp và cho phép tôi mua vật dụng thiết yếu dễ dàng."
       },
       {
@@ -267,7 +267,7 @@ export const part2Data = {
     "vi": "Bản dịch gợi ý: Where do you usually go shopping?",
     "templates": [
       "I usually go shopping at [địa điểm] because it is very [tính từ]. It helps me [lợi ích - Vo].",
-      "I tend to go shopping at [địa điểm] at the weekend. It is incredibly [tính từ] and allows me to [lợi ích - Vo] easily.",
+      "I tend to go shopping at [địa điểm] at the weekend. It is extremely [tính từ] and allows me to [lợi ích - Vo] easily.",
       "I have always liked buying things from [địa điểm]. It is quite [tính từ] and gives me a good chance to [lợi ích - Vo]."
     ],
     "vocabulary": [
@@ -368,7 +368,7 @@ export const part2Data = {
         "vi": "Tôi rất thích hoạt động này vì nó rất yên bình. Thưởng thức hoạt động này giúp tôi thoát khỏi căng thẳng hàng ngày và cảm thấy tốt hơn."
       },
       {
-        "en": "My favorite is hiking in the mountains, which has a refreshing vibe. It is incredibly active and allows me to stay in good shape easily.",
+        "en": "My favorite is hiking in the mountains, which has a refreshing vibe. It is extremely active and allows me to stay in good shape easily.",
         "vi": "Yêu thích nhất của tôi là hoạt động này, mang lại cảm giác sảng khoái. Nó vô cùng năng động và cho phép tôi giữ dáng dễ dàng."
       },
       {
@@ -379,7 +379,7 @@ export const part2Data = {
     "vi": "Bản dịch gợi ý: Tell me your free time and interests.",
     "templates": [
       "I am really keen on [hoạt động] because it is very [tính từ]. Enjoying it helps me [lợi ích - Vo].",
-      "My favorite is [hoạt động]. It is incredibly [tính từ] and allows me to [lợi ích - Vo].",
+      "My favorite is [hoạt động]. It is extremely [tính từ] and allows me to [lợi ích - Vo].",
       "I have always liked [hoạt động]. It is quite [tính từ] and gives me a good chance to [lợi ích - Vo]."
     ],
     "vocabulary": [
@@ -452,7 +452,7 @@ export const part2Data = {
         "vi": "Tôi thường sử dụng tiếng Anh khi du lịch nước ngoài. Điều đó rất thiết yếu và giúp tôi dễ dàng hiểu các văn hóa khác."
       },
       {
-        "en": "I tend to use foreign languages when communicating with foreigners. It is incredibly helpful and allows me to build my confidence.",
+        "en": "I tend to use foreign languages when communicating with foreigners. It is extremely helpful and allows me to build my confidence.",
         "vi": "Tôi có xu hướng sử dụng ngoại ngữ khi giao tiếp với người nước ngoài. Nó vô cùng hữu ích và cho phép tôi xây dựng sự tự tin."
       },
       {
@@ -463,7 +463,7 @@ export const part2Data = {
     "vi": "Bản dịch gợi ý: In which cases do you often use foreign languages?",
     "templates": [
       "I often use English [tình huống]. It is very [tính từ] and helps me [lợi ích - Vo] easily.",
-      "I tend to use foreign languages [tình huống]. It is incredibly [tính từ] and allows me to [lợi ích - Vo].",
+      "I tend to use foreign languages [tình huống]. It is extremely [tính từ] and allows me to [lợi ích - Vo].",
       "I have always used English [tình huống]. It is quite [tính từ] and gives me a good chance to [lợi ích - Vo]."
     ],
     "vocabulary": [
@@ -564,7 +564,7 @@ export const part2Data = {
         "vi": "Lần cuối cùng tôi làm việc này là khoảng hai tuần trước. Đó là một trải nghiệm rất truyền cảm hứng vì tôi có cơ hội cải thiện bản thân."
       },
       {
-        "en": "It was a memorable day when I did this activity at the city center last weekend. It was incredibly fascinating and helped me a lot.",
+        "en": "It was a memorable day when I did this activity at the city center last weekend. It was extremely fascinating and helped me a lot.",
         "vi": "Đó là một ngày đáng nhớ khi tôi làm hoạt động này ở trung tâm thành phố vào cuối tuần trước. Nó vô cùng hấp dẫn và giúp tôi rất nhiều."
       },
       {
@@ -575,7 +575,7 @@ export const part2Data = {
     "vi": "Bản dịch gợi ý: Tell me about the last time you went for a walk.",
     "templates": [
       "The last time I [hoạt động - V2/ed] was about two weeks ago. It was a very [tính từ] experience because I had the chance to [lợi ích - Vo].",
-      "It was a memorable day when I [hoạt động - V2/ed] last weekend. It was incredibly [tính từ] and helped me [lợi ích - Vo].",
+      "It was a memorable day when I [hoạt động - V2/ed] last weekend. It was extremely [tính từ] and helped me [lợi ích - Vo].",
       "A few days ago, I [hoạt động - V2/ed]. It turned out to be an [tính từ] day that allowed me to [lợi ích - Vo]."
     ],
     "vocabulary": [
@@ -619,7 +619,7 @@ export const part2Data = {
         "vi": "Lần cuối cùng tôi làm việc này là khoảng hai tuần trước. Đó là một trải nghiệm rất truyền cảm hứng vì tôi có cơ hội cải thiện bản thân."
       },
       {
-        "en": "It was a memorable day when I did this activity at the city center last weekend. It was incredibly fascinating and helped me a lot.",
+        "en": "It was a memorable day when I did this activity at the city center last weekend. It was extremely fascinating and helped me a lot.",
         "vi": "Đó là một ngày đáng nhớ khi tôi làm hoạt động này ở trung tâm thành phố vào cuối tuần trước. Nó vô cùng hấp dẫn và giúp tôi rất nhiều."
       },
       {
@@ -630,7 +630,7 @@ export const part2Data = {
     "vi": "Bản dịch gợi ý: Tell me the last time you went to a museum.",
     "templates": [
       "The last time I [hoạt động - V2/ed] was about two weeks ago. It was a very [tính từ] experience because I had the chance to [lợi ích - Vo].",
-      "It was a memorable day when I [hoạt động - V2/ed] last weekend. It was incredibly [tính từ] and helped me [lợi ích - Vo].",
+      "It was a memorable day when I [hoạt động - V2/ed] last weekend. It was extremely [tính từ] and helped me [lợi ích - Vo].",
       "A few days ago, I [hoạt động - V2/ed]. It turned out to be an [tính từ] day that allowed me to [lợi ích - Vo]."
     ],
     "vocabulary": [
@@ -647,7 +647,7 @@ export const part2Data = {
         "vi": "Lần cuối cùng tôi làm việc này là khoảng hai tuần trước. Đó là một trải nghiệm rất truyền cảm hứng vì tôi có cơ hội cải thiện bản thân."
       },
       {
-        "en": "It was a memorable day when I did this activity at the city center last weekend. It was incredibly fascinating and helped me a lot.",
+        "en": "It was a memorable day when I did this activity at the city center last weekend. It was extremely fascinating and helped me a lot.",
         "vi": "Đó là một ngày đáng nhớ khi tôi làm hoạt động này ở trung tâm thành phố vào cuối tuần trước. Nó vô cùng hấp dẫn và giúp tôi rất nhiều."
       },
       {
@@ -658,7 +658,7 @@ export const part2Data = {
     "vi": "Bản dịch gợi ý: Tell me about the last time you wrote something.",
     "templates": [
       "The last time I [hoạt động - V2/ed] was about two weeks ago. It was a very [tính từ] experience because I had the chance to [lợi ích - Vo].",
-      "It was a memorable day when I [hoạt động - V2/ed] last weekend. It was incredibly [tính từ] and helped me [lợi ích - Vo].",
+      "It was a memorable day when I [hoạt động - V2/ed] last weekend. It was extremely [tính từ] and helped me [lợi ích - Vo].",
       "A few days ago, I [hoạt động - V2/ed]. It turned out to be an [tính từ] day that allowed me to [lợi ích - Vo]."
     ],
     "vocabulary": [
@@ -732,7 +732,7 @@ export const part2Data = {
         "vi": "Lần cuối cùng tôi làm việc này là khoảng hai tuần trước. Đó là một trải nghiệm rất truyền cảm hứng vì tôi có cơ hội cải thiện bản thân."
       },
       {
-        "en": "It was a memorable day when I did this activity at the city center last weekend. It was incredibly fascinating and helped me a lot.",
+        "en": "It was a memorable day when I did this activity at the city center last weekend. It was extremely fascinating and helped me a lot.",
         "vi": "Đó là một ngày đáng nhớ khi tôi làm hoạt động này ở trung tâm thành phố vào cuối tuần trước. Nó vô cùng hấp dẫn và giúp tôi rất nhiều."
       },
       {
@@ -743,7 +743,7 @@ export const part2Data = {
     "vi": "Bản dịch gợi ý: When was the last time you went shopping for clothes?",
     "templates": [
       "The last time I [hoạt động - V2/ed] was about two weeks ago. It was a very [tính từ] experience because I had the chance to [lợi ích - Vo].",
-      "It was a memorable day when I [hoạt động - V2/ed] last weekend. It was incredibly [tính từ] and helped me [lợi ích - Vo].",
+      "It was a memorable day when I [hoạt động - V2/ed] last weekend. It was extremely [tính từ] and helped me [lợi ích - Vo].",
       "A few days ago, I [hoạt động - V2/ed]. It turned out to be an [tính từ] day that allowed me to [lợi ích - Vo]."
     ],
     "vocabulary": [
@@ -789,7 +789,7 @@ export const part2Data = {
         "vi": "Tôi rất thích hoạt động này vì nó rất yên bình. Thưởng thức hoạt động này giúp tôi thoát khỏi căng thẳng hàng ngày và cảm thấy tốt hơn."
       },
       {
-        "en": "My favorite is hiking in the mountains, which has a refreshing vibe. It is incredibly active and allows me to stay in good shape easily.",
+        "en": "My favorite is hiking in the mountains, which has a refreshing vibe. It is extremely active and allows me to stay in good shape easily.",
         "vi": "Yêu thích nhất của tôi là hoạt động này, mang lại cảm giác sảng khoái. Nó vô cùng năng động và cho phép tôi giữ dáng dễ dàng."
       },
       {
@@ -800,7 +800,7 @@ export const part2Data = {
     "vi": "Bản dịch gợi ý: Please tell me about your free time and hobbies.",
     "templates": [
       "I am really keen on [hoạt động] because it is very [tính từ]. Enjoying it helps me [lợi ích - Vo].",
-      "My favorite is [hoạt động]. It is incredibly [tính từ] and allows me to [lợi ích - Vo].",
+      "My favorite is [hoạt động]. It is extremely [tính từ] and allows me to [lợi ích - Vo].",
       "I have always liked [hoạt động]. It is quite [tính từ] and gives me a good chance to [lợi ích - Vo]."
     ],
     "vocabulary": [
@@ -817,7 +817,7 @@ export const part2Data = {
         "vi": "Tôi thường sử dụng tiếng Anh khi du lịch nước ngoài. Điều đó rất thiết yếu và giúp tôi dễ dàng hiểu các văn hóa khác."
       },
       {
-        "en": "I tend to use foreign languages when communicating with foreigners. It is incredibly helpful and allows me to build my confidence.",
+        "en": "I tend to use foreign languages when communicating with foreigners. It is extremely helpful and allows me to build my confidence.",
         "vi": "Tôi có xu hướng sử dụng ngoại ngữ khi giao tiếp với người nước ngoài. Nó vô cùng hữu ích và cho phép tôi xây dựng sự tự tin."
       },
       {
@@ -828,7 +828,7 @@ export const part2Data = {
     "vi": "Bản dịch gợi ý: When do you usually have to come into contact with English?",
     "templates": [
       "I often use English [tình huống]. It is very [tính từ] and helps me [lợi ích - Vo] easily.",
-      "I tend to use foreign languages [tình huống]. It is incredibly [tính từ] and allows me to [lợi ích - Vo].",
+      "I tend to use foreign languages [tình huống]. It is extremely [tính từ] and allows me to [lợi ích - Vo].",
       "I have always used English [tình huống]. It is quite [tính từ] and gives me a good chance to [lợi ích - Vo]."
     ],
     "vocabulary": [
@@ -873,7 +873,7 @@ export const part2Data = {
         "vi": "Tôi rất thích hoạt động này vì nó rất yên bình. Thưởng thức hoạt động này giúp tôi thoát khỏi căng thẳng hàng ngày và cảm thấy tốt hơn."
       },
       {
-        "en": "My favorite is hiking in the mountains, which has a refreshing vibe. It is incredibly active and allows me to stay in good shape easily.",
+        "en": "My favorite is hiking in the mountains, which has a refreshing vibe. It is extremely active and allows me to stay in good shape easily.",
         "vi": "Yêu thích nhất của tôi là hoạt động này, mang lại cảm giác sảng khoái. Nó vô cùng năng động và cho phép tôi giữ dáng dễ dàng."
       },
       {
@@ -884,7 +884,7 @@ export const part2Data = {
     "vi": "Bản dịch gợi ý: Which outdoor activities do you like? Why?",
     "templates": [
       "I am really keen on [hoạt động] because it is very [tính từ]. Enjoying it helps me [lợi ích - Vo].",
-      "My favorite is [hoạt động]. It is incredibly [tính từ] and allows me to [lợi ích - Vo].",
+      "My favorite is [hoạt động]. It is extremely [tính từ] and allows me to [lợi ích - Vo].",
       "I have always liked [hoạt động]. It is quite [tính từ] and gives me a good chance to [lợi ích - Vo]."
     ],
     "vocabulary": [
@@ -901,7 +901,7 @@ export const part2Data = {
         "vi": "Tôi thường sử dụng tiếng Anh khi du lịch nước ngoài. Điều đó rất thiết yếu và giúp tôi dễ dàng hiểu các văn hóa khác."
       },
       {
-        "en": "I tend to use foreign languages when communicating with foreigners. It is incredibly helpful and allows me to build my confidence.",
+        "en": "I tend to use foreign languages when communicating with foreigners. It is extremely helpful and allows me to build my confidence.",
         "vi": "Tôi có xu hướng sử dụng ngoại ngữ khi giao tiếp với người nước ngoài. Nó vô cùng hữu ích và cho phép tôi xây dựng sự tự tin."
       },
       {
@@ -912,7 +912,7 @@ export const part2Data = {
     "vi": "Bản dịch gợi ý: When do you usually use English?",
     "templates": [
       "I often use English [tình huống]. It is very [tính từ] and helps me [lợi ích - Vo] easily.",
-      "I tend to use foreign languages [tình huống]. It is incredibly [tính từ] and allows me to [lợi ích - Vo].",
+      "I tend to use foreign languages [tình huống]. It is extremely [tính từ] and allows me to [lợi ích - Vo].",
       "I have always used English [tình huống]. It is quite [tính từ] and gives me a good chance to [lợi ích - Vo]."
     ],
     "vocabulary": [
@@ -929,7 +929,7 @@ export const part2Data = {
         "vi": "Tôi thường dùng internet để đọc tin tức quốc tế. Rất tiện lợi và giúp tôi mở rộng kiến thức dễ dàng."
       },
       {
-        "en": "I tend to use the internet to watch English videos. It is incredibly helpful and allows me to improve my English skills.",
+        "en": "I tend to use the internet to watch English videos. It is extremely helpful and allows me to improve my English skills.",
         "vi": "Tôi hay dùng internet để xem video tiếng Anh. Vô cùng hữu ích và giúp tôi cải thiện kỹ năng tiếng Anh."
       },
       {
@@ -940,7 +940,7 @@ export const part2Data = {
     "vi": "Bản dịch gợi ý: What do you usually use the internet for?",
     "templates": [
       "I often use the internet [mục đích]. It is very [tính từ] and helps me [lợi ích - Vo] easily.",
-      "I tend to use the internet [mục đích]. It is incredibly [tính từ] and allows me to [lợi ích - Vo].",
+      "I tend to use the internet [mục đích]. It is extremely [tính từ] and allows me to [lợi ích - Vo].",
       "I usually use the internet [mục đích]. It is quite [tính từ] and gives me a good chance to [lợi ích - Vo]."
     ],
     "vocabulary": [
@@ -957,7 +957,7 @@ export const part2Data = {
         "vi": "Lần cuối cùng tôi làm việc này là khoảng hai tuần trước. Đó là một trải nghiệm rất truyền cảm hứng vì tôi có cơ hội cải thiện bản thân."
       },
       {
-        "en": "It was a memorable day when I did this activity at the city center last weekend. It was incredibly fascinating and helped me a lot.",
+        "en": "It was a memorable day when I did this activity at the city center last weekend. It was extremely fascinating and helped me a lot.",
         "vi": "Đó là một ngày đáng nhớ khi tôi làm hoạt động này ở trung tâm thành phố vào cuối tuần trước. Nó vô cùng hấp dẫn và giúp tôi rất nhiều."
       },
       {
@@ -968,7 +968,7 @@ export const part2Data = {
     "vi": "Bản dịch gợi ý: Please tell me the last time you took a picture.",
     "templates": [
       "The last time I [hoạt động - V2/ed] was about two weeks ago. It was a very [tính từ] experience because I had the chance to [lợi ích - Vo].",
-      "It was a memorable day when I [hoạt động - V2/ed] last weekend. It was incredibly [tính từ] and helped me [lợi ích - Vo].",
+      "It was a memorable day when I [hoạt động - V2/ed] last weekend. It was extremely [tính từ] and helped me [lợi ích - Vo].",
       "A few days ago, I [hoạt động - V2/ed]. It turned out to be an [tính từ] day that allowed me to [lợi ích - Vo]."
     ],
     "vocabulary": [
@@ -985,7 +985,7 @@ export const part2Data = {
         "vi": "Tôi rất thích hoạt động này vì nó rất yên bình. Thưởng thức hoạt động này giúp tôi thoát khỏi căng thẳng hàng ngày và cảm thấy tốt hơn."
       },
       {
-        "en": "My favorite is hiking in the mountains, which has a refreshing vibe. It is incredibly active and allows me to stay in good shape easily.",
+        "en": "My favorite is hiking in the mountains, which has a refreshing vibe. It is extremely active and allows me to stay in good shape easily.",
         "vi": "Yêu thích nhất của tôi là hoạt động này, mang lại cảm giác sảng khoái. Nó vô cùng năng động và cho phép tôi giữ dáng dễ dàng."
       },
       {
@@ -996,7 +996,7 @@ export const part2Data = {
     "vi": "Bản dịch gợi ý: What do you like doing when you spend time outdoors?",
     "templates": [
       "I am really keen on [hoạt động] because it is very [tính từ]. Enjoying it helps me [lợi ích - Vo].",
-      "My favorite is [hoạt động]. It is incredibly [tính từ] and allows me to [lợi ích - Vo].",
+      "My favorite is [hoạt động]. It is extremely [tính từ] and allows me to [lợi ích - Vo].",
       "I have always liked [hoạt động]. It is quite [tính từ] and gives me a good chance to [lợi ích - Vo]."
     ],
     "vocabulary": [
@@ -1013,7 +1013,7 @@ export const part2Data = {
         "vi": "Tôi rất thích các bộ phim hành động như Fast and Furious vì chúng rất kịch tính. Thưởng thức chúng giúp tôi thoát khỏi căng thẳng hàng ngày và thư giãn sau một ngày dài."
       },
       {
-        "en": "My favorite is animated movies like Kung Fu Panda. They are incredibly hilarious and allow me to find peace of mind easily after work.",
+        "en": "My favorite is animated movies like Kung Fu Panda. They are extremely hilarious and allow me to find peace of mind easily after work.",
         "vi": "Yêu thích nhất của tôi là phim hoạt hình như Kung Fu Panda. Chúng vô cùng hài hước và cho phép tôi tìm thấy sự bình yên trong tâm trí dễ dàng sau giờ làm."
       },
       {
@@ -1024,7 +1024,7 @@ export const part2Data = {
     "vi": "Bản dịch gợi ý: Please write some of your favorite films and why you like watching them.",
     "templates": [
       "I am really keen on [thể loại & tên phim] because they are very [tính từ]. Enjoying them helps me [lợi ích - Vo].",
-      "My favorite is [thể loại & tên phim]. They are incredibly [tính từ] and allow me to [lợi ích - Vo].",
+      "My favorite is [thể loại & tên phim]. They are extremely [tính từ] and allow me to [lợi ích - Vo].",
       "I have always liked [thể loại & tên phim]. They are quite [tính từ] and give me a good chance to [lợi ích - Vo]."
     ],
     "vocabulary": [
@@ -1041,7 +1041,7 @@ export const part2Data = {
         "vi": "Lần cuối cùng tôi làm việc này là khoảng hai tuần trước. Đó là một trải nghiệm rất truyền cảm hứng vì tôi có cơ hội cải thiện bản thân."
       },
       {
-        "en": "It was a memorable day when I did this activity at the city center last weekend. It was incredibly fascinating and helped me a lot.",
+        "en": "It was a memorable day when I did this activity at the city center last weekend. It was extremely fascinating and helped me a lot.",
         "vi": "Đó là một ngày đáng nhớ khi tôi làm hoạt động này ở trung tâm thành phố vào cuối tuần trước. Nó vô cùng hấp dẫn và giúp tôi rất nhiều."
       },
       {
@@ -1052,7 +1052,7 @@ export const part2Data = {
     "vi": "Bản dịch gợi ý: When was the last time you read a book and how was the book?",
     "templates": [
       "The last time I [hoạt động - V2/ed] was about two weeks ago. It was a very [tính từ] experience because I had the chance to [lợi ích - Vo].",
-      "It was a memorable day when I [hoạt động - V2/ed] last weekend. It was incredibly [tính từ] and helped me [lợi ích - Vo].",
+      "It was a memorable day when I [hoạt động - V2/ed] last weekend. It was extremely [tính từ] and helped me [lợi ích - Vo].",
       "A few days ago, I [hoạt động - V2/ed]. It turned out to be an [tính từ] day that allowed me to [lợi ích - Vo]."
     ],
     "vocabulary": [
@@ -1069,7 +1069,7 @@ export const part2Data = {
         "vi": "Lần cuối cùng tôi làm việc này là khoảng hai tuần trước. Đó là một trải nghiệm rất truyền cảm hứng vì tôi có cơ hội cải thiện bản thân."
       },
       {
-        "en": "It was a memorable day when I did this activity at the city center last weekend. It was incredibly fascinating and helped me a lot.",
+        "en": "It was a memorable day when I did this activity at the city center last weekend. It was extremely fascinating and helped me a lot.",
         "vi": "Đó là một ngày đáng nhớ khi tôi làm hoạt động này ở trung tâm thành phố vào cuối tuần trước. Nó vô cùng hấp dẫn và giúp tôi rất nhiều."
       },
       {
@@ -1080,7 +1080,7 @@ export const part2Data = {
     "vi": "Bản dịch gợi ý: Please talk about the last time you went for a run.",
     "templates": [
       "The last time I [hoạt động - V2/ed] was about two weeks ago. It was a very [tính từ] experience because I had the chance to [lợi ích - Vo].",
-      "It was a memorable day when I [hoạt động - V2/ed] last weekend. It was incredibly [tính từ] and helped me [lợi ích - Vo].",
+      "It was a memorable day when I [hoạt động - V2/ed] last weekend. It was extremely [tính từ] and helped me [lợi ích - Vo].",
       "A few days ago, I [hoạt động - V2/ed]. It turned out to be an [tính từ] day that allowed me to [lợi ích - Vo]."
     ],
     "vocabulary": [
