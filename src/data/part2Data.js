@@ -1009,26 +1009,26 @@ export const part2Data = {
     "text": "Please write some of your favorite films and why you like watching them.",
     "samples": [
       {
-        "en": "I am really keen on action movies because they are very thrilling. Enjoying them helps me escape from daily stress and relax after a long day.",
-        "vi": "Tôi rất thích phim hành động vì chúng rất kịch tính. Thưởng thức chúng giúp tôi thoát khỏi căng thẳng hàng ngày và thư giãn sau một ngày dài."
+        "en": "I am really keen on Marvel superhero movies because they are very thrilling. Enjoying them helps me escape from daily stress and relax after a long day.",
+        "vi": "Tôi rất thích các bộ phim siêu anh hùng Marvel vì chúng rất kịch tính. Thưởng thức chúng giúp tôi thoát khỏi căng thẳng hàng ngày và thư giãn sau một ngày dài."
       },
       {
-        "en": "My favorite is romantic comedies, which have a happy ending. They are incredibly hilarious and allow me to find peace of mind easily.",
-        "vi": "Yêu thích nhất của tôi là phim hài lãng mạn, loại phim có cái kết có hậu. Chúng vô cùng hài hước và cho phép tôi tìm thấy sự bình yên trong tâm trí một cách dễ dàng."
+        "en": "My favorite is Disney animated movies. They are incredibly hilarious and allow me to find peace of mind easily after work.",
+        "vi": "Yêu thích nhất của tôi là các bộ phim hoạt hình Disney. Chúng vô cùng hài hước và cho phép tôi tìm thấy sự bình yên trong tâm trí dễ dàng sau giờ làm."
       },
       {
-        "en": "I have always liked sci-fi films. They are quite captivating and give me a good chance to develop my imagination and widen my knowledge.",
-        "vi": "Tôi luôn thích phim khoa học viễn tưởng. Chúng khá cuốn hút và cho tôi cơ hội tốt để phát triển trí tưởng tượng và mở rộng kiến thức."
+        "en": "I have always liked blockbusters like Avatar. They are quite captivating and give me a good chance to develop my imagination and widen my knowledge.",
+        "vi": "Tôi luôn thích những bộ phim bom tấn như Avatar. Chúng khá cuốn hút và cho tôi cơ hội tốt để phát triển trí tưởng tượng và mở rộng kiến thức."
       }
     ],
     "vi": "Bản dịch gợi ý: Please write some of your favorite films and why you like watching them.",
     "templates": [
-      "I am really keen on [thể loại phim] because they are very [tính từ]. Enjoying them helps me [lợi ích - Vo].",
-      "My favorite is [thể loại phim]. They are incredibly [tính từ] and allow me to [lợi ích - Vo].",
-      "I have always liked [thể loại phim]. They are quite [tính từ] and give me a good chance to [lợi ích - Vo]."
+      "I am really keen on [tên phim] because they are very [tính từ]. Enjoying them helps me [lợi ích - Vo].",
+      "My favorite is [tên phim]. They are incredibly [tính từ] and allow me to [lợi ích - Vo].",
+      "I have always liked [tên phim]. They are quite [tính từ] and give me a good chance to [lợi ích - Vo]."
     ],
     "vocabulary": [
-      "✨ [thể loại phim]: <strong>action movies</strong> (phim hành động), <strong>romantic comedies</strong> (phim hài lãng mạn), <strong>sci-fi films</strong> (phim khoa học viễn tưởng), <strong>classic movies</strong> (phim kinh điển), <strong>psychological thrillers</strong> (phim kinh dị tâm lý), <strong>historical dramas</strong> (phim cổ trang / lịch sử)",
+      "✨ [tên phim]: <strong>Harry Potter films</strong> (loạt phim Harry Potter), <strong>Marvel superhero movies</strong> (các bộ phim siêu anh hùng Marvel), <strong>blockbusters like Avatar</strong> (những bộ phim bom tấn như Avatar), <strong>classic films like Titanic</strong> (những bộ phim kinh điển như Titanic), <strong>Disney animated movies</strong> (các bộ phim hoạt hình Disney), <strong>action films like Fast and Furious</strong> (các bộ phim hành động như Fast and Furious)",
       "✨ [tính từ]: <strong>captivating</strong> (cuốn hút), <strong>thrilling</strong> (kịch tính), <strong>hilarious</strong> (hài hước), <strong>eye-opening</strong> (mở mang tầm mắt), <strong>heartwarming</strong> (cảm động), <strong>mind-bending</strong> (hại não)",
       "✨ [lợi ích - Vo]: <strong>escape from daily stress</strong> (thoát khỏi căng thẳng hàng ngày), <strong>widen my knowledge</strong> (mở rộng kiến thức), <strong>develop my imagination</strong> (phát triển trí tưởng tượng), <strong>appreciate cinematic art</strong> (thưởng thức nghệ thuật điện ảnh), <strong>improve my critical thinking</strong> (cải thiện tư duy phản biện), <strong>discuss meaningful messages</strong> (thảo luận những thông điệp ý nghĩa)"
     ]
