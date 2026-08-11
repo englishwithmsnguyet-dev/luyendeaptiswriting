@@ -299,8 +299,8 @@ export const part2Data = {
       "One of the best things I can share is [địa điểm]. It is really [tính từ] and provides a chance for me to [lợi ích - Vo]."
     ],
     "vocabulary": [
-      "✨ [địa điểm]: <strong>a cozy apartment</strong> (một căn hộ ấm cúng), <strong>a spacious house</strong> (một ngôi nhà rộng rãi), <strong>a modern flat</strong> (một căn hộ hiện đại), <strong>a suburban house</strong> (một ngôi nhà ở ngoại ô), <strong>a smart home</strong> (một ngôi nhà thông minh)",
-      "✨ [tính từ]: <strong>comfortable</strong> (thoải mái), <strong>well-decorated</strong> (được trang trí đẹp), <strong>peaceful</strong> (yên bình), <strong>convenient</strong> (tiện nghi), <strong>minimalist</strong> (tối giản), <strong>energy-efficient</strong> (tiết kiệm năng lượng)",
+      "✨ [địa điểm]: <strong>a cozy apartment</strong> (một căn hộ ấm cúng), <strong>a spacious house</strong> (một ngôi nhà rộng rãi), <strong>a modern flat</strong> (một căn hộ hiện đại), <strong>a suburban house</strong> (một ngôi nhà ở ngoại ô), <strong>a smart home</strong> (một ngôi nhà thông minh), <strong>my cozy home</strong> (tổ ấm ấm cúng của tôi)",
+      "✨ [tính từ]: <strong>comfortable</strong> (thoải mái), <strong>well-decorated</strong> (được trang trí đẹp), <strong>peaceful</strong> (yên bình), <strong>convenient</strong> (tiện nghi), <strong>minimalist</strong> (tối giản), <strong>energy-efficient</strong> (tiết kiệm năng lượng), <strong>fully-equipped</strong> (đầy đủ tiện nghi)",
       "✨ [lợi ích - Vo]: <strong>find peace of mind</strong> (tìm sự bình yên trong tâm trí), <strong>relax after a long day</strong> (thư giãn sau một ngày dài), <strong>enjoy my private space</strong> (tận hưởng không gian riêng tư), <strong>host gatherings with friends</strong> (tổ chức các buổi tụ tập bạn bè), <strong>work from home comfortably</strong> (làm việc tại nhà thoải mái), <strong>raise my children in a safe environment</strong> (nuôi dạy con trong môi trường an toàn)"
     ]
   },
