@@ -209,12 +209,12 @@ export const part2Data = {
     ],
     "vi": "Bản dịch gợi ý: Tell me the classes you want to take and what times and days are suitable for you.",
     "templates": [
-      "I can attend classes [thời gian] and I would like to learn [lớp học]. It helps me [lợi ích - Vo] effectively.",
-      "I prefer attending classes [thời gian] to learn [lớp học]. It is very useful and helps me [lợi ích - Vo].",
-      "I really enjoy learning [lớp học] [thời gian]. It not only [lợi ích - Vo] but also makes me feel productive."
+      "I can attend classes [thời gian] and I would like to learn [môn học]. It helps me [lợi ích - Vo] effectively.",
+      "I prefer attending classes [thời gian] to learn [môn học]. It is very useful and helps me [lợi ích - Vo].",
+      "I really enjoy learning [môn học] [thời gian]. It not only [lợi ích - Vo] but also makes me feel productive."
     ],
     "vocabulary": [
-      "✨ [lớp học]: <strong>yoga classes</strong> (lớp yoga), <strong>swimming sessions</strong> (buổi bơi lội), <strong>aerobics classes</strong> (lớp thể dục nhịp điệu), <strong>meditation workshops</strong> (hội thảo thiền định), <strong>nutrition courses</strong> (khóa học dinh dưỡng), <strong>mental health seminars</strong> (hội thảo sức khỏe tinh thần)",
+      "✨ [môn học]: <strong>yoga</strong> (yoga), <strong>swimming</strong> (bơi lội), <strong>aerobics</strong> (thể dục nhịp điệu), <strong>meditation</strong> (thiền định), <strong>about nutrition</strong> (về dinh dưỡng), <strong>about mental health</strong> (về sức khỏe tinh thần)",
       "✨ [thời gian]: <strong>every Monday evening</strong> (mỗi tối thứ Hai), <strong>on weekend mornings</strong> (vào các buổi sáng cuối tuần), <strong>after working hours</strong> (sau giờ làm việc), <strong>during my lunch break</strong> (trong giờ nghỉ trưa), <strong>early in the morning</strong> (sáng sớm)",
       "✨ [lợi ích - Vo]: <strong>stay in good shape</strong> (giữ dáng), <strong>prevent health problems</strong> (phòng tránh vấn đề sức khỏe), <strong>strengthen cardiovascular health</strong> (tăng cường sức khỏe tim mạch), <strong>maintain a balanced diet</strong> (duy trì chế độ ăn cân bằng), <strong>improve my mental well-being</strong> (cải thiện sức khỏe tinh thần), <strong>boost my immune system</strong> (tăng cường hệ miễn dịch)"
     ]
