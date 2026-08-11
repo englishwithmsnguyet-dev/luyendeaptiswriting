@@ -391,23 +391,23 @@ export const part2Data = {
     "text": "Why are you interested in travel?",
     "samples": [
       {
-        "en": "I decided to join this club because I am really passionate about traveling. It allows me to discover new places.",
-        "vi": "Tôi quyết định tham gia câu lạc bộ vì đam mê sở thích này. Nó cho phép tôi đạt được nhiều lợi ích thiết thực."
+        "en": "I am interested in travel because I love exploring the coastal city. It is extremely breathtaking and helps me escape from daily stress.",
+        "vi": "Tôi đam mê du lịch vì tôi yêu thích khám phá thành phố biển. Nó cực kỳ ngoạn mục và giúp tôi thoát khỏi căng thẳng hằng ngày."
       },
       {
-        "en": "My main reason for joining is my strong interest in traveling. Being here helps me to learn and improve a lot.",
-        "vi": "Lý do chính tôi tham gia là sự quan tâm mãnh liệt với sở thích này. Ở đây giúp tôi học hỏi và cải thiện rất nhiều."
+        "en": "The main reason is that traveling to the mountainous area allows me to balance my life. It is always a peaceful experience.",
+        "vi": "Lý do chính là du lịch đến vùng núi cho phép tôi cân bằng cuộc sống. Đó luôn là một trải nghiệm yên bình."
       },
       {
-        "en": "I have always been deeply interested in traveling. Therefore, joining this club gives me a great opportunity to explore more.",
-        "vi": "Tôi luôn quan tâm đến lĩnh vực này. Vì vậy, tham gia câu lạc bộ cho tôi cơ hội tuyệt vời để khám phá thêm."
+        "en": "I have a strong passion for travel since it gives me a chance to boost my emotional well-being. Besides, discovering historic towns is very stunning.",
+        "vi": "Tôi có niềm đam mê mãnh liệt với du lịch vì nó cho tôi cơ hội nâng cao sức khỏe tinh thần. Hơn nữa, việc khám phá các thị trấn lịch sử rất tuyệt đẹp."
       }
     ],
     "vi": "Bản dịch gợi ý: Why are you interested in travel?",
     "templates": [
-      "I decided to join this club because I am passionate about [sở thích]. It allows me to [lợi ích - Vo].",
-      "My main reason for joining is my strong interest in [sở thích]. Being here helps me to [lợi ích - Vo].",
-      "I have always been interested in [sở thích]. Therefore, joining this club gives me a great opportunity to [lợi ích - Vo]."
+      "I am interested in travel because I love exploring [địa điểm]. It is extremely [tính từ] and helps me [lợi ích - Vo].",
+      "The main reason is that traveling to [địa điểm] allows me to [lợi ích - Vo]. It is always a [tính từ] experience.",
+      "I have a strong passion for travel since it gives me a chance to [lợi ích - Vo]. Besides, discovering [địa điểm] is very [tính từ]."
     ],
     "vocabulary": [
       "✨ [sở thích]: <strong>traveling</strong> (du lịch), <strong>exploring new places</strong> (khám phá vùng đất mới), <strong>learning about cultures</strong> (tìm hiểu văn hóa), <strong>taking photographs</strong> (chụp ảnh), <strong>trying local cuisines</strong> (thử các món ăn địa phương), <strong>backpacking around the world</strong> (du lịch bụi vòng quanh thế giới)",
@@ -475,12 +475,12 @@ export const part2Data = {
     "text": "Tell me a place you often visit.",
     "samples": [
       {
-        "en": "I usually visit the coastal city, which is very peaceful and breathtaking. It helps me escape from daily stress and regain my energy.",
-        "vi": "Tôi thường thăm thành phố biển, nơi rất yên bình và ngoạn mục. Nó giúp tôi thoát khỏi căng thẳng hằng ngày và nạp lại năng lượng."
+        "en": "I usually visit the coastal city with my family, which is very breathtaking. This wonderful place helps me escape from daily stress.",
+        "vi": "Tôi thường ghé thăm thành phố biển cùng gia đình, nơi đây rất ngoạn mục. Địa điểm tuyệt vời này giúp tôi thoát khỏi căng thẳng hằng ngày."
       },
       {
-        "en": "I often travel to the mountainous area to relax. It always makes me feel peaceful and helps me balance my life effectively.",
-        "vi": "Tôi thường du lịch đến vùng núi để thư giãn. Nơi đây luôn làm tôi thấy bình yên và giúp tôi cân bằng cuộc sống hiệu quả."
+        "en": "I often travel to the mountainous area to relax on weekends. It always makes me feel peaceful and helps me balance my life.",
+        "vi": "Tôi thường đi du lịch vùng núi để thư giãn vào cuối tuần. Nó luôn khiến tôi cảm thấy yên bình và giúp tôi cân bằng cuộc sống."
       },
       {
         "en": "One of the places I visit the most is historic towns. It is really stunning and provides a chance for me to boost my emotional well-being.",
@@ -489,8 +489,8 @@ export const part2Data = {
     ],
     "vi": "Bản dịch gợi ý: Tell me a place you often visit.",
     "templates": [
-      "I usually visit [địa điểm], which is very [tính từ]. It helps me [lợi ích - Vo].",
-      "I often travel to [địa điểm] to relax. It always makes me feel [tính từ] and helps me [lợi ích - Vo] effectively.",
+      "I usually visit [địa điểm] with my family, which is very [tính từ]. This wonderful place helps me [lợi ích - Vo].",
+      "I often travel to [địa điểm] to relax on weekends. It always makes me feel [tính từ] and helps me [lợi ích - Vo].",
       "One of the places I visit the most is [địa điểm]. It is really [tính từ] and provides a chance for me to [lợi ích - Vo]."
     ],
     "vocabulary": [
@@ -559,23 +559,23 @@ export const part2Data = {
     "text": "Tell me about the last time you went for a walk.",
     "samples": [
       {
-        "en": "The last time I did this was about two weeks ago. It was a very inspiring experience because I had the chance to improve myself.",
-        "vi": "Lần cuối cùng tôi làm việc này là khoảng hai tuần trước. Đó là một trải nghiệm rất truyền cảm hứng vì tôi có cơ hội cải thiện bản thân."
+        "en": "The last time I went for a walk in the park was about two weeks ago. It was a very refreshing experience because I could clear my mind.",
+        "vi": "Lần cuối cùng tôi đi dạo trong công viên là khoảng hai tuần trước. Đó là một trải nghiệm rất sảng khoái vì tôi có thể làm cho tâm trí thanh thản."
       },
       {
-        "en": "It was a memorable day when I did this activity at the city center last weekend. It was extremely fascinating and helped me a lot.",
-        "vi": "Đó là một ngày đáng nhớ khi tôi làm hoạt động này ở trung tâm thành phố vào cuối tuần trước. Nó vô cùng hấp dẫn và giúp tôi rất nhiều."
+        "en": "It was a memorable day when I strolled around the lake last weekend. It was extremely peaceful and helped me enjoy the fresh air.",
+        "vi": "Đó là một ngày đáng nhớ khi tôi đi dạo quanh hồ vào cuối tuần trước. Nó vô cùng yên bình và giúp tôi tận hưởng không khí trong lành."
       },
       {
-        "en": "A few days ago, I did it with my friends. It turned out to be a memorable day that allowed us to have a great time.",
-        "vi": "Vài ngày trước, tôi thực hiện việc này cùng bạn bè. Hóa ra đó là một ngày đáng nhớ cho phép chúng tôi có khoảng thời gian tuyệt vời."
+        "en": "A few days ago, I hiked up a small hill. It turned out to be a great day that was relaxing and allowed me to stay in good shape.",
+        "vi": "Vài ngày trước, tôi đã đi bộ lên một ngọn đồi nhỏ. Hóa ra đó là một ngày tuyệt vời rất thư giãn và cho phép tôi giữ dáng."
       }
     ],
     "vi": "Bản dịch gợi ý: Tell me about the last time you went for a walk.",
     "templates": [
-      "The last time I [hoạt động - V2/ed] was about two weeks ago. It was a very [tính từ] experience because I had the chance to [lợi ích - Vo].",
+      "The last time I [hoạt động - V2/ed] was about two weeks ago. It was a very [tính từ] experience because I could [lợi ích - Vo].",
       "It was a memorable day when I [hoạt động - V2/ed] last weekend. It was extremely [tính từ] and helped me [lợi ích - Vo].",
-      "A few days ago, I [hoạt động - V2/ed]. It turned out to be an [tính từ] day that allowed me to [lợi ích - Vo]."
+      "A few days ago, I [hoạt động - V2/ed]. It turned out to be a great day that was [tính từ] and allowed me to [lợi ích - Vo]."
     ],
     "vocabulary": [
       "✨ [hoạt động - V2/ed]: <strong>went for a walk in the park</strong> (đi dạo trong công viên), <strong>strolled around the lake</strong> (đi dạo quanh hồ), <strong>hiked up a small hill</strong> (đi bộ lên một ngọn đồi nhỏ), <strong>walked along the beach</strong> (đi dọc bãi biển), <strong>wandered around the city center</strong> (đi lang thang quanh trung tâm thành phố), <strong>took a long walk in the countryside</strong> (đi bộ đường dài ở nông thôn)",
@@ -642,23 +642,23 @@ export const part2Data = {
     "text": "Tell me about the last time you wrote something.",
     "samples": [
       {
-        "en": "The last time I did this was about two weeks ago. It was a very inspiring experience because I had the chance to improve myself.",
-        "vi": "Lần cuối cùng tôi làm việc này là khoảng hai tuần trước. Đó là một trải nghiệm rất truyền cảm hứng vì tôi có cơ hội cải thiện bản thân."
+        "en": "The last time I wrote a short story was about two weeks ago. It was a very inspiring experience because I could express my feelings.",
+        "vi": "Lần cuối cùng tôi viết một truyện ngắn là khoảng hai tuần trước. Đó là một trải nghiệm rất truyền cảm hứng vì tôi có thể thể hiện cảm xúc của mình."
       },
       {
-        "en": "It was a memorable day when I did this activity at the city center last weekend. It was extremely fascinating and helped me a lot.",
-        "vi": "Đó là một ngày đáng nhớ khi tôi làm hoạt động này ở trung tâm thành phố vào cuối tuần trước. Nó vô cùng hấp dẫn và giúp tôi rất nhiều."
+        "en": "It was a memorable day when I wrote a daily journal last weekend. It was extremely thought-provoking and helped me develop my imagination.",
+        "vi": "Đó là một ngày đáng nhớ khi tôi viết nhật ký hàng ngày vào cuối tuần trước. Nó vô cùng gợi suy nghĩ và giúp tôi phát triển trí tưởng tượng."
       },
       {
-        "en": "A few days ago, I did it with my friends. It turned out to be a memorable day that allowed us to have a great time.",
-        "vi": "Vài ngày trước, tôi thực hiện việc này cùng bạn bè. Hóa ra đó là một ngày đáng nhớ cho phép chúng tôi có khoảng thời gian tuyệt vời."
+        "en": "A few days ago, I composed a poem. It turned out to be a great day that was fascinating and allowed me to improve my writing skills.",
+        "vi": "Vài ngày trước, tôi đã sáng tác một bài thơ. Hóa ra đó là một ngày tuyệt vời rất hấp dẫn và cho phép tôi cải thiện kỹ năng viết của mình."
       }
     ],
     "vi": "Bản dịch gợi ý: Tell me about the last time you wrote something.",
     "templates": [
-      "The last time I [hoạt động - V2/ed] was about two weeks ago. It was a very [tính từ] experience because I had the chance to [lợi ích - Vo].",
+      "The last time I [hoạt động - V2/ed] was about two weeks ago. It was a very [tính từ] experience because I could [lợi ích - Vo].",
       "It was a memorable day when I [hoạt động - V2/ed] last weekend. It was extremely [tính từ] and helped me [lợi ích - Vo].",
-      "A few days ago, I [hoạt động - V2/ed]. It turned out to be an [tính từ] day that allowed me to [lợi ích - Vo]."
+      "A few days ago, I [hoạt động - V2/ed]. It turned out to be a great day that was [tính từ] and allowed me to [lợi ích - Vo]."
     ],
     "vocabulary": [
       "✨ [hoạt động - V2/ed]: <strong>wrote a short story</strong> (viết một truyện ngắn), <strong>wrote a daily journal</strong> (viết nhật ký hàng ngày), <strong>composed a poem</strong> (sáng tác một bài thơ), <strong>drafted a blog post</strong> (soạn một bài đăng blog), <strong>wrote a letter to a friend</strong> (viết thư cho một người bạn), <strong>finished an essay</strong> (hoàn thành một bài luận)",
