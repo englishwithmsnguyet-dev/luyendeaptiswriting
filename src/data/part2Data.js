@@ -59,27 +59,27 @@ export const part2Data = {
     "text": "Tell me about your best friend.",
     "samples": [
       {
-        "en": "I would like to talk about my best friend. She is extremely kind-hearted, and spending time with her helps me find peace of mind.",
-        "vi": "Tôi muốn kể về người bạn thân nhất của mình. Cô ấy vô cùng nhân hậu, và việc dành thời gian bên cô ấy giúp tôi tìm thấy sự bình yên trong tâm trí."
+        "en": "I would like to talk about my best friend, who is extremely kind-hearted. We often travel to new places to find peace of mind.",
+        "vi": "Tôi muốn kể về người bạn thân nhất của mình, người vô cùng nhân hậu. Chúng tôi thường đi du lịch đến những nơi mới để tìm thấy sự bình yên trong tâm trí."
       },
       {
-        "en": "Let me tell you about my best friend. He is quite humorous and we always enjoy playing sports together in our free time.",
-        "vi": "Hãy để tôi kể cho bạn nghe về bạn thân của tôi. Anh ấy khá hài hước và chúng tôi luôn thích cùng nhau chơi thể thao vào thời gian rảnh."
+        "en": "Let me tell you about my best friend. He is quite humorous and we often play sports together in our free time.",
+        "vi": "Hãy để tôi kể cho bạn nghe về bạn thân của tôi. Anh ấy khá hài hước và chúng tôi thường cùng nhau chơi thể thao vào thời gian rảnh."
       },
       {
-        "en": "My best friend is a great person. We have been friends for a long time and traveling to new places together helps us overcome my difficulties.",
-        "vi": "Bạn thân của tôi là một người tuyệt vời. Chúng tôi đã là bạn từ lâu và việc cùng nhau du lịch đến những nơi mới giúp chúng tôi vượt qua khó khăn."
+        "en": "My best friend is a great person. We have been friends for a long time, and we usually share our daily stories to overcome my difficulties.",
+        "vi": "Bạn thân của tôi là một người tuyệt vời. Chúng tôi đã là bạn từ lâu, và chúng tôi thường chia sẻ những câu chuyện hằng ngày để vượt qua những khó khăn của tôi."
       }
     ],
     "vi": "Bản dịch gợi ý: Tell me about your best friend.",
     "templates": [
-      "I would like to talk about my best friend. She is extremely [tính từ], and spending time with her helps me [lợi ích - Vo].",
-      "Let me tell you about my best friend. He is quite [tính từ] and we always enjoy [hoạt động - Ving] together in our free time.",
-      "My best friend is a great person. We have been friends for a long time and [hoạt động - Ving] together helps us [lợi ích - Vo]."
+      "I would like to talk about my best friend, who is extremely [tính từ]. We often [hoạt động] to [lợi ích - Vo].",
+      "Let me tell you about my best friend. He is quite [tính từ] and we often [hoạt động] together in our free time.",
+      "My best friend is a great person. We have been friends for a long time, and we usually [hoạt động] to [lợi ích - Vo]."
     ],
     "vocabulary": [
       "✨ [tính từ]: <strong>kind-hearted</strong> (nhân hậu), <strong>supportive</strong> (luôn hỗ trợ), <strong>optimistic</strong> (lạc quan), <strong>generous</strong> (hào phóng), <strong>trustworthy</strong> (đáng tin cậy), <strong>humorous</strong> (hài hước)",
-      "✨ [hoạt động - Ving]: <strong>hanging out at cafes</strong> (đi cà phê), <strong>sharing our daily stories</strong> (chia sẻ câu chuyện hằng ngày), <strong>going shopping</strong> (đi mua sắm), <strong>playing sports</strong> (chơi thể thao), <strong>traveling to new places</strong> (du lịch đến những nơi mới), <strong>studying for exams</strong> (học cho kỳ thi)",
+      "✨ [hoạt động]: <strong>hang out at cafes</strong> (đi cà phê), <strong>share our daily stories</strong> (chia sẻ câu chuyện hằng ngày), <strong>go shopping</strong> (đi mua sắm), <strong>play sports</strong> (chơi thể thao), <strong>travel to new places</strong> (du lịch đến những nơi mới), <strong>study for exams</strong> (học cho kỳ thi)",
       "✨ [lợi ích - Vo]: <strong>find peace of mind</strong> (tìm sự bình yên trong tâm trí), <strong>overcome my difficulties</strong> (vượt qua khó khăn), <strong>forget my daily stress</strong> (quên đi căng thẳng hằng ngày), <strong>laugh a lot</strong> (cười rất nhiều), <strong>become a better person</strong> (trở thành một người tốt hơn), <strong>feel loved and respected</strong> (cảm thấy được yêu thương và tôn trọng)"
     ]
   },
