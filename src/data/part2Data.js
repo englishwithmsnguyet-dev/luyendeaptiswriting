@@ -223,29 +223,28 @@ export const part2Data = {
     "text": "What do you usually use your laptop for?",
     "samples": [
       {
-        "en": "I usually use my laptop at my office during working hours. It is a good way to improve my digital skills and study more effectively.",
-        "vi": "Tôi thường dùng laptop tại văn phòng trong giờ làm việc. Đây là cách tốt để cải thiện kỹ năng công nghệ và học tập hiệu quả hơn."
+        "en": "I usually use my personal laptop for studying online every single day. It is a really good way to improve my digital skills.",
+        "vi": "Tôi thường sử dụng máy tính xách tay cá nhân của mình để học trực tuyến mỗi ngày. Đây là một cách thực sự tốt để cải thiện kỹ năng công nghệ của tôi."
       },
       {
-        "en": "Because I am quite busy, I tend to use my laptop at home. It is very convenient and helps me learn to work independently.",
-        "vi": "Vì khá bận rộn, tôi có xu hướng dùng laptop ở nhà. Việc này rất tiện lợi và giúp tôi học cách làm việc độc lập."
+        "en": "Because I am quite busy, I mostly use my laptop for working from home. It is extremely convenient and helps me manage my daily tasks.",
+        "vi": "Vì khá bận rộn, tôi chủ yếu dùng laptop để làm việc tại nhà. Nó vô cùng tiện lợi và giúp tôi quản lý công việc hàng ngày."
       },
       {
-        "en": "I really enjoy working on my laptop in the library every afternoon. It not only helps me study more effectively but also makes me feel focused.",
-        "vi": "Tôi rất thích làm việc trên laptop ở thư viện mỗi buổi chiều. Nó không chỉ giúp tôi học tập hiệu quả hơn mà còn giúp tôi tập trung."
+        "en": "I really enjoy using my laptop for editing photos in my free time. It not only helps me work independently but also makes me feel productive.",
+        "vi": "Tôi rất thích sử dụng laptop để chỉnh sửa ảnh trong thời gian rảnh. Nó không chỉ giúp tôi làm việc độc lập mà còn giúp tôi cảm thấy năng suất."
       }
     ],
     "vi": "Bản dịch gợi ý: What do you usually use your laptop for?",
     "templates": [
-      "I usually use [thiết bị] at [địa điểm] during working hours. It is a good way to [lợi ích - Vo].",
-      "Because I am quite busy, I tend to use [thiết bị] at [địa điểm]. It is very [tính từ] and helps me [lợi ích - Vo].",
-      "I really enjoy working on [thiết bị] at [địa điểm] every afternoon. It not only helps me [lợi ích - Vo] but also makes me feel focused."
+      "I usually use my personal laptop for [mục đích - Ving] every single day. It is a really good way to [lợi ích - Vo].",
+      "Because I am quite busy, I mostly use my laptop for [mục đích - Ving]. It is extremely [tính từ] and helps me [lợi ích - Vo].",
+      "I really enjoy using my laptop for [mục đích - Ving] in my free time. It not only helps me [lợi ích - Vo] but also makes me feel productive."
     ],
     "vocabulary": [
-      "✨ [thiết bị]: <strong>my laptop</strong> (laptop của tôi), <strong>my smartphone</strong> (điện thoại thông minh), <strong>my tablet</strong> (máy tính bảng), <strong>my desktop computer</strong> (máy tính để bàn), <strong>my smart watch</strong> (đồng hồ thông minh)",
-      "✨ [địa điểm]: <strong>at my office</strong> (tại văn phòng), <strong>in the library</strong> (trong thư viện), <strong>at home</strong> (ở nhà), <strong>in a coffee shop</strong> (ở quán cà phê), <strong>on the train</strong> (trên tàu)",
-      "✨ [tính từ]: <strong>convenient</strong> (tiện lợi), <strong>fast</strong> (nhanh chóng), <strong>essential</strong> (cần thiết), <strong>portable</strong> (dễ mang theo), <strong>user-friendly</strong> (thân thiện với người dùng), <strong>powerful</strong> (mạnh mẽ)",
-      "✨ [lợi ích - Vo]: <strong>improve my digital skills</strong> (cải thiện kỹ năng công nghệ), <strong>study more effectively</strong> (học tập hiệu quả hơn), <strong>work independently</strong> (làm việc độc lập), <strong>connect with friends</strong> (kết nối với bạn bè), <strong>access endless information</strong> (tiếp cận thông tin vô tận), <strong>manage my daily tasks</strong> (quản lý công việc hàng ngày)"
+      "✨ [mục đích - Ving]: <strong>studying online</strong> (học trực tuyến), <strong>working from home</strong> (làm việc tại nhà), <strong>playing video games</strong> (chơi trò chơi điện tử), <strong>watching movies</strong> (xem phim), <strong>editing photos</strong> (chỉnh sửa ảnh), <strong>browsing the internet</strong> (lướt web)",
+      "✨ [tính từ]: <strong>convenient</strong> (tiện lợi), <strong>fast</strong> (nhanh chóng), <strong>essential</strong> (thiết yếu), <strong>portable</strong> (dễ mang theo), <strong>user-friendly</strong> (thân thiện với người dùng), <strong>powerful</strong> (mạnh mẽ)",
+      "✨ [lợi ích - Vo]: <strong>improve my digital skills</strong> (cải thiện kỹ năng công nghệ), <strong>study more effectively</strong> (học tập hiệu quả hơn), <strong>work independently</strong> (làm việc độc lập), <strong>connect with my friends</strong> (kết nối với bạn bè), <strong>access endless information</strong> (tiếp cận thông tin vô tận), <strong>manage my daily tasks</strong> (quản lý công việc hàng ngày)"
     ]
   },
   "Business club": {
