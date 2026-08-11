@@ -22,7 +22,7 @@ export const part2Data = {
       "I have always liked [tác phẩm / phong cách]. It is quite [tính từ] and gives me a good chance to [lợi ích - Vo]."
     ],
     "vocabulary": [
-      "✨ [tác phẩm / phong cách]: <strong>The Starry Night</strong> (tác phẩm Đêm Đầy Sao), <strong>a family photo</strong> (bức ảnh gia đình), <strong>a picture of my hometown</strong> (bức tranh quê hương)",
+      "✨ [tác phẩm / phong cách]: <strong>The Starry Night</strong> (tác phẩm Đêm Đầy Sao), <strong>a family photo</strong> (bức ảnh gia đình), <strong>a picture of my hometown</strong> (bức tranh quê hương), <strong>a landscape painting</strong> (một bức tranh phong cảnh), <strong>an abstract artwork</strong> (một tác phẩm nghệ thuật trừu tượng), <strong>a portrait of my mother</strong> (bức chân dung của mẹ tôi)",
       "✨ [tính từ]: <strong>captivating</strong> (cuốn hút), <strong>inspiring</strong> (truyền cảm hứng), <strong>creative</strong> (sáng tạo), <strong>breathtaking</strong> (ngoạn mục), <strong>thought-provoking</strong> (gợi suy nghĩ), <strong>meaningful</strong> (ý nghĩa), <strong>gorgeous</strong> (tuyệt đẹp)",
       "✨ [lợi ích - Vo]: <strong>enhance my creativity</strong> (nâng cao sự sáng tạo), <strong>find peace of mind</strong> (tìm sự bình yên trong tâm trí), <strong>relax after a long day</strong> (thư giãn sau một ngày dài), <strong>develop my imagination</strong> (phát triển trí tưởng tượng), <strong>recall good memories</strong> (gợi nhớ những kỷ niệm đẹp), <strong>express my feelings</strong> (thể hiện cảm xúc), <strong>boost my mood</strong> (cải thiện tâm trạng)"
     ]
@@ -242,10 +242,10 @@ export const part2Data = {
       "I really enjoy working on [thiết bị] at [địa điểm] every afternoon. It not only helps me [lợi ích - Vo] but also makes me feel focused."
     ],
     "vocabulary": [
-      "✨ [thiết bị]: <strong>my laptop</strong> (laptop của tôi), <strong>my smartphone</strong> (điện thoại thông minh)",
-      "✨ [địa điểm]: <strong>at my office</strong> (tại văn phòng), <strong>in the library</strong> (trong thư viện), <strong>at home</strong> (ở nhà)",
-      "✨ [tính từ]: <strong>convenient</strong> (tiện lợi), <strong>fast</strong> (nhanh chóng), <strong>essential</strong> (cần thiết)",
-      "✨ [lợi ích - Vo]: <strong>improve my digital skills</strong> (cải thiện kỹ năng công nghệ), <strong>study more effectively</strong> (học tập hiệu quả hơn), <strong>work independently</strong> (làm việc độc lập)"
+      "✨ [thiết bị]: <strong>my laptop</strong> (laptop của tôi), <strong>my smartphone</strong> (điện thoại thông minh), <strong>my tablet</strong> (máy tính bảng), <strong>my desktop computer</strong> (máy tính để bàn), <strong>my smart watch</strong> (đồng hồ thông minh)",
+      "✨ [địa điểm]: <strong>at my office</strong> (tại văn phòng), <strong>in the library</strong> (trong thư viện), <strong>at home</strong> (ở nhà), <strong>in a coffee shop</strong> (ở quán cà phê), <strong>on the train</strong> (trên tàu)",
+      "✨ [tính từ]: <strong>convenient</strong> (tiện lợi), <strong>fast</strong> (nhanh chóng), <strong>essential</strong> (cần thiết), <strong>portable</strong> (dễ mang theo), <strong>user-friendly</strong> (thân thiện với người dùng), <strong>powerful</strong> (mạnh mẽ)",
+      "✨ [lợi ích - Vo]: <strong>improve my digital skills</strong> (cải thiện kỹ năng công nghệ), <strong>study more effectively</strong> (học tập hiệu quả hơn), <strong>work independently</strong> (làm việc độc lập), <strong>connect with friends</strong> (kết nối với bạn bè), <strong>access endless information</strong> (tiếp cận thông tin vô tận), <strong>manage my daily tasks</strong> (quản lý công việc hàng ngày)"
     ]
   },
   "Business club": {
@@ -271,9 +271,9 @@ export const part2Data = {
       "I have always liked buying things from [địa điểm]. It is quite [tính từ] and gives me a good chance to [lợi ích - Vo]."
     ],
     "vocabulary": [
-      "✨ [địa điểm]: <strong>fashion boutiques</strong> (cửa hàng thời trang), <strong>supermarkets</strong> (siêu thị), <strong>online stores</strong> (cửa hàng trực tuyến)",
-      "✨ [tính từ]: <strong>trendy</strong> (hợp thời trang), <strong>well-organized</strong> (được sắp xếp tốt), <strong>diverse</strong> (đa dạng)",
-      "✨ [lợi ích - Vo]: <strong>stay fashionable</strong> (giữ phong cách thời trang), <strong>buy essential items easily</strong> (mua vật dụng thiết yếu dễ dàng), <strong>compare prices easily</strong> (so sánh giá dễ dàng)"
+      "✨ [địa điểm]: <strong>fashion boutiques</strong> (cửa hàng thời trang), <strong>supermarkets</strong> (siêu thị), <strong>online stores</strong> (cửa hàng trực tuyến), <strong>local markets</strong> (chợ địa phương), <strong>shopping malls</strong> (trung tâm thương mại), <strong>convenience stores</strong> (cửa hàng tiện lợi)",
+      "✨ [tính từ]: <strong>trendy</strong> (hợp thời trang), <strong>well-organized</strong> (được sắp xếp tốt), <strong>diverse</strong> (đa dạng), <strong>affordable</strong> (giá cả phải chăng), <strong>luxurious</strong> (sang trọng), <strong>time-saving</strong> (tiết kiệm thời gian)",
+      "✨ [lợi ích - Vo]: <strong>stay fashionable</strong> (giữ phong cách thời trang), <strong>buy essential items easily</strong> (mua vật dụng thiết yếu dễ dàng), <strong>compare prices easily</strong> (so sánh giá dễ dàng), <strong>find exclusive products</strong> (tìm những sản phẩm độc quyền), <strong>save my living costs</strong> (tiết kiệm chi phí sinh hoạt), <strong>enjoy a great shopping experience</strong> (tận hưởng trải nghiệm mua sắm tuyệt vời)"
     ]
   },
   "Home living club": {
@@ -355,8 +355,8 @@ export const part2Data = {
       "Yes, I am a huge fan of cars, so I always choose to [hoạt động / lý do]. It not only [lợi ích - Vo s/es] but also makes me feel [tính từ]."
     ],
     "vocabulary": [
-      "✨ [hoạt động / lý do]: <strong>drive my car to work</strong> (lái xe ô tô đi làm), <strong>travel by public transport</strong> (đi lại bằng phương tiện công cộng), <strong>take a taxi instead</strong> (bắt taxi thay thế)",
-      "✨ [tính từ]: <strong>convenient</strong> (tiện lợi), <strong>comfortable</strong> (thoải mái), <strong>time-saving</strong> (tiết kiệm thời gian)",
+      "✨ [hoạt động / lý do]: <strong>drive my car to work</strong> (lái xe ô tô đi làm), <strong>travel by public transport</strong> (đi lại bằng phương tiện công cộng), <strong>take a taxi instead</strong> (bắt taxi thay thế), <strong>carpool with my colleagues</strong> (đi chung xe với đồng nghiệp), <strong>go on a road trip</strong> (đi du lịch bằng ô tô), <strong>rent a car for the weekend</strong> (thuê ô tô vào cuối tuần)",
+      "✨ [tính từ]: <strong>convenient</strong> (tiện lợi), <strong>comfortable</strong> (thoải mái), <strong>time-saving</strong> (tiết kiệm thời gian), <strong>eco-friendly</strong> (thân thiện với môi trường), <strong>cost-effective</strong> (tiết kiệm chi phí), <strong>safe and secure</strong> (an toàn và bảo đảm)",
       "✨ [lợi ích - Vo]: <strong>save my commuting time</strong> (tiết kiệm thời gian đi lại), <strong>reduce travel fatigue</strong> (giảm mệt mỏi khi đi lại), <strong>protect myself from bad weather</strong> (bảo vệ bản thân khỏi thời tiết xấu), <strong>carry heavy luggage easily</strong> (mang hành lý nặng dễ dàng), <strong>travel long distances comfortably</strong> (đi lại khoảng cách xa một cách thoải mái), <strong>ensure my personal safety</strong> (đảm bảo an toàn cá nhân), <strong>listen to music privately</strong> (nghe nhạc riêng tư)"
     ]
   },
@@ -438,8 +438,8 @@ export const part2Data = {
       "I really enjoy watching [thể loại phim] [tần suất] [thời gian]. It not only expands my imagination but also makes me feel relaxed."
     ],
     "vocabulary": [
-      "✨ [tần suất]: <strong>once a week</strong> (một lần một tuần), <strong>twice a month</strong> (hai lần một tháng), <strong>every day</strong> (mỗi ngày)",
-      "✨ [thời gian]: <strong>in the evening</strong> (vào buổi tối), <strong>on weekends</strong> (vào cuối tuần), <strong>in my free time</strong> (trong thời gian rảnh)",
+      "✨ [tần suất]: <strong>once a week</strong> (một lần một tuần), <strong>twice a month</strong> (hai lần một tháng), <strong>every day</strong> (mỗi ngày), <strong>every weekend</strong> (mỗi cuối tuần), <strong>several times a month</strong> (vài lần một tháng), <strong>on special occasions</strong> (vào các dịp đặc biệt)",
+      "✨ [thời gian]: <strong>in the evening</strong> (vào buổi tối), <strong>on weekends</strong> (vào cuối tuần), <strong>in my free time</strong> (trong thời gian rảnh), <strong>late at night</strong> (vào đêm khuya), <strong>during my holidays</strong> (trong kỳ nghỉ), <strong>after working hours</strong> (sau giờ làm việc)",
       "✨ [thể loại phim]: <strong>action movies</strong> (phim hành động), <strong>romantic comedies</strong> (phim hài lãng mạn), <strong>sci-fi films</strong> (phim khoa học viễn tưởng), <strong>horror movies</strong> (phim kinh dị), <strong>animated films</strong> (phim hoạt hình), <strong>documentaries</strong> (phim tài liệu)",
       "✨ [lợi ích - Vo]: <strong>find peace of mind</strong> (tìm sự bình yên trong tâm trí), <strong>relax after a long day</strong> (thư giãn sau một ngày dài), <strong>escape from daily stress</strong> (thoát khỏi căng thẳng hàng ngày), <strong>broaden my horizons</strong> (mở rộng tầm nhìn), <strong>learn about different cultures</strong> (tìm hiểu về các nền văn hóa khác), <strong>improve my English skills</strong> (cải thiện kỹ năng tiếng Anh), <strong>spend quality time with my friends</strong> (dành thời gian chất lượng bên bạn bè), <strong>stimulate my imagination</strong> (kích thích trí tưởng tượng), <strong>boost my creativity</strong> (nâng cao sự sáng tạo), <strong>experience different emotions</strong> (trải nghiệm nhiều cảm xúc khác nhau)"
     ]
@@ -804,9 +804,9 @@ export const part2Data = {
       "I have always liked [hoạt động]. It is quite [tính từ] and gives me a good chance to [lợi ích - Vo]."
     ],
     "vocabulary": [
-      "✨ [hoạt động]: <strong>planting trees</strong> (trồng cây), <strong>hiking in the mountains</strong> (đi bộ đường dài trên núi), <strong>camping in the forest</strong> (cắm trại trong rừng)",
-      "✨ [tính từ]: <strong>refreshing</strong> (sảng khoái), <strong>peaceful</strong> (yên bình), <strong>active</strong> (năng động)",
-      "✨ [lợi ích - Vo]: <strong>find peace of mind</strong> (tìm sự bình yên trong tâm trí), <strong>escape from daily stress</strong> (thoát khỏi căng thẳng hàng ngày), <strong>breathe fresh air</strong> (hít thở không khí trong lành), <strong>stay in good shape</strong> (giữ dáng)"
+      "✨ [hoạt động]: <strong>planting trees</strong> (trồng cây), <strong>hiking in the mountains</strong> (đi bộ đường dài trên núi), <strong>camping in the forest</strong> (cắm trại trong rừng), <strong>cycling around the lake</strong> (đạp xe quanh hồ), <strong>bird watching</strong> (ngắm chim chóc), <strong>taking nature photos</strong> (chụp ảnh thiên nhiên)",
+      "✨ [tính từ]: <strong>refreshing</strong> (sảng khoái), <strong>peaceful</strong> (yên bình), <strong>active</strong> (năng động), <strong>breathtaking</strong> (ngoạn mục), <strong>therapeutic</strong> (có tính trị liệu), <strong>invigorating</strong> (tiếp thêm sinh lực)",
+      "✨ [lợi ích - Vo]: <strong>find peace of mind</strong> (tìm sự bình yên trong tâm trí), <strong>escape from daily stress</strong> (thoát khỏi căng thẳng hàng ngày), <strong>breathe fresh air</strong> (hít thở không khí trong lành), <strong>stay in good shape</strong> (giữ dáng), <strong>connect with the natural world</strong> (hòa mình vào thế giới tự nhiên), <strong>recharge my batteries</strong> (nạp lại năng lượng)"
     ]
   },
   "English club 2": {
@@ -888,9 +888,9 @@ export const part2Data = {
       "I have always liked [hoạt động]. It is quite [tính từ] and gives me a good chance to [lợi ích - Vo]."
     ],
     "vocabulary": [
-      "✨ [hoạt động]: <strong>planting trees</strong> (trồng cây), <strong>hiking in the mountains</strong> (đi bộ đường dài trên núi), <strong>camping in the forest</strong> (cắm trại trong rừng)",
-      "✨ [tính từ]: <strong>refreshing</strong> (sảng khoái), <strong>peaceful</strong> (yên bình), <strong>active</strong> (năng động)",
-      "✨ [lợi ích - Vo]: <strong>find peace of mind</strong> (tìm sự bình yên trong tâm trí), <strong>escape from daily stress</strong> (thoát khỏi căng thẳng hàng ngày), <strong>breathe fresh air</strong> (hít thở không khí trong lành), <strong>stay in good shape</strong> (giữ dáng)"
+      "✨ [hoạt động]: <strong>planting trees</strong> (trồng cây), <strong>hiking in the mountains</strong> (đi bộ đường dài trên núi), <strong>camping in the forest</strong> (cắm trại trong rừng), <strong>cycling around the lake</strong> (đạp xe quanh hồ), <strong>bird watching</strong> (ngắm chim chóc), <strong>taking nature photos</strong> (chụp ảnh thiên nhiên)",
+      "✨ [tính từ]: <strong>refreshing</strong> (sảng khoái), <strong>peaceful</strong> (yên bình), <strong>active</strong> (năng động), <strong>breathtaking</strong> (ngoạn mục), <strong>therapeutic</strong> (có tính trị liệu), <strong>invigorating</strong> (tiếp thêm sinh lực)",
+      "✨ [lợi ích - Vo]: <strong>find peace of mind</strong> (tìm sự bình yên trong tâm trí), <strong>escape from daily stress</strong> (thoát khỏi căng thẳng hàng ngày), <strong>breathe fresh air</strong> (hít thở không khí trong lành), <strong>stay in good shape</strong> (giữ dáng), <strong>connect with the natural world</strong> (hòa mình vào thế giới tự nhiên), <strong>recharge my batteries</strong> (nạp lại năng lượng)"
     ]
   },
   "English club 3": {
@@ -1000,9 +1000,9 @@ export const part2Data = {
       "I have always liked [hoạt động]. It is quite [tính từ] and gives me a good chance to [lợi ích - Vo]."
     ],
     "vocabulary": [
-      "✨ [hoạt động]: <strong>planting trees</strong> (trồng cây), <strong>hiking in the mountains</strong> (đi bộ đường dài trên núi), <strong>camping in the forest</strong> (cắm trại trong rừng)",
-      "✨ [tính từ]: <strong>refreshing</strong> (sảng khoái), <strong>peaceful</strong> (yên bình), <strong>active</strong> (năng động)",
-      "✨ [lợi ích - Vo]: <strong>find peace of mind</strong> (tìm sự bình yên trong tâm trí), <strong>escape from daily stress</strong> (thoát khỏi căng thẳng hàng ngày), <strong>breathe fresh air</strong> (hít thở không khí trong lành), <strong>stay in good shape</strong> (giữ dáng)"
+      "✨ [hoạt động]: <strong>planting trees</strong> (trồng cây), <strong>hiking in the mountains</strong> (đi bộ đường dài trên núi), <strong>camping in the forest</strong> (cắm trại trong rừng), <strong>cycling around the lake</strong> (đạp xe quanh hồ), <strong>bird watching</strong> (ngắm chim chóc), <strong>taking nature photos</strong> (chụp ảnh thiên nhiên)",
+      "✨ [tính từ]: <strong>refreshing</strong> (sảng khoái), <strong>peaceful</strong> (yên bình), <strong>active</strong> (năng động), <strong>breathtaking</strong> (ngoạn mục), <strong>therapeutic</strong> (có tính trị liệu), <strong>invigorating</strong> (tiếp thêm sinh lực)",
+      "✨ [lợi ích - Vo]: <strong>find peace of mind</strong> (tìm sự bình yên trong tâm trí), <strong>escape from daily stress</strong> (thoát khỏi căng thẳng hàng ngày), <strong>breathe fresh air</strong> (hít thở không khí trong lành), <strong>stay in good shape</strong> (giữ dáng), <strong>connect with the natural world</strong> (hòa mình vào thế giới tự nhiên), <strong>recharge my batteries</strong> (nạp lại năng lượng)"
     ]
   },
   "Film club": {
