@@ -307,28 +307,28 @@ export const part2Data = {
     "text": "Do you usually watch TV?",
     "samples": [
       {
-        "en": "I am really fond of going to the cinema because it is very entertaining. It helps me find peace of mind and relax after a long day.",
-        "vi": "Tôi rất thích đi xem phim vì nó rất giải trí. Hoạt động này giúp tôi tìm sự bình yên trong tâm trí và thư giãn sau một ngày dài."
+        "en": "Yes, absolutely! I usually spend my free time watching reality shows because it is extremely entertaining and helps me laugh a lot.",
+        "vi": "Vâng, chắc chắn rồi! Tôi thường dành thời gian rảnh xem truyền hình thực tế vì nó cực kỳ giải trí và giúp tôi cười rất nhiều."
       },
       {
-        "en": "What I like most is watching TV series, which is very engaging. It gives me a good opportunity to relax.",
-        "vi": "Điều tôi thích nhất là xem phim truyền hình, việc này rất lôi cuốn. Nó cho tôi cơ hội để thư giãn."
+        "en": "To be honest, yes. I am really fond of watching TV series, which is quite engaging. It gives me an opportunity to spend quality time with family.",
+        "vi": "Thành thật mà nói, vâng. Tôi thực sự thích xem phim truyền hình dài tập, điều này khá lôi cuốn. Nó mang lại cho tôi cơ hội dành thời gian chất lượng bên gia đình."
       },
       {
-        "en": "I often watch blockbusters in my free time because it is thrilling. It allows me to find peace of mind effectively.",
-        "vi": "Tôi thường xem phim bom tấn trong thời gian rảnh vì nó kịch tính. Việc này cho phép tôi tìm thấy sự bình yên hiệu quả."
+        "en": "Definitely! What I like most is following news channels. It is a really informative way to stay informed about world events after a long day.",
+        "vi": "Chắc chắn rồi! Điều tôi thích nhất là theo dõi các kênh tin tức. Đó là một cách thực sự nhiều thông tin để cập nhật các sự kiện thế giới sau một ngày dài."
       }
     ],
     "vi": "Bản dịch gợi ý: Do you usually watch TV?",
     "templates": [
-      "I am really fond of [thể loại / hoạt động] because it is very [tính từ]. It helps me [lợi ích - Vo].",
-      "What I like most is [thể loại / hoạt động], which is very [tính từ]. It gives me an opportunity to [lợi ích - Vo].",
-      "I usually spend my free time [thể loại / hoạt động] because it is [tính từ]. It allows me to [lợi ích - Vo]."
+      "Yes, absolutely! I usually spend my free time [thể loại / hoạt động] because it is extremely [tính từ] and helps me [lợi ích - Vo].",
+      "To be honest, yes. I am really fond of [thể loại / hoạt động], which is quite [tính từ]. It gives me an opportunity to [lợi ích - Vo].",
+      "Definitely! What I like most is [thể loại / hoạt động]. It is a really [tính từ] way to [lợi ích - Vo] after a long day."
     ],
     "vocabulary": [
-      "✨ [thể loại / hoạt động]: <strong>watching blockbusters</strong> (xem phim bom tấn), <strong>going to the cinema</strong> (đi xem phim), <strong>watching TV series</strong> (xem phim truyền hình), <strong>watching live sports</strong> (xem thể thao trực tiếp), <strong>following news channels</strong> (theo dõi các kênh tin tức), <strong>watching educational programs</strong> (xem các chương trình giáo dục)",
-      "✨ [tính từ]: <strong>entertaining</strong> (mang tính giải trí), <strong>engaging</strong> (lôi cuốn), <strong>thrilling</strong> (kịch tính), <strong>informative</strong> (nhiều thông tin), <strong>thought-provoking</strong> (gợi suy nghĩ)",
-      "✨ [lợi ích - Vo]: <strong>find peace of mind</strong> (tìm sự bình yên trong tâm trí), <strong>relax after a long day</strong> (thư giãn sau một ngày dài), <strong>expand my social circle</strong> (mở rộng mối quan hệ xã hội), <strong>stay informed about world events</strong> (cập nhật các sự kiện thế giới), <strong>learn new skills easily</strong> (học kỹ năng mới dễ dàng), <strong>spend quality time with family</strong> (dành thời gian chất lượng bên gia đình)"
+      "✨ [thể loại / hoạt động]: <strong>watching reality shows</strong> (xem truyền hình thực tế), <strong>watching TV series</strong> (xem phim truyền hình), <strong>watching live sports</strong> (xem thể thao trực tiếp), <strong>following news channels</strong> (theo dõi kênh tin tức), <strong>watching educational programs</strong> (xem chương trình giáo dục), <strong>watching documentaries</strong> (xem phim tài liệu)",
+      "✨ [tính từ]: <strong>entertaining</strong> (giải trí), <strong>engaging</strong> (lôi cuốn), <strong>hilarious</strong> (vui nhộn), <strong>informative</strong> (nhiều thông tin), <strong>thought-provoking</strong> (gợi suy nghĩ)",
+      "✨ [lợi ích - Vo]: <strong>find peace of mind</strong> (tìm sự bình yên), <strong>laugh a lot</strong> (cười rất nhiều), <strong>broaden my horizons</strong> (mở mang tầm mắt), <strong>stay informed about world events</strong> (cập nhật sự kiện thế giới), <strong>learn new things easily</strong> (học điều mới dễ dàng), <strong>spend quality time with family</strong> (dành thời gian chất lượng bên gia đình)"
     ]
   },
   "Car club": {
