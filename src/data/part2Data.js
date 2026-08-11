@@ -1142,5 +1142,285 @@ export const part2Data = {
       "✨ [tính từ]: <strong>inspiring</strong> (truyền cảm hứng), <strong>thought-provoking</strong> (gợi suy nghĩ), <strong>fascinating</strong> (hấp dẫn), <strong>entertaining</strong> (mang tính giải trí), <strong>hilarious</strong> (vui nhộn), <strong>thrilling</strong> (kịch tính)",
       "✨ [lợi ích - Vo]: <strong>relax after a long day</strong> (thư giãn sau một ngày dài), <strong>forget my daily stress</strong> (quên đi căng thẳng hằng ngày), <strong>laugh a lot</strong> (cười rất nhiều), <strong>broaden my horizons</strong> (mở mang tầm mắt), <strong>learn meaningful life lessons</strong> (học những bài học ý nghĩa), <strong>find peace of mind</strong> (tìm sự bình yên)"
     ]
+  },
+  "Car club 2": {
+    "text": "Talk about a time when you traveled by car.",
+    "samples": [
+      {
+        "en": "The last time I traveled by car to the coastal city was last month. It was a memorable trip because I could enjoy the beautiful scenery.",
+        "vi": "Lần cuối cùng tôi đi ô tô đến thành phố biển là tháng trước. Đó là một chuyến đi đáng nhớ vì tôi có thể thưởng thức phong cảnh đẹp."
+      },
+      {
+        "en": "I vividly remember driving to the mountainous area with my friends last summer. It was extremely fascinating and helped us bond with each other.",
+        "vi": "Tôi nhớ rất rõ việc lái xe lên vùng núi cùng bạn bè mùa hè năm ngoái. Nó cực kỳ hấp dẫn và giúp chúng tôi gắn kết với nhau."
+      },
+      {
+        "en": "A few weeks ago, I took a car trip to the countryside. It turned out to be a relaxing journey that allowed me to escape from the busy city.",
+        "vi": "Vài tuần trước, tôi đã có chuyến đi ô tô về nông thôn. Hóa ra đó là một hành trình thư giãn cho phép tôi thoát khỏi thành phố bận rộn."
+      }
+    ],
+    "vi": "Bản dịch gợi ý: Talk about a time when you traveled by car.",
+    "templates": [
+      "The last time I traveled by car to [địa điểm] was last month. It was a [tính từ] trip because I could [lợi ích - Vo].",
+      "I vividly remember driving to [địa điểm] with my friends last summer. It was extremely [tính từ] and helped us [lợi ích - Vo].",
+      "A few weeks ago, I took a car trip to [địa điểm]. It turned out to be a [tính từ] journey that allowed me to [lợi ích - Vo]."
+    ],
+    "vocabulary": [
+      "✨ [địa điểm]: <strong>the coastal city</strong> (thành phố biển), <strong>the mountainous area</strong> (vùng núi), <strong>the countryside</strong> (nông thôn)",
+      "✨ [tính từ]: <strong>memorable</strong> (đáng nhớ), <strong>exhausting but fun</strong> (mệt nhưng vui), <strong>fascinating</strong> (hấp dẫn), <strong>relaxing</strong> (thư giãn)",
+      "✨ [lợi ích - Vo]: <strong>enjoy the beautiful scenery</strong> (thưởng thức phong cảnh đẹp), <strong>bond with each other</strong> (gắn kết với nhau), <strong>escape from the busy city</strong> (thoát khỏi thành phố bận rộn)"
+    ]
+  },
+  "Music club 2": {
+    "text": "Tell me about the last time you listened to a good piece of music.",
+    "samples": [
+      {
+        "en": "The last time I listened to classical music was yesterday evening. It was a very relaxing experience because it helped me find peace of mind.",
+        "vi": "Lần cuối cùng tôi nghe nhạc cổ điển là tối hôm qua. Đó là một trải nghiệm rất thư giãn vì nó giúp tôi tìm thấy sự bình yên."
+      },
+      {
+        "en": "It was a memorable night when I enjoyed some jazz music before bedtime. It was extremely inspiring and allowed me to forget my daily stress.",
+        "vi": "Đó là một đêm đáng nhớ khi tôi thưởng thức nhạc jazz trước khi ngủ. Nó cực kỳ truyền cảm hứng và cho phép tôi quên đi căng thẳng hằng ngày."
+      },
+      {
+        "en": "A few days ago, I listened to pop music in my room. It turned out to be an uplifting moment that helped me boost my emotional well-being.",
+        "vi": "Vài ngày trước, tôi nghe nhạc pop trong phòng. Hóa ra đó là một khoảnh khắc phấn chấn giúp tôi nâng cao sức khỏe tinh thần."
+      }
+    ],
+    "vi": "Bản dịch gợi ý: Tell me about the last time you listened to a good piece of music.",
+    "templates": [
+      "The last time I listened to [thể loại nhạc] was yesterday evening. It was a very [tính từ] experience because it helped me [lợi ích - Vo].",
+      "It was a memorable night when I enjoyed some [thể loại nhạc] before bedtime. It was extremely [tính từ] and allowed me to [lợi ích - Vo].",
+      "A few days ago, I listened to [thể loại nhạc] in my room. It turned out to be an [tính từ] moment that helped me [lợi ích - Vo]."
+    ],
+    "vocabulary": [
+      "✨ [thể loại nhạc]: <strong>classical music</strong> (nhạc cổ điển), <strong>pop music</strong> (nhạc pop), <strong>jazz music</strong> (nhạc jazz), <strong>rock music</strong> (nhạc rock)",
+      "✨ [tính từ]: <strong>relaxing</strong> (thư giãn), <strong>inspiring</strong> (truyền cảm hứng), <strong>uplifting</strong> (phấn chấn)",
+      "✨ [lợi ích - Vo]: <strong>find peace of mind</strong> (tìm sự bình yên), <strong>forget my daily stress</strong> (quên đi căng thẳng), <strong>boost my emotional well-being</strong> (nâng cao sức khỏe tinh thần)"
+    ]
+  },
+  "Book club 2": {
+    "text": "What is your favorite type of book?",
+    "samples": [
+      {
+        "en": "My absolute favorite type is science fiction books because it is extremely fascinating. Reading it usually helps me broaden my horizons.",
+        "vi": "Thể loại yêu thích tuyệt đối của tôi là sách khoa học viễn tưởng vì nó cực kỳ hấp dẫn. Việc đọc nó thường giúp tôi mở mang tầm mắt."
+      },
+      {
+        "en": "I am really fond of reading self-help books in my free time. It is very thought-provoking and gives me a chance to learn meaningful life lessons.",
+        "vi": "Tôi thực sự thích đọc sách phát triển bản thân vào thời gian rảnh. Nó rất gợi suy nghĩ và cho tôi cơ hội học những bài học cuộc sống ý nghĩa."
+      },
+      {
+        "en": "To be honest, I mostly read detective novels. It is a highly entertaining genre that allows me to escape from reality effectively.",
+        "vi": "Thành thật mà nói, tôi chủ yếu đọc tiểu thuyết trinh thám. Đây là một thể loại mang tính giải trí cao cho phép tôi thoát khỏi thực tại hiệu quả."
+      }
+    ],
+    "vi": "Bản dịch gợi ý: What is your favorite type of book?",
+    "templates": [
+      "My absolute favorite type is [thể loại sách] because it is extremely [tính từ]. Reading it usually helps me [lợi ích - Vo].",
+      "I am really fond of reading [thể loại sách] in my free time. It is very [tính từ] and gives me a chance to [lợi ích - Vo].",
+      "To be honest, I mostly read [thể loại sách]. It is a highly [tính từ] genre that allows me to [lợi ích - Vo] effectively."
+    ],
+    "vocabulary": [
+      "✨ [thể loại sách]: <strong>science fiction books</strong> (sách khoa học viễn tưởng), <strong>detective novels</strong> (tiểu thuyết trinh thám), <strong>self-help books</strong> (sách phát triển bản thân), <strong>historical books</strong> (sách lịch sử)",
+      "✨ [tính từ]: <strong>fascinating</strong> (hấp dẫn), <strong>thought-provoking</strong> (gợi suy nghĩ), <strong>entertaining</strong> (mang tính giải trí)",
+      "✨ [lợi ích - Vo]: <strong>broaden my horizons</strong> (mở mang tầm mắt), <strong>learn meaningful life lessons</strong> (học bài học ý nghĩa), <strong>escape from reality</strong> (thoát khỏi thực tại)"
+    ]
+  },
+  "Living home club": {
+    "text": "When you're little, how do you feel when you have to share a room with your siblings?",
+    "samples": [
+      {
+        "en": "When I was little, I felt quite annoyed at first about sharing a room. However, it helped us learn to compromise and we often played games together.",
+        "vi": "Khi còn nhỏ, ban đầu tôi cảm thấy khá bực bội khi phải chung phòng. Tuy nhiên, nó giúp chúng tôi học cách thỏa hiệp và chúng tôi thường chơi game cùng nhau."
+      },
+      {
+        "en": "To be honest, I was a bit uncomfortable when sharing a room with my siblings. Fortunately, we could chat before sleeping and bond with each other.",
+        "vi": "Thành thật mà nói, tôi hơi không thoải mái khi chung phòng với anh chị em. May mắn thay, chúng tôi có thể trò chuyện trước khi ngủ và gắn kết với nhau."
+      },
+      {
+        "en": "I actually felt really excited and happy about sharing a room. But on the bright side, we usually shared our daily stories and it taught me to become more independent.",
+        "vi": "Tôi thực sự cảm thấy thực sự hào hứng và vui vẻ khi chia sẻ phòng. Nhưng mặt tích cực là, chúng tôi thường chia sẻ chuyện hằng ngày và nó dạy tôi trở nên tự lập hơn."
+      }
+    ],
+    "vi": "Bản dịch gợi ý: When you're little, how do you feel when you have to share a room with your siblings?",
+    "templates": [
+      "When I was little, I felt [cảm xúc] about sharing a room. However, it helped us [lợi ích / bài học] and we often [hoạt động].",
+      "To be honest, I was [cảm xúc] when sharing a room with my siblings. Fortunately, we could [hoạt động] and [lợi ích / bài học].",
+      "I actually felt [cảm xúc] about sharing a room. But on the bright side, we usually [hoạt động] and it taught me to [lợi ích / bài học]."
+    ],
+    "vocabulary": [
+      "✨ [cảm xúc]: <strong>quite annoyed at first</strong> (khá bực bội lúc đầu), <strong>really excited and happy</strong> (thực sự hào hứng và vui vẻ), <strong>a bit uncomfortable</strong> (hơi không thoải mái)",
+      "✨ [lợi ích / bài học]: <strong>learn to compromise</strong> (học cách thỏa hiệp), <strong>bond with each other</strong> (gắn kết với nhau), <strong>become more independent</strong> (trở nên tự lập hơn)",
+      "✨ [hoạt động]: <strong>played games together</strong> (chơi game cùng nhau), <strong>chat before sleeping</strong> (trò chuyện trước khi ngủ), <strong>shared our daily stories</strong> (chia sẻ chuyện hằng ngày)"
+    ]
+  },
+  "Social club 2": {
+    "text": "Tell me about the first time you met your best friend.",
+    "samples": [
+      {
+        "en": "The first time we met was in secondary school. My best friend was extremely friendly and approachable, which helped us become close friends instantly.",
+        "vi": "Lần đầu tiên chúng tôi gặp nhau là ở trường cấp hai. Bạn thân của tôi vô cùng thân thiện và dễ gần, điều này giúp chúng tôi trở thành bạn thân ngay lập tức."
+      },
+      {
+        "en": "I vividly remember meeting my best friend at a university club. She was quite humorous and talkative and we managed to share many common interests very quickly.",
+        "vi": "Tôi nhớ rất rõ việc gặp bạn thân tại một câu lạc bộ đại học. Cô ấy khá hài hước và nói nhiều và chúng tôi đã chia sẻ được nhiều sở thích chung rất nhanh."
+      },
+      {
+        "en": "We first bumped into each other at a birthday party. He appeared to be a kind-hearted and supportive person, and we naturally had a lot of fun together.",
+        "vi": "Chúng tôi tình cờ gặp nhau lần đầu tại một bữa tiệc sinh nhật. Anh ấy có vẻ là một người nhân hậu và hay hỗ trợ, và chúng tôi tự nhiên có nhiều niềm vui cùng nhau."
+      }
+    ],
+    "vi": "Bản dịch gợi ý: Tell me about the first time you met your best friend.",
+    "templates": [
+      "The first time we met was [địa điểm/thời điểm]. My best friend was extremely [tính từ], which helped us [lợi ích/kết quả].",
+      "I vividly remember meeting my best friend [địa điểm/thời điểm]. She was quite [tính từ] and we managed to [lợi ích/kết quả] very quickly.",
+      "We first bumped into each other [địa điểm/thời điểm]. He appeared to be a [tính từ] person, and we naturally [lợi ích/kết quả]."
+    ],
+    "vocabulary": [
+      "✨ [địa điểm/thời điểm]: <strong>in secondary school</strong> (ở trường cấp hai), <strong>at a university club</strong> (tại câu lạc bộ đại học), <strong>at a birthday party</strong> (tại một bữa tiệc sinh nhật)",
+      "✨ [tính từ]: <strong>friendly and approachable</strong> (thân thiện và dễ gần), <strong>humorous and talkative</strong> (hài hước và nói nhiều), <strong>kind-hearted and supportive</strong> (nhân hậu và biết hỗ trợ)",
+      "✨ [lợi ích/kết quả]: <strong>become close friends instantly</strong> (trở thành bạn thân ngay lập tức), <strong>share many common interests</strong> (chia sẻ nhiều sở thích chung), <strong>have a lot of fun together</strong> (có nhiều niềm vui cùng nhau)"
+    ]
+  },
+  "Photography club 2": {
+    "text": "When and where do you like taking photos?",
+    "samples": [
+      {
+        "en": "I usually like taking photos at the local park early in the morning. It is a wonderful way to capture the beauty of nature.",
+        "vi": "Tôi thường thích chụp ảnh ở công viên địa phương vào sáng sớm. Đó là một cách tuyệt vời để ghi lại vẻ đẹp thiên nhiên."
+      },
+      {
+        "en": "My favorite routine is taking pictures in bustling city streets during golden hour. This enjoyable hobby always helps me express my artistic vision.",
+        "vi": "Thói quen yêu thích của tôi là chụp ảnh trên những con phố sầm uất trong giờ vàng. Sở thích thú vị này luôn giúp tôi thể hiện góc nhìn nghệ thuật."
+      },
+      {
+        "en": "I am really fond of shooting photos on sunny weekends, especially in mountainous areas. It gives me a great chance to find peace of mind.",
+        "vi": "Tôi thực sự thích chụp ảnh vào những ngày cuối tuần đầy nắng, đặc biệt là ở vùng núi. Nó cho tôi cơ hội tuyệt vời để tìm sự bình yên."
+      }
+    ],
+    "vi": "Bản dịch gợi ý: When and where do you like taking photos?",
+    "templates": [
+      "I usually like taking photos [địa điểm] [thời gian]. It is a wonderful way to [lợi ích - Vo].",
+      "My favorite routine is taking pictures [địa điểm] [thời gian]. This enjoyable hobby always helps me [lợi ích - Vo].",
+      "I am really fond of shooting photos [thời gian], especially [địa điểm]. It gives me a great chance to [lợi ích - Vo]."
+    ],
+    "vocabulary": [
+      "✨ [thời gian]: <strong>early in the morning</strong> (vào sáng sớm), <strong>during golden hour</strong> (trong giờ vàng), <strong>on sunny weekends</strong> (vào những ngày cuối tuần đầy nắng)",
+      "✨ [địa điểm]: <strong>at the local park</strong> (ở công viên địa phương), <strong>in bustling city streets</strong> (trên những con phố sầm uất), <strong>in mountainous areas</strong> (ở vùng núi)",
+      "✨ [lợi ích - Vo]: <strong>capture the beauty of nature</strong> (ghi lại vẻ đẹp thiên nhiên), <strong>express my artistic vision</strong> (thể hiện góc nhìn nghệ thuật), <strong>find peace of mind</strong> (tìm sự bình yên)"
+    ]
+  },
+  "Food club 2": {
+    "text": "What do you often eat for breakfast?",
+    "samples": [
+      {
+        "en": "I usually have a bowl of beef noodles and a cup of black coffee for breakfast. It is very delicious and helps me start a productive day.",
+        "vi": "Tôi thường ăn một bát phở bò và một cốc cà phê đen cho bữa sáng. Nó rất ngon và giúp tôi bắt đầu một ngày làm việc hiệu quả."
+      },
+      {
+        "en": "For my daily breakfast, I often consume some bread and eggs with a glass of orange juice. This healthy meal allows me to stay energetic all morning.",
+        "vi": "Đối với bữa sáng hàng ngày, tôi thường tiêu thụ bánh mì và trứng cùng một ly nước cam. Bữa ăn lành mạnh này cho phép tôi giữ năng lượng suốt cả buổi sáng."
+      },
+      {
+        "en": "I am really fond of eating a plate of broken rice and drinking some hot green tea every morning. It is a great way to boost my immune system.",
+        "vi": "Tôi thực sự thích ăn một đĩa cơm tấm và uống chút trà xanh nóng mỗi sáng. Đó là một cách tuyệt vời để tăng cường hệ thống miễn dịch của tôi."
+      }
+    ],
+    "vi": "Bản dịch gợi ý: What do you often eat for breakfast?",
+    "templates": [
+      "I usually have [món ăn] and [thức uống] for breakfast. It is very delicious and helps me [lợi ích - Vo].",
+      "For my daily breakfast, I often consume [món ăn] with [thức uống]. This healthy meal allows me to [lợi ích - Vo].",
+      "I am really fond of eating [món ăn] and drinking [thức uống] every morning. It is a great way to [lợi ích - Vo]."
+    ],
+    "vocabulary": [
+      "✨ [món ăn]: <strong>a bowl of beef noodles</strong> (một bát phở bò), <strong>some bread and eggs</strong> (bánh mì và trứng), <strong>a plate of broken rice</strong> (một đĩa cơm tấm)",
+      "✨ [thức uống]: <strong>a cup of black coffee</strong> (một cốc cà phê đen), <strong>a glass of orange juice</strong> (một ly nước cam), <strong>some hot green tea</strong> (trà xanh nóng)",
+      "✨ [lợi ích - Vo]: <strong>start a productive day</strong> (bắt đầu một ngày hiệu quả), <strong>stay energetic all morning</strong> (giữ năng lượng suốt cả sáng), <strong>boost my immune system</strong> (tăng cường hệ miễn dịch)"
+    ]
+  },
+  "Sport club 2": {
+    "text": "Tell me about the last time you played or watched a sport.",
+    "samples": [
+      {
+        "en": "The last time I enjoyed a thrilling football match was last weekend. It was an unforgettable experience that helped me release my negative emotions.",
+        "vi": "Lần cuối cùng tôi thưởng thức một trận bóng đá kịch tính là cuối tuần trước. Đó là một trải nghiệm khó quên giúp tôi giải tỏa cảm xúc tiêu cực."
+      },
+      {
+        "en": "I vividly remember watching a competitive tennis game a few days ago. It was extremely entertaining and allowed me to feel completely relaxed.",
+        "vi": "Tôi nhớ rất rõ việc xem một trận đấu quần vợt cạnh tranh vài ngày trước. Nó vô cùng giải trí và cho phép tôi cảm thấy hoàn toàn thư giãn."
+      },
+      {
+        "en": "A couple of weeks ago, I participated in an exciting basketball game. It turned out to be a breath-taking day and I could bond with my close friends.",
+        "vi": "Vài tuần trước, tôi tham gia một trận bóng rổ thú vị. Hóa ra đó là một ngày ngoạn mục và tôi có thể gắn kết với bạn bè thân thiết."
+      }
+    ],
+    "vi": "Bản dịch gợi ý: Tell me about the last time you played or watched a sport.",
+    "templates": [
+      "The last time I enjoyed [môn thể thao] was last weekend. It was an [tính từ] experience that helped me [lợi ích - Vo].",
+      "I vividly remember watching [môn thể thao] a few days ago. It was extremely [tính từ] and allowed me to [lợi ích - Vo].",
+      "A couple of weeks ago, I participated in [môn thể thao]. It turned out to be a [tính từ] day and I could [lợi ích - Vo]."
+    ],
+    "vocabulary": [
+      "✨ [môn thể thao]: <strong>a thrilling football match</strong> (một trận bóng đá kịch tính), <strong>a competitive tennis game</strong> (một trận quần vợt cạnh tranh), <strong>an exciting basketball game</strong> (một trận bóng rổ thú vị)",
+      "✨ [tính từ]: <strong>breath-taking</strong> (ngoạn mục), <strong>entertaining</strong> (mang tính giải trí), <strong>unforgettable</strong> (khó quên)",
+      "✨ [lợi ích - Vo]: <strong>release my negative emotions</strong> (giải tỏa cảm xúc tiêu cực), <strong>feel completely relaxed</strong> (cảm thấy hoàn toàn thư giãn), <strong>bond with my close friends</strong> (gắn kết với bạn thân)"
+    ]
+  },
+  "Walking club 2": {
+    "text": "When and where do you often go for a walk?",
+    "samples": [
+      {
+        "en": "I usually go for a walk around the beautiful lake early in the morning. It is a relaxing habit that helps me breathe the fresh air.",
+        "vi": "Tôi thường đi dạo quanh hồ nước đẹp vào sáng sớm. Đó là một thói quen thư giãn giúp tôi hít thở không khí trong lành."
+      },
+      {
+        "en": "My favorite routine is strolling in the local park late in the evening. This simple activity always gives me a chance to clear my mind effectively.",
+        "vi": "Thói quen yêu thích của tôi là đi dạo trong công viên địa phương vào chiều muộn. Hoạt động đơn giản này luôn cho tôi cơ hội làm thanh thản tâm trí hiệu quả."
+      },
+      {
+        "en": "To be honest, I often walk along the peaceful beach on Sunday mornings. It is an excellent way to stay in good shape.",
+        "vi": "Thành thật mà nói, tôi thường đi dọc bãi biển thanh bình vào các buổi sáng Chủ nhật. Đó là một cách tuyệt vời để giữ dáng."
+      }
+    ],
+    "vi": "Bản dịch gợi ý: When and where do you often go for a walk?",
+    "templates": [
+      "I usually go for a walk [địa điểm] [thời gian]. It is a relaxing habit that helps me [lợi ích - Vo].",
+      "My favorite routine is strolling [địa điểm] [thời gian]. This simple activity always gives me a chance to [lợi ích - Vo].",
+      "To be honest, I often walk [địa điểm] [thời gian]. It is an excellent way to [lợi ích - Vo]."
+    ],
+    "vocabulary": [
+      "✨ [thời gian]: <strong>early in the morning</strong> (vào sáng sớm), <strong>late in the evening</strong> (vào chiều muộn), <strong>on Sunday mornings</strong> (vào sáng Chủ nhật)",
+      "✨ [địa điểm]: <strong>around the beautiful lake</strong> (quanh hồ nước đẹp), <strong>in the local park</strong> (trong công viên địa phương), <strong>along the peaceful beach</strong> (dọc bãi biển thanh bình)",
+      "✨ [lợi ích - Vo]: <strong>breathe the fresh air</strong> (hít thở không khí trong lành), <strong>clear my mind effectively</strong> (làm thanh thản tâm trí hiệu quả), <strong>stay in good shape</strong> (giữ dáng)"
+    ]
+  },
+  "Television club 2": {
+    "text": "When and what do you often watch on TV?",
+    "samples": [
+      {
+        "en": "I usually watch some reality shows on TV during dinner time. It is very entertaining and helps me laugh out loud.",
+        "vi": "Tôi thường xem vài chương trình thực tế trên tivi trong bữa tối. Nó rất giải trí và giúp tôi cười sảng khoái."
+      },
+      {
+        "en": "My favorite habit is enjoying fascinating documentaries before going to bed. This always makes me feel relaxed and allows me to broaden my horizons.",
+        "vi": "Thói quen yêu thích của tôi là thưởng thức phim tài liệu hấp dẫn trước khi ngủ. Điều này luôn khiến tôi cảm thấy thư giãn và cho phép tôi mở mang tầm mắt."
+      },
+      {
+        "en": "To be honest, I often spend time watching the daily news on lazy weekends. It is a wonderful way to catch up on world events.",
+        "vi": "Thành thật mà nói, tôi thường dành thời gian xem tin tức hàng ngày vào những ngày cuối tuần lười biếng. Đó là một cách tuyệt vời để cập nhật sự kiện thế giới."
+      }
+    ],
+    "vi": "Bản dịch gợi ý: When and what do you often watch on TV?",
+    "templates": [
+      "I usually watch [chương trình] on TV [thời gian]. It is very entertaining and helps me [lợi ích - Vo].",
+      "My favorite habit is enjoying [chương trình] [thời gian]. This always makes me feel relaxed and allows me to [lợi ích - Vo].",
+      "To be honest, I often spend time watching [chương trình] [thời gian]. It is a wonderful way to [lợi ích - Vo]."
+    ],
+    "vocabulary": [
+      "✨ [thời gian]: <strong>during dinner time</strong> (trong bữa tối), <strong>before going to bed</strong> (trước khi đi ngủ), <strong>on lazy weekends</strong> (vào những ngày cuối tuần lười biếng)",
+      "✨ [chương trình]: <strong>some reality shows</strong> (vài chương trình thực tế), <strong>the daily news</strong> (tin tức hàng ngày), <strong>fascinating documentaries</strong> (phim tài liệu hấp dẫn)",
+      "✨ [lợi ích - Vo]: <strong>catch up on world events</strong> (cập nhật sự kiện thế giới), <strong>laugh out loud</strong> (cười sảng khoái), <strong>broaden my horizons</strong> (mở mang tầm mắt)"
+    ]
   }
 };
