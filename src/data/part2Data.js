@@ -52,7 +52,7 @@ export const part2Data = {
     "vocabulary": [
       "✨ [địa điểm]: <strong>local restaurants</strong> (nhà hàng địa phương), <strong>cozy cafes</strong> (quán cà phê ấm cúng), <strong>my home kitchen</strong> (bếp nhà tôi), <strong>upscale dining places</strong> (nhà hàng sang trọng), <strong>street food stalls</strong> (quầy thức ăn đường phố), <strong>food courts</strong> (khu ẩm thực)",
       "✨ [tính từ]: <strong>delicious</strong> (ngon miệng), <strong>nutritious</strong> (bổ dưỡng), <strong>convenient</strong> (tiện lợi), <strong>mouth-watering</strong> (ngon chảy nước miếng), <strong>flavorful</strong> (đậm đà hương vị), <strong>hygienic</strong> (hợp vệ sinh)",
-      "✨ [lợi ích - Vo]: <strong>stay healthy</strong> (duy trì sức khỏe), <strong>improve my mood</strong> (cải thiện tâm trạng), <strong>save time</strong> (tiết kiệm thời gian), <strong>explore diverse cuisines</strong> (khám phá các nền ẩm thực đa dạng), <strong>bond with family members</strong> (gắn kết với các thành viên trong gia đình), <strong>satisfy my cravings</strong> (thỏa mãn cơn thèm ăn)"
+      "✨ [lợi ích - Vo]: <strong>stay healthy</strong> (duy trì sức khỏe), <strong>improve my mood</strong> (cải thiện tâm trạng), <strong>save time</strong> (tiết kiệm thời gian), <strong>explore diverse cuisines</strong> (khám phá các nền ẩm thực đa dạng), <strong>bond with family members</strong> (gắn kết với các thành viên trong gia đình), <strong>satisfy my cravings</strong> (thỏa mãn cơn thèm ăn), <strong>enjoy delicious food</strong> (thưởng thức đồ ăn ngon)"
     ]
   },
   "Social club": {
