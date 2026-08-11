@@ -59,28 +59,28 @@ export const part2Data = {
     "text": "Tell me about your best friend.",
     "samples": [
       {
-        "en": "I usually talk about current events with my best friend. It is a good way to widen my knowledge and improve my communication skills.",
-        "vi": "Tôi thường nói về các sự kiện thời sự với bạn thân. Đây là một cách tốt để mở rộng kiến thức và cải thiện kỹ năng giao tiếp."
+        "en": "I would like to talk about my best friend. She is extremely kind-hearted, and spending time with her helps me find peace of mind.",
+        "vi": "Tôi muốn kể về người bạn thân nhất của mình. Cô ấy vô cùng nhân hậu, và việc dành thời gian bên cô ấy giúp tôi tìm thấy sự bình yên trong tâm trí."
       },
       {
-        "en": "Because I am quite curious, I tend to discuss future goals with my friends. It is very engaging and helps me build my confidence effectively.",
-        "vi": "Vì khá tò mò, tôi thường thảo luận mục tiêu tương lai với bạn bè. Nó rất lôi cuốn và giúp tôi xây dựng sự tự tin hiệu quả."
+        "en": "Let me tell you about my best friend. He is quite humorous and we always enjoy playing sports together in our free time.",
+        "vi": "Hãy để tôi kể cho bạn nghe về bạn thân của tôi. Anh ấy khá hài hước và chúng tôi luôn thích cùng nhau chơi thể thao vào thời gian rảnh."
       },
       {
-        "en": "I really enjoy debating social issues with my friends every weekend. It not only improves my communication skills but also makes me feel productive.",
-        "vi": "Tôi rất thích tranh luận các vấn đề xã hội với bạn bè mỗi cuối tuần. Nó không chỉ cải thiện kỹ năng giao tiếp mà còn làm tôi cảm thấy năng suất."
+        "en": "My best friend is a great person. We have been friends for a long time and traveling to new places together helps us overcome my difficulties.",
+        "vi": "Bạn thân của tôi là một người tuyệt vời. Chúng tôi đã là bạn từ lâu và việc cùng nhau du lịch đến những nơi mới giúp chúng tôi vượt qua khó khăn."
       }
     ],
     "vi": "Bản dịch gợi ý: Tell me about your best friend.",
     "templates": [
-      "I usually talk about [chủ đề] with my best friend. It is a good way to [lợi ích - Vo].",
-      "Because I am quite curious, I tend to discuss [chủ đề] with my friends. It is very [tính từ] and helps me [lợi ích - Vo].",
-      "I really enjoy debating [chủ đề] with my friends every weekend. It not only [lợi ích - Vo s/es] but also makes me feel productive."
+      "I would like to talk about my best friend. She is extremely [tính từ], and spending time with her helps me [lợi ích - Vo].",
+      "Let me tell you about my best friend. He is quite [tính từ] and we always enjoy [hoạt động - Ving] together in our free time.",
+      "My best friend is a great person. We have been friends for a long time and [hoạt động - Ving] together helps us [lợi ích - Vo]."
     ],
     "vocabulary": [
-      "✨ [chủ đề]: <strong>current events</strong> (sự kiện thời sự), <strong>controversial issues</strong> (các vấn đề gây tranh cãi), <strong>books we have read</strong> (những cuốn sách đã đọc), <strong>movies we have watched</strong> (những bộ phim đã xem), <strong>our future goals</strong> (mục tiêu tương lai của chúng tôi), <strong>social issues</strong> (các vấn đề xã hội), <strong>our daily struggles</strong> (những khó khăn hàng ngày), <strong>career opportunities</strong> (các cơ hội nghề nghiệp)",
-      "✨ [tính từ]: <strong>informative</strong> (nhiều thông tin), <strong>engaging</strong> (lôi cuốn), <strong>insightful</strong> (sâu sắc), <strong>mind-blowing</strong> (gây kinh ngạc), <strong>thought-provoking</strong> (gợi suy nghĩ), <strong>fascinating</strong> (hấp dẫn)",
-      "✨ [lợi ích - Vo]: <strong>widen my knowledge</strong> (mở rộng kiến thức), <strong>improve my critical thinking</strong> (cải thiện tư duy phản biện), <strong>see different perspectives</strong> (nhìn nhận các góc độ khác nhau), <strong>improve my communication skills</strong> (cải thiện kỹ năng giao tiếp), <strong>boost my confidence</strong> (nâng cao sự tự tin), <strong>learn from each other</strong> (học hỏi lẫn nhau), <strong>expand my professional network</strong> (mở rộng mạng lưới chuyên môn), <strong>improve my negotiation skills</strong> (cải thiện kỹ năng đàm phán), <strong>share my work experiences</strong> (chia sẻ kinh nghiệm làm việc), <strong>learn to listen to others</strong> (học cách lắng nghe người khác), <strong>defend my opinions logically</strong> (bảo vệ ý kiến một cách có logic), <strong>solve problems effectively</strong> (giải quyết vấn đề hiệu quả)"
+      "✨ [tính từ]: <strong>kind-hearted</strong> (nhân hậu), <strong>supportive</strong> (luôn hỗ trợ), <strong>optimistic</strong> (lạc quan), <strong>generous</strong> (hào phóng), <strong>trustworthy</strong> (đáng tin cậy), <strong>humorous</strong> (hài hước)",
+      "✨ [hoạt động - Ving]: <strong>hanging out at cafes</strong> (đi cà phê), <strong>sharing our daily stories</strong> (chia sẻ câu chuyện hằng ngày), <strong>going shopping</strong> (đi mua sắm), <strong>playing sports</strong> (chơi thể thao), <strong>traveling to new places</strong> (du lịch đến những nơi mới), <strong>studying for exams</strong> (học cho kỳ thi)",
+      "✨ [lợi ích - Vo]: <strong>find peace of mind</strong> (tìm sự bình yên trong tâm trí), <strong>overcome my difficulties</strong> (vượt qua khó khăn), <strong>forget my daily stress</strong> (quên đi căng thẳng hằng ngày), <strong>laugh a lot</strong> (cười rất nhiều), <strong>become a better person</strong> (trở thành một người tốt hơn), <strong>feel loved and respected</strong> (cảm thấy được yêu thương và tôn trọng)"
     ]
   },
   "Beautiful homes club": {
