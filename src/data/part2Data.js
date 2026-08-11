@@ -412,7 +412,7 @@ export const part2Data = {
     ],
     "vocabulary": [
       "✨ [sở thích]: <strong>traveling</strong> (du lịch), <strong>exploring new places</strong> (khám phá vùng đất mới), <strong>learning about cultures</strong> (tìm hiểu văn hóa), <strong>taking photographs</strong> (chụp ảnh), <strong>trying local cuisines</strong> (thử các món ăn địa phương), <strong>backpacking around the world</strong> (du lịch bụi vòng quanh thế giới)",
-      "✨ [lợi ích - Vo]: <strong>discover new places</strong> (khám phá những nơi mới), <strong>explore different cultures</strong> (tìm hiểu các nền văn hóa khác nhau), <strong>create unforgettable memories</strong> (tạo ra những kỷ niệm khó quên), <strong>broaden my horizons</strong> (mở rộng tầm nhìn), <strong>step out of my comfort zone</strong> (bước ra khỏi vùng an toàn), <strong>meet interesting people</strong> (gặp gỡ những người thú vị), <strong>unwind after a busy month</strong> (thư giãn sau một tháng bận rộn)"
+      "✨ [lợi ích - Vo]: <strong>discover new places</strong> (khám phá những nơi mới), <strong>explore different cultures</strong> (tìm hiểu các nền văn hóa khác nhau), <strong>create unforgettable memories</strong> (tạo ra những kỷ niệm khó quên), <strong>broaden my horizons</strong> (mở rộng tầm nhìn), <strong>step out of my comfort zone</strong> (bước ra khỏi vùng an toàn), <strong>meet interesting people</strong> (gặp gỡ những người thú vị), <strong>unwind after a busy month</strong> (thư giãn sau một tháng bận rộn), <strong>immerse myself in nature</strong> (đắm mình vào thiên nhiên)"
     ]
   },
   "Cinema club": {
@@ -497,7 +497,7 @@ export const part2Data = {
     "vocabulary": [
       "✨ [địa điểm]: <strong>the coastal city</strong> (thành phố biển), <strong>the mountainous area</strong> (vùng núi), <strong>historic towns</strong> (thị trấn lịch sử), <strong>national parks</strong> (công viên quốc gia), <strong>remote islands</strong> (hòn đảo xa xôi), <strong>bustling metropolises</strong> (các đô thị sầm uất)",
       "✨ [tính từ]: <strong>breathtaking</strong> (ngoạn mục), <strong>peaceful</strong> (yên bình), <strong>stunning</strong> (tuyệt đẹp), <strong>picturesque</strong> (đẹp như tranh), <strong>vibrant</strong> (sôi động), <strong>culturally rich</strong> (giàu bản sắc văn hóa)",
-      "✨ [lợi ích - Vo]: <strong>escape from daily stress</strong> (thoát khỏi căng thẳng hằng ngày), <strong>balance my life</strong> (cân bằng cuộc sống), <strong>boost my emotional well-being</strong> (nâng cao sức khỏe tinh thần), <strong>regain my energy</strong> (nạp lại năng lượng), <strong>broaden my horizons</strong> (mở rộng tầm nhìn), <strong>experience new lifestyles</strong> (trải nghiệm lối sống mới)"
+      "✨ [lợi ích - Vo]: <strong>escape from daily stress</strong> (thoát khỏi căng thẳng hằng ngày), <strong>balance my life</strong> (cân bằng cuộc sống), <strong>boost my emotional well-being</strong> (nâng cao sức khỏe tinh thần), <strong>regain my energy</strong> (nạp lại năng lượng), <strong>broaden my horizons</strong> (mở rộng tầm nhìn), <strong>experience new lifestyles</strong> (trải nghiệm lối sống mới), <strong>immerse myself in nature</strong> (đắm mình vào thiên nhiên)"
     ]
   },
   "College club": {
@@ -581,7 +581,7 @@ export const part2Data = {
     "vocabulary": [
       "✨ [hoạt động - V2/ed]: <strong>went for a walk in the park</strong> (đi dạo trong công viên), <strong>strolled around the lake</strong> (đi dạo quanh hồ), <strong>hiked up a small hill</strong> (đi bộ lên một ngọn đồi nhỏ), <strong>walked along the beach</strong> (đi dọc bãi biển), <strong>wandered around the city center</strong> (đi lang thang quanh trung tâm thành phố), <strong>took a long walk in the countryside</strong> (đi bộ đường dài ở nông thôn)",
       "✨ [tính từ]: <strong>refreshing</strong> (sảng khoái), <strong>peaceful</strong> (yên bình), <strong>relaxing</strong> (thư giãn), <strong>therapeutic</strong> (có tính trị liệu), <strong>invigorating</strong> (tiếp thêm sinh lực), <strong>tranquil</strong> (thanh bình)",
-      "✨ [lợi ích - Vo]: <strong>clear my mind</strong> (làm cho tâm trí thanh thản), <strong>enjoy the fresh air</strong> (tận hưởng không khí trong lành), <strong>stay in good shape</strong> (giữ dáng), <strong>reflect on my daily life</strong> (suy ngẫm về cuộc sống hằng ngày), <strong>escape from the busy city</strong> (thoát khỏi thành phố bận rộn), <strong>stretch my legs after work</strong> (thư giãn gân cốt sau giờ làm)"
+      "✨ [lợi ích - Vo]: <strong>clear my mind</strong> (làm cho tâm trí thanh thản), <strong>enjoy the fresh air</strong> (tận hưởng không khí trong lành), <strong>stay in good shape</strong> (giữ dáng), <strong>reflect on my daily life</strong> (suy ngẫm về cuộc sống hằng ngày), <strong>escape from the busy city</strong> (thoát khỏi thành phố bận rộn), <strong>stretch my legs after work</strong> (thư giãn gân cốt sau giờ làm), <strong>immerse myself in nature</strong> (đắm mình vào thiên nhiên)"
     ]
   },
   "Community club": {
@@ -806,7 +806,7 @@ export const part2Data = {
     "vocabulary": [
       "✨ [hoạt động]: <strong>planting trees</strong> (trồng cây), <strong>hiking in the mountains</strong> (đi bộ đường dài trên núi), <strong>camping in the forest</strong> (cắm trại trong rừng), <strong>cycling around the lake</strong> (đạp xe quanh hồ), <strong>bird watching</strong> (ngắm chim chóc), <strong>taking nature photos</strong> (chụp ảnh thiên nhiên)",
       "✨ [tính từ]: <strong>refreshing</strong> (sảng khoái), <strong>peaceful</strong> (yên bình), <strong>active</strong> (năng động), <strong>breathtaking</strong> (ngoạn mục), <strong>therapeutic</strong> (có tính trị liệu), <strong>invigorating</strong> (tiếp thêm sinh lực)",
-      "✨ [lợi ích - Vo]: <strong>find peace of mind</strong> (tìm sự bình yên trong tâm trí), <strong>escape from daily stress</strong> (thoát khỏi căng thẳng hàng ngày), <strong>breathe fresh air</strong> (hít thở không khí trong lành), <strong>stay in good shape</strong> (giữ dáng), <strong>connect with the natural world</strong> (hòa mình vào thế giới tự nhiên), <strong>recharge my batteries</strong> (nạp lại năng lượng)"
+      "✨ [lợi ích - Vo]: <strong>find peace of mind</strong> (tìm sự bình yên trong tâm trí), <strong>escape from daily stress</strong> (thoát khỏi căng thẳng hàng ngày), <strong>breathe fresh air</strong> (hít thở không khí trong lành), <strong>stay in good shape</strong> (giữ dáng), <strong>connect with the natural world</strong> (hòa mình vào thế giới tự nhiên), <strong>recharge my batteries</strong> (nạp lại năng lượng), <strong>immerse myself in nature</strong> (đắm mình vào thiên nhiên)"
     ]
   },
   "English club 2": {
@@ -890,7 +890,7 @@ export const part2Data = {
     "vocabulary": [
       "✨ [hoạt động]: <strong>planting trees</strong> (trồng cây), <strong>hiking in the mountains</strong> (đi bộ đường dài trên núi), <strong>camping in the forest</strong> (cắm trại trong rừng), <strong>cycling around the lake</strong> (đạp xe quanh hồ), <strong>bird watching</strong> (ngắm chim chóc), <strong>taking nature photos</strong> (chụp ảnh thiên nhiên)",
       "✨ [tính từ]: <strong>refreshing</strong> (sảng khoái), <strong>peaceful</strong> (yên bình), <strong>active</strong> (năng động), <strong>breathtaking</strong> (ngoạn mục), <strong>therapeutic</strong> (có tính trị liệu), <strong>invigorating</strong> (tiếp thêm sinh lực)",
-      "✨ [lợi ích - Vo]: <strong>find peace of mind</strong> (tìm sự bình yên trong tâm trí), <strong>escape from daily stress</strong> (thoát khỏi căng thẳng hàng ngày), <strong>breathe fresh air</strong> (hít thở không khí trong lành), <strong>stay in good shape</strong> (giữ dáng), <strong>connect with the natural world</strong> (hòa mình vào thế giới tự nhiên), <strong>recharge my batteries</strong> (nạp lại năng lượng)"
+      "✨ [lợi ích - Vo]: <strong>find peace of mind</strong> (tìm sự bình yên trong tâm trí), <strong>escape from daily stress</strong> (thoát khỏi căng thẳng hàng ngày), <strong>breathe fresh air</strong> (hít thở không khí trong lành), <strong>stay in good shape</strong> (giữ dáng), <strong>connect with the natural world</strong> (hòa mình vào thế giới tự nhiên), <strong>recharge my batteries</strong> (nạp lại năng lượng), <strong>immerse myself in nature</strong> (đắm mình vào thiên nhiên)"
     ]
   },
   "English club 3": {
@@ -974,7 +974,7 @@ export const part2Data = {
     "vocabulary": [
       "✨ [hoạt động - V2/ed]: <strong>took photos at the park</strong> (chụp ảnh ở công viên), <strong>captured beautiful moments</strong> (ghi lại những khoảnh khắc đẹp), <strong>took a picture of my family</strong> (chụp ảnh gia đình), <strong>joined a photography workshop</strong> (tham gia một hội thảo nhiếp ảnh), <strong>photographed the city skyline</strong> (chụp đường chân trời của thành phố), <strong>took portraits of my friends</strong> (chụp chân dung bạn bè)",
       "✨ [tính từ]: <strong>memorable</strong> (đáng nhớ), <strong>inspiring</strong> (truyền cảm hứng), <strong>creative</strong> (sáng tạo), <strong>fascinating</strong> (hấp dẫn), <strong>rewarding</strong> (đáng giá), <strong>breathtaking</strong> (ngoạn mục)",
-      "✨ [lợi ích - Vo]: <strong>enhance my creativity</strong> (nâng cao sự sáng tạo), <strong>create unforgettable memories</strong> (tạo ra những kỷ niệm khó quên), <strong>express my artistic vision</strong> (thể hiện tầm nhìn nghệ thuật), <strong>capture the beauty of nature</strong> (ghi lại vẻ đẹp của thiên nhiên), <strong>improve my technical skills</strong> (cải thiện kỹ năng kỹ thuật), <strong>relieve stress after work</strong> (giảm căng thẳng sau giờ làm)"
+      "✨ [lợi ích - Vo]: <strong>enhance my creativity</strong> (nâng cao sự sáng tạo), <strong>create unforgettable memories</strong> (tạo ra những kỷ niệm khó quên), <strong>express my artistic vision</strong> (thể hiện tầm nhìn nghệ thuật), <strong>capture the beauty of nature</strong> (ghi lại vẻ đẹp của thiên nhiên), <strong>improve my technical skills</strong> (cải thiện kỹ năng kỹ thuật), <strong>relieve stress after work</strong> (giảm căng thẳng sau giờ làm), <strong>immerse myself in nature</strong> (đắm mình vào thiên nhiên)"
     ]
   },
   "Nature club 2": {
@@ -1002,7 +1002,7 @@ export const part2Data = {
     "vocabulary": [
       "✨ [hoạt động]: <strong>planting trees</strong> (trồng cây), <strong>hiking in the mountains</strong> (đi bộ đường dài trên núi), <strong>camping in the forest</strong> (cắm trại trong rừng), <strong>cycling around the lake</strong> (đạp xe quanh hồ), <strong>bird watching</strong> (ngắm chim chóc), <strong>taking nature photos</strong> (chụp ảnh thiên nhiên)",
       "✨ [tính từ]: <strong>refreshing</strong> (sảng khoái), <strong>peaceful</strong> (yên bình), <strong>active</strong> (năng động), <strong>breathtaking</strong> (ngoạn mục), <strong>therapeutic</strong> (có tính trị liệu), <strong>invigorating</strong> (tiếp thêm sinh lực)",
-      "✨ [lợi ích - Vo]: <strong>find peace of mind</strong> (tìm sự bình yên trong tâm trí), <strong>escape from daily stress</strong> (thoát khỏi căng thẳng hàng ngày), <strong>breathe fresh air</strong> (hít thở không khí trong lành), <strong>stay in good shape</strong> (giữ dáng), <strong>connect with the natural world</strong> (hòa mình vào thế giới tự nhiên), <strong>recharge my batteries</strong> (nạp lại năng lượng)"
+      "✨ [lợi ích - Vo]: <strong>find peace of mind</strong> (tìm sự bình yên trong tâm trí), <strong>escape from daily stress</strong> (thoát khỏi căng thẳng hàng ngày), <strong>breathe fresh air</strong> (hít thở không khí trong lành), <strong>stay in good shape</strong> (giữ dáng), <strong>connect with the natural world</strong> (hòa mình vào thế giới tự nhiên), <strong>recharge my batteries</strong> (nạp lại năng lượng), <strong>immerse myself in nature</strong> (đắm mình vào thiên nhiên)"
     ]
   },
   "Film club": {
