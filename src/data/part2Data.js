@@ -721,7 +721,7 @@ export const part2Data = {
     "vocabulary": [
       "✨ [hoạt động]: <strong>do the housework</strong> (làm việc nhà), <strong>read a book</strong> (đọc sách), <strong>commute to work</strong> (đi làm), <strong>exercise at the gym</strong> (tập thể dục ở phòng gym), <strong>study for my exams</strong> (học bài cho kỳ thi), <strong>relax on the sofa</strong> (thư giãn trên ghế sofa)",
       "✨ [tính từ]: <strong>soothing</strong> (êm dịu), <strong>energetic</strong> (tràn đầy năng lượng), <strong>uplifting</strong> (nâng cao tinh thần), <strong>relaxing</strong> (thư giãn), <strong>emotional</strong> (giàu cảm xúc), <strong>inspiring</strong> (truyền cảm hứng)",
-      "✨ [lợi ích - Vo]: <strong>boost my emotional well-being</strong> (nâng cao sức khỏe tinh thần), <strong>find peace of mind</strong> (tìm sự bình yên trong tâm trí), <strong>regain my energy</strong> (nạp lại năng lượng), <strong>increase my concentration</strong> (tăng cường sự tập trung), <strong>heal my soul</strong> (chữa lành tâm hồn), <strong>escape from daily stress</strong> (thoát khỏi căng thẳng hàng ngày)"
+      "✨ [lợi ích - Vo]: <strong>boost my emotional well-being</strong> (nâng cao sức khỏe tinh thần), <strong>find peace of mind</strong> (tìm sự bình yên trong tâm trí), <strong>regain my energy</strong> (nạp lại năng lượng), <strong>increase my concentration</strong> (tăng cường sự tập trung), <strong>heal my soul</strong> (chữa lành tâm hồn), <strong>escape from daily stress</strong> (thoát khỏi căng thẳng hàng ngày), <strong>stay energetic</strong> (luôn tràn đầy năng lượng), <strong>feel relaxed</strong> (cảm thấy thư giãn)"
     ]
   },
   "Fashion club": {
