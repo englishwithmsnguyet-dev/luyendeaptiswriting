@@ -10,22 +10,22 @@ export const part3Data = {
         "✨ [Hành động]: <strong>use it every single day</strong> (sử dụng nó mỗi ngày), <strong>clean it regularly</strong> (lau chùi nó thường xuyên), <strong>cherish it deeply</strong> (vô cùng trân trọng nó), <strong>preserve it carefully</strong> (bảo quản nó cẩn thận), <strong>keep it in a safe box</strong> (cất nó trong hộp an toàn)"
       ],
       "templates": [
-        "A treasured item I have kept for ages is [Đồ vật ý nghĩa]. Because it [Đặc điểm], I always [Hành động]. That is all I have to share with you today.",
-        "One thing that [Đặc điểm] is [Đồ vật ý nghĩa]. I make sure to [Hành động] because it is irreplaceable to me. That is all I have to share with you today.",
-        "The oldest thing I own is [Đồ vật ý nghĩa]. I [Hành động] since it constantly [Đặc điểm]. I am very eager to hear what you guys think."
+        "A treasured item I have kept for ages is [Đồ vật ý nghĩa]. Because it [Đặc điểm], I always [Hành động]. That is all from me.",
+        "One thing that [Đặc điểm] is [Đồ vật ý nghĩa]. I make sure to [Hành động] because it is irreplaceable to me. That is all from me.",
+        "The oldest thing I own is [Đồ vật ý nghĩa]. I [Hành động] since it constantly [Đặc điểm]. Let me know what you guys think."
       ],
       "samples": [
         {
-          "en": "A treasured item I have kept for ages is a cute teddy bear. Because it is a special gift from my best friend, I always clean it regularly. That is all I have to share with you today.",
-          "vi": "Một món đồ quý giá tôi đã giữ từ rất lâu là một con gấu bông dễ thương. Bởi vì nó là một món quà đặc biệt từ bạn thân, tôi luôn lau chùi nó thường xuyên để giữ nó luôn đẹp. Đó là tất cả những gì tôi muốn chia sẻ hôm nay."
+          "en": "A treasured item I have kept for ages is a cute teddy bear. Because it is a special gift from my best friend, I always clean it regularly. That is all from me.",
+          "vi": "Một món đồ quý giá tôi đã giữ từ rất lâu là một con gấu bông dễ thương. Bởi vì nó là một món quà đặc biệt từ bạn thân, tôi luôn lau chùi nó thường xuyên để giữ nó luôn đẹp. Đó là tất cả từ tôi."
         },
         {
-          "en": "One thing that is a special gift from my best friend is a vintage camera. I make sure to preserve it carefully because it is irreplaceable to me. That is all I have to share with you today.",
-          "vi": "Một thứ mang giá trị tinh thần to lớn đối với tôi là chiếc máy ảnh cổ từ ông tôi. Tôi đảm bảo bảo quản nó cẩn thận vì nó hoàn toàn không thể thay thế đối với tôi và cả gia đình tôi. Đó là tất cả những gì tôi muốn chia sẻ hôm nay."
+          "en": "One thing that is a special gift from my best friend is a vintage camera. I make sure to preserve it carefully because it is irreplaceable to me. That is all from me.",
+          "vi": "Một thứ mang giá trị tinh thần to lớn đối với tôi là chiếc máy ảnh cổ từ ông tôi. Tôi đảm bảo bảo quản nó cẩn thận vì nó hoàn toàn không thể thay thế đối với tôi và cả gia đình tôi. Đó là tất cả từ tôi."
         },
         {
-          "en": "The oldest thing I own is a family heirloom. I cherish it deeply since it constantly represents my family heritage. I am very eager to hear what you guys think.",
-          "vi": "Thứ cũ nhất mà tôi hiện sở hữu là một vật gia truyền tuyệt đẹp. Tôi vô cùng trân trọng nó vì nó luôn đại diện cho di sản gia đình tôi và kết nối tôi với cội nguồn của mình. Tôi rất háo hức muốn nghe suy nghĩ của các bạn."
+          "en": "The oldest thing I own is a family heirloom. I cherish it deeply since it constantly represents my family heritage. Let me know what you guys think.",
+          "vi": "Thứ cũ nhất mà tôi hiện sở hữu là một vật gia truyền tuyệt đẹp. Tôi vô cùng trân trọng nó vì nó luôn đại diện cho di sản gia đình tôi và kết nối tôi với cội nguồn của mình. Hãy cho tôi biết các bạn nghĩ gì."
         }
       ]
     },
@@ -39,21 +39,21 @@ export const part3Data = {
         "✨ [Kết quả]: <strong>draw better pictures</strong> (vẽ những bức tranh đẹp hơn), <strong>feel very happy</strong> (cảm thấy rất vui vẻ), <strong>improve your artistic skills significantly</strong> (cải thiện đáng kể kỹ năng nghệ thuật của bạn), <strong>build a solid foundation</strong> (xây dựng một nền tảng vững chắc), <strong>find your unique painting style</strong> (tìm ra phong cách vẽ độc đáo của bạn)"
       ],
       "templates": [
-        "I believe taking a course at your local college is [Nhận định]. It will help you [Lợi ích khóa học] and eventually [Kết quả]. This approach is highly recommended for everyone in our club.",
-        "Enrolling in a formal class is [Nhận định]. You will [Lợi ích khóa học], which can [Kết quả]. I am very eager to hear what you guys think.",
-        "If I were you, I would definitely register because it is [Nhận định]. Having the opportunity to [Lợi ích khóa học] will certainly [Kết quả]. I strongly believe that this is a very good idea."
+        "I believe taking a course at your local college is [Nhận định]. It will help you [Lợi ích khóa học] and eventually [Kết quả]. This is highly recommended.",
+        "Enrolling in a formal class is [Nhận định]. You will [Lợi ích khóa học], which can [Kết quả]. Let me know what you guys think.",
+        "If I were you, I would definitely register because it is [Nhận định]. Having the opportunity to [Lợi ích khóa học] will certainly [Kết quả]. It is good."
       ],
       "samples": [
         {
-          "en": "I believe taking a course at your local college is a fantastic idea. It will help you master basic techniques quickly and eventually build a solid foundation. I believe that this is very helpful for our club.",
+          "en": "I believe taking a course at your local college is a fantastic idea. It will help you master basic techniques quickly and eventually build a solid foundation. This is very helpful.",
           "vi": "Điều đó thật tuyệt vời! Tôi thực sự tin rằng tham gia một khóa học tại trường cao đẳng địa phương là một ý tưởng tuyệt vời cho người mới bắt đầu. Nó sẽ giúp bạn nắm vững các kỹ thuật cơ bản nhanh chóng và cuối cùng là xây dựng một nền tảng vững chắc cho các dự án nghệ thuật tương lai của bạn. Tôi thực sự thích nó!"
         },
         {
-          "en": "Enrolling in a formal class is a worthwhile investment. You will receive professional guidance, which can improve your artistic skills significantly. I am very eager to hear what you guys think.",
-          "vi": "Đăng ký một lớp học chính thức chắc chắn là một sự đầu tư xứng đáng. Bạn sẽ nhận được sự hướng dẫn chuyên nghiệp, điều này có thể cải thiện đáng kể kỹ năng nghệ thuật của bạn và giúp bạn trở thành một họa sĩ giỏi hơn theo thời gian. Tôi rất háo hức muốn nghe suy nghĩ của các bạn."
+          "en": "Enrolling in a formal class is a worthwhile investment. You will receive professional guidance, which can improve your artistic skills significantly. Let me know what you guys think.",
+          "vi": "Đăng ký một lớp học chính thức chắc chắn là một sự đầu tư xứng đáng. Bạn sẽ nhận được sự hướng dẫn chuyên nghiệp, điều này có thể cải thiện đáng kể kỹ năng nghệ thuật của bạn và giúp bạn trở thành một họa sĩ giỏi hơn theo thời gian. Hãy cho tôi biết các bạn nghĩ gì."
         },
         {
-          "en": "If I were you, I would definitely register because it is the most effective way. Having the opportunity to interact with experienced instructors will certainly find your unique painting style. I strongly believe that this is a very good idea.",
+          "en": "If I were you, I would definitely register because it is the most effective way. Having the opportunity to interact with experienced instructors will certainly find your unique painting style. It is good.",
           "vi": "Điều đó thật tuyệt vời! Nếu tôi là bạn, tôi chắc chắn sẽ đăng ký lớp học vì đó là cách hiệu quả nhất. Việc có cơ hội tương tác với những người hướng dẫn giàu kinh nghiệm chắc chắn sẽ giúp bạn tìm ra phong cách vẽ độc đáo của bạn. Nó thật tuyệt."
         }
       ]
@@ -68,22 +68,22 @@ export const part3Data = {
         "✨ [Giải pháp]: <strong>give them free spaces</strong> (cho họ không gian miễn phí), <strong>support young artists</strong> (ủng hộ các nghệ sĩ trẻ), <strong>designate specific areas for artists</strong> (chỉ định các khu vực cụ thể cho nghệ sĩ), <strong>regulate it properly</strong> (quản lý nó một cách hợp lý), <strong>differentiate it from vandalism</strong> (phân biệt nó với hành vi phá hoại)"
       ],
       "templates": [
-        "I completely disagree with the criticism because street art is [Đánh giá]. It can successfully [Mặt tích cực]. I am very eager to hear what you guys think.",
-        "While some consider it vandalism, I think it is [Đánh giá]. Instead of banning it, we should [Giải pháp] to [Mặt tích cực]. I strongly believe that this is a very good idea.",
-        "Street art is [Đánh giá] that helps [Mặt tích cực]. If authorities [Giải pháp], it will benefit everyone. I truly hope that you will find this very helpful."
+        "I completely disagree with the criticism because street art is [Đánh giá]. It can successfully [Mặt tích cực]. Let me know what you guys think.",
+        "While some consider it vandalism, I think it is [Đánh giá]. Instead of banning it, we should [Giải pháp] to [Mặt tích cực]. It is good.",
+        "Street art is [Đánh giá] that helps [Mặt tích cực]. If authorities [Giải pháp], it will benefit everyone. I hope you find this helpful."
       ],
       "samples": [
         {
-          "en": "I completely disagree with the criticism because street art is a beautiful form of self-expression. It can successfully convey powerful social messages. I am very eager to hear what you guys think.",
-          "vi": "Tôi hoàn toàn không đồng ý với những lời chỉ trích tiêu cực vì nghệ thuật đường phố là một hình thức thể hiện bản thân tuyệt đẹp. Nó có thể truyền tải thành công các thông điệp xã hội mạnh mẽ tới công chúng và làm cho các thành phố hiện đại của chúng ta trông thú vị hơn nhiều. Tôi rất háo hức muốn nghe suy nghĩ của các bạn."
+          "en": "I completely disagree with the criticism because street art is a beautiful form of self-expression. It can successfully convey powerful social messages. Let me know what you guys think.",
+          "vi": "Tôi hoàn toàn không đồng ý với những lời chỉ trích tiêu cực vì nghệ thuật đường phố là một hình thức thể hiện bản thân tuyệt đẹp. Nó có thể truyền tải thành công các thông điệp xã hội mạnh mẽ tới công chúng và làm cho các thành phố hiện đại của chúng ta trông thú vị hơn nhiều. Hãy cho tôi biết các bạn nghĩ gì."
         },
         {
-          "en": "While some consider it vandalism, I think it is a vibrant addition to the city. Instead of banning it, we should designate specific areas for artists to showcase local artistic talents. I strongly believe that this is a very good idea.",
+          "en": "While some consider it vandalism, I think it is a vibrant addition to the city. Instead of banning it, we should designate specific areas for artists to showcase local artistic talents. It is good.",
           "vi": "Điều đó thật tuyệt vời! Mặc dù một số người coi đó là hành vi phá hoại, tôi thực sự nghĩ nó là một sự bổ sung sống động cho thành phố. Thay vì cấm, chúng ta nên chỉ định các khu vực cụ thể cho các nghệ sĩ để trưng bày tài năng nghệ thuật địa phương một cách an toàn. Nó thật tuyệt."
         },
         {
-          "en": "Street art is an essential part of urban culture that helps beautify dull concrete walls. If authorities regulate it properly, it will benefit everyone. I sincerely hope that this should be helpful for you.",
-          "vi": "Nghệ thuật đường phố là một phần thiết yếu của văn hóa đô thị giúp làm đẹp những bức tường bê tông nhàm chán. Nếu chính quyền địa phương quản lý nó một cách hợp lý, nó chắc chắn sẽ mang lại lợi ích cho tất cả mọi người sống trong cộng đồng. Tôi chân thành hy vọng điều này sẽ giúp ích cho bạn."
+          "en": "Street art is an essential part of urban culture that helps beautify dull concrete walls. If authorities regulate it properly, it will benefit everyone. This should be helpful for you.",
+          "vi": "Nghệ thuật đường phố là một phần thiết yếu của văn hóa đô thị giúp làm đẹp những bức tường bê tông nhàm chán. Nếu chính quyền địa phương quản lý nó một cách hợp lý, nó chắc chắn sẽ mang lại lợi ích cho tất cả mọi người sống trong cộng đồng. Điều này hẳn sẽ giúp ích cho bạn."
         }
       ]
     }
@@ -99,22 +99,22 @@ export const part3Data = {
         "✨ [Cảm nhận]: <strong>it was very yummy</strong> (nó rất ngon), <strong>I liked it a lot</strong> (tôi rất thích nó), <strong>it tasted absolutely heavenly</strong> (nó có vị ngon tuyệt đỉnh), <strong>the flavors were perfectly balanced</strong> (hương vị được cân bằng hoàn hảo), <strong>it instantly melted in my mouth</strong> (nó tan ngay trong miệng tôi)"
       ],
       "templates": [
-        "The last time I had a genuinely good meal was [Thời điểm & Dịp]. I enjoyed [Món ăn] and [Cảm nhận]. I strongly believe that this is absolutely worth trying out.",
-        "I vividly remember eating [Món ăn] [Thời điểm & Dịp]. I must admit that [Cảm nhận]. I truly hope that this gives you some great ideas.",
-        "My best recent dining experience was [Thời điểm & Dịp]. We ordered [Món ăn], and [Cảm nhận]. I truly hope that you will find this very helpful."
+        "The last time I had a genuinely good meal was [Thời điểm & Dịp]. I enjoyed [Món ăn] and [Cảm nhận]. This is worth trying.",
+        "I vividly remember eating [Món ăn] [Thời điểm & Dịp]. I must admit that [Cảm nhận]. I hope this gives you ideas.",
+        "My best recent dining experience was [Thời điểm & Dịp]. We ordered [Món ăn], and [Cảm nhận]. I hope you find this helpful."
       ],
       "samples": [
         {
-          "en": "The last time I had a genuinely good meal was last weekend to celebrate my birthday. I enjoyed a delicious homemade pizza and it tasted absolutely heavenly. This approach is highly recommended for everyone in our club.",
+          "en": "The last time I had a genuinely good meal was last weekend to celebrate my birthday. I enjoyed a delicious homemade pizza and it tasted absolutely heavenly. This is highly recommended.",
           "vi": "Điều đó thật tuyệt vời! Lần gần nhất tôi có một bữa ăn thực sự ngon là cuối tuần trước để mừng sinh nhật cùng bạn bè. Tôi đã thưởng thức một chiếc bánh pizza tự làm ngon tuyệt, và tôi phải nói rằng nó có vị ngon tuyệt đỉnh đối với tất cả chúng tôi. Tôi thực sự thích nó!"
         },
         {
-          "en": "I vividly remember eating some authentic traditional pho yesterday after a stressful working day. I must admit that the flavors were perfectly balanced. I sincerely hope that this should be helpful for you.",
-          "vi": "Tôi nhớ rất rõ đã ăn một chút phở truyền thống chuẩn vị vào tối hôm qua sau một ngày làm việc rất căng thẳng. Tôi phải thừa nhận rằng hương vị đậm đà được cân bằng hoàn hảo, khiến nó trở thành một trải nghiệm ăn uống thực sự khó quên đối với tôi. Tôi chân thành hy vọng điều này sẽ giúp ích cho bạn."
+          "en": "I vividly remember eating some authentic traditional pho yesterday after a stressful working day. I must admit that the flavors were perfectly balanced. This should be helpful for you.",
+          "vi": "Tôi nhớ rất rõ đã ăn một chút phở truyền thống chuẩn vị vào tối hôm qua sau một ngày làm việc rất căng thẳng. Tôi phải thừa nhận rằng hương vị đậm đà được cân bằng hoàn hảo, khiến nó trở thành một trải nghiệm ăn uống thực sự khó quên đối với tôi. Điều này hẳn sẽ giúp ích cho bạn."
         },
         {
-          "en": "My best recent dining experience was two days ago during a family gathering. We ordered a mouth-watering seafood hotpot, and it instantly melted in my mouth. I truly hope that this gives you some great ideas.",
-          "vi": "Trải nghiệm ăn uống tuyệt vời nhất gần đây của tôi là hai ngày trước trong một buổi tụ họp gia đình đáng yêu. Chúng tôi đã gọi một nồi lẩu hải sản hấp dẫn, và cá tươi đã tan ngay trong miệng tôi. Tôi thực sự hy vọng điều này mang lại cho bạn những ý tưởng tuyệt vời."
+          "en": "My best recent dining experience was two days ago during a family gathering. We ordered a mouth-watering seafood hotpot, and it instantly melted in my mouth. I hope this gives you ideas.",
+          "vi": "Trải nghiệm ăn uống tuyệt vời nhất gần đây của tôi là hai ngày trước trong một buổi tụ họp gia đình đáng yêu. Chúng tôi đã gọi một nồi lẩu hải sản hấp dẫn, và cá tươi đã tan ngay trong miệng tôi. Tôi mong điều này cho bạn thêm ý tưởng."
         }
       ]
     },
@@ -157,21 +157,21 @@ export const part3Data = {
         "✨ [Giải pháp thay thế]: <strong>eat it once a week</strong> (ăn nó một lần một tuần), <strong>eat more salads instead</strong> (ăn nhiều salad thay thế), <strong>consume it occasionally as a treat</strong> (thỉnh thoảng ăn nó như một phần thưởng), <strong>make homemade versions with fresh vegetables</strong> (làm các phiên bản tự làm với rau củ tươi), <strong>choose healthier toppings and thin crusts</strong> (chọn các loại nhân lành mạnh hơn và đế mỏng)"
       ],
       "templates": [
-        "I [Quan điểm] because [Lý do sức khỏe]. Instead of eating it daily, we should [Giải pháp thay thế]. That is all I have to share with you today.",
-        "I [Quan điểm]. Since [Lý do sức khỏe], the best approach is to [Giải pháp thay thế]. I truly hope that you will find this very helpful.",
-        "While pizza is incredibly tasty, I [Quan điểm] because [Lý do sức khỏe]. Therefore, it is wise to [Giải pháp thay thế]. I strongly believe that this is a very good idea."
+        "I [Quan điểm] because [Lý do sức khỏe]. Instead of eating it daily, we should [Giải pháp thay thế]. That is all from me.",
+        "I [Quan điểm]. Since [Lý do sức khỏe], the best approach is to [Giải pháp thay thế]. I hope you find this helpful.",
+        "While pizza is incredibly tasty, I [Quan điểm] because [Lý do sức khỏe]. Therefore, it is wise to [Giải pháp thay thế]. It is good."
       ],
       "samples": [
         {
-          "en": "I totally agree with this statement because it contains excessive amounts of calories. Instead of eating it daily, we should consume it occasionally as a treat. That is all I have to share with you today.",
-          "vi": "Tôi hoàn toàn đồng ý với nhận định này vì nó chứa lượng calo và chất béo không lành mạnh quá mức. Thay vì ăn hàng ngày, chúng ta chỉ nên tiêu thụ nó thỉnh đầu như một phần thưởng đặc biệt vào cuối tuần. Đó là tất cả những gì tôi muốn chia sẻ hôm nay."
+          "en": "I totally agree with this statement because it contains excessive amounts of calories. Instead of eating it daily, we should consume it occasionally as a treat. That is all from me.",
+          "vi": "Tôi hoàn toàn đồng ý với nhận định này vì nó chứa lượng calo và chất béo không lành mạnh quá mức. Thay vì ăn hàng ngày, chúng ta chỉ nên tiêu thụ nó thỉnh đầu như một phần thưởng đặc biệt vào cuối tuần. Đó là tất cả từ tôi."
         },
         {
-          "en": "I partly agree with this opinion. Since it is a highly processed food, the best approach is to make homemade versions with fresh vegetables. I sincerely hope that this should be helpful for you.",
-          "vi": "Tôi đồng ý một phần với ý kiến này về bánh pizza. Vì nó là một loại thực phẩm chế biến cao, cách tốt nhất là làm các phiên bản tự làm lành mạnh hơn với các loại rau tươi từ chợ địa phương. Tôi chân thành hy vọng điều này sẽ giúp ích cho bạn."
+          "en": "I partly agree with this opinion. Since it is a highly processed food, the best approach is to make homemade versions with fresh vegetables. This should be helpful for you.",
+          "vi": "Tôi đồng ý một phần với ý kiến này về bánh pizza. Vì nó là một loại thực phẩm chế biến cao, cách tốt nhất là làm các phiên bản tự làm lành mạnh hơn với các loại rau tươi từ chợ địa phương. Điều này hẳn sẽ giúp ích cho bạn."
         },
         {
-          "en": "While pizza is incredibly tasty, I think we should strike a balance because it can lead to dangerous obesity. Therefore, it is wise to choose healthier toppings and thin crusts. I strongly believe that this is a very good idea.",
+          "en": "While pizza is incredibly tasty, I think we should strike a balance because it can lead to dangerous obesity. Therefore, it is wise to choose healthier toppings and thin crusts. It is good.",
           "vi": "Điều đó thật tuyệt vời! Mặc dù bánh pizza cực kỳ ngon, tôi nghĩ chúng ta nên đạt được sự cân bằng vì ăn quá nhiều có thể dẫn đến bệnh béo phì nguy hiểm. Do đó, rất khôn ngoan khi chọn toppings lành mạnh hơn và lớp vỏ mỏng bất cứ khi nào có thể. Nó thật tuyệt."
         }
       ]
@@ -188,22 +188,22 @@ export const part3Data = {
         "✨ [Lợi ích]: <strong>feel very happy</strong> (cảm thấy rất vui vẻ), <strong>talk about school</strong> (nói về trường học), <strong>share our latest updates</strong> (chia sẻ những thông tin mới nhất), <strong>unwind after a hectic week</strong> (thư giãn sau một tuần bận rộn), <strong>strengthen our tight bond</strong> (củng cố mối quan hệ bền chặt của chúng tôi)"
       ],
       "templates": [
-        "When hanging out, we usually [Hoạt động ăn uống] and then [Hoạt động giải trí]. This helps us [Lợi ích]. That is all I have to share with you today.",
-        "We love to [Hoạt động ăn uống] or [Hoạt động giải trí]. It is always a fantastic way to [Lợi ích]. I believe that this is very helpful for our club.",
-        "My friends and I [Hoạt động ăn uống]. Afterwards, we might [Hoạt động giải trí] in order to [Lợi ích]. That is all I have to share with you today."
+        "When hanging out, we usually [Hoạt động ăn uống] and then [Hoạt động giải trí]. This helps us [Lợi ích]. That is all from me.",
+        "We love to [Hoạt động ăn uống] or [Hoạt động giải trí]. It is always a fantastic way to [Lợi ích]. This is very helpful.",
+        "My friends and I [Hoạt động ăn uống]. Afterwards, we might [Hoạt động giải trí] in order to [Lợi ích]. That is all from me."
       ],
       "samples": [
         {
-          "en": "When hanging out, we usually grab a cup of coffee at a cozy café and then watch a blockbuster movie. This helps us unwind after a hectic week. That is all I have to share with you today.",
-          "vi": "Khi đi chơi, chúng tôi thường uống cà phê tại một quán cà phê ấm cúng và sau đó cùng nhau xem một bộ phim bom tấn thú vị. Thói quen vui vẻ này thực sự giúp chúng tôi thư giãn sau một tuần dài bận rộn. Đó là tất cả những gì tôi muốn chia sẻ hôm nay."
+          "en": "When hanging out, we usually grab a cup of coffee at a cozy café and then watch a blockbuster movie. This helps us unwind after a hectic week. That is all from me.",
+          "vi": "Khi đi chơi, chúng tôi thường uống cà phê tại một quán cà phê ấm cúng và sau đó cùng nhau xem một bộ phim bom tấn thú vị. Thói quen vui vẻ này thực sự giúp chúng tôi thư giãn sau một tuần dài bận rộn. Đó là tất cả từ tôi."
         },
         {
-          "en": "We love to dine out at local eateries or go window shopping at the mall. It is always a fantastic way to strengthen our tight bond. I strongly believe that this is absolutely worth trying out.",
+          "en": "We love to dine out at local eateries or go window shopping at the mall. It is always a fantastic way to strengthen our tight bond. This is worth trying.",
           "vi": "Chúng tôi hoàn toàn thích ăn ngoài tại các quán ăn địa phương hoặc đi ngắm đồ ở trung tâm mua sắm lớn. Đó luôn là một cách tuyệt vời và thư giãn để củng cố mối quan hệ bền chặt của chúng tôi vào dịp cuối tuần. Tôi thực sự thích nó!"
         },
         {
-          "en": "My friends and I have a lovely picnic in the park. Afterwards, we might play board games together in order to share our latest updates. That is all I have to share with you today.",
-          "vi": "Những người bạn thân và tôi có một buổi dã ngoại tuyệt đẹp trong công viên thành phố. Sau đó, chúng tôi có thể cùng nhau chơi một số board game để thoải mái chia sẻ những cập nhật cuộc sống mới nhất và những câu chuyện cá nhân thú vị. Đó là tất cả những gì tôi muốn chia sẻ hôm nay."
+          "en": "My friends and I have a lovely picnic in the park. Afterwards, we might play board games together in order to share our latest updates. That is all from me.",
+          "vi": "Những người bạn thân và tôi có một buổi dã ngoại tuyệt đẹp trong công viên thành phố. Sau đó, chúng tôi có thể cùng nhau chơi một số board game để thoải mái chia sẻ những cập nhật cuộc sống mới nhất và những câu chuyện cá nhân thú vị. Đó là tất cả từ tôi."
         }
       ]
     },
@@ -217,22 +217,22 @@ export const part3Data = {
         "✨ [Yếu tố hỗ trợ]: <strong>meet peers easily at school</strong> (gặp gỡ bạn bè đồng trang lứa dễ dàng ở trường), <strong>share common interests and hobbies</strong> (chia sẻ những sở thích và đam mê chung), <strong>connect quickly through social media</strong> (kết nối nhanh chóng qua mạng xã hội), <strong>use smartphones a lot</strong> (sử dụng điện thoại thông minh nhiều), <strong>talk online easily</strong> (nói chuyện trực tuyến dễ dàng)"
       ],
       "templates": [
-        "I [Quan điểm] because they [Lý do]. Furthermore, they can [Yếu tố hỗ trợ]. I am very eager to hear what you guys think.",
-        "I [Quan điểm]. Young people [Lý do], which allows them to [Yếu tố hỗ trợ]. I am very eager to hear what you guys think.",
-        "I [Quan điểm] since they [Lý do]. Besides, it is convenient for them to [Yếu tố hỗ trợ]. That is all I have to share with you today."
+        "I [Quan điểm] because they [Lý do]. Furthermore, they can [Yếu tố hỗ trợ]. Let me know what you guys think.",
+        "I [Quan điểm]. Young people [Lý do], which allows them to [Yếu tố hỗ trợ]. Let me know what you guys think.",
+        "I [Quan điểm] since they [Lý do]. Besides, it is convenient for them to [Yếu tố hỗ trợ]. That is all from me."
       ],
       "samples": [
         {
-          "en": "I absolutely believe it is easier because they have more free time to socialize. Furthermore, they can meet peers easily at school. I am very eager to hear what you guys think.",
-          "vi": "Nói về chủ đề thực sự thú vị này hôm nay, tôi hoàn toàn tin rằng điều đó dễ dàng hơn nhiều đối với họ vì họ có nhiều thời gian rảnh rỗi hơn để giao lưu mỗi ngày. Hơn nữa, họ có thể gặp gỡ nhiều bạn bè thân thiện dễ dàng ở trường trong các lớp học và giờ nghỉ khác nhau. Tôi rất háo hức muốn nghe suy nghĩ của các bạn."
+          "en": "I absolutely believe it is easier because they have more free time to socialize. Furthermore, they can meet peers easily at school. Let me know what you guys think.",
+          "vi": "Nói về chủ đề thực sự thú vị này hôm nay, tôi hoàn toàn tin rằng điều đó dễ dàng hơn nhiều đối với họ vì họ có nhiều thời gian rảnh rỗi hơn để giao lưu mỗi ngày. Hơn nữa, họ có thể gặp gỡ nhiều bạn bè thân thiện dễ dàng ở trường trong các lớp học và giờ nghỉ khác nhau. Hãy cho tôi biết các bạn nghĩ gì."
         },
         {
-          "en": "I think they have a huge advantage. Young people are generally more open-minded, which allows them to share common interests and hobbies. I am very eager to hear what you guys think.",
-          "vi": "Tôi thực sự nghĩ họ có một lợi thế to lớn ngày nay. Những người trẻ tuổi nói chung là cởi mở hơn rất nhiều, điều này tự nhiên cho phép họ chia sẻ những sở thích và đam mê thú vị với những người mới quen rất nhanh. Tôi rất háo hức muốn nghe suy nghĩ của các bạn."
+          "en": "I think they have a huge advantage. Young people are generally more open-minded, which allows them to share common interests and hobbies. Let me know what you guys think.",
+          "vi": "Tôi thực sự nghĩ họ có một lợi thế to lớn ngày nay. Những người trẻ tuổi nói chung là cởi mở hơn rất nhiều, điều này tự nhiên cho phép họ chia sẻ những sở thích và đam mê thú vị với những người mới quen rất nhanh. Hãy cho tôi biết các bạn nghĩ gì."
         },
         {
-          "en": "I strongly agree with this since they frequently participate in group activities. Besides, it is convenient for them to connect quickly through social media. That is all I have to share with you today.",
-          "vi": "Tôi rất đồng tình với ý tưởng này vì họ thường xuyên tham gia các hoạt động nhóm khác nhau. Bên cạnh đó, cực kỳ thuận tiện cho họ khi kết nối nhanh chóng với những người khác thông qua các nền tảng mạng xã hội phổ biến trong thời gian rảnh. Đó là tất cả những gì tôi muốn chia sẻ hôm nay."
+          "en": "I strongly agree with this since they frequently participate in group activities. Besides, it is convenient for them to connect quickly through social media. That is all from me.",
+          "vi": "Tôi rất đồng tình với ý tưởng này vì họ thường xuyên tham gia các hoạt động nhóm khác nhau. Bên cạnh đó, cực kỳ thuận tiện cho họ khi kết nối nhanh chóng với những người khác thông qua các nền tảng mạng xã hội phổ biến trong thời gian rảnh. Đó là tất cả từ tôi."
         }
       ]
     },
@@ -246,22 +246,22 @@ export const part3Data = {
         "✨ [Hạn chế cần lưu ý]: <strong>meet people in real life</strong> (gặp gỡ mọi người ngoài đời thực), <strong>be careful of strangers</strong> (cẩn thận với người lạ), <strong>maintain genuine face-to-face interactions</strong> (duy trì các tương tác trực tiếp chân thật), <strong>be careful of fake online identities</strong> (cẩn thận với các danh tính trực tuyến giả mạo), <strong>avoid digital addiction</strong> (tránh chứng nghiện kỹ thuật số)"
       ],
       "templates": [
-        "I [Sự đồng ý] because devices help us [Lý do công nghệ]. However, we must still [Hạn chế cần lưu ý]. I truly hope that this gives you some great ideas.",
-        "I [Sự đồng ý]. We can [Lý do công nghệ], but it remains crucial to [Hạn chế cần lưu ý]. I am very eager to hear what you guys think.",
-        "I [Sự đồng ý] since smartphones allow us to [Lý do công nghệ]. Even so, we should [Hạn chế cần lưu ý]. I truly hope that you will find this very helpful."
+        "I [Sự đồng ý] because devices help us [Lý do công nghệ]. However, we must still [Hạn chế cần lưu ý]. I hope this gives you ideas.",
+        "I [Sự đồng ý]. We can [Lý do công nghệ], but it remains crucial to [Hạn chế cần lưu ý]. Let me know what you guys think.",
+        "I [Sự đồng ý] since smartphones allow us to [Lý do công nghệ]. Even so, we should [Hạn chế cần lưu ý]. I hope you find this helpful."
       ],
       "samples": [
         {
-          "en": "I completely agree with this statement because devices help us overcome geographical barriers instantly. However, we must still maintain genuine face-to-face interactions. I sincerely hope that this should be helpful for you.",
-          "vi": "Tôi hoàn toàn đồng ý với nhận định này vì các thiết bị hiện đại giúp chúng ta vượt qua rào cản địa lý ngay lập tức. Tuy nhiên, chúng ta vẫn phải duy trì các tương tác trực tiếp chân chính để xây dựng những tình bạn thực sự ý nghĩa và lâu dài trong cuộc sống hàng ngày. Tôi chân thành hy vọng điều này sẽ giúp ích cho bạn."
+          "en": "I completely agree with this statement because devices help us overcome geographical barriers instantly. However, we must still maintain genuine face-to-face interactions. This should be helpful for you.",
+          "vi": "Tôi hoàn toàn đồng ý với nhận định này vì các thiết bị hiện đại giúp chúng ta vượt qua rào cản địa lý ngay lập tức. Tuy nhiên, chúng ta vẫn phải duy trì các tương tác trực tiếp chân chính để xây dựng những tình bạn thực sự ý nghĩa và lâu dài trong cuộc sống hàng ngày. Điều này hẳn sẽ giúp ích cho bạn."
         },
         {
-          "en": "I see the tremendous benefits of technology. We can join online communities easily, but it remains crucial to be careful of fake online identities. I am very eager to hear what you guys think.",
-          "vi": "Tôi thấy rõ những lợi ích to lớn của công nghệ hiện đại. Chúng ta có thể tham gia các cộng đồng trực tuyến một cách dễ dàng, nhưng vẫn vô cùng quan trọng để cẩn thận với những danh tính trực tuyến giả mạo khi kết bạn mới. Tôi rất háo hức muốn nghe suy nghĩ của các bạn."
+          "en": "I see the tremendous benefits of technology. We can join online communities easily, but it remains crucial to be careful of fake online identities. Let me know what you guys think.",
+          "vi": "Tôi thấy rõ những lợi ích to lớn của công nghệ hiện đại. Chúng ta có thể tham gia các cộng đồng trực tuyến một cách dễ dàng, nhưng vẫn vô cùng quan trọng để cẩn thận với những danh tính trực tuyến giả mạo khi kết bạn mới. Hãy cho tôi biết các bạn nghĩ gì."
         },
         {
-          "en": "I firmly support this idea since smartphones allow us to find like-minded people globally. Even so, we should meet people in real life. I truly hope that this gives you some great ideas.",
-          "vi": "Tôi hết sức ủng hộ ý tưởng thú vị này vì điện thoại thông minh cho phép chúng ta dễ dàng tìm những người cùng chí hướng trên toàn cầu. Mặc dù vậy, chúng ta nên luôn cố gắng tránh việc nghiện kỹ thuật số bằng cách dành đủ thời gian giao tiếp trong thế giới thực. Tôi thực sự hy vọng điều này mang lại cho bạn những ý tưởng tuyệt vời."
+          "en": "I firmly support this idea since smartphones allow us to find like-minded people globally. Even so, we should meet people in real life. I hope this gives you ideas.",
+          "vi": "Tôi hết sức ủng hộ ý tưởng thú vị này vì điện thoại thông minh cho phép chúng ta dễ dàng tìm những người cùng chí hướng trên toàn cầu. Mặc dù vậy, chúng ta nên luôn cố gắng tránh việc nghiện kỹ thuật số bằng cách dành đủ thời gian giao tiếp trong thế giới thực. Tôi mong điều này cho bạn thêm ý tưởng."
         }
       ]
     }
@@ -277,21 +277,21 @@ export const part3Data = {
         "✨ [Giải quyết vấn đề]: <strong>smile and talk softly</strong> (mỉm cười và nói nhẹ nhàng), <strong>ignore small noises</strong> (bỏ qua những tiếng ồn nhỏ), <strong>communicate openly and politely</strong> (giao tiếp cởi mở và lịch sự), <strong>avoid unnecessary conflicts</strong> (tránh những xung đột không cần thiết), <strong>tolerate minor inconveniences</strong> (chấp nhận những sự bất tiện nhỏ)"
       ],
       "templates": [
-        "I [Tình trạng mối quan hệ] with them. We [Hành động tích cực] and try to [Giải quyết vấn đề]. I truly hope this detailed response answers the question appropriately today.",
-        "I am lucky to [Tình trạng mối quan hệ]. Because we [Hành động tích cực], we can easily [Giải quyết vấn đề]. I am genuinely looking forward to hearing your wonderful thoughts.",
-        "I [Tình trạng mối quan hệ]. Whenever there is noise, we [Giải quyết vấn đề] and still [Hành động tích cực]. I am genuinely looking forward to hearing your wonderful thoughts."
+        "I [Tình trạng mối quan hệ] with them. We [Hành động tích cực] and try to [Giải quyết vấn đề]. I truly hope this answers the question appropriately today.",
+        "I am lucky to [Tình trạng mối quan hệ]. Because we [Hành động tích cực], we can easily [Giải quyết vấn đề]. I am looking forward to hearing your thoughts.",
+        "I [Tình trạng mối quan hệ]. Whenever there is noise, we [Giải quyết vấn đề] and still [Hành động tích cực]. I am looking forward to hearing your thoughts."
       ],
       "samples": [
         {
-          "en": "I have a harmonious relationship with them. We respect each other's privacy and try to communicate openly and politely. I truly hope this detailed response answers the question appropriately today.",
+          "en": "I have a harmonious relationship with them. We respect each other's privacy and try to communicate openly and politely. I truly hope this answers the question appropriately today.",
           "vi": "Tôi rất hào hứng khi nói về điều này! Hiện tại tôi có một mối quan hệ rất hài hòa với tất cả bọn họ. Chúng tôi luôn tôn trọng sự riêng tư của nhau và cố gắng giao tiếp cởi mở và lịch sự bất cứ khi nào một vấn đề nhỏ phát sinh trong khu phố yên bình của chúng tôi. Tôi thực sự hy vọng điều này trả lời hoàn hảo câu hỏi của bạn hôm nay."
         },
         {
-          "en": "I am lucky to get along very well. Because we always help each other in need, we can easily avoid unnecessary conflicts. I am genuinely looking forward to hearing your wonderful thoughts.",
+          "en": "I am lucky to get along very well. Because we always help each other in need, we can easily avoid unnecessary conflicts. I am looking forward to hearing your thoughts.",
           "vi": "Nói về chủ đề thực sự thú vị này hôm nay, tôi vô cùng may mắn khi rất hòa thuận với những người hàng xóm hiện tại. Vì chúng tôi luôn giúp đỡ nhau lúc cần thiết, chúng tôi có thể dễ dàng tránh những xung đột không cần thiết và duy trì một môi trường sống thực sự yên bình. Tôi mong được nghe suy nghĩ của bạn."
         },
         {
-          "en": "I maintain a respectful distance. Whenever there is noise, we tolerate minor inconveniences and still share food occasionally. I am genuinely looking forward to hearing your wonderful thoughts.",
+          "en": "I maintain a respectful distance. Whenever there is noise, we tolerate minor inconveniences and still share food occasionally. I am looking forward to hearing your thoughts.",
           "vi": "Tôi rất hào hứng khi nói về điều này! Tôi thích duy trì một khoảng cách tôn trọng với những người sống bên cạnh. Bất cứ khi nào có tiếng ồn lớn, chúng tôi lịch sự chấp nhận những sự bất tiện nhỏ và thỉnh thoảng vẫn chia sẻ những món ăn ngon để giữ gìn hòa bình. Tôi mong được nghe suy nghĩ của bạn."
         }
       ]
@@ -306,13 +306,13 @@ export const part3Data = {
         "✨ [Lợi ích]: <strong>save my time</strong> (tiết kiệm thời gian của tôi), <strong>make me feel comfortable</strong> (làm tôi cảm thấy thoải mái), <strong>ensure a convenient lifestyle</strong> (đảm bảo một lối sống tiện lợi), <strong>require far less maintenance</strong> (yêu cầu bảo trì ít hơn nhiều), <strong>save significantly on energy bills</strong> (tiết kiệm đáng kể hóa đơn năng lượng)"
       ],
       "templates": [
-        "I [Lựa chọn] because they [Lý do hiện đại]. This helps [Lợi ích]. I truly hope this detailed response answers the question appropriately today.",
+        "I [Lựa chọn] because they [Lý do hiện đại]. This helps [Lợi ích]. I truly hope this answers the question appropriately today.",
         "I [Lựa chọn]. They [Lý do hiện đại], which will [Lợi ích]. I truly hope this helps everyone in our club today.",
         "I [Lựa chọn] since they [Lý do hiện đại] and [Lợi ích]. I truly hope this helps everyone in our club today."
       ],
       "samples": [
         {
-          "en": "I definitely prefer modern buildings because they offer advanced security systems. This helps ensure a convenient lifestyle. I truly hope this detailed response answers the question appropriately today.",
+          "en": "I definitely prefer modern buildings because they offer advanced security systems. This helps ensure a convenient lifestyle. I truly hope this answers the question appropriately today.",
           "vi": "Đây chắc chắn là điều tôi thích nói đến. Tôi chắc chắn thích sống trong các tòa nhà hiện đại hơn vì chúng cung cấp các hệ thống an ninh tiên tiến cao và cơ sở vật chất tốt hơn. Lợi thế tuyệt vời này giúp đảm bảo một lối sống rất thoải mái và thuận tiện cho tôi và cả gia đình mỗi ngày. Tôi thực sự hy vọng điều này trả lời hoàn hảo câu hỏi của bạn hôm nay."
         },
         {
@@ -335,21 +335,21 @@ export const part3Data = {
         "✨ [Tác động]: <strong>protect the earth</strong> (bảo vệ trái đất), <strong>save electricity</strong> (tiết kiệm điện), <strong>reduce carbon emissions globally</strong> (giảm lượng khí thải carbon trên toàn cầu), <strong>protect our fragile ecosystem</strong> (bảo vệ hệ sinh thái mỏng manh của chúng sửa), <strong>lower long-term living costs</strong> (giảm chi phí sinh hoạt dài hạn)"
       ],
       "templates": [
-        "I [Sự đồng ý] because it helps [Tác động]. For instance, we can [Đặc điểm thiết kế]. I am genuinely looking forward to hearing your wonderful thoughts.",
-        "I [Sự đồng ý]. If we [Đặc điểm thiết kế], we will [Tác động]. I truly hope this detailed response answers the question appropriately today.",
-        "I [Sự đồng ý] since we need to [Tác động]. Therefore, designers should [Đặc điểm thiết kế]. I am genuinely looking forward to hearing your wonderful thoughts."
+        "I [Sự đồng ý] because it helps [Tác động]. For instance, we can [Đặc điểm thiết kế]. I am looking forward to hearing your thoughts.",
+        "I [Sự đồng ý]. If we [Đặc điểm thiết kế], we will [Tác động]. I truly hope this answers the question appropriately today.",
+        "I [Sự đồng ý] since we need to [Tác động]. Therefore, designers should [Đặc điểm thiết kế]. I am looking forward to hearing your thoughts."
       ],
       "samples": [
         {
-          "en": "I completely agree with this because it helps reduce carbon emissions globally. For instance, we can install solar panels. I am genuinely looking forward to hearing your wonderful thoughts.",
+          "en": "I completely agree with this because it helps reduce carbon emissions globally. For instance, we can install solar panels. I am looking forward to hearing your thoughts.",
           "vi": "Nói về chủ đề thực sự thú vị này hôm nay, tôi hoàn toàn đồng ý với ý tưởng quan trọng này vì nó giúp giảm lượng khí thải carbon có hại trên toàn cầu. Ví dụ, chúng ta có thể dễ dàng lắp đặt các tấm pin năng lượng mặt trời trên mái nhà để tạo ra năng lượng sạch và giảm thiểu dấu chân môi trường của chúng ta. Tôi mong được nghe suy nghĩ của bạn."
         },
         {
-          "en": "I strongly support eco-friendly designs. If we maximize natural light and ventilation, we will lower long-term living costs. I truly hope this detailed response answers the question appropriately today.",
+          "en": "I strongly support eco-friendly designs. If we maximize natural light and ventilation, we will lower long-term living costs. I truly hope this answers the question appropriately today.",
           "vi": "Đây chắc chắn là điều tôi thích nói đến. Tôi mạnh mẽ ủng hộ các thiết kế kiến trúc thân thiện với môi trường cho mọi ngôi nhà. Nếu chúng ta tối đa hóa ánh sáng và thông gió tự nhiên, chúng ta sẽ tự nhiên giảm được chi phí sinh hoạt dài hạn trong khi giữ cho bầu không khí trong nhà trong lành và khỏe mạnh. Tôi thực sự hy vọng điều này trả lời hoàn hảo câu hỏi của bạn hôm nay."
         },
         {
-          "en": "I think this is absolutely essential since we need to protect our fragile ecosystem. Therefore, designers should use sustainable building materials. I am genuinely looking forward to hearing your wonderful thoughts.",
+          "en": "I think this is absolutely essential since we need to protect our fragile ecosystem. Therefore, designers should use sustainable building materials. I am looking forward to hearing your thoughts.",
           "vi": "Nói về chủ đề thực sự thú vị này hôm nay, tôi thực sự nghĩ điều này là hoàn toàn cần thiết ngay lúc này vì chúng ta khẩn cấp cần bảo vệ hệ sinh thái mỏng manh của mình. Do đó, các kiến trúc sư và nhà thiết kế nên luôn ưu tiên sử dụng vật liệu xây dựng bền vững khi xây dựng các ngôi nhà hiện đại trong tương lai. Tôi mong được nghe suy nghĩ của bạn."
         }
       ]
@@ -366,22 +366,22 @@ export const part3Data = {
         "✨ [Lợi ích]: <strong>make the room nice</strong> (làm cho căn phòng đẹp hơn), <strong>save space</strong> (tiết kiệm không gian), <strong>maximize your limited space</strong> (tối đa hóa không gian hạn chế của bạn), <strong>add a beautiful touch of greenery indoors</strong> (thêm một chút sắc xanh tuyệt đẹp trong nhà), <strong>create a wonderfully refreshing vibe</strong> (tạo ra một bầu không khí vô cùng tươi mới)"
       ],
       "templates": [
-        "Since you live in an apartment, I highly recommend you [Giải pháp]. You can place them [Vị trí] to [Lợi ích]. This approach is highly recommended for everyone in our club.",
-        "One fantastic idea is to [Giải pháp] [Vị trí]. Not only does it save room, but it also helps [Lợi ích]. I believe that this is very helpful for our club.",
-        "You should definitely consider deciding to [Giải pháp] [Vị trí]. This creative setup will instantly [Lợi ích]. I truly hope that you will find this very helpful."
+        "Since you live in an apartment, I highly recommend you [Giải pháp]. You can place them [Vị trí] to [Lợi ích]. This is highly recommended.",
+        "One fantastic idea is to [Giải pháp] [Vị trí]. Not only does it save room, but it also helps [Lợi ích]. This is very helpful.",
+        "You should definitely consider deciding to [Giải pháp] [Vị trí]. This creative setup will instantly [Lợi ích]. I hope you find this helpful."
       ],
       "samples": [
         {
-          "en": "Since you live in an apartment, I highly recommend you adopt vertical gardening. You can place them on your small balcony to maximize your limited space. I strongly believe that this is absolutely worth trying out.",
+          "en": "Since you live in an apartment, I highly recommend you adopt vertical gardening. You can place them on your small balcony to maximize your limited space. This is worth trying.",
           "vi": "Vì bạn hiện đang sống trong một căn hộ nhỏ, tôi thực sự khuyên bạn nên áp dụng làm vườn thẳng đứng. Bạn có thể dễ dàng đặt chúng trên ban công nhỏ của bạn để tối đa hóa hiệu quả không gian hạn chế và tạo ra một ốc đảo xanh nhỏ bé. Tôi thực sự thích nó!"
         },
         {
-          "en": "One fantastic idea is to install wall-mounted shelves near sunny windows. Not only does it save room, but it also helps add a beautiful touch of greenery indoors. This approach is highly recommended for everyone in our club.",
+          "en": "One fantastic idea is to install wall-mounted shelves near sunny windows. Not only does it save room, but it also helps add a beautiful touch of greenery indoors. This is highly recommended.",
           "vi": "Một ý tưởng thực sự tuyệt vời là lắp đặt các kệ treo tường gần các cửa sổ đầy nắng của bạn. Nó không chỉ tiết kiệm không gian quý giá mà còn giúp thêm một chút sắc xanh tươi mát vô cùng đẹp đẽ trong nhà cho mọi người cùng thưởng thức. Tôi thực sự thích nó!"
         },
         {
-          "en": "You should definitely consider deciding to utilize hanging baskets along the bright corridors. This creative setup will instantly create a wonderfully refreshing vibe. I sincerely hope that this should be helpful for you.",
-          "vi": "Bạn chắc chắn nên cân nhắc quyết định sử dụng những giỏ treo tuyệt đẹp dọc theo các hành lang sáng sủa của căn hộ. Thiết lập đầy tính sáng tạo này sẽ ngay lập tức tạo ra một bầu không khí vô cùng tươi mát khiến việc trở về nhà là một niềm vui tuyệt đối. Tôi chân thành hy vọng điều này sẽ giúp ích cho bạn."
+          "en": "You should definitely consider deciding to utilize hanging baskets along the bright corridors. This creative setup will instantly create a wonderfully refreshing vibe. This should be helpful for you.",
+          "vi": "Bạn chắc chắn nên cân nhắc quyết định sử dụng những giỏ treo tuyệt đẹp dọc theo các hành lang sáng sủa của căn hộ. Thiết lập đầy tính sáng tạo này sẽ ngay lập tức tạo ra một bầu không khí vô cùng tươi mát khiến việc trở về nhà là một niềm vui tuyệt đối. Điều này hẳn sẽ giúp ích cho bạn."
         }
       ]
     },
@@ -395,22 +395,22 @@ export const part3Data = {
         "✨ [Cảm nhận]: <strong>look nice</strong> (trông đẹp), <strong>feel happy</strong> (cảm thấy hạnh phúc), <strong>feel much more relaxing</strong> (cảm thấy thư giãn hơn nhiều), <strong>look incredibly welcoming</strong> (trông vô cùng thân thiện), <strong>connect residents with nature deeply</strong> (kết nối cư dân với thiên nhiên một cách sâu sắc)"
       ],
       "templates": [
-        "I [Quan điểm] because it [Lý do thẩm mỹ]. Therefore, it makes the entire house [Cảm nhận]. I am very eager to hear what you guys think.",
-        "I [Quan điểm]. A well-maintained garden [Lý do thẩm mỹ] and helps the home [Cảm nhận]. I am very eager to hear what you guys think.",
-        "I [Quan điểm] since it [Lý do thẩm mỹ]. This wonderful addition makes living spaces [Cảm nhận]. I am very eager to hear what you guys think."
+        "I [Quan điểm] because it [Lý do thẩm mỹ]. Therefore, it makes the entire house [Cảm nhận]. Let me know what you guys think.",
+        "I [Quan điểm]. A well-maintained garden [Lý do thẩm mỹ] and helps the home [Cảm nhận]. Let me know what you guys think.",
+        "I [Quan điểm] since it [Lý do thẩm mỹ]. This wonderful addition makes living spaces [Cảm nhận]. Let me know what you guys think."
       ],
       "samples": [
         {
-          "en": "I absolutely agree with this because it brings vibrant colors to the property. Therefore, it makes the entire house feel much more relaxing. I am very eager to hear what you guys think.",
-          "vi": "Tôi hoàn toàn đồng ý với ý kiến này vì một khu vườn được chăm sóc tốt mang lại màu sắc rực rỡ cho ngôi nhà. Do đó, nó tự nhiên làm cho toàn bộ ngôi nhà có cảm giác thư giãn và yên bình hơn rất nhiều cho tất cả các cư dân sống ở đó. Tôi rất háo hức muốn nghe suy nghĩ của các bạn."
+          "en": "I absolutely agree with this because it brings vibrant colors to the property. Therefore, it makes the entire house feel much more relaxing. Let me know what you guys think.",
+          "vi": "Tôi hoàn toàn đồng ý với ý kiến này vì một khu vườn được chăm sóc tốt mang lại màu sắc rực rỡ cho ngôi nhà. Do đó, nó tự nhiên làm cho toàn bộ ngôi nhà có cảm giác thư giãn và yên bình hơn rất nhiều cho tất cả các cư dân sống ở đó. Hãy cho tôi biết các bạn nghĩ gì."
         },
         {
-          "en": "I strongly believe it does. A well-maintained garden creates a stunning natural landscape and helps the home look incredibly welcoming. I am very eager to hear what you guys think.",
-          "vi": "Nói về chủ đề thực sự thú vị này hôm nay, theo ý kiến cá nhân của tôi, tôi mạnh mẽ tin là như vậy. Một khu vườn được chăm sóc tốt tạo ra một cảnh quan thiên nhiên tuyệt đẹp ngay ngoài cửa nhà bạn và giúp toàn bộ ngôi nhà trông vô cùng chào đón đối với cả chủ nhà và khách của họ. Tôi rất háo hức muốn nghe suy nghĩ của các bạn."
+          "en": "I strongly believe it does. A well-maintained garden creates a stunning natural landscape and helps the home look incredibly welcoming. Let me know what you guys think.",
+          "vi": "Nói về chủ đề thực sự thú vị này hôm nay, theo ý kiến cá nhân của tôi, tôi mạnh mẽ tin là như vậy. Một khu vườn được chăm sóc tốt tạo ra một cảnh quan thiên nhiên tuyệt đẹp ngay ngoài cửa nhà bạn và giúp toàn bộ ngôi nhà trông vô cùng chào đón đối với cả chủ nhà và khách của họ. Hãy cho tôi biết các bạn nghĩ gì."
         },
         {
-          "en": "I think a garden is essential since it softens the harsh architectural lines. This wonderful addition makes living spaces connect residents with nature deeply. I am very eager to hear what you guys think.",
-          "vi": "Tôi thực sự nghĩ một khu vườn đáng yêu là thiết yếu vì nó làm mềm đi một cách hiệu quả các đường nét kiến trúc thô cứng của các tòa nhà hiện đại. Sự bổ sung tuyệt vời này làm cho không gian sống kết nối cư dân với thiên nhiên sâu sắc, cải thiện đáng kể tâm trạng chung hằng ngày của họ. Tôi rất háo hức muốn nghe suy nghĩ của các bạn."
+          "en": "I think a garden is essential since it softens the harsh architectural lines. This wonderful addition makes living spaces connect residents with nature deeply. Let me know what you guys think.",
+          "vi": "Tôi thực sự nghĩ một khu vườn đáng yêu là thiết yếu vì nó làm mềm đi một cách hiệu quả các đường nét kiến trúc thô cứng của các tòa nhà hiện đại. Sự bổ sung tuyệt vời này làm cho không gian sống kết nối cư dân với thiên nhiên sâu sắc, cải thiện đáng kể tâm trạng chung hằng ngày của họ. Hãy cho tôi biết các bạn nghĩ gì."
         }
       ]
     },
@@ -424,22 +424,22 @@ export const part3Data = {
         "✨ [Sức khỏe tổng thể]: <strong>live longer</strong> (sống lâu hơn), <strong>feel energetic</strong> (cảm thấy tràn đầy năng lượng), <strong>maintain a healthy weight</strong> (duy trì mức cân nặng khỏe mạnh), <strong>keep our skin glowing</strong> (giữ cho làn da của chúng ta rạng rỡ), <strong>promote overall longevity</strong> (thúc đẩy tuổi thọ tổng thể)"
       ],
       "templates": [
-        "Vegetables [Dinh dưỡng]. Thus, they effectively [Sức khỏe thể chất] and help us [Sức khỏe tổng thể]. I am genuinely looking forward to hearing your wonderful thoughts.",
-        "I believe the main benefit is that they [Dinh dưỡng]. Consequently, eating them will [Sức khỏe thể chất] and [Sức khỏe tổng thể]. That is all I have to share with you today.",
-        "I think because they [Dinh dưỡng], they naturally [Sức khỏe thể chất]. This allows us to [Sức khỏe tổng thể]. I truly hope that this gives you some great ideas."
+        "Vegetables [Dinh dưỡng]. Thus, they effectively [Sức khỏe thể chất] and help us [Sức khỏe tổng thể]. I am looking forward to hearing your thoughts.",
+        "I believe the main benefit is that they [Dinh dưỡng]. Consequently, eating them will [Sức khỏe thể chất] and [Sức khỏe tổng thể]. That is all from me.",
+        "I think because they [Dinh dưỡng], they naturally [Sức khỏe thể chất]. This allows us to [Sức khỏe tổng thể]. I hope this gives you ideas."
       ],
       "samples": [
         {
-          "en": "Vegetables provide essential vitamins and minerals. Thus, they effectively boost our immune system and help us maintain a healthy weight. I am genuinely looking forward to hearing your wonderful thoughts.",
+          "en": "Vegetables provide essential vitamins and minerals. Thus, they effectively boost our immune system and help us maintain a healthy weight. I am looking forward to hearing your thoughts.",
           "vi": "Nói về chủ đề thực sự thú vị này hôm nay, các loại rau tươi cung cấp các vitamin và khoáng chất thiết yếu cho cơ thể chúng ta. Do đó, chúng tăng cường hiệu quả hệ miễn dịch và giúp chúng ta duy trì cân nặng khỏe mạnh, điều này vô cùng quan trọng cho một cuộc sống trường thọ. Tôi mong được nghe suy nghĩ của bạn."
         },
         {
-          "en": "I believe the main benefit is that they are an excellent source of dietary fiber. Consequently, eating them will improve digestion significantly and keep our skin glowing. That is all I have to share with you today.",
-          "vi": "Tôi mạnh mẽ tin rằng lợi ích chính là chúng là một nguồn cung cấp chất xơ tuyệt vời. Hậu quả là, ăn chúng hàng ngày sẽ cải thiện tiêu hóa đáng kể và giữ cho làn da chúng ta rạng rỡ, khiến chúng ta trông trẻ trung và khỏe mạnh hơn nhiều. Đó là tất cả những gì tôi muốn chia sẻ hôm nay."
+          "en": "I believe the main benefit is that they are an excellent source of dietary fiber. Consequently, eating them will improve digestion significantly and keep our skin glowing. That is all from me.",
+          "vi": "Tôi mạnh mẽ tin rằng lợi ích chính là chúng là một nguồn cung cấp chất xơ tuyệt vời. Hậu quả là, ăn chúng hàng ngày sẽ cải thiện tiêu hóa đáng kể và giữ cho làn da chúng ta rạng rỡ, khiến chúng ta trông trẻ trung và khỏe mạnh hơn nhiều. Đó là tất cả từ tôi."
         },
         {
-          "en": "I think because they contain powerful antioxidants, they naturally lower the risk of chronic diseases. This allows us to promote overall longevity. I truly hope that you will find this very helpful.",
-          "vi": "Cá nhân tôi thực sự nghĩ rằng vì chúng chứa các chất chống oxy hóa mạnh mẽ, chúng tự nhiên làm giảm nguy cơ mắc các bệnh mãn tính nguy hiểm. Lợi ích tuyệt vời này cho phép chúng ta nâng cao tuổi thọ tổng thể và tận hưởng một lối sống năng động, hạnh phúc hơn nhiều khi chúng ta già đi. Tôi thực sự hy vọng bạn sẽ thấy điều này rất hữu ích."
+          "en": "I think because they contain powerful antioxidants, they naturally lower the risk of chronic diseases. This allows us to promote overall longevity. I hope you find this helpful.",
+          "vi": "Cá nhân tôi thực sự nghĩ rằng vì chúng chứa các chất chống oxy hóa mạnh mẽ, chúng tự nhiên làm giảm nguy cơ mắc các bệnh mãn tính nguy hiểm. Lợi ích tuyệt vời này cho phép chúng ta nâng cao tuổi thọ tổng thể và tận hưởng một lối sống năng động, hạnh phúc hơn nhiều khi chúng ta già đi. Tôi mong bạn thấy nó hữu ích."
         }
       ]
     }
@@ -544,21 +544,21 @@ export const part3Data = {
         "✨ [Actions/Habits]: <strong>read</strong> (đọc), <strong>sit</strong> (ngồi), <strong>delve deeply</strong> (đào sâu), <strong>truly unwind</strong> (thực sự thư giãn), <strong>escape reality</strong> (thoát khỏi thực tại)"
       ],
       "templates": [
-        "I usually prefer [Time/Places] because they make me feel [Feelings] and help me [Actions/Habits] effectively. I truly hope this detailed response answers the question appropriately today.",
-        "When I stay in [Time/Places], I always feel [Feelings] which allows me to [Actions/Habits] properly. I truly hope this detailed response answers the question appropriately today.",
-        "Finding great [Time/Places] is essential to keep me [Feelings] while I try to [Actions/Habits] everyday. I truly hope this detailed response answers the question appropriately today."
+        "I usually prefer [Time/Places] because they make me feel [Feelings] and help me [Actions/Habits] effectively. I truly hope this answers the question appropriately today.",
+        "When I stay in [Time/Places], I always feel [Feelings] which allows me to [Actions/Habits] properly. I truly hope this answers the question appropriately today.",
+        "Finding great [Time/Places] is essential to keep me [Feelings] while I try to [Actions/Habits] everyday. I truly hope this answers the question appropriately today."
       ],
       "samples": [
         {
-          "en": "I usually prefer tranquil settings because they make me feel intellectually stimulated and help me delve deeply effectively. I truly hope this detailed response answers the question appropriately today.",
+          "en": "I usually prefer tranquil settings because they make me feel intellectually stimulated and help me delve deeply effectively. I truly hope this answers the question appropriately today.",
           "vi": "Tôi rất hào hứng khi nói về điều này! Tôi thường thích những không gian yên tĩnh vì chúng làm tôi cảm thấy được kích thích trí tuệ và giúp tôi đào sâu một cách hiệu quả. Tôi thích đọc sách ở đó vào ban đêm để học những điều mới và hoàn toàn quên đi một ngày làm việc dài căng thẳng của mình. Tôi thực sự hy vọng điều này trả lời hoàn hảo câu hỏi của bạn hôm nay."
         },
         {
-          "en": "When I stay in cozy corners, I always feel mentally rejuvenated which allows me to truly unwind properly. I truly hope this detailed response answers the question appropriately today.",
+          "en": "When I stay in cozy corners, I always feel mentally rejuvenated which allows me to truly unwind properly. I truly hope this answers the question appropriately today.",
           "vi": "Tôi rất hào hứng khi nói về điều này! Khi tôi ở trong những góc ấm cúng, tôi luôn cảm thấy được trẻ hóa tinh thần, điều này cho phép tôi thực sự thư giãn đúng cách. Đó là điểm yêu thích của tôi ở nhà để thưởng thức những cuốn sách hay và uống một tách cà phê ngọt ấm. Tôi thực sự hy vọng điều này trả lời hoàn hảo câu hỏi của bạn hôm nay."
         },
         {
-          "en": "Finding great solitary retreats is essential to keep me completely immersed while I try to escape reality everyday. I truly hope this detailed response answers the question appropriately today.",
+          "en": "Finding great solitary retreats is essential to keep me completely immersed while I try to escape reality everyday. I truly hope this answers the question appropriately today.",
           "vi": "Tôi rất hào hứng khi nói về điều này! Việc tìm kiếm những nơi ẩn dật một mình tuyệt vời là điều cần thiết để giữ cho tôi hoàn toàn đắm chìm trong khi tôi cố gắng thoát khỏi thực tại mỗi ngày. Tôi thường dành buổi tối ở đó để đọc những câu chuyện hay, cảm thấy vui vẻ và tránh mọi tiếng ồn lớn khó chịu bên ngoài. Tôi thực sự hy vọng điều này trả lời hoàn hảo câu hỏi của bạn hôm nay."
         }
       ]
@@ -573,21 +573,21 @@ export const part3Data = {
         "✨ [Reactions]: <strong>read</strong> (đọc), <strong>smile</strong> (cười), <strong>broaden perspectives</strong> (mở rộng góc nhìn), <strong>cultivate empathy</strong> (nuôi dưỡng sự đồng cảm), <strong>expand knowledge</strong> (mở rộng kiến thức)"
       ],
       "templates": [
-        "I highly recommend [Genres] because it is [Benefits] and can help them [Reactions] effectively. I truly hope this detailed response answers the question appropriately today.",
-        "You should definitely buy [Genres] as it is [Benefits] and allows readers to [Reactions] easily. I truly hope this detailed response answers the question appropriately today.",
-        "A great choice is [Genres] since it feels [Benefits] and encourages people to [Reactions] everyday. I truly hope this detailed response answers the question appropriately today."
+        "I highly recommend [Genres] because it is [Benefits] and can help them [Reactions] effectively. I truly hope this answers the question appropriately today.",
+        "You should definitely buy [Genres] as it is [Benefits] and allows readers to [Reactions] easily. I truly hope this answers the question appropriately today.",
+        "A great choice is [Genres] since it feels [Benefits] and encourages people to [Reactions] everyday. I truly hope this answers the question appropriately today."
       ],
       "samples": [
         {
-          "en": "I highly recommend compelling biographies because it is profoundly inspiring and can help them broaden perspectives effectively. I truly hope this detailed response answers the question appropriately today.",
+          "en": "I highly recommend compelling biographies because it is profoundly inspiring and can help them broaden perspectives effectively. I truly hope this answers the question appropriately today.",
           "vi": "Đây chắc chắn là điều tôi thích nói đến. Tôi đánh giá cao những tiểu sử hấp dẫn vì nó truyền cảm hứng sâu sắc và có thể giúp họ mở rộng góc nhìn một cách hiệu quả. Bạn của bạn chắc chắn sẽ mỉm cười và vui vẻ khi đọc về những người nổi tiếng và câu chuyện cuộc sống tuyệt vời của họ mỗi ngày. Tôi thực sự hy vọng điều này trả lời hoàn hảo câu hỏi của bạn hôm nay."
         },
         {
-          "en": "You should definitely buy thought-provoking non-fiction as it is intellectually enriching and allows readers to cultivate empathy easily. I truly hope this detailed response answers the question appropriately today.",
+          "en": "You should definitely buy thought-provoking non-fiction as it is intellectually enriching and allows readers to cultivate empathy easily. I truly hope this answers the question appropriately today.",
           "vi": "Tôi rất hào hứng khi nói về điều này! Bạn chắc chắn nên mua sách phi hư cấu gợi suy nghĩ vì nó làm phong phú trí tuệ và cho phép người đọc nuôi dưỡng sự đồng cảm một cách dễ dàng. Đó là một lựa chọn hay để giúp bất kỳ ai học các kỹ năng mới hữu ích và mở rộng kiến thức cơ bản của họ một cách nhanh chóng. Tôi thực sự hy vọng điều này trả lời hoàn hảo câu hỏi của bạn hôm nay."
         },
         {
-          "en": "A great choice is gripping thrillers since it feels incredibly captivating and encourages people to expand knowledge everyday. I truly hope this detailed response answers the question appropriately today.",
+          "en": "A great choice is gripping thrillers since it feels incredibly captivating and encourages people to expand knowledge everyday. I truly hope this answers the question appropriately today.",
           "vi": "Tôi rất hào hứng khi nói về điều này! Một lựa chọn tuyệt vời là những cuốn truyện giật gân cuốn hút vì nó mang lại cảm giác vô cùng lôi cuốn và khuyến khích mọi người mở rộng kiến thức mỗi ngày. Họ sẽ đọc trong nhiều giờ và cảm thấy rất hào hứng khi khám phá ra tất cả những bí ẩn bất ngờ và những bí mật bị che giấu. Tôi thực sự hy vọng điều này trả lời hoàn hảo câu hỏi của bạn hôm nay."
         }
       ]
@@ -602,21 +602,21 @@ export const part3Data = {
         "✨ [Impacts]: <strong>help</strong> (giúp), <strong>save</strong> (tiết kiệm), <strong>revolutionize consumption</strong> (cách mạng hóa việc tiêu thụ), <strong>mitigate deforestation</strong> (giảm thiểu phá rừng), <strong>maximize efficiency</strong> (tối đa hóa hiệu quả)"
       ],
       "templates": [
-        "I believe that [Formats] are [Advantages] and will certainly [Impacts] in the near future. I truly hope this detailed response answers the question appropriately today.",
-        "Because [Formats] remain [Advantages], they can successfully [Impacts] for readers across the whole world. I truly hope this detailed response answers the question appropriately today.",
-        "It is true that [Formats] seem [Advantages] and might slowly [Impacts] in modern society today. I truly hope this detailed response answers the question appropriately today."
+        "I believe that [Formats] are [Advantages] and will certainly [Impacts] in the near future. I truly hope this answers the question appropriately today.",
+        "Because [Formats] remain [Advantages], they can successfully [Impacts] for readers across the whole world. I truly hope this answers the question appropriately today.",
+        "It is true that [Formats] seem [Advantages] and might slowly [Impacts] in modern society today. I truly hope this answers the question appropriately today."
       ],
       "samples": [
         {
-          "en": "I believe that digital counterparts are unprecedentedly convenient and will certainly revolutionize consumption in the near future. I truly hope this detailed response answers the question appropriately today.",
+          "en": "I believe that digital counterparts are unprecedentedly convenient and will certainly revolutionize consumption in the near future. I truly hope this answers the question appropriately today.",
           "vi": "Đây chắc chắn là điều tôi thích nói đến. Tôi tin rằng các phiên bản kỹ thuật số mang lại sự tiện lợi chưa từng có và chắc chắn sẽ cách mạng hóa việc tiêu thụ trong tương lai gần. Mọi người có thể dễ dàng đọc nhanh trên màn hình nhỏ của họ và tiết kiệm rất nhiều tiền thay vì mua các bản sao vật lý. Tôi thực sự hy vọng điều này trả lời hoàn hảo câu hỏi của bạn hôm nay."
         },
         {
-          "en": "Because electronic publications remain remarkably accessible, they can successfully mitigate deforestation for readers across the whole world. I truly hope this detailed response answers the question appropriately today.",
+          "en": "Because electronic publications remain remarkably accessible, they can successfully mitigate deforestation for readers across the whole world. I truly hope this answers the question appropriately today.",
           "vi": "Đây chắc chắn là điều tôi thích nói đến. Bởi vì các ấn bản điện tử vẫn cực kỳ dễ tiếp cận, chúng có thể giảm thiểu nạn phá rừng thành công cho độc giả trên toàn thế giới. Bất kỳ ai cũng có thể sử dụng các ứng dụng hiện đại để tải xuống những cuốn sách rẻ tiền, điều này giúp bảo vệ môi trường tự nhiên tươi đẹp của chúng ta và cứu những cây cổ thụ. Tôi thực sự hy vọng điều này trả lời hoàn hảo câu hỏi của bạn hôm nay."
         },
         {
-          "en": "It is true that virtual libraries seem highly portable and might slowly maximize efficiency in modern society today. I truly hope this detailed response answers the question appropriately today.",
+          "en": "It is true that virtual libraries seem highly portable and might slowly maximize efficiency in modern society today. I truly hope this answers the question appropriately today.",
           "vi": "Tôi rất hào hứng khi nói về điều này! đúng là các thư viện ảo dường như có tính di động cao và có thể từ từ tối đa hóa hiệu quả trong xã hội hiện đại ngày nay. Chúng chắc chắn giúp những sinh viên bận rộn dễ dàng truy cập tài liệu học tập nhanh chóng và tránh phải mang những chiếc cặp nặng nề đến trường. Tôi thực sự hy vọng điều này trả lời hoàn hảo câu hỏi của bạn hôm nay."
         }
       ]
@@ -723,8 +723,8 @@ export const part3Data = {
       ],
       "templates": [
         "Template 1: I [Frequency] watch movies on my [Device Preferences] at home instead of going out. I truly hope this helps everyone in our club today.",
-        "Template 2: While I [Frequency] visit the cinema for its [Theater Benefits], my [Device Preferences] is more convenient. I truly hope this detailed response answers the question appropriately today.",
-        "Template 3: My [Device Preferences] is great, but I [Frequency] crave the [Theater Benefits] of a real cinema. I truly hope this detailed response answers the question appropriately today."
+        "Template 2: While I [Frequency] visit the cinema for its [Theater Benefits], my [Device Preferences] is more convenient. I truly hope this answers the question appropriately today.",
+        "Template 3: My [Device Preferences] is great, but I [Frequency] crave the [Theater Benefits] of a real cinema. I truly hope this answers the question appropriately today."
       ],
       "samples": [
         {
@@ -732,11 +732,11 @@ export const part3Data = {
           "vi": "Đây chắc chắn là điều tôi thích nói đến. Tôi thường xuyên xem phim trên máy tính xách tay ở nhà thay vì đi chơi. Nó vô cùng tiện lợi và giúp tôi tiết kiệm một lượng lớn tiền bạc và thời gian quý báu mà nếu không tôi sẽ dành để di chuyển đến rạp chiếu phim vào mỗi dịp cuối tuần. Tôi thực sự hy vọng điều này giúp ích cho mọi người trong câu lạc bộ thân thiện của chúng ta."
         },
         {
-          "en": "Template 2: While I occasionally visit the cinema for its cinematic experience, my portable device is more convenient. I truly hope this detailed response answers the question appropriately today.",
+          "en": "Template 2: While I occasionally visit the cinema for its cinematic experience, my portable device is more convenient. I truly hope this answers the question appropriately today.",
           "vi": "Tôi rất hào hứng khi nói về điều này! Mặc dù thỉnh thoảng tôi đến rạp chiếu phim vì trải nghiệm điện ảnh của nó, thiết bị di động của tôi lại tiện lợi hơn. Tôi có thể thoải mái nằm trên giường, tạm dừng phim bất cứ khi nào tôi cần nghỉ ngơi và thưởng thức các chương trình yêu thích mà không bị phân tâm thực sự nào. Tôi thực sự hy vọng điều này trả lời hoàn hảo câu hỏi của bạn hôm nay."
         },
         {
-          "en": "Template 3: My home theater system is great, but I periodically crave the immersive atmosphere of a real cinema. I truly hope this detailed response answers the question appropriately today.",
+          "en": "Template 3: My home theater system is great, but I periodically crave the immersive atmosphere of a real cinema. I truly hope this answers the question appropriately today.",
           "vi": "Tôi rất hào hứng khi nói về điều này! Hệ thống rạp hát tại nhà của tôi rất tuyệt, nhưng tôi định kỳ thèm muốn bầu không khí chìm đắm của một rạp chiếu phim thực sự. Sự phấn khích chung của khán giả và mùi bỏng ngô tươi đơn giản là không thể được tái tạo trong môi trường phòng khách gia đình tiêu chuẩn. Tôi thực sự hy vọng điều này trả lời hoàn hảo câu hỏi của bạn hôm nay."
         }
       ]
@@ -751,13 +751,13 @@ export const part3Data = {
         "✨ [Emotional Response]: <strong>upset</strong> (buồn bực), <strong>mad</strong> (tức giận), <strong>devastated</strong> (suy sụp), <strong>frustrated</strong> (thất vọng), <strong>dismayed</strong> (hoảng hốt)"
       ],
       "templates": [
-        "Template 1: I experienced a terrible [Incident Type] last year which resulted in [Consequences], leaving me [Emotional Response]. I truly hope this detailed response answers the question appropriately today.",
+        "Template 1: I experienced a terrible [Incident Type] last year which resulted in [Consequences], leaving me [Emotional Response]. I truly hope this answers the question appropriately today.",
         "I would like to share my thoughts on this topic. Template 2: Because of a [Incident Type], I suffered from [Consequences] and felt completely [Emotional Response]. I truly hope this helps everyone in our club today.",
         "Template 3: A sudden [Incident Type] caused [Consequences], and I was [Emotional Response] about the whole situation. I truly hope this helps everyone in our club today."
       ],
       "samples": [
         {
-          "en": "Template 1: I experienced a terrible system failure last year which resulted in irreversible data loss, leaving me devastated. I truly hope this detailed response answers the question appropriately today.",
+          "en": "Template 1: I experienced a terrible system failure last year which resulted in irreversible data loss, leaving me devastated. I truly hope this answers the question appropriately today.",
           "vi": "Đây chắc chắn là điều tôi thích nói đến. Tôi đã trải qua một lỗi hệ thống tồi tệ vào năm ngoái dẫn đến mất dữ liệu không thể phục hồi, khiến tôi hoàn toàn suy sụp. Tôi đã dành vô số đêm để chuẩn bị cho luận văn tốt nghiệp cuối khóa của mình, và việc nhận ra mọi thứ đã vĩnh viễn biến mất thực sự là cơn ác mộng đau lòng nhất từ trước đến nay. Tôi thực sự hy vọng điều này trả lời hoàn hảo câu hỏi của bạn hôm nay."
         },
         {
@@ -781,7 +781,7 @@ export const part3Data = {
       ],
       "templates": [
         "Template 1: I [General Opinion] because technology brings [Positive Impacts] despite causing [Negative Aspects]. I truly hope this helps everyone in our club right now.",
-        "Template 2: While we might experience [Negative Aspects], I [General Opinion] that experiencing [Positive Impacts] makes life better. I truly hope this detailed response answers the question appropriately today.",
+        "Template 2: While we might experience [Negative Aspects], I [General Opinion] that experiencing [Positive Impacts] makes life better. I truly hope this answers the question appropriately today.",
         "I would like to share my thoughts on this topic. Template 3: Many people [General Opinion] that having [Positive Impacts] outweighs the risks of [Negative Aspects]. I truly hope this helps everyone in our club today."
       ],
       "samples": [
@@ -790,7 +790,7 @@ export const part3Data = {
           "vi": "Ồ, tôi luôn muốn chia sẻ suy nghĩ của mình về điều này! Tôi hoàn toàn tán thành vì công nghệ mang lại sự tiện lợi chưa từng có bất chấp việc gây ra các lỗ hổng quyền riêng tư. Các thiết bị nhà thông minh cho phép chúng ta quản lý hiệu quả công việc nhà bằng các lệnh giọng nói đơn giản, mang lại cho chúng ta nhiều thời gian rảnh hơn đáng kể để vui vẻ thư giãn cùng các thành viên yêu thương trong gia đình. Tôi thực sự hy vọng điều này giúp ích cho mọi người trong câu lạc bộ thân thiện của chúng ta hôm nay."
         },
         {
-          "en": "Template 2: While we might experience sedentary lifestyles, I firmly believe that experiencing enhanced productivity makes life better. I truly hope this detailed response answers the question appropriately today.",
+          "en": "Template 2: While we might experience sedentary lifestyles, I firmly believe that experiencing enhanced productivity makes life better. I truly hope this answers the question appropriately today.",
           "vi": "Đây chắc chắn là điều tôi thích nói đến. Mặc dù chúng ta có thể trải nghiệm lối sống ít vận động, tôi tin tưởng vững chắc rằng việc trải nghiệm năng suất được nâng cao sẽ làm cho cuộc sống tốt hơn. Máy tính hiện đại tự động hóa các công việc hàng ngày nhàm chán, cho phép những người lao động hiện đại tập trung vào các dự án sáng tạo và cải thiện đáng kể sự phát triển nghề nghiệp chuyên môn của họ mỗi ngày. Tôi thực sự hy vọng điều này trả lời hoàn hảo câu hỏi của bạn hôm nay."
         },
         {
@@ -870,7 +870,7 @@ export const part3Data = {
       ],
       "templates": [
         "You know, to succeed, an aspiring founder absolutely needs [Key Quality]. Furthermore, continuously mastering [Essential Skill] is critically important to successfully [Ultimate Goal] in today's unpredictable and highly demanding corporate landscape. Honestly,",
-        "Possessing [Key Quality] is truly vital. Combined with [Essential Skill], business owners can confidently [Ultimate Goal] while maintaining a strong position in the modern competitive business environment. I strongly believe that this is a very good idea.",
+        "Possessing [Key Quality] is truly vital. Combined with [Essential Skill], business owners can confidently [Ultimate Goal] while maintaining a strong position in the modern competitive business environment. It is good.",
         "I believe that [Key Quality] plays a massive role. When leaders develop [Essential Skill], they are much better prepared to [Ultimate Goal] and overcome any unexpected challenges that arise during operation. Finally,"
       ],
       "samples": [
@@ -879,7 +879,7 @@ export const part3Data = {
           "vi": "Bạn biết đấy, để thành công, một nhà sáng lập đầy tham vọng tuyệt đối cần sự chăm chỉ. Hơn nữa, việc liên tục nắm vững cách nói chuyện với mọi người là cực kỳ quan trọng để kiếm được nhiều tiền thành công trong bối cảnh doanh nghiệp luôn thay đổi và đòi hỏi cao như hiện nay. Thật tuyệt!"
         },
         {
-          "en": "Possessing strategic foresight is truly vital. Combined with persuasive communication, business owners can confidently outpace industry competitors while maintaining a strong position in the modern competitive business environment. I strongly believe that this is a very good idea.",
+          "en": "Possessing strategic foresight is truly vital. Combined with persuasive communication, business owners can confidently outpace industry competitors while maintaining a strong position in the modern competitive business environment. It is good.",
           "vi": "Điều đó thật tuyệt vời! Sở hữu tầm nhìn chiến lược thực sự là rất quan trọng. Kết hợp với giao tiếp thuyết phục, các chủ doanh nghiệp có thể tự tin vượt qua các đối thủ cùng ngành trong khi duy trì vị thế vững chắc trong môi trường kinh doanh cạnh tranh hiện đại. Nó thật tuyệt."
         },
         {
@@ -2533,7 +2533,7 @@ export const part3Data = {
       "templates": [
         "I joined because I care about [Interests] and want to [Goals]. I also hope to [Future Hopes]. This makes such a clear difference for me.",
         "I am super excited to share my thoughts today. Supporting [Interests] motivated me to join and [Goals]. Ultimately, I wish to [Future Hopes]. It brings so much value and improvement to my life.",
-        "My dedication to [Interests] led me here to [Goals]. Someday, I truly want to [Future Hopes]. I truly hope that you all agree with me too."
+        "My dedication to [Interests] led me here to [Goals]. Someday, I truly want to [Future Hopes]. I hope you all agree too."
       ],
       "samples": [
         {
@@ -2545,8 +2545,8 @@ export const part3Data = {
           "vi": "Tôi siêu hào hứng để chia sẻ suy nghĩ hôm nay. Việc ủng hộ chim dễ thương đã thúc đẩy tôi tham gia và gieo hạt giống. Cuối cùng, tôi mong muốn vui vẻ. Nó mang lại rất nhiều niềm vui và hạnh phúc cho cuộc sống của tôi."
         },
         {
-          "en": "My dedication to environmental conservation efforts led me here to advocate for policy changes. Someday, I truly want to build a resilient community. I truly hope that you all agree with me too.",
-          "vi": "Đó thực sự là một câu hỏi tuyệt vời! Sự cống hiến của tôi cho nỗ lực bảo tồn môi trường đã đưa tôi đến đây để vận động cho những thay đổi chính sách. Một ngày nào đó, tôi thực sự muốn xây dựng một cộng đồng kiên cường. Tôi thực sự hy vọng tất cả các bạn cũng đồng ý với tôi."
+          "en": "My dedication to environmental conservation efforts led me here to advocate for policy changes. Someday, I truly want to build a resilient community. I hope you all agree too.",
+          "vi": "Đó thực sự là một câu hỏi tuyệt vời! Sự cống hiến của tôi cho nỗ lực bảo tồn môi trường đã đưa tôi đến đây để vận động cho những thay đổi chính sách. Một ngày nào đó, tôi thực sự muốn xây dựng một cộng đồng kiên cường. Tôi hy vọng tất cả các bạn cũng đồng ý."
         }
       ]
     },
@@ -2860,7 +2860,7 @@ export const part3Data = {
       "templates": [
         "I found the meeting [Adjective] because the [Element] really helped to [Impact]. I would like to hear what everyone else thinks about this topic.",
         "It was [Adjective], and participating in [Element] managed to [Impact]. It has clearly changed the way I see things in my daily life.",
-        "The session was [Adjective] as those [Element] definitely served to [Impact]. I will now share my personal thoughts on this with you."
+        "The session was [Adjective] as those [Element] definitely served to [Impact]. I will now share my thoughts on this with you."
       ],
       "samples": [
         {
@@ -2872,7 +2872,7 @@ export const part3Data = {
           "vi": "Nói về chủ đề thú vị này, nó có tính tương tác cao, và việc tham gia vào các dự án nhóm hợp tác đã giúp tăng cường sự trôi chảy trong giao tiếp của tôi. Làm việc cùng nhau buộc chúng tôi phải giao tiếp liên tục dưới một chút áp lực, điều này loại bỏ hiệu quả những do dự ngượng ngùng trước đây của tôi khi nói chuyện với người lạ. Nó đã hoàn toàn thay đổi cách tôi nhìn nhận cuộc sống hàng ngày."
         },
         {
-          "en": "The session was profoundly insightful as those engaging guest presentations definitely served to cultivate a deeper cultural appreciation. I will now share my personal thoughts on this with you.",
+          "en": "The session was profoundly insightful as those engaging guest presentations definitely served to cultivate a deeper cultural appreciation. I will now share my thoughts on this with you.",
           "vi": "Đây là một câu hỏi siêu thú vị! Buổi học thực sự sâu sắc vì những bài thuyết trình hấp dẫn của khách mời chắc chắn đã góp phần nuôi dưỡng sự trân trọng văn hóa sâu sắc hơn. Người nói đã chia sẻ những câu chuyện tuyệt vời về truyền thống nước ngoài làm thay đổi hoàn toàn cách tôi thường nhìn nhận các phong cách giao tiếp toàn cầu thông thường. Tôi hoàn toàn thích chia sẻ suy nghĩ này với bạn."
         }
       ]
@@ -2887,13 +2887,13 @@ export const part3Data = {
         "✨ [Action]: <strong>talk</strong> (nói), <strong>learn</strong> (học), <strong>exchange diverse perspectives</strong> (trao đổi các góc nhìn đa dạng), <strong>debate passionately</strong> (tranh biện sôi nổi), <strong>explore nuanced vocabulary</strong> (khám phá từ vựng tinh tế)"
       ],
       "templates": [
-        "I hope we discuss [Topic] because it is [Reason] and lets us [Action]. I will now share my personal thoughts on this with you.",
+        "I hope we discuss [Topic] because it is [Reason] and lets us [Action]. I will now share my thoughts on this with you.",
         "Focusing on [Topic] would be [Reason], allowing members to [Action]. This is genuinely something that is very important and I hope you all agree.",
-        "Since it is [Reason], covering [Topic] provides a chance to [Action]. I will now share my personal thoughts on this with you."
+        "Since it is [Reason], covering [Topic] provides a chance to [Action]. I will now share my thoughts on this with you."
       ],
       "samples": [
         {
-          "en": "I hope we discuss cross-cultural communication because it is practically useful for careers and lets us exchange diverse perspectives. I will now share my personal thoughts on this with you.",
+          "en": "I hope we discuss cross-cultural communication because it is practically useful for careers and lets us exchange diverse perspectives. I will now share my thoughts on this with you.",
           "vi": "Đó là một chủ đề tuyệt vời! Tôi hy vọng chúng ta thảo luận về giao tiếp đa văn hóa vì nó thực sự hữu ích cho sự nghiệp và cho phép chúng ta trao đổi các góc nhìn đa dạng. Hiểu cách suy nghĩ của những người khác nhau chắc chắn sẽ mang lại cho mọi người một lợi thế to lớn khi làm việc tại các công ty quốc tế lớn. Tôi hoàn toàn thích chia sẻ suy nghĩ này với bạn."
         },
         {
@@ -2901,7 +2901,7 @@ export const part3Data = {
           "vi": "Nói về chủ đề thú vị này, tập trung vào các vấn đề xã hội đương đại sẽ thu hút về mặt trí tuệ, cho phép các thành viên tranh biện sôi nổi. Sinh viên trẻ quan tâm sâu sắc đến thế giới đang thay đổi nhanh chóng, vì vậy mang đến cho họ một nền tảng an toàn để bày tỏ quan điểm mạnh mẽ tạo ra những cuộc họp rất thú vị. Đây thực sự là điều khiến tôi rất vui và mong bạn cũng đồng ý."
         },
         {
-          "en": "Since it is highly relevant to modern life, covering technological advancements provides a chance to explore nuanced vocabulary. I will now share my personal thoughts on this with you.",
+          "en": "Since it is highly relevant to modern life, covering technological advancements provides a chance to explore nuanced vocabulary. I will now share my thoughts on this with you.",
           "vi": "Đây là một câu hỏi siêu thú vị! Vì nó rất liên quan đến cuộc sống hiện đại, việc đề cập đến những tiến bộ công nghệ mang lại cơ hội khám phá từ vựng tinh tế. Trí tuệ nhân tạo hiện diện khắp nơi ngày nay, vì vậy chúng ta rất cần những từ tiếng Anh chính xác tuyệt đối để mô tả tác động của nó. Tôi hoàn toàn thích chia sẻ suy nghĩ này với bạn."
         }
       ]
@@ -2949,7 +2949,7 @@ export const part3Data = {
       "templates": [
         "I prefer to [Method] [Time] in order to [Goal]. This is a very interesting thing to discuss with everyone now.",
         "To [Goal], my strategy is to [Method] [Time]. It has clearly changed the way I see things in my daily life.",
-        "Instead of studying for hours, I [Method] [Time] to [Goal]. I will now share my personal thoughts on this with you."
+        "Instead of studying for hours, I [Method] [Time] to [Goal]. I will now share my thoughts on this with you."
       ],
       "samples": [
         {
@@ -2961,7 +2961,7 @@ export const part3Data = {
           "vi": "Nói về chủ đề thú vị này, Để nắm vững cấu trúc ngữ pháp phức tạp, chiến lược của tôi là sử dụng các ứng dụng tương tác trong những khoảng thời gian ngắn tập trung cao độ. Việc làm các bài kiểm tra kỹ thuật số nhanh mười lăm phút buộc não tôi phải chủ động nhớ lại các quy tắc ngay lập tức mà không gặp phải sự mệt mỏi tinh thần nghiêm trọng của các lớp học dài. Nó đã hoàn toàn thay đổi cách tôi nhìn nhận cuộc sống hàng ngày."
         },
         {
-          "en": "Instead of studying for hours, I engage in language exchange throughout my entire routine to enhance listening comprehension. I will now share my personal thoughts on this with you.",
+          "en": "Instead of studying for hours, I engage in language exchange throughout my entire routine to enhance listening comprehension. I will now share my thoughts on this with you.",
           "vi": "Đây là một câu hỏi siêu thú vị! Thay vì học hàng giờ, tôi tham gia trao đổi ngôn ngữ trong suốt thói quen toàn bộ của tôi để nâng cao khả năng nghe hiểu. Trò chuyện thoải mái với bạn bè nước ngoài trực tuyến có cảm giác hoàn toàn tự nhiên và giúp tôi tiếp xúc với những từ lóng thực tế liên tục mỗi ngày. Tôi hoàn toàn thích chia sẻ suy nghĩ này với bạn."
         }
       ]
@@ -3066,7 +3066,7 @@ export const part3Data = {
       ],
       "templates": [
         "I usually [Method] to [Reason], which makes it [Emotion]. It has clearly changed the way I see things in my daily life.",
-        "To [Reason], my preferred way is to [Method] because it feels [Emotion]. I will now share my personal thoughts on this with you.",
+        "To [Reason], my preferred way is to [Method] because it feels [Emotion]. I will now share my thoughts on this with you.",
         "Since it is [Emotion], I constantly [Method] in order to [Reason]. This is a very interesting thing to discuss with everyone now."
       ],
       "samples": [
@@ -3075,7 +3075,7 @@ export const part3Data = {
           "vi": "Đó là một chủ đề tuyệt vời! Tôi thường tận dụng các giải pháp lưu trữ đám mây để tạo điều kiện đồng bộ hóa mượt mà trên các thiết bị, điều này khiến nó vô cùng tiện lợi. Việc có thể truy cập các tệp thô nặng của tôi ngay lập tức từ chiếc điện thoại nhỏ bé khi đang đi du lịch hoàn toàn tiết kiệm cho tôi một lượng lớn thời gian quý báu. Nó đã hoàn toàn thay đổi cách tôi nhìn nhận cuộc sống hàng ngày."
         },
         {
-          "en": "To prevent disastrous data loss, my preferred way is to maintain external hard drives because it feels absolutely secure. I will now share my personal thoughts on this with you.",
+          "en": "To prevent disastrous data loss, my preferred way is to maintain external hard drives because it feels absolutely secure. I will now share my thoughts on this with you.",
           "vi": "Nói về chủ đề thú vị này, Để ngăn chặn mất dữ liệu thảm khốc, cách ưa thích của tôi là duy trì ổ cứng ngoài vì cảm giác hoàn toàn an tâm. Máy tính có thể đột ngột hỏng hóc bất cứ lúc nào, vì vậy việc lưu giữ các bản sao lưu ngoại tuyến nghiêm ngặt đảm bảo các sáng tạo nghệ thuật của tôi sống sót qua những tai nạn bất ngờ tồi tệ. Tôi hoàn toàn thích chia sẻ suy nghĩ này với bạn."
         },
         {
