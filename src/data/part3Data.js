@@ -2,385 +2,370 @@
 export const part3Data = {
   "Art club": {
     "q1": {
-      "member": "Member A",
       "question": "I kept a painting for a long time. Tell me a thing that you have had for a long time.",
       "vi": "Tôi đã giữ một bức tranh trong một thời gian dài. Hãy kể cho tôi nghe một món đồ mà bạn đã giữ rất lâu.",
       "vocab": [
-        "✨ [đồ vật ý nghĩa]: <strong>an old watch</strong> (chiếc đồng hồ cũ), <strong>a cute teddy bear</strong> (một con gấu bông dễ thương), <strong>a vintage camera</strong> (chiếc máy ảnh cổ), <strong>a family heirloom</strong> (vật gia truyền), <strong>a gold necklace</strong> (sợi dây chuyền vàng)",
-        "✨ [đặc điểm]: <strong>looks very beautiful</strong> (trông rất đẹp), <strong>is a special gift from my best friend</strong> (là món quà đặc biệt từ bạn thân), <strong>holds immense sentimental value</strong> (mang giá trị tinh thần to lớn), <strong>represents my family heritage</strong> (đại diện cho di sản gia đình), <strong>has a unique design</strong> (có thiết kế độc đáo)",
-        "✨ [hành động]: <strong>use it every single day</strong> (sử dụng nó mỗi ngày), <strong>clean it regularly</strong> (lau chùi nó thường xuyên), <strong>cherish it deeply</strong> (vô cùng trân trọng nó), <strong>preserve it carefully</strong> (bảo quản nó cẩn thận), <strong>keep it in a safe box</strong> (cất nó trong hộp an toàn)",
-        "✨ [đối tượng]: <strong>parents</strong> (bố mẹ), <strong>grandparents</strong> (ông bà), <strong>best friend</strong> (bạn thân), <strong>sibling</strong> (anh/chị/em), <strong>relative</strong> (người thân)"
+        "✨ [món đồ]: <strong>a vintage pocket watch</strong> (một chiếc đồng hồ bỏ túi cổ), <strong>a handmade wooden box</strong> (một chiếc hộp gỗ thủ công), <strong>a leather-bound notebook</strong> (một cuốn sổ tay bọc da), <strong>a traditional musical instrument</strong> (một nhạc cụ truyền thống), <strong>an antique silver necklace</strong> (một sợi dây chuyền bạc cổ)",
+        "✨ [đối tượng]: <strong>beloved grandfather</strong> (người ông kính yêu), <strong>closest childhood friend</strong> (người bạn thân nhất thời thơ ấu), <strong>former homeroom teacher</strong> (giáo viên chủ nhiệm cũ), <strong>supportive older sibling</strong> (người anh chị luôn ủng hộ), <strong>affectionate grandmother</strong> (người bà âu yếm)",
+        "✨ [tác dụng]: <strong>evoke precious memories</strong> (gợi lên những kỷ niệm quý giá), <strong>provide immense comfort</strong> (mang lại sự an ủi to lớn), <strong>spark endless inspiration</strong> (khơi dậy nguồn cảm hứng bất tận), <strong>boost my personal confidence</strong> (thúc đẩy sự tự tin cá nhân của tôi), <strong>relieve mental pressure</strong> (giải tỏa áp lực tinh thần)",
+        "✨ [cảm xúc]: <strong>nostalgic and grateful</strong> (hoài niệm và biết ơn), <strong>motivated and energized</strong> (đầy động lực và tràn đầy năng lượng), <strong>calm and peaceful</strong> (bình tĩnh và thanh thản), <strong>uplifted and joyful</strong> (phấn chấn và vui vẻ), <strong>secure and protected</strong> (an toàn và được bảo vệ)"
       ],
       "templates": [
-        "A treasured item I have kept for ages is [đồ vật ý nghĩa]. It is a special gift from my [đối tượng]. Because it [đặc điểm], I always [hành động].",
-        "One thing that [đặc điểm] is [đồ vật ý nghĩa]. It is a special gift from my [đối tượng]. I make sure to [hành động] because it is irreplaceable to me."
+        "The item that I have cherished for years is [món đồ]. It is a special gift from my [đối tượng]. Whenever I look at it, it seems to [tác dụng], which inevitably leaves me feeling [cảm xúc].",
+        "Speaking of long-kept possessions, I would mention [món đồ]. It is a special gift from my [đối tượng]. I highly appreciate it since it can [tác dụng], making me remarkably [cảm xúc] every single time."
       ],
       "samples": [
         {
-          "en": "A treasured item I have kept for ages is an old watch. It is a special gift from my parents. Because it is highly sentimental, I always wear it every day.",
-          "vi": "Một món đồ quý giá mà tôi đã giữ từ lâu là một chiếc đồng hồ cũ. Nó là một món quà đặc biệt từ bố mẹ tôi. Vì nó mang nhiều kỷ niệm, tôi luôn đeo nó mỗi ngày."
+          "en": "The item that I have cherished for years is a vintage pocket watch. It is a special gift from my beloved grandfather. Whenever I look at it, it seems to evoke precious memories, which inevitably leaves me feeling nostalgic and grateful.",
+          "vi": "Món đồ mà tôi đã trân trọng trong nhiều năm là một chiếc đồng hồ bỏ túi cổ. Nó là một món quà đặc biệt từ người ông kính yêu của tôi. Bất cứ khi nào tôi nhìn vào nó, nó dường như gợi lên những kỷ niệm quý giá, điều này chắc chắn khiến tôi cảm thấy hoài niệm và biết ơn."
         },
         {
-          "en": "One thing that brings back memories is a vintage camera. It is a special gift from my grandparents. I make sure to clean it regularly because it is irreplaceable to me.",
-          "vi": "Một thứ gợi lại những kỷ niệm là một chiếc máy ảnh cổ. Nó là một món quà đặc biệt từ ông bà tôi. Tôi đảm bảo sẽ lau chùi nó thường xuyên vì nó là thứ không thể thay thế đối với tôi."
+          "en": "Speaking of long-kept possessions, I would mention a handmade wooden box. It is a special gift from my closest childhood friend. I highly appreciate it since it can provide immense comfort, making me remarkably motivated and energized every single time.",
+          "vi": "Nói về những tài sản được giữ lâu dài, tôi muốn nhắc đến một chiếc hộp gỗ thủ công. Nó là một món quà đặc biệt từ người bạn thân nhất thời thơ ấu của tôi. Tôi đánh giá cao nó vì nó có thể mang lại sự an ủi to lớn, khiến tôi vô cùng đầy động lực và tràn đầy năng lượng mỗi lần."
         }
       ]
     },
     "q2": {
-      "member": "Member B",
       "question": "I would like to learn painting, but I have not found an effective way. Should I take a course at my local college? Please, give me some advice.",
       "vi": "Tôi muốn học vẽ tranh, nhưng tôi chưa tìm ra cách hiệu quả. Tôi có nên tham gia một khóa học tại trường cao đẳng địa phương không? Xin hãy cho tôi lời khuyên.",
       "vocab": [
-        "✨ [nhận định]: <strong>a good idea</strong> (một ý tưởng hay), <strong>the best choice</strong> (sự lựa chọn tốt nhất), <strong>a fantastic idea</strong> (một ý tưởng tuyệt vời), <strong>a worthwhile investment</strong> (một sự đầu tư xứng đáng), <strong>the most effective way</strong> (cách hiệu quả nhất)",
-        "✨ [lợi ích khóa học]: <strong>learn how to paint</strong> (học cách vẽ tranh), <strong>meet new friends</strong> (gặp gỡ bạn mới), <strong>master basic techniques quickly</strong> (nắm vững các kỹ thuật cơ bản nhanh chóng), <strong>receive professional guidance</strong> (nhận được sự hướng dẫn chuyên nghiệp), <strong>interact with experienced instructors</strong> (tương tác với những người hướng dẫn giàu kinh nghiệm)",
-        "✨ [kết quả]: <strong>draw better pictures</strong> (vẽ những bức tranh đẹp hơn), <strong>feel very happy</strong> (cảm thấy rất vui vẻ), <strong>improve your artistic skills significantly</strong> (cải thiện đáng kể kỹ năng nghệ thuật của bạn), <strong>build a solid foundation</strong> (xây dựng một nền tảng vững chắc), <strong>find your unique painting style</strong> (tìm ra phong cách vẽ độc đáo của bạn)",
-        "✨ [phương pháp]: <strong>approach</strong> (cách tiếp cận), <strong>strategy</strong> (chiến lược), <strong>technique</strong> (kỹ thuật), <strong>methodology</strong> (phương pháp luận), <strong>routine</strong> (thói quen)"
+        "✨ [nhận định]: <strong>a fantastic idea</strong> (một ý tưởng tuyệt vời), <strong>a wise decision</strong> (một quyết định khôn ngoan), <strong>a highly recommended approach</strong> (một phương pháp rất được khuyến khích), <strong>an excellent starting point</strong> (một điểm khởi đầu xuất sắc), <strong>a sensible choice</strong> (một lựa chọn hợp lý)",
+        "✨ [lợi ích khóa học]: <strong>master basic techniques</strong> (nắm vững các kỹ thuật cơ bản), <strong>explore various artistic styles</strong> (khám phá các phong cách nghệ thuật đa dạng), <strong>receive constructive feedback</strong> (nhận được phản hồi mang tính xây dựng), <strong>develop specialized skills</strong> (phát triển các kỹ năng chuyên môn), <strong>access quality materials</strong> (tiếp cận vật liệu chất lượng)",
+        "✨ [kết quả]: <strong>build a solid foundation</strong> (xây dựng một nền tảng vững chắc), <strong>enhance your creative potential</strong> (nâng cao tiềm năng sáng tạo của bạn), <strong>accelerate your learning process</strong> (đẩy nhanh quá trình học tập của bạn), <strong>boost your artistic confidence</strong> (thúc đẩy sự tự tin nghệ thuật của bạn), <strong>cultivate a refined taste</strong> (nuôi dưỡng một gu thẩm mỹ tinh tế)",
+        "✨ [hoạt động bổ sung]: <strong>make friends with peers</strong> (kết bạn với những người đồng trang lứa), <strong>exchange inspiring ideas</strong> (trao đổi những ý tưởng truyền cảm hứng), <strong>collaborate on group projects</strong> (hợp tác trong các dự án nhóm), <strong>participate in local exhibitions</strong> (tham gia các cuộc triển lãm địa phương), <strong>observe different painting methods</strong> (quan sát các phương pháp vẽ khác nhau)"
       ],
       "templates": [
-        "I believe taking a course at your local college is [nhận định]. In my experience, exploring an interactive [phương pháp] might be highly beneficial for your progress. It will help you [lợi ích khóa học] and eventually [kết quả].",
-        "Enrolling in a formal class is [nhận định]. In my experience, exploring an interactive [phương pháp] might be highly beneficial for your progress. You will [lợi ích khóa học], which can [kết quả]."
+        "I believe that taking a course at your local college is [nhận định]. By doing this, you will have a great chance to [lợi ích khóa học], which can [kết quả]. Besides, it is a perfect environment for you to [hoạt động bổ sung].",
+        "Enrolling in a formal class is undoubtedly [nhận định]. This strategy allows you to [lợi ích khóa học] and eventually [kết quả]. What is more, you can comfortably [hoạt động bổ sung] under professional guidance."
       ],
       "samples": [
         {
-          "en": "I believe taking a course at your local college is a fantastic idea. In my experience, exploring an interactive approach might be highly beneficial for your progress. It will help you master basic techniques quickly and eventually build a solid foundation.",
-          "vi": "Điều đó thật tuyệt vời! Tôi thực sự tin rằng tham gia một khóa học tại trường cao đẳng địa phương là một ý tưởng tuyệt vời cho người mới bắt đầu. Theo kinh nghiệm của tôi, việc khám phá một cách tiếp cận tương tác có thể rất có lợi cho sự tiến bộ của bạn. Nó sẽ giúp bạn nắm vững các kỹ thuật cơ bản nhanh chóng và cuối cùng là xây dựng một nền tảng vững chắc cho các dự án nghệ thuật tương lai của bạn. Tôi thực sự thích nó!"
+          "en": "I believe that taking a course at your local college is a fantastic idea. By doing this, you will have a great chance to master basic techniques, which can build a solid foundation. Besides, it is a perfect environment for you to make friends with peers.",
+          "vi": "Tôi tin rằng tham gia một khóa học tại trường cao đẳng địa phương là một ý tưởng tuyệt vời. Bằng cách này, bạn sẽ có cơ hội tuyệt vời để nắm vững các kỹ thuật cơ bản, điều này có thể xây dựng một nền tảng vững chắc. Ngoài ra, đây là một môi trường hoàn hảo để bạn kết bạn với những người đồng trang lứa."
         },
         {
-          "en": "Enrolling in a formal class is a worthwhile investment. In my experience, exploring an interactive strategy might be highly beneficial for your progress. You will receive professional guidance, which can improve your artistic skills significantly.",
-          "vi": "Đăng ký một lớp học chính thức chắc chắn là một sự đầu tư xứng đáng. Theo kinh nghiệm của tôi, việc khám phá một chiến lược tương tác có thể rất có lợi cho sự tiến bộ của bạn. Bạn sẽ nhận được sự hướng dẫn chuyên nghiệp, điều này có thể cải thiện đáng kể kỹ năng nghệ thuật của bạn và giúp bạn trở thành một họa sĩ giỏi hơn theo thời gian."
+          "en": "Enrolling in a formal class is undoubtedly a wise decision. This strategy allows you to explore various artistic styles and eventually enhance your creative potential. What is more, you can comfortably exchange inspiring ideas under professional guidance.",
+          "vi": "Ghi danh vào một lớp học chính thức chắc chắn là một quyết định khôn ngoan. Chiến lược này cho phép bạn khám phá các phong cách nghệ thuật đa dạng và cuối cùng nâng cao tiềm năng sáng tạo của bạn. Hơn thế nữa, bạn có thể thoải mái trao đổi những ý tưởng truyền cảm hứng dưới sự hướng dẫn chuyên môn."
         }
       ]
     },
     "q3": {
-      "member": "Member C",
       "question": "Street art – where people paint on the building – is becoming popular. However, some people criticize that it is bad. What is your opinion?",
       "vi": "Nghệ thuật đường phố - nơi mọi người vẽ lên tòa nhà - đang trở nên phổ biến. Tuy nhiên, một số người chỉ trích rằng nó là xấu. Ý kiến của bạn là gì?",
       "vocab": [
-        "✨ [đánh giá]: <strong>really nice</strong> (thật sự đẹp), <strong>a good thing</strong> (một điều tốt), <strong>a beautiful form of self-expression</strong> (một hình thức thể hiện bản thân tuyệt đẹp), <strong>an essential part of urban culture</strong> (một phần thiết yếu của văn hóa đô thị), <strong>a vibrant addition to the city</strong> (một sự bổ sung sống động cho thành phố)",
-        "✨ [mặt tích cực]: <strong>make streets colorful</strong> (làm cho đường phố rực rỡ), <strong>help people relax</strong> (giúp mọi người thư giãn), <strong>beautify dull concrete walls</strong> (làm đẹp những bức tường bê tông nhàm chán), <strong>convey powerful social messages</strong> (truyền tải những thông điệp xã hội mạnh mẽ), <strong>showcase local artistic talents</strong> (trưng bày tài năng nghệ thuật địa phương)",
-        "✨ [giải pháp]: <strong>give them free spaces</strong> (cho họ không gian miễn phí), <strong>support young artists</strong> (ủng hộ các nghệ sĩ trẻ), <strong>designate specific areas for artists</strong> (chỉ định các khu vực cụ thể cho nghệ sĩ), <strong>regulate it properly</strong> (quản lý nó một cách hợp lý), <strong>differentiate it from vandalism</strong> (phân biệt nó với hành vi phá hoại)",
-        "✨ [lý do]: <strong>vandalism</strong> (sự phá hoại), <strong>misunderstanding</strong> (sự hiểu lầm), <strong>neglect</strong> (sự bỏ bê), <strong>distraction</strong> (sự sao nhãng), <strong>prejudice</strong> (định kiến)"
+        "✨ [đánh giá]: <strong>a valuable cultural asset</strong> (một tài sản văn hóa có giá trị), <strong>a vibrant form of expression</strong> (một hình thức thể hiện sống động), <strong>an enriching visual experience</strong> (một trải nghiệm hình ảnh phong phú), <strong>a legitimate artistic movement</strong> (một phong trào nghệ thuật chính đáng), <strong>a remarkable urban phenomenon</strong> (một hiện tượng đô thị đáng chú ý)",
+        "✨ [giá trị nghệ thuật]: <strong>beautify dull neighborhoods</strong> (làm đẹp các khu phố tẻ nhạt), <strong>showcase immense raw talent</strong> (trưng bày tài năng thô sơ to lớn), <strong>challenge traditional aesthetic norms</strong> (thách thức các chuẩn mực thẩm mỹ truyền thống), <strong>transform ordinary public spaces</strong> (biến đổi không gian công cộng bình thường), <strong>reflect contemporary social themes</strong> (phản ánh các chủ đề xã hội đương đại)",
+        "✨ [tác động xã hội]: <strong>spark meaningful community conversations</strong> (khơi dậy những cuộc trò chuyện cộng đồng ý nghĩa), <strong>attract international tourism effectively</strong> (thu hút du lịch quốc tế hiệu quả), <strong>inspire marginalized local youths</strong> (truyền cảm hứng cho thanh niên địa phương bị gạt ra ngoài lề xã hội), <strong>promote cultural diversity awareness</strong> (thúc đẩy nhận thức về đa dạng văn hóa), <strong>foster a sense of belonging</strong> (nuôi dưỡng cảm giác thuộc về)",
+        "✨ [biện pháp quản lý]: <strong>designate specific creative zones</strong> (chỉ định các khu vực sáng tạo cụ thể), <strong>organize official mural festivals</strong> (tổ chức các lễ hội tranh tường chính thức), <strong>fund community art projects</strong> (tài trợ cho các dự án nghệ thuật cộng đồng), <strong>establish clear visual guidelines</strong> (thiết lập các hướng dẫn hình ảnh rõ ràng), <strong>collaborate with local artists</strong> (hợp tác với các nghệ sĩ địa phương)"
       ],
       "templates": [
-        "I completely disagree with the criticism because street art is [đánh giá]. Those who oppose it often argue that it can lead to urban decay, primarily due to a specific [lý do]. It can successfully [mặt tích cực].",
-        "While some consider it vandalism, I think it is [đánh giá]. Those who oppose it often argue that it can lead to urban decay, primarily due to a specific [lý do]. Instead of banning it, we should [giải pháp] to [mặt tích cực]."
+        "In my view, street art is [đánh giá] as long as it is done legally. It is an innovative medium that can [giá trị nghệ thuật] and [tác động xã hội]. Therefore, the government should [biện pháp quản lý] instead of banning it.",
+        "I firmly believe that public graffiti, when authorized, is [đánh giá]. Not only does this form of expression [giá trị nghệ thuật], but it also possesses the power to [tác động xã hội]. Consequently, authorities ought to [biện pháp quản lý]."
       ],
       "samples": [
         {
-          "en": "I completely disagree with the criticism because street art is a beautiful form of self-expression. Those who oppose it often argue that it can lead to urban decay, primarily due to a specific vandalism. It can successfully convey powerful social messages.",
-          "vi": "Tôi hoàn toàn không đồng ý với những lời chỉ trích tiêu cực vì nghệ thuật đường phố là một hình thức thể hiện bản thân tuyệt đẹp. Những người phản đối thường lập luận rằng nó có thể dẫn đến suy thoái đô thị, chủ yếu là do một sự phá hoại cụ thể. Nó có thể truyền tải thành công các thông điệp xã hội mạnh mẽ tới công chúng và làm cho các thành phố hiện đại của chúng ta trông thú vị hơn nhiều."
+          "en": "In my view, street art is a valuable cultural asset as long as it is done legally. It is an innovative medium that can beautify dull neighborhoods and spark meaningful community conversations. Therefore, the government should designate specific creative zones instead of banning it.",
+          "vi": "Theo quan điểm của tôi, nghệ thuật đường phố là một tài sản văn hóa có giá trị miễn là nó được thực hiện hợp pháp. Nó là một phương tiện đổi mới có thể làm đẹp các khu phố tẻ nhạt và khơi dậy những cuộc trò chuyện cộng đồng ý nghĩa. Do đó, chính phủ nên chỉ định các khu vực sáng tạo cụ thể thay vì cấm nó."
         },
         {
-          "en": "While some consider it vandalism, I think it is a vibrant addition to the city. Those who oppose it often argue that it can lead to urban decay, primarily due to a specific misunderstanding. Instead of banning it, we should designate specific areas for artists to showcase local artistic talents.",
-          "vi": "Điều đó thật tuyệt vời! Mặc dù một số người coi đó là hành vi phá hoại, tôi thực sự nghĩ nó là một sự bổ sung sống động cho thành phố. Những người phản đối thường lập luận rằng nó có thể dẫn đến suy thoái đô thị, chủ yếu là do một sự hiểu lầm cụ thể. Thay vì cấm, chúng ta nên chỉ định các khu vực cụ thể cho các nghệ sĩ để trưng bày tài năng nghệ thuật địa phương một cách an toàn. Nó thật tuyệt."
+          "en": "I firmly believe that public graffiti, when authorized, is a vibrant form of expression. Not only does this form of expression showcase immense raw talent, but it also possesses the power to attract international tourism effectively. Consequently, authorities ought to organize official mural festivals.",
+          "vi": "Tôi tin tưởng mạnh mẽ rằng graffiti công cộng, khi được cho phép, là một hình thức thể hiện sống động. Hình thức thể hiện này không chỉ trưng bày tài năng thô sơ to lớn, mà nó còn sở hữu sức mạnh để thu hút du lịch quốc tế hiệu quả. Hậu quả là, các nhà chức trách nên tổ chức các lễ hội tranh tường chính thức."
         }
       ]
     }
   },
   "Food club": {
     "q1": {
-      "member": "Member A",
       "question": "Tell me the last time you had a good meal.",
       "vi": "Hãy kể cho tôi nghe lần gần nhất bạn có một bữa ăn ngon.",
       "vocab": [
-        "✨ [thời điểm & dịp]: <strong>last night</strong> (tối qua), <strong>on my birthday</strong> (vào ngày sinh nhật của tôi), <strong>last weekend to celebrate my birthday</strong> (cuối tuần trước để mừng sinh nhật tôi), <strong>two days ago during a family gathering</strong> (hai ngày trước trong một buổi tụ họp gia đình), <strong>yesterday after a stressful working day</strong> (hôm qua sau một ngày làm việc căng thẳng)",
-        "✨ [món ăn]: <strong>a big hamburger</strong> (một chiếc hamburger lớn), <strong>a bowl of hot soup</strong> (một bát súp nóng), <strong>a delicious homemade pizza</strong> (một chiếc bánh pizza tự làm thơm ngon), <strong>some authentic traditional pho</strong> (một ít phở truyền thống chuẩn vị), <strong>a mouth-watering seafood hotpot</strong> (một nồi lẩu hải sản hấp dẫn)",
-        "✨ [cảm nhận]: <strong>it was very yummy</strong> (nó rất ngon), <strong>I liked it a lot</strong> (tôi rất thích nó), <strong>it tasted absolutely heavenly</strong> (nó có vị ngon tuyệt đỉnh), <strong>the flavors were perfectly balanced</strong> (hương vị được cân bằng hoàn hảo), <strong>it instantly melted in my mouth</strong> (nó tan ngay trong miệng tôi)",
-        "✨ [dịp kỷ niệm]: <strong>milestone</strong> (cột mốc), <strong>anniversary</strong> (kỷ niệm), <strong>gathering</strong> (buổi tụ tập), <strong>reunion</strong> (sự đoàn tụ), <strong>occasion</strong> (dịp)"
+        "✨ [địa điểm]: <strong>a cozy downtown bistro</strong> (một quán ăn nhỏ ấm cúng ở trung tâm thành phố), <strong>an authentic rooftop restaurant</strong> (một nhà hàng trên sân thượng đích thực), <strong>a bustling local night market</strong> (một chợ đêm địa phương nhộn nhịp), <strong>a highly-rated seafood eatery</strong> (một quán ăn hải sản được đánh giá cao), <strong>a charming suburban cafe</strong> (một quán cà phê ngoại ô quyến rũ)",
+        "✨ [món ăn]: <strong>a tender grilled steak</strong> (một miếng bít tết nướng mềm), <strong>a bowl of savory noodles</strong> (một bát mì mặn mà), <strong>a plate of fresh sushi</strong> (một đĩa sushi tươi ngon), <strong>a rich and creamy pasta</strong> (một món mì ống kem béo ngậy), <strong>a spicy vegetarian curry</strong> (một món cà ri chay cay)",
+        "✨ [hương vị]: <strong>delicate and well-balanced flavor</strong> (hương vị tinh tế và cân bằng tốt), <strong>mouth-watering and robust taste</strong> (hương vị đậm đà và ngon miệng), <strong>unique blend of spices</strong> (sự pha trộn độc đáo của các loại gia vị), <strong>refreshing and aromatic profile</strong> (hồ sơ hương vị sảng khoái và thơm), <strong>irresistibly sweet and sour combination</strong> (sự kết hợp chua ngọt không thể cưỡng lại)",
+        "✨ [trải nghiệm]: <strong>absolutely unforgettable and satisfying</strong> (hoàn toàn khó quên và thỏa mãn), <strong>thoroughly enjoyable from start to finish</strong> (hoàn toàn thú vị từ đầu đến cuối), <strong>a delightful gastronomic adventure</strong> (một cuộc phiêu lưu ẩm thực thú vị), <strong>worth every single penny</strong> (đáng giá từng xu), <strong>a perfect evening to remember</strong> (một buổi tối hoàn hảo để nhớ)"
       ],
       "templates": [
-        "The last time I had a genuinely good meal was [thời điểm & dịp]. I enjoyed this fantastic feast while celebrating a memorable [dịp kỷ niệm] with my loved ones. I enjoyed [món ăn] and [cảm nhận].",
-        "I vividly remember eating [món ăn] [thời điểm & dịp]. I enjoyed this fantastic feast while celebrating a memorable [dịp kỷ niệm] with my loved ones. I must admit that [cảm nhận]."
+        "The last time I enjoyed an exceptional meal was at [địa điểm]. I ordered [món ăn], which was prepared with utmost care. The [hương vị] was truly remarkable, making the whole dining event [trải nghiệm].",
+        "I vividly recall my recent wonderful dining experience at [địa điểm]. They served me [món ăn] that looked incredibly appetizing. Its [hương vị] exceeded my expectations, ensuring that my visit was [trải nghiệm]."
       ],
       "samples": [
         {
-          "en": "The last time I had a genuinely good meal was last weekend to celebrate my birthday. I enjoyed this fantastic feast while celebrating a memorable milestone with my loved ones. I enjoyed a delicious homemade pizza and it tasted absolutely heavenly.",
-          "vi": "Điều đó thật tuyệt vời! Lần gần nhất tôi có một bữa ăn thực sự ngon là cuối tuần trước để mừng sinh nhật cùng bạn bè. Tôi đã tận hưởng bữa tiệc tuyệt vời này trong khi kỷ niệm một cột mốc đáng nhớ cùng những người thân yêu. Tôi đã thưởng thức một chiếc bánh pizza tự làm ngon tuyệt, và tôi phải nói rằng nó có vị ngon tuyệt đỉnh đối với tất cả chúng tôi. Tôi thực sự thích nó!"
+          "en": "The last time I enjoyed an exceptional meal was at a cozy downtown bistro. I ordered a tender grilled steak, which was prepared with utmost care. The delicate and well-balanced flavor was truly remarkable, making the whole dining event absolutely unforgettable and satisfying.",
+          "vi": "Lần cuối cùng tôi thưởng thức một bữa ăn xuất sắc là tại một quán ăn nhỏ ấm cúng ở trung tâm thành phố. Tôi đã gọi một miếng bít tết nướng mềm, món được chuẩn bị với sự chăm sóc tối đa. Hương vị tinh tế và cân bằng tốt thực sự đáng chú ý, khiến toàn bộ sự kiện ăn uống hoàn toàn khó quên và thỏa mãn."
         },
         {
-          "en": "I vividly remember eating some authentic traditional pho yesterday after a stressful working day. I enjoyed this fantastic feast while celebrating a memorable anniversary with my loved ones. I must admit that the flavors were perfectly balanced.",
-          "vi": "Tôi nhớ rất rõ đã ăn một chút phở truyền thống chuẩn vị vào tối hôm qua sau một ngày làm việc rất căng thẳng. Tôi đã tận hưởng bữa tiệc tuyệt vời này trong khi kỷ niệm một kỷ niệm đáng nhớ cùng những người thân yêu. Tôi phải thừa nhận rằng hương vị đậm đà được cân bằng hoàn hảo, khiến nó trở thành một trải nghiệm ăn uống thực sự khó quên đối với tôi."
+          "en": "I vividly recall my recent wonderful dining experience at an authentic rooftop restaurant. They served me a bowl of savory noodles that looked incredibly appetizing. Its mouth-watering and robust taste exceeded my expectations, ensuring that my visit was thoroughly enjoyable from start to finish.",
+          "vi": "Tôi nhớ rõ trải nghiệm ăn uống tuyệt vời gần đây của tôi tại một nhà hàng trên sân thượng đích thực. Họ đã phục vụ tôi một bát mì mặn mà trông cực kỳ ngon miệng. Hương vị đậm đà và ngon miệng của nó đã vượt qua sự mong đợi của tôi, đảm bảo rằng chuyến thăm của tôi hoàn toàn thú vị từ đầu đến cuối."
         }
       ]
     },
     "q2": {
-      "member": "Member B",
       "question": "I want to visit your country. Do you have any suggestions for me on what delicious food to eat?",
       "vi": "Tôi muốn đến thăm đất nước của bạn. Bạn có gợi ý nào cho tôi về những món ăn ngon không?",
       "vocab": [
-        "✨ [món đề xuất]: <strong>spring rolls</strong> (chả giò), <strong>broken rice</strong> (cơm tấm), <strong>our world-famous beef noodle soup</strong> (món phở bò nổi tiếng thế giới của chúng tôi), <strong>savory Vietnamese crispy pancakes</strong> (bánh xèo Việt Nam giòn rụm), <strong>the iconic banh mi sandwich</strong> (bánh mì kẹp mang tính biểu tượng)",
-        "✨ [đặc điểm món ăn]: <strong>it is cheap and tasty</strong> (nó rẻ và ngon), <strong>it has fresh vegetables</strong> (nó có rau tươi), <strong>it features a rich and aromatic broth</strong> (nó có nước dùng đậm đà và thơm phức), <strong>it is filled with fresh herbs and meat</strong> (nó chứa đầy các loại rau thơm tươi và thịt), <strong>it perfectly balances sweet and savory flavors</strong> (nó cân bằng hoàn hảo hương vị mặn ngọt)",
-        "✨ [lời khuyên]: <strong>buy it on the street</strong> (mua nó trên đường phố), <strong>eat it for breakfast</strong> (ăn nó vào bữa sáng), <strong>try it at local street food stalls</strong> (hãy thử nó tại các quầy thức ăn đường phố địa phương), <strong>eat it while it is still piping hot</strong> (hãy ăn nó khi nó vẫn còn nóng hổi), <strong>pair it with traditional iced tea</strong> (kết hợp nó với trà đá truyền thống)",
-        "✨ [món ăn]: <strong>delicacy</strong> (món ngon), <strong>specialty</strong> (đặc sản), <strong>refreshment</strong> (món giải khát), <strong>appetizer</strong> (món khai vị), <strong>cuisine</strong> (ẩm thực)"
+        "✨ [món đặc sản]: <strong>our traditional beef noodle soup</strong> (món phở bò truyền thống của chúng tôi), <strong>authentic street-style pork sandwiches</strong> (bánh mì kẹp thịt lợn kiểu đường phố đích thực), <strong>classic crispy spring rolls</strong> (nem rán giòn cổ điển), <strong>savory sizzling rice pancakes</strong> (bánh xèo mặn xèo xèo), <strong>steamed fragrant sticky rice</strong> (xôi thơm hấp)",
+        "✨ [nguyên liệu chính]: <strong>fresh locally sourced herbs</strong> (các loại thảo mộc tươi có nguồn gốc địa phương), <strong>high-quality organic ingredients</strong> (nguyên liệu hữu cơ chất lượng cao), <strong>premium marinated meats</strong> (các loại thịt ướp hảo hạng), <strong>nutrient-rich seasonal vegetables</strong> (các loại rau theo mùa giàu dinh dưỡng), <strong>carefully selected seafood</strong> (hải sản được chọn lọc cẩn thận)",
+        "✨ [cách chế biến]: <strong>simmered for several hours</strong> (ninh trong vài giờ), <strong>grilled over charcoal fire</strong> (nướng trên lửa than), <strong>deep-fried to golden perfection</strong> (chiên ngập dầu đến độ hoàn hảo vàng ươm), <strong>steamed inside banana leaves</strong> (hấp trong lá chuối), <strong>stir-fried with intense heat</strong> (xào với nhiệt độ cao)",
+        "✨ [lý do khuyên thử]: <strong>capture the essence of our culture</strong> (nắm bắt tinh hoa văn hóa của chúng tôi), <strong>deliver an explosion of flavors</strong> (mang đến một sự bùng nổ của hương vị), <strong>satisfy the most demanding palate</strong> (làm hài lòng khẩu vị khắt khe nhất), <strong>provide a comforting warmth</strong> (mang lại sự ấm áp dễ chịu), <strong>leave a lingering pleasant aftertaste</strong> (để lại dư vị dễ chịu kéo dài)"
       ],
       "templates": [
-        "If you visit my country, you must definitely try [món đề xuất]. You absolutely must try our authentic [món ăn], as it perfectly captures our local culinary heritage. [đặc điểm món ăn], so I highly recommend you [lời khuyên]. Finally,",
-        "I strongly suggest that you taste [món đề xuất]. You absolutely must try our authentic [món ăn], as it perfectly captures our local culinary heritage. Since [đặc điểm món ăn], the best way to enjoy it is to [lời khuyên]. Finally,"
+        "If you visit my country, you must absolutely try [món đặc sản]. It primarily features [nguyên liệu chính] and is usually [cách chế biến]. I highly recommend it because it can [lý do khuyên thử].",
+        "One culinary masterpiece you cannot miss here is [món đặc sản]. Made mostly of [nguyên liệu chính], the dish is strictly [cách chế biến]. You will love it since it manages to [lý do khuyên thử]."
       ],
       "samples": [
         {
-          "en": "If you visit my country, you must definitely try our world-famous beef noodle soup. You absolutely must try our authentic delicacy, as it perfectly captures our local culinary heritage. It features a rich and aromatic broth, so I highly recommend you try it at local street food stalls. Finally,",
-          "vi": "Nếu bạn từng đến thăm đất nước tôi, bạn nhất định phải thử món phở bò nổi tiếng thế giới của chúng tôi. Bạn nhất định phải thử món ngon đích thực của chúng tôi, vì nó thể hiện hoàn hảo di sản ẩm thực địa phương. Nó có nước dùng đậm đà và thơm phức, vì vậy tôi thực sự khuyên bạn nên thử nó ở các quầy thức ăn đường phố địa phương để có sự chân thực. Dù sao đi nữa."
+          "en": "If you visit my country, you must absolutely try our traditional beef noodle soup. It primarily features fresh locally sourced herbs and is usually simmered for several hours. I highly recommend it because it can capture the essence of our culture.",
+          "vi": "Nếu bạn đến thăm đất nước của tôi, bạn tuyệt đối phải thử món phở bò truyền thống của chúng tôi. Nó chủ yếu có các loại thảo mộc tươi có nguồn gốc địa phương và thường được ninh trong vài giờ. Tôi rất khuyên bạn nên thử nó vì nó có thể nắm bắt tinh hoa văn hóa của chúng tôi."
         },
         {
-          "en": "I strongly suggest that you taste savory Vietnamese crispy pancakes. You absolutely must try our authentic specialty, as it perfectly captures our local culinary heritage. Since it perfectly balances sweet and savory flavors, the best way to enjoy it is to eat it while it is still piping hot. Finally,",
-          "vi": "Tôi thực sự khuyên bạn nên nếm thử bánh xèo Việt Nam giòn rụm trong chuyến đi của bạn. Bạn nhất định phải thử đặc sản đích thực của chúng tôi, vì nó thể hiện hoàn hảo di sản ẩm thực địa phương. Vì nó cân bằng hoàn hảo giữa hương vị mặn và ngọt, cách tốt nhất để thưởng thức nó là ăn khi nó vẫn còn nóng hổi. Dù sao đi nữa."
+          "en": "One culinary masterpiece you cannot miss here is authentic street-style pork sandwiches. Made mostly of high-quality organic ingredients, the dish is strictly grilled over charcoal fire. You will love it since it manages to deliver an explosion of flavors.",
+          "vi": "Một kiệt tác ẩm thực bạn không thể bỏ lỡ ở đây là bánh mì kẹp thịt lợn kiểu đường phố đích thực. Được làm chủ yếu từ nguyên liệu hữu cơ chất lượng cao, món ăn được nướng nghiêm ngặt trên lửa than. Bạn sẽ yêu thích nó vì nó xoay sở để mang đến một sự bùng nổ của hương vị."
         }
       ]
     },
     "q3": {
-      "member": "Member C",
       "question": "Today, many people eat pizza. But it is not healthy and they should limit eating it. What is your opinion?",
       "vi": "Ngày nay, nhiều người ăn bánh pizza. Nhưng nó không tốt cho sức khỏe và họ nên hạn chế ăn nó. Ý kiến của bạn là gì?",
       "vocab": [
-        "✨ [quan điểm]: <strong>agree with this</strong> (đồng ý với điều này), <strong>think this is true</strong> (nghĩ điều này là đúng), <strong>totally agree with this statement</strong> (hoàn toàn đồng ý với nhận định này), <strong>partly agree with this opinion</strong> (đồng ý một phần với ý kiến này), <strong>think we should strike a balance</strong> (nghĩ rằng chúng ta nên đạt được sự cân bằng)",
-        "✨ [lý do sức khỏe]: <strong>it has too much fat</strong> (nó có quá nhiều chất béo), <strong>it makes you gain weight</strong> (nó làm bạn tăng cân), <strong>it contains excessive amounts of calories</strong> (nó chứa quá nhiều calo), <strong>it is a highly processed food</strong> (nó là một loại thực phẩm chế biến kỹ), <strong>it can lead to dangerous obesity</strong> (nó có thể dẫn đến bệnh béo phì nguy hiểm)",
-        "✨ [giải pháp thay thế]: <strong>eat it once a week</strong> (ăn nó một lần một tuần), <strong>eat more salads instead</strong> (ăn nhiều salad thay thế), <strong>consume it occasionally as a treat</strong> (thỉnh thoảng ăn nó như một phần thưởng), <strong>make homemade versions with fresh vegetables</strong> (làm các phiên bản tự làm với rau củ tươi), <strong>choose healthier toppings and thin crusts</strong> (chọn các loại nhân lành mạnh hơn và đế mỏng)",
-        "✨ [lựa chọn thay thế]: <strong>substitute</strong> (sự thay thế), <strong>alternative</strong> (lựa chọn thay thế), <strong>option</strong> (lựa chọn), <strong>ingredient</strong> (thành phần), <strong>recipe</strong> (công thức)"
+        "✨ [nhận định về pizza]: <strong>a highly convenient meal option</strong> (một lựa chọn bữa ăn rất tiện lợi), <strong>an incredibly popular comfort food</strong> (một món ăn vặt cực kỳ phổ biến), <strong>an affordable choice for students</strong> (một lựa chọn giá cả phải chăng cho sinh viên), <strong>a globally recognized culinary staple</strong> (một món ăn chính được công nhận toàn cầu), <strong>a delightfully cheesy indulgence</strong> (một sự đam mê béo ngậy thú vị)",
+        "✨ [hậu quả sức khỏe]: <strong>severe cardiovascular complications</strong> (các biến chứng tim mạch nghiêm trọng), <strong>undesirable weight gain issues</strong> (vấn đề tăng cân không mong muốn), <strong>chronic digestive system disorders</strong> (rối loạn hệ tiêu hóa mãn tính), <strong>dangerously high cholesterol levels</strong> (mức cholesterol cao nguy hiểm), <strong>persistent fatigue and sluggishness</strong> (mệt mỏi và uể oải dai dẳng)",
+        "✨ [thói quen thay thế]: <strong>a well-balanced Mediterranean diet</strong> (một chế độ ăn Địa Trung Hải cân bằng tốt), <strong>home-cooked nutritious meal plans</strong> (các kế hoạch bữa ăn bổ dưỡng nấu tại nhà), <strong>mindful and portion-controlled eating</strong> (ăn uống chánh niệm và kiểm soát khẩu phần), <strong>regular consumption of greens</strong> (tiêu thụ rau xanh thường xuyên), <strong>a strict lean protein regimen</strong> (một chế độ ăn kiêng protein nạc nghiêm ngặt)",
+        "✨ [kết quả dài hạn]: <strong>optimal physical well-being</strong> (sức khỏe thể chất tối ưu), <strong>sustained energy throughout the day</strong> (năng lượng bền vững suốt cả ngày), <strong>a robust immune system</strong> (một hệ thống miễn dịch mạnh mẽ), <strong>significantly improved mental clarity</strong> (sự minh mẫn tinh thần được cải thiện đáng kể), <strong>a healthy metabolic rate</strong> (tốc độ trao đổi chất khỏe mạnh)"
       ],
       "templates": [
-        "I [quan điểm] because [lý do sức khỏe]. Instead of consuming excessive fast food, people should incorporate a nutritious [lựa chọn thay thế] into their daily diet. Instead of eating it daily, we should [giải pháp thay thế].",
-        "I [quan điểm]. Instead of consuming excessive fast food, people should incorporate a nutritious [lựa chọn thay thế] into their daily diet. Since [lý do sức khỏe], the best approach is to [giải pháp thay thế]."
+        "While I agree that pizza is [nhận định về pizza], consuming it excessively can trigger [hậu quả sức khỏe]. Instead of eating fast food daily, individuals should adopt [thói quen thay thế], which will ensure [kết quả dài hạn] over time.",
+        "It is true that pizza represents [nhận định về pizza], yet its overconsumption undeniably leads to [hậu quả sức khỏe]. Therefore, we ought to practice [thói quen thay thế] so as to maintain [kết quả dài hạn] in the future."
       ],
       "samples": [
         {
-          "en": "I totally agree with this statement because it contains excessive amounts of calories. Instead of consuming excessive fast food, people should incorporate a nutritious substitute into their daily diet. Instead of eating it daily, we should consume it occasionally as a treat.",
-          "vi": "Tôi hoàn toàn đồng ý với nhận định này vì nó chứa lượng calo và chất béo không lành mạnh quá mức. Thay vì tiêu thụ quá nhiều thức ăn nhanh, mọi người nên kết hợp một sự thay thế bổ dưỡng vào chế độ ăn hàng ngày. Thay vì ăn hàng ngày, chúng ta chỉ nên tiêu thụ nó thỉnh đầu như một phần thưởng đặc biệt vào cuối tuần."
+          "en": "While I agree that pizza is a highly convenient meal option, consuming it excessively can trigger severe cardiovascular complications. Instead of eating fast food daily, individuals should adopt a well-balanced Mediterranean diet, which will ensure optimal physical well-being over time.",
+          "vi": "Mặc dù tôi đồng ý rằng pizza là một lựa chọn bữa ăn rất tiện lợi, việc tiêu thụ nó quá mức có thể kích hoạt các biến chứng tim mạch nghiêm trọng. Thay vì ăn đồ ăn nhanh hàng ngày, các cá nhân nên áp dụng một chế độ ăn Địa Trung Hải cân bằng tốt, điều này sẽ đảm bảo sức khỏe thể chất tối ưu theo thời gian."
         },
         {
-          "en": "I partly agree with this opinion. Instead of consuming excessive fast food, people should incorporate a nutritious alternative into their daily diet. Since it is a highly processed food, the best approach is to make homemade versions with fresh vegetables.",
-          "vi": "Tôi đồng ý một phần với ý kiến này về bánh pizza. Thay vì tiêu thụ quá nhiều thức ăn nhanh, mọi người nên kết hợp một lựa chọn thay thế bổ dưỡng vào chế độ ăn hàng ngày. Vì nó là một loại thực phẩm chế biến cao, cách tốt nhất là làm các phiên bản tự làm lành mạnh hơn với các loại rau tươi từ chợ địa phương."
+          "en": "It is true that pizza represents an incredibly popular comfort food, yet its overconsumption undeniably leads to undesirable weight gain issues. Therefore, we ought to practice home-cooked nutritious meal plans so as to maintain sustained energy throughout the day in the future.",
+          "vi": "Đúng là pizza đại diện cho một món ăn vặt cực kỳ phổ biến, nhưng việc tiêu thụ quá mức của nó không thể phủ nhận dẫn đến vấn đề tăng cân không mong muốn. Do đó, chúng ta nên thực hành các kế hoạch bữa ăn bổ dưỡng nấu tại nhà để duy trì năng lượng bền vững suốt cả ngày trong tương lai."
         }
       ]
     }
   },
   "Social club": {
     "q1": {
-      "member": "Member A",
       "question": "What do you do when you go out with your friends?",
       "vi": "Bạn thường làm gì khi đi ra ngoài với bạn bè?",
       "vocab": [
-        "✨ [hoạt động ăn uống]: <strong>eat fast food</strong> (ăn thức ăn nhanh), <strong>drink milk tea</strong> (uống trà sữa), <strong>grab a cup of coffee at a cozy café</strong> (đi uống cà phê tại một quán nhỏ ấm cúng), <strong>dine out at local eateries</strong> (ăn ngoài tại các quán ăn địa phương), <strong>have a lovely picnic in the park</strong> (tổ chức một buổi dã ngoại đáng yêu trong công viên)",
-        "✨ [hoạt động giải trí]: <strong>play video games</strong> (chơi trò chơi điện tử), <strong>walk around the city</strong> (đi dạo quanh thành phố), <strong>watch a blockbuster movie</strong> (xem một bộ phim bom tấn), <strong>go window shopping at the mall</strong> (đi ngắm đồ ở trung tâm thương mại), <strong>play board games together</strong> (cùng nhau chơi board game)",
-        "✨ [lợi ích]: <strong>feel very happy</strong> (cảm thấy rất vui vẻ), <strong>talk about school</strong> (nói về trường học), <strong>share our latest updates</strong> (chia sẻ những thông tin mới nhất), <strong>unwind after a hectic week</strong> (thư giãn sau một tuần bận rộn), <strong>strengthen our tight bond</strong> (củng cố mối quan hệ bền chặt của chúng tôi)",
-        "✨ [hoạt động]: <strong>pursuit</strong> (sự theo đuổi), <strong>pastime</strong> (trò giải trí), <strong>recreation</strong> (sự giải trí), <strong>excursion</strong> (chuyến du ngoạn), <strong>hobby</strong> (sở thích)"
+        "✨ [hoạt động chính]: <strong>catch up over some coffee</strong> (trò chuyện bên tách cà phê), <strong>watch the latest blockbuster movies</strong> (xem những bộ phim bom tấn mới nhất), <strong>engage in intense board games</strong> (tham gia vào các trò chơi cờ bàn căng thẳng), <strong>explore hidden street food stalls</strong> (khám phá các quán thức ăn đường phố ẩn giấu), <strong>take stunning landscape photographs</strong> (chụp những bức ảnh phong cảnh tuyệt đẹp)",
+        "✨ [địa điểm quen thuộc]: <strong>our favorite local cafe</strong> (quán cà phê địa phương yêu thích của chúng tôi), <strong>a bustling central mall</strong> (một trung tâm thương mại nhộn nhịp ở trung tâm), <strong>a tranquil suburban park</strong> (một công viên ngoại ô yên tĩnh), <strong>an acoustic live music bar</strong> (một quán bar nhạc sống acoustic), <strong>a vibrant weekend flea market</strong> (một chợ đồ cũ cuối tuần sôi động)",
+        "✨ [mục đích]: <strong>strengthen our mutual bonds</strong> (củng cố mối quan hệ gắn bó lẫn nhau của chúng tôi), <strong>blow off some steam</strong> (xả hơi), <strong>share our recent life updates</strong> (chia sẻ những cập nhật cuộc sống gần đây của chúng tôi), <strong>escape the daily mundane routine</strong> (thoát khỏi thói quen nhàm chán hàng ngày), <strong>create unforgettable lasting memories</strong> (tạo ra những kỷ niệm khó quên kéo dài)",
+        "✨ [cảm giác mang lại]: <strong>rejuvenated and profoundly happy</strong> (trẻ lại và vô cùng hạnh phúc), <strong>deeply understood and supported</strong> (được thấu hiểu và hỗ trợ sâu sắc), <strong>refreshed and fully energized</strong> (sảng khoái và tràn đầy năng lượng), <strong>relaxed and utterly stress-free</strong> (thư giãn và hoàn toàn không căng thẳng), <strong>connected and immensely grateful</strong> (gắn kết và vô cùng biết ơn)"
       ],
       "templates": [
-        "When hanging out, we usually [hoạt động ăn uống] and then [hoạt động giải trí]. We usually engage in a relaxing [hoạt động] to unwind after a demanding week. This helps us [lợi ích].",
-        "We love to [hoạt động ăn uống] or [hoạt động giải trí]. We usually engage in a relaxing [hoạt động] to unwind after a demanding week. It is always a fantastic way to [lợi ích]."
+        "When hanging out with my friends, our priority is usually to [hoạt động chính] at [địa điểm quen thuộc]. Doing this allows us to [mục đích], which always leaves us feeling [cảm giác mang lại].",
+        "My peers and I often choose to [hoạt động chính] at [địa điểm quen thuộc] whenever we meet. Such an approach enables us to [mục đích] effectively, resulting in a state of being [cảm giác mang lại]."
       ],
       "samples": [
         {
-          "en": "When hanging out, we usually grab a cup of coffee at a cozy café and then watch a blockbuster movie. We usually engage in a relaxing pursuit to unwind after a demanding week. This helps us unwind after a hectic week.",
-          "vi": "Khi đi chơi, chúng tôi thường uống cà phê tại một quán cà phê ấm cúng và sau đó cùng nhau xem một bộ phim bom tấn thú vị. Chúng tôi thường tham gia vào một sự theo đuổi thư giãn để xả hơi sau một tuần đòi hỏi khắt khe. Thói quen vui vẻ này thực sự giúp chúng tôi thư giãn sau một tuần dài bận rộn."
+          "en": "When hanging out with my friends, our priority is usually to catch up over some coffee at our favorite local cafe. Doing this allows us to strengthen our mutual bonds, which always leaves us feeling rejuvenated and profoundly happy.",
+          "vi": "Khi đi chơi với bạn bè, ưu tiên của chúng tôi thường là trò chuyện bên tách cà phê tại quán cà phê địa phương yêu thích của chúng tôi. Làm điều này cho phép chúng tôi củng cố mối quan hệ gắn bó lẫn nhau của chúng tôi, điều này luôn khiến chúng tôi cảm thấy trẻ lại và vô cùng hạnh phúc."
         },
         {
-          "en": "We love to dine out at local eateries or go window shopping at the mall. We usually engage in a relaxing pastime to unwind after a demanding week. It is always a fantastic way to strengthen our tight bond.",
-          "vi": "Chúng tôi hoàn toàn thích ăn ngoài tại các quán ăn địa phương hoặc đi ngắm đồ ở trung tâm mua sắm lớn. Chúng tôi thường tham gia vào một trò giải trí thư giãn để xả hơi sau một tuần đòi hỏi khắt khe. Đó luôn là một cách tuyệt vời và thư giãn để củng cố mối quan hệ bền chặt của chúng tôi vào dịp cuối tuần. Tôi thực sự thích nó!"
+          "en": "My peers and I often choose to watch the latest blockbuster movies at a bustling central mall whenever we meet. Such an approach enables us to blow off some steam effectively, resulting in a state of being deeply understood and supported.",
+          "vi": "Tôi và những người bạn đồng trang lứa thường chọn xem những bộ phim bom tấn mới nhất tại một trung tâm thương mại nhộn nhịp ở trung tâm bất cứ khi nào chúng tôi gặp nhau. Một phương pháp như vậy cho phép chúng tôi xả hơi hiệu quả, dẫn đến một trạng thái được thấu hiểu và hỗ trợ sâu sắc."
         }
       ]
     },
     "q2": {
-      "member": "Member B",
       "question": "Is it easier for young people to have friends?",
       "vi": "Thanh niên kết bạn có dễ dàng hơn không?",
       "vocab": [
-        "✨ [quan điểm]: <strong>think so</strong> (nghĩ vậy), <strong>agree with this</strong> (đồng ý với điều này), <strong>absolutely believe it is easier</strong> (hoàn toàn tin rằng điều đó dễ dàng hơn), <strong>think they have a huge advantage</strong> (nghĩ rằng họ có một lợi thế to lớn), <strong>strongly agree with this</strong> (rất đồng tình với điều này)",
-        "✨ [lý do]: <strong>go to school every day</strong> (đi học mỗi ngày), <strong>play sports together</strong> (chơi thể thao cùng nhau), <strong>have more free time to socialize</strong> (có nhiều thời gian rảnh rỗi hơn để giao lưu), <strong>are generally more open-minded</strong> (nhìn chung là cởi mở hơn), <strong>frequently participate in group activities</strong> (thường xuyên tham gia các hoạt động nhóm)",
-        "✨ [yếu tố hỗ trợ]: <strong>meet peers easily at school</strong> (gặp gỡ bạn bè đồng trang lứa dễ dàng ở trường), <strong>share common interests and hobbies</strong> (chia sẻ những sở thích và đam mê chung), <strong>connect quickly through social media</strong> (kết nối nhanh chóng qua mạng xã hội), <strong>use smartphones a lot</strong> (sử dụng điện thoại thông minh nhiều), <strong>talk online easily</strong> (nói chuyện trực tuyến dễ dàng)",
-        "✨ [yếu tố]: <strong>aspect</strong> (khía cạnh), <strong>element</strong> (yếu tố), <strong>characteristic</strong> (đặc điểm), <strong>dynamic</strong> (động lực), <strong>trait</strong> (đặc tính)"
+        "✨ [lợi thế của giới trẻ]: <strong>an inherently outgoing personality</strong> (một tính cách hướng ngoại vốn có), <strong>a high degree of adaptability</strong> (mức độ thích nghi cao), <strong>an open-minded worldview</strong> (một thế giới quan cởi mở), <strong>boundless enthusiasm and energy</strong> (sự nhiệt tình và năng lượng vô biên), <strong>shared generational commonalities</strong> (những điểm chung của thế hệ)",
+        "✨ [cơ hội giao tiếp]: <strong>vibrant academic environments</strong> (môi trường học thuật sôi động), <strong>diverse extracurricular activities</strong> (các hoạt động ngoại khóa đa dạng), <strong>various online networking platforms</strong> (các nền tảng mạng trực tuyến khác nhau), <strong>frequent social gathering events</strong> (các sự kiện tụ tập xã hội thường xuyên), <strong>collaborative team-building workshops</strong> (các hội thảo xây dựng nhóm hợp tác)",
+        "✨ [khó khăn tiềm ẩn]: <strong>superficial digital interactions</strong> (các tương tác kỹ thuật số hời hợt), <strong>overwhelming peer pressure</strong> (áp lực đồng trang lứa áp đảo), <strong>a lack of emotional maturity</strong> (sự thiếu trưởng thành về mặt cảm xúc), <strong>unrealistic social expectations</strong> (những kỳ vọng xã hội phi thực tế), <strong>transient and temporary relationships</strong> (các mối quan hệ thoáng qua và tạm thời)",
+        "✨ [yếu tố quyết định]: <strong>mutual trust and respect</strong> (sự tin tưởng và tôn trọng lẫn nhau), <strong>consistent effort and sincerity</strong> (nỗ lực nhất quán và sự chân thành), <strong>effective communication skills</strong> (kỹ năng giao tiếp hiệu quả), <strong>shared core values</strong> (các giá trị cốt lõi được chia sẻ), <strong>genuine empathy and compassion</strong> (sự đồng cảm và lòng trắc ẩn chân thành)"
       ],
       "templates": [
-        "I [quan điểm] because they [lý do]. I believe youth provides a distinct advantage in socializing, mainly because of this crucial [yếu tố]. Furthermore, they can [yếu tố hỗ trợ].",
-        "I [quan điểm]. I believe youth provides a distinct advantage in socializing, mainly because of this crucial [yếu tố]. Young people [lý do], which allows them to [yếu tố hỗ trợ]."
+        "It is generally easier for youths to socialize since they possess [lợi thế của giới trẻ] and encounter numerous [cơ hội giao tiếp]. Nonetheless, they might face [khó khăn tiềm ẩn], so building genuine connections heavily depends on [yếu tố quyết định].",
+        "Youngsters undoubtedly find making friends simpler because of their [lợi thế của giới trẻ] combined with abundant [cơ hội giao tiếp]. However, given that [khó khăn tiềm ẩn] exist, success in friendship ultimately requires [yếu tố quyết định]."
       ],
       "samples": [
         {
-          "en": "I absolutely believe it is easier because they have more free time to socialize. I believe youth provides a distinct advantage in socializing, mainly because of this crucial aspect. Furthermore, they can meet peers easily at school.",
-          "vi": "Nói về chủ đề thực sự thú vị này hôm nay, tôi hoàn toàn tin rằng điều đó dễ dàng hơn nhiều đối với họ vì họ có nhiều thời gian rảnh rỗi hơn để giao lưu mỗi ngày. Tôi tin rằng tuổi trẻ mang lại một lợi thế rõ rệt trong giao tiếp xã hội, chủ yếu là vì khía cạnh quan trọng này. Hơn nữa, họ có thể gặp gỡ nhiều bạn bè thân thiện dễ dàng ở trường trong các lớp học và giờ nghỉ khác nhau."
+          "en": "It is generally easier for youths to socialize since they possess an inherently outgoing personality and encounter numerous vibrant academic environments. Nonetheless, they might face superficial digital interactions, so building genuine connections heavily depends on mutual trust and respect.",
+          "vi": "Nhìn chung thanh niên dễ dàng hòa nhập xã hội hơn vì họ sở hữu một tính cách hướng ngoại vốn có và bắt gặp vô số môi trường học thuật sôi động. Tuy nhiên, họ có thể đối mặt với các tương tác kỹ thuật số hời hợt, vì vậy việc xây dựng những kết nối chân thành phụ thuộc nhiều vào sự tin tưởng và tôn trọng lẫn nhau."
         },
         {
-          "en": "I think they have a huge advantage. I believe youth provides a distinct advantage in socializing, mainly because of this crucial element. Young people are generally more open-minded, which allows them to share common interests and hobbies.",
-          "vi": "Tôi thực sự nghĩ họ có một lợi thế to lớn ngày nay. Tôi tin rằng tuổi trẻ mang lại một lợi thế rõ rệt trong giao tiếp xã hội, chủ yếu là vì yếu tố quan trọng này. Những người trẻ tuổi nói chung là cởi mở hơn rất nhiều, điều này tự nhiên cho phép họ chia sẻ những sở thích và đam mê thú vị với những người mới quen rất nhanh."
+          "en": "Youngsters undoubtedly find making friends simpler because of their a high degree of adaptability combined with abundant diverse extracurricular activities. However, given that overwhelming peer pressure exist, success in friendship ultimately requires consistent effort and sincerity.",
+          "vi": "Những người trẻ tuổi chắc chắn thấy việc kết bạn đơn giản hơn vì mức độ thích nghi cao của họ kết hợp với các hoạt động ngoại khóa đa dạng phong phú. Tuy nhiên, do áp lực đồng trang lứa áp đảo tồn tại, thành công trong tình bạn cuối cùng đòi hỏi nỗ lực nhất quán và sự chân thành."
         }
       ]
     },
     "q3": {
-      "member": "Member C",
       "question": "It is much easier to make new friends these days because of computers and mobile phones. Do you agree? Why or why not?",
       "vi": "Ngày nay kết bạn mới dễ dàng hơn rất nhiều nhờ máy tính và điện thoại di động. Bạn có đồng ý không? Tại sao hoặc tại sao không?",
       "vocab": [
-        "✨ [sự đồng ý]: <strong>agree with this</strong> (đồng ý với điều này), <strong>think it is true</strong> (nghĩ rằng nó đúng), <strong>completely agree with this statement</strong> (hoàn toàn đồng ý với nhận định này), <strong>see the tremendous benefits of technology</strong> (thấy được những lợi ích to lớn của công nghệ), <strong>firmly support this idea</strong> (ủng hộ mạnh mẽ ý tưởng này)",
-        "✨ [lý do công nghệ]: <strong>chat with everyone</strong> (nhắn tin với mọi người), <strong>make video calls</strong> (gọi điện video), <strong>overcome geographical barriers instantly</strong> (vượt qua các rào cản địa lý ngay lập tức), <strong>join online communities easily</strong> (tham gia các cộng đồng trực tuyến dễ dàng), <strong>find like-minded people globally</strong> (tìm những người cùng chí hướng trên toàn cầu)",
-        "✨ [hạn chế cần lưu ý]: <strong>meet people in real life</strong> (gặp gỡ mọi người ngoài đời thực), <strong>be careful of strangers</strong> (cẩn thận với người lạ), <strong>maintain genuine face-to-face interactions</strong> (duy trì các tương tác trực tiếp chân thật), <strong>be careful of fake online identities</strong> (cẩn thận với các danh tính trực tuyến giả mạo), <strong>avoid digital addiction</strong> (tránh chứng nghiện kỹ thuật số)",
-        "✨ [nền tảng]: <strong>interface</strong> (giao diện), <strong>network</strong> (mạng lưới), <strong>community</strong> (cộng đồng), <strong>forum</strong> (diễn đàn), <strong>application</strong> (ứng dụng)"
+        "✨ [vai trò công nghệ]: <strong>the digital communication revolution</strong> (cuộc cách mạng giao tiếp kỹ thuật số), <strong>advanced social media integration</strong> (sự tích hợp phương tiện truyền thông xã hội tiên tiến), <strong>instant messaging capabilities</strong> (khả năng nhắn tin tức thời), <strong>the widespread internet accessibility</strong> (sự tiếp cận internet rộng rãi), <strong>innovative virtual networking</strong> (mạng ảo đổi mới)",
+        "✨ [lợi ích kết nối]: <strong>borderless interactions with foreigners</strong> (các tương tác không biên giới với người nước ngoài), <strong>opportunities to find like-minded peers</strong> (cơ hội tìm kiếm những người bạn cùng chí hướng), <strong>convenient ways to stay in touch</strong> (những cách thuận tiện để giữ liên lạc), <strong>platforms for sharing personal interests</strong> (các nền tảng để chia sẻ sở thích cá nhân), <strong>instant access to diverse communities</strong> (sự tiếp cận tức thời đến các cộng đồng đa dạng)",
+        "✨ [mặt trái trực tuyến]: <strong>the illusion of deep friendships</strong> (ảo tưởng về những tình bạn sâu sắc), <strong>potential cyberbullying risks</strong> (những rủi ro bắt nạt trên mạng tiềm ẩn), <strong>increasing social isolation in reality</strong> (sự cô lập xã hội ngày càng tăng trong thực tế), <strong>misinterpretation of textual messages</strong> (sự hiểu sai các tin nhắn văn bản), <strong>the lack of physical presence</strong> (sự thiếu vắng sự hiện diện thể chất)",
+        "✨ [giải pháp dung hòa]: <strong>a healthy balance of offline meetings</strong> (một sự cân bằng lành mạnh của các cuộc gặp gỡ ngoại tuyến), <strong>meaningful face-to-face conversations</strong> (những cuộc trò chuyện trực tiếp có ý nghĩa), <strong>strict digital detox periods</strong> (các giai đoạn cai nghiện kỹ thuật số nghiêm ngặt), <strong>authentic real-world engagements</strong> (những sự tham gia thế giới thực chân thực), <strong>quality time spent away from screens</strong> (thời gian chất lượng tránh xa màn hình)"
       ],
       "templates": [
-        "I [sự đồng ý] because devices help us [lý do công nghệ]. Thanks to modern connectivity, finding like-minded individuals through a digital [nền tảng] has become remarkably effortless. However, we must still [hạn chế cần lưu ý].",
-        "I [sự đồng ý]. Thanks to modern connectivity, finding like-minded individuals through a digital [nền tảng] has become remarkably effortless. We can [lý do công nghệ], but it remains crucial to [hạn chế cần lưu ý]."
+        "I completely agree that [vai trò công nghệ] facilitates forming relationships. Gadgets provide remarkable [lợi ích kết nối] across the globe. Nevertheless, we must be cautious about [mặt trái trực tuyến] and strive to maintain [giải pháp dung hòa].",
+        "Without a doubt, [vai trò công nghệ] makes expanding social circles incredibly convenient. Modern devices offer unprecedented [lợi ích kết nối]. Still, it is vital to acknowledge [mặt trái trực tuyến], which means establishing [giải pháp dung hòa] is necessary."
       ],
       "samples": [
         {
-          "en": "I completely agree with this statement because devices help us overcome geographical barriers instantly. Thanks to modern connectivity, finding like-minded individuals through a digital interface has become remarkably effortless. However, we must still maintain genuine face-to-face interactions.",
-          "vi": "Tôi hoàn toàn đồng ý với nhận định này vì các thiết bị hiện đại giúp chúng ta vượt qua rào cản địa lý ngay lập tức. Nhờ kết nối hiện đại, việc tìm kiếm những cá nhân có cùng chí hướng thông qua một giao diện kỹ thuật số đã trở nên vô cùng dễ dàng. Tuy nhiên, chúng ta vẫn phải duy trì các tương tác trực tiếp chân chính để xây dựng những tình bạn thực sự ý nghĩa và lâu dài trong cuộc sống hàng ngày."
+          "en": "I completely agree that the digital communication revolution facilitates forming relationships. Gadgets provide remarkable borderless interactions with foreigners across the globe. Nevertheless, we must be cautious about the illusion of deep friendships and strive to maintain a healthy balance of offline meetings.",
+          "vi": "Tôi hoàn toàn đồng ý rằng cuộc cách mạng giao tiếp kỹ thuật số tạo điều kiện hình thành các mối quan hệ. Các tiện ích cung cấp các tương tác không biên giới với người nước ngoài đáng chú ý trên toàn cầu. Tuy nhiên, chúng ta phải thận trọng về ảo tưởng về những tình bạn sâu sắc và phấn đấu duy trì một sự cân bằng lành mạnh của các cuộc gặp gỡ ngoại tuyến."
         },
         {
-          "en": "I see the tremendous benefits of technology. Thanks to modern connectivity, finding like-minded individuals through a digital network has become remarkably effortless. We can join online communities easily, but it remains crucial to be careful of fake online identities.",
-          "vi": "Tôi thấy rõ những lợi ích to lớn của công nghệ hiện đại. Nhờ kết nối hiện đại, việc tìm kiếm những cá nhân có cùng chí hướng thông qua một mạng lưới kỹ thuật số đã trở nên vô cùng dễ dàng. Chúng ta có thể tham gia các cộng đồng trực tuyến một cách dễ dàng, nhưng vẫn vô cùng quan trọng để cẩn thận với những danh tính trực tuyến giả mạo khi kết bạn mới."
+          "en": "Without a doubt, advanced social media integration makes expanding social circles incredibly convenient. Modern devices offer unprecedented opportunities to find like-minded peers. Still, it is vital to acknowledge potential cyberbullying risks, which means establishing meaningful face-to-face conversations is necessary.",
+          "vi": "Không có nghi ngờ gì, sự tích hợp phương tiện truyền thông xã hội tiên tiến làm cho việc mở rộng vòng tròn xã hội vô cùng thuận tiện. Các thiết bị hiện đại cung cấp cơ hội tìm kiếm những người bạn cùng chí hướng chưa từng có. Tuy nhiên, điều quan trọng là phải thừa nhận những rủi ro bắt nạt trên mạng tiềm ẩn, điều đó có nghĩa là thiết lập những cuộc trò chuyện trực tiếp có ý nghĩa là cần thiết."
         }
       ]
     }
   },
   "Beautiful homes club": {
     "q1": {
-      "member": "Member A",
       "question": "I have a bad relationship with my neighbors because they often make noise. Tell me how is your relationship with your neighbors?",
       "vi": "Tôi có mối quan hệ tồi tệ với những người hàng xóm vì họ thường làm ồn. Hãy cho tôi biết mối quan hệ của bạn với hàng xóm như thế nào?",
       "vocab": [
-        "✨ [tình trạng mối quan hệ]: <strong>have a good relationship</strong> (có mối quan hệ tốt), <strong>am very friendly</strong> (rất thân thiện), <strong>have a harmonious relationship</strong> (có một mối quan hệ hài hòa), <strong>get along very well</strong> (rất hòa thuận), <strong>maintain a respectful distance</strong> (duy trì một khoảng cách tôn trọng)",
-        "✨ [hành động tích cực]: <strong>say hello every day</strong> (chào hỏi mỗi ngày), <strong>share some fresh fruits</strong> (chia sẻ một ít trái cây tươi), <strong>respect each other's privacy</strong> (tôn trọng sự riêng tư của nhau), <strong>always help each other in need</strong> (luôn giúp đỡ lẫn nhau khi cần thiết), <strong>share food occasionally</strong> (thỉnh thoảng chia sẻ đồ ăn)",
-        "✨ [giải quyết vấn đề]: <strong>smile and talk softly</strong> (mỉm cười và nói nhẹ nhàng), <strong>ignore small noises</strong> (bỏ qua những tiếng ồn nhỏ), <strong>communicate openly and politely</strong> (giao tiếp cởi mở và lịch sự), <strong>avoid unnecessary conflicts</strong> (tránh những xung đột không cần thiết), <strong>tolerate minor inconveniences</strong> (chấp nhận những sự bất tiện nhỏ)",
-        "✨ [phẩm chất]: <strong>attitude</strong> (thái độ), <strong>virtue</strong> (đức tính), <strong>disposition</strong> (tính khí), <strong>character</strong> (tính cách), <strong>behavior</strong> (hành vi)"
+        "✨ [mức độ thân thiết]: <strong>a highly harmonious relationship</strong> (một mối quan hệ rất hài hòa), <strong>an incredibly supportive bond</strong> (một sự gắn kết vô cùng hỗ trợ), <strong>a mutually respectful connection</strong> (một sự kết nối tôn trọng lẫn nhau), <strong>a friendly and welcoming dynamic</strong> (một động lực thân thiện và chào đón), <strong>a peaceful and collaborative coexistence</strong> (một sự chung sống hòa bình và hợp tác)",
+        "✨ [hoạt động chung]: <strong>organizing weekend barbecue parties</strong> (tổ chức các bữa tiệc nướng cuối tuần), <strong>sharing homegrown vegetables</strong> (chia sẻ rau trồng tại nhà), <strong>assisting with household repairs</strong> (hỗ trợ sửa chữa nhà cửa), <strong>looking after pets during vacations</strong> (chăm sóc thú cưng trong các kỳ nghỉ), <strong>holding annual community cleanups</strong> (tổ chức dọn dẹp cộng đồng hàng năm)",
+        "✨ [cách giải quyết xung đột]: <strong>open and calm dialogues</strong> (các cuộc đối thoại cởi mở và bình tĩnh), <strong>empathetic active listening</strong> (sự lắng nghe tích cực và thấu cảm), <strong>prompt and polite discussions</strong> (các cuộc thảo luận kịp thời và lịch sự), <strong>reasonable mutual compromises</strong> (những sự thỏa hiệp hợp lý lẫn nhau), <strong>constructive direct feedback</strong> (những phản hồi trực tiếp mang tính xây dựng)",
+        "✨ [tầm quan trọng của hàng xóm]: <strong>the value of local solidarity</strong> (giá trị của sự đoàn kết địa phương), <strong>the necessity of a safety network</strong> (sự cần thiết của một mạng lưới an toàn), <strong>the beauty of communal harmony</strong> (vẻ đẹp của sự hài hòa cộng đồng), <strong>the comfort of a friendly neighborhood</strong> (sự thoải mái của một khu dân cư thân thiện), <strong>the essence of living in a society</strong> (bản chất của việc sống trong một xã hội)"
       ],
       "templates": [
-        "I [tình trạng mối quan hệ] with them. Fortunately, the people living next to me display an admirable [phẩm chất] that makes coexisting very peaceful. We [hành động tích cực] and try to [giải quyết vấn đề].",
-        "I am lucky to [tình trạng mối quan hệ]. Fortunately, the people living next to me display an admirable [phẩm chất] that makes coexisting very peaceful. Because we [hành động tích cực], we can easily [giải quyết vấn đề]."
+        "Unlike your situation, I maintain [mức độ thân thiết] with the people living next door. We frequently participate in [hoạt động chung] and practice [cách giải quyết xung đột] whenever issues arise, proving [tầm quan trọng của hàng xóm].",
+        "Fortunately, my neighbors and I have established [mức độ thân thiết] over the years. By engaging in [hoạt động chung] and utilizing [cách giải quyết xung đột], we constantly reinforce [tầm quan trọng của hàng xóm] in daily life."
       ],
       "samples": [
         {
-          "en": "I have a harmonious relationship with them. Fortunately, the people living next to me display an admirable attitude that makes coexisting very peaceful. We respect each other's privacy and try to communicate openly and politely.",
-          "vi": "Tôi rất hào hứng khi nói về điều này! Hiện tại tôi có một mối quan hệ rất hài hòa với tất cả bọn họ. May mắn thay, những người sống cạnh tôi thể hiện một thái độ đáng ngưỡng mộ khiến việc chung sống rất yên bình. Chúng tôi luôn tôn trọng sự riêng tư của nhau và cố gắng giao tiếp cởi mở và lịch sự bất cứ khi nào một vấn đề nhỏ phát sinh trong khu phố yên bình của chúng tôi. Tôi thực sự hy vọng điều này trả lời hoàn hảo câu hỏi của bạn hôm nay."
+          "en": "Unlike your situation, I maintain a highly harmonious relationship with the people living next door. We frequently participate in organizing weekend barbecue parties and practice open and calm dialogues whenever issues arise, proving the value of local solidarity.",
+          "vi": "Không giống như tình huống của bạn, tôi duy trì một mối quan hệ rất hài hòa với những người sống bên cạnh. Chúng tôi thường xuyên tham gia vào việc tổ chức các bữa tiệc nướng cuối tuần và thực hành các cuộc đối thoại cởi mở và bình tĩnh bất cứ khi nào các vấn đề phát sinh, chứng minh giá trị của sự đoàn kết địa phương."
         },
         {
-          "en": "I am lucky to get along very well. Fortunately, the people living next to me display an admirable virtue that makes coexisting very peaceful. Because we always help each other in need, we can easily avoid unnecessary conflicts.",
-          "vi": "Nói về chủ đề thực sự thú vị này hôm nay, tôi vô cùng may mắn khi rất hòa thuận với những người hàng xóm hiện tại. May mắn thay, những người sống cạnh tôi thể hiện một đức tính đáng ngưỡng mộ khiến việc chung sống rất yên bình. Vì chúng tôi luôn giúp đỡ nhau lúc cần thiết, chúng tôi có thể dễ dàng tránh những xung đột không cần thiết và duy trì một môi trường sống thực sự yên bình. Tôi mong được nghe suy nghĩ của bạn."
+          "en": "Fortunately, my neighbors and I have established an incredibly supportive bond over the years. By engaging in sharing homegrown vegetables and utilizing empathetic active listening, we constantly reinforce the necessity of a safety network in daily life.",
+          "vi": "May mắn thay, tôi và hàng xóm đã thiết lập một sự gắn kết vô cùng hỗ trợ qua nhiều năm. Bằng cách tham gia vào việc chia sẻ rau trồng tại nhà và tận dụng sự lắng nghe tích cực và thấu cảm, chúng tôi liên tục củng cố sự cần thiết của một mạng lưới an toàn trong cuộc sống hàng ngày."
         }
       ]
     },
     "q2": {
-      "member": "Member B",
       "question": "Do you prefer living in old buildings or modern buildings? Why?",
       "vi": "Bạn thích sống ở những tòa nhà cũ hay tòa nhà hiện đại hơn? Tại sao?",
       "vocab": [
-        "✨ [lựa chọn]: <strong>like new buildings</strong> (thích các tòa nhà mới), <strong>want to live in smart homes</strong> (muốn sống trong nhà thông minh), <strong>definitely prefer modern buildings</strong> (chắc chắn thích các tòa nhà hiện đại hơn), <strong>lean towards newly built apartments</strong> (thiên về các căn hộ mới xây), <strong>choose contemporary housing</strong> (chọn nhà ở đương đại)",
-        "✨ [lý do hiện đại]: <strong>have fast elevators</strong> (có thang máy nhanh), <strong>are very clean and safe</strong> (rất sạch sẽ và an toàn), <strong>offer advanced security systems</strong> (cung cấp hệ thống an ninh tiên tiến), <strong>provide high-quality amenities</strong> (cung cấp các tiện nghi chất lượng cao), <strong>feature smart home technologies</strong> (có công nghệ nhà thông minh)",
-        "✨ [lợi ích]: <strong>save my time</strong> (tiết kiệm thời gian của tôi), <strong>make me feel comfortable</strong> (làm tôi cảm thấy thoải mái), <strong>ensure a convenient lifestyle</strong> (đảm bảo một lối sống tiện lợi), <strong>require far less maintenance</strong> (yêu cầu bảo trì ít hơn nhiều), <strong>save significantly on energy bills</strong> (tiết kiệm đáng kể hóa đơn năng lượng)",
-        "✨ [kiến trúc]: <strong>design</strong> (thiết kế), <strong>structure</strong> (cấu trúc), <strong>layout</strong> (bố cục), <strong>aesthetic</strong> (thẩm mỹ), <strong>framework</strong> (khung)"
+        "✨ [sự lựa chọn]: <strong>newly constructed high-rise apartments</strong> (các căn hộ cao tầng mới xây), <strong>historic colonial-era houses</strong> (các ngôi nhà thời thuộc địa lịch sử), <strong>cutting-edge smart homes</strong> (các ngôi nhà thông minh tiên tiến), <strong>traditional wooden cottages</strong> (các ngôi nhà gỗ truyền thống), <strong>contemporary minimalist condominiums</strong> (các chung cư tối giản đương đại)",
+        "✨ [đặc điểm nổi bật]: <strong>state-of-the-art security systems</strong> (hệ thống an ninh hiện đại nhất), <strong>intricate architectural details</strong> (các chi tiết kiến trúc phức tạp), <strong>eco-friendly sustainable designs</strong> (các thiết kế bền vững thân thiện với môi trường), <strong>spacious open-plan layouts</strong> (các bố cục không gian mở rộng rãi), <strong>timeless aesthetic appeal</strong> (sức hấp dẫn thẩm mỹ vượt thời gian)",
+        "✨ [tiện ích mang lại]: <strong>unparalleled modern convenience</strong> (sự tiện lợi hiện đại vô song), <strong>a profound sense of history</strong> (một ý thức sâu sắc về lịch sử), <strong>energy-efficient heating and cooling</strong> (hệ thống sưởi và làm mát tiết kiệm năng lượng), <strong>excellent natural ventilation</strong> (sự thông gió tự nhiên tuyệt vời), <strong>exclusive communal facilities</strong> (các tiện ích chung độc quyền)",
+        "✨ [cảm giác sống]: <strong>a highly comfortable lifestyle</strong> (một lối sống rất thoải mái), <strong>an incredibly nostalgic atmosphere</strong> (một bầu không khí vô cùng hoài niệm), <strong>a stress-free living experience</strong> (một trải nghiệm sống không căng thẳng), <strong>a tranquil and cozy vibe</strong> (một rung cảm yên tĩnh và ấm cúng), <strong>a luxurious and sophisticated ambiance</strong> (một bầu không khí sang trọng và tinh tế)"
       ],
       "templates": [
-        "I [lựa chọn] because they [lý do hiện đại]. I lean towards historic properties because their unique [kiến trúc] offers a sense of timeless elegance. This helps [lợi ích].",
-        "I [lựa chọn]. I lean towards historic properties because their unique [kiến trúc] offers a sense of timeless elegance. They [lý do hiện đại], which will [lợi ích]. I truly hope this helps everyone in our club today."
+        "Personally, I have a strong preference for [sự lựa chọn] because of its [đặc điểm nổi bật]. Such a living space provides [tiện ích mang lại], which ultimately generates [cảm giác sống] for the residents.",
+        "If I had to choose, I would undoubtedly go for [sự lựa chọn]. The property's [đặc điểm nổi bật] paired with [tiện ích mang lại] guarantees that I always experience [cảm giác sống] in my daily routine."
       ],
       "samples": [
         {
-          "en": "I definitely prefer modern buildings because they offer advanced security systems. I lean towards historic properties because their unique design offers a sense of timeless elegance. This helps ensure a convenient lifestyle.",
-          "vi": "Đây chắc chắn là điều tôi thích nói đến. Tôi thiên về các bất động sản lịch sử vì thiết kế độc đáo của chúng mang lại cảm giác thanh lịch vượt thời gian. Tôi chắc chắn thích sống trong các tòa nhà hiện đại hơn vì chúng cung cấp các hệ thống an ninh tiên tiến cao và cơ sở vật chất tốt hơn. Lợi thế tuyệt vời này giúp đảm bảo một lối sống rất thoải mái và thuận tiện cho tôi và cả gia đình mỗi ngày. Tôi thực sự hy vọng điều này trả lời hoàn hảo câu hỏi của bạn hôm nay."
+          "en": "Personally, I have a strong preference for newly constructed high-rise apartments because of its state-of-the-art security systems. Such a living space provides unparalleled modern convenience, which ultimately generates a highly comfortable lifestyle for the residents.",
+          "vi": "Cá nhân tôi, tôi có một sự ưa thích mạnh mẽ đối với các căn hộ cao tầng mới xây vì hệ thống an ninh hiện đại nhất của nó. Một không gian sống như vậy cung cấp sự tiện lợi hiện đại vô song, điều cuối cùng tạo ra một lối sống rất thoải mái cho các cư dân."
         },
         {
-          "en": "I lean towards newly built apartments. I lean towards historic properties because their unique structure offers a sense of timeless elegance. They provide high-quality amenities, which will require far less maintenance. I truly hope this helps everyone in our club today.",
-          "vi": "Đây chắc chắn là điều tôi thích nói đến. Tôi thiên về các bất động sản lịch sử vì cấu trúc độc đáo của chúng mang lại cảm giác thanh lịch vượt thời gian. Tôi nghiêng về các căn hộ mới xây ở trung tâm thành phố. Chúng cung cấp các tiện nghi chất lượng cao tuyệt vời, điều này sẽ đòi hỏi ít công bảo trì hơn nhiều và tiết kiệm cho tôi một lượng thời gian và tiền bạc đáng kể. Tôi thực sự hy vọng điều này giúp ích cho mọi người trong câu lạc bộ thân thiện của chúng ta."
+          "en": "If I had to choose, I would undoubtedly go for historic colonial-era houses. The property's intricate architectural details paired with a profound sense of history guarantees that I always experience an incredibly nostalgic atmosphere in my daily routine.",
+          "vi": "Nếu tôi phải chọn, tôi chắc chắn sẽ chọn các ngôi nhà thời thuộc địa lịch sử. Các chi tiết kiến trúc phức tạp của tài sản kết hợp với một ý thức sâu sắc về lịch sử đảm bảo rằng tôi luôn trải nghiệm một bầu không khí vô cùng hoài niệm trong thói quen hàng ngày của tôi."
         }
       ]
     },
     "q3": {
-      "member": "Member C",
       "question": "The house should be designed in a way that is good for the environment. Do you agree?",
       "vi": "Ngôi nhà nên được thiết kế theo cách tốt cho môi trường. Bạn có đồng ý không?",
       "vocab": [
-        "✨ [sự đồng ý]: <strong>agree with this</strong> (đồng ý với điều này), <strong>think this is right</strong> (nghĩ rằng điều này là đúng), <strong>completely agree with this</strong> (hoàn toàn đồng ý với điều này), <strong>strongly support eco-friendly designs</strong> (mạnh mẽ ủng hộ các thiết kế thân thiện với môi trường), <strong>think this is absolutely essential</strong> (nghĩ rằng điều này là hoàn toàn cần thiết)",
-        "✨ [đặc điểm thiết kế]: <strong>plant trees around the house</strong> (trồng cây quanh nhà), <strong>use big windows</strong> (sử dụng cửa sổ lớn), <strong>install solar panels</strong> (lắp đặt các tấm pin năng lượng mặt trời), <strong>maximize natural light and ventilation</strong> (tối đa hóa ánh sáng và thông gió tự nhiên), <strong>use sustainable building materials</strong> (sử dụng vật liệu xây dựng bền vững)",
-        "✨ [tác động]: <strong>protect the earth</strong> (bảo vệ trái đất), <strong>save electricity</strong> (tiết kiệm điện), <strong>reduce carbon emissions globally</strong> (giảm lượng khí thải carbon trên toàn cầu), <strong>protect our fragile ecosystem</strong> (bảo vệ hệ sinh thái mỏng manh của chúng sửa), <strong>lower long-term living costs</strong> (giảm chi phí sinh hoạt dài hạn)",
-        "✨ [vật liệu]: <strong>substance</strong> (chất), <strong>resource</strong> (tài nguyên), <strong>component</strong> (thành phần), <strong>textile</strong> (vật liệu dệt), <strong>insulation</strong> (vật liệu cách nhiệt)"
+        "✨ [quan điểm thiết kế]: <strong>sustainable architectural approach</strong> (phương pháp kiến trúc bền vững), <strong>forward-thinking building philosophy</strong> (triết lý xây dựng có tư duy tiến bộ), <strong>eco-conscious housing trend</strong> (xu hướng nhà ở có ý thức sinh thái), <strong>environmentally friendly residential concept</strong> (khái niệm khu dân cư thân thiện với môi trường), <strong>green construction standard</strong> (tiêu chuẩn xây dựng xanh)",
+        "✨ [yếu tố xanh]: <strong>solar panel installations</strong> (việc lắp đặt các tấm pin mặt trời), <strong>rainwater harvesting systems</strong> (hệ thống thu hoạch nước mưa), <strong>natural thermal insulation</strong> (vật liệu cách nhiệt tự nhiên), <strong>energy-efficient lighting solutions</strong> (các giải pháp chiếu sáng tiết kiệm năng lượng), <strong>recycled building materials</strong> (vật liệu xây dựng tái chế)",
+        "✨ [lợi ích môi trường]: <strong>the reduction of carbon footprints</strong> (sự sụt giảm lượng khí thải carbon), <strong>the conservation of natural resources</strong> (sự bảo tồn các nguồn tài nguyên thiên nhiên), <strong>the minimization of household waste</strong> (sự giảm thiểu chất thải sinh hoạt), <strong>the improvement of local air quality</strong> (sự cải thiện chất lượng không khí địa phương), <strong>the protection of surrounding ecosystems</strong> (sự bảo vệ các hệ sinh thái xung quanh)",
+        "✨ [tác động kinh tế]: <strong>substantial drop in electricity bills</strong> (sự giảm đáng kể hóa đơn tiền điện), <strong>long-term maintenance cost savings</strong> (sự tiết kiệm chi phí bảo trì dài hạn), <strong>increased property resale value</strong> (giá trị bán lại của bất động sản được tăng lên), <strong>financial efficiency over decades</strong> (hiệu quả tài chính qua nhiều thập kỷ), <strong>lucrative government tax incentives</strong> (những ưu đãi thuế sinh lợi của chính phủ)"
       ],
       "templates": [
-        "I [sự đồng ý] because it helps [tác động]. Incorporating an eco-friendly [vật liệu] during construction is a practical step towards sustainability. For instance, we can [đặc điểm thiết kế].",
-        "I [sự đồng ý]. Incorporating an eco-friendly [vật liệu] during construction is a practical step towards sustainability. If we [đặc điểm thiết kế], we will [tác động]."
+        "I wholeheartedly agree with this [quan điểm thiết kế]. Integrating [yếu tố xanh] into architecture not only maximizes [lợi ích môi trường] but also creates a positive [tác động kinh tế] for homeowners in the long run.",
+        "It is undeniable that this [quan điểm thiết kế] is crucial nowadays. By prioritizing [yếu tố xanh], we can achieve significant [lợi ích môi trường] and simultaneously experience beneficial [tác động kinh tế]."
       ],
       "samples": [
         {
-          "en": "I completely agree with this because it helps reduce carbon emissions globally. Incorporating an eco-friendly substance during construction is a practical step towards sustainability. For instance, we can install solar panels.",
-          "vi": "Nói về chủ đề thực sự thú vị này hôm nay, tôi hoàn toàn đồng ý với ý tưởng quan trọng này vì nó giúp giảm lượng khí thải carbon có hại trên toàn cầu. Việc kết hợp một chất thân thiện với môi trường trong quá trình xây dựng là một bước thiết thực hướng tới sự bền vững. Ví dụ, chúng ta có thể dễ dàng lắp đặt các tấm pin năng lượng mặt trời trên mái nhà để tạo ra năng lượng sạch và giảm thiểu dấu chân môi trường của chúng ta. Tôi mong được nghe suy nghĩ của bạn."
+          "en": "I wholeheartedly agree with this sustainable architectural approach. Integrating solar panel installations into architecture not only maximizes the reduction of carbon footprints but also creates a positive substantial drop in electricity bills for homeowners in the long run.",
+          "vi": "Tôi hoàn toàn đồng ý với phương pháp kiến trúc bền vững này. Tích hợp việc lắp đặt các tấm pin mặt trời vào kiến trúc không chỉ tối đa hóa sự sụt giảm lượng khí thải carbon mà còn tạo ra một sự giảm đáng kể hóa đơn tiền điện tích cực cho chủ nhà trong thời gian dài."
         },
         {
-          "en": "I strongly support eco-friendly designs. Incorporating an eco-friendly resource during construction is a practical step towards sustainability. If we maximize natural light and ventilation, we will lower long-term living costs.",
-          "vi": "Đây chắc chắn là điều tôi thích nói đến. Việc kết hợp một tài nguyên thân thiện với môi trường trong quá trình xây dựng là một bước thiết thực hướng tới sự bền vững. Tôi mạnh mẽ ủng hộ các thiết kế kiến trúc thân thiện với môi trường cho mọi ngôi nhà. Nếu chúng ta tối đa hóa ánh sáng và thông gió tự nhiên, chúng ta sẽ tự nhiên giảm được chi phí sinh hoạt dài hạn trong khi giữ cho bầu không khí trong nhà trong lành và khỏe mạnh. Tôi thực sự hy vọng điều này trả lời hoàn hảo câu hỏi của bạn hôm nay."
+          "en": "It is undeniable that this forward-thinking building philosophy is crucial nowadays. By prioritizing rainwater harvesting systems, we can achieve significant the conservation of natural resources and simultaneously experience beneficial long-term maintenance cost savings.",
+          "vi": "Không thể phủ nhận rằng triết lý xây dựng có tư duy tiến bộ này là rất quan trọng ngày nay. Bằng cách ưu tiên hệ thống thu hoạch nước mưa, chúng ta có thể đạt được sự bảo tồn các nguồn tài nguyên thiên nhiên đáng kể và đồng thời trải nghiệm sự tiết kiệm chi phí bảo trì dài hạn có lợi."
         }
       ]
     }
   },
   "Garden club": {
     "q1": {
-      "member": "Member A",
       "question": "I want to plant some flowers but I live in an apartment. Do you have any ideas on how I can do this?",
       "vi": "Tôi muốn trồng vài bông hoa nhưng tôi sống trong một căn hộ. Bạn có ý tưởng nào về cách tôi có thể làm điều này không?",
       "vocab": [
-        "✨ [giải pháp]: <strong>use small pots</strong> (sử dụng những chậu nhỏ), <strong>buy indoor plants</strong> (mua cây trồng trong nhà), <strong>adopt vertical gardening</strong> (áp dụng làm vườn thẳng đứng), <strong>install wall-mounted shelves</strong> (lắp đặt các kệ treo tường), <strong>utilize hanging baskets</strong> (sử dụng giỏ treo)",
-        "✨ [vị trí]: <strong>on the tables</strong> (trên bàn), <strong>near the doors</strong> (gần cửa ra vào), <strong>on your small balcony</strong> (trên ban công nhỏ của bạn), <strong>near sunny windows</strong> (gần các cửa sổ đầy nắng), <strong>along the bright corridors</strong> (dọc theo các hành lang sáng sủa)",
-        "✨ [lợi ích]: <strong>make the room nice</strong> (làm cho căn phòng đẹp hơn), <strong>save space</strong> (tiết kiệm không gian), <strong>maximize your limited space</strong> (tối đa hóa không gian hạn chế của bạn), <strong>add a beautiful touch of greenery indoors</strong> (thêm một chút sắc xanh tuyệt đẹp trong nhà), <strong>create a wonderfully refreshing vibe</strong> (tạo ra một bầu không khí vô cùng tươi mới)",
-        "✨ [dụng cụ]: <strong>container</strong> (đồ chứa), <strong>fixture</strong> (vật cố định), <strong>implement</strong> (dụng cụ), <strong>device</strong> (thiết bị), <strong>planter</strong> (chậu cây)"
+        "✨ [giải pháp không gian]: <strong>vertical wall planters</strong> (chậu trồng cây trên tường thẳng đứng), <strong>hanging window boxes</strong> (hộp treo bên cửa sổ), <strong>compact balcony shelving units</strong> (kệ ban công nhỏ gọn), <strong>tiered corner plant stands</strong> (giá để cây ở góc xếp tầng), <strong>hanging macrame baskets</strong> (giỏ macrame treo)",
+        "✨ [loại cây phù hợp]: <strong>low-maintenance indoor succulents</strong> (các loại sen đá trong nhà ít tốn công chăm sóc), <strong>shade-tolerant flowering varieties</strong> (các giống hoa chịu bóng râm), <strong>fragrant culinary herbs</strong> (các loại thảo mộc ẩm thực có mùi thơm), <strong>drought-resistant desert plants</strong> (các loại cây sa mạc chịu hạn), <strong>vibrant climbing vines</strong> (các loại dây leo rực rỡ)",
+        "✨ [phương pháp chăm sóc]: <strong>a consistent watering schedule</strong> (một lịch trình tưới nước nhất quán), <strong>adequate artificial grow lights</strong> (đèn trồng cây nhân tạo đầy đủ), <strong>proper soil drainage techniques</strong> (các kỹ thuật thoát nước cho đất thích hợp), <strong>regular liquid fertilization</strong> (việc bón phân nước thường xuyên), <strong>careful periodic pruning</strong> (việc cắt tỉa định kỳ cẩn thận)",
+        "✨ [kết quả thẩm mỹ]: <strong>a breathtaking green oasis</strong> (một ốc đảo xanh ngoạn mục), <strong>a refreshing indoor atmosphere</strong> (một bầu không khí trong nhà sảng khoái), <strong>a visually appealing living space</strong> (một không gian sống hấp dẫn về mặt thị giác), <strong>a charming floral display</strong> (một sự trưng bày hoa quyến rũ), <strong>a cozy and vibrant room</strong> (một căn phòng ấm cúng và rực rỡ)"
       ],
       "templates": [
-        "Since you live in an apartment, I highly recommend you [giải pháp]. You can easily set up a small balcony garden if you utilize a space-saving [dụng cụ]. You can place them [vị trí] to [lợi ích].",
-        "One fantastic idea is to [giải pháp] [vị trí]. You can easily set up a small balcony garden if you utilize a space-saving [dụng cụ]. Not only does it save room, but it also helps [lợi ích]."
+        "Living in an apartment shouldn't stop you! You can utilize [giải pháp không gian] to grow [loại cây phù hợp]. With [phương pháp chăm sóc], your small area will soon achieve [kết quả thẩm mỹ].",
+        "To garden indoors effectively, I strongly recommend adopting [giải pháp không gian] for [loại cây phù hợp]. As long as you maintain [phương pháp chăm sóc], you are guaranteed to enjoy [kết quả thẩm mỹ]."
       ],
       "samples": [
         {
-          "en": "Since you live in an apartment, I highly recommend you adopt vertical gardening. You can easily set up a small balcony garden if you utilize a space-saving container. You can place them on your small balcony to maximize your limited space.",
-          "vi": "Vì bạn hiện đang sống trong một căn hộ nhỏ, tôi thực sự khuyên bạn nên áp dụng làm vườn thẳng đứng. Bạn có thể dễ dàng thiết lập một khu vườn ban công nhỏ nếu bạn sử dụng một đồ chứa tiết kiệm không gian. Bạn có thể dễ dàng đặt chúng trên ban công nhỏ của bạn để tối đa hóa hiệu quả không gian hạn chế và tạo ra một ốc đảo xanh nhỏ bé. Tôi thực sự thích nó!"
+          "en": "Living in an apartment shouldn't stop you! You can utilize vertical wall planters to grow low-maintenance indoor succulents. With a consistent watering schedule, your small area will soon achieve a breathtaking green oasis.",
+          "vi": "Sống trong một căn hộ không nên ngăn cản bạn! Bạn có thể sử dụng chậu trồng cây trên tường thẳng đứng để trồng các loại sen đá trong nhà ít tốn công chăm sóc. Với một lịch trình tưới nước nhất quán, khu vực nhỏ của bạn sẽ sớm đạt được một ốc đảo xanh ngoạn mục."
         },
         {
-          "en": "One fantastic idea is to install wall-mounted shelves near sunny windows. You can easily set up a small balcony garden if you utilize a space-saving fixture. Not only does it save room, but it also helps add a beautiful touch of greenery indoors.",
-          "vi": "Một ý tưởng thực sự tuyệt vời là lắp đặt các kệ treo tường gần các cửa sổ đầy nắng của bạn. Bạn có thể dễ dàng thiết lập một khu vườn ban công nhỏ nếu bạn sử dụng một vật cố định tiết kiệm không gian. Nó không chỉ tiết kiệm không gian quý giá mà còn giúp thêm một chút sắc xanh tươi mát vô cùng đẹp đẽ trong nhà cho mọi người cùng thưởng thức. Tôi thực sự thích nó!"
+          "en": "To garden indoors effectively, I strongly recommend adopting hanging window boxes for shade-tolerant flowering varieties. As long as you maintain adequate artificial grow lights, you are guaranteed to enjoy a refreshing indoor atmosphere.",
+          "vi": "Để làm vườn trong nhà hiệu quả, tôi đặc biệt khuyên bạn nên áp dụng hộp treo bên cửa sổ cho các giống hoa chịu bóng râm. Miễn là bạn duy trì đèn trồng cây nhân tạo đầy đủ, bạn được đảm bảo sẽ tận hưởng một bầu không khí trong nhà sảng khoái."
         }
       ]
     },
     "q2": {
-      "member": "Member B",
       "question": "Do you think having a garden makes a house beautiful?",
       "vi": "Bạn có nghĩ rằng việc có một khu vườn làm cho một ngôi nhà trở nên đẹp đẽ không?",
       "vocab": [
-        "✨ [quan điểm]: <strong>think so</strong> (nghĩ vậy), <strong>agree with you</strong> (đồng ý với bạn), <strong>absolutely agree with this</strong> (hoàn toàn đồng ý với điều này), <strong>strongly believe it does</strong> (mạnh mẽ tin rằng nó là như vậy), <strong>think a garden is essential</strong> (nghĩ rằng một khu vườn là thiết yếu)",
-        "✨ [lý do thẩm mỹ]: <strong>has many lovely flowers</strong> (có nhiều hoa đẹp), <strong>looks very colorful</strong> (trông rất rực rỡ), <strong>brings vibrant colors to the property</strong> (mang lại màu sắc rực rỡ cho tài sản), <strong>creates a stunning natural landscape</strong> (tạo ra một cảnh quan thiên nhiên tuyệt đẹp), <strong>softens the harsh architectural lines</strong> (làm mềm mại các đường nét kiến trúc thô cứng)",
-        "✨ [cảm nhận]: <strong>look nice</strong> (trông đẹp), <strong>feel happy</strong> (cảm thấy hạnh phúc), <strong>feel much more relaxing</strong> (cảm thấy thư giãn hơn nhiều), <strong>look incredibly welcoming</strong> (trông vô cùng thân thiện), <strong>connect residents with nature deeply</strong> (kết nối cư dân với thiên nhiên một cách sâu sắc)",
-        "✨ [cảnh quan]: <strong>scenery</strong> (phong cảnh), <strong>appearance</strong> (diện mạo), <strong>surroundings</strong> (môi trường xung quanh), <strong>environment</strong> (môi trường), <strong>vista</strong> (cảnh quan)"
+        "✨ [khẳng định vẻ đẹp]: <strong>a brilliant aesthetic enhancement</strong> (một sự nâng cao thẩm mỹ tuyệt vời), <strong>an essential decorative element</strong> (một yếu tố trang trí thiết yếu), <strong>a magnificent visual focal point</strong> (một điểm nhấn thị giác tráng lệ), <strong>a timeless natural accessory</strong> (một phụ kiện tự nhiên vượt thời gian), <strong>a captivating architectural addition</strong> (một sự bổ sung kiến trúc quyến rũ)",
+        "✨ [đóng góp của vườn]: <strong>adding vibrant seasonal colors</strong> (thêm màu sắc theo mùa rực rỡ), <strong>softening harsh concrete structures</strong> (làm mềm các cấu trúc bê tông cứng nhắc), <strong>creating a seamless indoor-outdoor transition</strong> (tạo ra sự chuyển tiếp trong nhà-ngoài trời liền mạch), <strong>attracting lively local wildlife</strong> (thu hút động vật hoang dã địa phương sinh động), <strong>providing a dynamic shifting landscape</strong> (cung cấp một cảnh quan thay đổi năng động)",
+        "✨ [lợi ích tâm lý]: <strong>soothing mental relaxation</strong> (sự thư giãn tinh thần êm dịu), <strong>a profound sense of tranquility</strong> (một ý thức sâu sắc về sự yên tĩnh), <strong>uplifting daily inspiration</strong> (nguồn cảm hứng hàng ngày thăng hoa), <strong>effective stress relief</strong> (sự giảm căng thẳng hiệu quả), <strong>a joyful connection to nature</strong> (một sự kết nối vui vẻ với thiên nhiên)",
+        "✨ [giá trị tổng thể]: <strong>market curb appeal</strong> (sức hấp dẫn của vẻ bề ngoài trên thị trường), <strong>unique residential character</strong> (đặc điểm khu dân cư độc đáo), <strong>long-term financial worth</strong> (giá trị tài chính dài hạn), <strong>luxurious lifestyle perception</strong> (nhận thức về lối sống sang trọng), <strong>overall structural elegance</strong> (sự thanh lịch của cấu trúc tổng thể)"
       ],
       "templates": [
-        "I [quan điểm] because it [lý do thẩm mỹ]. Absolutely, a well-maintained green space enhances the overall [cảnh quan] of any residential property. Therefore, it makes the entire house [cảm nhận].",
-        "I [quan điểm]. Absolutely, a well-maintained green space enhances the overall [cảnh quan] of any residential property. A well-maintained garden [lý do thẩm mỹ] and helps the home [cảm nhận]."
+        "I certainly believe that a garden is [khẳng định vẻ đẹp]. It functions perfectly by [đóng góp của vườn], which offers immense [lợi ích tâm lý] and significantly elevates the [giá trị tổng thể].",
+        "Without a doubt, adding a yard represents [khẳng định vẻ đẹp]. Through [đóng góp của vườn], residents can obtain [lợi ích tâm lý], thereby boosting the property's [giá trị tổng thể]."
       ],
       "samples": [
         {
-          "en": "I absolutely agree with this because it brings vibrant colors to the property. Absolutely, a well-maintained green space enhances the overall scenery of any residential property. Therefore, it makes the entire house feel much more relaxing.",
-          "vi": "Tôi hoàn toàn đồng ý với ý kiến này vì một khu vườn được chăm sóc tốt mang lại màu sắc rực rỡ cho ngôi nhà. Chắc chắn rồi, một không gian xanh được bảo trì tốt sẽ nâng cao toàn bộ phong cảnh của bất kỳ khu dân cư nào. Do đó, nó tự nhiên làm cho toàn bộ ngôi nhà có cảm giác thư giãn và yên bình hơn rất nhiều cho tất cả các cư dân sống ở đó."
+          "en": "I certainly believe that a garden is a brilliant aesthetic enhancement. It functions perfectly by adding vibrant seasonal colors, which offers immense soothing mental relaxation and significantly elevates the market curb appeal.",
+          "vi": "Tôi chắc chắn tin rằng một khu vườn là một sự nâng cao thẩm mỹ tuyệt vời. Nó hoạt động hoàn hảo bằng cách thêm màu sắc theo mùa rực rỡ, điều này cung cấp sự thư giãn tinh thần êm dịu to lớn và nâng cao đáng kể sức hấp dẫn của vẻ bề ngoài trên thị trường."
         },
         {
-          "en": "I strongly believe it does. Absolutely, a well-maintained green space enhances the overall appearance of any residential property. A well-maintained garden creates a stunning natural landscape and helps the home look incredibly welcoming.",
-          "vi": "Nói về chủ đề thực sự thú vị này hôm nay, theo ý kiến cá nhân của tôi, tôi mạnh mẽ tin là như vậy. Chắc chắn rồi, một không gian xanh được bảo trì tốt sẽ nâng cao toàn bộ diện mạo của bất kỳ khu dân cư nào. Một khu vườn được chăm sóc tốt tạo ra một cảnh quan thiên nhiên tuyệt đẹp ngay ngoài cửa nhà bạn và giúp toàn bộ ngôi nhà trông vô cùng chào đón đối với cả chủ nhà và khách của họ."
+          "en": "Without a doubt, adding a yard represents an essential decorative element. Through softening harsh concrete structures, residents can obtain a profound sense of tranquility, thereby boosting the property's unique residential character.",
+          "vi": "Không có nghi ngờ gì, việc thêm một sân đại diện cho một yếu tố trang trí thiết yếu. Thông qua việc làm mềm các cấu trúc bê tông cứng nhắc, cư dân có thể có được một ý thức sâu sắc về sự yên tĩnh, do đó thúc đẩy đặc điểm khu dân cư độc đáo của tài sản."
         }
       ]
     },
     "q3": {
-      "member": "Member C",
       "question": "What are the benefits of eating vegetables? Can you tell me your opinion on this?",
       "vi": "Những lợi ích của việc ăn rau là gì? Bạn có thể cho tôi biết ý kiến của bạn về điều này?",
       "vocab": [
-        "✨ [dinh dưỡng]: <strong>have a lot of water</strong> (có nhiều nước), <strong>contain many vitamins</strong> (chứa nhiều vitamin), <strong>provide essential vitamins and minerals</strong> (cung cấp các vitamin và khoáng chất thiết yếu), <strong>are an excellent source of dietary fiber</strong> (là một nguồn chất xơ tuyệt vời), <strong>contain powerful antioxidants</strong> (chứa các chất chống oxy hóa mạnh mẽ)",
-        "✨ [sức khỏe thể chất]: <strong>help you stay fit</strong> (giúp bạn giữ dáng), <strong>make you strong</strong> (làm cho bạn khỏe mạnh), <strong>boost our immune system</strong> (tăng cường hệ thống miễn dịch của chúng ta), <strong>improve digestion significantly</strong> (cải thiện tiêu hóa đáng kể), <strong>lower the risk of chronic diseases</strong> (làm giảm nguy cơ mắc các bệnh mãn tính)",
-        "✨ [sức khỏe tổng thể]: <strong>live longer</strong> (sống lâu hơn), <strong>feel energetic</strong> (cảm thấy tràn đầy năng lượng), <strong>maintain a healthy weight</strong> (duy trì mức cân nặng khỏe mạnh), <strong>keep our skin glowing</strong> (giữ cho làn da của chúng ta rạng rỡ), <strong>promote overall longevity</strong> (thúc đẩy tuổi thọ tổng thể)",
-        "✨ [dưỡng chất]: <strong>vitamin</strong> (vitamin), <strong>mineral</strong> (khoáng chất), <strong>supplement</strong> (chất bổ sung), <strong>antioxidant</strong> (chất chống oxy hóa), <strong>compound</strong> (hợp chất)"
+        "✨ [giá trị dinh dưỡng]: <strong>abundant essential vitamins and minerals</strong> (dồi dào các vitamin và khoáng chất thiết yếu), <strong>crucial dietary fiber</strong> (chất xơ ăn kiêng quan trọng), <strong>powerful natural antioxidants</strong> (các chất chống oxy hóa tự nhiên mạnh mẽ), <strong>vital plant-based nutrients</strong> (các chất dinh dưỡng thực vật quan trọng), <strong>low-calorie natural goodness</strong> (sự tốt lành tự nhiên ít calo)",
+        "✨ [chức năng cơ thể]: <strong>smooth digestive processes</strong> (các quá trình tiêu hóa trơn tru), <strong>efficient metabolic rates</strong> (tốc độ trao đổi chất hiệu quả), <strong>strong immune responses</strong> (phản ứng miễn dịch mạnh mẽ), <strong>optimal brain performances</strong> (hoạt động não bộ tối ưu), <strong>healthy cellular regeneration</strong> (sự tái tạo tế bào khỏe mạnh)",
+        "✨ [phòng ngừa bệnh tật]: <strong>the avoidance of chronic illnesses</strong> (việc tránh các bệnh mãn tính), <strong>the regulation of blood pressure</strong> (sự điều hòa huyết áp), <strong>the reduction of inflammation</strong> (sự giảm viêm), <strong>the management of healthy weight</strong> (việc quản lý cân nặng khỏe mạnh), <strong>the prevention of cardiovascular diseases</strong> (việc phòng ngừa các bệnh tim mạch)",
+        "✨ [chất lượng cuộc sống]: <strong>endless daily vitality</strong> (sức sống hàng ngày vô tận), <strong>prolonged overall longevity</strong> (tuổi thọ tổng thể được kéo dài), <strong>radiant physical appearance</strong> (vẻ ngoài rạng rỡ), <strong>consistent emotional stability</strong> (sự ổn định cảm xúc nhất quán), <strong>an active and fulfilling lifestyle</strong> (một lối sống năng động và trọn vẹn)"
       ],
       "templates": [
-        "Vegetables [dinh dưỡng]. A plant-based diet is essential because it provides an invaluable [dưỡng chất] that boosts our immune system. Thus, they effectively [sức khỏe thể chất] and help us [sức khỏe tổng thể].",
-        "I believe the main benefit is that they [dinh dưỡng]. A plant-based diet is essential because it provides an invaluable [dưỡng chất] that boosts our immune system. Consequently, eating them will [sức khỏe thể chất] and [sức khỏe tổng thể]."
+        "Incorporating greens into your diet offers exceptional [giá trị dinh dưỡng]. This habit supports [chức năng cơ thể] and facilitates [phòng ngừa bệnh tật], which are both essential to maintain [chất lượng cuộc sống].",
+        "Vegetables are undeniable sources of [giá trị dinh dưỡng]. Regularly consuming them drastically improves [chức năng cơ thể] as well as aids in [phòng ngừa bệnh tật], ultimately ensuring superior [chất lượng cuộc sống]."
       ],
       "samples": [
         {
-          "en": "Vegetables provide essential vitamins and minerals. A plant-based diet is essential because it provides an invaluable vitamin that boosts our immune system. Thus, they effectively boost our immune system and help us maintain a healthy weight.",
-          "vi": "Nói về chủ đề thực sự thú vị này hôm nay, các loại rau tươi cung cấp các vitamin và khoáng chất thiết yếu cho cơ thể chúng ta. Chế độ ăn dựa trên thực vật là rất cần thiết vì nó cung cấp một vitamin vô giá giúp tăng cường hệ miễn dịch của chúng ta. Do đó, chúng tăng cường hiệu quả hệ miễn dịch và giúp chúng ta duy trì cân nặng khỏe mạnh, điều này vô cùng quan trọng cho một cuộc sống trường thọ. Tôi mong được nghe suy nghĩ của bạn."
+          "en": "Incorporating greens into your diet offers exceptional abundant essential vitamins and minerals. This habit supports smooth digestive processes and facilitates the avoidance of chronic illnesses, which are both essential to maintain endless daily vitality.",
+          "vi": "Việc kết hợp rau xanh vào chế độ ăn uống của bạn cung cấp dồi dào các vitamin và khoáng chất thiết yếu đặc biệt. Thói quen này hỗ trợ các quá trình tiêu hóa trơn tru và tạo điều kiện thuận lợi cho việc tránh các bệnh mãn tính, cả hai đều cần thiết để duy trì sức sống hàng ngày vô tận."
         },
         {
-          "en": "I believe the main benefit is that they are an excellent source of dietary fiber. A plant-based diet is essential because it provides an invaluable mineral that boosts our immune system. Consequently, eating them will improve digestion significantly and keep our skin glowing.",
-          "vi": "Tôi mạnh mẽ tin rằng lợi ích chính là chúng là một nguồn cung cấp chất xơ tuyệt vời. Chế độ ăn dựa trên thực vật là rất cần thiết vì nó cung cấp một khoáng chất vô giá giúp tăng cường hệ miễn dịch của chúng ta. Hậu quả là, ăn chúng hàng ngày sẽ cải thiện tiêu hóa đáng kể và giữ cho làn da chúng ta rạng rỡ, khiến chúng ta trông trẻ trung và khỏe mạnh hơn nhiều."
+          "en": "Vegetables are undeniable sources of crucial dietary fiber. Regularly consuming them drastically improves efficient metabolic rates as well as aids in the regulation of blood pressure, ultimately ensuring superior prolonged overall longevity.",
+          "vi": "Rau là những nguồn không thể phủ nhận của chất xơ ăn kiêng quan trọng. Việc tiêu thụ chúng thường xuyên cải thiện đáng kể tốc độ trao đổi chất hiệu quả cũng như hỗ trợ sự điều hòa huyết áp, cuối cùng đảm bảo tuổi thọ tổng thể được kéo dài vượt trội."
         }
       ]
     }
@@ -391,23 +376,23 @@ export const part3Data = {
       "question": "When was the last time you played sports?",
       "vi": "Lần cuối cùng bạn chơi thể thao là khi nào?",
       "vocab": [
-        "✨ [category 1]: <strong>yesterday</strong> (hôm qua), <strong>recently</strong> (gần đây), <strong>a fortnight ago</strong> (hai tuần trước), <strong>earlier this week</strong> (đầu tuần này), <strong>several days ago</strong> (vài ngày trước)",
-        "✨ [category 2]: <strong>tennis</strong> (quần vợt), <strong>football</strong> (bóng đá), <strong>squash</strong> (bóng quần), <strong>badminton</strong> (cầu lông), <strong>basketball</strong> (bóng rổ)",
-        "✨ [category 3]: <strong>happy</strong> (vui vẻ), <strong>tired</strong> (mệt mỏi), <strong>exhilarated</strong> (hào hứng), <strong>reinvigorated</strong> (tươi mới), <strong>exhausted</strong> (kiệt sức)",
-        "✨ [trận đấu]: <strong>tournament</strong> (giải đấu), <strong>competition</strong> (cuộc thi), <strong>fixture</strong> (trận đấu), <strong>championship</strong> (chức vô địch), <strong>event</strong> (sự kiện)"
+        "✨ [thời gian]: <strong>a couple of days ago</strong> (vài ngày trước), <strong>just last weekend</strong> (mới cuối tuần trước), <strong>earlier this week</strong> (đầu tuần này), <strong>a fortnight ago</strong> (hai tuần trước), <strong>recently</strong> (gần đây)",
+        "✨ [môn thể thao]: <strong>a friendly football match</strong> (một trận bóng đá giao hữu), <strong>an intense tennis game</strong> (một trận quần vợt căng thẳng), <strong>a badminton tournament</strong> (một giải cầu lông), <strong>a basketball session</strong> (một buổi chơi bóng rổ), <strong>a volleyball match</strong> (một trận bóng chuyền)",
+        "✨ [người đồng hành]: <strong>a group of close friends</strong> (một nhóm bạn thân), <strong>my energetic colleagues</strong> (những đồng nghiệp năng động của tôi), <strong>some enthusiastic neighbors</strong> (một số người hàng xóm nhiệt tình), <strong>my beloved family members</strong> (những thành viên gia đình thân yêu của tôi), <strong>my former classmates</strong> (những người bạn cùng lớp cũ của tôi)",
+        "✨ [cảm xúc]: <strong>absolutely revitalized</strong> (hoàn toàn sảng khoái), <strong>incredibly exhausted but happy</strong> (vô cùng mệt mỏi nhưng hạnh phúc), <strong>truly refreshed</strong> (thực sự tươi mới), <strong>remarkably energized</strong> (được tiếp thêm năng lượng đáng kể), <strong>highly motivated</strong> (vô cùng có động lực)"
       ],
       "templates": [
-        "I actually played [category 2] [category 1] with my close friends at the local stadium. I recently participated in an amateur [trận đấu] that really tested my physical endurance. Even though it was extremely demanding, I felt incredibly [category 3] after we finally finished the intense and highly competitive match together.",
-        "To be completely honest, my last session was [category 1], where I enjoyed a great game of [category 2]. I recently participated in an amateur [trận đấu] that really tested my physical endurance. It genuinely left me feeling totally [category 3], which perfectly explains my profound passion for maintaining physical fitness."
+        "To be honest, the last time I engaged in physical activities was [thời gian]. I participated in [môn thể thao] alongside [người đồng hành]. After the event, I felt [cảm xúc], which really helped me relieve stress.",
+        "If I remember correctly, my most recent workout took place [thời gian]. Specifically, I joined [môn thể thao] with [người đồng hành]. Consequently, the whole experience left me feeling [cảm xúc] and ready for the week ahead."
       ],
       "samples": [
         {
-          "en": "I actually played tennis yesterday with my close friends at the local stadium. I recently participated in an amateur tournament that really tested my physical endurance. Even though it was extremely demanding, I felt incredibly happy after we finally finished the intense and highly competitive match together.",
-          "vi": "Tôi thực sự đã chơi quần vợt hôm qua với những người bạn thân tại sân vận động địa phương. Gần đây tôi đã tham gia một giải đấu nghiệp dư thực sự thử thách sức bền thể chất của tôi. Mặc dù rất tốn sức, tôi cảm thấy vô cùng vui vẻ sau khi chúng tôi hoàn thành trận đấu căng thẳng và có tính cạnh tranh cao cùng nhau."
+          "en": "To be honest, the last time I engaged in physical activities was a couple of days ago. I participated in a friendly football match alongside a group of close friends. After the event, I felt absolutely revitalized, which really helped me relieve stress.",
+          "vi": "Thành thật mà nói, lần cuối cùng tôi tham gia các hoạt động thể chất là vài ngày trước. Tôi đã tham gia một trận bóng đá giao hữu cùng với một nhóm bạn thân. Sau sự kiện, tôi cảm thấy hoàn toàn sảng khoái, điều này thực sự giúp tôi giảm căng thẳng."
         },
         {
-          "en": "To be completely honest, my last session was a fortnight ago, where I enjoyed a great game of squash. I recently participated in an amateur competition that really tested my physical endurance. It genuinely left me feeling totally reinvigorated, which perfectly explains my profound passion for maintaining physical fitness.",
-          "vi": "Buổi tập cuối cùng của tôi là hai tuần trước, nơi tôi đã tận hưởng một trận bóng quần tuyệt vời. Gần đây tôi đã tham gia một cuộc thi nghiệp dư thực sự thử thách sức bền thể chất của tôi. Nó thực sự khiến tôi cảm thấy hoàn toàn tươi mới, điều đó giải thích hoàn hảo cho niềm đam mê sâu sắc của tôi đối với việc duy trì thể lực."
+          "en": "If I remember correctly, my most recent workout took place just last weekend. Specifically, I joined an intense tennis game with my energetic colleagues. Consequently, the whole experience left me feeling incredibly exhausted but happy and ready for the week ahead.",
+          "vi": "Nếu tôi nhớ không lầm, buổi tập luyện gần đây nhất của tôi diễn ra mới cuối tuần trước. Cụ thể, tôi đã tham gia một trận quần vợt căng thẳng với những đồng nghiệp năng động của tôi. Do đó, toàn bộ trải nghiệm khiến tôi cảm thấy vô cùng mệt mỏi nhưng hạnh phúc và sẵn sàng cho tuần mới."
         }
       ]
     },
@@ -416,23 +401,23 @@ export const part3Data = {
       "question": "I usually play sports with my friends and watch sports programs. What about you?",
       "vi": "Tôi thường chơi thể thao với bạn bè và xem các chương trình thể thao. Còn bạn thì sao?",
       "vocab": [
-        "✨ [category 1]: <strong>friends</strong> (bạn bè), <strong>family</strong> (gia đình), <strong>colleagues</strong> (đồng nghiệp), <strong>teammates</strong> (đồng đội), <strong>acquaintances</strong> (người quen)",
-        "✨ [category 2]: <strong>often</strong> (thường xuyên), <strong>sometimes</strong> (thỉnh thoảng), <strong>occasionally</strong> (đôi khi), <strong>frequently</strong> (thường xuyên), <strong>perpetually</strong> (liên tục)",
-        "✨ [category 3]: <strong>matches</strong> (trận đấu), <strong>news</strong> (tin tức), <strong>documentaries</strong> (phim tài liệu), <strong>tournaments</strong> (giải đấu), <strong>championships</strong> (giải vô địch)",
-        "✨ [sự kiện]: <strong>broadcast</strong> (chương trình phát sóng), <strong>spectacle</strong> (cảnh tượng), <strong>match</strong> (trận đấu), <strong>ceremony</strong> (buổi lễ), <strong>league</strong> (giải đấu)"
+        "✨ [hoạt động chính]: <strong>hit the gym regularly</strong> (đến phòng tập thể dục thường xuyên), <strong>go jogging every morning</strong> (đi chạy bộ mỗi sáng), <strong>attend yoga classes</strong> (tham gia các lớp học yoga), <strong>practice martial arts</strong> (tập luyện võ thuật), <strong>swim in the local pool</strong> (bơi ở hồ bơi địa phương)",
+        "✨ [thói quen giải trí]: <strong>catch up on sports highlights</strong> (theo dõi những điểm nhấn thể thao), <strong>read fitness magazines</strong> (đọc tạp chí thể hình), <strong>watch live tournaments</strong> (xem các giải đấu trực tiếp), <strong>listen to sports podcasts</strong> (nghe podcast thể thao), <strong>follow famous athletes online</strong> (theo dõi các vận động viên nổi tiếng trên mạng)",
+        "✨ [lợi ích]: <strong>stay in good shape</strong> (giữ thân hình cân đối), <strong>boost my immune system</strong> (tăng cường hệ miễn dịch), <strong>improve my physical endurance</strong> (cải thiện sức bền thể chất), <strong>maintain a healthy lifestyle</strong> (duy trì lối sống lành mạnh), <strong>clear my mind</strong> (làm trí óc minh mẫn)",
+        "✨ [mục tiêu]: <strong>achieve personal records</strong> (đạt được kỷ lục cá nhân), <strong>challenge my own limits</strong> (thách thức giới hạn của bản thân), <strong>lose some extra weight</strong> (giảm một chút cân nặng dư thừa), <strong>build muscle mass</strong> (xây dựng khối lượng cơ bắp), <strong>stay active daily</strong> (duy trì hoạt động mỗi ngày)"
       ],
       "templates": [
-        "I normally engage in physical activities alongside my [category 1] during the weekends. I also enjoy gathering with mates to watch a major sporting [sự kiện] on the weekend. Furthermore, I [category 2] enjoy watching various sports [category 3] on television, as it significantly broadens my strategic understanding and enhances my overall appreciation. Finally,",
-        "I actively participate in sports with my [category 1] to maintain good health. I also enjoy gathering with mates to watch a major sporting [sự kiện] on the weekend. Additionally, I [category 2] tune into live sports [category 3] because observing professional athletes immensely inspires my personal dedication toward continuous self-improvement. Finally,"
+        "Similarly, I have a passion for staying active. I usually [hoạt động chính] and [thói quen giải trí] during my free time. By doing this, I can [lợi ích] as well as [mục tiêu].",
+        "Just like you, I highly value physical health. Therefore, I tend to [hoạt động chính] and frequently [thói quen giải trí]. Such an approach helps me [lợi ích] and simultaneously [mục tiêu]."
       ],
       "samples": [
         {
-          "en": "I normally engage in physical activities alongside my friends during the weekends. I also enjoy gathering with mates to watch a major sporting broadcast on the weekend. Furthermore, I often enjoy watching various sports matches on television, as it significantly broadens my strategic understanding and enhances my overall appreciation. Finally,",
-          "vi": "Tôi thường tham gia các hoạt động thể chất cùng với bạn bè vào cuối tuần. Tôi cũng thích tụ tập với bạn bè để xem một chương trình phát sóng thể thao lớn vào cuối tuần. Hơn nữa, tôi thường thích xem các trận đấu thể thao khác nhau trên truyền hình, vì nó mở rộng đáng kể sự hiểu biết chiến lược của tôi và nâng cao sự đánh giá tổng thể của tôi. Dù sao đi nữa."
+          "en": "Similarly, I have a passion for staying active. I usually hit the gym regularly and catch up on sports highlights during my free time. By doing this, I can stay in good shape as well as achieve personal records.",
+          "vi": "Tương tự như vậy, tôi có niềm đam mê với việc duy trì hoạt động. Tôi thường đến phòng tập thể dục thường xuyên và theo dõi những điểm nhấn thể thao trong thời gian rảnh rỗi. Bằng cách này, tôi có thể giữ thân hình cân đối cũng như đạt được kỷ lục cá nhân."
         },
         {
-          "en": "I actively participate in sports with my colleagues to maintain good health. I also enjoy gathering with mates to watch a major sporting spectacle on the weekend. Additionally, I frequently tune into live sports tournaments because observing professional athletes immensely inspires my personal dedication toward continuous self-improvement. Finally,",
-          "vi": "Tôi tích cực tham gia thể thao với đồng nghiệp để duy trì sức khỏe tốt. Tôi cũng thích tụ tập với bạn bè để xem một cảnh tượng thể thao lớn vào cuối tuần. Ngoài ra, tôi thường xuyên theo dõi trực tiếp các giải đấu thể thao vì việc quan sát các vận động viên chuyên nghiệp truyền cảm hứng to lớn cho sự cống hiến cá nhân của tôi đối với việc không ngừng hoàn thiện bản thân. Dù sao đi nữa."
+          "en": "Just like you, I highly value physical health. Therefore, I tend to go jogging every morning and frequently read fitness magazines. Such an approach helps me boost my immune system and simultaneously challenge my own limits.",
+          "vi": "Cũng giống như bạn, tôi đánh giá cao sức khỏe thể chất. Do đó, tôi có xu hướng đi chạy bộ mỗi sáng và thường xuyên đọc tạp chí thể hình. Một cách tiếp cận như vậy giúp tôi tăng cường hệ miễn dịch và đồng thời thách thức giới hạn của bản thân."
         }
       ]
     },
@@ -441,23 +426,23 @@ export const part3Data = {
       "question": "I like playing sports with my friend but my brother likes playing sports alone. What do you think about this issue?",
       "vi": "Tôi thích chơi thể thao với bạn tôi nhưng anh trai tôi lại thích chơi thể thao một mình. Bạn nghĩ sao về vấn đề này?",
       "vocab": [
-        "✨ [category 1]: <strong>fun</strong> (vui vẻ), <strong>good</strong> (tốt), <strong>beneficial</strong> (có lợi), <strong>advantageous</strong> (thuận lợi), <strong>rewarding</strong> (đáng giá)",
-        "✨ [category 2]: <strong>easy</strong> (dễ dàng), <strong>nice</strong> (tuyệt), <strong>therapeutic</strong> (mang tính trị liệu), <strong>liberating</strong> (tự do), <strong>focused</strong> (tập trung)",
-        "✨ [category 3]: <strong>normal</strong> (bình thường), <strong>okay</strong> (ổn), <strong>understandable</strong> (dễ hiểu), <strong>acceptable</strong> (có thể chấp nhận), <strong>justifiable</strong> (chính đáng)",
-        "✨ [động lực]: <strong>drive</strong> (sự thúc đẩy), <strong>incentive</strong> (sự khuyến khích), <strong>discipline</strong> (kỷ luật), <strong>ambition</strong> (tham vọng), <strong>enthusiasm</strong> (sự nhiệt tình)"
+        "✨ [nhận định]: <strong>a matter of personal preference</strong> (một vấn đề thuộc về sở thích cá nhân), <strong>quite a common situation</strong> (một tình huống khá phổ biến), <strong>an interesting contrast</strong> (một sự tương phản thú vị), <strong>completely understandable</strong> (hoàn toàn dễ hiểu), <strong>a typical difference in personalities</strong> (một sự khác biệt điển hình về tính cách)",
+        "✨ [ưu điểm chơi nhóm]: <strong>foster team spirit</strong> (thúc đẩy tinh thần đồng đội), <strong>create wonderful shared memories</strong> (tạo ra những kỷ niệm chung tuyệt vời), <strong>encourage social interaction</strong> (khuyến khích tương tác xã hội), <strong>bring endless laughter</strong> (mang lại tiếng cười bất tận), <strong>enhance communication skills</strong> (nâng cao kỹ năng giao tiếp)",
+        "✨ [ưu điểm chơi một mình]: <strong>focus entirely on personal goals</strong> (tập trung hoàn toàn vào các mục tiêu cá nhân), <strong>enjoy peaceful moments</strong> (tận hưởng những khoảnh khắc yên bình), <strong>develop extreme self-discipline</strong> (phát triển kỷ luật bản thân cao độ), <strong>avoid unwanted distractions</strong> (tránh những sự xao nhãng không mong muốn), <strong>train at one's own pace</strong> (tập luyện theo tốc độ của riêng mình)",
+        "✨ [điều kiện]: <strong>one stays committed</strong> (người ta vẫn tận tâm), <strong>safety is maintained</strong> (sự an toàn được duy trì), <strong>it fits your lifestyle</strong> (nó phù hợp với lối sống của bạn), <strong>you enjoy the process</strong> (bạn tận hưởng quá trình này), <strong>consistency is guaranteed</strong> (sự nhất quán được đảm bảo)"
       ],
       "templates": [
-        "While team sports are undeniably [category 1] for social connection, individual training is simply [category 2]. Individual training can be highly focused, provided that the athlete maintains strong personal [động lực]. Therefore, I consider both contrasting preferences completely [category 3], as everyone possesses unique methods for achieving their personal fitness goals. Finally,",
-        "I believe group activities are genuinely [category 1], yet working out alone remains wonderfully [category 2] for many. Individual training can be highly focused, provided that the athlete maintains strong personal [động lực]. Consequently, this difference is entirely [category 3] because individual personalities strongly dictate our preferred approaches toward maintaining optimal physical health."
+        "I believe that this is [nhận định]. While exercising with others can [ưu điểm chơi nhóm], working out independently allows individuals to [ưu điểm chơi một mình]. Both styles are beneficial as long as [điều kiện].",
+        "From my perspective, this contrast is [nhận định]. Group sports definitely [ưu điểm chơi nhóm], whereas solo activities enable people to [ưu điểm chơi một mình]. Ultimately, the most crucial aspect is that [điều kiện]."
       ],
       "samples": [
         {
-          "en": "While team sports are undeniably fun for social connection, individual training is simply nice. Individual training can be highly focused, provided that the athlete maintains strong personal drive. Therefore, I consider both contrasting preferences completely normal, as everyone possesses unique methods for achieving their personal fitness goals. Finally,",
-          "vi": "Mặc dù các môn thể thao đồng đội chắc chắn là thú vị cho sự kết nối xã hội, việc tập luyện cá nhân đơn giản là rất tuyệt. Việc tập luyện cá nhân có thể rất tập trung, miễn là vận động viên duy trì được sự thúc đẩy cá nhân mạnh mẽ. Do đó, tôi coi cả hai sở thích trái ngược này là hoàn toàn bình thường, vì mỗi người đều sở hữu những phương pháp độc đáo để đạt được mục tiêu thể lực cá nhân của họ. Dù sao đi nữa."
+          "en": "I believe that this is a matter of personal preference. While exercising with others can foster team spirit, working out independently allows individuals to focus entirely on personal goals. Both styles are beneficial as long as one stays committed.",
+          "vi": "Tôi tin rằng đây là một vấn đề thuộc về sở thích cá nhân. Trong khi tập thể dục với những người khác có thể thúc đẩy tinh thần đồng đội, việc tập luyện độc lập cho phép các cá nhân tập trung hoàn toàn vào các mục tiêu cá nhân. Cả hai phong cách đều có lợi miễn là người ta vẫn tận tâm."
         },
         {
-          "en": "I believe group activities are genuinely beneficial, yet working out alone remains wonderfully therapeutic for many. Individual training can be highly focused, provided that the athlete maintains strong personal incentive. Consequently, this difference is entirely understandable because individual personalities strongly dictate our preferred approaches toward maintaining optimal physical health.",
-          "vi": "Tôi tin rằng các hoạt động nhóm thực sự có lợi, nhưng việc tập luyện một mình vẫn mang tính trị liệu tuyệt vời đối với nhiều người. Việc tập luyện cá nhân có thể rất tập trung, miễn là vận động viên duy trì được sự khuyến khích cá nhân mạnh mẽ. Do đó, sự khác biệt này hoàn toàn có thể hiểu được bởi vì tính cách cá nhân quyết định mạnh mẽ các phương pháp ưa thích của chúng ta đối với việc duy trì sức khỏe thể chất tối ưu."
+          "en": "From my perspective, this contrast is quite a common situation. Group sports definitely create wonderful shared memories, whereas solo activities enable people to enjoy peaceful moments. Ultimately, the most crucial aspect is that safety is maintained.",
+          "vi": "Theo quan điểm của tôi, sự tương phản này là một tình huống khá phổ biến. Các môn thể thao nhóm chắc chắn tạo ra những kỷ niệm chung tuyệt vời, trong khi các hoạt động đơn lẻ cho phép mọi người tận hưởng những khoảnh khắc yên bình. Cuối cùng, khía cạnh quan trọng nhất là sự an toàn được duy trì."
         }
       ]
     }
@@ -468,23 +453,23 @@ export const part3Data = {
       "question": "Hi! Welcome to the club. When and where do you like reading books?",
       "vi": "Chào bạn! Chào mừng đến với câu lạc bộ. Bạn thích đọc sách khi nào và ở đâu?",
       "vocab": [
-        "✨ [time/places]: <strong>home</strong> (nhà), <strong>night</strong> (buổi tối), <strong>tranquil settings</strong> (không gian yên tĩnh), <strong>solitary retreats</strong> (nơi ẩn dật một mình), <strong>cozy corners</strong> (những góc ấm cúng)",
-        "✨ [feelings]: <strong>good</strong> (tốt), <strong>happy</strong> (vui vẻ), <strong>intellectually stimulated</strong> (được kích thích trí tuệ), <strong>completely immersed</strong> (hoàn toàn đắm chìm), <strong>mentally rejuvenated</strong> (được trẻ hóa tinh thần)",
-        "✨ [actions/habits]: <strong>read</strong> (đọc), <strong>sit</strong> (ngồi), <strong>delve deeply</strong> (đào sâu), <strong>truly unwind</strong> (thực sự thư giãn), <strong>escape reality</strong> (thoát khỏi thực tại)",
-        "✨ [không gian]: <strong>environment</strong> (môi trường), <strong>setting</strong> (bối cảnh), <strong>atmosphere</strong> (bầu không khí), <strong>corner</strong> (góc), <strong>surrounding</strong> (môi trường xung quanh)"
+        "✨ [thời điểm]: <strong>late at night</strong> (vào đêm khuya), <strong>early in the morning</strong> (vào sáng sớm), <strong>during my lunch break</strong> (trong giờ nghỉ trưa của tôi), <strong>on lazy Sunday afternoons</strong> (vào những buổi chiều Chủ nhật lười biếng), <strong>right before bedtime</strong> (ngay trước giờ ngủ)",
+        "✨ [địa điểm]: <strong>in a cozy local cafe</strong> (trong một quán cà phê địa phương ấm cúng), <strong>on my comfortable sofa</strong> (trên chiếc ghế sofa thoải mái của tôi), <strong>in the city library</strong> (trong thư viện thành phố), <strong>at a quiet park bench</strong> (trên một chiếc ghế đá công viên yên tĩnh), <strong>in my peaceful bedroom</strong> (trong phòng ngủ yên bình của tôi)",
+        "✨ [cảm giác]: <strong>escape from reality</strong> (thoát khỏi thực tại), <strong>fully immerse myself in the story</strong> (hoàn toàn đắm chìm vào câu chuyện), <strong>find inner peace</strong> (tìm thấy sự bình yên nội tâm), <strong>relax my exhausted mind</strong> (thư giãn tâm trí mệt mỏi của tôi), <strong>unwind after a long day</strong> (thư giãn sau một ngày dài)",
+        "✨ [kết quả]: <strong>broaden my horizons</strong> (mở rộng tầm nhìn của tôi), <strong>enhance my creativity</strong> (nâng cao sự sáng tạo của tôi), <strong>gain valuable knowledge</strong> (thu được kiến thức quý giá), <strong>improve my concentration</strong> (cải thiện sự tập trung của tôi), <strong>enrich my vocabulary</strong> (làm phong phú vốn từ vựng của tôi)"
       ],
       "templates": [
-        "I usually prefer [time/places] because they make me feel [feelings] and help me [actions/habits] effectively. I generally prefer escaping into a novel in a tranquil [không gian] right before bedtime.",
-        "When I stay in [time/places], I always feel [feelings] which allows me to [actions/habits] properly. I generally prefer escaping into a novel in a tranquil [không gian] right before bedtime."
+        "I typically enjoy diving into a good book [thời điểm]. My favorite spot is [địa điểm] because it helps me [cảm giác]. Consequently, this wonderful habit allows me to [kết quả] over time.",
+        "Personally, I prefer reading [thời điểm], especially [địa điểm]. Given that the atmosphere is tranquil, I can easily [cảm giác]. Furthermore, this dedicated reading time enables me to [kết quả] significantly."
       ],
       "samples": [
         {
-          "en": "I usually prefer tranquil settings because they make me feel intellectually stimulated and help me delve deeply effectively. I generally prefer escaping into a novel in a tranquil environment right before bedtime.",
-          "vi": "Tôi rất hào hứng khi nói về điều này! Tôi thường thích những không gian yên tĩnh vì chúng làm tôi cảm thấy được kích thích trí tuệ và giúp tôi đào sâu một cách hiệu quả. Tôi thường thích đắm chìm vào một cuốn tiểu thuyết trong một môi trường yên tĩnh ngay trước khi đi ngủ. Tôi thích đọc sách ở đó vào ban đêm để học những điều mới và hoàn toàn quên đi một ngày làm việc dài căng thẳng của mình. Tôi thực sự hy vọng điều này trả lời hoàn hảo câu hỏi của bạn hôm nay."
+          "en": "I typically enjoy diving into a good book late at night. My favorite spot is in a cozy local cafe because it helps me escape from reality. Consequently, this wonderful habit allows me to broaden my horizons over time.",
+          "vi": "Tôi thường thích đắm chìm vào một cuốn sách hay vào đêm khuya. Địa điểm yêu thích của tôi là trong một quán cà phê địa phương ấm cúng bởi vì nó giúp tôi thoát khỏi thực tại. Hậu quả là, thói quen tuyệt vời này cho phép tôi mở rộng tầm nhìn của tôi theo thời gian."
         },
         {
-          "en": "When I stay in cozy corners, I always feel mentally rejuvenated which allows me to truly unwind properly. I generally prefer escaping into a novel in a tranquil setting right before bedtime.",
-          "vi": "Tôi rất hào hứng khi nói về điều này! Khi tôi ở trong những góc ấm cúng, tôi luôn cảm thấy được trẻ hóa tinh thần, điều này cho phép tôi thực sự thư giãn đúng cách. Tôi thường thích đắm chìm vào một cuốn tiểu thuyết trong một bối cảnh yên tĩnh ngay trước khi đi ngủ. Đó là điểm yêu thích của tôi ở nhà để thưởng thức những cuốn sách hay và uống một tách cà phê ngọt ấm. Tôi thực sự hy vọng điều này trả lời hoàn hảo câu hỏi của bạn hôm nay."
+          "en": "Personally, I prefer reading early in the morning, especially on my comfortable sofa. Given that the atmosphere is tranquil, I can easily fully immerse myself in the story. Furthermore, this dedicated reading time enables me to enhance my creativity significantly.",
+          "vi": "Cá nhân tôi thích đọc sách vào sáng sớm, đặc biệt là trên chiếc ghế sofa thoải mái của tôi. Xét thấy bầu không khí tĩnh lặng, tôi có thể dễ dàng hoàn toàn đắm chìm vào câu chuyện. Hơn nữa, thời gian đọc sách chuyên tâm này cho phép tôi nâng cao sự sáng tạo của tôi một cách đáng kể."
         }
       ]
     },
@@ -493,23 +478,23 @@ export const part3Data = {
       "question": "Hi! I would like to give my friend a book. What would you suggest for me to buy?",
       "vi": "Chào bạn! Tôi muốn tặng bạn tôi một cuốn sách. Bạn gợi ý tôi nên mua gì?",
       "vocab": [
-        "✨ [genres]: <strong>fiction</strong> (hư cấu), <strong>comic</strong> (truyện tranh), <strong>compelling biographies</strong> (tiểu sử hấp dẫn), <strong>thought-provoking non-fiction</strong> (phi hư cấu gợi suy nghĩ), <strong>gripping thrillers</strong> (truyện giật gân cuốn hút)",
-        "✨ [benefits]: <strong>fun</strong> (vui), <strong>nice</strong> (hay), <strong>intellectually enriching</strong> (làm phong phú trí tuệ), <strong>profoundly inspiring</strong> (truyền cảm hứng sâu sắc), <strong>incredibly captivating</strong> (vô cùng lôi cuốn)",
-        "✨ [reactions]: <strong>read</strong> (đọc), <strong>smile</strong> (cười), <strong>broaden perspectives</strong> (mở rộng góc nhìn), <strong>cultivate empathy</strong> (nuôi dưỡng sự đồng cảm), <strong>expand knowledge</strong> (mở rộng kiến thức)",
-        "✨ [thể loại]: <strong>category</strong> (thể loại), <strong>fiction</strong> (hư cấu), <strong>literature</strong> (văn học), <strong>biography</strong> (tiểu sử), <strong>novel</strong> (tiểu thuyết)"
+        "✨ [thể loại]: <strong>a gripping mystery novel</strong> (một cuốn tiểu thuyết trinh thám hấp dẫn), <strong>an inspiring autobiography</strong> (một cuốn tự truyện truyền cảm hứng), <strong>a fascinating science fiction book</strong> (một cuốn sách khoa học viễn tưởng thú vị), <strong>a practical self-help guide</strong> (một cuốn cẩm nang tự lực thực tế), <strong>a beautiful poetry collection</strong> (một tập thơ tuyệt đẹp)",
+        "✨ [lý do]: <strong>captivates readers instantly</strong> (thu hút người đọc ngay lập tức), <strong>offers profound life lessons</strong> (cung cấp những bài học cuộc sống sâu sắc), <strong>stimulates vivid imagination</strong> (kích thích trí tưởng tượng phong phú), <strong>provides actionable advice</strong> (cung cấp lời khuyên có thể thực hiện được), <strong>soothes the soul</strong> (xoa dịu tâm hồn)",
+        "✨ [tác động]: <strong>leave a lasting impression</strong> (để lại ấn tượng sâu sắc), <strong>transform their perspective</strong> (thay đổi quan điểm của họ), <strong>keep them eagerly turning pages</strong> (khiến họ háo hức lật từng trang), <strong>motivate them daily</strong> (thúc đẩy họ mỗi ngày), <strong>bring them immense joy</strong> (mang lại cho họ niềm vui to lớn)",
+        "✨ [lời khuyên thêm]: <strong>write a heartfelt dedication inside</strong> (viết một lời đề tặng chân thành bên trong), <strong>wrap it in elegant paper</strong> (gói nó trong giấy thanh lịch), <strong>pair it with a nice bookmark</strong> (tặng kèm nó với một chiếc kẹp sách đẹp), <strong>consider their personal hobbies first</strong> (cân nhắc sở thích cá nhân của họ trước tiên), <strong>buy a special hardcover edition</strong> (mua một phiên bản bìa cứng đặc biệt)"
       ],
       "templates": [
-        "I highly recommend [genres] because it is [benefits] and can help them [reactions] effectively. Since everyone has different tastes, you should carefully consider your friend's favorite [thể loại] before purchasing.",
-        "You should definitely buy [genres] as it is [benefits] and allows readers to [reactions] easily. Since everyone has different tastes, you should carefully consider your friend's favorite [thể loại] before purchasing."
+        "I highly recommend purchasing [thể loại] for your friend. Such a book [lý do], which will undoubtedly [tác động]. To make the present even more memorable, you should [lời khuyên thêm].",
+        "If I were you, I would choose [thể loại]. This specific genre [lý do] and can effectively [tác động]. Additionally, I suggest you [lời khuyên thêm] to show your thoughtfulness."
       ],
       "samples": [
         {
-          "en": "I highly recommend compelling biographies because it is profoundly inspiring and can help them broaden perspectives effectively. Since everyone has different tastes, you should carefully consider your friend's favorite category before purchasing.",
-          "vi": "Đây chắc chắn là điều tôi thích nói đến. Vì mỗi người có sở thích khác nhau, bạn nên cẩn thận xem xét thể loại yêu thích của bạn mình trước khi mua. Tôi đánh giá cao những tiểu sử hấp dẫn vì nó truyền cảm hứng sâu sắc và có thể giúp họ mở rộng góc nhìn một cách hiệu quả. Bạn của bạn chắc chắn sẽ mỉm cười và vui vẻ khi đọc về những người nổi tiếng và câu chuyện cuộc sống tuyệt vời của họ mỗi ngày. Tôi thực sự hy vọng điều này trả lời hoàn hảo câu hỏi của bạn hôm nay."
+          "en": "I highly recommend purchasing a gripping mystery novel for your friend. Such a book captivates readers instantly, which will undoubtedly leave a lasting impression. To make the present even more memorable, you should write a heartfelt dedication inside.",
+          "vi": "Tôi đánh giá cao việc mua một cuốn tiểu thuyết trinh thám hấp dẫn cho bạn của bạn. Một cuốn sách như vậy thu hút người đọc ngay lập tức, điều này chắc chắn sẽ để lại ấn tượng sâu sắc. Để làm cho món quà thậm chí còn đáng nhớ hơn, bạn nên viết một lời đề tặng chân thành bên trong."
         },
         {
-          "en": "You should definitely buy thought-provoking non-fiction as it is intellectually enriching and allows readers to cultivate empathy easily. Since everyone has different tastes, you should carefully consider your friend's favorite fiction before purchasing.",
-          "vi": "Tôi rất hào hứng khi nói về điều này! Bạn chắc chắn nên mua sách phi hư cấu gợi suy nghĩ vì nó làm phong phú trí tuệ và cho phép người đọc nuôi dưỡng sự đồng cảm một cách dễ dàng. Vì mỗi người có sở thích khác nhau, bạn nên cẩn thận xem xét hư cấu yêu thích của bạn mình trước khi mua. Đó là một lựa chọn hay để giúp bất kỳ ai học các kỹ năng mới hữu ích và mở rộng kiến thức cơ bản của họ một cách nhanh chóng. Tôi thực sự hy vọng điều này trả lời hoàn hảo câu hỏi của bạn hôm nay."
+          "en": "If I were you, I would choose an inspiring autobiography. This specific genre offers profound life lessons and can effectively transform their perspective. Additionally, I suggest you wrap it in elegant paper to show your thoughtfulness.",
+          "vi": "Nếu tôi là bạn, tôi sẽ chọn một cuốn tự truyện truyền cảm hứng. Thể loại cụ thể này cung cấp những bài học cuộc sống sâu sắc và có thể thay đổi quan điểm của họ một cách hiệu quả. Ngoài ra, tôi khuyên bạn nên gói nó trong giấy thanh lịch để thể hiện sự chu đáo của bạn."
         }
       ]
     },
@@ -518,23 +503,23 @@ export const part3Data = {
       "question": "Online books replace traditional books? What do you think about that?",
       "vi": "Sách trực tuyến thay thế sách truyền thống? Bạn nghĩ gì về điều đó?",
       "vocab": [
-        "✨ [formats]: <strong>apps</strong> (ứng dụng), <strong>screens</strong> (màn hình), <strong>digital counterparts</strong> (phiên bản kỹ thuật số), <strong>electronic publications</strong> (ấn bản điện tử), <strong>virtual libraries</strong> (thư viện ảo)",
-        "✨ [advantages]: <strong>fast</strong> (nhanh), <strong>cheap</strong> (rẻ), <strong>unprecedentedly convenient</strong> (tiện lợi chưa từng có), <strong>remarkably accessible</strong> (dễ tiếp cận đáng kinh ngạc), <strong>highly portable</strong> (tính di động cao)",
-        "✨ [impacts]: <strong>help</strong> (giúp), <strong>save</strong> (tiết kiệm), <strong>revolutionize consumption</strong> (cách mạng hóa việc tiêu thụ), <strong>mitigate deforestation</strong> (giảm thiểu phá rừng), <strong>maximize efficiency</strong> (tối đa hóa hiệu quả)",
-        "✨ [tiện ích]: <strong>convenience</strong> (sự thuận tiện), <strong>accessibility</strong> (khả năng tiếp cận), <strong>feature</strong> (tính năng), <strong>advantage</strong> (lợi thế), <strong>functionality</strong> (chức năng)"
+        "✨ [ưu điểm sách mạng]: <strong>offer unparalleled convenience</strong> (mang lại sự tiện lợi vô song), <strong>save physical storage space</strong> (tiết kiệm không gian lưu trữ vật lý), <strong>provide instant access to vast libraries</strong> (cung cấp quyền truy cập tức thì vào các thư viện khổng lồ), <strong>are incredibly eco-friendly</strong> (vô cùng thân thiện với môi trường), <strong>feature adjustable text sizes</strong> (có tính năng điều chỉnh kích thước văn bản)",
+        "✨ [giá trị sách giấy]: <strong>the unique tactile experience</strong> (trải nghiệm xúc giác độc đáo), <strong>the nostalgic smell of paper</strong> (mùi giấy hoài niệm), <strong>the joy of collecting beautiful covers</strong> (niềm vui sưu tầm những bìa sách đẹp), <strong>the absence of screen glare</strong> (sự vắng mặt của ánh sáng chói từ màn hình), <strong>the emotional connection to physical copies</strong> (sự kết nối cảm xúc với các bản in vật lý)",
+        "✨ [nhận định tương lai]: <strong>coexist peacefully</strong> (cùng tồn tại hòa bình), <strong>complement each other perfectly</strong> (bổ sung cho nhau một cách hoàn hảo), <strong>serve different reading contexts</strong> (phục vụ các bối cảnh đọc khác nhau), <strong>thrive side by side</strong> (cùng nhau phát triển), <strong>remain valuable in their own ways</strong> (vẫn có giá trị theo những cách riêng của chúng)",
+        "✨ [kết luận]: <strong>a matter of personal choice</strong> (một vấn đề lựa chọn cá nhân), <strong>a diverse reading landscape</strong> (một bối cảnh đọc đa dạng), <strong>the ultimate victory for readers</strong> (chiến thắng cuối cùng dành cho độc giả), <strong>a balance between tradition and innovation</strong> (một sự cân bằng giữa truyền thống và sự đổi mới), <strong>an evolution of literacy</strong> (một sự tiến hóa của việc đọc viết)"
       ],
       "templates": [
-        "I believe that [formats] are [advantages] and will certainly [impacts] in the near future. While printed editions have their charm, the modern [tiện ích] of digital reading is undeniable.",
-        "Because [formats] remain [advantages], they can successfully [impacts] for readers across the whole world. While printed editions have their charm, the modern [tiện ích] of digital reading is undeniable."
+        "While digital reading devices [ưu điểm sách mạng], they cannot completely replicate [giá trị sách giấy]. Therefore, I firmly believe both formats will [nhận định tương lai]. Ultimately, this situation represents [kết luận].",
+        "Although e-books [ưu điểm sách mạng], traditional volumes retain their charm through [giá trị sách giấy]. Consequently, these two mediums are bound to [nhận định tương lai], which creates [kết luận] for everyone."
       ],
       "samples": [
         {
-          "en": "I believe that digital counterparts are unprecedentedly convenient and will certainly revolutionize consumption in the near future. While printed editions have their charm, the modern convenience of digital reading is undeniable.",
-          "vi": "Đây chắc chắn là điều tôi thích nói đến. Mặc dù các bản in có sức hấp dẫn riêng, nhưng sự thuận tiện hiện đại của việc đọc kỹ thuật số là không thể phủ nhận. Tôi tin rằng các phiên bản kỹ thuật số mang lại sự tiện lợi chưa từng có và chắc chắn sẽ cách mạng hóa việc tiêu thụ trong tương lai gần. Mọi người có thể dễ dàng đọc nhanh trên màn hình nhỏ của họ và tiết kiệm rất nhiều tiền thay vì mua các bản sao vật lý. Tôi thực sự hy vọng điều này trả lời hoàn hảo câu hỏi của bạn hôm nay."
+          "en": "While digital reading devices offer unparalleled convenience, they cannot completely replicate the unique tactile experience. Therefore, I firmly believe both formats will coexist peacefully. Ultimately, this situation represents a matter of personal choice.",
+          "vi": "Mặc dù các thiết bị đọc kỹ thuật số mang lại sự tiện lợi vô song, chúng không thể sao chép hoàn toàn trải nghiệm xúc giác độc đáo. Do đó, tôi vững tin rằng cả hai định dạng sẽ cùng tồn tại hòa bình. Cuối cùng, tình huống này đại diện cho một vấn đề lựa chọn cá nhân."
         },
         {
-          "en": "Because electronic publications remain remarkably accessible, they can successfully mitigate deforestation for readers across the whole world. While printed editions have their charm, the modern accessibility of digital reading is undeniable.",
-          "vi": "Đây chắc chắn là điều tôi thích nói đến. Mặc dù các bản in có sức hấp dẫn riêng, nhưng khả năng tiếp cận hiện đại của việc đọc kỹ thuật số là không thể phủ nhận. Bởi vì các ấn bản điện tử vẫn cực kỳ dễ tiếp cận, chúng có thể giảm thiểu nạn phá rừng thành công cho độc giả trên toàn thế giới. Bất kỳ ai cũng có thể sử dụng các ứng dụng hiện đại để tải xuống những cuốn sách rẻ tiền, điều này giúp bảo vệ môi trường tự nhiên tươi đẹp của chúng ta và cứu những cây cổ thụ. Tôi thực sự hy vọng điều này trả lời hoàn hảo câu hỏi của bạn hôm nay."
+          "en": "Although e-books save physical storage space, traditional volumes retain their charm through the nostalgic smell of paper. Consequently, these two mediums are bound to complement each other perfectly, which creates a diverse reading landscape for everyone.",
+          "vi": "Mặc dù sách điện tử tiết kiệm không gian lưu trữ vật lý, những cuốn sách truyền thống vẫn giữ được sức hấp dẫn của chúng thông qua mùi giấy hoài niệm. Hậu quả là, hai phương tiện này chắc chắn sẽ bổ sung cho nhau một cách hoàn hảo, điều này tạo ra một bối cảnh đọc đa dạng cho tất cả mọi người."
         }
       ]
     }
@@ -545,23 +530,23 @@ export const part3Data = {
       "question": "Hi! Welcome to the club. How did you hear about the club?",
       "vi": "Chào bạn! Chào mừng đến với câu lạc bộ. Bạn đã biết về câu lạc bộ như thế nào?",
       "vocab": [
-        "✨ [information sources]: <strong>friends</strong> (bạn bè), <strong>posters</strong> (áp phích), <strong>advertisements</strong> (quảng cáo), <strong>recommendations</strong> (lời giới thiệu), <strong>publications</strong> (ấn phẩm)",
-        "✨ [feelings/reactions]: <strong>glad</strong> (vui mừng), <strong>eager</strong> (háo hức), <strong>intrigued</strong> (tò mò), <strong>fascinated</strong> (bị lôi cuốn), <strong>enthusiastic</strong> (hào hứng)",
-        "✨ [actions/verbs]: <strong>join</strong> (tham gia), <strong>start</strong> (bắt đầu), <strong>participate</strong> (tham gia), <strong>enroll</strong> (ghi danh), <strong>register</strong> (đăng ký)",
-        "✨ [nguồn thông tin]: <strong>reference</strong> (sự tham khảo), <strong>publication</strong> (ấn phẩm), <strong>newsletter</strong> (bản tin), <strong>advertisement</strong> (quảng cáo), <strong>contact</strong> (người liên hệ)"
+        "✨ [nguồn thông tin]: <strong>a targeted social media advertisement</strong> (một quảng cáo nhắm mục tiêu trên mạng xã hội), <strong>a recommendation from a close friend</strong> (một lời giới thiệu từ một người bạn thân), <strong>a colorful flyer at the local clinic</strong> (một tờ rơi đầy màu sắc tại phòng khám địa phương), <strong>an informative community newsletter</strong> (một bản tin cộng đồng đầy thông tin), <strong>an engaging online forum</strong> (một diễn đàn trực tuyến hấp dẫn)",
+        "✨ [lý do thu hút]: <strong>the impressive range of activities</strong> (hàng loạt các hoạt động ấn tượng), <strong>the highly qualified instructors</strong> (những người hướng dẫn có trình độ cao), <strong>the overwhelmingly positive reviews</strong> (những đánh giá vô cùng tích cực), <strong>the welcoming community atmosphere</strong> (bầu không khí cộng đồng chào đón), <strong>the flexible membership options</strong> (các lựa chọn thành viên linh hoạt)",
+        "✨ [hành động lập tức]: <strong>browsed your official website</strong> (đã duyệt trang web chính thức của bạn), <strong>contacted the support team</strong> (đã liên hệ với đội ngũ hỗ trợ), <strong>registered without hesitation</strong> (đã đăng ký mà không hề do dự), <strong>visited the facility in person</strong> (đã đến thăm cơ sở trực tiếp), <strong>read through the activity schedule</strong> (đã đọc qua lịch trình hoạt động)",
+        "✨ [kỳ vọng]: <strong>improve my overall well-being</strong> (cải thiện sức khỏe tổng thể của tôi), <strong>meet like-minded individuals</strong> (gặp gỡ những cá nhân có cùng chí hướng), <strong>learn effective nutritional plans</strong> (học các kế hoạch dinh dưỡng hiệu quả), <strong>build lasting healthy habits</strong> (xây dựng những thói quen lành mạnh lâu dài), <strong>stay consistently active</strong> (duy trì hoạt động một cách kiên định)"
       ],
       "templates": [
-        "I would like to share my thoughts on this topic. I stumbled upon a recommendation from a reliable [nguồn thông tin] while browsing health forums. I actually heard about this club through [information sources] when I was looking for new activities. I truly hope this helps everyone in our club today.",
-        "I immediately decided to [actions/verbs] as soon as I saw the information. I stumbled upon a recommendation from a reliable [nguồn thông tin] while browsing health forums. I truly hope this greatly helps everyone in our club right now."
+        "I initially discovered this community through [nguồn thông tin]. What completely captured my attention was [lý do thu hút]. Consequently, I [hành động lập tức] because I truly want to [kỳ vọng].",
+        "Actually, I came across the group via [nguồn thông tin]. I was immediately drawn to [lý do thu hút]. Therefore, I [hành động lập tức] with the strong hope to [kỳ vọng]."
       ],
       "samples": [
         {
-          "en": "I would like to share my thoughts on this topic. I stumbled upon a recommendation from a reliable reference while browsing health forums. I actually heard about this club through advertisements when I was looking for new activities. I truly hope this helps everyone in our club today.",
-          "vi": "Tôi luôn muốn chia sẻ suy nghĩ của mình về điều này! Tôi thực sự đã biết về câu lạc bộ này qua quảng cáo khi tôi đang tìm kiếm các hoạt động mới. Tôi tình cờ thấy một đề xuất từ một sự tham khảo đáng tin cậy trong khi duyệt các diễn đàn sức khỏe. Tôi ngay lập tức quyết định đăng ký ngay khi thấy thông tin. Tôi cảm thấy hoàn toàn hào hứng khi tham gia vì sức khỏe là ưu tiên hàng đầu của tôi. Tôi thực sự hy vọng điều này giúp ích cho mọi người trong câu lạc bộ thân thiện của chúng ta."
+          "en": "I initially discovered this community through a targeted social media advertisement. What completely captured my attention was the impressive range of activities. Consequently, I browsed your official website because I truly want to improve my overall well-being.",
+          "vi": "Ban đầu tôi phát hiện ra cộng đồng này thông qua một quảng cáo nhắm mục tiêu trên mạng xã hội. Điều hoàn toàn thu hút sự chú ý của tôi là hàng loạt các hoạt động ấn tượng. Hậu quả là, tôi đã duyệt trang web chính thức của bạn bởi vì tôi thực sự muốn cải thiện sức khỏe tổng thể của tôi."
         },
         {
-          "en": "I immediately decided to join as soon as I saw the information. I stumbled upon a recommendation from a reliable publication while browsing health forums. I truly hope this greatly helps everyone in our club right now.",
-          "vi": "Ồ, tôi luôn muốn chia sẻ suy nghĩ của mình về điều này! Tôi thực sự đã biết về câu lạc bộ này qua những lời giới thiệu khi tôi đang tìm kiếm các hoạt động mới. Tôi tình cờ thấy một đề xuất từ một ấn phẩm đáng tin cậy trong khi duyệt các diễn đàn sức khỏe. Tôi ngay lập tức quyết định ghi danh ngay khi thấy thông tin. Tôi cảm thấy hoàn toàn tò mò khi tham gia vì sức khỏe là ưu tiên hàng đầu của tôi. Tôi thực sự hy vọng điều này giúp ích nhiều cho mọi người trong câu lạc bộ thân thiện của chúng ta hôm nay."
+          "en": "Actually, I came across the group via a recommendation from a close friend. I was immediately drawn to the highly qualified instructors. Therefore, I contacted the support team with the strong hope to meet like-minded individuals.",
+          "vi": "Thực ra, tôi tình cờ biết đến nhóm qua một lời giới thiệu từ một người bạn thân. Tôi ngay lập tức bị lôi cuốn bởi những người hướng dẫn có trình độ cao. Do đó, tôi đã liên hệ với đội ngũ hỗ trợ với niềm hy vọng mãnh liệt sẽ gặp gỡ những cá nhân có cùng chí hướng."
         }
       ]
     },
@@ -570,23 +555,23 @@ export const part3Data = {
       "question": "Hi! What do you hope to achieve by joining the club?",
       "vi": "Chào bạn! Bạn hy vọng đạt được điều gì khi tham gia câu lạc bộ?",
       "vocab": [
-        "✨ [goals]: <strong>health</strong> (sức khỏe), <strong>fitness</strong> (thể lực), <strong>endurance</strong> (sức bền), <strong>vitality</strong> (sinh khí), <strong>well-being</strong> (sự an khang)",
-        "✨ [benefits]: <strong>tips</strong> (mẹo), <strong>plans</strong> (kế hoạch), <strong>guidance</strong> (sự hướng dẫn), <strong>motivation</strong> (động lực), <strong>inspiration</strong> (nguồn cảm hứng)",
-        "✨ [adjectives]: <strong>fit</strong> (cân đối), <strong>strong</strong> (khỏe mạnh), <strong>energetic</strong> (tràn đầy năng lượng), <strong>resilient</strong> (kiên cường), <strong>invigorated</strong> (tiếp thêm sinh lực)",
-        "✨ [mục tiêu]: <strong>objective</strong> (mục tiêu), <strong>target</strong> (đích), <strong>ambition</strong> (tham vọng), <strong>benchmark</strong> (điểm chuẩn), <strong>resolution</strong> (nghị quyết)"
+        "✨ [mục tiêu chính]: <strong>boost my physical stamina</strong> (tăng cường thể lực của tôi), <strong>adopt a balanced diet</strong> (áp dụng một chế độ ăn uống cân bằng), <strong>reduce daily mental stress</strong> (giảm bớt căng thẳng tinh thần hàng ngày), <strong>fix my sleep schedule</strong> (chỉnh đốn lịch trình giấc ngủ của tôi), <strong>strengthen my core muscles</strong> (tăng cường cơ bắp cốt lõi của tôi)",
+        "✨ [phương pháp]: <strong>participating in group workouts</strong> (tham gia vào các buổi tập luyện nhóm), <strong>attending nutritional workshops</strong> (tham dự các hội thảo dinh dưỡng), <strong>consulting with fitness experts</strong> (tham khảo ý kiến của các chuyên gia thể hình), <strong>sharing experiences with peers</strong> (chia sẻ kinh nghiệm với các bạn đồng trang lứa), <strong>following personalized training routines</strong> (tuân theo các thói quen tập luyện được cá nhân hóa)",
+        "✨ [tác động dài hạn]: <strong>lead a much healthier lifestyle</strong> (có một lối sống lành mạnh hơn nhiều), <strong>prevent chronic diseases effectively</strong> (ngăn ngừa các bệnh mãn tính một cách hiệu quả), <strong>maintain high energy levels</strong> (duy trì mức năng lượng cao), <strong>transform my body completely</strong> (biến đổi cơ thể tôi một cách hoàn toàn), <strong>cultivate a positive mindset</strong> (trau dồi một tư duy tích cực)",
+        "✨ [đóng góp]: <strong>inspire other members</strong> (truyền cảm hứng cho các thành viên khác), <strong>organize community fitness events</strong> (tổ chức các sự kiện thể hình cộng đồng), <strong>share my personal progress</strong> (chia sẻ tiến trình cá nhân của tôi), <strong>support newcomers warmly</strong> (hỗ trợ những người mới đến một cách nồng nhiệt), <strong>contribute to team challenges</strong> (đóng góp vào các thử thách nhóm)"
       ],
       "templates": [
-        "I would like to share my thoughts on this topic. My primary intention is to establish a realistic [mục tiêu] for improving my cardiovascular fitness. My primary goal is to improve my overall [goals] over the next few months. I truly hope this helps everyone in our club right now.",
-        "I also hope to find some excellent [benefits] from other experienced members here. My primary intention is to establish a realistic [mục tiêu] for improving my cardiovascular fitness. I truly hope this helps everyone in our club right now."
+        "My primary objective is to [mục tiêu chính] by actively [phương pháp]. I firmly believe this will help me [tác động dài hạn]. Furthermore, I am extremely eager to [đóng góp] over time.",
+        "By participating, I strongly desire to [mục tiêu chính] through [phương pháp]. Such an approach will guarantee that I [tác động dài hạn]. In return, I am fully prepared to [đóng góp]."
       ],
       "samples": [
         {
-          "en": "I would like to share my thoughts on this topic. My primary intention is to establish a realistic objective for improving my cardiovascular fitness. My primary goal is to improve my overall well-being over the next few months. I truly hope this helps everyone in our club right now.",
-          "vi": "Tôi luôn muốn chia sẻ suy nghĩ của mình về điều này! Mục tiêu chính của tôi là cải thiện sự an khang tổng thể của mình trong vài tháng tới. Ý định chính của tôi là thiết lập một mục tiêu thực tế để cải thiện sức khỏe tim mạch của mình. Tôi cũng hy vọng tìm thấy một số động lực tuyệt vời từ những thành viên giàu kinh nghiệm khác ở đây. Cuối cùng, tôi thực sự muốn trở nên hoàn toàn tràn đầy năng lượng trong cuộc sống hàng ngày. Tôi thực sự hy vọng điều này giúp ích cho mọi người trong câu lạc bộ thân thiện của chúng ta hôm nay."
+          "en": "My primary objective is to boost my physical stamina by actively participating in group workouts. I firmly believe this will help me lead a much healthier lifestyle. Furthermore, I am extremely eager to inspire other members over time.",
+          "vi": "Mục tiêu chính của tôi là tăng cường thể lực của tôi bằng cách tích cực tham gia vào các buổi tập luyện nhóm. Tôi vững tin điều này sẽ giúp tôi có một lối sống lành mạnh hơn nhiều. Hơn nữa, tôi vô cùng háo hức được truyền cảm hứng cho các thành viên khác theo thời gian."
         },
         {
-          "en": "I also hope to find some excellent guidance from other experienced members here. My primary intention is to establish a realistic target for improving my cardiovascular fitness. I truly hope this helps everyone in our club right now.",
-          "vi": "Ồ, tôi luôn muốn chia sẻ suy nghĩ của mình về điều này! Mục tiêu chính của tôi là cải thiện sức bền tổng thể của mình trong vài tháng tới. Ý định chính của tôi là thiết lập một đích thực tế để cải thiện sức khỏe tim mạch của mình. Tôi cũng hy vọng tìm thấy một số sự hướng dẫn tuyệt vời từ những thành viên giàu kinh nghiệm khác ở đây. Cuối cùng, tôi thực sự muốn trở nên hoàn toàn kiên cường trong cuộc sống hàng ngày. Tôi thực sự hy vọng điều này giúp ích cho mọi người trong câu lạc bộ thân thiện của chúng ta hôm nay."
+          "en": "By participating, I strongly desire to adopt a balanced diet through attending nutritional workshops. Such an approach will guarantee that I prevent chronic diseases effectively. In return, I am fully prepared to organize community fitness events.",
+          "vi": "Bằng cách tham gia, tôi khao khát mãnh liệt được áp dụng một chế độ ăn uống cân bằng thông qua tham dự các hội thảo dinh dưỡng. Một cách tiếp cận như vậy sẽ đảm bảo rằng tôi ngăn ngừa các bệnh mãn tính một cách hiệu quả. Đổi lại, tôi hoàn toàn sẵn sàng để tổ chức các sự kiện thể hình cộng đồng."
         }
       ]
     },
@@ -595,23 +580,23 @@ export const part3Data = {
       "question": "A manager of Fitness club has an announcement for club’s members.",
       "vi": "Một người quản lý của câu lạc bộ Thể hình có một thông báo dành cho các thành viên của câu lạc bộ.",
       "vocab": [
-        "✨ [reactions]: <strong>sad</strong> (buồn), <strong>shocked</strong> (sốc), <strong>disappointed</strong> (thất vọng), <strong>frustrated</strong> (bực bội), <strong>devastated</strong> (suy sụp)",
-        "✨ [alternative actions]: <strong>ask</strong> (hỏi), <strong>talk</strong> (nói chuyện), <strong>complain</strong> (phàn nàn), <strong>protest</strong> (phản đối), <strong>negotiate</strong> (thương lượng)",
-        "✨ [people/groups]: <strong>team</strong> (đội), <strong>group</strong> (nhóm), <strong>committee</strong> (ủy ban), <strong>management</strong> (ban quản lý), <strong>directors</strong> (ban giám đốc)",
-        "✨ [chính sách]: <strong>regulation</strong> (quy định), <strong>guideline</strong> (hướng dẫn), <strong>protocol</strong> (giao thức), <strong>procedure</strong> (thủ tục), <strong>rule</strong> (quy tắc)"
+        "✨ [tin tức]: <strong>an upcoming facility renovation</strong> (một đợt cải tạo cơ sở sắp tới), <strong>a brand new training program</strong> (một chương trình đào tạo hoàn toàn mới), <strong>an unexpected increase in membership fees</strong> (một sự gia tăng phí thành viên không mong đợi), <strong>a special wellness workshop</strong> (một hội thảo chăm sóc sức khỏe đặc biệt), <strong>a temporary closure for maintenance</strong> (một đợt đóng cửa tạm thời để bảo trì)",
+        "✨ [phản ứng]: <strong>surprisingly delighted</strong> (vui mừng một cách đáng ngạc nhiên), <strong>slightly disappointed but understanding</strong> (hơi thất vọng nhưng thấu hiểu), <strong>incredibly enthusiastic</strong> (vô cùng nhiệt tình), <strong>quite concerned at first</strong> (khá lo lắng lúc đầu), <strong>genuinely appreciative</strong> (thực sự trân trọng)",
+        "✨ [lý do phản ứng]: <strong>it upgrades our overall experience</strong> (nó nâng cấp trải nghiệm tổng thể của chúng tôi), <strong>it might disrupt my routine</strong> (nó có thể làm gián đoạn thói quen của tôi), <strong>it introduces innovative workout methods</strong> (nó giới thiệu những phương pháp tập luyện sáng tạo), <strong>it poses a financial burden</strong> (nó đặt ra một gánh nặng tài chính), <strong>it demonstrates professional management</strong> (nó thể hiện sự quản lý chuyên nghiệp)",
+        "✨ [đề xuất]: <strong>provide an alternative schedule</strong> (cung cấp một lịch trình thay thế), <strong>host a detailed Q&A session</strong> (tổ chức một phiên hỏi đáp chi tiết), <strong>offer a slight discount</strong> (cung cấp một khoản giảm giá nhẹ), <strong>gather collective feedback</strong> (thu thập phản hồi tập thể), <strong>send regular email updates</strong> (gửi các cập nhật email thường xuyên)"
       ],
       "templates": [
-        "I was honestly quite [reactions] when I heard the sudden announcement today. The management is going to implement a strict [chính sách] to ensure safety for everyone. I truly hope this greatly helps everyone in our club right now.",
-        "Oh wow, I would like to share my thoughts on this topic. The management is going to implement a strict [chính sách] to ensure safety for everyone. Perhaps we should immediately [alternative actions] to see if they can reconsider. I truly hope this greatly helps everyone in our club right now."
+        "Regarding the announcement about [tin tức], I feel [phản ứng]. The main reason is that [lý do phản ứng]. To ensure everyone is satisfied, the management should definitely [đề xuất].",
+        "Hearing the news concerning [tin tức], my initial reaction was [phản ứng] because [lý do phản ứng]. Moving forward, I highly recommend that the board [đề xuất] to maintain harmony."
       ],
       "samples": [
         {
-          "en": "I was honestly quite devastated when I heard the sudden announcement today. The management is going to implement a strict regulation to ensure safety for everyone. I truly hope this greatly helps everyone in our club right now.",
-          "vi": "Ồ, tôi luôn muốn chia sẻ suy nghĩ của mình về điều này! Tôi thực sự khá suy sụp khi nghe thông báo đột ngột hôm nay. Ban quản lý sẽ thực hiện một quy định nghiêm ngặt để đảm bảo an toàn cho mọi người. Có lẽ chúng ta nên phản đối ngay lập tức để xem họ có thể xem xét lại hay không. Tôi tin rằng ban quản lý phải sớm cung cấp cho chúng ta một lời giải thích rõ ràng hơn. Tôi thực sự hy vọng điều này giúp ích nhiều cho mọi người trong câu lạc bộ thân thiện của chúng ta hôm nay."
+          "en": "Regarding the announcement about an upcoming facility renovation, I feel surprisingly delighted. The main reason is that it upgrades our overall experience. To ensure everyone is satisfied, the management should definitely provide an alternative schedule.",
+          "vi": "Về thông báo về một đợt cải tạo cơ sở sắp tới, tôi cảm thấy vui mừng một cách đáng ngạc nhiên. Lý do chính là nó nâng cấp trải nghiệm tổng thể của chúng tôi. Để đảm bảo mọi người đều hài lòng, ban quản lý chắc chắn nên cung cấp một lịch trình thay thế."
         },
         {
-          "en": "Oh wow, I would like to share my thoughts on this topic. The management is going to implement a strict guideline to ensure safety for everyone. Perhaps we should immediately complain to see if they can reconsider. I truly hope this greatly helps everyone in our club right now.",
-          "vi": "Tôi luôn muốn chia sẻ suy nghĩ của mình về điều này! Tôi thực sự khá bực bội khi nghe thông báo đột ngột hôm nay. Ban quản lý sẽ thực hiện một hướng dẫn nghiêm ngặt để đảm bảo an toàn cho mọi người. Có lẽ chúng ta nên phàn nàn ngay lập tức để xem họ có thể xem xét lại hay không. Tôi tin rằng ban giám đốc phải sớm cung cấp cho chúng ta một lời giải thích rõ ràng hơn. Tôi thực sự hy vọng điều này giúp ích nhiều cho mọi người trong câu lạc bộ thân thiện của chúng ta hôm nay."
+          "en": "Hearing the news concerning a brand new training program, my initial reaction was slightly disappointed but understanding because it might disrupt my routine. Moving forward, I highly recommend that the board host a detailed Q&A session to maintain harmony.",
+          "vi": "Khi nghe tin tức liên quan đến một chương trình đào tạo hoàn toàn mới, phản ứng ban đầu của tôi là hơi thất vọng nhưng thấu hiểu bởi vì nó có thể làm gián đoạn thói quen của tôi. Tiến về phía trước, tôi đặc biệt khuyên ban giám đốc nên tổ chức một phiên hỏi đáp chi tiết để duy trì sự hòa hợp."
         }
       ]
     }
@@ -622,23 +607,23 @@ export const part3Data = {
       "question": "Do you often watch movies on your laptop or go to the theater?",
       "vi": "Bạn có thường xem phim trên máy tính xách tay hay đến rạp chiếu phim không?",
       "vocab": [
-        "✨ [frequency]: <strong>often</strong> (thường xuyên), <strong>sometimes</strong> (thỉnh thoảng), <strong>frequently</strong> (thường xuyên), <strong>periodically</strong> (định kỳ), <strong>occasionally</strong> (thỉnh thoảng)",
-        "✨ [device preferences]: <strong>laptop</strong> (máy tính xách tay), <strong>phone</strong> (điện thoại), <strong>widescreen monitor</strong> (màn hình rộng), <strong>portable device</strong> (thiết bị di động), <strong>home theater system</strong> (hệ thống rạp hát tại nhà)",
-        "✨ [theater benefits]: <strong>big screen</strong> (màn hình lớn), <strong>good sound</strong> (âm thanh hay), <strong>cinematic experience</strong> (trải nghiệm điện ảnh), <strong>immersive atmosphere</strong> (không khí chìm đắm), <strong>superior audiovisuals</strong> (âm thanh hình ảnh vượt trội)",
-        "✨ [thiết bị]: <strong>gadget</strong> (tiện ích), <strong>appliance</strong> (thiết bị gia dụng), <strong>instrument</strong> (dụng cụ), <strong>hardware</strong> (phần cứng), <strong>machine</strong> (máy móc)"
+        "✨ [sự lựa chọn]: <strong>stream movies on my laptop</strong> (phát trực tuyến phim trên máy tính xách tay của tôi), <strong>enjoy blockbusters at the cinema</strong> (thưởng thức bom tấn tại rạp chiếu phim), <strong>watch series on digital platforms</strong> (xem phim bộ trên các nền tảng kỹ thuật số), <strong>visit the local theater</strong> (đến rạp chiếu phim địa phương), <strong>binge-watch shows at home</strong> (cày phim tại nhà)",
+        "✨ [ưu điểm lựa chọn]: <strong>the ultimate convenience and privacy</strong> (sự tiện lợi và riêng tư tuyệt đối), <strong>the spectacular visual and sound effects</strong> (hiệu ứng hình ảnh và âm thanh ngoạn mục), <strong>the flexibility to pause anytime</strong> (sự linh hoạt để tạm dừng bất cứ lúc nào), <strong>the immersive cinematic atmosphere</strong> (bầu không khí điện ảnh đắm chìm), <strong>the cost-effective entertainment option</strong> (lựa chọn giải trí tiết kiệm chi phí)",
+        "✨ [nhược điểm tùy chọn kia]: <strong>the lack of a massive screen</strong> (sự thiếu vắng một màn hình khổng lồ), <strong>the expensive ticket prices</strong> (giá vé đắt đỏ), <strong>the occasional buffering issues</strong> (những vấn đề giật lag thi thoảng), <strong>the annoying chatty audience members</strong> (những khán giả hay nói chuyện ồn ào), <strong>the limited audio quality</strong> (chất lượng âm thanh hạn chế)",
+        "✨ [trải nghiệm]: <strong>relax entirely in my pajamas</strong> (thư giãn hoàn toàn trong bộ đồ ngủ của tôi), <strong>feel the thrilling action scenes</strong> (cảm nhận những cảnh hành động gay cấn), <strong>save significant travel time</strong> (tiết kiệm thời gian di chuyển đáng kể), <strong>share popcorn with my friends</strong> (chia sẻ bắp rang bơ với bạn bè của tôi), <strong>create a cozy personal theater</strong> (tạo ra một rạp hát cá nhân ấm cúng)"
       ],
       "templates": [
-        "Template 1: I [frequency] watch movies on my [device preferences] at home instead of going out. I tend to rely on my portable [thiết bị] because it offers flexibility for my busy schedule. I truly hope this helps everyone in our club today.",
-        "Template 2: While I [frequency] visit the cinema for its [theater benefits], my [device preferences] is more convenient. I tend to rely on my portable [thiết bị] because it offers flexibility for my busy schedule."
+        "I predominantly choose to [sự lựa chọn] because of [ưu điểm lựa chọn]. Unlike the other option, which involves [nhược điểm tùy chọn kia], this habit allows me to [trải nghiệm] after work.",
+        "Personally, I have a strong preference to [sự lựa chọn]. This provides [ưu điểm lựa chọn] while completely avoiding [nhược điểm tùy chọn kia]. Consequently, I can easily [trải nghiệm] without any hassle."
       ],
       "samples": [
         {
-          "en": "Template 1: I frequently watch movies on my laptop at home instead of going out. I tend to rely on my portable gadget because it offers flexibility for my busy schedule. I truly hope this helps everyone in our club today.",
-          "vi": "Đây chắc chắn là điều tôi thích nói đến. Tôi có xu hướng dựa vào tiện ích di động của mình vì nó mang lại sự linh hoạt cho lịch trình bận rộn của tôi. Tôi thường xuyên xem phim trên máy tính xách tay ở nhà thay vì đi chơi. Nó vô cùng tiện lợi và giúp tôi tiết kiệm một lượng lớn tiền bạc và thời gian quý báu mà nếu không tôi sẽ dành để di chuyển đến rạp chiếu phim vào mỗi dịp cuối tuần. Tôi thực sự hy vọng điều này giúp ích cho mọi người trong câu lạc bộ thân thiện của chúng ta."
+          "en": "I predominantly choose to stream movies on my laptop because of the ultimate convenience and privacy. Unlike the other option, which involves the lack of a massive screen, this habit allows me to relax entirely in my pajamas after work.",
+          "vi": "Tôi chủ yếu chọn phát trực tuyến phim trên máy tính xách tay của tôi bởi vì sự tiện lợi và riêng tư tuyệt đối. Không giống như lựa chọn kia, cái mà liên quan đến sự thiếu vắng một màn hình khổng lồ, thói quen này cho phép tôi thư giãn hoàn toàn trong bộ đồ ngủ của tôi sau giờ làm việc."
         },
         {
-          "en": "Template 2: While I occasionally visit the cinema for its cinematic experience, my portable device is more convenient. I tend to rely on my portable appliance because it offers flexibility for my busy schedule.",
-          "vi": "Tôi rất hào hứng khi nói về điều này! Mặc dù thỉnh thoảng tôi đến rạp chiếu phim vì trải nghiệm điện ảnh của nó, thiết bị di động của tôi lại tiện lợi hơn. Tôi có xu hướng dựa vào thiết bị gia dụng di động của mình vì nó mang lại sự linh hoạt cho lịch trình bận rộn của tôi. Tôi có thể thoải mái nằm trên giường, tạm dừng phim bất cứ khi nào tôi cần nghỉ ngơi và thưởng thức các chương trình yêu thích mà không bị phân tâm thực sự nào. Tôi thực sự hy vọng điều này trả lời hoàn hảo câu hỏi của bạn hôm nay."
+          "en": "Personally, I have a strong preference to enjoy blockbusters at the cinema. This provides the spectacular visual and sound effects while completely avoiding the expensive ticket prices. Consequently, I can easily feel the thrilling action scenes without any hassle.",
+          "vi": "Cá nhân tôi có sự ưu tiên mạnh mẽ đối với việc thưởng thức bom tấn tại rạp chiếu phim. Điều này cung cấp hiệu ứng hình ảnh và âm thanh ngoạn mục trong khi hoàn toàn tránh được giá vé đắt đỏ. Hậu quả là, tôi có thể dễ dàng cảm nhận những cảnh hành động gay cấn mà không gặp bất kỳ rắc rối nào."
         }
       ]
     },
@@ -647,23 +632,23 @@ export const part3Data = {
       "question": "I used to work on a laptop and it stopped and I lost all my notes. Tell me about a bad time with your computer?",
       "vi": "Tôi từng làm việc trên máy tính xách tay và nó dừng hoạt động, tôi đã mất tất cả ghi chú. Hãy kể cho tôi nghe về một lần tồi tệ với máy tính của bạn?",
       "vocab": [
-        "✨ [incident type]: <strong>crash</strong> (sập nguồn), <strong>virus</strong> (vi-rút), <strong>sudden malfunction</strong> (sự cố bất ngờ), <strong>system failure</strong> (lỗi hệ thống), <strong>hardware breakdown</strong> (hỏng phần cứng)",
-        "✨ [consequences]: <strong>problems</strong> (vấn đề), <strong>delays</strong> (sự chậm trễ), <strong>data corruption</strong> (hỏng dữ liệu), <strong>financial damage</strong> (thiệt hại tài chính), <strong>irreversible data loss</strong> (mất dữ liệu không thể phục hồi)",
-        "✨ [emotional response]: <strong>upset</strong> (buồn bực), <strong>mad</strong> (tức giận), <strong>devastated</strong> (suy sụp), <strong>frustrated</strong> (thất vọng), <strong>dismayed</strong> (hoảng hốt)",
-        "✨ [sự cố]: <strong>malfunction</strong> (sự cố), <strong>glitch</strong> (trục trặc), <strong>breakdown</strong> (sự hỏng hóc), <strong>error</strong> (lỗi), <strong>failure</strong> (sự thất bại)"
+        "✨ [sự cố]: <strong>a sudden blue screen error</strong> (một lỗi màn hình xanh đột ngột), <strong>a severe virus infection</strong> (một sự lây nhiễm virus nghiêm trọng), <strong>an unexpected hardware failure</strong> (một sự hỏng hóc phần cứng không mong đợi), <strong>a terrifying system crash</strong> (một sự cố sập hệ thống đáng sợ), <strong>a frustrating keyboard malfunction</strong> (một sự cố hỏng bàn phím gây bực bội)",
+        "✨ [tình huống]: <strong>right before a crucial deadline</strong> (ngay trước một hạn chót quan trọng), <strong>during a major online presentation</strong> (trong một buổi thuyết trình trực tuyến lớn), <strong>while writing my final thesis</strong> (trong khi đang viết luận văn cuối khóa của tôi), <strong>in the middle of a virtual meeting</strong> (ở giữa một cuộc họp ảo), <strong>when updating crucial software</strong> (khi đang cập nhật phần mềm quan trọng)",
+        "✨ [hậu quả]: <strong>wiped out all my unsaved documents</strong> (xóa sạch tất cả các tài liệu chưa được lưu của tôi), <strong>corrupted my essential project files</strong> (làm hỏng các tệp dự án thiết yếu của tôi), <strong>caused intense panic and anxiety</strong> (gây ra sự hoảng loạn và lo lắng tột độ), <strong>disconnected me from the team</strong> (ngắt kết nối tôi khỏi nhóm), <strong>delayed my entire schedule</strong> (làm trì hoãn toàn bộ lịch trình của tôi)",
+        "✨ [bài học]: <strong>backup my data on cloud storage</strong> (sao lưu dữ liệu của tôi trên lưu trữ đám mây), <strong>invest in decent antivirus software</strong> (đầu tư vào phần mềm diệt virus tốt), <strong>maintain my device regularly</strong> (bảo dưỡng thiết bị của tôi thường xuyên), <strong>save my progress constantly</strong> (lưu tiến độ của tôi liên tục), <strong>keep a secondary backup drive</strong> (giữ một ổ đĩa sao lưu phụ)"
       ],
       "templates": [
-        "Template 1: I experienced a terrible [incident type] last year which resulted in [consequences], leaving me [emotional response]. It is incredibly frustrating when an unexpected [sự cố] disrupts your workflow and erases your data.",
-        "I would like to share my thoughts on this topic. It is incredibly frustrating when an unexpected [sự cố] disrupts your workflow and erases your data. Template 2: Because of a [incident type], I suffered from [consequences] and felt completely [emotional response]. I truly hope this helps everyone in our club today."
+        "I deeply empathize with you. I once experienced [sự cố] [tình huống]. Unfortunately, it [hậu quả]. Since that nightmare, I have learned to always [bài học].",
+        "That sounds awful! I remember facing [sự cố] [tình huống]. It was a disaster because it [hậu quả]. This incident strictly taught me to [bài học]."
       ],
       "samples": [
         {
-          "en": "Template 1: I experienced a terrible system failure last year which resulted in irreversible data loss, leaving me devastated. It is incredibly frustrating when an unexpected malfunction disrupts your workflow and erases your data.",
-          "vi": "Đây chắc chắn là điều tôi thích nói đến. Thật vô cùng bực bội khi một sự cố bất ngờ làm gián đoạn quy trình làm việc của bạn và xóa dữ liệu của bạn. Tôi đã trải qua một lỗi hệ thống tồi tệ vào năm ngoái dẫn đến mất dữ liệu không thể phục hồi, khiến tôi hoàn toàn suy sụp. Tôi đã dành vô số đêm để chuẩn bị cho luận văn tốt nghiệp cuối khóa của mình, và việc nhận ra mọi thứ đã vĩnh viễn biến mất thực sự là cơn ác mộng đau lòng nhất từ trước đến nay. Tôi thực sự hy vọng điều này trả lời hoàn hảo câu hỏi của bạn hôm nay."
+          "en": "I deeply empathize with you. I once experienced a sudden blue screen error right before a crucial deadline. Unfortunately, it wiped out all my unsaved documents. Since that nightmare, I have learned to always backup my data on cloud storage.",
+          "vi": "Tôi sâu sắc đồng cảm với bạn. Tôi đã từng trải qua một lỗi màn hình xanh đột ngột ngay trước một hạn chót quan trọng. Thật không may, nó xóa sạch tất cả các tài liệu chưa được lưu của tôi. Kể từ cơn ác mộng đó, tôi đã học được cách luôn sao lưu dữ liệu của tôi trên lưu trữ đám mây."
         },
         {
-          "en": "I would like to share my thoughts on this topic. It is incredibly frustrating when an unexpected glitch disrupts your workflow and erases your data. Template 2: Because of a sudden malfunction, I suffered from data corruption and felt completely frustrated. I truly hope this helps everyone in our club today.",
-          "vi": "Tôi luôn muốn chia sẻ suy nghĩ của mình về điều này! Vì một sự cố bất ngờ, tôi đã bị hỏng dữ liệu và cảm thấy hoàn toàn thất vọng. Thật vô cùng bực bội khi một trục trặc bất ngờ làm gián đoạn quy trình làm việc của bạn và xóa dữ liệu của bạn. Tất cả các bảng tính tài chính quan trọng của tôi biến mất ngay lập tức trước mắt tôi. Bây giờ tôi phải ép bản thân nhớ sao lưu các tài liệu thiết yếu lên đám mây bảo mật mỗi ngày. Tôi thực sự hy vọng điều này giúp ích cho mọi người trong câu lạc bộ thân thiện của chúng ta."
+          "en": "That sounds awful! I remember facing a severe virus infection during a major online presentation. It was a disaster because it corrupted my essential project files. This incident strictly taught me to invest in decent antivirus software.",
+          "vi": "Nghe thật tồi tệ! Tôi nhớ mình đã đối mặt với một sự lây nhiễm virus nghiêm trọng trong một buổi thuyết trình trực tuyến lớn. Đó là một thảm họa bởi vì nó làm hỏng các tệp dự án thiết yếu của tôi. Sự cố này đã dạy tôi một cách nghiêm khắc về việc đầu tư vào phần mềm diệt virus tốt."
         }
       ]
     },
@@ -672,23 +657,23 @@ export const part3Data = {
       "question": "Technological improvements have made our lives easier. What do you think?",
       "vi": "Những cải tiến công nghệ đã làm cho cuộc sống của chúng ta dễ dàng hơn. Bạn nghĩ sao?",
       "vocab": [
-        "✨ [positive impacts]: <strong>rapid tasks</strong> (nhiệm vụ nhanh chóng), <strong>easy chats</strong> (trò chuyện dễ dàng), <strong>enhanced productivity</strong> (năng suất nâng cao), <strong>seamless communication</strong> (giao tiếp liền mạch), <strong>unprecedented convenience</strong> (sự tiện lợi chưa từng có)",
-        "✨ [negative aspects]: <strong>laziness</strong> (sự lười biếng), <strong>poor sleep</strong> (ngủ kém), <strong>sedentary lifestyles</strong> (lối sống ít vận động), <strong>digital dependency</strong> (sự phụ thuộc kỹ thuật số), <strong>privacy vulnerabilities</strong> (lỗ hổng quyền riêng tư)",
-        "✨ [general opinion]: <strong>agree completely</strong> (hoàn toàn đồng ý), <strong>think so</strong> (nghĩ vậy), <strong>firmly believe</strong> (tin tưởng vững chắc), <strong>wholeheartedly concur</strong> (hoàn toàn tán thành), <strong>strongly advocate</strong> (ủng hộ mạnh mẽ)",
-        "✨ [cải tiến]: <strong>innovation</strong> (sự đổi mới), <strong>upgrade</strong> (bản nâng cấp), <strong>advancement</strong> (sự tiến bộ), <strong>development</strong> (sự phát triển), <strong>enhancement</strong> (sự tăng cường)"
+        "✨ [quan điểm]: <strong>strongly agree with this statement</strong> (hoàn toàn đồng ý với nhận định này), <strong>believe this is undeniably true</strong> (tin rằng điều này không thể chối cãi là đúng), <strong>partially support this viewpoint</strong> (ủng hộ một phần quan điểm này), <strong>consider it a double-edged sword</strong> (coi nó là một con dao hai lưỡi), <strong>acknowledge its profound impacts</strong> (công nhận những tác động sâu sắc của nó)",
+        "✨ [ưu điểm]: <strong>streamline daily communication</strong> (hợp lý hóa giao tiếp hàng ngày), <strong>automate repetitive manual tasks</strong> (tự động hóa các công việc thủ công lặp đi lặp lại), <strong>provide infinite access to knowledge</strong> (cung cấp quyền truy cập vô tận vào kiến thức), <strong>revolutionize the healthcare sector</strong> (cách mạng hóa lĩnh vực chăm sóc sức khỏe), <strong>boost overall productivity</strong> (tăng cường năng suất tổng thể)",
+        "✨ [mặt trái]: <strong>make people heavily dependent on devices</strong> (khiến mọi người phụ thuộc nặng nề vào các thiết bị), <strong>raise serious privacy concerns</strong> (làm dấy lên những lo ngại nghiêm trọng về quyền riêng tư), <strong>reduce genuine face-to-face interactions</strong> (làm giảm bớt những tương tác trực tiếp chân thực), <strong>cause sedentary lifestyle habits</strong> (gây ra những thói quen lối sống ít vận động), <strong>create a massive digital divide</strong> (tạo ra một khoảng cách kỹ thuật số khổng lồ)",
+        "✨ [kết luận]: <strong>utilize technology mindfully</strong> (sử dụng công nghệ một cách có chánh niệm), <strong>embrace these innovations wisely</strong> (đón nhận những đổi mới này một cách khôn ngoan), <strong>strike a healthy balance</strong> (đạt được một sự cân bằng lành mạnh), <strong>adapt to the digital era responsibly</strong> (thích nghi với kỷ nguyên số một cách có trách nhiệm), <strong>regulate screen time strictly</strong> (kiểm soát thời gian sử dụng màn hình một cách nghiêm ngặt)"
       ],
       "templates": [
-        "Template 1: I [general opinion] because technology brings [positive impacts] despite causing [negative aspects]. I completely agree, as each new [cải tiến] significantly streamlines our daily responsibilities. I truly hope this helps everyone in our club right now.",
-        "Template 2: While we might experience [negative aspects], I [general opinion] that experiencing [positive impacts] makes life better. I completely agree, as each new [cải tiến] significantly streamlines our daily responsibilities."
+        "I [quan điểm]. On the one hand, advancements [ưu điểm]. On the other hand, they can unfortunately [mặt trái]. Therefore, it is crucial that we [kết luận].",
+        "From my perspective, I [quan điểm]. While digital tools [ưu điểm], we cannot ignore that they [mặt trái]. Ultimately, society must learn to [kết luận]."
       ],
       "samples": [
         {
-          "en": "Template 1: I wholeheartedly concur because technology brings unprecedented convenience despite causing privacy vulnerabilities. I completely agree, as each new innovation significantly streamlines our daily responsibilities. I truly hope this helps everyone in our club right now.",
-          "vi": "Ồ, tôi luôn muốn chia sẻ suy nghĩ của mình về điều này! Tôi hoàn toàn tán thành vì công nghệ mang lại sự tiện lợi chưa từng có bất chấp việc gây ra các lỗ hổng quyền riêng tư. Tôi hoàn toàn đồng ý, vì mỗi sự đổi mới mới đều hợp lý hóa đáng kể các trách nhiệm hàng ngày của chúng ta. Các thiết bị nhà thông minh cho phép chúng ta quản lý hiệu quả công việc nhà bằng các lệnh giọng nói đơn giản, mang lại cho chúng ta nhiều thời gian rảnh hơn đáng kể để vui vẻ thư giãn cùng các thành viên yêu thương trong gia đình. Tôi thực sự hy vọng điều này giúp ích cho mọi người trong câu lạc bộ thân thiện của chúng ta hôm nay."
+          "en": "I strongly agree with this statement. On the one hand, advancements streamline daily communication. On the other hand, they can unfortunately make people heavily dependent on devices. Therefore, it is crucial that we utilize technology mindfully.",
+          "vi": "Tôi hoàn toàn đồng ý với nhận định này. Một mặt, những tiến bộ hợp lý hóa giao tiếp hàng ngày. Mặt khác, chúng thật không may có thể khiến mọi người phụ thuộc nặng nề vào các thiết bị. Do đó, điều cốt yếu là chúng ta phải sử dụng công nghệ một cách có chánh niệm."
         },
         {
-          "en": "Template 2: While we might experience sedentary lifestyles, I firmly believe that experiencing enhanced productivity makes life better. I completely agree, as each new upgrade significantly streamlines our daily responsibilities.",
-          "vi": "Đây chắc chắn là điều tôi thích nói đến. Tôi hoàn toàn đồng ý, vì mỗi bản nâng cấp mới đều hợp lý hóa đáng kể các trách nhiệm hàng ngày của chúng ta. Mặc dù chúng ta có thể trải nghiệm lối sống ít vận động, tôi tin tưởng vững chắc rằng việc trải nghiệm năng suất được nâng cao sẽ làm cho cuộc sống tốt hơn. Máy tính hiện đại tự động hóa các công việc hàng ngày nhàm chán, cho phép những người lao động hiện đại tập trung vào các dự án sáng tạo và cải thiện đáng kể sự phát triển nghề nghiệp chuyên môn của họ mỗi ngày. Tôi thực sự hy vọng điều này trả lời hoàn hảo câu hỏi của bạn hôm nay."
+          "en": "From my perspective, I believe this is undeniably true. While digital tools automate repetitive manual tasks, we cannot ignore that they raise serious privacy concerns. Ultimately, society must learn to embrace these innovations wisely.",
+          "vi": "Theo quan điểm của tôi, tôi tin rằng điều này không thể chối cãi là đúng. Trong khi các công cụ kỹ thuật số tự động hóa các công việc thủ công lặp đi lặp lại, chúng ta không thể phớt lờ rằng chúng làm dấy lên những lo ngại nghiêm trọng về quyền riêng tư. Cuối cùng, xã hội phải học cách đón nhận những đổi mới này một cách khôn ngoan."
         }
       ]
     }
@@ -699,23 +684,23 @@ export const part3Data = {
       "question": "I know there are a lot of successful small businesses these days. Tell me about a successful small business in your area.",
       "vi": "Tôi biết dạo này có rất nhiều doanh nghiệp nhỏ thành công. Hãy kể cho tôi nghe về một doanh nghiệp nhỏ thành công ở khu vực của bạn.",
       "vocab": [
-        "✨ [business type]: <strong>café</strong> (quán cà phê), <strong>store</strong> (cửa hàng), <strong>eco-friendly boutique</strong> (cửa hàng thân thiện môi trường), <strong>tech startup</strong> (công ty khởi nghiệp công nghệ), <strong>organic grocery store</strong> (cửa hàng tạp hóa hữu cơ)",
-        "✨ [success reason]: <strong>good food</strong> (đồ ăn ngon), <strong>nice staff</strong> (nhân viên thân thiện), <strong>exceptional customer service</strong> (dịch vụ khách hàng xuất sắc), <strong>innovative marketing strategies</strong> (chiến lược tiếp thị sáng tạo), <strong>high-quality products</strong> (sản phẩm chất lượng cao)",
-        "✨ [local impact]: <strong>helps local people</strong> (giúp đỡ người dân địa phương), <strong>makes good money</strong> (kiếm được nhiều tiền), <strong>creates local employment</strong> (tạo việc làm địa phương), <strong>boosts the regional economy</strong> (thúc đẩy kinh tế khu vực), <strong>fosters community spirit</strong> (nuôi dưỡng tinh thần cộng đồng)",
-        "✨ [lĩnh vực]: <strong>sector</strong> (khu vực), <strong>industry</strong> (ngành công nghiệp), <strong>market</strong> (thị trường), <strong>niche</strong> (thị trường ngách), <strong>domain</strong> (lĩnh vực)"
+        "✨ [loại hình]: <strong>a charming artisanal bakery</strong> (một tiệm bánh thủ công duyên dáng), <strong>an eco-friendly grocery store</strong> (một cửa hàng tạp hóa thân thiện với môi trường), <strong>a cozy family-run restaurant</strong> (một nhà hàng gia đình ấm cúng), <strong>a boutique clothing shop</strong> (một cửa hàng quần áo thời trang), <strong>a creative floral studio</strong> (một studio hoa sáng tạo)",
+        "✨ [điểm nổi bật]: <strong>its exceptional customer service</strong> (dịch vụ khách hàng xuất sắc của nó), <strong>its high-quality organic products</strong> (các sản phẩm hữu cơ chất lượng cao của nó), <strong>its unique and inviting interior</strong> (nội thất độc đáo và hấp dẫn của nó), <strong>its brilliant marketing strategy</strong> (chiến lược tiếp thị tuyệt vời của nó), <strong>its strong community focus</strong> (sự tập trung mạnh mẽ vào cộng đồng của nó)",
+        "✨ [thành tựu]: <strong>attracted a massive loyal customer base</strong> (đã thu hút một lượng lớn khách hàng trung thành), <strong>expanded to three different locations</strong> (đã mở rộng đến ba địa điểm khác nhau), <strong>won a prestigious local award</strong> (đã giành được một giải thưởng địa phương danh giá), <strong>generated impressive annual revenues</strong> (đã tạo ra doanh thu hàng năm ấn tượng), <strong>dominated the local market completely</strong> (đã thống trị hoàn toàn thị trường địa phương)",
+        "✨ [cảm nghĩ]: <strong>immensely proud of their growth</strong> (vô cùng tự hào về sự phát triển của họ), <strong>truly inspired by their dedication</strong> (thực sự được truyền cảm hứng bởi sự cống hiến của họ), <strong>fascinated by their innovative approach</strong> (bị hấp dẫn bởi cách tiếp cận sáng tạo của họ), <strong>amazed at their rapid success</strong> (kinh ngạc trước thành công nhanh chóng của họ), <strong>motivated to start my own venture</strong> (có động lực để bắt đầu công việc kinh doanh của riêng mình)"
       ],
       "templates": [
-        "In my neighborhood, there is a thriving [business type]. There is an inspiring startup operating in the local [lĩnh vực] that has expanded rapidly recently. It has become incredibly successful over the years mainly because of its [success reason], which significantly [local impact] and brings everyone together. Honestly,",
-        "A shining example in our area is a popular [business type]. There is an inspiring startup operating in the local [lĩnh vực] that has expanded rapidly recently. They consistently provide [success reason] to all clients, and this amazing approach ultimately [local impact] in our lovely growing town. Honestly,"
+        "In my neighborhood, there is [loại hình] which is incredibly thriving. What sets it apart is [điểm nổi bật]. Consequently, it has [thành tựu], and I am [cảm nghĩ].",
+        "I would love to mention [loại hình] located nearby. Its remarkable success stems from [điểm nổi bật], which successfully [thành tựu]. Observing this journey, I feel [cảm nghĩ]."
       ],
       "samples": [
         {
-          "en": "In my neighborhood, there is a thriving café. There is an inspiring startup operating in the local sector that has expanded rapidly recently. It has become incredibly successful over the years mainly because of its good food, which significantly helps local people and brings everyone together. Honestly,",
-          "vi": "Trong khu phố của tôi, có một quán cà phê rất phát triển. Có một công ty khởi nghiệp đầy cảm hứng hoạt động trong khu vực địa phương đã mở rộng nhanh chóng gần đây. Nó đã trở nên cực kỳ thành công qua nhiều năm chủ yếu nhờ vào đồ ăn ngon, điều này giúp đỡ đáng kể người dân địa phương và gắn kết mọi người lại với nhau. Thật tuyệt!"
+          "en": "In my neighborhood, there is a charming artisanal bakery which is incredibly thriving. What sets it apart is its exceptional customer service. Consequently, it has attracted a massive loyal customer base, and I am immensely proud of their growth.",
+          "vi": "Trong khu phố của tôi, có một tiệm bánh thủ công duyên dáng đang phát triển vô cùng mạnh mẽ. Điều làm cho nó trở nên khác biệt là dịch vụ khách hàng xuất sắc của nó. Hậu quả là, nó đã đã thu hút một lượng lớn khách hàng trung thành, và tôi vô cùng tự hào về sự phát triển của họ."
         },
         {
-          "en": "A shining example in our area is a popular tech startup. There is an inspiring startup operating in the local industry that has expanded rapidly recently. They consistently provide innovative marketing strategies to all clients, and this amazing approach ultimately boosts the regional economy in our lovely growing town. Honestly,",
-          "vi": "Một ví dụ điển hình trong khu vực của chúng tôi là một công ty khởi nghiệp công nghệ nổi tiếng. Có một công ty khởi nghiệp đầy cảm hứng hoạt động trong ngành công nghiệp địa phương đã mở rộng nhanh chóng gần đây. Họ liên tục cung cấp các chiến lược tiếp thị sáng tạo cho tất cả khách hàng, và cách tiếp cận tuyệt vời này cuối cùng đã thúc đẩy nền kinh tế khu vực trong thị trấn đang phát triển đáng yêu của chúng tôi. Thật tuyệt!"
+          "en": "I would love to mention an eco-friendly grocery store located nearby. Its remarkable success stems from its high-quality organic products, which successfully expanded to three different locations. Observing this journey, I feel truly inspired by their dedication.",
+          "vi": "Tôi rất muốn đề cập đến một cửa hàng tạp hóa thân thiện với môi trường nằm gần đây. Sự thành công đáng chú ý của nó bắt nguồn từ các sản phẩm hữu cơ chất lượng cao của nó, điều mà đã thành công đã mở rộng đến ba địa điểm khác nhau. Quan sát hành trình này, tôi cảm thấy thực sự được truyền cảm hứng bởi sự cống hiến của họ."
         }
       ]
     },
@@ -724,23 +709,23 @@ export const part3Data = {
       "question": "I have a friend who wants to open a second coffee shop... What advice do you have...?",
       "vi": "Tôi có một người bạn muốn mở quán cà phê thứ hai... Bạn có lời khuyên gì không...?",
       "vocab": [
-        "✨ [crucial step]: <strong>find a place</strong> (tìm một địa điểm), <strong>save money</strong> (tiết kiệm tiền), <strong>conduct market research</strong> (tiến hành nghiên cứu thị trường), <strong>analyze target demographics</strong> (phân tích nhân khẩu học mục tiêu), <strong>secure reliable funding</strong> (đảm bảo nguồn vốn đáng tin cậy)",
-        "✨ [important element]: <strong>good drinks</strong> (đồ uống ngon), <strong>cheap prices</strong> (giá rẻ), <strong>a unique brand identity</strong> (một bản sắc thương hiệu độc đáo), <strong>an inviting atmosphere</strong> (một bầu không khí hấp dẫn), <strong>sustainable business practices</strong> (thực tiễn kinh doanh bền vững)",
-        "✨ [outcome]: <strong>get more customers</strong> (có thêm khách hàng), <strong>be very happy</strong> (rất vui vẻ), <strong>maximize profit margins</strong> (tối đa hóa tỷ suất lợi nhuận), <strong>ensure long-term viability</strong> (đảm bảo khả năng tồn tại lâu dài), <strong>build customer loyalty</strong> (xây dựng lòng trung thành của khách hàng)",
-        "✨ [chiến lược]: <strong>plan</strong> (kế hoạch), <strong>approach</strong> (cách tiếp cận), <strong>tactic</strong> (chiến thuật), <strong>scheme</strong> (kế hoạch (scheme)), <strong>proposal</strong> (đề xuất)"
+        "✨ [bước chuẩn bị]: <strong>conduct thorough market research</strong> (tiến hành nghiên cứu thị trường kỹ lưỡng), <strong>analyze the local demographic</strong> (phân tích nhân khẩu học địa phương), <strong>secure reliable financial backing</strong> (đảm bảo nguồn hỗ trợ tài chính đáng tin cậy), <strong>hire experienced and passionate staff</strong> (thuê nhân viên giàu kinh nghiệm và đam mê), <strong>design a distinctive brand identity</strong> (thiết kế một bản sắc thương hiệu riêng biệt)",
+        "✨ [yếu tố then chốt]: <strong>a highly strategic location</strong> (một vị trí có tính chiến lược cao), <strong>consistent product quality</strong> (chất lượng sản phẩm nhất quán), <strong>an effective promotional campaign</strong> (một chiến dịch quảng cáo hiệu quả), <strong>a unique signature menu</strong> (một thực đơn đặc trưng độc đáo), <strong>an inviting aesthetic atmosphere</strong> (một bầu không khí thẩm mỹ hấp dẫn)",
+        "✨ [rủi ro]: <strong>overextend their initial budget</strong> (vượt quá ngân sách ban đầu của họ), <strong>compromise on customer service</strong> (thỏa hiệp về dịch vụ khách hàng), <strong>ignore emerging industry trends</strong> (phớt lờ các xu hướng mới nổi trong ngành), <strong>underestimate the fierce competition</strong> (đánh giá thấp sự cạnh tranh khốc liệt), <strong>rush the grand opening process</strong> (vội vàng quá trình khai trương)",
+        "✨ [lời chúc]: <strong>achieve outstanding milestones</strong> (đạt được những cột mốc xuất sắc), <strong>flourish in the new area</strong> (phát triển rực rỡ ở khu vực mới), <strong>build a massive coffee empire</strong> (xây dựng một đế chế cà phê khổng lồ), <strong>attract crowds of enthusiastic patrons</strong> (thu hút đám đông khách hàng quen thuộc nhiệt tình), <strong>turn their bold vision into reality</strong> (biến tầm nhìn táo bạo của họ thành hiện thực)"
       ],
       "templates": [
-        "Your friend should definitely [crucial step] before making any big decisions. They should undoubtedly draft a comprehensive [chiến lược] to handle potential financial risks. Furthermore, focusing strongly on [important element] will certainly help them to [outcome] successfully in this highly competitive and challenging local market.",
-        "I highly recommend that they [crucial step] immediately. They should undoubtedly draft a comprehensive [chiến lược] to handle potential financial risks. By prioritizing [important element], the new shop can easily [outcome] and become a beloved spot for everyone in the neighborhood. Honestly,"
+        "First and foremost, your friend should [bước chuẩn bị] and ensure they have [yếu tố then chốt]. Additionally, it is vital not to [rủi ro]. I truly hope they [lời chúc]!",
+        "My strongest recommendation is to [bước chuẩn bị]. Finding [yếu tố then chốt] is also indispensable. As long as they do not [rủi ro], I am confident they will [lời chúc]."
       ],
       "samples": [
         {
-          "en": "Your friend should definitely find a place before making any big decisions. They should undoubtedly draft a comprehensive plan to handle potential financial risks. Furthermore, focusing strongly on good drinks will certainly help them to get more customers successfully in this highly competitive and challenging local market.",
-          "vi": "Bạn của bạn chắc chắn nên tìm một địa điểm trước khi đưa ra bất kỳ quyết định lớn nào. Họ chắc chắn nên phác thảo một kế hoạch toàn diện để xử lý các rủi ro tài chính tiềm ẩn. Hơn nữa, việc tập trung mạnh mẽ vào đồ uống ngon chắc chắn sẽ giúp họ có thêm khách hàng thành công trong thị trường địa phương đầy tính cạnh tranh và thử thách này."
+          "en": "First and foremost, your friend should conduct thorough market research and ensure they have a highly strategic location. Additionally, it is vital not to overextend their initial budget. I truly hope they achieve outstanding milestones!",
+          "vi": "Đầu tiên và quan trọng nhất, bạn của bạn nên tiến hành nghiên cứu thị trường kỹ lưỡng và đảm bảo họ có một vị trí có tính chiến lược cao. Ngoài ra, điều sống còn là không được vượt quá ngân sách ban đầu của họ. Tôi thực sự hy vọng họ đạt được những cột mốc xuất sắc!"
         },
         {
-          "en": "I highly recommend that they conduct market research immediately. They should undoubtedly draft a comprehensive approach to handle potential financial risks. By prioritizing a unique brand identity, the new shop can easily maximize profit margins and become a beloved spot for everyone in the neighborhood. Honestly,",
-          "vi": "Tôi thực sự khuyên họ nên tiến hành nghiên cứu thị trường ngay lập tức. Họ chắc chắn nên phác thảo một cách tiếp cận toàn diện để xử lý các rủi ro tài chính tiềm ẩn. Bằng cách ưu tiên một bản sắc thương hiệu độc đáo, cửa hàng mới có thể dễ dàng tối đa hóa tỷ suất lợi nhuận và trở thành một địa điểm yêu thích của mọi người trong khu phố. Thật tuyệt!"
+          "en": "My strongest recommendation is to analyze the local demographic. Finding consistent product quality is also indispensable. As long as they do not compromise on customer service, I am confident they will flourish in the new area.",
+          "vi": "Lời khuyên mạnh mẽ nhất của tôi là phân tích nhân khẩu học địa phương. Việc tìm kiếm chất lượng sản phẩm nhất quán cũng là điều không thể thiếu. Miễn là họ không thỏa hiệp về dịch vụ khách hàng, tôi tự tin rằng họ sẽ phát triển rực rỡ ở khu vực mới."
         }
       ]
     },
@@ -749,1948 +734,1914 @@ export const part3Data = {
       "question": "Can you tell me what qualities and skills are needed to create a successful small business?",
       "vi": "Bạn có thể cho tôi biết những phẩm chất và kỹ năng nào cần thiết để tạo nên một doanh nghiệp nhỏ thành công không?",
       "vocab": [
-        "✨ [key quality]: <strong>hard work</strong> (sự chăm chỉ), <strong>good luck</strong> (sự may mắn), <strong>unwavering resilience</strong> (sự kiên cường không lay chuyển), <strong>strategic foresight</strong> (tầm nhìn chiến lược), <strong>emotional intelligence</strong> (trí tuệ cảm xúc)",
-        "✨ [essential skill]: <strong>talking to people</strong> (nói chuyện với mọi người), <strong>saving money</strong> (tiết kiệm tiền), <strong>effective financial management</strong> (quản lý tài chính hiệu quả), <strong>persuasive communication</strong> (giao tiếp thuyết phục), <strong>adept problem-solving</strong> (kỹ năng giải quyết vấn đề khéo léo)",
-        "✨ [ultimate goal]: <strong>make a lot of money</strong> (kiếm được nhiều tiền), <strong>get bigger</strong> (phát triển lớn hơn), <strong>drive sustainable growth</strong> (thúc đẩy tăng trưởng bền vững), <strong>outpace industry competitors</strong> (vượt qua các đối thủ cùng ngành), <strong>navigate market fluctuations</strong> (vượt qua biến động thị trường)",
-        "✨ [kỹ năng]: <strong>ability</strong> (khả năng), <strong>competence</strong> (năng lực), <strong>expertise</strong> (chuyên môn), <strong>proficiency</strong> (sự thành thạo), <strong>talent</strong> (tài năng)"
+        "✨ [phẩm chất cá nhân]: <strong>unwavering resilience</strong> (sự kiên cường không lay chuyển), <strong>a visionary mindset</strong> (một tư duy có tầm nhìn), <strong>immense adaptability</strong> (khả năng thích ứng to lớn), <strong>relentless determination</strong> (sự quyết tâm không ngừng nghỉ), <strong>genuine passion for their craft</strong> (niềm đam mê chân thành với nghề của họ)",
+        "✨ [kỹ năng chuyên môn]: <strong>solid financial management skills</strong> (kỹ năng quản lý tài chính vững vàng), <strong>effective strategic planning abilities</strong> (khả năng lập kế hoạch chiến lược hiệu quả), <strong>excellent interpersonal communication</strong> (giao tiếp giữa các cá nhân xuất sắc), <strong>sharp problem-solving capabilities</strong> (khả năng giải quyết vấn đề nhạy bén), <strong>advanced digital marketing proficiency</strong> (sự thành thạo tiếp thị kỹ thuật số nâng cao)",
+        "✨ [tác dụng phẩm chất]: <strong>overcome inevitable setbacks gracefully</strong> (vượt qua những thất bại không thể tránh khỏi một cách duyên dáng), <strong>navigate market fluctuations confidently</strong> (điều hướng những biến động của thị trường một cách tự tin), <strong>inspire the entire workforce</strong> (truyền cảm hứng cho toàn bộ lực lượng lao động), <strong>maintain focus during tough times</strong> (duy trì sự tập trung trong những thời điểm khó khăn), <strong>foster long-term brand loyalty</strong> (thúc đẩy lòng trung thành với thương hiệu lâu dài)",
+        "✨ [tác dụng kỹ năng]: <strong>optimize the daily operations</strong> (tối ưu hóa các hoạt động hàng ngày), <strong>maximize the profit margins</strong> (tối đa hóa tỷ suất lợi nhuận), <strong>build strong networking relationships</strong> (xây dựng các mối quan hệ mạng lưới vững chắc), <strong>identify profitable target audiences</strong> (xác định đối tượng khách hàng mục tiêu sinh lời), <strong>scale the enterprise sustainably</strong> (mở rộng quy mô doanh nghiệp một cách bền vững)"
       ],
       "templates": [
-        "You know, to succeed, an aspiring founder absolutely needs [key quality]. Besides capital, mastering a crucial interpersonal [kỹ năng] is vital for negotiating with suppliers. Furthermore, continuously mastering [essential skill] is critically important to successfully [ultimate goal] in today's unpredictable and highly demanding corporate landscape. Honestly,",
-        "Possessing [key quality] is truly vital. Besides capital, mastering a crucial interpersonal [kỹ năng] is vital for negotiating with suppliers. Combined with [essential skill], business owners can confidently [ultimate goal] while maintaining a strong position in the modern competitive business environment."
+        "In my opinion, possessing [phẩm chất cá nhân] is fundamental because it helps entrepreneurs [tác dụng phẩm chất]. Furthermore, acquiring [kỹ năng chuyên môn] is equally vital to [tác dụng kỹ năng] in the long run.",
+        "To thrive, a founder must exhibit [phẩm chất cá nhân], which empowers them to [tác dụng phẩm chất]. Additionally, mastering [kỹ năng chuyên môn] will definitely allow the business to [tác dụng kỹ năng] successfully."
       ],
       "samples": [
         {
-          "en": "You know, to succeed, an aspiring founder absolutely needs hard work. Besides capital, mastering a crucial interpersonal ability is vital for negotiating with suppliers. Furthermore, continuously mastering talking to people is critically important to successfully make a lot of money in today's unpredictable and highly demanding corporate landscape. Honestly,",
-          "vi": "Bạn biết đấy, để thành công, một nhà sáng lập đầy tham vọng tuyệt đối cần sự chăm chỉ. Bên cạnh vốn, việc thành thạo một khả năng giao tiếp cá nhân quan trọng là rất cần thiết để đàm phán với các nhà cung cấp. Hơn nữa, việc liên tục nắm vững cách nói chuyện với mọi người là cực kỳ quan trọng để kiếm được nhiều tiền thành công trong bối cảnh doanh nghiệp luôn thay đổi và đòi hỏi cao như hiện nay. Thật tuyệt!"
+          "en": "In my opinion, possessing unwavering resilience is fundamental because it helps entrepreneurs overcome inevitable setbacks gracefully. Furthermore, acquiring solid financial management skills is equally vital to optimize the daily operations in the long run.",
+          "vi": "Theo ý kiến của tôi, việc sở hữu sự kiên cường không lay chuyển là nền tảng bởi vì nó giúp các doanh nhân vượt qua những thất bại không thể tránh khỏi một cách duyên dáng. Hơn nữa, việc đạt được kỹ năng quản lý tài chính vững vàng cũng quan trọng không kém để tối ưu hóa các hoạt động hàng ngày về lâu dài."
         },
         {
-          "en": "Possessing strategic foresight is truly vital. Besides capital, mastering a crucial interpersonal competence is vital for negotiating with suppliers. Combined with persuasive communication, business owners can confidently outpace industry competitors while maintaining a strong position in the modern competitive business environment.",
-          "vi": "Điều đó thật tuyệt vời! Sở hữu tầm nhìn chiến lược thực sự là rất quan trọng. Bên cạnh vốn, việc thành thạo một năng lực giao tiếp cá nhân quan trọng là rất cần thiết để đàm phán với các nhà cung cấp. Kết hợp với giao tiếp thuyết phục, các chủ doanh nghiệp có thể tự tin vượt qua các đối thủ cùng ngành trong khi duy trì vị thế vững chắc trong môi trường kinh doanh cạnh tranh hiện đại. Nó thật tuyệt."
+          "en": "To thrive, a founder must exhibit a visionary mindset, which empowers them to navigate market fluctuations confidently. Additionally, mastering effective strategic planning abilities will definitely allow the business to maximize the profit margins successfully.",
+          "vi": "Để phát triển mạnh mẽ, một nhà sáng lập phải thể hiện một tư duy có tầm nhìn, điều này trao quyền cho họ điều hướng những biến động của thị trường một cách tự tin. Ngoài ra, việc thành thạo khả năng lập kế hoạch chiến lược hiệu quả chắc chắn sẽ cho phép doanh nghiệp tối đa hóa tỷ suất lợi nhuận thành công."
         }
       ]
     }
   },
   "Home living club": {
     "q1": {
-      "member": "Member A",
+      "member": "Member B",
       "question": "You have to stay in the bedroom but have to share with your brother. How do you feel?",
       "vi": "Bạn phải ở trong phòng ngủ nhưng phải chia sẻ với anh trai. Bạn cảm thấy thế nào?",
       "vocab": [
-        "✨ [feelings]: <strong>happy</strong> (vui vẻ), <strong>sad</strong> (buồn rầu), <strong>frustrated</strong> (bực bội), <strong>overwhelmed</strong> (choáng ngợp), <strong>content</strong> (bằng lòng)",
-        "✨ [actions]: <strong>talk</strong> (nói chuyện), <strong>play</strong> (chơi), <strong>compromise</strong> (thỏa hiệp), <strong>negotiate</strong> (đàm phán), <strong>accommodate</strong> (đáp ứng)",
-        "✨ [nouns]: <strong>room</strong> (phòng), <strong>bed</strong> (giường), <strong>boundaries</strong> (ranh giới), <strong>privacy</strong> (sự riêng tư), <strong>territory</strong> (lãnh thổ)",
-        "✨ [đồ vật]: <strong>bookshelf</strong> (kệ sách), <strong>wardrobe</strong> (tủ quần áo), <strong>curtain</strong> (rèm cửa), <strong>folding screen</strong> (bình phong), <strong>storage cabinet</strong> (tủ chứa đồ)"
+        "✨ [cảm xúc]: <strong>a bit annoyed</strong> (hơi khó chịu), <strong>quite frustrated</strong> (khá bực bội), <strong>slightly uncomfortable</strong> (hơi không thoải mái), <strong>rather stressed</strong> (khá căng thẳng), <strong>partially dissatisfied</strong> (một phần không hài lòng)",
+        "✨ [sự thiếu thốn]: <strong>lack of privacy</strong> (thiếu sự riêng tư), <strong>absence of personal space</strong> (thiếu không gian cá nhân), <strong>loss of quietness</strong> (mất đi sự yên tĩnh), <strong>shortage of freedom</strong> (thiếu hụt sự tự do), <strong>deprivation of solitude</strong> (sự tước đoạt sự cô độc)",
+        "✨ [lợi ích]: <strong>strengthen our bond</strong> (củng cố mối quan hệ của chúng tôi), <strong>foster mutual understanding</strong> (thúc đẩy sự hiểu biết lẫn nhau), <strong>build up tolerance</strong> (xây dựng lòng khoan dung), <strong>enhance our connection</strong> (tăng cường sự kết nối của chúng tôi), <strong>develop empathy</strong> (phát triển sự đồng cảm)",
+        "✨ [kết quả]: <strong>learn to compromise</strong> (học cách thỏa hiệp), <strong>adapt to the situation</strong> (thích nghi với hoàn cảnh), <strong>overcome minor conflicts</strong> (vượt qua những xung đột nhỏ), <strong>respect each other</strong> (tôn trọng lẫn nhau), <strong>share responsibilities</strong> (chia sẻ trách nhiệm)"
       ],
       "templates": [
-        "I feel quite [feelings] about sharing my [nouns] because I have to [actions] often it is so interesting to hear all your different thoughts honestly. I have managed to set up a small partition using my [đồ vật] to maintain some privacy.",
-        "When sharing this [nouns], I must [actions] daily, which makes me feel [feelings] it is so interesting to hear all your different thoughts you know. I have managed to set up a small partition using my [đồ vật] to maintain some privacy."
+        "To be honest, I feel [cảm xúc] because of the [sự thiếu thốn]. However, on the bright side, sharing a room can [lợi ích]. Consequently, we will gradually [kết quả] over time.",
+        "Frankly speaking, the [sự thiếu thốn] makes me feel [cảm xúc] initially. Yet, this situation is a great opportunity to [lợi ích]. By doing so, we are forced to [kết quả]."
       ],
       "samples": [
         {
-          "en": "I feel quite happy about sharing my room because I have to talk often it is so interesting to hear all your different thoughts honestly. I have managed to set up a small partition using my bookshelf to maintain some privacy.",
-          "vi": "Tôi cảm thấy khá bực bội về việc chia sẻ sự riêng tư của mình vì tôi thường phải thỏa hiệp. Tôi đã xoay sở dựng một vách ngăn nhỏ bằng kệ sách của mình để giữ chút sự riêng tư. Anh trai tôi rất bừa bộn và ồn ào, vì vậy tôi hiếm khi có thời gian yên tĩnh để học tập hoặc thư giãn đúng cách ở nhà mỗi tối."
+          "en": "To be honest, I feel a bit annoyed because of the lack of privacy. However, on the bright side, sharing a room can strengthen our bond. Consequently, we will gradually learn to compromise over time.",
+          "vi": "Thành thật mà nói, tôi cảm thấy hơi khó chịu vì thiếu sự riêng tư. Tuy nhiên, về mặt tích cực, việc chung phòng có thể củng cố mối quan hệ của chúng tôi. Hậu quả là, chúng tôi sẽ dần dần học cách thỏa hiệp theo thời gian."
         },
         {
-          "en": "When sharing this bed, I must play daily, which makes me feel sad it is so interesting to hear all your different thoughts you know. I have managed to set up a small partition using my wardrobe to maintain some privacy.",
-          "vi": "Khi chia sẻ căn phòng này, tôi phải đàm phán hàng ngày, điều này khiến tôi cảm thấy choáng ngợp. Tôi đã xoay sở dựng một vách ngăn nhỏ bằng tủ quần áo của mình để giữ chút sự riêng tư. Chúng tôi có lịch trình và thói quen hoàn toàn khác nhau, khiến việc duy trì hòa bình và thoải mái trong không gian sống chung nhỏ bé của chúng tôi luôn cực kỳ khó khăn."
+          "en": "To be honest, I feel quite frustrated because of the absence of personal space. However, on the bright side, sharing a room can foster mutual understanding. Consequently, we will gradually adapt to the situation over time.",
+          "vi": "Thành thật mà nói, tôi cảm thấy khá bực bội vì thiếu không gian cá nhân. Tuy nhiên, về mặt tích cực, việc chung phòng có thể thúc đẩy sự hiểu biết lẫn nhau. Hậu quả là, chúng tôi sẽ dần dần thích nghi với hoàn cảnh theo thời gian."
         }
       ]
     },
     "q2": {
-      "member": "Member B",
+      "member": "Member C",
       "question": "It is better to live in the city than in the countryside. Do you agree? Why?",
       "vi": "Sống ở thành phố tốt hơn ở nông thôn. Bạn có đồng ý không? Tại sao?",
       "vocab": [
-        "✨ [advantages]: <strong>fun</strong> (niềm vui), <strong>jobs</strong> (công việc), <strong>amenities</strong> (tiện nghi), <strong>infrastructure</strong> (cơ sở hạ tầng), <strong>opportunities</strong> (cơ hội)",
-        "✨ [disadvantages]: <strong>noise</strong> (tiếng ồn), <strong>dirt</strong> (bụi bẩn), <strong>pollution</strong> (ô nhiễm), <strong>congestion</strong> (tắc nghẽn), <strong>overpopulation</strong> (quá tải dân số)",
-        "✨ [verbs]: <strong>live</strong> (sống), <strong>work</strong> (làm việc), <strong>flourish</strong> (phát triển mạnh), <strong>thrive</strong> (thịnh vượng), <strong>commute</strong> (đi lại)",
-        "✨ [tiện ích]: <strong>public transport</strong> (giao thông công cộng), <strong>healthcare facilities</strong> (cơ sở y tế), <strong>shopping malls</strong> (trung tâm mua sắm), <strong>entertainment venues</strong> (địa điểm giải trí), <strong>educational institutions</strong> (cơ sở giáo dục)"
+        "✨ [quan điểm]: <strong>completely agree</strong> (hoàn toàn đồng ý), <strong>totally concur</strong> (hoàn toàn tán thành), <strong>strongly support this</strong> (mạnh mẽ ủng hộ điều này), <strong>firmly believe so</strong> (tin tưởng vững chắc như vậy), <strong>absolutely share this view</strong> (tuyệt đối chia sẻ quan điểm này)",
+        "✨ [lợi ích thành thị]: <strong>better career prospects</strong> (triển vọng nghề nghiệp tốt hơn), <strong>abundant job opportunities</strong> (cơ hội việc làm dồi dào), <strong>superior educational facilities</strong> (cơ sở giáo dục vượt trội), <strong>advanced healthcare services</strong> (dịch vụ chăm sóc sức khỏe tiên tiến), <strong>modern infrastructure</strong> (cơ sở hạ tầng hiện đại)",
+        "✨ [bất lợi nông thôn]: <strong>lack entertainment options</strong> (thiếu các lựa chọn giải trí), <strong>offer limited resources</strong> (cung cấp các nguồn tài nguyên hạn chế), <strong>suffer from poor transportation</strong> (chịu đựng giao thông tồi tệ), <strong>have fewer amenities</strong> (có ít tiện nghi hơn), <strong>face economic challenges</strong> (đối mặt với những thách thức kinh tế)",
+        "✨ [kết luận]: <strong>improve living standards</strong> (cải thiện mức sống), <strong>ensure a brighter future</strong> (đảm bảo một tương lai tươi sáng hơn), <strong>facilitate personal growth</strong> (tạo điều kiện cho sự phát triển cá nhân), <strong>elevate overall well-being</strong> (nâng cao sức khỏe tổng thể), <strong>boost life satisfaction</strong> (thúc đẩy sự hài lòng với cuộc sống)"
       ],
       "templates": [
-        "People [verbs] better in cities due to modern [advantages] despite the [disadvantages] it is so interesting to hear all your different thoughts i must say. The urban lifestyle appeals to me mainly because of the convenient access to [tiện ích].",
-        "Cities allow us to [verbs] with excellent [advantages], though we face severe [disadvantages] it is so interesting to hear all your different thoughts you know. The urban lifestyle appeals to me mainly because of the convenient access to [tiện ích]."
+        "I [quan điểm] with the statement because cities provide [lợi ích thành thị]. Meanwhile, rural areas often [bất lợi nông thôn]. Given that, relocating to an urban area will undoubtedly [kết luận].",
+        "It is undeniable that I [quan điểm] since urban centers offer [lợi ích thành thị]. In contrast, the countryside tends to [bất lợi nông thôn]. Ultimately, living in the city helps people [kết luận]."
       ],
       "samples": [
         {
-          "en": "People live better in cities due to modern fun despite the noise it is so interesting to hear all your different thoughts i must say. The urban lifestyle appeals to me mainly because of the convenient access to public transport.",
-          "vi": "Tôi tin rằng mọi người phát triển tốt hơn ở các thành phố nhờ tiện nghi hiện đại bất chấp ô nhiễm. Lối sống thành thị hấp dẫn tôi chủ yếu vì sự thuận tiện trong việc tiếp cận giao thông công cộng. Sự phong phú của các bệnh viện tiên tiến, các lựa chọn giải trí đa dạng và các tổ chức giáo dục hàng đầu làm cho môi trường đô thị vô cùng hấp dẫn đối với các chuyên gia trẻ và đầy tham vọng."
+          "en": "I completely agree with the statement because cities provide better career prospects. Meanwhile, rural areas often lack entertainment options. Given that, relocating to an urban area will undoubtedly improve living standards.",
+          "vi": "Tôi hoàn toàn đồng ý với nhận định vì các thành phố cung cấp triển vọng nghề nghiệp tốt hơn. Trong khi đó, các vùng nông thôn thường thiếu các lựa chọn giải trí. Với điều đó, việc chuyển đến một khu vực thành thị chắc chắn sẽ cải thiện mức sống."
         },
         {
-          "en": "Cities allow us to work with excellent jobs, though we face severe dirt it is so interesting to hear all your different thoughts you know. The urban lifestyle appeals to me mainly because of the convenient access to healthcare facilities.",
-          "vi": "Các thành phố cho phép chúng ta phát triển với những cơ hội tuyệt vời, mặc dù chúng ta phải đối mặt với tình trạng tắc nghẽn nghiêm trọng. Lối sống thành thị hấp dẫn tôi chủ yếu vì sự thuận tiện trong việc tiếp cận cơ sở y tế. Khả năng tiếp cận các công ty quốc tế và mạng lưới rộng lớn giúp các cá nhân xây dựng sự nghiệp thành công nhanh chóng, hoàn toàn vượt xa căng thẳng hàng ngày khi di chuyển trên những con phố đông đúc nhộn nhịp."
+          "en": "I totally concur with the statement because cities provide abundant job opportunities. Meanwhile, rural areas often offer limited resources. Given that, relocating to an urban area will undoubtedly ensure a brighter future.",
+          "vi": "Tôi hoàn toàn tán thành với nhận định vì các thành phố cung cấp cơ hội việc làm dồi dào. Trong khi đó, các vùng nông thôn thường cung cấp các nguồn tài nguyên hạn chế. Với điều đó, việc chuyển đến một khu vực thành thị chắc chắn sẽ đảm bảo một tương lai tươi sáng hơn."
         }
       ]
     },
     "q3": {
-      "member": "Member C",
+      "member": "Member D",
       "question": "Nowadays, old buildings are demolished and replaced with modern buildings. I feel we should protect historic buildings. What do you think?",
       "vi": "Ngày nay, các tòa nhà cũ bị phá bỏ và thay thế bằng các tòa nhà hiện đại. Tôi cảm thấy chúng ta nên bảo vệ các tòa nhà lịch sử. Bạn nghĩ sao?",
       "vocab": [
-        "✨ [actions]: <strong>keep</strong> (giữ), <strong>save</strong> (cứu), <strong>preserve</strong> (bảo tồn), <strong>conserve</strong> (giữ gìn), <strong>safeguard</strong> (bảo vệ)",
-        "✨ [descriptions]: <strong>old</strong> (cũ), <strong>new</strong> (mới), <strong>historic</strong> (thuộc lịch sử), <strong>contemporary</strong> (đương đại), <strong>culturally-significant</strong> (có ý nghĩa văn hóa)",
-        "✨ [reasons]: <strong>past</strong> (quá khứ), <strong>history</strong> (lịch sử), <strong>heritage</strong> (di sản), <strong>identity</strong> (bản sắc), <strong>legacy</strong> (tài sản kế thừa)",
-        "✨ [giá trị]: <strong>cultural heritage</strong> (di sản văn hóa), <strong>national identity</strong> (bản sắc dân tộc), <strong>architectural history</strong> (lịch sử kiến trúc), <strong>traditional customs</strong> (phong tục truyền thống), <strong>ancestral roots</strong> (nguồn cội tổ tiên)"
+        "✨ [nhận định]: <strong>exactly right</strong> (hoàn toàn đúng), <strong>absolutely correct</strong> (tuyệt đối chính xác), <strong>highly justifiable</strong> (rất chính đáng), <strong>perfectly reasonable</strong> (hoàn toàn hợp lý), <strong>entirely sensible</strong> (hoàn toàn hợp lý)",
+        "✨ [giá trị]: <strong>immense cultural value</strong> (giá trị văn hóa to lớn), <strong>significant historical importance</strong> (tầm quan trọng lịch sử đáng kể), <strong>profound architectural heritage</strong> (di sản kiến trúc sâu sắc), <strong>unique local identity</strong> (bản sắc địa phương độc đáo), <strong>irreplaceable historical roots</strong> (cội nguồn lịch sử không thể thay thế)",
+        "✨ [hành động]: <strong>preserve these landmarks</strong> (bảo tồn những địa danh này), <strong>safeguard traditional structures</strong> (bảo vệ các cấu trúc truyền thống), <strong>restore ancient sites</strong> (phục hồi các di tích cổ), <strong>maintain historic monuments</strong> (duy trì các di tích lịch sử), <strong>protect heritage sites</strong> (bảo vệ các di sản)"
       ],
       "templates": [
-        "We must [actions] these [descriptions] structures to protect our national [reasons] it is so interesting to hear all your different thoughts i totally agree here. Preserving these structures is essential as they serve as a physical reminder of our [giá trị].",
-        "It is crucial to [actions] [descriptions] sites because they represent our cultural [reasons] it is so interesting to hear all your different thoughts you know. Preserving these structures is essential as they serve as a physical reminder of our [giá trị]."
+        "Your opinion is [nhận định] because old constructions hold [giá trị]. Therefore, it is crucial to [hành động]. Doing so will [lợi ích].",
+        "I believe you are [nhận định] since historic architectures possess [giá trị]. As a result, we must take immediate action to [hành động]. Such an approach can successfully [lợi ích]."
       ],
       "samples": [
         {
-          "en": "We must keep these old structures to protect our national past it is so interesting to hear all your different thoughts i totally agree here. Preserving these structures is essential as they serve as a physical reminder of our cultural heritage.",
-          "vi": "Chúng ta phải bảo vệ những công trình có ý nghĩa văn hóa này để bảo vệ bản sắc dân tộc của chúng ta. Bảo tồn những công trình này là điều cần thiết vì chúng đóng vai trò như một lời nhắc nhở vật chất về di sản văn hóa của chúng ta. Việc thay thế chúng hoàn toàn bằng các tòa nhà chọc trời bằng kính thông thường sẽ phá hủy nét đặc trưng độc đáo của các thành phố xinh đẹp của chúng ta và xóa bỏ những mối liên hệ hữu hình với tổ tiên đáng tự hào chung của chúng ta."
+          "en": "Your opinion is exactly right because old constructions hold immense cultural value. Therefore, it is crucial to preserve these landmarks. Doing so will attract more international tourists.",
+          "vi": "Ý kiến của bạn là hoàn toàn đúng vì các công trình cũ giữ giá trị văn hóa to lớn. Do đó, điều quan trọng là phải bảo tồn những địa danh này. Làm như vậy sẽ thu hút nhiều khách du lịch quốc tế hơn."
         },
         {
-          "en": "It is crucial to save new sites because they represent our cultural history it is so interesting to hear all your different thoughts you know. Preserving these structures is essential as they serve as a physical reminder of our national identity.",
-          "vi": "Việc bảo tồn các di tích lịch sử là rất quan trọng vì chúng đại diện cho di sản văn hóa của chúng ta. Bảo tồn những công trình này là điều cần thiết vì chúng đóng vai trò như một lời nhắc nhở vật chất về bản sắc dân tộc của chúng ta. Những kỳ quan kiến ​​trúc cổ đại tráng lệ này mang đến cơ hội giáo dục quý giá cho thế hệ trẻ để hiểu thấu đáo và trân trọng sâu sắc nghệ thuật truyền thống và sự khéo léo vượt trội."
+          "en": "Your opinion is absolutely correct because old constructions hold significant historical importance. Therefore, it is crucial to safeguard traditional structures. Doing so will educate younger generations.",
+          "vi": "Ý kiến của bạn là tuyệt đối chính xác vì các công trình cũ giữ tầm quan trọng lịch sử đáng kể. Do đó, điều quan trọng là phải bảo vệ các cấu trúc truyền thống. Làm như vậy sẽ giáo dục các thế hệ trẻ."
         }
       ]
     }
   },
   "Television club": {
     "q1": {
-      "member": "Member A",
+      "member": "Member B",
       "question": "What do you like to do when you watch TV?",
       "vi": "Bạn thích làm gì khi xem TV?",
       "vocab": [
-        "✨ [activities]: <strong>eat</strong> (ăn), <strong>drink</strong> (uống), <strong>socialize</strong> (giao lưu), <strong>multitask</strong> (làm nhiều việc), <strong>unwind</strong> (thư giãn)",
-        "✨ [feelings]: <strong>good</strong> (tốt), <strong>tired</strong> (mệt mỏi), <strong>relaxed</strong> (thư giãn), <strong>engrossed</strong> (mải mê), <strong>captivated</strong> (bị cuốn hút)",
-        "✨ [snacks]: <strong>chips</strong> (khoai tây chiên), <strong>fruit</strong> (trái cây), <strong>refreshments</strong> (đồ giải khát), <strong>delicacies</strong> (đặc sản), <strong>confectioneries</strong> (bánh kẹo)",
-        "✨ [đồ ăn vặt]: <strong>salty popcorn</strong> (bắp rang mặn), <strong>roasted mixed nuts</strong> (hạt hỗn hợp rang), <strong>crispy potato chips</strong> (khoai tây chiên giòn), <strong>dried fruit slices</strong> (trái cây sấy khô), <strong>sweet biscuits</strong> (bánh quy ngọt)"
+        "✨ [hoạt động]: <strong>snack on some popcorn</strong> (ăn nhẹ một ít bỏng ngô), <strong>sip a cup of tea</strong> (nhâm nhi một tách trà), <strong>munch on potato chips</strong> (nhai khoai tây chiên), <strong>have a light meal</strong> (ăn một bữa nhẹ), <strong>drink some fresh juice</strong> (uống một chút nước ép tươi)",
+        "✨ [tư thế]: <strong>lie on the sofa</strong> (nằm trên ghế sofa), <strong>sit comfortably in an armchair</strong> (ngồi thoải mái trên ghế bành), <strong>lean against the pillows</strong> (tựa lưng vào những chiếc gối), <strong>rest on my bed</strong> (nghỉ ngơi trên giường của tôi), <strong>stretch my legs</strong> (duỗi thẳng chân của tôi)",
+        "✨ [trạng thái]: <strong>completely relax my mind</strong> (hoàn toàn thư giãn tâm trí của tôi), <strong>unwind after a long day</strong> (xả hơi sau một ngày dài), <strong>forget all daily worries</strong> (quên đi mọi lo lắng hàng ngày), <strong>relieve immense stress</strong> (giảm bớt căng thẳng to lớn), <strong>recharge my batteries</strong> (nạp lại năng lượng của tôi)",
+        "✨ [kết quả]: <strong>enjoy the show thoroughly</strong> (thưởng thức chương trình một cách trọn vẹn), <strong>immerse myself in the plot</strong> (đắm chìm vào cốt truyện), <strong>focus on the screen</strong> (tập trung vào màn hình), <strong>appreciate the content fully</strong> (đánh giá cao nội dung một cách đầy đủ), <strong>escape from reality</strong> (thoát khỏi thực tại)"
       ],
       "templates": [
-        "I usually [activities] while enjoying some [snacks], feeling entirely [feelings] it is so interesting to hear all your different thoughts that is a great point. I usually enjoy unwinding on the sofa while having some [đồ ăn vặt].",
-        "While feeling [feelings], I love to [activities] and consume delicious [snacks] it is so interesting to hear all your different thoughts i totally agree here. I usually enjoy unwinding on the sofa while having some [đồ ăn vặt]."
+        "Whenever I watch television, I love to [hoạt động] and [tư thế]. By doing this, I can [trạng thái]. Consequently, this allows me to [kết quả].",
+        "It is my habit to [hoạt động] while I [tư thế] during a TV show. Such a routine helps me [trạng thái]. Ultimately, I am able to [kết quả]."
       ],
       "samples": [
         {
-          "en": "I usually eat while enjoying some chips, feeling entirely good it is so interesting to hear all your different thoughts that is a great point. I usually enjoy unwinding on the sofa while having some salty popcorn.",
-          "vi": "Tôi thường thư giãn trong khi thưởng thức một số loại bánh kẹo, cảm thấy hoàn toàn thư giãn. Tôi thường thích thư giãn trên ghế sô pha trong khi nhâm nhi chút bắp rang mặn. Sau một ngày vô cùng căng thẳng tại văn phòng công ty nhộn nhịp, ngồi trên chiếc ghế sofa êm ái thoải mái với những món ngọt ngay lập tức làm tan biến mọi lo lắng tích tụ của tôi."
+          "en": "Whenever I watch television, I love to snack on some popcorn and lie on the sofa. By doing this, I can completely relax my mind. Consequently, this allows me to enjoy the show thoroughly.",
+          "vi": "Bất cứ khi nào tôi xem tivi, tôi thích ăn nhẹ một ít bỏng ngô và nằm trên ghế sofa. Bằng cách này, tôi có thể hoàn toàn thư giãn tâm trí của tôi. Hậu quả là, điều này cho phép tôi thưởng thức chương trình một cách trọn vẹn."
         },
         {
-          "en": "While feeling tired, I love to drink and consume delicious fruit it is so interesting to hear all your different thoughts i totally agree here. I usually enjoy unwinding on the sofa while having some roasted mixed nuts.",
-          "vi": "Trong khi cảm thấy mải mê, tôi thích làm nhiều việc cùng lúc và tiêu thụ những thức uống giải khát thơm ngon. Tôi thường thích thư giãn trên ghế sô pha trong khi nhâm nhi chút hạt hỗn hợp rang. Tôi thường xuyên trả lời các email công việc quan trọng hoặc tình cờ lướt mạng xã hội trên điện thoại thông minh của mình trong thời gian nghỉ quảng cáo của bộ phim truyền hình ly kỳ mà tôi vô cùng yêu thích."
+          "en": "Whenever I watch television, I love to sip a cup of tea and sit comfortably in an armchair. By doing this, I can unwind after a long day. Consequently, this allows me to immerse myself in the plot.",
+          "vi": "Bất cứ khi nào tôi xem tivi, tôi thích nhâm nhi một tách trà và ngồi thoải mái trên ghế bành. Bằng cách này, tôi có thể xả hơi sau một ngày dài. Hậu quả là, điều này cho phép tôi đắm chìm vào cốt truyện."
         }
       ]
     },
     "q2": {
-      "member": "Member B",
+      "member": "Member C",
       "question": "Do you like watching TV alone or with others?",
       "vi": "Bạn thích xem TV một mình hay với người khác?",
       "vocab": [
-        "✨ [people]: <strong>friends</strong> (bạn bè), <strong>family</strong> (gia đình), <strong>acquaintances</strong> (người quen), <strong>companions</strong> (bạn đồng hành), <strong>peers</strong> (người đồng trang lứa)",
-        "✨ [preferences]: <strong>like</strong> (thích), <strong>hate</strong> (ghét), <strong>prefer</strong> (thích hơn), <strong>relish</strong> (thưởng thức), <strong>detest</strong> (căm ghét)",
-        "✨ [atmosphere]: <strong>quiet</strong> (yên tĩnh), <strong>loud</strong> (ồn ào), <strong>intimate</strong> (thân mật), <strong>boisterous</strong> (náo nhiệt), <strong>convivial</strong> (vui vẻ)",
-        "✨ [người xem cùng]: <strong>close friends</strong> (bạn thân), <strong>younger siblings</strong> (em nhỏ), <strong>extended family</strong> (đại gia đình), <strong>college roommates</strong> (bạn cùng phòng đại học), <strong>supportive parents</strong> (bố mẹ thấu hiểu)"
+        "✨ [sự lựa chọn]: <strong>watching with my family</strong> (xem cùng gia đình của tôi), <strong>enjoying shows with friends</strong> (thưởng thức các chương trình cùng bạn bè), <strong>viewing programs in a group</strong> (xem các chương trình trong một nhóm), <strong>sharing screen time with relatives</strong> (chia sẻ thời gian trên màn hình với người thân), <strong>having company around</strong> (có bạn đồng hành xung quanh)",
+        "✨ [lợi ích]: <strong>discuss the plot together</strong> (cùng nhau thảo luận về cốt truyện), <strong>share our thoughts freely</strong> (tự do chia sẻ những suy nghĩ của chúng tôi), <strong>exchange interesting opinions</strong> (trao đổi những ý kiến thú vị), <strong>express different perspectives</strong> (bày tỏ những góc nhìn khác nhau), <strong>laugh at funny scenes</strong> (cười nhạo những cảnh hài hước)",
+        "✨ [cảm giác]: <strong>creates a cozy atmosphere</strong> (tạo ra một bầu không khí ấm cúng), <strong>brings a sense of joy</strong> (mang lại một cảm giác vui vẻ), <strong>fosters an engaging vibe</strong> (thúc đẩy một sự rung cảm hấp dẫn), <strong>builds a lively environment</strong> (xây dựng một môi trường sống động), <strong>produces a warm feeling</strong> (tạo ra một cảm giác ấm áp)",
+        "✨ [kết quả]: <strong>strengthen our relationships</strong> (củng cố các mối quan hệ của chúng tôi), <strong>bond with each other</strong> (gắn kết với nhau), <strong>enhance family connections</strong> (tăng cường các kết nối gia đình), <strong>build lasting memories</strong> (xây dựng những kỷ niệm lâu dài), <strong>improve social interactions</strong> (cải thiện các tương tác xã hội)"
       ],
       "templates": [
-        "I [preferences] watching with [people] because it creates a [atmosphere] environment it is so interesting to hear all your different thoughts i totally agree here. I find that sharing the experience with my [người xem cùng] makes the shows much more entertaining.",
-        "A [atmosphere] setting with [people] is exactly why I [preferences] group viewing it is so interesting to hear all your different thoughts i must say. I find that sharing the experience with my [người xem cùng] makes the shows much more entertaining."
+        "Personally, I prefer [sự lựa chọn] because we can [lợi ích]. This shared experience [cảm giác]. Over time, it will significantly [kết quả].",
+        "I am always fond of [sự lựa chọn] as it allows us to [lợi ích]. Having company [cảm giác] and undeniably helps [kết quả]."
       ],
       "samples": [
         {
-          "en": "I like watching with friends because it creates a quiet environment it is so interesting to hear all your different thoughts i totally agree here. I find that sharing the experience with my close friends makes the shows much more entertaining.",
-          "vi": "Tôi thích xem với bạn đồng hành vì nó tạo ra một môi trường vui vẻ. Tôi thấy rằng việc chia sẻ trải nghiệm với bạn thân của mình khiến các chương trình thú vị hơn nhiều. Chúng tôi liên tục chia sẻ những ý kiến thú vị, nhiệt tình tranh luận về những tình tiết bất ngờ và cùng nhau bật cười không kiểm soát, khiến toàn bộ trải nghiệm điện ảnh trở nên vô cùng đáng nhớ và có tính tương tác cao."
+          "en": "Personally, I prefer watching with my family because we can discuss the plot together. This shared experience creates a cozy atmosphere. Over time, it will significantly strengthen our relationships.",
+          "vi": "Cá nhân tôi, tôi thích xem cùng gia đình của tôi vì chúng tôi có thể cùng nhau thảo luận về cốt truyện. Trải nghiệm được chia sẻ này tạo ra một bầu không khí ấm cúng. Theo thời gian, nó sẽ củng cố đáng kể các mối quan hệ của chúng tôi."
         },
         {
-          "en": "A loud setting with family is exactly why I hate group viewing it is so interesting to hear all your different thoughts i must say. I find that sharing the experience with my younger siblings makes the shows much more entertaining.",
-          "vi": "Một khung cảnh yên tĩnh với gia đình chính là lý do tại sao tôi thích xem theo nhóm. Tôi thấy rằng việc chia sẻ trải nghiệm với em nhỏ của mình khiến các chương trình thú vị hơn nhiều. Nó mang đến một cơ hội vô cùng an ủi để chúng tôi gắn kết một cách hòa bình và thầm lặng đánh giá cao những bộ phim tài liệu hấp dẫn sau khi vượt qua lịch trình hàng ngày vô cùng khắt khe và mệt mỏi của chúng tôi."
+          "en": "Personally, I prefer enjoying shows with friends because we can share our thoughts freely. This shared experience brings a sense of joy. Over time, it will significantly bond with each other.",
+          "vi": "Cá nhân tôi, tôi thích thưởng thức các chương trình cùng bạn bè vì chúng tôi có thể tự do chia sẻ những suy nghĩ của chúng tôi. Trải nghiệm được chia sẻ này mang lại một cảm giác vui vẻ. Theo thời gian, nó sẽ gắn kết đáng kể với nhau."
         }
       ]
     },
     "q3": {
-      "member": "Member C",
+      "member": "Member D",
       "question": "Is it good for children to watch TV programs too much?",
       "vi": "Trẻ em xem các chương trình TV quá nhiều có tốt không?",
       "vocab": [
-        "✨ [impacts]: <strong>bad</strong> (tồi tệ), <strong>sad</strong> (buồn), <strong>detrimental</strong> (có hại), <strong>harmful</strong> (nguy hại), <strong>adverse</strong> (bất lợi)",
-        "✨ [alternatives]: <strong>read</strong> (đọc), <strong>play</strong> (chơi), <strong>socialize</strong> (giao lưu), <strong>interact</strong> (tương tác), <strong>exercise</strong> (tập thể dục)",
-        "✨ [issues]: <strong>eyes</strong> (mắt), <strong>sleep</strong> (giấc ngủ), <strong>obesity</strong> (béo phì), <strong>insomnia</strong> (mất ngủ), <strong>lethargy</strong> (sự thờ ơ)",
-        "✨ [hậu quả]: <strong>poor eyesight</strong> (thị lực kém), <strong>sleep deprivation</strong> (thiếu ngủ), <strong>behavioral issues</strong> (vấn đề hành vi), <strong>reduced physical activity</strong> (giảm hoạt động thể chất), <strong>shorter attention spans</strong> (thời gian tập trung ngắn hơn)"
+        "✨ [nhận định]: <strong>highly detrimental</strong> (rất có hại), <strong>extremely harmful</strong> (vô cùng độc hại), <strong>largely negative</strong> (phần lớn là tiêu cực), <strong>quite disadvantageous</strong> (khá bất lợi), <strong>absolutely inappropriate</strong> (hoàn toàn không phù hợp)",
+        "✨ [tác động sức khỏe]: <strong>damage their eyesight</strong> (làm hỏng thị lực của chúng), <strong>cause severe obesity</strong> (gây béo phì nghiêm trọng), <strong>lead to sleep deprivation</strong> (dẫn đến thiếu ngủ), <strong>result in poor posture</strong> (dẫn đến tư thế xấu), <strong>trigger physical inactivity</strong> (kích hoạt sự thiếu vận động thể chất)",
+        "✨ [tác động tinh thần]: <strong>limit their social skills</strong> (hạn chế các kỹ năng xã hội của chúng), <strong>hinder cognitive development</strong> (cản trở sự phát triển nhận thức), <strong>reduce attention span</strong> (làm giảm thời gian chú ý), <strong>isolate them from reality</strong> (cô lập chúng khỏi thực tại), <strong>provoke aggressive behaviors</strong> (kích động các hành vi hung hăng)",
+        "✨ [giải pháp]: <strong>limit their screen time</strong> (giới hạn thời gian sử dụng màn hình của chúng), <strong>encourage outdoor activities</strong> (khuyến khích các hoạt động ngoài trời), <strong>monitor what they watch</strong> (giám sát những gì chúng xem), <strong>set strict viewing rules</strong> (thiết lập các quy tắc xem nghiêm ngặt), <strong>promote reading habits</strong> (thúc đẩy thói quen đọc sách)"
       ],
       "templates": [
-        "Excessive viewing is [impacts], causing [issues] instead of encouraging children to [alternatives] it is so interesting to hear all your different thoughts i must say. Excessive screen time can negatively impact their development and lead to [hậu quả].",
-        "Rather than helping them [alternatives], too much TV has [impacts] effects like [issues] it is so interesting to hear all your different thoughts you know. Excessive screen time can negatively impact their development and lead to [hậu quả]."
+        "In my view, excessive television consumption is [nhận định]. It can physically [tác động sức khỏe] and psychologically [tác động tinh thần]. Thus, parents should [giải pháp].",
+        "I strongly believe that spending too much time watching TV is [nhận định]. This habit might [tác động sức khỏe] as well as [tác động tinh thần]. Therefore, it is imperative to [giải pháp]."
       ],
       "samples": [
         {
-          "en": "Excessive viewing is bad, causing eyes instead of encouraging children to read it is so interesting to hear all your different thoughts i must say. Excessive screen time can negatively impact their development and lead to poor eyesight.",
-          "vi": "Xem quá nhiều là có hại, gây ra sự thờ ơ thay vì khuyến khích trẻ em giao lưu. Thời gian xem màn hình quá nhiều có thể tác động tiêu cực đến sự phát triển của chúng và dẫn đến thị lực kém. Việc ngồi thụ động trong vô số giờ liên tục hạn chế nghiêm trọng sự phát triển thể chất quan trọng của chúng và làm giảm đáng kể các cơ hội thiết yếu của chúng để thực hành các kỹ năng giao tiếp cá nhân quan trọng."
+          "en": "In my view, excessive television consumption is highly detrimental. It can physically damage their eyesight and psychologically limit their social skills. Thus, parents should limit their screen time.",
+          "vi": "Theo quan điểm của tôi, việc tiêu thụ truyền hình quá mức là rất có hại. Nó có thể làm hỏng thể chất thị lực của chúng và hạn chế tâm lý các kỹ năng xã hội của chúng. Do đó, các bậc cha mẹ nên giới hạn thời gian sử dụng màn hình của chúng."
         },
         {
-          "en": "Rather than helping them play, too much TV has sad effects like sleep it is so interesting to hear all your different thoughts you know. Excessive screen time can negatively impact their development and lead to sleep deprivation.",
-          "vi": "Thay vì giúp chúng tương tác, xem TV quá nhiều có những tác động nguy hại như béo phì. Thời gian xem màn hình quá nhiều có thể tác động tiêu cực đến sự phát triển của chúng và dẫn đến thiếu ngủ. Khi trẻ mới biết đi liên tục tiêu thụ đồ ăn nhẹ nhiều đường được chế biến kỹ trong khi nhìn chằm chằm vào màn hình kỹ thuật số phát sáng, không may là chúng nhanh chóng phát triển các thói quen ăn kiêng không lành mạnh nghiêm trọng suốt đời."
+          "en": "In my view, excessive television consumption is extremely harmful. It can physically cause severe obesity and psychologically hinder cognitive development. Thus, parents should encourage outdoor activities.",
+          "vi": "Theo quan điểm của tôi, việc tiêu thụ truyền hình quá mức là vô cùng độc hại. Nó có thể gây béo phì nghiêm trọng về thể chất và cản trở sự phát triển nhận thức về tâm lý. Do đó, các bậc cha mẹ nên khuyến khích các hoạt động ngoài trời."
         }
       ]
     }
   },
   "Car club": {
     "q1": {
-      "member": "Member A",
+      "member": "Member B",
       "question": "Tell me about a time you traveled by car.",
       "vi": "Kể cho tôi nghe về một lần bạn đi du lịch bằng ô tô.",
       "vocab": [
-        "✨ [destinations]: <strong>beach</strong> (bãi biển), <strong>park</strong> (công viên), <strong>metropolis</strong> (đô thị), <strong>wilderness</strong> (nơi hoang dã), <strong>outskirts</strong> (vùng ngoại ô)",
-        "✨ [experiences]: <strong>fun</strong> (vui), <strong>long</strong> (dài), <strong>exhausting</strong> (mệt mỏi), <strong>exhilarating</strong> (làm vui vẻ), <strong>memorable</strong> (đáng nhớ)",
-        "✨ [companions]: <strong>dad</strong> (bố), <strong>mom</strong> (mẹ), <strong>siblings</strong> (anh chị em), <strong>relatives</strong> (họ hàng), <strong>colleagues</strong> (đồng nghiệp)",
-        "✨ [địa điểm]: <strong>a coastal town</strong> (một thị trấn ven biển), <strong>a mountainous region</strong> (một vùng núi), <strong>a national park</strong> (một công viên quốc gia), <strong>a historic village</strong> (một ngôi làng lịch sử), <strong>a remote countryside</strong> (một vùng nông thôn hẻo lánh)"
+        "✨ [chuyến đi]: <strong>a memorable road trip</strong> (một chuyến đi đường bộ đáng nhớ), <strong>an exciting journey</strong> (một hành trình thú vị), <strong>a fascinating excursion</strong> (một chuyến dã ngoại hấp dẫn), <strong>a long drive</strong> (một chuyến lái xe dài), <strong>an unforgettable vacation</strong> (một kỳ nghỉ khó quên)",
+        "✨ [người đồng hành]: <strong>my close friends</strong> (những người bạn thân của tôi), <strong>my extended family</strong> (đại gia đình của tôi), <strong>some university classmates</strong> (một vài người bạn cùng lớp đại học), <strong>my beloved siblings</strong> (anh chị em yêu quý của tôi), <strong>a few colleagues</strong> (một vài đồng nghiệp)",
+        "✨ [trải nghiệm]: <strong>enjoyed stunning scenery</strong> (thưởng thức phong cảnh tuyệt đẹp), <strong>admired breathtaking landscapes</strong> (chiêm ngưỡng những cảnh quan ngoạn mục), <strong>explored hidden gems</strong> (khám phá những viên ngọc ẩn giấu), <strong>witnessed beautiful sunsets</strong> (chứng kiến những buổi hoàng hôn tuyệt đẹp), <strong>listened to upbeat music</strong> (nghe những bản nhạc sôi động)",
+        "✨ [kết quả]: <strong>felt absolutely refreshed</strong> (cảm thấy hoàn toàn sảng khoái), <strong>became incredibly energetic</strong> (trở nên vô cùng tràn đầy năng lượng), <strong>recharged my internal batteries</strong> (nạp lại năng lượng bên trong của tôi), <strong>gained valuable experiences</strong> (đạt được những kinh nghiệm quý giá), <strong>relieved all my stress</strong> (giải tỏa mọi căng thẳng của tôi)"
       ],
       "templates": [
-        "My trip to the [destinations] with my [companions] was a truly [experiences] journey it is so interesting to hear all your different thoughts you know. Last summer, I took a memorable road trip to [địa điểm] with my family.",
-        "Traveling to the [destinations] proved [experiences] when accompanied by my [companions] it is so interesting to hear all your different thoughts i totally agree here. Last summer, I took a memorable road trip to [địa điểm] with my family."
+        "I vividly remember taking [chuyến đi] with [người đồng hành] last summer. Along the way, we [trải nghiệm], which was truly amazing. By the end of it, I [kết quả].",
+        "Last year, I had [chuyến đi] alongside [người đồng hành]. During the drive, we [trải nghiệm] out of the windows. Ultimately, the entire adventure made me [kết quả]."
       ],
       "samples": [
         {
-          "en": "My trip to the beach with my dad was a truly fun journey it is so interesting to hear all your different thoughts you know. Last summer, I took a memorable road trip to a coastal town with my family.",
-          "vi": "Chuyến đi của tôi đến nơi hoang dã cùng với các đồng nghiệp là một hành trình thực sự làm vui vẻ. Mùa hè năm ngoái, tôi đã có một chuyến đi đáng nhớ bằng ô tô đến một thị trấn ven biển cùng gia đình. Chúng tôi cẩn thận điều hướng những con đường đất ngoằn ngoèo hiểm trở trên núi, vui vẻ hát vang những bài hát rock cổ điển sôi động và nhiệt tình chiêm ngưỡng toàn cảnh thung lũng tuyệt đẹp đến nghẹt thở."
+          "en": "I vividly remember taking a memorable road trip with my close friends last summer. Along the way, we enjoyed stunning scenery, which was truly amazing. By the end of it, I felt absolutely refreshed.",
+          "vi": "Tôi nhớ như in việc thực hiện một chuyến đi đường bộ đáng nhớ cùng những người bạn thân của tôi vào mùa hè năm ngoái. Dọc đường, chúng tôi thưởng thức phong cảnh tuyệt đẹp, điều này thực sự tuyệt vời. Đến cuối cùng, tôi cảm thấy hoàn toàn sảng khoái."
         },
         {
-          "en": "Traveling to the park proved long when accompanied by my mom it is so interesting to hear all your different thoughts i totally agree here. Last summer, I took a memorable road trip to a mountainous region with my family.",
-          "vi": "Việc đi du lịch đến đô thị tỏ ra mệt mỏi khi đi cùng với anh chị em của tôi. Mùa hè năm ngoái, tôi đã có một chuyến đi đáng nhớ bằng ô tô đến một vùng núi cùng gia đình. Thật không may, chúng tôi đã gặp phải tình trạng tắc nghẽn giao thông lớn không nhượng bộ gần khu tài chính trung tâm cao chót vót, khiến chuyến tham quan ngắm cảnh cuối tuần được lên kế hoạch tỉ mỉ của chúng tôi trở nên vô cùng căng thẳng và vô cùng bực bội."
+          "en": "I vividly remember taking an exciting journey with my extended family last summer. Along the way, we admired breathtaking landscapes, which was truly amazing. By the end of it, I became incredibly energetic.",
+          "vi": "Tôi nhớ như in việc thực hiện một hành trình thú vị cùng đại gia đình của tôi vào mùa hè năm ngoái. Dọc đường, chúng tôi chiêm ngưỡng những cảnh quan ngoạn mục, điều này thực sự tuyệt vời. Đến cuối cùng, tôi trở nên vô cùng tràn đầy năng lượng."
         }
       ]
     },
     "q2": {
-      "member": "Member B",
+      "member": "Member C",
       "question": "Many believe that something must be done with cars to address transportation issues. What is your opinion on this?",
       "vi": "Nhiều người tin rằng phải làm gì đó với ô tô để giải quyết các vấn đề giao thông. Ý kiến của bạn về điều này là gì?",
       "vocab": [
-        "✨ [problems]: <strong>cars</strong> (ô tô), <strong>roads</strong> (đường xá), <strong>congestion</strong> (tắc nghẽn), <strong>emissions</strong> (khí thải), <strong>gridlock</strong> (ùn tắc giao thông)",
-        "✨ [solutions]: <strong>buses</strong> (xe buýt), <strong>trains</strong> (tàu hỏa), <strong>carpooling</strong> (đi chung xe), <strong>legislation</strong> (luật pháp), <strong>infrastructure</strong> (cơ sở hạ tầng)",
-        "✨ [verbs]: <strong>stop</strong> (dừng), <strong>help</strong> (giúp), <strong>mitigate</strong> (giảm nhẹ), <strong>alleviate</strong> (làm giảm bớt), <strong>regulate</strong> (điều chỉnh)",
-        "✨ [giải pháp]: <strong>stricter emission standards</strong> (tiêu chuẩn khí thải nghiêm ngặt hơn), <strong>higher parking fees</strong> (phí đỗ xe cao hơn), <strong>carpooling incentives</strong> (khuyến khích đi chung xe), <strong>congestion pricing zones</strong> (khu vực tính phí kẹt xe), <strong>better road infrastructure</strong> (cơ sở hạ tầng đường bộ tốt hơn)"
+        "✨ [sự đồng tình]: <strong>strongly agree</strong> (mạnh mẽ đồng ý), <strong>completely side</strong> (hoàn toàn đứng về phía), <strong>fully align</strong> (hoàn toàn phù hợp), <strong>firmly concur</strong> (kiên quyết đồng tình), <strong>totally sympathize</strong> (hoàn toàn thông cảm)",
+        "✨ [vấn đề]: <strong>severe traffic congestion</strong> (tắc nghẽn giao thông nghiêm trọng), <strong>heavy air pollution</strong> (ô nhiễm không khí nặng nề), <strong>alarming accident rates</strong> (tỷ lệ tai nạn đáng báo động), <strong>huge carbon emissions</strong> (khí thải carbon khổng lồ), <strong>constant noise pollution</strong> (ô nhiễm tiếng ồn liên tục)",
+        "✨ [giải pháp]: <strong>impose higher taxes</strong> (áp dụng các loại thuế cao hơn), <strong>restrict car usage</strong> (hạn chế việc sử dụng ô tô), <strong>promote electric vehicles</strong> (thúc đẩy xe điện), <strong>implement stricter regulations</strong> (thực thi các quy định nghiêm ngặt hơn), <strong>encourage carpooling schemes</strong> (khuyến khích các kế hoạch đi chung xe)",
+        "✨ [kết quả]: <strong>mitigate the current crisis</strong> (giảm nhẹ cuộc khủng hoảng hiện tại), <strong>improve urban mobility</strong> (cải thiện tính di động đô thị), <strong>create greener cities</strong> (tạo ra những thành phố xanh hơn), <strong>ensure public safety</strong> (đảm bảo an toàn công cộng), <strong>solve transportation bottlenecks</strong> (giải quyết những điểm nghẽn giao thông)"
       ],
       "templates": [
-        "To [verbs] severe [problems], we critically need better [solutions] implemented immediately it is so interesting to hear all your different thoughts i totally agree here. To effectively reduce traffic congestion, the government should implement [giải pháp].",
-        "By improving [solutions], governments can successfully [verbs] the escalating [problems] everywhere it is so interesting to hear all your different thoughts i totally agree here. To effectively reduce traffic congestion, the government should implement [giải pháp]."
+        "I [sự đồng tình] with this viewpoint because private cars often cause [vấn đề]. To tackle this, the government should [giải pháp]. Such measures will effectively [kết quả].",
+        "It is clear that I [sự đồng tình] with the statement as automobiles are responsible for [vấn đề]. Therefore, we need to [giải pháp] immediately. Hopefully, this will [kết quả]."
       ],
       "samples": [
         {
-          "en": "To stop severe cars, we critically need better buses implemented immediately it is so interesting to hear all your different thoughts i totally agree here. To effectively reduce traffic congestion, the government should implement stricter emission standards.",
-          "vi": "Để làm giảm bớt tình trạng tắc nghẽn nghiêm trọng, chúng ta vô cùng cần cơ sở hạ tầng tốt hơn được triển khai ngay lập tức. Để giảm thiểu ùn tắc giao thông một cách hiệu quả, chính phủ nên thực hiện tiêu chuẩn khí thải nghiêm ngặt hơn. Việc xây dựng các làn đường dành riêng cho xe đạp rộng lớn và mở rộng nhanh chóng mạng lưới đường sắt đô thị ngầm sẽ khuyến khích đáng kể vô số người đi lại hàng ngày từ bỏ vĩnh viễn các phương tiện cá nhân kém hiệu quả của họ."
+          "en": "I strongly agree with this viewpoint because private cars often cause severe traffic congestion. To tackle this, the government should impose higher taxes. Such measures will effectively mitigate the current crisis.",
+          "vi": "Tôi mạnh mẽ đồng ý với quan điểm này vì ô tô cá nhân thường gây ra tắc nghẽn giao thông nghiêm trọng. Để giải quyết điều này, chính phủ nên áp dụng các loại thuế cao hơn. Những biện pháp như vậy sẽ giải quyết hiệu quả cuộc khủng hoảng hiện tại."
         },
         {
-          "en": "By improving trains, governments can successfully help the escalating roads everywhere it is so interesting to hear all your different thoughts i totally agree here. To effectively reduce traffic congestion, the government should implement higher parking fees.",
-          "vi": "Bằng cách cải thiện luật pháp, các chính phủ có thể giảm nhẹ thành công lượng khí thải ngày càng tăng ở khắp mọi nơi. Để giảm thiểu ùn tắc giao thông một cách hiệu quả, chính phủ nên thực hiện phí đỗ xe cao hơn. Việc thực thi nghiêm ngặt các tiêu chuẩn sản xuất môi trường nghiêm ngặt và trợ cấp tài chính cho việc mua ô tô điện tiên tiến sẽ làm giảm đáng kể các chất ô nhiễm độc hại trong khí quyển đe dọa hệ thống khí hậu toàn cầu mỏng manh của chúng ta."
+          "en": "I completely side with this viewpoint because private cars often cause heavy air pollution. To tackle this, the government should restrict car usage. Such measures will effectively improve urban mobility.",
+          "vi": "Tôi hoàn toàn đứng về phía quan điểm này vì ô tô cá nhân thường gây ra ô nhiễm không khí nặng nề. Để giải quyết điều này, chính phủ nên hạn chế việc sử dụng ô tô. Những biện pháp như vậy sẽ giải quyết hiệu quả tính di động đô thị."
         }
       ]
     },
     "q3": {
-      "member": "Member C",
+      "member": "Member D",
       "question": "Should we take public transportation or buy a car?",
       "vi": "Chúng ta nên đi phương tiện giao thông công cộng hay mua một chiếc ô tô?",
       "vocab": [
-        "✨ [transport]: <strong>bus</strong> (xe buýt), <strong>train</strong> (tàu hỏa), <strong>transit</strong> (giao thông công cộng), <strong>subway</strong> (tàu điện ngầm), <strong>monorail</strong> (đường sắt một ray)",
-        "✨ [benefits]: <strong>cheap</strong> (rẻ), <strong>fast</strong> (nhanh), <strong>economical</strong> (tiết kiệm), <strong>efficient</strong> (hiệu quả), <strong>sustainable</strong> (bền vững)",
-        "✨ [drawbacks]: <strong>slow</strong> (chậm), <strong>dirty</strong> (bẩn), <strong>inconvenient</strong> (bất tiện), <strong>unreliable</strong> (không đáng tin cậy), <strong>unsanitary</strong> (mất vệ sinh)",
-        "✨ [lý do]: <strong>the rising fuel costs</strong> (chi phí nhiên liệu tăng cao), <strong>the severe traffic jams</strong> (tình trạng kẹt xe nghiêm trọng), <strong>the environmental impact</strong> (tác động môi trường), <strong>the lack of parking space</strong> (thiếu không gian đỗ xe), <strong>the high maintenance expenses</strong> (chi phí bảo dưỡng cao)"
+        "✨ [lựa chọn]: <strong>relying on public transit</strong> (dựa vào phương tiện giao thông công cộng), <strong>using public transport</strong> (sử dụng phương tiện giao thông công cộng), <strong>taking buses and trains</strong> (đi xe buýt và tàu hỏa), <strong>opting for mass transit</strong> (lựa chọn phương tiện giao thông đại chúng), <strong>choosing communal transport</strong> (chọn phương tiện giao thông cộng đồng)",
+        "✨ [lợi ích tài chính]: <strong>save a lot of money</strong> (tiết kiệm nhiều tiền), <strong>reduce daily expenses</strong> (giảm chi phí hàng ngày), <strong>avoid high maintenance costs</strong> (tránh chi phí bảo trì cao), <strong>cut down fuel bills</strong> (cắt giảm hóa đơn nhiên liệu), <strong>eliminate parking fees</strong> (loại bỏ phí đỗ xe)",
+        "✨ [lợi ích môi trường]: <strong>decrease carbon footprints</strong> (giảm lượng khí thải carbon), <strong>lower gas emissions</strong> (giảm lượng khí thải), <strong>protect the natural environment</strong> (bảo vệ môi trường tự nhiên), <strong>minimize air pollution</strong> (giảm thiểu ô nhiễm không khí), <strong>combat climate change</strong> (chống lại biến đổi khí hậu)",
+        "✨ [kết quả]: <strong>foster a sustainable lifestyle</strong> (thúc đẩy một lối sống bền vững), <strong>benefit society as a whole</strong> (mang lại lợi ích cho toàn xã hội), <strong>contribute to urban development</strong> (đóng góp vào sự phát triển đô thị), <strong>create a healthier community</strong> (tạo ra một cộng đồng khỏe mạnh hơn), <strong>ensure long-term ecological balance</strong> (đảm bảo sự cân bằng sinh thái dài hạn)"
       ],
       "templates": [
-        "Although [transport] can be [drawbacks], it is fundamentally more [benefits] it is so interesting to hear all your different thoughts that is a great point. Opting for buses or trains is often more practical, especially considering [lý do].",
-        "Choosing [transport] is a [benefits] option, despite occasionally being somewhat [drawbacks] it is so interesting to hear all your different thoughts i totally agree here. Opting for buses or trains is often more practical, especially considering [lý do]."
+        "In my opinion, [lựa chọn] is a much wiser choice. Not only does it help you [lợi ích tài chính], but it also helps [lợi ích môi trường]. Consequently, this habit will [kết quả].",
+        "I am convinced that [lựa chọn] is the optimal decision. While private cars are expensive, buses can help people [lợi ích tài chính] and simultaneously [lợi ích môi trường]. Overall, it can [kết quả]."
       ],
       "samples": [
         {
-          "en": "Although bus can be slow, it is fundamentally more cheap it is so interesting to hear all your different thoughts that is a great point. Opting for buses or trains is often more practical, especially considering the rising fuel costs.",
-          "vi": "Mặc dù giao thông công cộng có thể bất tiện, nhưng về cơ bản nó bền vững hơn. Lựa chọn xe buýt hoặc tàu hỏa thường thực tế hơn, đặc biệt là khi xem xét chi phí nhiên liệu tăng cao. Việc sử dụng các phương tiện điện công cộng đông đúc làm giảm đáng kể lượng khí thải carbon có hại cho cá nhân bạn, bảo vệ sâu sắc các hệ sinh thái tự nhiên dễ bị tổn thương của chúng ta khỏi thiệt hại khí hậu môi trường lâu dài thảm khốc không thể đảo ngược."
+          "en": "In my opinion, relying on public transit is a much wiser choice. Not only does it help you save a lot of money, but it also helps decrease carbon footprints. Consequently, this habit will foster a sustainable lifestyle.",
+          "vi": "Theo ý kiến của tôi, dựa vào phương tiện giao thông công cộng là một lựa chọn khôn ngoan hơn nhiều. Nó không chỉ giúp bạn tiết kiệm nhiều tiền, mà nó còn giúp giảm lượng khí thải carbon. Hậu quả là, thói quen này sẽ thúc đẩy một lối sống bền vững."
         },
         {
-          "en": "Choosing train is a fast option, despite occasionally being somewhat dirty it is so interesting to hear all your different thoughts i totally agree here. Opting for buses or trains is often more practical, especially considering the severe traffic jams.",
-          "vi": "Chọn tàu điện ngầm là một lựa chọn nhanh chóng, mặc dù đôi khi hơi mất vệ sinh. Lựa chọn xe buýt hoặc tàu hỏa thường thực tế hơn, đặc biệt là khi xem xét tình trạng kẹt xe nghiêm trọng. Việc vượt qua các vụ tắc đường trên mặt đất vô tận một cách hiệu quả giúp các chuyên gia đô thị bận rộn hiện đại tiết kiệm vô số giờ làm việc hiệu quả quý giá trong những chuyến đi làm hàng ngày vô cùng hỗn loạn và điên cuồng của họ."
+          "en": "In my opinion, using public transport is a much wiser choice. Not only does it help you reduce daily expenses, but it also helps lower gas emissions. Consequently, this habit will benefit society as a whole.",
+          "vi": "Theo ý kiến của tôi, sử dụng phương tiện giao thông công cộng là một lựa chọn khôn ngoan hơn nhiều. Nó không chỉ giúp bạn giảm chi phí hàng ngày, mà nó còn giúp giảm lượng khí thải. Hậu quả là, thói quen này sẽ mang lại lợi ích cho toàn xã hội."
         }
       ]
     }
   },
   "Language club": {
     "q1": {
-      "member": "Member A",
+      "member": "Member B",
       "question": "Why did you choose this course?",
       "vi": "Tại sao bạn chọn khóa học này?",
       "vocab": [
-        "✨ [goals]: <strong>talk</strong> (nói chuyện), <strong>read</strong> (đọc), <strong>communicate</strong> (giao tiếp), <strong>articulate</strong> (diễn đạt rõ ràng), <strong>comprehend</strong> (hiểu thấu)",
-        "✨ [reasons]: <strong>job</strong> (công việc), <strong>school</strong> (trường học), <strong>career</strong> (sự nghiệp), <strong>advancement</strong> (sự thăng tiến), <strong>prospects</strong> (triển vọng)",
-        "✨ [feelings]: <strong>glad</strong> (vui vẻ), <strong>happy</strong> (hạnh phúc), <strong>motivated</strong> (có động lực), <strong>inspired</strong> (được truyền cảm hứng), <strong>enthusiastic</strong> (nhiệt tình)",
-        "✨ [mục tiêu]: <strong>career aspirations</strong> (khát vọng nghề nghiệp), <strong>academic requirements</strong> (yêu cầu học thuật), <strong>personal development goals</strong> (mục tiêu phát triển cá nhân), <strong>communication objectives</strong> (mục tiêu giao tiếp), <strong>professional qualifications</strong> (bằng cấp chuyên môn)"
+        "✨ [mục đích chính]: <strong>boost my career prospects</strong> (thúc đẩy triển vọng nghề nghiệp của tôi), <strong>enhance my academic profile</strong> (nâng cao hồ sơ học thuật của tôi), <strong>expand my professional network</strong> (mở rộng mạng lưới chuyên môn của tôi), <strong>improve my communication skills</strong> (cải thiện các kỹ năng giao tiếp của tôi), <strong>pursue my lifelong passion</strong> (theo đuổi niềm đam mê suốt đời của tôi)",
+        "✨ [đặc điểm khóa học]: <strong>offers a comprehensive curriculum</strong> (cung cấp một chương trình giảng dạy toàn diện), <strong>provides practical training</strong> (cung cấp đào tạo thực tế), <strong>features expert instructors</strong> (có các giảng viên chuyên gia), <strong>includes interactive lessons</strong> (bao gồm các bài học tương tác), <strong>has a flexible schedule</strong> (có một lịch trình linh hoạt)",
+        "✨ [hành động]: <strong>apply the knowledge directly</strong> (áp dụng trực tiếp kiến thức), <strong>gain hands-on experience</strong> (đạt được kinh nghiệm thực tế), <strong>master complex concepts</strong> (nắm vững các khái niệm phức tạp), <strong>overcome language barriers</strong> (vượt qua rào cản ngôn ngữ), <strong>build solid foundations</strong> (xây dựng những nền tảng vững chắc)",
+        "✨ [kết quả mong đợi]: <strong>achieve a higher salary</strong> (đạt được một mức lương cao hơn), <strong>secure a better job</strong> (đảm bảo một công việc tốt hơn), <strong>communicate more confidently</strong> (giao tiếp tự tin hơn), <strong>integrate into global environments</strong> (hòa nhập vào các môi trường toàn cầu), <strong>open new opportunities</strong> (mở ra những cơ hội mới)"
       ],
       "templates": [
-        "I felt [feelings] to choose it to [goals] better for my [reasons] it is so interesting to hear all your different thoughts i must say. I enrolled in this program primarily to achieve my [mục tiêu].",
-        "To improve my [reasons], I was [feelings] to learn to [goals] effectively it is so interesting to hear all your different thoughts i must say. I enrolled in this program primarily to achieve my [mục tiêu]."
+        "I decided to enroll because I want to [mục đích chính]. Furthermore, this specific program [đặc điểm khóa học], which allows me to [hành động]. Ultimately, I hope to [kết quả mong đợi].",
+        "My primary motivation is to [mục đích chính]. Given that the class [đặc điểm khóa học], it is an ideal place to [hành động]. By doing this, I will eventually [kết quả mong đợi]."
       ],
       "samples": [
         {
-          "en": "I felt glad to choose it to talk better for my job it is so interesting to hear all your different thoughts i must say. I enrolled in this program primarily to achieve my career aspirations.",
-          "vi": "Tôi cảm thấy có động lực để chọn nó để diễn đạt rõ ràng hơn cho sự thăng tiến của mình. Tôi đăng ký chương trình này chủ yếu để đạt được khát vọng nghề nghiệp của mình. Việc nắm vững các kỹ thuật tu từ nâng cao phức tạp sẽ cho phép tôi tự tin thực hiện các bài thuyết trình doanh nghiệp có tính thuyết phục cao trong các cuộc họp lập kế hoạch chiến lược phòng họp điều hành quốc tế cực kỳ quan trọng."
+          "en": "I decided to enroll because I want to boost my career prospects. Furthermore, this specific program offers a comprehensive curriculum, which allows me to apply the knowledge directly. Ultimately, I hope to achieve a higher salary.",
+          "vi": "Tôi quyết định đăng ký vì tôi muốn thúc đẩy triển vọng nghề nghiệp của tôi. Hơn nữa, chương trình cụ thể này cung cấp một chương trình giảng dạy toàn diện, điều này cho phép tôi áp dụng trực tiếp kiến thức. Cuối cùng, tôi hy vọng sẽ đạt được một mức lương cao hơn."
         },
         {
-          "en": "To improve my school, I was happy to learn to read effectively it is so interesting to hear all your different thoughts i must say. I enrolled in this program primarily to achieve my academic requirements.",
-          "vi": "Để cải thiện triển vọng của mình, tôi đã được truyền cảm hứng để học cách hiểu thấu đáo một cách hiệu quả. Tôi đăng ký chương trình này chủ yếu để đạt được yêu cầu học thuật của mình. Việc hiểu biết cặn kẽ các tài liệu học thuật phức tạp nhanh chóng giúp tôi dễ dàng hợp tác với các nhà nghiên cứu xuất sắc trên nhiều phòng thí nghiệm nghiên cứu công nghệ đổi mới khoa học toàn cầu đa ngành đa dạng."
+          "en": "I decided to enroll because I want to enhance my academic profile. Furthermore, this specific program provides practical training, which allows me to gain hands-on experience. Ultimately, I hope to secure a better job.",
+          "vi": "Tôi quyết định đăng ký vì tôi muốn nâng cao hồ sơ học thuật của tôi. Hơn nữa, chương trình cụ thể này cung cấp đào tạo thực tế, điều này cho phép tôi đạt được kinh nghiệm thực tế. Cuối cùng, tôi hy vọng sẽ đảm bảo một công việc tốt hơn."
         }
       ]
     },
     "q2": {
-      "member": "Member B",
+      "member": "Member C",
       "question": "How have you found the course so far? What’s been difficult?",
       "vi": "Bạn cảm thấy khóa học cho đến nay như thế nào? Điều gì là khó khăn?",
       "vocab": [
-        "✨ [difficulties]: <strong>words</strong> (từ vựng), <strong>rules</strong> (quy tắc), <strong>vocabulary</strong> (từ vựng), <strong>grammar</strong> (ngữ pháp), <strong>pronunciation</strong> (phát âm)",
-        "✨ [reactions]: <strong>hard</strong> (khó), <strong>easy</strong> (dễ), <strong>challenging</strong> (thách thức), <strong>demanding</strong> (đòi hỏi khắt khe), <strong>straightforward</strong> (dễ hiểu)",
-        "✨ [solutions]: <strong>study</strong> (học), <strong>practice</strong> (thực hành), <strong>persevere</strong> (kiên trì), <strong>memorize</strong> (ghi nhớ), <strong>rehearse</strong> (diễn tập)",
-        "✨ [kỹ năng]: <strong>listening comprehension</strong> (khả năng nghe hiểu), <strong>academic writing</strong> (viết học thuật), <strong>speaking fluency</strong> (sự trôi chảy khi nói), <strong>vocabulary retention</strong> (ghi nhớ từ vựng), <strong>grammar accuracy</strong> (sự chính xác ngữ pháp)"
+        "✨ [cảm nhận chung]: <strong>incredibly fascinating</strong> (vô cùng hấp dẫn), <strong>highly rewarding</strong> (rất bổ ích), <strong>quite intellectually stimulating</strong> (khá kích thích trí tuệ), <strong>truly eye-opening</strong> (thực sự mở mang tầm mắt), <strong>very engaging</strong> (rất lôi cuốn)",
+        "✨ [thách thức]: <strong>mastering the advanced grammar</strong> (nắm vững ngữ pháp nâng cao), <strong>memorizing tons of vocabulary</strong> (ghi nhớ hàng tấn từ vựng), <strong>pronouncing specific sounds</strong> (phát âm các âm cụ thể), <strong>comprehending native speakers</strong> (hiểu được người bản xứ), <strong>writing formal essays</strong> (viết các bài luận trang trọng)",
+        "✨ [cách giải quyết]: <strong>dedicate more time</strong> (dành nhiều thời gian hơn), <strong>practice speaking daily</strong> (thực hành nói hàng ngày), <strong>seek help from tutors</strong> (tìm kiếm sự giúp đỡ từ gia sư), <strong>review the materials constantly</strong> (xem lại các tài liệu liên tục), <strong>use language apps</strong> (sử dụng các ứng dụng ngôn ngữ)",
+        "✨ [kết quả đạt được]: <strong>make significant progress</strong> (đạt được tiến bộ đáng kể), <strong>improve my fluency</strong> (cải thiện sự trôi chảy của tôi), <strong>boost my accuracy</strong> (thúc đẩy độ chính xác của tôi), <strong>overcome my initial fears</strong> (vượt qua những nỗi sợ hãi ban đầu của tôi), <strong>gain immense confidence</strong> (đạt được sự tự tin to lớn)"
       ],
       "templates": [
-        "It is [reactions], especially the [difficulties], but I try to [solutions] daily it is so interesting to hear all your different thoughts i must say. While the lectures are engaging, I have been struggling quite a bit with my [kỹ năng].",
-        "I must [solutions] hard because the [difficulties] makes this course incredibly [reactions] it is so interesting to hear all your different thoughts i must say. While the lectures are engaging, I have been struggling quite a bit with my [kỹ năng]."
+        "So far, the journey has been [cảm nhận chung]. However, I must admit that [thách thức] is quite tough. To overcome this, I [cách giải quyết], which helps me [kết quả đạt được].",
+        "I find the lessons [cảm nhận chung] despite some hurdles. For instance, [thách thức] requires a lot of effort. Therefore, I usually [cách giải quyết] to [kết quả đạt được] gradually."
       ],
       "samples": [
         {
-          "en": "It is hard, especially the words, but I try to study daily it is so interesting to hear all your different thoughts i must say. While the lectures are engaging, I have been struggling quite a bit with my listening comprehension.",
-          "vi": "Nó đòi hỏi khắt khe, đặc biệt là phát âm, nhưng tôi cố gắng diễn tập hàng ngày. Mặc dù các bài giảng rất hấp dẫn, tôi vẫn đang khá chật vật với khả năng nghe hiểu của mình. Việc nắm vững chính xác những khác biệt ngôn ngữ âm thanh vô cùng tinh tế đó hoàn toàn đòi hỏi sự cống hiến liên tục to lớn và các bài tập luyện thanh lặp đi lặp lại vô cùng tỉ mỉ vào mỗi buổi chiều dài bận rộn."
+          "en": "So far, the journey has been incredibly fascinating. However, I must admit that mastering the advanced grammar is quite tough. To overcome this, I dedicate more time, which helps me make significant progress.",
+          "vi": "Cho đến nay, hành trình đã vô cùng hấp dẫn. Tuy nhiên, tôi phải thừa nhận rằng nắm vững ngữ pháp nâng cao là khá khó khăn. Để vượt qua điều này, tôi dành nhiều thời gian hơn, điều này giúp tôi đạt được tiến bộ đáng kể."
         },
         {
-          "en": "I must practice hard because the rules makes this course incredibly easy it is so interesting to hear all your different thoughts i must say. While the lectures are engaging, I have been struggling quite a bit with my academic writing.",
-          "vi": "Tôi phải kiên trì chăm chỉ vì ngữ pháp làm cho khóa học này vô cùng thách thức. Mặc dù các bài giảng rất hấp dẫn, tôi vẫn đang khá chật vật với viết học thuật của mình. Việc hiểu đúng các cấu trúc câu bất quy tắc phức tạp và vô số cách chia động từ khó hiểu liên tục buộc tôi phải phân tích tỉ mỉ cẩn thận các văn bản văn học cổ điển nước ngoài tinh vi được viết đẹp mắt."
+          "en": "So far, the journey has been highly rewarding. However, I must admit that memorizing tons of vocabulary is quite tough. To overcome this, I practice speaking daily, which helps me improve my fluency.",
+          "vi": "Cho đến nay, hành trình đã rất bổ ích. Tuy nhiên, tôi phải thừa nhận rằng ghi nhớ hàng tấn từ vựng là khá khó khăn. Để vượt qua điều này, tôi thực hành nói hàng ngày, điều này giúp tôi cải thiện sự trôi chảy của tôi."
         }
       ]
     },
     "q3": {
-      "member": "Member C",
+      "member": "Member D",
       "question": "What are you hoping to do when you finish the course?",
       "vi": "Bạn hy vọng sẽ làm gì khi hoàn thành khóa học?",
       "vocab": [
-        "✨ [future]: <strong>work</strong> (làm việc), <strong>travel</strong> (du lịch), <strong>emigrate</strong> (di cư), <strong>negotiate</strong> (đàm phán), <strong>integrate</strong> (hòa nhập)",
-        "✨ [achievements]: <strong>pass</strong> (đậu), <strong>win</strong> (chiến thắng), <strong>succeed</strong> (thành công), <strong>excel</strong> (xuất sắc), <strong>triumph</strong> (chiến thắng vẻ vang)",
-        "✨ [next steps]: <strong>read</strong> (đọc), <strong>write</strong> (viết), <strong>specialize</strong> (chuyên môn hóa), <strong>pursue</strong> (theo đuổi), <strong>continue</strong> (tiếp tục)",
-        "✨ [nghề nghiệp]: <strong>bilingual translator</strong> (biên dịch viên song ngữ), <strong>tour guide</strong> (hướng dẫn viên du lịch), <strong>multinational manager</strong> (quản lý đa quốc gia), <strong>foreign correspondent</strong> (phóng viên thường trú), <strong>language instructor</strong> (giảng viên ngôn ngữ)"
+        "✨ [dự định]: <strong>study abroad in Europe</strong> (du học ở Châu Âu), <strong>apply for a multinational corporation</strong> (ứng tuyển vào một tập đoàn đa quốc gia), <strong>travel around the world</strong> (đi du lịch vòng quanh thế giới), <strong>become a professional translator</strong> (trở thành một dịch giả chuyên nghiệp), <strong>pursue a master's degree</strong> (theo đuổi bằng thạc sĩ)",
+        "✨ [kỹ năng sử dụng]: <strong>communicate fluently with foreigners</strong> (giao tiếp trôi chảy với người nước ngoài), <strong>understand complex documents</strong> (hiểu các tài liệu phức tạp), <strong>negotiate effectively in business</strong> (đàm phán hiệu quả trong kinh doanh), <strong>write professional emails</strong> (viết các email chuyên nghiệp), <strong>deliver impressive presentations</strong> (thực hiện các bài thuyết trình ấn tượng)",
+        "✨ [mục tiêu sâu xa]: <strong>broaden my cultural horizons</strong> (mở rộng tầm nhìn văn hóa của tôi), <strong>secure a prosperous future</strong> (đảm bảo một tương lai thịnh vượng), <strong>establish international connections</strong> (thiết lập các kết nối quốc tế), <strong>achieve personal fulfillment</strong> (đạt được sự thỏa mãn cá nhân), <strong>contribute to global society</strong> (đóng góp cho xã hội toàn cầu)",
+        "✨ [cảm xúc tương lai]: <strong>feel extremely proud</strong> (cảm thấy vô cùng tự hào), <strong>be absolutely delighted</strong> (hoàn toàn vui mừng), <strong>stay highly motivated</strong> (luôn giữ động lực cao), <strong>become incredibly confident</strong> (trở nên vô cùng tự tin), <strong>feel completely satisfied</strong> (cảm thấy hoàn toàn hài lòng)"
       ],
       "templates": [
-        "I hope to [achievements], then [next steps] further, and eventually [future] abroad it is so interesting to hear all your different thoughts i totally agree here. Once I complete my studies, I intend to pursue a career as a [nghề nghiệp].",
-        "After I [achievements], I will [future] overseas and [next steps] my studies it is so interesting to hear all your different thoughts i totally agree here. Once I complete my studies, I intend to pursue a career as a [nghề nghiệp]."
+        "Once I graduate, my dream is to [dự định]. I will utilize my new skills to [kỹ năng sử dụng]. Ultimately, this will allow me to [mục tiêu sâu xa] and [cảm xúc tương lai].",
+        "After completion, I passionately hope to [dự định]. Being able to [kỹ năng sử dụng] is essential for my career path. Consequently, I can [mục tiêu sâu xa] and definitely [cảm xúc tương lai]."
       ],
       "samples": [
         {
-          "en": "I hope to pass, then read further, and eventually work abroad it is so interesting to hear all your different thoughts i totally agree here. Once I complete my studies, I intend to pursue a career as a bilingual translator.",
-          "vi": "Tôi hy vọng sẽ xuất sắc, sau đó chuyên môn hóa hơn nữa và cuối cùng là di cư ra nước ngoài. Sau khi hoàn thành việc học, tôi dự định theo đuổi sự nghiệp như một biên dịch viên song ngữ. Việc đạt được các chứng chỉ chuyên môn cao cấp sẽ đảm bảo vĩnh viễn đơn xin thị thực thường trú rất được mong đợi của tôi một cách hoàn hảo cho một cuộc sống thú vị phiêu lưu nước ngoài mới được thiết lập vô cùng thú vị."
+          "en": "Once I graduate, my dream is to study abroad in Europe. I will utilize my new skills to communicate fluently with foreigners. Ultimately, this will allow me to broaden my cultural horizons and feel extremely proud.",
+          "vi": "Một khi tôi tốt nghiệp, ước mơ của tôi là du học ở Châu Âu. Tôi sẽ tận dụng các kỹ năng mới của mình để giao tiếp trôi chảy với người nước ngoài. Cuối cùng, điều này sẽ cho phép tôi mở rộng tầm nhìn văn hóa của tôi và cảm thấy vô cùng tự hào."
         },
         {
-          "en": "After I win, I will travel overseas and write my studies it is so interesting to hear all your different thoughts i totally agree here. Once I complete my studies, I intend to pursue a career as a tour guide.",
-          "vi": "Sau khi thi đậu, tôi sẽ làm việc ở nước ngoài và tiếp tục việc học của mình. Sau khi hoàn thành việc học, tôi dự định theo đuổi sự nghiệp như một hướng dẫn viên du lịch. Việc gia nhập một tổ chức doanh nghiệp đa quốc gia vô cùng uy tín chắc chắn đảm bảo kinh nghiệm công nghiệp thực tế vô cùng quý giá trong khi đồng thời nhiệt tình hoàn thành chương trình cấp bằng thạc sĩ đại học sau đại học cực kỳ khắt khe của tôi."
+          "en": "Once I graduate, my dream is to apply for a multinational corporation. I will utilize my new skills to understand complex documents. Ultimately, this will allow me to secure a prosperous future and be absolutely delighted.",
+          "vi": "Một khi tôi tốt nghiệp, ước mơ của tôi là ứng tuyển vào một tập đoàn đa quốc gia. Tôi sẽ tận dụng các kỹ năng mới của mình để hiểu các tài liệu phức tạp. Cuối cùng, điều này sẽ cho phép tôi đảm bảo một tương lai thịnh vượng và hoàn toàn vui mừng."
         }
       ]
     }
   },
   "Travel club": {
     "q1": {
-      "member": "Member A",
+      "member": "Member B",
       "question": "Tell me a time you had a trip in bad weather.",
       "vi": "Kể cho tôi nghe một lần bạn có một chuyến đi trong thời tiết xấu.",
       "vocab": [
-        "✨ [weather]: <strong>rain</strong> (mưa), <strong>wind</strong> (gió), <strong>blizzard</strong> (bão tuyết), <strong>hurricane</strong> (bão cuồng phong), <strong>torrential</strong> (xối xả)",
-        "✨ [feelings]: <strong>sad</strong> (buồn), <strong>cold</strong> (lạnh), <strong>miserable</strong> (khốn khổ), <strong>disappointed</strong> (thất vọng), <strong>devastated</strong> (suy sụp)",
-        "✨ [actions]: <strong>wait</strong> (chờ đợi), <strong>sleep</strong> (ngủ), <strong>reschedule</strong> (lên lịch lại), <strong>endure</strong> (chịu đựng), <strong>navigate</strong> (điều hướng)",
-        "✨ [thời tiết]: <strong>heavy downpours</strong> (những trận mưa như trút nước), <strong>thick fog</strong> (sương mù dày đặc), <strong>freezing blizzards</strong> (bão tuyết lạnh giá), <strong>severe thunderstorms</strong> (giông bão dữ dội), <strong>gale-force winds</strong> (gió giật mạnh)"
+        "✨ [thời tiết]: <strong>a severe thunderstorm</strong> (một cơn giông bão nghiêm trọng), <strong>a heavy downpour</strong> (một trận mưa như trút nước), <strong>a massive snowstorm</strong> (một trận bão tuyết khổng lồ), <strong>freezing temperatures</strong> (nhiệt độ đóng băng), <strong>terrible foggy conditions</strong> (điều kiện sương mù tồi tệ)",
+        "✨ [sự cố]: <strong>got completely soaked</strong> (bị ướt sũng hoàn toàn), <strong>was stuck in traffic</strong> (bị kẹt xe), <strong>lost our directions</strong> (bị lạc đường), <strong>experienced flight delays</strong> (trải qua sự chậm trễ chuyến bay), <strong>had to cancel plans</strong> (phải hủy bỏ các kế hoạch)",
+        "✨ [phản ứng]: <strong>remained incredibly calm</strong> (vẫn vô cùng bình tĩnh), <strong>stayed totally positive</strong> (giữ thái độ hoàn toàn tích cực), <strong>found a cozy cafe</strong> (tìm thấy một quán cà phê ấm cúng), <strong>adapted to the situation</strong> (thích nghi với hoàn cảnh), <strong>played indoor games</strong> (chơi các trò chơi trong nhà)",
+        "✨ [bài học]: <strong>check the forecast carefully</strong> (kiểm tra dự báo thời tiết cẩn thận), <strong>pack appropriate clothes</strong> (đóng gói quần áo phù hợp), <strong>always have backup plans</strong> (luôn có các kế hoạch dự phòng), <strong>stay flexible with schedules</strong> (giữ sự linh hoạt với lịch trình), <strong>appreciate unexpected moments</strong> (trân trọng những khoảnh khắc bất ngờ)"
       ],
       "templates": [
-        "During a terrifying [weather], I was [feelings] and had to [actions] carefully it is so interesting to hear all your different thoughts i must say. Our journey was completely ruined because we encountered unexpected [thời tiết].",
-        "I felt incredibly [feelings] when forced to [actions] through the severe [weather] it is so interesting to hear all your different thoughts i must say. Our journey was completely ruined because we encountered unexpected [thời tiết]."
+        "I once traveled to the mountains during [thời tiết]. Unfortunately, we [sự cố] and could not go out. However, we [phản ứng], which taught me to [bài học].",
+        "During a beach holiday, I encountered [thời tiết]. As a result, my family [sự cố] for hours. Luckily, we [phản ứng], making me realize I should [bài học]."
       ],
       "samples": [
         {
-          "en": "During a terrifying rain, I was sad and had to wait carefully it is so interesting to hear all your different thoughts i must say. Our journey was completely ruined because we encountered unexpected heavy downpours.",
-          "vi": "Trong một trận bão cuồng phong đáng sợ, tôi đã suy sụp và phải lên lịch lại một cách cẩn thận. Chuyến đi của chúng tôi đã bị phá hỏng hoàn toàn vì chúng tôi gặp phải những trận mưa như trút nước bất ngờ. Kỳ nghỉ sang trọng trên hòn đảo nhiệt đới rất được mong đợi và đắt đỏ đáng chú ý của chúng tôi đã hoàn toàn bị hủy hoại một cách đột ngột, thật không may là chúng tôi bị mắc kẹt bên trong một phòng khách sạn nhỏ bé cực kỳ tối tăm được rào chắn cẩn thận."
+          "en": "I once traveled to the mountains during a severe thunderstorm. Unfortunately, we got completely soaked and could not go out. However, we remained incredibly calm, which taught me to check the forecast carefully.",
+          "vi": "Tôi đã từng đi du lịch đến những ngọn núi trong một cơn giông bão nghiêm trọng. Thật không may, chúng tôi bị ướt sũng hoàn toàn và không thể ra ngoài. Tuy nhiên, chúng tôi vẫn vô cùng bình tĩnh, điều này đã dạy tôi kiểm tra dự báo thời tiết cẩn thận."
         },
         {
-          "en": "I felt incredibly cold when forced to sleep through the severe wind it is so interesting to hear all your different thoughts i must say. Our journey was completely ruined because we encountered unexpected thick fog.",
-          "vi": "Tôi cảm thấy vô cùng khốn khổ khi bị buộc phải chịu đựng qua trận bão tuyết tồi tệ. Chuyến đi của chúng tôi đã bị phá hỏng hoàn toàn vì chúng tôi gặp phải sương mù dày đặc bất ngờ. Chúng tôi không ngừng run rẩy không kiểm soát được bên trong chiếc ô tô cho thuê nhỏ xíu không có lò sưởi đóng băng hoàn toàn bị hỏng của chúng tôi trong những giờ đồng hồ đáng sợ đặc biệt dài chờ đợi sự hỗ trợ cơ học chuyên nghiệp bên đường khẩn cấp hoàn toàn thiết yếu."
+          "en": "I once traveled to the mountains during a heavy downpour. Unfortunately, we was stuck in traffic and could not go out. However, we stayed totally positive, which taught me to pack appropriate clothes.",
+          "vi": "Tôi đã từng đi du lịch đến những ngọn núi trong một trận mưa như trút nước. Thật không may, chúng tôi bị kẹt xe và không thể ra ngoài. Tuy nhiên, chúng tôi giữ thái độ hoàn toàn tích cực, điều này đã dạy tôi đóng gói quần áo phù hợp."
         }
       ]
     },
     "q2": {
-      "member": "Member B",
+      "member": "Member C",
       "question": "Traveling a long distance by some means of transportation is not good for the environment? Do you agree?",
       "vi": "Đi du lịch một quãng đường dài bằng một số phương tiện giao thông là không tốt cho môi trường? Bạn có đồng ý không?",
       "vocab": [
-        "✨ [vehicles]: <strong>plane</strong> (máy bay), <strong>car</strong> (ô tô), <strong>aircraft</strong> (phi cơ), <strong>automobiles</strong> (xe hơi), <strong>locomotives</strong> (đầu máy xe lửa)",
-        "✨ [effects]: <strong>bad</strong> (tồi tệ), <strong>dirt</strong> (bụi bẩn), <strong>pollution</strong> (ô nhiễm), <strong>degradation</strong> (sự suy thoái), <strong>emissions</strong> (khí thải)",
-        "✨ [alternatives]: <strong>walk</strong> (đi bộ), <strong>bike</strong> (đi xe đạp), <strong>telecommute</strong> (làm việc từ xa), <strong>offset</strong> (đền bù), <strong>minimize</strong> (giảm thiểu)",
-        "✨ [hậu quả môi trường]: <strong>global warming</strong> (sự nóng lên toàn cầu), <strong>carbon emissions</strong> (khí thải carbon), <strong>air pollution</strong> (ô nhiễm không khí), <strong>fossil fuel depletion</strong> (sự cạn kiệt nhiên liệu hóa thạch), <strong>ecological imbalance</strong> (sự mất cân bằng sinh thái)"
+        "✨ [quan điểm]: <strong>strongly agree</strong> (mạnh mẽ đồng ý), <strong>totally concur</strong> (hoàn toàn tán thành), <strong>completely share this view</strong> (hoàn toàn chia sẻ quan điểm này), <strong>firmly believe so</strong> (tin tưởng vững chắc như vậy), <strong>absolutely support it</strong> (tuyệt đối ủng hộ nó)",
+        "✨ [tác hại]: <strong>release massive carbon emissions</strong> (thải ra lượng khí thải carbon khổng lồ), <strong>consume huge amounts of fossil fuels</strong> (tiêu thụ một lượng lớn nhiên liệu hóa thạch), <strong>worsen global warming</strong> (làm tồi tệ hơn sự nóng lên toàn cầu), <strong>pollute the pristine air</strong> (làm ô nhiễm bầu không khí trong lành), <strong>harm fragile ecosystems</strong> (gây hại cho các hệ sinh thái mỏng manh)",
+        "✨ [phương tiện thay thế]: <strong>opt for electric trains</strong> (lựa chọn tàu điện), <strong>use eco-friendly buses</strong> (sử dụng xe buýt thân thiện với môi trường), <strong>choose hybrid vehicles</strong> (chọn xe lai), <strong>promote shared transport</strong> (thúc đẩy giao thông dùng chung), <strong>travel via sustainable modes</strong> (di chuyển bằng các phương thức bền vững)",
+        "✨ [lợi ích]: <strong>protect our fragile planet</strong> (bảo vệ hành tinh mỏng manh của chúng ta), <strong>reduce the ecological footprint</strong> (giảm thiểu dấu chân sinh thái), <strong>preserve natural habitats</strong> (bảo tồn môi trường sống tự nhiên), <strong>combat severe climate changes</strong> (chống lại những thay đổi khí hậu nghiêm trọng), <strong>ensure a greener future</strong> (đảm bảo một tương lai xanh hơn)"
       ],
       "templates": [
-        "I agree; using a [vehicles] causes [effects] that we must [alternatives] it is so interesting to hear all your different thoughts i totally agree here. Aviation and car travel contribute significantly to [hậu quả môi trường].",
-        "Long journeys via [vehicles] generate enormous [effects], significantly making us [alternatives] it is so interesting to hear all your different thoughts i totally agree here. Aviation and car travel contribute significantly to [hậu quả môi trường]."
+        "I [quan điểm] because airplanes and cars usually [tác hại]. To mitigate this issue, travelers should [phương tiện thay thế] whenever possible. Consequently, such actions will [lợi ích].",
+        "Without a doubt, I [quan điểm] since long flights often [tác hại]. Therefore, it is highly recommended to [phương tiện thay thế]. Doing this allows us to [lợi ích]."
       ],
       "samples": [
         {
-          "en": "I agree; using a plane causes bad that we must walk it is so interesting to hear all your different thoughts i totally agree here. Aviation and car travel contribute significantly to global warming.",
-          "vi": "Tôi đồng ý; sử dụng máy bay gây ra sự suy thoái mà chúng ta phải giảm thiểu. Hàng không và du lịch bằng ô tô góp phần đáng kể vào sự nóng lên toàn cầu. Việc tiêu thụ liên tục tuyệt đối ồ ạt các nhiên liệu hóa thạch tinh chế cực kỳ độc hại giải phóng các khí nhà kính vô hình hoàn toàn nguy hiểm trực tiếp vào bầu khí quyển dễ bị tổn thương đang ấm lên ngày càng nhanh của chúng ta một cách liên tục."
+          "en": "I strongly agree because airplanes and cars usually release massive carbon emissions. To mitigate this issue, travelers should opt for electric trains whenever possible. Consequently, such actions will protect our fragile planet.",
+          "vi": "Tôi mạnh mẽ đồng ý vì máy bay và ô tô thường thải ra lượng khí thải carbon khổng lồ. Để giảm nhẹ vấn đề này, du khách nên lựa chọn tàu điện bất cứ khi nào có thể. Hậu quả là, những hành động như vậy sẽ bảo vệ hành tinh mỏng manh của chúng ta."
         },
         {
-          "en": "Long journeys via car generate enormous dirt, significantly making us bike it is so interesting to hear all your different thoughts i totally agree here. Aviation and car travel contribute significantly to carbon emissions.",
-          "vi": "Các chuyến đi dài qua ô tô tạo ra ô nhiễm khổng lồ, khiến chúng ta phải bù đắp đáng kể. Hàng không và du lịch bằng ô tô góp phần đáng kể vào khí thải carbon. Du lịch đại chúng quốc tế mở rộng ồ ạt không hạn chế chủ yếu dựa vào các động cơ đốt trong cực kỳ bẩn thỉu vô cùng kém hiệu quả và vô cùng ô nhiễm liên tục phá hủy các khu bảo tồn động vật hoang dã tự nhiên nguyên sơ tuyệt đẹp không thể thay thế."
+          "en": "I totally concur because airplanes and cars usually consume huge amounts of fossil fuels. To mitigate this issue, travelers should use eco-friendly buses whenever possible. Consequently, such actions will reduce the ecological footprint.",
+          "vi": "Tôi hoàn toàn tán thành vì máy bay và ô tô thường tiêu thụ một lượng lớn nhiên liệu hóa thạch. Để giảm nhẹ vấn đề này, du khách nên sử dụng xe buýt thân thiện với môi trường bất cứ khi nào có thể. Hậu quả là, những hành động như vậy sẽ giảm thiểu dấu chân sinh thái."
         }
       ]
     },
     "q3": {
-      "member": "Member C",
+      "member": "Member D",
       "question": "What are the most interesting places to visit in your country?",
       "vi": "Những địa điểm thú vị nhất để ghé thăm ở đất nước của bạn là gì?",
       "vocab": [
-        "✨ [places]: <strong>city</strong> (thành phố), <strong>park</strong> (công viên), <strong>heritage</strong> (di sản), <strong>landmarks</strong> (địa danh), <strong>landscapes</strong> (cảnh quan)",
-        "✨ [activities]: <strong>look</strong> (nhìn), <strong>eat</strong> (ăn), <strong>explore</strong> (khám phá), <strong>discover</strong> (khám phá ra), <strong>photograph</strong> (chụp ảnh)",
-        "✨ [adjectives]: <strong>nice</strong> (đẹp), <strong>good</strong> (tốt), <strong>spectacular</strong> (ngoạn mục), <strong>breathtaking</strong> (hấp dẫn), <strong>magnificent</strong> (tráng lệ)",
-        "✨ [đặc điểm]: <strong>natural landscapes</strong> (cảnh quan thiên nhiên), <strong>historical landmarks</strong> (di tích lịch sử), <strong>ancient architecture</strong> (kiến trúc cổ đại), <strong>pristine beaches</strong> (bãi biển hoang sơ), <strong>vibrant local markets</strong> (chợ địa phương nhộn nhịp)"
+        "✨ [địa điểm 1]: <strong>magnificent ancient temples</strong> (những ngôi đền cổ tráng lệ), <strong>breathtaking mountainous regions</strong> (những vùng núi ngoạn mục), <strong>stunning tropical beaches</strong> (những bãi biển nhiệt đới tuyệt đẹp), <strong>historic royal palaces</strong> (những cung điện hoàng gia lịch sử), <strong>vibrant traditional markets</strong> (những khu chợ truyền thống sôi động)",
+        "✨ [hoạt động 1]: <strong>explore the unique architecture</strong> (khám phá kiến trúc độc đáo), <strong>immerse in the local culture</strong> (đắm chìm vào văn hóa địa phương), <strong>taste delicious street food</strong> (nếm thử thức ăn đường phố ngon tuyệt), <strong>take phenomenal photographs</strong> (chụp những bức ảnh phi thường), <strong>interact with friendly locals</strong> (tương tác với những người dân địa phương thân thiện)",
+        "✨ [địa điểm 2]: <strong>dynamic modern cities</strong> (những thành phố hiện đại năng động), <strong>peaceful countryside villages</strong> (những ngôi làng nông thôn yên bình), <strong>lush national parks</strong> (những công viên quốc gia tươi tốt), <strong>spectacular limestone islands</strong> (những hòn đảo đá vôi ngoạn mục), <strong>charming coastal towns</strong> (những thị trấn ven biển duyên dáng)",
+        "✨ [cảm giác]: <strong>leave a lasting impression</strong> (để lại một ấn tượng sâu sắc), <strong>provide an unforgettable experience</strong> (cung cấp một trải nghiệm khó quên), <strong>evoke a sense of wonder</strong> (gợi lên một cảm giác kinh ngạc), <strong>offer complete relaxation</strong> (mang lại sự thư giãn hoàn toàn), <strong>bring pure joy</strong> (mang lại niềm vui thuần khiết)"
       ],
       "templates": [
-        "You should totally [activities] our [adjectives] historical [places] scattered everywhere it is so interesting to hear all your different thoughts that is a great point. Tourists are often captivated by destinations that feature stunning [đặc điểm].",
-        "Tourists love to [activities] the absolutely [adjectives] natural [places] located here it is so interesting to hear all your different thoughts i totally agree here. Tourists are often captivated by destinations that feature stunning [đặc điểm]."
+        "In my country, I highly recommend visiting [địa điểm 1] where you can [hoạt động 1]. Additionally, do not miss the [địa điểm 2]. These destinations will surely [cảm giác].",
+        "Tourists should definitely explore [địa điểm 1] to [hoạt động 1]. Moreover, heading to [địa điểm 2] is another fantastic option. Undoubtedly, such a trip will [cảm giác]."
       ],
       "samples": [
         {
-          "en": "You should totally look our nice historical city scattered everywhere it is so interesting to hear all your different thoughts that is a great point. Tourists are often captivated by destinations that feature stunning natural landscapes.",
-          "vi": "Bạn hoàn toàn nên chụp ảnh các địa danh lịch sử ngoạn mục của chúng tôi nằm rải rác khắp nơi. Khách du lịch thường bị thu hút bởi những điểm đến có cảnh quan thiên nhiên tuyệt đẹp. Những ngôi đền hoàng gia cổ kính được bảo tồn tuyệt đẹp đứng uy nghi ngoạn mục thể hiện một cách thanh lịch kỹ thuật kiến ​​trúc truyền thống tinh vi độc đáo hoàn toàn vô song được hàng triệu khách du lịch nước ngoài nhiệt tình quốc tế vô cùng ngạc nhiên ngưỡng mộ."
+          "en": "In my country, I highly recommend visiting magnificent ancient temples where you can explore the unique architecture. Additionally, do not miss the dynamic modern cities. These destinations will surely leave a lasting impression.",
+          "vi": "Ở đất nước của tôi, tôi thực sự khuyên bạn nên ghé thăm những ngôi đền cổ tráng lệ nơi bạn có thể khám phá kiến trúc độc đáo. Ngoài ra, đừng bỏ lỡ những thành phố hiện đại năng động. Những điểm đến này chắc chắn sẽ để lại một ấn tượng sâu sắc."
         },
         {
-          "en": "Tourists love to eat the absolutely good natural park located here it is so interesting to hear all your different thoughts i totally agree here. Tourists are often captivated by destinations that feature stunning historical landmarks.",
-          "vi": "Khách du lịch thích khám phá những cảnh quan thiên nhiên hoàn toàn hấp dẫn nằm ở đây. Khách du lịch thường bị thu hút bởi những điểm đến có di tích lịch sử tuyệt đẹp. Những đỉnh núi rừng nhiệt đới đá vôi độc đáo lởm chởm cao chót vót nhô lên một cách tự nhiên ấn tượng trên làn nước biển trong vắt vô cùng tĩnh lặng tuyệt đẹp lung linh lấp lánh màu ngọc lục bảo ngoạn mục thanh bình."
+          "en": "In my country, I highly recommend visiting breathtaking mountainous regions where you can immerse in the local culture. Additionally, do not miss the peaceful countryside villages. These destinations will surely provide an unforgettable experience.",
+          "vi": "Ở đất nước của tôi, tôi thực sự khuyên bạn nên ghé thăm những vùng núi ngoạn mục nơi bạn có thể đắm chìm vào văn hóa địa phương. Ngoài ra, đừng bỏ lỡ những ngôi làng nông thôn yên bình. Những điểm đến này chắc chắn sẽ cung cấp một trải nghiệm khó quên."
         }
       ]
     }
   },
   "Cinema club": {
     "q1": {
-      "member": "Member A",
       "question": "I like to sit near the screen when I go to the cinema? I never drink or eat anything during the film. What about you?",
       "vi": "Tôi thích ngồi gần màn hình khi đi xem phim. Tôi không bao giờ uống hay ăn gì trong suốt bộ phim. Còn bạn thì sao?",
       "vocab": [
-        "✨ [seating preferences]: <strong>front row</strong> (hàng ghế đầu), <strong>back row</strong> (hàng ghế cuối), <strong>optimal vantage point</strong> (góc nhìn tối ưu), <strong>immersive seating</strong> (chỗ ngồi nhập vai), <strong>middle section</strong> (khu vực giữa)",
-        "✨ [snack habits]: <strong>popcorn</strong> (bắp rang), <strong>sweet drinks</strong> (đồ uống ngọt), <strong>gourmet snacks</strong> (đồ ăn nhẹ hảo hạng), <strong>abstaining from food</strong> (nhịn ăn), <strong>uninterrupted viewing</strong> (xem không gián đoạn)",
-        "✨ [cinema atmosphere]: <strong>loud sound</strong> (âm thanh lớn), <strong>big screen</strong> (màn hình lớn), <strong>cinematic immersion</strong> (sự nhập vai điện ảnh), <strong>captivating visuals</strong> (hình ảnh quyến rũ), <strong>sensory experience</strong> (trải nghiệm giác quan)",
-        "✨ [vị trí ngồi]: <strong>a middle-row seat</strong> (ghế hàng giữa), <strong>an aisle seat</strong> (ghế cạnh lối đi), <strong>a back-row spot</strong> (chỗ ngồi hàng ghế cuối), <strong>a premium VIP seat</strong> (ghế VIP cao cấp), <strong>a balcony seat</strong> (ghế trên ban công)"
+        "✨ [vị trí ưu thích]: <strong>the middle row</strong> (hàng ghế giữa), <strong>the back seat</strong> (ghế phía sau), <strong>the front area</strong> (khu vực phía trước), <strong>the corner seat</strong> (ghế trong góc), <strong>the aisle seat</strong> (ghế gần lối đi)",
+        "✨ [lý do]: <strong>enjoy the full view</strong> (thưởng thức toàn cảnh), <strong>immerse in the sound</strong> (đắm chìm trong âm thanh), <strong>avoid neck pain</strong> (tránh đau cổ), <strong>have a better perspective</strong> (có góc nhìn tốt hơn), <strong>focus entirely on the film</strong> (tập trung hoàn toàn vào bộ phim)",
+        "✨ [đồ ăn nhẹ]: <strong>a bucket of popcorn</strong> (một xô bắp rang), <strong>some savory snacks</strong> (một vài món ăn vặt mặn), <strong>a large soda</strong> (một ly nước ngọt lớn), <strong>a few sweets</strong> (một vài viên kẹo ngọt), <strong>a box of nachos</strong> (một hộp bánh nachos)",
+        "✨ [cảm nhận]: <strong>truly fascinating</strong> (thực sự hấp dẫn), <strong>quite relaxing</strong> (khá thư giãn), <strong>absolutely delightful</strong> (hoàn toàn thú vị), <strong>extremely enjoyable</strong> (cực kỳ thú vị), <strong>highly satisfying</strong> (vô cùng thỏa mãn)"
       ],
       "templates": [
-        "I personally prefer the [seating preferences], while munching on some [snack habits] to enjoy the [cinema atmosphere] i completely understand where you are coming from. Unlike you, I always try to book [vị trí ngồi] for the best viewing angle.",
-        "Unlike you, I love the [seating preferences] and I always bring [snack habits] for a complete [cinema atmosphere] i really understand your situation right now. Unlike you, I always try to book [vị trí ngồi] for the best viewing angle."
+        "Unlike you, I often choose to sit in [vị trí ưu thích] because it gives me a wonderful opportunity to [lý do] throughout the movie. Besides, I usually grab [đồ ăn nhẹ] to make the whole experience [cảm nhận].",
+        "On the contrary, I always prefer booking [vị trí ưu thích] as this specific spot allows me to effortlessly [lý do]. Moreover, treating myself to [đồ ăn nhẹ] undeniably makes the screening session [cảm nhận]."
       ],
       "samples": [
         {
-          "en": "I personally prefer the front row, while munching on some popcorn to enjoy the loud sound i completely understand where you are coming from. Unlike you, I always try to book a middle-row seat for the best viewing angle.",
-          "vi": "Cá nhân tôi thích hàng ghế đầu, trong khi nhai một chút bắp rang để thưởng thức màn hình lớn. Khác với bạn, tôi luôn cố gắng đặt ghế hàng giữa để có góc nhìn tốt nhất. Ngồi gần khiến tôi cảm thấy được kết nối với các nhân vật và tôi thực sự yêu thích bầu không khí tuyệt vời trong từng bộ phim tôi xem."
+          "en": "Unlike you, I often choose to sit in the middle row because it gives me a wonderful opportunity to enjoy the full view throughout the movie. Besides, I usually grab a bucket of popcorn to make the whole experience truly fascinating.",
+          "vi": "Không giống như bạn, tôi thường chọn ngồi ở hàng ghế giữa vì nó mang lại cho tôi một cơ hội tuyệt vời để thưởng thức toàn cảnh trong suốt bộ phim. Ngoài ra, tôi thường lấy một xô bắp rang để làm cho toàn bộ trải nghiệm thực sự hấp dẫn."
         },
         {
-          "en": "Unlike you, I love the back row and I always bring sweet drinks for a complete big screen i really understand your situation right now. Unlike you, I always try to book an aisle seat for the best viewing angle.",
-          "vi": "Không giống như bạn, tôi yêu thích góc nhìn tối ưu và tôi luôn mang theo đồ ăn nhẹ hảo hạng cho một trải nghiệm giác quan trọn vẹn. Khác với bạn, tôi luôn cố gắng đặt ghế cạnh lối đi để có góc nhìn tốt nhất. Rạp chiếu phim mang đến một lối thoát kỳ diệu khỏi thực tế và tôi đơn giản không thể tưởng tượng được việc xem một bộ phim hay mà không có đồ ăn ngon."
+          "en": "On the contrary, I always prefer booking the back seat as this specific spot allows me to effortlessly immerse in the sound. Moreover, treating myself to some savory snacks undeniably makes the screening session quite relaxing.",
+          "vi": "Ngược lại, tôi luôn thích đặt ghế phía sau vì vị trí cụ thể này cho phép tôi dễ dàng đắm chìm trong âm thanh. Hơn nữa, tự thưởng cho mình một vài món ăn vặt mặn chắc chắn làm cho buổi chiếu phim khá thư giãn."
         }
       ]
     },
     "q2": {
-      "member": "Member B",
       "question": "I don’t like watching old black-and-white films. They’re boring. I prefer modern films. Which do you prefer, and why?",
       "vi": "Tôi không thích xem những bộ phim đen trắng cũ. Chúng thật nhàm chán. Tôi thích phim hiện đại hơn. Bạn thích loại nào hơn, và tại sao?",
       "vocab": [
-        "✨ [film types]: <strong>old movies</strong> (phim cũ), <strong>new releases</strong> (phim mới ra), <strong>classic cinema</strong> (điện ảnh kinh điển), <strong>contemporary blockbusters</strong> (bom tấn đương đại), <strong>vintage masterpieces</strong> (kiệt tác cổ điển)",
-        "✨ [visual effects]: <strong>bright colors</strong> (màu sắc rực rỡ), <strong>cool graphics</strong> (đồ họa đẹp), <strong>cutting-edge CGI</strong> (CGI tiên tiến), <strong>stunning cinematography</strong> (quay phim tuyệt đẹp), <strong>monochromatic aesthetics</strong> (tính thẩm mỹ đơn sắc)",
-        "✨ [story quality]: <strong>good plot</strong> (cốt truyện hay), <strong>fun action</strong> (hành động thú vị), <strong>intricate storytelling</strong> (kể chuyện phức tạp), <strong>profound narratives</strong> (những câu chuyện sâu sắc), <strong>character development</strong> (phát triển nhân vật)",
-        "✨ [yếu tố]: <strong>visual effects</strong> (hiệu ứng hình ảnh), <strong>computer-generated imagery</strong> (hình ảnh tạo bằng máy tính (CGI)), <strong>sound design</strong> (thiết kế âm thanh), <strong>action sequences</strong> (các cảnh hành động), <strong>cinematography techniques</strong> (kỹ thuật quay phim)"
+        "✨ [thể loại yêu thích]: <strong>contemporary blockbusters</strong> (những bộ phim bom tấn đương đại), <strong>modern sci-fi movies</strong> (phim khoa học viễn tưởng hiện đại), <strong>recent action films</strong> (những phim hành động gần đây), <strong>latest comedy flicks</strong> (những bộ phim hài mới nhất), <strong>newly released dramas</strong> (những bộ phim truyền hình mới phát hành)",
+        "✨ [lý do 1]: <strong>feature stunning visual effects</strong> (có các hiệu ứng hình ảnh tuyệt đẹp), <strong>offer incredible sound design</strong> (mang đến thiết kế âm thanh đáng kinh ngạc), <strong>boast captivating storylines</strong> (sở hữu những cốt truyện hấp dẫn), <strong>showcase brilliant cinematography</strong> (trưng bày kỹ thuật quay phim xuất sắc), <strong>present realistic characters</strong> (thể hiện những nhân vật chân thực)",
+        "✨ [lý do 2]: <strong>keep me entirely engaged</strong> (giữ cho tôi hoàn toàn bị thu hút), <strong>stimulate my imagination</strong> (kích thích trí tưởng tượng của tôi), <strong>broaden my cultural horizons</strong> (mở rộng tầm nhìn văn hóa của tôi), <strong>reflect current social issues</strong> (phản ánh các vấn đề xã hội hiện tại), <strong>provoke deep thoughts</strong> (gợi lên những suy nghĩ sâu sắc)",
+        "✨ [cảm giác]: <strong>thoroughly entertained</strong> (hoàn toàn được giải trí), <strong>absolutely mesmerized</strong> (hoàn toàn bị mê hoặc), <strong>deeply inspired</strong> (được truyền cảm hứng sâu sắc), <strong>truly amazed</strong> (thực sự kinh ngạc), <strong>completely captivated</strong> (hoàn toàn bị say đắm)"
       ],
       "templates": [
-        "I definitely prefer [film types] because of the [visual effects] and the [story quality] it is so interesting to hear all your different thoughts honestly. Contemporary blockbusters are more thrilling to me because of their impressive [yếu tố].",
-        "While some love [film types], I am drawn to the [visual effects] combined with [story quality] i just want to say i totally get it. Contemporary blockbusters are more thrilling to me because of their impressive [yếu tố]."
+        "I completely agree with you. Personally, I am a huge fan of [thể loại yêu thích] because they often [lý do 1], which can [lý do 2]. Consequently, spending time watching them always leaves me feeling [cảm giác].",
+        "To be honest, I share the exact same opinion. I tend to watch [thể loại yêu thích] since they reliably [lý do 1] and simultaneously [lý do 2]. That is why this particular genre makes me feel [cảm giác]."
       ],
       "samples": [
         {
-          "en": "I definitely prefer old movies because of the bright colors and the good plot it is so interesting to hear all your different thoughts honestly. Contemporary blockbusters are more thrilling to me because of their impressive visual effects.",
-          "vi": "Tôi chắc chắn thích những bộ phim mới ra hơn vì màu sắc rực rỡ và cốt truyện hay. Các bộ phim bom tấn đương đại thú vị hơn đối với tôi vì hiệu ứng hình ảnh ấn tượng của chúng. Những bộ phim hiện đại luôn thu hút sự chú ý của tôi một cách dễ dàng. Tôi thực sự thích đến rạp chiếu phim với những người bạn thân nhất của mình để xem những câu chuyện thú vị và vui nhộn này."
+          "en": "I completely agree with you. Personally, I am a huge fan of contemporary blockbusters because they often feature stunning visual effects, which can keep me entirely engaged. Consequently, spending time watching them always leaves me feeling thoroughly entertained.",
+          "vi": "Tôi hoàn toàn đồng ý với bạn. Cá nhân tôi là một người hâm mộ cuồng nhiệt của những bộ phim bom tấn đương đại vì chúng thường có các hiệu ứng hình ảnh tuyệt đẹp, điều này có thể giữ cho tôi hoàn toàn bị thu hút. Hậu quả là, dành thời gian xem chúng luôn khiến tôi cảm thấy hoàn toàn được giải trí."
         },
         {
-          "en": "While some love new releases, I am drawn to the cool graphics combined with fun action i just want to say i totally get it. Contemporary blockbusters are more thrilling to me because of their impressive computer-generated imagery.",
-          "vi": "Mặc dù một số người yêu thích điện ảnh kinh điển, tôi bị thu hút bởi CGI tiên tiến kết hợp với cách kể chuyện phức tạp. Các bộ phim bom tấn đương đại thú vị hơn đối với tôi vì hình ảnh tạo bằng máy tính (CGI) ấn tượng của chúng. Các bộ phim đương đại cung cấp một trải nghiệm hoàn toàn nhập vai mà các bộ phim đen trắng cũ đơn giản không thể sánh được, làm cho mỗi lần xem trở nên vô cùng và thực sự đáng nhớ đối với tôi."
+          "en": "To be honest, I share the exact same opinion. I tend to watch modern sci-fi movies since they reliably offer incredible sound design and simultaneously stimulate my imagination. That is why this particular genre makes me feel absolutely mesmerized.",
+          "vi": "Thành thật mà nói, tôi chia sẻ quan điểm hoàn toàn giống nhau. Tôi có xu hướng xem phim khoa học viễn tưởng hiện đại vì chúng đáng tin cậy mang đến thiết kế âm thanh đáng kinh ngạc và đồng thời kích thích trí tưởng tượng của tôi. Đó là lý do tại sao thể loại cụ thể này khiến tôi cảm thấy hoàn toàn bị mê hoặc."
         }
       ]
     },
     "q3": {
-      "member": "Member C",
       "question": "Some people say we don’t need cinemas anymore. We can watch everything on TV or online at home. What do you think about this?",
       "vi": "Một số người nói rằng chúng ta không cần rạp chiếu phim nữa. Chúng ta có thể xem mọi thứ trên TV hoặc trực tuyến ở nhà. Bạn nghĩ gì về điều này?",
       "vocab": [
-        "✨ [viewing mediums]: <strong>smart TVs</strong> (TV thông minh), <strong>mobile phones</strong> (điện thoại di động), <strong>streaming platforms</strong> (nền tảng phát trực tuyến), <strong>traditional cinemas</strong> (rạp chiếu phim truyền thống), <strong>home theaters</strong> (rạp hát tại nhà)",
-        "✨ [social experience]: <strong>family time</strong> (thời gian gia đình), <strong>fun outings</strong> (những chuyến đi chơi thú vị), <strong>communal atmosphere</strong> (bầu không khí cộng đồng), <strong>shared reactions</strong> (phản ứng chung), <strong>collective engagement</strong> (sự gắn kết tập thể)",
-        "✨ [audio-visual quality]: <strong>loud speakers</strong> (loa lớn), <strong>clear pictures</strong> (hình ảnh rõ nét), <strong>unrivaled acoustics</strong> (âm thanh vô song), <strong>immersive projection</strong> (trình chiếu nhập vai), <strong>superior resolution</strong> (độ phân giải vượt trội)",
-        "✨ [trải nghiệm]: <strong>immersive atmosphere</strong> (bầu không khí đắm chìm), <strong>collective reaction</strong> (phản ứng tập thể), <strong>surround sound quality</strong> (chất lượng âm thanh vòm), <strong>giant screen projection</strong> (trình chiếu màn hình khổng lồ), <strong>shared excitement</strong> (sự phấn khích được chia sẻ)"
+        "✨ [quan điểm]: <strong>completely disagree with this statement</strong> (hoàn toàn không đồng ý với nhận định này), <strong>strongly oppose this idea</strong> (kịch liệt phản đối ý tưởng này), <strong>find this view quite absurd</strong> (thấy quan điểm này khá vô lý), <strong>cannot support this argument</strong> (không thể ủng hộ lập luận này), <strong>believe this is totally wrong</strong> (tin rằng điều này hoàn toàn sai)",
+        "✨ [lợi ích rạp]: <strong>deliver an immersive cinematic experience</strong> (mang lại trải nghiệm điện ảnh đắm chìm), <strong>provide a superior sound system</strong> (cung cấp một hệ thống âm thanh vượt trội), <strong>offer a massive high-definition screen</strong> (mang đến một màn hình khổng lồ độ nét cao), <strong>create a unique shared atmosphere</strong> (tạo ra một bầu không khí chia sẻ độc đáo), <strong>ensure an unforgettable visual spectacle</strong> (đảm bảo một cảnh tượng hình ảnh khó quên)",
+        "✨ [hạn chế ở nhà]: <strong>are frequently interrupted by distractions</strong> (thường xuyên bị gián đoạn bởi sự phân tâm), <strong>lack the necessary technical equipment</strong> (thiếu các trang thiết bị kỹ thuật cần thiết), <strong>cannot replicate the theatrical magic</strong> (không thể tái tạo phép thuật của rạp hát), <strong>feel somewhat isolating and lonely</strong> (cảm thấy hơi cô lập và cô đơn), <strong>diminish the overall visual impact</strong> (làm giảm tác động hình ảnh tổng thể)",
+        "✨ [kết luận]: <strong>remain irreplaceable in our society</strong> (vẫn không thể thay thế trong xã hội của chúng ta), <strong>continue to thrive for years</strong> (tiếp tục phát triển mạnh trong nhiều năm), <strong>hold a special place in my heart</strong> (giữ một vị trí đặc biệt trong trái tim tôi), <strong>stay relevant for future generations</strong> (vẫn phù hợp cho các thế hệ tương lai), <strong>always be a popular entertainment choice</strong> (luôn là một sự lựa chọn giải trí phổ biến)"
       ],
       "templates": [
-        "Despite the rise of [viewing mediums], cinemas offer a unique [social experience] and [audio-visual quality] I will now share my personal thoughts on this matter. Going to the theater provides a unique [trải nghiệm] that cannot be replicated in a living room.",
-        "[viewing mediums] cannot replace the [social experience] or the [audio-visual quality] it is so interesting to hear all your different thoughts i totally agree here. Going to the theater provides a unique [trải nghiệm] that cannot be replicated in a living room."
+        "I [quan điểm] because going out to watch a movie can successfully [lợi ích rạp]. On the contrary, viewing films at home means you [hạn chế ở nhà]. Therefore, I am convinced that traditional movie theaters will [kết luận].",
+        "Actually, I [quan điểm] since the physical theater environment manages to [lợi ích rạp]. In stark contrast, people who stay indoors [hạn chế ở nhà]. As a result, it is clear that big cinemas must [kết luận]."
       ],
       "samples": [
         {
-          "en": "Despite the rise of smart TVs, cinemas offer a unique family time and loud speakers I will now share my personal thoughts on this matter. Going to the theater provides a unique immersive atmosphere that cannot be replicated in a living room.",
-          "vi": "Mặc dù sự lên ngôi của TV thông minh, rạp chiếu phim mang đến thời gian gia đình độc đáo và hình ảnh rõ nét. Đi xem phim ngoài rạp mang lại một bầu không khí đắm chìm độc đáo không thể sao chép trong phòng khách. Ra ngoài xem phim là một sự kiện đặc biệt. Tôi thực sự thích ăn bắp rang và cười đùa cùng bạn bè trong rạp."
+          "en": "I completely disagree with this statement because going out to watch a movie can successfully deliver an immersive cinematic experience. On the contrary, viewing films at home means you are frequently interrupted by distractions. Therefore, I am convinced that traditional movie theaters will remain irreplaceable in our society.",
+          "vi": "Tôi hoàn toàn không đồng ý với nhận định này vì ra ngoài xem một bộ phim có thể thành công mang lại trải nghiệm điện ảnh đắm chìm. Ngược lại, xem phim ở nhà có nghĩa là bạn thường xuyên bị gián đoạn bởi sự phân tâm. Do đó, tôi tin chắc rằng các rạp chiếu phim truyền thống sẽ vẫn không thể thay thế trong xã hội của chúng ta."
         },
         {
-          "en": "Mobile phones cannot replace the fun outings or the clear pictures it is so interesting to hear all your different thoughts i totally agree here. Going to the theater provides a unique collective reaction that cannot be replicated in a living room.",
-          "vi": "Tôi tin rằng các nền tảng phát trực tuyến không thể thay thế bầu không khí cộng đồng hoặc âm thanh vô song. Đi xem phim ngoài rạp mang lại một phản ứng tập thể độc đáo không thể sao chép trong phòng khách. Màn hình khổng lồ và âm thanh vòm tạo ra một môi trường khó quên mà đơn giản là không thể sao chép trong một phòng khách tiêu chuẩn, khiến rạp chiếu phim trở nên hoàn toàn thiết yếu ngày nay."
+          "en": "Actually, I strongly oppose this idea since the physical theater environment manages to provide a superior sound system. In stark contrast, people who stay indoors lack the necessary technical equipment. As a result, it is clear that big cinemas must continue to thrive for years.",
+          "vi": "Thực ra, tôi kịch liệt phản đối ý tưởng này vì môi trường rạp hát vật lý xoay sở để cung cấp một hệ thống âm thanh vượt trội. Hoàn toàn trái ngược, những người ở trong nhà thiếu các trang thiết bị kỹ thuật cần thiết. Kết quả là, rõ ràng là các rạp chiếu phim lớn phải tiếp tục phát triển mạnh trong nhiều năm."
         }
       ]
     }
   },
   "Language club 2": {
     "q1": {
-      "member": "Member A",
       "question": "Tell me about a memory you have with a foreign language.",
       "vi": "Hãy kể cho tôi nghe về một kỷ niệm bạn có với một ngoại ngữ.",
       "vocab": [
-        "✨ [learning activities]: <strong>reading books</strong> (đọc sách), <strong>playing games</strong> (chơi trò chơi), <strong>conversational practice</strong> (thực hành hội thoại), <strong>immersive interactions</strong> (tương tác nhập vai), <strong>linguistic challenges</strong> (thử thách ngôn ngữ)",
-        "✨ [feelings]: <strong>happy times</strong> (những lúc vui vẻ), <strong>scared feeling</strong> (cảm giác sợ hãi), <strong>profound accomplishment</strong> (thành tựu sâu sắc), <strong>initial frustration</strong> (sự thất vọng ban đầu), <strong>overwhelming joy</strong> (niềm vui tột độ)",
-        "✨ [outcomes]: <strong>good marks</strong> (điểm cao), <strong>new friends</strong> (bạn mới), <strong>cultural fluency</strong> (sự lưu loát văn hóa), <strong>broadened horizons</strong> (chân trời rộng mở), <strong>enhanced communication</strong> (giao tiếp được tăng cường)",
-        "✨ [tình huống]: <strong>challenging job interview</strong> (buổi phỏng vấn xin việc đầy thử thách), <strong>casual conversation abroad</strong> (cuộc trò chuyện thông thường ở nước ngoài), <strong>confusing navigation attempt</strong> (nỗ lực tìm đường bối rối), <strong>cultural exchange event</strong> (sự kiện giao lưu văn hóa), <strong>friendly debate</strong> (cuộc tranh luận thân thiện)"
+        "✨ [ngôn ngữ]: <strong>the French course</strong> (khóa học tiếng Pháp), <strong>the Spanish curriculum</strong> (chương trình giảng dạy tiếng Tây Ban Nha), <strong>the German workshop</strong> (hội thảo tiếng Đức), <strong>the Italian class</strong> (lớp học tiếng Ý), <strong>the Japanese seminar</strong> (buổi hội thảo tiếng Nhật)",
+        "✨ [hoạt động]: <strong>participate in speaking contests</strong> (tham gia các cuộc thi nói), <strong>join international debate clubs</strong> (tham gia các câu lạc bộ tranh biện quốc tế), <strong>converse with native speakers</strong> (trò chuyện với người bản ngữ), <strong>watch authentic documentaries</strong> (xem các bộ phim tài liệu đích thực), <strong>read complex academic articles</strong> (đọc các bài báo học thuật phức tạp)",
+        "✨ [kết quả]: <strong>boost my overall confidence</strong> (thúc đẩy sự tự tin tổng thể của tôi), <strong>expand my personal vocabulary</strong> (mở rộng vốn từ vựng cá nhân của tôi), <strong>improve my pronunciation skills</strong> (cải thiện kỹ năng phát âm của tôi), <strong>overcome my terrible stage fright</strong> (vượt qua nỗi sợ sân khấu tồi tệ của tôi), <strong>understand different cultural nuances</strong> (hiểu được những sắc thái văn hóa khác nhau)",
+        "✨ [cảm xúc]: <strong>incredibly proud of myself</strong> (vô cùng tự hào về bản thân), <strong>deeply motivated to learn</strong> (được thúc đẩy học tập sâu sắc), <strong>absolutely thrilled and joyful</strong> (hoàn toàn hồi hộp và vui sướng), <strong>truly satisfied with my progress</strong> (thực sự hài lòng với sự tiến bộ của mình), <strong>highly encouraged to continue</strong> (được khuyến khích cao độ để tiếp tục)"
       ],
       "templates": [
-        "I remember doing [learning activities] which brought me [feelings] and resulted in [outcomes] I will now share my personal thoughts on this matter. I distinctly recall a time when I had to use English during a [tình huống].",
-        "Through [learning activities], I experienced [feelings] and eventually achieved [outcomes] it is so interesting to hear all your different thoughts i must say. I distinctly recall a time when I had to use English during a [tình huống]."
+        "I will never forget the time I started learning through [ngôn ngữ]. In order to improve, I decided to [hoạt động], which unexpectedly helped me to [kết quả]. Looking back, that particular experience still makes me feel [cảm xúc].",
+        "A truly remarkable memory for me is related to [ngôn ngữ]. Back then, I made a huge effort to [hoạt động], and this eventually allowed me to [kết quả]. Today, recalling those challenging moments leaves me feeling [cảm xúc]."
       ],
       "samples": [
         {
-          "en": "I remember doing reading books which brought me happy times and resulted in good marks I will now share my personal thoughts on this matter. I distinctly recall a time when I had to use English during a challenging job interview.",
-          "vi": "Tôi nhớ việc đọc sách đã mang lại cho tôi những lúc vui vẻ và kết quả là có những người bạn mới. Tôi nhớ rõ một lần tôi phải sử dụng tiếng Anh trong một buổi phỏng vấn xin việc đầy thử thách. Tôi đã rất vui mừng khi cuối cùng tôi cũng hiểu được một câu chuyện đơn giản. Khoảnh khắc tuyệt vời đó khiến tôi yêu thích việc học tiếng Anh mỗi ngày kể từ đó."
+          "en": "I will never forget the time I started learning through the French course. In order to improve, I decided to participate in speaking contests, which unexpectedly helped me to boost my overall confidence. Looking back, that particular experience still makes me feel incredibly proud of myself.",
+          "vi": "Tôi sẽ không bao giờ quên khoảng thời gian tôi bắt đầu học thông qua khóa học tiếng Pháp. Để cải thiện, tôi đã quyết định tham gia các cuộc thi nói, điều này bất ngờ giúp tôi thúc đẩy sự tự tin tổng thể của tôi. Nhìn lại, trải nghiệm đặc biệt đó vẫn khiến tôi cảm thấy vô cùng tự hào về bản thân."
         },
         {
-          "en": "Through playing games, I experienced scared feeling and eventually achieved new friends it is so interesting to hear all your different thoughts i must say. I distinctly recall a time when I had to use English during a casual conversation abroad.",
-          "vi": "Thông qua thực hành hội thoại, tôi đã trải qua sự thất vọng ban đầu và cuối cùng đạt được giao tiếp được tăng cường. Tôi nhớ rõ một lần tôi phải sử dụng tiếng Anh trong một cuộc trò chuyện thông thường ở nước ngoài. Việc nói chuyện với người bản xứ ban đầu vô cùng đáng sợ, nhưng nó đã đẩy lùi ranh giới của tôi và giúp tôi tự tin hơn đáng kể trong việc sử dụng ngôn ngữ hàng ngày."
+          "en": "A truly remarkable memory for me is related to the Spanish curriculum. Back then, I made a huge effort to join international debate clubs, and this eventually allowed me to expand my personal vocabulary. Today, recalling those challenging moments leaves me feeling deeply motivated to learn.",
+          "vi": "Một kỷ niệm thực sự đáng chú ý đối với tôi có liên quan đến chương trình giảng dạy tiếng Tây Ban Nha. Hồi đó, tôi đã nỗ lực rất lớn để tham gia các câu lạc bộ tranh biện quốc tế, và điều này cuối cùng đã cho phép tôi mở rộng vốn từ vựng cá nhân của tôi. Hôm nay, nhớ lại những khoảnh khắc đầy thử thách đó khiến tôi cảm thấy được thúc đẩy học tập sâu sắc."
         }
       ]
     },
     "q2": {
-      "member": "Member B",
       "question": "Can you give me some tips on how to remember new words?",
       "vi": "Bạn có thể cho tôi một số lời khuyên về cách ghi nhớ từ mới không?",
       "vocab": [
-        "✨ [study methods]: <strong>word lists</strong> (danh sách từ), <strong>sticky notes</strong> (giấy nhớ), <strong>spaced repetition</strong> (lặp lại ngắt quãng), <strong>mnemonic devices</strong> (thủ thuật ghi nhớ), <strong>contextual reading</strong> (đọc theo ngữ cảnh)",
-        "✨ [practice frequencies]: <strong>every day</strong> (mỗi ngày), <strong>once a week</strong> (một lần một tuần), <strong>consistent intervals</strong> (khoảng thời gian nhất quán), <strong>daily immersion</strong> (sự đắm chìm hàng ngày), <strong>sporadic reviews</strong> (đánh giá lẻ tẻ)",
-        "✨ [expected results]: <strong>better memory</strong> (trí nhớ tốt hơn), <strong>fast learning</strong> (học nhanh), <strong>long-term retention</strong> (ghi nhớ dài hạn), <strong>expanded vocabulary</strong> (vốn từ vựng mở rộng), <strong>effortless recall</strong> (nhớ lại dễ dàng)",
-        "✨ [phương pháp]: <strong>spaced repetition systems</strong> (hệ thống lặp lại ngắt quãng), <strong>visual association techniques</strong> (kỹ thuật liên tưởng hình ảnh), <strong>contextual reading habits</strong> (thói quen đọc theo ngữ cảnh), <strong>daily journaling practices</strong> (thực hành viết nhật ký hàng ngày), <strong>interactive language games</strong> (trò chơi ngôn ngữ tương tác)"
+        "✨ [phương pháp]: <strong>digital flashcard applications</strong> (các ứng dụng thẻ ghi nhớ kỹ thuật số), <strong>mind mapping techniques</strong> (các kỹ thuật sơ đồ tư duy), <strong>spaced repetition systems</strong> (các hệ thống lặp lại ngắt quãng), <strong>interactive word games</strong> (các trò chơi chữ tương tác), <strong>contextual sentence building</strong> (việc xây dựng câu theo ngữ cảnh)",
+        "✨ [lợi ích]: <strong>enhance your cognitive retention</strong> (tăng cường khả năng duy trì nhận thức của bạn), <strong>accelerate the learning process</strong> (đẩy nhanh quá trình học tập), <strong>strengthen your memory paths</strong> (củng cố các đường dẫn trí nhớ của bạn), <strong>prevent rapid information loss</strong> (ngăn chặn sự mất mát thông tin nhanh chóng), <strong>stimulate visual learning abilities</strong> (kích thích khả năng học tập qua hình ảnh)",
+        "✨ [thói quen]: <strong>review them consistently</strong> (ôn tập chúng một cách nhất quán), <strong>practice reading aloud</strong> (thực hành đọc to), <strong>write detailed summary notes</strong> (viết các ghi chú tóm tắt chi tiết), <strong>engage in daily conversations</strong> (tham gia vào các cuộc trò chuyện hàng ngày), <strong>test yourself periodically</strong> (tự kiểm tra định kỳ)",
+        "✨ [nhận định]: <strong>truly remarkable and sustainable</strong> (thực sự đáng chú ý và bền vững), <strong>highly impressive over time</strong> (vô cùng ấn tượng theo thời gian), <strong>absolutely worth the effort</strong> (hoàn toàn xứng đáng với nỗ lực), <strong>beyond your initial expectations</strong> (vượt quá mong đợi ban đầu của bạn), <strong>undeniably effective and clear</strong> (chắc chắn hiệu quả và rõ ràng)"
       ],
       "templates": [
-        "I highly recommend using [study methods] [practice frequencies] to achieve [expected results] it is so interesting to hear all your different thoughts i must say. From my perspective, adopting [phương pháp] is a highly effective way to expand your vocabulary.",
-        "You should try [study methods] [practice frequencies] for [expected results] it is so interesting to hear all your different thoughts that is a great point. From my perspective, adopting [phương pháp] is a highly effective way to expand your vocabulary."
+        "From my own perspective, the most effective strategy is to use [phương pháp] because it can significantly [lợi ích]. Furthermore, if you can establish a routine to [thói quen] on a daily basis, your overall progress will be [nhận định].",
+        "I strongly recommend integrating [phương pháp] into your studies since this approach will surely [lợi ích]. Additionally, making sure to [thói quen] regularly is going to guarantee that the final outcome is [nhận định]."
       ],
       "samples": [
         {
-          "en": "I highly recommend using word lists every day to achieve better memory it is so interesting to hear all your different thoughts i must say. From my perspective, adopting spaced repetition systems is a highly effective way to expand your vocabulary.",
-          "vi": "Tôi thực sự khuyên bạn nên sử dụng giấy nhớ mỗi ngày để đạt được việc học nhanh. Theo quan điểm của tôi, áp dụng hệ thống lặp lại ngắt quãng là một cách hiệu quả cao để mở rộng vốn từ vựng của bạn. Bạn có thể dễ dàng dán chúng xung quanh nhà của bạn. Việc nhìn thấy các từ thường xuyên sẽ tự nhiên giúp não bạn ghi nhớ chúng mà không cảm thấy căng thẳng hay buồn chán trong quá trình học."
+          "en": "From my own perspective, the most effective strategy is to use digital flashcard applications because it can significantly enhance your cognitive retention. Furthermore, if you can establish a routine to review them consistently on a daily basis, your overall progress will be truly remarkable and sustainable.",
+          "vi": "Từ góc độ của riêng tôi, chiến lược hiệu quả nhất là sử dụng các ứng dụng thẻ ghi nhớ kỹ thuật số vì nó có thể tăng cường khả năng duy trì nhận thức của bạn một cách đáng kể. Hơn nữa, nếu bạn có thể thiết lập một thói quen để ôn tập chúng một cách nhất quán hàng ngày, sự tiến bộ tổng thể của bạn sẽ thực sự đáng chú ý và bền vững."
         },
         {
-          "en": "You should try sticky notes once a week for fast learning it is so interesting to hear all your different thoughts that is a great point. From my perspective, adopting visual association techniques is a highly effective way to expand your vocabulary.",
-          "vi": "Bạn nên thử lặp lại ngắt quãng ở các khoảng thời gian nhất quán để ghi nhớ dài hạn. Theo quan điểm của tôi, áp dụng kỹ thuật liên tưởng hình ảnh là một cách hiệu quả cao để mở rộng vốn từ vựng của bạn. Việc ôn tập từ vựng ngay trước khi bạn quên nó là vô cùng hiệu quả. Phương pháp khoa học này đảm bảo rằng các thuật ngữ phức tạp nằm vững trong tâm trí bạn cho các cuộc trò chuyện và bài tập viết trong tương lai."
+          "en": "I strongly recommend integrating mind mapping techniques into your studies since this approach will surely accelerate the learning process. Additionally, making sure to practice reading aloud regularly is going to guarantee that the final outcome is highly impressive over time.",
+          "vi": "Tôi thực sự khuyên bạn nên tích hợp các kỹ thuật sơ đồ tư duy vào việc học của bạn vì phương pháp tiếp cận này chắc chắn sẽ đẩy nhanh quá trình học tập. Ngoài ra, việc đảm bảo thực hành đọc to một cách thường xuyên sẽ đảm bảo rằng kết quả cuối cùng là vô cùng ấn tượng theo thời gian."
         }
       ]
     },
     "q3": {
-      "member": "Member C",
       "question": "What is the most effective way to learn English?",
       "vi": "Cách hiệu quả nhất để học tiếng Anh là gì?",
       "vocab": [
-        "✨ [learning resources]: <strong>easy books</strong> (sách dễ), <strong>pop songs</strong> (bài hát nhạc pop), <strong>authentic materials</strong> (tài liệu xác thực), <strong>academic journals</strong> (tạp chí học thuật), <strong>interactive podcasts</strong> (podcast tương tác)",
-        "✨ [learning environments]: <strong>language class</strong> (lớp học ngôn ngữ), <strong>study group</strong> (nhóm học tập), <strong>immersive settings</strong> (môi trường nhập vai), <strong>bilingual communities</strong> (cộng đồng song ngữ), <strong>virtual language exchanges</strong> (trao đổi ngôn ngữ ảo)",
-        "✨ [ultimate goals]: <strong>good speaking</strong> (nói tốt), <strong>passing exams</strong> (vượt qua kỳ thi), <strong>native-like fluency</strong> (lưu loát như người bản xứ), <strong>professional proficiency</strong> (thành thạo chuyên môn), <strong>cultural integration</strong> (hội nhập văn hóa)",
-        "✨ [tài liệu]: <strong>news broadcasts</strong> (bản tin phát sóng), <strong>academic podcasts</strong> (podcast học thuật), <strong>subtitled documentaries</strong> (phim tài liệu có phụ đề), <strong>contemporary literature</strong> (văn học đương đại), <strong>unscripted reality shows</strong> (chương trình truyền hình thực tế không kịch bản)"
+        "✨ [hoạt động chính]: <strong>total language immersion</strong> (sự đắm chìm ngôn ngữ hoàn toàn), <strong>consistent communication practice</strong> (việc thực hành giao tiếp nhất quán), <strong>intensive grammar training</strong> (khóa đào tạo ngữ pháp chuyên sâu), <strong>extensive reading habits</strong> (những thói quen đọc mở rộng), <strong>interactive group discussions</strong> (các cuộc thảo luận nhóm tương tác)",
+        "✨ [mục đích]: <strong>absorb the natural flow</strong> (hấp thụ dòng chảy tự nhiên), <strong>overcome your speaking hesitation</strong> (vượt qua sự ngập ngừng khi nói của bạn), <strong>build a flawless foundation</strong> (xây dựng một nền tảng hoàn hảo), <strong>acquire diverse vocabulary sets</strong> (đạt được các bộ từ vựng đa dạng), <strong>develop critical thinking skills</strong> (phát triển các kỹ năng tư duy phản biện)",
+        "✨ [hành động phụ]: <strong>listen to informative podcasts</strong> (nghe các podcast cung cấp thông tin), <strong>watch engaging English shows</strong> (xem các chương trình tiếng Anh hấp dẫn), <strong>write short personal journals</strong> (viết các nhật ký cá nhân ngắn), <strong>mimic native speakers' accents</strong> (bắt chước giọng của người bản ngữ), <strong>shadow fluent audio tracks</strong> (bám sát các bản ghi âm trôi chảy)",
+        "✨ [lợi cuối cùng]: <strong>achieve absolute linguistic fluency</strong> (đạt được sự trôi chảy ngôn ngữ tuyệt đối), <strong>master the complex syntax</strong> (nắm vững cú pháp phức tạp), <strong>boost your communicative confidence</strong> (thúc đẩy sự tự tin giao tiếp của bạn), <strong>excel in academic environments</strong> (xuất sắc trong các môi trường học thuật), <strong>thrive in global workplaces</strong> (phát triển mạnh ở các nơi làm việc toàn cầu)"
       ],
       "templates": [
-        "Using [learning resources] in a [learning environments] helps you reach [ultimate goals] it is so interesting to hear all your different thoughts i must say. Immersing yourself in authentic [tài liệu] can drastically improve your overall proficiency.",
-        "[learning resources] combined with a [learning environments] leads to [ultimate goals] it is so interesting to hear all your different thoughts i totally agree here. Immersing yourself in authentic [tài liệu] can drastically improve your overall proficiency."
+        "In my opinion, you should definitely focus on [hoạt động chính] so that you can easily [mục đích]. In addition to that, trying to [hành động phụ] every single day will give you a tremendous advantage to [lợi cuối cùng].",
+        "Personally, I believe prioritizing [hoạt động chính] is the ultimate key to help you [mục đích]. Moreover, taking the extra time to [hành động phụ] consistently is undeniably an excellent method to [lợi cuối cùng]."
       ],
       "samples": [
         {
-          "en": "Using easy books in a language class helps you reach good speaking it is so interesting to hear all your different thoughts i must say. Immersing yourself in authentic news broadcasts can drastically improve your overall proficiency.",
-          "vi": "Sử dụng sách dễ trong một nhóm học tập giúp bạn đạt được kỹ năng nói tốt. Đắm chìm vào các bản tin phát sóng thực tế có thể cải thiện đáng kể trình độ tổng thể của bạn. Đọc những câu chuyện đơn giản giúp bạn tự tin. Khi thảo luận chúng với bạn bè, bạn có thể luyện phát âm và hiểu rõ cách sử dụng tốt các cấu trúc ngữ pháp mới."
+          "en": "In my opinion, you should definitely focus on total language immersion so that you can easily absorb the natural flow. In addition to that, trying to listen to informative podcasts every single day will give you a tremendous advantage to achieve absolute linguistic fluency.",
+          "vi": "Theo ý kiến của tôi, bạn chắc chắn nên tập trung vào sự đắm chìm ngôn ngữ hoàn toàn để bạn có thể dễ dàng hấp thụ dòng chảy tự nhiên. Thêm vào đó, cố gắng nghe các podcast cung cấp thông tin mỗi ngày sẽ mang lại cho bạn một lợi thế to lớn để đạt được sự trôi chảy ngôn ngữ tuyệt đối."
         },
         {
-          "en": "Pop songs combined with a study group leads to passing exams it is so interesting to hear all your different thoughts i totally agree here. Immersing yourself in authentic academic podcasts can drastically improve your overall proficiency.",
-          "vi": "Tôi tin rằng tài liệu xác thực kết hợp với cộng đồng song ngữ dẫn đến sự lưu loát như người bản xứ. Đắm chìm vào các podcast học thuật thực tế có thể cải thiện đáng kể trình độ tổng thể của bạn. Tiếp xúc với nội dung thực tế cải thiện đáng kể khả năng hiểu của bạn. Bao quanh mình bằng những người nói đa dạng sẽ thúc đẩy sự tiến bộ của bạn và cung cấp những hiểu biết vô giá về cách diễn đạt tự nhiên và thành ngữ hàng ngày."
+          "en": "Personally, I believe prioritizing consistent communication practice is the ultimate key to help you overcome your speaking hesitation. Moreover, taking the extra time to watch engaging English shows consistently is undeniably an excellent method to master the complex syntax.",
+          "vi": "Cá nhân tôi, tôi tin rằng việc ưu tiên việc thực hành giao tiếp nhất quán là chìa khóa tối thượng để giúp bạn vượt qua sự ngập ngừng khi nói của bạn. Hơn nữa, việc dành thêm thời gian để xem các chương trình tiếng Anh hấp dẫn một cách nhất quán chắc chắn là một phương pháp xuất sắc để nắm vững cú pháp phức tạp."
         }
       ]
     }
   },
   "Travel club 2": {
     "q1": {
-      "member": "Member A",
       "question": "What is the most exciting journey you’ve been on?",
       "vi": "Chuyến đi thú vị nhất mà bạn từng tham gia là gì?",
       "vocab": [
-        "✨ [destinations]: <strong>big city</strong> (thành phố lớn), <strong>nice beach</strong> (bãi biển đẹp), <strong>remote wilderness</strong> (nơi hoang dã hẻo lánh), <strong>historic metropolis</strong> (đô thị lịch sử), <strong>breathtaking archipelago</strong> (quần đảo ngoạn mục)",
-        "✨ [activities]: <strong>taking photos</strong> (chụp ảnh), <strong>eating food</strong> (ăn thức ăn), <strong>thrilling excursions</strong> (các chuyến du ngoạn ly kỳ), <strong>cultural immersion</strong> (sự hòa mình vào văn hóa), <strong>adventurous trekking</strong> (đi bộ đường dài mạo hiểm)",
-        "✨ [emotions]: <strong>very happy</strong> (rất vui), <strong>a bit tired</strong> (hơi mệt), <strong>profoundly inspired</strong> (vô cùng có cảm hứng), <strong>utterly captivated</strong> (hoàn toàn bị say đắm), <strong>exhilarated and liberated</strong> (hứng khởi và tự do)",
-        "✨ [phương tiện]: <strong>an overnight sleeper train</strong> (tàu giường nằm qua đêm), <strong>a high-speed ferry</strong> (phà cao tốc), <strong>a local hot air balloon</strong> (khinh khí cầu địa phương), <strong>a rented convertible</strong> (ô tô mui trần thuê), <strong>a scenic cable car</strong> (cáp treo ngắm cảnh)"
+        "✨ [địa điểm]: <strong>a remote tropical island</strong> (một hòn đảo nhiệt đới hẻo lánh), <strong>a historic European city</strong> (một thành phố châu Âu lịch sử), <strong>a picturesque coastal village</strong> (một ngôi làng ven biển đẹp như tranh vẽ), <strong>a magnificent snowy mountain</strong> (một ngọn núi tuyết tráng lệ), <strong>a dense mysterious rainforest</strong> (một khu rừng nhiệt đới bí ẩn rậm rạp)",
+        "✨ [hoạt động]: <strong>explore hidden local caves</strong> (khám phá những hang động địa phương ẩn giấu), <strong>hike along dangerous trails</strong> (đi bộ đường dài dọc theo những con đường mòn nguy hiểm), <strong>try exotic traditional dishes</strong> (thử những món ăn truyền thống kỳ lạ), <strong>interact with indigenous communities</strong> (tương tác với các cộng đồng bản địa), <strong>witness breathtaking natural phenomena</strong> (chứng kiến những hiện tượng tự nhiên ngoạn mục)",
+        "✨ [trải nghiệm]: <strong>broaden my global perspective</strong> (mở rộng quan điểm toàn cầu của tôi), <strong>escape the stressful urban life</strong> (thoát khỏi cuộc sống đô thị căng thẳng), <strong>challenge my physical endurance</strong> (thách thức sức bền thể chất của tôi), <strong>learn invaluable survival skills</strong> (học được những kỹ năng sinh tồn vô giá), <strong>appreciate mother nature's beauty</strong> (trân trọng vẻ đẹp của mẹ thiên nhiên)",
+        "✨ [cảm nhận]: <strong>an unforgettable adventure overall</strong> (một cuộc phiêu lưu khó quên nói chung), <strong>a truly magical experience</strong> (một trải nghiệm thực sự kỳ diệu), <strong>an absolutely eye-opening journey</strong> (một chuyến đi hoàn toàn mở mang tầm mắt), <strong>a highly rewarding expedition</strong> (một chuyến thám hiểm vô cùng bổ ích), <strong>a deeply transformative vacation</strong> (một kỳ nghỉ thay đổi sâu sắc)"
       ],
       "templates": [
-        "My trip to the [destinations] involved [activities] and left me feeling [emotions] I will now share my personal thoughts on this matter. The highlight of that adventure was definitely the part where we traveled by [phương tiện].",
-        "Visiting a [destinations] for [activities] made me feel [emotions] it is so interesting to hear all your different thoughts i must say. The highlight of that adventure was definitely the part where we traveled by [phương tiện]."
+        "The most breathtaking trip I have ever taken was a memorable vacation to [địa điểm]. During my stay, I managed to [hoạt động], which provided me with a fantastic chance to [trải nghiệm]. Overall, it was [cảm nhận].",
+        "Without a doubt, my most thrilling getaway was an incredible visit to [địa điểm]. I had the rare opportunity to [hoạt động], allowing me to fully [trải nghiệm]. Looking back, I must say it was [cảm nhận]."
       ],
       "samples": [
         {
-          "en": "My trip to the big city involved taking photos and left me feeling very happy I will now share my personal thoughts on this matter. The highlight of that adventure was definitely the part where we traveled by an overnight sleeper train.",
-          "vi": "Chuyến đi đến thành phố lớn của tôi bao gồm việc chụp ảnh và để lại cho tôi cảm giác rất vui. Điểm nhấn của cuộc phiêu lưu đó chắc chắn là phần chúng tôi di chuyển bằng tàu giường nằm qua đêm. Tôi đã nhìn thấy nhiều tòa nhà cao tầng và đến thăm những địa danh nổi tiếng. Toàn bộ kỳ nghỉ vô cùng thú vị và tôi thực sự muốn quay lại đó lần nữa."
+          "en": "The most breathtaking trip I have ever taken was a memorable vacation to a remote tropical island. During my stay, I managed to explore hidden local caves, which provided me with a fantastic chance to broaden my global perspective. Overall, it was an unforgettable adventure overall.",
+          "vi": "Chuyến đi ngoạn mục nhất mà tôi từng thực hiện là một kỳ nghỉ đáng nhớ đến một hòn đảo nhiệt đới hẻo lánh. Trong thời gian lưu trú, tôi đã xoay sở để khám phá những hang động địa phương ẩn giấu, điều này cung cấp cho tôi một cơ hội tuyệt vời để mở rộng quan điểm toàn cầu của tôi. Nhìn chung, đó là một cuộc phiêu lưu khó quên nói chung."
         },
         {
-          "en": "Visiting a nice beach for eating food made me feel a bit tired it is so interesting to hear all your different thoughts i must say. The highlight of that adventure was definitely the part where we traveled by a high-speed ferry.",
-          "vi": "Đến thăm một quần đảo ngoạn mục cho các chuyến du ngoạn ly kỳ khiến tôi cảm thấy hoàn toàn bị say đắm. Điểm nhấn của cuộc phiêu lưu đó chắc chắn là phần chúng tôi di chuyển bằng phà cao tốc. Khám phá những hang động ẩn giấu và bơi lội trong làn nước trong vắt thật phi thường. Vẻ đẹp thiên nhiên bao quanh tôi hoàn toàn vượt quá mong đợi và mang đến một trải nghiệm du lịch mùa hè hoàn toàn không thể quên."
+          "en": "Without a doubt, my most thrilling getaway was an incredible visit to a historic European city. I had the rare opportunity to hike along dangerous trails, allowing me to fully escape the stressful urban life. Looking back, I must say it was a truly magical experience.",
+          "vi": "Không nghi ngờ gì nữa, kỳ nghỉ hồi hộp nhất của tôi là một chuyến thăm đáng kinh ngạc đến một thành phố châu Âu lịch sử. Tôi đã có cơ hội hiếm hoi để đi bộ đường dài dọc theo những con đường mòn nguy hiểm, cho phép tôi hoàn toàn thoát khỏi cuộc sống đô thị căng thẳng. Nhìn lại, tôi phải nói rằng đó là một trải nghiệm thực sự kỳ diệu."
         }
       ]
     },
     "q2": {
-      "member": "Member B",
       "question": "Can you remember the first time you went on a journey by yourself? What was it like?",
       "vi": "Bạn có nhớ lần đầu tiên bạn đi du lịch một mình không? Nó như thế nào?",
       "vocab": [
-        "✨ [preparation]: <strong>packing bags</strong> (đóng gói hành lý), <strong>buying tickets</strong> (mua vé), <strong>meticulous planning</strong> (lập kế hoạch tỉ mỉ), <strong>logistical arrangements</strong> (sắp xếp hậu cần), <strong>gathering essentials</strong> (thu thập đồ dùng thiết yếu)",
-        "✨ [challenges]: <strong>getting lost</strong> (bị lạc), <strong>feeling lonely</strong> (cảm thấy cô đơn), <strong>navigating unfamiliar terrain</strong> (điều hướng địa hình xa lạ), <strong>overcoming language barriers</strong> (vượt qua rào cản ngôn ngữ), <strong>managing unforeseen obstacles</strong> (quản lý những trở ngại không lường trước)",
-        "✨ [personal growth]: <strong>being brave</strong> (trở nên dũng cảm), <strong>learning fast</strong> (học nhanh), <strong>fostering independence</strong> (thúc đẩy sự tự lập), <strong>building resilience</strong> (xây dựng khả năng phục hồi), <strong>cultivating self-reliance</strong> (trau dồi sự tự lực)",
-        "✨ [cảm xúc]: <strong>nervous anticipation</strong> (hồi hộp mong đợi), <strong>overwhelming independence</strong> (độc lập quá đỗi), <strong>slight homesickness</strong> (nhớ nhà đôi chút), <strong>thrilling excitement</strong> (hào hứng hồi hộp), <strong>curious wonder</strong> (tò mò kinh ngạc)"
+        "✨ [thời điểm]: <strong>during my university years</strong> (trong những năm đại học của tôi), <strong>right after high school</strong> (ngay sau khi tốt nghiệp trung học), <strong>a couple of years ago</strong> (vài năm trước), <strong>in my early twenties</strong> (vào đầu những năm tuổi hai mươi của tôi), <strong>last summer holiday exactly</strong> (chính xác là kỳ nghỉ hè năm ngoái)",
+        "✨ [nơi đến]: <strong>a bustling neighboring country</strong> (một quốc gia láng giềng nhộn nhịp), <strong>a quiet countryside town</strong> (một thị trấn nông thôn yên tĩnh), <strong>a famous historic landmark</strong> (một địa danh lịch sử nổi tiếng), <strong>a beautiful coastal resort</strong> (một khu nghỉ mát ven biển tuyệt đẹp), <strong>a distant cultural capital</strong> (một thủ đô văn hóa xa xôi)",
+        "✨ [hoạt động]: <strong>navigate public transportation systems</strong> (điều hướng các hệ thống giao thông công cộng), <strong>manage my tight budget</strong> (quản lý ngân sách eo hẹp của tôi), <strong>communicate using broken language</strong> (giao tiếp bằng ngôn ngữ chắp vá), <strong>organize detailed daily itineraries</strong> (tổ chức các lịch trình hàng ngày chi tiết), <strong>handle unexpected travel emergencies</strong> (xử lý các trường hợp khẩn cấp bất ngờ khi đi du lịch)",
+        "✨ [cảm xúc]: <strong>empowered and incredibly independent</strong> (được trao quyền và vô cùng độc lập), <strong>nervous but extremely excited</strong> (lo lắng nhưng cực kỳ hào hứng), <strong>proud of my resilience</strong> (tự hào về sự kiên cường của tôi), <strong>overwhelmed yet deeply satisfied</strong> (choáng ngợp nhưng thỏa mãn sâu sắc), <strong>courageous and much wiser</strong> (can đảm và khôn ngoan hơn nhiều)"
       ],
       "templates": [
-        "After [preparation], I faced [challenges] which ultimately resulted in [personal growth] it is so interesting to hear all your different thoughts you know. Initially, stepping out of my comfort zone filled me with a deep sense of [cảm xúc].",
-        "Despite the [preparation], I still experienced [challenges], but it led to [personal growth] I will now share my personal thoughts on this matter. Initially, stepping out of my comfort zone filled me with a deep sense of [cảm xúc]."
+        "I distinctly recall that my first solo adventure took place [thời điểm] when I traveled to [nơi đến]. Although I had to [hoạt động] all on my own without any help, the whole journey made me feel [cảm xúc] in the end.",
+        "My very first independent trip actually happened [thời điểm], leading me to [nơi đến]. Because I was forced to [hoạt động] by myself for the first time, the entire experience eventually left me feeling [cảm xúc]."
       ],
       "samples": [
         {
-          "en": "After packing bags, I faced getting lost which ultimately resulted in being brave it is so interesting to hear all your different thoughts you know. Initially, stepping out of my comfort zone filled me with a deep sense of nervous anticipation.",
-          "vi": "Sau khi đóng gói hành lý, tôi đối mặt với việc bị lạc, điều cuối cùng dẫn đến việc trở nên dũng cảm. Ban đầu, bước ra khỏi vùng an toàn khiến tôi ngập tràn cảm giác hồi hộp mong đợi. Tôi đi nhầm xe buýt và đi bộ hàng giờ. Tuy nhiên, việc tìm được đường về nhà an toàn đã dạy tôi cách xử lý hoàn hảo các tình huống khó khăn mà không cần khóc lóc."
+          "en": "I distinctly recall that my first solo adventure took place during my university years when I traveled to a bustling neighboring country. Although I had to navigate public transportation systems all on my own without any help, the whole journey made me feel empowered and incredibly independent in the end.",
+          "vi": "Tôi nhớ rõ rằng cuộc phiêu lưu một mình đầu tiên của tôi diễn ra trong những năm đại học của tôi khi tôi đi du lịch đến một quốc gia láng giềng nhộn nhịp. Mặc dù tôi phải điều hướng các hệ thống giao thông công cộng hoàn toàn một mình mà không có bất kỳ sự giúp đỡ nào, toàn bộ chuyến đi cuối cùng đã khiến tôi cảm thấy được trao quyền và vô cùng độc lập."
         },
         {
-          "en": "Despite the buying tickets, I still experienced feeling lonely, but it led to learning fast I will now share my personal thoughts on this matter. Initially, stepping out of my comfort zone filled me with a deep sense of overwhelming independence.",
-          "vi": "Bất chấp việc lập kế hoạch tỉ mỉ, tôi vẫn trải qua việc vượt qua rào cản ngôn ngữ, nhưng nó dẫn đến việc thúc đẩy sự tự lập. Ban đầu, bước ra khỏi vùng an toàn khiến tôi ngập tràn cảm giác độc lập quá đỗi. Việc cố gắng gọi món ăn chỉ bằng cử chỉ rất đáng sợ. Tuy nhiên, việc truyền đạt thành công nhu cầu của mình đã thúc đẩy đáng kể sự tự tin và mở rộng tầm nhìn của tôi."
+          "en": "My very first independent trip actually happened right after high school, leading me to a quiet countryside town. Because I was forced to manage my tight budget by myself for the first time, the entire experience eventually left me feeling nervous but extremely excited.",
+          "vi": "Chuyến đi độc lập đầu tiên của tôi thực sự đã xảy ra ngay sau khi tốt nghiệp trung học, dẫn tôi đến một thị trấn nông thôn yên tĩnh. Bởi vì tôi bị buộc phải quản lý ngân sách eo hẹp của tôi một mình lần đầu tiên, toàn bộ trải nghiệm cuối cùng đã khiến tôi cảm thấy lo lắng nhưng cực kỳ hào hứng."
         }
       ]
     },
     "q3": {
-      "member": "Member C",
       "question": "Some people like taking photos when they have vacation. Your opinion?",
       "vi": "Một số người thích chụp ảnh khi họ đi nghỉ. Ý kiến của bạn là gì?",
       "vocab": [
-        "✨ [photo types]: <strong>funny selfies</strong> (ảnh tự sướng vui nhộn), <strong>group pictures</strong> (ảnh nhóm), <strong>scenic landscapes</strong> (phong cảnh đẹp), <strong>candid portraits</strong> (chân dung chân thực), <strong>architectural marvels</strong> (kỳ quan kiến trúc)",
-        "✨ [purposes]: <strong>showing friends</strong> (cho bạn bè xem), <strong>keeping memories</strong> (lưu giữ kỷ niệm), <strong>documenting experiences</strong> (tư liệu hóa trải nghiệm), <strong>artistic expression</strong> (thể hiện nghệ thuật), <strong>preserving fleeting moments</strong> (bảo tồn những khoảnh khắc phù du)",
-        "✨ [drawbacks]: <strong>wasting time</strong> (lãng phí thời gian), <strong>heavy bags</strong> (túi nặng), <strong>distracting from reality</strong> (làm xao nhãng khỏi thực tế), <strong>diminishing genuine enjoyment</strong> (làm giảm sự thích thú thực sự), <strong>obstructing natural interactions</strong> (cản trở các tương tác tự nhiên)",
-        "✨ [mục đích]: <strong>relaxation goals</strong> (mục tiêu thư giãn), <strong>authentic cultural immersion</strong> (sự đắm chìm văn hóa đích thực), <strong>meaningful personal connections</strong> (những kết nối cá nhân ý nghĩa), <strong>stress relief intentions</strong> (ý định xả stress), <strong>mindful presence</strong> (sự hiện diện chánh niệm)"
+        "✨ [nhận định]: <strong>an absolutely fantastic habit</strong> (một thói quen hoàn toàn tuyệt vời), <strong>a highly rewarding practice</strong> (một thực hành vô cùng bổ ích), <strong>a truly meaningful activity</strong> (một hoạt động thực sự ý nghĩa), <strong>an incredibly valuable tradition</strong> (một truyền thống vô cùng giá trị), <strong>a perfectly understandable desire</strong> (một mong muốn hoàn toàn dễ hiểu)",
+        "✨ [lợi ích 1]: <strong>freeze precious fleeting moments</strong> (đóng băng những khoảnh khắc quý giá phù du), <strong>document their personal growth</strong> (ghi lại sự phát triển cá nhân của họ), <strong>capture stunning scenic views</strong> (chụp lại những khung cảnh ngoạn mục), <strong>preserve unique cultural encounters</strong> (bảo tồn những cuộc chạm trán văn hóa độc đáo), <strong>retain vivid sensory details</strong> (giữ lại những chi tiết cảm giác sống động)",
+        "✨ [lợi ích 2]: <strong>share stories with relatives</strong> (chia sẻ những câu chuyện với người thân), <strong>reflect on happy times</strong> (suy ngẫm về những khoảng thời gian hạnh phúc), <strong>build a digital diary</strong> (xây dựng một cuốn nhật ký kỹ thuật số), <strong>inspire others to travel</strong> (truyền cảm hứng cho những người khác đi du lịch), <strong>relive the past joy</strong> (sống lại niềm vui quá khứ)",
+        "✨ [cảm xúc]: <strong>immense joy and nostalgia</strong> (niềm vui và sự hoài niệm to lớn), <strong>a deep sense of satisfaction</strong> (một cảm giác thỏa mãn sâu sắc), <strong>overwhelming happiness and peace</strong> (hạnh phúc và sự bình yên tột cùng), <strong>profound gratitude for life</strong> (lòng biết ơn sâu sắc đối với cuộc sống), <strong>warm and comforting feelings</strong> (những cảm giác ấm áp và an ủi)"
       ],
       "templates": [
-        "Capturing [photo types] is great for [purposes], but it risks [drawbacks] it is so interesting to hear all your different thoughts you know. Capturing moments is wonderful as long as it doesn't distract you from your [mục đích].",
-        "While I love taking [photo types] for [purposes], I avoid [drawbacks] it is so interesting to hear all your different thoughts you know. Capturing moments is wonderful as long as it doesn't distract you from your [mục đích]."
+        "I firmly believe that capturing moments during a trip is [nhận định]. Taking pictures allows travelers to efficiently [lợi ích 1], and it also serves as a wonderful way to [lợi ích 2]. Therefore, looking at those albums always brings [cảm xúc].",
+        "From my perspective, documenting vacations through photography is [nhận định] because it helps individuals to [lợi ích 1]. Furthermore, having these visual records enables them to [lợi ích 2], which continuously generates [cảm xúc] for years to come."
       ],
       "samples": [
         {
-          "en": "Capturing funny selfies is great for showing friends, but it risks wasting time it is so interesting to hear all your different thoughts you know. Capturing moments is wonderful as long as it doesn't distract you from your relaxation goals.",
-          "vi": "Chụp những bức ảnh tự sướng vui nhộn rất tốt cho việc lưu giữ kỷ niệm, nhưng nó có nguy cơ lãng phí thời gian. Chụp lại những khoảnh khắc là điều tuyệt vời miễn là nó không làm bạn sao nhãng mục tiêu thư giãn của mình. Tôi thích chụp ảnh nhanh để nhớ về những chuyến đi vui vẻ của mình. Tuy nhiên, dành quá nhiều thời gian tạo dáng có thể dễ dàng khiến bạn quên mất việc thưởng thức phong cảnh đẹp."
+          "en": "I firmly believe that capturing moments during a trip is an absolutely fantastic habit. Taking pictures allows travelers to efficiently freeze precious fleeting moments, and it also serves as a wonderful way to share stories with relatives. Therefore, looking at those albums always brings immense joy and nostalgia.",
+          "vi": "Tôi tin chắc rằng việc ghi lại những khoảnh khắc trong một chuyến đi là một thói quen hoàn toàn tuyệt vời. Việc chụp ảnh cho phép du khách đóng băng những khoảnh khắc quý giá phù du một cách hiệu quả, và nó cũng phục vụ như một cách tuyệt vời để chia sẻ những câu chuyện với người thân. Do đó, việc nhìn vào những cuốn album đó luôn mang lại niềm vui và sự hoài niệm to lớn."
         },
         {
-          "en": "While I love taking group pictures for keeping memories, I avoid heavy bags it is so interesting to hear all your different thoughts you know. Capturing moments is wonderful as long as it doesn't distract you from your authentic cultural immersion.",
-          "vi": "Mặc dù tôi thích chụp ảnh chân dung chân thực để tư liệu hóa trải nghiệm, tôi tránh làm xao nhãng khỏi thực tế. Chụp lại những khoảnh khắc là điều tuyệt vời miễn là nó không làm bạn sao nhãng sự đắm chìm văn hóa đích thực của mình. Nhiếp ảnh là một sở thích tuyệt vời. Tuy nhiên, tôi luôn đảm bảo rằng việc nhìn qua ống kính không ngăn cản tôi thực sự đánh giá cao môi trường tuyệt đẹp xung quanh."
+          "en": "From my perspective, documenting vacations through photography is a highly rewarding practice because it helps individuals to document their personal growth. Furthermore, having these visual records enables them to reflect on happy times, which continuously generates a deep sense of satisfaction for years to come.",
+          "vi": "Từ góc độ của tôi, việc ghi lại các kỳ nghỉ thông qua nhiếp ảnh là một thực hành vô cùng bổ ích vì nó giúp các cá nhân ghi lại sự phát triển cá nhân của họ. Hơn nữa, việc có những hồ sơ hình ảnh này cho phép họ suy ngẫm về những khoảng thời gian hạnh phúc, điều này liên tục tạo ra một cảm giác thỏa mãn sâu sắc trong nhiều năm tới."
         }
       ]
     }
   },
   "College club": {
     "q1": {
-      "member": "Member A",
       "question": "Hi! Welcome to the college. What course are you doing and why did you choose it?",
       "vi": "Chào! Chào mừng đến với trường cao đẳng. Bạn đang học khóa học nào và tại sao bạn chọn nó?",
       "vocab": [
-        "✨ [courses]: <strong>math class</strong> (lớp toán), <strong>art course</strong> (khóa học nghệ thuật), <strong>business administration</strong> (quản trị kinh doanh), <strong>software engineering</strong> (kỹ thuật phần mềm), <strong>environmental science</strong> (khoa học môi trường)",
-        "✨ [reasons]: <strong>easy tests</strong> (bài kiểm tra dễ), <strong>fun teachers</strong> (giáo viên vui vẻ), <strong>promising career prospects</strong> (triển vọng nghề nghiệp hứa hẹn), <strong>intellectual stimulation</strong> (sự kích thích trí tuệ), <strong>societal contribution</strong> (đóng góp cho xã hội)",
-        "✨ [future plans]: <strong>getting a job</strong> (kiếm việc làm), <strong>making money</strong> (kiếm tiền), <strong>pursuing higher education</strong> (theo đuổi giáo dục đại học), <strong>launching a startup</strong> (khởi nghiệp), <strong>conducting groundbreaking research</strong> (thực hiện nghiên cứu đột phá)",
-        "✨ [môn học]: <strong>artificial intelligence</strong> (trí tuệ nhân tạo), <strong>business administration</strong> (quản trị kinh doanh), <strong>environmental science</strong> (khoa học môi trường), <strong>graphic design</strong> (thiết kế đồ họa), <strong>clinical psychology</strong> (tâm lý học lâm sàng)"
+        "✨ [môn học]: <strong>business management and finance</strong> (quản trị kinh doanh và tài chính), <strong>advanced software engineering</strong> (công nghệ phần mềm tiên tiến), <strong>modern graphic design</strong> (thiết kế đồ họa hiện đại), <strong>environmental science studies</strong> (các nghiên cứu khoa học môi trường), <strong>international public relations</strong> (quan hệ công chúng quốc tế)",
+        "✨ [lý do]: <strong>follow my lifelong passion</strong> (theo đuổi niềm đam mê suốt đời của tôi), <strong>secure a lucrative career</strong> (đảm bảo một sự nghiệp sinh lợi), <strong>contribute to societal development</strong> (đóng góp vào sự phát triển xã hội), <strong>expand my professional network</strong> (mở rộng mạng lưới chuyên môn của tôi), <strong>utilize my analytical skills</strong> (sử dụng các kỹ năng phân tích của tôi)",
+        "✨ [mục tiêu]: <strong>become a successful entrepreneur</strong> (trở thành một doanh nhân thành đạt), <strong>develop innovative technological solutions</strong> (phát triển các giải pháp công nghệ đổi mới), <strong>create impactful visual campaigns</strong> (tạo ra các chiến dịch hình ảnh có sức ảnh hưởng), <strong>protect our natural ecosystems</strong> (bảo vệ các hệ sinh thái tự nhiên của chúng ta), <strong>manage global corporate communications</strong> (quản lý truyền thông doanh nghiệp toàn cầu)",
+        "✨ [cảm nhận]: <strong>an incredibly fulfilling journey</strong> (một hành trình vô cùng trọn vẹn), <strong>a truly inspiring experience</strong> (một trải nghiệm thực sự truyền cảm hứng), <strong>an absolutely fascinating adventure</strong> (một cuộc phiêu lưu hoàn toàn hấp dẫn), <strong>a highly demanding challenge</strong> (một thách thức mang tính đòi hỏi cao), <strong>a significantly rewarding process</strong> (một quá trình bổ ích đáng kể)"
       ],
       "templates": [
-        "I chose [courses] because of the [reasons] and my goal of [future plans] i just want to say i totally get it. I decided to major in this field because I have always been fascinated by [môn học].",
-        "My decision to study [courses] stems from [reasons] to achieve [future plans] I will now share my personal thoughts on this matter. I decided to major in this field because I have always been fascinated by [môn học]."
+        "I am currently enrolled in an intensive program focused on [môn học]. The primary reason I chose this specific field is that I desperately want to [lý do], aiming to [mục tiêu]. Honestly, being part of this academic community is [cảm nhận].",
+        "At the moment, I am taking a comprehensive course in [môn học]. I deliberately selected this major because it allows me to [lý do], which is crucial to help me [mục tiêu]. Thus far, the learning curve has been [cảm nhận]."
       ],
       "samples": [
         {
-          "en": "I chose math class because of the easy tests and my goal of getting a job i just want to say i totally get it. I decided to major in this field because I have always been fascinated by artificial intelligence.",
-          "vi": "Tôi chọn lớp toán vì giáo viên vui vẻ và mục tiêu kiếm việc làm của tôi. Tôi quyết định học chuyên ngành này vì tôi luôn bị cuốn hút bởi trí tuệ nhân tạo. Các bài học luôn thú vị và dễ hiểu. Tôi hy vọng sẽ trở thành một kế toán viên xuất sắc sau khi tôi tốt nghiệp thành công trường cao đẳng này."
+          "en": "I am currently enrolled in an intensive program focused on business management and finance. The primary reason I chose this specific field is that I desperately want to follow my lifelong passion, aiming to become a successful entrepreneur. Honestly, being part of this academic community is an incredibly fulfilling journey.",
+          "vi": "Tôi hiện đang theo học một chương trình chuyên sâu tập trung vào quản trị kinh doanh và tài chính. Lý do chính tôi chọn lĩnh vực cụ thể này là tôi vô cùng muốn theo đuổi niềm đam mê suốt đời của tôi, nhằm mục đích trở thành một doanh nhân thành đạt. Thành thật mà nói, việc trở thành một phần của cộng đồng học thuật này là một hành trình vô cùng trọn vẹn."
         },
         {
-          "en": "My decision to study art course stems from fun teachers to achieve making money I will now share my personal thoughts on this matter. I decided to major in this field because I have always been fascinated by business administration.",
-          "vi": "Quyết định học kỹ thuật phần mềm của tôi xuất phát từ triển vọng nghề nghiệp hứa hẹn để đạt được việc khởi nghiệp. Tôi quyết định học chuyên ngành này vì tôi luôn bị cuốn hút bởi quản trị kinh doanh. Công nghệ ngày nay đang tiến bộ vô cùng nhanh chóng. Việc trang bị cho mình kỹ năng lập trình chắc chắn sẽ tiếp thêm sức mạnh cho tôi để tạo ra các ứng dụng sáng tạo cho thị trường hiện đại."
+          "en": "At the moment, I am taking a comprehensive course in advanced software engineering. I deliberately selected this major because it allows me to secure a lucrative career, which is crucial to help me develop innovative technological solutions. Thus far, the learning curve has been a truly inspiring experience.",
+          "vi": "Hiện tại, tôi đang học một khóa học toàn diện về công nghệ phần mềm tiên tiến. Tôi đã cố tình chọn chuyên ngành này vì nó cho phép tôi đảm bảo một sự nghiệp sinh lợi, điều này rất quan trọng để giúp tôi phát triển các giải pháp công nghệ đổi mới. Cho đến nay, quá trình học tập đã là một trải nghiệm thực sự truyền cảm hứng."
         }
       ]
     },
     "q2": {
-      "member": "Member B",
       "question": "Welcome! How do you feel about the college so far?",
       "vi": "Chào mừng! Cho đến nay bạn cảm thấy thế nào về trường cao đẳng?",
       "vocab": [
-        "✨ [campus facilities]: <strong>big library</strong> (thư viện lớn), <strong>nice cafe</strong> (quán cà phê đẹp), <strong>state-of-the-art laboratories</strong> (phòng thí nghiệm hiện đại), <strong>comprehensive sports complex</strong> (khu thể thao toàn diện), <strong>collaborative study spaces</strong> (không gian học tập cộng tác)",
-        "✨ [social atmosphere]: <strong>friendly people</strong> (những người thân thiện), <strong>busy events</strong> (các sự kiện bận rộn), <strong>vibrant academic community</strong> (cộng đồng học thuật sôi động), <strong>inclusive environment</strong> (môi trường hòa nhập), <strong>intellectually engaging discussions</strong> (các cuộc thảo luận trí tuệ hấp dẫn)",
-        "✨ [academic workload]: <strong>a lot of homework</strong> (nhiều bài tập về nhà), <strong>hard exams</strong> (kỳ thi khó), <strong>rigorous curriculum</strong> (chương trình giảng dạy nghiêm ngặt), <strong>demanding assignments</strong> (các bài tập đòi hỏi khắt khe), <strong>challenging intellectual pursuits</strong> (những theo đuổi trí tuệ đầy thách thức)",
-        "✨ [cơ sở vật chất]: <strong>research laboratories</strong> (phòng thí nghiệm nghiên cứu), <strong>athletic complexes</strong> (khu liên hợp thể thao), <strong>digital libraries</strong> (thư viện kỹ thuật số), <strong>student cafeterias</strong> (nhà ăn sinh viên), <strong>collaborative study spaces</strong> (không gian học tập cộng tác)"
+        "✨ [nhận định chung]: <strong>beyond my initial expectations</strong> (vượt quá mong đợi ban đầu của tôi), <strong>absolutely phenomenal and welcoming</strong> (hoàn toàn hiện tượng và chào đón), <strong>quite challenging yet rewarding</strong> (khá thử thách nhưng bổ ích), <strong>truly magnificent and organized</strong> (thực sự tráng lệ và có tổ chức), <strong>incredibly vibrant and dynamic</strong> (vô cùng sôi động và năng động)",
+        "✨ [điểm nổi bật]: <strong>provide state-of-the-art facilities</strong> (cung cấp các cơ sở vật chất hiện đại), <strong>offer excellent extracurricular activities</strong> (mang đến các hoạt động ngoại khóa xuất sắc), <strong>feature highly knowledgeable professors</strong> (có các giáo sư cực kỳ am hiểu), <strong>boast a diverse student body</strong> (sở hữu một tập thể sinh viên đa dạng), <strong>maintain a supportive environment</strong> (duy trì một môi trường hỗ trợ)",
+        "✨ [lợi ích]: <strong>maximize my learning potential</strong> (tối đa hóa tiềm năng học tập của tôi), <strong>broaden my interpersonal connections</strong> (mở rộng các kết nối giữa các cá nhân của tôi), <strong>acquire practical industry insights</strong> (đạt được những hiểu biết thực tế về ngành), <strong>experience different cultural perspectives</strong> (trải nghiệm những quan điểm văn hóa khác nhau), <strong>nurture my mental well-being</strong> (nuôi dưỡng sức khỏe tinh thần của tôi)",
+        "✨ [cảm xúc]: <strong>extremely grateful and enthusiastic</strong> (cực kỳ biết ơn và nhiệt tình), <strong>deeply satisfied and confident</strong> (thỏa mãn và tự tin sâu sắc), <strong>highly motivated to excel</strong> (được thúc đẩy cao độ để xuất sắc), <strong>genuinely happy and comfortable</strong> (thực sự hạnh phúc và thoải mái), <strong>wonderfully inspired and secure</strong> (được truyền cảm hứng tuyệt vời và an toàn)"
       ],
       "templates": [
-        "I love the [campus facilities] and [social atmosphere], despite the [academic workload] it is so interesting to hear all your different thoughts you know. I am genuinely impressed by the quality of the campus [cơ sở vật chất].",
-        "The [campus facilities] and the [social atmosphere] make up for the [academic workload] it is so interesting to hear all your different thoughts honestly. I am genuinely impressed by the quality of the campus [cơ sở vật chất]."
+        "To be completely honest, my experience here has been [nhận định chung]. I am particularly impressed by the fact that the campus can [điểm nổi bật], which enables me to [lợi ích]. Consequently, I am feeling [cảm xúc] right now.",
+        "From what I have seen, the overall atmosphere is [nhận định chung]. What stands out to me the most is how the institution manages to [điểm nổi bật], effectively helping me to [lợi ích]. As a result, I currently feel [cảm xúc]."
       ],
       "samples": [
         {
-          "en": "I love the big library and friendly people, despite the a lot of homework it is so interesting to hear all your different thoughts you know. I am genuinely impressed by the quality of the campus research laboratories.",
-          "vi": "Tôi yêu thích thư viện lớn và những người thân thiện, bất chấp nhiều bài tập về nhà. Tôi thực sự ấn tượng bởi chất lượng của phòng thí nghiệm nghiên cứu trong khuôn viên trường. Mọi người ở đây luôn sẵn sàng giúp đỡ tôi. Tôi có thể dễ dàng tìm thấy những cuốn sách hay để đọc và học tập vui vẻ với các bạn cùng lớp mới của mình vào mỗi buổi chiều."
+          "en": "To be completely honest, my experience here has been beyond my initial expectations. I am particularly impressed by the fact that the campus can provide state-of-the-art facilities, which enables me to maximize my learning potential. Consequently, I am feeling extremely grateful and enthusiastic right now.",
+          "vi": "Thành thật mà nói, trải nghiệm của tôi ở đây đã vượt quá mong đợi ban đầu của tôi. Tôi đặc biệt ấn tượng bởi thực tế là khuôn viên trường có thể cung cấp các cơ sở vật chất hiện đại, điều này cho phép tôi tối đa hóa tiềm năng học tập của tôi. Hậu quả là, tôi đang cảm thấy cực kỳ biết ơn và nhiệt tình ngay bây giờ."
         },
         {
-          "en": "The nice cafe and the busy events make up for the hard exams it is so interesting to hear all your different thoughts honestly. I am genuinely impressed by the quality of the campus athletic complexes.",
-          "vi": "Các phòng thí nghiệm hiện đại và cộng đồng học thuật sôi động bù đắp cho chương trình giảng dạy nghiêm ngặt. Tôi thực sự ấn tượng bởi chất lượng của khu liên hợp thể thao trong khuôn viên trường. Được sử dụng thiết bị tuyệt vời thực sự rất tuyệt vời. Những giáo sư vô cùng hỗ trợ liên tục truyền cảm hứng cho tôi để vượt qua những trở ngại học tập khó khăn và đạt được mục tiêu cuối cùng của mình."
+          "en": "From what I have seen, the overall atmosphere is absolutely phenomenal and welcoming. What stands out to me the most is how the institution manages to offer excellent extracurricular activities, effectively helping me to broaden my interpersonal connections. As a result, I currently feel deeply satisfied and confident.",
+          "vi": "Từ những gì tôi đã thấy, bầu không khí tổng thể là hoàn toàn hiện tượng và chào đón. Điều nổi bật nhất đối với tôi là cách tổ chức xoay sở để mang đến các hoạt động ngoại khóa xuất sắc, giúp tôi mở rộng các kết nối giữa các cá nhân của tôi một cách hiệu quả. Kết quả là, hiện tại tôi cảm thấy thỏa mãn và tự tin sâu sắc."
         }
       ]
     },
     "q3": {
-      "member": "Member C",
       "question": "Did you hear that the college sports club has closed? What do you think about this?",
       "vi": "Bạn có nghe nói rằng câu lạc bộ thể thao của trường cao đẳng đã đóng cửa không? Bạn nghĩ gì về điều này?",
       "vocab": [
-        "✨ [initial reactions]: <strong>very sad</strong> (rất buồn), <strong>quite angry</strong> (khá tức giận), <strong>profoundly disappointed</strong> (vô cùng thất vọng), <strong>deeply concerned</strong> (quan tâm sâu sắc), <strong>utterly shocked</strong> (hoàn toàn bị sốc)",
-        "✨ [health impacts]: <strong>getting fat</strong> (trở nên béo), <strong>feeling lazy</strong> (cảm thấy lười biếng), <strong>declining physical well-being</strong> (sức khỏe thể chất suy giảm), <strong>increasing stress levels</strong> (mức độ căng thẳng tăng lên), <strong>sedentary lifestyle risks</strong> (rủi ro từ lối sống ít vận động)",
-        "✨ [proposed solutions]: <strong>playing outside</strong> (chơi bên ngoài), <strong>running daily</strong> (chạy bộ hàng ngày), <strong>petitioning the administration</strong> (kiến nghị ban giám hiệu), <strong>organizing independent leagues</strong> (tổ chức các giải đấu độc lập), <strong>securing alternative funding</strong> (đảm bảo nguồn tài trợ thay thế)",
-        "✨ [giải pháp thay thế]: <strong>informal intramural matches</strong> (các trận đấu nội bộ không chính thức), <strong>off-campus fitness groups</strong> (nhóm tập thể dục ngoài khuôn viên trường), <strong>independent training sessions</strong> (các buổi tập luyện độc lập), <strong>weekend community tournaments</strong> (giải đấu cộng đồng cuối tuần), <strong>student-led running clubs</strong> (câu lạc bộ chạy do sinh viên dẫn dắt)"
+        "✨ [phản ứng]: <strong>entirely shocked and devastated</strong> (hoàn toàn sốc và suy sụp), <strong>deeply saddened and disappointed</strong> (vô cùng buồn bã và thất vọng), <strong>quite frustrated and annoyed</strong> (khá bực bội và khó chịu), <strong>genuinely confused and worried</strong> (thực sự bối rối và lo lắng), <strong>absolutely angry and upset</strong> (hoàn toàn tức giận và buồn bực)",
+        "✨ [lý do quan trọng]: <strong>promote robust physical health</strong> (thúc đẩy sức khỏe thể chất cường tráng), <strong>foster strong team spirit</strong> (nuôi dưỡng tinh thần đồng đội mạnh mẽ), <strong>relieve severe academic stress</strong> (làm giảm căng thẳng học tập nghiêm trọng), <strong>build essential leadership skills</strong> (xây dựng các kỹ năng lãnh đạo thiết yếu), <strong>enhance overall student well-being</strong> (tăng cường sức khỏe tổng thể của sinh viên)",
+        "✨ [tác động tiêu cực]: <strong>deprive students of essential exercises</strong> (tước đi của sinh viên các bài tập thể dục thiết yếu), <strong>ruin the vibrant campus life</strong> (phá hỏng cuộc sống trong khuôn viên trường sôi động), <strong>increase mental health problems</strong> (làm tăng các vấn đề sức khỏe tinh thần), <strong>discourage healthy social interactions</strong> (ngăn cản các tương tác xã hội lành mạnh), <strong>damage the institution's solid reputation</strong> (làm hỏng danh tiếng vững chắc của tổ chức)",
+        "✨ [đề xuất]: <strong>reopen the facilities immediately</strong> (mở cửa lại các cơ sở ngay lập tức), <strong>organize alternative fitness programs</strong> (tổ chức các chương trình thể dục thay thế), <strong>allocate more funding quickly</strong> (phân bổ thêm kinh phí một cách nhanh chóng), <strong>seek corporate sponsorships urgently</strong> (tìm kiếm các khoản tài trợ của doanh nghiệp một cách khẩn cấp), <strong>consult the student council</strong> (tham khảo ý kiến của hội đồng sinh viên)"
       ],
       "templates": [
-        "I feel [initial reactions] because it might lead to [health impacts]; we should try [proposed solutions] i completely understand where you are coming from. If the official club is permanently shut down, students will have to organize [giải pháp thay thế].",
-        "This makes me [initial reactions] due to [health impacts], so I suggest [proposed solutions] I will now share my personal thoughts on this matter. If the official club is permanently shut down, students will have to organize [giải pháp thay thế]."
+        "I was [phản ứng] to learn this disappointing news recently. It is extremely upsetting because regular physical activities can [lý do quan trọng], and this sudden closure will definitely [tác động tiêu cực]. Therefore, the administration must urgently [đề xuất].",
+        "Hearing about this closure made me feel [phản ứng]. Considering that sports clubs usually [lý do quan trọng], shutting them down is going to [tác động tiêu cực] across the entire campus. Hence, the college management should [đề xuất] as soon as possible."
       ],
       "samples": [
         {
-          "en": "I feel very sad because it might lead to getting fat; we should try playing outside i completely understand where you are coming from. If the official club is permanently shut down, students will have to organize informal intramural matches.",
-          "vi": "Tôi cảm thấy rất buồn vì nó có thể dẫn đến việc trở nên béo; chúng ta nên thử chơi bên ngoài. Nếu câu lạc bộ chính thức bị đóng cửa vĩnh viễn, sinh viên sẽ phải tổ chức các trận đấu nội bộ không chính thức. Thể thao giúp sinh viên khỏe mạnh và vui vẻ. Không có câu lạc bộ, chúng ta phải nhanh chóng tìm những cách đơn giản khác để tập thể dục và duy trì hoạt động mỗi ngày."
+          "en": "I was entirely shocked and devastated to learn this disappointing news recently. It is extremely upsetting because regular physical activities can promote robust physical health, and this sudden closure will definitely deprive students of essential exercises. Therefore, the administration must urgently reopen the facilities immediately.",
+          "vi": "Tôi đã hoàn toàn sốc và suy sụp khi biết được tin tức đáng thất vọng này gần đây. Nó cực kỳ đáng buồn vì các hoạt động thể chất thường xuyên có thể thúc đẩy sức khỏe thể chất cường tráng, và sự đóng cửa đột ngột này chắc chắn sẽ tước đi của sinh viên các bài tập thể dục thiết yếu. Do đó, ban quản lý phải khẩn trương mở cửa lại các cơ sở ngay lập tức."
         },
         {
-          "en": "This makes me quite angry due to feeling lazy, so I suggest running daily I will now share my personal thoughts on this matter. If the official club is permanently shut down, students will have to organize off-campus fitness groups.",
-          "vi": "Điều này khiến tôi vô cùng thất vọng do sức khỏe thể chất suy giảm, vì vậy tôi đề nghị kiến nghị ban giám hiệu. Nếu câu lạc bộ chính thức bị đóng cửa vĩnh viễn, sinh viên sẽ phải tổ chức nhóm tập thể dục ngoài khuôn viên trường. Một cơ thể khỏe mạnh là rất quan trọng cho sự thành công trong học tập. Chúng ta phải cùng nhau lên tiếng bày tỏ những lo ngại của mình để khôi phục lại các chương trình thể thao ngoại khóa quan trọng này trong khuôn viên trường."
+          "en": "Hearing about this closure made me feel deeply saddened and disappointed. Considering that sports clubs usually foster strong team spirit, shutting them down is going to ruin the vibrant campus life across the entire campus. Hence, the college management should organize alternative fitness programs as soon as possible.",
+          "vi": "Nghe về sự đóng cửa này khiến tôi cảm thấy vô cùng buồn bã và thất vọng. Xem xét rằng các câu lạc bộ thể thao thường nuôi dưỡng tinh thần đồng đội mạnh mẽ, việc đóng cửa chúng sẽ phá hỏng cuộc sống trong khuôn viên trường sôi động trên toàn bộ khuôn viên trường. Do đó, ban quản lý trường cao đẳng nên tổ chức các chương trình thể dục thay thế càng sớm càng tốt."
         }
       ]
     }
   },
   "Movie club": {
     "q1": {
-      "member": "Member A",
       "question": "Hi! When and where do you usually watch movies?",
       "vi": "Chào! Bạn thường xem phim khi nào và ở đâu?",
       "vocab": [
-        "✨ [time preferences]: <strong>weekend nights</strong> (các đêm cuối tuần), <strong>Sunday mornings</strong> (các buổi sáng Chủ nhật), <strong>late evening hours</strong> (những giờ tối muộn), <strong>during daily commutes</strong> (trong lúc đi làm hàng ngày), <strong>unwinding after work</strong> (thư giãn sau giờ làm việc)",
-        "✨ [location preferences]: <strong>in bed</strong> (trên giường), <strong>living room</strong> (phòng khách), <strong>home entertainment center</strong> (trung tâm giải trí tại nhà), <strong>bustling modern cinemas</strong> (những rạp chiếu phim hiện đại nhộn nhịp), <strong>independent art theaters</strong> (các rạp hát nghệ thuật độc lập)",
-        "✨ [companion choices]: <strong>with friends</strong> (với bạn bè), <strong>my family</strong> (gia đình tôi), <strong>like-minded cinephiles</strong> (những người đam mê điện ảnh có cùng chí hướng), <strong>romantic partners</strong> (đối tác lãng mạn), <strong>solitary introspection</strong> (sự nội tâm đơn độc)",
-        "✨ [thiết bị]: <strong>portable tablet</strong> (máy tính bảng di động), <strong>widescreen laptop</strong> (máy tính xách tay màn hình rộng), <strong>smart television</strong> (ti vi thông minh), <strong>home projector</strong> (máy chiếu tại nhà), <strong>desktop monitor</strong> (màn hình máy tính để bàn)"
+        "✨ [thời gian]: <strong>late on Friday nights</strong> (vào đêm khuya thứ Sáu), <strong>during lazy Sunday afternoons</strong> (trong những buổi chiều Chủ nhật lười biếng), <strong>on busy weekday evenings</strong> (vào những buổi tối ngày thường bận rộn), <strong>early on Saturday mornings</strong> (vào sáng sớm thứ Bảy), <strong>during national public holidays</strong> (trong các ngày lễ quốc gia)",
+        "✨ [địa điểm]: <strong>the cozy living room</strong> (phòng khách ấm cúng), <strong>a massive local cinema</strong> (một rạp chiếu phim địa phương khổng lồ), <strong>my private bedroom sanctuary</strong> (nơi tôn nghiêm phòng ngủ riêng của tôi), <strong>an outdoor screening area</strong> (một khu vực chiếu phim ngoài trời), <strong>a luxurious VIP theater</strong> (một rạp hát VIP sang trọng)",
+        "✨ [bạn đồng hành]: <strong>my close family members</strong> (những thành viên thân thiết trong gia đình tôi), <strong>my best college friends</strong> (những người bạn đại học tốt nhất của tôi), <strong>my romantic significant other</strong> (nửa kia lãng mạn của tôi), <strong>my friendly neighborhood colleagues</strong> (những đồng nghiệp hàng xóm thân thiện của tôi), <strong>my adorable pet dog</strong> (chú chó cưng đáng yêu của tôi)",
+        "✨ [lý do]: <strong>unwind after stressful days</strong> (thư giãn sau những ngày căng thẳng), <strong>discuss intriguing plot twists</strong> (thảo luận về những tình tiết cốt truyện hấp dẫn), <strong>share emotional cinematic moments</strong> (chia sẻ những khoảnh khắc điện ảnh đầy cảm xúc), <strong>bond over shared interests</strong> (gắn kết qua những sở thích chung), <strong>enjoy ultimate undisturbed privacy</strong> (tận hưởng sự riêng tư tối đa không bị quấy rầy)"
       ],
       "templates": [
-        "I usually watch films on [time preferences] in my [location preferences] alongside [companion choices] I will now share my personal thoughts on this matter. During the weekdays, I typically stream films in my bedroom using my [thiết bị].",
-        "My favorite routine involves [location preferences] on [time preferences] with [companion choices] it is so interesting to hear all your different thoughts you know. During the weekdays, I typically stream films in my bedroom using my [thiết bị]."
+        "I typically prefer to enjoy cinematic masterpieces [thời gian], and my absolute favorite spot is definitely [địa điểm]. I usually watch them alongside [bạn đồng hành] because this comfortable setup allows us to easily [lý do] without any interruptions.",
+        "My routine often involves watching fantastic films [thời gian], mostly gathering around [địa điểm]. I frequently invite [bạn đồng hành] to join me since doing so creates a perfect opportunity to [lý do] together."
       ],
       "samples": [
         {
-          "en": "I usually watch films on weekend nights in my in bed alongside with friends I will now share my personal thoughts on this matter. During the weekdays, I typically stream films in my bedroom using my portable tablet.",
-          "vi": "Tôi thường xem phim vào các đêm cuối tuần trong phòng khách cùng với gia đình tôi. Trong những ngày trong tuần, tôi thường xem phim trong phòng ngủ bằng máy tính bảng di động của mình. Chúng tôi thích dành thời gian bên nhau sau một tuần dài. Luôn thật thư giãn khi ngồi trên chiếc ghế sofa mềm mại và thưởng thức những bộ phim hài hước vui nhộn."
+          "en": "I typically prefer to enjoy cinematic masterpieces late on Friday nights, and my absolute favorite spot is definitely the cozy living room. I usually watch them alongside my close family members because this comfortable setup allows us to easily unwind after stressful days without any interruptions.",
+          "vi": "Tôi thường thích thưởng thức các kiệt tác điện ảnh vào đêm khuya thứ Sáu, và địa điểm yêu thích tuyệt đối của tôi chắc chắn là phòng khách ấm cúng. Tôi thường xem chúng cùng với những thành viên thân thiết trong gia đình tôi vì cách sắp xếp thoải mái này cho phép chúng tôi dễ dàng thư giãn sau những ngày căng thẳng mà không có bất kỳ sự gián đoạn nào."
         },
         {
-          "en": "My favorite routine involves living room on Sunday mornings with my family it is so interesting to hear all your different thoughts you know. During the weekdays, I typically stream films in my bedroom using my widescreen laptop.",
-          "vi": "Thói quen yêu thích của tôi là đến những rạp chiếu phim hiện đại nhộn nhịp vào những giờ tối muộn với đối tác lãng mạn. Trong những ngày trong tuần, tôi thường xem phim trong phòng ngủ bằng máy tính xách tay màn hình rộng của mình. Màn hình lớn và hệ thống âm thanh đáng kinh ngạc tạo ra một bầu không khí thực sự kỳ diệu. Nó hoàn toàn nâng tầm toàn bộ trải nghiệm xem vượt xa việc chỉ ngồi ở nhà."
+          "en": "My routine often involves watching fantastic films during lazy Sunday afternoons, mostly gathering around a massive local cinema. I frequently invite my best college friends to join me since doing so creates a perfect opportunity to discuss intriguing plot twists together.",
+          "vi": "Thói quen của tôi thường liên quan đến việc xem những bộ phim tuyệt vời trong những buổi chiều Chủ nhật lười biếng, chủ yếu là tụ tập xung quanh một rạp chiếu phim địa phương khổng lồ. Tôi thường xuyên mời những người bạn đại học tốt nhất của tôi tham gia cùng tôi vì làm như vậy tạo ra một cơ hội hoàn hảo để thảo luận về những tình tiết cốt truyện hấp dẫn cùng nhau."
         }
       ]
     },
     "q2": {
-      "member": "Member B",
       "question": "I want to make movies for young children. Give me some suggestions?",
       "vi": "Tôi muốn làm phim cho trẻ nhỏ. Hãy cho tôi một số gợi ý?",
       "vocab": [
-        "✨ [visual elements]: <strong>cute animals</strong> (những động vật dễ thương), <strong>bright shapes</strong> (các hình dạng tươi sáng), <strong>vibrant color palettes</strong> (bảng màu rực rỡ), <strong>expressive character designs</strong> (thiết kế nhân vật biểu cảm), <strong>whimsical animations</strong> (những hình ảnh hoạt hình kỳ quái)",
-        "✨ [thematic content]: <strong>easy stories</strong> (những câu chuyện dễ hiểu), <strong>funny jokes</strong> (những trò đùa vui nhộn), <strong>educational moral lessons</strong> (những bài học đạo đức mang tính giáo dục), <strong>interactive problem-solving</strong> (giải quyết vấn đề tương tác), <strong>fostering emotional intelligence</strong> (bồi dưỡng trí tuệ cảm xúc)",
-        "✨ [pacing strategies]: <strong>short scenes</strong> (các cảnh ngắn), <strong>fast music</strong> (âm nhạc nhanh), <strong>engaging rhythmic dialogue</strong> (đối thoại nhịp nhàng lôi cuốn), <strong>dynamic visual transitions</strong> (chuyển đổi hình ảnh động), <strong>sustained narrative momentum</strong> (động lực kể chuyện bền vững)",
-        "✨ [chủ đề]: <strong>friendship dynamics</strong> (động lực tình bạn), <strong>environmental conservation</strong> (bảo tồn môi trường), <strong>magical adventures</strong> (những cuộc phiêu lưu kỳ diệu), <strong>historical mysteries</strong> (những bí ẩn lịch sử), <strong>space exploration</strong> (khám phá không gian)"
+        "✨ [đề tài]: <strong>magical fairy tale adventures</strong> (những cuộc phiêu lưu truyện cổ tích kỳ diệu), <strong>talking animal friendship stories</strong> (những câu chuyện tình bạn của động vật biết nói), <strong>brave space exploration missions</strong> (những nhiệm vụ thám hiểm không gian dũng cảm), <strong>educational historical time travels</strong> (những chuyến du hành thời gian lịch sử mang tính giáo dục), <strong>superhero character origins</strong> (nguồn gốc của các nhân vật siêu anh hùng)",
+        "✨ [yếu tố hình ảnh]: <strong>vibrant and colorful animations</strong> (các hình ảnh hoạt hình sống động và đầy màu sắc), <strong>catchy and cheerful soundtracks</strong> (nhạc phim bắt tai và vui vẻ), <strong>expressive and lovable characters</strong> (những nhân vật biểu cảm và đáng yêu), <strong>simple yet striking graphics</strong> (đồ họa đơn giản nhưng nổi bật), <strong>imaginative and detailed settings</strong> (những bối cảnh giàu trí tưởng tượng và chi tiết)",
+        "✨ [bài học]: <strong>valuable lessons about kindness</strong> (những bài học giá trị về lòng tốt), <strong>the importance of honesty</strong> (tầm quan trọng của sự trung thực), <strong>crucial environmental protection messages</strong> (những thông điệp bảo vệ môi trường quan trọng), <strong>the power of teamwork</strong> (sức mạnh của tinh thần đồng đội), <strong>basic empathy and understanding</strong> (sự đồng cảm và thấu hiểu cơ bản)",
+        "✨ [kết quả]: <strong>shape their moral compass</strong> (định hình la bàn đạo đức của chúng), <strong>spark their boundless creativity</strong> (khơi dậy sự sáng tạo vô bờ bến của chúng), <strong>foster their emotional intelligence</strong> (nuôi dưỡng trí tuệ cảm xúc của chúng), <strong>build their self-confidence</strong> (xây dựng sự tự tin của chúng), <strong>encourage their lifelong learning</strong> (khuyến khích việc học tập suốt đời của chúng)"
       ],
       "templates": [
-        "You should include [visual elements] and [thematic content], combined with [pacing strategies] it is so interesting to hear all your different thoughts you know. It would be brilliant to produce animations that focus on exploring [chủ đề].",
-        "I highly recommend blending [visual elements] with [thematic content] and using [pacing strategies] it is so interesting to hear all your different thoughts honestly. It would be brilliant to produce animations that focus on exploring [chủ đề]."
+        "I strongly suggest that you focus on developing creative scripts about [đề tài] while intentionally incorporating [yếu tố hình ảnh]. By doing this, you can effectively deliver [bài học] to the younger audience, which will eventually [kết quả] in the long run.",
+        "A brilliant idea is to produce captivating contents featuring [đề tài], accompanied by [yếu tố hình ảnh]. Such an approach is perfect to seamlessly integrate [bài học] into the storyline, helping to [kết quả] as they grow up."
       ],
       "samples": [
         {
-          "en": "You should include cute animals and easy stories, combined with short scenes it is so interesting to hear all your different thoughts you know. It would be brilliant to produce animations that focus on exploring friendship dynamics.",
-          "vi": "Bạn nên bao gồm những động vật dễ thương và những câu chuyện dễ hiểu, kết hợp với các cảnh ngắn. Sẽ thật tuyệt vời nếu sản xuất phim hoạt hình tập trung vào việc khám phá động lực tình bạn. Trẻ em thường không thể tập trung trong một thời gian dài. Làm cho mọi thứ nhanh và đầy màu sắc sẽ nhanh chóng thu hút sự chú ý của chúng và giúp chúng giải trí vui vẻ trong suốt bộ phim."
+          "en": "I strongly suggest that you focus on developing creative scripts about magical fairy tale adventures while intentionally incorporating vibrant and colorful animations. By doing this, you can effectively deliver valuable lessons about kindness to the younger audience, which will eventually shape their moral compass in the long run.",
+          "vi": "Tôi thực sự khuyên bạn nên tập trung vào việc phát triển các kịch bản sáng tạo về những cuộc phiêu lưu truyện cổ tích kỳ diệu trong khi cố ý kết hợp các hình ảnh hoạt hình sống động và đầy màu sắc. Bằng cách làm này, bạn có thể truyền tải một cách hiệu quả những bài học giá trị về lòng tốt cho khán giả nhỏ tuổi, điều này cuối cùng sẽ định hình la bàn đạo đức của chúng về lâu dài."
         },
         {
-          "en": "I highly recommend blending bright shapes with funny jokes and using fast music it is so interesting to hear all your different thoughts honestly. It would be brilliant to produce animations that focus on exploring environmental conservation.",
-          "vi": "Tôi thực sự khuyên bạn nên pha trộn bảng màu rực rỡ với những bài học đạo đức mang tính giáo dục và sử dụng chuyển đổi hình ảnh động. Sẽ thật tuyệt vời nếu sản xuất phim hoạt hình tập trung vào việc khám phá bảo tồn môi trường. Trẻ em vô cùng tinh ý. Việc cung cấp nội dung kích thích thị giác trong khi đồng thời dạy chúng những kỹ năng sống quý giá sẽ đảm bảo dự án hoạt hình của bạn thành công một cách phi thường."
+          "en": "A brilliant idea is to produce captivating contents featuring talking animal friendship stories, accompanied by catchy and cheerful soundtracks. Such an approach is perfect to seamlessly integrate the importance of honesty into the storyline, helping to spark their boundless creativity as they grow up.",
+          "vi": "Một ý tưởng xuất sắc là sản xuất các nội dung hấp dẫn có những câu chuyện tình bạn của động vật biết nói, kèm theo nhạc phim bắt tai và vui vẻ. Phương pháp tiếp cận như vậy là hoàn hảo để tích hợp một cách liền mạch tầm quan trọng của sự trung thực vào cốt truyện, giúp khơi dậy sự sáng tạo vô bờ bến của chúng khi chúng lớn lên."
         }
       ]
     },
     "q3": {
-      "member": "Member C",
       "question": "How do you think technology affects the way we watch movies in the future?",
       "vi": "Bạn nghĩ công nghệ ảnh hưởng như thế nào đến cách chúng ta xem phim trong tương lai?",
       "vocab": [
-        "✨ [viewing devices]: <strong>3D glasses</strong> (kính 3D), <strong>smart phones</strong> (điện thoại thông minh), <strong>virtual reality headsets</strong> (tai nghe thực tế ảo), <strong>haptic feedback suits</strong> (bộ đồ phản hồi xúc giác), <strong>holographic projections</strong> (trình chiếu ba chiều)",
-        "✨ [accessibility enhancements]: <strong>cheap tickets</strong> (vé rẻ), <strong>fast internet</strong> (internet nhanh), <strong>ubiquitous streaming availability</strong> (sự sẵn có của phát trực tuyến ở khắp mọi nơi), <strong>instant global premieres</strong> (các buổi ra mắt toàn cầu tức thì), <strong>personalized content algorithms</strong> (thuật toán nội dung được cá nhân hóa)",
-        "✨ [immersive elements]: <strong>cool sounds</strong> (âm thanh tuyệt vời), <strong>big screens</strong> (màn hình lớn), <strong>interactive plot choices</strong> (các lựa chọn cốt truyện tương tác), <strong>multi-sensory stimulation</strong> (kích thích đa giác quan), <strong>hyper-realistic CGI environments</strong> (môi trường CGI siêu thực)",
-        "✨ [đổi mới]: <strong>virtual reality headsets</strong> (kính thực tế ảo), <strong>artificial intelligence recommendations</strong> (khuyến nghị của trí tuệ nhân tạo), <strong>haptic feedback suits</strong> (bộ quần áo phản hồi xúc giác), <strong>holographic projection systems</strong> (hệ thống trình chiếu ba chiều), <strong>cloud gaming platforms</strong> (nền tảng chơi game đám mây)"
+        "✨ [xu hướng]: <strong>immersive virtual reality experiences</strong> (những trải nghiệm thực tế ảo đắm chìm), <strong>interactive holographic projection systems</strong> (các hệ thống trình chiếu ba chiều tương tác), <strong>artificial intelligence personalized recommendations</strong> (các đề xuất cá nhân hóa bằng trí tuệ nhân tạo), <strong>ultra-high definition streaming platforms</strong> (các nền tảng phát trực tuyến độ nét siêu cao), <strong>brain-computer neural interfaces</strong> (các giao diện thần kinh não-máy tính)",
+        "✨ [lợi ích]: <strong>control the unfolding narratives</strong> (kiểm soát các câu chuyện đang diễn ra), <strong>feel the characters' emotions</strong> (cảm nhận những cảm xúc của các nhân vật), <strong>watch from multiple angles</strong> (xem từ nhiều góc độ), <strong>enjoy crystal-clear visual qualities</strong> (thưởng thức các chất lượng hình ảnh rõ như pha lê), <strong>connect with global audiences</strong> (kết nối với các khán giả toàn cầu)",
+        "✨ [thay đổi]: <strong>evolve into massive entertainment hubs</strong> (tiến hóa thành các trung tâm giải trí khổng lồ), <strong>upgrade their obsolete screening equipment</strong> (nâng cấp thiết bị chiếu phim lỗi thời của họ), <strong>redefine the standard cinematic models</strong> (định nghĩa lại các mô hình điện ảnh tiêu chuẩn), <strong>adapt to changing consumer behaviors</strong> (thích ứng với những hành vi thay đổi của người tiêu dùng), <strong>focus on exclusive social events</strong> (tập trung vào các sự kiện xã hội độc quyền)",
+        "✨ [trải nghiệm]: <strong>a highly unique sensory journey</strong> (một hành trình cảm giác vô cùng độc đáo), <strong>an incredibly realistic storytelling environment</strong> (một môi trường kể chuyện vô cùng chân thực), <strong>a truly unprecedented visual spectacle</strong> (một cảnh tượng hình ảnh thực sự chưa từng có), <strong>a deeply engaging interactive session</strong> (một phiên tương tác hấp dẫn sâu sắc), <strong>a perfectly tailored viewing atmosphere</strong> (một bầu không khí xem được điều chỉnh hoàn hảo)"
       ],
       "templates": [
-        "Through [viewing devices] and [accessibility enhancements], we will experience incredible [immersive elements] it is so interesting to hear all your different thoughts you know. We can anticipate a significant shift towards interactive viewing thanks to [đổi mới].",
-        "Future cinema will rely on [viewing devices] providing [accessibility enhancements] and [immersive elements] it is so interesting to hear all your different thoughts honestly. We can anticipate a significant shift towards interactive viewing thanks to [đổi mới]."
+        "It is highly likely that technological advancements will rapidly introduce [xu hướng]. As a direct result, modern viewers will have the extraordinary ability to [lợi ích], meaning that traditional theaters must fundamentally [thay đổi] to successfully provide [trải nghiệm].",
+        "I firmly believe that innovations like [xu hướng] will drastically transform the industry. Given that audiences will soon be able to [lợi ích] from their couches, regular cinemas will have no choice but to [thay đổi] in order to deliver [trải nghiệm]."
       ],
       "samples": [
         {
-          "en": "Through 3D glasses and cheap tickets, we will experience incredible cool sounds it is so interesting to hear all your different thoughts you know. We can anticipate a significant shift towards interactive viewing thanks to virtual reality headsets.",
-          "vi": "Thông qua kính 3D và internet nhanh, chúng ta sẽ trải nghiệm âm thanh tuyệt vời đáng kinh ngạc. Chúng ta có thể dự đoán một sự thay đổi đáng kể hướng tới việc xem tương tác nhờ vào kính thực tế ảo. Mọi người sẽ dễ dàng xem phim từ phòng ngủ ấm cúng của mình. Công nghệ tuyệt vời sẽ khiến chúng ta cảm thấy như đang thực sự ở trong bộ phim thú vị cùng với các diễn viên."
+          "en": "It is highly likely that technological advancements will rapidly introduce immersive virtual reality experiences. As a direct result, modern viewers will have the extraordinary ability to control the unfolding narratives, meaning that traditional theaters must fundamentally evolve into massive entertainment hubs to successfully provide a highly unique sensory journey.",
+          "vi": "Rất có khả năng là những tiến bộ công nghệ sẽ nhanh chóng giới thiệu những trải nghiệm thực tế ảo đắm chìm. Như một kết quả trực tiếp, những người xem hiện đại sẽ có khả năng phi thường để kiểm soát các câu chuyện đang diễn ra, có nghĩa là các rạp chiếu phim truyền thống phải tiến hóa một cách cơ bản thành các trung tâm giải trí khổng lồ để cung cấp thành công một hành trình cảm giác vô cùng độc đáo."
         },
         {
-          "en": "Future cinema will rely on smart phones providing fast internet and big screens it is so interesting to hear all your different thoughts honestly. We can anticipate a significant shift towards interactive viewing thanks to artificial intelligence recommendations.",
-          "vi": "Điện ảnh tương lai sẽ dựa vào tai nghe thực tế ảo cung cấp sự sẵn có của phát trực tuyến ở khắp mọi nơi và các lựa chọn cốt truyện tương tác. Chúng ta có thể dự đoán một sự thay đổi đáng kể hướng tới việc xem tương tác nhờ vào khuyến nghị của trí tuệ nhân tạo. Người xem sẽ chủ động đưa ra hướng kể chuyện. Sự thay đổi công nghệ mang tính cách mạng này về cơ bản sẽ biến những khán giả thụ động thành những người tham gia tích cực trong các bối cảnh kể chuyện năng động."
+          "en": "I firmly believe that innovations like interactive holographic projection systems will drastically transform the industry. Given that audiences will soon be able to feel the characters' emotions from their couches, regular cinemas will have no choice but to upgrade their obsolete screening equipment in order to deliver an incredibly realistic storytelling environment.",
+          "vi": "Tôi tin chắc rằng những đổi mới như các hệ thống trình chiếu ba chiều tương tác sẽ thay đổi mạnh mẽ ngành công nghiệp này. Do khán giả sẽ sớm có thể cảm nhận những cảm xúc của các nhân vật từ ghế sofa của họ, các rạp chiếu phim thông thường sẽ không có lựa chọn nào khác ngoài việc nâng cấp thiết bị chiếu phim lỗi thời của họ để mang lại một môi trường kể chuyện vô cùng chân thực."
         }
       ]
     }
   },
   "Walking club": {
     "q1": {
-      "member": "Member A",
+      "member": "Member",
       "question": "I often go for a walk. What about you?",
       "vi": "Tôi thường đi dạo. Còn bạn thì sao?",
       "vocab": [
-        "✨ [frequency]: <strong>daily</strong> (hàng ngày), <strong>often</strong> (thường xuyên), <strong>frequently</strong> (thường xuyên), <strong>regularly</strong> (đều đặn), <strong>periodically</strong> (định kỳ)",
-        "✨ [activities]: <strong>walk</strong> (đi bộ), <strong>run</strong> (chạy), <strong>stroll</strong> (đi dạo), <strong>wander</strong> (đi lang thang), <strong>promenade</strong> (đi dạo bộ)",
-        "✨ [places]: <strong>park</strong> (công viên), <strong>street</strong> (đường phố), <strong>boulevard</strong> (đại lộ), <strong>neighborhood</strong> (khu dân cư), <strong>vicinity</strong> (vùng lân cận)",
-        "✨ [bạn đồng hành]: <strong>close friend</strong> (bạn thân), <strong>elderly neighbor</strong> (hàng xóm lớn tuổi), <strong>pet dog</strong> (chó cưng), <strong>younger sibling</strong> (em ruột), <strong>colleague</strong> (đồng nghiệp)"
+        "✨ [tần suất]: <strong>walk almost every day</strong> (đi bộ gần như mỗi ngày), <strong>go walking twice weekly</strong> (đi bộ hai lần hàng tuần), <strong>have a daily walk</strong> (có một buổi đi dạo hàng ngày), <strong>take a regular stroll</strong> (đi dạo thường xuyên), <strong>walk during my weekends</strong> (đi bộ trong những ngày nghỉ cuối tuần của tôi)",
+        "✨ [địa điểm]: <strong>in my quiet neighborhood</strong> (trong khu dân cư yên tĩnh của tôi), <strong>along the tranquil river</strong> (dọc theo dòng sông thanh bình), <strong>at the local park</strong> (tại công viên địa phương), <strong>around a beautiful lake</strong> (quanh một hồ nước đẹp), <strong>in the botanical garden</strong> (trong khu vườn bách thảo)",
+        "✨ [lợi ích]: <strong>clear my mind effectively</strong> (làm thư thái tâm trí hiệu quả), <strong>improve my cardiovascular health</strong> (cải thiện sức khỏe tim mạch của tôi), <strong>maintain my physical fitness</strong> (duy trì thể lực của tôi), <strong>boost my energy levels</strong> (tăng cường mức năng lượng của tôi), <strong>reduce my daily stress</strong> (giảm căng thẳng hàng ngày của tôi)",
+        "✨ [cảm xúc]: <strong>feel completely refreshed afterwards</strong> (cảm thấy hoàn toàn sảng khoái sau đó), <strong>experience true inner peace</strong> (trải nghiệm sự bình yên thực sự bên trong), <strong>become much more focused</strong> (trở nên tập trung hơn nhiều), <strong>stay positive and cheerful</strong> (luôn tích cực và vui vẻ), <strong>feel thoroughly relaxed instantly</strong> (cảm thấy hoàn toàn thư giãn ngay lập tức)"
       ],
       "templates": [
-        "I am super excited to share my own personal thoughts on this matter. I usually go for a stroll with my [bạn đồng hành]. I [frequency] go for a [activities] in my [places]. This simple thing truly makes a massive positive impact on my daily routine.",
-        "Wow, it is actually quite amazing to discuss this with you all. I usually go for a stroll with my [bạn đồng hành]. Taking a [activities] [frequency] around the [places] is my habit. This simple thing truly makes a massive positive impact on my daily routine."
+        "I personally love to [tần suất] [địa điểm]. This excellent habit allows me to [lợi ích], which is very important. As a result, I always [cảm xúc].",
+        "Like you, I frequently [tần suất] [địa điểm]. Engaging in this activity helps me to [lợi ích] significantly. By doing this regularly, I can [cảm xúc]."
       ],
       "samples": [
         {
-          "en": "I am super excited to share my own personal thoughts on this matter. I usually go for a stroll with my close friend. I daily go for a walk in my park. This simple thing truly makes a massive positive impact on my daily routine.",
-          "vi": "Tôi siêu hào hứng để chia sẻ những suy nghĩ cá nhân của riêng tôi về vấn đề này. Tôi thường đi dạo cùng với bạn thân của mình. Tôi hàng ngày đi đi bộ ở công viên. Điều đơn giản này thực sự tạo ra tác động tích cực lớn đến thói quen hàng ngày của tôi."
+          "en": "I personally love to walk almost every day in my quiet neighborhood. This excellent habit allows me to clear my mind effectively, which is very important. As a result, I always feel completely refreshed afterwards.",
+          "vi": "Cá nhân tôi thích đi bộ gần như mỗi ngày trong khu dân cư yên tĩnh của tôi. Thói quen tuyệt vời này cho phép tôi làm thư thái tâm trí hiệu quả, điều này rất quan trọng. Kết quả là, tôi luôn cảm thấy hoàn toàn sảng khoái sau đó."
         },
         {
-          "en": "Wow, it is actually quite amazing to discuss this with you all. I usually go for a stroll with my elderly neighbor. Taking a run often around the street is my habit. This simple thing truly makes a massive positive impact on my daily routine.",
-          "vi": "Wow, thực sự khá tuyệt vời khi thảo luận điều này với tất cả các bạn. Tôi thường đi dạo cùng với hàng xóm lớn tuổi của mình. Việc chạy thường xuyên quanh đường phố là thói quen của tôi. Điều đơn giản này thực sự tạo ra tác động tích cực lớn đến thói quen hàng ngày của tôi."
+          "en": "Like you, I frequently go walking twice weekly along the tranquil river. Engaging in this activity helps me to improve my cardiovascular health significantly. By doing this regularly, I can experience true inner peace.",
+          "vi": "Giống như bạn, tôi thường xuyên đi bộ hai lần hàng tuần dọc theo dòng sông thanh bình. Tham gia vào hoạt động này giúp tôi cải thiện sức khỏe tim mạch của tôi đáng kể. Bằng cách làm điều này thường xuyên, tôi có thể trải nghiệm sự bình yên thực sự bên trong."
         }
       ]
     },
     "q2": {
-      "member": "Member B",
+      "member": "Member",
       "question": "I prefer to go to the countryside for a walk. Walking in the city is stressful and noisy. What do you think?",
       "vi": "Tôi thích về nông thôn để đi dạo. Đi bộ trong thành phố rất căng thẳng và ồn ào. Bạn nghĩ sao?",
       "vocab": [
-        "✨ [opinion]: <strong>think</strong> (nghĩ), <strong>agree</strong> (đồng ý), <strong>concur</strong> (đồng tình), <strong>advocate</strong> (ủng hộ), <strong>endorse</strong> (tán thành)",
-        "✨ [nature]: <strong>trees</strong> (cây cối), <strong>grass</strong> (cỏ), <strong>tranquility</strong> (sự yên tĩnh), <strong>serenity</strong> (sự thanh bình), <strong>greenery</strong> (cây xanh)",
-        "✨ [city issues]: <strong>cars</strong> (ô tô), <strong>noise</strong> (tiếng ồn), <strong>pollution</strong> (ô nhiễm), <strong>congestion</strong> (tắc nghẽn), <strong>hustle</strong> (sự hối hả)",
-        "✨ [yếu tố]: <strong>air quality</strong> (chất lượng không khí), <strong>scenic view</strong> (cảnh quan), <strong>level of tranquility</strong> (mức độ yên tĩnh), <strong>safety aspect</strong> (yếu tố an toàn), <strong>path condition</strong> (điều kiện đường sá)"
+        "✨ [quan điểm]: <strong>completely agree with you</strong> (hoàn toàn đồng ý với bạn), <strong>share the same thought</strong> (chia sẻ cùng suy nghĩ), <strong>feel exactly the same</strong> (cảm thấy chính xác như vậy), <strong>strongly support your opinion</strong> (ủng hộ mạnh mẽ ý kiến của bạn), <strong>totally understand your perspective</strong> (hoàn toàn hiểu quan điểm của bạn)",
+        "✨ [ưu điểm nông thôn]: <strong>enjoy the fresh air</strong> (tận hưởng không khí trong lành), <strong>admire the stunning landscapes</strong> (chiêm ngưỡng phong cảnh tuyệt đẹp), <strong>experience true peaceful surroundings</strong> (trải nghiệm môi trường xung quanh thực sự yên bình), <strong>connect closely with nature</strong> (kết nối chặt chẽ với thiên nhiên), <strong>find absolute mental tranquility</strong> (tìm thấy sự thanh thản tuyệt đối về tinh thần)",
+        "✨ [nhược điểm thành phố]: <strong>deal with heavy traffic</strong> (đối phó với giao thông đông đúc), <strong>breathe in polluted air</strong> (hít thở không khí ô nhiễm), <strong>tolerate the constant noise</strong> (chịu đựng tiếng ồn liên tục), <strong>face overwhelming crowded streets</strong> (đối mặt với những con phố đông đúc áp đảo), <strong>suffer from loud vehicles</strong> (chịu đựng xe cộ ồn ào)",
+        "✨ [đề xuất]: <strong>organize a weekend trip</strong> (tổ chức một chuyến đi cuối tuần), <strong>visit the nearby village</strong> (thăm ngôi làng gần đó), <strong>explore a national park</strong> (khám phá một công viên quốc gia), <strong>plan a rural getaway</strong> (lên kế hoạch cho một kỳ nghỉ ở nông thôn), <strong>arrange a hiking tour</strong> (sắp xếp một chuyến đi bộ đường dài)"
       ],
       "templates": [
-        "I really appreciate you asking about this wonderful topic today. A key aspect I consider when choosing a route is the [yếu tố]. I [opinion] that walking among [nature] is better than dealing with [city issues]. I truly believe this is the best way to handle the situation.",
-        "I really appreciate you asking about this wonderful topic today. A key aspect I consider when choosing a route is the [yếu tố]. I completely [opinion] with you because [nature] helps us escape the [city issues]. I truly believe this is the best way to handle the situation."
+        "I [quan điểm] because the countryside allows us to [ưu điểm nông thôn]. Meanwhile, city walkers often have to [nhược điểm thành phố]. Perhaps we could [đề xuất] together soon.",
+        "I [quan điểm] since rural areas provide a wonderful chance to [ưu điểm nông thôn]. In contrast, urban environments force people to [nhược điểm thành phố]. Therefore, we should [đề xuất] sometime."
       ],
       "samples": [
         {
-          "en": "I really appreciate you asking about this wonderful topic today. A key aspect I consider when choosing a route is the air quality. I think that walking among trees is better than dealing with cars. I truly believe this is the best way to handle the situation.",
-          "vi": "Tôi thực sự đánh giá cao bạn hỏi về chủ đề tuyệt vời này hôm nay. Một khía cạnh quan trọng tôi cân nhắc khi chọn tuyến đường là chất lượng không khí. Tôi nghĩ rằng đi bộ giữa cây cối thì tốt hơn là đối phó với ô tô. Tôi thành thật tin rằng đây là cách tốt nhất để xử lý tình huống."
+          "en": "I completely agree with you because the countryside allows us to enjoy the fresh air. Meanwhile, city walkers often have to deal with heavy traffic. Perhaps we could organize a weekend trip together soon.",
+          "vi": "Tôi hoàn toàn đồng ý với bạn bởi vì nông thôn cho phép chúng ta tận hưởng không khí trong lành. Trong khi đó, những người đi bộ trong thành phố thường phải đối phó với giao thông đông đúc. Có lẽ chúng ta có thể tổ chức một chuyến đi cuối tuần cùng nhau sớm."
         },
         {
-          "en": "I really appreciate you asking about this wonderful topic today. A key aspect I consider when choosing a route is the scenic view. I completely agree with you because grass helps us escape the noise. I truly believe this is the best way to handle the situation.",
-          "vi": "Tôi thực sự đánh giá cao bạn hỏi về chủ đề tuyệt vời này hôm nay. Một khía cạnh quan trọng tôi cân nhắc khi chọn tuyến đường là cảnh quan. Tôi hoàn toàn đồng ý với bạn vì cỏ giúp chúng ta thoát khỏi tiếng ồn. Tôi thành thật tin rằng đây là cách tốt nhất để xử lý tình huống."
+          "en": "I share the same thought since rural areas provide a wonderful chance to admire the stunning landscapes. In contrast, urban environments force people to breathe in polluted air. Therefore, we should visit the nearby village sometime.",
+          "vi": "Tôi chia sẻ cùng suy nghĩ vì khu vực nông thôn cung cấp một cơ hội tuyệt vời để chiêm ngưỡng phong cảnh tuyệt đẹp. Ngược lại, môi trường đô thị buộc mọi người phải hít thở không khí ô nhiễm. Do đó, chúng ta nên thăm ngôi làng gần đó vào lúc nào đó."
         }
       ]
     },
     "q3": {
-      "member": "Member C",
+      "member": "Member",
       "question": "In the past, people walked long distances as part of their lives. These days, they don't walk anymore. Why?",
       "vi": "Trước đây, mọi người đi bộ đường dài như một phần cuộc sống của họ. Ngày nay, họ không đi bộ nữa. Tại sao?",
       "vocab": [
-        "✨ [causes]: <strong>cars</strong> (ô tô), <strong>bikes</strong> (xe đạp), <strong>vehicles</strong> (xe cộ), <strong>transportation</strong> (giao thông), <strong>automobiles</strong> (xe hơi)",
-        "✨ [lifestyles]: <strong>busy</strong> (bận rộn), <strong>lazy</strong> (lười biếng), <strong>sedentary</strong> (ít vận động), <strong>hectic</strong> (hối hả), <strong>convenient</strong> (tiện lợi)",
-        "✨ [consequences]: <strong>fat</strong> (béo), <strong>sick</strong> (ốm), <strong>obesity</strong> (béo phì), <strong>ailments</strong> (bệnh tật), <strong>deterioration</strong> (sự suy giảm)",
-        "✨ [phương tiện]: <strong>personal vehicle</strong> (phương tiện cá nhân), <strong>public transport</strong> (phương tiện công cộng), <strong>electric scooter</strong> (xe máy điện), <strong>motorcycle</strong> (xe máy), <strong>modern automobile</strong> (ô tô hiện đại)"
+        "✨ [lý do chính]: <strong>rely heavily on private vehicles</strong> (phụ thuộc nhiều vào phương tiện cá nhân), <strong>have extremely busy work schedules</strong> (có lịch làm việc cực kỳ bận rộn), <strong>prefer convenient public transport systems</strong> (thích hệ thống giao thông công cộng tiện lợi), <strong>lead a sedentary modern lifestyle</strong> (có một lối sống hiện đại ít vận động), <strong>lack safe pedestrian walking paths</strong> (thiếu lối đi an toàn cho người đi bộ)",
+        "✨ [hậu quả]: <strong>experience serious health problems</strong> (gặp các vấn đề sức khỏe nghiêm trọng), <strong>gain unwanted body weight</strong> (tăng trọng lượng cơ thể không mong muốn), <strong>suffer from chronic diseases</strong> (mắc các bệnh mãn tính), <strong>lose their physical endurance</strong> (đánh mất sức bền thể chất của họ), <strong>become increasingly less active</strong> (trở nên ngày càng kém năng động)",
+        "✨ [giải pháp]: <strong>promote walking to workplaces</strong> (khuyến khích đi bộ đến nơi làm việc), <strong>build more pedestrian zones</strong> (xây dựng thêm các khu vực dành cho người đi bộ), <strong>encourage daily physical activities</strong> (khuyến khích các hoạt động thể chất hàng ngày), <strong>organize community walking events</strong> (tổ chức các sự kiện đi bộ cộng đồng), <strong>create attractive nature trails</strong> (tạo ra những con đường mòn thiên nhiên hấp dẫn)",
+        "✨ [lợi ích giải pháp]: <strong>improve public health significantly</strong> (cải thiện sức khỏe cộng đồng đáng kể), <strong>reduce environmental pollution effectively</strong> (giảm ô nhiễm môi trường hiệu quả), <strong>enhance overall life quality</strong> (nâng cao chất lượng cuộc sống tổng thể), <strong>foster stronger community bonds</strong> (thúc đẩy sự gắn kết cộng đồng mạnh mẽ hơn), <strong>boost citizens' mental wellbeing</strong> (tăng cường sức khỏe tinh thần của công dân)"
       ],
       "templates": [
-        "I am super excited to share my own personal thoughts on this matter. Most individuals nowadays rely heavily on their [phương tiện] for daily commutes. Modern [causes] and a [lifestyles] lifestyle lead to [consequences]. This simple thing truly makes a massive positive impact on my daily routine.",
-        "Wow, it is actually quite amazing to discuss this with you all. Most individuals nowadays rely heavily on their [phương tiện] for daily commutes. Due to convenient [causes], people have become [lifestyles], causing [consequences]. This simple thing truly makes a massive positive impact on my daily routine."
+        "Nowadays, people tend to [lý do chính], which unfortunately causes them to [hậu quả] over time. To solve this pressing issue, governments must [giải pháp] in order to [lợi ích giải pháp].",
+        "The main reason is that individuals often [lý do chính], leading them to [hậu quả] eventually. Consequently, we should highly recommend that authorities [giải pháp], which can [lợi ích giải pháp]."
       ],
       "samples": [
         {
-          "en": "I am super excited to share my own personal thoughts on this matter. Most individuals nowadays rely heavily on their personal vehicle for daily commutes. Modern cars and a busy lifestyle lead to fat. This simple thing truly makes a massive positive impact on my daily routine.",
-          "vi": "Tôi siêu hào hứng để chia sẻ những suy nghĩ cá nhân của riêng tôi về vấn đề này. Hầu hết mọi người ngày nay phụ thuộc nhiều vào phương tiện cá nhân cho việc đi lại hàng ngày. ô tô hiện đại và lối sống bận rộn dẫn đến béo. Điều đơn giản này thực sự tạo ra tác động tích cực lớn đến thói quen hàng ngày của tôi."
+          "en": "Nowadays, people tend to rely heavily on private vehicles, which unfortunately causes them to experience serious health problems over time. To solve this pressing issue, governments must promote walking to workplaces in order to improve public health significantly.",
+          "vi": "Ngày nay, mọi người có xu hướng phụ thuộc nhiều vào phương tiện cá nhân, điều này không may khiến họ gặp các vấn đề sức khỏe nghiêm trọng theo thời gian. Để giải quyết vấn đề cấp bách này, chính phủ phải khuyến khích đi bộ đến nơi làm việc để cải thiện sức khỏe cộng đồng đáng kể."
         },
         {
-          "en": "Wow, it is actually quite amazing to discuss this with you all. Most individuals nowadays rely heavily on their public transport for daily commutes. Due to convenient bikes, people have become lazy, causing sick. This simple thing truly makes a massive positive impact on my daily routine.",
-          "vi": "Wow, thực sự khá tuyệt vời khi thảo luận điều này với tất cả các bạn. Hầu hết mọi người ngày nay phụ thuộc nhiều vào phương tiện công cộng cho việc đi lại hàng ngày. Do xe đạp tiện lợi, con người trở nên lười biếng, gây ra ốm. Điều đơn giản này thực sự tạo ra tác động tích cực lớn đến thói quen hàng ngày của tôi."
+          "en": "The main reason is that individuals often have extremely busy work schedules, leading them to gain unwanted body weight eventually. Consequently, we should highly recommend that authorities build more pedestrian zones, which can reduce environmental pollution effectively.",
+          "vi": "Lý do chính là các cá nhân thường có lịch làm việc cực kỳ bận rộn, dẫn đến việc họ tăng trọng lượng cơ thể không mong muốn cuối cùng. Do đó, chúng ta nên đánh giá cao việc đề xuất chính quyền xây dựng thêm các khu vực dành cho người đi bộ, điều này có thể giảm ô nhiễm môi trường hiệu quả."
         }
       ]
     }
   },
   "Community club": {
     "q1": {
-      "member": "Member A",
+      "member": "Member",
       "question": "My friend wants to go to the hair salon, but her car isn't working. Can you suggest some ways for her to get there?",
       "vi": "Bạn tôi muốn đến tiệm làm tóc, nhưng xe của cô ấy bị hỏng. Bạn có thể gợi ý một số cách để cô ấy đến đó không?",
       "vocab": [
-        "✨ [transport]: <strong>bus</strong> (xe buýt), <strong>taxi</strong> (xe taxi), <strong>subway</strong> (tàu điện ngầm), <strong>carpool</strong> (đi chung xe), <strong>shuttle</strong> (xe đưa đón)",
-        "✨ [actions]: <strong>take</strong> (đi), <strong>call</strong> (gọi), <strong>book</strong> (đặt), <strong>hail</strong> (vẫy gọi), <strong>reserve</strong> (đặt trước)",
-        "✨ [adjectives]: <strong>fast</strong> (nhanh), <strong>cheap</strong> (rẻ), <strong>economical</strong> (tiết kiệm), <strong>expedient</strong> (thuận tiện), <strong>affordable</strong> (phải chăng)",
-        "✨ [phương án]: <strong>local bus</strong> (xe buýt địa phương), <strong>ride-hailing service</strong> (dịch vụ gọi xe), <strong>shared bicycle</strong> (xe đạp công cộng), <strong>subway train</strong> (tàu điện ngầm), <strong>taxi cab</strong> (xe taxi)"
+        "✨ [phương tiện]: <strong>take the local public bus</strong> (đi xe buýt công cộng địa phương), <strong>book a convenient ride-hailing service</strong> (đặt một dịch vụ gọi xe tiện lợi), <strong>use the nearby subway system</strong> (sử dụng hệ thống tàu điện ngầm gần đó), <strong>catch a fast city taxi</strong> (bắt một chiếc taxi thành phố nhanh chóng), <strong>borrow a reliable bicycle instead</strong> (thay vào đó mượn một chiếc xe đạp đáng tin cậy)",
+        "✨ [ưu điểm]: <strong>save a lot of extra money</strong> (tiết kiệm được nhiều tiền thêm), <strong>avoid terrible traffic congestion easily</strong> (tránh ùn tắc giao thông khủng khiếp một cách dễ dàng), <strong>reach the target destination safely</strong> (đến đích mục tiêu một cách an toàn), <strong>enjoy a comfortable smooth journey</strong> (tận hưởng một hành trình êm ái thoải mái), <strong>experience an eco-friendly travel mode</strong> (trải nghiệm một phương thức du lịch thân thiện với môi trường)",
+        "✨ [hành động]: <strong>check the schedule online beforehand</strong> (kiểm tra lịch trình trực tuyến trước), <strong>download a popular booking application</strong> (tải xuống một ứng dụng đặt xe phổ biến), <strong>ask a kind neighbor directly</strong> (trực tiếp nhờ một người hàng xóm tốt bụng), <strong>prepare the exact travel fare</strong> (chuẩn bị chính xác tiền vé đi lại), <strong>leave the warm house early</strong> (rời khỏi ngôi nhà ấm áp sớm)",
+        "✨ [kết quả]: <strong>arrive on time without stress</strong> (đến đúng giờ mà không bị căng thẳng), <strong>keep her planned appointment smoothly</strong> (giữ đúng cuộc hẹn đã định một cách suôn sẻ), <strong>have a wonderful relaxing time</strong> (có một thời gian thư giãn tuyệt vời), <strong>get her hair done perfectly</strong> (làm tóc một cách hoàn hảo), <strong>enjoy her weekend styling session</strong> (tận hưởng buổi tạo kiểu tóc cuối tuần của cô ấy)"
       ],
       "templates": [
-        "Wow, it is actually quite amazing to discuss this with you all. She could definitely consider taking a [phương án] as a convenient alternative. She can [actions] a [transport] because it is very [adjectives]. This simple thing truly makes a massive positive impact on my daily routine.",
-        "Wow, it is actually quite amazing to discuss this with you all. She could definitely consider taking a [phương án] as a convenient alternative. I suggest she should [actions] a [transport], which is quite [adjectives]. I truly believe this is the best way to handle the situation."
+        "I strongly suggest that your friend should [phương tiện] because it helps her [ưu điểm]. Furthermore, if she can [hành động], she will undoubtedly [kết quả].",
+        "An excellent option for her is to [phương tiện], which allows her to [ưu điểm]. By making sure to [hành động], she can definitely [kết quả]."
       ],
       "samples": [
         {
-          "en": "Wow, it is actually quite amazing to discuss this with you all. She could definitely consider taking a local bus as a convenient alternative. She can take a bus because it is very fast. This simple thing truly makes a massive positive impact on my daily routine.",
-          "vi": "Wow, thực sự khá tuyệt vời khi thảo luận điều này với tất cả các bạn. Cô ấy chắc chắn có thể cân nhắc việc sử dụng xe buýt địa phương như một sự thay thế tiện lợi. Cô ấy có thể đi một xe buýt vì nó rất nhanh. Điều đơn giản này thực sự tạo ra tác động tích cực lớn đến thói quen hàng ngày của tôi."
+          "en": "I strongly suggest that your friend should take the local public bus because it helps her save a lot of extra money. Furthermore, if she can check the schedule online beforehand, she will undoubtedly arrive on time without stress.",
+          "vi": "Tôi cực kỳ gợi ý rằng bạn của bạn nên đi xe buýt công cộng địa phương bởi vì nó giúp cô ấy tiết kiệm được nhiều tiền thêm. Hơn nữa, nếu cô ấy có thể kiểm tra lịch trình trực tuyến trước, cô ấy chắc chắn sẽ đến đúng giờ mà không bị căng thẳng."
         },
         {
-          "en": "Wow, it is actually quite amazing to discuss this with you all. She could definitely consider taking a ride-hailing service as a convenient alternative. I suggest she should call a taxi, which is quite cheap. I truly believe this is the best way to handle the situation.",
-          "vi": "Wow, thực sự khá tuyệt vời khi thảo luận điều này với tất cả các bạn. Cô ấy chắc chắn có thể cân nhắc việc sử dụng dịch vụ gọi xe như một sự thay thế tiện lợi. Tôi đề nghị cô ấy nên gọi một xe taxi, điều đó khá rẻ. Tôi thành thật tin rằng đây là cách tốt nhất để xử lý tình huống."
+          "en": "An excellent option for her is to book a convenient ride-hailing service, which allows her to avoid terrible traffic congestion easily. By making sure to download a popular booking application, she can definitely keep her planned appointment smoothly.",
+          "vi": "Một lựa chọn tuyệt vời cho cô ấy là đặt một dịch vụ gọi xe tiện lợi, điều này cho phép cô ấy tránh ùn tắc giao thông khủng khiếp một cách dễ dàng. Bằng cách đảm bảo tải xuống một ứng dụng đặt xe phổ biến, cô ấy chắc chắn có thể giữ đúng cuộc hẹn đã định một cách suôn sẻ."
         }
       ]
     },
     "q2": {
-      "member": "Member B",
+      "member": "Member",
       "question": "Volunteering provides great learning opportunities and helps others a lot. Do you agree with this?",
       "vi": "Tình nguyện mang lại cơ hội học tập tuyệt vời và giúp đỡ người khác rất nhiều. Bạn có đồng ý với điều này không?",
       "vocab": [
-        "✨ [agreement]: <strong>yes</strong> (có), <strong>agree</strong> (đồng ý), <strong>concur</strong> (đồng tình), <strong>absolutely</strong> (chắc chắn), <strong>undoubtedly</strong> (không nghi ngờ gì)",
-        "✨ [benefits]: <strong>skills</strong> (kỹ năng), <strong>friends</strong> (bạn bè), <strong>empathy</strong> (sự đồng cảm), <strong>compassion</strong> (lòng trắc ẩn), <strong>competence</strong> (năng lực)",
-        "✨ [impact]: <strong>help</strong> (giúp đỡ), <strong>good</strong> (tốt), <strong>beneficial</strong> (có ích), <strong>impactful</strong> (tác động mạnh), <strong>transformative</strong> (thay đổi lớn)",
-        "✨ [kỹ năng]: <strong>interpersonal skills</strong> (kỹ năng giao tiếp xã hội), <strong>problem-solving abilities</strong> (khả năng giải quyết vấn đề), <strong>leadership qualities</strong> (phẩm chất lãnh đạo), <strong>communication skills</strong> (kỹ năng giao tiếp), <strong>teamwork capabilities</strong> (khả năng làm việc nhóm)"
+        "✨ [quan điểm]: <strong>agree with this statement completely</strong> (hoàn toàn đồng ý với nhận định này), <strong>support this idea without hesitation</strong> (ủng hộ ý tưởng này mà không do dự), <strong>believe this is absolutely true</strong> (tin rằng điều này là hoàn toàn đúng), <strong>share this profound wonderful perspective</strong> (chia sẻ quan điểm tuyệt vời sâu sắc này), <strong>find this opinion highly accurate</strong> (thấy ý kiến này có độ chính xác cao)",
+        "✨ [cơ hội học tập]: <strong>develop essential soft skills effectively</strong> (phát triển các kỹ năng mềm thiết yếu một cách hiệu quả), <strong>gain valuable real-world practical experience</strong> (có được kinh nghiệm thực tế quý giá trong thế giới thực), <strong>learn how to work collaboratively</strong> (học cách làm việc hợp tác), <strong>expand their professional social networks</strong> (mở rộng mạng lưới xã hội nghề nghiệp của họ), <strong>acquire practical problem-solving vital abilities</strong> (có được khả năng quan trọng để giải quyết vấn đề thực tế)",
+        "✨ [giúp đỡ người khác]: <strong>make a meaningful positive impact</strong> (tạo ra một tác động tích cực có ý nghĩa), <strong>support vulnerable people in need</strong> (hỗ trợ những người dễ bị tổn thương đang gặp khó khăn), <strong>contribute positively to the community</strong> (đóng góp tích cực cho cộng đồng), <strong>bring hope to disadvantaged groups</strong> (mang lại hy vọng cho các nhóm yếu thế), <strong>improve living conditions for everyone</strong> (cải thiện điều kiện sống cho mọi người)",
+        "✨ [cảm nhận cá nhân]: <strong>feel incredibly proud and fulfilled</strong> (cảm thấy vô cùng tự hào và mãn nguyện), <strong>experience true profound deep happiness</strong> (trải nghiệm hạnh phúc sâu sắc thẳm thực sự), <strong>become a better compassionate person</strong> (trở thành một người tốt bụng và giàu lòng nhân ái hơn), <strong>find a clear life purpose</strong> (tìm thấy một mục đích sống rõ ràng), <strong>appreciate my own fortunate life</strong> (trân trọng cuộc sống may mắn của chính mình)"
       ],
       "templates": [
-        "Wow, it is actually quite amazing to discuss this with you all. It also allows participants to develop their [kỹ năng] in real-world scenarios. I [agreement] because we gain [benefits] and do [impact] things. This simple thing truly makes a massive positive impact on my daily routine.",
-        "Wow, it is actually quite amazing to discuss this with you all. It also allows participants to develop their [kỹ năng] in real-world scenarios. [agreement], volunteering develops our [benefits] and creates a [impact] change. This simple thing truly makes a massive positive impact on my daily routine."
+        "I [quan điểm] because doing charity work allows individuals to [cơ hội học tập]. In addition, they can [giúp đỡ người khác], which ultimately makes them [cảm nhận cá nhân].",
+        "I certainly [quan điểm]. Through unpaid community service, participants can easily [cơ hội học tập] while actively managing to [giúp đỡ người khác]. Consequently, they will always [cảm nhận cá nhân]."
       ],
       "samples": [
         {
-          "en": "Wow, it is actually quite amazing to discuss this with you all. It also allows participants to develop their interpersonal skills in real-world scenarios. I yes because we gain skills and do help things. This simple thing truly makes a massive positive impact on my daily routine.",
-          "vi": "Wow, thực sự khá tuyệt vời khi thảo luận điều này với tất cả các bạn. Nó cũng cho phép người tham gia phát triển kỹ năng giao tiếp xã hội của họ trong các tình huống thực tế. Tôi có vì chúng ta có được kỹ năng và làm những điều giúp đỡ. Điều đơn giản này thực sự tạo ra tác động tích cực lớn đến thói quen hàng ngày của tôi."
+          "en": "I agree with this statement completely because doing charity work allows individuals to develop essential soft skills effectively. In addition, they can make a meaningful positive impact, which ultimately makes them feel incredibly proud and fulfilled.",
+          "vi": "Tôi hoàn toàn đồng ý với nhận định này bởi vì làm công việc từ thiện cho phép các cá nhân phát triển các kỹ năng mềm thiết yếu một cách hiệu quả. Ngoài ra, họ có thể tạo ra một tác động tích cực có ý nghĩa, điều này cuối cùng khiến họ cảm thấy vô cùng tự hào và mãn nguyện."
         },
         {
-          "en": "Wow, it is actually quite amazing to discuss this with you all. It also allows participants to develop their problem-solving abilities in real-world scenarios. Agree, volunteering develops our friends and creates a good change. This simple thing truly makes a massive positive impact on my daily routine.",
-          "vi": "Wow, thực sự khá tuyệt vời khi thảo luận điều này với tất cả các bạn. Nó cũng cho phép người tham gia phát triển khả năng giải quyết vấn đề của họ trong các tình huống thực tế. đồng ý, tình nguyện phát triển bạn bè của chúng ta và tạo ra một sự thay đổi tốt. Điều đơn giản này thực sự tạo ra tác động tích cực lớn đến thói quen hàng ngày của tôi."
+          "en": "I certainly support this idea without hesitation. Through unpaid community service, participants can easily gain valuable real-world practical experience while actively managing to support vulnerable people in need. Consequently, they will always experience true profound deep happiness.",
+          "vi": "Tôi chắc chắn ủng hộ ý tưởng này mà không do dự. Thông qua dịch vụ cộng đồng không được trả lương, những người tham gia có thể dễ dàng có được kinh nghiệm thực tế quý giá trong thế giới thực trong khi tích cực quản lý để hỗ trợ những người dễ bị tổn thương đang gặp khó khăn. Do đó, họ sẽ luôn trải nghiệm hạnh phúc sâu sắc thẳm thực sự."
         }
       ]
     },
     "q3": {
-      "member": "Member C",
+      "member": "Member",
       "question": "Do you agree with the view that volunteering is a form of learning, especially for young people? Why?",
       "vi": "Bạn có đồng ý với quan điểm cho rằng tình nguyện là một hình thức học tập, đặc biệt đối với những người trẻ tuổi không? Tại sao?",
       "vocab": [
-        "✨ [opinion]: <strong>yes</strong> (có), <strong>agree</strong> (đồng ý), <strong>believe</strong> (tin rằng), <strong>support</strong> (ủng hộ), <strong>advocate</strong> (tán thành)",
-        "✨ [learnings]: <strong>work</strong> (làm việc), <strong>talk</strong> (nói chuyện), <strong>teamwork</strong> (làm việc nhóm), <strong>leadership</strong> (lãnh đạo), <strong>communication</strong> (giao tiếp)",
-        "✨ [outcomes]: <strong>grow</strong> (phát triển), <strong>smart</strong> (thông minh), <strong>mature</strong> (trưởng thành), <strong>proficient</strong> (thành thạo), <strong>capable</strong> (có năng lực)",
-        "✨ [lợi ích]: <strong>long-term advantage</strong> (lợi thế lâu dài), <strong>educational benefit</strong> (lợi ích giáo dục), <strong>psychological reward</strong> (phần thưởng tâm lý), <strong>practical value</strong> (giá trị thực tế), <strong>social perk</strong> (đặc quyền xã hội)"
+        "✨ [sự đồng tình]: <strong>strongly agree with this viewpoint</strong> (kịch liệt đồng ý với quan điểm này), <strong>completely support this educational concept</strong> (hoàn toàn ủng hộ khái niệm giáo dục này), <strong>firmly believe in this idea</strong> (tin tưởng vững chắc vào ý tưởng này), <strong>consider this an undeniable truth</strong> (coi đây là một sự thật không thể phủ nhận), <strong>think this is completely accurate</strong> (nghĩ rằng điều này là hoàn toàn chính xác)",
+        "✨ [kiến thức]: <strong>discover diverse new cultural perspectives</strong> (khám phá những quan điểm văn hóa mới đa dạng), <strong>gain profound insights about life</strong> (có được những hiểu biết sâu sắc về cuộc sống), <strong>learn essential communication soft skills</strong> (học các kỹ năng giao tiếp mềm thiết yếu), <strong>acquire real leadership management abilities</strong> (có được khả năng quản lý lãnh đạo thực tế), <strong>understand pressing social community issues</strong> (hiểu các vấn đề xã hội cộng đồng cấp bách)",
+        "✨ [tác động tâm lý]: <strong>become significantly more mature mentally</strong> (trở nên trưởng thành hơn đáng kể về mặt tinh thần), <strong>develop a strong empathetic mindset</strong> (phát triển một tư duy đồng cảm mạnh mẽ), <strong>build solid self-confidence and independence</strong> (xây dựng sự tự tin và độc lập vững chắc), <strong>cultivate profound gratitude and humility</strong> (trau dồi lòng biết ơn và sự khiêm tốn sâu sắc), <strong>foster a highly resilient attitude</strong> (nuôi dưỡng một thái độ phục hồi cao)",
+        "✨ [kết quả dài hạn]: <strong>succeed in their future careers</strong> (thành công trong sự nghiệp tương lai của họ), <strong>become responsible global active citizens</strong> (trở thành những công dân tích cực toàn cầu có trách nhiệm), <strong>build a remarkably outstanding resume</strong> (xây dựng một bản lý lịch nổi bật đáng chú ý), <strong>navigate adult life challenges successfully</strong> (vượt qua những thách thức của cuộc sống người lớn thành công), <strong>positively influence their younger peers</strong> (tác động tích cực đến những người bạn trẻ tuổi hơn của họ)"
       ],
       "templates": [
-        "Wow, it is actually quite amazing to discuss this with you all. Engaging in such activities can offer a substantial [lợi ích] to their personal growth. I [opinion] this because youth learn [learnings] and become [outcomes]. This simple thing truly makes a massive positive impact on my daily routine.",
-        "Wow, it is actually quite amazing to discuss this with you all. Engaging in such activities can offer a substantial [lợi ích] to their personal growth. I completely [opinion] as practicing [learnings] makes young individuals more [outcomes]. I truly believe this is the best way to handle the situation."
+        "I [sự đồng tình] since unpaid work helps teenagers to [kiến thức]. Furthermore, this valuable experience encourages them to [tác động tâm lý], which ensures they can [kết quả dài hạn].",
+        "I absolutely [sự đồng tình]. By joining charity programs, the youth can [kiến thức] and simultaneously [tác động tâm lý]. As a wonderful result, they will [kết quả dài hạn]."
       ],
       "samples": [
         {
-          "en": "Wow, it is actually quite amazing to discuss this with you all. Engaging in such activities can offer a substantial long-term advantage to their personal growth. I yes this because youth learn work and become grow. This simple thing truly makes a massive positive impact on my daily routine.",
-          "vi": "Wow, thực sự khá tuyệt vời khi thảo luận điều này với tất cả các bạn. Tham gia vào các hoạt động như vậy có thể mang lại lợi thế lâu dài đáng kể cho sự phát triển cá nhân của họ. Tôi có điều này vì thanh niên học được làm việc và trở nên phát triển. Điều đơn giản này thực sự tạo ra tác động tích cực lớn đến thói quen hàng ngày của tôi."
+          "en": "I strongly agree with this viewpoint since unpaid work helps teenagers to discover diverse new cultural perspectives. Furthermore, this valuable experience encourages them to become significantly more mature mentally, which ensures they can succeed in their future careers.",
+          "vi": "Tôi kịch liệt đồng ý với quan điểm này vì công việc không được trả lương giúp thanh thiếu niên khám phá những quan điểm văn hóa mới đa dạng. Hơn nữa, kinh nghiệm quý giá này khuyến khích họ trở nên trưởng thành hơn đáng kể về mặt tinh thần, điều này đảm bảo họ có thể thành công trong sự nghiệp tương lai của họ."
         },
         {
-          "en": "Wow, it is actually quite amazing to discuss this with you all. Engaging in such activities can offer a substantial educational benefit to their personal growth. I completely agree as practicing talk makes young individuals more smart. I truly believe this is the best way to handle the situation.",
-          "vi": "Wow, thực sự khá tuyệt vời khi thảo luận điều này với tất cả các bạn. Tham gia vào các hoạt động như vậy có thể mang lại lợi ích giáo dục đáng kể cho sự phát triển cá nhân của họ. Tôi hoàn toàn đồng ý vì thực hành nói chuyện giúp những người trẻ trở nên thông minh hơn. Tôi thành thật tin rằng đây là cách tốt nhất để xử lý tình huống."
+          "en": "I absolutely completely support this educational concept. By joining charity programs, the youth can gain profound insights about life and simultaneously develop a strong empathetic mindset. As a wonderful result, they will become responsible global active citizens.",
+          "vi": "Tôi tuyệt đối hoàn toàn ủng hộ khái niệm giáo dục này. Bằng cách tham gia các chương trình từ thiện, giới trẻ có thể có được những hiểu biết sâu sắc về cuộc sống và đồng thời phát triển một tư duy đồng cảm mạnh mẽ. Như một kết quả tuyệt vời, họ sẽ trở thành những công dân tích cực toàn cầu có trách nhiệm."
         }
       ]
     }
   },
   "Museum club": {
     "q1": {
-      "member": "Member A",
+      "member": "Member",
       "question": "Please talk about the first museum you visited when you were a child?",
       "vi": "Hãy kể về bảo tàng đầu tiên bạn đến thăm khi còn nhỏ?",
       "vocab": [
-        "✨ [museum types]: <strong>art</strong> (nghệ thuật), <strong>history</strong> (lịch sử), <strong>science</strong> (khoa học), <strong>archaeology</strong> (khảo cổ học), <strong>anthropology</strong> (nhân chủng học)",
-        "✨ [displays]: <strong>old</strong> (cũ), <strong>bones</strong> (xương), <strong>artifacts</strong> (hiện vật), <strong>fossils</strong> (hóa thạch), <strong>exhibits</strong> (vật trưng bày)",
-        "✨ [feelings]: <strong>happy</strong> (vui), <strong>good</strong> (tốt), <strong>fascinated</strong> (cuốn hút), <strong>intrigued</strong> (hiếu kỳ), <strong>mesmerized</strong> (mê mẩn)",
-        "✨ [người đi cùng]: <strong>older cousin</strong> (anh chị họ), <strong>grandparent</strong> (ông bà), <strong>homeroom teacher</strong> (giáo viên chủ nhiệm), <strong>best friend</strong> (bạn thân nhất), <strong>older sibling</strong> (anh chị ruột)"
+        "✨ [tên bảo tàng]: <strong>the grand national history museum</strong> (bảo tàng lịch sử quốc gia tráng lệ), <strong>a local fascinating science museum</strong> (một bảo tàng khoa học địa phương hấp dẫn), <strong>the popular huge art gallery</strong> (phòng trưng bày nghệ thuật khổng lồ nổi tiếng), <strong>an impressive natural history museum</strong> (một bảo tàng lịch sử tự nhiên ấn tượng), <strong>a unique traditional cultural museum</strong> (một bảo tàng văn hóa truyền thống độc đáo)",
+        "✨ [người đi cùng]: <strong>my loving parents and siblings</strong> (cha mẹ và anh chị em yêu quý của tôi), <strong>my friendly primary school teachers</strong> (các giáo viên tiểu học thân thiện của tôi), <strong>my beloved grandparents on weekends</strong> (ông bà kính yêu của tôi vào cuối tuần), <strong>my cheerful childhood best friends</strong> (những người bạn thân thời thơ ấu vui vẻ của tôi), <strong>my enthusiastic older cousin brother</strong> (người anh họ nhiệt tình của tôi)",
+        "✨ [hoạt động]: <strong>admire the ancient valuable artifacts</strong> (chiêm ngưỡng những cổ vật có giá trị cổ xưa), <strong>observe incredibly rare dinosaur fossils</strong> (quan sát các hóa thạch khủng long vô cùng quý hiếm), <strong>participate in interactive science experiments</strong> (tham gia vào các thí nghiệm khoa học tương tác), <strong>look at beautiful classic paintings</strong> (nhìn vào những bức tranh cổ điển tuyệt đẹp), <strong>learn about local traditional costumes</strong> (tìm hiểu về trang phục truyền thống của địa phương)",
+        "✨ [cảm nhận]: <strong>felt completely amazed and inspired</strong> (cảm thấy hoàn toàn ngạc nhiên và được truyền cảm hứng), <strong>became deeply curious about history</strong> (trở nên vô cùng tò mò về lịch sử), <strong>experienced a wonderful unforgettable trip</strong> (đã trải qua một chuyến đi tuyệt vời không thể quên), <strong>developed a lifelong strong passion</strong> (phát triển một niềm đam mê mạnh mẽ suốt đời), <strong>felt extremely fascinated and joyful</strong> (cảm thấy vô cùng thích thú và vui vẻ)"
       ],
       "templates": [
-        "Wow, it is actually quite amazing to discuss this with you all. I still vividly remember exploring the exhibits with my [người đi cùng]. I visited a [museum types] museum, saw [displays], and felt [feelings]. This simple thing truly makes a massive positive impact on my daily routine.",
-        "I really appreciate you asking about this wonderful topic today. I still vividly remember exploring the exhibits with my [người đi cùng]. My first trip was to a [museum types] museum with [displays], leaving me [feelings]. I would definitely recommend this interesting experience to all my friends."
+        "When I was young, I visited [tên bảo tàng] with [người đi cùng]. There, we had the wonderful chance to [hoạt động], which successfully made me [cảm nhận].",
+        "I distinctly remember vividly exploring [tên bảo tàng] alongside [người đi cùng]. During that memorable visit, I enthusiastically managed to [hoạt động]. Consequently, I [cảm nhận]."
       ],
       "samples": [
         {
-          "en": "Wow, it is actually quite amazing to discuss this with you all. I still vividly remember exploring the exhibits with my older cousin. I visited a art museum, saw old, and felt happy. This simple thing truly makes a massive positive impact on my daily routine.",
-          "vi": "Wow, thực sự khá tuyệt vời khi thảo luận điều này với tất cả các bạn. Tôi vẫn nhớ như in việc khám phá các hiện vật trưng bày cùng với anh chị họ. Tôi đã thăm một bảo tàng nghệ thuật, xem cũ, và cảm thấy vui. Điều đơn giản này thực sự tạo ra tác động tích cực lớn đến thói quen hàng ngày của tôi."
+          "en": "When I was young, I visited the grand national history museum with my loving parents and siblings. There, we had the wonderful chance to admire the ancient valuable artifacts, which successfully made me felt completely amazed and inspired.",
+          "vi": "Khi tôi còn nhỏ, tôi đã đến thăm bảo tàng lịch sử quốc gia tráng lệ với cha mẹ và anh chị em yêu quý của tôi. Ở đó, chúng tôi đã có cơ hội tuyệt vời để chiêm ngưỡng những cổ vật có giá trị cổ xưa, điều này đã thành công khiến tôi cảm thấy hoàn toàn ngạc nhiên và được truyền cảm hứng."
         },
         {
-          "en": "I really appreciate you asking about this wonderful topic today. I still vividly remember exploring the exhibits with my grandparent. My first trip was to a history museum with bones, leaving me good. I would definitely recommend this interesting experience to all my friends.",
-          "vi": "Tôi thực sự đánh giá cao bạn hỏi về chủ đề tuyệt vời này hôm nay. Tôi vẫn nhớ như in việc khám phá các hiện vật trưng bày cùng với ông bà. Chuyến đi đầu tiên của tôi là đến bảo tàng lịch sử với xương, để lại cho tôi tốt. Tôi chắc chắn sẽ giới thiệu trải nghiệm tuyệt vời này cho tất cả bạn bè của tôi."
+          "en": "I distinctly remember vividly exploring a local fascinating science museum alongside my friendly primary school teachers. During that memorable visit, I enthusiastically managed to observe incredibly rare dinosaur fossils. Consequently, I became deeply curious about history.",
+          "vi": "Tôi nhớ rất rõ ràng việc khám phá một bảo tàng khoa học địa phương hấp dẫn cùng với các giáo viên tiểu học thân thiện của tôi. Trong chuyến đi đáng nhớ đó, tôi đã nhiệt tình xoay sở để quan sát các hóa thạch khủng long vô cùng quý hiếm. Hậu quả là, tôi trở nên vô cùng tò mò về lịch sử."
         }
       ]
     },
     "q2": {
-      "member": "Member B",
+      "member": "Member",
       "question": "What kind of museum do you like?",
       "vi": "Bạn thích loại bảo tàng nào?",
       "vocab": [
-        "✨ [preferences]: <strong>like</strong> (thích), <strong>love</strong> (yêu thích), <strong>prefer</strong> (thích hơn), <strong>favor</strong> (ưa chuộng), <strong>appreciate</strong> (đánh giá cao)",
-        "✨ [themes]: <strong>art</strong> (nghệ thuật), <strong>space</strong> (không gian), <strong>technology</strong> (công nghệ), <strong>contemporary</strong> (đương đại), <strong>astronomy</strong> (thiên văn học)",
-        "✨ [reasons]: <strong>fun</strong> (vui), <strong>nice</strong> (đẹp), <strong>educational</strong> (mang tính giáo dục), <strong>inspiring</strong> (truyền cảm hứng), <strong>informative</strong> (nhiều thông tin)",
-        "✨ [chủ đề]: <strong>modern art</strong> (nghệ thuật hiện đại), <strong>natural history</strong> (lịch sử tự nhiên), <strong>ancient civilization</strong> (nền văn minh cổ đại), <strong>technological advancement</strong> (sự tiến bộ công nghệ), <strong>local heritage</strong> (di sản địa phương)"
+        "✨ [loại bảo tàng]: <strong>modern interactive science museums mostly</strong> (chủ yếu là các bảo tàng khoa học tương tác hiện đại), <strong>fascinating ancient historical museums instead</strong> (thay vào đó là những bảo tàng lịch sử cổ đại hấp dẫn), <strong>elegant contemporary art galleries specifically</strong> (đặc biệt là các phòng trưng bày nghệ thuật đương đại thanh lịch), <strong>unique local cultural heritage museums</strong> (các bảo tàng di sản văn hóa địa phương độc đáo), <strong>impressive space and aviation museums</strong> (các bảo tàng hàng không và không gian ấn tượng)",
+        "✨ [lý do]: <strong>offer highly engaging practical exhibitions</strong> (cung cấp các triển lãm thực tế có tính tương tác cao), <strong>display incredibly valuable ancient artifacts</strong> (trưng bày những đồ tạo tác cổ xưa vô cùng quý giá), <strong>showcase brilliantly beautiful creative masterpieces</strong> (trưng bày những kiệt tác sáng tạo rực rỡ tuyệt đẹp), <strong>preserve deeply meaningful traditional customs</strong> (bảo tồn những phong tục truyền thống có ý nghĩa sâu sắc), <strong>present advanced innovative future technologies</strong> (trình bày các công nghệ tương lai tiên tiến sáng tạo)",
+        "✨ [hành động yêu thích]: <strong>participate in fun virtual simulations</strong> (tham gia vào các mô phỏng ảo thú vị), <strong>read detailed historical background information</strong> (đọc thông tin bối cảnh lịch sử chi tiết), <strong>admire the wonderful artistic techniques</strong> (chiêm ngưỡng các kỹ thuật nghệ thuật tuyệt vời), <strong>observe the authentic traditional costumes</strong> (quan sát các trang phục truyền thống chân thực), <strong>watch fascinating documentary short films</strong> (xem các bộ phim tài liệu ngắn hấp dẫn)",
+        "✨ [lợi ích cá nhân]: <strong>expand my practical scientific knowledge</strong> (mở rộng kiến thức khoa học thực tế của tôi), <strong>understand our complex past better</strong> (hiểu quá khứ phức tạp của chúng ta tốt hơn), <strong>boost my creative artistic imagination</strong> (thúc đẩy trí tưởng tượng nghệ thuật sáng tạo của tôi), <strong>appreciate our rich cultural diversity</strong> (trân trọng sự đa dạng văn hóa phong phú của chúng ta), <strong>inspire my continuous lifelong learning</strong> (truyền cảm hứng cho việc học tập suốt đời liên tục của tôi)"
       ],
       "templates": [
-        "I am super excited to share my own personal thoughts on this matter. I am particularly drawn to institutions that focus on [chủ đề]. I [preferences] [themes] museums because they are very [reasons]. This simple thing truly makes a massive positive impact on my daily routine.",
-        "Wow, it is actually quite amazing to discuss this with you all. I am particularly drawn to institutions that focus on [chủ đề]. My choice is [themes] museums since I find them highly [reasons]. I truly believe this is the best way to handle the situation."
+        "I am particularly fond of [loại bảo tàng] because they consistently [lý do]. Inside these fascinating places, I usually [hành động yêu thích], which significantly helps to [lợi ích cá nhân].",
+        "Personally, I really enjoy visiting [loại bảo tàng] since they successfully [lý do]. It is always a wonderful experience to [hành động yêu thích], allowing me to [lợi ích cá nhân]."
       ],
       "samples": [
         {
-          "en": "I am super excited to share my own personal thoughts on this matter. I am particularly drawn to institutions that focus on modern art. I like art museums because they are very fun. This simple thing truly makes a massive positive impact on my daily routine.",
-          "vi": "Tôi siêu hào hứng để chia sẻ những suy nghĩ cá nhân của riêng tôi về vấn đề này. Tôi đặc biệt bị thu hút bởi các viện bảo tàng tập trung vào nghệ thuật hiện đại. Tôi thích các bảo tàng nghệ thuật vì chúng rất vui. Điều đơn giản này thực sự tạo ra tác động tích cực lớn đến thói quen hàng ngày của tôi."
+          "en": "I am particularly fond of modern interactive science museums mostly because they consistently offer highly engaging practical exhibitions. Inside these fascinating places, I usually participate in fun virtual simulations, which significantly helps to expand my practical scientific knowledge.",
+          "vi": "Tôi đặc biệt thích chủ yếu là các bảo tàng khoa học tương tác hiện đại bởi vì chúng liên tục cung cấp các triển lãm thực tế có tính tương tác cao. Bên trong những địa điểm hấp dẫn này, tôi thường tham gia vào các mô phỏng ảo thú vị, điều này giúp ích đáng kể để mở rộng kiến thức khoa học thực tế của tôi."
         },
         {
-          "en": "Wow, it is actually quite amazing to discuss this with you all. I am particularly drawn to institutions that focus on natural history. My choice is space museums since I find them highly nice. I truly believe this is the best way to handle the situation.",
-          "vi": "Wow, thực sự khá tuyệt vời khi thảo luận điều này với tất cả các bạn. Tôi đặc biệt bị thu hút bởi các viện bảo tàng tập trung vào lịch sử tự nhiên. Lựa chọn của tôi là các bảo tàng không gian vì tôi thấy chúng mang tính đẹp cao. Tôi thành thật tin rằng đây là cách tốt nhất để xử lý tình huống."
+          "en": "Personally, I really enjoy visiting fascinating ancient historical museums instead since they successfully display incredibly valuable ancient artifacts. It is always a wonderful experience to read detailed historical background information, allowing me to understand our complex past better.",
+          "vi": "Cá nhân tôi thực sự thích thăm thay vào đó là những bảo tàng lịch sử cổ đại hấp dẫn vì chúng trưng bày thành công những đồ tạo tác cổ xưa vô cùng quý giá. Luôn luôn là một trải nghiệm tuyệt vời khi đọc thông tin bối cảnh lịch sử chi tiết, cho phép tôi hiểu quá khứ phức tạp của chúng ta tốt hơn."
         }
       ]
     },
     "q3": {
-      "member": "Member C",
+      "member": "Member",
       "question": "Nowadays, many museums use technology to create online exhibitions. Do you think that will be successful?",
       "vi": "Ngày nay, nhiều bảo tàng sử dụng công nghệ để tạo ra các triển lãm trực tuyến. Bạn có nghĩ điều đó sẽ thành công không?",
       "vocab": [
-        "✨ [prediction]: <strong>yes</strong> (có), <strong>sure</strong> (chắc chắn), <strong>certainly</strong> (chắc chắn), <strong>undoubtedly</strong> (không nghi ngờ gì), <strong>inevitably</strong> (chắc chắn xảy ra)",
-        "✨ [features]: <strong>easy</strong> (dễ dàng), <strong>cheap</strong> (rẻ), <strong>accessible</strong> (dễ tiếp cận), <strong>interactive</strong> (tương tác), <strong>immersive</strong> (đắm chìm)",
-        "✨ [outcomes]: <strong>good</strong> (tốt), <strong>great</strong> (tuyệt), <strong>popular</strong> (phổ biến), <strong>widespread</strong> (lan rộng), <strong>triumphant</strong> (thành công lớn)",
-        "✨ [trải nghiệm]: <strong>interactive experience</strong> (trải nghiệm tương tác), <strong>educational journey</strong> (hành trình giáo dục), <strong>visual immersion</strong> (sự đắm chìm thị giác), <strong>cultural exploration</strong> (sự khám phá văn hóa), <strong>digital adventure</strong> (cuộc phiêu lưu kỹ thuật số)"
+        "✨ [quan điểm thành công]: <strong>believe it will succeed brilliantly</strong> (tin rằng nó sẽ thành công rực rỡ), <strong>think this is highly promising</strong> (nghĩ rằng điều này rất hứa hẹn), <strong>completely support this digital trend</strong> (hoàn toàn ủng hộ xu hướng kỹ thuật số này), <strong>consider it a fantastic innovation</strong> (coi nó là một sự đổi mới tuyệt vời), <strong>feel very optimistic about it</strong> (cảm thấy rất lạc quan về nó)",
+        "✨ [ưu điểm công nghệ]: <strong>reach a wider global audience</strong> (tiếp cận khán giả toàn cầu rộng lớn hơn), <strong>offer incredibly convenient virtual access</strong> (cung cấp quyền truy cập ảo vô cùng tiện lợi), <strong>preserve fragile artifacts digitally safely</strong> (bảo tồn an toàn các hiện vật mỏng manh bằng kỹ thuật số), <strong>provide highly engaging interactive experiences</strong> (cung cấp trải nghiệm tương tác có tính hấp dẫn cao), <strong>save massive operational maintenance costs</strong> (tiết kiệm chi phí bảo trì vận hành khổng lồ)",
+        "✨ [nhược điểm hoặc thách thức]: <strong>lack the authentic physical atmosphere</strong> (thiếu bầu không khí vật lý chân thực), <strong>require expensive initial setup investments</strong> (đòi hỏi các khoản đầu tư thiết lập ban đầu đắt đỏ), <strong>alienate older non-tech-savvy visitors completely</strong> (hoàn toàn làm xa lánh những du khách lớn tuổi không am hiểu công nghệ), <strong>depend entirely on fast internet connections</strong> (hoàn toàn phụ thuộc vào kết nối internet nhanh), <strong>face serious online security threats</strong> (đối mặt với các mối đe dọa an ninh trực tuyến nghiêm trọng)",
+        "✨ [kết luận]: <strong>become the prominent future standard</strong> (trở thành tiêu chuẩn tương lai nổi bật), <strong>revolutionize the modern educational sector</strong> (cách mạng hóa lĩnh vực giáo dục hiện đại), <strong>complement traditional physical museum visits</strong> (bổ sung cho các chuyến thăm bảo tàng vật lý truyền thống), <strong>attract more curious young generations</strong> (thu hút nhiều thế hệ trẻ tò mò hơn), <strong>bring art closer to everyone</strong> (mang nghệ thuật đến gần hơn với mọi người)"
       ],
       "templates": [
-        "Wow, it is actually quite amazing to discuss this with you all. Virtual tours can provide an incredibly engaging [trải nghiệm] for remote visitors. I think [prediction] because they are [features] and will be [outcomes]. I truly believe this is the best way to handle the situation.",
-        "I am super excited to share my own personal thoughts on this matter. Virtual tours can provide an incredibly engaging [trải nghiệm] for remote visitors. [prediction], this [features] format guarantees a [outcomes] future. I am so glad we can share these wonderful ideas in our club together."
+        "I [quan điểm thành công] because online exhibitions can easily [ưu điểm công nghệ]. Although they unfortunately might [nhược điểm hoặc thách thức], I am extremely confident they will [kết luận].",
+        "I definitely [quan điểm thành công]. Modern digital platforms empower museums to [ưu điểm công nghệ]. While they still inevitably [nhược điểm hoặc thách thức], this creative approach will ultimately [kết luận]."
       ],
       "samples": [
         {
-          "en": "Wow, it is actually quite amazing to discuss this with you all. Virtual tours can provide an incredibly engaging interactive experience for remote visitors. I think yes because they are easy and will be good. I truly believe this is the best way to handle the situation.",
-          "vi": "Wow, thực sự khá tuyệt vời khi thảo luận điều này với tất cả các bạn. Các chuyến tham quan ảo có thể mang lại một trải nghiệm tương tác vô cùng hấp dẫn cho những du khách ở xa. Tôi nghĩ có vì chúng dễ dàng và sẽ tốt. Tôi thành thật tin rằng đây là cách tốt nhất để xử lý tình huống."
+          "en": "I believe it will succeed brilliantly because online exhibitions can easily reach a wider global audience. Although they unfortunately might lack the authentic physical atmosphere, I am extremely confident they will become the prominent future standard.",
+          "vi": "Tôi tin rằng nó sẽ thành công rực rỡ bởi vì các triển lãm trực tuyến có thể dễ dàng tiếp cận khán giả toàn cầu rộng lớn hơn. Mặc dù thật không may chúng có thể thiếu bầu không khí vật lý chân thực, tôi cực kỳ tự tin chúng sẽ trở thành tiêu chuẩn tương lai nổi bật."
         },
         {
-          "en": "I am super excited to share my own personal thoughts on this matter. Virtual tours can provide an incredibly engaging educational journey for remote visitors. Sure, this cheap format guarantees a great future. I am so glad we can share these wonderful ideas in our club together.",
-          "vi": "Tôi siêu hào hứng để chia sẻ những suy nghĩ cá nhân của riêng tôi về vấn đề này. Các chuyến tham quan ảo có thể mang lại một hành trình giáo dục vô cùng hấp dẫn cho những du khách ở xa. Chắc chắn, định dạng rẻ này đảm bảo một tương lai tuyệt. Tôi rất vui vì chúng ta có thể cùng nhau chia sẻ những ý tưởng tuyệt vời này trong câu lạc bộ."
+          "en": "I definitely think this is highly promising. Modern digital platforms empower museums to offer incredibly convenient virtual access. While they still inevitably require expensive initial setup investments, this creative approach will ultimately revolutionize the modern educational sector.",
+          "vi": "Tôi chắc chắn nghĩ rằng điều này rất hứa hẹn. Các nền tảng kỹ thuật số hiện đại trao quyền cho các bảo tàng cung cấp quyền truy cập ảo vô cùng tiện lợi. Trong khi chúng vẫn không thể tránh khỏi đòi hỏi các khoản đầu tư thiết lập ban đầu đắt đỏ, cách tiếp cận sáng tạo này cuối cùng sẽ cách mạng hóa lĩnh vực giáo dục hiện đại."
         }
       ]
     }
   },
   "Writing club": {
     "q1": {
-      "member": "Member A",
+      "member": "Member",
       "question": "I usually write at the coffee shop. What about you?",
       "vi": "Tôi thường viết ở quán cà phê. Còn bạn thì sao?",
       "vocab": [
-        "✨ [locations]: <strong>home</strong> (nhà), <strong>room</strong> (phòng), <strong>library</strong> (thư viện), <strong>study</strong> (phòng học), <strong>workspace</strong> (không gian làm việc)",
-        "✨ [conditions]: <strong>quiet</strong> (yên tĩnh), <strong>calm</strong> (êm đềm), <strong>peaceful</strong> (thanh bình), <strong>undisturbed</strong> (không bị làm phiền), <strong>tranquil</strong> (yên ả)",
-        "✨ [results]: <strong>think</strong> (nghĩ), <strong>work</strong> (làm việc), <strong>focus</strong> (tập trung), <strong>concentrate</strong> (tập trung cao), <strong>brainstorm</strong> (động não)",
-        "✨ [không gian]: <strong>quiet environment</strong> (môi trường yên tĩnh), <strong>cozy room</strong> (căn phòng ấm cúng), <strong>bustling area</strong> (khu vực nhộn nhịp), <strong>well-lit space</strong> (không gian đủ ánh sáng), <strong>peaceful setting</strong> (khung cảnh thanh bình)"
+        "✨ [địa điểm]: <strong>in my quiet cozy bedroom</strong> (trong phòng ngủ ấm cúng yên tĩnh của tôi), <strong>at the local public library</strong> (tại thư viện công cộng địa phương), <strong>in a beautiful green park</strong> (trong một công viên xanh tuyệt đẹp), <strong>at my dedicated home workspace</strong> (tại không gian làm việc chuyên dụng ở nhà của tôi), <strong>inside a peaceful private study</strong> (bên trong một phòng làm việc riêng thanh bình)",
+        "✨ [lý do]: <strong>offers a highly focused environment</strong> (cung cấp một môi trường tập trung cao độ), <strong>provides incredible silence and privacy</strong> (mang lại sự im lặng và riêng tư đáng kinh ngạc), <strong>helps me escape daily distractions</strong> (giúp tôi thoát khỏi những xao nhãng hàng ngày), <strong>inspires my creative artistic thoughts</strong> (truyền cảm hứng cho những suy nghĩ nghệ thuật sáng tạo của tôi), <strong>features comfortable seating and lighting</strong> (có chỗ ngồi và ánh sáng thoải mái)",
+        "✨ [hành động đi kèm]: <strong>sip a hot herbal tea</strong> (nhấm nháp một tách trà thảo mộc nóng), <strong>listen to soothing classical music</strong> (nghe nhạc cổ điển êm dịu), <strong>observe the gentle natural surroundings</strong> (quan sát môi trường tự nhiên nhẹ nhàng xung quanh), <strong>brainstorm fresh innovative story ideas</strong> (suy nghĩ về những ý tưởng câu chuyện mới lạ sáng tạo), <strong>outline my upcoming writing projects</strong> (phác thảo các dự án viết sắp tới của tôi)",
+        "✨ [kết quả]: <strong>write continuously for several hours</strong> (viết liên tục trong vài giờ), <strong>produce high-quality impressive creative content</strong> (sản xuất nội dung sáng tạo ấn tượng chất lượng cao), <strong>finish my tasks extremely quickly</strong> (hoàn thành nhiệm vụ của mình cực kỳ nhanh chóng), <strong>feel thoroughly relaxed and productive</strong> (cảm thấy hoàn toàn thư giãn và năng suất), <strong>express my inner emotions perfectly</strong> (thể hiện hoàn hảo cảm xúc bên trong của tôi)"
       ],
       "templates": [
-        "I really appreciate you asking about this wonderful topic today. I find that I am most productive when I am in a [không gian]. I prefer writing at [locations] because it is [conditions] and helps me [results]. I would definitely recommend this interesting experience to all my friends.",
-        "I really appreciate you asking about this wonderful topic today. I find that I am most productive when I am in a [không gian]. My favorite spot is a [conditions] [locations] where I can easily [results]. I truly believe this is the best way to handle the situation."
+        "Unlike you, I really prefer writing [địa điểm] since it consistently [lý do]. There, I can peacefully [hành động đi kèm], which ultimately allows me to [kết quả].",
+        "My favorite spot is definitely [địa điểm] because this setting wonderfully [lý do]. While working, I often [hành động đi kèm] so that I can easily [kết quả]."
       ],
       "samples": [
         {
-          "en": "I really appreciate you asking about this wonderful topic today. I find that I am most productive when I am in a quiet environment. I prefer writing at home because it is quiet and helps me think. I would definitely recommend this interesting experience to all my friends.",
-          "vi": "Tôi thực sự đánh giá cao bạn hỏi về chủ đề tuyệt vời này hôm nay. Tôi thấy rằng mình làm việc năng suất nhất khi ở trong một môi trường yên tĩnh. Tôi thích viết ở nhà vì nó yên tĩnh và giúp tôi nghĩ. Tôi chắc chắn sẽ giới thiệu trải nghiệm tuyệt vời này cho tất cả bạn bè của tôi."
+          "en": "Unlike you, I really prefer writing in my quiet cozy bedroom since it consistently offers a highly focused environment. There, I can peacefully sip a hot herbal tea, which ultimately allows me to write continuously for several hours.",
+          "vi": "Không giống như bạn, tôi thực sự thích viết trong phòng ngủ ấm cúng yên tĩnh của tôi vì nó liên tục cung cấp một môi trường tập trung cao độ. Ở đó, tôi có thể yên bình nhấm nháp một tách trà thảo mộc nóng, điều này cuối cùng cho phép tôi viết liên tục trong vài giờ."
         },
         {
-          "en": "I really appreciate you asking about this wonderful topic today. I find that I am most productive when I am in a cozy room. My favorite spot is a calm room where I can easily work. I truly believe this is the best way to handle the situation.",
-          "vi": "Tôi thực sự đánh giá cao bạn hỏi về chủ đề tuyệt vời này hôm nay. Tôi thấy rằng mình làm việc năng suất nhất khi ở trong một căn phòng ấm cúng. Nơi yêu thích của tôi là một phòng êm đềm nơi tôi có thể dễ dàng làm việc. Tôi thành thật tin rằng đây là cách tốt nhất để xử lý tình huống."
+          "en": "My favorite spot is definitely at the local public library because this setting wonderfully provides incredible silence and privacy. While working, I often listen to soothing classical music so that I can easily produce high-quality impressive creative content.",
+          "vi": "Địa điểm yêu thích của tôi chắc chắn là tại thư viện công cộng địa phương bởi vì khung cảnh này tuyệt vời mang lại sự im lặng và riêng tư đáng kinh ngạc. Trong khi làm việc, tôi thường nghe nhạc cổ điển êm dịu để tôi có thể dễ dàng sản xuất nội dung sáng tạo ấn tượng chất lượng cao."
         }
       ]
     },
     "q2": {
-      "member": "Member B",
+      "member": "Member",
       "question": "Do you prefer handwriting or typing?",
       "vi": "Bạn thích viết tay hay đánh máy hơn?",
       "vocab": [
-        "✨ [methods]: <strong>pen</strong> (bút), <strong>hand</strong> (tay), <strong>typing</strong> (đánh máy), <strong>keyboarding</strong> (gõ phím), <strong>word-processing</strong> (soạn thảo văn bản)",
-        "✨ [advantages]: <strong>fast</strong> (nhanh), <strong>easy</strong> (dễ), <strong>efficient</strong> (hiệu quả), <strong>convenient</strong> (tiện lợi), <strong>expeditious</strong> (nhanh chóng)",
-        "✨ [features]: <strong>edit</strong> (sửa), <strong>save</strong> (lưu), <strong>revise</strong> (chỉnh sửa), <strong>format</strong> (định dạng), <strong>restructure</strong> (tái cấu trúc)",
-        "✨ [công cụ]: <strong>personal laptop</strong> (máy tính xách tay cá nhân), <strong>fountain pen</strong> (bút mực), <strong>mechanical keyboard</strong> (bàn phím cơ), <strong>digital tablet</strong> (máy tính bảng), <strong>trusty notebook</strong> (sổ tay đáng tin cậy)"
+        "✨ [sự lựa chọn]: <strong>prefer typing on my laptop</strong> (thích đánh máy trên máy tính xách tay của mình), <strong>lean towards traditional neat handwriting</strong> (nghiêng về việc viết tay truyền thống gọn gàng), <strong>enjoy using modern digital keyboards</strong> (thích sử dụng bàn phím kỹ thuật số hiện đại), <strong>favor writing elegantly by hand</strong> (ủng hộ việc viết tay một cách thanh lịch), <strong>choose typing for its convenience</strong> (chọn đánh máy vì sự tiện lợi của nó)",
+        "✨ [ưu điểm 1]: <strong>correct my careless mistakes instantly</strong> (sửa chữa những lỗi bất cẩn của tôi ngay lập tức), <strong>feel a deeper emotional connection</strong> (cảm thấy một sự kết nối cảm xúc sâu sắc hơn), <strong>organize my complex thoughts systematically</strong> (sắp xếp những suy nghĩ phức tạp của tôi một cách có hệ thống), <strong>express my unique personal style</strong> (thể hiện phong cách cá nhân độc đáo của tôi), <strong>speed up my writing process</strong> (tăng tốc độ quá trình viết của tôi)",
+        "✨ [ưu điểm 2]: <strong>store multiple documents extremely safely</strong> (lưu trữ vô số tài liệu vô cùng an toàn), <strong>improve my mental memory retention</strong> (cải thiện khả năng lưu giữ trí nhớ tinh thần của tôi), <strong>share drafts with peers easily</strong> (chia sẻ bản nháp với đồng nghiệp một cách dễ dàng), <strong>maintain my creative flow uninterrupted</strong> (duy trì dòng chảy sáng tạo của tôi không bị gián đoạn), <strong>format the final text professionally</strong> (định dạng văn bản cuối cùng một cách chuyên nghiệp)",
+        "✨ [kết quả]: <strong>boost my overall work productivity</strong> (thúc đẩy năng suất làm việc tổng thể của tôi), <strong>produce more thoughtful meaningful pieces</strong> (tạo ra những tác phẩm có ý nghĩa sâu sắc hơn), <strong>meet tight project deadlines effortlessly</strong> (đáp ứng thời hạn dự án chặt chẽ một cách dễ dàng), <strong>enjoy the pure creative artistic process</strong> (tận hưởng quá trình nghệ thuật sáng tạo thuần túy), <strong>become a much better writer</strong> (trở thành một nhà văn giỏi hơn nhiều)"
       ],
       "templates": [
-        "Wow, it is actually quite amazing to discuss this with you all. I tend to rely on my [công cụ] for most of my drafting. I prefer [methods] because it is [advantages] to [features] text. This simple thing truly makes a massive positive impact on my daily routine.",
-        "I really appreciate you asking about this wonderful topic today. I tend to rely on my [công cụ] for most of my drafting. [methods] is my choice as it offers a [advantages] way to [features] documents. I would definitely recommend this interesting experience to all my friends."
+        "Personally, I strongly [sự lựa chọn] because it allows me to [ưu điểm 1]. Moreover, I can effectively [ưu điểm 2], which ultimately helps me [kết quả].",
+        "I usually [sự lựa chọn]. This fantastic method enables me to [ưu điểm 1] while also giving me wonderful chances to [ưu điểm 2]. Consequently, I always successfully [kết quả]."
       ],
       "samples": [
         {
-          "en": "Wow, it is actually quite amazing to discuss this with you all. I tend to rely on my personal laptop for most of my drafting. I prefer pen because it is fast to edit text. This simple thing truly makes a massive positive impact on my daily routine.",
-          "vi": "Wow, thực sự khá tuyệt vời khi thảo luận điều này với tất cả các bạn. Tôi thường dựa vào máy tính xách tay cá nhân của mình cho hầu hết việc phác thảo. Tôi thích bút vì nó nhanh để sửa văn bản. Điều đơn giản này thực sự tạo ra tác động tích cực lớn đến thói quen hàng ngày của tôi."
+          "en": "Personally, I strongly prefer typing on my laptop because it allows me to correct my careless mistakes instantly. Moreover, I can effectively store multiple documents extremely safely, which ultimately helps me boost my overall work productivity.",
+          "vi": "Cá nhân tôi, tôi kịch liệt thích đánh máy trên máy tính xách tay của mình bởi vì nó cho phép tôi sửa chữa những lỗi bất cẩn của tôi ngay lập tức. Hơn nữa, tôi có thể hiệu quả lưu trữ vô số tài liệu vô cùng an toàn, điều này cuối cùng giúp tôi thúc đẩy năng suất làm việc tổng thể của tôi."
         },
         {
-          "en": "I really appreciate you asking about this wonderful topic today. I tend to rely on my fountain pen for most of my drafting. Hand is my choice as it offers a easy way to save documents. I would definitely recommend this interesting experience to all my friends.",
-          "vi": "Tôi thực sự đánh giá cao bạn hỏi về chủ đề tuyệt vời này hôm nay. Tôi thường dựa vào bút mực của mình cho hầu hết việc phác thảo. Tay là lựa chọn của tôi vì nó mang lại một cách dễ để lưu tài liệu. Tôi chắc chắn sẽ giới thiệu trải nghiệm tuyệt vời này cho tất cả bạn bè của tôi."
+          "en": "I usually lean towards traditional neat handwriting. This fantastic method enables me to feel a deeper emotional connection while also giving me wonderful chances to improve my mental memory retention. Consequently, I always successfully produce more thoughtful meaningful pieces.",
+          "vi": "Tôi thường nghiêng về việc viết tay truyền thống gọn gàng. Phương pháp tuyệt vời này cho phép tôi cảm thấy một sự kết nối cảm xúc sâu sắc hơn trong khi cũng mang lại cho tôi những cơ hội tuyệt vời để cải thiện khả năng lưu giữ trí nhớ tinh thần của tôi. Do đó, tôi luôn luôn thành công tạo ra những tác phẩm có ý nghĩa sâu sắc hơn."
         }
       ]
     },
     "q3": {
-      "member": "Member C",
+      "member": "Member",
       "question": "There are many people who like to write, but only a few become writers. What makes a successful writer?",
       "vi": "Có rất nhiều người thích viết, nhưng chỉ một số ít trở thành nhà văn. Điều gì tạo nên một nhà văn thành công?",
       "vocab": [
-        "✨ [traits]: <strong>hard</strong> (chăm chỉ), <strong>smart</strong> (thông minh), <strong>imaginative</strong> (giàu trí tưởng tượng), <strong>persistent</strong> (kiên trì), <strong>disciplined</strong> (kỷ luật)",
-        "✨ [actions]: <strong>read</strong> (đọc), <strong>write</strong> (viết), <strong>practice</strong> (thực hành), <strong>observe</strong> (quan sát), <strong>persevered</strong> (kiên trì)",
-        "✨ [goals]: <strong>good</strong> (tốt), <strong>great</strong> (tuyệt), <strong>excellent</strong> (xuất sắc), <strong>captivating</strong> (hấp dẫn), <strong>influential</strong> (có sức ảnh hưởng)",
-        "✨ [phẩm chất]: <strong>creative imagination</strong> (trí tưởng tượng sáng tạo), <strong>level of discipline</strong> (mức độ kỷ luật), <strong>sense of observation</strong> (óc quan sát), <strong>passion for words</strong> (niềm đam mê ngôn từ), <strong>dedication to craft</strong> (sự cống hiến cho nghề)"
+        "✨ [phẩm chất]: <strong>possess immense dedication and perseverance</strong> (sở hữu sự cống hiến và kiên trì to lớn), <strong>have a uniquely creative imagination</strong> (có một trí tưởng tượng sáng tạo độc đáo), <strong>maintain strong unyielding self-discipline</strong> (duy trì tính kỷ luật tự giác mạnh mẽ không lay chuyển), <strong>demonstrate exceptional emotional intelligence skills</strong> (thể hiện các kỹ năng trí tuệ cảm xúc xuất sắc), <strong>exhibit remarkable continuous linguistic improvement</strong> (thể hiện sự cải thiện ngôn ngữ liên tục đáng chú ý)",
+        "✨ [kỹ năng]: <strong>craft deeply engaging character arcs</strong> (tạo ra các vòng cung nhân vật hấp dẫn sâu sắc), <strong>observe surrounding ordinary life meticulously</strong> (quan sát cuộc sống bình thường xung quanh một cách tỉ mỉ), <strong>structure complex narratives logically flawlessly</strong> (cấu trúc các câu chuyện phức tạp một cách hợp lý không tì vết), <strong>revise rough early drafts ruthlessly</strong> (chỉnh sửa tàn nhẫn các bản nháp sơ bộ ban đầu), <strong>capture subtle profound human emotions</strong> (nắm bắt những cảm xúc tinh tế sâu sắc của con người)",
+        "✨ [thói quen]: <strong>read extensively across diverse genres</strong> (đọc rộng rãi qua nhiều thể loại đa dạng), <strong>write consistently every single day</strong> (viết đều đặn mỗi ngày), <strong>accept constructive harsh professional feedback</strong> (chấp nhận những phản hồi chuyên môn gay gắt mang tính xây dựng), <strong>research historical background facts thoroughly</strong> (nghiên cứu kỹ lưỡng các sự thật bối cảnh lịch sử), <strong>overcome inevitable terrifying writer's block</strong> (vượt qua sự bế tắc trong văn chương đáng sợ không thể tránh khỏi)",
+        "✨ [mục tiêu]: <strong>connect meaningfully with diverse readers</strong> (kết nối có ý nghĩa với các độc giả đa dạng), <strong>publish highly acclaimed bestselling novels</strong> (xuất bản những cuốn tiểu thuyết bán chạy được đánh giá cao), <strong>leave a lasting great literary legacy</strong> (để lại một di sản văn học vĩ đại lâu dài), <strong>inspire positive global social changes</strong> (truyền cảm hứng cho những thay đổi xã hội toàn cầu tích cực), <strong>win prestigious international writing awards</strong> (giành được các giải thưởng văn học quốc tế uy tín)"
       ],
       "templates": [
-        "I really appreciate you asking about this wonderful topic today. I believe possessing a strong [phẩm chất] is absolutely essential in this field. A successful writer must be [traits] and [actions] daily to create [goals] content. I would definitely recommend this interesting experience to all my friends.",
-        "Wow, it is actually quite amazing to discuss this with you all. I believe possessing a strong [phẩm chất] is absolutely essential in this field. Being [traits] and dedicating time to [actions] results in [goals] stories. I truly believe this is the best way to handle the situation."
+        "In my opinion, they must clearly [phẩm chất] and brilliantly learn to [kỹ năng]. Besides, they should constantly [thói quen] if they truly desire to [mục tiêu].",
+        "To succeed, a professional writer must [phẩm chất]. They also need to [kỹ năng] while making sure to [thói quen]. Such a determined approach will completely help them [mục tiêu]."
       ],
       "samples": [
         {
-          "en": "I really appreciate you asking about this wonderful topic today. I believe possessing a strong creative imagination is absolutely essential in this field. A successful writer must be hard and read daily to create good content. I would definitely recommend this interesting experience to all my friends.",
-          "vi": "Tôi thực sự đánh giá cao bạn hỏi về chủ đề tuyệt vời này hôm nay. Tôi tin rằng việc sở hữu một trí tưởng tượng sáng tạo mạnh mẽ là hoàn toàn cần thiết trong lĩnh vực này. Một nhà văn thành công phải chăm chỉ và đọc hàng ngày để tạo ra nội dung tốt. Tôi chắc chắn sẽ giới thiệu trải nghiệm tuyệt vời này cho tất cả bạn bè của tôi."
+          "en": "In my opinion, they must clearly possess immense dedication and perseverance and brilliantly learn to craft deeply engaging character arcs. Besides, they should constantly read extensively across diverse genres if they truly desire to connect meaningfully with diverse readers.",
+          "vi": "Theo ý kiến của tôi, họ phải rõ ràng sở hữu sự cống hiến và kiên trì to lớn và học một cách xuất sắc để tạo ra các vòng cung nhân vật hấp dẫn sâu sắc. Ngoài ra, họ nên liên tục đọc rộng rãi qua nhiều thể loại đa dạng nếu họ thực sự khao khát kết nối có ý nghĩa với các độc giả đa dạng."
         },
         {
-          "en": "Wow, it is actually quite amazing to discuss this with you all. I believe possessing a strong level of discipline is absolutely essential in this field. Being smart and dedicating time to write results in great stories. I truly believe this is the best way to handle the situation.",
-          "vi": "Wow, thực sự khá tuyệt vời khi thảo luận điều này với tất cả các bạn. Tôi tin rằng việc sở hữu một mức độ kỷ luật mạnh mẽ là hoàn toàn cần thiết trong lĩnh vực này. Việc thông minh và dành thời gian để viết tạo ra những câu chuyện tuyệt. Tôi thành thật tin rằng đây là cách tốt nhất để xử lý tình huống."
+          "en": "To succeed, a professional writer must have a uniquely creative imagination. They also need to observe surrounding ordinary life meticulously while making sure to write consistently every single day. Such a determined approach will completely help them publish highly acclaimed bestselling novels.",
+          "vi": "Để thành công, một nhà văn chuyên nghiệp phải có một trí tưởng tượng sáng tạo độc đáo. Họ cũng cần quan sát cuộc sống bình thường xung quanh một cách tỉ mỉ trong khi đảm bảo viết đều đặn mỗi ngày. Một cách tiếp cận kiên quyết như vậy sẽ hoàn toàn giúp họ xuất bản những cuốn tiểu thuyết bán chạy được đánh giá cao."
         }
       ]
     }
   },
   "Computer club": {
     "q1": {
-      "member": "Member A",
+      "member": "Member",
       "question": "What do you use a computer for?",
       "vi": "Bạn sử dụng máy tính để làm gì?",
       "vocab": [
-        "✨ [tasks]: <strong>play</strong> (chơi), <strong>work</strong> (làm việc), <strong>research</strong> (nghiên cứu), <strong>programming</strong> (lập trình), <strong>communication</strong> (giao tiếp)",
-        "✨ [purposes]: <strong>fun</strong> (vui), <strong>job</strong> (việc làm), <strong>entertainment</strong> (giải trí), <strong>productivity</strong> (năng suất), <strong>education</strong> (giáo dục)",
-        "✨ [benefits]: <strong>fast</strong> (nhanh), <strong>good</strong> (tốt), <strong>efficient</strong> (hiệu quả), <strong>convenient</strong> (tiện lợi), <strong>indispensable</strong> (không thể thiếu)",
-        "✨ [mục đích]: <strong>academic research</strong> (nghiên cứu học thuật), <strong>professional work</strong> (công việc chuyên môn), <strong>entertainment needs</strong> (nhu cầu giải trí), <strong>graphic design</strong> (thiết kế đồ họa), <strong>software development</strong> (phát triển phần mềm)"
+        "✨ [mục đích chính]: <strong>complete my daily work tasks</strong> (hoàn thành các nhiệm vụ công việc hàng ngày của tôi), <strong>study for my demanding exams</strong> (học cho các kỳ thi đòi hỏi khắt khe của tôi), <strong>entertain myself during free time</strong> (tự giải trí trong thời gian rảnh rỗi), <strong>manage my personal financial budgets</strong> (quản lý ngân sách tài chính cá nhân của tôi), <strong>communicate with distant family members</strong> (giao tiếp với các thành viên gia đình ở xa)",
+        "✨ [hoạt động cụ thể]: <strong>draft essential professional email reports</strong> (soạn thảo các báo cáo email công việc thiết yếu), <strong>research complex academic scholarly articles</strong> (nghiên cứu các bài báo học thuật phức tạp), <strong>watch highly engaging documentary series</strong> (xem các loạt phim tài liệu cực kỳ hấp dẫn), <strong>track daily unexpected household expenses</strong> (theo dõi các chi phí gia đình bất ngờ hàng ngày), <strong>make smooth international video calls</strong> (thực hiện các cuộc gọi video quốc tế mượt mà)",
+        "✨ [lợi ích công nghệ]: <strong>boost my overall productivity significantly</strong> (tăng đáng kể năng suất tổng thể của tôi), <strong>expand my basic general knowledge</strong> (mở rộng kiến thức nền tảng cơ bản của tôi), <strong>reduce my accumulated mental stress</strong> (giảm căng thẳng tinh thần tích tụ của tôi), <strong>save my precious limited time</strong> (tiết kiệm thời gian quý báu có hạn của tôi), <strong>strengthen my valuable personal relationships</strong> (củng cố các mối quan hệ cá nhân quý giá của tôi)",
+        "✨ [cảm nhận]: <strong>feel incredibly grateful for it</strong> (cảm thấy vô cùng biết ơn vì điều đó), <strong>consider it absolutely totally indispensable</strong> (coi nó là hoàn toàn hoàn toàn không thể thiếu), <strong>rely on it quite heavily</strong> (phụ thuộc vào nó khá nhiều), <strong>appreciate its amazing modern convenience</strong> (đánh giá cao sự tiện lợi hiện đại tuyệt vời của nó), <strong>become more organized and efficient</strong> (trở nên có tổ chức và hiệu quả hơn)"
       ],
       "templates": [
-        "Wow, it is actually quite amazing to discuss this with you all. I primarily depend on it for my [mục đích] throughout the week. I use it to [tasks] for [purposes] because it is [benefits]. I truly believe this is the best way to handle the situation.",
-        "I really appreciate you asking about this wonderful topic today. I primarily depend on it for my [mục đích] throughout the week. For [benefits] results in my [purposes], I rely on it to [tasks]. I truly believe this is the best way to handle the situation."
+        "I primarily utilize it every day to [mục đích chính]. For example, I frequently [hoạt động cụ thể], which effectively helps me [lợi ích công nghệ]. Consequently, I always [cảm nhận].",
+        "My machine is mostly meant to [mục đích chính]. It allows me to conveniently [hoạt động cụ thể] and directly [lợi ích công nghệ]. Without a doubt, I truly [cảm nhận]."
       ],
       "samples": [
         {
-          "en": "Wow, it is actually quite amazing to discuss this with you all. I primarily depend on it for my academic research throughout the week. I use it to play for fun because it is fast. I truly believe this is the best way to handle the situation.",
-          "vi": "Wow, thực sự khá tuyệt vời khi thảo luận điều này với tất cả các bạn. Tôi chủ yếu phụ thuộc vào nó cho nghiên cứu học thuật của mình trong suốt cả tuần. Tôi dùng nó để chơi cho vui vì nó nhanh. Tôi thành thật tin rằng đây là cách tốt nhất để xử lý tình huống."
+          "en": "I primarily utilize it every day to complete my daily work tasks. For example, I frequently draft essential professional email reports, which effectively helps me boost my overall productivity significantly. Consequently, I always feel incredibly grateful for it.",
+          "vi": "Tôi chủ yếu sử dụng nó mỗi ngày để hoàn thành các nhiệm vụ công việc hàng ngày của tôi. Ví dụ, tôi thường xuyên soạn thảo các báo cáo email công việc thiết yếu, điều này giúp tôi một cách hiệu quả tăng đáng kể năng suất tổng thể của tôi. Kết quả là, tôi luôn cảm thấy vô cùng biết ơn vì điều đó."
         },
         {
-          "en": "I really appreciate you asking about this wonderful topic today. I primarily depend on it for my professional work throughout the week. For good results in my job, I rely on it to work. I truly believe this is the best way to handle the situation.",
-          "vi": "Tôi thực sự đánh giá cao bạn hỏi về chủ đề tuyệt vời này hôm nay. Tôi chủ yếu phụ thuộc vào nó cho công việc chuyên môn của mình trong suốt cả tuần. Để có kết quả tốt trong việc làm của tôi, tôi dựa vào nó để làm việc. Tôi thành thật tin rằng đây là cách tốt nhất để xử lý tình huống."
+          "en": "My machine is mostly meant to study for my demanding exams. It allows me to conveniently research complex academic scholarly articles and directly expand my basic general knowledge. Without a doubt, I truly consider it absolutely totally indispensable.",
+          "vi": "Cỗ máy của tôi chủ yếu nhằm mục đích học cho các kỳ thi đòi hỏi khắt khe của tôi. Nó cho phép tôi thuận tiện nghiên cứu các bài báo học thuật phức tạp và trực tiếp mở rộng kiến thức nền tảng cơ bản của tôi. Không còn nghi ngờ gì nữa, tôi thực sự coi nó là hoàn toàn hoàn toàn không thể thiếu."
         }
       ]
     },
     "q2": {
-      "member": "Member B",
+      "member": "Member",
       "question": "Can you remember the first computer you used? What was it like?",
       "vi": "Bạn có nhớ chiếc máy tính đầu tiên bạn sử dụng không? Nó như thế nào?",
       "vocab": [
-        "✨ [appearance]: <strong>big</strong> (to), <strong>heavy</strong> (nặng), <strong>bulky</strong> (cồng kềnh), <strong>massive</strong> (khổng lồ), <strong>cumbersome</strong> (vướng víu)",
-        "✨ [performance]: <strong>slow</strong> (chậm), <strong>bad</strong> (tệ), <strong>sluggish</strong> (chậm chạp), <strong>outdated</strong> (lỗi thời), <strong>obsolete</strong> (cổ lỗ sĩ)",
-        "✨ [feelings]: <strong>fun</strong> (vui), <strong>cool</strong> (ngầu), <strong>fascinating</strong> (thú vị), <strong>marvelous</strong> (tuyệt diệu), <strong>nostalgic</strong> (hoài niệm)",
-        "✨ [đặc điểm]: <strong>bulky monitor</strong> (màn hình cồng kềnh), <strong>slow processing speed</strong> (tốc độ xử lý chậm), <strong>loud cooling fan</strong> (quạt tản nhiệt ồn ào), <strong>clunky keyboard</strong> (bàn phím lạch cạch), <strong>heavy weight</strong> (trọng lượng nặng)"
+        "✨ [loại máy tính]: <strong>a huge bulky desktop computer</strong> (một chiếc máy tính để bàn cồng kềnh khổng lồ), <strong>an extremely slow ancient laptop</strong> (một chiếc máy tính xách tay cổ đại cực kỳ chậm), <strong>a noisy outdated personal machine</strong> (một cỗ máy cá nhân ồn ào lỗi thời), <strong>a heavy traditional grey monitor</strong> (một màn hình xám truyền thống nặng nề), <strong>a thick old family desktop</strong> (một chiếc máy tính để bàn gia đình cũ dày cộp)",
+        "✨ [đặc điểm]: <strong>possessed incredibly limited storage capacity</strong> (sở hữu dung lượng lưu trữ vô cùng hạn chế), <strong>took several long minutes to start</strong> (mất vài phút dài để khởi động), <strong>made strange loud buzzing sounds</strong> (tạo ra những âm thanh vo ve lớn kỳ lạ), <strong>featured a tiny blurry visual screen</strong> (có một màn hình hình ảnh nhỏ xíu mờ ảo), <strong>required thick messy connecting cables</strong> (yêu cầu các dây cáp kết nối dày lộn xộn)",
+        "✨ [hoạt động lúc đó]: <strong>play simple offline pixel games</strong> (chơi các trò chơi pixel ngoại tuyến đơn giản), <strong>practice basic slow typing skills</strong> (thực hành các kỹ năng đánh máy chậm cơ bản), <strong>draw colorful funny digital pictures</strong> (vẽ những bức tranh kỹ thuật số hài hước đầy màu sắc), <strong>write short basic school essays</strong> (viết các bài luận trường học cơ bản ngắn), <strong>browse simple text-based web pages</strong> (duyệt các trang web dựa trên văn bản đơn giản)",
+        "✨ [kỷ niệm]: <strong>felt like pure absolute magic</strong> (cảm thấy như một phép thuật thuần túy tuyệt đối), <strong>sparked my deep tech curiosity</strong> (khơi dậy trí tò mò sâu sắc về công nghệ của tôi), <strong>opened a fascinating new world</strong> (mở ra một thế giới mới đầy hấp dẫn), <strong>brought me immense childhood joy</strong> (mang lại cho tôi niềm vui tuổi thơ to lớn), <strong>amazed me beyond my imagination</strong> (làm tôi kinh ngạc vượt quá sức tưởng tượng của mình)"
       ],
       "templates": [
-        "Wow, it is actually quite amazing to discuss this with you all. The most memorable thing about it was its remarkable [đặc điểm]. It was [appearance] and [performance], but I found it [feelings]. This simple thing truly makes a massive positive impact on my daily routine.",
-        "Wow, it is actually quite amazing to discuss this with you all. The most memorable thing about it was its remarkable [đặc điểm]. Although it was quite [appearance] and [performance], it felt [feelings]. This simple thing truly makes a massive positive impact on my daily routine."
+        "I distinctly recall strongly using [loại máy tính]. It definitely [đặc điểm]. Back then, I mostly used it to [hoạt động lúc đó], which undeniably [kỷ niệm].",
+        "My very first electronic device was [loại máy tính], which clearly [đặc điểm]. Despite its many flaws, I fondly remember trying to [hoạt động lúc đó]. That unforgettable experience truly [kỷ niệm]."
       ],
       "samples": [
         {
-          "en": "Wow, it is actually quite amazing to discuss this with you all. The most memorable thing about it was its remarkable bulky monitor. It was big and slow, but I found it fun. This simple thing truly makes a massive positive impact on my daily routine.",
-          "vi": "Wow, thực sự khá tuyệt vời khi thảo luận điều này với tất cả các bạn. Điều đáng nhớ nhất về nó là màn hình cồng kềnh đáng chú ý của nó. Nó to và chậm, nhưng tôi thấy nó vui. Điều đơn giản này thực sự tạo ra tác động tích cực lớn đến thói quen hàng ngày của tôi."
+          "en": "I distinctly recall strongly using a huge bulky desktop computer. It definitely possessed incredibly limited storage capacity. Back then, I mostly used it to play simple offline pixel games, which undeniably felt like pure absolute magic.",
+          "vi": "Tôi nhớ rất rõ ràng một cách mạnh mẽ việc sử dụng một chiếc máy tính để bàn cồng kềnh khổng lồ. Nó chắc chắn sở hữu dung lượng lưu trữ vô cùng hạn chế. Hồi đó, tôi chủ yếu sử dụng nó để chơi các trò chơi pixel ngoại tuyến đơn giản, điều này không thể phủ nhận cảm thấy như một phép thuật thuần túy tuyệt đối."
         },
         {
-          "en": "Wow, it is actually quite amazing to discuss this with you all. The most memorable thing about it was its remarkable slow processing speed. Although it was quite heavy and bad, it felt cool. This simple thing truly makes a massive positive impact on my daily routine.",
-          "vi": "Wow, thực sự khá tuyệt vời khi thảo luận điều này với tất cả các bạn. Điều đáng nhớ nhất về nó là tốc độ xử lý chậm đáng chú ý của nó. Mặc dù nó khá nặng và tệ, nó mang lại cảm giác ngầu. Điều đơn giản này thực sự tạo ra tác động tích cực lớn đến thói quen hàng ngày của tôi."
+          "en": "My very first electronic device was an extremely slow ancient laptop, which clearly took several long minutes to start. Despite its many flaws, I fondly remember trying to practice basic slow typing skills. That unforgettable experience truly sparked my deep tech curiosity.",
+          "vi": "Thiết bị điện tử đầu tiên của tôi là một chiếc máy tính xách tay cổ đại cực kỳ chậm, nó rõ ràng mất vài phút dài để khởi động. Bất chấp nhiều sai sót của nó, tôi nhớ một cách trìu mến việc cố gắng thực hành các kỹ năng đánh máy chậm cơ bản. Trải nghiệm khó quên đó thực sự khơi dậy trí tò mò sâu sắc về công nghệ của tôi."
         }
       ]
     },
     "q3": {
-      "member": "Member C",
+      "member": "Member",
       "question": "What would you like to learn from the computer club?",
       "vi": "Bạn muốn học gì từ câu lạc bộ máy tính?",
       "vocab": [
-        "✨ [skills]: <strong>type</strong> (gõ phím), <strong>draw</strong> (vẽ), <strong>coding</strong> (viết mã), <strong>networking</strong> (mạng), <strong>cybersecurity</strong> (an ninh mạng)",
-        "✨ [goals]: <strong>make</strong> (làm), <strong>build</strong> (xây dựng), <strong>develop</strong> (phát triển), <strong>design</strong> (thiết kế), <strong>engineer</strong> (chế tạo)",
-        "✨ [objects]: <strong>web</strong> (trang web), <strong>app</strong> (ứng dụng), <strong>software</strong> (phần mềm), <strong>algorithms</strong> (thuật toán), <strong>infrastructure</strong> (cơ sở hạ tầng)",
-        "✨ [phần mềm]: <strong>video editing tool</strong> (công cụ chỉnh sửa video), <strong>spreadsheet application</strong> (ứng dụng bảng tính), <strong>coding environment</strong> (môi trường lập trình), <strong>presentation software</strong> (phần mềm thuyết trình), <strong>graphic editor</strong> (trình chỉnh sửa đồ họa)"
+        "✨ [kỹ năng chuyên môn]: <strong>master advanced programming coding languages</strong> (nắm vững các ngôn ngữ lập trình mã hóa nâng cao), <strong>understand complex cybersecurity defense mechanisms</strong> (hiểu các cơ chế phòng thủ an ninh mạng phức tạp), <strong>develop creative responsive web designs</strong> (phát triển các thiết kế web đáp ứng sáng tạo), <strong>analyze massive raw data effectively</strong> (phân tích dữ liệu thô khổng lồ một cách hiệu quả), <strong>create engaging modern mobile applications</strong> (tạo ra các ứng dụng di động hiện đại hấp dẫn)",
+        "✨ [lý do học]: <strong>upgrade my current technical resume</strong> (nâng cấp sơ yếu lý lịch kỹ thuật hiện tại của tôi), <strong>protect my personal digital privacy</strong> (bảo vệ quyền riêng tư kỹ thuật số cá nhân của tôi), <strong>build my own startup business</strong> (xây dựng doanh nghiệp khởi nghiệp của riêng tôi), <strong>make smarter informed financial decisions</strong> (đưa ra những quyết định tài chính sáng suốt thông minh hơn), <strong>solve practical daily tech problems</strong> (giải quyết các vấn đề công nghệ hàng ngày thực tế)",
+        "✨ [phương pháp học]: <strong>participate in intensive practical workshops</strong> (tham gia vào các hội thảo thực tế chuyên sâu), <strong>collaborate on exciting team projects</strong> (cộng tác trong các dự án nhóm thú vị), <strong>seek advice from senior mentors</strong> (tìm kiếm lời khuyên từ các cố vấn cấp cao), <strong>complete challenging weekly coding tasks</strong> (hoàn thành các nhiệm vụ mã hóa đầy thử thách hàng tuần), <strong>watch informative detailed video tutorials</strong> (xem các hướng dẫn video chi tiết và bổ ích)",
+        "✨ [mục tiêu tương lai]: <strong>secure a highly paid job</strong> (đảm bảo một công việc được trả lương cao), <strong>become a recognized tech expert</strong> (trở thành một chuyên gia công nghệ được công nhận), <strong>contribute to open source communities</strong> (đóng góp cho các cộng đồng mã nguồn mở), <strong>launch a globally successful software</strong> (ra mắt một phần mềm thành công trên toàn cầu), <strong>teach valuable skills to beginners</strong> (dạy những kỹ năng quý giá cho người mới bắt đầu)"
       ],
       "templates": [
-        "I am super excited to share my own personal thoughts on this matter. I am quite eager to improve my proficiency in using [phần mềm]. I want to learn [skills] to [goals] a [objects]. This simple thing truly makes a massive positive impact on my daily routine.",
-        "Wow, it is actually quite amazing to discuss this with you all. I am quite eager to improve my proficiency in using [phần mềm]. My goal is mastering [skills] so I can [goals] a [objects]. I truly believe this is the best way to handle the situation."
+        "I strongly desire to [kỹ năng chuyên môn] because this will undoubtedly help me [lý do học]. Hopefully, by choosing to [phương pháp học], I can successfully [mục tiêu tương lai].",
+        "My primary objective is to [kỹ năng chuyên môn] in order to easily [lý do học]. I enthusiastically plan to [phương pháp học] so that I will eventually [mục tiêu tương lai]."
       ],
       "samples": [
         {
-          "en": "I am super excited to share my own personal thoughts on this matter. I am quite eager to improve my proficiency in using video editing tool. I want to learn type to make a web. This simple thing truly makes a massive positive impact on my daily routine.",
-          "vi": "Tôi siêu hào hứng để chia sẻ những suy nghĩ cá nhân của riêng tôi về vấn đề này. Tôi khá háo hức muốn cải thiện sự thành thạo của mình trong việc sử dụng công cụ chỉnh sửa video. Tôi muốn học gõ phím để làm một trang web. Điều đơn giản này thực sự tạo ra tác động tích cực lớn đến thói quen hàng ngày của tôi."
+          "en": "I strongly desire to master advanced programming coding languages because this will undoubtedly help me upgrade my current technical resume. Hopefully, by choosing to participate in intensive practical workshops, I can successfully secure a highly paid job.",
+          "vi": "Tôi kịch liệt khao khát nắm vững các ngôn ngữ lập trình mã hóa nâng cao bởi vì điều này chắc chắn sẽ giúp tôi nâng cấp sơ yếu lý lịch kỹ thuật hiện tại của tôi. Hy vọng rằng, bằng cách chọn tham gia vào các hội thảo thực tế chuyên sâu, tôi có thể thành công đảm bảo một công việc được trả lương cao."
         },
         {
-          "en": "Wow, it is actually quite amazing to discuss this with you all. I am quite eager to improve my proficiency in using spreadsheet application. My goal is mastering draw so I can build a app. I truly believe this is the best way to handle the situation.",
-          "vi": "Wow, thực sự khá tuyệt vời khi thảo luận điều này với tất cả các bạn. Tôi khá háo hức muốn cải thiện sự thành thạo của mình trong việc sử dụng ứng dụng bảng tính. Mục tiêu của tôi là thành thạo vẽ để tôi có thể xây dựng một ứng dụng. Tôi thành thật tin rằng đây là cách tốt nhất để xử lý tình huống."
+          "en": "My primary objective is to understand complex cybersecurity defense mechanisms in order to easily protect my personal digital privacy. I enthusiastically plan to collaborate on exciting team projects so that I will eventually become a recognized tech expert.",
+          "vi": "Mục tiêu chính của tôi là hiểu các cơ chế phòng thủ an ninh mạng phức tạp để dễ dàng bảo vệ quyền riêng tư kỹ thuật số cá nhân của tôi. Tôi nhiệt tình lên kế hoạch cộng tác trong các dự án nhóm thú vị để cuối cùng tôi sẽ trở thành một chuyên gia công nghệ được công nhận."
         }
       ]
     }
   },
   "Music club": {
     "q1": {
-      "member": "Member A",
       "question": "I listen to music when I study because it helps me concentrate. When do you listen to music and why?",
       "vi": "Tôi nghe nhạc khi học vì nó giúp tôi tập trung. Bạn nghe nhạc khi nào và tại sao?",
       "vocab": [
-        "✨ [time phrases]: <strong>at night</strong> (vào ban đêm), <strong>on weekends</strong> (vào cuối tuần), <strong>during my commute</strong> (trong lúc đi lại), <strong>in moments of solitude</strong> (những lúc một mình), <strong>amidst stressful situations</strong> (khi căng thẳng)",
-        "✨ [reasons]: <strong>relax</strong> (thư giãn), <strong>sleep</strong> (ngủ), <strong>alleviate mental fatigue</strong> (giảm mệt mỏi tinh thần), <strong>seek creative inspiration</strong> (tìm cảm hứng sáng tạo), <strong>cultivate inner peace</strong> (nuôi dưỡng bình yên nội tâm)",
-        "✨ [music types]: <strong>pop music</strong> (nhạc pop), <strong>jazz</strong> (nhạc jazz), <strong>instrumental compositions</strong> (các bản nhạc không lời), <strong>classical symphonies</strong> (nhạc giao hưởng cổ điển), <strong>ambient soundscapes</strong> (nhạc môi trường)",
-        "✨ [cảm xúc]: <strong>state of mind</strong> (trạng thái tinh thần), <strong>emotional mood</strong> (tâm trạng cảm xúc), <strong>sense of calm</strong> (cảm giác bình tĩnh), <strong>feeling of joy</strong> (cảm giác vui vẻ), <strong>level of motivation</strong> (mức độ động lực)"
+        "✨ [thời điểm]: <strong>my daily commute</strong> (việc đi lại hàng ngày của tôi), <strong>my leisure time</strong> (thời gian rảnh rỗi của tôi), <strong>my lunch break</strong> (giờ nghỉ trưa của tôi), <strong>the weekend</strong> (cuối tuần), <strong>the late evening</strong> (buổi tối muộn)",
+        "✨ [thể loại]: <strong>classical melodies</strong> (những giai điệu cổ điển), <strong>upbeat pop songs</strong> (những bài hát pop sôi động), <strong>soothing jazz tracks</strong> (những bản nhạc jazz êm dịu), <strong>instrumental pieces</strong> (những bản nhạc không lời), <strong>acoustic performances</strong> (những màn trình diễn acoustic)",
+        "✨ [tác dụng]: <strong>a sense of relaxation</strong> (cảm giác thư giãn), <strong>profound mental clarity</strong> (sự minh mẫn sâu sắc), <strong>an instant energy boost</strong> (sự tăng cường năng lượng tức thì), <strong>a creative spark</strong> (nguồn cảm hứng sáng tạo), <strong>absolute peace of mind</strong> (sự bình yên tuyệt đối trong tâm trí)",
+        "✨ [cảm xúc]: <strong>genuine happiness</strong> (niềm hạnh phúc chân thật), <strong>immense satisfaction</strong> (sự hài lòng tột độ), <strong>pure joy</strong> (niềm vui thuần khiết), <strong>unparalleled tranquility</strong> (sự yên bình vô song), <strong>deep contentment</strong> (sự mãn nguyện sâu sắc)"
       ],
       "templates": [
-        "I am super excited to share my thoughts today. Putting on a good playlist always puts me in a positive [cảm xúc]. Personally, I prefer listening to [music types] [time phrases]. This habit allows me to [reasons] effectively. It brings so much value and improvement to my life.",
-        "This is definitely something I always think about a lot. Putting on a good playlist always puts me in a positive [cảm xúc]. I always enjoy [music types] [time phrases]. It is wonderful since it helps me [reasons]. I would definitely recommend this interesting experience to all my friends."
+        "I typically listen to [thể loại] during [thời điểm]. Given that it offers [tác dụng], such a habit helps me experience [cảm xúc] throughout the day.",
+        "Whenever I am free, especially at [thời điểm], enjoying [thể loại] is my priority. Consequently, this activity brings about [tác dụng] and evokes [cảm xúc] for me."
       ],
       "samples": [
         {
-          "en": "I am super excited to share my thoughts today. Putting on a good playlist always puts me in a positive state of mind. Personally, I prefer listening to pop music at night. This habit allows me to relax effectively. It brings so much value and improvement to my life.",
-          "vi": "Tôi siêu hào hứng để chia sẻ suy nghĩ hôm nay. Bật một danh sách phát hay luôn đưa tôi vào một trạng thái tinh thần tích cực. Cá nhân tôi thích nghe nhạc pop vào ban đêm. Thói quen này cho phép tôi thư giãn hiệu quả. Nó mang lại rất nhiều niềm vui và hạnh phúc cho cuộc sống của tôi."
+          "en": "I typically listen to classical melodies during my daily commute. Given that it offers a sense of relaxation, such a habit helps me experience genuine happiness throughout the day.",
+          "vi": "Tôi thường nghe những giai điệu cổ điển trong việc đi lại hàng ngày của tôi. Cho rằng nó mang lại cảm giác thư giãn, thói quen như vậy giúp tôi trải nghiệm niềm hạnh phúc chân thật suốt cả ngày."
         },
         {
-          "en": "This is definitely something I always think about a lot. Putting on a good playlist always puts me in a positive emotional mood. I always enjoy jazz on weekends. It is wonderful since it helps me sleep. I would definitely recommend this interesting experience to all my friends.",
-          "vi": "Đây chắc chắn là điều tôi luôn suy nghĩ rất nhiều. Bật một danh sách phát hay luôn đưa tôi vào một tâm trạng cảm xúc tích cực. Tôi luôn thích nhạc jazz vào cuối tuần. Thật tuyệt vời vì nó giúp tôi ngủ. Tôi chắc chắn sẽ giới thiệu trải nghiệm tuyệt vời này cho tất cả bạn bè của tôi."
+          "en": "Whenever I am free, especially at my leisure time, enjoying upbeat pop songs is my priority. Consequently, this activity brings about profound mental clarity and evokes immense satisfaction for me.",
+          "vi": "Bất cứ khi nào tôi rảnh rỗi, đặc biệt là vào thời gian rảnh rỗi của tôi, việc thưởng thức những bài hát pop sôi động là ưu tiên của tôi. Do đó, hoạt động này mang lại sự minh mẫn sâu sắc và gợi lên sự hài lòng tột độ cho tôi."
         }
       ]
     },
     "q2": {
-      "member": "Member B",
       "question": "I have a ten-year-old son and I want him to learn to play music, but he doesn’t want to. What can I do to change his mind?",
       "vi": "Tôi có một cậu con trai mười tuổi và tôi muốn cậu bé học chơi nhạc, nhưng cậu bé không muốn. Tôi có thể làm gì để thay đổi ý định của cậu bé?",
       "vocab": [
-        "✨ [approaches]: <strong>talk to him</strong> (nói chuyện với bé), <strong>play games</strong> (chơi trò chơi), <strong>demonstrate the benefits</strong> (chứng minh lợi ích), <strong>introduce inspiring musicians</strong> (giới thiệu nhạc sĩ truyền cảm hứng), <strong>foster a supportive environment</strong> (tạo môi trường hỗ trợ)",
-        "✨ [instruments]: <strong>a guitar</strong> (một cây đàn guitar), <strong>a piano</strong> (một cây đàn piano), <strong>an interactive learning app</strong> (một ứng dụng học tập tương tác), <strong>a versatile synthesizer</strong> (một bộ tổng hợp âm đa năng), <strong>a rhythmic percussion kit</strong> (một bộ gõ nhịp điệu)",
-        "✨ [expected outcomes]: <strong>be happy</strong> (vui vẻ), <strong>have fun</strong> (có niềm vui), <strong>cultivate artistic appreciation</strong> (nuôi dưỡng sự trân trọng nghệ thuật), <strong>stimulate cognitive development</strong> (kích thích phát triển nhận thức), <strong>enhance emotional expression</strong> (tăng cường biểu đạt cảm xúc)",
-        "✨ [nhạc cụ]: <strong>electronic keyboard</strong> (đàn phím điện tử), <strong>acoustic guitar</strong> (đàn ghi-ta mộc), <strong>drum set</strong> (dàn trống), <strong>classic violin</strong> (đàn vi-ô-lông cổ điển), <strong>shiny saxophone</strong> (kèn saxophone sáng bóng)"
+        "✨ [phương pháp]: <strong>a gentle approach</strong> (một cách tiếp cận nhẹ nhàng), <strong>an engaging method</strong> (một phương pháp lôi cuốn), <strong>a reward-based strategy</strong> (một chiến lược dựa trên phần thưởng), <strong>an interactive technique</strong> (một kỹ thuật tương tác), <strong>a patient attitude</strong> (một thái độ kiên nhẫn)",
+        "✨ [hoạt động]: <strong>fun musical games</strong> (những trò chơi âm nhạc thú vị), <strong>inspiring live concerts</strong> (những buổi hòa nhạc trực tiếp truyền cảm hứng), <strong>modern digital instruments</strong> (những nhạc cụ điện tử hiện đại), <strong>rhythmic exercises</strong> (những bài tập nhịp điệu), <strong>captivating online tutorials</strong> (những hướng dẫn trực tuyến hấp dẫn)",
+        "✨ [lợi ích]: <strong>the joy of creating melodies</strong> (niềm vui khi tạo ra giai điệu), <strong>a profound passion for art</strong> (niềm đam mê nghệ thuật sâu sắc), <strong>the beauty of self-expression</strong> (vẻ đẹp của việc thể hiện bản thân), <strong>a strong sense of rhythm</strong> (cảm nhận nhịp điệu mạnh mẽ), <strong>a sudden spark of interest</strong> (sự hứng thú bất ngờ)",
+        "✨ [kết quả]: <strong>a willing participation</strong> (sự tham gia tự nguyện), <strong>a positive shift in mindset</strong> (sự thay đổi tích cực trong tư duy), <strong>an enduring commitment</strong> (sự cam kết lâu dài), <strong>a newfound enthusiasm</strong> (sự nhiệt tình mới mẻ), <strong>a successful musical journey</strong> (một hành trình âm nhạc thành công)"
       ],
       "templates": [
-        "I am super excited to share my thoughts today. Perhaps introducing him to a more appealing [nhạc cụ] might spark his interest. You should [approaches] and buy him [instruments]. This will help him [expected outcomes]. It brings so much value and improvement to my life.",
-        "It is great to [approaches] or give him [instruments]. Perhaps introducing him to a more appealing [nhạc cụ] might spark his interest. Ultimately, it can help him [expected outcomes]. I try to do this every single day now."
+        "I suggest that you try [phương pháp]. By introducing him to [hoạt động], he might gradually discover [lợi ích], which will ultimately lead to [kết quả].",
+        "It is advisable to implement [phương pháp] for your child. Such an approach, including [hoạt động], can highlight [lợi ích] and guarantee [kết quả]."
       ],
       "samples": [
         {
-          "en": "I am super excited to share my thoughts today. Perhaps introducing him to a more appealing electronic keyboard might spark his interest. You should talk to him and buy him a guitar. This will help him be happy. It brings so much value and improvement to my life.",
-          "vi": "Tôi siêu hào hứng để chia sẻ suy nghĩ hôm nay. Có lẽ việc giới thiệu cho cậu bé một đàn phím điện tử hấp dẫn hơn có thể khơi dậy sự hứng thú của cậu bé. Bạn nên nói chuyện với bé và mua cho anh ấy một cây đàn guitar. Điều này sẽ giúp anh ấy vui vẻ. Nó mang lại rất nhiều niềm vui và hạnh phúc cho cuộc sống của tôi."
+          "en": "I suggest that you try a gentle approach. By introducing him to fun musical games, he might gradually discover the joy of creating melodies, which will ultimately lead to a willing participation.",
+          "vi": "Tôi khuyên bạn nên thử một cách tiếp cận nhẹ nhàng. Bằng cách giới thiệu cho cậu bé những trò chơi âm nhạc thú vị, cậu bé có thể dần khám phá ra niềm vui khi tạo ra giai điệu, điều này cuối cùng sẽ dẫn đến sự tham gia tự nguyện."
         },
         {
-          "en": "It is great to play games or give him a piano. Perhaps introducing him to a more appealing acoustic guitar might spark his interest. Ultimately, it can help him have fun. I try to do this every single day now.",
-          "vi": "Đó là một câu hỏi tuyệt vời để cân nhắc hôm nay! Thật tuyệt khi chơi trò chơi hoặc tặng anh ấy một cây đàn piano. Có lẽ việc giới thiệu cho cậu bé một đàn ghi-ta mộc hấp dẫn hơn có thể khơi dậy sự hứng thú của cậu bé. Cuối cùng, nó có thể giúp anh ấy có niềm vui. Tôi thực sự thích làm điều này mỗi ngày bây giờ."
+          "en": "It is advisable to implement an engaging method for your child. Such an approach, including inspiring live concerts, can highlight a profound passion for art and guarantee a positive shift in mindset.",
+          "vi": "Khuyên bạn nên thực hiện một phương pháp lôi cuốn cho con bạn. Cách tiếp cận như vậy, bao gồm những buổi hòa nhạc trực tiếp truyền cảm hứng, có thể làm nổi bật niềm đam mê nghệ thuật sâu sắc và đảm bảo sự thay đổi tích cực trong tư duy."
         }
       ]
     },
     "q3": {
-      "member": "Member C",
       "question": "So many countries and cultures have their own style of music. Why do you think music is such an important part of different cultures around the world?",
       "vi": "Rất nhiều quốc gia và nền văn hóa có phong cách âm nhạc riêng của họ. Tại sao bạn nghĩ âm nhạc là một phần quan trọng của các nền văn hóa khác nhau trên thế giới?",
       "vocab": [
-        "✨ [reasons]: <strong>connects people</strong> (kết nối mọi người), <strong>tells stories</strong> (kể những câu chuyện), <strong>preserves historical narratives</strong> (bảo tồn các câu chuyện lịch sử), <strong>fosters collective identity</strong> (nuôi dưỡng bản sắc tập thể), <strong>transcends linguistic barriers</strong> (vượt qua rào cản ngôn ngữ)",
-        "✨ [cultural aspects]: <strong>old traditions</strong> (truyền thống cũ), <strong>local customs</strong> (phong tục địa phương), <strong>ancestral heritage</strong> (di sản tổ tiên), <strong>societal values</strong> (giá trị xã hội), <strong>indigenous rituals</strong> (nghi lễ bản địa)",
-        "✨ [impacts]: <strong>feel proud</strong> (cảm thấy tự hào), <strong>stay strong</strong> (giữ sức mạnh), <strong>celebrate their unique diversity</strong> (tôn vinh sự đa dạng độc đáo), <strong>maintain generational continuity</strong> (duy trì sự tiếp nối thế hệ), <strong>promote global understanding</strong> (thúc đẩy sự hiểu biết toàn cầu)",
-        "✨ [giá trị]: <strong>core belief</strong> (niềm tin cốt lõi), <strong>historical identity</strong> (bản sắc lịch sử), <strong>artistic tradition</strong> (truyền thống nghệ thuật), <strong>social norm</strong> (chuẩn mực xã hội), <strong>spiritual connection</strong> (sự kết nối tâm linh)"
+        "✨ [vai trò]: <strong>a universal language</strong> (một ngôn ngữ phổ quát), <strong>a cultural bridge</strong> (một cầu nối văn hóa), <strong>an emotional outlet</strong> (một lối thoát cảm xúc), <strong>a historical record</strong> (một bản ghi chép lịch sử), <strong>a powerful unifying force</strong> (một sức mạnh thống nhất to lớn)",
+        "✨ [yếu tố]: <strong>traditional beliefs</strong> (những tín ngưỡng truyền thống), <strong>unique artistic expressions</strong> (những biểu hiện nghệ thuật độc đáo), <strong>shared community values</strong> (những giá trị cộng đồng chung), <strong>ancient folklore</strong> (văn học dân gian cổ đại), <strong>diverse local identities</strong> (những bản sắc địa phương đa dạng)",
+        "✨ [tác động]: <strong>a profound sense of belonging</strong> (cảm giác thân thuộc sâu sắc), <strong>a mutual understanding</strong> (sự thấu hiểu lẫn nhau), <strong>a harmonious social atmosphere</strong> (một bầu không khí xã hội hài hòa), <strong>an inclusive environment</strong> (một môi trường hòa nhập), <strong>a collective spiritual awakening</strong> (một sự thức tỉnh tâm linh tập thể)",
+        "✨ [giá trị]: <strong>cultural heritage</strong> (di sản văn hóa), <strong>national pride</strong> (niềm tự hào dân tộc), <strong>artistic diversity</strong> (sự đa dạng nghệ thuật), <strong>emotional resilience</strong> (sự kiên cường về cảm xúc), <strong>historical continuity</strong> (sự tiếp nối lịch sử)"
       ],
       "templates": [
-        "I am super excited to share my thoughts today. It serves as a powerful medium for expressing cultural [giá trị]. Music is vital because it [reasons]. It reflects [cultural aspects] and helps people [impacts]. It brings so much value and improvement to my life.",
-        "I am super excited to share my thoughts today. It serves as a powerful medium for expressing cultural [giá trị]. Since it [reasons], music easily represents [cultural aspects]. This powerful connection allows communities to [impacts]. I try to do this every single day now."
+        "In my view, music serves as [vai trò] by preserving [yếu tố]. Consequently, it creates [tác động], which essentially reinforces [giá trị] among generations.",
+        "It is undeniable that music acts as [vai trò] that connects [yếu tố]. Through this medium, societies experience [tác động] and uphold [giá trị] effectively."
       ],
       "samples": [
         {
-          "en": "I am super excited to share my thoughts today. It serves as a powerful medium for expressing cultural core belief. Music is vital because it connects people. It reflects old traditions and helps people feel proud. It brings so much value and improvement to my life.",
-          "vi": "Tôi siêu hào hứng để chia sẻ suy nghĩ hôm nay. Nó đóng vai trò như một phương tiện mạnh mẽ để thể hiện niềm tin cốt lõi văn hóa. Âm nhạc rất quan trọng vì nó kết nối mọi người. Nó phản ánh truyền thống cũ và giúp mọi người cảm thấy tự hào. Nó mang lại rất nhiều niềm vui và hạnh phúc cho cuộc sống của tôi."
+          "en": "In my view, music serves as a universal language by preserving traditional beliefs. Consequently, it creates a profound sense of belonging, which essentially reinforces cultural heritage among generations.",
+          "vi": "Theo quan điểm của tôi, âm nhạc đóng vai trò như một ngôn ngữ phổ quát bằng cách bảo tồn những tín ngưỡng truyền thống. Do đó, nó tạo ra cảm giác thân thuộc sâu sắc, điều này về cơ bản củng cố di sản văn hóa giữa các thế hệ."
         },
         {
-          "en": "I am super excited to share my thoughts today. It serves as a powerful medium for expressing cultural historical identity. Since it tells stories, music easily represents local customs. This powerful connection allows communities to stay strong. I try to do this every single day now.",
-          "vi": "Tôi siêu hào hứng để chia sẻ suy nghĩ hôm nay. Nó đóng vai trò như một phương tiện mạnh mẽ để thể hiện bản sắc lịch sử văn hóa. Bởi vì nó kể những câu chuyện, âm nhạc dễ dàng đại diện cho phong tục địa phương. Kết nối mạnh mẽ này cho phép các cộng đồng giữ sức mạnh. Tôi thực sự thích làm điều này mỗi ngày bây giờ."
+          "en": "It is undeniable that music acts as a cultural bridge that connects unique artistic expressions. Through this medium, societies experience a mutual understanding and uphold national pride effectively.",
+          "vi": "Không thể phủ nhận rằng âm nhạc hoạt động như một cầu nối văn hóa giúp kết nối những biểu hiện nghệ thuật độc đáo. Thông qua phương tiện này, các xã hội trải nghiệm sự thấu hiểu lẫn nhau và duy trì niềm tự hào dân tộc một cách hiệu quả."
         }
       ]
     }
   },
   "Fashion club": {
     "q1": {
-      "member": "Member A",
       "question": "Some people like to buy clothes to try on themselves. Some prefer to buy online. How do you like it and why?",
       "vi": "Một số người thích mua quần áo để tự mặc thử. Một số thích mua trực tuyến. Bạn thích thế nào và tại sao?",
       "vocab": [
-        "✨ [preferences]: <strong>shopping online</strong> (mua sắm trực tuyến), <strong>going to stores</strong> (đi đến cửa hàng), <strong>visiting physical boutiques</strong> (thăm các cửa hàng thực tế), <strong>utilizing e-commerce platforms</strong> (sử dụng nền tảng thương mại điện tử), <strong>browsing digital catalogs</strong> (duyệt các danh mục kỹ thuật số)",
-        "✨ [advantages]: <strong>save time</strong> (tiết kiệm thời gian), <strong>see things</strong> (nhìn thấy mọi thứ), <strong>evaluate fabric quality</strong> (đánh giá chất lượng vải), <strong>access exclusive discounts</strong> (tiếp cận giảm giá độc quyền), <strong>ensure accurate sizing</strong> (đảm bảo kích cỡ chính xác)",
-        "✨ [feelings]: <strong>happy</strong> (vui vẻ), <strong>safe</strong> (an toàn), <strong>incredibly satisfied</strong> (vô cùng hài lòng), <strong>highly confident</strong> (rất tự tin), <strong>completely reassured</strong> (hoàn toàn yên tâm)",
-        "✨ [tiêu chí]: <strong>shopping requirement</strong> (yêu cầu mua sắm), <strong>quality standard</strong> (tiêu chuẩn chất lượng), <strong>personal preference</strong> (sở thích cá nhân), <strong>budget limit</strong> (giới hạn ngân sách), <strong>style consideration</strong> (sự cân nhắc về phong cách)"
+        "✨ [phương thức]: <strong>browsing physical stores</strong> (việc dạo quanh các cửa hàng thực tế), <strong>traditional brick-and-mortar shopping</strong> (việc mua sắm tại cửa hàng truyền thống), <strong>convenient online platforms</strong> (những nền tảng trực tuyến tiện lợi), <strong>digital fashion boutiques</strong> (những cửa hàng thời trang kỹ thuật số), <strong>trying garments in-person</strong> (việc thử nghiệm trang phục trực tiếp)",
+        "✨ [lý do]: <strong>an accurate size assessment</strong> (sự đánh giá kích thước chính xác), <strong>a wider range of choices</strong> (một phạm vi lựa chọn rộng hơn), <strong>immediate tactile feedback</strong> (phản hồi xúc giác ngay lập tức), <strong>exclusive digital discounts</strong> (những giảm giá kỹ thuật số độc quyền), <strong>time-saving delivery options</strong> (những lựa chọn giao hàng tiết kiệm thời gian)",
+        "✨ [trải nghiệm]: <strong>a satisfactory fitting session</strong> (một buổi thử đồ vừa vặn thỏa mãn), <strong>a hassle-free browsing process</strong> (một quá trình duyệt web không rắc rối), <strong>a personalized styling advice</strong> (một lời khuyên tạo kiểu cá nhân hóa), <strong>a seamless purchasing journey</strong> (một hành trình mua hàng liền mạch), <strong>an enjoyable retail therapy</strong> (một liệu pháp mua sắm thú vị)",
+        "✨ [kết quả]: <strong>an impeccable personal style</strong> (một phong cách cá nhân hoàn hảo), <strong>a cost-effective purchase</strong> (một lần mua sắm tiết kiệm chi phí), <strong>a well-curated closet</strong> (một tủ quần áo được sắp xếp tinh tế), <strong>a highly functional outfit</strong> (một bộ trang phục có tính ứng dụng cao), <strong>an enduring satisfaction</strong> (một sự hài lòng lâu dài)"
       ],
       "templates": [
-        "I am super excited to share my thoughts today. My main [tiêu chí] when shopping is ensuring the items fit perfectly. I usually prefer [preferences] because it allows me to [advantages]. This makes me feel [feelings]. I try to do this every single day now.",
-        "[preferences] is my favorite choice since I can [advantages]. My main [tiêu chí] when shopping is ensuring the items fit perfectly. It genuinely keeps me feeling [feelings]. I try to do this every single day now."
+        "Personally, I tend to prefer [phương thức] because it offers [lý do]. By doing this, I can enjoy [trải nghiệm], which eventually guarantees [kết quả].",
+        "I am strongly in favor of [phương thức] owing to [lý do]. Such a choice provides [trải nghiệm] and consistently delivers [kết quả] for my wardrobe."
       ],
       "samples": [
         {
-          "en": "I am super excited to share my thoughts today. My main shopping requirement when shopping is ensuring the items fit perfectly. I usually prefer shopping online because it allows me to save time. This makes me feel happy. I try to do this every single day now.",
-          "vi": "Tôi siêu hào hứng để chia sẻ suy nghĩ hôm nay. [tiêu chí] chính của tôi khi mua sắm là đảm bảo các món đồ vừa vặn hoàn hảo. Tôi thường thích mua sắm trực tuyến vì nó cho phép tôi tiết kiệm thời gian. Điều này làm tôi cảm thấy vui vẻ. Tôi thực sự thích làm điều này mỗi ngày bây giờ."
+          "en": "Personally, I tend to prefer browsing physical stores because it offers an accurate size assessment. By doing this, I can enjoy a satisfactory fitting session, which eventually guarantees an impeccable personal style.",
+          "vi": "Cá nhân tôi, tôi có xu hướng thích việc dạo quanh các cửa hàng thực tế bởi vì nó cung cấp sự đánh giá kích thước chính xác. Bằng cách này, tôi có thể tận hưởng một buổi thử đồ vừa vặn thỏa mãn, điều này cuối cùng đảm bảo một phong cách cá nhân hoàn hảo."
         },
         {
-          "en": "Going to stores is my favorite choice since I can see things. My main quality standard when shopping is ensuring the items fit perfectly. It genuinely keeps me feeling safe. I try to do this every single day now.",
-          "vi": "Đó là một câu hỏi tuyệt vời để cân nhắc hôm nay! đi đến cửa hàng là lựa chọn yêu thích của tôi vì tôi có thể nhìn thấy mọi thứ. [tiêu chí] chính của tôi khi mua sắm là đảm bảo các món đồ vừa vặn hoàn hảo. Nó thực sự giữ cho tôi cảm thấy an toàn. Tôi thực sự thích làm điều này mỗi ngày bây giờ."
+          "en": "I am strongly in favor of traditional brick-and-mortar shopping owing to a wider range of choices. Such a choice provides a hassle-free browsing process and consistently delivers a cost-effective purchase for my wardrobe.",
+          "vi": "Tôi đặc biệt ủng hộ việc mua sắm tại cửa hàng truyền thống nhờ vào một phạm vi lựa chọn rộng hơn. Một sự lựa chọn như vậy cung cấp một quá trình duyệt web không rắc rối và liên tục mang lại một lần mua sắm tiết kiệm chi phí cho tủ quần áo của tôi."
         }
       ]
     },
     "q2": {
-      "member": "Member B",
       "question": "Hi! Why did you decide to join the club?",
       "vi": "Chào bạn! Tại sao bạn quyết định tham gia câu lạc bộ?",
       "vocab": [
-        "✨ [interests]: <strong>clothes</strong> (quần áo), <strong>shoes</strong> (giày dép), <strong>haute couture</strong> (thời trang cao cấp), <strong>sustainable apparel</strong> (trang phục bền vững), <strong>avant-garde aesthetics</strong> (thẩm mỹ tiên phong)",
-        "✨ [goals]: <strong>make friends</strong> (kết bạn), <strong>learn things</strong> (học hỏi), <strong>expand my professional network</strong> (mở rộng mạng lưới chuyên môn), <strong>refine my personal style</strong> (tinh chỉnh phong cách cá nhân), <strong>gain industry insights</strong> (có được cái nhìn sâu sắc về ngành)",
-        "✨ [future actions]: <strong>share photos</strong> (chia sẻ ảnh), <strong>read books</strong> (đọc sách), <strong>attend exclusive runway shows</strong> (tham dự các buổi trình diễn thời trang độc quyền), <strong>organize collaborative styling workshops</strong> (tổ chức các hội thảo tạo kiểu hợp tác), <strong>publish insightful editorial pieces</strong> (xuất bản các bài xã luận sâu sắc)",
-        "✨ [kỳ vọng]: <strong>desire to learn</strong> (mong muốn học hỏi), <strong>networking goal</strong> (mục tiêu mở rộng mối quan hệ), <strong>creative ambition</strong> (tham vọng sáng tạo), <strong>social interest</strong> (sự quan tâm xã hội), <strong>professional aim</strong> (mục tiêu nghề nghiệp)"
+        "✨ [mục tiêu]: <strong>expanding my fashion network</strong> (việc mở rộng mạng lưới thời trang của tôi), <strong>exploring innovative trends</strong> (việc khám phá những xu hướng đổi mới), <strong>enhancing my styling skills</strong> (việc nâng cao kỹ năng tạo kiểu của tôi), <strong>discovering sustainable brands</strong> (việc tìm hiểu những thương hiệu bền vững), <strong>sharing my creative visions</strong> (việc chia sẻ những tầm nhìn sáng tạo của tôi)",
+        "✨ [kỳ vọng]: <strong>a strong belief</strong> (một niềm tin mãnh liệt), <strong>an optimistic outlook</strong> (một cái nhìn lạc quan), <strong>a genuine hope</strong> (một hy vọng chân thành), <strong>a firm conviction</strong> (một sự tin tưởng vững chắc), <strong>a positive anticipation</strong> (một sự mong đợi tích cực)",
+        "✨ [hành động]: <strong>exchange insightful tips</strong> (trao đổi những mẹo sâu sắc), <strong>organize inspiring workshops</strong> (tổ chức những buổi hội thảo truyền cảm hứng), <strong>attend exclusive runway shows</strong> (tham dự những buổi biểu diễn thời trang độc quyền), <strong>discuss recent aesthetic shifts</strong> (thảo luận về những thay đổi thẩm mỹ gần đây), <strong>collaborate on styling projects</strong> (hợp tác trong những dự án tạo kiểu)",
+        "✨ [tác động]: <strong>a profound professional growth</strong> (sự phát triển nghề nghiệp sâu sắc), <strong>a remarkable confidence boost</strong> (sự tăng cường sự tự tin đáng kể), <strong>a refined sartorial taste</strong> (một gu ăn mặc tinh tế), <strong>a meaningful social connection</strong> (một kết nối xã hội có ý nghĩa), <strong>a broader cultural perspective</strong> (một góc nhìn văn hóa rộng mở hơn)"
       ],
       "templates": [
-        "I am super excited to share my thoughts today. I signed up primarily because I have a strong [kỳ vọng] from this community. I joined because I love [interests] and want to [goals]. Later, I hope to [future actions]. I try to do this every single day now.",
-        "I am super excited to share my thoughts today. I signed up primarily because I have a strong [kỳ vọng] from this community. My passion for [interests] motivated me to join and [goals]. Eventually, I aim to [future actions]. I try to do this every single day now."
+        "I decided to become a member because my primary intention is [mục tiêu]. Furthermore, I hold [kỳ vọng] that we can [hành động], leading to [tác động].",
+        "Joining this community aligns perfectly with [mục tiêu]. Given that I maintain [kỳ vọng], it allows me to [hành động] and subsequently achieve [tác động]."
       ],
       "samples": [
         {
-          "en": "I am super excited to share my thoughts today. I signed up primarily because I have a strong desire to learn from this community. I joined because I love clothes and want to make friends. Later, I hope to share photos. I try to do this every single day now.",
-          "vi": "Tôi siêu hào hứng để chia sẻ suy nghĩ hôm nay. Tôi đăng ký chủ yếu vì tôi có một mong muốn học hỏi mãnh liệt từ cộng đồng này. Tôi tham gia vì tôi yêu thích quần áo và muốn kết bạn. Sau này, tôi hy vọng sẽ chia sẻ ảnh. Tôi thực sự thích làm điều này mỗi ngày bây giờ."
+          "en": "I decided to become a member because my primary intention is expanding my fashion network. Furthermore, I hold a strong belief that we can exchange insightful tips, leading to a profound professional growth.",
+          "vi": "Tôi quyết định trở thành một thành viên vì ý định chính của tôi là việc mở rộng mạng lưới thời trang của tôi. Hơn nữa, tôi giữ một niềm tin mãnh liệt rằng chúng ta có thể trao đổi những mẹo sâu sắc, dẫn đến sự phát triển nghề nghiệp sâu sắc."
         },
         {
-          "en": "I am super excited to share my thoughts today. I signed up primarily because I have a strong networking goal from this community. My passion for shoes motivated me to join and learn things. Eventually, I aim to read books. I try to do this every single day now.",
-          "vi": "Tôi siêu hào hứng để chia sẻ suy nghĩ hôm nay. Tôi đăng ký chủ yếu vì tôi có một mục tiêu mở rộng mối quan hệ mãnh liệt từ cộng đồng này. Niềm đam mê của tôi với giày dép đã thúc đẩy tôi tham gia và học hỏi. Cuối cùng, tôi nhắm tới việc đọc sách. Tôi thực sự thích làm điều này mỗi ngày bây giờ."
+          "en": "Joining this community aligns perfectly with exploring innovative trends. Given that I maintain an optimistic outlook, it allows me to organize inspiring workshops and subsequently achieve a remarkable confidence boost.",
+          "vi": "Việc tham gia cộng đồng này hoàn toàn phù hợp với việc khám phá những xu hướng đổi mới. Cho rằng tôi duy trì một cái nhìn lạc quan, điều này cho phép tôi tổ chức những buổi hội thảo truyền cảm hứng và sau đó đạt được sự tăng cường sự tự tin đáng kể."
         }
       ]
     },
     "q3": {
-      "member": "Member C",
       "question": "Why do people like fashion?",
       "vi": "Tại sao mọi người thích thời trang?",
       "vocab": [
-        "✨ [reasons]: <strong>look good</strong> (trông đẹp), <strong>feel nice</strong> (cảm thấy dễ chịu), <strong>project personal identity</strong> (thể hiện bản sắc cá nhân), <strong>boost self-confidence</strong> (tăng cường sự tự tin), <strong>reflect societal trends</strong> (phản ánh xu hướng xã hội)",
-        "✨ [items]: <strong>new shirts</strong> (áo sơ mi mới), <strong>cool hats</strong> (mũ ngầu), <strong>bespoke tailored suits</strong> (bộ vest may đo riêng), <strong>vintage designer accessories</strong> (phụ kiện thiết kế cổ điển), <strong>innovative sustainable garments</strong> (hàng may mặc bền vững sáng tạo)",
-        "✨ [impacts]: <strong>impress others</strong> (gây ấn tượng với người khác), <strong>show off</strong> (khoe khoang), <strong>establish professional credibility</strong> (thiết lập uy tín nghề nghiệp), <strong>challenge conventional norms</strong> (thách thức các chuẩn mực thông thường), <strong>foster cultural appreciation</strong> (nuôi dưỡng sự trân trọng văn hóa)",
-        "✨ [phong cách]: <strong>personal aesthetic</strong> (thẩm mỹ cá nhân), <strong>fashion sense</strong> (gu thời trang), <strong>creative identity</strong> (bản sắc sáng tạo), <strong>trendy look</strong> (vẻ ngoài sành điệu), <strong>elegant appearance</strong> (diện mạo thanh lịch)"
+        "✨ [công cụ]: <strong>an expressive medium</strong> (một phương tiện biểu đạt), <strong>a non-verbal communicator</strong> (một công cụ giao tiếp phi ngôn ngữ), <strong>a creative canvas</strong> (một bức tranh sáng tạo), <strong>a powerful social identifier</strong> (một đặc điểm nhận dạng xã hội mạnh mẽ), <strong>a transformative aesthetic tool</strong> (một công cụ thẩm mỹ mang tính chuyển đổi)",
+        "✨ [mục đích]: <strong>showcasing individual personalities</strong> (việc thể hiện cá tính riêng), <strong>establishing professional credibility</strong> (việc thiết lập sự uy tín chuyên nghiệp), <strong>reflecting cultural heritage</strong> (việc phản ánh di sản văn hóa), <strong>navigating societal expectations</strong> (việc định hướng những kỳ vọng của xã hội), <strong>projecting a successful image</strong> (việc phác họa một hình ảnh thành công)",
+        "✨ [cảm giác]: <strong>immense self-assurance</strong> (sự tự tin to lớn), <strong>profound aesthetic pleasure</strong> (niềm vui thẩm mỹ sâu sắc), <strong>deep psychological comfort</strong> (sự thoải mái tâm lý sâu sắc), <strong>genuine personal empowerment</strong> (sự trao quyền cá nhân chân thực), <strong>absolute creative freedom</strong> (sự tự do sáng tạo tuyệt đối)",
+        "✨ [hiện tượng]: <strong>continuous artistic evolution</strong> (sự tiến hóa nghệ thuật liên tục), <strong>dynamic economic growth</strong> (sự tăng trưởng kinh tế năng động), <strong>global cultural exchange</strong> (sự giao lưu văn hóa toàn cầu), <strong>widespread social conformity</strong> (sự tuân thủ xã hội rộng rãi), <strong>rapid technological integration</strong> (sự hội nhập công nghệ nhanh chóng)"
       ],
       "templates": [
-        "I really appreciate you asking about this wonderful topic today. It allows individuals to showcase their unique [phong cách] to the world. People like fashion to [reasons]. Wearing [items] helps them [impacts]. I would definitely recommend this interesting experience to all my friends.",
-        "This is definitely something I always think about a lot. It allows individuals to showcase their unique [phong cách] to the world. Fashion allows individuals to [reasons]. By choosing [items], they can effortlessly [impacts]. It brings so much value and improvement to my life."
+        "Fashion is widely regarded as [công cụ] that fulfills [mục đích]. Consequently, it evokes [cảm giác] and contributes to [hiện tượng] in modern society.",
+        "People adore clothing styles because they function as [công cụ] for [mục đích]. Such an outlet fosters [cảm giác] while simultaneously driving [hiện tượng]."
       ],
       "samples": [
         {
-          "en": "I really appreciate you asking about this wonderful topic today. It allows individuals to showcase their unique personal aesthetic to the world. People like fashion to look good. Wearing new shirts helps them impress others. I would definitely recommend this interesting experience to all my friends.",
-          "vi": "Tôi thực sự đánh giá cao bạn hỏi về chủ đề tuyệt vời này hôm nay. Nó cho phép các cá nhân thể hiện thẩm mỹ cá nhân độc đáo của họ với thế giới. Mọi người thích thời trang để trông đẹp. Việc mặc áo sơ mi mới giúp họ gây ấn tượng với người khác. Tôi chắc chắn sẽ giới thiệu trải nghiệm tuyệt vời này cho tất cả bạn bè của tôi."
+          "en": "Fashion is widely regarded as an expressive medium that fulfills showcasing individual personalities. Consequently, it evokes immense self-assurance and contributes to continuous artistic evolution in modern society.",
+          "vi": "Thời trang được coi rộng rãi như một phương tiện biểu đạt đáp ứng việc thể hiện cá tính riêng. Do đó, nó gợi lên sự tự tin to lớn và đóng góp vào sự tiến hóa nghệ thuật liên tục trong xã hội hiện đại."
         },
         {
-          "en": "This is definitely something I always think about a lot. It allows individuals to showcase their unique fashion sense to the world. Fashion allows individuals to feel nice. By choosing cool hats, they can effortlessly show off. It brings so much value and improvement to my life.",
-          "vi": "Đây chắc chắn là điều tôi luôn suy nghĩ rất nhiều. Nó cho phép các cá nhân thể hiện gu thời trang độc đáo của họ với thế giới. Thời trang cho phép các cá nhân cảm thấy dễ chịu. Bằng cách chọn mũ ngầu, họ có thể dễ dàng khoe khoang. Nó mang lại rất nhiều niềm vui và hạnh phúc cho cuộc sống của tôi."
+          "en": "People adore clothing styles because they function as a non-verbal communicator for establishing professional credibility. Such an outlet fosters profound aesthetic pleasure while simultaneously driving dynamic economic growth.",
+          "vi": "Mọi người yêu thích các phong cách quần áo bởi vì chúng hoạt động như một công cụ giao tiếp phi ngôn ngữ cho việc thiết lập sự uy tín chuyên nghiệp. Một phương tiện như vậy nuôi dưỡng niềm vui thẩm mỹ sâu sắc đồng thời thúc đẩy sự tăng trưởng kinh tế năng động."
         }
       ]
     }
   },
   "Cooking club": {
     "q1": {
-      "member": "Member A",
       "question": "Hi! Welcome to the club. Why did you decide to join the club?",
       "vi": "Chào bạn! Chào mừng đến với câu lạc bộ. Tại sao bạn quyết định tham gia câu lạc bộ?",
       "vocab": [
-        "✨ [interests]: <strong>tasty food</strong> (thức ăn ngon), <strong>sweet cakes</strong> (bánh ngọt), <strong>gourmet cuisine</strong> (ẩm thực sành điệu), <strong>culinary arts</strong> (nghệ thuật ẩm thực), <strong>nutritional gastronomy</strong> (ẩm thực dinh dưỡng)",
-        "✨ [goals]: <strong>cook better</strong> (nấu ăn giỏi hơn), <strong>meet people</strong> (gặp gỡ mọi người), <strong>master complex recipes</strong> (nắm vững các công thức phức tạp), <strong>explore diverse flavors</strong> (khám phá các hương vị đa dạng), <strong>enhance plating techniques</strong> (nâng cao kỹ thuật trình bày)",
-        "✨ [activities]: <strong>watch videos</strong> (xem video), <strong>read recipes</strong> (đọc công thức), <strong>participate in interactive workshops</strong> (tham gia các hội thảo tương tác), <strong>exchange innovative cooking methods</strong> (trao đổi các phương pháp nấu ăn sáng tạo), <strong>organize collaborative tasting events</strong> (tổ chức các sự kiện nếm thử hợp tác)",
-        "✨ [món ăn]: <strong>traditional recipe</strong> (công thức truyền thống), <strong>exotic cuisine</strong> (ẩm thực lạ miệng), <strong>healthy meal</strong> (bữa ăn lành mạnh), <strong>sweet dessert</strong> (món tráng miệng ngọt ngào), <strong>savory pastry</strong> (bánh ngọt mặn)"
+        "✨ [niềm đam mê]: <strong>a profound love for gastronomy</strong> (một tình yêu sâu sắc dành cho ẩm thực), <strong>an intense curiosity about flavors</strong> (một sự tò mò mãnh liệt về hương vị), <strong>a strong devotion to baking</strong> (một sự tận tâm mạnh mẽ với việc nướng bánh), <strong>an innate interest in healthy diets</strong> (một sự hứng thú bẩm sinh với chế độ ăn lành mạnh), <strong>a lifelong fascination with recipes</strong> (một niềm say mê suốt đời với các công thức nấu ăn)",
+        "✨ [kỹ năng]: <strong>advanced culinary techniques</strong> (những kỹ thuật ẩm thực nâng cao), <strong>precise knife handling</strong> (việc sử dụng dao chính xác), <strong>innovative seasoning methods</strong> (những phương pháp nêm nếm sáng tạo), <strong>elegant plating skills</strong> (kỹ năng trình bày món ăn tao nhã), <strong>efficient meal prep strategies</strong> (những chiến lược chuẩn bị bữa ăn hiệu quả)",
+        "✨ [mục tiêu]: <strong>a well-rounded culinary profile</strong> (một hồ sơ ẩm thực toàn diện), <strong>a deeper nutritional understanding</strong> (một sự hiểu biết sâu sắc hơn về dinh dưỡng), <strong>a professional chef certification</strong> (một chứng chỉ đầu bếp chuyên nghiệp), <strong>a diverse personal menu</strong> (một thực đơn cá nhân đa dạng), <strong>a successful catering business</strong> (một doanh nghiệp phục vụ ăn uống thành công)",
+        "✨ [trải nghiệm]: <strong>engaging collaborative sessions</strong> (những buổi cộng tác lôi cuốn), <strong>inspiring cooking demonstrations</strong> (những buổi trình diễn nấu ăn truyền cảm hứng), <strong>constructive feedback loops</strong> (những vòng phản hồi mang tính xây dựng), <strong>joyful tasting events</strong> (những sự kiện nếm thử vui vẻ), <strong>insightful mentor interactions</strong> (những tương tác sâu sắc với người hướng dẫn)"
       ],
       "templates": [
-        "I joined because I enjoy [interests] and want to [goals]. I am really passionate about learning how to prepare authentic [món ăn]. I also plan to [activities]. I try to do this every single day now.",
-        "My deep fascination with [interests] inspired me to join and [goals]. I am really passionate about learning how to prepare authentic [món ăn]. Furthermore, I will [activities]. I try to do this every single day now."
+        "I enrolled in this group largely due to [niềm đam mê]. By being here, I hope to acquire [kỹ năng] as well as achieve [mục tiêu] through [trải nghiệm].",
+        "My decision was mainly driven by [niềm đam mê]. I am eager to hone [kỹ năng], which will help me fulfill [mục tiêu] alongside [trải nghiệm]."
       ],
       "samples": [
         {
-          "en": "I joined because I enjoy tasty food and want to cook better. I am really passionate about learning how to prepare authentic traditional recipe. I also plan to watch videos. I try to do this every single day now.",
-          "vi": "Đó là một câu hỏi tuyệt vời để cân nhắc hôm nay! Tôi tham gia vì tôi thích thức ăn ngon và muốn nấu ăn giỏi hơn. Tôi thực sự đam mê học cách chuẩn bị các công thức truyền thống chuẩn vị. Tôi cũng dự định xem video. Tôi thực sự thích làm điều này mỗi ngày bây giờ."
+          "en": "I enrolled in this group largely due to a profound love for gastronomy. By being here, I hope to acquire advanced culinary techniques as well as achieve a well-rounded culinary profile through engaging collaborative sessions.",
+          "vi": "Tôi đã ghi danh vào nhóm này phần lớn là do một tình yêu sâu sắc dành cho ẩm thực. Bằng cách ở đây, tôi hy vọng có được những kỹ thuật ẩm thực nâng cao cũng như đạt được một hồ sơ ẩm thực toàn diện thông qua những buổi cộng tác lôi cuốn."
         },
         {
-          "en": "My deep fascination with sweet cakes inspired me to join and meet people. I am really passionate about learning how to prepare authentic exotic cuisine. Furthermore, I will read recipes. I try to do this every single day now.",
-          "vi": "Đó là một câu hỏi tuyệt vời để cân nhắc hôm nay! Sự đam mê sâu sắc của tôi với bánh ngọt đã truyền cảm hứng cho tôi tham gia và gặp gỡ mọi người. Tôi thực sự đam mê học cách chuẩn bị các ẩm thực lạ miệng chuẩn vị. Hơn nữa, tôi sẽ đọc công thức. Tôi thực sự thích làm điều này mỗi ngày bây giờ."
+          "en": "My decision was mainly driven by an intense curiosity about flavors. I am eager to hone precise knife handling, which will help me fulfill a deeper nutritional understanding alongside inspiring cooking demonstrations.",
+          "vi": "Quyết định của tôi chủ yếu được thúc đẩy bởi một sự tò mò mãnh liệt về hương vị. Tôi háo hức muốn mài giũa việc sử dụng dao chính xác, điều này sẽ giúp tôi hoàn thành một sự hiểu biết sâu sắc hơn về dinh dưỡng cùng với những buổi trình diễn nấu ăn truyền cảm hứng."
         }
       ]
     },
     "q2": {
-      "member": "Member B",
       "question": "Hi! What do you think about the club’s price/ membership fee?",
       "vi": "Chào bạn! Bạn nghĩ gì về giá/ phí thành viên của câu lạc bộ?",
       "vocab": [
-        "✨ [opinions]: <strong>very cheap</strong> (rất rẻ), <strong>quite fair</strong> (khá công bằng), <strong>highly cost-effective</strong> (hiệu quả chi phí cao), <strong>remarkably reasonable</strong> (hợp lý đáng kể), <strong>exceptionally economical</strong> (đặc biệt tiết kiệm)",
-        "✨ [benefits]: <strong>good lessons</strong> (bài học tốt), <strong>fun games</strong> (trò chơi vui nhộn), <strong>exclusive culinary resources</strong> (tài nguyên ẩm thực độc quyền), <strong>comprehensive tutorial archives</strong> (lưu trữ hướng dẫn toàn diện), <strong>personalized chef mentorship</strong> (sự cố vấn đầu bếp cá nhân)",
-        "✨ [feelings]: <strong>happy</strong> (vui vẻ), <strong>lucky</strong> (may mắn), <strong>profoundly grateful</strong> (vô cùng biết ơn), <strong>genuinely satisfied</strong> (thực sự hài lòng), <strong>tremendously motivated</strong> (vô cùng có động lực)",
-        "✨ [mức giá]: <strong>membership fee</strong> (phí thành viên), <strong>monthly subscription</strong> (phí đăng ký hàng tháng), <strong>annual cost</strong> (chi phí hàng năm), <strong>joining charge</strong> (phí tham gia), <strong>financial contribution</strong> (sự đóng góp tài chính)"
+        "✨ [nhận định]: <strong>remarkably reasonable</strong> (đáng kinh ngạc là hợp lý), <strong>highly competitive</strong> (có tính cạnh tranh cao), <strong>surprisingly affordable</strong> (rẻ một cách đáng ngạc nhiên), <strong>perfectly justifiable</strong> (hoàn toàn có thể biện minh được), <strong>an excellent bargain</strong> (một món hời xuất sắc)",
+        "✨ [lý do]: <strong>the premium ingredients provided</strong> (những nguyên liệu cao cấp được cung cấp), <strong>the modern kitchen facilities</strong> (những cơ sở vật chất nhà bếp hiện đại), <strong>the extensive learning resources</strong> (những nguồn tài nguyên học tập phong phú), <strong>the exclusive guest chef workshops</strong> (những buổi hội thảo với đầu bếp khách mời độc quyền), <strong>the well-organized weekly events</strong> (những sự kiện hàng tuần được tổ chức tốt)",
+        "✨ [giá trị]: <strong>the outstanding educational quality</strong> (chất lượng giáo dục xuất sắc), <strong>the vibrant community atmosphere</strong> (bầu không khí cộng đồng sôi động), <strong>the tangible skill improvements</strong> (những cải thiện kỹ năng rõ rệt), <strong>the long-term health benefits</strong> (những lợi ích sức khỏe dài hạn), <strong>the immense personal satisfaction</strong> (sự hài lòng cá nhân to lớn)",
+        "✨ [đề xuất]: <strong>flexible payment installments</strong> (những khoản trả góp linh hoạt), <strong>a brief trial period</strong> (một khoảng thời gian dùng thử ngắn), <strong>attractive student discounts</strong> (những giảm giá hấp dẫn cho sinh viên), <strong>early bird promotional packages</strong> (những gói khuyến mãi đăng ký sớm), <strong>a tiered membership system</strong> (một hệ thống thành viên phân cấp)"
       ],
       "templates": [
-        "I am super excited to share my thoughts today. In my opinion, the current [mức giá] is quite reasonable for what we get. I think the fee is [opinions] because we get [benefits]. This makes me feel [feelings]. I try to do this every single day now.",
-        "I am super excited to share my thoughts today. In my opinion, the current [mức giá] is quite reasonable for what we get. The current membership price is [opinions] considering the [benefits] provided. I am truly [feelings]. It brings so much value and improvement to my life."
+        "In my perspective, the current fee is [nhận định] because of [lý do]. It perfectly justifies [giá trị], though we could perhaps consider [đề xuất] for newcomers.",
+        "I consider the financial requirement to be [nhận định] given [lý do]. This amount undeniably reflects [giá trị], and implementing [đề xuất] would make it flawless."
       ],
       "samples": [
         {
-          "en": "I am super excited to share my thoughts today. In my opinion, the current membership fee is quite reasonable for what we get. I think the fee is very cheap because we get good lessons. This makes me feel happy. I try to do this every single day now.",
-          "vi": "Tôi siêu hào hứng để chia sẻ suy nghĩ hôm nay. Theo ý kiến của tôi, phí thành viên hiện tại là khá hợp lý cho những gì chúng ta nhận được. Tôi nghĩ mức phí là rất rẻ vì chúng ta nhận được bài học tốt. Điều này làm tôi cảm thấy vui vẻ. Tôi thực sự thích làm điều này mỗi ngày bây giờ."
+          "en": "In my perspective, the current fee is remarkably reasonable because of the premium ingredients provided. It perfectly justifies the outstanding educational quality, though we could perhaps consider flexible payment installments for newcomers.",
+          "vi": "Theo quan điểm của tôi, mức phí hiện tại đáng kinh ngạc là hợp lý bởi vì những nguyên liệu cao cấp được cung cấp. Nó hoàn toàn biện minh cho chất lượng giáo dục xuất sắc, mặc dù có lẽ chúng ta có thể xem xét những khoản trả góp linh hoạt cho những người mới."
         },
         {
-          "en": "I am super excited to share my thoughts today. In my opinion, the current monthly subscription is quite reasonable for what we get. The current membership price is quite fair considering the fun games provided. I am truly lucky. It brings so much value and improvement to my life.",
-          "vi": "Tôi siêu hào hứng để chia sẻ suy nghĩ hôm nay. Theo ý kiến của tôi, phí đăng ký hàng tháng hiện tại là khá hợp lý cho những gì chúng ta nhận được. Mức giá thành viên hiện tại là khá công bằng khi xem xét các trò chơi vui nhộn được cung cấp. Tôi thực sự may mắn. Nó mang lại rất nhiều niềm vui và hạnh phúc cho cuộc sống của tôi."
+          "en": "I consider the financial requirement to be highly competitive given the modern kitchen facilities. This amount undeniably reflects the vibrant community atmosphere, and implementing a brief trial period would make it flawless.",
+          "vi": "Tôi cho rằng yêu cầu tài chính có tính cạnh tranh cao do những cơ sở vật chất nhà bếp hiện đại. Số tiền này không thể phủ nhận phản ánh bầu không khí cộng đồng sôi động, và việc thực hiện một khoảng thời gian dùng thử ngắn sẽ làm cho nó hoàn hảo."
         }
       ]
     },
     "q3": {
-      "member": "Member C",
       "question": "How often do you go to the club?",
       "vi": "Bạn đi câu lạc bộ bao lâu một lần?",
       "vocab": [
-        "✨ [frequency]: <strong>every day</strong> (mỗi ngày), <strong>every week</strong> (mỗi tuần), <strong>on a biweekly basis</strong> (hai tuần một lần), <strong>multiple times weekly</strong> (nhiều lần hàng tuần), <strong>during festive seasons</strong> (trong các mùa lễ hội)",
-        "✨ [actions]: <strong>cook meat</strong> (nấu thịt), <strong>make soup</strong> (làm súp), <strong>experiment with exotic ingredients</strong> (thử nghiệm với các thành phần kỳ lạ), <strong>refine intricate baking skills</strong> (tinh chỉnh kỹ năng nướng bánh phức tạp), <strong>prepare elaborate course meals</strong> (chuẩn bị các bữa ăn nhiều món công phu)",
-        "✨ [companions]: <strong>my mom</strong> (mẹ tôi), <strong>my dad</strong> (bố tôi), <strong>my enthusiastic culinary peers</strong> (những người bạn ẩm thực nhiệt tình của tôi), <strong>several experienced professional chefs</strong> (một số đầu bếp chuyên nghiệp giàu kinh nghiệm), <strong>my dedicated study group</strong> (nhóm học tập tận tâm của tôi)",
-        "✨ [lịch trình]: <strong>weekly timetable</strong> (thời gian biểu hàng tuần), <strong>working schedule</strong> (lịch làm việc), <strong>daily routine</strong> (thói quen hàng ngày), <strong>weekend plan</strong> (kế hoạch cuối tuần), <strong>study agenda</strong> (chương trình học tập)"
+        "✨ [tần suất]: <strong>twice a week without fail</strong> (hai lần một tuần không trượt phát nào), <strong>every other Saturday morning</strong> (mỗi sáng thứ Bảy cách tuần), <strong>on a strict weekly basis</strong> (trên cơ sở hàng tuần nghiêm ngặt), <strong>at least three times monthly</strong> (ít nhất ba lần mỗi tháng), <strong>whenever my schedule permits</strong> (bất cứ khi nào lịch trình của tôi cho phép)",
+        "✨ [hoạt động]: <strong>intensive baking workshops</strong> (những hội thảo nướng bánh chuyên sâu), <strong>collaborative recipe testing</strong> (việc thử nghiệm công thức hợp tác), <strong>lively group discussions</strong> (những cuộc thảo luận nhóm sôi nổi), <strong>specialized pastry classes</strong> (những lớp học bánh ngọt chuyên biệt), <strong>informinal potluck gatherings</strong> (những buổi tụ tập ăn uống thân mật)",
+        "✨ [yếu tố]: <strong>my tight work deadlines</strong> (những hạn chót công việc khắt khe của tôi), <strong>a burning desire to improve</strong> (một khát khao cháy bỏng muốn cải thiện), <strong>my fluctuating personal commitments</strong> (những cam kết cá nhân hay thay đổi của tôi), <strong>an unyielding passion for food</strong> (một niềm đam mê ẩm thực không lay chuyển), <strong>a need for social interaction</strong> (một nhu cầu tương tác xã hội)",
+        "✨ [kết quả]: <strong>a noticeable culinary progression</strong> (một sự tiến bộ ẩm thực đáng chú ý), <strong>a therapeutic escape from stress</strong> (một lối thoát giảm căng thẳng mang tính trị liệu), <strong>a consistently expanding repertoire</strong> (một danh mục liên tục được mở rộng), <strong>a robust social network</strong> (một mạng lưới xã hội vững chắc), <strong>a profound sense of accomplishment</strong> (một cảm giác thành tựu sâu sắc)"
       ],
       "templates": [
-        "Wow, it is actually quite amazing to discuss this with you all. I try to fit the sessions into my busy [lịch trình]. I go there [frequency] to [actions] with [companions]. I truly believe this is the best way to handle the situation.",
-        "I really appreciate you asking about this wonderful topic today. I try to fit the sessions into my busy [lịch trình]. Usually, I attend [frequency] in order to [actions] alongside [companions]. I would definitely recommend this interesting experience to all my friends."
+        "I make an effort to visit [tần suất] specifically to engage in [hoạt động]. Driven by [yếu tố], this routine invariably leads to [kết quả] in my daily life.",
+        "My attendance is [tần suất], which allows me ample time for [hoạt động]. Considering [yếu tố], such consistency naturally yields [kết quả] over time."
       ],
       "samples": [
         {
-          "en": "Wow, it is actually quite amazing to discuss this with you all. I try to fit the sessions into my busy weekly timetable. I go there every day to cook meat with my mom. I truly believe this is the best way to handle the situation.",
-          "vi": "Wow, thực sự khá tuyệt vời khi thảo luận điều này với tất cả các bạn. Tôi cố gắng sắp xếp các buổi học vào thời gian biểu hàng tuần bận rộn của mình. Tôi đến đó mỗi ngày để nấu thịt cùng với mẹ tôi. Tôi thành thật tin rằng đây là cách tốt nhất để xử lý tình huống."
+          "en": "I make an effort to visit twice a week without fail specifically to engage in intensive baking workshops. Driven by my tight work deadlines, this routine invariably leads to a noticeable culinary progression in my daily life.",
+          "vi": "Tôi nỗ lực đến thăm hai lần một tuần không trượt phát nào đặc biệt để tham gia vào những hội thảo nướng bánh chuyên sâu. Bị thúc đẩy bởi những hạn chót công việc khắt khe của tôi, thói quen này luôn luôn dẫn đến một sự tiến bộ ẩm thực đáng chú ý trong cuộc sống hàng ngày của tôi."
         },
         {
-          "en": "I really appreciate you asking about this wonderful topic today. I try to fit the sessions into my busy working schedule. Usually, I attend every week in order to make soup alongside my dad. I would definitely recommend this interesting experience to all my friends.",
-          "vi": "Tôi thực sự đánh giá cao bạn hỏi về chủ đề tuyệt vời này hôm nay. Tôi cố gắng sắp xếp các buổi học vào lịch làm việc bận rộn của mình. Thường thì, tôi tham dự mỗi tuần để làm súp cùng bố tôi. Tôi chắc chắn sẽ giới thiệu trải nghiệm tuyệt vời này cho tất cả bạn bè của tôi."
+          "en": "My attendance is every other Saturday morning, which allows me ample time for collaborative recipe testing. Considering a burning desire to improve, such consistency naturally yields a therapeutic escape from stress over time.",
+          "vi": "Sự có mặt của tôi là mỗi sáng thứ Bảy cách tuần, điều này cho phép tôi có nhiều thời gian cho việc thử nghiệm công thức hợp tác. Xem xét một khát khao cháy bỏng muốn cải thiện, sự nhất quán như vậy tự nhiên mang lại một lối thoát giảm căng thẳng mang tính trị liệu theo thời gian."
         }
       ]
     }
   },
   "Nature club": {
     "q1": {
-      "member": "Member A",
       "question": "Hi! Welcome to the club. Where do you like to visit?",
       "vi": "Chào bạn! Chào mừng đến với câu lạc bộ. Bạn thích đến thăm nơi nào?",
       "vocab": [
-        "✨ [places]: <strong>the beach</strong> (bãi biển), <strong>the park</strong> (công viên), <strong>remote mountainous terrains</strong> (địa hình đồi núi hẻo lánh), <strong>lush tropical rainforests</strong> (rừng mưa nhiệt đới tươi tốt), <strong>serene coastal sanctuaries</strong> (khu bảo tồn ven biển thanh bình)",
-        "✨ [activities]: <strong>swim</strong> (bơi lội), <strong>run</strong> (chạy), <strong>observe rare wildlife</strong> (quan sát động vật hoang dã quý hiếm), <strong>conduct botanical research</strong> (thực hiện nghiên cứu thực vật học), <strong>practice mindful meditation</strong> (thực hành thiền chánh niệm)",
-        "✨ [reasons]: <strong>it is fun</strong> (nó thì vui), <strong>it is cool</strong> (nó thì mát mẻ), <strong>it fosters ecological awareness</strong> (nó nuôi dưỡng nhận thức sinh thái), <strong>it revitalizes mental energy</strong> (nó phục hồi năng lượng tinh thần), <strong>it offers profound tranquility</strong> (nó mang lại sự thanh bình sâu sắc)",
-        "✨ [địa hình]: <strong>mountainous landscape</strong> (cảnh quan miền núi), <strong>coastal area</strong> (khu vực ven biển), <strong>dense forest</strong> (khu rừng rậm rạp), <strong>open meadow</strong> (đồng cỏ rộng lớn), <strong>rocky valley</strong> (thung lũng đầy đá)"
+        "✨ [địa điểm]: <strong>dense tropical rainforests</strong> (những khu rừng nhiệt đới rậm rạp), <strong>secluded mountainous regions</strong> (những vùng đồi núi hẻo lánh), <strong>pristine coastal reserves</strong> (những khu bảo tồn ven biển hoang sơ), <strong>expansive national parks</strong> (những công viên quốc gia rộng lớn), <strong>peaceful botanical gardens</strong> (những khu vườn bách thảo yên bình)",
+        "✨ [đặc điểm]: <strong>breathtaking panoramic views</strong> (những tầm nhìn toàn cảnh ngoạn mục), <strong>diverse indigenous wildlife</strong> (hệ động vật hoang dã bản địa đa dạng), <strong>undisturbed natural landscapes</strong> (những cảnh quan thiên nhiên hoang sơ), <strong>majestic cascading waterfalls</strong> (những thác nước xếp tầng hùng vĩ), <strong>rare exotic plant species</strong> (những loài thực vật kỳ lạ quý hiếm)",
+        "✨ [hoạt động]: <strong>challenging hiking trails</strong> (những con đường đi bộ đường dài đầy thử thách), <strong>immersive bird-watching sessions</strong> (những buổi ngắm chim đắm chìm), <strong>mindful nature photography</strong> (nhiếp ảnh thiên nhiên chánh niệm), <strong>tranquil camping excursions</strong> (những chuyến dã ngoại cắm trại yên tĩnh), <strong>educational guided eco-tours</strong> (những chuyến du lịch sinh thái có hướng dẫn mang tính giáo dục)",
+        "✨ [cảm giác]: <strong>profound inner peace</strong> (sự bình yên nội tâm sâu sắc), <strong>an overwhelming sense of wonder</strong> (một cảm giác kinh ngạc tột độ), <strong>genuine spiritual rejuvenation</strong> (sự phục hồi tinh thần chân thực), <strong>a deep connection to Earth</strong> (một sự kết nối sâu sắc với Trái đất), <strong>absolute mental clarity</strong> (sự minh mẫn tuyệt đối trong tâm trí)"
       ],
       "templates": [
-        "Wow, it is actually quite amazing to discuss this with you all. I am exceptionally fond of exploring areas with diverse [địa hình]. I love visiting [places] to [activities] because [reasons]. I truly believe this is the best way to handle the situation.",
-        "I really appreciate you asking about this wonderful topic today. I am exceptionally fond of exploring areas with diverse [địa hình]. Going to [places] allows me to [activities] since [reasons]. I truly believe this is the best way to handle the situation."
+        "I am particularly drawn to [địa điểm] which is renowned for [đặc điểm]. Exploring this area enables me to enjoy [hoạt động] and truly embrace [cảm giác].",
+        "My absolute favorite destination is [địa điểm] owing to [đặc điểm]. This magnificent setting provides an opportunity for [hoạt động], consistently bringing about [cảm giác]."
       ],
       "samples": [
         {
-          "en": "Wow, it is actually quite amazing to discuss this with you all. I am exceptionally fond of exploring areas with diverse mountainous landscape. I love visiting the beach to swim because it is fun. I truly believe this is the best way to handle the situation.",
-          "vi": "Wow, thực sự khá tuyệt vời khi thảo luận điều này với tất cả các bạn. Tôi đặc biệt thích khám phá các khu vực có cảnh quan miền núi đa dạng. Tôi thích đến thăm bãi biển để bơi lội vì nó thì vui. Tôi thành thật tin rằng đây là cách tốt nhất để xử lý tình huống."
+          "en": "I am particularly drawn to dense tropical rainforests which is renowned for breathtaking panoramic views. Exploring this area enables me to enjoy challenging hiking trails and truly embrace profound inner peace.",
+          "vi": "Tôi đặc biệt bị thu hút bởi những khu rừng nhiệt đới rậm rạp nơi nổi tiếng với những tầm nhìn toàn cảnh ngoạn mục. Khám phá khu vực này cho phép tôi tận hưởng những con đường đi bộ đường dài đầy thử thách và thực sự đón nhận sự bình yên nội tâm sâu sắc."
         },
         {
-          "en": "I really appreciate you asking about this wonderful topic today. I am exceptionally fond of exploring areas with diverse coastal area. Going to the park allows me to run since it is cool. I truly believe this is the best way to handle the situation.",
-          "vi": "Tôi thực sự đánh giá cao bạn hỏi về chủ đề tuyệt vời này hôm nay. Tôi đặc biệt thích khám phá các khu vực có khu vực ven biển đa dạng. Đi đến công viên cho phép tôi chạy vì nó thì mát mẻ. Tôi thành thật tin rằng đây là cách tốt nhất để xử lý tình huống."
+          "en": "My absolute favorite destination is secluded mountainous regions owing to diverse indigenous wildlife. This magnificent setting provides an opportunity for immersive bird-watching sessions, consistently bringing about an overwhelming sense of wonder.",
+          "vi": "Điểm đến yêu thích tuyệt đối của tôi là những vùng đồi núi hẻo lánh nhờ vào hệ động vật hoang dã bản địa đa dạng. Khung cảnh tráng lệ này cung cấp một cơ hội cho những buổi ngắm chim đắm chìm, liên tục mang lại một cảm giác kinh ngạc tột độ."
         }
       ]
     },
     "q2": {
-      "member": "Member B",
       "question": "Hi! Why did you decide to join the club?",
       "vi": "Chào bạn! Tại sao bạn quyết định tham gia câu lạc bộ?",
       "vocab": [
-        "✨ [interests]: <strong>green trees</strong> (cây xanh), <strong>cute birds</strong> (chim dễ thương), <strong>environmental conservation efforts</strong> (nỗ lực bảo tồn môi trường), <strong>biodiversity preservation strategies</strong> (chiến lược bảo tồn đa dạng sinh học), <strong>sustainable ecological practices</strong> (thực hành sinh thái bền vững)",
-        "✨ [goals]: <strong>clean the park</strong> (dọn dẹp công viên), <strong>plant seeds</strong> (gieo hạt giống), <strong>advocate for policy changes</strong> (vận động cho những thay đổi chính sách), <strong>mitigate harmful carbon footprints</strong> (giảm thiểu dấu chân carbon có hại), <strong>organize widespread awareness campaigns</strong> (tổ chức các chiến dịch nhận thức rộng rãi)",
-        "✨ [future hopes]: <strong>make friends</strong> (kết bạn), <strong>have fun</strong> (vui vẻ), <strong>build a resilient community</strong> (xây dựng một cộng đồng kiên cường), <strong>inspire collective global action</strong> (truyền cảm hứng cho hành động toàn cầu tập thể), <strong>foster long-term sustainable growth</strong> (nuôi dưỡng tăng trưởng bền vững dài hạn)",
-        "✨ [hoạt động]: <strong>hiking trip</strong> (chuyến đi bộ đường dài), <strong>camping expedition</strong> (cuộc thám hiểm cắm trại), <strong>wildlife observation</strong> (hoạt động quan sát động vật hoang dã), <strong>tree planting event</strong> (sự kiện trồng cây), <strong>nature walk</strong> (chuyến đi dạo giữa thiên nhiên)"
+        "✨ [động lực]: <strong>a growing environmental awareness</strong> (một ý thức môi trường đang lớn dần), <strong>a deep-seated love for wildlife</strong> (một tình yêu sâu thẳm dành cho động vật hoang dã), <strong>an urgent need for conservation</strong> (một nhu cầu cấp bách về bảo tồn), <strong>a desire for outdoor adventures</strong> (một khao khát cho những cuộc phiêu lưu ngoài trời), <strong>a strong sense of ecological responsibility</strong> (một ý thức trách nhiệm sinh thái mạnh mẽ)",
+        "✨ [mục tiêu]: <strong>expanding my botanical knowledge</strong> (việc mở rộng kiến thức thực vật học của tôi), <strong>promoting sustainable living practices</strong> (việc thúc đẩy những thói quen sống bền vững), <strong>protecting endangered local species</strong> (việc bảo vệ những loài địa phương có nguy cơ tuyệt chủng), <strong>raising public climate awareness</strong> (việc nâng cao nhận thức khí hậu của công chúng), <strong>discovering hidden natural gems</strong> (việc khám phá những viên ngọc thiên nhiên ẩn giấu)",
+        "✨ [hành động]: <strong>organize clean-up campaigns</strong> (tổ chức những chiến dịch dọn dẹp), <strong>participate in tree-planting drives</strong> (tham gia vào những phong trào trồng cây), <strong>conduct ecological field research</strong> (tiến hành nghiên cứu thực địa sinh thái), <strong>engage in wildlife monitoring</strong> (tham gia vào việc giám sát động vật hoang dã), <strong>advocate for green policies</strong> (vận động cho những chính sách xanh)",
+        "✨ [kết quả]: <strong>a tangible environmental impact</strong> (một tác động môi trường hữu hình), <strong>a thriving local ecosystem</strong> (một hệ sinh thái địa phương phát triển mạnh), <strong>a cohesive community bond</strong> (một sự gắn kết cộng đồng chặt chẽ), <strong>a lasting conservation legacy</strong> (một di sản bảo tồn lâu dài), <strong>a greener urban landscape</strong> (một cảnh quan đô thị xanh hơn)"
       ],
       "templates": [
-        "I joined because I care about [interests] and want to [goals]. I was particularly drawn by the exciting outdoor [hoạt động] you organize. I also hope to [future hopes]. This makes such a clear difference for me.",
-        "I am super excited to share my thoughts today. I was particularly drawn by the exciting outdoor [hoạt động] you organize. Supporting [interests] motivated me to join and [goals]. Ultimately, I wish to [future hopes]. It brings so much value and improvement to my life."
+        "My primary motivation for joining was [động lực]. By participating, I aim to achieve [mục tiêu] through [hành động], ultimately fostering [kết quả].",
+        "I became a member simply because of [động lực]. It is my intention to pursue [mục tiêu] and actively [hành động], which invariably produces [kết quả]."
       ],
       "samples": [
         {
-          "en": "I joined because I care about green trees and want to clean the park. I was particularly drawn by the exciting outdoor hiking trip you organize. I also hope to make friends. This makes such a clear difference for me.",
-          "vi": "Tôi hoàn toàn thích thảo luận về chủ đề này! Tôi tham gia vì tôi quan tâm đến cây xanh và muốn dọn dẹp công viên. Tôi đặc biệt bị thu hút bởi các chuyến đi bộ đường dài ngoài trời thú vị mà các bạn tổ chức. Tôi cũng hy vọng sẽ kết bạn. Điều này tạo ra một sự khác biệt to lớn cho tôi."
+          "en": "My primary motivation for joining was a growing environmental awareness. By participating, I aim to achieve expanding my botanical knowledge through organize clean-up campaigns, ultimately fostering a tangible environmental impact.",
+          "vi": "Động lực chính của tôi khi tham gia là một ý thức môi trường đang lớn dần. Bằng cách tham gia, tôi nhắm đến việc đạt được việc mở rộng kiến thức thực vật học của tôi thông qua tổ chức những chiến dịch dọn dẹp, cuối cùng nuôi dưỡng một tác động môi trường hữu hình."
         },
         {
-          "en": "I am super excited to share my thoughts today. I was particularly drawn by the exciting outdoor camping expedition you organize. Supporting cute birds motivated me to join and plant seeds. Ultimately, I wish to have fun. It brings so much value and improvement to my life.",
-          "vi": "Tôi siêu hào hứng để chia sẻ suy nghĩ hôm nay. Tôi đặc biệt bị thu hút bởi các cuộc thám hiểm cắm trại ngoài trời thú vị mà các bạn tổ chức. Việc ủng hộ chim dễ thương đã thúc đẩy tôi tham gia và gieo hạt giống. Cuối cùng, tôi mong muốn vui vẻ. Nó mang lại rất nhiều niềm vui và hạnh phúc cho cuộc sống của tôi."
+          "en": "I became a member simply because of a deep-seated love for wildlife. It is my intention to pursue promoting sustainable living practices and actively participate in tree-planting drives, which invariably produces a thriving local ecosystem.",
+          "vi": "Tôi đã trở thành một thành viên đơn giản vì một tình yêu sâu thẳm dành cho động vật hoang dã. Ý định của tôi là theo đuổi việc thúc đẩy những thói quen sống bền vững và tích cực tham gia vào những phong trào trồng cây, điều này luôn luôn tạo ra một hệ sinh thái địa phương phát triển mạnh."
         }
       ]
     },
     "q3": {
-      "member": "Member C",
       "question": "The bigger the club, the more environmentally conscious people are, right?",
       "vi": "Câu lạc bộ càng lớn thì mọi người càng có ý thức về môi trường, phải không?",
       "vocab": [
-        "✨ [opinions]: <strong>I agree</strong> (Tôi đồng ý), <strong>I think so</strong> (Tôi nghĩ vậy), <strong>I partially concur</strong> (Tôi đồng ý một phần), <strong>I strongly support this</strong> (Tôi mạnh mẽ ủng hộ điều này), <strong>I completely endorse it</strong> (Tôi hoàn toàn tán thành nó)",
-        "✨ [reasons]: <strong>many people join</strong> (nhiều người tham gia), <strong>we work together</strong> (chúng ta làm việc cùng nhau), <strong>collective influence expands exponentially</strong> (ảnh hưởng tập thể mở rộng theo cấp số nhân), <strong>widespread educational outreach increases</strong> (phạm vi tiếp cận giáo dục rộng rãi tăng lên), <strong>collaborative resource pooling maximizes</strong> (việc gộp tài nguyên hợp tác tối đa hóa)",
-        "✨ [outcomes]: <strong>clean cities</strong> (các thành phố sạch sẽ), <strong>good weather</strong> (thời tiết tốt), <strong>substantial legislative environmental reforms</strong> (các cải cách môi trường lập pháp đáng kể), <strong>heightened global ecological sensitivity</strong> (sự nhạy cảm sinh thái toàn cầu được nâng cao), <strong>profound societal behavioral shifts</strong> (những thay đổi hành vi xã hội sâu sắc)",
-        "✨ [nhận thức]: <strong>ecological mindset</strong> (tư duy sinh thái), <strong>conservation awareness</strong> (ý thức bảo tồn), <strong>sustainable attitude</strong> (thái độ bền vững), <strong>green perspective</strong> (góc nhìn xanh), <strong>nature appreciation</strong> (sự trân trọng thiên nhiên)"
+        "✨ [nhận định]: <strong>a common misconception</strong> (một quan niệm sai lầm phổ biến), <strong>an oversimplified assumption</strong> (một giả định bị đơn giản hóa quá mức), <strong>a partially accurate observation</strong> (một quan sát chính xác một phần), <strong>a highly debatable viewpoint</strong> (một quan điểm rất đáng tranh luận), <strong>an intriguing theoretical proposition</strong> (một đề xuất lý thuyết hấp dẫn)",
+        "✨ [yếu tố]: <strong>genuine individual commitment</strong> (sự cam kết cá nhân chân thành), <strong>consistent educational outreach</strong> (sự tiếp cận giáo dục nhất quán), <strong>profound behavioral changes</strong> (những thay đổi hành vi sâu sắc), <strong>active grassroots involvement</strong> (sự tham gia tích cực ở cấp cơ sở), <strong>strict adherence to values</strong> (sự tuân thủ nghiêm ngặt các giá trị)",
+        "✨ [hành động]: <strong>practice mindful consumption</strong> (thực hành tiêu dùng chánh niệm), <strong>implement sustainable routines</strong> (thực hiện những thói quen bền vững), <strong>prioritize qualitative initiatives</strong> (ưu tiên những sáng kiến định tính), <strong>foster genuine ecological empathy</strong> (nuôi dưỡng sự thấu cảm sinh thái chân thực), <strong>participate in direct activism</strong> (tham gia vào hoạt động trực tiếp)",
+        "✨ [hậu quả]: <strong>superficial greenwashing tendencies</strong> (những xu hướng tẩy xanh hời hợt), <strong>a severe lack of accountability</strong> (một sự thiếu hụt trách nhiệm nghiêm trọng), <strong>counterproductive organizational inertia</strong> (sự trì trệ tổ chức phản tác dụng), <strong>diluted conservation efforts</strong> (những nỗ lực bảo tồn bị pha loãng), <strong>unexpected ecological degradation</strong> (sự suy thoái sinh thái không mong muốn)"
       ],
       "templates": [
-        "I really appreciate you asking about this wonderful topic today. A larger community can definitely foster a broader environmental [nhận thức]. [opinions] because [reasons]. This will lead to [outcomes]. I truly believe this is the best way to handle the situation.",
-        "I am super excited to share my thoughts today. A larger community can definitely foster a broader environmental [nhận thức]. Actually, [opinions] since [reasons]. As a result, we will achieve [outcomes]. It brings so much value and improvement to my life."
+        "I firmly believe this is [nhận định] because size does not always equate to [yếu tố]. In reality, members must deliberately [hành động] to prevent [hậu quả].",
+        "Such a statement is largely [nhận định] since collective awareness depends on [yếu tố]. Without a doubt, individuals need to [hành động] to successfully avoid [hậu quả]."
       ],
       "samples": [
         {
-          "en": "I really appreciate you asking about this wonderful topic today. A larger community can definitely foster a broader environmental ecological mindset. I agree because many people join. This will lead to clean cities. I truly believe this is the best way to handle the situation.",
-          "vi": "Tôi thực sự đánh giá cao bạn hỏi về chủ đề tuyệt vời này hôm nay. Một cộng đồng lớn hơn chắc chắn có thể thúc đẩy một tư duy sinh thái rộng lớn hơn về môi trường. Tôi đồng ý vì nhiều người tham gia. Điều này sẽ dẫn đến các thành phố sạch sẽ. Tôi thành thật tin rằng đây là cách tốt nhất để xử lý tình huống."
+          "en": "I firmly believe this is a common misconception because size does not always equate to genuine individual commitment. In reality, members must deliberately practice mindful consumption to prevent superficial greenwashing tendencies.",
+          "vi": "Tôi tin chắc đây là một quan niệm sai lầm phổ biến bởi vì kích thước không phải lúc nào cũng đánh đồng với sự cam kết cá nhân chân thành. Trong thực tế, các thành viên phải cố ý thực hành tiêu dùng chánh niệm để ngăn chặn những xu hướng tẩy xanh hời hợt."
         },
         {
-          "en": "I am super excited to share my thoughts today. A larger community can definitely foster a broader environmental conservation awareness. Actually, I think so since we work together. As a result, we will achieve good weather. It brings so much value and improvement to my life.",
-          "vi": "Tôi siêu hào hứng để chia sẻ suy nghĩ hôm nay. Một cộng đồng lớn hơn chắc chắn có thể thúc đẩy một ý thức bảo tồn rộng lớn hơn về môi trường. Thực ra, tôi nghĩ vậy vì chúng ta làm việc cùng nhau. Kết quả là, chúng ta sẽ đạt được thời tiết tốt. Nó mang lại rất nhiều niềm vui và hạnh phúc cho cuộc sống của tôi."
+          "en": "Such a statement is largely an oversimplified assumption since collective awareness depends on consistent educational outreach. Without a doubt, individuals need to implement sustainable routines to successfully avoid a severe lack of accountability.",
+          "vi": "Một phát biểu như vậy phần lớn là một giả định bị đơn giản hóa quá mức bởi vì nhận thức tập thể phụ thuộc vào sự tiếp cận giáo dục nhất quán. Không còn nghi ngờ gì nữa, các cá nhân cần phải thực hiện những thói quen bền vững để tránh thành công một sự thiếu hụt trách nhiệm nghiêm trọng."
         }
       ]
     }
   },
   "English club 2": {
     "q1": {
-      "member": "Member A",
       "question": "Tell me about your English learning experience.",
       "vi": "Hãy kể cho tôi nghe về kinh nghiệm học tiếng Anh của bạn.",
       "vocab": [
-        "✨ [start times]: <strong>last year</strong> (năm ngoái), <strong>two years ago</strong> (hai năm trước), <strong>during my early childhood</strong> (trong thời thơ ấu của tôi), <strong>at the onset of puberty</strong> (vào đầu tuổi dậy thì), <strong>throughout my academic journey</strong> (trong suốt hành trình học thuật của tôi)",
-        "✨ [methods]: <strong>read books</strong> (đọc sách), <strong>watch movies</strong> (xem phim), <strong>engage in immersive conversations</strong> (tham gia vào các cuộc trò chuyện nhập vai), <strong>analyze complex literary texts</strong> (phân tích các văn bản văn học phức tạp), <strong>utilize advanced linguistic applications</strong> (sử dụng các ứng dụng ngôn ngữ tiên tiến)",
-        "✨ [results]: <strong>speak better</strong> (nói tốt hơn), <strong>write well</strong> (viết giỏi), <strong>achieve remarkable phonetic fluency</strong> (đạt được sự trôi chảy ngữ âm đáng chú ý), <strong>comprehend intricate grammatical structures</strong> (hiểu các cấu trúc ngữ pháp phức tạp), <strong>articulate nuanced abstract concepts</strong> (trình bày các khái niệm trừu tượng nhiều sắc thái)",
-        "✨ [phương pháp]: <strong>study technique</strong> (kỹ thuật học tập), <strong>learning approach</strong> (phương pháp học), <strong>revision strategy</strong> (chiến lược ôn tập), <strong>immersion method</strong> (phương pháp đắm chìm), <strong>practice routine</strong> (thói quen thực hành)"
+        "✨ [khởi đầu]: <strong>basic grammar drills</strong> (những bài tập ngữ pháp cơ bản), <strong>simple vocabulary flashcards</strong> (những thẻ từ vựng đơn giản), <strong>rudimentary pronunciation exercises</strong> (những bài tập phát âm thô sơ), <strong>engaging bilingual storybooks</strong> (những cuốn truyện song ngữ lôi cuốn), <strong>formal classroom instruction</strong> (sự giảng dạy trên lớp chính thức)",
+        "✨ [thử thách]: <strong>severe speaking anxiety</strong> (sự lo âu giao tiếp nghiêm trọng), <strong>complex listening comprehension barriers</strong> (những rào cản nghe hiểu phức tạp), <strong>confusing idiomatic expressions</strong> (những thành ngữ gây bối rối), <strong>unexpected cultural misunderstandings</strong> (những hiểu lầm văn hóa không mong muốn), <strong>a frustrating intermediate plateau</strong> (một sự chững lại ở trình độ trung cấp đầy bực bội)",
+        "✨ [phương pháp]: <strong>immersive conversational practice</strong> (việc thực hành đàm thoại đắm chìm), <strong>rigorous daily self-study</strong> (việc tự học gắt gao hàng ngày), <strong>interactive language exchange apps</strong> (những ứng dụng trao đổi ngôn ngữ tương tác), <strong>extensive reading habits</strong> (những thói quen đọc mở rộng), <strong>watching subtitled documentaries</strong> (việc xem phim tài liệu có phụ đề)",
+        "✨ [thành tựu]: <strong>a highly proficient fluency</strong> (một sự trôi chảy rất thành thạo), <strong>a nuanced linguistic intuition</strong> (một trực giác ngôn ngữ tinh tế), <strong>an impressive IELTS band</strong> (một điểm thi IELTS ấn tượng), <strong>a confident public speaking</strong> (một sự tự tin nói trước công chúng), <strong>a broad international network</strong> (một mạng lưới quốc tế rộng lớn)"
       ],
       "templates": [
-        "This is definitely something I always think about a lot. I have found that adopting a consistent [phương pháp] works best for me. I started learning [start times] by choosing to [methods]. This helped me [results]. It brings so much value and improvement to my life.",
-        "I am super excited to share my thoughts today. I have found that adopting a consistent [phương pháp] works best for me. Beginning [start times], I decided to [methods]. Over time, this enabled me to [results]. I try to do this every single day now."
+        "My journey began with [khởi đầu], but I soon encountered [thử thách]. Consequently, I decided to adopt [phương pháp], which has remarkably led to [thành tựu].",
+        "Initially, I experienced [khởi đầu] and simultaneously faced [thử thách]. By consistently utilizing [phương pháp], I managed to secure [thành tựu] over the years."
       ],
       "samples": [
         {
-          "en": "This is definitely something I always think about a lot. I have found that adopting a consistent study technique works best for me. I started learning last year by choosing to read books. This helped me speak better. It brings so much value and improvement to my life.",
-          "vi": "Đây chắc chắn là điều tôi luôn suy nghĩ rất nhiều. Tôi nhận thấy rằng việc áp dụng một kỹ thuật học tập nhất quán mang lại hiệu quả tốt nhất cho tôi. Tôi bắt đầu học năm ngoái bằng cách chọn đọc sách. Điều này đã giúp tôi nói tốt hơn. Nó mang lại rất nhiều niềm vui và hạnh phúc cho cuộc sống của tôi."
+          "en": "My journey began with basic grammar drills, but I soon encountered severe speaking anxiety. Consequently, I decided to adopt immersive conversational practice, which has remarkably led to a highly proficient fluency.",
+          "vi": "Hành trình của tôi bắt đầu với những bài tập ngữ pháp cơ bản, nhưng tôi sớm gặp phải sự lo âu giao tiếp nghiêm trọng. Do đó, tôi quyết định áp dụng việc thực hành đàm thoại đắm chìm, điều này đã dẫn đến một sự trôi chảy rất thành thạo một cách đáng kể."
         },
         {
-          "en": "I am super excited to share my thoughts today. I have found that adopting a consistent learning approach works best for me. Beginning two years ago, I decided to watch movies. Over time, this enabled me to write well. I try to do this every single day now.",
-          "vi": "Tôi siêu hào hứng để chia sẻ suy nghĩ hôm nay. Tôi nhận thấy rằng việc áp dụng một phương pháp học nhất quán mang lại hiệu quả tốt nhất cho tôi. Bắt đầu hai năm trước, tôi quyết định xem phim. Theo thời gian, điều này đã giúp tôi viết giỏi. Tôi thực sự thích làm điều này mỗi ngày bây giờ."
+          "en": "Initially, I experienced simple vocabulary flashcards and simultaneously faced complex listening comprehension barriers. By consistently utilizing rigorous daily self-study, I managed to secure a nuanced linguistic intuition over the years.",
+          "vi": "Ban đầu, tôi trải nghiệm những thẻ từ vựng đơn giản và đồng thời đối mặt với những rào cản nghe hiểu phức tạp. Bằng cách nhất quán sử dụng việc tự học gắt gao hàng ngày, tôi đã xoay sở để có được một trực giác ngôn ngữ tinh tế qua những năm tháng."
         }
       ]
     },
     "q2": {
-      "member": "Member B",
       "question": "I can read and write, but I can't speak English. Do you have any advice for me?",
       "vi": "Tôi có thể đọc và viết, nhưng tôi không thể nói tiếng Anh. Bạn có lời khuyên nào cho tôi không?",
       "vocab": [
-        "✨ [advice]: <strong>talk more</strong> (nói nhiều hơn), <strong>sing songs</strong> (hát các bài hát), <strong>initiate spontaneous daily dialogues</strong> (bắt đầu các cuộc đối thoại hàng ngày tự phát), <strong>shadow proficient native speakers</strong> (nhại lại người bản xứ thành thạo), <strong>participate in structured debates</strong> (tham gia vào các cuộc tranh luận có cấu trúc)",
-        "✨ [tools]: <strong>a phone</strong> (một chiếc điện thoại), <strong>a mirror</strong> (một cái gương), <strong>an interactive language platform</strong> (một nền tảng ngôn ngữ tương tác), <strong>a comprehensive phonetic dictionary</strong> (một từ điển ngữ âm toàn diện), <strong>a collaborative study forum</strong> (một diễn đàn học tập hợp tác)",
-        "✨ [outcomes]: <strong>be confident</strong> (tự tin), <strong>feel happy</strong> (cảm thấy vui vẻ), <strong>overcome deep-seated psychological barriers</strong> (vượt qua những rào cản tâm lý sâu sắc), <strong>develop natural conversational rhythms</strong> (phát triển nhịp điệu đàm thoại tự nhiên), <strong>enhance spontaneous verbal articulation</strong> (nâng cao khả năng diễn đạt bằng lời nói tự phát)",
-        "✨ [thói quen]: <strong>vocal exercise</strong> (bài tập thanh nhạc), <strong>conversation practice</strong> (thực hành hội thoại), <strong>shadowing technique</strong> (kỹ thuật bắt chước), <strong>pronunciation drill</strong> (bài tập phát âm), <strong>role-playing activity</strong> (hoạt động nhập vai)"
+        "✨ [nguyên nhân]: <strong>a lack of vocal practice</strong> (một sự thiếu hụt thực hành bằng giọng nói), <strong>an overwhelming fear of mistakes</strong> (một nỗi sợ hãi sai lầm tột độ), <strong>insufficient active listening</strong> (việc nghe chủ động không đủ), <strong>over-reliance on translation</strong> (sự quá phụ thuộc vào dịch thuật), <strong>a passive learning mindset</strong> (một tư duy học tập thụ động)",
+        "✨ [giải pháp]: <strong>finding a native partner</strong> (việc tìm một đối tác bản xứ), <strong>joining specialized conversational classes</strong> (việc tham gia các lớp đàm thoại chuyên biệt), <strong>utilizing voice-recording techniques</strong> (việc sử dụng các kỹ thuật ghi âm giọng nói), <strong>shadowing fluent native speakers</strong> (việc lặp lại theo người bản xứ trôi chảy), <strong>participating in debate clubs</strong> (việc tham gia các câu lạc bộ tranh biện)",
+        "✨ [thực hành]: <strong>spontaneous daily monologues</strong> (những đoạn độc thoại hàng ngày ngẫu hứng), <strong>interactive role-playing scenarios</strong> (những kịch bản nhập vai tương tác), <strong>consistent pronunciation drills</strong> (những bài tập phát âm nhất quán), <strong>constructive peer feedback</strong> (phản hồi mang tính xây dựng từ bạn bè), <strong>real-time conversational exchanges</strong> (những cuộc trao đổi đàm thoại thời gian thực)",
+        "✨ [kết quả]: <strong>a spontaneous verbal reflex</strong> (một phản xạ ngôn ngữ tự nhiên), <strong>an effortlessly natural accent</strong> (một giọng điệu tự nhiên không gượng ép), <strong>a boost in communicative confidence</strong> (một sự gia tăng tự tin trong giao tiếp), <strong>a seamless flow of ideas</strong> (một luồng ý tưởng liền mạch), <strong>an engaging storytelling ability</strong> (một khả năng kể chuyện lôi cuốn)"
       ],
       "templates": [
-        "This is definitely something I always think about a lot. You might want to incorporate a daily speaking [thói quen] into your routine. You should [advice] and use [tools]. This will help you [outcomes]. I would definitely recommend this interesting experience to all my friends.",
-        "This is definitely something I always think about a lot. You might want to incorporate a daily speaking [thói quen] into your routine. It is highly recommended to [advice] alongside [tools]. Ultimately, you will [outcomes]. It brings so much value and improvement to my life."
+        "This issue often stems from [nguyên nhân], so my ultimate suggestion is [giải pháp]. By actively engaging in [thực hành], you will certainly achieve [kết quả].",
+        "Since your situation is typically caused by [nguyên nhân], you should strongly consider [giải pháp]. Incorporating [thực hành] into your routine will ultimately guarantee [kết quả]."
       ],
       "samples": [
         {
-          "en": "This is definitely something I always think about a lot. You might want to incorporate a daily speaking vocal exercise into your routine. You should talk more and use a phone. This will help you be confident. I would definitely recommend this interesting experience to all my friends.",
-          "vi": "Đây chắc chắn là điều tôi luôn suy nghĩ rất nhiều. Bạn có thể muốn kết hợp một bài tập thanh nhạc nói chuyện hàng ngày vào sinh hoạt của mình. Bạn nên nói nhiều hơn và sử dụng một chiếc điện thoại. Điều này sẽ giúp bạn tự tin. Tôi chắc chắn sẽ giới thiệu trải nghiệm tuyệt vời này cho tất cả bạn bè của tôi."
+          "en": "This issue often stems from a lack of vocal practice, so my ultimate suggestion is finding a native partner. By actively engaging in spontaneous daily monologues, you will certainly achieve a spontaneous verbal reflex.",
+          "vi": "Vấn đề này thường bắt nguồn từ một sự thiếu hụt thực hành bằng giọng nói, vì vậy gợi ý tối thượng của tôi là việc tìm một đối tác bản xứ. Bằng cách tích cực tham gia vào những đoạn độc thoại hàng ngày ngẫu hứng, bạn chắc chắn sẽ đạt được một phản xạ ngôn ngữ tự nhiên."
         },
         {
-          "en": "This is definitely something I always think about a lot. You might want to incorporate a daily speaking conversation practice into your routine. It is highly recommended to sing songs alongside a mirror. Ultimately, you will feel happy. It brings so much value and improvement to my life.",
-          "vi": "Đây chắc chắn là điều tôi luôn suy nghĩ rất nhiều. Bạn có thể muốn kết hợp một thực hành hội thoại nói chuyện hàng ngày vào sinh hoạt của mình. Được khuyến nghị cao là nên hát các bài hát cùng với một cái gương. Cuối cùng, bạn sẽ cảm thấy vui vẻ. Nó mang lại rất nhiều niềm vui và hạnh phúc cho cuộc sống của tôi."
+          "en": "Since your situation is typically caused by an overwhelming fear of mistakes, you should strongly consider joining specialized conversational classes. Incorporating interactive role-playing scenarios into your routine will ultimately guarantee an effortlessly natural accent.",
+          "vi": "Vì tình huống của bạn thường bị gây ra bởi một nỗi sợ hãi sai lầm tột độ, bạn nên xem xét mạnh mẽ việc tham gia các lớp đàm thoại chuyên biệt. Việc kết hợp những kịch bản nhập vai tương tác vào thói quen của bạn cuối cùng sẽ đảm bảo một giọng điệu tự nhiên không gượng ép."
         }
       ]
     },
     "q3": {
-      "member": "Member C",
       "question": "English is a popular language in the world. What are your thoughts on this opinion?",
       "vi": "Tiếng Anh là một ngôn ngữ phổ biến trên thế giới. Suy nghĩ của bạn về ý kiến này là gì?",
       "vocab": [
-        "✨ [opinions]: <strong>I agree</strong> (Tôi đồng ý), <strong>It is true</strong> (Đó là sự thật), <strong>I wholeheartedly concur</strong> (Tôi hoàn toàn đồng ý), <strong>This is undeniably accurate</strong> (Điều này là chính xác không thể phủ nhận), <strong>I strongly validate this</strong> (Tôi mạnh mẽ xác nhận điều này)",
-        "✨ [reasons]: <strong>many people use it</strong> (nhiều người sử dụng nó), <strong>it is easy</strong> (nó thì dễ), <strong>it facilitates global economic integration</strong> (nó tạo điều kiện hội nhập kinh tế toàn cầu), <strong>it accelerates international academic exchange</strong> (nó tăng tốc trao đổi học thuật quốc tế), <strong>it bridges diverse cultural divides</strong> (nó thu hẹp những chia rẽ văn hóa đa dạng)",
-        "✨ [future impacts]: <strong>help us travel</strong> (giúp chúng ta đi du lịch), <strong>find good jobs</strong> (tìm công việc tốt), <strong>unlock unprecedented professional opportunities</strong> (mở khóa những cơ hội nghề nghiệp chưa từng có), <strong>foster profound intercultural empathy</strong> (nuôi dưỡng sự đồng cảm liên văn hóa sâu sắc), <strong>drive collaborative technological advancements</strong> (thúc đẩy những tiến bộ công nghệ hợp tác)",
-        "✨ [lợi thế]: <strong>career opportunity</strong> (cơ hội nghề nghiệp), <strong>communication edge</strong> (lợi thế giao tiếp), <strong>academic benefit</strong> (lợi ích học thuật), <strong>professional perk</strong> (đặc quyền chuyên môn), <strong>networking advantage</strong> (lợi thế mở rộng mối quan hệ)"
+        "✨ [thực tế]: <strong>global linguistic phenomenon</strong> (hiện tượng ngôn ngữ toàn cầu), <strong>widely accepted norm</strong> (chuẩn mực được chấp nhận rộng rãi), <strong>undeniable contemporary reality</strong> (thực tế đương đại không thể chối cãi), <strong>prevalent cultural shift</strong> (sự thay đổi văn hóa thịnh hành), <strong>well-established international standard</strong> (tiêu chuẩn quốc tế được thiết lập vững chắc)",
+        "✨ [lợi thế]: <strong>unprecedented career mobility</strong> (sự thăng tiến nghề nghiệp chưa từng có), <strong>seamless cross-cultural communication</strong> (sự giao tiếp xuyên văn hóa liền mạch), <strong>unrestricted access to knowledge</strong> (sự tiếp cận kiến thức không bị hạn chế), <strong>enhanced cognitive flexibility</strong> (sự linh hoạt nhận thức được nâng cao), <strong>invaluable networking opportunities</strong> (những cơ hội kết nối vô giá)",
+        "✨ [ảnh hưởng]: <strong>socio-economic dominance</strong> (sự thống trị kinh tế xã hội), <strong>technological advancement integration</strong> (sự hội nhập tiến bộ công nghệ), <strong>academic publication supremacy</strong> (sự tối cao trong xuất bản học thuật), <strong>diplomatic negotiation power</strong> (sức mạnh đàm phán ngoại giao), <strong>multinational corporate operations</strong> (những hoạt động của tập đoàn đa quốc gia)",
+        "✨ [tương lai]: <strong>a continuously interconnected globe</strong> (một toàn cầu liên tục kết nối), <strong>a highly collaborative global society</strong> (một xã hội toàn cầu có tính cộng tác cao), <strong>a barrier-free educational landscape</strong> (một bức tranh giáo dục không rào cản), <strong>a standardized international curriculum</strong> (một chương trình giảng dạy quốc tế được tiêu chuẩn hóa), <strong>a digitally united world</strong> (một thế giới đoàn kết bằng kỹ thuật số)"
       ],
       "templates": [
-        "I really appreciate you asking about this wonderful topic today. Mastering it undoubtedly provides a significant competitive [lợi thế] globally. [opinions] because [reasons]. Furthermore, it will [future impacts]. I would definitely recommend this interesting experience to all my friends.",
-        "I am super excited to share my thoughts today. Mastering it undoubtedly provides a significant competitive [lợi thế] globally. Indeed, [opinions] since [reasons]. Over time, mastering it can [future impacts]. It brings so much value and improvement to my life."
+        "It is an undeniable [thực tế] that mastering this tongue provides [lợi thế]. Furthermore, its massive [ảnh hưởng] implies that [tương lai] is entirely predictable.",
+        "I completely agree with this [thực tế] as it offers individuals [lợi thế]. Given its widespread [ảnh hưởng], we can confidently anticipate [tương lai]."
       ],
       "samples": [
         {
-          "en": "I really appreciate you asking about this wonderful topic today. Mastering it undoubtedly provides a significant competitive career opportunity globally. I agree because many people use it. Furthermore, it will help us travel. I would definitely recommend this interesting experience to all my friends.",
-          "vi": "Tôi thực sự đánh giá cao bạn hỏi về chủ đề tuyệt vời này hôm nay. Việc thành thạo nó chắc chắn mang lại một cơ hội nghề nghiệp cạnh tranh đáng kể trên toàn cầu. Tôi đồng ý vì nhiều người sử dụng nó. Hơn nữa, nó sẽ giúp chúng ta đi du lịch. Tôi chắc chắn sẽ giới thiệu trải nghiệm tuyệt vời này cho tất cả bạn bè của tôi."
+          "en": "It is an undeniable global linguistic phenomenon that mastering this tongue provides unprecedented career mobility. Furthermore, its massive socio-economic dominance implies that a continuously interconnected globe is entirely predictable.",
+          "vi": "Đó là một hiện tượng ngôn ngữ toàn cầu không thể chối cãi rằng việc làm chủ ngôn ngữ này cung cấp sự thăng tiến nghề nghiệp chưa từng có. Hơn nữa, sự thống trị kinh tế xã hội to lớn của nó ngụ ý rằng một toàn cầu liên tục kết nối là hoàn toàn có thể dự đoán được."
         },
         {
-          "en": "I am super excited to share my thoughts today. Mastering it undoubtedly provides a significant competitive communication edge globally. Indeed, It is true since it is easy. Over time, mastering it can find good jobs. It brings so much value and improvement to my life.",
-          "vi": "Tôi siêu hào hứng để chia sẻ suy nghĩ hôm nay. Việc thành thạo nó chắc chắn mang lại một lợi thế giao tiếp cạnh tranh đáng kể trên toàn cầu. Thực sự, Đó là sự thật vì nó thì dễ. Theo thời gian, việc thành thạo nó có thể tìm công việc tốt. Nó mang lại rất nhiều niềm vui và hạnh phúc cho cuộc sống của tôi."
+          "en": "I completely agree with this widely accepted norm as it offers individuals seamless cross-cultural communication. Given its widespread technological advancement integration, we can confidently anticipate a highly collaborative global society.",
+          "vi": "Tôi hoàn toàn đồng ý với chuẩn mực được chấp nhận rộng rãi này vì nó mang lại cho các cá nhân sự giao tiếp xuyên văn hóa liền mạch. Cho rằng sự hội nhập tiến bộ công nghệ rộng rãi của nó, chúng ta có thể tự tin dự đoán một xã hội toàn cầu có tính cộng tác cao."
         }
       ]
     }
   },
   "Debate club": {
     "q1": {
-      "member": "Member A",
+      "member": "Member B",
       "question": "There are many ways to follow the news nowadays. How do you learn about world issues?",
       "vi": "Hiện nay có rất nhiều cách để theo dõi tin tức. Bạn tìm hiểu về các vấn đề thế giới như thế nào?",
       "vocab": [
-        "✨ [action]: <strong>follow</strong> (theo dõi), <strong>check</strong> (kiểm tra), <strong>keep abreast of</strong> (cập nhật), <strong>stay informed about</strong> (nắm bắt thông tin về), <strong>gain insights into</strong> (hiểu sâu về)",
-        "✨ [topic]: <strong>news</strong> (tin tức), <strong>events</strong> (sự kiện), <strong>global affairs</strong> (vấn đề toàn cầu), <strong>international developments</strong> (những diễn biến quốc tế), <strong>current happenings</strong> (sự kiện hiện tại)",
-        "✨ [source]: <strong>TV</strong> (TV), <strong>apps</strong> (ứng dụng), <strong>credible news outlets</strong> (trang tin uy tín), <strong>digital media platforms</strong> (nền tảng truyền thông số), <strong>reputable publications</strong> (ấn phẩm danh tiếng)",
-        "✨ [nguồn tin tức]: <strong>independent journalism sites</strong> (trang báo độc lập), <strong>daily news podcasts</strong> (podcast tin tức hàng ngày), <strong>reputable broadsheets</strong> (báo giấy uy tín), <strong>reliable news applications</strong> (ứng dụng tin tức đáng tin cậy), <strong>current affairs magazines</strong> (tạp chí thời sự)"
+        "✨ [phương tiện]: <strong>reliable digital platforms</strong> (các nền tảng kỹ thuật số đáng tin cậy), <strong>reputable online newspapers</strong> (các tờ báo trực tuyến uy tín), <strong>traditional print media</strong> (phương tiện truyền thông in ấn truyền thống), <strong>global broadcasting networks</strong> (các mạng lưới phát sóng toàn cầu), <strong>independent news outlets</strong> (các hãng tin độc lập)",
+        "✨ [tần suất]: <strong>on a daily basis</strong> (hàng ngày), <strong>quite frequently throughout the week</strong> (khá thường xuyên trong suốt tuần), <strong>regularly every single morning</strong> (đều đặn mỗi buổi sáng), <strong>on a consistent schedule</strong> (theo một lịch trình nhất quán), <strong>whenever time permits</strong> (bất cứ khi nào thời gian cho phép)",
+        "✨ [lý do]: <strong>provide highly accurate information</strong> (cung cấp thông tin có độ chính xác cao), <strong>offer in-depth analyses</strong> (cung cấp các phân tích chuyên sâu), <strong>deliver real-time updates</strong> (cung cấp các bản cập nhật theo thời gian thực), <strong>present well-rounded perspectives</strong> (trình bày các góc nhìn toàn diện), <strong>feature unbiased reporting</strong> (có tính năng báo cáo không thiên vị)",
+        "✨ [lợi ích]: <strong>broaden my general knowledge</strong> (mở rộng kiến thức chung của tôi), <strong>keep me updated on current affairs</strong> (cập nhật cho tôi về các vấn đề hiện tại), <strong>enhance my critical thinking skills</strong> (nâng cao kỹ năng tư duy phản biện của tôi), <strong>help me stay informed</strong> (giúp tôi luôn nắm bắt thông tin), <strong>expand my understanding of global trends</strong> (mở rộng sự hiểu biết của tôi về các xu hướng toàn cầu)"
       ],
       "templates": [
-        "I usually [action] [topic] by utilizing [source]. I generally rely on [nguồn tin tức] because it provides balanced perspectives on global events. It is always very nice to connect with all of you over such interesting topics.",
-        "My favorite way to [action] [topic] is through [source]. I generally rely on [nguồn tin tức] because it provides balanced perspectives on global events. This is genuinely something that is very important and I hope you all agree."
+        "As for me, I prefer utilizing [phương tiện] to explore topics [tần suất]. Given that these sources consistently [lý do], this routine can significantly [lợi ích] over time.",
+        "Whenever possible, I firmly rely on [phương tiện] to gather information [tần suất]. Since they typically [lý do], adopting such a practical approach will undoubtedly [lợi ích] in life."
       ],
       "samples": [
         {
-          "en": "I usually keep abreast of global affairs by utilizing digital media platforms. I generally rely on independent journalism sites because it provides balanced perspectives on global events. It is always very nice to connect with all of you over such interesting topics.",
-          "vi": "Đó là một chủ đề tuyệt vời! Tôi thường cập nhật các vấn đề toàn cầu bằng cách sử dụng các nền tảng truyền thông số. Tôi thường dựa vào trang báo độc lập vì nó cung cấp những góc nhìn cân bằng về các sự kiện toàn cầu. Làm việc này mỗi sáng trước khi đi làm giúp tôi kết nối với thế giới và hiểu những thay đổi quan trọng đang diễn ra quanh ta rất nhanh chóng. Thật tuyệt vời khi được kết nối với tất cả các bạn qua những chủ đề hay."
+          "en": "As for me, I prefer utilizing reliable digital platforms to explore topics on a daily basis. Given that these sources consistently provide highly accurate information, this routine can significantly broaden my general knowledge over time.",
+          "vi": "Đối với tôi, tôi thích sử dụng các nền tảng kỹ thuật số đáng tin cậy để khám phá các chủ đề hàng ngày. Do các nguồn này liên tục cung cấp thông tin có độ chính xác cao, thói quen này có thể mở rộng đáng kể kiến thức chung của tôi theo thời gian."
         },
         {
-          "en": "My favorite way to stay informed about international developments is through credible news outlets. I generally rely on daily news podcasts because it provides balanced perspectives on global events. This is genuinely something that is very important and I hope you all agree.",
-          "vi": "Nói về chủ đề thú vị này, cách yêu thích của tôi để nắm bắt thông tin về những diễn biến quốc tế là thông qua các trang tin uy tín. Tôi thường dựa vào podcast tin tức hàng ngày vì nó cung cấp những góc nhìn cân bằng về các sự kiện toàn cầu. Đọc các bài báo chuyên nghiệp trong giờ nghỉ trưa mang lại cho tôi góc nhìn rộng hơn về xã hội hiện đại và giúp tôi phát triển kỹ năng tư duy phản biện tốt hơn. Đây thực sự là điều khiến tôi rất vui và mong bạn cũng đồng ý."
+          "en": "Whenever possible, I firmly rely on reputable online newspapers to gather information quite frequently throughout the week. Since they typically offer in-depth analyses, adopting such a practical approach will undoubtedly keep me updated on current affairs in life.",
+          "vi": "Bất cứ khi nào có thể, tôi kiên định dựa vào các tờ báo trực tuyến uy tín để thu thập thông tin khá thường xuyên trong suốt tuần. Vì chúng thường cung cấp các phân tích chuyên sâu, việc áp dụng một cách tiếp cận thực tế như vậy chắc chắn sẽ cập nhật cho tôi về các vấn đề hiện tại trong cuộc sống."
         }
       ]
     },
     "q2": {
-      "member": "Member B",
+      "member": "Member C",
       "question": "I will take part in a debate in front of 50 people next week. How can I make a good impression?",
       "vi": "Tôi sẽ tham gia một cuộc tranh biện trước 50 người vào tuần tới. Làm thế nào để tôi có thể tạo ấn tượng tốt?",
       "vocab": [
-        "✨ [preparation]: <strong>prepare</strong> (chuẩn bị), <strong>practice</strong> (luyện tập), <strong>formulate compelling arguments</strong> (xây dựng lập luận thuyết phục), <strong>anticipate counterpoints</strong> (lường trước phản biện), <strong>conduct thorough research</strong> (nghiên cứu kỹ lưỡng)",
-        "✨ [delivery]: <strong>speak</strong> (nói), <strong>look</strong> (nhìn), <strong>maintain eye contact</strong> (duy trì giao tiếp bằng mắt), <strong>project confidence</strong> (thể hiện sự tự tin), <strong>articulate clearly</strong> (phát âm rõ ràng)",
-        "✨ [result]: <strong>good</strong> (tốt), <strong>great</strong> (tuyệt vời), <strong>a lasting impression</strong> (ấn tượng khó phai), <strong>a commanding presence</strong> (phong thái uy nghiêm), <strong>a persuasive image</strong> (hình ảnh thuyết phục)",
-        "✨ [yếu tố mở đầu]: <strong>an engaging personal anecdote</strong> (một giai thoại cá nhân hấp dẫn), <strong>a thought-provoking question</strong> (một câu hỏi gợi suy nghĩ), <strong>a surprising statistical fact</strong> (một sự thật thống kê đáng ngạc nhiên), <strong>a humorous but relevant story</strong> (một câu chuyện hài hước nhưng liên quan), <strong>an inspiring short quote</strong> (một trích dẫn ngắn truyền cảm hứng)"
+        "✨ [sự chuẩn bị]: <strong>research your topic thoroughly</strong> (nghiên cứu chủ đề của bạn một cách kỹ lưỡng), <strong>prepare convincing arguments</strong> (chuẩn bị các lập luận thuyết phục), <strong>structure your speech logically</strong> (cấu trúc bài phát biểu của bạn một cách hợp lý), <strong>gather reliable evidence</strong> (thu thập bằng chứng đáng tin cậy), <strong>anticipate counter-arguments</strong> (dự đoán các lập luận phản bác)",
+        "✨ [kỹ năng giao tiếp]: <strong>maintain strong eye contact</strong> (duy trì giao tiếp bằng mắt mạnh mẽ), <strong>utilize confident body language</strong> (sử dụng ngôn ngữ cơ thể tự tin), <strong>speak with a clear voice</strong> (nói với một giọng rõ ràng), <strong>control your speaking pace</strong> (kiểm soát tốc độ nói của bạn), <strong>express ideas persuasively</strong> (thể hiện ý tưởng một cách thuyết phục)",
+        "✨ [hành động]: <strong>practice in front of a mirror</strong> (thực hành trước gương), <strong>rehearse with a close friend</strong> (diễn tập với một người bạn thân), <strong>record yourself speaking</strong> (ghi âm lại bản thân khi nói), <strong>conduct a mock debate</strong> (tiến hành một cuộc tranh biện thử), <strong>review your notes carefully</strong> (xem xét kỹ các ghi chú của bạn)"
       ],
       "templates": [
-        "You should [preparation] and [delivery] to create [result]. To connect with your audience immediately, you should start with [yếu tố mở đầu]. This is genuinely something that is very important and I hope you all agree.",
-        "To leave [result], it is crucial to [preparation] and [delivery]. To connect with your audience immediately, you should start with [yếu tố mở đầu]. I will definitely keep doing this because it brings me so much joy."
+        "In order to succeed, you should [sự chuẩn bị] and remember to [kỹ năng giao tiếp] during the event. Furthermore, it is highly recommended to [hành động] beforehand to clearly [kết quả].",
+        "To achieve the best outcome, it is crucial to [sự chuẩn bị] while consciously trying to [kỹ năng giao tiếp]. Besides, you ought to [hành động] at home to successfully [kết quả]."
       ],
       "samples": [
         {
-          "en": "You should formulate compelling arguments and maintain eye contact to create a lasting impression. To connect with your audience immediately, you should start with an engaging personal anecdote. This is genuinely something that is very important and I hope you all agree.",
-          "vi": "Đó là một chủ đề tuyệt vời! Bạn nên xây dựng lập luận thuyết phục và duy trì giao tiếp bằng mắt để tạo ấn tượng khó phai. Để kết nối với khán giả của bạn ngay lập tức, bạn nên bắt đầu bằng một giai thoại cá nhân hấp dẫn. Việc tương tác trực tiếp với khán giả cho thấy bạn thực sự tin vào thông điệp của mình, điều này khiến họ dễ dàng ủng hộ quan điểm của bạn hơn. Đây thực sự là điều khiến tôi rất vui và mong bạn cũng đồng ý."
+          "en": "In order to succeed, you should research your topic thoroughly and remember to maintain strong eye contact during the event. Furthermore, it is highly recommended to practice in front of a mirror beforehand to clearly capture the audience's attention.",
+          "vi": "Để thành công, bạn nên nghiên cứu chủ đề của bạn một cách kỹ lưỡng và nhớ duy trì giao tiếp bằng mắt mạnh mẽ trong suốt sự kiện. Hơn nữa, rất được khuyến khích thực hành trước gương từ trước để thu hút sự chú ý của khán giả một cách rõ ràng."
         },
         {
-          "en": "To leave a persuasive image, it is crucial to conduct thorough research and project confidence. To connect with your audience immediately, you should start with a thought-provoking question. I will definitely keep doing this because it brings me so much joy.",
-          "vi": "Nói về chủ đề thú vị này, Để để lại một hình ảnh thuyết phục, điều quan trọng là phải nghiên cứu kỹ lưỡng và thể hiện sự tự tin. Để kết nối với khán giả của bạn ngay lập tức, bạn nên bắt đầu bằng một câu hỏi gợi suy nghĩ. Khi bạn nắm rõ sự thật và nói không do dự, mọi người sẽ tự nhiên tôn trọng thẩm quyền của bạn và lắng nghe ý kiến của bạn một cách cẩn thận. Tôi siêu hào hứng tiếp tục làm điều này vì nó mang lại niềm vui."
+          "en": "To achieve the best outcome, it is crucial to prepare convincing arguments while consciously trying to utilize confident body language. Besides, you ought to rehearse with a close friend at home to successfully leave a lasting positive impression.",
+          "vi": "Để đạt được kết quả tốt nhất, điều quan trọng là chuẩn bị các lập luận thuyết phục trong khi có ý thức cố gắng sử dụng ngôn ngữ cơ thể tự tin. Ngoài ra, bạn phải diễn tập với một người bạn thân ở nhà để để lại ấn tượng tích cực lâu dài một cách thành công."
         }
       ]
     },
     "q3": {
-      "member": "Member C",
+      "member": "Member D",
       "question": "Before making a decision about an issue, you should consider both sides of it. What do you think about this?",
       "vi": "Trước khi đưa ra quyết định về một vấn đề, bạn nên xem xét cả hai khía cạnh của nó. Bạn nghĩ gì về điều này?",
       "vocab": [
-        "✨ [action]: <strong>think</strong> (suy nghĩ), <strong>look</strong> (nhìn), <strong>evaluate comprehensively</strong> (đánh giá toàn diện), <strong>weigh multiple perspectives</strong> (cân nhắc nhiều góc nhìn), <strong>analyze objectively</strong> (phân tích khách quan)",
-        "✨ [benefit]: <strong>help</strong> (giúp đỡ), <strong>work</strong> (hoạt động), <strong>mitigate potential risks</strong> (giảm thiểu rủi ro tiềm ẩn), <strong>foster informed choices</strong> (thúc đẩy lựa chọn sáng suốt), <strong>prevent biased judgments</strong> (ngăn chặn phán xét thành kiến)",
-        "✨ [outcome]: <strong>good result</strong> (kết quả tốt), <strong>fair choice</strong> (lựa chọn công bằng), <strong>a well-rounded conclusion</strong> (kết luận toàn diện), <strong>an optimal resolution</strong> (giải pháp tối ưu), <strong>a balanced perspective</strong> (góc nhìn cân bằng)",
-        "✨ [sai lầm tư duy]: <strong>making impulsive choices</strong> (đưa ra lựa chọn bốc đồng), <strong>having a biased perspective</strong> (có góc nhìn thành kiến), <strong>drawing hasty conclusions</strong> (rút ra kết luận vội vàng), <strong>being heavily influenced by emotions</strong> (bị ảnh hưởng nặng nề bởi cảm xúc), <strong>missing crucial details</strong> (bỏ lỡ các chi tiết quan trọng)"
+        "✨ [nhận định]: <strong>an absolutely sensible approach</strong> (một cách tiếp cận hoàn toàn hợp lý), <strong>a highly reasonable strategy</strong> (một chiến lược cực kỳ hợp lý), <strong>an incredibly wise perspective</strong> (một góc nhìn vô cùng khôn ngoan), <strong>a universally accepted principle</strong> (một nguyên tắc được chấp nhận phổ biến), <strong>a profoundly logical mindset</strong> (một tư duy logic sâu sắc)",
+        "✨ [lý do]: <strong>prevents us from making hasty choices</strong> (ngăn chúng ta đưa ra những lựa chọn vội vàng), <strong>helps minimize potential risks</strong> (giúp giảm thiểu các rủi ro tiềm ẩn), <strong>ensures a balanced viewpoint</strong> (đảm bảo một quan điểm cân bằng), <strong>eliminates personal biases</strong> (loại bỏ những thành kiến cá nhân), <strong>fosters objective thinking</strong> (nuôi dưỡng tư duy khách quan)",
+        "✨ [kỹ năng]: <strong>evaluate complex situations</strong> (đánh giá các tình huống phức tạp), <strong>analyze different viewpoints</strong> (phân tích các quan điểm khác nhau), <strong>weigh the pros and cons</strong> (cân nhắc những ưu và nhược điểm), <strong>assess underlying factors</strong> (đánh giá các yếu tố cơ bản), <strong>comprehend diverse perspectives</strong> (hiểu các góc nhìn đa dạng)",
+        "✨ [kết quả]: <strong>reach a well-informed conclusion</strong> (đạt được một kết luận sáng suốt), <strong>make a sound judgement</strong> (đưa ra một đánh giá hợp lý), <strong>achieve optimal outcomes</strong> (đạt được các kết quả tối ưu), <strong>arrive at better solutions</strong> (đi đến những giải pháp tốt hơn), <strong>avoid future regrets</strong> (tránh những hối tiếc trong tương lai)"
       ],
       "templates": [
-        "I agree because when we [action], it can [benefit] and lead to [outcome]. Looking at multiple viewpoints helps us avoid [sai lầm tư duy]. This is a very interesting thing to discuss with everyone now.",
-        "It is essential to [action] in order to [benefit] and achieve [outcome]. Looking at multiple viewpoints helps us avoid [sai lầm tư duy]. This is a very interesting thing to discuss with everyone now."
+        "I completely agree that this is [nhận định] because it [lý do]. By taking time to [kỹ năng], an individual can carefully evaluate circumstances and eventually [kết quả] in life.",
+        "Without a doubt, embracing this philosophy is [nhận định] since it effectively [lý do]. Consequently, when we learn how to [kỹ năng], we are far more likely to [kết quả] easily."
       ],
       "samples": [
         {
-          "en": "I agree because when we evaluate comprehensively, it can mitigate potential risks and lead to an optimal resolution. Looking at multiple viewpoints helps us avoid making impulsive choices. This is a very interesting thing to discuss with everyone now.",
-          "vi": "Đó là một chủ đề tuyệt vời! Tôi đồng ý vì khi chúng ta đánh giá toàn diện, nó có thể giảm thiểu rủi ro tiềm ẩn và dẫn đến giải pháp tối ưu. Việc xem xét nhiều quan điểm giúp chúng ta tránh được đưa ra lựa chọn bốc đồng. Cách tiếp cận cẩn thận này ngăn chúng ta mắc phải những sai lầm tồi tệ và đảm bảo rằng các lựa chọn cuối cùng của chúng ta mang lại lợi ích hiệu quả cho mọi người liên quan. Đây hoàn toàn là điều tôi thích thảo luận với mọi người."
+          "en": "I completely agree that this is an absolutely sensible approach because it prevents us from making hasty choices. By taking time to evaluate complex situations, an individual can carefully evaluate circumstances and eventually reach a well-informed conclusion in life.",
+          "vi": "Tôi hoàn toàn đồng ý rằng đây là một cách tiếp cận hoàn toàn hợp lý bởi vì nó ngăn chúng ta đưa ra những lựa chọn vội vàng. Bằng cách dành thời gian để đánh giá các tình huống phức tạp, một cá nhân có thể cẩn thận đánh giá hoàn cảnh và cuối cùng đạt được một kết luận sáng suốt trong cuộc sống."
         },
         {
-          "en": "It is essential to weigh multiple perspectives in order to prevent biased judgments and achieve a well-rounded conclusion. Looking at multiple viewpoints helps us avoid having a biased perspective. This is a very interesting thing to discuss with everyone now.",
-          "vi": "Nói về chủ đề thú vị này, Điều cần thiết là phải cân nhắc nhiều góc nhìn để ngăn chặn phán xét thành kiến và đạt được kết luận toàn diện. Việc xem xét nhiều quan điểm giúp chúng ta tránh được có góc nhìn thành kiến. Việc lắng nghe những ý kiến khác nhau mở mang đầu óc chúng ta, giúp chúng ta hiểu sâu sắc các tình huống phức tạp thay vì hành động theo cảm xúc thuần túy. Đây hoàn toàn là điều tôi thích thảo luận với mọi người."
+          "en": "Without a doubt, embracing this philosophy is a highly reasonable strategy since it effectively helps minimize potential risks. Consequently, when we learn how to analyze different viewpoints, we are far more likely to make a sound judgement easily.",
+          "vi": "Không có gì nghi ngờ, việc nắm lấy triết lý này là một chiến lược cực kỳ hợp lý vì nó giúp giảm thiểu các rủi ro tiềm ẩn một cách hiệu quả. Do đó, khi chúng ta học cách phân tích các quan điểm khác nhau, chúng ta có nhiều khả năng đưa ra một đánh giá hợp lý một cách dễ dàng hơn nhiều."
         }
       ]
     }
   },
   "Outdoor club": {
     "q1": {
-      "member": "Member A",
+      "member": "Member B",
       "question": "Hi! Welcome to the club. Tell me about the outdoor activities in the bad weather.",
       "vi": "Chào bạn! Chào mừng đến với câu lạc bộ. Hãy kể cho tôi về các hoạt động ngoài trời trong thời tiết xấu.",
       "vocab": [
-        "✨ [weather]: <strong>rain</strong> (mưa), <strong>wind</strong> (gió), <strong>torrential downpours</strong> (mưa tầm tã), <strong>freezing temperatures</strong> (nhiệt độ đóng băng), <strong>severe storms</strong> (bão nghiêm trọng)",
-        "✨ [activity]: <strong>walk</strong> (đi dạo), <strong>run</strong> (chạy), <strong>navigate muddy trails</strong> (vượt qua những con đường lầy lội), <strong>endure harsh conditions</strong> (chịu đựng điều kiện khắc nghiệt), <strong>tackle slippery terrains</strong> (đối phó địa hình trơn trượt)",
-        "✨ [feeling]: <strong>sad</strong> (buồn), <strong>hard</strong> (khó), <strong>physically demanding</strong> (đòi hỏi thể lực), <strong>mentally exhausting</strong> (kiệt sức tinh thần), <strong>surprisingly exhilarating</strong> (thú vị đến ngạc nhiên)",
-        "✨ [hoạt động trong nhà thay thế]: <strong>doing indoor rock climbing</strong> (leo núi trong nhà), <strong>practicing yoga in my living room</strong> (tập yoga ở phòng khách), <strong>swimming at an indoor pool</strong> (bơi ở hồ bơi trong nhà), <strong>following a home workout routine</strong> (tập theo bài tập tại nhà), <strong>playing badminton at the sports centre</strong> (chơi cầu lông ở trung tâm thể thao)"
+        "✨ [hoạt động]: <strong>hiking through misty forests</strong> (đi bộ qua những khu rừng mù sương), <strong>walking in light rain</strong> (đi bộ dưới trời mưa nhẹ), <strong>jogging along empty streets</strong> (chạy bộ dọc theo những con phố vắng), <strong>cycling during a drizzle</strong> (đạp xe trong lúc mưa phùn), <strong>exploring indoor nature exhibits</strong> (khám phá các triển lãm thiên nhiên trong nhà)",
+        "✨ [địa điểm]: <strong>near my local neighborhood</strong> (gần khu phố địa phương của tôi), <strong>around the city park</strong> (quanh công viên thành phố), <strong>in a tranquil botanical garden</strong> (trong một vườn bách thảo yên tĩnh), <strong>across the nearby woodland</strong> (qua khu rừng gần đó), <strong>along the coastal pathway</strong> (dọc theo lối đi ven biển)",
+        "✨ [lợi ích]: <strong>improve my cardiovascular health</strong> (cải thiện sức khỏe tim mạch của tôi), <strong>strengthen my immune system</strong> (tăng cường hệ thống miễn dịch của tôi), <strong>build mental resilience</strong> (xây dựng sự kiên cường tinh thần), <strong>boost my physical endurance</strong> (thúc đẩy sức bền thể chất của tôi), <strong>refresh my active mind</strong> (làm mới tâm trí năng động của tôi)",
+        "✨ [cảm xúc]: <strong>incredibly peaceful and relaxing</strong> (vô cùng yên bình và thư giãn), <strong>surprisingly exhilarating and fun</strong> (đầy phấn khích và thú vị một cách đáng ngạc nhiên), <strong>deeply calming and therapeutic</strong> (cực kỳ êm dịu và mang tính trị liệu), <strong>wonderfully invigorating and fresh</strong> (tuyệt vời tiếp thêm sinh lực và tươi mới), <strong>entirely unique and memorable</strong> (hoàn toàn độc đáo và đáng nhớ)"
       ],
       "templates": [
-        "During [weather], trying to [activity] can be [feeling]. Whenever it rains heavily, I prefer to stay active by [hoạt động trong nhà thay thế]. It is always very nice to connect with all of you over such interesting topics.",
-        "When faced with [weather], deciding to [activity] is often [feeling]. Whenever it rains heavily, I prefer to stay active by [hoạt động trong nhà thay thế]. This is genuinely something that is very important and I hope you all agree."
+        "Despite the poor conditions, I truly enjoy [hoạt động] [địa điểm]. Participating in such a challenging routine can significantly [lợi ích] over time. Honestly, the whole experience always makes me feel [cảm xúc].",
+        "When it rains, my favorite pastime is [hoạt động] [địa điểm]. By maintaining this habit, I can consistently [lợi ích] without much difficulty. Furthermore, this specific atmosphere makes the journey seem [cảm xúc]."
       ],
       "samples": [
         {
-          "en": "During torrential downpours, trying to navigate muddy trails can be physically demanding. Whenever it rains heavily, I prefer to stay active by doing indoor rock climbing. It is always very nice to connect with all of you over such interesting topics.",
-          "vi": "Đó là một chủ đề tuyệt vời! Trong những trận mưa tầm tã, việc cố gắng vượt qua những con đường lầy lội có thể đòi hỏi thể lực. Mỗi khi trời mưa to, tôi thích giữ sự năng động bằng cách leo núi trong nhà. Đôi ủng của bạn trở nên vô cùng nặng nề với bùn đất dính, và mỗi bước đi đều đòi hỏi sự tập trung tuyệt đối chỉ để tránh ngã xuống nền đất lạnh ướt. Thật tuyệt vời khi được kết nối với tất cả các bạn qua những chủ đề hay."
+          "en": "Despite the poor conditions, I truly enjoy hiking through misty forests near my local neighborhood. Participating in such a challenging routine can significantly improve my cardiovascular health over time. Honestly, the whole experience always makes me feel incredibly peaceful and relaxing.",
+          "vi": "Bất chấp điều kiện khắc nghiệt, tôi thực sự thích đi bộ qua những khu rừng mù sương gần khu phố địa phương của tôi. Tham gia vào một thói quen đầy thử thách như vậy có thể cải thiện sức khỏe tim mạch của tôi một cách đáng kể theo thời gian. Thành thật mà nói, toàn bộ trải nghiệm luôn khiến tôi cảm thấy vô cùng yên bình và thư giãn."
         },
         {
-          "en": "When faced with freezing temperatures, deciding to endure harsh conditions is often mentally exhausting. Whenever it rains heavily, I prefer to stay active by practicing yoga in my living room. This is genuinely something that is very important and I hope you all agree.",
-          "vi": "Nói về chủ đề thú vị này, khi đối mặt với nhiệt độ đóng băng, việc quyết định chịu đựng điều kiện khắc nghiệt thường gây kiệt sức về tinh thần. Mỗi khi trời mưa to, tôi thích giữ sự năng động bằng cách tập yoga ở phòng khách. Bạn phải liên tục di chuyển để giữ ấm trong khi chống lại sự thôi thúc mạnh mẽ muốn bỏ cuộc và về nhà ngay lập tức. Đây thực sự là điều khiến tôi rất vui và mong bạn cũng đồng ý."
+          "en": "When it rains, my favorite pastime is walking in light rain around the city park. By maintaining this habit, I can consistently strengthen my immune system without much difficulty. Furthermore, this specific atmosphere makes the journey seem surprisingly exhilarating and fun.",
+          "vi": "Khi trời mưa, thú tiêu khiển yêu thích của tôi là đi bộ dưới trời mưa nhẹ quanh công viên thành phố. Bằng cách duy trì thói quen này, tôi có thể liên tục tăng cường hệ thống miễn dịch của tôi mà không gặp nhiều khó khăn. Hơn nữa, bầu không khí đặc biệt này làm cho chuyến đi dường như đầy phấn khích và thú vị một cách đáng ngạc nhiên."
         }
       ]
     },
     "q2": {
-      "member": "Member B",
+      "member": "Member C",
       "question": "Hi! Please give your ideas and advice for hiking.",
       "vi": "Chào bạn! Vui lòng đưa ra ý tưởng và lời khuyên của bạn về việc đi bộ đường dài.",
       "vocab": [
-        "✨ [gear]: <strong>bag</strong> (túi), <strong>shoes</strong> (giày), <strong>moisture-wicking clothing</strong> (quần áo thấm hút mồ hôi), <strong>navigational equipment</strong> (thiết bị định vị), <strong>sturdy footwear</strong> (giày dép chắc chắn)",
-        "✨ [action]: <strong>take</strong> (lấy), <strong>plan</strong> (lên kế hoạch), <strong>pack sufficient provisions</strong> (mang đủ nhu yếu phẩm), <strong>research trail topography</strong> (nghiên cứu địa hình đường đi), <strong>pace yourself carefully</strong> (điều chỉnh nhịp độ cẩn thận)",
-        "✨ [benefit]: <strong>safe</strong> (an toàn), <strong>fun</strong> (vui), <strong>prevent physical exhaustion</strong> (ngăn ngừa kiệt sức thể chất), <strong>ensure optimal safety</strong> (đảm bảo an toàn tối ưu), <strong>maximize overall enjoyment</strong> (tối đa hóa sự tận hưởng)",
-        "✨ [vật dụng cần thiết]: <strong>a reliable navigation tool</strong> (công cụ điều hướng đáng tin cậy), <strong>a basic first aid kit</strong> (hộp sơ cứu cơ bản), <strong>plenty of high-energy snacks</strong> (nhiều đồ ăn nhẹ giàu năng lượng), <strong>a waterproof lightweight jacket</strong> (áo khoác nhẹ chống nước), <strong>extra water supplies</strong> (thêm nguồn nước dự trữ)"
+        "✨ [vật dụng]: <strong>wear appropriate hiking boots</strong> (mang giày đi bộ đường dài phù hợp), <strong>pack sufficient water supplies</strong> (mang đủ nguồn nước), <strong>bring a reliable physical map</strong> (mang theo một bản đồ vật lý đáng tin cậy), <strong>carry essential first-aid items</strong> (mang theo các vật dụng sơ cứu thiết yếu), <strong>prepare high-energy snacks</strong> (chuẩn bị đồ ăn nhẹ giàu năng lượng)",
+        "✨ [kỹ năng]: <strong>pace yourself appropriately</strong> (giữ nhịp độ phù hợp cho bản thân), <strong>navigate uneven terrains safely</strong> (điều hướng các địa hình gồ ghề một cách an toàn), <strong>read weather forecasts accurately</strong> (đọc dự báo thời tiết một cách chính xác), <strong>manage physical fatigue efficiently</strong> (quản lý sự mệt mỏi thể chất một cách hiệu quả), <strong>assess potential trail hazards</strong> (đánh giá các mối nguy hiểm tiềm ẩn trên đường mòn)",
+        "✨ [hành động]: <strong>inform someone of your route</strong> (thông báo cho ai đó về tuyến đường của bạn), <strong>check the equipment carefully</strong> (kiểm tra thiết bị một cách cẩn thận), <strong>stretch your muscles beforehand</strong> (kéo giãn cơ bắp của bạn từ trước), <strong>study the trail map</strong> (nghiên cứu bản đồ đường mòn), <strong>travel with an experienced companion</strong> (đi cùng một người bạn đồng hành giàu kinh nghiệm)",
+        "✨ [mục tiêu]: <strong>ensure a safe journey</strong> (đảm bảo một hành trình an toàn), <strong>maximize your outdoor enjoyment</strong> (tối đa hóa sự tận hưởng ngoài trời của bạn), <strong>prevent unnecessary injuries</strong> (ngăn ngừa những chấn thương không cần thiết), <strong>complete the trail successfully</strong> (hoàn thành con đường mòn một cách thành công), <strong>handle unexpected emergencies</strong> (xử lý các trường hợp khẩn cấp bất ngờ)"
       ],
       "templates": [
-        "You must bring [gear] and [action] to [benefit]. For a safe trip, it is vital to pack [vật dụng cần thiết]. I believe that sharing these interesting ideas makes our chat room much more engaging today.",
-        "By utilizing [gear] and choosing to [action], you [benefit]. For a safe trip, it is vital to pack [vật dụng cần thiết]. This is genuinely something that is very important and I hope you all agree."
+        "For a successful trip, it is vital to [vật dụng] and gradually learn to [kỹ năng]. In addition, you should definitely [hành động] before departure, as such preparation will ultimately [mục tiêu].",
+        "If you are planning to go, always remember to [vật dụng] while attempting to [kỹ năng]. Moreover, I highly suggest that you [hành động] early in the morning in order to [mục tiêu]."
       ],
       "samples": [
         {
-          "en": "You must bring sturdy footwear and pack sufficient provisions to ensure optimal safety. For a safe trip, it is vital to pack a reliable navigation tool. I believe that sharing these interesting ideas makes our chat room much more engaging today.",
-          "vi": "Đó là một chủ đề tuyệt vời! Bạn phải mang giày dép chắc chắn và mang đủ nhu yếu phẩm để đảm bảo an toàn tối ưu. Đối với một chuyến đi an toàn, việc mang theo công cụ điều hướng đáng tin cậy là rất quan trọng. Những ngọn núi có thể hoàn toàn không thể đoán trước, vì vậy việc có đủ thức ăn và hỗ trợ mắt cá chân thích hợp sẽ cứu bạn khỏi những tai nạn khủng khiếp trong suốt chuyến đi dài. Tôi thực sự cảm thấy chia sẻ những ý tưởng này làm phòng chat thú vị hơn."
+          "en": "For a successful trip, it is vital to wear appropriate hiking boots and gradually learn to pace yourself appropriately. In addition, you should definitely inform someone of your route before departure, as such preparation will ultimately ensure a safe journey.",
+          "vi": "Đối với một chuyến đi thành công, điều quan trọng là mang giày đi bộ đường dài phù hợp và dần dần học cách giữ nhịp độ phù hợp cho bản thân. Ngoài ra, bạn chắc chắn nên thông báo cho ai đó về tuyến đường của bạn trước khi khởi hành, vì sự chuẩn bị như vậy cuối cùng sẽ đảm bảo một hành trình an toàn."
         },
         {
-          "en": "By utilizing navigational equipment and choosing to research trail topography, you maximize overall enjoyment. For a safe trip, it is vital to pack a basic first aid kit. This is genuinely something that is very important and I hope you all agree.",
-          "vi": "Nói về chủ đề thú vị này, bằng cách sử dụng thiết bị định vị và chọn nghiên cứu địa hình đường đi, bạn tối đa hóa sự tận hưởng tổng thể. Đối với một chuyến đi an toàn, việc mang theo hộp sơ cứu cơ bản là rất quan trọng. Biết chính xác nơi bạn đang đi giúp giảm căng thẳng đáng kể và cho phép bạn tập trung tuyệt đẹp vào phong cảnh thiên nhiên tuyệt vời xung quanh mình. Đây thực sự là điều khiến tôi rất vui và mong bạn cũng đồng ý."
+          "en": "If you are planning to go, always remember to pack sufficient water supplies while attempting to navigate uneven terrains safely. Moreover, I highly suggest that you check the equipment carefully early in the morning in order to maximize your outdoor enjoyment.",
+          "vi": "Nếu bạn đang dự định đi, hãy luôn nhớ mang đủ nguồn nước trong khi cố gắng điều hướng các địa hình gồ ghề một cách an toàn. Hơn nữa, tôi rất gợi ý rằng bạn kiểm tra thiết bị một cách cẩn thận vào sáng sớm để tối đa hóa sự tận hưởng ngoài trời của bạn."
         }
       ]
     },
     "q3": {
-      "member": "Member C",
+      "member": "Member D",
       "question": "What are the most popular outdoor activities in your country?",
       "vi": "Các hoạt động ngoài trời phổ biến nhất ở đất nước bạn là gì?",
       "vocab": [
-        "✨ [activity]: <strong>football</strong> (bóng đá), <strong>swimming</strong> (bơi lội), <strong>recreational cycling</strong> (đạp xe giải trí), <strong>mountain trekking</strong> (leo núi), <strong>urban jogging</strong> (chạy bộ thành phố)",
-        "✨ [reason]: <strong>easy</strong> (dễ), <strong>cheap</strong> (rẻ), <strong>accessible to masses</strong> (dễ tiếp cận với đại chúng), <strong>highly beneficial for cardiovascular health</strong> (rất tốt cho sức khỏe tim mạch), <strong>foster community bonding</strong> (thúc đẩy gắn kết cộng đồng)",
-        "✨ [location]: <strong>park</strong> (công viên), <strong>beach</strong> (bãi biển), <strong>scenic national reserves</strong> (khu bảo tồn quốc gia cảnh quan đẹp), <strong>well-maintained public spaces</strong> (không gian công cộng được bảo trì tốt), <strong>designated athletic tracks</strong> (đường chạy thể thao chuyên dụng)",
-        "✨ [hoạt động ngoài trời phổ biến]: <strong>cycling along the riverbanks</strong> (đạp xe dọc bờ sông), <strong>playing casual football matches</strong> (chơi các trận bóng đá tự do), <strong>organising community picnics</strong> (tổ chức các buổi dã ngoại cộng đồng), <strong>going hiking in the national parks</strong> (đi bộ đường dài ở công viên quốc gia), <strong>setting up campsites by the lake</strong> (dựng trại ven hồ)"
+        "✨ [hoạt động]: <strong>playing traditional team sports</strong> (chơi các môn thể thao đồng đội truyền thống), <strong>organizing weekend camping trips</strong> (tổ chức các chuyến cắm trại cuối tuần), <strong>participating in community marathons</strong> (tham gia các cuộc thi chạy marathon cộng đồng), <strong>cycling around scenic lakes</strong> (đạp xe quanh những hồ nước tuyệt đẹp), <strong>practicing morning tai chi</strong> (tập thái cực quyền buổi sáng)",
+        "✨ [đối tượng]: <strong>energetic young adults</strong> (những người trẻ tuổi tràn đầy năng lượng), <strong>active elderly citizens</strong> (những người cao tuổi năng động), <strong>local school students</strong> (học sinh trường địa phương), <strong>enthusiastic fitness lovers</strong> (những người đam mê thể hình nhiệt tình), <strong>busy working professionals</strong> (những chuyên gia làm việc bận rộn)",
+        "✨ [thời điểm]: <strong>during the early morning</strong> (vào sáng sớm), <strong>in the late afternoon</strong> (vào cuối buổi chiều), <strong>on breezy summer weekends</strong> (vào những ngày cuối tuần mùa hè lộng gió), <strong>throughout the dry season</strong> (trong suốt mùa khô), <strong>during public holidays</strong> (trong các ngày lễ quốc gia)",
+        "✨ [lý do]: <strong>fosters a strong sense of community</strong> (nuôi dưỡng ý thức cộng đồng mạnh mẽ), <strong>provides excellent physical exercise</strong> (cung cấp bài tập thể dục thể chất tuyệt vời), <strong>offers a great escape from work</strong> (cung cấp một lối thoát tuyệt vời khỏi công việc), <strong>promotes mental well-being</strong> (thúc đẩy sức khỏe tinh thần), <strong>helps people connect with nature</strong> (giúp mọi người kết nối với thiên nhiên)"
       ],
       "templates": [
-        "Activities like [activity] are popular at [location] because they are [reason]. During the warmer months, you will often see people [hoạt động ngoài trời phổ biến]. This is a very interesting thing to discuss with everyone now.",
-        "Many people enjoy [activity] around [location] as it is [reason]. During the warmer months, you will often see people [hoạt động ngoài trời phổ biến]. I will definitely keep doing this because it brings me so much joy."
+        "In my beloved nation, [hoạt động] is considered extremely common among [đối tượng], especially [thời điểm]. Given that this engaging pastime effectively [lý do], its overall popularity continues to grow rapidly year after year.",
+        "Generally speaking, [hoạt động] is highly favored by [đối tượng] whenever they have free time [thời điểm]. Since this particular pursuit largely [lý do], it has become an indispensable part of our local culture."
       ],
       "samples": [
         {
-          "en": "Activities like recreational cycling are popular at scenic national reserves because they are highly beneficial for cardiovascular health. During the warmer months, you will often see people cycling along the riverbanks. This is a very interesting thing to discuss with everyone now.",
-          "vi": "Đó là một chủ đề tuyệt vời! Các hoạt động như đạp xe giải trí rất phổ biến tại các khu bảo tồn quốc gia có phong cảnh đẹp vì chúng rất tốt cho sức khỏe tim mạch. Trong những tháng ấm áp hơn, bạn sẽ thường thấy mọi người đạp xe dọc bờ sông. Mọi người thích hít thở không khí trong lành tuyệt đối trong khi nhẹ nhàng tập luyện cơ chân, bao quanh là những cây xanh cao vút tuyệt đẹp. Đây hoàn toàn là điều tôi thích thảo luận với mọi người."
+          "en": "In my beloved nation, playing traditional team sports is considered extremely common among energetic young adults, especially during the early morning. Given that this engaging pastime effectively fosters a strong sense of community, its overall popularity continues to grow rapidly year after year.",
+          "vi": "Ở quốc gia thân yêu của tôi, chơi các môn thể thao đồng đội truyền thống được coi là cực kỳ phổ biến trong những người trẻ tuổi tràn đầy năng lượng, đặc biệt là vào sáng sớm. Do thú tiêu khiển hấp dẫn này nuôi dưỡng ý thức cộng đồng mạnh mẽ một cách hiệu quả, sự phổ biến tổng thể của nó tiếp tục phát triển nhanh chóng năm này qua năm khác."
         },
         {
-          "en": "Many people enjoy urban jogging around well-maintained public spaces as it is accessible to masses. During the warmer months, you will often see people playing casual football matches. I will definitely keep doing this because it brings me so much joy.",
-          "vi": "Nói về chủ đề thú vị này, nhiều người thích chạy bộ ở thành thị xung quanh các không gian công cộng được bảo trì tốt vì nó dễ tiếp cận với đại chúng. Trong những tháng ấm áp hơn, bạn sẽ thường thấy mọi người chơi các trận bóng đá tự do. Bạn chỉ cần một đôi giày đơn giản để bắt đầu di chuyển, biến nó thành bài tập thể dục hàng ngày hoàn hảo cho những công dân lao động bình thường bận rộn. Tôi siêu hào hứng tiếp tục làm điều này vì nó mang lại niềm vui."
+          "en": "Generally speaking, organizing weekend camping trips is highly favored by active elderly citizens whenever they have free time in the late afternoon. Since this particular pursuit largely provides excellent physical exercise, it has become an indispensable part of our local culture.",
+          "vi": "Nói chung, tổ chức các chuyến cắm trại cuối tuần rất được ưa chuộng bởi những người cao tuổi năng động bất cứ khi nào họ có thời gian rảnh vào cuối buổi chiều. Vì sự theo đuổi cụ thể này phần lớn cung cấp bài tập thể dục thể chất tuyệt vời, nó đã trở thành một phần không thể thiếu trong văn hóa địa phương của chúng tôi."
         }
       ]
     }
   },
   "English club 3": {
     "q1": {
-      "member": "Member A",
+      "member": "Member B",
       "question": "Hi! I heard that you attended a club meeting this afternoon. How do you feel about the meeting?",
       "vi": "Chào bạn! Tôi nghe nói bạn đã tham dự cuộc họp câu lạc bộ chiều nay. Bạn cảm thấy thế nào về cuộc họp?",
       "vocab": [
-        "✨ [adjective]: <strong>good</strong> (tốt), <strong>fun</strong> (vui), <strong>intellectually stimulating</strong> (kích thích tư duy), <strong>highly interactive</strong> (tương tác cao), <strong>profoundly insightful</strong> (sâu sắc)",
-        "✨ [element]: <strong>games</strong> (trò chơi), <strong>talks</strong> (bài nói), <strong>thought-provoking discussions</strong> (những cuộc thảo luận gợi suy nghĩ), <strong>collaborative group projects</strong> (dự án nhóm hợp tác), <strong>engaging guest presentations</strong> (bài thuyết trình hấp dẫn của khách mời)",
-        "✨ [impact]: <strong>help me</strong> (giúp tôi), <strong>make me happy</strong> (làm tôi vui), <strong>broaden my vocabulary range</strong> (mở rộng vốn từ vựng của tôi), <strong>boost my conversational fluency</strong> (tăng cường sự trôi chảy trong giao tiếp), <strong>cultivate a deeper cultural appreciation</strong> (nuôi dưỡng sự trân trọng văn hóa sâu sắc hơn)",
-        "✨ [chủ đề thảo luận]: <strong>effective presentation skills</strong> (kỹ năng thuyết trình hiệu quả), <strong>common pronunciation mistakes</strong> (lỗi phát âm phổ biến), <strong>practical interview techniques</strong> (kỹ thuật phỏng vấn thực tế), <strong>cultural differences in communication</strong> (sự khác biệt văn hóa trong giao tiếp), <strong>useful vocabulary for travelling</strong> (từ vựng hữu ích cho việc đi lại)"
+        "✨ [tính từ mô tả]: <strong>remarkably informative and engaging</strong> (cực kỳ nhiều thông tin và hấp dẫn), <strong>exceptionally well-organized and fun</strong> (được tổ chức đặc biệt tốt và thú vị), <strong>incredibly inspiring and dynamic</strong> (vô cùng truyền cảm hứng và năng động), <strong>highly interactive and beneficial</strong> (có tính tương tác cao và bổ ích), <strong>surprisingly thought-provoking and useful</strong> (đầy kích thích tư duy và hữu ích một cách đáng ngạc nhiên)",
+        "✨ [hoạt động]: <strong>participate in lively group discussions</strong> (tham gia vào các cuộc thảo luận nhóm sôi nổi), <strong>practice speaking with native guests</strong> (thực hành nói với khách bản xứ), <strong>engage in creative role-plays</strong> (tham gia vào các trò chơi nhập vai sáng tạo), <strong>share personal study experiences</strong> (chia sẻ kinh nghiệm học tập cá nhân), <strong>debate various controversial topics</strong> (tranh luận về các chủ đề gây tranh cãi khác nhau)",
+        "✨ [kết quả]: <strong>expand my active vocabulary</strong> (mở rộng vốn từ vựng tích cực của tôi), <strong>boost my conversational fluency</strong> (tăng cường sự trôi chảy trong giao tiếp của tôi), <strong>overcome my public speaking fear</strong> (vượt qua nỗi sợ nói trước đám đông của tôi), <strong>improve my pronunciation skills</strong> (cải thiện kỹ năng phát âm của tôi), <strong>broaden my cultural knowledge</strong> (mở rộng kiến thức văn hóa của tôi)",
+        "✨ [kỳ vọng]: <strong>attend more similar future events</strong> (tham dự nhiều sự kiện tương lai tương tự hơn), <strong>recommend it to my friends</strong> (giới thiệu nó cho bạn bè của tôi), <strong>join the organizing committee soon</strong> (sớm tham gia ban tổ chức), <strong>invite my classmates next time</strong> (mời bạn cùng lớp của tôi vào lần tới), <strong>become a regular active member</strong> (trở thành một thành viên tích cực thường xuyên)"
       ],
       "templates": [
-        "I found the meeting [adjective] because the [element] really helped to [impact]. I found it particularly useful when we discussed [chủ đề thảo luận]. I would like to hear what everyone else thinks about this topic.",
-        "It was [adjective], and participating in [element] managed to [impact]. I found it particularly useful when we discussed [chủ đề thảo luận]. It has clearly changed the way I see things in my daily life."
+        "To be honest, I found the session to be [tính từ mô tả]. It provided a wonderful opportunity to [hoạt động], which successfully helped me [kết quả]. Therefore, I definitely plan to [kỳ vọng].",
+        "From my perspective, the entire gathering was [tính từ mô tả]. Because I was able to [hoạt động], I managed to [kết quả] quite naturally. As a result, I am eagerly hoping to [kỳ vọng]."
       ],
       "samples": [
         {
-          "en": "I found the meeting intellectually stimulating because the thought-provoking discussions really helped to broaden my vocabulary range. I found it particularly useful when we discussed effective presentation skills. I would like to hear what everyone else thinks about this topic.",
-          "vi": "Đó là một chủ đề tuyệt vời! Tôi thấy cuộc họp kích thích tư duy vì những cuộc thảo luận gợi suy nghĩ thực sự đã giúp mở rộng vốn từ vựng của tôi. Tôi thấy đặc biệt hữu ích khi chúng ta thảo luận về kỹ năng thuyết trình hiệu quả. Việc nghe những từ vựng nâng cao được sử dụng tự nhiên bởi các thành viên thông minh khác giúp tôi ghi nhớ và áp dụng chúng dễ dàng hơn nhiều. Tôi nóng lòng muốn nghe mọi người nghĩ gì về chủ đề này."
+          "en": "To be honest, I found the session to be remarkably informative and engaging. It provided a wonderful opportunity to participate in lively group discussions, which successfully helped me expand my active vocabulary. Therefore, I definitely plan to attend more similar future events.",
+          "vi": "Thành thật mà nói, tôi thấy buổi gặp mặt cực kỳ nhiều thông tin và hấp dẫn. Nó đã cung cấp một cơ hội tuyệt vời để tham gia vào các cuộc thảo luận nhóm sôi nổi, điều này đã giúp tôi mở rộng vốn từ vựng tích cực của tôi một cách thành công. Vì vậy, tôi chắc chắn dự định tham dự nhiều sự kiện tương lai tương tự hơn."
         },
         {
-          "en": "It was highly interactive, and participating in collaborative group projects managed to boost my conversational fluency. I found it particularly useful when we discussed common pronunciation mistakes. It has clearly changed the way I see things in my daily life.",
-          "vi": "Nói về chủ đề thú vị này, nó có tính tương tác cao, và việc tham gia vào các dự án nhóm hợp tác đã giúp tăng cường sự trôi chảy trong giao tiếp của tôi. Tôi thấy đặc biệt hữu ích khi chúng ta thảo luận về lỗi phát âm phổ biến. Làm việc cùng nhau buộc chúng tôi phải giao tiếp liên tục dưới một chút áp lực, điều này loại bỏ hiệu quả những do dự ngượng ngùng trước đây của tôi khi nói chuyện với người lạ. Nó đã hoàn toàn thay đổi cách tôi nhìn nhận cuộc sống hàng ngày."
+          "en": "From my perspective, the entire gathering was exceptionally well-organized and fun. Because I was able to practice speaking with native guests, I managed to boost my conversational fluency quite naturally. As a result, I am eagerly hoping to recommend it to my friends.",
+          "vi": "Từ góc độ của tôi, toàn bộ buổi tụ họp đã được tổ chức đặc biệt tốt và thú vị. Bởi vì tôi đã có thể thực hành nói với khách bản xứ, tôi đã xoay sở để tăng cường sự trôi chảy trong giao tiếp của tôi khá tự nhiên. Do đó, tôi đang háo hức hy vọng giới thiệu nó cho bạn bè của tôi."
         }
       ]
     },
     "q2": {
-      "member": "Member B",
+      "member": "Member C",
       "question": "We have weekly meetings on Saturday afternoons. What topic are you expecting us to talk about?",
       "vi": "Chúng ta có các cuộc họp hàng tuần vào chiều thứ Bảy. Bạn mong đợi chúng ta nói về chủ đề gì?",
       "vocab": [
-        "✨ [topic]: <strong>food</strong> (đồ ăn), <strong>music</strong> (âm nhạc), <strong>cross-cultural communication</strong> (giao tiếp đa văn hóa), <strong>technological advancements</strong> (những tiến bộ công nghệ), <strong>contemporary social issues</strong> (các vấn đề xã hội đương đại)",
-        "✨ [reason]: <strong>easy</strong> (dễ), <strong>nice</strong> (hay), <strong>highly relevant to modern life</strong> (rất liên quan đến cuộc sống hiện đại), <strong>intellectually engaging</strong> (thu hút về mặt trí tuệ), <strong>practically useful for careers</strong> (thực sự hữu ích cho sự nghiệp)",
-        "✨ [action]: <strong>talk</strong> (nói), <strong>learn</strong> (học), <strong>exchange diverse perspectives</strong> (trao đổi các góc nhìn đa dạng), <strong>debate passionately</strong> (tranh biện sôi nổi), <strong>explore nuanced vocabulary</strong> (khám phá từ vựng tinh tế)",
-        "✨ [mục tiêu học tập]: <strong>improving our formal writing</strong> (cải thiện kỹ năng viết trang trọng), <strong>mastering complex grammatical structures</strong> (nắm vững các cấu trúc ngữ pháp phức tạp), <strong>expanding our business vocabulary</strong> (mở rộng từ vựng kinh doanh), <strong>understanding regional English accents</strong> (hiểu các giọng tiếng Anh địa phương), <strong>practicing spontaneous speaking</strong> (luyện tập nói phản xạ tự nhiên)"
+        "✨ [chủ đề]: <strong>modern technological advancements</strong> (những tiến bộ công nghệ hiện đại), <strong>effective time management strategies</strong> (các chiến lược quản lý thời gian hiệu quả), <strong>cultural differences around the world</strong> (những khác biệt văn hóa trên toàn thế giới), <strong>pressing environmental conservation issues</strong> (các vấn đề bảo tồn môi trường cấp bách), <strong>essential career development skills</strong> (các kỹ năng phát triển nghề nghiệp thiết yếu)",
+        "✨ [lý do]: <strong>directly impacts our daily lives</strong> (ảnh hưởng trực tiếp đến cuộc sống hàng ngày của chúng ta), <strong>remains highly relevant to youth</strong> (vẫn rất phù hợp với giới trẻ), <strong>sparks fascinating intellectual debates</strong> (khơi mào những cuộc tranh luận trí tuệ hấp dẫn), <strong>addresses current global challenges</strong> (giải quyết các thách thức toàn cầu hiện tại), <strong>offers practical real-world applications</strong> (cung cấp các ứng dụng thực tế trong thế giới thực)"
       ],
       "templates": [
-        "I hope we discuss [topic] because it is [reason] and lets us [action]. I would be thrilled if we could focus on [mục tiêu học tập].",
-        "Focusing on [topic] would be [reason], allowing members to [action]. I would be thrilled if we could focus on [mục tiêu học tập]. This is genuinely something that is very important and I hope you all agree."
+        "Personally, I highly recommend focusing on [chủ đề] mainly because it [lý do]. Discussing this specific matter in depth will encourage us to [kỹ năng], which can undoubtedly [kết quả].",
+        "It would be fantastic to explore [chủ đề] since it constantly [lý do]. By tackling such an intriguing subject, members can effectively [kỹ năng] and ultimately [kết quả] during our weekly sessions."
       ],
       "samples": [
         {
-          "en": "I hope we discuss cross-cultural communication because it is practically useful for careers and lets us exchange diverse perspectives. I would be thrilled if we could focus on improving our formal writing.",
-          "vi": "Đó là một chủ đề tuyệt vời! Tôi hy vọng chúng ta thảo luận về giao tiếp đa văn hóa vì nó thực sự hữu ích cho sự nghiệp và cho phép chúng ta trao đổi các góc nhìn đa dạng. Tôi sẽ rất vui mừng nếu chúng ta có thể tập trung vào cải thiện kỹ năng viết trang trọng. Hiểu cách suy nghĩ của những người khác nhau chắc chắn sẽ mang lại cho mọi người một lợi thế to lớn khi làm việc tại các công ty quốc tế lớn. Tôi hoàn toàn thích chia sẻ suy nghĩ này với bạn."
+          "en": "Personally, I highly recommend focusing on modern technological advancements mainly because it directly impacts our daily lives. Discussing this specific matter in depth will encourage us to express our complex opinions fluently, which can undoubtedly enhance our overall communication abilities.",
+          "vi": "Cá nhân tôi, tôi rất khuyên bạn nên tập trung vào những tiến bộ công nghệ hiện đại chủ yếu vì nó ảnh hưởng trực tiếp đến cuộc sống hàng ngày của chúng ta. Thảo luận sâu về vấn đề cụ thể này sẽ khuyến khích chúng ta thể hiện những ý kiến phức tạp của chúng ta một cách trôi chảy, điều này chắc chắn có thể nâng cao khả năng giao tiếp tổng thể của chúng ta."
         },
         {
-          "en": "Focusing on contemporary social issues would be intellectually engaging, allowing members to debate passionately. I would be thrilled if we could focus on mastering complex grammatical structures. This is genuinely something that is very important and I hope you all agree.",
-          "vi": "Nói về chủ đề thú vị này, tập trung vào các vấn đề xã hội đương đại sẽ thu hút về mặt trí tuệ, cho phép các thành viên tranh biện sôi nổi. Tôi sẽ rất vui mừng nếu chúng ta có thể tập trung vào nắm vững các cấu trúc ngữ pháp phức tạp. Sinh viên trẻ quan tâm sâu sắc đến thế giới đang thay đổi nhanh chóng, vì vậy mang đến cho họ một nền tảng an toàn để bày tỏ quan điểm mạnh mẽ tạo ra những cuộc họp rất thú vị. Đây thực sự là điều khiến tôi rất vui và mong bạn cũng đồng ý."
+          "en": "It would be fantastic to explore effective time management strategies since it constantly remains highly relevant to youth. By tackling such an intriguing subject, members can effectively analyze diverse perspectives critically and ultimately build greater interpersonal confidence during our weekly sessions.",
+          "vi": "Sẽ thật tuyệt vời khi khám phá các chiến lược quản lý thời gian hiệu quả vì nó liên tục vẫn rất phù hợp với giới trẻ. Bằng cách giải quyết một chủ đề hấp dẫn như vậy, các thành viên có thể phân tích các quan điểm đa dạng một cách phản biện một cách hiệu quả và cuối cùng xây dựng sự tự tin giữa các cá nhân lớn hơn trong các phiên hàng tuần của chúng ta."
         }
       ]
     },
     "q3": {
-      "member": "Member C",
+      "member": "Member D",
       "question": "We are thinking of holding some English games next week. Can you suggest some?",
       "vi": "Chúng tôi đang nghĩ đến việc tổ chức một số trò chơi tiếng Anh vào tuần tới. Bạn có thể gợi ý một số không?",
       "vocab": [
-        "✨ [game]: <strong>word puzzles</strong> (câu đố chữ), <strong>board games</strong> (trò chơi cờ bàn), <strong>impromptu speaking challenges</strong> (thử thách nói ngẫu hứng), <strong>vocabulary relay races</strong> (cuộc thi tiếp sức từ vựng), <strong>role-playing scenarios</strong> (tình huống nhập vai)",
-        "✨ [benefit]: <strong>fun</strong> (vui), <strong>fast</strong> (nhanh), <strong>encourage spontaneous thinking</strong> (khuyến khích tư duy tự phát), <strong>foster intense teamwork</strong> (thúc đẩy tinh thần đồng đội cao độ), <strong>simulate real-world interactions</strong> (mô phỏng tương tác thế giới thực)",
-        "✨ [skill]: <strong>speaking</strong> (nói), <strong>reading</strong> (đọc), <strong>verbal agility</strong> (sự lanh lợi ngôn ngữ), <strong>pronunciation accuracy</strong> (sự chính xác trong phát âm), <strong>idiomatic comprehension</strong> (sự hiểu biết thành ngữ)",
-        "✨ [hoạt động trò chơi]: <strong>guessing meanings from contexts</strong> (đoán nghĩa từ ngữ cảnh), <strong>creating imaginative short stories</strong> (sáng tác các câu chuyện ngắn giàu trí tưởng tượng), <strong>acting out everyday situations</strong> (diễn lại các tình huống hàng ngày), <strong>solving word puzzles in teams</strong> (giải câu đố từ vựng theo nhóm), <strong>describing idioms without using their names</strong> (miêu tả thành ngữ mà không dùng tên của chúng)"
+        "✨ [tên trò chơi]: <strong>interactive vocabulary board games</strong> (các trò chơi trên bàn từ vựng tương tác), <strong>competitive spelling bee contests</strong> (các cuộc thi đánh vần cạnh tranh), <strong>creative storytelling relay challenges</strong> (các thử thách tiếp sức kể chuyện sáng tạo), <strong>fast-paced word guessing activities</strong> (các hoạt động đoán từ nhịp độ nhanh), <strong>collaborative team trivia quizzes</strong> (các câu đố kiến thức chung theo nhóm cộng tác)",
+        "✨ [cách chơi]: <strong>work together to solve puzzles</strong> (làm việc cùng nhau để giải các câu đố), <strong>compete against other small groups</strong> (cạnh tranh với các nhóm nhỏ khác), <strong>guess the hidden meaning quickly</strong> (đoán ý nghĩa ẩn một cách nhanh chóng), <strong>create sentences using random words</strong> (tạo câu sử dụng các từ ngẫu nhiên), <strong>answer questions within a time limit</strong> (trả lời câu hỏi trong một thời gian giới hạn)",
+        "✨ [lợi ích]: <strong>improve their quick thinking abilities</strong> (cải thiện khả năng tư duy nhanh nhạy của họ), <strong>reinforce newly learned grammar structures</strong> (củng cố các cấu trúc ngữ pháp mới học), <strong>enhance their active listening skills</strong> (nâng cao kỹ năng lắng nghe chủ động của họ), <strong>memorize complex words effortlessly</strong> (ghi nhớ những từ phức tạp một cách dễ dàng), <strong>build strong teamwork dynamics</strong> (xây dựng sự năng động làm việc nhóm mạnh mẽ)",
+        "✨ [đánh giá]: <strong>an incredibly entertaining choice</strong> (một sự lựa chọn vô cùng giải trí), <strong>a remarkably educational approach</strong> (một cách tiếp cận cực kỳ giáo dục), <strong>a highly engaging group activity</strong> (một hoạt động nhóm có tính tương tác cao), <strong>a wonderfully stimulating exercise</strong> (một bài tập vô cùng kích thích), <strong>a perfectly balanced learning method</strong> (một phương pháp học tập cân bằng hoàn hảo)"
       ],
       "templates": [
-        "[game] because they [benefit] and significantly improve [skill]. It would be incredibly fun to play a game involving [hoạt động trò chơi]. I believe that sharing these interesting ideas makes our chat room much more engaging today.",
-        "[game] to [benefit] while simultaneously enhancing [skill]. It would be incredibly fun to play a game involving [hoạt động trò chơi]. I always look forward to hearing your amazing thoughts on this super cool subject today."
+        "I would strongly suggest organizing [tên trò chơi] where enthusiastic participants can [cách chơi]. Through this interactive format, players will smoothly [lợi ích]. In my honest opinion, this is definitely [đánh giá].",
+        "It might be a brilliant idea to introduce [tên trò chơi] which requires students to [cách chơi]. Such a dynamic competition helps them [lợi ích] effectively. Overall, I consider this to be [đánh giá]."
       ],
       "samples": [
         {
-          "en": "Impromptu speaking challenges because they encourage spontaneous thinking and significantly improve verbal agility. It would be incredibly fun to play a game involving guessing meanings from contexts. I believe that sharing these interesting ideas makes our chat room much more engaging today.",
-          "vi": "Đó là một chủ đề tuyệt vời! Tôi đặc biệt khuyên dùng thử thách nói ngẫu hứng vì chúng khuyến khích tư duy tự phát và cải thiện đáng kể sự lanh lợi ngôn ngữ. Sẽ vô cùng thú vị nếu chơi một trò chơi liên quan đến đoán nghĩa từ ngữ cảnh. Việc đứng lên mà không cần chuẩn bị buộc các thành viên phải hoàn toàn tin tưởng vào bộ não của mình, loại bỏ hoàn toàn nỗi sợ hãi tồi tệ của họ về các cuộc trò chuyện tiếng Anh công khai bất ngờ. Tôi thực sự cảm thấy chia sẻ những ý tưởng này làm phòng chat thú vị hơn."
+          "en": "I would strongly suggest organizing interactive vocabulary board games where enthusiastic participants can work together to solve puzzles. Through this interactive format, players will smoothly improve their quick thinking abilities. In my honest opinion, this is definitely an incredibly entertaining choice.",
+          "vi": "Tôi sẽ cực kỳ gợi ý tổ chức các trò chơi trên bàn từ vựng tương tác nơi những người tham gia nhiệt tình có thể làm việc cùng nhau để giải các câu đố. Thông qua định dạng tương tác này, người chơi sẽ cải thiện khả năng tư duy nhanh nhạy của họ một cách trơn tru. Theo ý kiến thành thật của tôi, đây chắc chắn là một sự lựa chọn vô cùng giải trí."
         },
         {
-          "en": "Role-playing scenarios to simulate real-world interactions while simultaneously enhancing pronunciation accuracy. It would be incredibly fun to play a game involving creating imaginative short stories. I always look forward to hearing your amazing thoughts on this super cool subject today.",
-          "vi": "Nói về chủ đề thú vị này, chúng ta chắc chắn nên thử các tình huống nhập vai để mô phỏng tương tác thế giới thực đồng thời nâng cao sự chính xác trong phát âm. Sẽ vô cùng thú vị nếu chơi một trò chơi liên quan đến sáng tác các câu chuyện ngắn giàu trí tưởng tượng. Giả vờ gọi đồ ăn trong một nhà hàng bận rộn khiến việc học trở nên thực tế hơn nhiều so với việc chỉ đọc văn bản nhàm chán từ những cuốn sách ngữ pháp cũ. Tôi luôn mong chờ được nghe những suy nghĩ tuyệt vời của bạn về chủ đề này."
+          "en": "It might be a brilliant idea to introduce competitive spelling bee contests which requires students to compete against other small groups. Such a dynamic competition helps them reinforce newly learned grammar structures effectively. Overall, I consider this to be a remarkably educational approach.",
+          "vi": "Đó có thể là một ý tưởng tuyệt vời để giới thiệu các cuộc thi đánh vần cạnh tranh đòi hỏi học sinh cạnh tranh với các nhóm nhỏ khác. Một cuộc thi năng động như vậy giúp họ củng cố các cấu trúc ngữ pháp mới học một cách hiệu quả. Nhìn chung, tôi coi đây là một cách tiếp cận cực kỳ giáo dục."
         }
       ]
     }
   },
   "English club": {
     "q1": {
-      "member": "Member A",
+      "member": "Member B",
       "question": "I usually spend 6 hours a day studying English. How do you learn English?",
       "vi": "Tôi thường dành 6 giờ mỗi ngày để học tiếng Anh. Bạn học tiếng Anh như thế nào?",
       "vocab": [
-        "✨ [method]: <strong>watch videos</strong> (xem video), <strong>read books</strong> (đọc sách), <strong>immerse myself in authentic media</strong> (đắm chìm trong phương tiện truyền thông gốc), <strong>engage in language exchange</strong> (tham gia trao đổi ngôn ngữ), <strong>utilize interactive applications</strong> (sử dụng các ứng dụng tương tác)",
-        "✨ [time]: <strong>every day</strong> (mỗi ngày), <strong>at night</strong> (vào ban đêm), <strong>during my daily commute</strong> (trong lúc đi lại hàng ngày), <strong>in short intensive bursts</strong> (trong những khoảng thời gian ngắn tập trung cao độ), <strong>throughout my entire routine</strong> (trong suốt thói quen toàn bộ của tôi)",
-        "✨ [goal]: <strong>pass exams</strong> (vượt qua kỳ thi), <strong>get good marks</strong> (đạt điểm tốt), <strong>achieve native-like fluency</strong> (đạt được sự lưu loát như người bản xứ), <strong>master complex grammar structures</strong> (nắm vững cấu trúc ngữ pháp phức tạp), <strong>enhance listening comprehension</strong> (nâng cao khả năng nghe hiểu)",
-        "✨ [phương pháp học tập]: <strong>watching documentaries with English subtitles</strong> (xem phim tài liệu với phụ đề tiếng Anh), <strong>listening to educational podcasts on my commute</strong> (nghe podcast giáo dục trên đường đi làm), <strong>chatting with international pen pals online</strong> (trò chuyện với bạn qua thư quốc tế trực tuyến), <strong>reading contemporary fiction books</strong> (đọc sách viễn tưởng đương đại), <strong>keeping a daily journal in English</strong> (viết nhật ký hàng ngày bằng tiếng Anh)"
+        "✨ [phương pháp]: <strong>watching educational videos with subtitles</strong> (xem các video giáo dục có phụ đề), <strong>reading contemporary English literature</strong> (đọc văn học tiếng Anh đương đại), <strong>practicing speaking with language partners</strong> (thực hành nói với các đối tác ngôn ngữ), <strong>listening to informative daily podcasts</strong> (nghe các podcast thông tin hàng ngày), <strong>writing short personal diary entries</strong> (viết các mục nhật ký cá nhân ngắn)",
+        "✨ [tần suất]: <strong>for about two hours daily</strong> (trong khoảng hai giờ mỗi ngày), <strong>during my evening free time</strong> (trong thời gian rảnh rỗi buổi tối của tôi), <strong>on a consistent weekly basis</strong> (trên cơ sở hàng tuần nhất quán), <strong>whenever I commute to work</strong> (bất cứ khi nào tôi đi làm), <strong>mostly over the long weekends</strong> (chủ yếu qua những ngày cuối tuần dài)",
+        "✨ [lợi ích]: <strong>naturally absorb complex sentence structures</strong> (hấp thụ một cách tự nhiên các cấu trúc câu phức tạp), <strong>improve my overall listening comprehension</strong> (cải thiện khả năng đọc hiểu nghe tổng thể của tôi), <strong>steadily expand my active vocabulary</strong> (mở rộng vốn từ vựng tích cực của tôi một cách đều đặn), <strong>master difficult pronunciation patterns</strong> (nắm vững các mẫu phát âm khó), <strong>gain deeper cultural insights</strong> (có được những hiểu biết văn hóa sâu sắc hơn)",
+        "✨ [cảm xúc]: <strong>highly motivated and deeply inspired</strong> (có động lực cao và được truyền cảm hứng sâu sắc), <strong>surprisingly confident and relaxed</strong> (tự tin và thư giãn một cách đáng ngạc nhiên), <strong>intellectually stimulated and engaged</strong> (được kích thích trí tuệ và gắn kết), <strong>thoroughly entertained and focused</strong> (được giải trí triệt để và tập trung), <strong>increasingly passionate and driven</strong> (ngày càng đam mê và có định hướng)"
       ],
       "templates": [
-        "I prefer to [method] [time] in order to [goal]. My main strategy is to immerse myself in the language by [phương pháp học tập]. This is a very interesting thing to discuss with everyone now.",
-        "To [goal], my strategy is to [method] [time]. My main strategy is to immerse myself in the language by [phương pháp học tập]. It has clearly changed the way I see things in my daily life."
+        "Unlike you, I prefer [phương pháp] [tần suất]. I firmly believe that this approach allows me to [lợi ích] without feeling overwhelmed. Consequently, the entire learning process always makes me feel [cảm xúc].",
+        "As for my routine, I mostly focus on [phương pháp] [tần suất]. Adopting this specific strategy helps me [lợi ích] quite effectively. Most importantly, studying in this manner constantly keeps me [cảm xúc]."
       ],
       "samples": [
         {
-          "en": "I prefer to immerse myself in authentic media during my daily commute in order to achieve native-like fluency. My main strategy is to immerse myself in the language by watching documentaries with English subtitles. This is a very interesting thing to discuss with everyone now.",
-          "vi": "Đó là một chủ đề tuyệt vời! Tôi thích đắm chìm trong phương tiện truyền thông gốc trong lúc đi lại hàng ngày để đạt được sự lưu loát như người bản xứ. Chiến lược chính của tôi là hòa mình vào ngôn ngữ bằng cách xem phim tài liệu với phụ đề tiếng Anh. Việc nghe các podcast phổ biến của Anh khi lái xe biến hoàn toàn tình trạng tắc đường buổi sáng nhàm chán của tôi thành những buổi học ngôn ngữ giáo dục năng suất cao. Đây hoàn toàn là điều tôi thích thảo luận với mọi người."
+          "en": "Unlike you, I prefer watching educational videos with subtitles for about two hours daily. I firmly believe that this approach allows me to naturally absorb complex sentence structures without feeling overwhelmed. Consequently, the entire learning process always makes me feel highly motivated and deeply inspired.",
+          "vi": "Không giống như bạn, tôi thích xem các video giáo dục có phụ đề trong khoảng hai giờ mỗi ngày. Tôi tin tưởng vững chắc rằng cách tiếp cận này cho phép tôi hấp thụ một cách tự nhiên các cấu trúc câu phức tạp mà không cảm thấy bị choáng ngợp. Do đó, toàn bộ quá trình học tập luôn khiến tôi cảm thấy có động lực cao và được truyền cảm hứng sâu sắc."
         },
         {
-          "en": "To master complex grammar structures, my strategy is to utilize interactive applications in short intensive bursts. My main strategy is to immerse myself in the language by listening to educational podcasts on my commute. It has clearly changed the way I see things in my daily life.",
-          "vi": "Nói về chủ đề thú vị này, Để nắm vững cấu trúc ngữ pháp phức tạp, chiến lược của tôi là sử dụng các ứng dụng tương tác trong những khoảng thời gian ngắn tập trung cao độ. Chiến lược chính của tôi là hòa mình vào ngôn ngữ bằng cách nghe podcast giáo dục trên đường đi làm. Việc làm các bài kiểm tra kỹ thuật số nhanh mười lăm phút buộc não tôi phải chủ động nhớ lại các quy tắc ngay lập tức mà không gặp phải sự mệt mỏi tinh thần nghiêm trọng của các lớp học dài. Nó đã hoàn toàn thay đổi cách tôi nhìn nhận cuộc sống hàng ngày."
+          "en": "As for my routine, I mostly focus on reading contemporary English literature during my evening free time. Adopting this specific strategy helps me improve my overall listening comprehension quite effectively. Most importantly, studying in this manner constantly keeps me surprisingly confident and relaxed.",
+          "vi": "Về thói quen của tôi, tôi chủ yếu tập trung vào đọc văn học tiếng Anh đương đại trong thời gian rảnh rỗi buổi tối của tôi. Việc áp dụng chiến lược cụ thể này giúp tôi cải thiện khả năng đọc hiểu nghe tổng thể của tôi một cách khá hiệu quả. Quan trọng nhất, việc học theo cách này liên tục giữ cho tôi tự tin và thư giãn một cách đáng ngạc nhiên."
         }
       ]
     },
     "q2": {
-      "member": "Member B",
+      "member": "Member C",
       "question": "English is a popular language in the world. What are your thoughts on this idea?",
       "vi": "Tiếng Anh là một ngôn ngữ phổ biến trên thế giới. Suy nghĩ của bạn về ý kiến này là gì?",
       "vocab": [
-        "✨ [adjective]: <strong>true</strong> (đúng), <strong>clear</strong> (rõ ràng), <strong>undeniably accurate</strong> (chính xác không thể phủ nhận), <strong>widely acknowledged</strong> (được công nhận rộng rãi), <strong>historically significant</strong> (có ý nghĩa lịch sử)",
-        "✨ [function]: <strong>help travel</strong> (giúp du lịch), <strong>make friends</strong> (kết bạn), <strong>facilitate global commerce</strong> (tạo điều kiện cho thương mại toàn cầu), <strong>bridge cultural divides</strong> (thu hẹp khoảng cách văn hóa), <strong>accelerate scientific research</strong> (thúc đẩy nghiên cứu khoa học)",
-        "✨ [consequence]: <strong>better life</strong> (cuộc sống tốt hơn), <strong>more money</strong> (nhiều tiền hơn), <strong>unprecedented international collaboration</strong> (sự hợp tác quốc tế chưa từng có), <strong>boundless career opportunities</strong> (cơ hội nghề nghiệp vô hạn), <strong>universal knowledge accessibility</strong> (khả năng tiếp cận kiến thức phổ quát)",
-        "✨ [mục đích sử dụng]: <strong>accessing a wealth of academic research</strong> (tiếp cận vô số tài liệu nghiên cứu học thuật), <strong>securing better career opportunities globally</strong> (đảm bảo cơ hội nghề nghiệp tốt hơn trên toàn cầu), <strong>travelling independently across different continents</strong> (đi du lịch độc lập qua các lục địa khác nhau), <strong>connecting with people from diverse backgrounds</strong> (kết nối với những người từ các nền tảng đa dạng), <strong>understanding international pop culture</strong> (hiểu văn hóa đại chúng quốc tế)"
+        "✨ [nhận định]: <strong>an absolutely undeniable global fact</strong> (một sự thật toàn cầu hoàn toàn không thể phủ nhận), <strong>a universally acknowledged linguistic truth</strong> (một chân lý ngôn ngữ được thừa nhận phổ biến), <strong>a profoundly accurate modern observation</strong> (một sự quan sát hiện đại sâu sắc chính xác), <strong>a widely accepted cultural phenomenon</strong> (một hiện tượng văn hóa được chấp nhận rộng rãi), <strong>a completely valid contemporary statement</strong> (một tuyên bố đương đại hoàn toàn hợp lệ)",
+        "✨ [lý do]: <strong>serves as the primary international lingua franca</strong> (đóng vai trò là ngôn ngữ chung quốc tế chính), <strong>dominates global business and technology</strong> (thống trị hoạt động kinh doanh và công nghệ toàn cầu), <strong>connects diverse cultures seamlessly</strong> (kết nối các nền văn hóa đa dạng một cách liền mạch), <strong>facilitates cross-border academic research</strong> (tạo điều kiện cho nghiên cứu học thuật xuyên biên giới), <strong>breaks down geographical communication barriers</strong> (phá vỡ các rào cản giao tiếp địa lý)",
+        "✨ [kết quả]: <strong>unlock countless lucrative career opportunities</strong> (mở khóa vô số cơ hội nghề nghiệp sinh lợi), <strong>access a vast wealth of knowledge</strong> (tiếp cận một kho tàng kiến thức khổng lồ), <strong>foster meaningful international relationships</strong> (nuôi dưỡng những mối quan hệ quốc tế có ý nghĩa), <strong>participate in the global economy</strong> (tham gia vào nền kinh tế toàn cầu), <strong>navigate foreign countries with ease</strong> (điều hướng các quốc gia nước ngoài một cách dễ dàng)",
+        "✨ [hành động]: <strong>invest time in mastering it</strong> (đầu tư thời gian vào việc nắm vững nó), <strong>prioritize bilingual education early on</strong> (ưu tiên giáo dục song ngữ từ sớm), <strong>embrace continuous language practice</strong> (nắm lấy việc thực hành ngôn ngữ liên tục), <strong>utilize various digital learning tools</strong> (sử dụng các công cụ học tập kỹ thuật số khác nhau), <strong>encourage cross-cultural linguistic exchanges</strong> (khuyến khích trao đổi ngôn ngữ đa văn hóa)"
       ],
       "templates": [
-        "This statement is [adjective] because English can [function], leading to [consequence]. Its widespread use makes it an essential tool for [mục đích sử dụng]. It has clearly changed the way I see things in my daily life.",
-        "It is [adjective] that English serves to [function], which eventually creates [consequence]. Its widespread use makes it an essential tool for [mục đích sử dụng]. I would like to hear what everyone else thinks about this topic."
+        "I completely agree that this is [nhận định] because it [lý do]. By acquiring this essential skill, individuals can [kết quả]. Therefore, we should definitely [hành động] to secure a brighter future.",
+        "Without a doubt, such a claim represents [nhận định] since English effectively [lý do]. Consequently, those who are fluent will [kết quả], meaning that it is crucial to [hành động] as soon as possible."
       ],
       "samples": [
         {
-          "en": "This statement is undeniably accurate because English can facilitate global commerce, leading to unprecedented international collaboration. Its widespread use makes it an essential tool for accessing a wealth of academic research. It has clearly changed the way I see things in my daily life.",
-          "vi": "Đó là một chủ đề tuyệt vời! Tuyên bố này chính xác không thể phủ nhận vì tiếng Anh có thể tạo điều kiện cho thương mại toàn cầu, dẫn đến sự hợp tác quốc tế chưa từng có. Việc sử dụng rộng rãi của nó làm cho nó trở thành một công cụ thiết yếu cho tiếp cận vô số tài liệu nghiên cứu học thuật. Các công ty từ các châu lục hoàn toàn khác nhau có thể dễ dàng đàm phán các thỏa thuận thương mại khổng lồ cùng nhau mà không cần những người phiên dịch đắt đỏ ngồi ngượng ngùng trong phòng họp. Nó đã hoàn toàn thay đổi cách tôi nhìn nhận cuộc sống hàng ngày."
+          "en": "I completely agree that this is an absolutely undeniable global fact because it serves as the primary international lingua franca. By acquiring this essential skill, individuals can unlock countless lucrative career opportunities. Therefore, we should definitely invest time in mastering it to secure a brighter future.",
+          "vi": "Tôi hoàn toàn đồng ý rằng đây là một sự thật toàn cầu hoàn toàn không thể phủ nhận bởi vì nó đóng vai trò là ngôn ngữ chung quốc tế chính. Bằng cách có được kỹ năng thiết yếu này, các cá nhân có thể mở khóa vô số cơ hội nghề nghiệp sinh lợi. Vì vậy, chúng ta chắc chắn nên đầu tư thời gian vào việc nắm vững nó để đảm bảo một tương lai tươi sáng hơn."
         },
         {
-          "en": "It is widely acknowledged that English serves to bridge cultural divides, which eventually creates universal knowledge accessibility. Its widespread use makes it an essential tool for securing better career opportunities globally. I would like to hear what everyone else thinks about this topic.",
-          "vi": "Nói về chủ đề thú vị này, người ta công nhận rộng rãi rằng tiếng Anh phục vụ cho việc thu hẹp khoảng cách văn hóa, điều này cuối cùng tạo ra khả năng tiếp cận kiến thức phổ quát. Việc sử dụng rộng rãi của nó làm cho nó trở thành một công cụ thiết yếu cho đảm bảo cơ hội nghề nghiệp tốt hơn trên toàn cầu. Khi học sinh ở khắp mọi nơi đọc chính xác cùng một sách giáo khoa được dịch, họ ngay lập tức chia sẻ một sự hiểu biết chung tuyệt đẹp về thế giới hiện đại phức tạp của chúng ta. Tôi nóng lòng muốn nghe mọi người nghĩ gì về chủ đề này."
+          "en": "Without a doubt, such a claim represents a universally acknowledged linguistic truth since English effectively dominates global business and technology. Consequently, those who are fluent will access a vast wealth of knowledge, meaning that it is crucial to prioritize bilingual education early on as soon as possible.",
+          "vi": "Không có gì nghi ngờ, một tuyên bố như vậy đại diện cho một chân lý ngôn ngữ được thừa nhận phổ biến vì tiếng Anh thống trị hoạt động kinh doanh và công nghệ toàn cầu một cách hiệu quả. Do đó, những người thông thạo sẽ tiếp cận một kho tàng kiến thức khổng lồ, có nghĩa là điều quan trọng là phải ưu tiên giáo dục song ngữ từ sớm càng sớm càng tốt."
         }
       ]
     },
     "q3": {
-      "member": "Member C",
+      "member": "Member D",
       "question": "When do you usually use English?",
       "vi": "Bạn thường sử dụng tiếng Anh khi nào?",
       "vocab": [
-        "✨ [context]: <strong>at work</strong> (tại nơi làm việc), <strong>at school</strong> (ở trường), <strong>in professional environments</strong> (trong môi trường chuyên nghiệp), <strong>during academic pursuits</strong> (trong quá trình theo đuổi học thuật), <strong>in leisurely online interactions</strong> (trong các tương tác trực tuyến giải trí)",
-        "✨ [purpose]: <strong>send emails</strong> (gửi email), <strong>talk to people</strong> (nói chuyện với mọi người), <strong>draft comprehensive reports</strong> (soạn thảo các báo cáo toàn diện), <strong>consume international media</strong> (tiêu thụ truyền thông quốc tế), <strong>negotiate intricate contracts</strong> (đàm phán các hợp đồng phức tạp)",
-        "✨ [feeling]: <strong>good</strong> (tốt), <strong>happy</strong> (vui), <strong>intellectually empowered</strong> (được tiếp thêm sức mạnh trí tuệ), <strong>culturally connected</strong> (kết nối văn hóa), <strong>professionally confident</strong> (tự tin về mặt chuyên môn)",
-        "✨ [tình huống giao tiếp]: <strong>communicate with my overseas clients</strong> (giao tiếp với khách hàng nước ngoài của tôi), <strong>research complex topics for my assignments</strong> (nghiên cứu các chủ đề phức tạp cho bài tập của mình), <strong>navigate international travel booking sites</strong> (điều hướng các trang web đặt phòng du lịch quốc tế), <strong>write professional emails to foreign colleagues</strong> (viết email chuyên nghiệp cho đồng nghiệp nước ngoài), <strong>participate in global online forums</strong> (tham gia vào các diễn đàn trực tuyến toàn cầu)"
+        "✨ [hoàn cảnh]: <strong>during crucial international business meetings</strong> (trong các cuộc họp kinh doanh quốc tế quan trọng), <strong>while attending academic university lectures</strong> (trong khi tham dự các bài giảng đại học học thuật), <strong>when traveling to foreign destinations</strong> (khi đi du lịch đến các điểm đến nước ngoài), <strong>while participating in global online forums</strong> (trong khi tham gia các diễn đàn trực tuyến toàn cầu), <strong>during my daily internet research</strong> (trong quá trình nghiên cứu internet hàng ngày của tôi)",
+        "✨ [đối tượng]: <strong>overseas corporate clients and partners</strong> (các khách hàng và đối tác doanh nghiệp nước ngoài), <strong>international students and foreign professors</strong> (sinh viên quốc tế và các giáo sư nước ngoài), <strong>native speakers and fellow travelers</strong> (người bản ngữ và những người bạn đồng hành), <strong>people from diverse cultural backgrounds</strong> (những người từ các nền văn hóa đa dạng), <strong>experts in various professional fields</strong> (các chuyên gia trong các lĩnh vực chuyên môn khác nhau)",
+        "✨ [mục đích]: <strong>exchange complex ideas effectively</strong> (trao đổi các ý tưởng phức tạp một cách hiệu quả), <strong>negotiate important financial contracts</strong> (đàm phán các hợp đồng tài chính quan trọng), <strong>seek valuable academic advice</strong> (tìm kiếm lời khuyên học thuật có giá trị), <strong>share interesting personal experiences</strong> (chia sẻ những kinh nghiệm cá nhân thú vị), <strong>gather reliable primary information</strong> (thu thập thông tin sơ cấp đáng tin cậy)",
+        "✨ [kết quả]: <strong>broaden my professional global network</strong> (mở rộng mạng lưới toàn cầu chuyên nghiệp của tôi), <strong>expand my intellectual horizons</strong> (mở rộng chân trời tri thức của tôi), <strong>build lasting international friendships</strong> (xây dựng tình bạn quốc tế lâu dài), <strong>resolve complicated problems efficiently</strong> (giải quyết các vấn đề phức tạp một cách hiệu quả), <strong>enhance my cross-cultural communication skills</strong> (nâng cao kỹ năng giao tiếp đa văn hóa của tôi)"
       ],
       "templates": [
-        "I primarily use it [context] to [purpose], which makes me feel [feeling]. I find myself using it the most whenever I need to [tình huống giao tiếp]. I would like to hear what everyone else thinks about this topic.",
-        "Whenever I am [context], I must [purpose], leaving me [feeling]. I find myself using it the most whenever I need to [tình huống giao tiếp]. It has clearly changed the way I see things in my daily life."
+        "In my daily life, I primarily utilize the language [hoàn cảnh] to communicate directly with [đối tượng]. This regular practice allows me to [mục đích], which ultimately helps me [kết quả] in the long run.",
+        "Most of the time, I find myself speaking it [hoàn cảnh] alongside [đối tượng]. Doing so enables me to [mục đích] without any hesitation, thereby allowing me to [kết quả] quite significantly over time."
       ],
       "samples": [
         {
-          "en": "I primarily use it in professional environments to draft comprehensive reports, which makes me feel professionally confident. I find myself using it the most whenever I need to communicate with my overseas clients. I would like to hear what everyone else thinks about this topic.",
-          "vi": "Đó là một chủ đề tuyệt vời! Tôi chủ yếu sử dụng nó trong môi trường chuyên nghiệp để soạn thảo các báo cáo toàn diện, điều này khiến tôi cảm thấy tự tin về mặt chuyên môn. Tôi thấy mình sử dụng nó nhiều nhất bất cứ khi nào tôi cần giao tiếp với khách hàng nước ngoài của tôi. Việc trình bày các tài liệu hoàn hảo cho các quản lý cấp cao nghiêm khắc của tôi chứng minh sự cống hiến tột độ của tôi và làm nổi bật hoàn hảo khả năng giao tiếp mạnh mẽ của tôi tại nơi làm việc. Tôi nóng lòng muốn nghe mọi người nghĩ gì về chủ đề này."
+          "en": "In my daily life, I primarily utilize the language during crucial international business meetings to communicate directly with overseas corporate clients and partners. This regular practice allows me to exchange complex ideas effectively, which ultimately helps me broaden my professional global network in the long run.",
+          "vi": "Trong cuộc sống hàng ngày của tôi, tôi chủ yếu sử dụng ngôn ngữ trong các cuộc họp kinh doanh quốc tế quan trọng để giao tiếp trực tiếp với các khách hàng và đối tác doanh nghiệp nước ngoài. Việc thực hành thường xuyên này cho phép tôi trao đổi các ý tưởng phức tạp một cách hiệu quả, điều này cuối cùng giúp tôi mở rộng mạng lưới toàn cầu chuyên nghiệp của tôi về lâu dài."
         },
         {
-          "en": "Whenever I am in leisurely online interactions, I must consume international media, leaving me culturally connected. I find myself using it the most whenever I need to research complex topics for my assignments. It has clearly changed the way I see things in my daily life.",
-          "vi": "Nói về chủ đề thú vị này, bất cứ khi nào tôi trong các tương tác trực tuyến giải trí, tôi phải tiêu thụ truyền thông quốc tế, khiến tôi cảm thấy được kết nối văn hóa. Tôi thấy mình sử dụng nó nhiều nhất bất cứ khi nào tôi cần nghiên cứu các chủ đề phức tạp cho bài tập của mình. Việc xem các bộ phim tài liệu nước ngoài tuyệt vời mà không có phụ đề khó chịu cho phép tôi thực sự trân trọng giọng nói cảm xúc tinh tế của các đạo diễn phim tài năng gốc. Nó đã hoàn toàn thay đổi cách tôi nhìn nhận cuộc sống hàng ngày."
+          "en": "Most of the time, I find myself speaking it while attending academic university lectures alongside international students and foreign professors. Doing so enables me to negotiate important financial contracts without any hesitation, thereby allowing me to expand my intellectual horizons quite significantly over time.",
+          "vi": "Phần lớn thời gian, tôi thấy mình đang nói nó trong khi tham dự các bài giảng đại học học thuật cùng với sinh viên quốc tế và các giáo sư nước ngoài. Làm như vậy cho phép tôi đàm phán các hợp đồng tài chính quan trọng mà không có bất kỳ sự do dự nào, do đó cho phép tôi mở rộng chân trời tri thức của tôi khá đáng kể theo thời gian."
         }
       ]
     }
   },
   "Photography club": {
     "q1": {
-      "member": "Member A",
+      "member": "Member B",
       "question": "Hi! Welcome to the club. How to have a beautiful picture?",
       "vi": "Chào bạn! Chào mừng đến với câu lạc bộ. Làm thế nào để có một bức ảnh đẹp?",
       "vocab": [
-        "✨ [technique]: <strong>stand</strong> (đứng), <strong>look</strong> (nhìn), <strong>manipulate natural lighting</strong> (điều khiển ánh sáng tự nhiên), <strong>compose harmonious frames</strong> (sắp xếp bố cục khung hình hài hòa), <strong>adjust focal lengths</strong> (điều chỉnh tiêu cự)",
-        "✨ [subject]: <strong>people</strong> (người), <strong>things</strong> (đồ vật), <strong>candid emotional moments</strong> (những khoảnh khắc cảm xúc chân thực), <strong>breathtaking sprawling landscapes</strong> (phong cảnh trải dài ngoạn mục), <strong>intricate architectural details</strong> (chi tiết kiến trúc phức tạp)",
-        "✨ [result]: <strong>good photo</strong> (ảnh tốt), <strong>nice picture</strong> (bức tranh đẹp), <strong>a visually striking masterpiece</strong> (một kiệt tác ấn tượng về mặt thị giác), <strong>an evocative visual narrative</strong> (một câu chuyện hình ảnh gợi cảm xúc), <strong>a technically flawless shot</strong> (một bức ảnh hoàn hảo về mặt kỹ thuật)",
-        "✨ [yếu tố nhiếp ảnh]: <strong>the direction of natural light</strong> (hướng của ánh sáng tự nhiên), <strong>the framing of your main subject</strong> (cách tạo khung hình cho chủ thể chính), <strong>the balance of background elements</strong> (sự cân bằng của các yếu tố nền), <strong>the contrast between different colours</strong> (sự tương phản giữa các màu sắc khác nhau), <strong>the interesting angles of everyday objects</strong> (các góc nhìn thú vị của các vật thể hàng ngày)"
+        "✨ [yếu tố]: <strong>adequate natural lighting conditions</strong> (các điều kiện ánh sáng tự nhiên đầy đủ), <strong>an interesting central subject</strong> (một chủ thể trung tâm thú vị), <strong>a harmonious color palette</strong> (một bảng màu hài hòa), <strong>a visually appealing background</strong> (một phông nền hấp dẫn về mặt thị giác), <strong>balanced aesthetic proportions</strong> (các tỷ lệ thẩm mỹ cân bằng)",
+        "✨ [kỹ thuật]: <strong>utilize the rule of thirds</strong> (sử dụng quy tắc một phần ba), <strong>adjust the camera exposure settings</strong> (điều chỉnh các cài đặt phơi sáng của máy ảnh), <strong>experiment with different unique angles</strong> (thử nghiệm với các góc độc đáo khác nhau), <strong>focus on the intricate details</strong> (tập trung vào các chi tiết phức tạp), <strong>manage the depth of field</strong> (quản lý độ sâu trường ảnh)",
+        "✨ [hành động]: <strong>practice taking shots regularly</strong> (thực hành chụp ảnh thường xuyên), <strong>study works of professional photographers</strong> (nghiên cứu các tác phẩm của các nhiếp ảnh gia chuyên nghiệp), <strong>edit your raw files carefully</strong> (chỉnh sửa các tệp thô của bạn một cách cẩn thận), <strong>seek constructive feedback from peers</strong> (tìm kiếm phản hồi mang tính xây dựng từ bạn bè), <strong>invest in high-quality lenses</strong> (đầu tư vào các ống kính chất lượng cao)",
+        "✨ [kết quả]: <strong>capture truly breathtaking moments</strong> (ghi lại những khoảnh khắc thực sự ngoạn mục), <strong>produce highly professional images</strong> (tạo ra những hình ảnh mang tính chuyên nghiệp cao), <strong>evoke strong emotional responses</strong> (gợi lên những phản ứng cảm xúc mạnh mẽ), <strong>develop your personal artistic style</strong> (phát triển phong cách nghệ thuật cá nhân của bạn), <strong>create visually stunning compositions</strong> (tạo ra các bố cục tuyệt đẹp về mặt thị giác)"
       ],
       "templates": [
-        "To get [result], you should [technique] when capturing [subject]. You can dramatically improve your shots by simply paying attention to [yếu tố nhiếp ảnh]. It has clearly changed the way I see things in my daily life.",
-        "By taking care to [technique], highlighting [subject] will produce [result]. You can dramatically improve your shots by simply paying attention to [yếu tố nhiếp ảnh]. I would like to hear what everyone else thinks about this topic."
+        "To achieve this, you must prioritize [yếu tố] and learn to [kỹ thuật]. Furthermore, I recommend that you [hành động], as this continuous effort enables you to [kết quả].",
+        "Fundamentally, a masterpiece requires [yếu tố] combined with the ability to [kỹ thuật]. In addition, it is incredibly beneficial to [hành động] on a daily basis so that you can consistently [kết quả]."
       ],
       "samples": [
         {
-          "en": "To get a visually striking masterpiece, you should manipulate natural lighting when capturing candid emotional moments. You can dramatically improve your shots by simply paying attention to the direction of natural light. It has clearly changed the way I see things in my daily life.",
-          "vi": "Đó là một chủ đề tuyệt vời! Để có được một kiệt tác ấn tượng về mặt thị giác, bạn nên điều khiển ánh sáng tự nhiên khi ghi lại những khoảnh khắc cảm xúc chân thực. Bạn có thể cải thiện đáng kể các bức ảnh của mình chỉ bằng cách chú ý đến hướng của ánh sáng tự nhiên. Ánh sáng mặt trời buổi sáng dịu nhẹ hắt nhẹ lên khuôn mặt tươi cười tạo ra sự ấm áp đáng kinh ngạc mà đèn flash đắt tiền trong studio không bao giờ có thể sao chép hoàn hảo trong thực tế. Nó đã hoàn toàn thay đổi cách tôi nhìn nhận cuộc sống hàng ngày."
+          "en": "To achieve this, you must prioritize adequate natural lighting conditions and learn to utilize the rule of thirds. Furthermore, I recommend that you practice taking shots regularly, as this continuous effort enables you to capture truly breathtaking moments.",
+          "vi": "Để đạt được điều này, bạn phải ưu tiên các điều kiện ánh sáng tự nhiên đầy đủ và học cách sử dụng quy tắc một phần ba. Hơn nữa, tôi khuyên bạn nên thực hành chụp ảnh thường xuyên, vì nỗ lực liên tục này cho phép bạn ghi lại những khoảnh khắc thực sự ngoạn mục."
         },
         {
-          "en": "By taking care to compose harmonious frames, highlighting breathtaking sprawling landscapes will produce an evocative visual narrative. You can dramatically improve your shots by simply paying attention to the framing of your main subject. I would like to hear what everyone else thinks about this topic.",
-          "vi": "Nói về chủ đề thú vị này, bằng cách chú ý sắp xếp bố cục khung hình hài hòa, việc làm nổi bật phong cảnh trải dài ngoạn mục sẽ tạo ra một câu chuyện hình ảnh gợi cảm xúc. Bạn có thể cải thiện đáng kể các bức ảnh của mình chỉ bằng cách chú ý đến cách tạo khung hình cho chủ thể chính. Việc đặt những ngọn núi hùng vĩ khổng lồ chính xác ở hậu cảnh ngay lập tức cho người xem thấy con người thực sự nhỏ bé tuyệt vời như thế nào so với thiên nhiên hoang dã. Tôi nóng lòng muốn nghe mọi người nghĩ gì về chủ đề này."
+          "en": "Fundamentally, a masterpiece requires an interesting central subject combined with the ability to adjust the camera exposure settings. In addition, it is incredibly beneficial to study works of professional photographers on a daily basis so that you can consistently produce highly professional images.",
+          "vi": "Về cơ bản, một kiệt tác đòi hỏi một chủ thể trung tâm thú vị kết hợp với khả năng điều chỉnh các cài đặt phơi sáng của máy ảnh. Ngoài ra, điều vô cùng có lợi là nghiên cứu các tác phẩm của các nhiếp ảnh gia chuyên nghiệp trên cơ sở hàng ngày để bạn có thể liên tục tạo ra những hình ảnh mang tính chuyên nghiệp cao."
         }
       ]
     },
     "q2": {
-      "member": "Member B",
+      "member": "Member C",
       "question": "I often save my photos as files on my computer or print them out. How do you save your photos?",
       "vi": "Tôi thường lưu ảnh dưới dạng tệp trên máy tính hoặc in chúng ra. Bạn lưu ảnh của mình như thế nào?",
       "vocab": [
-        "✨ [method]: <strong>use USB</strong> (dùng USB), <strong>keep on phone</strong> (giữ trong điện thoại), <strong>leverage cloud storage solutions</strong> (tận dụng các giải pháp lưu trữ đám mây), <strong>maintain external hard drives</strong> (duy trì ổ cứng ngoài), <strong>curate physical photo albums</strong> (tuyển chọn album ảnh vật lý)",
-        "✨ [reason]: <strong>safe</strong> (an toàn), <strong>fast</strong> (nhanh), <strong>guarantee long-term preservation</strong> (đảm bảo bảo quản lâu dài), <strong>facilitate seamless cross-device syncing</strong> (tạo điều kiện đồng bộ hóa mượt mà trên các thiết bị), <strong>prevent disastrous data loss</strong> (ngăn chặn mất dữ liệu thảm khốc)",
-        "✨ [emotion]: <strong>happy</strong> (vui), <strong>calm</strong> (bình tĩnh), <strong>absolutely secure</strong> (hoàn toàn an tâm), <strong>incredibly convenient</strong> (vô cùng tiện lợi), <strong>deeply nostalgic</strong> (vô cùng hoài niệm)",
-        "✨ [nơi lưu trữ]: <strong>a secure cloud storage service</strong> (một dịch vụ lưu trữ đám mây an toàn), <strong>an external high-capacity hard drive</strong> (một ổ cứng ngoài dung lượng cao), <strong>a password-protected online gallery</strong> (một thư viện ảnh trực tuyến được bảo vệ bằng mật khẩu), <strong>a portable solid-state drive</strong> (một ổ cứng thể rắn di động), <strong>a dedicated physical photo album</strong> (một album ảnh vật lý chuyên dụng)"
+        "✨ [phương thức]: <strong>utilize secure cloud storage services</strong> (sử dụng các dịch vụ lưu trữ đám mây an toàn), <strong>back them up on external hard drives</strong> (sao lưu chúng trên các ổ cứng ngoài), <strong>create high-quality physical photo albums</strong> (tạo ra các album ảnh vật lý chất lượng cao), <strong>upload them to private online galleries</strong> (tải chúng lên các thư viện trực tuyến riêng tư), <strong>store them on dedicated flash drives</strong> (lưu trữ chúng trên các ổ flash chuyên dụng)",
+        "✨ [lý do]: <strong>offers massive digital storage capacity</strong> (cung cấp dung lượng lưu trữ kỹ thuật số khổng lồ), <strong>prevents unexpected data loss effectively</strong> (ngăn ngừa mất mát dữ liệu bất ngờ một cách hiệu quả), <strong>allows for easy cross-device accessibility</strong> (cho phép khả năng truy cập chéo thiết bị dễ dàng), <strong>keeps my digital workspace organized</strong> (giữ cho không gian làm việc kỹ thuật số của tôi có tổ chức), <strong>ensures long-term preservation of memories</strong> (đảm bảo sự bảo tồn lâu dài các kỷ niệm)",
+        "✨ [hành động]: <strong>categorize them into specific folders</strong> (phân loại chúng vào các thư mục cụ thể), <strong>label each file with relevant dates</strong> (dán nhãn mỗi tệp với các ngày tháng liên quan), <strong>delete any blurry or duplicate shots</strong> (xóa bất kỳ bức ảnh mờ hoặc trùng lặp nào), <strong>compress the high-resolution files</strong> (nén các tệp có độ phân giải cao), <strong>review my digital library periodically</strong> (xem lại thư viện kỹ thuật số của tôi một cách định kỳ)",
+        "✨ [kết quả]: <strong>retrieve specific memories instantly</strong> (truy xuất các kỷ niệm cụ thể ngay lập tức), <strong>protect my valuable artistic work</strong> (bảo vệ tác phẩm nghệ thuật quý giá của tôi), <strong>free up precious computer space</strong> (giải phóng không gian máy tính quý giá), <strong>maintain a well-structured collection</strong> (duy trì một bộ sưu tập có cấu trúc tốt), <strong>share my portfolio conveniently</strong> (chia sẻ danh mục đầu tư của tôi một cách thuận tiện)"
       ],
       "templates": [
-        "I usually [method] to [reason], which makes it [emotion]. To prevent losing my precious memories, I always back them up to [nơi lưu trữ]. It has clearly changed the way I see things in my daily life.",
-        "To [reason], my preferred way is to [method] because it feels [emotion]. To prevent losing my precious memories, I always back them up to [nơi lưu trữ]."
+        "Personally, I strongly prefer to [phương thức] simply because this modern approach [lý do]. Additionally, I always make sure to [hành động], which practically guarantees that I can [kết quả] whenever necessary.",
+        "Instead of printing, my usual method is to [phương thức] since it [lý do]. To optimize the process further, I try to [hành động], allowing me to successfully [kết quả] in the future."
       ],
       "samples": [
         {
-          "en": "I usually leverage cloud storage solutions to facilitate seamless cross-device syncing, which makes it incredibly convenient. To prevent losing my precious memories, I always back them up to a secure cloud storage service. It has clearly changed the way I see things in my daily life.",
-          "vi": "Đó là một chủ đề tuyệt vời! Tôi thường tận dụng các giải pháp lưu trữ đám mây để tạo điều kiện đồng bộ hóa mượt mà trên các thiết bị, điều này khiến nó vô cùng tiện lợi. Để tránh mất đi những kỷ niệm quý giá của mình, tôi luôn sao lưu chúng vào một dịch vụ lưu trữ đám mây an toàn. Việc có thể truy cập các tệp thô nặng của tôi ngay lập tức từ chiếc điện thoại nhỏ bé khi đang đi du lịch hoàn toàn tiết kiệm cho tôi một lượng lớn thời gian quý báu. Nó đã hoàn toàn thay đổi cách tôi nhìn nhận cuộc sống hàng ngày."
+          "en": "Personally, I strongly prefer to utilize secure cloud storage services simply because this modern approach offers massive digital storage capacity. Additionally, I always make sure to categorize them into specific folders, which practically guarantees that I can retrieve specific memories instantly whenever necessary.",
+          "vi": "Cá nhân tôi, tôi rất thích sử dụng các dịch vụ lưu trữ đám mây an toàn đơn giản bởi vì cách tiếp cận hiện đại này cung cấp dung lượng lưu trữ kỹ thuật số khổng lồ. Ngoài ra, tôi luôn đảm bảo phân loại chúng vào các thư mục cụ thể, điều này thực tế đảm bảo rằng tôi có thể truy xuất các kỷ niệm cụ thể ngay lập tức bất cứ khi nào cần thiết."
         },
         {
-          "en": "To prevent disastrous data loss, my preferred way is to maintain external hard drives because it feels absolutely secure. To prevent losing my precious memories, I always back them up to an external high-capacity hard drive.",
-          "vi": "Nói về chủ đề thú vị này, Để ngăn chặn mất dữ liệu thảm khốc, cách ưa thích của tôi là duy trì ổ cứng ngoài vì cảm giác hoàn toàn an tâm. Để tránh mất đi những kỷ niệm quý giá của mình, tôi luôn sao lưu chúng vào một ổ cứng ngoài dung lượng cao. Máy tính có thể đột ngột hỏng hóc bất cứ lúc nào, vì vậy việc lưu giữ các bản sao lưu ngoại tuyến nghiêm ngặt đảm bảo các sáng tạo nghệ thuật của tôi sống sót qua những tai nạn bất ngờ tồi tệ. Tôi hoàn toàn thích chia sẻ suy nghĩ này với bạn."
+          "en": "Instead of printing, my usual method is to back them up on external hard drives since it prevents unexpected data loss effectively. To optimize the process further, I try to label each file with relevant dates, allowing me to successfully protect my valuable artistic work in the future.",
+          "vi": "Thay vì in ấn, phương pháp thông thường của tôi là sao lưu chúng trên các ổ cứng ngoài vì nó ngăn ngừa mất mát dữ liệu bất ngờ một cách hiệu quả. Để tối ưu hóa quy trình hơn nữa, tôi cố gắng dán nhãn mỗi tệp với các ngày tháng liên quan, cho phép tôi bảo vệ tác phẩm nghệ thuật quý giá của tôi một cách thành công trong tương lai."
         }
       ]
     },
     "q3": {
-      "member": "Member C",
+      "member": "Member D",
       "question": "What skills do you need to take good photos?",
       "vi": "Bạn cần những kỹ năng gì để chụp những bức ảnh đẹp?",
       "vocab": [
-        "✨ [skill 1]: <strong>patience</strong> (sự kiên nhẫn), <strong>time</strong> (thời gian), <strong>impeccable timing</strong> (thời điểm hoàn hảo), <strong>spatial awareness</strong> (nhận thức không gian), <strong>technical proficiency</strong> (sự thành thạo kỹ thuật)",
-        "✨ [skill 2]: <strong>eyes</strong> (đôi mắt), <strong>hands</strong> (đôi tay), <strong>creative visualization</strong> (khả năng hình dung sáng tạo), <strong>adaptive problem-solving</strong> (giải quyết vấn đề linh hoạt), <strong>meticulous attention to detail</strong> (sự chú ý tỉ mỉ đến từng chi tiết)",
-        "✨ [purpose]: <strong>take pictures</strong> (chụp ảnh), <strong>make art</strong> (làm nghệ thuật), <strong>capture fleeting expressions</strong> (ghi lại những biểu cảm thoáng qua), <strong>convey profound underlying messages</strong> (truyền tải những thông điệp sâu sắc ẩn chứa), <strong>elevate ordinary mundane subjects</strong> (nâng tầm những chủ đề bình thường trần tục)",
-        "✨ [kỹ năng cần thiết]: <strong>a keen eye for unique details</strong> (một con mắt tinh tường cho các chi tiết độc đáo), <strong>plenty of patience to wait for the right moment</strong> (nhiều kiên nhẫn để chờ đợi khoảnh khắc thích hợp), <strong>a solid understanding of exposure settings</strong> (một sự hiểu biết vững chắc về các cài đặt phơi sáng), <strong>excellent visual storytelling abilities</strong> (khả năng kể chuyện bằng hình ảnh xuất sắc), <strong>strong interpersonal skills to make models comfortable</strong> (kỹ năng giao tiếp tốt để làm người mẫu thoải mái)"
+        "✨ [kỹ năng kỹ thuật]: <strong>master manual camera settings</strong> (nắm vững các cài đặt máy ảnh thủ công), <strong>understand complex lighting principles</strong> (hiểu các nguyên tắc ánh sáng phức tạp), <strong>manipulate digital editing software</strong> (thao tác trên phần mềm chỉnh sửa kỹ thuật số), <strong>control the shutter speed accurately</strong> (kiểm soát tốc độ màn trập một cách chính xác), <strong>balance the white exposure perfectly</strong> (cân bằng độ phơi sáng trắng một cách hoàn hảo)",
+        "✨ [kỹ năng nghệ thuật]: <strong>compose visually striking frames</strong> (tạo ra các khung hình nổi bật về mặt thị giác), <strong>identify unique perspectives creatively</strong> (xác định các góc nhìn độc đáo một cách sáng tạo), <strong>capture spontaneous human emotions</strong> (ghi lại những cảm xúc tự phát của con người), <strong>harmonize contrasting colors effectively</strong> (hài hòa các màu sắc tương phản một cách hiệu quả), <strong>tell a compelling visual story</strong> (kể một câu chuyện hình ảnh hấp dẫn)",
+        "✨ [phẩm chất]: <strong>immense patience and dedication</strong> (sự kiên nhẫn và cống hiến to lớn), <strong>keen attention to minute details</strong> (sự chú ý nhạy bén đến các chi tiết nhỏ), <strong>a highly adaptable creative mindset</strong> (một tư duy sáng tạo có khả năng thích ứng cao), <strong>profound artistic sensitivity and passion</strong> (sự nhạy cảm và đam mê nghệ thuật sâu sắc), <strong>consistent perseverance despite failures</strong> (sự kiên trì nhất quán bất chấp thất bại)",
+        "✨ [kết quả]: <strong>produce extraordinary photographic masterpieces</strong> (tạo ra những kiệt tác nhiếp ảnh phi thường), <strong>stand out in the creative industry</strong> (nổi bật trong ngành công nghiệp sáng tạo), <strong>express your unique inner vision</strong> (thể hiện tầm nhìn nội tâm độc đáo của bạn), <strong>build a stunning professional portfolio</strong> (xây dựng một danh mục đầu tư chuyên nghiệp tuyệt đẹp), <strong>leave a lasting visual impact</strong> (để lại một tác động hình ảnh lâu dài)"
       ],
       "templates": [
-        "You primarily need [skill 1] and [skill 2] to [purpose]. A successful photographer really needs to have [kỹ năng cần thiết]. It is always very nice to connect with all of you over such interesting topics.",
-        "Developing [skill 1] alongside [skill 2] is vital to [purpose]. A successful photographer really needs to have [kỹ năng cần thiết]. I will definitely keep doing this because it brings me so much joy."
+        "In my honest opinion, you must [kỹ năng kỹ thuật] while continuously striving to [kỹ năng nghệ thuật]. Moreover, possessing [phẩm chất] is absolutely essential if you truly wish to [kết quả] in this competitive field.",
+        "To truly excel, one needs to [kỹ năng kỹ thuật] and simultaneously learn to [kỹ năng nghệ thuật]. Beyond mere technical knowledge, having [phẩm chất] will undoubtedly help an aspiring photographer to [kết quả] eventually."
       ],
       "samples": [
         {
-          "en": "You primarily need impeccable timing and creative visualization to capture fleeting expressions. A successful photographer really needs to have a keen eye for unique details. It is always very nice to connect with all of you over such interesting topics.",
-          "vi": "Đó là một chủ đề tuyệt vời! Bạn chủ yếu cần thời điểm hoàn hảo và khả năng hình dung sáng tạo để ghi lại những biểu cảm thoáng qua. Một nhiếp ảnh gia thành công thực sự cần phải có một con mắt tinh tường cho các chi tiết độc đáo. Việc im lặng chờ đợi giây phút kỳ diệu duy nhất đó khi một đứa trẻ nhút nhát cuối cùng cũng cười thật tươi khiến bức chân dung của bạn ngay lập tức biến thành một kiệt tác vô giá và hoàn toàn khó quên. Thật tuyệt vời khi được kết nối với tất cả các bạn qua những chủ đề hay."
+          "en": "In my honest opinion, you must master manual camera settings while continuously striving to compose visually striking frames. Moreover, possessing immense patience and dedication is absolutely essential if you truly wish to produce extraordinary photographic masterpieces in this competitive field.",
+          "vi": "Theo ý kiến thành thật của tôi, bạn phải nắm vững các cài đặt máy ảnh thủ công trong khi liên tục nỗ lực để tạo ra các khung hình nổi bật về mặt thị giác. Hơn nữa, việc sở hữu sự kiên nhẫn và cống hiến to lớn là hoàn toàn cần thiết nếu bạn thực sự mong muốn tạo ra những kiệt tác nhiếp ảnh phi thường trong lĩnh vực cạnh tranh này."
         },
         {
-          "en": "Developing technical proficiency alongside meticulous attention to detail is vital to convey profound underlying messages. A successful photographer really needs to have plenty of patience to wait for the right moment. I will definitely keep doing this because it brings me so much joy.",
-          "vi": "Nói về chủ đề thú vị này, việc phát triển sự thành thạo kỹ thuật cùng với sự chú ý tỉ mỉ đến từng chi tiết là điều quan trọng để truyền tải những thông điệp sâu sắc ẩn chứa. Một nhiếp ảnh gia thành công thực sự cần phải có nhiều kiên nhẫn để chờ đợi khoảnh khắc thích hợp. Việc biết chính xác cách điều khiển bóng tối một cách hoàn hảo giúp các nhiếp ảnh gia cẩn thận xây dựng những tâm trạng bí ẩn đen tối buộc người xem phải suy nghĩ lại về những nỗi sợ hãi ẩn giấu bí mật của chính họ. Tôi siêu hào hứng tiếp tục làm điều này vì nó mang lại niềm vui."
+          "en": "To truly excel, one needs to understand complex lighting principles and simultaneously learn to identify unique perspectives creatively. Beyond mere technical knowledge, having keen attention to minute details will undoubtedly help an aspiring photographer to stand out in the creative industry eventually.",
+          "vi": "Để thực sự xuất sắc, người ta cần hiểu các nguyên tắc ánh sáng phức tạp và đồng thời học cách xác định các góc nhìn độc đáo một cách sáng tạo. Vượt ra ngoài kiến thức kỹ thuật đơn thuần, việc có sự chú ý nhạy bén đến các chi tiết nhỏ chắc chắn sẽ giúp một nhiếp ảnh gia đầy tham vọng nổi bật trong ngành công nghiệp sáng tạo cuối cùng."
         }
       ]
     }
@@ -2701,73 +2652,73 @@ export const part3Data = {
       "question": "I went for a walk in the forest last month and I got lost. Can you tell me about a time when you got lost?",
       "vi": "Tôi đã đi dạo trong rừng tháng trước và tôi bị lạc. Bạn có thể kể cho tôi về một lần bạn bị lạc không?",
       "vocab": [
-        "✨ [action]: <strong>go</strong> (đi), <strong>walk</strong> (đi bộ), <strong>wander</strong> (đi lang thang), <strong>explore</strong> (khám phá), <strong>traverse</strong> (đi ngang qua)",
-        "✨ [feeling]: <strong>sad</strong> (buồn), <strong>bad</strong> (tồi tệ), <strong>terrified</strong> (khiếp sợ), <strong>disoriented</strong> (mất phương hướng), <strong>overwhelmed</strong> (choáng ngợp)",
-        "✨ [solution]: <strong>ask</strong> (hỏi), <strong>map</strong> (bản đồ), <strong>navigate</strong> (điều hướng), <strong>retrace</strong> (lần theo), <strong>locate</strong> (tìm vị trí)",
-        "✨ [thông tin quan trọng]: <strong>to bring a physical map with me</strong> (mang theo bản đồ vật lý), <strong>to charge my mobile phone fully</strong> (sạc đầy điện thoại di động), <strong>to note down the name of my hotel</strong> (ghi lại tên khách sạn của tôi), <strong>to check the public transport schedule</strong> (kiểm tra lịch trình giao thông công cộng), <strong>to inform my friends about my planned route</strong> (thông báo cho bạn bè về tuyến đường dự kiến của tôi)"
+        "✨ [địa điểm]: <strong>a dense forest</strong> (một khu rừng rậm rạp), <strong>a remote mountainous area</strong> (một khu vực miền núi hẻo lánh), <strong>an unfamiliar city</strong> (một thành phố xa lạ), <strong>a huge national park</strong> (một công viên quốc gia khổng lồ), <strong>a sprawling countryside</strong> (một vùng nông thôn rộng lớn)",
+        "✨ [nguyên nhân]: <strong>my phone died</strong> (điện thoại của tôi hết pin), <strong>I forgot my map</strong> (tôi quên bản đồ), <strong>I took the wrong turn</strong> (tôi rẽ nhầm hướng), <strong>I lost my sense of direction</strong> (tôi mất phương hướng), <strong>I followed a wrong trail</strong> (tôi đi theo một con đường mòn sai)",
+        "✨ [cảm xúc]: <strong>absolutely terrified</strong> (vô cùng khiếp sợ), <strong>completely panicked</strong> (hoàn toàn hoảng loạn), <strong>extremely anxious</strong> (cực kỳ lo lắng), <strong>quite helpless</strong> (khá bất lực), <strong>pretty overwhelmed</strong> (khá choáng ngợp)",
+        "✨ [hành động giải quyết]: <strong>asked a local for help</strong> (nhờ một người dân địa phương giúp đỡ), <strong>followed the river downstream</strong> (đi theo dòng sông xuống hạ lưu), <strong>managed to find a road</strong> (tìm được một con đường), <strong>waited for a rescue team</strong> (chờ đội cứu hộ), <strong>retraced my steps carefully</strong> (cẩn thận đi ngược lại bước chân của mình)"
       ],
       "templates": [
-        "I remember when I decided to [action] in the city. I was wandering in an unfamiliar place and completely forgot [thông tin quan trọng]. I felt completely [feeling] after losing my way. Fortunately, I managed to [solution] my steps back to the hotel safely.",
-        "Once, I chose to [action] alone in a foreign country. I was wandering in an unfamiliar place and completely forgot [thông tin quan trọng]. I became incredibly [feeling] when I realized I was lost. However, I used my phone to [solution] the right path."
+        "I once got completely lost in [địa điểm] because [nguyên nhân]. Consequently, I felt [cảm xúc] since I was alone. Fortunately, I finally [hành động giải quyết] and safely returned to my hotel before dark.",
+        "A few years ago, I was wandering around [địa điểm] when [nguyên nhân]. Given that situation, it was natural to feel [cảm xúc]. Ultimately, I [hành động giải quyết], which was a huge relief for me."
       ],
       "samples": [
         {
-          "en": "I remember when I decided to explore in the city. I was wandering in an unfamiliar place and completely forgot to bring a physical map with me. I felt completely disoriented after losing my way. Fortunately, I managed to retrace my steps back to the hotel safely.",
-          "vi": "Đó là một chủ đề tuyệt vời! Tôi nhớ rõ khi tôi quyết định khám phá một mình trong thành phố rộng lớn. Tôi đang lang thang ở một nơi xa lạ và hoàn toàn quên mất mang theo bản đồ vật lý. Tôi cảm thấy hoàn toàn mất phương hướng sau khi lạc đường. May mắn thay, cuối cùng tôi đã có thể lần theo dấu vết trở lại khách sạn an toàn trước khi trời tối."
+          "en": "I once got completely lost in a dense forest because my phone died. Consequently, I felt absolutely terrified since I was alone. Fortunately, I finally asked a local for help and safely returned to my hotel before dark.",
+          "vi": "Tôi đã từng bị lạc hoàn toàn trong một khu rừng rậm rạp vì điện thoại của tôi hết pin. Hậu quả là, tôi cảm thấy vô cùng khiếp sợ vì tôi chỉ có một mình. May mắn thay, cuối cùng tôi đã nhờ một người dân địa phương giúp đỡ và trở về khách sạn an toàn trước khi trời tối."
         },
         {
-          "en": "Once, I chose to wander alone in a foreign country. I was wandering in an unfamiliar place and completely forgot to charge my mobile phone fully. I became incredibly terrified when I realized I was lost. However, I used my phone to locate the right path.",
-          "vi": "Nói về chủ đề thú vị này, có lần, tôi dũng cảm chọn đi lang thang một mình ở một đất nước hoàn toàn xa lạ. Tôi đang lang thang ở một nơi xa lạ và hoàn toàn quên mất sạc đầy điện thoại di động. Tôi trở nên vô cùng khiếp sợ khi nhận ra mình bị lạc. Tuy nhiên, tôi đã bình tĩnh sử dụng GPS của điện thoại thông minh để tìm chính xác con đường dẫn về nơi an toàn."
+          "en": "A few years ago, I was wandering around a remote mountainous area when I forgot my map. Given that situation, it was natural to feel completely panicked. Ultimately, I followed the river downstream, which was a huge relief for me.",
+          "vi": "Vài năm trước, tôi đang đi lang thang quanh một khu vực miền núi hẻo lánh thì tôi quên bản đồ. Căn cứ vào tình huống đó, thật tự nhiên khi cảm thấy hoàn toàn hoảng loạn. Cuối cùng, tôi đi theo dòng sông xuống hạ lưu, điều này là một sự nhẹ nhõm lớn đối với tôi."
         }
       ]
     },
     "q2": {
-      "member": "Member A",
+      "member": "Member B",
       "question": "I like visiting the mountains because they are so peaceful. What kinds of places do you like to visit and why?",
       "vi": "Tôi thích đến thăm những ngọn núi vì chúng rất yên bình. Bạn thích đến thăm những loại địa điểm nào và tại sao?",
       "vocab": [
-        "✨ [place]: <strong>park</strong> (công viên), <strong>beach</strong> (bãi biển), <strong>wilderness</strong> (vùng hoang dã), <strong>sanctuary</strong> (khu bảo tồn), <strong>landscape</strong> (phong cảnh)",
-        "✨ [feeling]: <strong>good</strong> (tốt), <strong>happy</strong> (vui), <strong>tranquil</strong> (yên tĩnh), <strong>serene</strong> (thanh bình), <strong>captivated</strong> (bị say đắm)",
-        "✨ [reason]: <strong>rest</strong> (nghỉ ngơi), <strong>play</strong> (chơi), <strong>unwind</strong> (thư giãn), <strong>rejuvenate</strong> (trẻ lại), <strong>disconnect</strong> (ngắt kết nối)",
-        "✨ [trải nghiệm du lịch]: <strong>breathtaking coastal landscapes</strong> (phong cảnh ven biển ngoạn mục), <strong>rich historical and cultural insights</strong> (sự hiểu biết sâu sắc về lịch sử và văn hóa), <strong>a quiet escape from the bustling city</strong> (một lối thoát yên tĩnh khỏi thành phố nhộn nhịp), <strong>authentic local culinary adventures</strong> (cuộc phiêu lưu ẩm thực địa phương đích thực), <strong>opportunities to observe native wildlife</strong> (cơ hội quan sát động vật hoang dã bản địa)"
+        "✨ [địa điểm yêu thích]: <strong>tranquil coastal areas</strong> (những vùng ven biển yên tĩnh), <strong>secluded mountainous regions</strong> (những khu vực miền núi hẻo lánh), <strong>breathtaking national parks</strong> (những công viên quốc gia ngoạn mục), <strong>lush tropical forests</strong> (những khu rừng nhiệt đới tươi tốt), <strong>serene lakesides</strong> (những bờ hồ thanh bình)",
+        "✨ [lý do]: <strong>they boast spectacular scenery</strong> (chúng tự hào có phong cảnh ngoạn mục), <strong>they offer pristine landscapes</strong> (chúng mang đến những cảnh quan hoang sơ), <strong>they feature untouched nature</strong> (chúng có thiên nhiên nguyên sơ), <strong>they are away from city noise</strong> (chúng tránh xa tiếng ồn thành phố), <strong>they provide a peaceful atmosphere</strong> (chúng cung cấp một bầu không khí yên bình)",
+        "✨ [hoạt động trải nghiệm]: <strong>immerse myself in nature</strong> (hòa mình vào thiên nhiên), <strong>take long hikes</strong> (đi bộ đường dài), <strong>go camping under the stars</strong> (đi cắm trại dưới những vì sao), <strong>observe local wildlife</strong> (quan sát động vật hoang dã địa phương), <strong>take stunning landscape photographs</strong> (chụp những bức ảnh phong cảnh tuyệt đẹp)",
+        "✨ [lợi ích tinh thần]: <strong>relieve my accumulated stress</strong> (giải tỏa căng thẳng tích tụ của tôi), <strong>recharge my inner batteries</strong> (nạp lại năng lượng bên trong của tôi), <strong>find profound mental clarity</strong> (tìm thấy sự minh mẫn tinh thần sâu sắc), <strong>escape my hectic routine</strong> (thoát khỏi thói quen bận rộn của tôi), <strong>cultivate a sense of tranquility</strong> (nuôi dưỡng cảm giác thanh bình)"
       ],
       "templates": [
-        "I personally prefer visiting the [place] during my holidays. I always feel drawn to destinations that offer [trải nghiệm du lịch]. Being there makes me feel incredibly [feeling]. It is the perfect environment for me to [reason] after a long stressful week.",
-        "My favorite destination is definitely the [place] near my hometown. I always feel drawn to destinations that offer [trải nghiệm du lịch]. The atmosphere there is always very [feeling]. I go there frequently because it helps me [reason] and forget my worries."
+        "Personally, I have a strong preference for visiting [địa điểm yêu thích] primarily because [lý do]. Whenever I travel to such destinations, I can effortlessly [hoạt động trải nghiệm], which eventually helps me [lợi ích tinh thần] after a hard-working period.",
+        "I am absolutely passionate about exploring [địa điểm yêu thích] due to the fact that [lý do]. Such an environment allows me to [hoạt động trải nghiệm] and [lợi ích tinh thần], making every trip incredibly worthwhile for my well-being."
       ],
       "samples": [
         {
-          "en": "I personally prefer visiting the wilderness during my holidays. I always feel drawn to destinations that offer breathtaking coastal landscapes. Being there makes me feel incredibly tranquil. It is the perfect environment for me to unwind after a long stressful week.",
-          "vi": "Đó là một chủ đề tuyệt vời! Cá nhân tôi thích đến thăm vùng hoang dã hẻo lánh trong những kỳ nghỉ dài. Tôi luôn cảm thấy bị thu hút bởi những điểm đến cung cấp phong cảnh ven biển ngoạn mục. Ở đó được bao quanh bởi những cái cây cao khiến tôi cảm thấy vô cùng yên tĩnh. Đó là một môi trường hoàn hảo để tôi hoàn toàn thư giãn sau một tuần làm việc dài căng thẳng."
+          "en": "Personally, I have a strong preference for visiting tranquil coastal areas primarily because they boast spectacular scenery. Whenever I travel to such destinations, I can effortlessly immerse myself in nature, which eventually helps me relieve my accumulated stress after a hard-working period.",
+          "vi": "Cá nhân tôi, tôi có sở thích mạnh mẽ đối với việc đến thăm những vùng ven biển yên tĩnh chủ yếu vì chúng tự hào có phong cảnh ngoạn mục. Bất cứ khi nào tôi đi du lịch đến những điểm đến như vậy, tôi có thể dễ dàng hòa mình vào thiên nhiên, điều này cuối cùng giúp tôi giải tỏa căng thẳng tích tụ của tôi sau một khoảng thời gian làm việc chăm chỉ."
         },
         {
-          "en": "My favorite destination is definitely the sanctuary near my hometown. I always feel drawn to destinations that offer rich historical and cultural insights. The atmosphere there is always very serene. I go there frequently because it helps me rejuvenate and forget my worries.",
-          "vi": "Nói về chủ đề thú vị này, Điểm đến tuyệt đối yêu thích của tôi chắc chắn là khu bảo tồn động vật hoang dã yên bình nằm gần quê tôi. Tôi luôn cảm thấy bị thu hút bởi những điểm đến cung cấp sự hiểu biết sâu sắc về lịch sử và văn hóa. Không khí ở đó luôn rất thanh bình. Tôi thường xuyên đến đó vì nó thực sự giúp tôi phục hồi tâm trí mệt mỏi và hoàn toàn quên đi những lo lắng hàng ngày."
+          "en": "I am absolutely passionate about exploring secluded mountainous regions due to the fact that they offer pristine landscapes. Such an environment allows me to take long hikes and recharge my inner batteries, making every trip incredibly worthwhile for my well-being.",
+          "vi": "Tôi hoàn toàn đam mê khám phá những khu vực miền núi hẻo lánh do thực tế là chúng mang đến những cảnh quan hoang sơ. Một môi trường như vậy cho phép tôi đi bộ đường dài và nạp lại năng lượng bên trong của tôi, làm cho mỗi chuyến đi trở nên vô cùng đáng giá cho sức khỏe của tôi."
         }
       ]
     },
     "q3": {
-      "member": "Member A",
+      "member": "Member C",
       "question": "Large group holidays in areas of natural beauty are becoming more and more popular. I'm not sure that's a good thing. Do you agree? Why or why not?",
       "vi": "Các kỳ nghỉ nhóm lớn ở những khu vực có vẻ đẹp tự nhiên đang ngày càng trở nên phổ biến. Tôi không chắc đó là một điều tốt. Bạn có đồng ý không? Tại sao hoặc tại sao không?",
       "vocab": [
-        "✨ [impact]: <strong>bad</strong> (xấu), <strong>hurt</strong> (làm đau), <strong>devastating</strong> (tàn phá), <strong>detrimental</strong> (có hại), <strong>disruptive</strong> (gây rối)",
-        "✨ [environment]: <strong>trees</strong> (cây cối), <strong>animals</strong> (động vật), <strong>ecosystem</strong> (hệ sinh thái), <strong>habitat</strong> (môi trường sống), <strong>biodiversity</strong> (đa dạng sinh học)",
-        "✨ [solution]: <strong>stop</strong> (dừng lại), <strong>limit</strong> (giới hạn), <strong>regulate</strong> (quy định), <strong>preserve</strong> (bảo tồn), <strong>mitigate</strong> (giảm nhẹ)",
-        "✨ [tác động tiêu cực]: <strong>severe damage to local ecosystems</strong> (thiệt hại nghiêm trọng cho hệ sinh thái địa phương), <strong>an excessive amount of plastic waste</strong> (một lượng rác thải nhựa quá mức), <strong>the disruption of animal habitats</strong> (sự phá vỡ môi trường sống của động vật), <strong>unbearable noise pollution for residents</strong> (ô nhiễm tiếng ồn không thể chịu đựng được cho cư dân), <strong>the rapid loss of natural charm</strong> (sự mất đi nhanh chóng của vẻ đẹp tự nhiên)"
+        "✨ [sự đồng tình]: <strong>completely share your concern</strong> (hoàn toàn chia sẻ mối quan tâm của bạn), <strong>entirely agree with your perspective</strong> (hoàn toàn đồng ý với quan điểm của bạn), <strong>firmly support your viewpoint</strong> (kiên quyết ủng hộ quan điểm của bạn), <strong>totally side with you</strong> (hoàn toàn đứng về phía bạn), <strong>definitely echo your sentiments</strong> (chắc chắn đồng tình với cảm xúc của bạn)",
+        "✨ [hậu quả môi trường]: <strong>cause severe ecological damage</strong> (gây ra thiệt hại sinh thái nghiêm trọng), <strong>leave behind massive carbon footprints</strong> (để lại dấu chân carbon khổng lồ), <strong>disrupt natural wildlife habitats</strong> (phá vỡ môi trường sống của động vật hoang dã tự nhiên), <strong>generate excessive plastic waste</strong> (tạo ra lượng rác thải nhựa quá mức), <strong>degrade delicate local ecosystems</strong> (làm suy thoái các hệ sinh thái địa phương mỏng manh)",
+        "✨ [hậu quả trải nghiệm]: <strong>ruin the peaceful atmosphere</strong> (phá hỏng bầu không khí yên bình), <strong>overcrowd serene destinations</strong> (làm quá tải những điểm đến thanh bình), <strong>diminish the authenticity of the trip</strong> (làm giảm tính xác thực của chuyến đi), <strong>create disturbing noise pollution</strong> (tạo ra ô nhiễm tiếng ồn đáng lo ngại), <strong>make the place excessively commercialized</strong> (làm cho nơi này bị thương mại hóa quá mức)",
+        "✨ [giải pháp đề xuất]: <strong>restrict the number of visitors</strong> (hạn chế số lượng du khách), <strong>promote sustainable tourism practices</strong> (thúc đẩy các hoạt động du lịch bền vững), <strong>impose stricter environmental regulations</strong> (áp đặt các quy định môi trường nghiêm ngặt hơn), <strong>encourage small group tours</strong> (khuyến khích các chuyến tham quan nhóm nhỏ), <strong>implement heavy fines for littering</strong> (thực hiện phạt nặng đối với việc xả rác)"
       ],
       "templates": [
-        "I strongly agree that large groups have a [impact] effect on nature. Mass tourism in these sensitive areas frequently leads to [tác động tiêu cực]. They can easily damage the delicate [environment]. Therefore, we must [solution] the number of visitors to protect nature.",
-        "It is clear that mass tourism brings [impact] consequences to natural sites. Mass tourism in these sensitive areas frequently leads to [tác động tiêu cực]. The local [environment] suffers greatly from overcrowding. The government should [solution] these activities before it is absolutely too late."
+        "I [sự đồng tình] on this matter. Having large tourist groups can [hậu quả môi trường] and [hậu quả trải nghiệm]. Therefore, local authorities should [giải pháp đề xuất] to preserve these breathtaking landscapes for future generations.",
+        "To be honest, I [sự đồng tình] because mass tourism often tends to [hậu quả môi trường]. In addition, such a trend will certainly [hậu quả trải nghiệm]. Consequently, we must [giải pháp đề xuất] before the damage becomes irreversible."
       ],
       "samples": [
         {
-          "en": "I strongly agree that large groups have a detrimental effect on nature. Mass tourism in these sensitive areas frequently leads to severe damage to local ecosystems. They can easily damage the delicate ecosystem. Therefore, we must regulate the number of visitors to protect nature.",
-          "vi": "Đó là một chủ đề tuyệt vời! Tôi hoàn toàn đồng ý rằng các nhóm du lịch lớn có tác động có hại nặng nề đến thiên nhiên. Du lịch đại chúng ở những khu vực nhạy cảm này thường dẫn đến thiệt hại nghiêm trọng cho hệ sinh thái địa phương. Chúng có thể dễ dàng làm hỏng hệ sinh thái địa phương mỏng manh. Do đó, chúng ta phải quy định nghiêm ngặt số lượng du khách hàng ngày để bảo vệ hoàn toàn thiên nhiên cho các thế hệ tương lai."
+          "en": "I completely share your concern on this matter. Having large tourist groups can cause severe ecological damage and ruin the peaceful atmosphere. Therefore, local authorities should restrict the number of visitors to preserve these breathtaking landscapes for future generations.",
+          "vi": "Tôi hoàn toàn chia sẻ mối quan tâm của bạn về vấn đề này. Việc có các nhóm du lịch lớn có thể gây ra thiệt hại sinh thái nghiêm trọng và phá hỏng bầu không khí yên bình. Do đó, chính quyền địa phương nên hạn chế số lượng du khách để bảo tồn những cảnh quan ngoạn mục này cho các thế hệ tương lai."
         },
         {
-          "en": "It is clear that mass tourism brings devastating consequences to natural sites. Mass tourism in these sensitive areas frequently leads to an excessive amount of plastic waste. The local habitat suffers greatly from overcrowding. The government should mitigate these activities before it is absolutely too late.",
-          "vi": "Nói về chủ đề thú vị này, hoàn toàn rõ ràng là du lịch đại chúng mang lại những hậu quả tàn phá cho các địa điểm tự nhiên tuyệt đẹp. Du lịch đại chúng ở những khu vực nhạy cảm này thường dẫn đến một lượng rác thải nhựa quá mức. Môi trường sống của động vật hoang dã địa phương bị ảnh hưởng nặng nề bởi tình trạng quá tải nghiêm trọng. Chính phủ nên nhanh chóng giảm nhẹ các hoạt động có hại này trước khi quá muộn đối với môi trường."
+          "en": "To be honest, I entirely agree with your perspective because mass tourism often tends to leave behind massive carbon footprints. In addition, such a trend will certainly overcrowd serene destinations. Consequently, we must promote sustainable tourism practices before the damage becomes irreversible.",
+          "vi": "Thành thật mà nói, tôi hoàn toàn đồng ý với quan điểm của bạn vì du lịch đại trà thường có xu hướng để lại dấu chân carbon khổng lồ. Ngoài ra, một xu hướng như vậy chắc chắn sẽ làm quá tải những điểm đến thanh bình. Hậu quả là, chúng ta phải thúc đẩy các hoạt động du lịch bền vững trước khi thiệt hại trở nên không thể cứu vãn."
         }
       ]
     }
@@ -2778,73 +2729,73 @@ export const part3Data = {
       "question": "Hi. Welcome to the club. How often do you watch films?",
       "vi": "Chào. Chào mừng đến với câu lạc bộ. Bạn có thường xuyên xem phim không?",
       "vocab": [
-        "✨ [frequency]: <strong>often</strong> (thường xuyên), <strong>daily</strong> (hàng ngày), <strong>regularly</strong> (đều đặn), <strong>frequently</strong> (thường xuyên), <strong>periodically</strong> (định kỳ)",
-        "✨ [genre]: <strong>action</strong> (hành động), <strong>fun</strong> (vui vẻ), <strong>thriller</strong> (giật gân), <strong>documentary</strong> (tài liệu), <strong>sci-fi</strong> (khoa học viễn tưởng)",
-        "✨ [platform]: <strong>TV</strong> (ti vi), <strong>phone</strong> (điện thoại), <strong>cinema</strong> (rạp chiếu phim), <strong>streaming</strong> (phát trực tuyến), <strong>multiplex</strong> (rạp chiếu phim đa năng)",
-        "✨ [mục đích giải trí]: <strong>unwind after a stressful week at work</strong> (thư giãn sau một tuần làm việc căng thẳng), <strong>keep up with the latest cinematic trends</strong> (theo kịp các xu hướng điện ảnh mới nhất), <strong>escape into a different fascinating world</strong> (trốn vào một thế giới hấp dẫn khác), <strong>spend quality time with my close friends</strong> (dành thời gian chất lượng với những người bạn thân), <strong>appreciate the art of storytelling</strong> (thưởng thức nghệ thuật kể chuyện)"
+        "✨ [tần suất]: <strong>almost every single day</strong> (hầu như mỗi ngày), <strong>several times a week</strong> (vài lần một tuần), <strong>a few times a month</strong> (một vài lần một tháng), <strong>only on weekends</strong> (chỉ vào cuối tuần), <strong>roughly twice a week</strong> (khoảng hai lần một tuần)",
+        "✨ [thời điểm]: <strong>before going to bed</strong> (trước khi đi ngủ), <strong>right after finishing work</strong> (ngay sau khi làm xong việc), <strong>during my daily commute</strong> (trong lúc đi lại hàng ngày của tôi), <strong>on lazy Sunday afternoons</strong> (vào những buổi chiều Chủ nhật lười biếng), <strong>whenever I have free time</strong> (bất cứ khi nào tôi có thời gian rảnh)",
+        "✨ [thể loại phim]: <strong>captivating science fiction movies</strong> (những bộ phim khoa học viễn tưởng hấp dẫn), <strong>thrilling action blockbusters</strong> (những bom tấn hành động ly kỳ), <strong>thought-provoking documentaries</strong> (những bộ phim tài liệu gợi suy nghĩ), <strong>hilarious romantic comedies</strong> (những bộ phim hài lãng mạn vui nhộn), <strong>gripping psychological thrillers</strong> (những bộ phim tâm lý kinh dị lôi cuốn)",
+        "✨ [lý do]: <strong>escape from reality temporarily</strong> (tạm thời thoát khỏi thực tế), <strong>broaden my cultural horizons</strong> (mở rộng tầm nhìn văn hóa của tôi), <strong>unwind after stressful hours</strong> (thư giãn sau những giờ căng thẳng), <strong>stimulate my vivid imagination</strong> (kích thích trí tưởng tượng phong phú của tôi), <strong>keep myself highly entertained</strong> (giữ cho bản thân được giải trí cao)"
       ],
       "templates": [
-        "I watch movies quite [frequency] because it helps me relax. I try to catch a movie at least once a week to [mục đích giải trí]. My absolute favorite genre is a good [genre]. I usually enjoy watching them on popular [platform] services at home comfortably.",
-        "I try to watch films [frequency] whenever I have free time. I try to catch a movie at least once a week to [mục đích giải trí]. I am particularly interested in [genre] movies. Visiting the local [platform] with my friends is also a wonderful experience."
+        "I usually watch movies [tần suất], particularly [thời điểm]. My absolute favorite ones are [thể loại phim] since they effectively allow me to [lý do]. It is truly my preferred way to relax.",
+        "Generally speaking, I enjoy watching films [tần suất], mostly [thời điểm]. I have a strong passion for [thể loại phim] because such excellent cinematic choices help me [lý do] in a truly wonderful way."
       ],
       "samples": [
         {
-          "en": "I watch movies quite regularly because it helps me relax. I try to catch a movie at least once a week to unwind after a stressful week at work. My absolute favorite genre is a good thriller. I usually enjoy watching them on popular streaming services at home comfortably.",
-          "vi": "Đó là một chủ đề tuyệt vời! Tôi xem phim khá đều đặn vì nó giúp tôi thư giãn. Tôi cố gắng xem phim ít nhất một lần một tuần để thư giãn sau một tuần làm việc căng thẳng. Thể loại yêu thích tuyệt đối của tôi là một bộ phim giật gân hay. Tôi thường thích xem chúng trên các dịch vụ phát trực tuyến phổ biến một cách thoải mái tại nhà."
+          "en": "I usually watch movies almost every single day, particularly before going to bed. My absolute favorite ones are captivating science fiction movies since they effectively allow me to escape from reality temporarily. It is truly my preferred way to relax.",
+          "vi": "Tôi thường xem phim hầu như mỗi ngày, đặc biệt là trước khi đi ngủ. Những bộ phim yêu thích tuyệt đối của tôi là những bộ phim khoa học viễn tưởng hấp dẫn vì chúng cho phép tôi thoát khỏi thực tế một cách hiệu quả một cách tạm thời. Đó thực sự là cách tôi ưa thích để thư giãn."
         },
         {
-          "en": "I try to watch films frequently whenever I have free time. I try to catch a movie at least once a week to keep up with the latest cinematic trends. I am particularly interested in documentary movies. Visiting the local multiplex with my friends is also a wonderful experience.",
-          "vi": "Nói về chủ đề thú vị này, tôi cố gắng xem phim thường xuyên bất cứ khi nào có thời gian rảnh. Tôi cố gắng xem phim ít nhất một lần một tuần để theo kịp các xu hướng điện ảnh mới nhất. Tôi đặc biệt quan tâm đến các bộ phim tài liệu. Ghé thăm rạp chiếu phim đa năng ở địa phương cùng bạn bè cũng là một trải nghiệm tuyệt vời."
+          "en": "Generally speaking, I enjoy watching films several times a week, mostly right after finishing work. I have a strong passion for thrilling action blockbusters because such excellent cinematic choices help me broaden my cultural horizons in a truly wonderful way.",
+          "vi": "Nói chung, tôi thích xem phim vài lần một tuần, hầu hết là ngay sau khi làm xong việc. Tôi có một niềm đam mê mãnh liệt đối với những bom tấn hành động ly kỳ vì những lựa chọn điện ảnh xuất sắc như vậy giúp tôi mở rộng tầm nhìn văn hóa của tôi theo một cách thực sự tuyệt vời."
         }
       ]
     },
     "q2": {
-      "member": "Member A",
+      "member": "Member B",
       "question": "Hi. Can you remember the first film you watched? What was it like?",
       "vi": "Chào. Bạn có nhớ bộ phim đầu tiên bạn xem không? Nó như thế nào?",
       "vocab": [
-        "✨ [film type]: <strong>kids</strong> (trẻ em), <strong>cartoon</strong> (hoạt hình), <strong>animation</strong> (hoạt họa), <strong>blockbuster</strong> (bom tấn), <strong>masterpiece</strong> (kiệt tác)",
-        "✨ [feeling]: <strong>good</strong> (tốt), <strong>nice</strong> (đẹp), <strong>magical</strong> (kỳ diệu), <strong>fascinating</strong> (hấp dẫn), <strong>mind-blowing</strong> (gây ảo giác)",
-        "✨ [memory]: <strong>remember</strong> (nhớ), <strong>think</strong> (nghĩ), <strong>recall</strong> (gợi lại), <strong>reminisce</strong> (hồi tưởng), <strong>cherish</strong> (trân trọng)",
-        "✨ [chi tiết ấn tượng]: <strong>the stunning visual special effects</strong> (các hiệu ứng hình ảnh đặc biệt tuyệt đẹp), <strong>the incredibly catchy musical score</strong> (bản nhạc phim vô cùng bắt tai), <strong>the brilliant performance of the lead actor</strong> (màn trình diễn xuất sắc của nam diễn viên chính), <strong>the unexpected plot twists at the end</strong> (những cú ngoặt cốt truyện bất ngờ ở cuối), <strong>the beautifully designed costumes</strong> (những bộ trang phục được thiết kế đẹp mắt)"
+        "✨ [tên phim]: <strong>a classic animated movie</strong> (một bộ phim hoạt hình kinh điển), <strong>an iconic superhero film</strong> (một bộ phim siêu anh hùng mang tính biểu tượng), <strong>a famous historical drama</strong> (một bộ phim cổ trang nổi tiếng), <strong>a beautiful fantasy tale</strong> (một câu chuyện giả tưởng tuyệt đẹp), <strong>a well-known cartoon</strong> (một phim hoạt hình nổi tiếng)",
+        "✨ [độ tuổi]: <strong>I was merely five</strong> (tôi chỉ mới năm tuổi), <strong>I was in primary school</strong> (tôi đang học tiểu học), <strong>I was quite young</strong> (tôi còn khá trẻ), <strong>I was a little kid</strong> (tôi còn là một đứa trẻ), <strong>I was around seven</strong> (tôi khoảng bảy tuổi)",
+        "✨ [đặc điểm phim]: <strong>featured stunning visual effects</strong> (có hiệu ứng hình ảnh tuyệt đẹp), <strong>had a deeply moving storyline</strong> (có một cốt truyện vô cùng cảm động), <strong>contained incredibly catchy songs</strong> (chứa những bài hát cực kỳ bắt tai), <strong>presented fascinating fictional characters</strong> (thể hiện những nhân vật hư cấu hấp dẫn), <strong>boasted a brilliant magical world</strong> (tự hào có một thế giới phép thuật rực rỡ)",
+        "✨ [cảm nhận]: <strong>left a lasting impression on me</strong> (để lại ấn tượng sâu sắc trong tôi), <strong>completely blew my mind</strong> (hoàn toàn làm tôi choáng ngợp), <strong>instantly sparked my imagination</strong> (ngay lập tức khơi dậy trí tưởng tượng của tôi), <strong>profoundly touched my heart</strong> (chạm đến trái tim tôi một cách sâu sắc), <strong>fascinated me beyond words</strong> (làm tôi mê mẩn không nói nên lời)"
       ],
       "templates": [
-        "I still [memory] the first time I went to the cinema. I was absolutely mesmerised by [chi tiết ấn tượng]. It was a beautiful [film type] for children. The entire experience felt absolutely [feeling], and I loved every single minute.",
-        "When I [memory] my childhood, the first film was amazing. I was absolutely mesmerised by [chi tiết ấn tượng]. It was an incredible [film type] about animals. I thought the visual effects were truly [feeling] and completely unforgettable for me."
+        "If my memory serves me well, the first one I saw was [tên phim] when [độ tuổi]. It [đặc điểm phim], which [cảm nhận]. Even now, I still fondly remember that wonderful cinematic experience.",
+        "I vividly recall watching [tên phim] back when [độ tuổi]. Since the masterpiece [đặc điểm phim], it [cảm nhận]. That particular viewing undoubtedly ignited my lifelong passion for cinema."
       ],
       "samples": [
         {
-          "en": "I still recall the first time I went to the cinema. I was absolutely mesmerised by the stunning visual special effects. It was a beautiful animation for children. The entire experience felt absolutely magical, and I loved every single minute.",
-          "vi": "Đó là một chủ đề tuyệt vời! Tôi vẫn nhớ lại lần đầu tiên đến rạp chiếu phim. Tôi hoàn toàn bị mê hoặc bởi các hiệu ứng hình ảnh đặc biệt tuyệt đẹp. Đó là một bộ phim hoạt hình đẹp cho trẻ em. Toàn bộ trải nghiệm cảm thấy hoàn toàn kỳ diệu, và tôi yêu từng phút một."
+          "en": "If my memory serves me well, the first one I saw was a classic animated movie when I was merely five. It featured stunning visual effects, which left a lasting impression on me. Even now, I still fondly remember that wonderful cinematic experience.",
+          "vi": "Nếu trí nhớ của tôi phục vụ tôi tốt, bộ phim đầu tiên tôi xem là một bộ phim hoạt hình kinh điển khi tôi chỉ mới năm tuổi. Nó có hiệu ứng hình ảnh tuyệt đẹp, điều này để lại ấn tượng sâu sắc trong tôi. Thậm chí bây giờ, tôi vẫn nhớ một cách trìu mến trải nghiệm điện ảnh tuyệt vời đó."
         },
         {
-          "en": "When I reminisce my childhood, the first film was amazing. I was absolutely mesmerised by the incredibly catchy musical score. It was an incredible blockbuster about animals. I thought the visual effects were truly mind-blowing and completely unforgettable for me.",
-          "vi": "Nói về chủ đề thú vị này, khi tôi hồi tưởng lại tuổi thơ của mình, bộ phim đầu tiên thật tuyệt vời. Tôi hoàn toàn bị mê hoặc bởi bản nhạc phim vô cùng bắt tai. Đó là một bom tấn đáng kinh ngạc về các loài động vật. Tôi nghĩ các hiệu ứng hình ảnh thực sự gây kinh ngạc và hoàn toàn không thể nào quên đối với tôi."
+          "en": "I vividly recall watching an iconic superhero film back when I was in primary school. Since the masterpiece had a deeply moving storyline, it completely blew my mind. That particular viewing undoubtedly ignited my lifelong passion for cinema.",
+          "vi": "Tôi nhớ lại một cách sống động việc xem một bộ phim siêu anh hùng mang tính biểu tượng vào thời tôi đang học tiểu học. Vì kiệt tác có một cốt truyện vô cùng cảm động, nó hoàn toàn làm tôi choáng ngợp. Lần xem cụ thể đó chắc chắn đã khơi dậy niềm đam mê suốt đời của tôi đối với điện ảnh."
         }
       ]
     },
     "q3": {
-      "member": "Member A",
+      "member": "Member C",
       "question": "What would you like to learn from the film club?",
       "vi": "Bạn muốn học gì từ câu lạc bộ phim?",
       "vocab": [
-        "✨ [skill]: <strong>make</strong> (làm), <strong>write</strong> (viết), <strong>direct</strong> (đạo diễn), <strong>edit</strong> (chỉnh sửa), <strong>critique</strong> (phê bình)",
-        "✨ [aspect]: <strong>story</strong> (câu chuyện), <strong>acting</strong> (diễn xuất), <strong>cinematography</strong> (quay phim), <strong>screenplay</strong> (kịch bản), <strong>aesthetics</strong> (thẩm mỹ)",
-        "✨ [goal]: <strong>know</strong> (biết), <strong>learn</strong> (học), <strong>master</strong> (thành thạo), <strong>comprehend</strong> (hiểu thấu), <strong>appreciate</strong> (đánh giá cao)",
-        "✨ [khía cạnh điện ảnh]: <strong>the complex process of scriptwriting</strong> (quá trình viết kịch bản phức tạp), <strong>the techniques of film directing</strong> (các kỹ thuật đạo diễn phim), <strong>the evolution of independent cinema</strong> (sự phát triển của điện ảnh độc lập), <strong>the hidden meanings behind classic movies</strong> (những ý nghĩa ẩn giấu sau các bộ phim kinh điển), <strong>the challenges of film editing</strong> (những thách thức của việc biên tập phim)"
+        "✨ [mục tiêu kiến thức]: <strong>understand cinematic storytelling techniques</strong> (hiểu các kỹ thuật kể chuyện điện ảnh), <strong>explore the history of cinema</strong> (khám phá lịch sử điện ảnh), <strong>analyze complex character developments</strong> (phân tích sự phát triển nhân vật phức tạp), <strong>delve into advanced film theories</strong> (đi sâu vào các lý thuyết điện ảnh nâng cao), <strong>grasp the basics of directing</strong> (nắm bắt những điều cơ bản của việc đạo diễn)",
+        "✨ [kỹ năng thực hành]: <strong>write compelling movie scripts</strong> (viết kịch bản phim hấp dẫn), <strong>edit videos professionally</strong> (chỉnh sửa video một cách chuyên nghiệp), <strong>operate professional camera equipment</strong> (vận hành thiết bị máy ảnh chuyên nghiệp), <strong>critique movies more objectively</strong> (phê bình phim một cách khách quan hơn), <strong>create convincing visual effects</strong> (tạo ra các hiệu ứng hình ảnh thuyết phục)",
+        "✨ [lợi ích cá nhân]: <strong>deepen my appreciation for art</strong> (làm sâu sắc thêm sự trân trọng của tôi đối với nghệ thuật), <strong>broaden my creative perspective</strong> (mở rộng quan điểm sáng tạo của tôi), <strong>enhance my critical thinking</strong> (nâng cao tư duy phản biện của tôi), <strong>pursue a career in media</strong> (theo đuổi sự nghiệp trong ngành truyền thông), <strong>discover my hidden artistic talents</strong> (khám phá tài năng nghệ thuật tiềm ẩn của tôi)",
+        "✨ [hoạt động kỳ vọng]: <strong>participate in lively discussions</strong> (tham gia vào các cuộc thảo luận sôi nổi), <strong>collaborate on short film projects</strong> (hợp tác trong các dự án phim ngắn), <strong>attend exclusive screening events</strong> (tham dự các sự kiện công chiếu độc quyền), <strong>interact with experienced filmmakers</strong> (tương tác với các nhà làm phim giàu kinh nghiệm), <strong>engage in practical workshops</strong> (tham gia vào các hội thảo thực tế)"
       ],
       "templates": [
-        "I really hope to [goal] the secrets behind great movies. I am particularly eager to gain deeper insights into [khía cạnh điện ảnh]. I want to learn how to [skill] effectively. Understanding the [aspect] will definitely help me enjoy every film much more deeply.",
-        "My main goal is to [goal] the art of cinema. I am particularly eager to gain deeper insights into [khía cạnh điện ảnh]. I wish to know how professionals [skill] films. Exploring the [aspect] can significantly improve my overall knowledge about movie production."
+        "By joining this group, I strongly desire to [mục tiêu kiến thức] and [kỹ năng thực hành]. I believe these additions will [lợi ích cá nhân]. Furthermore, I am eager to [hoạt động kỳ vọng] with fellow passionate members.",
+        "My primary intention is to [mục tiêu kiến thức], alongside learning how to [kỹ năng thực hành]. Doing this can undoubtedly [lợi ích cá nhân]. In addition, I hope we can regularly [hoạt động kỳ vọng] to share our unique perspectives."
       ],
       "samples": [
         {
-          "en": "I really hope to comprehend the secrets behind great movies. I am particularly eager to gain deeper insights into the complex process of scriptwriting. I want to learn how to direct effectively. Understanding the cinematography will definitely help me enjoy every film much more deeply.",
-          "vi": "Đó là một chủ đề tuyệt vời! Tôi thực sự hy vọng sẽ hiểu thấu những bí mật đằng sau những bộ phim tuyệt vời. Tôi đặc biệt háo hức muốn hiểu sâu hơn về quá trình viết kịch bản phức tạp. Tôi muốn học cách đạo diễn hiệu quả. Hiểu biết về quay phim chắc chắn sẽ giúp tôi thưởng thức mỗi bộ phim sâu sắc hơn nhiều."
+          "en": "By joining this group, I strongly desire to understand cinematic storytelling techniques and write compelling movie scripts. I believe these additions will deepen my appreciation for art. Furthermore, I am eager to participate in lively discussions with fellow passionate members.",
+          "vi": "Bằng cách tham gia nhóm này, tôi khao khát mạnh mẽ việc hiểu các kỹ thuật kể chuyện điện ảnh và viết kịch bản phim hấp dẫn. Tôi tin rằng những bổ sung này sẽ làm sâu sắc thêm sự trân trọng của tôi đối với nghệ thuật. Hơn nữa, tôi rất háo hức tham gia vào các cuộc thảo luận sôi nổi với các thành viên đam mê cùng chí hướng."
         },
         {
-          "en": "My main goal is to master the art of cinema. I am particularly eager to gain deeper insights into the techniques of film directing. I wish to know how professionals edit films. Exploring the aesthetics can significantly improve my overall knowledge about movie production.",
-          "vi": "Nói về chủ đề thú vị này, mục tiêu chính của tôi là thành thạo nghệ thuật điện ảnh. Tôi đặc biệt háo hức muốn hiểu sâu hơn về các kỹ thuật đạo diễn phim. Tôi muốn biết các chuyên gia chỉnh sửa phim như thế nào. Khám phá thẩm mỹ có thể cải thiện đáng kể kiến thức tổng thể của tôi về sản xuất phim."
+          "en": "My primary intention is to explore the history of cinema, alongside learning how to edit videos professionally. Doing this can undoubtedly broaden my creative perspective. In addition, I hope we can regularly collaborate on short film projects to share our unique perspectives.",
+          "vi": "Ý định chính của tôi là khám phá lịch sử điện ảnh, cùng với việc học cách chỉnh sửa video một cách chuyên nghiệp. Làm điều này chắc chắn có thể mở rộng quan điểm sáng tạo của tôi. Ngoài ra, tôi hy vọng chúng ta có thể thường xuyên hợp tác trong các dự án phim ngắn để chia sẻ những quan điểm độc đáo của chúng ta."
         }
       ]
     }
@@ -2855,73 +2806,73 @@ export const part3Data = {
       "question": "I like reading sports magazines. What genre of books do you like to read? Why?",
       "vi": "Tôi thích đọc tạp chí thể thao. Bạn thích đọc thể loại sách nào? Tại sao?",
       "vocab": [
-        "✨ [genre]: <strong>story</strong> (câu chuyện), <strong>fact</strong> (sự thật), <strong>fiction</strong> (hư cấu), <strong>biography</strong> (tiểu sử), <strong>literature</strong> (văn học)",
-        "✨ [reason]: <strong>fun</strong> (vui), <strong>easy</strong> (dễ), <strong>informative</strong> (nhiều thông tin), <strong>thought-provoking</strong> (gợi suy nghĩ), <strong>engaging</strong> (lôi cuốn)",
-        "✨ [benefit]: <strong>relax</strong> (thư giãn), <strong>learn</strong> (học), <strong>broaden</strong> (mở rộng), <strong>enrich</strong> (làm phong phú), <strong>stimulate</strong> (kích thích)",
-        "✨ [thể loại sách]: <strong>gripping psychological thrillers</strong> (những tiểu thuyết trinh thám tâm lý ly kỳ), <strong>fascinating historical biographies</strong> (những cuốn tiểu sử lịch sử hấp dẫn), <strong>thought-provoking science fiction novels</strong> (những cuốn tiểu thuyết khoa học viễn tưởng gợi suy nghĩ), <strong>informative self-improvement books</strong> (những cuốn sách phát triển bản thân cung cấp thông tin hữu ích), <strong>classic detective mysteries</strong> (những tiểu thuyết trinh thám bí ẩn kinh điển)"
+        "✨ [thể loại sách]: <strong>compelling historical fiction</strong> (tiểu thuyết lịch sử hấp dẫn), <strong>inspiring self-help books</strong> (sách self-help truyền cảm hứng), <strong>gripping detective novels</strong> (tiểu thuyết trinh thám lôi cuốn), <strong>fascinating science fiction</strong> (khoa học viễn tưởng thú vị), <strong>informative biographies</strong> (những tiểu sử cung cấp nhiều thông tin)",
+        "✨ [đặc điểm cuốn sách]: <strong>feature well-developed characters</strong> (có các nhân vật được phát triển tốt), <strong>contain profound life lessons</strong> (chứa đựng những bài học cuộc sống sâu sắc), <strong>present unexpected plot twists</strong> (trình bày những tình tiết bất ngờ), <strong>offer imaginative futuristic concepts</strong> (cung cấp những khái niệm tương lai giàu trí tưởng tượng), <strong>showcase extraordinary real-life journeys</strong> (giới thiệu những hành trình thực tế phi thường)",
+        "✨ [lý do thích]: <strong>they captivate my full attention</strong> (chúng thu hút toàn bộ sự chú ý của tôi), <strong>they resonate with my personal experiences</strong> (chúng cộng hưởng với trải nghiệm cá nhân của tôi), <strong>they keep me constantly guessing</strong> (chúng khiến tôi liên tục phỏng đoán), <strong>they challenge my conventional thinking</strong> (chúng thách thức lối tư duy thông thường của tôi), <strong>they provide valuable motivation</strong> (chúng cung cấp động lực quý giá)",
+        "✨ [lợi ích thu được]: <strong>expand my general knowledge</strong> (mở rộng kiến thức chung của tôi), <strong>gain practical problem-solving skills</strong> (đạt được kỹ năng giải quyết vấn đề thực tế), <strong>improve my logical reasoning</strong> (cải thiện khả năng lập luận logic của tôi), <strong>boost my daily productivity</strong> (thúc đẩy năng suất hàng ngày của tôi), <strong>escape from daily stressors</strong> (thoát khỏi những tác nhân gây căng thẳng hàng ngày)"
       ],
       "templates": [
-        "I am totally fascinated by reading [genre] in my free time. I am heavily drawn to [thể loại sách] because they always keep me on the edge of my seat. I find this genre incredibly [reason] and enjoyable. It is a wonderful way to [benefit] my mind after a busy day.",
-        "My favorite books are usually related to [genre] and history. I am heavily drawn to [thể loại sách] because they always keep me on the edge of my seat. They are always very [reason] and capture my attention. Reading them helps me [benefit] my knowledge about the whole beautiful world."
+        "I am absolutely fond of reading [thể loại sách] because they usually [đặc điểm cuốn sách]. Consequently, [lý do thích], which eventually allows me to [lợi ích thu được] in a highly effective manner in the long run.",
+        "My favorite genre is undoubtedly [thể loại sách], mainly since they [đặc điểm cuốn sách]. Furthermore, [lý do thích], meaning I can successfully [lợi ích thu được] while enjoying my quiet reading time."
       ],
       "samples": [
         {
-          "en": "I am totally fascinated by reading fiction in my free time. I am heavily drawn to gripping psychological thrillers because they always keep me on the edge of my seat. I find this genre incredibly thought-provoking and enjoyable. It is a wonderful way to stimulate my mind after a busy day.",
-          "vi": "Đó là một chủ đề tuyệt vời! Tôi hoàn toàn bị thu hút bởi việc đọc tiểu thuyết trong thời gian rảnh rỗi. Tôi bị thu hút mạnh mẽ bởi những tiểu thuyết trinh thám tâm lý ly kỳ vì chúng luôn khiến tôi hồi hộp đến phút cuối. Tôi thấy thể loại này vô cùng gợi suy nghĩ và thú vị. Đó là một cách tuyệt vời để kích thích tâm trí tôi sau một ngày bận rộn."
+          "en": "I am absolutely fond of reading compelling historical fiction because they usually feature well-developed characters. Consequently, they captivate my full attention, which eventually allows me to expand my general knowledge in a highly effective manner in the long run.",
+          "vi": "Tôi hoàn toàn thích đọc tiểu thuyết lịch sử hấp dẫn vì chúng thường có các nhân vật được phát triển tốt. Hậu quả là, chúng thu hút toàn bộ sự chú ý của tôi, điều này cuối cùng cho phép tôi mở rộng kiến thức chung của tôi một cách hiệu quả cao trong dài hạn."
         },
         {
-          "en": "My favorite books are usually related to biography and history. I am heavily drawn to fascinating historical biographies because they always keep me on the edge of my seat. They are always very informative and capture my attention. Reading them helps me broaden my knowledge about the whole beautiful world.",
-          "vi": "Nói về chủ đề thú vị này, những cuốn sách yêu thích của tôi thường liên quan đến tiểu sử và lịch sử. Tôi bị thu hút mạnh mẽ bởi những cuốn tiểu sử lịch sử hấp dẫn vì chúng luôn khiến tôi hồi hộp đến phút cuối. Chúng luôn rất nhiều thông tin và thu hút sự chú ý của tôi. Việc đọc chúng giúp tôi mở rộng kiến thức về toàn bộ thế giới tươi đẹp."
+          "en": "My favorite genre is undoubtedly inspiring self-help books, mainly since they contain profound life lessons. Furthermore, they resonate with my personal experiences, meaning I can successfully gain practical problem-solving skills while enjoying my quiet reading time.",
+          "vi": "Thể loại yêu thích của tôi chắc chắn là sách self-help truyền cảm hứng, chủ yếu vì chúng chứa đựng những bài học cuộc sống sâu sắc. Hơn nữa, chúng cộng hưởng với trải nghiệm cá nhân của tôi, có nghĩa là tôi có thể đạt được kỹ năng giải quyết vấn đề thực tế thành công trong khi tận hưởng thời gian đọc yên tĩnh của tôi."
         }
       ]
     },
     "q2": {
-      "member": "Member A",
+      "member": "Member B",
       "question": "I have a lot of books for my studies, but I can't remember everything I read. Do you have any suggestions for me?",
       "vi": "Tôi có rất nhiều sách cho việc học, nhưng tôi không thể nhớ mọi thứ tôi đọc. Bạn có gợi ý nào cho tôi không?",
       "vocab": [
-        "✨ [method]: <strong>write</strong> (viết), <strong>read</strong> (đọc), <strong>highlight</strong> (làm nổi bật), <strong>summarize</strong> (tóm tắt), <strong>annotate</strong> (chú thích)",
-        "✨ [tool]: <strong>pen</strong> (bút), <strong>note</strong> (ghi chú), <strong>flashcard</strong> (thẻ ghi nhớ), <strong>mindmap</strong> (bản đồ tư duy), <strong>journal</strong> (nhật ký)",
-        "✨ [result]: <strong>good</strong> (tốt), <strong>fast</strong> (nhanh), <strong>effective</strong> (hiệu quả), <strong>efficient</strong> (hiệu suất cao), <strong>productive</strong> (năng suất)",
-        "✨ [phương pháp ghi nhớ]: <strong>a brief bullet-point summary</strong> (một bản tóm tắt ngắn gọn bằng gạch đầu dòng), <strong>a colourful mind map</strong> (một sơ đồ tư duy đầy màu sắc), <strong>a set of digital flashcards</strong> (một bộ thẻ flashcard kỹ thuật số), <strong>a voice recording of the main ideas</strong> (một bản ghi âm giọng nói của các ý chính), <strong>a list of essential key terms</strong> (một danh sách các thuật ngữ khóa cần thiết)"
+        "✨ [phương pháp ghi chép]: <strong>highlight key points immediately</strong> (làm nổi bật những điểm chính ngay lập tức), <strong>write concise chapter summaries</strong> (viết tóm tắt chương súc tích), <strong>create detailed mind maps</strong> (tạo bản đồ tư duy chi tiết), <strong>take structured digital notes</strong> (ghi chú kỹ thuật số có cấu trúc), <strong>jot down important quotes</strong> (ghi lại những trích dẫn quan trọng)",
+        "✨ [cách thức ôn tập]: <strong>review your notes weekly</strong> (xem lại ghi chú của bạn hàng tuần), <strong>discuss the content with friends</strong> (thảo luận nội dung với bạn bè), <strong>explain concepts to others</strong> (giải thích các khái niệm cho người khác), <strong>reread the challenging sections</strong> (đọc lại những phần đầy thử thách), <strong>apply the knowledge practically</strong> (áp dụng kiến thức một cách thực tế)",
+        "✨ [kết quả đạt được]: <strong>consolidate your memory efficiently</strong> (củng cố trí nhớ của bạn một cách hiệu quả), <strong>retain information much longer</strong> (lưu giữ thông tin lâu hơn nhiều), <strong>grasp the core ideas perfectly</strong> (nắm bắt các ý tưởng cốt lõi một cách hoàn hảo), <strong>enhance your overall comprehension</strong> (nâng cao khả năng đọc hiểu tổng thể của bạn), <strong>prevent rapid forgetting</strong> (ngăn chặn sự lãng quên nhanh chóng)",
+        "✨ [thói quen bổ sung]: <strong>read in a quiet environment</strong> (đọc trong một môi trường yên tĩnh), <strong>take short breaks between chapters</strong> (nghỉ ngơi ngắn giữa các chương), <strong>limit your daily reading volume</strong> (giới hạn khối lượng đọc hàng ngày của bạn), <strong>set specific reading goals</strong> (đặt mục tiêu đọc cụ thể), <strong>avoid multitasking while reading</strong> (tránh làm nhiều việc cùng lúc khi đọc)"
       ],
       "templates": [
-        "To remember better, you should always [method] the main ideas carefully. A highly effective method is to create [phương pháp ghi nhớ] after finishing each chapter. Using a [tool] can also be very helpful. This strategy is highly [result] for retaining important information during your studies.",
-        "I suggest that you try to [method] the chapters after reading. A highly effective method is to create [phương pháp ghi nhớ] after finishing each chapter. Creating a visual [tool] makes learning much easier. You will definitely notice a highly [result] improvement in your memory skills."
+        "To tackle this issue, you should [phương pháp ghi chép] and [cách thức ôn tập]. Such an approach will help you [kết quả đạt được]. Moreover, it is highly recommended to [thói quen bổ sung] for better focus.",
+        "I highly suggest that you [phương pháp ghi chép]. Afterwards, you can [cách thức ôn tập] so as to [kết quả đạt được]. Besides, making an effort to [thói quen bổ sung] is another fantastic strategy you can try."
       ],
       "samples": [
         {
-          "en": "To remember better, you should always highlight the main ideas carefully. A highly effective method is to create a brief bullet-point summary after finishing each chapter. Using a flashcard can also be very helpful. This strategy is highly effective for retaining important information during your studies.",
-          "vi": "Đó là một chủ đề tuyệt vời! Để nhớ tốt hơn, bạn luôn nên làm nổi bật các ý chính một cách cẩn thận. Một phương pháp có hiệu quả cao là tạo ra một bản tóm tắt ngắn gọn bằng gạch đầu dòng sau khi đọc xong mỗi chương. Việc sử dụng thẻ ghi nhớ cũng có thể rất hữu ích. Chiến lược này mang lại hiệu quả cao trong việc lưu giữ thông tin quan trọng trong quá trình học tập của bạn."
+          "en": "To tackle this issue, you should highlight key points immediately and review your notes weekly. Such an approach will help you consolidate your memory efficiently. Moreover, it is highly recommended to read in a quiet environment for better focus.",
+          "vi": "Để giải quyết vấn đề này, bạn nên làm nổi bật những điểm chính ngay lập tức và xem lại ghi chú của bạn hàng tuần. Một cách tiếp cận như vậy sẽ giúp bạn củng cố trí nhớ của bạn một cách hiệu quả. Hơn nữa, điều rất được khuyến khích là đọc trong một môi trường yên tĩnh để tập trung tốt hơn."
         },
         {
-          "en": "I suggest that you try to summarize the chapters after reading. A highly effective method is to create a colourful mind map after finishing each chapter. Creating a visual mindmap makes learning much easier. You will definitely notice a highly productive improvement in your memory skills.",
-          "vi": "Nói về chủ đề thú vị này, tôi đề nghị bạn cố gắng tóm tắt các chương sau khi đọc. Một phương pháp có hiệu quả cao là tạo ra một sơ đồ tư duy đầy màu sắc sau khi đọc xong mỗi chương. Tạo một bản đồ tư duy trực quan làm cho việc học trở nên dễ dàng hơn nhiều. Bạn chắc chắn sẽ nhận thấy sự cải thiện năng suất cao trong kỹ năng ghi nhớ của mình."
+          "en": "I highly suggest that you write concise chapter summaries. Afterwards, you can discuss the content with friends so as to retain information much longer. Besides, making an effort to take short breaks between chapters is another fantastic strategy you can try.",
+          "vi": "Tôi đặc biệt khuyên bạn nên viết tóm tắt chương súc tích. Sau đó, bạn có thể thảo luận nội dung với bạn bè để lưu giữ thông tin lâu hơn nhiều. Ngoài ra, nỗ lực nghỉ ngơi ngắn giữa các chương là một chiến lược tuyệt vời khác mà bạn có thể thử."
         }
       ]
     },
     "q3": {
-      "member": "Member A",
+      "member": "Member C",
       "question": "Children nowadays prefer playing games to reading books. Do you think this is worrying, why?",
       "vi": "Trẻ em ngày nay thích chơi game hơn đọc sách. Bạn có nghĩ điều này đáng lo ngại không, tại sao?",
       "vocab": [
-        "✨ [negative]: <strong>bad</strong> (xấu), <strong>sad</strong> (buồn), <strong>alarming</strong> (đáng báo động), <strong>concerning</strong> (đáng lo ngại), <strong>detrimental</strong> (có hại)",
-        "✨ [impact]: <strong>eyes</strong> (mắt), <strong>brain</strong> (não), <strong>cognition</strong> (nhận thức), <strong>development</strong> (sự phát triển), <strong>attention</strong> (sự chú ý)",
-        "✨ [action]: <strong>help</strong> (giúp), <strong>make</strong> (làm), <strong>encourage</strong> (khuyến khích), <strong>motivate</strong> (thúc đẩy), <strong>inspire</strong> (truyền cảm hứng)",
-        "✨ [kỹ năng phát triển]: <strong>overall attention span</strong> (khoảng thời gian chú ý tổng thể), <strong>ability to think critically</strong> (khả năng tư duy phản biện), <strong>written communication skills</strong> (kỹ năng giao tiếp bằng văn bản), <strong>capacity for creative imagination</strong> (khả năng tưởng tượng sáng tạo), <strong>academic performance at school</strong> (thành tích học tập ở trường)"
+        "✨ [mức độ lo ngại]: <strong>find this trend deeply alarming</strong> (thấy xu hướng này thật sự đáng báo động), <strong>consider this a pressing issue</strong> (coi đây là một vấn đề cấp bách), <strong>believe this is extremely worrying</strong> (tin rằng điều này cực kỳ đáng lo ngại), <strong>view this as a serious problem</strong> (xem đây là một vấn đề nghiêm trọng), <strong>feel genuinely concerned about this</strong> (cảm thấy thực sự lo lắng về điều này)",
+        "✨ [tác hại của game]: <strong>shorten their attention spans</strong> (rút ngắn khoảng thời gian chú ý của chúng), <strong>lead to severe screen addiction</strong> (dẫn đến nghiện màn hình nghiêm trọng), <strong>isolate them from real-world interactions</strong> (cô lập chúng khỏi các tương tác trong thế giới thực), <strong>harm their eyesight significantly</strong> (làm hại thị lực của chúng đáng kể), <strong>hinder their academic performance</strong> (cản trở thành tích học tập của chúng)",
+        "✨ [giá trị của sách]: <strong>nurture their vivid imagination</strong> (nuôi dưỡng trí tưởng tượng phong phú của chúng), <strong>build essential vocabulary skills</strong> (xây dựng các kỹ năng từ vựng thiết yếu), <strong>foster profound empathy</strong> (thúc đẩy sự đồng cảm sâu sắc), <strong>develop critical thinking abilities</strong> (phát triển khả năng tư duy phản biện), <strong>provide deep intellectual stimulation</strong> (cung cấp sự kích thích trí tuệ sâu sắc)",
+        "✨ [giải pháp khuyến khích]: <strong>introduce them to interactive storytelling</strong> (giới thiệu cho chúng cách kể chuyện tương tác), <strong>set strict limits on screen time</strong> (đặt giới hạn nghiêm ngặt về thời gian sử dụng màn hình), <strong>create a cozy reading corner</strong> (tạo một góc đọc sách ấm cúng), <strong>read aloud with them daily</strong> (đọc to cùng chúng mỗi ngày), <strong>reward their reading milestones</strong> (khen thưởng những cột mốc đọc sách của chúng)"
       ],
       "templates": [
-        "I find this modern trend incredibly [negative] for the younger generation. This trend is concerning as excessive gaming can negatively impact their [kỹ năng phát triển]. Excessive gaming can harm their natural [impact]. Parents should strongly [action] their children to read more books every single day.",
-        "It is definitely a very [negative] situation that needs our attention. This trend is concerning as excessive gaming can negatively impact their [kỹ năng phát triển]. Lack of reading severely limits their mental [impact]. We must actively [action] them to discover the true joy of literature."
+        "I personally [mức độ lo ngại] because excessive gaming can [tác hại của game]. In contrast, literature is absolutely crucial to [giá trị của sách]. Therefore, parents must actively [giải pháp khuyến khích] to strike a healthy balance.",
+        "Honestly, I [mức độ lo ngại]. While video games often [tác hại của game], reading books will permanently [giá trị của sách]. Thus, it is vital for educators to [giải pháp khuyến khích] from an early age."
       ],
       "samples": [
         {
-          "en": "I find this modern trend incredibly alarming for the younger generation. This trend is concerning as excessive gaming can negatively impact their overall attention span. Excessive gaming can harm their natural cognition. Parents should strongly encourage their children to read more books every single day.",
-          "vi": "Đó là một chủ đề tuyệt vời! Tôi thấy xu hướng hiện đại này vô cùng đáng báo động đối với thế hệ trẻ. Xu hướng này rất đáng lo ngại vì chơi game quá nhiều có thể ảnh hưởng tiêu cực đến khoảng thời gian chú ý tổng thể của họ. Chơi game quá nhiều có thể gây hại cho nhận thức tự nhiên của chúng. Cha mẹ nên khuyến khích mạnh mẽ con cái đọc nhiều sách hơn mỗi ngày."
+          "en": "I personally find this trend deeply alarming because excessive gaming can shorten their attention spans. In contrast, literature is absolutely crucial to nurture their vivid imagination. Therefore, parents must actively introduce them to interactive storytelling to strike a healthy balance.",
+          "vi": "Cá nhân tôi thấy xu hướng này thật sự đáng báo động vì việc chơi game quá mức có thể rút ngắn khoảng thời gian chú ý của chúng. Ngược lại, văn học hoàn toàn quan trọng đối với việc nuôi dưỡng trí tưởng tượng phong phú của chúng. Do đó, cha mẹ phải tích cực giới thiệu cho chúng cách kể chuyện tương tác để đạt được sự cân bằng lành mạnh."
         },
         {
-          "en": "It is definitely a very concerning situation that needs our attention. This trend is concerning as excessive gaming can negatively impact their ability to think critically. Lack of reading severely limits their mental development. We must actively inspire them to discover the true joy of literature.",
-          "vi": "Nói về chủ đề thú vị này, Đây chắc chắn là một tình huống rất đáng lo ngại cần sự chú ý của chúng ta. Xu hướng này rất đáng lo ngại vì chơi game quá nhiều có thể ảnh hưởng tiêu cực đến khả năng tư duy phản biện của họ. Thiếu đọc sách hạn chế nghiêm trọng sự phát triển tinh thần của chúng. Chúng ta phải tích cực truyền cảm hứng cho chúng để khám phá niềm vui thực sự của văn học."
+          "en": "Honestly, I consider this a pressing issue. While video games often lead to severe screen addiction, reading books will permanently build essential vocabulary skills. Thus, it is vital for educators to set strict limits on screen time from an early age.",
+          "vi": "Thành thật mà nói, tôi coi đây là một vấn đề cấp bách. Mặc dù trò chơi điện tử thường dẫn đến nghiện màn hình nghiêm trọng, việc đọc sách sẽ xây dựng các kỹ năng từ vựng thiết yếu vĩnh viễn. Do đó, điều quan trọng là các nhà giáo dục phải đặt giới hạn nghiêm ngặt về thời gian sử dụng màn hình từ khi còn nhỏ."
         }
       ]
     }
@@ -2932,73 +2883,73 @@ export const part3Data = {
       "question": "I live in a tall building, I usually walk downstairs to exercise, how do you usually exercise?",
       "vi": "Tôi sống trong một tòa nhà cao tầng, tôi thường đi bộ xuống cầu thang để tập thể dục, bạn thường tập thể dục như thế nào?",
       "vocab": [
-        "✨ [activity]: <strong>run</strong> (chạy), <strong>swim</strong> (bơi), <strong>jog</strong> (chạy bộ), <strong>cycle</strong> (đạp xe), <strong>workout</strong> (tập luyện)",
-        "✨ [place]: <strong>park</strong> (công viên), <strong>gym</strong> (phòng tập), <strong>stadium</strong> (sân vận động), <strong>studio</strong> (phòng tập nhỏ), <strong>outdoors</strong> (ngoài trời)",
-        "✨ [benefit]: <strong>fit</strong> (cân đối), <strong>strong</strong> (mạnh mẽ), <strong>energetic</strong> (tràn đầy năng lượng), <strong>flexible</strong> (linh hoạt), <strong>resilient</strong> (kiên cường)",
-        "✨ [thói quen tập luyện]: <strong>a brisk evening walk around the park</strong> (một chuyến đi dạo nhanh quanh công viên vào buổi tối), <strong>a short high-intensity interval training session</strong> (một buổi tập cường độ cao ngắt quãng ngắn), <strong>a relaxing morning stretching routine</strong> (một thói quen giãn cơ thư giãn vào buổi sáng), <strong>a vigorous cycling commute to work</strong> (một chuyến đạp xe mạnh mẽ đi làm), <strong>a regular strength training workout</strong> (một bài tập thể lực thường xuyên)"
+        "✨ [môn thể thao]: <strong>practice yoga in my living room</strong> (tập yoga trong phòng khách của tôi), <strong>cycle around the local park</strong> (đạp xe quanh công viên địa phương), <strong>attend high-intensity interval training classes</strong> (tham dự các lớp luyện tập ngắt quãng cường độ cao), <strong>swim at the community pool</strong> (bơi ở hồ bơi cộng đồng), <strong>lift weights at a nearby gym</strong> (nâng tạ tại một phòng tập thể dục gần đó)",
+        "✨ [tần suất tập luyện]: <strong>at least three times a week</strong> (ít nhất ba lần một tuần), <strong>almost every single morning</strong> (hầu như mỗi buổi sáng), <strong>on alternate days</strong> (vào các ngày xen kẽ), <strong>during my weekend breaks</strong> (trong những kỳ nghỉ cuối tuần của tôi), <strong>whenever I have some spare time</strong> (bất cứ khi nào tôi có thời gian rảnh)",
+        "✨ [lợi ích thể chất]: <strong>strengthen my core muscles</strong> (tăng cường sức mạnh cơ cốt lõi của tôi), <strong>boost my cardiovascular endurance</strong> (thúc đẩy sức bền tim mạch của tôi), <strong>maintain a healthy body weight</strong> (duy trì trọng lượng cơ thể khỏe mạnh), <strong>improve my overall flexibility</strong> (cải thiện sự linh hoạt tổng thể của tôi), <strong>enhance my physical stamina</strong> (nâng cao thể lực của tôi)",
+        "✨ [lợi ích tinh thần]: <strong>clear my mind completely</strong> (làm sạch tâm trí tôi hoàn toàn), <strong>relieve my work-related stress</strong> (giải tỏa căng thẳng liên quan đến công việc của tôi), <strong>boost my daily energy levels</strong> (thúc đẩy mức năng lượng hàng ngày của tôi), <strong>cultivate a positive mindset</strong> (nuôi dưỡng một tư duy tích cực), <strong>reduce my anxiety effectively</strong> (giảm lo âu của tôi một cách hiệu quả)"
       ],
       "templates": [
-        "I usually prefer to [activity] for at least thirty minutes daily. To maintain my fitness, I have incorporated [thói quen tập luyện] into my daily schedule. My favorite location is the local [place] nearby. This routine always keeps me incredibly [benefit] and ready for the day.",
-        "To stay healthy, I generally [activity] with my friends every morning. To maintain my fitness, I have incorporated [thói quen tập luyện] into my daily schedule. We often visit a spacious [place] downtown together. It is an amazing way to become totally [benefit] and very happy."
+        "For my routine, I usually [môn thể thao] [tần suất tập luyện]. This habit allows me to [lợi ích thể chất]. On top of that, it is a wonderful way to [lợi ích tinh thần] after a busy day.",
+        "I absolutely enjoy making time to [môn thể thao] [tần suất tập luyện]. By doing this consistently, I can [lợi ích thể chất] and simultaneously [lợi ích tinh thần], which keeps me highly productive all week."
       ],
       "samples": [
         {
-          "en": "I usually prefer to jog for at least thirty minutes daily. To maintain my fitness, I have incorporated a brisk evening walk around the park into my daily schedule. My favorite location is the local stadium nearby. This routine always keeps me incredibly energetic and ready for the day.",
-          "vi": "Đó là một chủ đề tuyệt vời! Tôi thường thích chạy bộ ít nhất ba mươi phút mỗi ngày. Để duy trì thể lực, tôi đã kết hợp một chuyến đi dạo nhanh quanh công viên vào buổi tối vào lịch trình hàng ngày của mình. Địa điểm yêu thích của tôi là sân vận động địa phương gần đó. Thói quen này luôn giữ cho tôi vô cùng tràn đầy năng lượng và sẵn sàng cho một ngày mới."
+          "en": "For my routine, I usually practice yoga in my living room at least three times a week. This habit allows me to strengthen my core muscles. On top of that, it is a wonderful way to clear my mind completely after a busy day.",
+          "vi": "Đối với thói quen của tôi, tôi thường tập yoga trong phòng khách của tôi ít nhất ba lần một tuần. Thói quen này cho phép tôi tăng cường sức mạnh cơ cốt lõi của tôi. Hơn hết, nó là một cách tuyệt vời để làm sạch tâm trí tôi hoàn toàn sau một ngày bận rộn."
         },
         {
-          "en": "To stay healthy, I generally cycle with my friends every morning. To maintain my fitness, I have incorporated a short high-intensity interval training session into my daily schedule. We often visit a spacious outdoors downtown together. It is an amazing way to become totally resilient and very happy.",
-          "vi": "Nói về chủ đề thú vị này, Để giữ gìn sức khỏe, tôi thường đạp xe cùng bạn bè vào mỗi buổi sáng. Để duy trì thể lực, tôi đã kết hợp một buổi tập cường độ cao ngắt quãng ngắn vào lịch trình hàng ngày của mình. Chúng tôi thường cùng nhau đến một không gian ngoài trời rộng rãi ở trung tâm thành phố. Đó là một cách tuyệt vời để trở nên hoàn toàn kiên cường và rất hạnh phúc."
+          "en": "I absolutely enjoy making time to cycle around the local park almost every single morning. By doing this consistently, I can boost my cardiovascular endurance and simultaneously relieve my work-related stress, which keeps me highly productive all week.",
+          "vi": "Tôi hoàn toàn thích dành thời gian để đạp xe quanh công viên địa phương hầu như mỗi buổi sáng. Bằng cách làm điều này một cách nhất quán, tôi có thể thúc đẩy sức bền tim mạch của tôi và đồng thời giải tỏa căng thẳng liên quan đến công việc của tôi, điều này giúp tôi làm việc với năng suất cao cả tuần."
         }
       ]
     },
     "q2": {
-      "member": "Member A",
+      "member": "Member B",
       "question": "I usually get up early to run in the morning because I usually get tired in the evening. What about you?",
       "vi": "Tôi thường dậy sớm để chạy bộ vào buổi sáng vì tôi thường cảm thấy mệt mỏi vào buổi tối. Còn bạn thì sao?",
       "vocab": [
-        "✨ [time]: <strong>day</strong> (ngày), <strong>night</strong> (đêm), <strong>morning</strong> (buổi sáng), <strong>afternoon</strong> (buổi chiều), <strong>evening</strong> (buổi tối)",
-        "✨ [feeling]: <strong>good</strong> (tốt), <strong>bad</strong> (tệ), <strong>refreshed</strong> (sảng khoái), <strong>exhausted</strong> (kiệt sức), <strong>invigorated</strong> (tràn đầy sinh lực)",
-        "✨ [reason]: <strong>sleep</strong> (ngủ), <strong>work</strong> (làm việc), <strong>productivity</strong> (năng suất), <strong>metabolism</strong> (sự trao đổi chất), <strong>focus</strong> (sự tập trung)",
-        "✨ [lợi ích tinh thần]: <strong>an excellent stress reliever</strong> (một cách giảm căng thẳng tuyệt vời), <strong>a clear mental transition to personal time</strong> (một sự chuyển tiếp tinh thần rõ ràng sang thời gian cá nhân), <strong>a great way to release built-up tension</strong> (một cách tuyệt vời để giải tỏa sự căng thẳng tích tụ), <strong>a much-needed energy boost for the evening</strong> (một sự tăng cường năng lượng rất cần thiết cho buổi tối), <strong>a rewarding end to a busy day</strong> (một kết thúc xứng đáng cho một ngày bận rộn)"
+        "✨ [thời điểm tập]: <strong>right after finishing my shift</strong> (ngay sau khi hoàn thành ca làm việc của tôi), <strong>late in the peaceful evening</strong> (muộn vào buổi tối yên bình), <strong>during my short lunch break</strong> (trong giờ nghỉ trưa ngắn của tôi), <strong>in the late afternoon</strong> (vào cuối buổi chiều), <strong>just before dinner time</strong> (ngay trước giờ ăn tối)",
+        "✨ [lý do chọn thời điểm]: <strong>I am not a morning person</strong> (tôi không phải là người của buổi sáng), <strong>I need to burn off workday stress</strong> (tôi cần đốt cháy căng thẳng của ngày làm việc), <strong>my schedule is quite flexible then</strong> (lịch trình của tôi khá linh hoạt vào lúc đó), <strong>the gym is less crowded</strong> (phòng tập ít đông đúc hơn), <strong>I want to sleep better later</strong> (tôi muốn ngủ ngon hơn sau đó)",
+        "✨ [hoạt động tập]: <strong>hit the local gym for weightlifting</strong> (đến phòng tập địa phương để nâng tạ), <strong>join an energetic aerobics class</strong> (tham gia một lớp thể dục nhịp điệu tràn đầy năng lượng), <strong>go for a brisk walk</strong> (đi bộ nhanh), <strong>do some light stretching exercises</strong> (thực hiện một vài bài tập giãn cơ nhẹ nhàng), <strong>play a friendly badminton match</strong> (chơi một trận cầu lông thân thiện)",
+        "✨ [cảm giác sau tập]: <strong>completely refreshed and relaxed</strong> (hoàn toàn sảng khoái và thư giãn), <strong>pleasantly exhausted but satisfied</strong> (kiệt sức một cách dễ chịu nhưng hài lòng), <strong>incredibly proud of my consistency</strong> (vô cùng tự hào về sự nhất quán của mình), <strong>mentally calm and centered</strong> (tâm trí bình tĩnh và tập trung), <strong>physically stronger and invigorated</strong> (thể chất mạnh mẽ hơn và tràn đầy sinh lực)"
       ],
       "templates": [
-        "I absolutely love exercising during the [time] before starting my work. I generally prefer working out after work as it serves as [lợi ích tinh thần]. It leaves me feeling completely [feeling] all day. Moreover, it significantly boosts my [reason] and helps me perform tasks better.",
-        "Unlike you, I prefer working out in the late [time] hours. I generally prefer working out after work as it serves as [lợi ích tinh thần]. Even though I am sometimes [feeling], it helps. It allows me to improve my [reason] and sleep peacefully at night."
+        "Unlike you, I prefer exercising [thời điểm tập] simply because [lý do chọn thời điểm]. During this period, I typically [hoạt động tập]. Consequently, I always feel [cảm giác sau tập] before going to bed.",
+        "My routine is different since I usually work out [thời điểm tập] as [lý do chọn thời điểm]. I often [hoạt động tập], and once I finish, I am left feeling [cảm giác sau tập], which is fantastic."
       ],
       "samples": [
         {
-          "en": "I absolutely love exercising during the morning before starting my work. I generally prefer working out after work as it serves as an excellent stress reliever. It leaves me feeling completely invigorated all day. Moreover, it significantly boosts my productivity and helps me perform tasks better.",
-          "vi": "Đó là một chủ đề tuyệt vời! Tôi thực sự thích tập thể dục trong buổi sáng trước khi bắt đầu công việc. Tôi thường thích tập thể dục sau giờ làm việc vì nó có vai trò như một cách giảm căng thẳng tuyệt vời. Nó khiến tôi cảm thấy hoàn toàn tràn đầy sinh lực suốt cả ngày. Hơn nữa, nó thúc đẩy đáng kể năng suất của tôi và giúp tôi thực hiện các nhiệm vụ tốt hơn."
+          "en": "Unlike you, I prefer exercising right after finishing my shift simply because I am not a morning person. During this period, I typically hit the local gym for weightlifting. Consequently, I always feel completely refreshed and relaxed before going to bed.",
+          "vi": "Không giống như bạn, tôi thích tập thể dục ngay sau khi hoàn thành ca làm việc của tôi đơn giản vì tôi không phải là người của buổi sáng. Trong khoảng thời gian này, tôi thường đến phòng tập địa phương để nâng tạ. Hậu quả là, tôi luôn cảm thấy hoàn toàn sảng khoái và thư giãn trước khi đi ngủ."
         },
         {
-          "en": "Unlike you, I prefer working out in the late evening hours. I generally prefer working out after work as it serves as a clear mental transition to personal time. Even though I am sometimes exhausted, it helps. It allows me to improve my metabolism and sleep peacefully at night.",
-          "vi": "Nói về chủ đề thú vị này, không giống như bạn, tôi thích tập thể dục vào những giờ tối muộn. Tôi thường thích tập thể dục sau giờ làm việc vì nó có vai trò như một sự chuyển tiếp tinh thần rõ ràng sang thời gian cá nhân. Mặc dù đôi khi tôi kiệt sức, nhưng điều đó giúp ích. Nó cho phép tôi cải thiện sự trao đổi chất của mình và ngủ một cách yên bình vào ban đêm."
+          "en": "My routine is different since I usually work out late in the peaceful evening as I need to burn off workday stress. I often join an energetic aerobics class, and once I finish, I am left feeling pleasantly exhausted but satisfied, which is fantastic.",
+          "vi": "Thói quen của tôi khác biệt vì tôi thường tập thể dục muộn vào buổi tối yên bình vì tôi cần đốt cháy căng thẳng của ngày làm việc. Tôi thường tham gia một lớp thể dục nhịp điệu tràn đầy năng lượng, và một khi tôi hoàn thành, tôi bị bỏ lại cảm thấy kiệt sức một cách dễ chịu nhưng hài lòng, điều đó thật tuyệt vời."
         }
       ]
     },
     "q3": {
-      "member": "Member A",
+      "member": "Member C",
       "question": "Nowadays, technology makes people's lives easier, but it also makes them lazy and dislike exercise. Do you agree with this opinion?",
       "vi": "Ngày nay, công nghệ làm cho cuộc sống của con người trở nên dễ dàng hơn, nhưng nó cũng làm cho họ lười biếng và không thích tập thể dục. Bạn có đồng ý với ý kiến này không?",
       "vocab": [
-        "✨ [opinion]: <strong>yes</strong> (có), <strong>no</strong> (không), <strong>partially</strong> (một phần), <strong>completely</strong> (hoàn toàn), <strong>absolutely</strong> (chắc chắn)",
-        "✨ [problem]: <strong>sit</strong> (ngồi), <strong>lie</strong> (nằm), <strong>sedentary</strong> (ít vận động), <strong>inactive</strong> (không hoạt động), <strong>lethargic</strong> (hôn mê/lười biếng)",
-        "✨ [solution]: <strong>move</strong> (di chuyển), <strong>walk</strong> (đi bộ), <strong>balance</strong> (cân bằng), <strong>incorporate</strong> (kết hợp), <strong>prioritize</strong> (ưu tiên)",
-        "✨ [lối sống tiêu cực]: <strong>sedentary lifestyle for many adults</strong> (lối sống ít vận động cho nhiều người lớn), <strong>inactive daily routine</strong> (thói quen hàng ngày không hoạt động), <strong>heavy reliance on automated transport</strong> (sự phụ thuộc nặng nề vào giao thông tự động), <strong>significant decrease in physical movement</strong> (sự giảm sút đáng kể trong chuyển động thể chất), <strong>comfortable but unhealthy habit</strong> (thói quen thoải mái nhưng không lành mạnh)"
+        "✨ [quan điểm]: <strong>completely agree with this statement</strong> (hoàn toàn đồng ý với tuyên bố này), <strong>strongly support this common observation</strong> (mạnh mẽ ủng hộ quan sát chung này), <strong>entirely share this particular viewpoint</strong> (hoàn toàn chia sẻ quan điểm cụ thể này), <strong>totally side with this opinion</strong> (hoàn toàn đứng về phía ý kiến này), <strong>definitely echo this perspective</strong> (chắc chắn đồng tình với góc nhìn này)",
+        "✨ [tác động tiêu cực của công nghệ]: <strong>encourages a highly sedentary lifestyle</strong> (khuyến khích một lối sống rất ít vận động), <strong>glues people to their glowing screens</strong> (dán mắt người ta vào những màn hình phát sáng), <strong>automates too many physical tasks</strong> (tự động hóa quá nhiều tác vụ thể chất), <strong>provides endless digital entertainment</strong> (cung cấp giải trí kỹ thuật số vô tận), <strong>makes manual labor largely unnecessary</strong> (làm cho lao động chân tay phần lớn không cần thiết)",
+        "✨ [hệ lụy sức khỏe]: <strong>lead to severe obesity issues</strong> (dẫn đến các vấn đề béo phì nghiêm trọng), <strong>weaken our cardiovascular systems</strong> (làm suy yếu hệ thống tim mạch của chúng ta), <strong>cause chronic posture problems</strong> (gây ra các vấn đề về tư thế mãn tính), <strong>increase the risk of heart disease</strong> (làm tăng nguy cơ mắc bệnh tim), <strong>deteriorate our overall physical fitness</strong> (làm suy giảm thể lực tổng thể của chúng ta)",
+        "✨ [giải pháp sử dụng công nghệ]: <strong>leverage fitness tracking applications</strong> (tận dụng các ứng dụng theo dõi thể dục), <strong>set digital reminders to stand up</strong> (đặt lời nhắc kỹ thuật số để đứng lên), <strong>follow online workout tutorials</strong> (làm theo các bài hướng dẫn tập luyện trực tuyến), <strong>use smartwatches to count steps</strong> (sử dụng đồng hồ thông minh để đếm số bước), <strong>participate in virtual fitness challenges</strong> (tham gia vào các thử thách thể dục ảo)"
       ],
       "templates": [
-        "I [opinion] agree that technology can reduce our daily physical activity. It is undeniable that modern conveniences have resulted in a dangerously [lối sống tiêu cực]. Many people now have a [problem] lifestyle everywhere. Therefore, we must [solution] fitness into our modern lives to stay healthy.",
-        "I [opinion] believe this statement is true for the younger generation. It is undeniable that modern conveniences have resulted in a dangerously [lối sống tiêu cực]. Screens often make us become extremely [problem] daily. We need to actively [solution] our screen time with proper outdoor exercises."
+        "I [quan điểm] because modern convenience often [tác động tiêu cực của công nghệ]. This trend can unfortunately [hệ lụy sức khỏe]. Nevertheless, if we [giải pháp sử dụng công nghệ], we can still maintain an active lifestyle.",
+        "To be honest, I [quan điểm]. The reality is that technology [tác động tiêu cực của công nghệ], which will inevitably [hệ lụy sức khỏe]. Therefore, we must purposefully [giải pháp sử dụng công nghệ] to counteract this."
       ],
       "samples": [
         {
-          "en": "I absolutely agree that technology can reduce our daily physical activity. It is undeniable that modern conveniences have resulted in a dangerously sedentary lifestyle for many adults. Many people now have a sedentary lifestyle everywhere. Therefore, we must incorporate fitness into our modern lives to stay healthy.",
-          "vi": "Đó là một chủ đề tuyệt vời! Tôi chắc chắn đồng ý rằng công nghệ có thể làm giảm hoạt động thể chất hàng ngày của chúng ta. Không thể phủ nhận rằng những tiện nghi hiện đại đã dẫn đến lối sống ít vận động cho nhiều người lớn một cách nguy hiểm. Nhiều người hiện nay có lối sống ít vận động ở khắp mọi nơi. Vì vậy, chúng ta phải kết hợp tập thể dục vào cuộc sống hiện đại của mình để giữ sức khỏe."
+          "en": "I completely agree with this statement because modern convenience often encourages a highly sedentary lifestyle. This trend can unfortunately lead to severe obesity issues. Nevertheless, if we leverage fitness tracking applications, we can still maintain an active lifestyle.",
+          "vi": "Tôi hoàn toàn đồng ý với tuyên bố này vì sự tiện lợi hiện đại thường khuyến khích một lối sống rất ít vận động. Xu hướng này thật không may có thể dẫn đến các vấn đề béo phì nghiêm trọng. Tuy nhiên, nếu chúng ta tận dụng các ứng dụng theo dõi thể dục, chúng ta vẫn có thể duy trì một lối sống năng động."
         },
         {
-          "en": "I partially believe this statement is true for the younger generation. It is undeniable that modern conveniences have resulted in a dangerously inactive daily routine. Screens often make us become extremely lethargic daily. We need to actively balance our screen time with proper outdoor exercises.",
-          "vi": "Nói về chủ đề thú vị này, tôi tin một phần tuyên bố này là đúng đối với thế hệ trẻ. Không thể phủ nhận rằng những tiện nghi hiện đại đã dẫn đến thói quen hàng ngày không hoạt động một cách nguy hiểm. Màn hình thường khiến chúng ta trở nên cực kỳ lười biếng hàng ngày. Chúng ta cần chủ động cân bằng thời gian sử dụng màn hình với các bài tập ngoài trời phù hợp."
+          "en": "To be honest, I strongly support this common observation. The reality is that technology glues people to their glowing screens, which will inevitably weaken our cardiovascular systems. Therefore, we must purposefully set digital reminders to stand up to counteract this.",
+          "vi": "Thành thật mà nói, tôi mạnh mẽ ủng hộ quan sát chung này. Thực tế là công nghệ dán mắt người ta vào những màn hình phát sáng, điều này chắc chắn sẽ làm suy yếu hệ thống tim mạch của chúng ta. Do đó, chúng ta phải có chủ đích đặt lời nhắc kỹ thuật số để đứng lên để chống lại điều này."
         }
       ]
     }
@@ -3009,73 +2960,73 @@ export const part3Data = {
       "question": "Why did you decide to join our Science Club? How often can you go to the club?",
       "vi": "Tại sao bạn quyết định tham gia Câu lạc bộ Khoa học của chúng tôi? Bạn có thể đến câu lạc bộ bao lâu một lần?",
       "vocab": [
-        "✨ [reason]: <strong>fun</strong> (vui), <strong>like</strong> (thích), <strong>curious</strong> (tò mò), <strong>passionate</strong> (đam mê), <strong>enthusiastic</strong> (nhiệt tình)",
-        "✨ [topic]: <strong>stars</strong> (những ngôi sao), <strong>bugs</strong> (bọ), <strong>astronomy</strong> (thiên văn học), <strong>robotics</strong> (robot học), <strong>genetics</strong> (di truyền học)",
-        "✨ [frequency]: <strong>often</strong> (thường xuyên), <strong>twice</strong> (hai lần), <strong>weekly</strong> (hàng tuần), <strong>regularly</strong> (đều đặn), <strong>frequently</strong> (thường xuyên)",
-        "✨ [lĩnh vực khoa học]: <strong>recent advancements in artificial intelligence</strong> (những tiến bộ gần đây trong trí tuệ nhân tạo), <strong>the mysteries of space exploration</strong> (những bí ẩn của việc khám phá vũ trụ), <strong>the complex principles of human biology</strong> (những nguyên lý phức tạp của sinh học con người), <strong>innovative solutions for renewable energy</strong> (các giải pháp sáng tạo cho năng lượng tái tạo), <strong>the exciting potential of genetic engineering</strong> (tiềm năng thú vị của công nghệ gen)"
+        "✨ [lý do tham gia]: <strong>want to expand my scientific knowledge</strong> (muốn mở rộng kiến thức khoa học của tôi), <strong>am deeply fascinated by natural phenomena</strong> (bị thu hút sâu sắc bởi các hiện tượng tự nhiên), <strong>wish to meet like-minded enthusiasts</strong> (mong muốn gặp gỡ những người đam mê cùng chí hướng), <strong>aim to stay updated on recent discoveries</strong> (nhằm cập nhật những khám phá gần đây), <strong>desire to stimulate my intellectual curiosity</strong> (khao khát kích thích trí tò mò tri thức của tôi)",
+        "✨ [lĩnh vực quan tâm]: <strong>cutting-edge space exploration</strong> (khám phá không gian tiên tiến), <strong>renewable energy technologies</strong> (các công nghệ năng lượng tái tạo), <strong>advanced artificial intelligence</strong> (trí tuệ nhân tạo tiên tiến), <strong>fascinating genetic engineering</strong> (kỹ thuật di truyền hấp dẫn), <strong>modern medical breakthroughs</strong> (những đột phá y học hiện đại)",
+        "✨ [tần suất tham gia]: <strong>attend meetings twice a week</strong> (tham dự các cuộc họp hai lần một tuần), <strong>join the sessions every Saturday</strong> (tham gia các buổi học mỗi thứ Bảy), <strong>participate at least once a month</strong> (tham gia ít nhất một lần một tháng), <strong>drop by every other week</strong> (ghé qua mỗi hai tuần một lần), <strong>commit to every single gathering</strong> (cam kết với mỗi cuộc tụ họp)",
+        "✨ [kỳ vọng đạt được]: <strong>conduct exciting hands-on experiments</strong> (thực hiện các thí nghiệm thực hành thú vị), <strong>engage in thought-provoking debates</strong> (tham gia vào các cuộc tranh luận gợi suy nghĩ), <strong>learn directly from expert guest speakers</strong> (học hỏi trực tiếp từ các diễn giả khách mời chuyên gia), <strong>collaborate on innovative group projects</strong> (hợp tác trong các dự án nhóm đổi mới), <strong>broaden my academic horizons significantly</strong> (mở rộng chân trời học thuật của tôi một cách đáng kể)"
       ],
       "templates": [
-        "I joined because I am incredibly [reason] about discovering new things. I joined mainly because I have always been fascinated by [lĩnh vực khoa học]. I am particularly interested in studying [topic] deeply. I can confidently attend the club meetings [frequency] without any scheduling conflicts.",
-        "My decision stems from being very [reason] about the natural world. I joined mainly because I have always been fascinated by [lĩnh vực khoa học]. Learning about [topic] has always been my dream. I plan to participate [frequency] to maximize my wonderful learning experience here."
+        "I decided to join because I [lý do tham gia], especially regarding [lĩnh vực quan tâm]. Fortunately, my flexible schedule means I can comfortably [tần suất tham gia]. During these events, I strongly hope to [kỳ vọng đạt được] alongside everyone.",
+        "My primary motivation is that I [lý do tham gia], with a particular focus on [lĩnh vực quan tâm]. I plan to [tần suất tham gia], and I am truly eager to [kỳ vọng đạt được] through our collective efforts."
       ],
       "samples": [
         {
-          "en": "I joined because I am incredibly passionate about discovering new things. I joined mainly because I have always been fascinated by recent advancements in artificial intelligence. I am particularly interested in studying robotics deeply. I can confidently attend the club meetings weekly without any scheduling conflicts.",
-          "vi": "Đó là một chủ đề tuyệt vời! Tôi tham gia vì tôi vô cùng đam mê khám phá những điều mới. Tôi tham gia chủ yếu vì tôi luôn bị cuốn hút bởi những tiến bộ gần đây trong trí tuệ nhân tạo. Tôi đặc biệt quan tâm đến việc nghiên cứu robot học một cách sâu sắc. Tôi có thể tự tin tham dự các cuộc họp câu lạc bộ hàng tuần mà không có bất kỳ xung đột lịch trình nào."
+          "en": "I decided to join because I want to expand my scientific knowledge, especially regarding cutting-edge space exploration. Fortunately, my flexible schedule means I can comfortably attend meetings twice a week. During these events, I strongly hope to conduct exciting hands-on experiments alongside everyone.",
+          "vi": "Tôi quyết định tham gia vì tôi muốn mở rộng kiến thức khoa học của tôi, đặc biệt là liên quan đến khám phá không gian tiên tiến. May mắn thay, lịch trình linh hoạt của tôi có nghĩa là tôi có thể thoải mái tham dự các cuộc họp hai lần một tuần. Trong những sự kiện này, tôi hy vọng mạnh mẽ việc thực hiện các thí nghiệm thực hành thú vị cùng với mọi người."
         },
         {
-          "en": "My decision stems from being very curious about the natural world. I joined mainly because I have always been fascinated by the mysteries of space exploration. Learning about genetics has always been my dream. I plan to participate regularly to maximize my wonderful learning experience here.",
-          "vi": "Nói về chủ đề thú vị này, quyết định của tôi bắt nguồn từ việc rất tò mò về thế giới tự nhiên. Tôi tham gia chủ yếu vì tôi luôn bị cuốn hút bởi những bí ẩn của việc khám phá vũ trụ. Tìm hiểu về di truyền học luôn là giấc mơ của tôi. Tôi dự định tham gia đều đặn để tối đa hóa trải nghiệm học tập tuyệt vời của mình tại đây."
+          "en": "My primary motivation is that I am deeply fascinated by natural phenomena, with a particular focus on renewable energy technologies. I plan to join the sessions every Saturday, and I am truly eager to engage in thought-provoking debates through our collective efforts.",
+          "vi": "Động lực chính của tôi là tôi bị thu hút sâu sắc bởi các hiện tượng tự nhiên, với sự tập trung cụ thể vào các công nghệ năng lượng tái tạo. Tôi dự định tham gia các buổi học mỗi thứ Bảy, và tôi thực sự háo hức tham gia vào các cuộc tranh luận gợi suy nghĩ thông qua những nỗ lực tập thể của chúng ta."
         }
       ]
     },
     "q2": {
-      "member": "Member A",
+      "member": "Member B",
       "question": "In the past, you learnt about Science in school. Do you remember something about Science?",
       "vi": "Trước đây, bạn đã học về Khoa học ở trường. Bạn có nhớ điều gì về Khoa học không?",
       "vocab": [
-        "✨ [subject]: <strong>math</strong> (toán), <strong>life</strong> (sự sống), <strong>biology</strong> (sinh học), <strong>chemistry</strong> (hóa học), <strong>physics</strong> (vật lý)",
-        "✨ [action]: <strong>mix</strong> (trộn), <strong>test</strong> (kiểm tra), <strong>experiment</strong> (thí nghiệm), <strong>analyze</strong> (phân tích), <strong>investigate</strong> (điều tra)",
-        "✨ [feeling]: <strong>fun</strong> (vui), <strong>hard</strong> (khó), <strong>fascinating</strong> (hấp dẫn), <strong>intriguing</strong> (hấp dẫn/gợi trí tò mò), <strong>captivating</strong> (làm say đắm)",
-        "✨ [hoạt động thực hành]: <strong>hands-on chemistry experiments in the lab</strong> (các thí nghiệm hóa học thực hành trong phòng thí nghiệm), <strong>fascinating physics demonstrations</strong> (các màn trình diễn vật lý hấp dẫn), <strong>detailed observations of plant cells under a microscope</strong> (những quan sát chi tiết về tế bào thực vật dưới kính hiển vi), <strong>group projects on environmental conservation</strong> (các dự án nhóm về bảo tồn môi trường), <strong>practical tests of electrical circuits</strong> (các bài kiểm tra thực tế về mạch điện)"
+        "✨ [chủ đề môn học]: <strong>basic human anatomy</strong> (giải phẫu người cơ bản), <strong>fundamental chemical reactions</strong> (các phản ứng hóa học cơ bản), <strong>classical physics principles</strong> (các nguyên lý vật lý cổ điển), <strong>the fascinating solar system</strong> (hệ mặt trời thú vị), <strong>plant biology and photosynthesis</strong> (sinh học thực vật và quang hợp)",
+        "✨ [hoạt động lớp học]: <strong>conducted thrilling lab experiments</strong> (thực hiện các thí nghiệm trong phòng thí nghiệm ly kỳ), <strong>watched engaging educational documentaries</strong> (xem các bộ phim tài liệu giáo dục hấp dẫn), <strong>built creative science models</strong> (xây dựng các mô hình khoa học sáng tạo), <strong>participated in interactive group presentations</strong> (tham gia vào các bài thuyết trình nhóm tương tác), <strong>dissected small biological specimens</strong> (mổ xẻ các mẫu vật sinh học nhỏ)",
+        "✨ [kiến thức đọng lại]: <strong>understand how our bodies function</strong> (hiểu cách cơ thể chúng ta hoạt động), <strong>remember the periodic table elements</strong> (nhớ các nguyên tố trong bảng tuần hoàn), <strong>grasp the laws of gravity</strong> (nắm bắt các định luật hấp dẫn), <strong>visualize the movement of planets</strong> (hình dung sự chuyển động của các hành tinh), <strong>appreciate the complexity of nature</strong> (đánh giá cao sự phức tạp của thiên nhiên)",
+        "✨ [cảm nhận cá nhân]: <strong>sparked my lifelong curiosity</strong> (khơi dậy trí tò mò suốt đời của tôi), <strong>was incredibly mind-blowing to me</strong> (vô cùng thú vị đối với tôi), <strong>made me appreciate science more</strong> (khiến tôi trân trọng khoa học hơn), <strong>fundamentally changed my worldview</strong> (làm thay đổi thế giới quan của tôi một cách cơ bản), <strong>left an unforgettable impression</strong> (để lại một ấn tượng khó quên)"
       ],
       "templates": [
-        "I clearly remember enjoying my [subject] classes during my high school. The most memorable part for me was definitely conducting [hoạt động thực hành]. We used to [action] with various interesting chemicals. The results were always incredibly [feeling] and sparked my love for science.",
-        "My favorite memories involve studying [subject] with my amazing inspiring teachers. The most memorable part for me was definitely conducting [hoạt động thực hành]. Learning how to [action] natural phenomena was great. I found the whole process absolutely [feeling] and completely unforgettable for me."
+        "I vividly remember learning about [chủ đề môn học] back in high school. We often [hoạt động lớp học], which effectively helped me [kiến thức đọng lại]. That particular experience [cảm nhận cá nhân] and shaped my current interests.",
+        "When I was at school, studying [chủ đề môn học] was amazing. Because we frequently [hoạt động lớp học], I still [kiến thức đọng lại] today. Looking back, it [cảm nhận cá nhân] in the most wonderful way."
       ],
       "samples": [
         {
-          "en": "I clearly remember enjoying my chemistry classes during my high school. The most memorable part for me was definitely conducting hands-on chemistry experiments in the lab. We used to experiment with various interesting chemicals. The results were always incredibly fascinating and sparked my love for science.",
-          "vi": "Đó là một chủ đề tuyệt vời! Tôi nhớ rõ mình đã rất thích các lớp học hóa học trong thời gian học trung học. Phần đáng nhớ nhất đối với tôi chắc chắn là tiến hành các thí nghiệm hóa học thực hành trong phòng thí nghiệm. Chúng tôi từng thí nghiệm với các hóa chất thú vị khác nhau. Kết quả luôn vô cùng hấp dẫn và khơi dậy tình yêu của tôi dành cho khoa học."
+          "en": "I vividly remember learning about basic human anatomy back in high school. We often conducted thrilling lab experiments, which effectively helped me understand how our bodies function. That particular experience sparked my lifelong curiosity and shaped my current interests.",
+          "vi": "Tôi nhớ lại một cách sống động việc học về giải phẫu người cơ bản hồi trường trung học. Chúng tôi thường thực hiện các thí nghiệm trong phòng thí nghiệm ly kỳ, điều này đã giúp tôi hiểu cách cơ thể chúng ta hoạt động một cách hiệu quả. Trải nghiệm cụ thể đó đã khơi dậy trí tò mò suốt đời của tôi và định hình những sở thích hiện tại của tôi."
         },
         {
-          "en": "My favorite memories involve studying biology with my amazing inspiring teachers. The most memorable part for me was definitely conducting fascinating physics demonstrations. Learning how to investigate natural phenomena was great. I found the whole process absolutely captivating and completely unforgettable for me.",
-          "vi": "Nói về chủ đề thú vị này, những kỷ niệm yêu thích của tôi liên quan đến việc học sinh học với những giáo viên truyền cảm hứng tuyệt vời của tôi. Phần đáng nhớ nhất đối với tôi chắc chắn là tiến hành các màn trình diễn vật lý hấp dẫn. Học cách điều tra các hiện tượng tự nhiên thật tuyệt vời. Tôi thấy toàn bộ quá trình hoàn toàn làm say đắm và hoàn toàn không thể nào quên đối với tôi."
+          "en": "When I was at school, studying fundamental chemical reactions was amazing. Because we frequently watched engaging educational documentaries, I still remember the periodic table elements today. Looking back, it was incredibly mind-blowing to me in the most wonderful way.",
+          "vi": "Khi tôi ở trường, việc nghiên cứu các phản ứng hóa học cơ bản thật tuyệt vời. Vì chúng tôi thường xuyên xem các bộ phim tài liệu giáo dục hấp dẫn, tôi vẫn nhớ các nguyên tố trong bảng tuần hoàn hôm nay. Nhìn lại, nó vô cùng thú vị đối với tôi theo một cách tuyệt vời nhất."
         }
       ]
     },
     "q3": {
-      "member": "Member A",
+      "member": "Member C",
       "question": "Who is your favorite inventor or scientist? Why?",
       "vi": "Nhà phát minh hoặc nhà khoa học yêu thích của bạn là ai? Tại sao?",
       "vocab": [
-        "✨ [person]: <strong>man</strong> (đàn ông), <strong>guy</strong> (chàng trai), <strong>genius</strong> (thiên tài), <strong>visionary</strong> (người nhìn xa trông rộng), <strong>pioneer</strong> (người tiên phong)",
-        "✨ [quality]: <strong>smart</strong> (thông minh), <strong>good</strong> (tốt), <strong>brilliant</strong> (lỗi lạc), <strong>innovative</strong> (đổi mới), <strong>dedication</strong> (sự cống hiến)",
-        "✨ [impact]: <strong>help</strong> (giúp), <strong>change</strong> (thay đổi), <strong>revolutionize</strong> (cách mạng hóa), <strong>transform</strong> (biến đổi), <strong>advance</strong> (thăng tiến/đẩy mạnh)",
-        "✨ [thành tựu khoa học]: <strong>the fundamental laws of physics</strong> (các định luật vật lý cơ bản), <strong>the invisible world of microorganisms</strong> (thế giới vô hình của vi sinh vật), <strong>the mathematical patterns in nature</strong> (các quy luật toán học trong tự nhiên), <strong>the treatment of infectious diseases</strong> (việc điều trị các bệnh truyền nhiễm), <strong>the generation of sustainable electricity</strong> (việc tạo ra điện bền vững)"
+        "✨ [tên nhà khoa học]: <strong>the brilliant physicist Albert Einstein</strong> (nhà vật lý tài ba Albert Einstein), <strong>the pioneering chemist Marie Curie</strong> (nhà hóa học tiên phong Marie Curie), <strong>the visionary inventor Nikola Tesla</strong> (nhà phát minh có tầm nhìn Nikola Tesla), <strong>the famous biologist Charles Darwin</strong> (nhà sinh vật học nổi tiếng Charles Darwin), <strong>the exceptional mathematician Alan Turing</strong> (nhà toán học kiệt xuất Alan Turing)",
+        "✨ [thành tựu nổi bật]: <strong>formulated the theory of relativity</strong> (hình thành nên thuyết tương đối), <strong>discovered groundbreaking radioactive elements</strong> (khám phá ra các nguyên tố phóng xạ đột phá), <strong>developed alternating current electricity systems</strong> (phát triển các hệ thống điện xoay chiều), <strong>proposed the theory of evolution</strong> (đề xuất thuyết tiến hóa), <strong>cracked complex cryptographic codes</strong> (giải mã các mã mật mã phức tạp)",
+        "✨ [tác động xã hội]: <strong>revolutionized our modern understanding of physics</strong> (cách mạng hóa sự hiểu biết hiện đại của chúng ta về vật lý), <strong>paved the way for crucial medical treatments</strong> (mở đường cho các phương pháp điều trị y tế quan trọng), <strong>powered our modern industrial world</strong> (cấp năng lượng cho thế giới công nghiệp hiện đại của chúng ta), <strong>transformed how we view biological history</strong> (thay đổi cách chúng ta nhìn nhận lịch sử sinh học), <strong>laid the foundation for modern computing</strong> (đặt nền móng cho điện toán hiện đại)",
+        "✨ [phẩm chất đáng kính]: <strong>relentless dedication to research</strong> (sự cống hiến không ngừng nghỉ cho nghiên cứu), <strong>incredible ability to think outside the box</strong> (khả năng đáng kinh ngạc trong việc suy nghĩ vượt khuôn khổ), <strong>unwavering perseverance despite immense obstacles</strong> (sự kiên trì không lay chuyển bất chấp những trở ngại to lớn), <strong>profound intellectual humility</strong> (sự khiêm tốn trí tuệ sâu sắc), <strong>sheer passion for uncovering the truth</strong> (niềm đam mê thuần túy đối với việc khám phá sự thật)"
       ],
       "templates": [
-        "My absolute favorite is Thomas Edison, a true [person] in history. I deeply admire their work because they revolutionised our understanding of [thành tựu khoa học]. His [quality] mindset led to many wonderful creations. His inventions helped [impact] the world and modern society in profound ways.",
-        "I deeply admire Albert Einstein, who was an absolute [person] undoubtedly. I deeply admire their work because they revolutionised our understanding of [thành tựu khoa học]. His [quality] ideas completely changed our understanding forever. He managed to [impact] physics and inspire countless future generations of scientists."
+        "My absolute favorite is [tên nhà khoa học] who successfully [thành tựu nổi bật]. This incredible breakthrough [tác động xã hội]. Furthermore, I deeply admire their [phẩm chất đáng kính] throughout their challenging career.",
+        "I have massive respect for [tên nhà khoa học] because they [thành tựu nổi bật]. Such a monumental contribution undoubtedly [tác động xã hội]. What inspires me the most is their [phẩm chất đáng kính]."
       ],
       "samples": [
         {
-          "en": "My absolute favorite is Thomas Edison, a true pioneer in history. I deeply admire their work because they revolutionised our understanding of the fundamental laws of physics. His innovative mindset led to many wonderful creations. His inventions helped revolutionize the world and modern society in profound ways.",
-          "vi": "Đó là một chủ đề tuyệt vời! Người tôi vô cùng yêu thích là Thomas Edison, một người tiên phong thực sự trong lịch sử. Tôi vô cùng ngưỡng mộ công trình của họ vì họ đã cách mạng hóa sự hiểu biết của chúng ta về các định luật vật lý cơ bản. Tư duy đổi mới của ông đã dẫn đến nhiều sáng tạo tuyệt vời. Những phát minh của ông đã giúp cách mạng hóa thế giới và xã hội hiện đại theo những cách sâu sắc."
+          "en": "My absolute favorite is the brilliant physicist Albert Einstein who successfully formulated the theory of relativity. This incredible breakthrough revolutionized our modern understanding of physics. Furthermore, I deeply admire their relentless dedication to research throughout their challenging career.",
+          "vi": "Người yêu thích tuyệt đối của tôi là nhà vật lý tài ba Albert Einstein người đã hình thành nên thuyết tương đối thành công. Sự đột phá đáng kinh ngạc này đã cách mạng hóa sự hiểu biết hiện đại của chúng ta về vật lý. Hơn nữa, tôi vô cùng ngưỡng mộ sự cống hiến không ngừng nghỉ cho nghiên cứu của họ trong suốt sự nghiệp đầy thử thách của họ."
         },
         {
-          "en": "I deeply admire Albert Einstein, who was an absolute genius undoubtedly. I deeply admire their work because they revolutionised our understanding of the invisible world of microorganisms. His brilliant ideas completely changed our understanding forever. He managed to transform physics and inspire countless future generations of scientists.",
-          "vi": "Nói về chủ đề thú vị này, tôi vô cùng ngưỡng mộ Albert Einstein, người chắc chắn là một thiên tài tuyệt đối. Tôi vô cùng ngưỡng mộ công trình của họ vì họ đã cách mạng hóa sự hiểu biết của chúng ta về thế giới vô hình của vi sinh vật. Những ý tưởng lỗi lạc của ông đã thay đổi hoàn toàn sự hiểu biết của chúng ta mãi mãi. Ông đã xoay sở để biến đổi vật lý và truyền cảm hứng cho vô số thế hệ nhà khoa học tương lai."
+          "en": "I have massive respect for the pioneering chemist Marie Curie because they discovered groundbreaking radioactive elements. Such a monumental contribution undoubtedly paved the way for crucial medical treatments. What inspires me the most is their incredible ability to think outside the box.",
+          "vi": "Tôi có sự tôn trọng to lớn đối với nhà hóa học tiên phong Marie Curie vì họ đã khám phá ra các nguyên tố phóng xạ đột phá. Một đóng góp vĩ đại như vậy chắc chắn đã mở đường cho các phương pháp điều trị y tế quan trọng. Điều truyền cảm hứng cho tôi nhất là khả năng đáng kinh ngạc trong việc suy nghĩ vượt khuôn khổ của họ."
         }
       ]
     }
