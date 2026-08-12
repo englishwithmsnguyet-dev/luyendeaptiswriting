@@ -39,13 +39,13 @@ export const part3Data = {
         "✨ [Kết quả]: <strong>draw better pictures</strong> (vẽ những bức tranh đẹp hơn), <strong>feel very happy</strong> (cảm thấy rất vui vẻ), <strong>improve your artistic skills significantly</strong> (cải thiện đáng kể kỹ năng nghệ thuật của bạn), <strong>build a solid foundation</strong> (xây dựng một nền tảng vững chắc), <strong>find your unique painting style</strong> (tìm ra phong cách vẽ độc đáo của bạn)"
       ],
       "templates": [
-        "To answer this, I believe taking a course at your local college is [Nhận định]. It will help you [Lợi ích khóa học] and eventually [Kết quả]. It is very useful.",
+        "To answer this, I believe taking a course at your local college is [Nhận định]. It will help you [Lợi ích khóa học] and eventually [Kết quả]. This is highly recommended.",
         "To answer your question right now, enrolling in a formal class is [Nhận định]. You will [Lợi ích khóa học], which can [Kết quả]. Let me know what you guys think.",
         "To answer this, If I were you, I would definitely register because it is [Nhận định]. Having the opportunity to [Lợi ích khóa học] will certainly [Kết quả]. It is good."
       ],
       "samples": [
         {
-          "en": "To answer this, I believe taking a course at your local college is a fantastic idea. It will help you master basic techniques quickly and eventually build a solid foundation. It is very useful.",
+          "en": "To answer this, I believe taking a course at your local college is a fantastic idea. It will help you master basic techniques quickly and eventually build a solid foundation. This is very helpful.",
           "vi": "Điều đó thật tuyệt vời! Tôi thực sự tin rằng tham gia một khóa học tại trường cao đẳng địa phương là một ý tưởng tuyệt vời cho người mới bắt đầu. Nó sẽ giúp bạn nắm vững các kỹ thuật cơ bản nhanh chóng và cuối cùng là xây dựng một nền tảng vững chắc cho các dự án nghệ thuật tương lai của bạn. Tôi thực sự thích nó!"
         },
         {
@@ -70,7 +70,7 @@ export const part3Data = {
       "templates": [
         "To answer your question right now, I completely disagree with the criticism because street art is [Đánh giá]. It can successfully [Mặt tích cực]. Let me know what you guys think.",
         "To answer this, while some consider it vandalism, I think it is [Đánh giá]. Instead of banning it, we should [Giải pháp] to [Mặt tích cực]. It is good.",
-        "To answer your question today, street art is [Đánh giá] that helps [Mặt tích cực]. If authorities [Giải pháp], it will benefit everyone. I hope this helps you out."
+        "To answer your question today, street art is [Đánh giá] that helps [Mặt tích cực]. If authorities [Giải pháp], it will benefit everyone. I hope you find this helpful."
       ],
       "samples": [
         {
@@ -82,8 +82,8 @@ export const part3Data = {
           "vi": "Điều đó thật tuyệt vời! Mặc dù một số người coi đó là hành vi phá hoại, tôi thực sự nghĩ nó là một sự bổ sung sống động cho thành phố. Thay vì cấm, chúng ta nên chỉ định các khu vực cụ thể cho các nghệ sĩ để trưng bày tài năng nghệ thuật địa phương một cách an toàn. Nó thật tuyệt."
         },
         {
-          "en": "To answer your question today, street art is an essential part of urban culture that helps beautify dull concrete walls. If authorities regulate it properly, it will benefit everyone. I hope this helps you out.",
-          "vi": "Đó là một câu hỏi hay! Nghệ thuật đường phố là một phần thiết yếu của văn hóa đô thị giúp làm đẹp những bức tường bê tông nhàm chán. Nếu chính quyền địa phương quản lý nó một cách hợp lý, nó chắc chắn sẽ mang lại lợi ích cho tất cả mọi người sống trong cộng đồng. Tôi hy vọng điều này giúp ích cho bạn."
+          "en": "To answer your question today, street art is an essential part of urban culture that helps beautify dull concrete walls. If authorities regulate it properly, it will benefit everyone. This should be helpful for you.",
+          "vi": "Đó là một câu hỏi hay! Nghệ thuật đường phố là một phần thiết yếu của văn hóa đô thị giúp làm đẹp những bức tường bê tông nhàm chán. Nếu chính quyền địa phương quản lý nó một cách hợp lý, nó chắc chắn sẽ mang lại lợi ích cho tất cả mọi người sống trong cộng đồng. Điều này hẳn sẽ giúp ích cho bạn."
         }
       ]
     }
@@ -99,22 +99,22 @@ export const part3Data = {
         "✨ [Cảm nhận]: <strong>it was very yummy</strong> (nó rất ngon), <strong>I liked it a lot</strong> (tôi rất thích nó), <strong>it tasted absolutely heavenly</strong> (nó có vị ngon tuyệt đỉnh), <strong>the flavors were perfectly balanced</strong> (hương vị được cân bằng hoàn hảo), <strong>it instantly melted in my mouth</strong> (nó tan ngay trong miệng tôi)"
       ],
       "templates": [
-        "To answer this, the last time I had a genuinely good meal was [Thời điểm & Dịp]. I enjoyed [Món ăn] and [Cảm nhận]. It is very useful.",
-        "To answer your question right now, I vividly remember eating [Món ăn] [Thời điểm & Dịp]. I must admit that [Cảm nhận]. I hope this helps you out.",
-        "To answer your question today, my best recent dining experience was [Thời điểm & Dịp]. We ordered [Món ăn], and [Cảm nhận]. I hope this helps you out."
+        "To answer this, the last time I had a genuinely good meal was [Thời điểm & Dịp]. I enjoyed [Món ăn] and [Cảm nhận]. This is worth trying.",
+        "To answer your question right now, I vividly remember eating [Món ăn] [Thời điểm & Dịp]. I must admit that [Cảm nhận]. I hope this gives you ideas.",
+        "To answer your question today, my best recent dining experience was [Thời điểm & Dịp]. We ordered [Món ăn], and [Cảm nhận]. I hope you find this helpful."
       ],
       "samples": [
         {
-          "en": "To answer this, the last time I had a genuinely good meal was last weekend to celebrate my birthday. I enjoyed a delicious homemade pizza and it tasted absolutely heavenly. It is very useful.",
+          "en": "To answer this, the last time I had a genuinely good meal was last weekend to celebrate my birthday. I enjoyed a delicious homemade pizza and it tasted absolutely heavenly. This is highly recommended.",
           "vi": "Điều đó thật tuyệt vời! Lần gần nhất tôi có một bữa ăn thực sự ngon là cuối tuần trước để mừng sinh nhật cùng bạn bè. Tôi đã thưởng thức một chiếc bánh pizza tự làm ngon tuyệt, và tôi phải nói rằng nó có vị ngon tuyệt đỉnh đối với tất cả chúng tôi. Tôi thực sự thích nó!"
         },
         {
-          "en": "To answer your question right now, I vividly remember eating some authentic traditional pho yesterday after a stressful working day. I must admit that the flavors were perfectly balanced. I hope this helps you out.",
-          "vi": "Tôi rất vui được chia sẻ điều này. Tôi nhớ rất rõ đã ăn một chút phở truyền thống chuẩn vị vào tối hôm qua sau một ngày làm việc rất căng thẳng. Tôi phải thừa nhận rằng hương vị đậm đà được cân bằng hoàn hảo, khiến nó trở thành một trải nghiệm ăn uống thực sự khó quên đối với tôi. Tôi hy vọng điều này giúp ích cho bạn."
+          "en": "To answer your question right now, I vividly remember eating some authentic traditional pho yesterday after a stressful working day. I must admit that the flavors were perfectly balanced. This should be helpful for you.",
+          "vi": "Tôi rất vui được chia sẻ điều này. Tôi nhớ rất rõ đã ăn một chút phở truyền thống chuẩn vị vào tối hôm qua sau một ngày làm việc rất căng thẳng. Tôi phải thừa nhận rằng hương vị đậm đà được cân bằng hoàn hảo, khiến nó trở thành một trải nghiệm ăn uống thực sự khó quên đối với tôi. Điều này hẳn sẽ giúp ích cho bạn."
         },
         {
-          "en": "To answer your question today, my best recent dining experience was two days ago during a family gathering. We ordered a mouth-watering seafood hotpot, and it instantly melted in my mouth. I hope this helps you out.",
-          "vi": "Đó là một câu hỏi hay! Trải nghiệm ăn uống tuyệt vời nhất gần đây của tôi là hai ngày trước trong một buổi tụ họp gia đình đáng yêu. Chúng tôi đã gọi một nồi lẩu hải sản hấp dẫn, và cá tươi đã tan ngay trong miệng tôi. Tôi hy vọng điều này giúp ích cho bạn."
+          "en": "To answer your question today, my best recent dining experience was two days ago during a family gathering. We ordered a mouth-watering seafood hotpot, and it instantly melted in my mouth. I hope this gives you ideas.",
+          "vi": "Đó là một câu hỏi hay! Trải nghiệm ăn uống tuyệt vời nhất gần đây của tôi là hai ngày trước trong một buổi tụ họp gia đình đáng yêu. Chúng tôi đã gọi một nồi lẩu hải sản hấp dẫn, và cá tươi đã tan ngay trong miệng tôi. Tôi mong điều này cho bạn thêm ý tưởng."
         }
       ]
     },
@@ -158,7 +158,7 @@ export const part3Data = {
       ],
       "templates": [
         "To answer your question, I [Quan điểm] because [Lý do sức khỏe]. Instead of eating it daily, we should [Giải pháp thay thế]. That is all from me.",
-        "To answer your question today, I [Quan điểm]. Since [Lý do sức khỏe], the best approach is to [Giải pháp thay thế]. I hope this helps you out.",
+        "To answer your question today, I [Quan điểm]. Since [Lý do sức khỏe], the best approach is to [Giải pháp thay thế]. I hope you find this helpful.",
         "To answer this, while pizza is incredibly tasty, I [Quan điểm] because [Lý do sức khỏe]. Therefore, it is wise to [Giải pháp thay thế]. It is good."
       ],
       "samples": [
@@ -167,8 +167,8 @@ export const part3Data = {
           "vi": "Điều này thật thú vị! Tôi hoàn toàn đồng ý với nhận định này vì nó chứa lượng calo và chất béo không lành mạnh quá mức. Thay vì ăn hàng ngày, chúng ta chỉ nên tiêu thụ nó thỉnh đầu như một phần thưởng đặc biệt vào cuối tuần. Đó là tất cả từ tôi."
         },
         {
-          "en": "To answer your question today, I partly agree with this opinion. Since it is a highly processed food, the best approach is to make homemade versions with fresh vegetables. I hope this helps you out.",
-          "vi": "Đó là một câu hỏi hay! Tôi đồng ý một phần với ý kiến này về bánh pizza. Vì nó là một loại thực phẩm chế biến cao, cách tốt nhất là làm các phiên bản tự làm lành mạnh hơn với các loại rau tươi từ chợ địa phương. Tôi hy vọng điều này giúp ích cho bạn."
+          "en": "To answer your question today, I partly agree with this opinion. Since it is a highly processed food, the best approach is to make homemade versions with fresh vegetables. This should be helpful for you.",
+          "vi": "Đó là một câu hỏi hay! Tôi đồng ý một phần với ý kiến này về bánh pizza. Vì nó là một loại thực phẩm chế biến cao, cách tốt nhất là làm các phiên bản tự làm lành mạnh hơn với các loại rau tươi từ chợ địa phương. Điều này hẳn sẽ giúp ích cho bạn."
         },
         {
           "en": "To answer this, while pizza is incredibly tasty, I think we should strike a balance because it can lead to dangerous obesity. Therefore, it is wise to choose healthier toppings and thin crusts. It is good.",
@@ -189,7 +189,7 @@ export const part3Data = {
       ],
       "templates": [
         "To answer your question, when hanging out, we usually [Hoạt động ăn uống] and then [Hoạt động giải trí]. This helps us [Lợi ích]. That is all from me.",
-        "To answer your question, we love to [Hoạt động ăn uống] or [Hoạt động giải trí]. It is always a fantastic way to [Lợi ích]. It is very useful.",
+        "To answer your question, we love to [Hoạt động ăn uống] or [Hoạt động giải trí]. It is always a fantastic way to [Lợi ích]. This is very helpful.",
         "To answer your question, my friends and I [Hoạt động ăn uống]. Afterwards, we might [Hoạt động giải trí] in order to [Lợi ích]. That is all from me."
       ],
       "samples": [
@@ -198,7 +198,7 @@ export const part3Data = {
           "vi": "Điều này thật thú vị! Khi đi chơi, chúng tôi thường uống cà phê tại một quán cà phê ấm cúng và sau đó cùng nhau xem một bộ phim bom tấn thú vị. Thói quen vui vẻ này thực sự giúp chúng tôi thư giãn sau một tuần dài bận rộn. Đó là tất cả từ tôi."
         },
         {
-          "en": "To answer your question, we love to dine out at local eateries or go window shopping at the mall. It is always a fantastic way to strengthen our tight bond. It is very useful.",
+          "en": "To answer your question, we love to dine out at local eateries or go window shopping at the mall. It is always a fantastic way to strengthen our tight bond. This is worth trying.",
           "vi": "Điều này thật thú vị! Chúng tôi hoàn toàn thích ăn ngoài tại các quán ăn địa phương hoặc đi ngắm đồ ở trung tâm mua sắm lớn. Đó luôn là một cách tuyệt vời và thư giãn để củng cố mối quan hệ bền chặt của chúng tôi vào dịp cuối tuần. Tôi thực sự thích nó!"
         },
         {
@@ -246,22 +246,22 @@ export const part3Data = {
         "✨ [Hạn chế cần lưu ý]: <strong>meet people in real life</strong> (gặp gỡ mọi người ngoài đời thực), <strong>be careful of strangers</strong> (cẩn thận với người lạ), <strong>maintain genuine face-to-face interactions</strong> (duy trì các tương tác trực tiếp chân thật), <strong>be careful of fake online identities</strong> (cẩn thận với các danh tính trực tuyến giả mạo), <strong>avoid digital addiction</strong> (tránh chứng nghiện kỹ thuật số)"
       ],
       "templates": [
-        "To answer your question right now, I [Sự đồng ý] because devices help us [Lý do công nghệ]. However, we must still [Hạn chế cần lưu ý]. I hope this helps you out.",
+        "To answer your question right now, I [Sự đồng ý] because devices help us [Lý do công nghệ]. However, we must still [Hạn chế cần lưu ý]. I hope this gives you ideas.",
         "To answer your question right now, I [Sự đồng ý]. We can [Lý do công nghệ], but it remains crucial to [Hạn chế cần lưu ý]. Let me know what you guys think.",
-        "To answer your question today, I [Sự đồng ý] since smartphones allow us to [Lý do công nghệ]. Even so, we should [Hạn chế cần lưu ý]. I hope this helps you out."
+        "To answer your question today, I [Sự đồng ý] since smartphones allow us to [Lý do công nghệ]. Even so, we should [Hạn chế cần lưu ý]. I hope you find this helpful."
       ],
       "samples": [
         {
-          "en": "To answer your question right now, I completely agree with this statement because devices help us overcome geographical barriers instantly. However, we must still maintain genuine face-to-face interactions. I hope this helps you out.",
-          "vi": "Tôi rất vui được chia sẻ điều này. Tôi hoàn toàn đồng ý với nhận định này vì các thiết bị hiện đại giúp chúng ta vượt qua rào cản địa lý ngay lập tức. Tuy nhiên, chúng ta vẫn phải duy trì các tương tác trực tiếp chân chính để xây dựng những tình bạn thực sự ý nghĩa và lâu dài trong cuộc sống hàng ngày. Tôi hy vọng điều này giúp ích cho bạn."
+          "en": "To answer your question right now, I completely agree with this statement because devices help us overcome geographical barriers instantly. However, we must still maintain genuine face-to-face interactions. This should be helpful for you.",
+          "vi": "Tôi rất vui được chia sẻ điều này. Tôi hoàn toàn đồng ý với nhận định này vì các thiết bị hiện đại giúp chúng ta vượt qua rào cản địa lý ngay lập tức. Tuy nhiên, chúng ta vẫn phải duy trì các tương tác trực tiếp chân chính để xây dựng những tình bạn thực sự ý nghĩa và lâu dài trong cuộc sống hàng ngày. Điều này hẳn sẽ giúp ích cho bạn."
         },
         {
           "en": "To answer your question right now, I see the tremendous benefits of technology. We can join online communities easily, but it remains crucial to be careful of fake online identities. Let me know what you guys think.",
           "vi": "Tôi rất vui được chia sẻ điều này. Tôi thấy rõ những lợi ích to lớn của công nghệ hiện đại. Chúng ta có thể tham gia các cộng đồng trực tuyến một cách dễ dàng, nhưng vẫn vô cùng quan trọng để cẩn thận với những danh tính trực tuyến giả mạo khi kết bạn mới. Hãy cho tôi biết các bạn nghĩ gì nhé."
         },
         {
-          "en": "To answer your question today, I firmly support this idea since smartphones allow us to find like-minded people globally. Even so, we should meet people in real life. I hope this helps you out.",
-          "vi": "Đó là một câu hỏi hay! Tôi hết sức ủng hộ ý tưởng thú vị này vì điện thoại thông minh cho phép chúng ta dễ dàng tìm những người cùng chí hướng trên toàn cầu. Mặc dù vậy, chúng ta nên luôn cố gắng tránh việc nghiện kỹ thuật số bằng cách dành đủ thời gian giao tiếp trong thế giới thực. Tôi hy vọng điều này giúp ích cho bạn."
+          "en": "To answer your question today, I firmly support this idea since smartphones allow us to find like-minded people globally. Even so, we should meet people in real life. I hope this gives you ideas.",
+          "vi": "Đó là một câu hỏi hay! Tôi hết sức ủng hộ ý tưởng thú vị này vì điện thoại thông minh cho phép chúng ta dễ dàng tìm những người cùng chí hướng trên toàn cầu. Mặc dù vậy, chúng ta nên luôn cố gắng tránh việc nghiện kỹ thuật số bằng cách dành đủ thời gian giao tiếp trong thế giới thực. Tôi mong điều này cho bạn thêm ý tưởng."
         }
       ]
     }
@@ -366,22 +366,22 @@ export const part3Data = {
         "✨ [Lợi ích]: <strong>make the room nice</strong> (làm cho căn phòng đẹp hơn), <strong>save space</strong> (tiết kiệm không gian), <strong>maximize your limited space</strong> (tối đa hóa không gian hạn chế của bạn), <strong>add a beautiful touch of greenery indoors</strong> (thêm một chút sắc xanh tuyệt đẹp trong nhà), <strong>create a wonderfully refreshing vibe</strong> (tạo ra một bầu không khí vô cùng tươi mới)"
       ],
       "templates": [
-        "To answer your question, since you live in an apartment, I highly recommend you [Giải pháp]. You can place them [Vị trí] to [Lợi ích]. It is very useful.",
-        "To answer your question, one fantastic idea is to [Giải pháp] [Vị trí]. Not only does it save room, but it also helps [Lợi ích]. It is very useful.",
-        "To answer your question right now, you should definitely consider deciding to [Giải pháp] [Vị trí]. This creative setup will instantly [Lợi ích]. I hope this helps you out."
+        "To answer your question, since you live in an apartment, I highly recommend you [Giải pháp]. You can place them [Vị trí] to [Lợi ích]. This is highly recommended.",
+        "To answer your question, one fantastic idea is to [Giải pháp] [Vị trí]. Not only does it save room, but it also helps [Lợi ích]. This is very helpful.",
+        "To answer your question right now, you should definitely consider deciding to [Giải pháp] [Vị trí]. This creative setup will instantly [Lợi ích]. I hope you find this helpful."
       ],
       "samples": [
         {
-          "en": "To answer your question, since you live in an apartment, I highly recommend you adopt vertical gardening. You can place them on your small balcony to maximize your limited space. It is very useful.",
+          "en": "To answer your question, since you live in an apartment, I highly recommend you adopt vertical gardening. You can place them on your small balcony to maximize your limited space. This is worth trying.",
           "vi": "Điều này thật thú vị! Vì bạn hiện đang sống trong một căn hộ nhỏ, tôi thực sự khuyên bạn nên áp dụng làm vườn thẳng đứng. Bạn có thể dễ dàng đặt chúng trên ban công nhỏ của bạn để tối đa hóa hiệu quả không gian hạn chế và tạo ra một ốc đảo xanh nhỏ bé. Tôi thực sự thích nó!"
         },
         {
-          "en": "To answer your question, one fantastic idea is to install wall-mounted shelves near sunny windows. Not only does it save room, but it also helps add a beautiful touch of greenery indoors. It is very useful.",
+          "en": "To answer your question, one fantastic idea is to install wall-mounted shelves near sunny windows. Not only does it save room, but it also helps add a beautiful touch of greenery indoors. This is highly recommended.",
           "vi": "Điều này thật thú vị! Một ý tưởng thực sự tuyệt vời là lắp đặt các kệ treo tường gần các cửa sổ đầy nắng của bạn. Nó không chỉ tiết kiệm không gian quý giá mà còn giúp thêm một chút sắc xanh tươi mát vô cùng đẹp đẽ trong nhà cho mọi người cùng thưởng thức. Tôi thực sự thích nó!"
         },
         {
-          "en": "To answer your question right now, you should definitely consider deciding to utilize hanging baskets along the bright corridors. This creative setup will instantly create a wonderfully refreshing vibe. I hope this helps you out.",
-          "vi": "Tôi rất vui được chia sẻ điều này. Bạn chắc chắn nên cân nhắc quyết định sử dụng những giỏ treo tuyệt đẹp dọc theo các hành lang sáng sủa của căn hộ. Thiết lập đầy tính sáng tạo này sẽ ngay lập tức tạo ra một bầu không khí vô cùng tươi mát khiến việc trở về nhà là một niềm vui tuyệt đối. Tôi hy vọng điều này giúp ích cho bạn."
+          "en": "To answer your question right now, you should definitely consider deciding to utilize hanging baskets along the bright corridors. This creative setup will instantly create a wonderfully refreshing vibe. This should be helpful for you.",
+          "vi": "Tôi rất vui được chia sẻ điều này. Bạn chắc chắn nên cân nhắc quyết định sử dụng những giỏ treo tuyệt đẹp dọc theo các hành lang sáng sủa của căn hộ. Thiết lập đầy tính sáng tạo này sẽ ngay lập tức tạo ra một bầu không khí vô cùng tươi mát khiến việc trở về nhà là một niềm vui tuyệt đối. Điều này hẳn sẽ giúp ích cho bạn."
         }
       ]
     },
@@ -426,7 +426,7 @@ export const part3Data = {
       "templates": [
         "I would like to answer your question now, vegetables [Dinh dưỡng]. Thus, they effectively [Sức khỏe thể chất] and help us [Sức khỏe tổng thể]. I am looking forward to hearing your thoughts.",
         "To answer your question, I believe the main benefit is that they [Dinh dưỡng]. Consequently, eating them will [Sức khỏe thể chất] and [Sức khỏe tổng thể]. That is all from me.",
-        "To answer your question right now, I think because they [Dinh dưỡng], they naturally [Sức khỏe thể chất]. This allows us to [Sức khỏe tổng thể]. I hope this helps you out."
+        "To answer your question right now, I think because they [Dinh dưỡng], they naturally [Sức khỏe thể chất]. This allows us to [Sức khỏe tổng thể]. I hope this gives you ideas."
       ],
       "samples": [
         {
@@ -438,8 +438,8 @@ export const part3Data = {
           "vi": "Điều này thật thú vị! Tôi mạnh mẽ tin rằng lợi ích chính là chúng là một nguồn cung cấp chất xơ tuyệt vời. Hậu quả là, ăn chúng hàng ngày sẽ cải thiện tiêu hóa đáng kể và giữ cho làn da chúng ta rạng rỡ, khiến chúng ta trông trẻ trung và khỏe mạnh hơn nhiều. Đó là tất cả từ tôi."
         },
         {
-          "en": "To answer your question right now, I think because they contain powerful antioxidants, they naturally lower the risk of chronic diseases. This allows us to promote overall longevity. I hope this helps you out.",
-          "vi": "Tôi rất vui được chia sẻ điều này. Cá nhân tôi thực sự nghĩ rằng vì chúng chứa các chất chống oxy hóa mạnh mẽ, chúng tự nhiên làm giảm nguy cơ mắc các bệnh mãn tính nguy hiểm. Lợi ích tuyệt vời này cho phép chúng ta nâng cao tuổi thọ tổng thể và tận hưởng một lối sống năng động, hạnh phúc hơn nhiều khi chúng ta già đi. Tôi hy vọng điều này giúp ích cho bạn."
+          "en": "To answer your question right now, I think because they contain powerful antioxidants, they naturally lower the risk of chronic diseases. This allows us to promote overall longevity. I hope you find this helpful.",
+          "vi": "Tôi rất vui được chia sẻ điều này. Cá nhân tôi thực sự nghĩ rằng vì chúng chứa các chất chống oxy hóa mạnh mẽ, chúng tự nhiên làm giảm nguy cơ mắc các bệnh mãn tính nguy hiểm. Lợi ích tuyệt vời này cho phép chúng ta nâng cao tuổi thọ tổng thể và tận hưởng một lối sống năng động, hạnh phúc hơn nhiều khi chúng ta già đi. Tôi mong bạn thấy nó hữu ích."
         }
       ]
     }
