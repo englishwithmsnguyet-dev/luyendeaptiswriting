@@ -217,13 +217,13 @@ export const part3Data = {
         "✨ [Yếu tố hỗ trợ]: <strong>meet peers easily at school</strong> (gặp gỡ bạn bè đồng trang lứa dễ dàng ở trường), <strong>share common interests and hobbies</strong> (chia sẻ những sở thích và đam mê chung), <strong>connect quickly through social media</strong> (kết nối nhanh chóng qua mạng xã hội), <strong>use smartphones a lot</strong> (sử dụng điện thoại thông minh nhiều), <strong>talk online easily</strong> (nói chuyện trực tuyến dễ dàng)"
       ],
       "templates": [
-        "Speaking of this really interesting topic today, I [Quan điểm] because they [Lý do]. Furthermore, they can [Yếu tố hỗ trợ]. Let me know what you guys think.",
+        "I would like to discuss this topic now, I [Quan điểm] because they [Lý do]. Furthermore, they can [Yếu tố hỗ trợ]. Let me know what you guys think.",
         "Here are my thoughts on this. I [Quan điểm]. Young people [Lý do], which allows them to [Yếu tố hỗ trợ]. Let me know what you guys think.",
         "Here is what I think. I [Quan điểm] since they [Lý do]. Besides, it is convenient for them to [Yếu tố hỗ trợ]. That is all from me."
       ],
       "samples": [
         {
-          "en": "Speaking of this really interesting topic today, I absolutely believe it is easier because they have more free time to socialize. Furthermore, they can meet peers easily at school. Let me know what you guys think.",
+          "en": "I would like to discuss this topic now, I absolutely believe it is easier because they have more free time to socialize. Furthermore, they can meet peers easily at school. Let me know what you guys think.",
           "vi": "Nói về chủ đề thực sự thú vị này hôm nay, tôi hoàn toàn tin rằng điều đó dễ dàng hơn nhiều đối với họ vì họ có nhiều thời gian rảnh rỗi hơn để giao lưu mỗi ngày. Hơn nữa, họ có thể gặp gỡ nhiều bạn bè thân thiện dễ dàng ở trường trong các lớp học và giờ nghỉ khác nhau. Hãy cho tôi biết các bạn nghĩ gì nhé."
         },
         {
@@ -278,7 +278,7 @@ export const part3Data = {
       ],
       "templates": [
         "I will share my thoughts on this topic. I [Tình trạng mối quan hệ] with them. We [Hành động tích cực] and try to [Giải quyết vấn đề]. I truly hope this answers the question appropriately today.",
-        "Speaking of this really interesting topic today, I am lucky to [Tình trạng mối quan hệ]. Because we [Hành động tích cực], we can easily [Giải quyết vấn đề]. I am looking forward to hearing your thoughts.",
+        "I would like to discuss this topic now, I am lucky to [Tình trạng mối quan hệ]. Because we [Hành động tích cực], we can easily [Giải quyết vấn đề]. I am looking forward to hearing your thoughts.",
         "I will share my thoughts on this topic. I [Tình trạng mối quan hệ]. Whenever there is noise, we [Giải quyết vấn đề] and still [Hành động tích cực]. I am looking forward to hearing your thoughts."
       ],
       "samples": [
@@ -287,7 +287,7 @@ export const part3Data = {
           "vi": "Tôi rất hào hứng khi nói về điều này! Hiện tại tôi có một mối quan hệ rất hài hòa với tất cả bọn họ. Chúng tôi luôn tôn trọng sự riêng tư của nhau và cố gắng giao tiếp cởi mở và lịch sự bất cứ khi nào một vấn đề nhỏ phát sinh trong khu phố yên bình của chúng tôi. Tôi thực sự hy vọng điều này trả lời hoàn hảo câu hỏi của bạn hôm nay."
         },
         {
-          "en": "Speaking of this really interesting topic today, I am lucky to get along very well. Because we always help each other in need, we can easily avoid unnecessary conflicts. I am looking forward to hearing your thoughts.",
+          "en": "I would like to discuss this topic now, I am lucky to get along very well. Because we always help each other in need, we can easily avoid unnecessary conflicts. I am looking forward to hearing your thoughts.",
           "vi": "Nói về chủ đề thực sự thú vị này hôm nay, tôi vô cùng may mắn khi rất hòa thuận với những người hàng xóm hiện tại. Vì chúng tôi luôn giúp đỡ nhau lúc cần thiết, chúng tôi có thể dễ dàng tránh những xung đột không cần thiết và duy trì một môi trường sống thực sự yên bình. Tôi mong được nghe suy nghĩ của bạn."
         },
         {
@@ -306,21 +306,21 @@ export const part3Data = {
         "✨ [Lợi ích]: <strong>save my time</strong> (tiết kiệm thời gian của tôi), <strong>make me feel comfortable</strong> (làm tôi cảm thấy thoải mái), <strong>ensure a convenient lifestyle</strong> (đảm bảo một lối sống tiện lợi), <strong>require far less maintenance</strong> (yêu cầu bảo trì ít hơn nhiều), <strong>save significantly on energy bills</strong> (tiết kiệm đáng kể hóa đơn năng lượng)"
       ],
       "templates": [
-        "This is definitely something I love talking about. I [Lựa chọn] because they [Lý do hiện đại]. This helps [Lợi ích]. I truly hope this answers the question appropriately today.",
-        "This is definitely something I love talking about. I [Lựa chọn]. They [Lý do hiện đại], which will [Lợi ích]. I truly hope this helps everyone in our club today.",
-        "This is definitely something I love talking about. I [Lựa chọn] since they [Lý do hiện đại] and [Lợi ích]. I truly hope this helps everyone in our club today."
+        "I will now share my thoughts on this. I [Lựa chọn] because they [Lý do hiện đại]. This helps [Lợi ích]. I truly hope this answers the question appropriately today.",
+        "I will now share my thoughts on this. I [Lựa chọn]. They [Lý do hiện đại], which will [Lợi ích]. I truly hope this helps everyone in our club today.",
+        "I will now share my thoughts on this. I [Lựa chọn] since they [Lý do hiện đại] and [Lợi ích]. I truly hope this helps everyone in our club today."
       ],
       "samples": [
         {
-          "en": "This is definitely something I love talking about. I definitely prefer modern buildings because they offer advanced security systems. This helps ensure a convenient lifestyle. I truly hope this answers the question appropriately today.",
+          "en": "I will now share my thoughts on this. I definitely prefer modern buildings because they offer advanced security systems. This helps ensure a convenient lifestyle. I truly hope this answers the question appropriately today.",
           "vi": "Đây chắc chắn là điều tôi thích nói đến. Tôi chắc chắn thích sống trong các tòa nhà hiện đại hơn vì chúng cung cấp các hệ thống an ninh tiên tiến cao và cơ sở vật chất tốt hơn. Lợi thế tuyệt vời này giúp đảm bảo một lối sống rất thoải mái và thuận tiện cho tôi và cả gia đình mỗi ngày. Tôi thực sự hy vọng điều này trả lời hoàn hảo câu hỏi của bạn hôm nay."
         },
         {
-          "en": "This is definitely something I love talking about. I lean towards newly built apartments. They provide high-quality amenities, which will require far less maintenance. I truly hope this helps everyone in our club today.",
+          "en": "I will now share my thoughts on this. I lean towards newly built apartments. They provide high-quality amenities, which will require far less maintenance. I truly hope this helps everyone in our club today.",
           "vi": "Đây chắc chắn là điều tôi thích nói đến. Tôi nghiêng về các căn hộ mới xây ở trung tâm thành phố. Chúng cung cấp các tiện nghi chất lượng cao tuyệt vời, điều này sẽ đòi hỏi ít công bảo trì hơn nhiều và tiết kiệm cho tôi một lượng thời gian và tiền bạc đáng kể. Tôi thực sự hy vọng điều này giúp ích cho mọi người trong câu lạc bộ thân thiện của chúng ta."
         },
         {
-          "en": "This is definitely something I love talking about. I choose contemporary housing since they feature smart home technologies and save significantly on energy bills. I truly hope this helps everyone in our club today.",
+          "en": "I will now share my thoughts on this. I choose contemporary housing since they feature smart home technologies and save significantly on energy bills. I truly hope this helps everyone in our club today.",
           "vi": "Đây chắc chắn là điều tôi thích nói đến. Cá nhân tôi luôn chọn nhà ở đương đại vì chúng trang bị công nghệ nhà thông minh tuyệt vời và các thiết bị hiệu suất cao. Những sự bổ sung hiện đại tuyệt vời này giúp tôi tiết kiệm đáng kể hóa đơn năng lượng trong khi đồng thời bảo vệ môi trường. Tôi thực sự hy vọng điều này giúp ích cho mọi người trong câu lạc bộ thân thiện của chúng ta."
         }
       ]
@@ -335,21 +335,21 @@ export const part3Data = {
         "✨ [Tác động]: <strong>protect the earth</strong> (bảo vệ trái đất), <strong>save electricity</strong> (tiết kiệm điện), <strong>reduce carbon emissions globally</strong> (giảm lượng khí thải carbon trên toàn cầu), <strong>protect our fragile ecosystem</strong> (bảo vệ hệ sinh thái mỏng manh của chúng sửa), <strong>lower long-term living costs</strong> (giảm chi phí sinh hoạt dài hạn)"
       ],
       "templates": [
-        "Speaking of this really interesting topic today, I [Sự đồng ý] because it helps [Tác động]. For instance, we can [Đặc điểm thiết kế]. I am looking forward to hearing your thoughts.",
-        "This is definitely something I love talking about. I [Sự đồng ý]. If we [Đặc điểm thiết kế], we will [Tác động]. I truly hope this answers the question appropriately today.",
-        "Speaking of this really interesting topic today, I [Sự đồng ý] since we need to [Tác động]. Therefore, designers should [Đặc điểm thiết kế]. I am looking forward to hearing your thoughts."
+        "I would like to discuss this topic now, I [Sự đồng ý] because it helps [Tác động]. For instance, we can [Đặc điểm thiết kế]. I am looking forward to hearing your thoughts.",
+        "I will now share my thoughts on this. I [Sự đồng ý]. If we [Đặc điểm thiết kế], we will [Tác động]. I truly hope this answers the question appropriately today.",
+        "I would like to discuss this topic now, I [Sự đồng ý] since we need to [Tác động]. Therefore, designers should [Đặc điểm thiết kế]. I am looking forward to hearing your thoughts."
       ],
       "samples": [
         {
-          "en": "Speaking of this really interesting topic today, I completely agree with this because it helps reduce carbon emissions globally. For instance, we can install solar panels. I am looking forward to hearing your thoughts.",
+          "en": "I would like to discuss this topic now, I completely agree with this because it helps reduce carbon emissions globally. For instance, we can install solar panels. I am looking forward to hearing your thoughts.",
           "vi": "Nói về chủ đề thực sự thú vị này hôm nay, tôi hoàn toàn đồng ý với ý tưởng quan trọng này vì nó giúp giảm lượng khí thải carbon có hại trên toàn cầu. Ví dụ, chúng ta có thể dễ dàng lắp đặt các tấm pin năng lượng mặt trời trên mái nhà để tạo ra năng lượng sạch và giảm thiểu dấu chân môi trường của chúng ta. Tôi mong được nghe suy nghĩ của bạn."
         },
         {
-          "en": "This is definitely something I love talking about. I strongly support eco-friendly designs. If we maximize natural light and ventilation, we will lower long-term living costs. I truly hope this answers the question appropriately today.",
+          "en": "I will now share my thoughts on this. I strongly support eco-friendly designs. If we maximize natural light and ventilation, we will lower long-term living costs. I truly hope this answers the question appropriately today.",
           "vi": "Đây chắc chắn là điều tôi thích nói đến. Tôi mạnh mẽ ủng hộ các thiết kế kiến trúc thân thiện với môi trường cho mọi ngôi nhà. Nếu chúng ta tối đa hóa ánh sáng và thông gió tự nhiên, chúng ta sẽ tự nhiên giảm được chi phí sinh hoạt dài hạn trong khi giữ cho bầu không khí trong nhà trong lành và khỏe mạnh. Tôi thực sự hy vọng điều này trả lời hoàn hảo câu hỏi của bạn hôm nay."
         },
         {
-          "en": "Speaking of this really interesting topic today, I think this is absolutely essential since we need to protect our fragile ecosystem. Therefore, designers should use sustainable building materials. I am looking forward to hearing your thoughts.",
+          "en": "I would like to discuss this topic now, I think this is absolutely essential since we need to protect our fragile ecosystem. Therefore, designers should use sustainable building materials. I am looking forward to hearing your thoughts.",
           "vi": "Nói về chủ đề thực sự thú vị này hôm nay, tôi thực sự nghĩ điều này là hoàn toàn cần thiết ngay lúc này vì chúng ta khẩn cấp cần bảo vệ hệ sinh thái mỏng manh của mình. Do đó, các kiến trúc sư và nhà thiết kế nên luôn ưu tiên sử dụng vật liệu xây dựng bền vững khi xây dựng các ngôi nhà hiện đại trong tương lai. Tôi mong được nghe suy nghĩ của bạn."
         }
       ]
@@ -396,7 +396,7 @@ export const part3Data = {
       ],
       "templates": [
         "Here are my thoughts on this. I [Quan điểm] because it [Lý do thẩm mỹ]. Therefore, it makes the entire house [Cảm nhận]. Let me know what you guys think.",
-        "Speaking of this really interesting topic today, I [Quan điểm]. A well-maintained garden [Lý do thẩm mỹ] and helps the home [Cảm nhận]. Let me know what you guys think.",
+        "I would like to discuss this topic now, I [Quan điểm]. A well-maintained garden [Lý do thẩm mỹ] and helps the home [Cảm nhận]. Let me know what you guys think.",
         "Here are my thoughts on this. I [Quan điểm] since it [Lý do thẩm mỹ]. This wonderful addition makes living spaces [Cảm nhận]. Let me know what you guys think."
       ],
       "samples": [
@@ -405,7 +405,7 @@ export const part3Data = {
           "vi": "Tôi rất vui được chia sẻ điều này. Tôi hoàn toàn đồng ý với ý kiến này vì một khu vườn được chăm sóc tốt mang lại màu sắc rực rỡ cho ngôi nhà. Do đó, nó tự nhiên làm cho toàn bộ ngôi nhà có cảm giác thư giãn và yên bình hơn rất nhiều cho tất cả các cư dân sống ở đó. Hãy cho tôi biết các bạn nghĩ gì nhé."
         },
         {
-          "en": "Speaking of this really interesting topic today, I strongly believe it does. A well-maintained garden creates a stunning natural landscape and helps the home look incredibly welcoming. Let me know what you guys think.",
+          "en": "I would like to discuss this topic now, I strongly believe it does. A well-maintained garden creates a stunning natural landscape and helps the home look incredibly welcoming. Let me know what you guys think.",
           "vi": "Nói về chủ đề thực sự thú vị này hôm nay, theo ý kiến cá nhân của tôi, tôi mạnh mẽ tin là như vậy. Một khu vườn được chăm sóc tốt tạo ra một cảnh quan thiên nhiên tuyệt đẹp ngay ngoài cửa nhà bạn và giúp toàn bộ ngôi nhà trông vô cùng chào đón đối với cả chủ nhà và khách của họ. Hãy cho tôi biết các bạn nghĩ gì nhé."
         },
         {
@@ -424,13 +424,13 @@ export const part3Data = {
         "✨ [Sức khỏe tổng thể]: <strong>live longer</strong> (sống lâu hơn), <strong>feel energetic</strong> (cảm thấy tràn đầy năng lượng), <strong>maintain a healthy weight</strong> (duy trì mức cân nặng khỏe mạnh), <strong>keep our skin glowing</strong> (giữ cho làn da của chúng ta rạng rỡ), <strong>promote overall longevity</strong> (thúc đẩy tuổi thọ tổng thể)"
       ],
       "templates": [
-        "Speaking of this really interesting topic today, vegetables [Dinh dưỡng]. Thus, they effectively [Sức khỏe thể chất] and help us [Sức khỏe tổng thể]. I am looking forward to hearing your thoughts.",
+        "I would like to discuss this topic now, vegetables [Dinh dưỡng]. Thus, they effectively [Sức khỏe thể chất] and help us [Sức khỏe tổng thể]. I am looking forward to hearing your thoughts.",
         "Speaking of this topic, I believe the main benefit is that they [Dinh dưỡng]. Consequently, eating them will [Sức khỏe thể chất] and [Sức khỏe tổng thể]. That is all from me.",
         "Here are my thoughts on this. I think because they [Dinh dưỡng], they naturally [Sức khỏe thể chất]. This allows us to [Sức khỏe tổng thể]. I hope this helps you out."
       ],
       "samples": [
         {
-          "en": "Speaking of this really interesting topic today, vegetables provide essential vitamins and minerals. Thus, they effectively boost our immune system and help us maintain a healthy weight. I am looking forward to hearing your thoughts.",
+          "en": "I would like to discuss this topic now, vegetables provide essential vitamins and minerals. Thus, they effectively boost our immune system and help us maintain a healthy weight. I am looking forward to hearing your thoughts.",
           "vi": "Nói về chủ đề thực sự thú vị này hôm nay, các loại rau tươi cung cấp các vitamin và khoáng chất thiết yếu cho cơ thể chúng ta. Do đó, chúng tăng cường hiệu quả hệ miễn dịch và giúp chúng ta duy trì cân nặng khỏe mạnh, điều này vô cùng quan trọng cho một cuộc sống trường thọ. Tôi mong được nghe suy nghĩ của bạn."
         },
         {
@@ -573,13 +573,13 @@ export const part3Data = {
         "✨ [Reactions]: <strong>read</strong> (đọc), <strong>smile</strong> (cười), <strong>broaden perspectives</strong> (mở rộng góc nhìn), <strong>cultivate empathy</strong> (nuôi dưỡng sự đồng cảm), <strong>expand knowledge</strong> (mở rộng kiến thức)"
       ],
       "templates": [
-        "This is definitely something I love talking about. I highly recommend [Genres] because it is [Benefits] and can help them [Reactions] effectively. I truly hope this answers the question appropriately today.",
+        "I will now share my thoughts on this. I highly recommend [Genres] because it is [Benefits] and can help them [Reactions] effectively. I truly hope this answers the question appropriately today.",
         "I will share my thoughts on this topic. You should definitely buy [Genres] as it is [Benefits] and allows readers to [Reactions] easily. I truly hope this answers the question appropriately today.",
         "I will share my thoughts on this topic. A great choice is [Genres] since it feels [Benefits] and encourages people to [Reactions] everyday. I truly hope this answers the question appropriately today."
       ],
       "samples": [
         {
-          "en": "This is definitely something I love talking about. I highly recommend compelling biographies because it is profoundly inspiring and can help them broaden perspectives effectively. I truly hope this answers the question appropriately today.",
+          "en": "I will now share my thoughts on this. I highly recommend compelling biographies because it is profoundly inspiring and can help them broaden perspectives effectively. I truly hope this answers the question appropriately today.",
           "vi": "Đây chắc chắn là điều tôi thích nói đến. Tôi đánh giá cao những tiểu sử hấp dẫn vì nó truyền cảm hứng sâu sắc và có thể giúp họ mở rộng góc nhìn một cách hiệu quả. Bạn của bạn chắc chắn sẽ mỉm cười và vui vẻ khi đọc về những người nổi tiếng và câu chuyện cuộc sống tuyệt vời của họ mỗi ngày. Tôi thực sự hy vọng điều này trả lời hoàn hảo câu hỏi của bạn hôm nay."
         },
         {
@@ -602,17 +602,17 @@ export const part3Data = {
         "✨ [Impacts]: <strong>help</strong> (giúp), <strong>save</strong> (tiết kiệm), <strong>revolutionize consumption</strong> (cách mạng hóa việc tiêu thụ), <strong>mitigate deforestation</strong> (giảm thiểu phá rừng), <strong>maximize efficiency</strong> (tối đa hóa hiệu quả)"
       ],
       "templates": [
-        "This is definitely something I love talking about. I believe that [Formats] are [Advantages] and will certainly [Impacts] in the near future. I truly hope this answers the question appropriately today.",
-        "This is definitely something I love talking about. Because [Formats] remain [Advantages], they can successfully [Impacts] for readers across the whole world. I truly hope this answers the question appropriately today.",
+        "I will now share my thoughts on this. I believe that [Formats] are [Advantages] and will certainly [Impacts] in the near future. I truly hope this answers the question appropriately today.",
+        "I will now share my thoughts on this. Because [Formats] remain [Advantages], they can successfully [Impacts] for readers across the whole world. I truly hope this answers the question appropriately today.",
         "I will share my thoughts on this topic. It is true that [Formats] seem [Advantages] and might slowly [Impacts] in modern society today. I truly hope this answers the question appropriately today."
       ],
       "samples": [
         {
-          "en": "This is definitely something I love talking about. I believe that digital counterparts are unprecedentedly convenient and will certainly revolutionize consumption in the near future. I truly hope this answers the question appropriately today.",
+          "en": "I will now share my thoughts on this. I believe that digital counterparts are unprecedentedly convenient and will certainly revolutionize consumption in the near future. I truly hope this answers the question appropriately today.",
           "vi": "Đây chắc chắn là điều tôi thích nói đến. Tôi tin rằng các phiên bản kỹ thuật số mang lại sự tiện lợi chưa từng có và chắc chắn sẽ cách mạng hóa việc tiêu thụ trong tương lai gần. Mọi người có thể dễ dàng đọc nhanh trên màn hình nhỏ của họ và tiết kiệm rất nhiều tiền thay vì mua các bản sao vật lý. Tôi thực sự hy vọng điều này trả lời hoàn hảo câu hỏi của bạn hôm nay."
         },
         {
-          "en": "This is definitely something I love talking about. Because electronic publications remain remarkably accessible, they can successfully mitigate deforestation for readers across the whole world. I truly hope this answers the question appropriately today.",
+          "en": "I will now share my thoughts on this. Because electronic publications remain remarkably accessible, they can successfully mitigate deforestation for readers across the whole world. I truly hope this answers the question appropriately today.",
           "vi": "Đây chắc chắn là điều tôi thích nói đến. Bởi vì các ấn bản điện tử vẫn cực kỳ dễ tiếp cận, chúng có thể giảm thiểu nạn phá rừng thành công cho độc giả trên toàn thế giới. Bất kỳ ai cũng có thể sử dụng các ứng dụng hiện đại để tải xuống những cuốn sách rẻ tiền, điều này giúp bảo vệ môi trường tự nhiên tươi đẹp của chúng ta và cứu những cây cổ thụ. Tôi thực sự hy vọng điều này trả lời hoàn hảo câu hỏi của bạn hôm nay."
         },
         {
@@ -722,13 +722,13 @@ export const part3Data = {
         "✨ [Theater Benefits]: <strong>big screen</strong> (màn hình lớn), <strong>good sound</strong> (âm thanh hay), <strong>cinematic experience</strong> (trải nghiệm điện ảnh), <strong>immersive atmosphere</strong> (không khí chìm đắm), <strong>superior audiovisuals</strong> (âm thanh hình ảnh vượt trội)"
       ],
       "templates": [
-        "This is definitely something I love talking about. Template 1: I [Frequency] watch movies on my [Device Preferences] at home instead of going out. I truly hope this helps everyone in our club today.",
+        "I will now share my thoughts on this. Template 1: I [Frequency] watch movies on my [Device Preferences] at home instead of going out. I truly hope this helps everyone in our club today.",
         "I will share my thoughts on this topic. Template 2: While I [Frequency] visit the cinema for its [Theater Benefits], my [Device Preferences] is more convenient. I truly hope this answers the question appropriately today.",
         "I will share my thoughts on this topic. Template 3: My [Device Preferences] is great, but I [Frequency] crave the [Theater Benefits] of a real cinema. I truly hope this answers the question appropriately today."
       ],
       "samples": [
         {
-          "en": "This is definitely something I love talking about. Template 1: I frequently watch movies on my laptop at home instead of going out. I truly hope this helps everyone in our club today.",
+          "en": "I will now share my thoughts on this. Template 1: I frequently watch movies on my laptop at home instead of going out. I truly hope this helps everyone in our club today.",
           "vi": "Đây chắc chắn là điều tôi thích nói đến. Tôi thường xuyên xem phim trên máy tính xách tay ở nhà thay vì đi chơi. Nó vô cùng tiện lợi và giúp tôi tiết kiệm một lượng lớn tiền bạc và thời gian quý báu mà nếu không tôi sẽ dành để di chuyển đến rạp chiếu phim vào mỗi dịp cuối tuần. Tôi thực sự hy vọng điều này giúp ích cho mọi người trong câu lạc bộ thân thiện của chúng ta."
         },
         {
@@ -751,13 +751,13 @@ export const part3Data = {
         "✨ [Emotional Response]: <strong>upset</strong> (buồn bực), <strong>mad</strong> (tức giận), <strong>devastated</strong> (suy sụp), <strong>frustrated</strong> (thất vọng), <strong>dismayed</strong> (hoảng hốt)"
       ],
       "templates": [
-        "This is definitely something I love talking about. Template 1: I experienced a terrible [Incident Type] last year which resulted in [Consequences], leaving me [Emotional Response]. I truly hope this answers the question appropriately today.",
+        "I will now share my thoughts on this. Template 1: I experienced a terrible [Incident Type] last year which resulted in [Consequences], leaving me [Emotional Response]. I truly hope this answers the question appropriately today.",
         "I would like to share my thoughts on this topic. Template 2: Because of a [Incident Type], I suffered from [Consequences] and felt completely [Emotional Response]. I truly hope this helps everyone in our club today.",
-        "This is definitely something I love talking about. Template 3: A sudden [Incident Type] caused [Consequences], and I was [Emotional Response] about the whole situation. I truly hope this helps everyone in our club today."
+        "I will now share my thoughts on this. Template 3: A sudden [Incident Type] caused [Consequences], and I was [Emotional Response] about the whole situation. I truly hope this helps everyone in our club today."
       ],
       "samples": [
         {
-          "en": "This is definitely something I love talking about. Template 1: I experienced a terrible system failure last year which resulted in irreversible data loss, leaving me devastated. I truly hope this answers the question appropriately today.",
+          "en": "I will now share my thoughts on this. Template 1: I experienced a terrible system failure last year which resulted in irreversible data loss, leaving me devastated. I truly hope this answers the question appropriately today.",
           "vi": "Đây chắc chắn là điều tôi thích nói đến. Tôi đã trải qua một lỗi hệ thống tồi tệ vào năm ngoái dẫn đến mất dữ liệu không thể phục hồi, khiến tôi hoàn toàn suy sụp. Tôi đã dành vô số đêm để chuẩn bị cho luận văn tốt nghiệp cuối khóa của mình, và việc nhận ra mọi thứ đã vĩnh viễn biến mất thực sự là cơn ác mộng đau lòng nhất từ trước đến nay. Tôi thực sự hy vọng điều này trả lời hoàn hảo câu hỏi của bạn hôm nay."
         },
         {
@@ -765,7 +765,7 @@ export const part3Data = {
           "vi": "Tôi luôn muốn chia sẻ suy nghĩ của mình về điều này! Vì một sự cố bất ngờ, tôi đã bị hỏng dữ liệu và cảm thấy hoàn toàn thất vọng. Tất cả các bảng tính tài chính quan trọng của tôi biến mất ngay lập tức trước mắt tôi. Bây giờ tôi phải ép bản thân nhớ sao lưu các tài liệu thiết yếu lên đám mây bảo mật mỗi ngày. Tôi thực sự hy vọng điều này giúp ích cho mọi người trong câu lạc bộ thân thiện của chúng ta."
         },
         {
-          "en": "This is definitely something I love talking about. Template 3: A sudden crash caused delays, and I was mad about the whole situation. I truly hope this helps everyone in our club today.",
+          "en": "I will now share my thoughts on this. Template 3: A sudden crash caused delays, and I was mad about the whole situation. I truly hope this helps everyone in our club today.",
           "vi": "Đây chắc chắn là điều tôi thích nói đến. Một sự cố sập nguồn bất ngờ gây ra sự chậm trễ, và tôi đã tức giận về toàn bộ tình huống đó. Tôi đang kết xuất một dự án video phức tạp cho khách hàng khó tính của mình, và máy tính đơn giản là tắt nguồn không báo trước, phá hủy công việc khó nhọc của tôi ngay trước hạn chót. Tôi thực sự hy vọng điều này giúp ích cho mọi người trong câu lạc bộ thân thiện của chúng ta."
         }
       ]
@@ -781,7 +781,7 @@ export const part3Data = {
       ],
       "templates": [
         "I would like to share my personal thoughts on this topic. Template 1: I [General Opinion] because technology brings [Positive Impacts] despite causing [Negative Aspects]. I truly hope this helps everyone in our club right now.",
-        "This is definitely something I love talking about. Template 2: While we might experience [Negative Aspects], I [General Opinion] that experiencing [Positive Impacts] makes life better. I truly hope this answers the question appropriately today.",
+        "I will now share my thoughts on this. Template 2: While we might experience [Negative Aspects], I [General Opinion] that experiencing [Positive Impacts] makes life better. I truly hope this answers the question appropriately today.",
         "I would like to share my thoughts on this topic. Template 3: Many people [General Opinion] that having [Positive Impacts] outweighs the risks of [Negative Aspects]. I truly hope this helps everyone in our club today."
       ],
       "samples": [
@@ -790,7 +790,7 @@ export const part3Data = {
           "vi": "Ồ, tôi luôn muốn chia sẻ suy nghĩ của mình về điều này! Tôi hoàn toàn tán thành vì công nghệ mang lại sự tiện lợi chưa từng có bất chấp việc gây ra các lỗ hổng quyền riêng tư. Các thiết bị nhà thông minh cho phép chúng ta quản lý hiệu quả công việc nhà bằng các lệnh giọng nói đơn giản, mang lại cho chúng ta nhiều thời gian rảnh hơn đáng kể để vui vẻ thư giãn cùng các thành viên yêu thương trong gia đình. Tôi thực sự hy vọng điều này giúp ích cho mọi người trong câu lạc bộ thân thiện của chúng ta hôm nay."
         },
         {
-          "en": "This is definitely something I love talking about. Template 2: While we might experience sedentary lifestyles, I firmly believe that experiencing enhanced productivity makes life better. I truly hope this answers the question appropriately today.",
+          "en": "I will now share my thoughts on this. Template 2: While we might experience sedentary lifestyles, I firmly believe that experiencing enhanced productivity makes life better. I truly hope this answers the question appropriately today.",
           "vi": "Đây chắc chắn là điều tôi thích nói đến. Mặc dù chúng ta có thể trải nghiệm lối sống ít vận động, tôi tin tưởng vững chắc rằng việc trải nghiệm năng suất được nâng cao sẽ làm cho cuộc sống tốt hơn. Máy tính hiện đại tự động hóa các công việc hàng ngày nhàm chán, cho phép những người lao động hiện đại tập trung vào các dự án sáng tạo và cải thiện đáng kể sự phát triển nghề nghiệp chuyên môn của họ mỗi ngày. Tôi thực sự hy vọng điều này trả lời hoàn hảo câu hỏi của bạn hôm nay."
         },
         {
@@ -900,21 +900,21 @@ export const part3Data = {
         "✨ [Nouns]: <strong>room</strong> (phòng), <strong>bed</strong> (giường), <strong>boundaries</strong> (ranh giới), <strong>privacy</strong> (sự riêng tư), <strong>territory</strong> (lãnh thổ)"
       ],
       "templates": [
-        "It is so interesting to hear all your different thoughts, I feel quite [Feelings] about sharing my [Nouns] because I have to [Actions] often it is so interesting to hear all your different thoughts honestly.",
-        "It is so interesting to hear all your different thoughts, when sharing this [Nouns], I must [Actions] daily, which makes me feel [Feelings] it is so interesting to hear all your different thoughts you know.",
-        "It is so interesting to hear all your different thoughts, it is necessary to [Actions] in our shared [Nouns], leaving me feeling [Feelings] it is so interesting to hear all your different thoughts you know."
+        "I will now share my personal thoughts on this matter, I feel quite [Feelings] about sharing my [Nouns] because I have to [Actions] often it is so interesting to hear all your different thoughts honestly.",
+        "I will now share my personal thoughts on this matter, when sharing this [Nouns], I must [Actions] daily, which makes me feel [Feelings] it is so interesting to hear all your different thoughts you know.",
+        "I will now share my personal thoughts on this matter, it is necessary to [Actions] in our shared [Nouns], leaving me feeling [Feelings] it is so interesting to hear all your different thoughts you know."
       ],
       "samples": [
         {
-          "en": "It is so interesting to hear all your different thoughts, I feel quite happy about sharing my room because I have to talk often it is so interesting to hear all your different thoughts honestly.",
+          "en": "I will now share my personal thoughts on this matter, I feel quite happy about sharing my room because I have to talk often it is so interesting to hear all your different thoughts honestly.",
           "vi": "Tôi cảm thấy khá bực bội về việc chia sẻ sự riêng tư của mình vì tôi thường phải thỏa hiệp. Anh trai tôi rất bừa bộn và ồn ào, vì vậy tôi hiếm khi có thời gian yên tĩnh để học tập hoặc thư giãn đúng cách ở nhà mỗi tối."
         },
         {
-          "en": "It is so interesting to hear all your different thoughts, when sharing this bed, I must play daily, which makes me feel sad it is so interesting to hear all your different thoughts you know.",
+          "en": "I will now share my personal thoughts on this matter, when sharing this bed, I must play daily, which makes me feel sad it is so interesting to hear all your different thoughts you know.",
           "vi": "Khi chia sẻ căn phòng này, tôi phải đàm phán hàng ngày, điều này khiến tôi cảm thấy choáng ngợp. Chúng tôi có lịch trình và thói quen hoàn toàn khác nhau, khiến việc duy trì hòa bình và thoải mái trong không gian sống chung nhỏ bé của chúng tôi luôn cực kỳ khó khăn."
         },
         {
-          "en": "It is so interesting to hear all your different thoughts, it is necessary to compromise in our shared boundaries, leaving me feeling frustrated it is so interesting to hear all your different thoughts you know.",
+          "en": "I will now share my personal thoughts on this matter, it is necessary to compromise in our shared boundaries, leaving me feeling frustrated it is so interesting to hear all your different thoughts you know.",
           "vi": "Cần phải nói chuyện trong lãnh thổ chung của chúng tôi, khiến tôi cảm thấy hài lòng. Mặc dù đôi khi chúng tôi tranh cãi về những điều nhỏ nhặt, chúng tôi thường tôn trọng nhu cầu của nhau và duy trì một mối quan hệ anh em rất hỗ trợ và thân thiện hàng ngày."
         }
       ]
@@ -929,21 +929,21 @@ export const part3Data = {
         "✨ [Verbs]: <strong>live</strong> (sống), <strong>work</strong> (làm việc), <strong>flourish</strong> (phát triển mạnh), <strong>thrive</strong> (thịnh vượng), <strong>commute</strong> (đi lại)"
       ],
       "templates": [
-        "It is so interesting to hear all your different thoughts, people [Verbs] better in cities due to modern [Advantages] despite the [Disadvantages] it is so interesting to hear all your different thoughts i must say.",
-        "It is so interesting to hear all your different thoughts, cities allow us to [Verbs] with excellent [Advantages], though we face severe [Disadvantages] it is so interesting to hear all your different thoughts you know.",
-        "It is so interesting to hear all your different thoughts, despite significant [Disadvantages], many choose to [Verbs] in urban areas for better [Advantages] it is so interesting to hear all your different thoughts you know."
+        "I will now share my personal thoughts on this matter, people [Verbs] better in cities due to modern [Advantages] despite the [Disadvantages] it is so interesting to hear all your different thoughts i must say.",
+        "I will now share my personal thoughts on this matter, cities allow us to [Verbs] with excellent [Advantages], though we face severe [Disadvantages] it is so interesting to hear all your different thoughts you know.",
+        "I will now share my personal thoughts on this matter, despite significant [Disadvantages], many choose to [Verbs] in urban areas for better [Advantages] it is so interesting to hear all your different thoughts you know."
       ],
       "samples": [
         {
-          "en": "It is so interesting to hear all your different thoughts, people live better in cities due to modern fun despite the noise it is so interesting to hear all your different thoughts i must say.",
+          "en": "I will now share my personal thoughts on this matter, people live better in cities due to modern fun despite the noise it is so interesting to hear all your different thoughts i must say.",
           "vi": "Tôi tin rằng mọi người phát triển tốt hơn ở các thành phố nhờ tiện nghi hiện đại bất chấp ô nhiễm. Sự phong phú của các bệnh viện tiên tiến, các lựa chọn giải trí đa dạng và các tổ chức giáo dục hàng đầu làm cho môi trường đô thị vô cùng hấp dẫn đối với các chuyên gia trẻ và đầy tham vọng."
         },
         {
-          "en": "It is so interesting to hear all your different thoughts, cities allow us to work with excellent jobs, though we face severe dirt it is so interesting to hear all your different thoughts you know.",
+          "en": "I will now share my personal thoughts on this matter, cities allow us to work with excellent jobs, though we face severe dirt it is so interesting to hear all your different thoughts you know.",
           "vi": "Các thành phố cho phép chúng ta phát triển với những cơ hội tuyệt vời, mặc dù chúng ta phải đối mặt với tình trạng tắc nghẽn nghiêm trọng. Khả năng tiếp cận các công ty quốc tế và mạng lưới rộng lớn giúp các cá nhân xây dựng sự nghiệp thành công nhanh chóng, hoàn toàn vượt xa căng thẳng hàng ngày khi di chuyển trên những con phố đông đúc nhộn nhịp."
         },
         {
-          "en": "It is so interesting to hear all your different thoughts, despite significant pollution, many choose to flourish in urban areas for better amenities it is so interesting to hear all your different thoughts you know.",
+          "en": "I will now share my personal thoughts on this matter, despite significant pollution, many choose to flourish in urban areas for better amenities it is so interesting to hear all your different thoughts you know.",
           "vi": "Bất chấp tình trạng quá tải dân số đáng kể, nhiều người chọn làm việc ở khu vực thành thị để có công việc tốt hơn. Nền kinh tế năng động cung cấp nhiều con đường để ổn định tài chính và phát triển cá nhân mà hiện tại đơn giản là không có sẵn ở các cộng đồng nông nghiệp nông thôn yên tĩnh, biệt lập."
         }
       ]
@@ -958,21 +958,21 @@ export const part3Data = {
         "✨ [Reasons]: <strong>past</strong> (quá khứ), <strong>history</strong> (lịch sử), <strong>heritage</strong> (di sản), <strong>identity</strong> (bản sắc), <strong>legacy</strong> (tài sản kế thừa)"
       ],
       "templates": [
-        "It is so interesting to hear all your different thoughts, we must [Actions] these [Descriptions] structures to protect our national [Reasons] it is so interesting to hear all your different thoughts i totally agree here.",
-        "It is so interesting to hear all your different thoughts, it is crucial to [Actions] [Descriptions] sites because they represent our cultural [Reasons] it is so interesting to hear all your different thoughts you know.",
-        "It is so interesting to hear all your different thoughts, by choosing to [Actions] [Descriptions] architecture, we actively maintain our unique [Reasons] it is so interesting to hear all your different thoughts i must say."
+        "I will now share my personal thoughts on this matter, we must [Actions] these [Descriptions] structures to protect our national [Reasons] it is so interesting to hear all your different thoughts i totally agree here.",
+        "I will now share my personal thoughts on this matter, it is crucial to [Actions] [Descriptions] sites because they represent our cultural [Reasons] it is so interesting to hear all your different thoughts you know.",
+        "I will now share my personal thoughts on this matter, by choosing to [Actions] [Descriptions] architecture, we actively maintain our unique [Reasons] it is so interesting to hear all your different thoughts i must say."
       ],
       "samples": [
         {
-          "en": "It is so interesting to hear all your different thoughts, we must keep these old structures to protect our national past it is so interesting to hear all your different thoughts i totally agree here.",
+          "en": "I will now share my personal thoughts on this matter, we must keep these old structures to protect our national past it is so interesting to hear all your different thoughts i totally agree here.",
           "vi": "Chúng ta phải bảo vệ những công trình có ý nghĩa văn hóa này để bảo vệ bản sắc dân tộc của chúng ta. Việc thay thế chúng hoàn toàn bằng các tòa nhà chọc trời bằng kính thông thường sẽ phá hủy nét đặc trưng độc đáo của các thành phố xinh đẹp của chúng ta và xóa bỏ những mối liên hệ hữu hình với tổ tiên đáng tự hào chung của chúng ta."
         },
         {
-          "en": "It is so interesting to hear all your different thoughts, it is crucial to save new sites because they represent our cultural history it is so interesting to hear all your different thoughts you know.",
+          "en": "I will now share my personal thoughts on this matter, it is crucial to save new sites because they represent our cultural history it is so interesting to hear all your different thoughts you know.",
           "vi": "Việc bảo tồn các di tích lịch sử là rất quan trọng vì chúng đại diện cho di sản văn hóa của chúng ta. Những kỳ quan kiến ​​trúc cổ đại tráng lệ này mang đến cơ hội giáo dục quý giá cho thế hệ trẻ để hiểu thấu đáo và trân trọng sâu sắc nghệ thuật truyền thống và sự khéo léo vượt trội."
         },
         {
-          "en": "It is so interesting to hear all your different thoughts, by choosing to preserve historic architecture, we actively maintain our unique heritage it is so interesting to hear all your different thoughts i must say.",
+          "en": "I will now share my personal thoughts on this matter, by choosing to preserve historic architecture, we actively maintain our unique heritage it is so interesting to hear all your different thoughts i must say.",
           "vi": "Bằng cách chọn giữ lại kiến ​​trúc cũ, chúng ta tích cực duy trì quá khứ độc đáo của mình. Việc kết hợp các địa danh cổ điển được phục hồi với các thiết kế hiện đại sáng tạo tạo ra một cảnh quan đô thị vô cùng tuyệt đẹp và sống động về mặt thị giác, thu hút hàng triệu khách du lịch quốc tế nhiệt tình."
         }
       ]
@@ -989,21 +989,21 @@ export const part3Data = {
         "✨ [Snacks]: <strong>chips</strong> (khoai tây chiên), <strong>fruit</strong> (trái cây), <strong>refreshments</strong> (đồ giải khát), <strong>delicacies</strong> (đặc sản), <strong>confectioneries</strong> (bánh kẹo)"
       ],
       "templates": [
-        "It is so interesting to hear all your different thoughts, I usually [Activities] while enjoying some [Snacks], feeling entirely [Feelings] it is so interesting to hear all your different thoughts that is a great point.",
-        "It is so interesting to hear all your different thoughts, while feeling [Feelings], I love to [Activities] and consume delicious [Snacks] it is so interesting to hear all your different thoughts i totally agree here.",
-        "It is so interesting to hear all your different thoughts, to get [Feelings], I often [Activities] while treating myself to [Snacks] it is so interesting to hear all your different thoughts i totally agree here."
+        "I will now share my personal thoughts on this matter, I usually [Activities] while enjoying some [Snacks], feeling entirely [Feelings] it is so interesting to hear all your different thoughts that is a great point.",
+        "I will now share my personal thoughts on this matter, while feeling [Feelings], I love to [Activities] and consume delicious [Snacks] it is so interesting to hear all your different thoughts i totally agree here.",
+        "I will now share my personal thoughts on this matter, to get [Feelings], I often [Activities] while treating myself to [Snacks] it is so interesting to hear all your different thoughts i totally agree here."
       ],
       "samples": [
         {
-          "en": "It is so interesting to hear all your different thoughts, I usually eat while enjoying some chips, feeling entirely good it is so interesting to hear all your different thoughts that is a great point.",
+          "en": "I will now share my personal thoughts on this matter, I usually eat while enjoying some chips, feeling entirely good it is so interesting to hear all your different thoughts that is a great point.",
           "vi": "Tôi thường thư giãn trong khi thưởng thức một số loại bánh kẹo, cảm thấy hoàn toàn thư giãn. Sau một ngày vô cùng căng thẳng tại văn phòng công ty nhộn nhịp, ngồi trên chiếc ghế sofa êm ái thoải mái với những món ngọt ngay lập tức làm tan biến mọi lo lắng tích tụ của tôi."
         },
         {
-          "en": "It is so interesting to hear all your different thoughts, while feeling tired, I love to drink and consume delicious fruit it is so interesting to hear all your different thoughts i totally agree here.",
+          "en": "I will now share my personal thoughts on this matter, while feeling tired, I love to drink and consume delicious fruit it is so interesting to hear all your different thoughts i totally agree here.",
           "vi": "Trong khi cảm thấy mải mê, tôi thích làm nhiều việc cùng lúc và tiêu thụ những thức uống giải khát thơm ngon. Tôi thường xuyên trả lời các email công việc quan trọng hoặc tình cờ lướt mạng xã hội trên điện thoại thông minh của mình trong thời gian nghỉ quảng cáo của bộ phim truyền hình ly kỳ mà tôi vô cùng yêu thích."
         },
         {
-          "en": "It is so interesting to hear all your different thoughts, to get relaxed, I often socialize while treating myself to refreshments it is so interesting to hear all your different thoughts i totally agree here.",
+          "en": "I will now share my personal thoughts on this matter, to get relaxed, I often socialize while treating myself to refreshments it is so interesting to hear all your different thoughts i totally agree here.",
           "vi": "Để được tốt, tôi thường ăn trong khi tự thưởng cho mình trái cây. Chia sẻ một bát lớn trái cây nhiệt đới thái lát tươi với gia đình thân yêu của tôi làm cho trải nghiệm giải trí buổi tối của chúng tôi lành mạnh hơn đáng kể và thú vị hơn nhiều cùng nhau."
         }
       ]
@@ -1018,21 +1018,21 @@ export const part3Data = {
         "✨ [Atmosphere]: <strong>quiet</strong> (yên tĩnh), <strong>loud</strong> (ồn ào), <strong>intimate</strong> (thân mật), <strong>boisterous</strong> (náo nhiệt), <strong>convivial</strong> (vui vẻ)"
       ],
       "templates": [
-        "It is so interesting to hear all your different thoughts, I [Preferences] watching with [People] because it creates a [Atmosphere] environment it is so interesting to hear all your different thoughts i totally agree here.",
-        "It is so interesting to hear all your different thoughts, a [Atmosphere] setting with [People] is exactly why I [Preferences] group viewing it is so interesting to hear all your different thoughts i must say.",
-        "It is so interesting to hear all your different thoughts, because I enjoy a [Atmosphere] vibe, I [Preferences] watching television alongside [People] it is so interesting to hear all your different thoughts i must say."
+        "I will now share my personal thoughts on this matter, I [Preferences] watching with [People] because it creates a [Atmosphere] environment it is so interesting to hear all your different thoughts i totally agree here.",
+        "I will now share my personal thoughts on this matter, a [Atmosphere] setting with [People] is exactly why I [Preferences] group viewing it is so interesting to hear all your different thoughts i must say.",
+        "I will now share my personal thoughts on this matter, because I enjoy a [Atmosphere] vibe, I [Preferences] watching television alongside [People] it is so interesting to hear all your different thoughts i must say."
       ],
       "samples": [
         {
-          "en": "It is so interesting to hear all your different thoughts, I like watching with friends because it creates a quiet environment it is so interesting to hear all your different thoughts i totally agree here.",
+          "en": "I will now share my personal thoughts on this matter, I like watching with friends because it creates a quiet environment it is so interesting to hear all your different thoughts i totally agree here.",
           "vi": "Tôi thích xem với bạn đồng hành vì nó tạo ra một môi trường vui vẻ. Chúng tôi liên tục chia sẻ những ý kiến thú vị, nhiệt tình tranh luận về những tình tiết bất ngờ và cùng nhau bật cười không kiểm soát, khiến toàn bộ trải nghiệm điện ảnh trở nên vô cùng đáng nhớ và có tính tương tác cao."
         },
         {
-          "en": "It is so interesting to hear all your different thoughts, a loud setting with family is exactly why I hate group viewing it is so interesting to hear all your different thoughts i must say.",
+          "en": "I will now share my personal thoughts on this matter, a loud setting with family is exactly why I hate group viewing it is so interesting to hear all your different thoughts i must say.",
           "vi": "Một khung cảnh yên tĩnh với gia đình chính là lý do tại sao tôi thích xem theo nhóm. Nó mang đến một cơ hội vô cùng an ủi để chúng tôi gắn kết một cách hòa bình và thầm lặng đánh giá cao những bộ phim tài liệu hấp dẫn sau khi vượt qua lịch trình hàng ngày vô cùng khắt khe và mệt mỏi của chúng tôi."
         },
         {
-          "en": "It is so interesting to hear all your different thoughts, because I enjoy a intimate vibe, I prefer watching television alongside acquaintances it is so interesting to hear all your different thoughts i must say.",
+          "en": "I will now share my personal thoughts on this matter, because I enjoy a intimate vibe, I prefer watching television alongside acquaintances it is so interesting to hear all your different thoughts i must say.",
           "vi": "Vì tôi thích bầu không khí náo nhiệt, tôi thích xem tivi cùng bạn bè. Cổ vũ cuồng nhiệt cho các đội bóng đá chuyên nghiệp hoàn toàn yêu thích của chúng tôi trong khi chia sẻ mạnh mẽ những chiếc bánh pizza lớn biến một buổi phát sóng thể thao tiêu chuẩn thành một lễ kỷ niệm cuối tuần khó quên."
         }
       ]
@@ -1047,21 +1047,21 @@ export const part3Data = {
         "✨ [Issues]: <strong>eyes</strong> (mắt), <strong>sleep</strong> (giấc ngủ), <strong>obesity</strong> (béo phì), <strong>insomnia</strong> (mất ngủ), <strong>lethargy</strong> (sự thờ ơ)"
       ],
       "templates": [
-        "It is so interesting to hear all your different thoughts, excessive viewing is [Impacts], causing [Issues] instead of encouraging children to [Alternatives] it is so interesting to hear all your different thoughts i must say.",
-        "It is so interesting to hear all your different thoughts, rather than helping them [Alternatives], too much TV has [Impacts] effects like [Issues] it is so interesting to hear all your different thoughts you know.",
-        "It is so interesting to hear all your different thoughts, to avoid [Issues] and [Impacts] consequences, kids should [Alternatives] more often it is so interesting to hear all your different thoughts i totally agree here."
+        "I will now share my personal thoughts on this matter, excessive viewing is [Impacts], causing [Issues] instead of encouraging children to [Alternatives] it is so interesting to hear all your different thoughts i must say.",
+        "I will now share my personal thoughts on this matter, rather than helping them [Alternatives], too much TV has [Impacts] effects like [Issues] it is so interesting to hear all your different thoughts you know.",
+        "I will now share my personal thoughts on this matter, to avoid [Issues] and [Impacts] consequences, kids should [Alternatives] more often it is so interesting to hear all your different thoughts i totally agree here."
       ],
       "samples": [
         {
-          "en": "It is so interesting to hear all your different thoughts, excessive viewing is bad, causing eyes instead of encouraging children to read it is so interesting to hear all your different thoughts i must say.",
+          "en": "I will now share my personal thoughts on this matter, excessive viewing is bad, causing eyes instead of encouraging children to read it is so interesting to hear all your different thoughts i must say.",
           "vi": "Xem quá nhiều là có hại, gây ra sự thờ ơ thay vì khuyến khích trẻ em giao lưu. Việc ngồi thụ động trong vô số giờ liên tục hạn chế nghiêm trọng sự phát triển thể chất quan trọng của chúng và làm giảm đáng kể các cơ hội thiết yếu của chúng để thực hành các kỹ năng giao tiếp cá nhân quan trọng."
         },
         {
-          "en": "It is so interesting to hear all your different thoughts, rather than helping them play, too much TV has sad effects like sleep it is so interesting to hear all your different thoughts you know.",
+          "en": "I will now share my personal thoughts on this matter, rather than helping them play, too much TV has sad effects like sleep it is so interesting to hear all your different thoughts you know.",
           "vi": "Thay vì giúp chúng tương tác, xem TV quá nhiều có những tác động nguy hại như béo phì. Khi trẻ mới biết đi liên tục tiêu thụ đồ ăn nhẹ nhiều đường được chế biến kỹ trong khi nhìn chằm chằm vào màn hình kỹ thuật số phát sáng, không may là chúng nhanh chóng phát triển các thói quen ăn kiêng không lành mạnh nghiêm trọng suốt đời."
         },
         {
-          "en": "It is so interesting to hear all your different thoughts, to avoid obesity and detrimental consequences, kids should socialize more often it is so interesting to hear all your different thoughts i totally agree here.",
+          "en": "I will now share my personal thoughts on this matter, to avoid obesity and detrimental consequences, kids should socialize more often it is so interesting to hear all your different thoughts i totally agree here.",
           "vi": "Để tránh mất ngủ và những hậu quả tồi tệ, trẻ em nên đọc thường xuyên hơn. Việc tham gia mạnh mẽ vào các cuốn truyện giàu trí tưởng tượng được minh họa đẹp mắt kích thích thích hợp bộ não trẻ đang phát triển nhanh chóng của chúng và tự nhiên thúc đẩy các mô hình nghỉ ngơi ban đêm sâu hơn nhiều, phục hồi cao mỗi tối."
         }
       ]
@@ -1078,21 +1078,21 @@ export const part3Data = {
         "✨ [Companions]: <strong>dad</strong> (bố), <strong>mom</strong> (mẹ), <strong>siblings</strong> (anh chị em), <strong>relatives</strong> (họ hàng), <strong>colleagues</strong> (đồng nghiệp)"
       ],
       "templates": [
-        "It is so interesting to hear all your different thoughts, my trip to the [Destinations] with my [Companions] was a truly [Experiences] journey it is so interesting to hear all your different thoughts you know.",
-        "It is so interesting to hear all your different thoughts, traveling to the [Destinations] proved [Experiences] when accompanied by my [Companions] it is so interesting to hear all your different thoughts i totally agree here.",
-        "It is so interesting to hear all your different thoughts, it was a [Experiences] drive to the [Destinations] alongside my wonderful [Companions] it is so interesting to hear all your different thoughts i must say."
+        "I will now share my personal thoughts on this matter, my trip to the [Destinations] with my [Companions] was a truly [Experiences] journey it is so interesting to hear all your different thoughts you know.",
+        "I will now share my personal thoughts on this matter, traveling to the [Destinations] proved [Experiences] when accompanied by my [Companions] it is so interesting to hear all your different thoughts i totally agree here.",
+        "I will now share my personal thoughts on this matter, it was a [Experiences] drive to the [Destinations] alongside my wonderful [Companions] it is so interesting to hear all your different thoughts i must say."
       ],
       "samples": [
         {
-          "en": "It is so interesting to hear all your different thoughts, my trip to the beach with my dad was a truly fun journey it is so interesting to hear all your different thoughts you know.",
+          "en": "I will now share my personal thoughts on this matter, my trip to the beach with my dad was a truly fun journey it is so interesting to hear all your different thoughts you know.",
           "vi": "Chuyến đi của tôi đến nơi hoang dã cùng với các đồng nghiệp là một hành trình thực sự làm vui vẻ. Chúng tôi cẩn thận điều hướng những con đường đất ngoằn ngoèo hiểm trở trên núi, vui vẻ hát vang những bài hát rock cổ điển sôi động và nhiệt tình chiêm ngưỡng toàn cảnh thung lũng tuyệt đẹp đến nghẹt thở."
         },
         {
-          "en": "It is so interesting to hear all your different thoughts, traveling to the park proved long when accompanied by my mom it is so interesting to hear all your different thoughts i totally agree here.",
+          "en": "I will now share my personal thoughts on this matter, traveling to the park proved long when accompanied by my mom it is so interesting to hear all your different thoughts i totally agree here.",
           "vi": "Việc đi du lịch đến đô thị tỏ ra mệt mỏi khi đi cùng với anh chị em của tôi. Thật không may, chúng tôi đã gặp phải tình trạng tắc nghẽn giao thông lớn không nhượng bộ gần khu tài chính trung tâm cao chót vót, khiến chuyến tham quan ngắm cảnh cuối tuần được lên kế hoạch tỉ mỉ của chúng tôi trở nên vô cùng căng thẳng và vô cùng bực bội."
         },
         {
-          "en": "It is so interesting to hear all your different thoughts, it was a exhausting drive to the metropolis alongside my wonderful siblings it is so interesting to hear all your different thoughts i must say.",
+          "en": "I will now share my personal thoughts on this matter, it was a exhausting drive to the metropolis alongside my wonderful siblings it is so interesting to hear all your different thoughts i must say.",
           "vi": "Đó là một chuyến lái xe vui vẻ đến bãi biển cùng với người bố tuyệt vời của tôi. Chúng tôi hào hứng dừng lại ở những quán ăn nhỏ ven biển ẩn mình kỳ lạ để háo hức nếm thử những món hải sản địa phương chính thống thơm ngon trong khi nhẹ nhàng tận hưởng làn gió biển ấm áp sảng khoái."
         }
       ]
@@ -1107,21 +1107,21 @@ export const part3Data = {
         "✨ [Verbs]: <strong>stop</strong> (dừng), <strong>help</strong> (giúp), <strong>mitigate</strong> (giảm nhẹ), <strong>alleviate</strong> (làm giảm bớt), <strong>regulate</strong> (điều chỉnh)"
       ],
       "templates": [
-        "It is so interesting to hear all your different thoughts, to [Verbs] severe [Problems], we critically need better [Solutions] implemented immediately it is so interesting to hear all your different thoughts i totally agree here.",
-        "It is so interesting to hear all your different thoughts, by improving [Solutions], governments can successfully [Verbs] the escalating [Problems] everywhere it is so interesting to hear all your different thoughts i totally agree here.",
-        "It is so interesting to hear all your different thoughts, the best way to [Verbs] [Problems] is by prioritizing alternative [Solutions] systematically it is so interesting to hear all your different thoughts i must say."
+        "I will now share my personal thoughts on this matter, to [Verbs] severe [Problems], we critically need better [Solutions] implemented immediately it is so interesting to hear all your different thoughts i totally agree here.",
+        "I will now share my personal thoughts on this matter, by improving [Solutions], governments can successfully [Verbs] the escalating [Problems] everywhere it is so interesting to hear all your different thoughts i totally agree here.",
+        "I will now share my personal thoughts on this matter, the best way to [Verbs] [Problems] is by prioritizing alternative [Solutions] systematically it is so interesting to hear all your different thoughts i must say."
       ],
       "samples": [
         {
-          "en": "It is so interesting to hear all your different thoughts, to stop severe cars, we critically need better buses implemented immediately it is so interesting to hear all your different thoughts i totally agree here.",
+          "en": "I will now share my personal thoughts on this matter, to stop severe cars, we critically need better buses implemented immediately it is so interesting to hear all your different thoughts i totally agree here.",
           "vi": "Để làm giảm bớt tình trạng tắc nghẽn nghiêm trọng, chúng ta vô cùng cần cơ sở hạ tầng tốt hơn được triển khai ngay lập tức. Việc xây dựng các làn đường dành riêng cho xe đạp rộng lớn và mở rộng nhanh chóng mạng lưới đường sắt đô thị ngầm sẽ khuyến khích đáng kể vô số người đi lại hàng ngày từ bỏ vĩnh viễn các phương tiện cá nhân kém hiệu quả của họ."
         },
         {
-          "en": "It is so interesting to hear all your different thoughts, by improving trains, governments can successfully help the escalating roads everywhere it is so interesting to hear all your different thoughts i totally agree here.",
+          "en": "I will now share my personal thoughts on this matter, by improving trains, governments can successfully help the escalating roads everywhere it is so interesting to hear all your different thoughts i totally agree here.",
           "vi": "Bằng cách cải thiện luật pháp, các chính phủ có thể giảm nhẹ thành công lượng khí thải ngày càng tăng ở khắp mọi nơi. Việc thực thi nghiêm ngặt các tiêu chuẩn sản xuất môi trường nghiêm ngặt và trợ cấp tài chính cho việc mua ô tô điện tiên tiến sẽ làm giảm đáng kể các chất ô nhiễm độc hại trong khí quyển đe dọa hệ thống khí hậu toàn cầu mỏng manh của chúng ta."
         },
         {
-          "en": "It is so interesting to hear all your different thoughts, the best way to mitigate congestion is by prioritizing alternative carpooling systematically it is so interesting to hear all your different thoughts i must say.",
+          "en": "I will now share my personal thoughts on this matter, the best way to mitigate congestion is by prioritizing alternative carpooling systematically it is so interesting to hear all your different thoughts i must say.",
           "vi": "Cách tốt nhất để giúp đỡ đường xá là ưu tiên các giải pháp đi chung xe thay thế một cách có hệ thống. Việc chia sẻ các chuyến đi liên tục hàng ngày làm giảm đáng kể tổng số ô tô đang hoạt động hiện đang hoạt động trong những giờ cao điểm hỗn loạn vào sáng sớm và chiều muộn của đô thị."
         }
       ]
@@ -1136,21 +1136,21 @@ export const part3Data = {
         "✨ [Drawbacks]: <strong>slow</strong> (chậm), <strong>dirty</strong> (bẩn), <strong>inconvenient</strong> (bất tiện), <strong>unreliable</strong> (không đáng tin cậy), <strong>unsanitary</strong> (mất vệ sinh)"
       ],
       "templates": [
-        "It is so interesting to hear all your different thoughts, although [Transport] can be [Drawbacks], it is fundamentally more [Benefits] it is so interesting to hear all your different thoughts that is a great point.",
-        "It is so interesting to hear all your different thoughts, choosing [Transport] is a [Benefits] option, despite occasionally being somewhat [Drawbacks] it is so interesting to hear all your different thoughts i totally agree here.",
-        "It is so interesting to hear all your different thoughts, public [Transport] remains highly [Benefits] even when it feels surprisingly [Drawbacks] it is so interesting to hear all your different thoughts i totally agree here."
+        "I will now share my personal thoughts on this matter, although [Transport] can be [Drawbacks], it is fundamentally more [Benefits] it is so interesting to hear all your different thoughts that is a great point.",
+        "I will now share my personal thoughts on this matter, choosing [Transport] is a [Benefits] option, despite occasionally being somewhat [Drawbacks] it is so interesting to hear all your different thoughts i totally agree here.",
+        "I will now share my personal thoughts on this matter, public [Transport] remains highly [Benefits] even when it feels surprisingly [Drawbacks] it is so interesting to hear all your different thoughts i totally agree here."
       ],
       "samples": [
         {
-          "en": "It is so interesting to hear all your different thoughts, although bus can be slow, it is fundamentally more cheap it is so interesting to hear all your different thoughts that is a great point.",
+          "en": "I will now share my personal thoughts on this matter, although bus can be slow, it is fundamentally more cheap it is so interesting to hear all your different thoughts that is a great point.",
           "vi": "Mặc dù giao thông công cộng có thể bất tiện, nhưng về cơ bản nó bền vững hơn. Việc sử dụng các phương tiện điện công cộng đông đúc làm giảm đáng kể lượng khí thải carbon có hại cho cá nhân bạn, bảo vệ sâu sắc các hệ sinh thái tự nhiên dễ bị tổn thương của chúng ta khỏi thiệt hại khí hậu môi trường lâu dài thảm khốc không thể đảo ngược."
         },
         {
-          "en": "It is so interesting to hear all your different thoughts, choosing train is a fast option, despite occasionally being somewhat dirty it is so interesting to hear all your different thoughts i totally agree here.",
+          "en": "I will now share my personal thoughts on this matter, choosing train is a fast option, despite occasionally being somewhat dirty it is so interesting to hear all your different thoughts i totally agree here.",
           "vi": "Chọn tàu điện ngầm là một lựa chọn nhanh chóng, mặc dù đôi khi hơi mất vệ sinh. Việc vượt qua các vụ tắc đường trên mặt đất vô tận một cách hiệu quả giúp các chuyên gia đô thị bận rộn hiện đại tiết kiệm vô số giờ làm việc hiệu quả quý giá trong những chuyến đi làm hàng ngày vô cùng hỗn loạn và điên cuồng của họ."
         },
         {
-          "en": "It is so interesting to hear all your different thoughts, public transit remains highly economical even when it feels surprisingly inconvenient it is so interesting to hear all your different thoughts i totally agree here.",
+          "en": "I will now share my personal thoughts on this matter, public transit remains highly economical even when it feels surprisingly inconvenient it is so interesting to hear all your different thoughts i totally agree here.",
           "vi": "Xe buýt công cộng vẫn rất tiết kiệm ngay cả khi nó mang lại cảm giác không đáng tin cậy một cách đáng ngạc nhiên. Chi phí vé hàng ngày cực kỳ tối thiểu liên tục cho phép những cá nhân làm việc chăm chỉ, có ý thức về tài chính tiết kiệm một cách tích cực một số tiền đáng kể để theo đuổi các khoản đầu tư giáo dục cá nhân quan trọng trong tương lai."
         }
       ]
@@ -1167,21 +1167,21 @@ export const part3Data = {
         "✨ [Feelings]: <strong>glad</strong> (vui vẻ), <strong>happy</strong> (hạnh phúc), <strong>motivated</strong> (có động lực), <strong>inspired</strong> (được truyền cảm hứng), <strong>enthusiastic</strong> (nhiệt tình)"
       ],
       "templates": [
-        "It is so interesting to hear all your different thoughts, I felt [Feelings] to choose it to [Goals] better for my [Reasons] it is so interesting to hear all your different thoughts i must say.",
-        "It is so interesting to hear all your different thoughts, to improve my [Reasons], I was [Feelings] to learn to [Goals] effectively it is so interesting to hear all your different thoughts i must say.",
-        "It is so interesting to hear all your different thoughts, I am [Feelings] to [Goals] fluently, which vastly expands my [Reasons] it is so interesting to hear all your different thoughts i totally agree here."
+        "I will now share my personal thoughts on this matter, I felt [Feelings] to choose it to [Goals] better for my [Reasons] it is so interesting to hear all your different thoughts i must say.",
+        "I will now share my personal thoughts on this matter, to improve my [Reasons], I was [Feelings] to learn to [Goals] effectively it is so interesting to hear all your different thoughts i must say.",
+        "I will now share my personal thoughts on this matter, I am [Feelings] to [Goals] fluently, which vastly expands my [Reasons] it is so interesting to hear all your different thoughts i totally agree here."
       ],
       "samples": [
         {
-          "en": "It is so interesting to hear all your different thoughts, I felt glad to choose it to talk better for my job it is so interesting to hear all your different thoughts i must say.",
+          "en": "I will now share my personal thoughts on this matter, I felt glad to choose it to talk better for my job it is so interesting to hear all your different thoughts i must say.",
           "vi": "Tôi cảm thấy có động lực để chọn nó để diễn đạt rõ ràng hơn cho sự thăng tiến của mình. Việc nắm vững các kỹ thuật tu từ nâng cao phức tạp sẽ cho phép tôi tự tin thực hiện các bài thuyết trình doanh nghiệp có tính thuyết phục cao trong các cuộc họp lập kế hoạch chiến lược phòng họp điều hành quốc tế cực kỳ quan trọng."
         },
         {
-          "en": "It is so interesting to hear all your different thoughts, to improve my school, I was happy to learn to read effectively it is so interesting to hear all your different thoughts i must say.",
+          "en": "I will now share my personal thoughts on this matter, to improve my school, I was happy to learn to read effectively it is so interesting to hear all your different thoughts i must say.",
           "vi": "Để cải thiện triển vọng của mình, tôi đã được truyền cảm hứng để học cách hiểu thấu đáo một cách hiệu quả. Việc hiểu biết cặn kẽ các tài liệu học thuật phức tạp nhanh chóng giúp tôi dễ dàng hợp tác với các nhà nghiên cứu xuất sắc trên nhiều phòng thí nghiệm nghiên cứu công nghệ đổi mới khoa học toàn cầu đa ngành đa dạng."
         },
         {
-          "en": "It is so interesting to hear all your different thoughts, I am motivated to communicate fluently, which vastly expands my career it is so interesting to hear all your different thoughts i totally agree here.",
+          "en": "I will now share my personal thoughts on this matter, I am motivated to communicate fluently, which vastly expands my career it is so interesting to hear all your different thoughts i totally agree here.",
           "vi": "Tôi rất vui khi nói chuyện trôi chảy, điều này mở rộng đáng kể công việc của tôi. Việc hoàn toàn song ngữ tự nhiên tạo ra vô số cơ hội kết nối mới thú vị và dễ dàng giúp tôi thiết lập các mối quan hệ nghề nghiệp tin cậy mạnh mẽ ngay lập tức với các khách hàng doanh nghiệp giàu có quan trọng nước ngoài."
         }
       ]
@@ -1196,21 +1196,21 @@ export const part3Data = {
         "✨ [Solutions]: <strong>study</strong> (học), <strong>practice</strong> (thực hành), <strong>persevere</strong> (kiên trì), <strong>memorize</strong> (ghi nhớ), <strong>rehearse</strong> (diễn tập)"
       ],
       "templates": [
-        "It is so interesting to hear all your different thoughts, it is [Reactions], especially the [Difficulties], but I try to [Solutions] daily it is so interesting to hear all your different thoughts i must say.",
-        "It is so interesting to hear all your different thoughts, I must [Solutions] hard because the [Difficulties] makes this course incredibly [Reactions] it is so interesting to hear all your different thoughts i must say.",
-        "It is so interesting to hear all your different thoughts, despite finding the [Difficulties] quite [Reactions], I consistently [Solutions] to improve it is so interesting to hear all your different thoughts i totally agree here."
+        "I will now share my personal thoughts on this matter, it is [Reactions], especially the [Difficulties], but I try to [Solutions] daily it is so interesting to hear all your different thoughts i must say.",
+        "I will now share my personal thoughts on this matter, I must [Solutions] hard because the [Difficulties] makes this course incredibly [Reactions] it is so interesting to hear all your different thoughts i must say.",
+        "I will now share my personal thoughts on this matter, despite finding the [Difficulties] quite [Reactions], I consistently [Solutions] to improve it is so interesting to hear all your different thoughts i totally agree here."
       ],
       "samples": [
         {
-          "en": "It is so interesting to hear all your different thoughts, it is hard, especially the words, but I try to study daily it is so interesting to hear all your different thoughts i must say.",
+          "en": "I will now share my personal thoughts on this matter, it is hard, especially the words, but I try to study daily it is so interesting to hear all your different thoughts i must say.",
           "vi": "Nó đòi hỏi khắt khe, đặc biệt là phát âm, nhưng tôi cố gắng diễn tập hàng ngày. Việc nắm vững chính xác những khác biệt ngôn ngữ âm thanh vô cùng tinh tế đó hoàn toàn đòi hỏi sự cống hiến liên tục to lớn và các bài tập luyện thanh lặp đi lặp lại vô cùng tỉ mỉ vào mỗi buổi chiều dài bận rộn."
         },
         {
-          "en": "It is so interesting to hear all your different thoughts, I must practice hard because the rules makes this course incredibly easy it is so interesting to hear all your different thoughts i must say.",
+          "en": "I will now share my personal thoughts on this matter, I must practice hard because the rules makes this course incredibly easy it is so interesting to hear all your different thoughts i must say.",
           "vi": "Tôi phải kiên trì chăm chỉ vì ngữ pháp làm cho khóa học này vô cùng thách thức. Việc hiểu đúng các cấu trúc câu bất quy tắc phức tạp và vô số cách chia động từ khó hiểu liên tục buộc tôi phải phân tích tỉ mỉ cẩn thận các văn bản văn học cổ điển nước ngoài tinh vi được viết đẹp mắt."
         },
         {
-          "en": "It is so interesting to hear all your different thoughts, despite finding the vocabulary quite challenging, I consistently persevere to improve it is so interesting to hear all your different thoughts i totally agree here.",
+          "en": "I will now share my personal thoughts on this matter, despite finding the vocabulary quite challenging, I consistently persevere to improve it is so interesting to hear all your different thoughts i totally agree here.",
           "vi": "Mặc dù thấy các từ khá khó, tôi liên tục học hỏi để cải thiện. Việc sử dụng lặp đi lặp lại các thẻ ghi nhớ kỹ thuật số tùy chỉnh giúp tôi ghi nhớ thành công hàng trăm cụm từ hội thoại hàng ngày hữu ích cần thiết để đạt được sự trôi chảy tuyệt đối hoàn toàn giống người bản xứ."
         }
       ]
@@ -1225,21 +1225,21 @@ export const part3Data = {
         "✨ [Next steps]: <strong>read</strong> (đọc), <strong>write</strong> (viết), <strong>specialize</strong> (chuyên môn hóa), <strong>pursue</strong> (theo đuổi), <strong>continue</strong> (tiếp tục)"
       ],
       "templates": [
-        "It is so interesting to hear all your different thoughts, I hope to [Achievements], then [Next steps] further, and eventually [Future] abroad it is so interesting to hear all your different thoughts i totally agree here.",
-        "It is so interesting to hear all your different thoughts, after I [Achievements], I will [Future] overseas and [Next steps] my studies it is so interesting to hear all your different thoughts i totally agree here.",
-        "It is so interesting to hear all your different thoughts, my ultimate goal is to [Future], [Next steps] deeply, and truly [Achievements] professionally it is so interesting to hear all your different thoughts i must say."
+        "I will now share my personal thoughts on this matter, I hope to [Achievements], then [Next steps] further, and eventually [Future] abroad it is so interesting to hear all your different thoughts i totally agree here.",
+        "I will now share my personal thoughts on this matter, after I [Achievements], I will [Future] overseas and [Next steps] my studies it is so interesting to hear all your different thoughts i totally agree here.",
+        "I will now share my personal thoughts on this matter, my ultimate goal is to [Future], [Next steps] deeply, and truly [Achievements] professionally it is so interesting to hear all your different thoughts i must say."
       ],
       "samples": [
         {
-          "en": "It is so interesting to hear all your different thoughts, I hope to pass, then read further, and eventually work abroad it is so interesting to hear all your different thoughts i totally agree here.",
+          "en": "I will now share my personal thoughts on this matter, I hope to pass, then read further, and eventually work abroad it is so interesting to hear all your different thoughts i totally agree here.",
           "vi": "Tôi hy vọng sẽ xuất sắc, sau đó chuyên môn hóa hơn nữa và cuối cùng là di cư ra nước ngoài. Việc đạt được các chứng chỉ chuyên môn cao cấp sẽ đảm bảo vĩnh viễn đơn xin thị thực thường trú rất được mong đợi của tôi một cách hoàn hảo cho một cuộc sống thú vị phiêu lưu nước ngoài mới được thiết lập vô cùng thú vị."
         },
         {
-          "en": "It is so interesting to hear all your different thoughts, after I win, I will travel overseas and write my studies it is so interesting to hear all your different thoughts i totally agree here.",
+          "en": "I will now share my personal thoughts on this matter, after I win, I will travel overseas and write my studies it is so interesting to hear all your different thoughts i totally agree here.",
           "vi": "Sau khi thi đậu, tôi sẽ làm việc ở nước ngoài và tiếp tục việc học của mình. Việc gia nhập một tổ chức doanh nghiệp đa quốc gia vô cùng uy tín chắc chắn đảm bảo kinh nghiệm công nghiệp thực tế vô cùng quý giá trong khi đồng thời nhiệt tình hoàn thành chương trình cấp bằng thạc sĩ đại học sau đại học cực kỳ khắt khe của tôi."
         },
         {
-          "en": "It is so interesting to hear all your different thoughts, my ultimate goal is to emigrate, specialize deeply, and truly succeed professionally it is so interesting to hear all your different thoughts i must say.",
+          "en": "I will now share my personal thoughts on this matter, my ultimate goal is to emigrate, specialize deeply, and truly succeed professionally it is so interesting to hear all your different thoughts i must say.",
           "vi": "Mục tiêu cuối cùng của tôi là đàm phán, đọc sâu và thực sự chiến thắng vẻ vang về mặt chuyên môn. Việc tự tin quản lý các hợp đồng kinh doanh quốc tế sinh lời cực kỳ phức tạp hoàn toàn đảm bảo nhanh chóng đạt được vị thế lãnh đạo doanh nghiệp quản lý điều hành đặc biệt vô song tuyệt đối trong ngành công nghiệp thịnh vượng vô cùng cạnh tranh của tôi."
         }
       ]
@@ -1256,21 +1256,21 @@ export const part3Data = {
         "✨ [Actions]: <strong>wait</strong> (chờ đợi), <strong>sleep</strong> (ngủ), <strong>reschedule</strong> (lên lịch lại), <strong>endure</strong> (chịu đựng), <strong>navigate</strong> (điều hướng)"
       ],
       "templates": [
-        "It is so interesting to hear all your different thoughts, during a terrifying [Weather], I was [Feelings] and had to [Actions] carefully it is so interesting to hear all your different thoughts i must say.",
-        "It is so interesting to hear all your different thoughts, I felt incredibly [Feelings] when forced to [Actions] through the severe [Weather] it is so interesting to hear all your different thoughts i must say.",
-        "It is so interesting to hear all your different thoughts, the unexpected [Weather] made everyone [Feelings], forcing us to desperately [Actions] plans it is so interesting to hear all your different thoughts i must say."
+        "I will now share my personal thoughts on this matter, during a terrifying [Weather], I was [Feelings] and had to [Actions] carefully it is so interesting to hear all your different thoughts i must say.",
+        "I will now share my personal thoughts on this matter, I felt incredibly [Feelings] when forced to [Actions] through the severe [Weather] it is so interesting to hear all your different thoughts i must say.",
+        "I will now share my personal thoughts on this matter, the unexpected [Weather] made everyone [Feelings], forcing us to desperately [Actions] plans it is so interesting to hear all your different thoughts i must say."
       ],
       "samples": [
         {
-          "en": "It is so interesting to hear all your different thoughts, during a terrifying rain, I was sad and had to wait carefully it is so interesting to hear all your different thoughts i must say.",
+          "en": "I will now share my personal thoughts on this matter, during a terrifying rain, I was sad and had to wait carefully it is so interesting to hear all your different thoughts i must say.",
           "vi": "Trong một trận bão cuồng phong đáng sợ, tôi đã suy sụp và phải lên lịch lại một cách cẩn thận. Kỳ nghỉ sang trọng trên hòn đảo nhiệt đới rất được mong đợi và đắt đỏ đáng chú ý của chúng tôi đã hoàn toàn bị hủy hoại một cách đột ngột, thật không may là chúng tôi bị mắc kẹt bên trong một phòng khách sạn nhỏ bé cực kỳ tối tăm được rào chắn cẩn thận."
         },
         {
-          "en": "It is so interesting to hear all your different thoughts, I felt incredibly cold when forced to sleep through the severe wind it is so interesting to hear all your different thoughts i must say.",
+          "en": "I will now share my personal thoughts on this matter, I felt incredibly cold when forced to sleep through the severe wind it is so interesting to hear all your different thoughts i must say.",
           "vi": "Tôi cảm thấy vô cùng khốn khổ khi bị buộc phải chịu đựng qua trận bão tuyết tồi tệ. Chúng tôi không ngừng run rẩy không kiểm soát được bên trong chiếc ô tô cho thuê nhỏ xíu không có lò sưởi đóng băng hoàn toàn bị hỏng của chúng tôi trong những giờ đồng hồ đáng sợ đặc biệt dài chờ đợi sự hỗ trợ cơ học chuyên nghiệp bên đường khẩn cấp hoàn toàn thiết yếu."
         },
         {
-          "en": "It is so interesting to hear all your different thoughts, the unexpected blizzard made everyone miserable, forcing us to desperately reschedule plans it is so interesting to hear all your different thoughts i must say.",
+          "en": "I will now share my personal thoughts on this matter, the unexpected blizzard made everyone miserable, forcing us to desperately reschedule plans it is so interesting to hear all your different thoughts i must say.",
           "vi": "Cơn mưa bất ngờ khiến mọi người buồn bã, buộc chúng tôi phải tuyệt vọng chờ đợi các kế hoạch. Chuyến dã ngoại trên núi hùng vĩ vào buổi chiều đầy nắng ngoài trời được tổ chức đẹp mắt của chúng tôi ngay lập tức trở thành một nơi ẩn dật vô cùng hỗn loạn, vô cùng bừa bộn, vội vã, lộn xộn, vô cùng thất vọng, vô cùng đáng tiếc, hoàn toàn bị hủy hoại."
         }
       ]
@@ -1285,21 +1285,21 @@ export const part3Data = {
         "✨ [Alternatives]: <strong>walk</strong> (đi bộ), <strong>bike</strong> (đi xe đạp), <strong>telecommute</strong> (làm việc từ xa), <strong>offset</strong> (đền bù), <strong>minimize</strong> (giảm thiểu)"
       ],
       "templates": [
-        "It is so interesting to hear all your different thoughts, I agree; using a [Vehicles] causes [Effects] that we must [Alternatives] it is so interesting to hear all your different thoughts i totally agree here.",
-        "It is so interesting to hear all your different thoughts, long journeys via [Vehicles] generate enormous [Effects], significantly making us [Alternatives] it is so interesting to hear all your different thoughts i totally agree here.",
-        "It is so interesting to hear all your different thoughts, the excessive [Effects] from commercial [Vehicles] mean we should [Alternatives] properly it is so interesting to hear all your different thoughts i totally agree here."
+        "I will now share my personal thoughts on this matter, I agree; using a [Vehicles] causes [Effects] that we must [Alternatives] it is so interesting to hear all your different thoughts i totally agree here.",
+        "I will now share my personal thoughts on this matter, long journeys via [Vehicles] generate enormous [Effects], significantly making us [Alternatives] it is so interesting to hear all your different thoughts i totally agree here.",
+        "I will now share my personal thoughts on this matter, the excessive [Effects] from commercial [Vehicles] mean we should [Alternatives] properly it is so interesting to hear all your different thoughts i totally agree here."
       ],
       "samples": [
         {
-          "en": "It is so interesting to hear all your different thoughts, I agree; using a plane causes bad that we must walk it is so interesting to hear all your different thoughts i totally agree here.",
+          "en": "I will now share my personal thoughts on this matter, I agree; using a plane causes bad that we must walk it is so interesting to hear all your different thoughts i totally agree here.",
           "vi": "Tôi đồng ý; sử dụng máy bay gây ra sự suy thoái mà chúng ta phải giảm thiểu. Việc tiêu thụ liên tục tuyệt đối ồ ạt các nhiên liệu hóa thạch tinh chế cực kỳ độc hại giải phóng các khí nhà kính vô hình hoàn toàn nguy hiểm trực tiếp vào bầu khí quyển dễ bị tổn thương đang ấm lên ngày càng nhanh của chúng ta một cách liên tục."
         },
         {
-          "en": "It is so interesting to hear all your different thoughts, long journeys via car generate enormous dirt, significantly making us bike it is so interesting to hear all your different thoughts i totally agree here.",
+          "en": "I will now share my personal thoughts on this matter, long journeys via car generate enormous dirt, significantly making us bike it is so interesting to hear all your different thoughts i totally agree here.",
           "vi": "Các chuyến đi dài qua ô tô tạo ra ô nhiễm khổng lồ, khiến chúng ta phải bù đắp đáng kể. Du lịch đại chúng quốc tế mở rộng ồ ạt không hạn chế chủ yếu dựa vào các động cơ đốt trong cực kỳ bẩn thỉu vô cùng kém hiệu quả và vô cùng ô nhiễm liên tục phá hủy các khu bảo tồn động vật hoang dã tự nhiên nguyên sơ tuyệt đẹp không thể thay thế."
         },
         {
-          "en": "It is so interesting to hear all your different thoughts, the excessive pollution from commercial aircraft mean we should telecommute properly it is so interesting to hear all your different thoughts i totally agree here.",
+          "en": "I will now share my personal thoughts on this matter, the excessive pollution from commercial aircraft mean we should telecommute properly it is so interesting to hear all your different thoughts i totally agree here.",
           "vi": "Lượng khí thải quá mức từ máy bay thương mại có nghĩa là chúng ta nên làm việc từ xa một cách hợp lý. Chúng ta thực sự khẩn cấp phải quản lý nghiêm ngặt các chuyến bay nghỉ dưỡng sang trọng dài quá mức cực kỳ thường xuyên cực kỳ không cần thiết để bảo vệ một cách chủ động mạnh mẽ hành tinh xinh đẹp đang vật lộn tuyệt vọng của chúng ta."
         }
       ]
@@ -1314,21 +1314,21 @@ export const part3Data = {
         "✨ [Adjectives]: <strong>nice</strong> (đẹp), <strong>good</strong> (tốt), <strong>spectacular</strong> (ngoạn mục), <strong>breathtaking</strong> (hấp dẫn), <strong>magnificent</strong> (tráng lệ)"
       ],
       "templates": [
-        "It is so interesting to hear all your different thoughts, you should totally [Activities] our [Adjectives] historical [Places] scattered everywhere it is so interesting to hear all your different thoughts that is a great point.",
-        "It is so interesting to hear all your different thoughts, tourists love to [Activities] the absolutely [Adjectives] natural [Places] located here it is so interesting to hear all your different thoughts i totally agree here.",
-        "It is so interesting to hear all your different thoughts, it is wonderful to [Activities] these [Adjectives] ancient [Places] thoroughly it is so interesting to hear all your different thoughts that is a great point."
+        "I will now share my personal thoughts on this matter, you should totally [Activities] our [Adjectives] historical [Places] scattered everywhere it is so interesting to hear all your different thoughts that is a great point.",
+        "I will now share my personal thoughts on this matter, tourists love to [Activities] the absolutely [Adjectives] natural [Places] located here it is so interesting to hear all your different thoughts i totally agree here.",
+        "I will now share my personal thoughts on this matter, it is wonderful to [Activities] these [Adjectives] ancient [Places] thoroughly it is so interesting to hear all your different thoughts that is a great point."
       ],
       "samples": [
         {
-          "en": "It is so interesting to hear all your different thoughts, you should totally look our nice historical city scattered everywhere it is so interesting to hear all your different thoughts that is a great point.",
+          "en": "I will now share my personal thoughts on this matter, you should totally look our nice historical city scattered everywhere it is so interesting to hear all your different thoughts that is a great point.",
           "vi": "Bạn hoàn toàn nên chụp ảnh các địa danh lịch sử ngoạn mục của chúng tôi nằm rải rác khắp nơi. Những ngôi đền hoàng gia cổ kính được bảo tồn tuyệt đẹp đứng uy nghi ngoạn mục thể hiện một cách thanh lịch kỹ thuật kiến ​​trúc truyền thống tinh vi độc đáo hoàn toàn vô song được hàng triệu khách du lịch nước ngoài nhiệt tình quốc tế vô cùng ngạc nhiên ngưỡng mộ."
         },
         {
-          "en": "It is so interesting to hear all your different thoughts, tourists love to eat the absolutely good natural park located here it is so interesting to hear all your different thoughts i totally agree here.",
+          "en": "I will now share my personal thoughts on this matter, tourists love to eat the absolutely good natural park located here it is so interesting to hear all your different thoughts i totally agree here.",
           "vi": "Khách du lịch thích khám phá những cảnh quan thiên nhiên hoàn toàn hấp dẫn nằm ở đây. Những đỉnh núi rừng nhiệt đới đá vôi độc đáo lởm chởm cao chót vót nhô lên một cách tự nhiên ấn tượng trên làn nước biển trong vắt vô cùng tĩnh lặng tuyệt đẹp lung linh lấp lánh màu ngọc lục bảo ngoạn mục thanh bình."
         },
         {
-          "en": "It is so interesting to hear all your different thoughts, it is wonderful to explore these spectacular ancient heritage thoroughly it is so interesting to hear all your different thoughts that is a great point.",
+          "en": "I will now share my personal thoughts on this matter, it is wonderful to explore these spectacular ancient heritage thoroughly it is so interesting to hear all your different thoughts that is a great point.",
           "vi": "Thật tuyệt vời khi khám phá trọn vẹn những di sản cổ đại tráng lệ này. Những ngôi đền trong rừng rậm ẩn giấu phức tạp tuyệt đẹp bị lãng quên hoàn toàn cổ xưa một cách bí ẩn sâu sắc về mặt lịch sử liên tục thu hút sâu sắc những nhà nghiên cứu văn hóa vô cùng tò mò kinh ngạc không ngừng bị mê hoặc hoàn toàn."
         }
       ]
@@ -1345,21 +1345,21 @@ export const part3Data = {
         "✨ [Cinema Atmosphere]: <strong>loud sound</strong> (âm thanh lớn), <strong>big screen</strong> (màn hình lớn), <strong>cinematic immersion</strong> (sự nhập vai điện ảnh), <strong>captivating visuals</strong> (hình ảnh quyến rũ), <strong>sensory experience</strong> (trải nghiệm giác quan)"
       ],
       "templates": [
-        "It is so interesting to hear all your different thoughts, I personally prefer the [Seating Preferences], while munching on some [Snack Habits] to enjoy the [Cinema Atmosphere] i completely understand where you are coming from.",
-        "It is so interesting to hear all your different thoughts, unlike you, I love the [Seating Preferences] and I always bring [Snack Habits] for a complete [Cinema Atmosphere] i really understand your situation right now.",
-        "It is so interesting to hear all your different thoughts, my ideal choice is the [Seating Preferences], often without any [Snack Habits] to focus on the [Cinema Atmosphere] i really understand your situation right now."
+        "I will now share my personal thoughts on this matter, I personally prefer the [Seating Preferences], while munching on some [Snack Habits] to enjoy the [Cinema Atmosphere] i completely understand where you are coming from.",
+        "I will now share my personal thoughts on this matter, unlike you, I love the [Seating Preferences] and I always bring [Snack Habits] for a complete [Cinema Atmosphere] i really understand your situation right now.",
+        "I will now share my personal thoughts on this matter, my ideal choice is the [Seating Preferences], often without any [Snack Habits] to focus on the [Cinema Atmosphere] i really understand your situation right now."
       ],
       "samples": [
         {
-          "en": "It is so interesting to hear all your different thoughts, I personally prefer the front row, while munching on some popcorn to enjoy the loud sound i completely understand where you are coming from.",
+          "en": "I will now share my personal thoughts on this matter, I personally prefer the front row, while munching on some popcorn to enjoy the loud sound i completely understand where you are coming from.",
           "vi": "Cá nhân tôi thích hàng ghế đầu, trong khi nhai một chút bắp rang để thưởng thức màn hình lớn. Ngồi gần khiến tôi cảm thấy được kết nối với các nhân vật và tôi thực sự yêu thích bầu không khí tuyệt vời trong từng bộ phim tôi xem."
         },
         {
-          "en": "It is so interesting to hear all your different thoughts, unlike you, I love the back row and I always bring sweet drinks for a complete big screen i really understand your situation right now.",
+          "en": "I will now share my personal thoughts on this matter, unlike you, I love the back row and I always bring sweet drinks for a complete big screen i really understand your situation right now.",
           "vi": "Không giống như bạn, tôi yêu thích góc nhìn tối ưu và tôi luôn mang theo đồ ăn nhẹ hảo hạng cho một trải nghiệm giác quan trọn vẹn. Rạp chiếu phim mang đến một lối thoát kỳ diệu khỏi thực tế và tôi đơn giản không thể tưởng tượng được việc xem một bộ phim hay mà không có đồ ăn ngon."
         },
         {
-          "en": "It is so interesting to hear all your different thoughts, my ideal choice is the optimal vantage point, often without any gourmet snacks to focus on the cinematic immersion i really understand your situation right now.",
+          "en": "I will now share my personal thoughts on this matter, my ideal choice is the optimal vantage point, often without any gourmet snacks to focus on the cinematic immersion i really understand your situation right now.",
           "vi": "Sự lựa chọn lý tưởng của tôi là khu vực giữa, thường không có đồ uống ngọt để tập trung vào hình ảnh quyến rũ. Tôi hoàn toàn đồng ý với thói quen không ăn của bạn, vì nó giúp tôi đánh giá cao câu chuyện và diễn xuất đáng kinh ngạc tốt hơn nhiều."
         }
       ]
@@ -1374,21 +1374,21 @@ export const part3Data = {
         "✨ [Story Quality]: <strong>good plot</strong> (cốt truyện hay), <strong>fun action</strong> (hành động thú vị), <strong>intricate storytelling</strong> (kể chuyện phức tạp), <strong>profound narratives</strong> (những câu chuyện sâu sắc), <strong>character development</strong> (phát triển nhân vật)"
       ],
       "templates": [
-        "It is so interesting to hear all your different thoughts, I definitely prefer [Film Types] because of the [Visual Effects] and the [Story Quality] it is so interesting to hear all your different thoughts honestly.",
-        "It is so interesting to hear all your different thoughts, while some love [Film Types], I am drawn to the [Visual Effects] combined with [Story Quality] i just want to say i totally get it.",
-        "It is so interesting to hear all your different thoughts, my favorite would be [Film Types] due to their [Visual Effects] and unmatched [Story Quality] it is so interesting to hear all your different thoughts."
+        "I will now share my personal thoughts on this matter, I definitely prefer [Film Types] because of the [Visual Effects] and the [Story Quality] it is so interesting to hear all your different thoughts honestly.",
+        "I will now share my personal thoughts on this matter, while some love [Film Types], I am drawn to the [Visual Effects] combined with [Story Quality] i just want to say i totally get it.",
+        "I will now share my personal thoughts on this matter, my favorite would be [Film Types] due to their [Visual Effects] and unmatched [Story Quality] I will now share my personal thoughts on this matter."
       ],
       "samples": [
         {
-          "en": "It is so interesting to hear all your different thoughts, I definitely prefer old movies because of the bright colors and the good plot it is so interesting to hear all your different thoughts honestly.",
+          "en": "I will now share my personal thoughts on this matter, I definitely prefer old movies because of the bright colors and the good plot it is so interesting to hear all your different thoughts honestly.",
           "vi": "Tôi chắc chắn thích những bộ phim mới ra hơn vì màu sắc rực rỡ và cốt truyện hay. Những bộ phim hiện đại luôn thu hút sự chú ý của tôi một cách dễ dàng. Tôi thực sự thích đến rạp chiếu phim với những người bạn thân nhất của mình để xem những câu chuyện thú vị và vui nhộn này."
         },
         {
-          "en": "It is so interesting to hear all your different thoughts, while some love new releases, I am drawn to the cool graphics combined with fun action i just want to say i totally get it.",
+          "en": "I will now share my personal thoughts on this matter, while some love new releases, I am drawn to the cool graphics combined with fun action i just want to say i totally get it.",
           "vi": "Mặc dù một số người yêu thích điện ảnh kinh điển, tôi bị thu hút bởi CGI tiên tiến kết hợp với cách kể chuyện phức tạp. Các bộ phim đương đại cung cấp một trải nghiệm hoàn toàn nhập vai mà các bộ phim đen trắng cũ đơn giản không thể sánh được, làm cho mỗi lần xem trở nên vô cùng và thực sự đáng nhớ đối với tôi."
         },
         {
-          "en": "It is so interesting to hear all your different thoughts, my favorite would be classic cinema due to their cutting-edge CGI and unmatched intricate storytelling it is so interesting to hear all your different thoughts.",
+          "en": "I will now share my personal thoughts on this matter, my favorite would be classic cinema due to their cutting-edge CGI and unmatched intricate storytelling I will now share my personal thoughts on this matter.",
           "vi": "Yêu thích của tôi sẽ là những kiệt tác cổ điển do tính thẩm mỹ đơn sắc và những câu chuyện sâu sắc vô song của chúng. Tôi thấy rằng các bộ phim cũ tập trung nhiều hơn vào diễn xuất và lời thoại, điều này làm cho toàn bộ trải nghiệm điện ảnh trở nên ý nghĩa và có giá trị nghệ thuật hơn nhiều."
         }
       ]
@@ -1403,21 +1403,21 @@ export const part3Data = {
         "✨ [Audio-Visual Quality]: <strong>loud speakers</strong> (loa lớn), <strong>clear pictures</strong> (hình ảnh rõ nét), <strong>unrivaled acoustics</strong> (âm thanh vô song), <strong>immersive projection</strong> (trình chiếu nhập vai), <strong>superior resolution</strong> (độ phân giải vượt trội)"
       ],
       "templates": [
-        "It is so interesting to hear all your different thoughts, despite the rise of [Viewing Mediums], cinemas offer a unique [Social Experience] and [Audio-Visual Quality] it is so interesting to hear all your different thoughts.",
-        "It is so interesting to hear all your different thoughts, [Viewing Mediums] cannot replace the [Social Experience] or the [Audio-Visual Quality] it is so interesting to hear all your different thoughts i totally agree here.",
-        "It is so interesting to hear all your different thoughts, while [Viewing Mediums] are convenient, the [Social Experience] and [Audio-Visual Quality] keep cinemas alive it is so interesting to hear all your different thoughts honestly."
+        "I will now share my personal thoughts on this matter, despite the rise of [Viewing Mediums], cinemas offer a unique [Social Experience] and [Audio-Visual Quality] I will now share my personal thoughts on this matter.",
+        "I will now share my personal thoughts on this matter, [Viewing Mediums] cannot replace the [Social Experience] or the [Audio-Visual Quality] it is so interesting to hear all your different thoughts i totally agree here.",
+        "I will now share my personal thoughts on this matter, while [Viewing Mediums] are convenient, the [Social Experience] and [Audio-Visual Quality] keep cinemas alive it is so interesting to hear all your different thoughts honestly."
       ],
       "samples": [
         {
-          "en": "It is so interesting to hear all your different thoughts, despite the rise of smart TVs, cinemas offer a unique family time and loud speakers it is so interesting to hear all your different thoughts.",
+          "en": "I will now share my personal thoughts on this matter, despite the rise of smart TVs, cinemas offer a unique family time and loud speakers I will now share my personal thoughts on this matter.",
           "vi": "Mặc dù sự lên ngôi của TV thông minh, rạp chiếu phim mang đến thời gian gia đình độc đáo và hình ảnh rõ nét. Ra ngoài xem phim là một sự kiện đặc biệt. Tôi thực sự thích ăn bắp rang và cười đùa cùng bạn bè trong rạp."
         },
         {
-          "en": "It is so interesting to hear all your different thoughts, mobile phones cannot replace the fun outings or the clear pictures it is so interesting to hear all your different thoughts i totally agree here.",
+          "en": "I will now share my personal thoughts on this matter, mobile phones cannot replace the fun outings or the clear pictures it is so interesting to hear all your different thoughts i totally agree here.",
           "vi": "Tôi tin rằng các nền tảng phát trực tuyến không thể thay thế bầu không khí cộng đồng hoặc âm thanh vô song. Màn hình khổng lồ và âm thanh vòm tạo ra một môi trường khó quên mà đơn giản là không thể sao chép trong một phòng khách tiêu chuẩn, khiến rạp chiếu phim trở nên hoàn toàn thiết yếu ngày nay."
         },
         {
-          "en": "It is so interesting to hear all your different thoughts, while streaming platforms are convenient, the communal atmosphere and unrivaled acoustics keep cinemas alive it is so interesting to hear all your different thoughts honestly.",
+          "en": "I will now share my personal thoughts on this matter, while streaming platforms are convenient, the communal atmosphere and unrivaled acoustics keep cinemas alive it is so interesting to hear all your different thoughts honestly.",
           "vi": "Mặc dù điện thoại di động rất tiện lợi, sự gắn kết tập thể và độ phân giải vượt trội giúp rạp chiếu phim tồn tại. Chia sẻ cảm xúc với lượng khán giả lớn khiến việc xem một bộ phim bom tấn trở nên vô cùng ly kỳ và hoàn toàn khác biệt so với việc chỉ ở nhà và xem nó một mình."
         }
       ]
@@ -1434,21 +1434,21 @@ export const part3Data = {
         "✨ [Outcomes]: <strong>good marks</strong> (điểm cao), <strong>new friends</strong> (bạn mới), <strong>cultural fluency</strong> (sự lưu loát văn hóa), <strong>broadened horizons</strong> (chân trời rộng mở), <strong>enhanced communication</strong> (giao tiếp được tăng cường)"
       ],
       "templates": [
-        "It is so interesting to hear all your different thoughts, I remember doing [Learning Activities] which brought me [Feelings] and resulted in [Outcomes] it is so interesting to hear all your different thoughts.",
-        "It is so interesting to hear all your different thoughts, through [Learning Activities], I experienced [Feelings] and eventually achieved [Outcomes] it is so interesting to hear all your different thoughts i must say.",
-        "It is so interesting to hear all your different thoughts, my favorite memory involved [Learning Activities], giving me [Feelings] alongside great [Outcomes] it is so interesting to hear all your different thoughts honestly."
+        "I will now share my personal thoughts on this matter, I remember doing [Learning Activities] which brought me [Feelings] and resulted in [Outcomes] I will now share my personal thoughts on this matter.",
+        "I will now share my personal thoughts on this matter, through [Learning Activities], I experienced [Feelings] and eventually achieved [Outcomes] it is so interesting to hear all your different thoughts i must say.",
+        "I will now share my personal thoughts on this matter, my favorite memory involved [Learning Activities], giving me [Feelings] alongside great [Outcomes] it is so interesting to hear all your different thoughts honestly."
       ],
       "samples": [
         {
-          "en": "It is so interesting to hear all your different thoughts, I remember doing reading books which brought me happy times and resulted in good marks it is so interesting to hear all your different thoughts.",
+          "en": "I will now share my personal thoughts on this matter, I remember doing reading books which brought me happy times and resulted in good marks I will now share my personal thoughts on this matter.",
           "vi": "Tôi nhớ việc đọc sách đã mang lại cho tôi những lúc vui vẻ và kết quả là có những người bạn mới. Tôi đã rất vui mừng khi cuối cùng tôi cũng hiểu được một câu chuyện đơn giản. Khoảnh khắc tuyệt vời đó khiến tôi yêu thích việc học tiếng Anh mỗi ngày kể từ đó."
         },
         {
-          "en": "It is so interesting to hear all your different thoughts, through playing games, I experienced scared feeling and eventually achieved new friends it is so interesting to hear all your different thoughts i must say.",
+          "en": "I will now share my personal thoughts on this matter, through playing games, I experienced scared feeling and eventually achieved new friends it is so interesting to hear all your different thoughts i must say.",
           "vi": "Thông qua thực hành hội thoại, tôi đã trải qua sự thất vọng ban đầu và cuối cùng đạt được giao tiếp được tăng cường. Việc nói chuyện với người bản xứ ban đầu vô cùng đáng sợ, nhưng nó đã đẩy lùi ranh giới của tôi và giúp tôi tự tin hơn đáng kể trong việc sử dụng ngôn ngữ hàng ngày."
         },
         {
-          "en": "It is so interesting to hear all your different thoughts, my favorite memory involved conversational practice, giving me profound accomplishment alongside great cultural fluency it is so interesting to hear all your different thoughts honestly.",
+          "en": "I will now share my personal thoughts on this matter, my favorite memory involved conversational practice, giving me profound accomplishment alongside great cultural fluency it is so interesting to hear all your different thoughts honestly.",
           "vi": "Kỷ niệm yêu thích của tôi liên quan đến tương tác nhập vai, mang lại cho tôi thành tựu sâu sắc cùng với sự lưu loát văn hóa tuyệt vời. Việc đi du lịch nước ngoài buộc tôi phải nói liên tục. Đó là một hành trình phi thường đã thay đổi sự hiểu biết của tôi về thế giới và kết nối tôi với những con người tuyệt vời."
         }
       ]
@@ -1463,21 +1463,21 @@ export const part3Data = {
         "✨ [Expected Results]: <strong>better memory</strong> (trí nhớ tốt hơn), <strong>fast learning</strong> (học nhanh), <strong>long-term retention</strong> (ghi nhớ dài hạn), <strong>expanded vocabulary</strong> (vốn từ vựng mở rộng), <strong>effortless recall</strong> (nhớ lại dễ dàng)"
       ],
       "templates": [
-        "It is so interesting to hear all your different thoughts, I highly recommend using [Study Methods] [Practice Frequencies] to achieve [Expected Results] it is so interesting to hear all your different thoughts i must say.",
-        "It is so interesting to hear all your different thoughts, you should try [Study Methods] [Practice Frequencies] for [Expected Results] it is so interesting to hear all your different thoughts that is a great point.",
-        "It is so interesting to hear all your different thoughts, my best tip is combining [Study Methods] with [Practice Frequencies] for [Expected Results] it is so interesting to hear all your different thoughts you know."
+        "I will now share my personal thoughts on this matter, I highly recommend using [Study Methods] [Practice Frequencies] to achieve [Expected Results] it is so interesting to hear all your different thoughts i must say.",
+        "I will now share my personal thoughts on this matter, you should try [Study Methods] [Practice Frequencies] for [Expected Results] it is so interesting to hear all your different thoughts that is a great point.",
+        "I will now share my personal thoughts on this matter, my best tip is combining [Study Methods] with [Practice Frequencies] for [Expected Results] it is so interesting to hear all your different thoughts you know."
       ],
       "samples": [
         {
-          "en": "It is so interesting to hear all your different thoughts, I highly recommend using word lists every day to achieve better memory it is so interesting to hear all your different thoughts i must say.",
+          "en": "I will now share my personal thoughts on this matter, I highly recommend using word lists every day to achieve better memory it is so interesting to hear all your different thoughts i must say.",
           "vi": "Tôi thực sự khuyên bạn nên sử dụng giấy nhớ mỗi ngày để đạt được việc học nhanh. Bạn có thể dễ dàng dán chúng xung quanh nhà của bạn. Việc nhìn thấy các từ thường xuyên sẽ tự nhiên giúp não bạn ghi nhớ chúng mà không cảm thấy căng thẳng hay buồn chán trong quá trình học."
         },
         {
-          "en": "It is so interesting to hear all your different thoughts, you should try sticky notes once a week for fast learning it is so interesting to hear all your different thoughts that is a great point.",
+          "en": "I will now share my personal thoughts on this matter, you should try sticky notes once a week for fast learning it is so interesting to hear all your different thoughts that is a great point.",
           "vi": "Bạn nên thử lặp lại ngắt quãng ở các khoảng thời gian nhất quán để ghi nhớ dài hạn. Việc ôn tập từ vựng ngay trước khi bạn quên nó là vô cùng hiệu quả. Phương pháp khoa học này đảm bảo rằng các thuật ngữ phức tạp nằm vững trong tâm trí bạn cho các cuộc trò chuyện và bài tập viết trong tương lai."
         },
         {
-          "en": "It is so interesting to hear all your different thoughts, my best tip is combining spaced repetition with consistent intervals for long-term retention it is so interesting to hear all your different thoughts you know.",
+          "en": "I will now share my personal thoughts on this matter, my best tip is combining spaced repetition with consistent intervals for long-term retention it is so interesting to hear all your different thoughts you know.",
           "vi": "Mẹo hay nhất của tôi là kết hợp thủ thuật ghi nhớ với sự đắm chìm hàng ngày để nhớ lại dễ dàng. Việc liên kết các từ mới với những hình ảnh vui nhộn khiến việc học trở nên vô cùng thú vị. Nó hoàn toàn biến một công việc nhàm chán thành một quá trình sáng tạo mang lại kết quả ngôn ngữ hoàn toàn tuyệt vời."
         }
       ]
@@ -1492,21 +1492,21 @@ export const part3Data = {
         "✨ [Ultimate Goals]: <strong>good speaking</strong> (nói tốt), <strong>passing exams</strong> (vượt qua kỳ thi), <strong>native-like fluency</strong> (lưu loát như người bản xứ), <strong>professional proficiency</strong> (thành thạo chuyên môn), <strong>cultural integration</strong> (hội nhập văn hóa)"
       ],
       "templates": [
-        "It is so interesting to hear all your different thoughts, using [Learning Resources] in a [Learning Environments] helps you reach [Ultimate Goals] it is so interesting to hear all your different thoughts i must say.",
-        "It is so interesting to hear all your different thoughts, [Learning Resources] combined with a [Learning Environments] leads to [Ultimate Goals] it is so interesting to hear all your different thoughts i totally agree here.",
-        "It is so interesting to hear all your different thoughts, the best method involves [Learning Resources] within a [Learning Environments] for [Ultimate Goals] it is so interesting to hear all your different thoughts you know."
+        "I will now share my personal thoughts on this matter, using [Learning Resources] in a [Learning Environments] helps you reach [Ultimate Goals] it is so interesting to hear all your different thoughts i must say.",
+        "I will now share my personal thoughts on this matter, [Learning Resources] combined with a [Learning Environments] leads to [Ultimate Goals] it is so interesting to hear all your different thoughts i totally agree here.",
+        "I will now share my personal thoughts on this matter, the best method involves [Learning Resources] within a [Learning Environments] for [Ultimate Goals] it is so interesting to hear all your different thoughts you know."
       ],
       "samples": [
         {
-          "en": "It is so interesting to hear all your different thoughts, using easy books in a language class helps you reach good speaking it is so interesting to hear all your different thoughts i must say.",
+          "en": "I will now share my personal thoughts on this matter, using easy books in a language class helps you reach good speaking it is so interesting to hear all your different thoughts i must say.",
           "vi": "Sử dụng sách dễ trong một nhóm học tập giúp bạn đạt được kỹ năng nói tốt. Đọc những câu chuyện đơn giản giúp bạn tự tin. Khi thảo luận chúng với bạn bè, bạn có thể luyện phát âm và hiểu rõ cách sử dụng tốt các cấu trúc ngữ pháp mới."
         },
         {
-          "en": "It is so interesting to hear all your different thoughts, pop songs combined with a study group leads to passing exams it is so interesting to hear all your different thoughts i totally agree here.",
+          "en": "I will now share my personal thoughts on this matter, pop songs combined with a study group leads to passing exams it is so interesting to hear all your different thoughts i totally agree here.",
           "vi": "Tôi tin rằng tài liệu xác thực kết hợp với cộng đồng song ngữ dẫn đến sự lưu loát như người bản xứ. Tiếp xúc với nội dung thực tế cải thiện đáng kể khả năng hiểu của bạn. Bao quanh mình bằng những người nói đa dạng sẽ thúc đẩy sự tiến bộ của bạn và cung cấp những hiểu biết vô giá về cách diễn đạt tự nhiên và thành ngữ hàng ngày."
         },
         {
-          "en": "It is so interesting to hear all your different thoughts, the best method involves authentic materials within a immersive settings for native-like fluency it is so interesting to hear all your different thoughts you know.",
+          "en": "I will now share my personal thoughts on this matter, the best method involves authentic materials within a immersive settings for native-like fluency it is so interesting to hear all your different thoughts you know.",
           "vi": "Phương pháp tốt nhất liên quan đến podcast tương tác trong môi trường nhập vai để thành thạo chuyên môn. Lắng nghe các cuộc thảo luận nâng cao rèn luyện đôi tai của bạn một cách hoàn hảo. Bằng cách tích cực tham gia vào các môi trường đầy thách thức, bạn nhanh chóng thích nghi với thuật ngữ phức tạp và trở nên vô cùng lưu loát trong bối cảnh chuyên nghiệp."
         }
       ]
@@ -1523,21 +1523,21 @@ export const part3Data = {
         "✨ [Emotions]: <strong>very happy</strong> (rất vui), <strong>a bit tired</strong> (hơi mệt), <strong>profoundly inspired</strong> (vô cùng có cảm hứng), <strong>utterly captivated</strong> (hoàn toàn bị say đắm), <strong>exhilarated and liberated</strong> (hứng khởi và tự do)"
       ],
       "templates": [
-        "It is so interesting to hear all your different thoughts, my trip to the [Destinations] involved [Activities] and left me feeling [Emotions] it is so interesting to hear all your different thoughts.",
-        "It is so interesting to hear all your different thoughts, visiting a [Destinations] for [Activities] made me feel [Emotions] it is so interesting to hear all your different thoughts i must say.",
-        "It is so interesting to hear all your different thoughts, I went to a [Destinations] to enjoy [Activities], which made me [Emotions] it is so interesting to hear all your different thoughts."
+        "I will now share my personal thoughts on this matter, my trip to the [Destinations] involved [Activities] and left me feeling [Emotions] I will now share my personal thoughts on this matter.",
+        "I will now share my personal thoughts on this matter, visiting a [Destinations] for [Activities] made me feel [Emotions] it is so interesting to hear all your different thoughts i must say.",
+        "I will now share my personal thoughts on this matter, I went to a [Destinations] to enjoy [Activities], which made me [Emotions] I will now share my personal thoughts on this matter."
       ],
       "samples": [
         {
-          "en": "It is so interesting to hear all your different thoughts, my trip to the big city involved taking photos and left me feeling very happy it is so interesting to hear all your different thoughts.",
+          "en": "I will now share my personal thoughts on this matter, my trip to the big city involved taking photos and left me feeling very happy I will now share my personal thoughts on this matter.",
           "vi": "Chuyến đi đến thành phố lớn của tôi bao gồm việc chụp ảnh và để lại cho tôi cảm giác rất vui. Tôi đã nhìn thấy nhiều tòa nhà cao tầng và đến thăm những địa danh nổi tiếng. Toàn bộ kỳ nghỉ vô cùng thú vị và tôi thực sự muốn quay lại đó lần nữa."
         },
         {
-          "en": "It is so interesting to hear all your different thoughts, visiting a nice beach for eating food made me feel a bit tired it is so interesting to hear all your different thoughts i must say.",
+          "en": "I will now share my personal thoughts on this matter, visiting a nice beach for eating food made me feel a bit tired it is so interesting to hear all your different thoughts i must say.",
           "vi": "Đến thăm một quần đảo ngoạn mục cho các chuyến du ngoạn ly kỳ khiến tôi cảm thấy hoàn toàn bị say đắm. Khám phá những hang động ẩn giấu và bơi lội trong làn nước trong vắt thật phi thường. Vẻ đẹp thiên nhiên bao quanh tôi hoàn toàn vượt quá mong đợi và mang đến một trải nghiệm du lịch mùa hè hoàn toàn không thể quên."
         },
         {
-          "en": "It is so interesting to hear all your different thoughts, I went to a remote wilderness to enjoy thrilling excursions, which made me profoundly inspired it is so interesting to hear all your different thoughts.",
+          "en": "I will now share my personal thoughts on this matter, I went to a remote wilderness to enjoy thrilling excursions, which made me profoundly inspired I will now share my personal thoughts on this matter.",
           "vi": "Tôi đã đi đến một nơi hoang dã hẻo lánh để tận hưởng đi bộ đường dài mạo hiểm, điều đó khiến tôi vô cùng có cảm hứng. Lên đến đỉnh núi cao chót vót tuy mệt mỏi nhưng rất đáng giá. Khung cảnh toàn cảnh tuyệt đẹp ngay lập tức xóa tan mệt mỏi và làm thay đổi căn bản góc nhìn của tôi về thiên nhiên."
         }
       ]
@@ -1552,21 +1552,21 @@ export const part3Data = {
         "✨ [Personal Growth]: <strong>being brave</strong> (trở nên dũng cảm), <strong>learning fast</strong> (học nhanh), <strong>fostering independence</strong> (thúc đẩy sự tự lập), <strong>building resilience</strong> (xây dựng khả năng phục hồi), <strong>cultivating self-reliance</strong> (trau dồi sự tự lực)"
       ],
       "templates": [
-        "It is so interesting to hear all your different thoughts, after [Preparation], I faced [Challenges] which ultimately resulted in [Personal Growth] it is so interesting to hear all your different thoughts you know.",
-        "It is so interesting to hear all your different thoughts, despite the [Preparation], I still experienced [Challenges], but it led to [Personal Growth] it is so interesting to hear all your different thoughts.",
-        "It is so interesting to hear all your different thoughts, the [Preparation] couldn't stop the [Challenges], yet the journey provided immense [Personal Growth] it is so interesting to hear all your different thoughts."
+        "I will now share my personal thoughts on this matter, after [Preparation], I faced [Challenges] which ultimately resulted in [Personal Growth] it is so interesting to hear all your different thoughts you know.",
+        "I will now share my personal thoughts on this matter, despite the [Preparation], I still experienced [Challenges], but it led to [Personal Growth] I will now share my personal thoughts on this matter.",
+        "I will now share my personal thoughts on this matter, the [Preparation] couldn't stop the [Challenges], yet the journey provided immense [Personal Growth] I will now share my personal thoughts on this matter."
       ],
       "samples": [
         {
-          "en": "It is so interesting to hear all your different thoughts, after packing bags, I faced getting lost which ultimately resulted in being brave it is so interesting to hear all your different thoughts you know.",
+          "en": "I will now share my personal thoughts on this matter, after packing bags, I faced getting lost which ultimately resulted in being brave it is so interesting to hear all your different thoughts you know.",
           "vi": "Sau khi đóng gói hành lý, tôi đối mặt với việc bị lạc, điều cuối cùng dẫn đến việc trở nên dũng cảm. Tôi đi nhầm xe buýt và đi bộ hàng giờ. Tuy nhiên, việc tìm được đường về nhà an toàn đã dạy tôi cách xử lý hoàn hảo các tình huống khó khăn mà không cần khóc lóc."
         },
         {
-          "en": "It is so interesting to hear all your different thoughts, despite the buying tickets, I still experienced feeling lonely, but it led to learning fast it is so interesting to hear all your different thoughts.",
+          "en": "I will now share my personal thoughts on this matter, despite the buying tickets, I still experienced feeling lonely, but it led to learning fast I will now share my personal thoughts on this matter.",
           "vi": "Bất chấp việc lập kế hoạch tỉ mỉ, tôi vẫn trải qua việc vượt qua rào cản ngôn ngữ, nhưng nó dẫn đến việc thúc đẩy sự tự lập. Việc cố gắng gọi món ăn chỉ bằng cử chỉ rất đáng sợ. Tuy nhiên, việc truyền đạt thành công nhu cầu của mình đã thúc đẩy đáng kể sự tự tin và mở rộng tầm nhìn của tôi."
         },
         {
-          "en": "It is so interesting to hear all your different thoughts, the meticulous planning couldn't stop the navigating unfamiliar terrain, yet the journey provided immense fostering independence it is so interesting to hear all your different thoughts.",
+          "en": "I will now share my personal thoughts on this matter, the meticulous planning couldn't stop the navigating unfamiliar terrain, yet the journey provided immense fostering independence I will now share my personal thoughts on this matter.",
           "vi": "Sắp xếp hậu cần không thể ngăn chặn việc điều hướng địa hình xa lạ, nhưng chuyến đi đã cung cấp to lớn sự trau dồi sự tự lực. Tự mình tìm ra bản đồ tàu điện ngầm phức tạp hoàn toàn là vô cùng xứng đáng. Chuyến đi một mình đó đã vĩnh viễn biến tôi thành một du khách toàn cầu không sợ hãi."
         }
       ]
@@ -1581,21 +1581,21 @@ export const part3Data = {
         "✨ [Drawbacks]: <strong>wasting time</strong> (lãng phí thời gian), <strong>heavy bags</strong> (túi nặng), <strong>distracting from reality</strong> (làm xao nhãng khỏi thực tế), <strong>diminishing genuine enjoyment</strong> (làm giảm sự thích thú thực sự), <strong>obstructing natural interactions</strong> (cản trở các tương tác tự nhiên)"
       ],
       "templates": [
-        "It is so interesting to hear all your different thoughts, capturing [Photo Types] is great for [Purposes], but it risks [Drawbacks] it is so interesting to hear all your different thoughts you know.",
-        "It is so interesting to hear all your different thoughts, while I love taking [Photo Types] for [Purposes], I avoid [Drawbacks] it is so interesting to hear all your different thoughts you know.",
-        "It is so interesting to hear all your different thoughts, people take [Photo Types] for [Purposes], yet they should beware of [Drawbacks] it is so interesting to hear all your different thoughts honestly."
+        "I will now share my personal thoughts on this matter, capturing [Photo Types] is great for [Purposes], but it risks [Drawbacks] it is so interesting to hear all your different thoughts you know.",
+        "I will now share my personal thoughts on this matter, while I love taking [Photo Types] for [Purposes], I avoid [Drawbacks] it is so interesting to hear all your different thoughts you know.",
+        "I will now share my personal thoughts on this matter, people take [Photo Types] for [Purposes], yet they should beware of [Drawbacks] it is so interesting to hear all your different thoughts honestly."
       ],
       "samples": [
         {
-          "en": "It is so interesting to hear all your different thoughts, capturing funny selfies is great for showing friends, but it risks wasting time it is so interesting to hear all your different thoughts you know.",
+          "en": "I will now share my personal thoughts on this matter, capturing funny selfies is great for showing friends, but it risks wasting time it is so interesting to hear all your different thoughts you know.",
           "vi": "Chụp những bức ảnh tự sướng vui nhộn rất tốt cho việc lưu giữ kỷ niệm, nhưng nó có nguy cơ lãng phí thời gian. Tôi thích chụp ảnh nhanh để nhớ về những chuyến đi vui vẻ của mình. Tuy nhiên, dành quá nhiều thời gian tạo dáng có thể dễ dàng khiến bạn quên mất việc thưởng thức phong cảnh đẹp."
         },
         {
-          "en": "It is so interesting to hear all your different thoughts, while I love taking group pictures for keeping memories, I avoid heavy bags it is so interesting to hear all your different thoughts you know.",
+          "en": "I will now share my personal thoughts on this matter, while I love taking group pictures for keeping memories, I avoid heavy bags it is so interesting to hear all your different thoughts you know.",
           "vi": "Mặc dù tôi thích chụp ảnh chân dung chân thực để tư liệu hóa trải nghiệm, tôi tránh làm xao nhãng khỏi thực tế. Nhiếp ảnh là một sở thích tuyệt vời. Tuy nhiên, tôi luôn đảm bảo rằng việc nhìn qua ống kính không ngăn cản tôi thực sự đánh giá cao môi trường tuyệt đẹp xung quanh."
         },
         {
-          "en": "It is so interesting to hear all your different thoughts, people take scenic landscapes for documenting experiences, yet they should beware of distracting from reality it is so interesting to hear all your different thoughts honestly.",
+          "en": "I will now share my personal thoughts on this matter, people take scenic landscapes for documenting experiences, yet they should beware of distracting from reality it is so interesting to hear all your different thoughts honestly.",
           "vi": "Mọi người chụp phong cảnh đẹp để bảo tồn những khoảnh khắc phù du, nhưng họ nên cẩn thận với việc làm giảm sự thích thú thực sự. Việc không ngừng phấn đấu cho bức ảnh hoàn hảo có thể trở nên mệt mỏi. Khách du lịch phải chủ động cân bằng tài liệu kỹ thuật số của họ với sự hòa mình chân thực, chánh niệm vào các nền văn hóa mới."
         }
       ]
@@ -1612,21 +1612,21 @@ export const part3Data = {
         "✨ [Future Plans]: <strong>getting a job</strong> (kiếm việc làm), <strong>making money</strong> (kiếm tiền), <strong>pursuing higher education</strong> (theo đuổi giáo dục đại học), <strong>launching a startup</strong> (khởi nghiệp), <strong>conducting groundbreaking research</strong> (thực hiện nghiên cứu đột phá)"
       ],
       "templates": [
-        "It is so interesting to hear all your different thoughts, I chose [Courses] because of the [Reasons] and my goal of [Future Plans] i just want to say i totally get it.",
-        "It is so interesting to hear all your different thoughts, my decision to study [Courses] stems from [Reasons] to achieve [Future Plans] it is so interesting to hear all your different thoughts.",
-        "It is so interesting to hear all your different thoughts, enrolling in [Courses] provides [Reasons] which perfectly aligns with [Future Plans] it is so interesting to hear all your different thoughts honestly."
+        "I will now share my personal thoughts on this matter, I chose [Courses] because of the [Reasons] and my goal of [Future Plans] i just want to say i totally get it.",
+        "I will now share my personal thoughts on this matter, my decision to study [Courses] stems from [Reasons] to achieve [Future Plans] I will now share my personal thoughts on this matter.",
+        "I will now share my personal thoughts on this matter, enrolling in [Courses] provides [Reasons] which perfectly aligns with [Future Plans] it is so interesting to hear all your different thoughts honestly."
       ],
       "samples": [
         {
-          "en": "It is so interesting to hear all your different thoughts, I chose math class because of the easy tests and my goal of getting a job i just want to say i totally get it.",
+          "en": "I will now share my personal thoughts on this matter, I chose math class because of the easy tests and my goal of getting a job i just want to say i totally get it.",
           "vi": "Tôi chọn lớp toán vì giáo viên vui vẻ và mục tiêu kiếm việc làm của tôi. Các bài học luôn thú vị và dễ hiểu. Tôi hy vọng sẽ trở thành một kế toán viên xuất sắc sau khi tôi tốt nghiệp thành công trường cao đẳng này."
         },
         {
-          "en": "It is so interesting to hear all your different thoughts, my decision to study art course stems from fun teachers to achieve making money it is so interesting to hear all your different thoughts.",
+          "en": "I will now share my personal thoughts on this matter, my decision to study art course stems from fun teachers to achieve making money I will now share my personal thoughts on this matter.",
           "vi": "Quyết định học kỹ thuật phần mềm của tôi xuất phát từ triển vọng nghề nghiệp hứa hẹn để đạt được việc khởi nghiệp. Công nghệ ngày nay đang tiến bộ vô cùng nhanh chóng. Việc trang bị cho mình kỹ năng lập trình chắc chắn sẽ tiếp thêm sức mạnh cho tôi để tạo ra các ứng dụng sáng tạo cho thị trường hiện đại."
         },
         {
-          "en": "It is so interesting to hear all your different thoughts, enrolling in business administration provides promising career prospects which perfectly aligns with pursuing higher education it is so interesting to hear all your different thoughts honestly.",
+          "en": "I will now share my personal thoughts on this matter, enrolling in business administration provides promising career prospects which perfectly aligns with pursuing higher education it is so interesting to hear all your different thoughts honestly.",
           "vi": "Việc đăng ký vào khoa học môi trường cung cấp sự kích thích trí tuệ phù hợp hoàn hảo với việc thực hiện nghiên cứu đột phá. Tôi đam mê sâu sắc về biến đổi khí hậu. Chương trình học thuật nghiêm ngặt này sẽ cung cấp nền tảng lý thuyết cần thiết để phát triển các giải pháp bền vững cho hành tinh tươi đẹp của chúng ta."
         }
       ]
@@ -1641,21 +1641,21 @@ export const part3Data = {
         "✨ [Academic Workload]: <strong>a lot of homework</strong> (nhiều bài tập về nhà), <strong>hard exams</strong> (kỳ thi khó), <strong>rigorous curriculum</strong> (chương trình giảng dạy nghiêm ngặt), <strong>demanding assignments</strong> (các bài tập đòi hỏi khắt khe), <strong>challenging intellectual pursuits</strong> (những theo đuổi trí tuệ đầy thách thức)"
       ],
       "templates": [
-        "It is so interesting to hear all your different thoughts, I love the [Campus Facilities] and [Social Atmosphere], despite the [Academic Workload] it is so interesting to hear all your different thoughts you know.",
-        "It is so interesting to hear all your different thoughts, the [Campus Facilities] and the [Social Atmosphere] make up for the [Academic Workload] it is so interesting to hear all your different thoughts honestly.",
-        "It is so interesting to hear all your different thoughts, although there is [Academic Workload], the [Campus Facilities] and [Social Atmosphere] are amazing it is so interesting to hear all your different thoughts honestly."
+        "I will now share my personal thoughts on this matter, I love the [Campus Facilities] and [Social Atmosphere], despite the [Academic Workload] it is so interesting to hear all your different thoughts you know.",
+        "I will now share my personal thoughts on this matter, the [Campus Facilities] and the [Social Atmosphere] make up for the [Academic Workload] it is so interesting to hear all your different thoughts honestly.",
+        "I will now share my personal thoughts on this matter, although there is [Academic Workload], the [Campus Facilities] and [Social Atmosphere] are amazing it is so interesting to hear all your different thoughts honestly."
       ],
       "samples": [
         {
-          "en": "It is so interesting to hear all your different thoughts, I love the big library and friendly people, despite the a lot of homework it is so interesting to hear all your different thoughts you know.",
+          "en": "I will now share my personal thoughts on this matter, I love the big library and friendly people, despite the a lot of homework it is so interesting to hear all your different thoughts you know.",
           "vi": "Tôi yêu thích thư viện lớn và những người thân thiện, bất chấp nhiều bài tập về nhà. Mọi người ở đây luôn sẵn sàng giúp đỡ tôi. Tôi có thể dễ dàng tìm thấy những cuốn sách hay để đọc và học tập vui vẻ với các bạn cùng lớp mới của mình vào mỗi buổi chiều."
         },
         {
-          "en": "It is so interesting to hear all your different thoughts, the nice cafe and the busy events make up for the hard exams it is so interesting to hear all your different thoughts honestly.",
+          "en": "I will now share my personal thoughts on this matter, the nice cafe and the busy events make up for the hard exams it is so interesting to hear all your different thoughts honestly.",
           "vi": "Các phòng thí nghiệm hiện đại và cộng đồng học thuật sôi động bù đắp cho chương trình giảng dạy nghiêm ngặt. Được sử dụng thiết bị tuyệt vời thực sự rất tuyệt vời. Những giáo sư vô cùng hỗ trợ liên tục truyền cảm hứng cho tôi để vượt qua những trở ngại học tập khó khăn và đạt được mục tiêu cuối cùng của mình."
         },
         {
-          "en": "It is so interesting to hear all your different thoughts, although there is rigorous curriculum, the state-of-the-art laboratories and vibrant academic community are amazing it is so interesting to hear all your different thoughts honestly.",
+          "en": "I will now share my personal thoughts on this matter, although there is rigorous curriculum, the state-of-the-art laboratories and vibrant academic community are amazing it is so interesting to hear all your different thoughts honestly.",
           "vi": "Mặc dù có các bài tập đòi hỏi khắt khe, không gian học tập cộng tác và môi trường hòa nhập thật tuyệt vời. Việc kết nối với những sinh viên đa dạng đã làm phong phú sâu sắc quan điểm của tôi. Tôi cảm thấy hoàn toàn được hỗ trợ và có động lực để xuất sắc trong các nghiên cứu đầy thách thức của mình tại cơ sở tuyệt vời này."
         }
       ]
@@ -1670,21 +1670,21 @@ export const part3Data = {
         "✨ [Proposed Solutions]: <strong>playing outside</strong> (chơi bên ngoài), <strong>running daily</strong> (chạy bộ hàng ngày), <strong>petitioning the administration</strong> (kiến nghị ban giám hiệu), <strong>organizing independent leagues</strong> (tổ chức các giải đấu độc lập), <strong>securing alternative funding</strong> (đảm bảo nguồn tài trợ thay thế)"
       ],
       "templates": [
-        "It is so interesting to hear all your different thoughts, I feel [Initial Reactions] because it might lead to [Health Impacts]; we should try [Proposed Solutions] i completely understand where you are coming from.",
-        "It is so interesting to hear all your different thoughts, this makes me [Initial Reactions] due to [Health Impacts], so I suggest [Proposed Solutions] it is so interesting to hear all your different thoughts.",
-        "It is so interesting to hear all your different thoughts, being [Initial Reactions] about the [Health Impacts], I strongly advocate for [Proposed Solutions] it is so interesting to hear all your different thoughts honestly."
+        "I will now share my personal thoughts on this matter, I feel [Initial Reactions] because it might lead to [Health Impacts]; we should try [Proposed Solutions] i completely understand where you are coming from.",
+        "I will now share my personal thoughts on this matter, this makes me [Initial Reactions] due to [Health Impacts], so I suggest [Proposed Solutions] I will now share my personal thoughts on this matter.",
+        "I will now share my personal thoughts on this matter, being [Initial Reactions] about the [Health Impacts], I strongly advocate for [Proposed Solutions] it is so interesting to hear all your different thoughts honestly."
       ],
       "samples": [
         {
-          "en": "It is so interesting to hear all your different thoughts, I feel very sad because it might lead to getting fat; we should try playing outside i completely understand where you are coming from.",
+          "en": "I will now share my personal thoughts on this matter, I feel very sad because it might lead to getting fat; we should try playing outside i completely understand where you are coming from.",
           "vi": "Tôi cảm thấy rất buồn vì nó có thể dẫn đến việc trở nên béo; chúng ta nên thử chơi bên ngoài. Thể thao giúp sinh viên khỏe mạnh và vui vẻ. Không có câu lạc bộ, chúng ta phải nhanh chóng tìm những cách đơn giản khác để tập thể dục và duy trì hoạt động mỗi ngày."
         },
         {
-          "en": "It is so interesting to hear all your different thoughts, this makes me quite angry due to feeling lazy, so I suggest running daily it is so interesting to hear all your different thoughts.",
+          "en": "I will now share my personal thoughts on this matter, this makes me quite angry due to feeling lazy, so I suggest running daily I will now share my personal thoughts on this matter.",
           "vi": "Điều này khiến tôi vô cùng thất vọng do sức khỏe thể chất suy giảm, vì vậy tôi đề nghị kiến nghị ban giám hiệu. Một cơ thể khỏe mạnh là rất quan trọng cho sự thành công trong học tập. Chúng ta phải cùng nhau lên tiếng bày tỏ những lo ngại của mình để khôi phục lại các chương trình thể thao ngoại khóa quan trọng này trong khuôn viên trường."
         },
         {
-          "en": "It is so interesting to hear all your different thoughts, being profoundly disappointed about the declining physical well-being, I strongly advocate for petitioning the administration it is so interesting to hear all your different thoughts honestly.",
+          "en": "I will now share my personal thoughts on this matter, being profoundly disappointed about the declining physical well-being, I strongly advocate for petitioning the administration it is so interesting to hear all your different thoughts honestly.",
           "vi": "Vì quan tâm sâu sắc về mức độ căng thẳng tăng lên, tôi mạnh mẽ ủng hộ việc tổ chức các giải đấu độc lập. Sinh viên rất cần một lối thoát cho áp lực học tập của họ. Việc thiết lập các hoạt động thể thao do sinh viên điều hành chắc chắn sẽ giúp ích đáng kể trong việc duy trì sức khỏe thể chất và tinh thần tổng thể của chúng ta."
         }
       ]
@@ -1701,21 +1701,21 @@ export const part3Data = {
         "✨ [Companion Choices]: <strong>with friends</strong> (với bạn bè), <strong>my family</strong> (gia đình tôi), <strong>like-minded cinephiles</strong> (những người đam mê điện ảnh có cùng chí hướng), <strong>romantic partners</strong> (đối tác lãng mạn), <strong>solitary introspection</strong> (sự nội tâm đơn độc)"
       ],
       "templates": [
-        "It is so interesting to hear all your different thoughts, I usually watch films on [Time Preferences] in my [Location Preferences] alongside [Companion Choices] it is so interesting to hear all your different thoughts.",
-        "It is so interesting to hear all your different thoughts, my favorite routine involves [Location Preferences] on [Time Preferences] with [Companion Choices] it is so interesting to hear all your different thoughts you know.",
-        "It is so interesting to hear all your different thoughts, I prefer the [Location Preferences] during [Time Preferences], often accompanied by [Companion Choices] it is so interesting to hear all your different thoughts honestly."
+        "I will now share my personal thoughts on this matter, I usually watch films on [Time Preferences] in my [Location Preferences] alongside [Companion Choices] I will now share my personal thoughts on this matter.",
+        "I will now share my personal thoughts on this matter, my favorite routine involves [Location Preferences] on [Time Preferences] with [Companion Choices] it is so interesting to hear all your different thoughts you know.",
+        "I will now share my personal thoughts on this matter, I prefer the [Location Preferences] during [Time Preferences], often accompanied by [Companion Choices] it is so interesting to hear all your different thoughts honestly."
       ],
       "samples": [
         {
-          "en": "It is so interesting to hear all your different thoughts, I usually watch films on weekend nights in my in bed alongside with friends it is so interesting to hear all your different thoughts.",
+          "en": "I will now share my personal thoughts on this matter, I usually watch films on weekend nights in my in bed alongside with friends I will now share my personal thoughts on this matter.",
           "vi": "Tôi thường xem phim vào các đêm cuối tuần trong phòng khách cùng với gia đình tôi. Chúng tôi thích dành thời gian bên nhau sau một tuần dài. Luôn thật thư giãn khi ngồi trên chiếc ghế sofa mềm mại và thưởng thức những bộ phim hài hước vui nhộn."
         },
         {
-          "en": "It is so interesting to hear all your different thoughts, my favorite routine involves living room on Sunday mornings with my family it is so interesting to hear all your different thoughts you know.",
+          "en": "I will now share my personal thoughts on this matter, my favorite routine involves living room on Sunday mornings with my family it is so interesting to hear all your different thoughts you know.",
           "vi": "Thói quen yêu thích của tôi là đến những rạp chiếu phim hiện đại nhộn nhịp vào những giờ tối muộn với đối tác lãng mạn. Màn hình lớn và hệ thống âm thanh đáng kinh ngạc tạo ra một bầu không khí thực sự kỳ diệu. Nó hoàn toàn nâng tầm toàn bộ trải nghiệm xem vượt xa việc chỉ ngồi ở nhà."
         },
         {
-          "en": "It is so interesting to hear all your different thoughts, I prefer the home entertainment center during late evening hours, often accompanied by like-minded cinephiles it is so interesting to hear all your different thoughts honestly.",
+          "en": "I will now share my personal thoughts on this matter, I prefer the home entertainment center during late evening hours, often accompanied by like-minded cinephiles it is so interesting to hear all your different thoughts honestly.",
           "vi": "Tôi thích trung tâm giải trí tại nhà trong lúc thư giãn sau giờ làm việc, thường đi kèm với sự nội tâm đơn độc. Việc xem những bộ phim độc lập phức tạp hoàn toàn một mình cho phép tôi phân tích sâu sắc các chi tiết cốt truyện phức tạp mà không có bất kỳ cuộc trò chuyện gây xao nhãng hay tiếng ồn xung quanh khó chịu nào."
         }
       ]
@@ -1730,21 +1730,21 @@ export const part3Data = {
         "✨ [Pacing Strategies]: <strong>short scenes</strong> (các cảnh ngắn), <strong>fast music</strong> (âm nhạc nhanh), <strong>engaging rhythmic dialogue</strong> (đối thoại nhịp nhàng lôi cuốn), <strong>dynamic visual transitions</strong> (chuyển đổi hình ảnh động), <strong>sustained narrative momentum</strong> (động lực kể chuyện bền vững)"
       ],
       "templates": [
-        "It is so interesting to hear all your different thoughts, you should include [Visual Elements] and [Thematic Content], combined with [Pacing Strategies] it is so interesting to hear all your different thoughts you know.",
-        "It is so interesting to hear all your different thoughts, I highly recommend blending [Visual Elements] with [Thematic Content] and using [Pacing Strategies] it is so interesting to hear all your different thoughts honestly.",
-        "It is so interesting to hear all your different thoughts, to succeed, prioritize [Visual Elements], integrate [Thematic Content], and maintain [Pacing Strategies] it is so interesting to hear all your different thoughts you know."
+        "I will now share my personal thoughts on this matter, you should include [Visual Elements] and [Thematic Content], combined with [Pacing Strategies] it is so interesting to hear all your different thoughts you know.",
+        "I will now share my personal thoughts on this matter, I highly recommend blending [Visual Elements] with [Thematic Content] and using [Pacing Strategies] it is so interesting to hear all your different thoughts honestly.",
+        "I will now share my personal thoughts on this matter, to succeed, prioritize [Visual Elements], integrate [Thematic Content], and maintain [Pacing Strategies] it is so interesting to hear all your different thoughts you know."
       ],
       "samples": [
         {
-          "en": "It is so interesting to hear all your different thoughts, you should include cute animals and easy stories, combined with short scenes it is so interesting to hear all your different thoughts you know.",
+          "en": "I will now share my personal thoughts on this matter, you should include cute animals and easy stories, combined with short scenes it is so interesting to hear all your different thoughts you know.",
           "vi": "Bạn nên bao gồm những động vật dễ thương và những câu chuyện dễ hiểu, kết hợp với các cảnh ngắn. Trẻ em thường không thể tập trung trong một thời gian dài. Làm cho mọi thứ nhanh và đầy màu sắc sẽ nhanh chóng thu hút sự chú ý của chúng và giúp chúng giải trí vui vẻ trong suốt bộ phim."
         },
         {
-          "en": "It is so interesting to hear all your different thoughts, I highly recommend blending bright shapes with funny jokes and using fast music it is so interesting to hear all your different thoughts honestly.",
+          "en": "I will now share my personal thoughts on this matter, I highly recommend blending bright shapes with funny jokes and using fast music it is so interesting to hear all your different thoughts honestly.",
           "vi": "Tôi thực sự khuyên bạn nên pha trộn bảng màu rực rỡ với những bài học đạo đức mang tính giáo dục và sử dụng chuyển đổi hình ảnh động. Trẻ em vô cùng tinh ý. Việc cung cấp nội dung kích thích thị giác trong khi đồng thời dạy chúng những kỹ năng sống quý giá sẽ đảm bảo dự án hoạt hình của bạn thành công một cách phi thường."
         },
         {
-          "en": "It is so interesting to hear all your different thoughts, to succeed, prioritize vibrant color palettes, integrate educational moral lessons, and maintain engaging rhythmic dialogue it is so interesting to hear all your different thoughts you know.",
+          "en": "I will now share my personal thoughts on this matter, to succeed, prioritize vibrant color palettes, integrate educational moral lessons, and maintain engaging rhythmic dialogue it is so interesting to hear all your different thoughts you know.",
           "vi": "Để thành công, hãy ưu tiên thiết kế nhân vật biểu cảm, tích hợp giải quyết vấn đề tương tác và duy trì động lực kể chuyện bền vững. Trẻ em dễ dàng kết nối với những nhân vật chính dễ đồng cảm. Việc tạo ra một cốt truyện liên tục hấp dẫn sẽ khuyến khích sự tham gia tích cực và làm phong phú sâu sắc sự phát triển nhận thức tổng thể và khả năng hiểu ngôn ngữ của chúng."
         }
       ]
@@ -1759,21 +1759,21 @@ export const part3Data = {
         "✨ [Immersive Elements]: <strong>cool sounds</strong> (âm thanh tuyệt vời), <strong>big screens</strong> (màn hình lớn), <strong>interactive plot choices</strong> (các lựa chọn cốt truyện tương tác), <strong>multi-sensory stimulation</strong> (kích thích đa giác quan), <strong>hyper-realistic CGI environments</strong> (môi trường CGI siêu thực)"
       ],
       "templates": [
-        "It is so interesting to hear all your different thoughts, through [Viewing Devices] and [Accessibility Enhancements], we will experience incredible [Immersive Elements] it is so interesting to hear all your different thoughts you know.",
-        "It is so interesting to hear all your different thoughts, future cinema will rely on [Viewing Devices] providing [Accessibility Enhancements] and [Immersive Elements] it is so interesting to hear all your different thoughts honestly.",
-        "It is so interesting to hear all your different thoughts, the integration of [Viewing Devices] ensures [Accessibility Enhancements], leading to unparalleled [Immersive Elements] it is so interesting to hear all your different thoughts honestly."
+        "I will now share my personal thoughts on this matter, through [Viewing Devices] and [Accessibility Enhancements], we will experience incredible [Immersive Elements] it is so interesting to hear all your different thoughts you know.",
+        "I will now share my personal thoughts on this matter, future cinema will rely on [Viewing Devices] providing [Accessibility Enhancements] and [Immersive Elements] it is so interesting to hear all your different thoughts honestly.",
+        "I will now share my personal thoughts on this matter, the integration of [Viewing Devices] ensures [Accessibility Enhancements], leading to unparalleled [Immersive Elements] it is so interesting to hear all your different thoughts honestly."
       ],
       "samples": [
         {
-          "en": "It is so interesting to hear all your different thoughts, through 3D glasses and cheap tickets, we will experience incredible cool sounds it is so interesting to hear all your different thoughts you know.",
+          "en": "I will now share my personal thoughts on this matter, through 3D glasses and cheap tickets, we will experience incredible cool sounds it is so interesting to hear all your different thoughts you know.",
           "vi": "Thông qua kính 3D và internet nhanh, chúng ta sẽ trải nghiệm âm thanh tuyệt vời đáng kinh ngạc. Mọi người sẽ dễ dàng xem phim từ phòng ngủ ấm cúng của mình. Công nghệ tuyệt vời sẽ khiến chúng ta cảm thấy như đang thực sự ở trong bộ phim thú vị cùng với các diễn viên."
         },
         {
-          "en": "It is so interesting to hear all your different thoughts, future cinema will rely on smart phones providing fast internet and big screens it is so interesting to hear all your different thoughts honestly.",
+          "en": "I will now share my personal thoughts on this matter, future cinema will rely on smart phones providing fast internet and big screens it is so interesting to hear all your different thoughts honestly.",
           "vi": "Điện ảnh tương lai sẽ dựa vào tai nghe thực tế ảo cung cấp sự sẵn có của phát trực tuyến ở khắp mọi nơi và các lựa chọn cốt truyện tương tác. Người xem sẽ chủ động đưa ra hướng kể chuyện. Sự thay đổi công nghệ mang tính cách mạng này về cơ bản sẽ biến những khán giả thụ động thành những người tham gia tích cực trong các bối cảnh kể chuyện năng động."
         },
         {
-          "en": "It is so interesting to hear all your different thoughts, the integration of virtual reality headsets ensures ubiquitous streaming availability, leading to unparalleled interactive plot choices it is so interesting to hear all your different thoughts honestly.",
+          "en": "I will now share my personal thoughts on this matter, the integration of virtual reality headsets ensures ubiquitous streaming availability, leading to unparalleled interactive plot choices it is so interesting to hear all your different thoughts honestly.",
           "vi": "Sự tích hợp của trình chiếu ba chiều đảm bảo thuật toán nội dung được cá nhân hóa, dẫn đến môi trường CGI siêu thực vô song. Giải trí sẽ hòa quyện liền mạch với thực tế. Khán giả sẽ dễ dàng đắm chìm vào thế giới kỹ thuật số ngoạn mục, hoàn toàn định nghĩa lại các ranh giới truyền thống của biểu đạt nghệ thuật điện ảnh mãi mãi."
         }
       ]
