@@ -39,13 +39,13 @@ export const part3Data = {
         "✨ [Kết quả]: <strong>draw better pictures</strong> (vẽ những bức tranh đẹp hơn), <strong>feel very happy</strong> (cảm thấy rất vui vẻ), <strong>improve your artistic skills significantly</strong> (cải thiện đáng kể kỹ năng nghệ thuật của bạn), <strong>build a solid foundation</strong> (xây dựng một nền tảng vững chắc), <strong>find your unique painting style</strong> (tìm ra phong cách vẽ độc đáo của bạn)"
       ],
       "templates": [
-        "In my opinion, I believe taking a course at your local college is [Nhận định]. It will help you [Lợi ích khóa học] and eventually [Kết quả]. It is very useful.",
+        "To answer this, I believe taking a course at your local college is [Nhận định]. It will help you [Lợi ích khóa học] and eventually [Kết quả]. It is very useful.",
         "Here are my thoughts on this. Enrolling in a formal class is [Nhận định]. You will [Lợi ích khóa học], which can [Kết quả]. Let me know what you guys think.",
-        "In my opinion, If I were you, I would definitely register because it is [Nhận định]. Having the opportunity to [Lợi ích khóa học] will certainly [Kết quả]. It is good."
+        "To answer this, If I were you, I would definitely register because it is [Nhận định]. Having the opportunity to [Lợi ích khóa học] will certainly [Kết quả]. It is good."
       ],
       "samples": [
         {
-          "en": "In my opinion, I believe taking a course at your local college is a fantastic idea. It will help you master basic techniques quickly and eventually build a solid foundation. It is very useful.",
+          "en": "To answer this, I believe taking a course at your local college is a fantastic idea. It will help you master basic techniques quickly and eventually build a solid foundation. It is very useful.",
           "vi": "Điều đó thật tuyệt vời! Tôi thực sự tin rằng tham gia một khóa học tại trường cao đẳng địa phương là một ý tưởng tuyệt vời cho người mới bắt đầu. Nó sẽ giúp bạn nắm vững các kỹ thuật cơ bản nhanh chóng và cuối cùng là xây dựng một nền tảng vững chắc cho các dự án nghệ thuật tương lai của bạn. Tôi thực sự thích nó!"
         },
         {
@@ -53,7 +53,7 @@ export const part3Data = {
           "vi": "Tôi rất vui được chia sẻ điều này. đăng ký một lớp học chính thức chắc chắn là một sự đầu tư xứng đáng. Bạn sẽ nhận được sự hướng dẫn chuyên nghiệp, điều này có thể cải thiện đáng kể kỹ năng nghệ thuật của bạn và giúp bạn trở thành một họa sĩ giỏi hơn theo thời gian. Hãy cho tôi biết các bạn nghĩ gì nhé."
         },
         {
-          "en": "In my opinion, If I were you, I would definitely register because it is the most effective way. Having the opportunity to interact with experienced instructors will certainly find your unique painting style. It is good.",
+          "en": "To answer this, If I were you, I would definitely register because it is the most effective way. Having the opportunity to interact with experienced instructors will certainly find your unique painting style. It is good.",
           "vi": "Điều đó thật tuyệt vời! Nếu tôi là bạn, tôi chắc chắn sẽ đăng ký lớp học vì đó là cách hiệu quả nhất. Việc có cơ hội tương tác với những người hướng dẫn giàu kinh nghiệm chắc chắn sẽ giúp bạn tìm ra phong cách vẽ độc đáo của bạn. Nó thật tuyệt."
         }
       ]
