@@ -320,12 +320,12 @@ const Part3 = () => {
                   <div className="question-text" style={{ marginBottom: '1rem' }}>
                     <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '0.5rem' }}>
                       <div style={{ width: '32px', height: '32px', borderRadius: '50%', backgroundColor: 'var(--primary)', color: 'white', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold' }}>
-                        {qData.member.charAt(qData.member.length - 1)}
+                        {qData?.member ? qData.member.charAt(qData.member.length - 1) : (index === 0 ? 'A' : index === 1 ? 'B' : 'C')}
                       </div>
-                      <strong style={{ color: 'var(--primary)' }}>{qData.member}</strong>
+                      <strong style={{ color: 'var(--primary)' }}>{qData?.member || `Member ${index === 0 ? 'A' : index === 1 ? 'B' : 'C'}`}</strong>
                     </div>
                     <div style={{ backgroundColor: '#F1F5F9', padding: '1rem', borderRadius: '0 8px 8px 8px', borderLeft: '4px solid var(--primary)', marginBottom: '1rem' }}>
-                      {qData.question}
+                      {qData?.question || ''}
                     </div>
                     
                     <div style={{ display: 'flex', justifyContent: 'flex-start', gap: '0.5rem', marginBottom: '0.5rem' }}>

@@ -23,7 +23,8 @@ export const part3Data = {
           "en": "Speaking of long-kept possessions, I would mention a handmade wooden box. It is a special gift from my closest childhood friend. I highly appreciate it since it can provide immense comfort, making me remarkably motivated and energized every single time.",
           "vi": "Nói về những tài sản được giữ lâu dài, tôi muốn nhắc đến một chiếc hộp gỗ thủ công. Nó là một món quà đặc biệt từ người bạn thân nhất thời thơ ấu của tôi. Tôi đánh giá cao nó vì nó có thể mang lại sự an ủi to lớn, khiến tôi vô cùng đầy động lực và tràn đầy năng lượng mỗi lần."
         }
-      ]
+      ],
+      "member": "Member A"
     },
     "q2": {
       "question": "I would like to learn painting, but I have not found an effective way. Should I take a course at my local college? Please, give me some advice.",
@@ -47,7 +48,8 @@ export const part3Data = {
           "en": "Enrolling in a formal class is undoubtedly a wise decision. This strategy allows you to explore various artistic styles and eventually enhance your creative potential. What is more, you can comfortably exchange inspiring ideas under professional guidance.",
           "vi": "Ghi danh vào một lớp học chính thức chắc chắn là một quyết định khôn ngoan. Chiến lược này cho phép bạn khám phá các phong cách nghệ thuật đa dạng và cuối cùng nâng cao tiềm năng sáng tạo của bạn. Hơn thế nữa, bạn có thể thoải mái trao đổi những ý tưởng truyền cảm hứng dưới sự hướng dẫn chuyên môn."
         }
-      ]
+      ],
+      "member": "Member B"
     },
     "q3": {
       "question": "Street art – where people paint on the building – is becoming popular. However, some people criticize that it is bad. What is your opinion?",
@@ -71,7 +73,8 @@ export const part3Data = {
           "en": "I firmly believe that public graffiti, when authorized, is a vibrant form of expression. Not only does this form of expression showcase immense raw talent, but it also possesses the power to attract international tourism effectively. Consequently, authorities ought to organize official mural festivals.",
           "vi": "Tôi tin tưởng mạnh mẽ rằng graffiti công cộng, khi được cho phép, là một hình thức thể hiện sống động. Hình thức thể hiện này không chỉ trưng bày tài năng thô sơ to lớn, mà nó còn sở hữu sức mạnh để thu hút du lịch quốc tế hiệu quả. Hậu quả là, các nhà chức trách nên tổ chức các lễ hội tranh tường chính thức."
         }
-      ]
+      ],
+      "member": "Member C"
     }
   },
   "Food club": {
@@ -97,7 +100,8 @@ export const part3Data = {
           "en": "I vividly recall my recent wonderful dining experience at an authentic rooftop restaurant. They served me a bowl of savory noodles that looked incredibly appetizing. Its mouth-watering and robust taste exceeded my expectations, ensuring that my visit was thoroughly enjoyable from start to finish.",
           "vi": "Tôi nhớ rõ trải nghiệm ăn uống tuyệt vời gần đây của tôi tại một nhà hàng trên sân thượng đích thực. Họ đã phục vụ tôi một bát mì mặn mà trông cực kỳ ngon miệng. Hương vị đậm đà và ngon miệng của nó đã vượt qua sự mong đợi của tôi, đảm bảo rằng chuyến thăm của tôi hoàn toàn thú vị từ đầu đến cuối."
         }
-      ]
+      ],
+      "member": "Member A"
     },
     "q2": {
       "question": "I want to visit your country. Do you have any suggestions for me on what delicious food to eat?",
@@ -121,7 +125,8 @@ export const part3Data = {
           "en": "One culinary masterpiece you cannot miss here is authentic street-style pork sandwiches. Made mostly of high-quality organic ingredients, the dish is strictly grilled over charcoal fire. You will love it since it manages to deliver an explosion of flavors.",
           "vi": "Một kiệt tác ẩm thực bạn không thể bỏ lỡ ở đây là bánh mì kẹp thịt lợn kiểu đường phố đích thực. Được làm chủ yếu từ nguyên liệu hữu cơ chất lượng cao, món ăn được nướng nghiêm ngặt trên lửa than. Bạn sẽ yêu thích nó vì nó xoay sở để mang đến một sự bùng nổ của hương vị."
         }
-      ]
+      ],
+      "member": "Member B"
     },
     "q3": {
       "question": "Today, many people eat pizza. But it is not healthy and they should limit eating it. What is your opinion?",
@@ -145,7 +150,8 @@ export const part3Data = {
           "en": "It is true that pizza represents an incredibly popular comfort food, yet its overconsumption undeniably leads to undesirable weight gain issues. Therefore, we ought to practice home-cooked nutritious meal plans so as to maintain sustained energy throughout the day in the future.",
           "vi": "Đúng là pizza đại diện cho một món ăn vặt cực kỳ phổ biến, nhưng việc tiêu thụ quá mức của nó không thể phủ nhận dẫn đến vấn đề tăng cân không mong muốn. Do đó, chúng ta nên thực hành các kế hoạch bữa ăn bổ dưỡng nấu tại nhà để duy trì năng lượng bền vững suốt cả ngày trong tương lai."
         }
-      ]
+      ],
+      "member": "Member C"
     }
   },
   "Social club": {
@@ -171,7 +177,8 @@ export const part3Data = {
           "en": "My peers and I often choose to watch the latest blockbuster movies at a bustling central mall whenever we meet. Such an approach enables us to blow off some steam effectively, resulting in a state of being deeply understood and supported.",
           "vi": "Tôi và những người bạn đồng trang lứa thường chọn xem những bộ phim bom tấn mới nhất tại một trung tâm thương mại nhộn nhịp ở trung tâm bất cứ khi nào chúng tôi gặp nhau. Một phương pháp như vậy cho phép chúng tôi xả hơi hiệu quả, dẫn đến một trạng thái được thấu hiểu và hỗ trợ sâu sắc."
         }
-      ]
+      ],
+      "member": "Member A"
     },
     "q2": {
       "question": "Is it easier for young people to have friends?",
@@ -195,7 +202,8 @@ export const part3Data = {
           "en": "Youngsters undoubtedly find making friends simpler because of their a high degree of adaptability combined with abundant diverse extracurricular activities. However, given that overwhelming peer pressure exist, success in friendship ultimately requires consistent effort and sincerity.",
           "vi": "Những người trẻ tuổi chắc chắn thấy việc kết bạn đơn giản hơn vì mức độ thích nghi cao của họ kết hợp với các hoạt động ngoại khóa đa dạng phong phú. Tuy nhiên, do áp lực đồng trang lứa áp đảo tồn tại, thành công trong tình bạn cuối cùng đòi hỏi nỗ lực nhất quán và sự chân thành."
         }
-      ]
+      ],
+      "member": "Member B"
     },
     "q3": {
       "question": "It is much easier to make new friends these days because of computers and mobile phones. Do you agree? Why or why not?",
@@ -219,7 +227,8 @@ export const part3Data = {
           "en": "Without a doubt, advanced social media integration makes expanding social circles incredibly convenient. Modern devices offer unprecedented opportunities to find like-minded peers. Still, it is vital to acknowledge potential cyberbullying risks, which means establishing meaningful face-to-face conversations is necessary.",
           "vi": "Không có nghi ngờ gì, sự tích hợp phương tiện truyền thông xã hội tiên tiến làm cho việc mở rộng vòng tròn xã hội vô cùng thuận tiện. Các thiết bị hiện đại cung cấp cơ hội tìm kiếm những người bạn cùng chí hướng chưa từng có. Tuy nhiên, điều quan trọng là phải thừa nhận những rủi ro bắt nạt trên mạng tiềm ẩn, điều đó có nghĩa là thiết lập những cuộc trò chuyện trực tiếp có ý nghĩa là cần thiết."
         }
-      ]
+      ],
+      "member": "Member C"
     }
   },
   "Beautiful homes club": {
@@ -245,7 +254,8 @@ export const part3Data = {
           "en": "Fortunately, my neighbors and I have established an incredibly supportive bond over the years. By engaging in sharing homegrown vegetables and utilizing empathetic active listening, we constantly reinforce the necessity of a safety network in daily life.",
           "vi": "May mắn thay, tôi và hàng xóm đã thiết lập một sự gắn kết vô cùng hỗ trợ qua nhiều năm. Bằng cách tham gia vào việc chia sẻ rau trồng tại nhà và tận dụng sự lắng nghe tích cực và thấu cảm, chúng tôi liên tục củng cố sự cần thiết của một mạng lưới an toàn trong cuộc sống hàng ngày."
         }
-      ]
+      ],
+      "member": "Member A"
     },
     "q2": {
       "question": "Do you prefer living in old buildings or modern buildings? Why?",
@@ -269,7 +279,8 @@ export const part3Data = {
           "en": "If I had to choose, I would undoubtedly go for historic colonial-era houses. The property's intricate architectural details paired with a profound sense of history guarantees that I always experience an incredibly nostalgic atmosphere in my daily routine.",
           "vi": "Nếu tôi phải chọn, tôi chắc chắn sẽ chọn các ngôi nhà thời thuộc địa lịch sử. Các chi tiết kiến trúc phức tạp của tài sản kết hợp với một ý thức sâu sắc về lịch sử đảm bảo rằng tôi luôn trải nghiệm một bầu không khí vô cùng hoài niệm trong thói quen hàng ngày của tôi."
         }
-      ]
+      ],
+      "member": "Member B"
     },
     "q3": {
       "question": "The house should be designed in a way that is good for the environment. Do you agree?",
@@ -293,7 +304,8 @@ export const part3Data = {
           "en": "It is undeniable that this forward-thinking building philosophy is crucial nowadays. By prioritizing rainwater harvesting systems, we can achieve significant the conservation of natural resources and simultaneously experience beneficial long-term maintenance cost savings.",
           "vi": "Không thể phủ nhận rằng triết lý xây dựng có tư duy tiến bộ này là rất quan trọng ngày nay. Bằng cách ưu tiên hệ thống thu hoạch nước mưa, chúng ta có thể đạt được sự bảo tồn các nguồn tài nguyên thiên nhiên đáng kể và đồng thời trải nghiệm sự tiết kiệm chi phí bảo trì dài hạn có lợi."
         }
-      ]
+      ],
+      "member": "Member C"
     }
   },
   "Garden club": {
@@ -319,7 +331,8 @@ export const part3Data = {
           "en": "To garden indoors effectively, I strongly recommend adopting hanging window boxes for shade-tolerant flowering varieties. As long as you maintain adequate artificial grow lights, you are guaranteed to enjoy a refreshing indoor atmosphere.",
           "vi": "Để làm vườn trong nhà hiệu quả, tôi đặc biệt khuyên bạn nên áp dụng hộp treo bên cửa sổ cho các giống hoa chịu bóng râm. Miễn là bạn duy trì đèn trồng cây nhân tạo đầy đủ, bạn được đảm bảo sẽ tận hưởng một bầu không khí trong nhà sảng khoái."
         }
-      ]
+      ],
+      "member": "Member A"
     },
     "q2": {
       "question": "Do you think having a garden makes a house beautiful?",
@@ -343,7 +356,8 @@ export const part3Data = {
           "en": "Without a doubt, adding a yard represents an essential decorative element. Through softening harsh concrete structures, residents can obtain a profound sense of tranquility, thereby boosting the property's unique residential character.",
           "vi": "Không có nghi ngờ gì, việc thêm một sân đại diện cho một yếu tố trang trí thiết yếu. Thông qua việc làm mềm các cấu trúc bê tông cứng nhắc, cư dân có thể có được một ý thức sâu sắc về sự yên tĩnh, do đó thúc đẩy đặc điểm khu dân cư độc đáo của tài sản."
         }
-      ]
+      ],
+      "member": "Member B"
     },
     "q3": {
       "question": "What are the benefits of eating vegetables? Can you tell me your opinion on this?",
@@ -367,7 +381,8 @@ export const part3Data = {
           "en": "Vegetables are undeniable sources of crucial dietary fiber. Regularly consuming them drastically improves efficient metabolic rates as well as aids in the regulation of blood pressure, ultimately ensuring superior prolonged overall longevity.",
           "vi": "Rau là những nguồn không thể phủ nhận của chất xơ ăn kiêng quan trọng. Việc tiêu thụ chúng thường xuyên cải thiện đáng kể tốc độ trao đổi chất hiệu quả cũng như hỗ trợ sự điều hòa huyết áp, cuối cùng đảm bảo tuổi thọ tổng thể được kéo dài vượt trội."
         }
-      ]
+      ],
+      "member": "Member C"
     }
   },
   "Sports club": {
@@ -1162,7 +1177,8 @@ export const part3Data = {
           "en": "On the contrary, I always prefer booking the back seat as this specific spot allows me to effortlessly immerse in the sound. Moreover, treating myself to some savory snacks undeniably makes the screening session quite relaxing.",
           "vi": "Ngược lại, tôi luôn thích đặt ghế phía sau vì vị trí cụ thể này cho phép tôi dễ dàng đắm chìm trong âm thanh. Hơn nữa, tự thưởng cho mình một vài món ăn vặt mặn chắc chắn làm cho buổi chiếu phim khá thư giãn."
         }
-      ]
+      ],
+      "member": "Member A"
     },
     "q2": {
       "question": "I don’t like watching old black-and-white films. They’re boring. I prefer modern films. Which do you prefer, and why?",
@@ -1186,7 +1202,8 @@ export const part3Data = {
           "en": "To be honest, I share the exact same opinion. I tend to watch modern sci-fi movies since they reliably offer incredible sound design and simultaneously stimulate my imagination. That is why this particular genre makes me feel absolutely mesmerized.",
           "vi": "Thành thật mà nói, tôi chia sẻ quan điểm hoàn toàn giống nhau. Tôi có xu hướng xem phim khoa học viễn tưởng hiện đại vì chúng đáng tin cậy mang đến thiết kế âm thanh đáng kinh ngạc và đồng thời kích thích trí tưởng tượng của tôi. Đó là lý do tại sao thể loại cụ thể này khiến tôi cảm thấy hoàn toàn bị mê hoặc."
         }
-      ]
+      ],
+      "member": "Member B"
     },
     "q3": {
       "question": "Some people say we don’t need cinemas anymore. We can watch everything on TV or online at home. What do you think about this?",
@@ -1210,7 +1227,8 @@ export const part3Data = {
           "en": "Actually, I strongly oppose this idea since the physical theater environment manages to provide a superior sound system. In stark contrast, people who stay indoors lack the necessary technical equipment. As a result, it is clear that big cinemas must continue to thrive for years.",
           "vi": "Thực ra, tôi kịch liệt phản đối ý tưởng này vì môi trường rạp hát vật lý xoay sở để cung cấp một hệ thống âm thanh vượt trội. Hoàn toàn trái ngược, những người ở trong nhà thiếu các trang thiết bị kỹ thuật cần thiết. Kết quả là, rõ ràng là các rạp chiếu phim lớn phải tiếp tục phát triển mạnh trong nhiều năm."
         }
-      ]
+      ],
+      "member": "Member C"
     }
   },
   "Language club 2": {
@@ -1236,7 +1254,8 @@ export const part3Data = {
           "en": "A truly remarkable memory for me is related to the Spanish curriculum. Back then, I made a huge effort to join international debate clubs, and this eventually allowed me to expand my personal vocabulary. Today, recalling those challenging moments leaves me feeling deeply motivated to learn.",
           "vi": "Một kỷ niệm thực sự đáng chú ý đối với tôi có liên quan đến chương trình giảng dạy tiếng Tây Ban Nha. Hồi đó, tôi đã nỗ lực rất lớn để tham gia các câu lạc bộ tranh biện quốc tế, và điều này cuối cùng đã cho phép tôi mở rộng vốn từ vựng cá nhân của tôi. Hôm nay, nhớ lại những khoảnh khắc đầy thử thách đó khiến tôi cảm thấy được thúc đẩy học tập sâu sắc."
         }
-      ]
+      ],
+      "member": "Member A"
     },
     "q2": {
       "question": "Can you give me some tips on how to remember new words?",
@@ -1260,7 +1279,8 @@ export const part3Data = {
           "en": "I strongly recommend integrating mind mapping techniques into your studies since this approach will surely accelerate the learning process. Additionally, making sure to practice reading aloud regularly is going to guarantee that the final outcome is highly impressive over time.",
           "vi": "Tôi thực sự khuyên bạn nên tích hợp các kỹ thuật sơ đồ tư duy vào việc học của bạn vì phương pháp tiếp cận này chắc chắn sẽ đẩy nhanh quá trình học tập. Ngoài ra, việc đảm bảo thực hành đọc to một cách thường xuyên sẽ đảm bảo rằng kết quả cuối cùng là vô cùng ấn tượng theo thời gian."
         }
-      ]
+      ],
+      "member": "Member B"
     },
     "q3": {
       "question": "What is the most effective way to learn English?",
@@ -1284,7 +1304,8 @@ export const part3Data = {
           "en": "Personally, I believe prioritizing consistent communication practice is the ultimate key to help you overcome your speaking hesitation. Moreover, taking the extra time to watch engaging English shows consistently is undeniably an excellent method to master the complex syntax.",
           "vi": "Cá nhân tôi, tôi tin rằng việc ưu tiên việc thực hành giao tiếp nhất quán là chìa khóa tối thượng để giúp bạn vượt qua sự ngập ngừng khi nói của bạn. Hơn nữa, việc dành thêm thời gian để xem các chương trình tiếng Anh hấp dẫn một cách nhất quán chắc chắn là một phương pháp xuất sắc để nắm vững cú pháp phức tạp."
         }
-      ]
+      ],
+      "member": "Member C"
     }
   },
   "Travel club 2": {
@@ -1310,7 +1331,8 @@ export const part3Data = {
           "en": "Without a doubt, my most thrilling getaway was an incredible visit to a historic European city. I had the rare opportunity to hike along dangerous trails, allowing me to fully escape the stressful urban life. Looking back, I must say it was a truly magical experience.",
           "vi": "Không nghi ngờ gì nữa, kỳ nghỉ hồi hộp nhất của tôi là một chuyến thăm đáng kinh ngạc đến một thành phố châu Âu lịch sử. Tôi đã có cơ hội hiếm hoi để đi bộ đường dài dọc theo những con đường mòn nguy hiểm, cho phép tôi hoàn toàn thoát khỏi cuộc sống đô thị căng thẳng. Nhìn lại, tôi phải nói rằng đó là một trải nghiệm thực sự kỳ diệu."
         }
-      ]
+      ],
+      "member": "Member A"
     },
     "q2": {
       "question": "Can you remember the first time you went on a journey by yourself? What was it like?",
@@ -1334,7 +1356,8 @@ export const part3Data = {
           "en": "My very first independent trip actually happened right after high school, leading me to a quiet countryside town. Because I was forced to manage my tight budget by myself for the first time, the entire experience eventually left me feeling nervous but extremely excited.",
           "vi": "Chuyến đi độc lập đầu tiên của tôi thực sự đã xảy ra ngay sau khi tốt nghiệp trung học, dẫn tôi đến một thị trấn nông thôn yên tĩnh. Bởi vì tôi bị buộc phải quản lý ngân sách eo hẹp của tôi một mình lần đầu tiên, toàn bộ trải nghiệm cuối cùng đã khiến tôi cảm thấy lo lắng nhưng cực kỳ hào hứng."
         }
-      ]
+      ],
+      "member": "Member B"
     },
     "q3": {
       "question": "Some people like taking photos when they have vacation. Your opinion?",
@@ -1358,7 +1381,8 @@ export const part3Data = {
           "en": "From my perspective, documenting vacations through photography is a highly rewarding practice because it helps individuals to document their personal growth. Furthermore, having these visual records enables them to reflect on happy times, which continuously generates a deep sense of satisfaction for years to come.",
           "vi": "Từ góc độ của tôi, việc ghi lại các kỳ nghỉ thông qua nhiếp ảnh là một thực hành vô cùng bổ ích vì nó giúp các cá nhân ghi lại sự phát triển cá nhân của họ. Hơn nữa, việc có những hồ sơ hình ảnh này cho phép họ suy ngẫm về những khoảng thời gian hạnh phúc, điều này liên tục tạo ra một cảm giác thỏa mãn sâu sắc trong nhiều năm tới."
         }
-      ]
+      ],
+      "member": "Member C"
     }
   },
   "College club": {
@@ -1384,7 +1408,8 @@ export const part3Data = {
           "en": "At the moment, I am taking a comprehensive course in advanced software engineering. I deliberately selected this major because it allows me to secure a lucrative career, which is crucial to help me develop innovative technological solutions. Thus far, the learning curve has been a truly inspiring experience.",
           "vi": "Hiện tại, tôi đang học một khóa học toàn diện về công nghệ phần mềm tiên tiến. Tôi đã cố tình chọn chuyên ngành này vì nó cho phép tôi đảm bảo một sự nghiệp sinh lợi, điều này rất quan trọng để giúp tôi phát triển các giải pháp công nghệ đổi mới. Cho đến nay, quá trình học tập đã là một trải nghiệm thực sự truyền cảm hứng."
         }
-      ]
+      ],
+      "member": "Member A"
     },
     "q2": {
       "question": "Welcome! How do you feel about the college so far?",
@@ -1408,7 +1433,8 @@ export const part3Data = {
           "en": "From what I have seen, the overall atmosphere is absolutely phenomenal and welcoming. What stands out to me the most is how the institution manages to offer excellent extracurricular activities, effectively helping me to broaden my interpersonal connections. As a result, I currently feel deeply satisfied and confident.",
           "vi": "Từ những gì tôi đã thấy, bầu không khí tổng thể là hoàn toàn hiện tượng và chào đón. Điều nổi bật nhất đối với tôi là cách tổ chức xoay sở để mang đến các hoạt động ngoại khóa xuất sắc, giúp tôi mở rộng các kết nối giữa các cá nhân của tôi một cách hiệu quả. Kết quả là, hiện tại tôi cảm thấy thỏa mãn và tự tin sâu sắc."
         }
-      ]
+      ],
+      "member": "Member B"
     },
     "q3": {
       "question": "Did you hear that the college sports club has closed? What do you think about this?",
@@ -1432,7 +1458,8 @@ export const part3Data = {
           "en": "Hearing about this closure made me feel deeply saddened and disappointed. Considering that sports clubs usually foster strong team spirit, shutting them down is going to ruin the vibrant campus life across the entire campus. Hence, the college management should organize alternative fitness programs as soon as possible.",
           "vi": "Nghe về sự đóng cửa này khiến tôi cảm thấy vô cùng buồn bã và thất vọng. Xem xét rằng các câu lạc bộ thể thao thường nuôi dưỡng tinh thần đồng đội mạnh mẽ, việc đóng cửa chúng sẽ phá hỏng cuộc sống trong khuôn viên trường sôi động trên toàn bộ khuôn viên trường. Do đó, ban quản lý trường cao đẳng nên tổ chức các chương trình thể dục thay thế càng sớm càng tốt."
         }
-      ]
+      ],
+      "member": "Member C"
     }
   },
   "Movie club": {
@@ -1458,7 +1485,8 @@ export const part3Data = {
           "en": "My routine often involves watching fantastic films during lazy Sunday afternoons, mostly gathering around a massive local cinema. I frequently invite my best college friends to join me since doing so creates a perfect opportunity to discuss intriguing plot twists together.",
           "vi": "Thói quen của tôi thường liên quan đến việc xem những bộ phim tuyệt vời trong những buổi chiều Chủ nhật lười biếng, chủ yếu là tụ tập xung quanh một rạp chiếu phim địa phương khổng lồ. Tôi thường xuyên mời những người bạn đại học tốt nhất của tôi tham gia cùng tôi vì làm như vậy tạo ra một cơ hội hoàn hảo để thảo luận về những tình tiết cốt truyện hấp dẫn cùng nhau."
         }
-      ]
+      ],
+      "member": "Member A"
     },
     "q2": {
       "question": "I want to make movies for young children. Give me some suggestions?",
@@ -1482,7 +1510,8 @@ export const part3Data = {
           "en": "A brilliant idea is to produce captivating contents featuring talking animal friendship stories, accompanied by catchy and cheerful soundtracks. Such an approach is perfect to seamlessly integrate the importance of honesty into the storyline, helping to spark their boundless creativity as they grow up.",
           "vi": "Một ý tưởng xuất sắc là sản xuất các nội dung hấp dẫn có những câu chuyện tình bạn của động vật biết nói, kèm theo nhạc phim bắt tai và vui vẻ. Phương pháp tiếp cận như vậy là hoàn hảo để tích hợp một cách liền mạch tầm quan trọng của sự trung thực vào cốt truyện, giúp khơi dậy sự sáng tạo vô bờ bến của chúng khi chúng lớn lên."
         }
-      ]
+      ],
+      "member": "Member B"
     },
     "q3": {
       "question": "How do you think technology affects the way we watch movies in the future?",
@@ -1506,7 +1535,8 @@ export const part3Data = {
           "en": "I firmly believe that innovations like interactive holographic projection systems will drastically transform the industry. Given that audiences will soon be able to feel the characters' emotions from their couches, regular cinemas will have no choice but to upgrade their obsolete screening equipment in order to deliver an incredibly realistic storytelling environment.",
           "vi": "Tôi tin chắc rằng những đổi mới như các hệ thống trình chiếu ba chiều tương tác sẽ thay đổi mạnh mẽ ngành công nghiệp này. Do khán giả sẽ sớm có thể cảm nhận những cảm xúc của các nhân vật từ ghế sofa của họ, các rạp chiếu phim thông thường sẽ không có lựa chọn nào khác ngoài việc nâng cấp thiết bị chiếu phim lỗi thời của họ để mang lại một môi trường kể chuyện vô cùng chân thực."
         }
-      ]
+      ],
+      "member": "Member C"
     }
   },
   "Walking club": {
@@ -1917,7 +1947,8 @@ export const part3Data = {
           "en": "Whenever I am free, especially at my leisure time, enjoying upbeat pop songs is my priority. Consequently, this activity brings about profound mental clarity and evokes immense satisfaction for me.",
           "vi": "Bất cứ khi nào tôi rảnh rỗi, đặc biệt là vào thời gian rảnh rỗi của tôi, việc thưởng thức những bài hát pop sôi động là ưu tiên của tôi. Do đó, hoạt động này mang lại sự minh mẫn sâu sắc và gợi lên sự hài lòng tột độ cho tôi."
         }
-      ]
+      ],
+      "member": "Member A"
     },
     "q2": {
       "question": "I have a ten-year-old son and I want him to learn to play music, but he doesn’t want to. What can I do to change his mind?",
@@ -1941,7 +1972,8 @@ export const part3Data = {
           "en": "It is advisable to implement an engaging method for your child. Such an approach, including inspiring live concerts, can highlight a profound passion for art and guarantee a positive shift in mindset.",
           "vi": "Khuyên bạn nên thực hiện một phương pháp lôi cuốn cho con bạn. Cách tiếp cận như vậy, bao gồm những buổi hòa nhạc trực tiếp truyền cảm hứng, có thể làm nổi bật niềm đam mê nghệ thuật sâu sắc và đảm bảo sự thay đổi tích cực trong tư duy."
         }
-      ]
+      ],
+      "member": "Member B"
     },
     "q3": {
       "question": "So many countries and cultures have their own style of music. Why do you think music is such an important part of different cultures around the world?",
@@ -1965,7 +1997,8 @@ export const part3Data = {
           "en": "It is undeniable that music acts as a cultural bridge that connects unique artistic expressions. Through this medium, societies experience a mutual understanding and uphold national pride effectively.",
           "vi": "Không thể phủ nhận rằng âm nhạc hoạt động như một cầu nối văn hóa giúp kết nối những biểu hiện nghệ thuật độc đáo. Thông qua phương tiện này, các xã hội trải nghiệm sự thấu hiểu lẫn nhau và duy trì niềm tự hào dân tộc một cách hiệu quả."
         }
-      ]
+      ],
+      "member": "Member C"
     }
   },
   "Fashion club": {
@@ -1991,7 +2024,8 @@ export const part3Data = {
           "en": "I am strongly in favor of traditional brick-and-mortar shopping owing to a wider range of choices. Such a choice provides a hassle-free browsing process and consistently delivers a cost-effective purchase for my wardrobe.",
           "vi": "Tôi đặc biệt ủng hộ việc mua sắm tại cửa hàng truyền thống nhờ vào một phạm vi lựa chọn rộng hơn. Một sự lựa chọn như vậy cung cấp một quá trình duyệt web không rắc rối và liên tục mang lại một lần mua sắm tiết kiệm chi phí cho tủ quần áo của tôi."
         }
-      ]
+      ],
+      "member": "Member A"
     },
     "q2": {
       "question": "Hi! Why did you decide to join the club?",
@@ -2015,7 +2049,8 @@ export const part3Data = {
           "en": "Joining this community aligns perfectly with exploring innovative trends. Given that I maintain an optimistic outlook, it allows me to organize inspiring workshops and subsequently achieve a remarkable confidence boost.",
           "vi": "Việc tham gia cộng đồng này hoàn toàn phù hợp với việc khám phá những xu hướng đổi mới. Cho rằng tôi duy trì một cái nhìn lạc quan, điều này cho phép tôi tổ chức những buổi hội thảo truyền cảm hứng và sau đó đạt được sự tăng cường sự tự tin đáng kể."
         }
-      ]
+      ],
+      "member": "Member B"
     },
     "q3": {
       "question": "Why do people like fashion?",
@@ -2039,7 +2074,8 @@ export const part3Data = {
           "en": "People adore clothing styles because they function as a non-verbal communicator for establishing professional credibility. Such an outlet fosters profound aesthetic pleasure while simultaneously driving dynamic economic growth.",
           "vi": "Mọi người yêu thích các phong cách quần áo bởi vì chúng hoạt động như một công cụ giao tiếp phi ngôn ngữ cho việc thiết lập sự uy tín chuyên nghiệp. Một phương tiện như vậy nuôi dưỡng niềm vui thẩm mỹ sâu sắc đồng thời thúc đẩy sự tăng trưởng kinh tế năng động."
         }
-      ]
+      ],
+      "member": "Member C"
     }
   },
   "Cooking club": {
@@ -2065,7 +2101,8 @@ export const part3Data = {
           "en": "My decision was mainly driven by an intense curiosity about flavors. I am eager to hone precise knife handling, which will help me fulfill a deeper nutritional understanding alongside inspiring cooking demonstrations.",
           "vi": "Quyết định của tôi chủ yếu được thúc đẩy bởi một sự tò mò mãnh liệt về hương vị. Tôi háo hức muốn mài giũa việc sử dụng dao chính xác, điều này sẽ giúp tôi hoàn thành một sự hiểu biết sâu sắc hơn về dinh dưỡng cùng với những buổi trình diễn nấu ăn truyền cảm hứng."
         }
-      ]
+      ],
+      "member": "Member A"
     },
     "q2": {
       "question": "Hi! What do you think about the club’s price/ membership fee?",
@@ -2089,7 +2126,8 @@ export const part3Data = {
           "en": "I consider the financial requirement to be highly competitive given the modern kitchen facilities. This amount undeniably reflects the vibrant community atmosphere, and implementing a brief trial period would make it flawless.",
           "vi": "Tôi cho rằng yêu cầu tài chính có tính cạnh tranh cao do những cơ sở vật chất nhà bếp hiện đại. Số tiền này không thể phủ nhận phản ánh bầu không khí cộng đồng sôi động, và việc thực hiện một khoảng thời gian dùng thử ngắn sẽ làm cho nó hoàn hảo."
         }
-      ]
+      ],
+      "member": "Member B"
     },
     "q3": {
       "question": "How often do you go to the club?",
@@ -2113,7 +2151,8 @@ export const part3Data = {
           "en": "My attendance is every other Saturday morning, which allows me ample time for collaborative recipe testing. Considering a burning desire to improve, such consistency naturally yields a therapeutic escape from stress over time.",
           "vi": "Sự có mặt của tôi là mỗi sáng thứ Bảy cách tuần, điều này cho phép tôi có nhiều thời gian cho việc thử nghiệm công thức hợp tác. Xem xét một khát khao cháy bỏng muốn cải thiện, sự nhất quán như vậy tự nhiên mang lại một lối thoát giảm căng thẳng mang tính trị liệu theo thời gian."
         }
-      ]
+      ],
+      "member": "Member C"
     }
   },
   "Nature club": {
@@ -2139,7 +2178,8 @@ export const part3Data = {
           "en": "My absolute favorite destination is secluded mountainous regions owing to diverse indigenous wildlife. This magnificent setting provides an opportunity for immersive bird-watching sessions, consistently bringing about an overwhelming sense of wonder.",
           "vi": "Điểm đến yêu thích tuyệt đối của tôi là những vùng đồi núi hẻo lánh nhờ vào hệ động vật hoang dã bản địa đa dạng. Khung cảnh tráng lệ này cung cấp một cơ hội cho những buổi ngắm chim đắm chìm, liên tục mang lại một cảm giác kinh ngạc tột độ."
         }
-      ]
+      ],
+      "member": "Member A"
     },
     "q2": {
       "question": "Hi! Why did you decide to join the club?",
@@ -2163,7 +2203,8 @@ export const part3Data = {
           "en": "I became a member simply because of a deep-seated love for wildlife. It is my intention to pursue promoting sustainable living practices and actively participate in tree-planting drives, which invariably produces a thriving local ecosystem.",
           "vi": "Tôi đã trở thành một thành viên đơn giản vì một tình yêu sâu thẳm dành cho động vật hoang dã. Ý định của tôi là theo đuổi việc thúc đẩy những thói quen sống bền vững và tích cực tham gia vào những phong trào trồng cây, điều này luôn luôn tạo ra một hệ sinh thái địa phương phát triển mạnh."
         }
-      ]
+      ],
+      "member": "Member B"
     },
     "q3": {
       "question": "The bigger the club, the more environmentally conscious people are, right?",
@@ -2187,7 +2228,8 @@ export const part3Data = {
           "en": "Such a statement is largely an oversimplified assumption since collective awareness depends on consistent educational outreach. Without a doubt, individuals need to implement sustainable routines to successfully avoid a severe lack of accountability.",
           "vi": "Một phát biểu như vậy phần lớn là một giả định bị đơn giản hóa quá mức bởi vì nhận thức tập thể phụ thuộc vào sự tiếp cận giáo dục nhất quán. Không còn nghi ngờ gì nữa, các cá nhân cần phải thực hiện những thói quen bền vững để tránh thành công một sự thiếu hụt trách nhiệm nghiêm trọng."
         }
-      ]
+      ],
+      "member": "Member C"
     }
   },
   "English club 2": {
@@ -2213,7 +2255,8 @@ export const part3Data = {
           "en": "Initially, I experienced simple vocabulary flashcards and simultaneously faced complex listening comprehension barriers. By consistently utilizing rigorous daily self-study, I managed to secure a nuanced linguistic intuition over the years.",
           "vi": "Ban đầu, tôi trải nghiệm những thẻ từ vựng đơn giản và đồng thời đối mặt với những rào cản nghe hiểu phức tạp. Bằng cách nhất quán sử dụng việc tự học gắt gao hàng ngày, tôi đã xoay sở để có được một trực giác ngôn ngữ tinh tế qua những năm tháng."
         }
-      ]
+      ],
+      "member": "Member A"
     },
     "q2": {
       "question": "I can read and write, but I can't speak English. Do you have any advice for me?",
@@ -2237,7 +2280,8 @@ export const part3Data = {
           "en": "Since your situation is typically caused by an overwhelming fear of mistakes, you should strongly consider joining specialized conversational classes. Incorporating interactive role-playing scenarios into your routine will ultimately guarantee an effortlessly natural accent.",
           "vi": "Vì tình huống của bạn thường bị gây ra bởi một nỗi sợ hãi sai lầm tột độ, bạn nên xem xét mạnh mẽ việc tham gia các lớp đàm thoại chuyên biệt. Việc kết hợp những kịch bản nhập vai tương tác vào thói quen của bạn cuối cùng sẽ đảm bảo một giọng điệu tự nhiên không gượng ép."
         }
-      ]
+      ],
+      "member": "Member B"
     },
     "q3": {
       "question": "English is a popular language in the world. What are your thoughts on this opinion?",
@@ -2261,7 +2305,8 @@ export const part3Data = {
           "en": "I completely agree with this widely accepted norm as it offers individuals seamless cross-cultural communication. Given its widespread technological advancement integration, we can confidently anticipate a highly collaborative global society.",
           "vi": "Tôi hoàn toàn đồng ý với chuẩn mực được chấp nhận rộng rãi này vì nó mang lại cho các cá nhân sự giao tiếp xuyên văn hóa liền mạch. Cho rằng sự hội nhập tiến bộ công nghệ rộng rãi của nó, chúng ta có thể tự tin dự đoán một xã hội toàn cầu có tính cộng tác cao."
         }
-      ]
+      ],
+      "member": "Member C"
     }
   },
   "Debate club": {
