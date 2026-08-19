@@ -253,7 +253,7 @@ export const part3Data = {
       "vi": "Bạn thích sống ở những tòa nhà cũ hay tòa nhà hiện đại hơn? Tại sao?",
       "vocab": [
         "✨ [loại nhà yêu thích]: <strong>modern apartment buildings</strong> (các tòa nhà chung cư hiện đại), <strong>classic vintage houses</strong> (những ngôi nhà cổ điển kiểu xưa), <strong>contemporary smart homes</strong> (những ngôi nhà thông minh đương đại), <strong>traditional countryside cottages</strong> (những ngôi nhà tranh truyền thống ở vùng quê), <strong>newly built city flats</strong> (những căn hộ thành phố mới xây)",
-        "✨ [đặc điểm nổi bật]: <strong>high-speed elevators and good security</strong> (thang máy tốc độ cao và an ninh tốt), <strong>beautiful wooden doors and high ceilings</strong> (cửa gỗ đẹp và trần nhà cao), <strong>convenient smart home devices</strong> (các thiết bị nhà thông minh tiện lợi), <strong>peaceful green garden surroundings</strong> (khung cảnh vườn cây xanh yên bình), <strong>large windows with lots of sunlight</strong> (cửa sổ lớn với nhiều ánh sáng mặt trời)",
+        "✨ [đặc điểm nổi bật]: <strong>modern facilities</strong> (tiện nghi hiện đại), <strong>better living conditions</strong> (điều kiện sống tốt hơn), <strong>better safety and security</strong> (an toàn và an ninh tốt hơn), <strong>beautiful wooden doors and high ceilings</strong> (cửa gỗ đẹp và trần nhà cao), <strong>peaceful green garden surroundings</strong> (khung cảnh vườn cây xanh yên bình)",
         "✨ [cảm giác mang lại]: <strong>a very comfortable lifestyle</strong> (một lối sống rất thoải mái), <strong>a cozy and nostalgic feeling</strong> (một cảm giác ấm cúng và hoài niệm), <strong>a safe and convenient life</strong> (một cuộc sống an toàn và tiện lợi), <strong>a relaxing and peaceful atmosphere</strong> (một bầu không khí thư giãn và yên bình), <strong>an active and modern living space</strong> (một không gian sống năng động và hiện đại)"
       ],
       "templates": [
@@ -262,8 +262,8 @@ export const part3Data = {
       ],
       "samples": [
         {
-          "en": "Personally, I prefer living in modern apartment buildings because they offer high-speed elevators and good security. Living there gives me a very comfortable lifestyle, which makes my daily routine much easier and more enjoyable.",
-          "vi": "Cá nhân tôi thích sống trong các tòa nhà chung cư hiện đại vì chúng cung cấp thang máy tốc độ cao và an ninh tốt. Sống ở đó mang lại cho tôi một lối sống rất thoải mái, giúp thói quen hàng ngày của tôi dễ dàng và thú vị hơn nhiều."
+          "en": "Personally, I prefer living in modern apartment buildings because they offer modern facilities and better safety and security. Living there gives me a very comfortable lifestyle, which makes my daily routine much easier and more enjoyable.",
+          "vi": "Cá nhân tôi thích sống trong các tòa nhà chung cư hiện đại vì chúng cung cấp tiện nghi hiện đại cùng sự an toàn và an ninh tốt hơn. Sống ở đó mang lại cho tôi một lối sống rất thoải mái, giúp thói quen hàng ngày của tôi dễ dàng và thú vị hơn nhiều."
         },
         {
           "en": "If I had to choose, I would definitely pick classic vintage houses. I really love their beautiful wooden doors and high ceilings. Such a charming home brings a cozy and nostalgic feeling after a long working day.",
