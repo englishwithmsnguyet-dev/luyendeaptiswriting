@@ -1,26 +1,50 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { X, Download, Upload, Trash2, FileText, CheckCircle2, History, AlertTriangle } from 'lucide-react';
+import { X, Download, Upload, Trash2, FileText, CheckCircle2, History, AlertTriangle, RefreshCw, ListFilter } from 'lucide-react';
 import { exportToWord } from '../utils/exportToWord';
-import { exportBackupJSON, importBackupJSON, clearPartHistory, clearAllHistory } from '../utils/historyManager';
+import { exportBackupJSON, importBackupJSON, clearPartHistory, clearAllHistory, cleanDuplicateClubAnswers, clearClubHistory } from '../utils/historyManager';
 
 const HistoryModal = ({ isOpen, onClose }) => {
   const fileInputRef = useRef(null);
   const [stats, setStats] = useState({ p1: 0, p2: 0, p3: 0, totalAnswered: 0 });
   const [message, setMessage] = useState(null);
+  const [showClubList, setShowClubList] = useState(false);
+  const [savedClubs, setSavedClubs] = useState({ p1: [], p2: [], p3: [] });
 
   const loadStats = () => {
     let p1Count = 0;
     let p2Count = 0;
     let p3Count = 0;
+    const p1List = [];
+    const p2List = [];
+    const p3List = [];
 
     for (let i = 0; i < localStorage.length; i++) {
       const k = localStorage.key(i);
       if (k) {
-        if (k.startsWith('aptis_p1_answers_')) p1Count++;
-        else if (k.startsWith('aptis_p2_answer_')) p2Count++;
-        else if (k.startsWith('aptis_p3_answers_')) p3Count++;
+        if (k.startsWith('aptis_p1_answers_')) {
+          const clubName = k.replace('aptis_p1_answers_', '');
+          const savedAt = localStorage.getItem(`aptis_p1_saved_at_${clubName}`);
+          p1List.push({ clubName, savedAt });
+          p1Count++;
+        } else if (k.startsWith('aptis_p2_answer_')) {
+          const clubName = k.replace('aptis_p2_answer_', '');
+          const savedAt = localStorage.getItem(`aptis_p2_saved_at_${clubName}`);
+          p2List.push({ clubName, savedAt });
+          p2Count++;
+        } else if (k.startsWith('aptis_p3_answers_')) {
+          const clubName = k.replace('aptis_p3_answers_', '');
+          const savedAt = localStorage.getItem(`aptis_p3_saved_at_${clubName}`);
+          p3List.push({ clubName, savedAt });
+          p3Count++;
+        }
       }
     }
+
+    setSavedClubs({
+      p1: p1List.sort((a, b) => a.clubName.localeCompare(b.clubName)),
+      p2: p2List.sort((a, b) => a.clubName.localeCompare(b.clubName)),
+      p3: p3List.sort((a, b) => a.clubName.localeCompare(b.clubName))
+    });
 
     setStats({
       p1: p1Count,
@@ -47,6 +71,30 @@ const HistoryModal = ({ isOpen, onClose }) => {
   const handleExportJSON = () => {
     exportBackupJSON();
     setMessage({ type: 'success', text: 'Đã xuất file sao lưu (.json) bài làm thành công!' });
+  };
+
+  const handleCleanDuplicates = () => {
+    const cleaned = cleanDuplicateClubAnswers();
+    loadStats();
+    if (cleaned > 0) {
+      setMessage({
+        type: 'success',
+        text: `Đã dọn dẹp thành công ${cleaned} đề bị dính/sao chép đáp án từ đề khác! Giờ đây các CLB đã hoàn toàn độc lập và không còn bị lệch đáp án.`
+      });
+    } else {
+      setMessage({
+        type: 'success',
+        text: 'Hệ thống kiểm tra: Không phát hiện đề nào bị dính/sao chép trùng lặp đáp án!'
+      });
+    }
+  };
+
+  const handleDeleteSingleClub = (part, clubName) => {
+    if (window.confirm(`Bạn có chắc chắn muốn xoá bài làm của đề "${clubName}" (Part ${part}) không?`)) {
+      clearClubHistory(part, clubName);
+      loadStats();
+      setMessage({ type: 'warning', text: `Đã xoá bài làm của đề "${clubName}" (Part ${part})!` });
+    }
   };
 
   const handleFileChange = (e) => {
@@ -258,6 +306,129 @@ const HistoryModal = ({ isOpen, onClose }) => {
                 />
               </div>
             </div>
+          </div>
+
+          {/* Section: Khắc phục lỗi nhảy đáp án */}
+          <div style={{ marginBottom: '1.5rem', padding: '1rem', backgroundColor: '#fffbeb', borderRadius: 'var(--radius-md)', border: '1px solid #fde68a' }}>
+            <h4 style={{ fontSize: '0.95rem', color: '#92400e', marginBottom: '0.4rem', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
+              <RefreshCw size={16} />
+              Khắc phục bài làm bị dính / nhảy đề
+            </h4>
+            <p style={{ fontSize: '0.8rem', color: '#b45309', margin: '0 0 0.75rem 0', lineHeight: 1.4 }}>
+              Nếu bài làm của một CLB vô tình bị sao chép sang CLB khác khi xem đề, nhấn nút dưới đây để hệ thống tự động lọc và xoá các bản sao chép trùng lặp, trả lại đúng bài gốc cho từng CLB.
+            </p>
+            <button
+              type="button"
+              onClick={handleCleanDuplicates}
+              style={{
+                width: '100%',
+                padding: '0.6rem',
+                fontSize: '0.85rem',
+                backgroundColor: '#d97706',
+                color: 'white',
+                border: 'none',
+                borderRadius: 'var(--radius-md)',
+                cursor: 'pointer',
+                fontWeight: 600,
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                gap: '0.4rem'
+              }}
+            >
+              <RefreshCw size={16} />
+              Quét & Dọn dẹp đáp án bị sao chép nhầm
+            </button>
+          </div>
+
+          {/* Section: Danh sách CLB đã làm (Tuỳ chọn xem & xoá lẻ) */}
+          <div style={{ marginBottom: '1.5rem' }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.6rem' }}>
+              <h4 style={{ fontSize: '0.95rem', color: 'var(--primary)', margin: 0, fontWeight: 600, display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
+                <ListFilter size={16} />
+                Danh sách đề đã lưu bài làm ({stats.totalAnswered})
+              </h4>
+              <button
+                type="button"
+                onClick={() => setShowClubList(!showClubList)}
+                style={{
+                  background: 'none',
+                  border: 'none',
+                  color: '#2563eb',
+                  fontSize: '0.8rem',
+                  fontWeight: 600,
+                  cursor: 'pointer',
+                  padding: 0
+                }}
+              >
+                {showClubList ? 'Thu gọn ▲' : 'Xem chi tiết ▼'}
+              </button>
+            </div>
+
+            {showClubList && (
+              <div style={{ maxHeight: '200px', overflowY: 'auto', border: '1px solid var(--border-color)', borderRadius: 'var(--radius-md)', padding: '0.5rem', backgroundColor: 'var(--bg-main)' }}>
+                {stats.totalAnswered === 0 ? (
+                  <div style={{ fontSize: '0.8rem', color: 'var(--text-muted)', textAlign: 'center', padding: '0.5rem' }}>Chưa có bài làm nào được lưu.</div>
+                ) : (
+                  <div>
+                    {savedClubs.p3.length > 0 && (
+                      <div style={{ marginBottom: '0.5rem' }}>
+                        <div style={{ fontSize: '0.75rem', fontWeight: 700, color: '#a21caf', marginBottom: '0.25rem' }}>Part 3 ({savedClubs.p3.length} đề):</div>
+                        {savedClubs.p3.map(item => (
+                          <div key={item.clubName} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '0.3rem 0.5rem', fontSize: '0.8rem', backgroundColor: 'white', borderRadius: '4px', marginBottom: '0.25rem' }}>
+                            <span>{item.clubName} {item.savedAt && <span style={{ fontSize: '0.7rem', color: 'var(--text-muted)' }}>({item.savedAt})</span>}</span>
+                            <button
+                              type="button"
+                              onClick={() => handleDeleteSingleClub(3, item.clubName)}
+                              title="Xoá bài làm của đề này"
+                              style={{ background: 'none', border: 'none', color: '#ef4444', cursor: 'pointer', padding: '0.1rem 0.3rem' }}
+                            >
+                              <Trash2 size={14} />
+                            </button>
+                          </div>
+                        ))}
+                      </div>
+                    )}
+                    {savedClubs.p2.length > 0 && (
+                      <div style={{ marginBottom: '0.5rem' }}>
+                        <div style={{ fontSize: '0.75rem', fontWeight: 700, color: '#2563eb', marginBottom: '0.25rem' }}>Part 2 ({savedClubs.p2.length} đề):</div>
+                        {savedClubs.p2.map(item => (
+                          <div key={item.clubName} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '0.3rem 0.5rem', fontSize: '0.8rem', backgroundColor: 'white', borderRadius: '4px', marginBottom: '0.25rem' }}>
+                            <span>{item.clubName} {item.savedAt && <span style={{ fontSize: '0.7rem', color: 'var(--text-muted)' }}>({item.savedAt})</span>}</span>
+                            <button
+                              type="button"
+                              onClick={() => handleDeleteSingleClub(2, item.clubName)}
+                              title="Xoá bài làm của đề này"
+                              style={{ background: 'none', border: 'none', color: '#ef4444', cursor: 'pointer', padding: '0.1rem 0.3rem' }}
+                            >
+                              <Trash2 size={14} />
+                            </button>
+                          </div>
+                        ))}
+                      </div>
+                    )}
+                    {savedClubs.p1.length > 0 && (
+                      <div>
+                        <div style={{ fontSize: '0.75rem', fontWeight: 700, color: '#15803d', marginBottom: '0.25rem' }}>Part 1 ({savedClubs.p1.length} đề):</div>
+                        {savedClubs.p1.map(item => (
+                          <div key={item.clubName} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '0.3rem 0.5rem', fontSize: '0.8rem', backgroundColor: 'white', borderRadius: '4px', marginBottom: '0.25rem' }}>
+                            <span>{item.clubName} {item.savedAt && <span style={{ fontSize: '0.7rem', color: 'var(--text-muted)' }}>({item.savedAt})</span>}</span>
+                            <button
+                              type="button"
+                              onClick={() => handleDeleteSingleClub(1, item.clubName)}
+                              title="Xoá bài làm của đề này"
+                              style={{ background: 'none', border: 'none', color: '#ef4444', cursor: 'pointer', padding: '0.1rem 0.3rem' }}
+                            >
+                              <Trash2 size={14} />
+                            </button>
+                          </div>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                )}
+              </div>
+            )}
           </div>
 
           {/* Section: Xoá lịch sử */}

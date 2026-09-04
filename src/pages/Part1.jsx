@@ -41,13 +41,21 @@ const Part1 = () => {
     setLastSavedTime(getClubSavedTime(1, selectedClub));
 
     if (savedAnswers) {
-      setAnswers(JSON.parse(savedAnswers));
+      try {
+        setAnswers(JSON.parse(savedAnswers));
+      } catch {
+        setAnswers(newQuestions.reduce((acc, q) => ({ ...acc, [q.id]: '' }), {}));
+      }
     } else {
       setAnswers(newQuestions.reduce((acc, q) => ({ ...acc, [q.id]: '' }), {}));
     }
 
     if (savedGrades) {
-      setGradingResults(JSON.parse(savedGrades));
+      try {
+        setGradingResults(JSON.parse(savedGrades));
+      } catch {
+        setGradingResults({});
+      }
     } else {
       setGradingResults({}); // Clear previous results
     }
@@ -55,50 +63,24 @@ const Part1 = () => {
     setShowTranslation({});
   }, [selectedClub]);
 
-  // Auto save answers
-  useEffect(() => {
-    if (Object.keys(answers).length > 0) {
-      localStorage.setItem(`aptis_p1_answers_${selectedClub}`, JSON.stringify(answers));
-    }
-  }, [answers, selectedClub]);
-
-  // Auto save grades & update completion
-  useEffect(() => {
-    localStorage.setItem(`aptis_p1_grades_${selectedClub}`, JSON.stringify(gradingResults));
-
-    const qIds = clubsData[selectedClub]?.map(q => q.id) || [];
-    if (qIds.length > 0) {
-      const allSuccess = qIds.every(id => gradingResults[id] && gradingResults[id].status === 'success');
-      
-      const completed = JSON.parse(localStorage.getItem('aptis_p1_completed') || '[]');
-      let changed = false;
-      
-      if (allSuccess && !completed.includes(selectedClub)) {
-        completed.push(selectedClub);
-        changed = true;
-      } else if (!allSuccess && completed.includes(selectedClub)) {
-        const idx = completed.indexOf(selectedClub);
-        completed.splice(idx, 1);
-        changed = true;
-      }
-      
-      if (changed) {
-        localStorage.setItem('aptis_p1_completed', JSON.stringify(completed));
-        window.dispatchEvent(new Event('progressUpdate'));
-      }
-    }
-  }, [gradingResults, selectedClub]);
-
   const toggleTranslation = (qId) => {
     setShowTranslation(prev => ({ ...prev, [qId]: !prev[qId] }));
   };
 
   const handleTextChange = (id, value) => {
-    setAnswers(prev => ({ ...prev, [id]: value }));
+    const updated = { ...answers, [id]: value };
+    setAnswers(updated);
+    if (Object.values(updated).some(val => val && val.trim() !== '')) {
+      localStorage.setItem(`aptis_p1_answers_${selectedClub}`, JSON.stringify(updated));
+    } else {
+      localStorage.removeItem(`aptis_p1_answers_${selectedClub}`);
+    }
+
     setGradingResults(prev => {
       if (!prev[id]) return prev;
       const newResults = { ...prev };
       delete newResults[id];
+      localStorage.setItem(`aptis_p1_grades_${selectedClub}`, JSON.stringify(newResults));
       return newResults;
     });
   };
@@ -202,16 +184,50 @@ const Part1 = () => {
       status = 'success';
     }
 
-    setGradingResults(prev => ({
-      ...prev,
-      [qId]: { score, feedback, status }
-    }));
+    setGradingResults(prev => {
+      const newResults = {
+        ...prev,
+        [qId]: { score, feedback, status }
+      };
+      localStorage.setItem(`aptis_p1_grades_${selectedClub}`, JSON.stringify(newResults));
+
+      const qIds = clubsData[selectedClub]?.map(q => q.id) || [];
+      if (qIds.length > 0) {
+        const allSuccess = qIds.every(id => newResults[id] && newResults[id].status === 'success');
+        const completed = JSON.parse(localStorage.getItem('aptis_p1_completed') || '[]');
+        let changed = false;
+        
+        if (allSuccess && !completed.includes(selectedClub)) {
+          completed.push(selectedClub);
+          changed = true;
+        } else if (!allSuccess && completed.includes(selectedClub)) {
+          const idx = completed.indexOf(selectedClub);
+          completed.splice(idx, 1);
+          changed = true;
+        }
+        
+        if (changed) {
+          localStorage.setItem('aptis_p1_completed', JSON.stringify(completed));
+          window.dispatchEvent(new Event('progressUpdate'));
+        }
+      }
+
+      return newResults;
+    });
   };
 
   const clearSingleGrade = (qId) => {
     setGradingResults(prev => {
       const newResults = { ...prev };
       delete newResults[qId];
+      localStorage.setItem(`aptis_p1_grades_${selectedClub}`, JSON.stringify(newResults));
+
+      const completed = JSON.parse(localStorage.getItem('aptis_p1_completed') || '[]');
+      if (completed.includes(selectedClub)) {
+        const next = completed.filter(c => c !== selectedClub);
+        localStorage.setItem('aptis_p1_completed', JSON.stringify(next));
+        window.dispatchEvent(new Event('progressUpdate'));
+      }
       return newResults;
     });
   };

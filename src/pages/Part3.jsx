@@ -62,59 +62,36 @@ const Part3 = () => {
     setLastSavedTime(getClubSavedTime(3, selectedClub));
 
     if (savedAnswers) {
-      setAnswers(JSON.parse(savedAnswers));
+      try {
+        setAnswers(JSON.parse(savedAnswers));
+      } catch {
+        setAnswers({ q1: '', q2: '', q3: '' });
+      }
     } else {
       setAnswers({ q1: '', q2: '', q3: '' });
     }
 
     if (savedGrades) {
-      setGradingResults(JSON.parse(savedGrades));
+      try {
+        const parsedGrades = JSON.parse(savedGrades);
+        setGradingResults(parsedGrades);
+        if (parsedGrades && parsedGrades.q1 && parsedGrades.q2 && parsedGrades.q3) {
+          setTotalScore(parsedGrades.q1.score + parsedGrades.q2.score + parsedGrades.q3.score);
+        } else {
+          setTotalScore(null);
+        }
+      } catch {
+        setGradingResults({ q1: null, q2: null, q3: null });
+        setTotalScore(null);
+      }
     } else {
       setGradingResults({ q1: null, q2: null, q3: null });
+      setTotalScore(null);
     }
 
     setShowTemplate({ q1: false, q2: false, q3: false });
     setShowTranslation({ q1: false, q2: false, q3: false });
-    setTotalScore(null);
   }, [selectedClub]);
-
-  // Auto save answers
-  useEffect(() => {
-    if (Object.values(answers).some(val => val !== '')) {
-      localStorage.setItem(`aptis_p3_answers_${selectedClub}`, JSON.stringify(answers));
-    }
-  }, [answers, selectedClub]);
-
-  // Auto save grades & update completion
-  useEffect(() => {
-    const hasAnyGrade = Object.values(gradingResults).some(val => val !== null);
-    if (hasAnyGrade) {
-      localStorage.setItem(`aptis_p3_grades_${selectedClub}`, JSON.stringify(gradingResults));
-    } else {
-      localStorage.removeItem(`aptis_p3_grades_${selectedClub}`);
-    }
-
-    const allSuccess = ['q1', 'q2', 'q3'].every(
-      key => gradingResults[key] && gradingResults[key].status === 'success'
-    );
-    
-    const completed = JSON.parse(localStorage.getItem('aptis_p3_completed') || '[]');
-    let changed = false;
-
-    if (allSuccess && !completed.includes(selectedClub)) {
-      completed.push(selectedClub);
-      changed = true;
-    } else if (!allSuccess && completed.includes(selectedClub)) {
-      const idx = completed.indexOf(selectedClub);
-      completed.splice(idx, 1);
-      changed = true;
-    }
-
-    if (changed) {
-      localStorage.setItem('aptis_p3_completed', JSON.stringify(completed));
-      window.dispatchEvent(new Event('progressUpdate'));
-    }
-  }, [gradingResults, selectedClub]);
 
   const getWordCount = (text) => {
     if (!text || !text.trim()) return 0;
@@ -122,13 +99,24 @@ const Part3 = () => {
   };
 
   const handleAnswerChange = (qKey, value) => {
-    setAnswers(prev => ({ ...prev, [qKey]: value }));
+    const updated = { ...answers, [qKey]: value };
+    setAnswers(updated);
+
+    // Lưu trực tiếp đúng CLB hiện tại khi học viên gõ, không lưu chéo khi chuyển CLB
+    if (Object.values(updated).some(val => val && val.trim() !== '')) {
+      localStorage.setItem(`aptis_p3_answers_${selectedClub}`, JSON.stringify(updated));
+    } else {
+      localStorage.removeItem(`aptis_p3_answers_${selectedClub}`);
+    }
+
     setGradingResults(prev => {
       if (!prev[qKey]) return prev;
       const newResults = { ...prev };
       delete newResults[qKey];
+      localStorage.setItem(`aptis_p3_grades_${selectedClub}`, JSON.stringify(newResults));
       return newResults;
     });
+    setTotalScore(null);
   };
 
   const toggleTranslation = (qKey) => {
@@ -254,6 +242,30 @@ const Part3 = () => {
       if (newResults.q1 && newResults.q2 && newResults.q3) {
         setTotalScore(newResults.q1.score + newResults.q2.score + newResults.q3.score);
       }
+
+      localStorage.setItem(`aptis_p3_grades_${selectedClub}`, JSON.stringify(newResults));
+
+      const allSuccess = ['q1', 'q2', 'q3'].every(
+        key => newResults[key] && newResults[key].status === 'success'
+      );
+      
+      const completed = JSON.parse(localStorage.getItem('aptis_p3_completed') || '[]');
+      let changed = false;
+
+      if (allSuccess && !completed.includes(selectedClub)) {
+        completed.push(selectedClub);
+        changed = true;
+      } else if (!allSuccess && completed.includes(selectedClub)) {
+        const idx = completed.indexOf(selectedClub);
+        completed.splice(idx, 1);
+        changed = true;
+      }
+
+      if (changed) {
+        localStorage.setItem('aptis_p3_completed', JSON.stringify(completed));
+        window.dispatchEvent(new Event('progressUpdate'));
+      }
+
       return newResults;
     });
     setIsGrading(prev => ({ ...prev, [qKey]: false }));
@@ -262,6 +274,13 @@ const Part3 = () => {
   const clearGrade = () => {
     setGradingResults({ q1: null, q2: null, q3: null });
     setTotalScore(null);
+    localStorage.removeItem(`aptis_p3_grades_${selectedClub}`);
+    const completed = JSON.parse(localStorage.getItem('aptis_p3_completed') || '[]');
+    if (completed.includes(selectedClub)) {
+      const next = completed.filter(c => c !== selectedClub);
+      localStorage.setItem('aptis_p3_completed', JSON.stringify(next));
+      window.dispatchEvent(new Event('progressUpdate'));
+    }
   };
 
   const handleManualSave = () => {

@@ -125,3 +125,82 @@ export const importBackupJSON = (jsonString) => {
     return { success: false, error: err.message };
   }
 };
+
+export const cleanDuplicateClubAnswers = () => {
+  let cleanedCount = 0;
+  
+  // Part 1
+  const p1Map = new Map();
+  for (let i = 0; i < localStorage.length; i++) {
+    const k = localStorage.key(i);
+    if (k && k.startsWith('aptis_p1_answers_')) {
+      const clubName = k.replace('aptis_p1_answers_', '');
+      const raw = localStorage.getItem(k);
+      if (raw) {
+        if (p1Map.has(raw)) {
+          localStorage.removeItem(`aptis_p1_answers_${clubName}`);
+          localStorage.removeItem(`aptis_p1_grades_${clubName}`);
+          localStorage.removeItem(`aptis_p1_saved_at_${clubName}`);
+          const comp = JSON.parse(localStorage.getItem('aptis_p1_completed') || '[]');
+          localStorage.setItem('aptis_p1_completed', JSON.stringify(comp.filter(c => c !== clubName)));
+          cleanedCount++;
+        } else {
+          p1Map.set(raw, clubName);
+        }
+      }
+    }
+  }
+
+  // Part 2
+  const p2Map = new Map();
+  for (let i = 0; i < localStorage.length; i++) {
+    const k = localStorage.key(i);
+    if (k && k.startsWith('aptis_p2_answer_')) {
+      const clubName = k.replace('aptis_p2_answer_', '');
+      const raw = (localStorage.getItem(k) || '').trim();
+      if (raw.length > 5) {
+        if (p2Map.has(raw)) {
+          localStorage.removeItem(`aptis_p2_answer_${clubName}`);
+          localStorage.removeItem(`aptis_p2_grade_${clubName}`);
+          localStorage.removeItem(`aptis_p2_saved_at_${clubName}`);
+          const comp = JSON.parse(localStorage.getItem('aptis_p2_completed') || '[]');
+          localStorage.setItem('aptis_p2_completed', JSON.stringify(comp.filter(c => c !== clubName)));
+          cleanedCount++;
+        } else {
+          p2Map.set(raw, clubName);
+        }
+      }
+    }
+  }
+
+  // Part 3
+  const p3Map = new Map();
+  for (let i = 0; i < localStorage.length; i++) {
+    const k = localStorage.key(i);
+    if (k && k.startsWith('aptis_p3_answers_')) {
+      const clubName = k.replace('aptis_p3_answers_', '');
+      const raw = localStorage.getItem(k);
+      if (raw) {
+        try {
+          const parsed = JSON.parse(raw);
+          const contentStr = ((parsed.q1 || '') + '|' + (parsed.q2 || '') + '|' + (parsed.q3 || '')).trim();
+          if (contentStr !== '||' && contentStr.length > 10) {
+            if (p3Map.has(contentStr)) {
+              localStorage.removeItem(`aptis_p3_answers_${clubName}`);
+              localStorage.removeItem(`aptis_p3_grades_${clubName}`);
+              localStorage.removeItem(`aptis_p3_saved_at_${clubName}`);
+              const comp = JSON.parse(localStorage.getItem('aptis_p3_completed') || '[]');
+              localStorage.setItem('aptis_p3_completed', JSON.stringify(comp.filter(c => c !== clubName)));
+              cleanedCount++;
+            } else {
+              p3Map.set(contentStr, clubName);
+            }
+          }
+        } catch(e) {}
+      }
+    }
+  }
+
+  window.dispatchEvent(new Event('progressUpdate'));
+  return cleanedCount;
+};

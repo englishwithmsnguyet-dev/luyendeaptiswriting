@@ -70,7 +70,11 @@ const Part2 = () => {
     }
 
     if (savedGrade) {
-      setGradingResult(JSON.parse(savedGrade));
+      try {
+        setGradingResult(JSON.parse(savedGrade));
+      } catch {
+        setGradingResult(null);
+      }
     } else {
       setGradingResult(null);
     }
@@ -79,42 +83,18 @@ const Part2 = () => {
     setShowTemplate(false);
   }, [selectedClub]);
 
-  // Auto save answers
-  useEffect(() => {
-    if (answer !== '') {
-      localStorage.setItem(`aptis_p2_answer_${selectedClub}`, answer);
-    }
-  }, [answer, selectedClub]);
-
-  // Auto save grades & update completion
-  useEffect(() => {
-    if (gradingResult) {
-      localStorage.setItem(`aptis_p2_grade_${selectedClub}`, JSON.stringify(gradingResult));
+  const handleAnswerChange = (val) => {
+    setAnswer(val);
+    if (val && val.trim() !== '') {
+      localStorage.setItem(`aptis_p2_answer_${selectedClub}`, val);
     } else {
+      localStorage.removeItem(`aptis_p2_answer_${selectedClub}`);
+    }
+    if (gradingResult) {
+      setGradingResult(null);
       localStorage.removeItem(`aptis_p2_grade_${selectedClub}`);
     }
-
-    const completed = JSON.parse(localStorage.getItem('aptis_p2_completed') || '[]');
-    let changed = false;
-
-    if (gradingResult && gradingResult.status === 'success') {
-      if (!completed.includes(selectedClub)) {
-        completed.push(selectedClub);
-        changed = true;
-      }
-    } else {
-      if (completed.includes(selectedClub)) {
-        const idx = completed.indexOf(selectedClub);
-        completed.splice(idx, 1);
-        changed = true;
-      }
-    }
-
-    if (changed) {
-      localStorage.setItem('aptis_p2_completed', JSON.stringify(completed));
-      window.dispatchEvent(new Event('progressUpdate'));
-    }
-  }, [gradingResult, selectedClub]);
+  };
 
   const getWordCount = (text) => {
     if (!text || !text.trim()) return 0;
@@ -290,11 +270,41 @@ const Part2 = () => {
       status = 'success';
     }
     
-    setGradingResult({ score, feedback, status });
+    const resObj = { score, feedback, status };
+    setGradingResult(resObj);
+    localStorage.setItem(`aptis_p2_grade_${selectedClub}`, JSON.stringify(resObj));
+
+    const completed = JSON.parse(localStorage.getItem('aptis_p2_completed') || '[]');
+    let changed = false;
+
+    if (status === 'success') {
+      if (!completed.includes(selectedClub)) {
+        completed.push(selectedClub);
+        changed = true;
+      }
+    } else {
+      if (completed.includes(selectedClub)) {
+        const idx = completed.indexOf(selectedClub);
+        completed.splice(idx, 1);
+        changed = true;
+      }
+    }
+
+    if (changed) {
+      localStorage.setItem('aptis_p2_completed', JSON.stringify(completed));
+      window.dispatchEvent(new Event('progressUpdate'));
+    }
   };
 
   const clearGrade = () => {
     setGradingResult(null);
+    localStorage.removeItem(`aptis_p2_grade_${selectedClub}`);
+    const completed = JSON.parse(localStorage.getItem('aptis_p2_completed') || '[]');
+    if (completed.includes(selectedClub)) {
+      const next = completed.filter(c => c !== selectedClub);
+      localStorage.setItem('aptis_p2_completed', JSON.stringify(next));
+      window.dispatchEvent(new Event('progressUpdate'));
+    }
   };
 
   const handleManualSave = () => {
@@ -495,10 +505,7 @@ const Part2 = () => {
               style={{ minHeight: '150px', resize: 'vertical' }}
               placeholder="Start writing your answer here..."
               value={answer}
-              onChange={(e) => {
-                setAnswer(e.target.value);
-                if (gradingResult) setGradingResult(null);
-              }}
+              onChange={(e) => handleAnswerChange(e.target.value)}
             />
             
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: '0.5rem' }}>
