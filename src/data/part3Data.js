@@ -2265,8 +2265,8 @@ export const part3Data = {
       "question": "There are many ways to follow the news nowadays. How do you learn about world issues?",
       "vi": "Hiện nay có rất nhiều cách để theo dõi tin tức. Bạn tìm hiểu về các vấn đề thế giới như thế nào?",
       "vocab": [
-        "✨ [phương tiện]: <strong>reading online news apps</strong> (đọc các ứng dụng tin tức trực tuyến), <strong>watching international news channels</strong> (xem các kênh tin tức quốc tế), <strong>listening to daily podcasts</strong> (nghe các podcast hàng ngày), <strong>following reliable social media pages</strong> (theo dõi các trang mạng xã hội uy tín), <strong>browsing popular news websites</strong> (lướt các trang web tin tức phổ biến)",
-        "✨ [tần suất]: <strong>in my free time</strong> (vào thời gian rảnh của tôi), <strong>every morning before work</strong> (mỗi sáng trước khi đi làm), <strong>during my lunch break</strong> (trong giờ nghỉ trưa của tôi), <strong>on a daily basis</strong> (hàng ngày), <strong>whenever I have spare time</strong> (bất cứ khi nào tôi có thời gian rảnh)",
+        "✨ [phương tiện]: <strong>reading online news apps</strong> (đọc các ứng dụng tin tức trực tuyến), <strong>watching the news on TV</strong> (xem thời sự trên TV), <strong>watching international news channels</strong> (xem các kênh tin tức quốc tế), <strong>listening to daily podcasts</strong> (nghe các podcast hàng ngày), <strong>following reliable social media pages</strong> (theo dõi các trang mạng xã hội uy tín), <strong>browsing popular news websites</strong> (lướt các trang web tin tức phổ biến)",
+        "✨ [tần suất]: <strong>in my free time</strong> (vào thời gian rảnh của tôi), <strong>every evening with my family</strong> (mỗi tối cùng gia đình), <strong>every morning before work</strong> (mỗi sáng trước khi đi làm), <strong>during my lunch break</strong> (trong giờ nghỉ trưa của tôi), <strong>on a daily basis</strong> (hàng ngày), <strong>whenever I have spare time</strong> (bất cứ khi nào tôi có thời gian rảnh)",
         "✨ [lý do]: <strong>provides quick and accurate updates</strong> (cung cấp các cập nhật nhanh chóng và chính xác), <strong>offers diverse viewpoints on topics</strong> (mang đến các góc nhìn đa dạng về các chủ đề), <strong>delivers clear and short summaries</strong> (cung cấp các bản tóm tắt rõ ràng và ngắn gọn), <strong>shares real-time breaking news</strong> (chia sẻ tin tức nóng hổi theo thời gian thực), <strong>features interesting video reports</strong> (có các phóng sự video thú vị)",
         "✨ [lợi ích]: <strong>broaden my general knowledge</strong> (mở rộng kiến thức chung của tôi), <strong>stay updated on global events</strong> (cập nhật các sự kiện toàn cầu), <strong>understand international situations better</strong> (hiểu rõ hơn về các tình hình quốc tế), <strong>improve my analytical thinking</strong> (cải thiện tư duy phân tích của tôi), <strong>learn more about different cultures</strong> (tìm hiểu thêm về các nền văn hóa khác nhau)"
       ],
@@ -2282,6 +2282,10 @@ export const part3Data = {
         {
           "en": "In my opinion, watching international news channels is the best way to update news during my lunch break. I like this method because it offers diverse viewpoints on topics, and it definitely helps me stay updated on global events easily.",
           "vi": "Theo ý kiến của tôi, xem các kênh tin tức quốc tế là cách tốt nhất để cập nhật tin tức trong giờ nghỉ trưa của tôi. Tôi thích phương pháp này vì nó mang đến các góc nhìn đa dạng về các chủ đề, và nó chắc chắn giúp tôi cập nhật các sự kiện toàn cầu một cách dễ dàng."
+        },
+        {
+          "en": "To be honest, I usually prefer watching the news on TV every evening with my family to follow world issues. It is really convenient because it provides quick and accurate updates, which helps me stay updated on global events every day.",
+          "vi": "Thành thật mà nói, tôi thường thích xem thời sự trên TV mỗi tối cùng gia đình để theo dõi các vấn đề thế giới. Nó thực sự tiện lợi vì nó cung cấp các cập nhật nhanh chóng và chính xác, điều này giúp tôi cập nhật các sự kiện toàn cầu mỗi ngày."
         }
       ]
     },
