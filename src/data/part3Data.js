@@ -3476,5 +3476,82 @@ export const part3Data = {
       ],
       "member": "Member C"
     }
+  },
+  "Computer club 2": {
+    "q1": {
+      "question": "Tell me about the last time you used a computer to do something?",
+      "vi": "Hãy kể cho tôi về lần gần đây nhất bạn sử dụng máy tính để làm một việc gì đó?",
+      "vocab": [
+        "✨ [thời gian / dịp]: <strong>yesterday afternoon</strong> (chiều hôm qua), <strong>last night at home</strong> (tối qua ở nhà), <strong>this morning before work</strong> (sáng nay trước khi đi làm), <strong>over the weekend</strong> (vào cuối tuần qua), <strong>a few days ago</strong> (vài ngày trước)",
+        "✨ [mục đích / hoạt động]: <strong>finish an important work report</strong> (hoàn thành một báo cáo công việc quan trọng), <strong>prepare a slide presentation for my class</strong> (chuẩn bị một bài thuyết trình cho lớp học của tôi), <strong>search for academic research materials</strong> (tìm kiếm tài liệu nghiên cứu học thuật), <strong>edit photos and design a poster</strong> (chỉnh sửa ảnh và thiết kế áp phích), <strong>attend an urgent online meeting</strong> (tham dự một cuộc họp trực tuyến khẩn cấp)",
+        "✨ [quá trình / chi tiết]: <strong>spent nearly two hours typing and editing</strong> (đã dành gần hai giờ gõ và chỉnh sửa), <strong>used specialized software to analyze data</strong> (đã sử dụng phần mềm chuyên dụng để phân tích dữ liệu), <strong>carefully reviewed every detail on the screen</strong> (đã cẩn thận xem lại từng chi tiết trên màn hình), <strong>collaborated smoothly with my colleagues online</strong> (đã cộng tác suôn sẻ với các đồng nghiệp trực tuyến), <strong>focused completely without any distractions</strong> (đã hoàn toàn tập trung mà không bị phân tâm)",
+        "✨ [kết quả / cảm nhận]: <strong>managed to submit it right on time</strong> (đã kịp nộp đúng hạn), <strong>felt relieved and truly accomplished</strong> (cảm thấy nhẹ nhõm và thực sự có cảm giác hoàn thành), <strong>helped me save a lot of valuable time</strong> (đã giúp tôi tiết kiệm được rất nhiều thời gian quý báu), <strong>made my work much easier to complete</strong> (khiến công việc của tôi dễ hoàn thành hơn nhiều), <strong>was completely satisfied with the result</strong> (hoàn toàn hài lòng với kết quả)"
+      ],
+      "templates": [
+        "The last time I used a computer was [thời gian / dịp] to [mục đích / hoạt động]. I [quá trình / chi tiết], and fortunately, I [kết quả / cảm nhận].",
+        "I recently used my laptop [thời gian / dịp] when I needed to [mục đích / hoạt động]. During that session, I [quá trình / chi tiết], which [kết quả / cảm nhận]."
+      ],
+      "samples": [
+        {
+          "en": "The last time I used a computer was yesterday afternoon to finish an important work report. I spent nearly two hours typing and editing, and fortunately, I managed to submit it right on time with great satisfaction.",
+          "vi": "Lần gần đây nhất tôi sử dụng máy tính là vào chiều hôm qua để hoàn thành một báo cáo công việc quan trọng. Tôi đã dành gần hai giờ gõ và chỉnh sửa, và may mắn thay, tôi đã kịp nộp đúng hạn trong sự hài lòng lớn."
+        },
+        {
+          "en": "I recently used my laptop this morning before work when I needed to prepare a slide presentation for my class. During that session, I focused completely without any distractions, which helped me save a lot of valuable time.",
+          "vi": "Gần đây tôi đã sử dụng máy tính xách tay của mình vào sáng nay trước khi đi làm khi tôi cần chuẩn bị một bài thuyết trình cho lớp học. Trong suốt buổi đó, tôi đã hoàn toàn tập trung mà không bị phân tâm, điều này đã giúp tôi tiết kiệm được rất nhiều thời gian quý báu."
+        }
+      ],
+      "member": "Member A"
+    },
+    "q2": {
+      "question": "My grandmother doesn't know anything about computers. How can she learn, and what should she do?",
+      "vi": "Bà của tôi không biết gì về máy tính. Bà có thể học như thế nào, và bà nên làm gì?",
+      "vocab": [
+        "✨ [lời khuyên khởi đầu]: <strong>start with the absolute basics</strong> (bắt đầu với những điều cơ bản nhất), <strong>begin by learning simple operations</strong> (bắt đầu bằng việc học các thao tác đơn giản), <strong>take things step by step patiently</strong> (thực hiện từng bước một cách kiên nhẫn), <strong>avoid feeling overwhelmed at all</strong> (tránh cảm thấy choáng ngợp chút nào), <strong>focus on practical daily functions</strong> (tập trung vào các chức năng thực tế hàng ngày)",
+        "✨ [cách thức học]: <strong>ask family members for gentle guidance</strong> (nhờ các thành viên trong gia đình hướng dẫn nhẹ nhàng), <strong>join a beginner digital class for seniors</strong> (tham gia một lớp kỹ thuật số sơ cấp cho người cao tuổi), <strong>watch easy step-by-step video tutorials</strong> (xem các video hướng dẫn từng bước đơn giản), <strong>practice regularly with a patient grandchild</strong> (thực hành thường xuyên cùng một người cháu kiên nhẫn), <strong>take clear handwritten notes for reminder</strong> (ghi chép rõ ràng vào sổ tay để nhắc nhở)",
+        "✨ [kỹ năng cụ thể]: <strong>turning the power on and off safely</strong> (bật và tắt nguồn an toàn), <strong>using the mouse to click smoothly</strong> (sử dụng chuột để nhấp mượt mà), <strong>making video calls to loved ones</strong> (gọi video cho những người thân yêu), <strong>typing short messages to friends</strong> (gõ những tin nhắn ngắn gửi bạn bè), <strong>browsing favorite cooking recipes</strong> (lướt xem các công thức nấu ăn yêu thích)",
+        "✨ [lợi ích / động viên]: <strong>boost her confidence gradually</strong> (từng bước tăng sự tự tin của bà), <strong>stay connected with her family easily</strong> (dễ dàng kết nối với gia đình của bà), <strong>make her daily life more enjoyable</strong> (khiến cuộc sống hàng ngày của bà vui vẻ hơn), <strong>adapt well to modern digital life</strong> (thích nghi tốt với cuộc sống số hiện đại), <strong>feel excited about learning new things</strong> (cảm thấy hào hứng khi học được những điều mới)"
+      ],
+      "templates": [
+        "In my opinion, your grandmother should [lời khuyên khởi đầu] by [cách thức học]. She can begin with [kỹ năng cụ thể], which will surely [lợi ích / động viên].",
+        "If I were you, I would encourage her to [lời khuyên khởi đầu]. The best approach is to [cách thức học] so she can practice [kỹ năng cụ thể] to [lợi ích / động viên]."
+      ],
+      "samples": [
+        {
+          "en": "In my opinion, your grandmother should start with the absolute basics by asking family members for gentle guidance. She can begin with making video calls to loved ones, which will surely stay connected with her family easily and boost her confidence gradually.",
+          "vi": "Theo ý kiến của tôi, bà của bạn nên bắt đầu với những điều cơ bản nhất bằng cách nhờ các thành viên trong gia đình hướng dẫn nhẹ nhàng. Bà có thể bắt đầu với việc gọi video cho những người thân yêu, điều này chắc chắn sẽ giúp bà dễ dàng kết nối với gia đình và từng bước tăng sự tự tin."
+        },
+        {
+          "en": "If I were you, I would encourage her to begin by learning simple operations patiently. The best approach is to join a beginner digital class for seniors so she can practice using the mouse smoothly to adapt well to modern digital life.",
+          "vi": "Nếu tôi là bạn, tôi sẽ khuyến khích bà bắt đầu bằng việc kiên nhẫn học các thao tác đơn giản. Cách tiếp cận tốt nhất là tham gia một lớp kỹ thuật số sơ cấp cho người cao tuổi để bà có thể thực hành sử dụng chuột mượt mà nhằm thích nghi tốt với cuộc sống số hiện đại."
+        }
+      ],
+      "member": "Member B"
+    },
+    "q3": {
+      "question": "Young people spend too much time using computers, and some say it's not good for them. What's your opinion?",
+      "vi": "Giới trẻ dành quá nhiều thời gian sử dụng máy tính, và một số người cho rằng điều đó không tốt cho họ. Ý kiến của bạn là gì?",
+      "vocab": [
+        "✨ [quan điểm]: <strong>I partly agree with this statement</strong> (tôi đồng ý một phần với nhận định này), <strong>I completely share this concern</strong> (tôi hoàn toàn chia sẻ mối lo ngại này), <strong>this opinion is totally understandable</strong> (ý kiến này hoàn toàn có thể hiểu được), <strong>I believe moderation is crucial here</strong> (tôi tin rằng sự chừng mực là tối quan trọng ở đây), <strong>this issue clearly has both sides</strong> (vấn đề này rõ ràng có cả hai mặt)",
+        "✨ [tác hại khi lạm dụng]: <strong>causes eye strain and chronic back pain</strong> (gây mỏi mắt và đau lưng mãn tính), <strong>leads to an unhealthy sedentary lifestyle</strong> (dẫn đến lối sống ít vận động không lành mạnh), <strong>reduces meaningful face-to-face interaction</strong> (làm giảm sự tương tác trực tiếp ý nghĩa), <strong>distracts students from their homework</strong> (làm học sinh xao nhãng việc làm bài tập), <strong>disrupts natural sleeping schedules</strong> (làm gián đoạn lịch ngủ tự nhiên)",
+        "✨ [mặt tích cực / giải pháp]: <strong>computers are vital for modern study and research</strong> (máy tính rất cần thiết cho việc học tập và nghiên cứu hiện đại), <strong>develops essential IT skills for future careers</strong> (phát triển các kỹ năng CNTT thiết yếu cho sự nghiệp tương lai), <strong>set strict daily screen time limits</strong> (đặt giới hạn nghiêm ngặt về thời gian sử dụng màn hình hàng ngày), <strong>balance screen use with outdoor sports</strong> (cân bằng việc dùng màn hình với thể thao ngoài trời), <strong>take frequent breaks to protect their health</strong> (nghỉ ngơi thường xuyên để bảo vệ sức khỏe)",
+        "✨ [kết luận / mục tiêu]: <strong>maintain good physical and mental health</strong> (duy trì sức khỏe thể chất và tinh thần tốt), <strong>achieve a balanced digital lifestyle</strong> (đạt được một lối sống kỹ thuật số cân bằng), <strong>maximize benefits while minimizing risks</strong> (tối đa hóa lợi ích trong khi giảm thiểu rủi ro), <strong>become responsible and smart tech users</strong> (trở thành những người sử dụng công nghệ thông minh và có trách nhiệm)"
+      ],
+      "templates": [
+        "To be honest, [quan điểm] because excessive screen time often [tác hại khi lạm dụng]. However, [mặt tích cực / giải pháp], so young people should [kết luận / mục tiêu].",
+        "In my view, [quan điểm]. While spending whole days online [tác hại khi lạm dụng], computers also [mặt tích cực / giải pháp]. Therefore, they need to [kết luận / mục tiêu] wisely."
+      ],
+      "samples": [
+        {
+          "en": "To be honest, I partly agree with this statement because excessive screen time often causes eye strain and chronic back pain. However, computers are vital for modern study and research, so young people should balance screen use with outdoor sports to maintain good physical and mental health.",
+          "vi": "Thành thật mà nói, tôi đồng ý một phần với nhận định này vì thời gian sử dụng màn hình quá nhiều thường gây mỏi mắt và đau lưng mãn tính. Tuy nhiên, máy tính rất cần thiết cho việc học tập và nghiên cứu hiện đại, vì vậy giới trẻ nên cân bằng việc dùng màn hình với thể thao ngoài trời để duy trì sức khỏe thể chất và tinh thần tốt."
+        },
+        {
+          "en": "In my view, I completely share this concern. While spending whole days online leads to an unhealthy sedentary lifestyle, computers also develop essential IT skills for future careers. Therefore, they need to set strict daily screen time limits to achieve a balanced digital lifestyle wisely.",
+          "vi": "Theo quan điểm của tôi, tôi hoàn toàn chia sẻ mối lo ngại này. Trong khi việc ngồi máy tính cả ngày dẫn đến lối sống ít vận động không lành mạnh, máy tính cũng phát triển các kỹ năng CNTT thiết yếu cho sự nghiệp tương lai. Do đó, họ cần đặt giới hạn nghiêm ngặt về thời gian dùng màn hình hàng ngày để đạt được một lối sống kỹ thuật số cân bằng một cách khôn ngoan."
+        }
+      ],
+      "member": "Member C"
+    }
   }
 };
