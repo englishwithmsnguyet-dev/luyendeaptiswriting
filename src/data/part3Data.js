@@ -3324,5 +3324,79 @@ export const part3Data = {
       ],
       "member": "Member C"
     }
+  },
+  "Social club 2": {
+    "q1": {
+      "question": "Many people believe that the more friends you have, the better. What do you think about this view?",
+      "vi": "Nhiều người tin rằng càng có nhiều bạn thì càng tốt. Bạn nghĩ gì về quan điểm này?",
+      "vocab": [
+        "✨ [quan điểm]: <strong>disagree with this statement</strong> (không đồng ý với nhận định này), <strong>value quality over quantity in friendship</strong> (coi trọng chất lượng hơn số lượng trong tình bạn), <strong>believe that true friends matter more</strong> (tin rằng những người bạn thực sự quan trọng hơn), <strong>think having fewer close friends is better</strong> (nghĩ rằng có ít bạn thân sẽ tốt hơn), <strong>prefer having a small trustworthy circle</strong> (thích có một nhóm bạn nhỏ đáng tin cậy)",
+        "✨ [lợi ích của bạn thân]: <strong>understand each other deeply and sincerely</strong> (thấu hiểu nhau sâu sắc và chân thành), <strong>support you through difficult hardships</strong> (hỗ trợ bạn vượt qua những khó khăn gian khổ), <strong>share honest thoughts without hesitation</strong> (chia sẻ những suy nghĩ thật lòng mà không ngần ngại), <strong>build lifelong mutual trust</strong> (xây dựng sự tin tưởng lẫn nhau suốt đời), <strong>bring true emotional peace and comfort</strong> (mang lại sự bình yên và an ủi thực sự về mặt cảm xúc)",
+        "✨ [hạn chế của quá nhiều bạn]: <strong>many superficial relationships cause unnecessary drama</strong> (nhiều mối quan hệ hời hợt gây ra những rắc rối không đáng có), <strong>it takes too much time to maintain them all</strong> (tốn quá nhiều thời gian để duy trì tất cả), <strong>people cannot give deep attention to everyone</strong> (người ta không thể quan tâm sâu sắc đến mọi người), <strong>it is easy to feel lonely among a crowd</strong> (rất dễ cảm thấy cô đơn giữa đám đông), <strong>not everyone is truly loyal when trouble happens</strong> (không phải ai cũng thực sự trung thành khi có rắc rối xảy ra)"
+      ],
+      "templates": [
+        "In my opinion, I [quan điểm]. Having a few loyal friends means you can [lợi ích của bạn thân]. Conversely, when you have too many acquaintances, [hạn chế của quá nhiều bạn].",
+        "Personally, I [quan điểm]. True companionship allows people to [lợi ích của bạn thân]. In contrast, [hạn chế của quá nhiều bạn], so quality is always more essential."
+      ],
+      "samples": [
+        {
+          "en": "In my opinion, I value quality over quantity in friendship. Having a few loyal friends means you can understand each other deeply and sincerely. Conversely, when you have too many acquaintances, it takes too much time to maintain them all.",
+          "vi": "Theo ý kiến của tôi, tôi coi trọng chất lượng hơn số lượng trong tình bạn. Có một vài người bạn trung thành có nghĩa là bạn có thể thấu hiểu nhau sâu sắc và chân thành. Ngược lại, khi bạn có quá nhiều người quen, sẽ tốn quá nhiều thời gian để duy trì tất cả."
+        },
+        {
+          "en": "Personally, I prefer having a small trustworthy circle. True companionship allows people to support you through difficult hardships. In contrast, many superficial relationships cause unnecessary drama, so quality is always more essential.",
+          "vi": "Cá nhân tôi thích có một nhóm bạn nhỏ đáng tin cậy. Tình bạn thực sự cho phép mọi người hỗ trợ bạn vượt qua những khó khăn gian khổ. Ngược lại, nhiều mối quan hệ hời hợt gây ra những rắc rối không đáng có, vì vậy chất lượng luôn quan trọng hơn."
+        }
+      ],
+      "member": "Member A"
+    },
+    "q2": {
+      "question": "Is it true that young people find it easier to make friends? What do you usually do when you hang out with your friends?",
+      "vi": "Có đúng là người trẻ thấy dễ kết bạn hơn không? Bạn thường làm gì khi đi chơi với bạn bè?",
+      "vocab": [
+        "✨ [lý do người trẻ dễ kết bạn]: <strong>they are outgoing and share school environments</strong> (họ cởi mở và cùng môi trường học tập), <strong>young people connect easily through social media</strong> (người trẻ kết nối dễ dàng qua mạng xã hội), <strong>they have plenty of free time to socialize</strong> (họ có nhiều thời gian rảnh để giao lưu), <strong>youth naturally share dynamic hobbies</strong> (thanh niên tự nhiên chia sẻ những sở thích năng động), <strong>they are open-minded and eager to explore</strong> (họ có tư duy cởi mở và háo hức khám phá)",
+        "✨ [hoạt động khi đi chơi]: <strong>drink milk tea at cozy local cafes</strong> (uống trà sữa ở các quán cà phê địa phương ấm cúng), <strong>watch exciting movies at the cinema</strong> (xem những bộ phim hấp dẫn tại rạp chiếu phim), <strong>try delicious street food dishes</strong> (thử các món ăn đường phố ngon miệng), <strong>play fun video games together</strong> (cùng nhau chơi các trò chơi điện tử vui nhộn), <strong>walk around vibrant shopping malls</strong> (đi dạo quanh những trung tâm thương mại sôi động)",
+        "✨ [tác dụng]: <strong>helps us unwind after stressful school days</strong> (giúp chúng tôi thư giãn sau những ngày học căng thẳng), <strong>creates unforgettable happy memories</strong> (tạo ra những kỷ niệm vui vẻ khó quên), <strong>brings us endless laughter and joy</strong> (mang lại cho chúng tôi tiếng cười và niềm vui bất tận), <strong>strengthens our mutual understanding</strong> (thắt chặt sự thấu hiểu lẫn nhau giữa chúng tôi), <strong>makes our friendship much stronger</strong> (làm cho tình bạn của chúng tôi bền chặt hơn nhiều)"
+      ],
+      "templates": [
+        "Yes, that is true because [lý do người trẻ dễ kết bạn]. Whenever my close friends and I meet up, we usually [hoạt động khi đi chơi]. Doing this activity [tác dụng] effectively.",
+        "I agree that making friends is easier for youth since [lý do người trẻ dễ kết bạn]. When hanging out, my friends and I love to [hoạt động khi đi chơi]. It always [tác dụng]."
+      ],
+      "samples": [
+        {
+          "en": "Yes, that is true because they are outgoing and share school environments. Whenever my close friends and I meet up, we usually drink milk tea at cozy local cafes. Doing this activity helps us unwind after stressful school days effectively.",
+          "vi": "Vâng, điều đó đúng vì họ cởi mở và cùng môi trường học tập. Bất cứ khi nào tôi và những người bạn thân gặp nhau, chúng tôi thường uống trà sữa ở các quán cà phê ấm cúng. Hoạt động này giúp chúng tôi thư giãn hiệu quả sau những ngày học căng thẳng."
+        },
+        {
+          "en": "I agree that making friends is easier for youth since young people connect easily through social media. When hanging out, my friends and I love to watch exciting movies at the cinema. It always creates unforgettable happy memories.",
+          "vi": "Tôi đồng ý rằng việc kết bạn dễ dàng hơn đối với giới trẻ vì người trẻ kết nối dễ dàng qua mạng xã hội. Khi đi chơi, bạn bè và tôi thích xem những bộ phim hấp dẫn tại rạp chiếu phim. Nó luôn tạo ra những kỷ niệm vui vẻ khó quên."
+        }
+      ],
+      "member": "Member B"
+    },
+    "q3": {
+      "question": "I like doing everything with my best friend, but sometimes I still do things alone. What about you?",
+      "vi": "Tôi thích làm mọi thứ cùng người bạn thân nhất của mình, nhưng thỉnh thoảng tôi vẫn làm mọi việc một mình. Còn bạn thì sao?",
+      "vocab": [
+        "✨ [hoạt động làm cùng bạn]: <strong>travel to beautiful beaches together</strong> (cùng nhau đi du lịch đến những bãi biển đẹp), <strong>study for important exams and discuss projects</strong> (học tập cho các kỳ thi quan trọng và thảo luận dự án), <strong>shop for clothes at local markets</strong> (mua sắm quần áo ở các khu chợ địa phương), <strong>try new restaurants around the city</strong> (thử các nhà hàng mới quanh thành phố), <strong>exercise regularly at the fitness gym</strong> (tập thể dục đều đặn tại phòng gym)",
+        "✨ [hoạt động làm một mình]: <strong>read quiet books in my bedroom</strong> (đọc sách yên tĩnh trong phòng ngủ), <strong>take peaceful walks in the evening</strong> (đi dạo yên bình vào buổi tối), <strong>listen to relaxing instrumental music</strong> (nghe nhạc không lời thư giãn), <strong>cook simple dishes and write my journal</strong> (nấu những món ăn đơn giản và viết nhật ký), <strong>watch my favorite documentary films</strong> (xem những bộ phim tài liệu yêu thích của tôi)",
+        "✨ [lợi ích của sự cân bằng]: <strong>recharge my energy and think deeply</strong> (nạp lại năng lượng và suy nghĩ sâu sắc), <strong>find inner peace and self-discovery</strong> (tìm thấy sự bình yên nội tâm và khám phá bản thân), <strong>maintain healthy personal boundaries</strong> (duy trì ranh giới cá nhân lành mạnh), <strong>refresh my mind after crowded gatherings</strong> (làm mới tâm trí sau những buổi tụ tập đông đúc), <strong>appreciate friendship even more</strong> (càng thêm trân trọng tình bạn)"
+      ],
+      "templates": [
+        "I feel the same way! While I love to [hoạt động làm cùng bạn] with my best friend, I also cherish alone time to [hoạt động làm một mình]. Being alone helps me [lợi ích của sự cân bằng].",
+        "Like you, I enjoy both! Spending time to [hoạt động làm cùng bạn] is super fun, but I occasionally need solitude to [hoạt động làm một mình]. That quiet moment helps me [lợi ích của sự cân bằng]."
+      ],
+      "samples": [
+        {
+          "en": "I feel the same way! While I love to travel to beautiful beaches together with my best friend, I also cherish alone time to read quiet books in my bedroom. Being alone helps me recharge my energy and think deeply.",
+          "vi": "Tôi cũng cảm thấy như vậy! Mặc dù tôi thích cùng người bạn thân nhất đi du lịch đến những bãi biển đẹp, tôi cũng trân trọng thời gian một mình để đọc sách yên tĩnh trong phòng ngủ. Ở một mình giúp tôi nạp lại năng lượng và suy nghĩ sâu sắc."
+        },
+        {
+          "en": "Like you, I enjoy both! Spending time to study for exams and discuss projects is super fun, but I occasionally need solitude to take peaceful walks in the evening. That quiet moment helps me find inner peace and self-discovery.",
+          "vi": "Giống như bạn, tôi thích cả hai! Dành thời gian học tập cho các kỳ thi và thảo luận dự án rất vui, nhưng thỉnh thoảng tôi cần sự yên tĩnh để đi dạo bình yên vào buổi tối. Khoảnh khắc tĩnh lặng đó giúp tôi tìm thấy sự bình yên nội tâm và khám phá bản thân."
+        }
+      ],
+      "member": "Member C"
+    }
   }
 };
