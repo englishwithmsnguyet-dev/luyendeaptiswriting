@@ -3176,5 +3176,153 @@ export const part3Data = {
       ],
       "member": "Member C"
     }
+  },
+  "Food club 2": {
+    "q1": {
+      "question": "Hi, welcome to the club. Who did you have dinner with? And where?",
+      "vi": "Chào mừng đến với câu lạc bộ. Bạn đã ăn tối với ai? Và ở đâu?",
+      "vocab": [
+        "✨ [người đi cùng]: <strong>my family members</strong> (các thành viên trong gia đình tôi), <strong>some close university friends</strong> (vài người bạn thân thời đại học), <strong>my cheerful coworkers</strong> (những đồng nghiệp vui tính của tôi), <strong>my beloved parents</strong> (bố mẹ kính yêu của tôi), <strong>my best childhood friend</strong> (người bạn thân nhất thời thơ ấu của tôi)",
+        "✨ [địa điểm]: <strong>at a cozy seafood restaurant</strong> (tại một nhà hàng hải sản ấm cúng), <strong>in a lovely traditional dining room</strong> (trong một phòng ăn truyền thống đáng yêu), <strong>at an authentic Italian pizza place</strong> (tại một quán pizza Ý chính hiệu), <strong>at a popular local noodle stall</strong> (tại một quán mì địa phương nổi tiếng), <strong>right at my cozy home kitchen</strong> (ngay tại căn bếp ấm cúng của nhà tôi)",
+        "✨ [món ăn & cảm xúc]: <strong>delicious grilled fish and felt happy</strong> (cá nướng thơm ngon và cảm thấy hạnh phúc), <strong>fresh vegetable soup and felt relaxed</strong> (canh rau tươi ngon và cảm thấy thư giãn), <strong>hot crispy chicken and felt satisfied</strong> (gà rán giòn nóng hổi và cảm thấy thỏa mãn), <strong>tasty beef noodles and had great fun</strong> (mì bò ngon miệng và có nhiều niềm vui), <strong>warm homemade dishes and felt joyful</strong> (những món ăn nhà nấu ấm áp và cảm thấy vui vẻ)"
+      ],
+      "templates": [
+        "Last night, I had a lovely dinner with [người đi cùng] [địa điểm]. We ordered [món ăn & cảm xúc]. Having dinner together was a wonderful way to unwind after a tiring day.",
+        "To be honest, I recently enjoyed dinner with [người đi cùng] [địa điểm]. We shared [món ăn & cảm xúc]. It was a delightful meal that brought us closer together."
+      ],
+      "samples": [
+        {
+          "en": "Last night, I had a lovely dinner with my family members at a cozy seafood restaurant. We ordered delicious grilled fish and felt happy. Having dinner together was a wonderful way to unwind after a tiring day.",
+          "vi": "Tối qua, tôi đã có một bữa tối đáng yêu với các thành viên trong gia đình tại một nhà hàng hải sản ấm cúng. Chúng tôi đã gọi món cá nướng thơm ngon và cảm thấy hạnh phúc. Dùng bữa tối cùng nhau là một cách tuyệt vời để thư giãn sau một ngày mệt mỏi."
+        },
+        {
+          "en": "To be honest, I recently enjoyed dinner with some close university friends at an authentic Italian pizza place. We shared hot crispy chicken and felt satisfied. It was a delightful meal that brought us closer together.",
+          "vi": "Thành thật mà nói, gần đây tôi đã thưởng thức bữa tối với vài người bạn thân thời đại học tại một quán pizza Ý chính hiệu. Chúng tôi đã cùng ăn món gà rán giòn nóng hổi và cảm thấy thỏa mãn. Đó là một bữa ăn thú vị giúp chúng tôi gắn kết hơn."
+        }
+      ],
+      "member": "Member A"
+    },
+    "q2": {
+      "question": "Do you prefer eating out or eating at home?",
+      "vi": "Bạn thích đi ăn ngoài hay ăn ở nhà hơn?",
+      "vocab": [
+        "✨ [lựa chọn yêu thích]: <strong>cooking and eating at home</strong> (nấu ăn và dùng bữa tại nhà), <strong>dining out at restaurants</strong> (đi ăn ngoài tại các nhà hàng), <strong>enjoying homemade meals</strong> (thưởng thức các bữa ăn tự nấu ở nhà), <strong>eating at local food stalls</strong> (ăn uống tại các quán ăn địa phương), <strong>preparing food with my family</strong> (chuẩn bị đồ ăn cùng gia đình)",
+        "✨ [lý do chính]: <strong>helps me save money and choose fresh ingredients</strong> (giúp tôi tiết kiệm tiền và chọn nguyên liệu tươi), <strong>saves time after busy working hours</strong> (tiết kiệm thời gian sau những giờ làm việc bận rộn), <strong>ensures clean and nutritious dishes</strong> (đảm bảo các món ăn sạch sẽ và bổ dưỡng), <strong>allows me to try diverse cuisines</strong> (cho phép tôi thử nhiều nền ẩm thực đa dạng), <strong>creates a warm family atmosphere</strong> (tạo ra bầu không khí gia đình ấm cúng)",
+        "✨ [cảm giác mang lại]: <strong>a truly healthy lifestyle</strong> (một lối sống thực sự lành mạnh), <strong>a fun and convenient dining experience</strong> (một trải nghiệm ăn uống vui vẻ và tiện lợi), <strong>great peace of mind</strong> (sự an tâm tuyệt vời), <strong>a relaxing evening with loved ones</strong> (một buổi tối thư giãn bên những người thân yêu), <strong>comfort and good physical health</strong> (sự thoải mái và sức khỏe thể chất tốt)"
+      ],
+      "templates": [
+        "Personally, I prefer [lựa chọn yêu thích] because it [lý do chính]. In my opinion, this habit brings [cảm giác mang lại], which makes my daily life much happier and healthier.",
+        "If I have to choose, I definitely pick [lựa chọn yêu thích]. It certainly [lý do chính]. For me, that choice guarantees [cảm giác mang lại] after stressful working hours."
+      ],
+      "samples": [
+        {
+          "en": "Personally, I prefer cooking and eating at home because it helps me save money and choose fresh ingredients. In my opinion, this habit brings a truly healthy lifestyle, which makes my daily life much happier and healthier.",
+          "vi": "Cá nhân tôi thích nấu ăn và dùng bữa tại nhà vì nó giúp tôi tiết kiệm tiền và chọn nguyên liệu tươi ngon. Theo tôi, thói quen này mang lại một lối sống thực sự lành mạnh, giúp cuộc sống hàng ngày hạnh phúc và khỏe mạnh hơn nhiều."
+        },
+        {
+          "en": "If I have to choose, I definitely pick dining out at restaurants. It certainly saves time after busy working hours. For me, that choice guarantees a fun and convenient dining experience after stressful working hours.",
+          "vi": "Nếu phải chọn, tôi chắc chắn chọn đi ăn ngoài tại các nhà hàng. Nó chắc chắn giúp tiết kiệm thời gian sau những giờ làm việc bận rộn. Đối với tôi, lựa chọn đó đảm bảo một trải nghiệm ăn uống vui vẻ và tiện lợi sau những giờ làm việc căng thẳng."
+        }
+      ],
+      "member": "Member B"
+    },
+    "q3": {
+      "question": "Should a tax be imposed on unhealthy food?",
+      "vi": "Có nên áp thuế lên thực phẩm không lành mạnh không?",
+      "vocab": [
+        "✨ [quan điểm]: <strong>strongly agree with imposing a food tax</strong> (rất đồng ý với việc áp thuế thực phẩm), <strong>completely support this tax policy</strong> (hoàn toàn ủng hộ chính sách thuế này), <strong>believe this is a necessary solution</strong> (tin rằng đây là một giải pháp cần thiết), <strong>think this measure is very practical</strong> (nghĩ rằng biện pháp này rất thực tế), <strong>favor taxing junk food products</strong> (ủng hộ việc đánh thuế các sản phẩm đồ ăn vặt)",
+        "✨ [lợi ích của thuế]: <strong>discourage people from buying fast food</strong> (ngăn cản mọi người mua đồ ăn nhanh), <strong>reduce rates of obesity and diabetes</strong> (giảm tỷ lệ béo phì và tiểu đường), <strong>raise money for public healthcare services</strong> (gây quỹ cho các dịch vụ chăm sóc sức khỏe cộng đồng), <strong>encourage shoppers to choose fresh vegetables</strong> (khuyến khích người mua sắm chọn rau tươi), <strong>protect young children from sugary snacks</strong> (bảo vệ trẻ nhỏ khỏi đồ ăn vặt nhiều đường)",
+        "✨ [kết quả lâu dài]: <strong>improve overall public health significantly</strong> (cải thiện đáng kể sức khỏe cộng đồng nói chung), <strong>promote healthier daily eating habits</strong> (thúc đẩy những thói quen ăn uống hàng ngày lành mạnh hơn), <strong>reduce medical expenses for families</strong> (giảm chi phí y tế cho các gia đình), <strong>build a healthier future generation</strong> (xây dựng một thế hệ tương lai khỏe mạnh hơn), <strong>raise community awareness about nutrition</strong> (nâng cao nhận thức cộng đồng về dinh dưỡng)"
+      ],
+      "templates": [
+        "In my view, I [quan điểm]. Higher prices will [lợi ích của thuế]. In the long run, this policy will certainly [kết quả lâu dài] for our society.",
+        "I totally [quan điểm] because an extra tax will [lợi ích của thuế]. Consequently, it can [kết quả lâu dài] and help people live much better."
+      ],
+      "samples": [
+        {
+          "en": "In my view, I strongly agree with imposing a food tax. Higher prices will discourage people from buying fast food. In the long run, this policy will certainly improve overall public health significantly for our society.",
+          "vi": "Theo quan điểm của tôi, tôi rất đồng ý với việc áp thuế thực phẩm. Giá cao hơn sẽ ngăn cản mọi người mua thức ăn nhanh. Về lâu dài, chính sách này chắc chắn sẽ cải thiện đáng kể sức khỏe cộng đồng nói chung cho xã hội của chúng ta."
+        },
+        {
+          "en": "I completely support this tax policy because an extra tax will reduce rates of obesity and diabetes. Consequently, it can promote healthier daily eating habits and help people live much better.",
+          "vi": "Tôi hoàn toàn ủng hộ chính sách thuế này vì thuế bổ sung sẽ làm giảm tỷ lệ béo phì và tiểu đường. Do đó, nó có thể thúc đẩy thói quen ăn uống lành mạnh hơn hàng ngày và giúp mọi người sống tốt hơn nhiều."
+        }
+      ],
+      "member": "Member C"
+    }
+  },
+  "Food club 3": {
+    "q1": {
+      "question": "Nowadays, many people order pizza to eat instead of cooking rice. What about you?",
+      "vi": "Ngày nay, nhiều người gọi pizza ăn thay vì nấu cơm. Còn bạn thì sao?",
+      "vocab": [
+        "✨ [thói quen ăn uống]: <strong>still prefer cooking traditional rice meals</strong> (vẫn thích nấu các bữa cơm truyền thống), <strong>sometimes order pizza on busy weekends</strong> (thỉnh thoảng gọi pizza vào những ngày cuối tuần bận rộn), <strong>love eating homemade warm rice dishes</strong> (thích ăn những món cơm nóng tự nấu ở nhà), <strong>only eat fast food occasionally</strong> (chỉ thỉnh thoảng ăn đồ ăn nhanh), <strong>balance between rice and fast food</strong> (cân bằng giữa cơm và thức ăn nhanh)",
+        "✨ [lý do]: <strong>rice is nutritious and easy to digest</strong> (cơm giàu dinh dưỡng và dễ tiêu hóa), <strong>pizza contains too much fat and cheese</strong> (pizza chứa quá nhiều chất béo và phô mai), <strong>homemade food keeps my body healthy</strong> (thức ăn tự nấu giúp cơ thể tôi khỏe mạnh), <strong>fast food saves time when I work late</strong> (đồ ăn nhanh tiết kiệm thời gian khi tôi làm việc muộn), <strong>traditional cooking connects my whole family</strong> (nấu ăn truyền thống gắn kết cả gia đình tôi)",
+        "✨ [cảm nhận]: <strong>keeps me energetic throughout the day</strong> (giúp tôi tràn đầy năng lượng suốt cả ngày), <strong>protects my long-term physical health</strong> (bảo vệ sức khỏe thể chất lâu dài của tôi), <strong>is a wonderful family tradition</strong> (là một truyền thống gia đình tuyệt vời), <strong>satisfies my hunger without feeling heavy</strong> (thỏa mãn cơn đói mà không cảm thấy nặng bụng), <strong>makes me appreciate fresh ingredients</strong> (khiến tôi trân trọng các nguyên liệu tươi)"
+      ],
+      "templates": [
+        "Unlike those people, I [thói quen ăn uống] because [lý do]. Eating this way [cảm nhận], so I rarely order fast food like pizza.",
+        "To be honest, I [thói quen ăn uống]. Even though fast food is convenient, [lý do]. Doing so [cảm nhận] after a long working day."
+      ],
+      "samples": [
+        {
+          "en": "Unlike those people, I still prefer cooking traditional rice meals because rice is nutritious and easy to digest. Eating this way keeps me energetic throughout the day, so I rarely order fast food like pizza.",
+          "vi": "Không giống như những người đó, tôi vẫn thích nấu các bữa cơm truyền thống vì cơm giàu dinh dưỡng và dễ tiêu hóa. Ăn theo cách này giúp tôi tràn đầy năng lượng suốt cả ngày, vì vậy tôi hiếm khi gọi đồ ăn nhanh như pizza."
+        },
+        {
+          "en": "To be honest, I love eating homemade warm rice dishes. Even though fast food is convenient, traditional cooking connects my whole family. Doing so is a wonderful family tradition after a long working day.",
+          "vi": "Thành thật mà nói, tôi thích ăn những món cơm nóng tự nấu ở nhà. Mặc dù thức ăn nhanh rất tiện lợi, nhưng việc nấu nướng truyền thống lại gắn kết cả gia đình tôi. Làm như vậy là một truyền thống gia đình tuyệt vời sau một ngày làm việc dài."
+        }
+      ],
+      "member": "Member A"
+    },
+    "q2": {
+      "question": "When you are busy, what do you usually eat?",
+      "vi": "Khi bạn bận rộn, bạn thường ăn gì?",
+      "vocab": [
+        "✨ [món ăn nhanh gọn]: <strong>a warm egg sandwich with lettuce</strong> (một chiếc bánh mì kẹp trứng ấm với rau xà lách), <strong>a quick bowl of chicken noodles</strong> (một tô mì gà nhanh gọn), <strong>fresh bread with butter and milk</strong> (bánh mì tươi với bơ và sữa), <strong>a simple bowl of mixed salad</strong> (một tô salad trộn đơn giản), <strong>a quick plate of fried rice</strong> (một đĩa cơm chiên nhanh)",
+        "✨ [đặc điểm tiện lợi]: <strong>only takes five minutes to prepare</strong> (chỉ mất năm phút để chuẩn bị), <strong>is very convenient and easy to eat</strong> (rất tiện lợi và dễ ăn), <strong>provides enough energy for working</strong> (cung cấp đủ năng lượng cho công việc), <strong>does not require any complicated cooking</strong> (không đòi hỏi nấu nướng phức tạp), <strong>can be bought easily near my office</strong> (có thể mua dễ dàng gần văn phòng của tôi)",
+        "✨ [lợi ích]: <strong>saves me precious time for urgent tasks</strong> (tiết kiệm cho tôi thời gian quý báu cho các nhiệm vụ khẩn cấp), <strong>satisfies my hunger without causing tiredness</strong> (thỏa mãn cơn đói mà không gây mệt mỏi), <strong>helps me finish my heavy workload smoothly</strong> (giúp tôi hoàn thành khối lượng công việc nặng nề một cách suôn sẻ), <strong>keeps my mind active and sharp</strong> (giữ cho tâm trí tôi năng động và sắc bén), <strong>keeps me full during busy workdays</strong> (giúp tôi no bụng trong những ngày làm việc bận rộn)"
+      ],
+      "templates": [
+        "Whenever I am busy with work, I usually choose [món ăn nhanh gọn]. This meal [đặc điểm tiện lợi] and [lợi ích], which is perfect for my hectic schedule.",
+        "When my schedule gets crowded, my go-to choice is [món ăn nhanh gọn]. It [đặc điểm tiện lợi]. Choosing this food [lợi ích] during a hectic workday."
+      ],
+      "samples": [
+        {
+          "en": "Whenever I am busy with work, I usually choose a warm egg sandwich with lettuce. This meal only takes five minutes to prepare and saves me precious time for urgent tasks, which is perfect for my hectic schedule.",
+          "vi": "Bất cứ khi nào tôi bận rộn với công việc, tôi thường chọn một chiếc bánh mì kẹp trứng ấm với rau xà lách. Bữa ăn này chỉ mất năm phút để chuẩn bị và tiết kiệm cho tôi thời gian quý báu cho các nhiệm vụ khẩn cấp, điều đó hoàn hảo cho lịch trình bận rộn của tôi."
+        },
+        {
+          "en": "When my schedule gets crowded, my go-to choice is a quick bowl of chicken noodles. It is very convenient and easy to eat. Choosing this food provides enough energy for working during a hectic workday.",
+          "vi": "Khi lịch trình của tôi trở nên dày đặc, lựa chọn quen thuộc của tôi là một tô mì gà nhanh gọn. Nó rất tiện lợi và dễ ăn. Việc chọn món này cung cấp đủ năng lượng cho công việc trong một ngày làm việc bận rộn."
+        }
+      ],
+      "member": "Member B"
+    },
+    "q3": {
+      "question": "Do you think it is really important for children to take a cooking course at school?",
+      "vi": "Bạn có nghĩ việc trẻ em tham gia khóa học nấu ăn ở trường thực sự quan trọng không?",
+      "vocab": [
+        "✨ [quan điểm]: <strong>truly important and practical for children</strong> (thực sự quan trọng và thiết thực cho trẻ em), <strong>an extremely useful life skill</strong> (một kỹ năng sống cực kỳ hữu ích), <strong>a great addition to school programs</strong> (một sự bổ sung tuyệt vời cho các chương trình học), <strong>essential for every student's future</strong> (cần thiết cho tương lai của mỗi học sinh), <strong>a wonderful learning opportunity for kids</strong> (một cơ hội học tập tuyệt vời cho trẻ nhỏ)",
+        "✨ [lợi ích kỹ năng]: <strong>learn how to prepare simple meals</strong> (học cách chuẩn bị những bữa ăn đơn giản), <strong>develop independence and self-reliance early</strong> (phát triển tính tự lập và tự chủ sớm), <strong>understand the value of healthy nutrition</strong> (hiểu được giá trị của dinh dưỡng lành mạnh), <strong>appreciate their parents' daily hard work</strong> (trân trọng sự vất vả hàng ngày của cha mẹ), <strong>build useful teamwork and safety habits</strong> (xây dựng thói quen làm việc nhóm và an toàn hữu ích)",
+        "✨ [kết quả tương lai]: <strong>take good care of themselves later in life</strong> (chăm sóc tốt cho bản thân sau này trong cuộc sống), <strong>build lifelong healthy eating habits</strong> (xây dựng thói quen ăn uống lành mạnh suốt đời), <strong>avoid relying too much on fast food</strong> (tránh phụ thuộc quá nhiều vào thức ăn nhanh), <strong>grow into confident and capable adults</strong> (lớn lên thành những người trưởng thành tự tin và có năng lực), <strong>lead a healthier and more independent lifestyle</strong> (hướng tới lối sống lành mạnh và độc lập hơn)"
+      ],
+      "templates": [
+        "I definitely believe that school cooking lessons are [quan điểm]. Through these classes, children [lợi ích kỹ năng]. Consequently, they will be able to [kết quả tương lai] in the future.",
+        "In my opinion, offering cooking courses at school is [quan điểm]. It teaches kids to [lợi ích kỹ năng]. In the long run, this knowledge helps them [kết quả tương lai]."
+      ],
+      "samples": [
+        {
+          "en": "I definitely believe that school cooking lessons are truly important and practical for children. Through these classes, children learn how to prepare simple meals. Consequently, they will be able to take good care of themselves later in life.",
+          "vi": "Tôi chắc chắn tin rằng các bài học nấu ăn ở trường thực sự quan trọng và thiết thực đối với trẻ em. Thông qua các lớp học này, trẻ học cách chuẩn bị những bữa ăn đơn giản. Do đó, các em sẽ có thể tự chăm sóc bản thân tốt sau này trong cuộc sống."
+        },
+        {
+          "en": "In my opinion, offering cooking courses at school is an extremely useful life skill. It teaches kids to understand the value of healthy nutrition. In the long run, this knowledge helps them build lifelong healthy eating habits.",
+          "vi": "Theo ý kiến của tôi, việc tổ chức các khóa học nấu ăn ở trường là một kỹ năng sống cực kỳ hữu ích. Nó dạy trẻ hiểu được giá trị của dinh dưỡng lành mạnh. Về lâu dài, kiến thức này giúp các em xây dựng thói quen ăn uống lành mạnh suốt đời."
+        }
+      ],
+      "member": "Member C"
+    }
   }
 };
