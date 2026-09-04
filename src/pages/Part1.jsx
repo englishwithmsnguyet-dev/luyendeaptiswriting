@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Send, Bookmark, ChevronDown, CheckCircle, AlertCircle, XCircle } from 'lucide-react';
 import { clubsData } from '../data/clubsData';
+import PracticeActionBar from '../components/PracticeActionBar';
+import { saveClubHistory, clearClubHistory, getClubSavedTime } from '../utils/historyManager';
 
 const Part1 = () => {
   const clubNames = Object.keys(clubsData).sort((a, b) => a.localeCompare(b));
@@ -18,6 +20,7 @@ const Part1 = () => {
 
   // Add state for completed clubs
   const [completedClubs, setCompletedClubs] = useState([]);
+  const [lastSavedTime, setLastSavedTime] = useState(null);
 
   useEffect(() => {
     const updateCompleted = () => {
@@ -35,6 +38,7 @@ const Part1 = () => {
     
     const savedAnswers = localStorage.getItem(`aptis_p1_answers_${selectedClub}`);
     const savedGrades = localStorage.getItem(`aptis_p1_grades_${selectedClub}`);
+    setLastSavedTime(getClubSavedTime(1, selectedClub));
 
     if (savedAnswers) {
       setAnswers(JSON.parse(savedAnswers));
@@ -212,6 +216,19 @@ const Part1 = () => {
     });
   };
 
+  const handleManualSave = () => {
+    const time = saveClubHistory(1, selectedClub, answers, gradingResults);
+    setLastSavedTime(time);
+    return time;
+  };
+
+  const handleClearCurrentClub = () => {
+    clearClubHistory(1, selectedClub);
+    setAnswers(questions.reduce((acc, q) => ({ ...acc, [q.id]: '' }), {}));
+    setGradingResults({});
+    setLastSavedTime(null);
+  };
+
   return (
     <div>
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '0.5rem' }}>
@@ -250,6 +267,16 @@ const Part1 = () => {
           />
         </div>
       </div>
+
+      {/* Proactive History Action Bar */}
+      <PracticeActionBar 
+        partName="Writing Part 01"
+        partNumber={1}
+        clubName={selectedClub}
+        lastSavedTime={lastSavedTime}
+        onSave={handleManualSave}
+        onClear={handleClearCurrentClub}
+      />
       
       <p className="page-description">
         You are a member of a club. You are talking to other members in the club chat room. Talk to them using sentences. Use 1 - 5 words per answer. You have 3 minutes to complete this part.

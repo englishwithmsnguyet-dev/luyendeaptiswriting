@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Bookmark, ChevronDown, CheckCircle, AlertCircle, XCircle } from 'lucide-react';
 import { part3Data } from '../data/part3Data';
+import PracticeActionBar from '../components/PracticeActionBar';
+import { saveClubHistory, clearClubHistory, getClubSavedTime } from '../utils/historyManager';
 
 const Part3 = () => {
   const clubNames = Object.keys(part3Data).sort((a, b) => a.localeCompare(b));
@@ -15,6 +17,7 @@ const Part3 = () => {
   const [totalScore, setTotalScore] = useState(null);
 
   const [completedClubs, setCompletedClubs] = useState([]);
+  const [lastSavedTime, setLastSavedTime] = useState(null);
 
   useEffect(() => {
     const updateCompleted = () => {
@@ -56,6 +59,7 @@ const Part3 = () => {
     
     const savedAnswers = localStorage.getItem(`aptis_p3_answers_${selectedClub}`);
     const savedGrades = localStorage.getItem(`aptis_p3_grades_${selectedClub}`);
+    setLastSavedTime(getClubSavedTime(3, selectedClub));
 
     if (savedAnswers) {
       setAnswers(JSON.parse(savedAnswers));
@@ -260,6 +264,20 @@ const Part3 = () => {
     setTotalScore(null);
   };
 
+  const handleManualSave = () => {
+    const time = saveClubHistory(3, selectedClub, answers, gradingResults);
+    setLastSavedTime(time);
+    return time;
+  };
+
+  const handleClearCurrentClub = () => {
+    clearClubHistory(3, selectedClub);
+    setAnswers({ q1: '', q2: '', q3: '' });
+    setGradingResults({ q1: null, q2: null, q3: null });
+    setTotalScore(null);
+    setLastSavedTime(null);
+  };
+
   return (
     <div>
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '0.5rem' }}>
@@ -297,6 +315,16 @@ const Part3 = () => {
           />
         </div>
       </div>
+
+      {/* Proactive History Action Bar */}
+      <PracticeActionBar 
+        partName="Writing Part 03"
+        partNumber={3}
+        clubName={selectedClub}
+        lastSavedTime={lastSavedTime}
+        onSave={handleManualSave}
+        onClear={handleClearCurrentClub}
+      />
       
       <p className="page-description">
         You are a member of a club. You are talking to three other members in the club chat room. Talk to them using sentences. Use 30-40 words per answer. You have 10 minutes to complete this part.

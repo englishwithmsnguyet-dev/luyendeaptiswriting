@@ -1,11 +1,20 @@
 import React, { useState, useEffect } from 'react';
-import { ArrowRight, Info, CheckCircle2, Trash2, Download } from 'lucide-react';
+import { ArrowRight, Info, CheckCircle2, Trash2, Download, History } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { exportToWord } from '../utils/exportToWord';
+import HistoryModal from '../components/HistoryModal';
+import { clubsData } from '../data/clubsData';
+import { part2Data } from '../data/part2Data';
+import { part3Data } from '../data/part3Data';
 
 const Home = () => {
   const navigate = useNavigate();
+  const [showHistoryModal, setShowHistoryModal] = useState(false);
   
+  const totalP1 = Object.keys(clubsData).length;
+  const totalP2 = Object.keys(part2Data).length;
+  const totalP3 = Object.keys(part3Data).length;
+
   const [progress, setProgress] = useState({
     p1: 0,
     p2: 0,
@@ -44,6 +53,8 @@ const Home = () => {
 
   return (
     <div>
+      <HistoryModal isOpen={showHistoryModal} onClose={() => setShowHistoryModal(false)} />
+
       <h1 className="page-title">Chào mừng đến với hệ thống luyện thi APTIS Writing</h1>
       <p className="page-description">
         Dành riêng cho học viên của <strong>English With Miss Nguyet</strong>. Hãy làm quen với cấu trúc bài thi và luyện tập để đạt kết quả tốt nhất.
@@ -51,23 +62,30 @@ const Home = () => {
 
       {/* Progress Dashboard */}
       <div className="card" style={{ marginBottom: '1.5rem', borderLeft: '4px solid #10B981' }}>
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem', flexWrap: 'wrap', gap: '0.5rem' }}>
           <h2 style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: 'var(--primary)', margin: 0 }}>
             <CheckCircle2 size={24} color="#10B981" />
             <span>Tiến độ học tập</span>
           </h2>
-          <div style={{ display: 'flex', gap: '0.5rem' }}>
+          <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap' }}>
             <button 
               className="btn btn-primary" 
-              onClick={exportToWord}
-              style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', padding: '0.4rem 0.8rem', fontSize: '0.85rem' }}
+              onClick={() => exportToWord()}
+              style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', padding: '0.45rem 0.85rem', fontSize: '0.85rem' }}
             >
               <Download size={16} /> Tải bài làm (Word)
             </button>
             <button 
+              className="btn" 
+              onClick={() => setShowHistoryModal(true)}
+              style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', padding: '0.45rem 0.85rem', fontSize: '0.85rem', backgroundColor: '#eff6ff', color: '#1d4ed8', border: '1px solid #bfdbfe' }}
+            >
+              <History size={16} /> Quản lý Lịch sử
+            </button>
+            <button 
               className="btn btn-secondary" 
               onClick={handleClearProgress}
-              style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', padding: '0.4rem 0.8rem', fontSize: '0.85rem' }}
+              style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', padding: '0.45rem 0.85rem', fontSize: '0.85rem' }}
             >
               <Trash2 size={16} /> Xóa tiến độ
             </button>
@@ -78,30 +96,30 @@ const Home = () => {
           <div style={{ padding: '1rem', background: 'var(--bg-main)', borderRadius: 'var(--radius-md)' }}>
             <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '0.5rem' }}>
               <strong style={{ color: 'var(--primary)' }}>Part 1</strong>
-              <span style={{ color: 'var(--text-muted)' }}>{progress.p1} / 40</span>
+              <span style={{ color: 'var(--text-muted)' }}>{progress.p1} / {totalP1}</span>
             </div>
             <div style={{ width: '100%', height: '8px', background: '#e2e8f0', borderRadius: '4px', overflow: 'hidden' }}>
-              <div style={{ width: `${(progress.p1 / 40) * 100}%`, height: '100%', background: '#10B981', transition: 'width 0.3s ease' }}></div>
+              <div style={{ width: `${(progress.p1 / totalP1) * 100}%`, height: '100%', background: '#10B981', transition: 'width 0.3s ease' }}></div>
             </div>
           </div>
           
           <div style={{ padding: '1rem', background: 'var(--bg-main)', borderRadius: 'var(--radius-md)' }}>
             <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '0.5rem' }}>
               <strong style={{ color: 'var(--primary)' }}>Part 2</strong>
-              <span style={{ color: 'var(--text-muted)' }}>{progress.p2} / 40</span>
+              <span style={{ color: 'var(--text-muted)' }}>{progress.p2} / {totalP2}</span>
             </div>
             <div style={{ width: '100%', height: '8px', background: '#e2e8f0', borderRadius: '4px', overflow: 'hidden' }}>
-              <div style={{ width: `${(progress.p2 / 40) * 100}%`, height: '100%', background: '#3b82f6', transition: 'width 0.3s ease' }}></div>
+              <div style={{ width: `${(progress.p2 / totalP2) * 100}%`, height: '100%', background: '#3b82f6', transition: 'width 0.3s ease' }}></div>
             </div>
           </div>
           
           <div style={{ padding: '1rem', background: 'var(--bg-main)', borderRadius: 'var(--radius-md)' }}>
             <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '0.5rem' }}>
               <strong style={{ color: 'var(--primary)' }}>Part 3</strong>
-              <span style={{ color: 'var(--text-muted)' }}>{progress.p3} / 40</span>
+              <span style={{ color: 'var(--text-muted)' }}>{progress.p3} / {totalP3}</span>
             </div>
             <div style={{ width: '100%', height: '8px', background: '#e2e8f0', borderRadius: '4px', overflow: 'hidden' }}>
-              <div style={{ width: `${(progress.p3 / 40) * 100}%`, height: '100%', background: '#8b5cf6', transition: 'width 0.3s ease' }}></div>
+              <div style={{ width: `${(progress.p3 / totalP3) * 100}%`, height: '100%', background: '#8b5cf6', transition: 'width 0.3s ease' }}></div>
             </div>
           </div>
         </div>

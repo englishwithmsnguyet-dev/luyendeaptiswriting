@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Bookmark, ChevronDown, CheckCircle, AlertCircle, XCircle } from 'lucide-react';
 import { part2Data } from '../data/part2Data';
+import PracticeActionBar from '../components/PracticeActionBar';
+import { saveClubHistory, clearClubHistory, getClubSavedTime } from '../utils/historyManager';
 
 const Part2 = () => {
   const clubNames = Object.keys(part2Data).sort((a, b) => a.localeCompare(b));
@@ -14,6 +16,7 @@ const Part2 = () => {
   const [isGrading, setIsGrading] = useState(false);
 
   const [completedClubs, setCompletedClubs] = useState([]);
+  const [lastSavedTime, setLastSavedTime] = useState(null);
 
   useEffect(() => {
     const updateCompleted = () => {
@@ -58,6 +61,7 @@ const Part2 = () => {
     
     const savedAnswer = localStorage.getItem(`aptis_p2_answer_${selectedClub}`);
     const savedGrade = localStorage.getItem(`aptis_p2_grade_${selectedClub}`);
+    setLastSavedTime(getClubSavedTime(2, selectedClub));
 
     if (savedAnswer) {
       setAnswer(savedAnswer);
@@ -293,6 +297,19 @@ const Part2 = () => {
     setGradingResult(null);
   };
 
+  const handleManualSave = () => {
+    const time = saveClubHistory(2, selectedClub, answer, gradingResult);
+    setLastSavedTime(time);
+    return time;
+  };
+
+  const handleClearCurrentClub = () => {
+    clearClubHistory(2, selectedClub);
+    setAnswer('');
+    setGradingResult(null);
+    setLastSavedTime(null);
+  };
+
   const currentCount = getWordCount(answer);
   const isOutOfRange = currentCount > 0 && (currentCount < 20 || currentCount > 30);
   const isGoodRange = currentCount >= 20 && currentCount <= 30;
@@ -335,6 +352,16 @@ const Part2 = () => {
           />
         </div>
       </div>
+
+      {/* Proactive History Action Bar */}
+      <PracticeActionBar 
+        partName="Writing Part 02"
+        partNumber={2}
+        clubName={selectedClub}
+        lastSavedTime={lastSavedTime}
+        onSave={handleManualSave}
+        onClear={handleClearCurrentClub}
+      />
       
       <p className="page-description">
         You are a member of a club. Fill in the form. Write in sentences. Use 20-30 words. You have 7 minutes to complete this part.
