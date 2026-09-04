@@ -3102,5 +3102,79 @@ export const part3Data = {
       ],
       "member": "Member C"
     }
+  },
+  "Book club 2": {
+    "q1": {
+      "question": "I often put books under the bed and read them before going to sleep. When do you often read books?",
+      "vi": "Tôi thường để sách dưới gầm giường và đọc chúng trước khi đi ngủ. Bạn thường đọc sách khi nào?",
+      "vocab": [
+        "✨ [thời điểm đọc sách]: <strong>late at night before sleeping</strong> (vào đêm muộn trước khi ngủ), <strong>early in the quiet morning</strong> (vào sáng sớm yên tĩnh), <strong>during my daily commute to work</strong> (trong lúc đi làm hàng ngày), <strong>on lazy weekend afternoons</strong> (vào những buổi chiều cuối tuần thảnh thơi), <strong>during my lunch break at work</strong> (trong giờ nghỉ trưa tại nơi làm việc)",
+        "✨ [loại sách yêu thích]: <strong>inspiring personal development books</strong> (những cuốn sách phát triển bản thân truyền cảm hứng), <strong>exciting detective novels</strong> (những cuốn tiểu thuyết trinh thám hấp dẫn), <strong>interesting romantic stories</strong> (những câu chuyện lãng mạn thú vị), <strong>famous history books</strong> (những cuốn sách lịch sử nổi tiếng), <strong>fascinating science fiction books</strong> (những cuốn sách khoa học viễn tưởng lôi cuốn)",
+        "✨ [lợi ích]: <strong>relax my mind and sleep much better</strong> (thư giãn tâm trí và ngủ ngon hơn nhiều), <strong>widen my knowledge and vocabulary</strong> (mở rộng kiến thức và vốn từ vựng), <strong>forget all daily stress easily</strong> (quên đi mọi căng thẳng hàng ngày một cách dễ dàng), <strong>start my day with positive energy</strong> (bắt đầu ngày mới với năng lượng tích cực), <strong>enjoy peaceful moments after busy work</strong> (tận hưởng những khoảnh khắc bình yên sau giờ làm việc bận rộn)"
+      ],
+      "templates": [
+        "Like you, I often read books [thời điểm đọc sách]. I usually enjoy [loại sách yêu thích] because reading really helps me [lợi ích]. It has become an essential habit in my daily routine.",
+        "As for me, I usually spend time reading [thời điểm đọc sách]. My favorite choice is [loại sách yêu thích]. Doing this habit allows me to [lợi ích] after a stressful working day."
+      ],
+      "samples": [
+        {
+          "en": "Like you, I often read books late at night before sleeping. I usually enjoy inspiring personal development books because reading really helps me relax my mind and sleep much better. It has become an essential habit in my daily routine.",
+          "vi": "Giống như bạn, tôi thường đọc sách vào đêm muộn trước khi ngủ. Tôi thường thích những cuốn sách phát triển bản thân truyền cảm hứng vì việc đọc thực sự giúp tôi thư giãn tâm trí và ngủ ngon hơn nhiều. Nó đã trở thành một thói quen thiết yếu trong sinh hoạt hàng ngày của tôi."
+        },
+        {
+          "en": "As for me, I usually spend time reading on lazy weekend afternoons. My favorite choice is exciting detective novels. Doing this habit allows me to forget all daily stress easily after a stressful working day.",
+          "vi": "Về phần tôi, tôi thường dành thời gian đọc sách vào những buổi chiều cuối tuần thảnh thơi. Lựa chọn yêu thích của tôi là những cuốn tiểu thuyết trinh thám hấp dẫn. Thói quen này cho phép tôi quên đi mọi căng thẳng hàng ngày một cách dễ dàng sau một ngày làm việc mệt mỏi."
+        }
+      ],
+      "member": "Member A"
+    },
+    "q2": {
+      "question": "Where and when do you buy books ?",
+      "vi": "Bạn mua sách ở đâu và khi nào?",
+      "vocab": [
+        "✨ [nơi mua sách]: <strong>at cozy local bookstores</strong> (tại các hiệu sách địa phương ấm cúng), <strong>from convenient online shopping websites</strong> (từ các trang web mua sắm trực tuyến tiện lợi), <strong>at weekend street book fairs</strong> (tại các hội chợ sách đường phố cuối tuần), <strong>in secondhand bookshops</strong> (ở các tiệm sách cũ), <strong>at large shopping mall bookstores</strong> (tại các hiệu sách ở trung tâm mua sắm lớn)",
+        "✨ [thời điểm mua sách]: <strong>at the beginning of every month</strong> (vào đầu mỗi tháng), <strong>whenever there is a big discount</strong> (bất cứ khi nào có đợt giảm giá lớn), <strong>on relaxing weekend afternoons</strong> (vào những buổi chiều cuối tuần thư giãn), <strong>whenever I finish an old book</strong> (bất cứ khi nào tôi đọc xong một cuốn sách cũ), <strong>before going on a long vacation</strong> (trước khi đi nghỉ mát dài ngày)",
+        "✨ [lý do]: <strong>enjoy the fresh smell of paper pages</strong> (thích mùi thơm mới của những trang giấy), <strong>find reasonable prices and home delivery</strong> (tìm thấy mức giá hợp lý và giao hàng tận nhà), <strong>hunt for rare and cheap books</strong> (săn những cuốn sách hiếm và giá rẻ), <strong>choose my favorite authors comfortably</strong> (thoải mái lựa chọn các tác giả yêu thích), <strong>spend quality time surrounded by books</strong> (dành thời gian chất lượng bên vô số cuốn sách)"
+      ],
+      "templates": [
+        "I usually buy books [nơi mua sách] [thời điểm mua sách]. I prefer buying there because I can [lý do], which makes my reading hobby much more economical and exciting.",
+        "To be honest, I often order books [nơi mua sách] [thời điểm mua sách]. It is very convenient and allows me to [lý do] without spending too much time or effort."
+      ],
+      "samples": [
+        {
+          "en": "I usually buy books at cozy local bookstores on relaxing weekend afternoons. I prefer buying there because I can enjoy the fresh smell of paper pages, which makes my reading hobby much more economical and exciting.",
+          "vi": "Tôi thường mua sách tại các hiệu sách địa phương ấm cúng vào những buổi chiều cuối tuần thư giãn. Tôi thích mua ở đó vì có thể tận hưởng mùi thơm mới của những trang giấy, điều này làm cho sở thích đọc sách của tôi thêm phần hào hứng."
+        },
+        {
+          "en": "To be honest, I often order books from convenient online shopping websites whenever there is a big discount. It is very convenient and allows me to find reasonable prices and home delivery without spending too much time or effort.",
+          "vi": "Thành thật mà nói, tôi thường đặt mua sách từ các trang web mua sắm trực tuyến tiện lợi bất cứ khi nào có đợt giảm giá lớn. Việc này rất tiện lợi và cho phép tôi tìm thấy mức giá hợp lý và giao hàng tận nhà mà không tốn quá nhiều thời gian hay công sức."
+        }
+      ],
+      "member": "Member B"
+    },
+    "q3": {
+      "question": "Nowadays, people are spending less time reading traditional books. What do you think about this?",
+      "vi": "Ngày nay, mọi người đang dành ít thời gian hơn để đọc sách truyền thống. Bạn nghĩ gì về điều này?",
+      "vocab": [
+        "✨ [nguyên nhân hiện đại]: <strong>the popularity of smartphones and social media</strong> (sự phổ biến của điện thoại thông minh và mạng xã hội), <strong>busy working schedules and fast lifestyle</strong> (lịch làm việc bận rộn và lối sống nhanh), <strong>the rise of digital ebooks and audiobooks</strong> (sự gia tăng của sách điện tử và sách nói), <strong>short entertaining videos on the internet</strong> (các video giải trí ngắn trên internet), <strong>constant digital screen distractions</strong> (sự xao nhãng liên tục từ màn hình điện tử)",
+        "✨ [mặt hạn chế]: <strong>reduces people's focus and imagination</strong> (làm giảm sự tập trung và trí tưởng tượng của mọi người), <strong>makes deep thinking much more difficult</strong> (khiến việc tư duy sâu trở nên khó khăn hơn nhiều), <strong>causes eye strain from digital screens</strong> (gây mỏi mắt do nhìn màn hình kỹ thuật số), <strong>makes people lose patience easily</strong> (khiến mọi người dễ mất kiên nhẫn), <strong>harms deep reading habits among youth</strong> (gây hại cho thói quen đọc sâu ở giới trẻ)",
+        "✨ [lời khuyên]: <strong>read physical books for thirty minutes daily</strong> (đọc sách giấy ba mươi phút mỗi ngày), <strong>join local reading clubs to stay motivated</strong> (tham gia các câu lạc bộ đọc sách địa phương để giữ động lực), <strong>put smartphones away before bedtime</strong> (cất điện thoại thông minh đi trước giờ đi ngủ), <strong>encourage children to love paper books</strong> (khuyến khích trẻ em yêu thích sách giấy), <strong>balance screen time with real reading</strong> (cân bằng thời gian dùng màn hình với việc đọc thực tế)"
+      ],
+      "templates": [
+        "In my view, people read fewer paper books due to [nguyên nhân hiện đại]. However, this trend [mặt hạn chế]. Therefore, everyone should try to [lời khuyên] every day.",
+        "I agree that traditional reading is declining because of [nguyên nhân hiện đại]. Unfortunately, this change [mặt hạn chế]. To protect good reading habits, we ought to [lời khuyên] regularly."
+      ],
+      "samples": [
+        {
+          "en": "In my view, people read fewer paper books due to the popularity of smartphones and social media. However, this trend reduces people's focus and imagination. Therefore, everyone should try to read physical books for thirty minutes daily.",
+          "vi": "Theo quan điểm của tôi, mọi người đọc ít sách giấy hơn do sự phổ biến của điện thoại thông minh và mạng xã hội. Tuy nhiên, xu hướng này làm giảm sự tập trung và trí tưởng tượng của mọi người. Vì vậy, mọi người nên cố gắng đọc sách giấy ba mươi phút mỗi ngày."
+        },
+        {
+          "en": "I agree that traditional reading is declining because of busy working schedules and fast lifestyle. Unfortunately, this change makes deep thinking much more difficult. To protect good reading habits, we ought to put smartphones away before bedtime.",
+          "vi": "Tôi đồng ý rằng việc đọc sách truyền thống đang giảm do lịch làm việc bận rộn và lối sống nhanh. Thật không may, sự thay đổi này khiến việc tư duy sâu trở nên khó khăn hơn nhiều. Để bảo vệ thói quen đọc sách tốt, chúng ta nên cất điện thoại thông minh đi trước giờ đi ngủ."
+        }
+      ],
+      "member": "Member C"
+    }
   }
 };
