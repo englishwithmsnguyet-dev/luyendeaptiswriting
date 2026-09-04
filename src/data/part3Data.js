@@ -3398,5 +3398,79 @@ export const part3Data = {
       ],
       "member": "Member C"
     }
+  },
+  "Photography club 2": {
+    "q1": {
+      "question": "Tell me about a family picture that you like the best",
+      "vi": "Hãy kể cho tôi nghe về một bức ảnh gia đình mà bạn thích nhất",
+      "vocab": [
+        "✨ [bối cảnh chụp ảnh]: <strong>during our trip to Phu Quoc island</strong> (trong chuyến đi đảo Phú Quốc của chúng tôi), <strong>on my grandparents' golden wedding anniversary</strong> (vào kỷ niệm đám cưới vàng của ông bà tôi), <strong>during the traditional Tet holiday gathering</strong> (trong buổi sum họp dịp Tết cổ truyền), <strong>at my high school graduation ceremony</strong> (tại lễ tốt nghiệp cấp ba của tôi), <strong>on a sunny family picnic weekend</strong> (vào một ngày cuối tuần dã ngoại đầy nắng của gia đình)",
+        "✨ [chi tiết bức ảnh]: <strong>everyone is smiling brightly together</strong> (mọi người đều cùng nhau nở nụ cười rạng rỡ), <strong>captures warm laughter and happy faces</strong> (ghi lại tiếng cười ấm áp và những gương mặt hạnh phúc), <strong>shows three generations standing side by side</strong> (thể hiện ba thế hệ đứng cạnh bên nhau), <strong>features beautiful blue ocean scenery behind us</strong> (có cảnh biển xanh tuyệt đẹp phía sau chúng tôi), <strong>shows all of us holding hands</strong> (thể hiện tất cả chúng tôi đang nắm tay nhau)",
+        "✨ [cảm xúc mang lại]: <strong>reminds me of wonderful unforgettable memories</strong> (nhắc nhở tôi về những kỷ niệm khó quên tuyệt vời), <strong>makes me feel loved and protected</strong> (khiến tôi cảm thấy được yêu thương và chở che), <strong>warms my heart whenever I see it</strong> (sưởi ấm trái tim tôi mỗi khi nhìn thấy nó), <strong>brings back peaceful nostalgic feelings</strong> (gợi lại những cảm xúc hoài niệm bình yên), <strong>strengthens my deep love for my family</strong> (thắt chặt tình yêu sâu sắc của tôi dành cho gia đình)"
+      ],
+      "templates": [
+        "My favorite family photograph was taken [bối cảnh chụp ảnh]. In the picture, [chi tiết bức ảnh]. Looking at this photo always [cảm xúc mang lại] after busy working days.",
+        "The family picture I love most was captured [bối cảnh chụp ảnh]. It clearly [chi tiết bức ảnh]. That special moment [cảm xúc mang lại], so I keep it on my desk."
+      ],
+      "samples": [
+        {
+          "en": "My favorite family photograph was taken during our trip to Phu Quoc island. In the picture, everyone is smiling brightly together. Looking at this photo always reminds me of wonderful unforgettable memories after busy working days.",
+          "vi": "Bức ảnh gia đình yêu thích nhất của tôi được chụp trong chuyến đi đảo Phú Quốc của chúng tôi. Trong ảnh, mọi người đều cùng nhau nở nụ cười rạng rỡ. Ngắm nhìn bức ảnh này luôn nhắc nhở tôi về những kỷ niệm khó quên tuyệt vời sau những ngày làm việc bận rộn."
+        },
+        {
+          "en": "The family picture I love most was captured during the traditional Tet holiday gathering. It clearly captures warm laughter and happy faces. That special moment warms my heart whenever I see it, so I keep it on my desk.",
+          "vi": "Bức ảnh gia đình mà tôi yêu thích nhất được chụp trong buổi sum họp dịp Tết cổ truyền. Nó ghi lại rõ nét tiếng cười ấm áp và những gương mặt hạnh phúc. Khoảnh khắc đặc biệt đó sưởi ấm trái tim tôi mỗi khi nhìn thấy nó, vì vậy tôi luôn đặt nó trên bàn làm việc."
+        }
+      ],
+      "member": "Member A"
+    },
+    "q2": {
+      "question": "What type of photograph do you like taking?",
+      "vi": "Bạn thích chụp loại ảnh nào?",
+      "vocab": [
+        "✨ [thể loại ảnh]: <strong>photos of natural landscapes and green mountains</strong> (ảnh phong cảnh thiên nhiên và núi non xanh tươi), <strong>pictures of colorful street food dishes</strong> (ảnh các món ăn đường phố rực rỡ sắc màu), <strong>candid portraits of my close friends</strong> (những bức chân dung tự nhiên của bạn thân tôi), <strong>sunset scenes along the beach</strong> (những cảnh hoàng hôn dọc theo bãi biển), <strong>vibrant street life and historic buildings</strong> (nhịp sống đường phố sôi động và các công trình lịch sử)",
+        "✨ [lý do chụp]: <strong>capture the peaceful beauty of nature</strong> (ghi lại vẻ đẹp yên bình của thiên nhiên), <strong>preserve special moments with people I love</strong> (lưu giữ những khoảnh khắc đặc biệt bên những người tôi yêu thương), <strong>record colorful local lifestyle and cultures</strong> (ghi lại lối sống và văn hóa địa phương đầy màu sắc), <strong>express my artistic creativity easily</strong> (thể hiện sự sáng tạo nghệ thuật của tôi một cách dễ dàng), <strong>appreciate small details around me</strong> (trân trọng những chi tiết nhỏ bé xung quanh tôi)",
+        "✨ [cảm xúc / lợi ích]: <strong>makes me feel relaxed and peaceful</strong> (khiến tôi cảm thấy thư giãn và bình yên), <strong>brings me great joy and inspiration</strong> (mang lại cho tôi niềm vui và cảm hứng to lớn), <strong>helps me reduce daily work stress</strong> (giúp tôi giải tỏa căng thẳng công việc hàng ngày), <strong>allows me to share nice memories online</strong> (cho phép tôi chia sẻ những kỷ niệm đẹp trên mạng), <strong>sharpens my photography eye</strong> (làm sắc bén con mắt nhiếp ảnh của tôi)"
+      ],
+      "templates": [
+        "Personally, I am really keen on taking [thể loại ảnh]. I love this style because it allows me to [lý do chụp]. Viewing these shots always [cảm xúc / lợi ích].",
+        "My absolute favorite type is taking [thể loại ảnh]. It is a wonderful way to [lý do chụp]. Practicing this photography habit regularly [cảm xúc / lợi ích] after exhausting work hours."
+      ],
+      "samples": [
+        {
+          "en": "Personally, I am really keen on taking photos of natural landscapes and green mountains. I love this style because it allows me to capture the peaceful beauty of nature. Viewing these shots always makes me feel relaxed and peaceful.",
+          "vi": "Cá nhân tôi thực sự thích chụp ảnh phong cảnh thiên nhiên và núi non xanh tươi. Tôi thích phong cách này vì nó cho phép tôi ghi lại vẻ đẹp yên bình của thiên nhiên. Ngắm nhìn những bức ảnh này luôn khiến tôi cảm thấy thư giãn và bình yên."
+        },
+        {
+          "en": "My absolute favorite type is taking candid portraits of my close friends. It is a wonderful way to preserve special moments with people I love. Practicing this photography habit regularly brings me great joy and inspiration after exhausting work hours.",
+          "vi": "Loại ảnh yêu thích nhất của tôi là chụp những bức chân dung tự nhiên của những người bạn thân. Đó là một cách tuyệt vời để lưu giữ những khoảnh khắc đặc biệt bên những người tôi yêu thương. Thường xuyên thực hành thói quen chụp ảnh này mang lại cho tôi niềm vui và nguồn cảm hứng to lớn sau những giờ làm việc mệt mỏi."
+        }
+      ],
+      "member": "Member B"
+    },
+    "q3": {
+      "question": "Is it better to use smartphones to take photos instead of using a camera? Why?",
+      "vi": "Dùng điện thoại thông minh để chụp ảnh có tốt hơn dùng máy ảnh không? Tại sao?",
+      "vocab": [
+        "✨ [quan điểm]: <strong>smartphones are much more convenient for daily use</strong> (điện thoại thông minh tiện lợi hơn nhiều cho việc sử dụng hàng ngày), <strong>using a smartphone is practical for most people</strong> (sử dụng điện thoại thông minh là thiết thực đối với hầu hết mọi người), <strong>smartphones are better for casual photography</strong> (điện thoại thông minh tốt hơn cho việc chụp ảnh thường ngày), <strong>modern phones have impressive camera quality</strong> (điện thoại hiện đại có chất lượng camera ấn tượng), <strong>traditional cameras still produce superior image quality</strong> (máy ảnh truyền thống vẫn tạo ra chất lượng hình ảnh vượt trội)",
+        "✨ [ưu điểm điện thoại]: <strong>are lightweight and fit right in our pockets</strong> (nhẹ nhàng và vừa vặn ngay trong túi của chúng ta), <strong>allow instant editing and quick social sharing</strong> (cho phép chỉnh sửa tức thì và chia sẻ nhanh lên mạng xã hội), <strong>take great high-resolution pictures automatically</strong> (tự động chụp những bức ảnh độ phân giải cao tuyệt vời), <strong>require no bulky extra lenses to carry</strong> (không cần phải mang theo ống kính rời cồng kềnh), <strong>are always ready to capture sudden moments</strong> (luôn sẵn sàng để ghi lại những khoảnh khắc bất ngờ)",
+        "✨ [kết luận / lời khuyên]: <strong>phones are ideal for everyday memories</strong> (điện thoại là lý tưởng cho những kỷ niệm hàng ngày), <strong>cameras are better for professional photoshoots</strong> (máy ảnh tốt hơn cho các buổi chụp ảnh chuyên nghiệp), <strong>smartphones meet all daily travel needs</strong> (điện thoại thông minh đáp ứng mọi nhu cầu du lịch hàng ngày), <strong>everyone can take nice photos with ease</strong> (mọi người đều có thể chụp những bức ảnh đẹp dễ dàng), <strong>smartphones are the best portable choice</strong> (điện thoại thông minh là lựa chọn di động tốt nhất)"
+      ],
+      "templates": [
+        "In my view, [quan điểm] because phones [ưu điểm điện thoại]. While professional photographers still need dedicated cameras, [kết luận / lời khuyên] without costing a fortune.",
+        "I believe that [quan điểm] since modern phones [ưu điểm điện thoại]. Unless you are a professional, [kết luận / lời khuyên] in today's digital world."
+      ],
+      "samples": [
+        {
+          "en": "In my view, smartphones are much more convenient for daily use because phones are lightweight and fit right in our pockets. While professional photographers still need dedicated cameras, phones are ideal for everyday memories without costing a fortune.",
+          "vi": "Theo quan điểm của tôi, điện thoại thông minh tiện lợi hơn nhiều cho việc sử dụng hàng ngày vì điện thoại nhẹ và vừa vặn ngay trong túi. Trong khi các nhiếp ảnh gia chuyên nghiệp vẫn cần máy ảnh chuyên dụng, điện thoại là lý tưởng cho những kỷ niệm hàng ngày mà không tốn kém nhiều tiền."
+        },
+        {
+          "en": "I believe that using a smartphone is practical for most people since modern phones allow instant editing and quick social sharing. Unless you are a professional, smartphones meet all daily travel needs in today's digital world.",
+          "vi": "Tôi tin rằng việc sử dụng điện thoại thông minh là thiết thực đối với hầu hết mọi người vì điện thoại hiện đại cho phép chỉnh sửa tức thì và chia sẻ nhanh lên mạng xã hội. Trừ khi bạn là một chuyên gia, điện thoại thông minh đáp ứng mọi nhu cầu du lịch hàng ngày trong thế giới kỹ thuật số ngày nay."
+        }
+      ],
+      "member": "Member C"
+    }
   }
 };
