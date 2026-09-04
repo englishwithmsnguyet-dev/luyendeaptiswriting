@@ -3028,5 +3028,79 @@ export const part3Data = {
         }
       ]
     }
+  },
+  "Travel club 3": {
+    "q1": {
+      "question": "Talk about the last time you travelled somewhere?",
+      "vi": "Hãy kể về lần gần nhất bạn đi du lịch ở đâu đó?",
+      "vocab": [
+        "✨ [thời điểm & địa điểm]: <strong>to Danang beach last summer</strong> (đến bãi biển Đà Nẵng mùa hè trước), <strong>to Dalat mountain city two months ago</strong> (đến thành phố núi Đà Lạt hai tháng trước), <strong>to Phu Quoc island last vacation</strong> (đến đảo Phú Quốc kỳ nghỉ trước), <strong>to the ancient town of Hoi An last year</strong> (đến phố cổ Hội An năm ngoái), <strong>to a quiet countryside village recently</strong> (đến một ngôi làng quê yên tĩnh gần đây)",
+        "✨ [hoạt động trải nghiệm]: <strong>enjoyed swimming in the blue sea</strong> (thích bơi trong làn nước biển xanh), <strong>tasted delicious local seafood dishes</strong> (thưởng thức các món hải sản địa phương ngon miệng), <strong>visited beautiful historic monuments</strong> (thăm các di tích lịch sử tươi đẹp), <strong>hiked along scenic green trails</strong> (đi bộ dọc theo các con đường mòn xanh đẹp), <strong>relaxed at cozy local cafes</strong> (thư giãn tại những quán cà phê ấm cúng)",
+        "✨ [cảm nhận]: <strong>an unforgettable and relaxing holiday</strong> (một kỳ nghỉ thư giãn và khó quên), <strong>a truly meaningful family experience</strong> (một trải nghiệm gia đình thực sự ý nghĩa), <strong>a refreshing break from daily work</strong> (một khoảng nghỉ ngơi sảng khoái sau công việc hàng ngày), <strong>a wonderful and joyful adventure</strong> (một chuyến phiêu lưu tuyệt vời và vui vẻ), <strong>a peaceful journey full of sweet memories</strong> (một chuyến hành trình bình yên tràn ngập kỷ niệm ngọt ngào)"
+      ],
+      "templates": [
+        "The last time I travelled somewhere was [thời điểm & địa điểm] with my family. During our trip, we [hoạt động trải nghiệm]. Overall, it was [cảm nhận] that I will always remember.",
+        "To be honest, my most recent trip was [thời điểm & địa điểm]. I really loved it because we [hoạt động trải nghiệm]. That journey brought me [cảm nhận] after busy working weeks."
+      ],
+      "samples": [
+        {
+          "en": "The last time I travelled somewhere was to Danang beach last summer with my family. During our trip, we enjoyed swimming in the blue sea. Overall, it was an unforgettable and relaxing holiday that I will always remember.",
+          "vi": "Lần gần nhất tôi đi du lịch là đến bãi biển Đà Nẵng vào mùa hè năm ngoái cùng gia đình. Trong chuyến đi, chúng tôi rất thích bơi trong làn nước biển xanh. Nhìn chung, đó là một kỳ nghỉ thư giãn và khó quên mà tôi sẽ luôn ghi nhớ."
+        },
+        {
+          "en": "To be honest, my most recent trip was to Dalat mountain city two months ago. I really loved it because we relaxed at cozy local cafes. That journey brought me a refreshing break from daily work after busy working weeks.",
+          "vi": "Thành thật mà nói, chuyến đi gần đây nhất của tôi là đến thành phố núi Đà Lạt cách đây hai tháng. Tôi thực sự rất thích vì chúng tôi đã thư giãn tại những quán cà phê ấm cúng. Chuyến hành trình đó đã mang lại cho tôi một khoảng nghỉ ngơi sảng khoái sau những tuần làm việc bận rộn."
+        }
+      ],
+      "member": "Member A"
+    },
+    "q2": {
+      "question": "During the holiday season, I like staying indoors to relax, but my friends prefer going out and doing different activities. Which activity do you prefer? Why?",
+      "vi": "Trong kỳ nghỉ, tôi thích ở trong nhà để thư giãn, nhưng bạn bè tôi thích ra ngoài và làm các hoạt động khác nhau. Bạn thích hoạt động nào hơn? Tại sao?",
+      "vocab": [
+        "✨ [lựa chọn yêu thích]: <strong>going outdoors with my friends</strong> (ra ngoài cùng bạn bè), <strong>staying indoors to rest quietly</strong> (ở trong nhà nghỉ ngơi yên tĩnh), <strong>taking short day trips outside</strong> (tham gia các chuyến đi dã ngoại ngắn ngày), <strong>relaxing at home with books</strong> (thư giãn ở nhà với sách), <strong>hanging out at local parks</strong> (đi chơi ở các công viên địa phương)",
+        "✨ [hoạt động yêu thích]: <strong>explore new places and take nice photos</strong> (khám phá những địa điểm mới và chụp ảnh đẹp), <strong>watch my favorite movies and cook meals</strong> (xem những bộ phim yêu thích và nấu ăn), <strong>play sports and meet lively people</strong> (chơi thể thao và gặp gỡ những người năng động), <strong>enjoy peaceful moments with soft music</strong> (tận hưởng những khoảnh khắc bình yên với âm nhạc êm dịu), <strong>try delicious street food together</strong> (cùng nhau thử các món ăn đường phố ngon lành)",
+        "✨ [lợi ích]: <strong>create wonderful memories with loved ones</strong> (tạo ra những kỷ niệm tuyệt vời với những người thân yêu), <strong>reduce workday stress and recharge energy</strong> (giảm căng thẳng công việc và nạp lại năng lượng), <strong>find inner peace and comfort</strong> (tìm thấy sự bình yên và thoải mái trong tâm hồn), <strong>make holidays more active and joyful</strong> (làm cho các kỳ nghỉ năng động và vui vẻ hơn), <strong>refresh my mind effectively</strong> (làm mới tâm trí một cách hiệu quả)"
+      ],
+      "templates": [
+        "Personally, I prefer [lựa chọn yêu thích] during holidays because I love to [hoạt động yêu thích]. Doing this helps me [lợi ích], making my vacation much more meaningful and enjoyable.",
+        "If I had to choose, I would pick [lựa chọn yêu thích]. It allows me to [hoạt động yêu thích]. In addition, it is a great way to [lợi ích] after busy work."
+      ],
+      "samples": [
+        {
+          "en": "Personally, I prefer going outdoors with my friends during holidays because I love to explore new places and take nice photos. Doing this helps me create wonderful memories with loved ones, making my vacation much more meaningful and enjoyable.",
+          "vi": "Cá nhân tôi thích ra ngoài cùng bạn bè trong các kỳ nghỉ vì tôi thích khám phá những địa điểm mới và chụp những bức ảnh đẹp. Làm điều này giúp tôi tạo ra những kỷ niệm tuyệt vời với những người thân yêu, làm cho kỳ nghỉ của tôi ý nghĩa và thú vị hơn nhiều."
+        },
+        {
+          "en": "If I had to choose, I would pick staying indoors to rest quietly. It allows me to watch my favorite movies and cook meals. In addition, it is a great way to find inner peace and comfort after busy work.",
+          "vi": "Nếu phải lựa chọn, tôi sẽ chọn ở trong nhà để nghỉ ngơi yên tĩnh. Nó cho phép tôi xem những bộ phim yêu thích và nấu ăn. Ngoài ra, đó là một cách tuyệt vời để tìm thấy sự bình yên và thoải mái sau công việc bận rộn."
+        }
+      ],
+      "member": "Member B"
+    },
+    "q3": {
+      "question": "Some tourists like taking pictures when travelling. What are some common activities of tourists when travelling to your country?",
+      "vi": "Một số khách du lịch thích chụp ảnh khi đi du lịch. Những hoạt động phổ biến của khách du lịch khi đến đất nước của bạn là gì?",
+      "vocab": [
+        "✨ [hoạt động chính]: <strong>trying famous street food dishes</strong> (thử các món ăn đường phố nổi tiếng), <strong>visiting ancient temples and pagodas</strong> (thăm các đền chùa cổ kính), <strong>exploring busy local night markets</strong> (khám phá các khu chợ đêm địa phương nhộn nhịp), <strong>relaxing on sunny sandy beaches</strong> (thư giãn trên những bãi biển cát đầy nắng), <strong>taking boat trips along scenic rivers</strong> (đi thuyền dọc theo những dòng sông thơ mộng)",
+        "✨ [hoạt động bổ sung]: <strong>taking photos of historical buildings</strong> (chụp ảnh các công trình lịch sử), <strong>buying handmade traditional souvenirs</strong> (mua quà lưu niệm truyền thống thủ công), <strong>riding motorbikes around cities</strong> (đi xe máy dạo quanh các thành phố), <strong>learning about unique local customs</strong> (tìm hiểu về những phong tục địa phương độc đáo), <strong>chatting with friendly local residents</strong> (trò chuyện cùng người dân địa phương thân thiện)",
+        "✨ [tác dụng]: <strong>give them an authentic cultural experience</strong> (mang lại cho họ một trải nghiệm văn hóa đích thực), <strong>leave a wonderful impression on them</strong> (để lại một ấn tượng tuyệt vời cho họ), <strong>make their holiday truly memorable</strong> (làm cho kỳ nghỉ của họ thực sự đáng nhớ), <strong>help them discover our rich traditions</strong> (giúp họ khám phá các truyền thống phong phú của chúng tôi), <strong>bring them lots of joyful memories</strong> (mang lại cho họ rất nhiều kỷ niệm vui vẻ)"
+      ],
+      "templates": [
+        "When visiting my country, tourists frequently enjoy [hoạt động chính]. Besides, they love [hoạt động bổ sung] during their stay. These popular activities always [tác dụng] throughout their trip.",
+        "In my country, most foreign visitors love [hoạt động chính] and [hoạt động bổ sung]. Doing these common activities regularly [tác dụng] during their wonderful vacation."
+      ],
+      "samples": [
+        {
+          "en": "When visiting my country, tourists frequently enjoy trying famous street food dishes. Besides, they love taking photos of historical buildings during their stay. These popular activities always give them an authentic cultural experience throughout their trip.",
+          "vi": "Khi đến thăm đất nước của tôi, khách du lịch thường rất thích thử các món ăn đường phố nổi tiếng. Ngoài ra, họ thích chụp ảnh các công trình lịch sử trong thời gian lưu trú. Những hoạt động phổ biến này luôn mang lại cho họ một trải nghiệm văn hóa đích thực trong suốt chuyến đi."
+        },
+        {
+          "en": "In my country, most foreign visitors love visiting ancient temples and pagodas and buying handmade traditional souvenirs. Doing these common activities regularly helps them discover our rich traditions during their wonderful vacation.",
+          "vi": "Ở đất nước của tôi, hầu hết du khách nước ngoài thích thăm các ngôi đền chùa cổ kính và mua những món quà lưu niệm truyền thống thủ công. Thực hiện những hoạt động phổ biến này thường xuyên giúp họ khám phá các truyền thống phong phú của chúng tôi trong kỳ nghỉ tuyệt vời."
+        }
+      ],
+      "member": "Member C"
+    }
   }
 };
