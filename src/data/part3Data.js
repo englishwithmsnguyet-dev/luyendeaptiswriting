@@ -3553,5 +3553,82 @@ export const part3Data = {
       ],
       "member": "Member C"
     }
+  },
+  "Film club 2": {
+    "q1": {
+      "question": "Watch a movie at night and often fall asleep when the movie is half shown. Please give me some experience.",
+      "vi": "Tôi xem phim vào ban đêm và thường ngủ thiếp đi khi phim mới chiếu được một nửa. Bạn có thể chia sẻ một số kinh nghiệm/lời khuyên không?",
+      "vocab": [
+        "✨ [lời khuyên hữu ích]: <strong>choose engaging and fast-paced movies</strong> (chọn những bộ phim lôi cuốn có tiết tấu nhanh), <strong>avoid watching films in bed</strong> (tránh xem phim trên giường), <strong>sit upright on a comfortable chair</strong> (ngồi thẳng lưng trên một chiếc ghế thoải mái), <strong>keep the room moderately lit</strong> (giữ phòng có đủ ánh sáng vừa phải), <strong>drink some cold water or herbal tea</strong> (uống một chút nước lạnh hoặc trà thảo mộc)",
+        "✨ [thời điểm / điều chỉnh]: <strong>start watching a bit earlier in the evening</strong> (bắt đầu xem sớm hơn một chút vào buổi tối), <strong>take a short break midway through</strong> (nghỉ giải lao ngắn ở giữa phim), <strong>splash cold water on your face</strong> (rửa mặt bằng nước mát), <strong>turn up the screen brightness slightly</strong> (tăng nhẹ độ sáng màn hình), <strong>snack on light and healthy nuts</strong> (ăn nhẹ các loại hạt tốt cho sức khỏe)",
+        "✨ [lý do / hiệu quả]: <strong>keeps your mind active and focused</strong> (giữ tâm trí bạn tỉnh táo và tập trung), <strong>prevents you from feeling overly cozy and drowsy</strong> (ngăn bạn cảm thấy quá dễ chịu và buồn ngủ), <strong>helps you follow the thrilling storyline easily</strong> (giúp bạn theo dõi cốt truyện ly kỳ một cách dễ dàng), <strong>stops your eyes from getting heavy quickly</strong> (giữ cho mắt bạn không bị mỏi và sụp xuống nhanh), <strong>boosts your natural alertness</strong> (tăng cường sự tỉnh táo tự nhiên của bạn)",
+        "✨ [kết quả mong đợi]: <strong>enjoy the entire movie until the end</strong> (thưởng thức trọn vẹn bộ phim cho đến cuối cùng), <strong>never miss exciting plot twists again</strong> (không bao giờ bỏ lỡ các nút thắt hấp dẫn nữa), <strong>have a much more satisfying movie night</strong> (có một buổi tối xem phim thỏa mãn hơn nhiều), <strong>stay completely awake throughout the show</strong> (hoàn toàn tỉnh táo trong suốt buổi chiếu), <strong>appreciate the full cinematic experience</strong> (trân trọng trọn vẹn trải nghiệm điện ảnh)"
+      ],
+      "templates": [
+        "To stay awake, you should [lời khuyên hữu ích] and [thời điểm / điều chỉnh]. This method [lý do / hiệu quả], so you can easily [kết quả mong đợi] without nodding off.",
+        "If I were you, I would [lời khuyên hữu ích] instead of lying in bed. Also, remember to [thời điểm / điều chỉnh] because it [lý do / hiệu quả], which helps you [kết quả mong đợi]."
+      ],
+      "samples": [
+        {
+          "en": "To stay awake, you should choose engaging and fast-paced movies and avoid watching films in bed. This method keeps your mind active and focused, so you can easily enjoy the entire movie until the end without nodding off.",
+          "vi": "Để giữ tỉnh táo, bạn nên chọn những bộ phim lôi cuốn có tiết tấu nhanh và tránh xem phim trên giường. Cách này giữ cho tâm trí bạn tỉnh táo và tập trung, nhờ đó bạn có thể dễ dàng thưởng thức trọn vẹn bộ phim cho đến phút cuối mà không bị ngủ gật."
+        },
+        {
+          "en": "If I were you, I would sit upright on a comfortable chair and start watching a bit earlier in the evening. Doing so prevents you from feeling overly cozy and drowsy, which helps you have a much more satisfying movie night.",
+          "vi": "Nếu tôi là bạn, tôi sẽ ngồi thẳng lưng trên một chiếc ghế thoải mái và bắt đầu xem sớm hơn một chút vào buổi tối. Làm như vậy sẽ ngăn bạn cảm thấy quá dễ chịu và buồn ngủ, giúp bạn có một buổi tối xem phim thỏa mãn hơn nhiều."
+        }
+      ],
+      "member": "Member A"
+    },
+    "q2": {
+      "question": "Do you prefer watching foreign movies or movies in your mother tongue? Why?",
+      "vi": "Bạn thích xem phim nước ngoài hay phim bằng tiếng mẹ đẻ hơn? Tại sao?",
+      "vocab": [
+        "✨ [lựa chọn ưu tiên]: <strong>foreign movies with English subtitles</strong> (phim nước ngoài có phụ đề tiếng Anh), <strong>international blockbuster films</strong> (các bộ phim bom tấn quốc tế), <strong>movies in my native language</strong> (những bộ phim bằng tiếng mẹ đẻ của tôi), <strong>local Vietnamese cinema productions</strong> (các tác phẩm điện ảnh Việt Nam), <strong>Hollywood and European films</strong> (phim Hollywood và châu Âu)",
+        "✨ [ưu điểm nổi bật]: <strong>have impressive visual effects and diverse plots</strong> (có kỹ xảo hình ảnh ấn tượng và cốt truyện đa dạng), <strong>reflect familiar culture and relatable humor</strong> (phản ánh văn hóa quen thuộc và sự hài hước gần gũi), <strong>feature high-budget production and great acting</strong> (có kinh phí sản xuất lớn và diễn xuất xuất sắc), <strong>convey deep emotional messages without translation</strong> (truyền tải những thông điệp cảm xúc sâu sắc mà không cần dịch thuật), <strong>show fascinating landscapes from around the globe</strong> (thể hiện những phong cảnh tuyệt đẹp từ khắp nơi trên thế giới)",
+        "✨ [lợi ích nhận được]: <strong>broaden my global horizons significantly</strong> (mở rộng đáng kể tầm nhìn toàn cầu của tôi), <strong>improve my foreign language listening skills</strong> (cải thiện kỹ năng nghe ngoại ngữ của tôi), <strong>feel deeply connected to my home traditions</strong> (cảm thấy gắn kết sâu sắc với truyền thống quê hương), <strong>learn about different cultures and lifestyles</strong> (tìm hiểu về các nền văn hóa và lối sống khác nhau), <strong>relax completely with natural spoken dialogues</strong> (thư giãn hoàn toàn với các cuộc đối thoại tự nhiên)",
+        "✨ [cảm nhận cá nhân]: <strong>truly enriching and fascinating</strong> (thực sự bổ ích và hấp dẫn), <strong>much more entertaining and touching</strong> (thú vị và cảm động hơn nhiều), <strong>an enjoyable way to unwind</strong> (một cách thú vị để thư giãn), <strong>super valuable for personal learning</strong> (siêu giá trị cho việc học tập cá nhân), <strong>always brings me great inspiration</strong> (luôn mang lại cho tôi nguồn cảm hứng lớn)"
+      ],
+      "templates": [
+        "Personally, I definitely prefer [lựa chọn ưu tiên] because they usually [ưu điểm nổi bật]. Furthermore, watching them is a wonderful way to [lợi ích nhận được] in my spare time.",
+        "In my view, [lựa chọn ưu tiên] are my favorite choice since they [ưu điểm nổi bật]. Not only do they entertain me, but they also help me [lợi ích nhận được] effectively."
+      ],
+      "samples": [
+        {
+          "en": "Personally, I definitely prefer foreign movies with English subtitles because they usually have impressive visual effects and diverse plots. Furthermore, watching them is a wonderful way to improve my foreign language listening skills and learn about different cultures.",
+          "vi": "Cá nhân tôi chắc chắn thích phim nước ngoài có phụ đề tiếng Anh hơn vì chúng thường có kỹ xảo hình ảnh ấn tượng và cốt truyện đa dạng. Hơn nữa, xem chúng là một cách tuyệt vời để cải thiện kỹ năng nghe ngoại ngữ và tìm hiểu về các nền văn hóa khác nhau."
+        },
+        {
+          "en": "In my view, movies in my native language are my favorite choice since they reflect familiar culture and relatable humor. Not only do they entertain me thoroughly, but they also allow me to relax completely with natural spoken dialogues without subtitles.",
+          "vi": "Theo quan điểm của tôi, phim bằng tiếng mẹ đẻ là lựa chọn yêu thích của tôi vì chúng phản ánh văn hóa quen thuộc và sự hài hước gần gũi. Chúng không chỉ mang tính giải trí cao mà còn cho phép tôi thư giãn hoàn toàn với các cuộc đối thoại tự nhiên mà không cần phụ đề."
+        }
+      ],
+      "member": "Member B"
+    },
+    "q3": {
+      "question": "Films produced in the past are no longer suitable for modern life? What do you think about this point of view? Why?",
+      "vi": "Những bộ phim được sản xuất trong quá khứ không còn phù hợp với cuộc sống hiện đại nữa? Bạn nghĩ gì về quan điểm này? Tại sao?",
+      "vocab": [
+        "✨ [quan điểm đánh giá]: <strong>I strongly disagree with this opinion</strong> (tôi hoàn toàn không đồng ý với ý kiến này), <strong>I believe this viewpoint is quite one-sided</strong> (tôi tin rằng quan điểm này khá phiến diện), <strong>this statement overlooks timeless cinematic values</strong> (nhận định này bỏ qua những giá trị điện ảnh vượt thời gian), <strong>classic movies still hold immense cultural value</strong> (phim kinh điển vẫn giữ giá trị văn hóa to lớn), <strong>I completely reject this narrow view</strong> (tôi hoàn toàn bác bỏ quan điểm hạn hẹp này)",
+        "✨ [giá trị của phim xưa]: <strong>convey timeless human values and deep moral lessons</strong> (truyền tải những giá trị nhân văn vượt thời gian và bài học đạo đức sâu sắc), <strong>feature brilliant storytelling and authentic acting performances</strong> (có cách kể chuyện xuất sắc và diễn xuất chân thực), <strong>help audiences understand history and past societies</strong> (giúp khán giả hiểu về lịch sử và xã hội quá khứ), <strong>focus on genuine emotional connections rather than CGI</strong> (tập trung vào sự kết nối cảm xúc chân thật hơn là kỹ xảo máy tính), <strong>contain profound philosophies that never become outdated</strong> (chứa đựng những triết lý sâu sắc không bao giờ lỗi thời)",
+        "✨ [so sánh / thực tế hiện đại]: <strong>although modern films have fancier visual technology</strong> (dù phim hiện đại có công nghệ hình ảnh bắt mắt hơn), <strong>even though pacing in older films might be slower</strong> (mặc dù nhịp độ trong phim cũ có thể chậm hơn), <strong>many modern directors still draw direct inspiration from them</strong> (nhiều đạo diễn hiện đại vẫn lấy cảm hứng trực tiếp từ chúng), <strong>great classics continue to touch millions of hearts today</strong> (những tác phẩm kinh điển tuyệt vời vẫn tiếp tục lay động hàng triệu trái tim ngày nay), <strong>audiences worldwide still admire their artistic beauty</strong> (khán giả toàn cầu vẫn ngưỡng mộ vẻ đẹp nghệ thuật của chúng)",
+        "✨ [kết luận]: <strong>remain inspiring and relevant for all generations</strong> (vẫn truyền cảm hứng và phù hợp với mọi thế hệ), <strong>deserve great appreciation in contemporary society</strong> (xứng đáng được trân trọng trong xã hội đương đại), <strong>enrich our cultural perspective significantly</strong> (làm phong phú đáng kể góc nhìn văn hóa của chúng ta), <strong>stand the test of time gracefully</strong> (vượt qua thử thách của thời gian một cách ngoạn mục)"
+      ],
+      "templates": [
+        "I strongly disagree with this view because classic films [giá trị của phim xưa]. Although [so sánh / thực tế hiện đại], their meaningful messages [kết luận] in today's world.",
+        "In my opinion, this viewpoint is quite one-sided since movies from the past [giá trị của phim xưa]. Even though [so sánh / thực tế hiện đại], they still [kết luận] across generations."
+      ],
+      "samples": [
+        {
+          "en": "I strongly disagree with this view because classic films convey timeless human values and deep moral lessons. Although modern films have fancier visual technology, older masterpieces focus on genuine emotions, which remain inspiring and relevant for all generations today.",
+          "vi": "Tôi hoàn toàn không đồng ý với quan điểm này vì các bộ phim kinh điển truyền tải những giá trị nhân văn vượt thời gian và bài học đạo đức sâu sắc. Mặc dù phim hiện đại có công nghệ hình ảnh bắt mắt hơn, những kiệt tác xưa tập trung vào cảm xúc chân thật, điều vẫn truyền cảm hứng và phù hợp với mọi thế hệ ngày nay."
+        },
+        {
+          "en": "In my opinion, this viewpoint is quite one-sided since older films feature brilliant storytelling and authentic acting performances. Even though modern life moves faster, these classic movies help us understand history and continue to touch millions of hearts deeply.",
+          "vi": "Theo ý kiến của tôi, quan điểm này khá phiến diện vì các bộ phim xưa có cách kể chuyện xuất sắc và diễn xuất chân thực. Mặc dù cuộc sống hiện đại diễn ra nhanh hơn, những bộ phim kinh điển này giúp chúng ta hiểu về lịch sử và tiếp tục lay động sâu sắc hàng triệu trái tim."
+        }
+      ],
+      "member": "Member C"
+    }
   }
 };
