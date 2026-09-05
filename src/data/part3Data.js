@@ -3642,5 +3642,92 @@ export const part3Data = {
       ],
       "member": "Member C"
     }
+  },
+  "Garden club 2": {
+    "q1": {
+      "question": "Which kind of garden do you prefer: vegetable or flower garden?",
+      "vi": "Bạn thích loại vườn nào hơn: vườn rau hay vườn hoa?",
+      "vocab": [
+        "✨ [lựa chọn yêu thích]: <strong>a fresh vegetable garden</strong> (một khu vườn rau tươi sạch), <strong>a colorful flower garden</strong> (một khu vườn hoa rực rỡ), <strong>growing organic vegetables</strong> (trồng rau hữu cơ sạch), <strong>planting aromatic flowering plants</strong> (trồng các loài hoa thơm ngát), <strong>having a vibrant flower garden</strong> (sở hữu một khu vườn hoa rực rỡ đầy sức sống), <strong>cultivating my own vegetable patch</strong> (canh tác mảnh vườn rau của riêng mình)",
+        "✨ [lợi ích thiết thực / thẩm mỹ]: <strong>provides fresh and healthy vegetables</strong> (cung cấp rau củ tươi và tốt cho sức khỏe), <strong>makes the house look colorful and lively</strong> (làm cho ngôi nhà trông rực rỡ và tràn đầy sức sống), <strong>saves money on daily groceries</strong> (tiết kiệm tiền mua thực phẩm hằng ngày), <strong>supplies safe organic produce for daily meals</strong> (cung cấp nông sản hữu cơ an toàn cho bữa ăn hằng ngày), <strong>beautifies the living space with vibrant colors</strong> (làm đẹp không gian sống với những sắc màu rực rỡ), <strong>creates an aromatic and peaceful atmosphere</strong> (tạo nên bầu không khí thơm ngát và thanh bình)",
+        "✨ [lợi ích tinh thần / cảm nhận]: <strong>helps me relax after a busy day</strong> (giúp tôi thư giãn sau một ngày bận rộn), <strong>brings me a lot of joy</strong> (mang lại cho tôi rất nhiều niềm vui), <strong>gives me immense peace of mind</strong> (mang lại cho tôi sự thanh thản tuyệt đối), <strong>provides a wonderful sense of accomplishment</strong> (mang lại cảm giác thành tựu tuyệt vời), <strong>helps melt away daily work stress</strong> (giúp xua tan những căng thẳng công việc hằng ngày), <strong>connects me closer to nature</strong> (kết nối tôi gần gũi hơn với thiên nhiên)"
+      ],
+      "templates": [
+        "Personally, I definitely prefer [lựa chọn yêu thích] because it [lợi ích thiết thực / thẩm mỹ]. Furthermore, taking care of plants [lợi ích tinh thần / cảm nhận] every single day.",
+        "In my view, [lựa chọn yêu thích] is my top choice since it [lợi ích thiết thực / thẩm mỹ]. Not only that, it also [lợi ích tinh thần / cảm nhận] in my free time."
+      ],
+      "samples": [
+        {
+          "en": "Personally, I definitely prefer growing organic vegetables because it supplies safe produce for daily meals. Furthermore, cultivating my own vegetables provides a wonderful sense of accomplishment and helps melt away work stress after a demanding day.",
+          "vi": "Cá nhân tôi chắc chắn thích trồng rau hữu cơ hơn vì nó cung cấp nông sản an toàn cho các bữa ăn hằng ngày. Hơn nữa, tự trồng rau mang lại cảm giác thành tựu tuyệt vời và giúp xua tan căng thẳng công việc sau một ngày vất vả."
+        },
+        {
+          "en": "In my view, having a vibrant flower garden is my top choice since it beautifies our living space with lovely colors. Not only that, breathing in the sweet fragrance of blossoms gives me immense peace of mind every morning.",
+          "vi": "Theo quan điểm của tôi, sở hữu một khu vườn hoa rực rỡ là lựa chọn hàng đầu của tôi vì nó làm đẹp không gian sống với những sắc màu đáng yêu. Không chỉ vậy, việc hít thở hương thơm ngọt ngào của những bông hoa mang lại cho tôi sự thanh thản tuyệt đối mỗi sáng."
+        },
+        {
+          "en": "Personally, I prefer a fresh vegetable garden because it provides clean food for my family and saves grocery money. In addition, watering the green plants every afternoon helps me relax easily and brings me a lot of joy.",
+          "vi": "Cá nhân tôi thích một khu vườn rau tươi sạch hơn vì nó cung cấp thực phẩm sạch cho gia đình tôi và tiết kiệm tiền chợ. Ngoài ra, việc tưới những luống cây xanh mỗi buổi chiều giúp tôi thư giãn dễ dàng và mang lại cho tôi rất nhiều niềm vui."
+        }
+      ],
+      "member": "Member A"
+    },
+    "q2": {
+      "question": "I am confused between buying a house with or without a garden. What is your opinion?",
+      "vi": "Tôi đang phân vân giữa việc mua một ngôi nhà có vườn hay không có vườn. Ý kiến của bạn thế nào?",
+      "vocab": [
+        "✨ [lời khuyên lựa chọn]: <strong>you should buy a house with a garden</strong> (bạn nên mua một ngôi nhà có vườn), <strong>a house without a garden is more practical</strong> (nhà không có vườn thì thực tế hơn), <strong>I strongly suggest choosing a house with a garden</strong> (tôi đặc biệt khuyên bạn nên chọn nhà có vườn), <strong>opting for a garden house is definitely worthwhile</strong> (lựa chọn một ngôi nhà có vườn chắc chắn rất đáng giá), <strong>buying a house without a garden suits busy lifestyles better</strong> (mua nhà không có vườn phù hợp hơn với lối sống bận rộn)",
+        "✨ [lý do ủng hộ nhà có vườn]: <strong>gives you fresh air and space for children to play</strong> (cho bạn không khí trong lành và không gian cho trẻ con chơi đùa), <strong>lets you grow flowers and relax outdoors</strong> (cho phép bạn trồng hoa và thư giãn ngoài trời), <strong>creates a peaceful and green living environment</strong> (tạo nên một môi trường sống yên bình và xanh tươi), <strong>offers fresh air and scenic outdoor relaxation</strong> (mang lại không khí trong lành và không gian thư giãn ngoài trời nên thơ), <strong>greatly enhances your overall quality of life</strong> (nâng cao đáng kể chất lượng cuộc sống tổng thể của bạn)",
+        "✨ [mặt cân nhắc / nhà không vườn]: <strong>requires more time and effort to maintain</strong> (đòi hỏi nhiều thời gian và công sức để chăm sóc), <strong>costs extra money for garden care</strong> (tốn thêm tiền để chăm sóc vườn), <strong>is easier to clean and manage</strong> (dễ lau dọn và quản lý hơn), <strong>demands regular gardening maintenance and extra costs</strong> (đòi hỏi việc bảo dưỡng làm vườn thường xuyên và chi phí phụ trội), <strong>might be overwhelming if you work long hours</strong> (có thể gây quá tải nếu bạn làm việc nhiều giờ), <strong>saves considerable upkeep time for working professionals</strong> (tiết kiệm đáng kể thời gian chăm sóc cho người đi làm bận rộn)"
+      ],
+      "templates": [
+        "In my opinion, you should [lời khuyên lựa chọn] because it [lý do ủng hộ nhà có vườn]. Even though a garden [mặt cân nhắc / nhà không vườn], the long-term benefits are totally worth it.",
+        "If I were you, I would [lời khuyên lựa chọn] since it [lý do ủng hộ nhà có vườn]. However, remember that maintaining a garden [mặt cân nhắc / nhà không vườn], so consider your schedule carefully."
+      ],
+      "samples": [
+        {
+          "en": "In my opinion, you should choose a house with a garden because it offers fresh air and scenic outdoor relaxation. Even though maintaining greenery requires regular effort and extra costs, having your own natural haven greatly enhances your life quality.",
+          "vi": "Theo ý kiến của tôi, bạn nên chọn một ngôi nhà có vườn vì nó mang lại không khí trong lành và không gian thư giãn ngoài trời nên thơ. Mặc dù việc chăm sóc cây xanh đòi hỏi nỗ lực thường xuyên và chi phí phụ trợ, việc sở hữu góc thiên nhiên riêng sẽ nâng cao đáng kể chất lượng cuộc sống của bạn."
+        },
+        {
+          "en": "If you have a hectic schedule, buying a house without a garden might be more practical since it saves substantial upkeep time. However, if you have children or pets, a private garden provides an invaluable open area to unwind safely.",
+          "vi": "Nếu bạn có lịch trình bận rộn, mua nhà không có vườn có thể thực tế hơn vì nó tiết kiệm đáng kể thời gian chăm sóc. Tuy nhiên, nếu bạn có con nhỏ hoặc thú cưng, một khu vườn riêng sẽ mang lại không gian mở vô giá để thư giãn an toàn."
+        },
+        {
+          "en": "In my opinion, you should buy a house with a garden because it gives you fresh air and space for children to play. Although caring for plants takes some time, enjoying nature right at home will make you much happier.",
+          "vi": "Theo ý kiến của tôi, bạn nên mua một ngôi nhà có vườn vì nó mang lại cho bạn không khí trong lành và không gian cho trẻ con chơi đùa. Mặc dù chăm sóc cây cối tốn một chút thời gian, nhưng việc được tận hưởng thiên nhiên ngay tại nhà sẽ khiến bạn hạnh phúc hơn nhiều."
+        }
+      ],
+      "member": "Member B"
+    },
+    "q3": {
+      "question": "I am living in the city centre, but I like the natural open space. How can I enjoy nature more?",
+      "vi": "Tôi đang sống ở trung tâm thành phố, nhưng tôi thích không gian mở tự nhiên. Làm thế nào để tôi có thể tận hưởng thiên nhiên nhiều hơn?",
+      "vocab": [
+        "✨ [giải pháp tại chỗ / nhà ở]: <strong>grow potted plants on your balcony</strong> (trồng cây cảnh trong chậu ngoài ban công), <strong>place indoor plants near your windows</strong> (đặt cây trong nhà gần cửa sổ), <strong>create a small green corner at home</strong> (tạo một góc xanh nhỏ tại nhà), <strong>create a balcony garden with potted herbs</strong> (tạo khu vườn ban công với các chậu thảo mộc), <strong>decorate your apartment with air-purifying indoor plants</strong> (trang trí căn hộ với các loại cây thanh lọc không khí), <strong>set up a mini rooftop green sanctuary</strong> (thiết lập một góc xanh bình yên trên sân thượng)",
+        "✨ [hoạt động ngoài trời trong thành phố]: <strong>take a walk in the local park</strong> (đi dạo trong công viên địa phương), <strong>jog around the city lake every morning</strong> (chạy bộ quanh hồ thành phố mỗi sáng), <strong>visit the botanical garden on weekends</strong> (ghé thăm vườn bách thảo vào cuối tuần), <strong>take daily morning strolls in public parks</strong> (đi dạo buổi sáng hằng ngày trong công viên công cộng), <strong>jog around urban botanical gardens regularly</strong> (chạy bộ quanh vườn bách thảo đô thị thường xuyên)",
+        "✨ [chuyến đi ngắn ngày / cuối tuần]: <strong>go camping on weekends</strong> (đi cắm trại vào cuối tuần), <strong>take short weekend trips to the countryside</strong> (thực hiện các chuyến đi ngắn cuối tuần về miền quê), <strong>travel to nearby mountains or lakes</strong> (đi du lịch đến những ngọn núi hoặc hồ nước gần đó), <strong>plan weekend getaways to countryside ecoparks</strong> (lên kế hoạch cho các chuyến đi cuối tuần đến các khu sinh thái ngoại ô), <strong>escape the bustling city for camping trips</strong> (rời khỏi thành phố nhộn nhịp để đi cắm trại)",
+        "✨ [hiệu quả mang lại]: <strong>helps you breathe fresh air and feel relaxed</strong> (giúp bạn hít thở không khí trong lành và cảm thấy thư thái), <strong>makes you feel close to nature</strong> (khiến bạn cảm thấy gần gũi với thiên nhiên), <strong>recharges your energy easily</strong> (nạp lại năng lượng cho bạn một cách dễ dàng), <strong>reconnects your mind with the natural world</strong> (kết nối lại tâm trí bạn với thế giới tự nhiên), <strong>recharges your mental energy completely</strong> (nạp lại hoàn toàn năng lượng tinh thần cho bạn), <strong>refreshes your mood and relieves urban fatigue</strong> (làm mới tâm trạng và xua đi sự mệt mỏi chốn đô thị)"
+      ],
+      "templates": [
+        "To enjoy nature in the city, you can [giải pháp tại chỗ / nhà ở] and [hoạt động ngoài trời trong thành phố]. Furthermore, you should [chuyến đi ngắn ngày / cuối tuần] because it definitely [hiệu quả mang lại].",
+        "Living downtown, you can easily [hoạt động ngoài trời trong thành phố] every morning or [giải pháp tại chỗ / nhà ở]. On weekends, [chuyến đi ngắn ngày / cuối tuần] is also an excellent way to [hiệu quả mang lại]."
+      ],
+      "samples": [
+        {
+          "en": "To enjoy nature while living downtown, you can create a balcony garden with potted herbs and take daily strolls in public parks. Additionally, taking weekend camping trips to the countryside reconnects your mind with nature and recharges your mental energy completely.",
+          "vi": "Để tận hưởng thiên nhiên khi sống ở trung tâm thành phố, bạn có thể tạo một khu vườn ban công với các chậu thảo mộc và đi dạo hằng ngày trong công viên công cộng. Ngoài ra, việc thực hiện những chuyến cắm trại cuối tuần về vùng quê sẽ kết nối lại tâm trí bạn với thiên nhiên và nạp lại hoàn toàn năng lượng tinh thần."
+        },
+        {
+          "en": "Living downtown, you can easily jog around city botanical gardens every morning or decorate your flat with indoor plants. On weekends, planning getaways to nearby countryside ecoparks is an excellent way to breathe fresh air and relieve urban fatigue effectively.",
+          "vi": "Sống ở trung tâm thành phố, bạn có thể dễ dàng chạy bộ quanh vườn bách thảo thành phố mỗi sáng hoặc trang trí căn hộ với cây cảnh trong nhà. Vào cuối tuần, lên kế hoạch cho các chuyến đi đến các khu sinh thái ngoại ô lân cận là cách tuyệt vời để hít thở không khí trong lành và xua tan mệt mỏi đô thị một cách hiệu quả."
+        },
+        {
+          "en": "To enjoy nature in the city, you can grow potted plants on your balcony and take walks in the local park. In addition, taking short weekend trips to the countryside helps you breathe fresh air and recharges your energy easily.",
+          "vi": "Để tận hưởng thiên nhiên trong thành phố, bạn có thể trồng cây cảnh trong chậu ngoài ban công và đi dạo trong công viên địa phương. Ngoài ra, việc thực hiện những chuyến đi ngắn cuối tuần về miền quê giúp bạn hít thở không khí trong lành và nạp lại năng lượng một cách dễ dàng."
+        }
+      ],
+      "member": "Member C"
+    }
   }
 };
