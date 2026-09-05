@@ -3727,6 +3727,91 @@ export const part3Data = {
           "vi": "Để tận hưởng thiên nhiên trong thành phố, bạn có thể trồng cây cảnh trong chậu ngoài ban công và đi dạo trong công viên địa phương. Ngoài ra, việc thực hiện những chuyến đi ngắn cuối tuần về miền quê giúp bạn hít thở không khí trong lành và nạp lại năng lượng một cách dễ dàng."
         }
       ],
+    }
+  },
+  "Home living club 2": {
+    "q1": {
+      "question": "Describe the room where you are living?",
+      "vi": "Hãy miêu tả căn phòng nơi bạn đang sống?",
+      "vocab": [
+        "✨ [đặc điểm căn phòng]: <strong>a cozy bedroom with a big window</strong> (một phòng ngủ ấm cúng có cửa sổ lớn), <strong>a small and tidy room</strong> (một căn phòng nhỏ và ngăn nắp), <strong>a bright room with lots of natural light</strong> (một căn phòng sáng sủa với nhiều ánh sáng tự nhiên), <strong>a bright and minimalist bedroom</strong> (một phòng ngủ sáng sủa và tối giản), <strong>a well-ventilated studio room</strong> (một căn phòng studio thoáng khí), <strong>a spacious master bedroom with a balcony</strong> (phòng ngủ chính rộng rãi có ban công)",
+        "✨ [nội thất & tiện nghi]: <strong>a comfortable bed and a wooden desk</strong> (một chiếc giường thoải mái và bàn gỗ), <strong>a bookshelf full of interesting books</strong> (giá sách đầy ắp sách hay), <strong>a neat wardrobe and a study chair</strong> (tủ quần áo gọn gàng và ghế học), <strong>a comfortable queen-size bed and an ergonomic desk</strong> (giường cỡ lớn êm ái và bàn làm việc công thái học), <strong>a well-organized bookshelf and soft warm lighting</strong> (giá sách sắp xếp ngăn nắp và ánh sáng vàng ấm áp), <strong>modern furniture with neutral wall colors</strong> (nội thất hiện đại với màu tường trung tính)",
+        "✨ [cảm nhận / hoạt động yêu thích]: <strong>helps me relax and sleep well after work</strong> (giúp tôi thư giãn và ngủ ngon sau giờ làm), <strong>is my favorite place to read books</strong> (là nơi yêu thích của tôi để đọc sách), <strong>makes me feel comfortable and safe</strong> (khiến tôi cảm thấy thoải mái và an toàn), <strong>offers me a peaceful sanctuary to unwind</strong> (mang lại cho tôi một nơi chốn bình yên để thư giãn), <strong>provides the perfect quiet environment for focused studying</strong> (mang lại môi trường yên tĩnh hoàn hảo để học tập tập trung), <strong>brings me immense comfort and positive energy</strong> (mang lại cho tôi sự thoải mái to lớn và năng lượng tích cực)"
+      ],
+      "templates": [
+        "Currently, I live in [đặc điểm căn phòng] that is furnished with [nội thất & tiện nghi]. This lovely space [cảm nhận / hoạt động yêu thích] after a demanding day at work.",
+        "My private living space is [đặc điểm căn phòng]. It has [nội thất & tiện nghi], which [cảm nhận / hoạt động yêu thích] whenever I spend time there."
+      ],
+      "samples": [
+        {
+          "en": "Currently, I live in a bright and minimalist bedroom that is furnished with a comfortable bed and an organized bookshelf. This quiet space offers me a peaceful sanctuary to unwind and read books after a demanding day at work.",
+          "vi": "Hiện tại, tôi sống trong một phòng ngủ sáng sủa và tối giản, được trang bị một chiếc giường thoải mái và giá sách ngăn nắp. Không gian yên tĩnh này mang lại cho tôi một chốn bình yên để thư giãn và đọc sách sau một ngày làm việc căng thẳng."
+        },
+        {
+          "en": "My private living space is a spacious bedroom with a lovely balcony. It features modern wooden furniture and large windows with lots of sunlight, which brings me immense comfort and positive energy whenever I study or relax.",
+          "vi": "Không gian sống riêng tư của tôi là một phòng ngủ rộng rãi có ban công xinh xắn. Phòng có đồ nội thất gỗ hiện đại và những ô cửa sổ lớn đón nhiều ánh nắng, mang lại cho tôi sự thoải mái to lớn và năng lượng tích cực mỗi khi học tập hay thư giãn."
+        },
+        {
+          "en": "Currently, I live in a cozy bedroom with a big window. It has a comfortable bed, a wooden desk, and a neat wardrobe. This room is very bright, which helps me relax and sleep well after a busy day.",
+          "vi": "Hiện tại, tôi sống trong một phòng ngủ ấm cúng có cửa sổ lớn. Phòng có một chiếc giường êm ái, một chiếc bàn gỗ và tủ quần áo gọn gàng. Căn phòng này rất sáng sủa, giúp tôi thư giãn và ngủ ngon sau một ngày bận rộn."
+        }
+      ],
+      "member": "Member A"
+    },
+    "q2": {
+      "question": "Which place do you want to live in: countryside or city? Why?",
+      "vi": "Bạn muốn sống ở nơi nào hơn: nông thôn hay thành phố? Tại sao?",
+      "vocab": [
+        "✨ [nơi muốn sống]: <strong>live in a modern city</strong> (sống ở một thành phố hiện đại), <strong>settle down in the quiet countryside</strong> (định cư ở miền quê yên bình), <strong>live in a vibrant urban area</strong> (sống ở một đô thị sôi động), <strong>reside in a dynamic metropolis</strong> (sinh sống tại một đại đô thị năng động), <strong>settle in a tranquil rural village</strong> (an cư tại một ngôi làng quê yên tĩnh), <strong>enjoy life in a bustling city centre</strong> (tận hưởng cuộc sống ở trung tâm thành phố nhộn nhịp)",
+        "✨ [lý do ưu tiên]: <strong>better career opportunities and convenient public transport</strong> (cơ hội nghề nghiệp tốt hơn và phương tiện công cộng tiện lợi), <strong>fresh air, open space, and peaceful nature</strong> (không khí trong lành, không gian mở và thiên nhiên yên bình), <strong>modern shopping malls and top healthcare facilities</strong> (các trung tâm mua sắm hiện đại và cơ sở y tế hàng đầu), <strong>abundant career prospects and excellent amenities</strong> (triển vọng nghề nghiệp phong phú và tiện ích tuyệt vời), <strong>a peaceful atmosphere and close connection to nature</strong> (bầu không khí thanh bình và gắn kết gần gũi với thiên nhiên)",
+        "✨ [kỳ vọng lối sống]: <strong>helps me develop my future career easily</strong> (giúp tôi phát triển sự nghiệp tương lai dễ dàng), <strong>allows me to lead a healthy and stress-free life</strong> (cho phép tôi có một cuộc sống lành mạnh và không căng thẳng), <strong>makes daily life much more comfortable</strong> (làm cho cuộc sống hằng ngày thoải mái hơn nhiều), <strong>accelerates my professional career growth</strong> (thúc đẩy sự phát triển sự nghiệp chuyên môn của tôi), <strong>fosters a peaceful and balanced lifestyle</strong> (nuôi dưỡng một lối sống cân bằng và bình yên)"
+      ],
+      "templates": [
+        "Personally, I would definitely choose to [nơi muốn sống] because it provides [lý do ưu tiên]. Furthermore, living there [kỳ vọng lối sống] in the long run.",
+        "In my view, I prefer to [nơi muốn sống] since this place offers [lý do ưu tiên]. This ideal environment definitely [kỳ vọng lối sống] every day."
+      ],
+      "samples": [
+        {
+          "en": "Personally, I would definitely choose to live in a dynamic city because it provides abundant career opportunities and excellent public transport. Furthermore, having modern hospitals and shopping malls nearby makes daily life much more convenient and enjoyable in the long run.",
+          "vi": "Cá nhân tôi chắc chắn sẽ chọn sống ở một thành phố năng động vì nơi đây mang lại nhiều cơ hội nghề nghiệp và giao thông công cộng tuyệt vời. Hơn nữa, việc có bệnh viện hiện đại và trung tâm thương mại gần đó khiến cuộc sống hằng ngày thuận tiện và thú vị hơn nhiều về lâu dài."
+        },
+        {
+          "en": "In my view, I prefer to settle down in the peaceful countryside since it offers fresh air and close contact with nature. Escaping urban noise and traffic congestion allows me to lead a healthy lifestyle and find genuine inner peace.",
+          "vi": "Theo quan điểm của tôi, tôi thích định cư ở vùng nông thôn yên bình vì nơi đây mang lại không khí trong lành và sự gắn kết gần gũi với thiên nhiên. Thoát khỏi tiếng ồn đô thị và tắc nghẽn giao thông cho phép tôi duy trì lối sống lành mạnh và tìm thấy sự bình yên thực sự trong tâm hồn."
+        },
+        {
+          "en": "Personally, I prefer living in the city because it offers better job opportunities and modern shopping centers. In addition, convenient public transport and good hospitals help me save traveling time and live a very comfortable life.",
+          "vi": "Cá nhân tôi thích sống ở thành phố hơn vì nơi đây có nhiều cơ hội việc làm tốt hơn và các trung tâm mua sắm hiện đại. Ngoài ra, giao thông công cộng thuận tiện và bệnh viện tốt giúp tôi tiết kiệm thời gian đi lại và có một cuộc sống rất thoải mái."
+        }
+      ],
+      "member": "Member B"
+    },
+    "q3": {
+      "question": "Nowadays, some people destroy old and ancient buildings in order to build modern buildings. What do you think about this?",
+      "vi": "Ngày nay, một số người phá bỏ các tòa nhà cũ và cổ kính để xây dựng các tòa nhà hiện đại. Bạn nghĩ gì về điều này?",
+      "vocab": [
+        "✨ [quan điểm đánh giá]: <strong>I disagree with this action</strong> (tôi không đồng ý với hành động này), <strong>I think this is a big mistake</strong> (tôi nghĩ đây là một sai lầm lớn), <strong>I strongly disagree with destroying old buildings</strong> (tôi hoàn toàn không đồng ý với việc phá bỏ các tòa nhà cổ), <strong>I firmly oppose the destruction of historic architecture</strong> (tôi kịch liệt phản đối việc phá dỡ kiến trúc lịch sử), <strong>this trend seriously damages our national cultural heritage</strong> (xu hướng này làm tổn hại nghiêm trọng di sản văn hóa dân tộc)",
+        "✨ [giá trị của công trình cổ]: <strong>represent our precious history and culture</strong> (đại diện cho lịch sử và văn hóa quý báu của chúng ta), <strong>remind young people of their roots and traditions</strong> (nhắc nhở giới trẻ về cội nguồn và truyền thống), <strong>attract many foreign tourists to the city</strong> (thu hút nhiều du khách nước ngoài đến thành phố), <strong>carry priceless historical memories and architectural beauty</strong> (chứa đựng những ký ức lịch sử vô giá và vẻ đẹp kiến trúc), <strong>serve as irreplaceable cultural symbols of our past</strong> (đóng vai trò như những biểu tượng văn hóa không thể thay thế của quá khứ)",
+        "✨ [thực tế hiện đại / giải pháp]: <strong>modern buildings are also necessary for growing cities</strong> (các tòa nhà hiện đại cũng cần thiết cho các thành phố đang phát triển), <strong>we should restore old buildings instead of demolishing them</strong> (chúng ta nên trùng tu các tòa nhà cũ thay vì phá hủy chúng), <strong>we can build modern offices in new areas</strong> (chúng ta có thể xây dựng các văn phòng hiện đại ở các khu vực mới), <strong>authorities should renovate and preserve historic landmarks</strong> (chính quyền nên cải tạo và bảo tồn các danh lam lịch sử), <strong>cities must balance architectural preservation with new infrastructure</strong> (các thành phố phải cân bằng giữa bảo tồn kiến trúc với cơ sở hạ tầng mới)"
+      ],
+      "templates": [
+        "I strongly disagree with demolishing historic architecture because ancient structures [giá trị của công trình cổ]. Although modern infrastructure is needed, authorities should [thực tế hiện đại / giải pháp] rather than destroying our roots.",
+        "In my opinion, destroying old buildings is unacceptable since they [giá trị của công trình cổ]. While cities need modernization, we can easily [thực tế hiện đại / giải pháp] to protect cultural identity."
+      ],
+      "samples": [
+        {
+          "en": "I firmly oppose destroying ancient buildings because they carry priceless historical memories and architectural beauty. Although modern offices are needed for economic growth, authorities should renovate historic landmarks instead of demolishing them, preserving cultural identity for future generations.",
+          "vi": "Tôi kiên quyết phản đối việc phá hủy các tòa nhà cổ kính vì chúng chứa đựng những ký ức lịch sử vô giá và vẻ đẹp kiến trúc. Mặc dù văn phòng hiện đại là cần thiết cho tăng trưởng kinh tế, chính quyền nên trùng tu các di tích lịch sử thay vì phá dỡ chúng, bảo tồn bản sắc văn hóa cho các thế hệ tương lai."
+        },
+        {
+          "en": "In my opinion, demolishing historic architecture is a huge mistake since these monuments represent our precious cultural roots and attract international tourists. Cities certainly need modern buildings, but new skyscrapers should be constructed in designated suburban zones instead.",
+          "vi": "Theo ý kiến của tôi, việc phá bỏ kiến trúc lịch sử là một sai lầm lớn vì những công trình này đại diện cho cội nguồn văn hóa quý báu của chúng ta và thu hút du khách quốc tế. Các thành phố chắc chắn cần các tòa nhà hiện đại, nhưng những tòa nhà chọc trời mới nên được xây dựng ở các khu vực ngoại ô được chỉ định."
+        },
+        {
+          "en": "I disagree with this action because ancient buildings represent our precious history and culture. Although modern buildings are necessary for growing cities, we should restore old structures instead of destroying them so young people can learn about their traditions.",
+          "vi": "Tôi không đồng ý với hành động này vì các tòa nhà cổ đại diện cho lịch sử và văn hóa quý giá của chúng ta. Mặc dù các tòa nhà hiện đại là cần thiết cho các thành phố đang phát triển, chúng ta nên trùng tu các công trình cũ thay vì phá hủy chúng để người trẻ có thể tìm hiểu về truyền thống của mình."
+        }
+      ],
       "member": "Member C"
     }
   }
