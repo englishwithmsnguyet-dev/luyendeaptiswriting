@@ -9,6 +9,40 @@ import {
 } from 'lucide-react';
 import { exportToWord } from '../utils/exportToWord';
 
+// Helper to render text with vivid yellow/gold highlight for all [ ... ] placeholders
+export const renderHighlightedText = (text) => {
+  if (!text) return null;
+  const parts = text.split(/(\[[^\]]+\])/g);
+
+  return parts.map((part, idx) => {
+    if (part.startsWith('[') && part.endsWith(']')) {
+      return (
+        <mark
+          key={idx}
+          style={{
+            backgroundColor: '#fef08a', // Vibrant highlighter yellow
+            color: '#78350f',          // Dark amber text for maximum contrast
+            border: '1.5px dashed #d97706',
+            borderRadius: '6px',
+            padding: '0.15rem 0.55rem',
+            margin: '0.1rem 0.2rem',
+            fontWeight: 800,
+            fontSize: '0.92em',
+            boxShadow: '0 2px 5px rgba(217, 119, 6, 0.2)',
+            display: 'inline-block',
+            lineHeight: '1.35',
+            verticalAlign: 'baseline'
+          }}
+          title="Chỗ cần thay thế thông tin từ đề bài"
+        >
+          ✏️ {part}
+        </mark>
+      );
+    }
+    return <span key={idx}>{part}</span>;
+  });
+};
+
 const Part4 = () => {
   const clubNames = Object.keys(part4Data).sort((a, b) => a.localeCompare(b));
   const [selectedClub, setSelectedClub] = useState(clubNames[0] || 'Walking club');
@@ -751,58 +785,24 @@ const Part4 = () => {
                         </button>
                       </div>
 
-                      {/* Interactive Sentence Breakdown */}
-                      <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem', fontSize: '0.92rem', lineHeight: '1.6', color: '#0f172a' }}>
-                        <div style={{ padding: '0.4rem 0.6rem', backgroundColor: '#ffffff', borderRadius: '6px', border: '1px solid #dcfce7' }}>
-                          <span style={{ fontWeight: 700, color: '#15803d' }}>Dear </span>
-                          <span style={{ backgroundColor: '#fef3c7', color: '#b45309', padding: '0.1rem 0.4rem', borderRadius: '4px', fontWeight: 700, border: '1px dashed #f59e0b' }}>
-                            [Tên bạn: Kim / Alex]
-                          </span>
-                          <span style={{ fontWeight: 700, color: '#15803d' }}>,</span>
-                        </div>
+                      {/* Dynamic Highlighted Template for current club */}
+                      <div style={{ 
+                        backgroundColor: '#ffffff', 
+                        padding: '1rem 1.2rem', 
+                        borderRadius: '8px', 
+                        border: '1px solid #dcfce7',
+                        fontSize: '0.96rem',
+                        lineHeight: '1.85',
+                        whiteSpace: 'pre-wrap',
+                        color: '#0f172a',
+                        fontFamily: 'inherit'
+                      }}>
+                        {renderHighlightedText(clubData.email1.template)}
+                      </div>
 
-                        <div style={{ padding: '0.4rem 0.6rem', backgroundColor: '#ffffff', borderRadius: '6px', border: '1px solid #dcfce7' }}>
-                          <span style={{ fontWeight: 600 }}>How’s it going? I hope you're doing well.</span>
-                        </div>
-
-                        <div style={{ padding: '0.4rem 0.6rem', backgroundColor: '#ffffff', borderRadius: '6px', border: '1px solid #dcfce7' }}>
-                          <span>I thought you'd be interested to hear that </span>
-                          <span style={{ backgroundColor: '#fef3c7', color: '#b45309', padding: '0.1rem 0.4rem', borderRadius: '4px', fontWeight: 700, border: '1px dashed #f59e0b' }}>
-                            [thông tin sự kiện: our Walking Club is planning a monthly walking event]
-                          </span>
-                          <span>. I was quite </span>
-                          <span style={{ backgroundColor: '#fef3c7', color: '#b45309', padding: '0.1rem 0.4rem', borderRadius: '4px', fontWeight: 700, border: '1px dashed #f59e0b' }}>
-                            [cảm xúc: excited / surprised / thrilled]
-                          </span>
-                          <span> when I found out about it.</span>
-                        </div>
-
-                        <div style={{ padding: '0.4rem 0.6rem', backgroundColor: '#ffffff', borderRadius: '6px', border: '1px solid #dcfce7' }}>
-                          <span style={{ fontWeight: 700, color: '#15803d' }}>Personally, I think </span>
-                          <span style={{ backgroundColor: '#fef3c7', color: '#b45309', padding: '0.1rem 0.4rem', borderRadius: '4px', fontWeight: 700, border: '1px dashed #f59e0b' }}>
-                            [ý kiến: it's a great idea]
-                          </span>
-                          <span> because </span>
-                          <span style={{ backgroundColor: '#fef3c7', color: '#b45309', padding: '0.1rem 0.4rem', borderRadius: '4px', fontWeight: 700, border: '1px dashed #f59e0b' }}>
-                            [lý do: it encourages people to exercise together]
-                          </span>
-                          <span>. Moreover, </span>
-                          <span style={{ backgroundColor: '#fef3c7', color: '#b45309', padding: '0.1rem 0.4rem', borderRadius: '4px', fontWeight: 700, border: '1px dashed #f59e0b' }}>
-                            [đề xuất vui nhộn: we could organize some fun games after the walk]
-                          </span>
-                          <span>.</span>
-                        </div>
-
-                        <div style={{ padding: '0.4rem 0.6rem', backgroundColor: '#ffffff', borderRadius: '6px', border: '1px solid #dcfce7' }}>
-                          <span>I would love to know what you think about this. Hope to hear from you soon.</span>
-                        </div>
-
-                        <div style={{ padding: '0.4rem 0.6rem', backgroundColor: '#ffffff', borderRadius: '6px', border: '1px solid #dcfce7' }}>
-                          <span style={{ fontWeight: 700 }}>Take care,</span><br />
-                          <span style={{ backgroundColor: '#fef3c7', color: '#b45309', padding: '0.1rem 0.4rem', borderRadius: '4px', fontWeight: 700, border: '1px dashed #f59e0b' }}>
-                            [Tên bạn]
-                          </span>
-                        </div>
+                      <div style={{ marginTop: '0.65rem', padding: '0.5rem 0.75rem', backgroundColor: '#ffffff', borderRadius: '6px', border: '1px dashed #10b981', fontSize: '0.82rem', color: '#047857', display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
+                        <span>💡</span>
+                        <span><strong>Hướng dẫn:</strong> Toàn bộ các ô màu vàng <strong>✏️ [ ... ]</strong> là phần bạn cần thay thế thông tin từ đề bài!</span>
                       </div>
                     </div>
                   )}
@@ -1142,69 +1142,24 @@ const Part4 = () => {
                         </button>
                       </div>
 
-                      {/* Interactive Sentence Breakdown */}
-                      <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem', fontSize: '0.92rem', lineHeight: '1.6', color: '#0f172a' }}>
-                        <div style={{ padding: '0.4rem 0.6rem', backgroundColor: '#ffffff', borderRadius: '6px', border: '1px solid #dbeafe' }}>
-                          <span style={{ fontWeight: 800, color: '#1e3a8a' }}>Dear Club Manager,</span>
-                        </div>
+                      {/* Dynamic Highlighted Template for current club */}
+                      <div style={{ 
+                        backgroundColor: '#ffffff', 
+                        padding: '1rem 1.2rem', 
+                        borderRadius: '8px', 
+                        border: '1px solid #dbeafe',
+                        fontSize: '0.96rem',
+                        lineHeight: '1.85',
+                        whiteSpace: 'pre-wrap',
+                        color: '#0f172a',
+                        fontFamily: 'inherit'
+                      }}>
+                        {renderHighlightedText(clubData.email2.template)}
+                      </div>
 
-                        <div style={{ padding: '0.4rem 0.6rem', backgroundColor: '#ffffff', borderRadius: '6px', border: '1px solid #dbeafe' }}>
-                          <span>My name is </span>
-                          <span style={{ backgroundColor: '#fef3c7', color: '#b45309', padding: '0.1rem 0.4rem', borderRadius: '4px', fontWeight: 700, border: '1px dashed #f59e0b' }}>
-                            [Họ và tên bạn]
-                          </span>
-                          <span>, and I have been a member of the club for </span>
-                          <span style={{ backgroundColor: '#fef3c7', color: '#b45309', padding: '0.1rem 0.4rem', borderRadius: '4px', fontWeight: 700, border: '1px dashed #f59e0b' }}>
-                            [thời gian: two years / nearly a year]
-                          </span>
-                          <span>. During this time, I have had the opportunity to participate in a wide range of meaningful activities, which have greatly enriched my experience and personal development.</span>
-                        </div>
-
-                        <div style={{ padding: '0.4rem 0.6rem', backgroundColor: '#ffffff', borderRadius: '6px', border: '1px solid #dbeafe' }}>
-                          <span>I am writing in response to your email to share my thoughts and offer several practical suggestions regarding </span>
-                          <span style={{ backgroundColor: '#fef3c7', color: '#b45309', padding: '0.1rem 0.4rem', borderRadius: '4px', fontWeight: 700, border: '1px dashed #f59e0b' }}>
-                            [vấn đề / sự kiện được nêu trong đề]
-                          </span>
-                          <span>. I think this is </span>
-                          <span style={{ backgroundColor: '#fef3c7', color: '#b45309', padding: '0.1rem 0.4rem', borderRadius: '4px', fontWeight: 700, border: '1px dashed #f59e0b' }}>
-                            [quan điểm: a great idea / an important issue]
-                          </span>
-                          <span>.</span>
-                        </div>
-
-                        <div style={{ padding: '0.4rem 0.6rem', backgroundColor: '#ffffff', borderRadius: '6px', border: '1px solid #dbeafe' }}>
-                          <span>To help </span>
-                          <span style={{ backgroundColor: '#fef3c7', color: '#b45309', padding: '0.1rem 0.4rem', borderRadius: '4px', fontWeight: 700, border: '1px dashed #f59e0b' }}>
-                            [mục tiêu: attract more members and make the event more enjoyable]
-                          </span>
-                          <span>, I would like to make a few suggestions. </span>
-                          <span style={{ fontWeight: 700, color: '#1e40af' }}>First, we should </span>
-                          <span style={{ backgroundColor: '#fef3c7', color: '#b45309', padding: '0.1rem 0.4rem', borderRadius: '4px', fontWeight: 700, border: '1px dashed #f59e0b' }}>
-                            [đề xuất 1: tuyến đường an toàn, cảnh đẹp]
-                          </span>
-                          <span>. </span>
-                          <span style={{ fontWeight: 700, color: '#1e40af' }}>Second, it would be better to </span>
-                          <span style={{ backgroundColor: '#fef3c7', color: '#b45309', padding: '0.1rem 0.4rem', borderRadius: '4px', fontWeight: 700, border: '1px dashed #f59e0b' }}>
-                            [đề xuất 2: trò chơi kết nối/thử thách]
-                          </span>
-                          <span>. </span>
-                          <span style={{ fontWeight: 700, color: '#1e40af' }}>Finally, we could </span>
-                          <span style={{ backgroundColor: '#fef3c7', color: '#b45309', padding: '0.1rem 0.4rem', borderRadius: '4px', fontWeight: 700, border: '1px dashed #f59e0b' }}>
-                            [đề xuất 3: đồ uống/quà tặng động viên]
-                          </span>
-                          <span>. Overall, I am confident that these suggestions would make a positive difference and help the club achieve its objectives.</span>
-                        </div>
-
-                        <div style={{ padding: '0.4rem 0.6rem', backgroundColor: '#ffffff', borderRadius: '6px', border: '1px solid #dbeafe' }}>
-                          <span>Thank you for taking the time to consider my suggestions. I sincerely hope they will be taken into consideration, and I look forward to your response.</span>
-                        </div>
-
-                        <div style={{ padding: '0.4rem 0.6rem', backgroundColor: '#ffffff', borderRadius: '6px', border: '1px solid #dbeafe' }}>
-                          <span style={{ fontWeight: 700 }}>Best regards,</span><br />
-                          <span style={{ backgroundColor: '#fef3c7', color: '#b45309', padding: '0.1rem 0.4rem', borderRadius: '4px', fontWeight: 700, border: '1px dashed #f59e0b' }}>
-                            [Họ và tên của bạn]
-                          </span>
-                        </div>
+                      <div style={{ marginTop: '0.65rem', padding: '0.5rem 0.75rem', backgroundColor: '#ffffff', borderRadius: '6px', border: '1px dashed #2563eb', fontSize: '0.82rem', color: '#1e40af', display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
+                        <span>💡</span>
+                        <span><strong>Hướng dẫn:</strong> Toàn bộ các ô màu vàng <strong>✏️ [ ... ]</strong> là phần bạn cần thay thế thông tin từ đề bài!</span>
                       </div>
                     </div>
                   )}
@@ -1459,8 +1414,14 @@ const Part4 = () => {
               </button>
             </div>
 
+            {/* Top Explanatory Callout */}
+            <div style={{ marginBottom: '1.25rem', padding: '0.85rem 1.15rem', backgroundColor: '#fefce8', border: '1px solid #fde047', borderRadius: '8px', display: 'flex', alignItems: 'center', gap: '0.6rem', color: '#854d0e', fontSize: '0.9rem' }}>
+              <span style={{ fontSize: '1.25rem' }}>💡</span>
+              <span><strong>Quy ước màu sắc:</strong> Toàn bộ những ô màu vàng <strong>✏️ [ ... ]</strong> là phần bạn cần thay thế thông tin tương ứng từ đề bài. Các câu chữ còn lại là <strong>khung sườn ngữ pháp cố định</strong> đã được chuẩn hóa để đạt điểm tối đa tiêu chí B2-C1!</span>
+            </div>
+
             {/* 6 Structural Steps */}
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem', marginBottom: '1.25rem' }}>
               {part4CommonTemplates.informal.structure.map((item) => (
                 <div key={item.step} style={{ backgroundColor: '#f8fafc', padding: '0.85rem 1.15rem', borderRadius: '8px', border: '1px solid #e2e8f0' }}>
                   <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.35rem' }}>
@@ -1469,11 +1430,21 @@ const Part4 = () => {
                     </span>
                     <span style={{ fontSize: '0.78rem', color: '#64748b' }}>{item.note}</span>
                   </div>
-                  <div style={{ fontFamily: 'inherit', fontSize: '0.95rem', color: '#065f46', fontWeight: 600, lineHeight: '1.5' }}>
-                    {item.fixed}
+                  <div style={{ fontFamily: 'inherit', fontSize: '0.95rem', color: '#065f46', fontWeight: 600, lineHeight: '1.6' }}>
+                    {renderHighlightedText(item.fixed)}
                   </div>
                 </div>
               ))}
+            </div>
+
+            {/* Continuous Full Template View */}
+            <div style={{ backgroundColor: '#f0fdf4', padding: '1rem', borderRadius: '8px', border: '1px solid #bbf7d0' }}>
+              <div style={{ fontWeight: 800, color: '#166534', fontSize: '0.88rem', marginBottom: '0.5rem' }}>
+                📄 Toàn văn khung sườn Email 1 (Tổng quan liền mạch):
+              </div>
+              <div style={{ backgroundColor: '#ffffff', padding: '1rem', borderRadius: '6px', border: '1px solid #dcfce7', fontSize: '0.95rem', lineHeight: '1.85', whiteSpace: 'pre-wrap', color: '#0f172a' }}>
+                {renderHighlightedText(part4CommonTemplates.informal.templateText)}
+              </div>
             </div>
           </div>
 
@@ -1517,8 +1488,14 @@ const Part4 = () => {
               </button>
             </div>
 
+            {/* Top Explanatory Callout */}
+            <div style={{ marginBottom: '1.25rem', padding: '0.85rem 1.15rem', backgroundColor: '#fefce8', border: '1px solid #fde047', borderRadius: '8px', display: 'flex', alignItems: 'center', gap: '0.6rem', color: '#854d0e', fontSize: '0.9rem' }}>
+              <span style={{ fontSize: '1.25rem' }}>💡</span>
+              <span><strong>Quy ước màu sắc:</strong> Toàn bộ những ô màu vàng <strong>✏️ [ ... ]</strong> là phần bạn cần thay thế thông tin tương ứng từ đề bài. Các câu chữ còn lại là <strong>khung sườn ngữ pháp cố định</strong> đã được chuẩn hóa để đạt điểm tối đa tiêu chí B2-C1!</span>
+            </div>
+
             {/* 6 Structural Steps */}
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem', marginBottom: '1.25rem' }}>
               {part4CommonTemplates.formal.structure.map((item) => (
                 <div key={item.step} style={{ backgroundColor: '#f8fafc', padding: '0.85rem 1.15rem', borderRadius: '8px', border: '1px solid #e2e8f0' }}>
                   <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.35rem' }}>
@@ -1527,11 +1504,21 @@ const Part4 = () => {
                     </span>
                     <span style={{ fontSize: '0.78rem', color: '#64748b' }}>{item.note}</span>
                   </div>
-                  <div style={{ fontFamily: 'inherit', fontSize: '0.95rem', color: '#1e3a8a', fontWeight: 600, lineHeight: '1.5' }}>
-                    {item.fixed}
+                  <div style={{ fontFamily: 'inherit', fontSize: '0.95rem', color: '#1e3a8a', fontWeight: 600, lineHeight: '1.6' }}>
+                    {renderHighlightedText(item.fixed)}
                   </div>
                 </div>
               ))}
+            </div>
+
+            {/* Continuous Full Template View */}
+            <div style={{ backgroundColor: '#eff6ff', padding: '1rem', borderRadius: '8px', border: '1px solid #bfdbfe' }}>
+              <div style={{ fontWeight: 800, color: '#1e40af', fontSize: '0.88rem', marginBottom: '0.5rem' }}>
+                📄 Toàn văn khung sườn Email 2 (Tổng quan liền mạch):
+              </div>
+              <div style={{ backgroundColor: '#ffffff', padding: '1rem', borderRadius: '6px', border: '1px solid #dbeafe', fontSize: '0.95rem', lineHeight: '1.85', whiteSpace: 'pre-wrap', color: '#0f172a' }}>
+                {renderHighlightedText(part4CommonTemplates.formal.templateText)}
+              </div>
             </div>
           </div>
         </div>
