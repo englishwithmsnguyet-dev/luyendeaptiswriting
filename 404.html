@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8">
+    <title>Chuyển hướng - APTIS Writing Practice</title>
+    <script>
+      // Single Page App redirect for GitHub Pages HashRouter
+      var base = '/luyendeaptiswriting/';
+      var loc = window.location;
+      var path = loc.pathname;
+      if (path.indexOf(base) === 0) {
+        var sub = path.substring(base.length);
+        if (sub && sub !== '/' && sub.indexOf('#') === -1) {
+          loc.replace(base + '#/' + sub);
+        } else {
+          loc.replace(base);
+        }
+      } else {
+        loc.replace(base);
+      }
+    </script>
+  </head>
+  <body style="font-family: system-ui, sans-serif; text-align: center; padding: 3rem;">
+    <h2>Đang chuyển hướng về ứng dụng...</h2>
+    <p><a href="/luyendeaptiswriting/">Bấm vào đây nếu không tự chuyển hướng</a></p>
+  </body>
+</html>
