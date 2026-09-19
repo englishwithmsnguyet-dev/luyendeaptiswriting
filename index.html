@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>APTIS WRITING PRACTICE</title>
     <script>
+      // When double-clicked from Finder (file:// protocol), redirect to standalone offline app
+      if (window.location.protocol === 'file:' && !window.location.pathname.endsWith('CHAY_TRUC_TIEP.html')) {
+        window.location.replace('CHAY_TRUC_TIEP.html' + (window.location.hash || '#/'));
+      }
+    </script>
+    <script>
       window.addEventListener('error', function(e) {
         if (e && e.target && (e.target.tagName === 'SCRIPT' || e.target.tagName === 'LINK')) {
           var key = 'aptis_chunk_reload_count';
