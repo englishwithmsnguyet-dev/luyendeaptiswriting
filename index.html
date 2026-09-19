@@ -5,6 +5,18 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>APTIS WRITING PRACTICE</title>
+    <script>
+      window.addEventListener('error', function(e) {
+        if (e && e.target && (e.target.tagName === 'SCRIPT' || e.target.tagName === 'LINK')) {
+          var key = 'aptis_chunk_reload_count';
+          var count = parseInt(sessionStorage.getItem(key) || '0', 10);
+          if (count < 2) {
+            sessionStorage.setItem(key, String(count + 1));
+            window.location.reload(true);
+          }
+        }
+      }, true);
+    </script>
   </head>
   <body>
     <div id="root"></div>

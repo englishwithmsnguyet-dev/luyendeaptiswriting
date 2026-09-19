@@ -58,6 +58,26 @@ const LoginModal = ({ onLogin }) => {
           <button type="submit" className="btn btn-primary" style={{ width: '100%', padding: '0.9rem', fontSize: '1.05rem', fontWeight: 'bold' }}>
             Bắt đầu làm bài
           </button>
+          <button 
+            type="button" 
+            onClick={() => {
+              const defaultName = 'Học viên';
+              sessionStorage.setItem('aptis_logged_in_session', 'true');
+              onLogin(defaultName);
+            }} 
+            style={{ 
+              width: '100%', 
+              marginTop: '0.75rem', 
+              background: 'none', 
+              border: 'none', 
+              color: '#64748b', 
+              fontSize: '0.85rem', 
+              cursor: 'pointer', 
+              textDecoration: 'underline' 
+            }}
+          >
+            Bỏ qua / Vào xem bài học ngay
+          </button>
         </form>
       </div>
     </div>

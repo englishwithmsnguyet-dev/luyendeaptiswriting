@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { part4Data, part4CommonTemplates } from '../data/part4Data';
-import { saveClubHistory, clearClubHistory, getClubSavedTime } from '../utils/historyManager';
+import { saveClubHistory, clearClubHistory, getClubSavedTime, getSafeJSON } from '../utils/historyManager';
 import PracticeActionBar from '../components/PracticeActionBar';
 import { ChevronDown, Mail, User, ShieldCheck, Eye, EyeOff, BookOpen, Sparkles, CheckCircle2, AlertCircle, Download, Save } from 'lucide-react';
 import { exportToWord } from '../utils/exportToWord';
@@ -37,7 +37,7 @@ const Part4 = () => {
   // Load completed clubs on mount & when storage changes
   useEffect(() => {
     const loadCompleted = () => {
-      setCompletedClubs(JSON.parse(localStorage.getItem('aptis_p4_completed') || '[]'));
+      setCompletedClubs(getSafeJSON('aptis_p4_completed', []));
     };
     loadCompleted();
     window.addEventListener('progressUpdate', loadCompleted);
@@ -102,7 +102,7 @@ const Part4 = () => {
 
     // If both emails have answers, mark club as completed
     if (count1 > 20 && count2 > 50) {
-      const completed = JSON.parse(localStorage.getItem('aptis_p4_completed') || '[]');
+      const completed = getSafeJSON('aptis_p4_completed', []);
       if (!completed.includes(selectedClub)) {
         completed.push(selectedClub);
         localStorage.setItem('aptis_p4_completed', JSON.stringify(completed));

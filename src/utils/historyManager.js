@@ -1,5 +1,17 @@
 // History Manager for Aptis Writing Practice
 
+export const getSafeJSON = (key, fallback = []) => {
+  try {
+    const item = localStorage.getItem(key);
+    if (!item) return fallback;
+    const parsed = JSON.parse(item);
+    return parsed !== null && parsed !== undefined ? parsed : fallback;
+  } catch (e) {
+    console.warn(`Error parsing localStorage key "${key}":`, e);
+    return fallback;
+  }
+};
+
 export const saveClubHistory = (part, clubName, answers, grades = null) => {
   if (!clubName) return;
   const now = new Date();
@@ -39,28 +51,28 @@ export const clearClubHistory = (part, clubName) => {
     localStorage.removeItem(`aptis_p1_answers_${clubName}`);
     localStorage.removeItem(`aptis_p1_grades_${clubName}`);
     localStorage.removeItem(`aptis_p1_saved_at_${clubName}`);
-    const completed = JSON.parse(localStorage.getItem('aptis_p1_completed') || '[]');
+    const completed = getSafeJSON('aptis_p1_completed', []);
     const next = completed.filter(c => c !== clubName);
     localStorage.setItem('aptis_p1_completed', JSON.stringify(next));
   } else if (part === 2) {
     localStorage.removeItem(`aptis_p2_answer_${clubName}`);
     localStorage.removeItem(`aptis_p2_grade_${clubName}`);
     localStorage.removeItem(`aptis_p2_saved_at_${clubName}`);
-    const completed = JSON.parse(localStorage.getItem('aptis_p2_completed') || '[]');
+    const completed = getSafeJSON('aptis_p2_completed', []);
     const next = completed.filter(c => c !== clubName);
     localStorage.setItem('aptis_p2_completed', JSON.stringify(next));
   } else if (part === 3) {
     localStorage.removeItem(`aptis_p3_answers_${clubName}`);
     localStorage.removeItem(`aptis_p3_grades_${clubName}`);
     localStorage.removeItem(`aptis_p3_saved_at_${clubName}`);
-    const completed = JSON.parse(localStorage.getItem('aptis_p3_completed') || '[]');
+    const completed = getSafeJSON('aptis_p3_completed', []);
     const next = completed.filter(c => c !== clubName);
     localStorage.setItem('aptis_p3_completed', JSON.stringify(next));
   } else if (part === 4) {
     localStorage.removeItem(`aptis_p4_answers_${clubName}`);
     localStorage.removeItem(`aptis_p4_grades_${clubName}`);
     localStorage.removeItem(`aptis_p4_saved_at_${clubName}`);
-    const completed = JSON.parse(localStorage.getItem('aptis_p4_completed') || '[]');
+    const completed = getSafeJSON('aptis_p4_completed', []);
     const next = completed.filter(c => c !== clubName);
     localStorage.setItem('aptis_p4_completed', JSON.stringify(next));
   }

@@ -8,6 +8,8 @@ import { part2Data } from '../data/part2Data';
 import { part3Data } from '../data/part3Data';
 import { part4Data } from '../data/part4Data';
 
+import { exportBackupJSON, getSafeJSON } from '../utils/historyManager';
+
 const Home = () => {
   const navigate = useNavigate();
   const [showHistoryModal, setShowHistoryModal] = useState(false);
@@ -25,11 +27,20 @@ const Home = () => {
   });
 
   const loadProgress = () => {
-    const p1 = JSON.parse(localStorage.getItem('aptis_p1_completed') || '[]');
-    const p2 = JSON.parse(localStorage.getItem('aptis_p2_completed') || '[]');
-    const p3 = JSON.parse(localStorage.getItem('aptis_p3_completed') || '[]');
-    const p4 = JSON.parse(localStorage.getItem('aptis_p4_completed') || '[]');
-    setProgress({ p1: p1.length, p2: p2.length, p3: p3.length, p4: p4.length });
+    try {
+      const p1 = getSafeJSON('aptis_p1_completed', []);
+      const p2 = getSafeJSON('aptis_p2_completed', []);
+      const p3 = getSafeJSON('aptis_p3_completed', []);
+      const p4 = getSafeJSON('aptis_p4_completed', []);
+      setProgress({
+        p1: Array.isArray(p1) ? p1.length : 0,
+        p2: Array.isArray(p2) ? p2.length : 0,
+        p3: Array.isArray(p3) ? p3.length : 0,
+        p4: Array.isArray(p4) ? p4.length : 0
+      });
+    } catch (e) {
+      console.warn('Error loading progress in Home:', e);
+    }
   };
 
   useEffect(() => {
