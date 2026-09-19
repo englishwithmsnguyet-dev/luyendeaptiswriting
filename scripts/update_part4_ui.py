@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+code = r'''import React, { useState, useEffect } from 'react';
 import { part4Data, part4CommonTemplates } from '../data/part4Data';
 import { saveClubHistory, clearClubHistory, getClubSavedTime, getSafeJSON } from '../utils/historyManager';
 import PracticeActionBar from '../components/PracticeActionBar';
@@ -1372,3 +1372,9 @@ const Part4 = () => {
 };
 
 export default Part4;
+'''
+
+with open("src/pages/Part4.jsx", "w", encoding="utf-8") as f:
+    f.write(code)
+
+print("Updated src/pages/Part4.jsx successfully!")
