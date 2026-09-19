@@ -3,6 +3,7 @@ import { saveAs } from 'file-saver';
 import { clubsData } from '../data/clubsData';
 import { part2Data } from '../data/part2Data';
 import { part3Data } from '../data/part3Data';
+import { part4Data } from '../data/part4Data';
 
 export const exportToWord = async ({ clubName: targetClub = null, part: targetPart = null } = {}) => {
   const studentName = localStorage.getItem('aptis_student_name') || 'HocVien';
@@ -17,6 +18,8 @@ export const exportToWord = async ({ clubName: targetClub = null, part: targetPa
   let p2Grades = {};
   let p3Answers = {};
   let p3Grades = {};
+  let p4Answers = {};
+  let p4Grades = {};
 
   // Part 1
   if (!targetPart || targetPart === 1) {
@@ -63,6 +66,24 @@ export const exportToWord = async ({ clubName: targetClub = null, part: targetPa
         }
         const g3 = localStorage.getItem(`aptis_p3_grades_${clubName}`);
         if (g3) p3Grades[clubName] = JSON.parse(g3);
+      } catch(e) {}
+    });
+  }
+
+  // Part 4
+  if (!targetPart || targetPart === 4) {
+    const clubsToScan = targetClub ? [targetClub] : Object.keys(part4Data);
+    clubsToScan.forEach(clubName => {
+      try {
+        const p4 = localStorage.getItem(`aptis_p4_answers_${clubName}`);
+        if (p4) {
+          const parsed = JSON.parse(p4);
+          if ((parsed.email1 && parsed.email1.trim()) || (parsed.email2 && parsed.email2.trim())) {
+            p4Answers[clubName] = parsed;
+          }
+        }
+        const g4 = localStorage.getItem(`aptis_p4_grades_${clubName}`);
+        if (g4) p4Grades[clubName] = JSON.parse(g4);
       } catch(e) {}
     });
   }
@@ -233,8 +254,49 @@ export const exportToWord = async ({ clubName: targetClub = null, part: targetPa
     });
   }
 
+  // Process Part 4
+  const answeredClubsP4 = Object.keys(p4Answers);
+  if (answeredClubsP4.length > 0) {
+    children.push(
+      new Paragraph({
+        text: "PHẦN 4: WRITING PART 04 (VIẾT EMAIL)",
+        heading: HeadingLevel.HEADING_2,
+        spacing: { before: 400, after: 200 },
+      })
+    );
+
+    answeredClubsP4.forEach(clubName => {
+      const club = part4Data[clubName];
+      if (club) {
+        children.push(
+          new Paragraph({
+            text: `Câu lạc bộ: ${clubName}`,
+            heading: HeadingLevel.HEADING_3,
+            spacing: { before: 300, after: 100 },
+          }),
+          new Paragraph({
+            children: [
+              new TextRun({ text: "Thông báo từ CLB: ", bold: true, color: "1e40af" }),
+              new TextRun({ text: club.notice, italics: true, color: "334155" })
+            ],
+            spacing: { after: 200 }
+          })
+        );
+        const ans = p4Answers[clubName];
+        if (ans) {
+          if (ans.email1) {
+            addQA("Email 1 (Gửi bạn - ~50 từ):", ans.email1);
+          }
+          if (ans.email2) {
+            addQA("Email 2 (Gửi Quản lý CLB - 120-150 từ):", ans.email2);
+          }
+        }
+      }
+    });
+  }
+
   // If no answers at all
-  if (answeredClubsP1.length === 0 && answeredClubsP2.length === 0 && answeredClubsP3.length === 0) {
+  if (answeredClubsP1.length === 0 && answeredClubsP2.length === 0 && answeredClubsP3.length === 0 && answeredClubsP4.length === 0) {
     children.push(
       new Paragraph({
         text: targetClub 

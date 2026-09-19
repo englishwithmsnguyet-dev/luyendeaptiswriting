@@ -17,6 +17,10 @@ export const saveClubHistory = (part, clubName, answers, grades = null) => {
     localStorage.setItem(`aptis_p3_answers_${clubName}`, JSON.stringify(answers));
     if (grades) localStorage.setItem(`aptis_p3_grades_${clubName}`, JSON.stringify(grades));
     localStorage.setItem(`aptis_p3_saved_at_${clubName}`, timeStr);
+  } else if (part === 4) {
+    localStorage.setItem(`aptis_p4_answers_${clubName}`, JSON.stringify(answers));
+    if (grades) localStorage.setItem(`aptis_p4_grades_${clubName}`, JSON.stringify(grades));
+    localStorage.setItem(`aptis_p4_saved_at_${clubName}`, timeStr);
   }
   
   window.dispatchEvent(new Event('progressUpdate'));
@@ -52,6 +56,13 @@ export const clearClubHistory = (part, clubName) => {
     const completed = JSON.parse(localStorage.getItem('aptis_p3_completed') || '[]');
     const next = completed.filter(c => c !== clubName);
     localStorage.setItem('aptis_p3_completed', JSON.stringify(next));
+  } else if (part === 4) {
+    localStorage.removeItem(`aptis_p4_answers_${clubName}`);
+    localStorage.removeItem(`aptis_p4_grades_${clubName}`);
+    localStorage.removeItem(`aptis_p4_saved_at_${clubName}`);
+    const completed = JSON.parse(localStorage.getItem('aptis_p4_completed') || '[]');
+    const next = completed.filter(c => c !== clubName);
+    localStorage.setItem('aptis_p4_completed', JSON.stringify(next));
   }
   
   window.dispatchEvent(new Event('progressUpdate'));

@@ -5,18 +5,20 @@ import { exportBackupJSON, importBackupJSON, clearPartHistory, clearAllHistory, 
 
 const HistoryModal = ({ isOpen, onClose }) => {
   const fileInputRef = useRef(null);
-  const [stats, setStats] = useState({ p1: 0, p2: 0, p3: 0, totalAnswered: 0 });
+  const [stats, setStats] = useState({ p1: 0, p2: 0, p3: 0, p4: 0, totalAnswered: 0 });
   const [message, setMessage] = useState(null);
   const [showClubList, setShowClubList] = useState(false);
-  const [savedClubs, setSavedClubs] = useState({ p1: [], p2: [], p3: [] });
+  const [savedClubs, setSavedClubs] = useState({ p1: [], p2: [], p3: [], p4: [] });
 
   const loadStats = () => {
     let p1Count = 0;
     let p2Count = 0;
     let p3Count = 0;
+    let p4Count = 0;
     const p1List = [];
     const p2List = [];
     const p3List = [];
+    const p4List = [];
 
     for (let i = 0; i < localStorage.length; i++) {
       const k = localStorage.key(i);
@@ -36,6 +38,11 @@ const HistoryModal = ({ isOpen, onClose }) => {
           const savedAt = localStorage.getItem(`aptis_p3_saved_at_${clubName}`);
           p3List.push({ clubName, savedAt });
           p3Count++;
+        } else if (k.startsWith('aptis_p4_answers_')) {
+          const clubName = k.replace('aptis_p4_answers_', '');
+          const savedAt = localStorage.getItem(`aptis_p4_saved_at_${clubName}`);
+          p4List.push({ clubName, savedAt });
+          p4Count++;
         }
       }
     }
@@ -43,14 +50,16 @@ const HistoryModal = ({ isOpen, onClose }) => {
     setSavedClubs({
       p1: p1List.sort((a, b) => a.clubName.localeCompare(b.clubName)),
       p2: p2List.sort((a, b) => a.clubName.localeCompare(b.clubName)),
-      p3: p3List.sort((a, b) => a.clubName.localeCompare(b.clubName))
+      p3: p3List.sort((a, b) => a.clubName.localeCompare(b.clubName)),
+      p4: p4List.sort((a, b) => a.clubName.localeCompare(b.clubName))
     });
 
     setStats({
       p1: p1Count,
       p2: p2Count,
       p3: p3Count,
-      totalAnswered: p1Count + p2Count + p3Count
+      p4: p4Count,
+      totalAnswered: p1Count + p2Count + p3Count + p4Count
     });
   };
 
@@ -219,21 +228,26 @@ const HistoryModal = ({ isOpen, onClose }) => {
           )}
 
           {/* Stats Cards */}
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '0.75rem', marginBottom: '1.5rem' }}>
-            <div style={{ padding: '0.75rem 1rem', backgroundColor: '#f0fdf4', borderRadius: 'var(--radius-md)', border: '1px solid #bbf7d0', textAlign: 'center' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '0.6rem', marginBottom: '1.5rem' }}>
+            <div style={{ padding: '0.75rem 0.5rem', backgroundColor: '#f0fdf4', borderRadius: 'var(--radius-md)', border: '1px solid #bbf7d0', textAlign: 'center' }}>
               <div style={{ fontSize: '0.75rem', fontWeight: 600, color: '#166534', textTransform: 'uppercase' }}>Part 1</div>
               <div style={{ fontSize: '1.35rem', fontWeight: 700, color: '#15803d' }}>{stats.p1}</div>
-              <div style={{ fontSize: '0.75rem', color: '#166534' }}>CLB đã trả lời</div>
+              <div style={{ fontSize: '0.7rem', color: '#166534' }}>CLB đã làm</div>
             </div>
-            <div style={{ padding: '0.75rem 1rem', backgroundColor: '#eff6ff', borderRadius: 'var(--radius-md)', border: '1px solid #bfdbfe', textAlign: 'center' }}>
+            <div style={{ padding: '0.75rem 0.5rem', backgroundColor: '#eff6ff', borderRadius: 'var(--radius-md)', border: '1px solid #bfdbfe', textAlign: 'center' }}>
               <div style={{ fontSize: '0.75rem', fontWeight: 600, color: '#1e40af', textTransform: 'uppercase' }}>Part 2</div>
               <div style={{ fontSize: '1.35rem', fontWeight: 700, color: '#2563eb' }}>{stats.p2}</div>
-              <div style={{ fontSize: '0.75rem', color: '#1e40af' }}>CLB đã trả lời</div>
+              <div style={{ fontSize: '0.7rem', color: '#1e40af' }}>CLB đã làm</div>
             </div>
-            <div style={{ padding: '0.75rem 1rem', backgroundColor: '#fdf4ff', borderRadius: 'var(--radius-md)', border: '1px solid #f5d0fe', textAlign: 'center' }}>
+            <div style={{ padding: '0.75rem 0.5rem', backgroundColor: '#fdf4ff', borderRadius: 'var(--radius-md)', border: '1px solid #f5d0fe', textAlign: 'center' }}>
               <div style={{ fontSize: '0.75rem', fontWeight: 600, color: '#86198f', textTransform: 'uppercase' }}>Part 3</div>
               <div style={{ fontSize: '1.35rem', fontWeight: 700, color: '#a21caf' }}>{stats.p3}</div>
-              <div style={{ fontSize: '0.75rem', color: '#86198f' }}>CLB đã trả lời</div>
+              <div style={{ fontSize: '0.7rem', color: '#86198f' }}>CLB đã làm</div>
+            </div>
+            <div style={{ padding: '0.75rem 0.5rem', backgroundColor: '#fffbeb', borderRadius: 'var(--radius-md)', border: '1px solid #fde68a', textAlign: 'center' }}>
+              <div style={{ fontSize: '0.75rem', fontWeight: 600, color: '#b45309', textTransform: 'uppercase' }}>Part 4</div>
+              <div style={{ fontSize: '1.35rem', fontWeight: 700, color: '#d97706' }}>{stats.p4}</div>
+              <div style={{ fontSize: '0.7rem', color: '#b45309' }}>CLB đã làm</div>
             </div>
           </div>
 
@@ -371,6 +385,24 @@ const HistoryModal = ({ isOpen, onClose }) => {
                   <div style={{ fontSize: '0.8rem', color: 'var(--text-muted)', textAlign: 'center', padding: '0.5rem' }}>Chưa có bài làm nào được lưu.</div>
                 ) : (
                   <div>
+                    {savedClubs.p4.length > 0 && (
+                      <div style={{ marginBottom: '0.5rem' }}>
+                        <div style={{ fontSize: '0.75rem', fontWeight: 700, color: '#b45309', marginBottom: '0.25rem' }}>Part 4 ({savedClubs.p4.length} đề):</div>
+                        {savedClubs.p4.map(item => (
+                          <div key={item.clubName} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '0.3rem 0.5rem', fontSize: '0.8rem', backgroundColor: 'white', borderRadius: '4px', marginBottom: '0.25rem' }}>
+                            <span>{item.clubName} {item.savedAt && <span style={{ fontSize: '0.7rem', color: 'var(--text-muted)' }}>({item.savedAt})</span>}</span>
+                            <button
+                              type="button"
+                              onClick={() => handleDeleteSingleClub(4, item.clubName)}
+                              title="Xoá bài làm của đề này"
+                              style={{ background: 'none', border: 'none', color: '#ef4444', cursor: 'pointer', padding: '0.1rem 0.3rem' }}
+                            >
+                              <Trash2 size={14} />
+                            </button>
+                          </div>
+                        ))}
+                      </div>
+                    )}
                     {savedClubs.p3.length > 0 && (
                       <div style={{ marginBottom: '0.5rem' }}>
                         <div style={{ fontSize: '0.75rem', fontWeight: 700, color: '#a21caf', marginBottom: '0.25rem' }}>Part 3 ({savedClubs.p3.length} đề):</div>
@@ -437,12 +469,12 @@ const HistoryModal = ({ isOpen, onClose }) => {
               <Trash2 size={16} />
               Xoá lịch sử bài làm (Chủ động làm lại)
             </h4>
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '0.5rem', marginBottom: '0.6rem' }}>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '0.5rem', marginBottom: '0.6rem' }}>
               <button
                 type="button"
                 onClick={() => handleClearPart(1)}
                 style={{
-                  padding: '0.55rem',
+                  padding: '0.55rem 0.3rem',
                   fontSize: '0.8rem',
                   backgroundColor: '#fee2e2',
                   color: '#b91c1c',
@@ -458,7 +490,7 @@ const HistoryModal = ({ isOpen, onClose }) => {
                 type="button"
                 onClick={() => handleClearPart(2)}
                 style={{
-                  padding: '0.55rem',
+                  padding: '0.55rem 0.3rem',
                   fontSize: '0.8rem',
                   backgroundColor: '#fee2e2',
                   color: '#b91c1c',
@@ -474,7 +506,7 @@ const HistoryModal = ({ isOpen, onClose }) => {
                 type="button"
                 onClick={() => handleClearPart(3)}
                 style={{
-                  padding: '0.55rem',
+                  padding: '0.55rem 0.3rem',
                   fontSize: '0.8rem',
                   backgroundColor: '#fee2e2',
                   color: '#b91c1c',
@@ -485,6 +517,22 @@ const HistoryModal = ({ isOpen, onClose }) => {
                 }}
               >
                 Xoá Part 3
+              </button>
+              <button
+                type="button"
+                onClick={() => handleClearPart(4)}
+                style={{
+                  padding: '0.55rem 0.3rem',
+                  fontSize: '0.8rem',
+                  backgroundColor: '#fee2e2',
+                  color: '#b91c1c',
+                  border: '1px solid #fca5a5',
+                  borderRadius: 'var(--radius-md)',
+                  cursor: 'pointer',
+                  fontWeight: 500
+                }}
+              >
+                Xoá Part 4
               </button>
             </div>
 

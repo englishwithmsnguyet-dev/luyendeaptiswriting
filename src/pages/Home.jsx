@@ -6,6 +6,7 @@ import HistoryModal from '../components/HistoryModal';
 import { clubsData } from '../data/clubsData';
 import { part2Data } from '../data/part2Data';
 import { part3Data } from '../data/part3Data';
+import { part4Data } from '../data/part4Data';
 
 const Home = () => {
   const navigate = useNavigate();
@@ -14,18 +15,21 @@ const Home = () => {
   const totalP1 = Object.keys(clubsData).length;
   const totalP2 = Object.keys(part2Data).length;
   const totalP3 = Object.keys(part3Data).length;
+  const totalP4 = Object.keys(part4Data).length;
 
   const [progress, setProgress] = useState({
     p1: 0,
     p2: 0,
-    p3: 0
+    p3: 0,
+    p4: 0
   });
 
   const loadProgress = () => {
     const p1 = JSON.parse(localStorage.getItem('aptis_p1_completed') || '[]');
     const p2 = JSON.parse(localStorage.getItem('aptis_p2_completed') || '[]');
     const p3 = JSON.parse(localStorage.getItem('aptis_p3_completed') || '[]');
-    setProgress({ p1: p1.length, p2: p2.length, p3: p3.length });
+    const p4 = JSON.parse(localStorage.getItem('aptis_p4_completed') || '[]');
+    setProgress({ p1: p1.length, p2: p2.length, p3: p3.length, p4: p4.length });
   };
 
   useEffect(() => {
@@ -120,6 +124,16 @@ const Home = () => {
             </div>
             <div style={{ width: '100%', height: '8px', background: '#e2e8f0', borderRadius: '4px', overflow: 'hidden' }}>
               <div style={{ width: `${(progress.p3 / totalP3) * 100}%`, height: '100%', background: '#8b5cf6', transition: 'width 0.3s ease' }}></div>
+            </div>
+          </div>
+          
+          <div style={{ padding: '1rem', background: 'var(--bg-main)', borderRadius: 'var(--radius-md)' }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '0.5rem' }}>
+              <strong style={{ color: 'var(--primary)' }}>Part 4</strong>
+              <span style={{ color: 'var(--text-muted)' }}>{progress.p4} / {totalP4}</span>
+            </div>
+            <div style={{ width: '100%', height: '8px', background: '#e2e8f0', borderRadius: '4px', overflow: 'hidden' }}>
+              <div style={{ width: `${(progress.p4 / (totalP4 || 1)) * 100}%`, height: '100%', background: '#f59e0b', transition: 'width 0.3s ease' }}></div>
             </div>
           </div>
         </div>
