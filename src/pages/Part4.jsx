@@ -61,6 +61,8 @@ const Part4 = () => {
 
   // Toggles for helpers
   const [showNoticeVi, setShowNoticeVi] = useState(false);
+  const [showEmail1InstructionVi, setShowEmail1InstructionVi] = useState(false);
+  const [showEmail2InstructionVi, setShowEmail2InstructionVi] = useState(false);
   
   const [showEmail1Template, setShowEmail1Template] = useState(true);
   const [showEmail1Vocab, setShowEmail1Vocab] = useState(false);
@@ -72,6 +74,32 @@ const Part4 = () => {
 
   // Copied toast state
   const [copiedKey, setCopiedKey] = useState(null);
+
+  const playAudio = (word) => {
+    if (window.speechSynthesis) {
+      window.speechSynthesis.cancel();
+      const utterance = new SpeechSynthesisUtterance(word);
+      utterance.lang = 'en-US';
+      utterance.rate = 0.85;
+      utterance.pitch = 1.05;
+      
+      const voices = window.speechSynthesis.getVoices();
+      const preferredVoices = voices.filter(voice => 
+        (voice.name.includes('Google') || voice.name.includes('Premium') || voice.name.includes('Natural')) && 
+        voice.lang.startsWith('en')
+      );
+      
+      if (preferredVoices.length > 0) {
+        const bestVoice = preferredVoices.find(v => v.name.includes('Female') || v.name.includes('US')) || preferredVoices[0];
+        utterance.voice = bestVoice;
+      } else {
+        const fallback = voices.find(v => v.lang.startsWith('en') && (v.name === 'Samantha' || v.name === 'Alex' || v.name === 'Daniel'));
+        if (fallback) utterance.voice = fallback;
+      }
+
+      window.speechSynthesis.speak(utterance);
+    }
+  };
 
   const showToast = (text, type = 'success') => {
     setToastMessage({ text, type });
@@ -293,7 +321,7 @@ const Part4 = () => {
             >
               {clubNames.map(name => (
                 <option key={name} value={name}>
-                  {completedClubs.includes(name) ? `✅ ${name}` : name}
+                  {completedClubs.includes(name) ? `✅ ${part4Data[name]?.title || name}` : (part4Data[name]?.title || name)}
                 </option>
               ))}
             </select>
@@ -623,9 +651,38 @@ const Part4 = () => {
                           Mục tiêu: 45 - 55 từ
                         </span>
                       </div>
-                      <p style={{ margin: '0.35rem 0 0 0', color: '#047857', fontSize: '0.88rem' }}>
-                        {clubData.email1.instruction}
-                      </p>
+                      <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginTop: '0.35rem', flexWrap: 'wrap' }}>
+                        <p style={{ margin: 0, color: '#047857', fontSize: '0.88rem', fontWeight: 500 }}>
+                          {clubData.email1.instruction}
+                        </p>
+                        {clubData.email1.instructionVi && (
+                          <button
+                            type="button"
+                            onClick={() => setShowEmail1InstructionVi(!showEmail1InstructionVi)}
+                            style={{
+                              background: showEmail1InstructionVi ? '#059669' : 'rgba(5, 150, 105, 0.12)',
+                              color: showEmail1InstructionVi ? '#ffffff' : '#065f46',
+                              border: '1px solid #a7f3d0',
+                              borderRadius: '4px',
+                              padding: '0.15rem 0.5rem',
+                              fontSize: '0.75rem',
+                              fontWeight: 700,
+                              cursor: 'pointer',
+                              display: 'inline-flex',
+                              alignItems: 'center',
+                              gap: '0.3rem',
+                              transition: 'all 0.2s'
+                            }}
+                          >
+                            {showEmail1InstructionVi ? 'Ẩn dịch' : '🇻🇳 Dịch đề'}
+                          </button>
+                        )}
+                      </div>
+                      {showEmail1InstructionVi && clubData.email1.instructionVi && (
+                        <div style={{ marginTop: '0.4rem', fontSize: '0.84rem', color: '#065f46', fontStyle: 'italic', backgroundColor: '#d1fae5', padding: '0.4rem 0.75rem', borderRadius: '6px', borderLeft: '3px solid #10b981' }}>
+                          🇻🇳 {clubData.email1.instructionVi}
+                        </div>
+                      )}
                     </div>
 
                     {/* Word Counter */}
@@ -827,28 +884,56 @@ const Part4 = () => {
                             <div style={{ fontWeight: 700, color: '#1e293b', fontSize: '0.85rem', marginBottom: '0.5rem' }}>
                               {cat.name}
                             </div>
-                            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.4rem' }}>
+                            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.45rem' }}>
                               {cat.items.map((item, i) => (
-                                <button
+                                <div
                                   key={i}
-                                  type="button"
-                                  onClick={() => insertPhrase('email1', item.en)}
                                   style={{
+                                    display: 'inline-flex',
+                                    alignItems: 'center',
                                     backgroundColor: '#ffffff',
                                     border: '1px solid #cbd5e1',
                                     borderRadius: '6px',
-                                    padding: '0.35rem 0.65rem',
-                                    fontSize: '0.82rem',
-                                    textAlign: 'left',
-                                    cursor: 'pointer',
+                                    overflow: 'hidden',
+                                    boxShadow: '0 1px 2px rgba(0,0,0,0.03)',
                                     transition: 'all 0.15s'
                                   }}
-                                  onMouseEnter={(e) => e.currentTarget.style.borderColor = '#10b981'}
-                                  onMouseLeave={(e) => e.currentTarget.style.borderColor = '#cbd5e1'}
-                                  title={`Bấm để chèn: "${item.en}" - ${item.vi}`}
                                 >
-                                  <strong style={{ color: '#047857' }}>{item.en}</strong>: <span style={{ color: '#64748b' }}>{item.vi}</span>
-                                </button>
+                                  <button
+                                    type="button"
+                                    onClick={() => playAudio(item.en)}
+                                    style={{
+                                      background: 'rgba(5, 150, 105, 0.08)',
+                                      border: 'none',
+                                      borderRight: '1px solid #e2e8f0',
+                                      cursor: 'pointer',
+                                      padding: '0.35rem 0.5rem',
+                                      display: 'flex',
+                                      alignItems: 'center',
+                                      justifyContent: 'center',
+                                      fontSize: '0.82rem',
+                                      color: '#059669'
+                                    }}
+                                    title={`Nghe phát âm: "${item.en}"`}
+                                  >
+                                    🔊
+                                  </button>
+                                  <button
+                                    type="button"
+                                    onClick={() => insertPhrase('email1', item.en)}
+                                    style={{
+                                      backgroundColor: 'transparent',
+                                      border: 'none',
+                                      padding: '0.35rem 0.65rem',
+                                      fontSize: '0.82rem',
+                                      textAlign: 'left',
+                                      cursor: 'pointer'
+                                    }}
+                                    title={`Bấm để chèn vào bài: "${item.en}"`}
+                                  >
+                                    <strong style={{ color: '#047857' }}>{item.en}</strong>: <span style={{ color: '#64748b' }}>{item.vi}</span>
+                                  </button>
+                                </div>
                               ))}
                             </div>
                           </div>
@@ -959,9 +1044,38 @@ const Part4 = () => {
                           Mục tiêu: 120 - 150 từ
                         </span>
                       </div>
-                      <p style={{ margin: '0.35rem 0 0 0', color: '#1d4ed8', fontSize: '0.88rem' }}>
-                        {clubData.email2.instruction}
-                      </p>
+                      <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginTop: '0.35rem', flexWrap: 'wrap' }}>
+                        <p style={{ margin: 0, color: '#1d4ed8', fontSize: '0.88rem', fontWeight: 500 }}>
+                          {clubData.email2.instruction}
+                        </p>
+                        {clubData.email2.instructionVi && (
+                          <button
+                            type="button"
+                            onClick={() => setShowEmail2InstructionVi(!showEmail2InstructionVi)}
+                            style={{
+                              background: showEmail2InstructionVi ? '#2563eb' : 'rgba(37, 99, 235, 0.12)',
+                              color: showEmail2InstructionVi ? '#ffffff' : '#1e40af',
+                              border: '1px solid #bfdbfe',
+                              borderRadius: '4px',
+                              padding: '0.15rem 0.5rem',
+                              fontSize: '0.75rem',
+                              fontWeight: 700,
+                              cursor: 'pointer',
+                              display: 'inline-flex',
+                              alignItems: 'center',
+                              gap: '0.3rem',
+                              transition: 'all 0.2s'
+                            }}
+                          >
+                            {showEmail2InstructionVi ? 'Ẩn dịch' : '🇻🇳 Dịch đề'}
+                          </button>
+                        )}
+                      </div>
+                      {showEmail2InstructionVi && clubData.email2.instructionVi && (
+                        <div style={{ marginTop: '0.4rem', fontSize: '0.84rem', color: '#1e40af', fontStyle: 'italic', backgroundColor: '#dbeafe', padding: '0.4rem 0.75rem', borderRadius: '6px', borderLeft: '3px solid #2563eb' }}>
+                          🇻🇳 {clubData.email2.instructionVi}
+                        </div>
+                      )}
                     </div>
 
                     {/* Word Counter */}
@@ -1184,28 +1298,56 @@ const Part4 = () => {
                             <div style={{ fontWeight: 700, color: '#1e293b', fontSize: '0.85rem', marginBottom: '0.5rem' }}>
                               {cat.name}
                             </div>
-                            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.4rem' }}>
+                            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.45rem' }}>
                               {cat.items.map((item, i) => (
-                                <button
+                                <div
                                   key={i}
-                                  type="button"
-                                  onClick={() => insertPhrase('email2', item.en)}
                                   style={{
+                                    display: 'inline-flex',
+                                    alignItems: 'center',
                                     backgroundColor: '#ffffff',
                                     border: '1px solid #cbd5e1',
                                     borderRadius: '6px',
-                                    padding: '0.35rem 0.65rem',
-                                    fontSize: '0.82rem',
-                                    textAlign: 'left',
-                                    cursor: 'pointer',
+                                    overflow: 'hidden',
+                                    boxShadow: '0 1px 2px rgba(0,0,0,0.03)',
                                     transition: 'all 0.15s'
                                   }}
-                                  onMouseEnter={(e) => e.currentTarget.style.borderColor = '#2563eb'}
-                                  onMouseLeave={(e) => e.currentTarget.style.borderColor = '#cbd5e1'}
-                                  title={`Bấm để chèn: "${item.en}" - ${item.vi}`}
                                 >
-                                  <strong style={{ color: '#1d4ed8' }}>{item.en}</strong>: <span style={{ color: '#64748b' }}>{item.vi}</span>
-                                </button>
+                                  <button
+                                    type="button"
+                                    onClick={() => playAudio(item.en)}
+                                    style={{
+                                      background: 'rgba(37, 99, 235, 0.08)',
+                                      border: 'none',
+                                      borderRight: '1px solid #e2e8f0',
+                                      cursor: 'pointer',
+                                      padding: '0.35rem 0.5rem',
+                                      display: 'flex',
+                                      alignItems: 'center',
+                                      justifyContent: 'center',
+                                      fontSize: '0.82rem',
+                                      color: '#2563eb'
+                                    }}
+                                    title={`Nghe phát âm: "${item.en}"`}
+                                  >
+                                    🔊
+                                  </button>
+                                  <button
+                                    type="button"
+                                    onClick={() => insertPhrase('email2', item.en)}
+                                    style={{
+                                      backgroundColor: 'transparent',
+                                      border: 'none',
+                                      padding: '0.35rem 0.65rem',
+                                      fontSize: '0.82rem',
+                                      textAlign: 'left',
+                                      cursor: 'pointer'
+                                    }}
+                                    title={`Bấm để chèn vào bài: "${item.en}"`}
+                                  >
+                                    <strong style={{ color: '#1d4ed8' }}>{item.en}</strong>: <span style={{ color: '#64748b' }}>{item.vi}</span>
+                                  </button>
+                                </div>
                               ))}
                             </div>
                           </div>
