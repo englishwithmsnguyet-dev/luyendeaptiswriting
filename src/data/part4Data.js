@@ -3,7 +3,7 @@
 export const part4CommonTemplates = {
   informal: {
     title: "EMAIL GỬI BẠN (Informal Email)",
-    target: "Khoảng 40 - 50 từ (chuẩn 48 - 52 từ, hoàn thành trong 10 phút)",
+    target: "Khoảng 40 - 50 từ (chuẩn 48 - 58 từ, hoàn thành trong 10 phút)",
     tone: "Thân mật, tự nhiên, gần gũi (dùng tên thân mật, câu cảm thán, ký tên Kato)",
     structure: [
       {
@@ -21,7 +21,7 @@ export const part4CommonTemplates = {
       {
         step: 3,
         name: "Quan điểm, Lý do & Phát triển ý",
-        fixed: "Personally, I think [ý kiến & lý do]. Moreover, [phát triển thêm ý]. What do you think?",
+        fixed: "Personally, I think [ý kiến & lý do]. Moreover, [phát triển thêm ý]. What do you think? Hope to hear from you soon. Hope to hear from you soon.",
         note: "Nêu quan điểm kèm lý do, bổ sung 1 ý phát triển/rủ rê và hỏi ý kiến bạn"
       },
       {
@@ -55,7 +55,7 @@ Kato`,
         slot: "[ý kiến & lý do]", 
         fixedMid: ". Moreover, ", 
         slot2: "[phát triển thêm ý]", 
-        fixedSuffix: ". What do you think?" 
+        fixedSuffix: ". What do you think? Hope to hear from you soon." 
       },
       { label: "4. Ký tên", fixedPrefix: "Take care,\nKato" }
     ]
@@ -173,7 +173,7 @@ Kato`,
     },
     {
       criterion: "Cấu trúc & Liên từ",
-      informal: "Ngắn gọn, tự nhiên: Personally, Moreover, What do you think?",
+      informal: "Ngắn gọn, tự nhiên: Personally, Moreover, What do you think? Hope to hear from you soon.",
       formal: "Học thuật B2+/C1: I firmly believe, To help achieve the best outcome, First, Second, Finally"
     },
     {
@@ -260,9 +260,9 @@ export const part4Data = {
       "samples": [
             {
                   "title": "Bài mẫu chuẩn Band B2+",
-                  "wordCount": 51,
-                  "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our club is planning a monthly walk. I was delighted to hear about it.\n\nPersonally, I think it keeps us active. Moreover, we could organize fun games after the walk. What do you think?\n\nTake care,\nKato",
-                  "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin CLB của chúng mình đang lên kế hoạch tổ chức sự kiện đi bộ hàng tháng. Mình rất vui khi nghe tin này.\n\nCá nhân mình thấy hoạt động này giúp chúng mình luôn năng động. Hơn nữa, chúng mình có thể tổ chức trò chơi vui sau buổi đi bộ. Bạn nghĩ sao?\n\nBảo trọng nhé,\nKato",
+                  "wordCount": 57,
+                  "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our club is planning a monthly walk. I was delighted to hear about it.\n\nPersonally, I think it keeps us active. Moreover, we could organize fun games after the walk. What do you think? Hope to hear from you soon.\n\nTake care,\nKato",
+                  "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin CLB của chúng mình đang lên kế hoạch tổ chức sự kiện đi bộ hàng tháng. Mình rất vui khi nghe tin này.\n\nCá nhân mình thấy hoạt động này giúp chúng mình luôn năng động. Hơn nữa, chúng mình có thể tổ chức trò chơi vui sau buổi đi bộ. Bạn nghĩ sao? Mong sớm nhận được tin từ bạn.\n\nBảo trọng nhé,\nKato",
                   "analysis": [
                         {
                               "label": "Chào hỏi & Tin tức",
@@ -270,7 +270,7 @@ export const part4Data = {
                         },
                         {
                               "label": "Quan điểm, Lý do & Đề xuất",
-                              "text": "Personally, I think it keeps us active. Moreover, we could organize fun games after the walk. What do you think?"
+                              "text": "Personally, I think it keeps us active. Moreover, we could organize fun games after the walk. What do you think? Hope to hear from you soon."
                         },
                         {
                               "label": "Ký tên",
@@ -419,9 +419,9 @@ export const part4Data = {
       "samples": [
             {
                   "title": "Bài mẫu chuẩn Band B2+",
-                  "wordCount": 52,
-                  "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our club plans to raise fees. I was quite concerned about it.\n\nPersonally, I think this adjustment is reasonable because upgrading machines requires funds. Moreover, we should renew our memberships early. What do you think?\n\nTake care,\nKato",
-                  "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ muốn biết tin CLB của chúng mình dự định tăng học phí. Mình khá lo lắng về điều đó.\n\nCá nhân mình thấy mức điều chỉnh này là hợp lý vì nâng cấp máy móc cần kinh phí. Hơn nữa, chúng mình nên gia hạn thẻ tập sớm. Bạn nghĩ sao?\n\nBảo trọng nhé,\nKato",
+                  "wordCount": 58,
+                  "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our club plans to raise fees. I was quite concerned about it.\n\nPersonally, I think this adjustment is reasonable because upgrading machines requires funds. Moreover, we should renew our memberships early. What do you think? Hope to hear from you soon.\n\nTake care,\nKato",
+                  "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ muốn biết tin CLB của chúng mình dự định tăng học phí. Mình khá lo lắng về điều đó.\n\nCá nhân mình thấy mức điều chỉnh này là hợp lý vì nâng cấp máy móc cần kinh phí. Hơn nữa, chúng mình nên gia hạn thẻ tập sớm. Bạn nghĩ sao? Mong sớm nhận được tin từ bạn.\n\nBảo trọng nhé,\nKato",
                   "analysis": [
                         {
                               "label": "Chào hỏi & Tin tức",
@@ -429,7 +429,7 @@ export const part4Data = {
                         },
                         {
                               "label": "Quan điểm, Lý do & Đề xuất",
-                              "text": "Personally, I think this adjustment is reasonable because upgrading machines requires funds. Moreover, we should renew our memberships early. What do you think?"
+                              "text": "Personally, I think this adjustment is reasonable because upgrading machines requires funds. Moreover, we should renew our memberships early. What do you think? Hope to hear from you soon."
                         },
                         {
                               "label": "Ký tên",
@@ -578,9 +578,9 @@ export const part4Data = {
       "samples": [
             {
                   "title": "Bài mẫu chuẩn Band B2+",
-                  "wordCount": 53,
-                  "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our club is organizing an artist talk. I was thrilled about it!\n\nPersonally, I think inviting a painter is wonderful because it inspires creativity. Moreover, we should register early for front-row seats. What do you think?\n\nTake care,\nKato",
-                  "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin CLB của chúng mình đang tổ chức buổi nói chuyện với nghệ sĩ. Mình rất hào hứng về tin này!\n\nCá nhân mình thấy mời một họa sĩ thật tuyệt vời vì truyền cảm hứng sáng tạo. Hơn nữa, chúng mình nên đăng ký sớm để có chỗ hàng đầu. Bạn nghĩ sao?\n\nBảo trọng nhé,\nKato",
+                  "wordCount": 59,
+                  "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our club is organizing an artist talk. I was thrilled about it!\n\nPersonally, I think inviting a painter is wonderful because it inspires creativity. Moreover, we should register early for front-row seats. What do you think? Hope to hear from you soon.\n\nTake care,\nKato",
+                  "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin CLB của chúng mình đang tổ chức buổi nói chuyện với nghệ sĩ. Mình rất hào hứng về tin này!\n\nCá nhân mình thấy mời một họa sĩ thật tuyệt vời vì truyền cảm hứng sáng tạo. Hơn nữa, chúng mình nên đăng ký sớm để có chỗ hàng đầu. Bạn nghĩ sao? Mong sớm nhận được tin từ bạn.\n\nBảo trọng nhé,\nKato",
                   "analysis": [
                         {
                               "label": "Chào hỏi & Tin tức",
@@ -588,7 +588,7 @@ export const part4Data = {
                         },
                         {
                               "label": "Quan điểm, Lý do & Đề xuất",
-                              "text": "Personally, I think inviting a painter is wonderful because it inspires creativity. Moreover, we should register early for front-row seats. What do you think?"
+                              "text": "Personally, I think inviting a painter is wonderful because it inspires creativity. Moreover, we should register early for front-row seats. What do you think? Hope to hear from you soon."
                         },
                         {
                               "label": "Ký tên",
@@ -737,9 +737,9 @@ export const part4Data = {
       "samples": [
             {
                   "title": "Bài mẫu chuẩn Band B2+",
-                  "wordCount": 51,
-                  "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our club needs guest speakers. I was really excited about it!\n\nPersonally, I think this opportunity is fantastic because we can share recipes. Moreover, we could volunteer as speakers together. What do you think?\n\nTake care,\nKato",
-                  "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin CLB của chúng mình cần diễn giả khách mời. Mình thực sự hào hứng về tin này!\n\nCá nhân mình thấy cơ hội này thật tuyệt vời vì chúng mình có thể chia sẻ công thức nấu ăn. Hơn nữa, chúng mình có thể cùng nhau đăng ký làm diễn giả. Bạn nghĩ sao?\n\nBảo trọng nhé,\nKato",
+                  "wordCount": 57,
+                  "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our club needs guest speakers. I was really excited about it!\n\nPersonally, I think this opportunity is fantastic because we can share recipes. Moreover, we could volunteer as speakers together. What do you think? Hope to hear from you soon.\n\nTake care,\nKato",
+                  "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin CLB của chúng mình cần diễn giả khách mời. Mình thực sự hào hứng về tin này!\n\nCá nhân mình thấy cơ hội này thật tuyệt vời vì chúng mình có thể chia sẻ công thức nấu ăn. Hơn nữa, chúng mình có thể cùng nhau đăng ký làm diễn giả. Bạn nghĩ sao? Mong sớm nhận được tin từ bạn.\n\nBảo trọng nhé,\nKato",
                   "analysis": [
                         {
                               "label": "Chào hỏi & Tin tức",
@@ -747,7 +747,7 @@ export const part4Data = {
                         },
                         {
                               "label": "Quan điểm, Lý do & Đề xuất",
-                              "text": "Personally, I think this opportunity is fantastic because we can share recipes. Moreover, we could volunteer as speakers together. What do you think?"
+                              "text": "Personally, I think this opportunity is fantastic because we can share recipes. Moreover, we could volunteer as speakers together. What do you think? Hope to hear from you soon."
                         },
                         {
                               "label": "Ký tên",
@@ -896,9 +896,9 @@ export const part4Data = {
       "samples": [
             {
                   "title": "Bài mẫu chuẩn Band B2+",
-                  "wordCount": 52,
-                  "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our club plans monthly meetings. I was thrilled about it!\n\nPersonally, I think meeting on Saturday morning is ideal because everyone is free. Moreover, we can suggest a cozy garden cafe. What do you think?\n\nTake care,\nKato",
-                  "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin CLB của chúng mình dự định gặp nhau hàng tháng. Mình rất phấn khích về tin này!\n\nCá nhân mình thấy gặp nhau sáng thứ Bảy là lý tưởng vì mọi người đều rảnh rỗi. Hơn nữa, chúng mình có thể gợi ý một quán cà phê sân vườn ấm cúng. Bạn nghĩ sao?\n\nBảo trọng nhé,\nKato",
+                  "wordCount": 58,
+                  "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our club plans monthly meetings. I was thrilled about it!\n\nPersonally, I think meeting on Saturday morning is ideal because everyone is free. Moreover, we can suggest a cozy garden cafe. What do you think? Hope to hear from you soon.\n\nTake care,\nKato",
+                  "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin CLB của chúng mình dự định gặp nhau hàng tháng. Mình rất phấn khích về tin này!\n\nCá nhân mình thấy gặp nhau sáng thứ Bảy là lý tưởng vì mọi người đều rảnh rỗi. Hơn nữa, chúng mình có thể gợi ý một quán cà phê sân vườn ấm cúng. Bạn nghĩ sao? Mong sớm nhận được tin từ bạn.\n\nBảo trọng nhé,\nKato",
                   "analysis": [
                         {
                               "label": "Chào hỏi & Tin tức",
@@ -906,7 +906,7 @@ export const part4Data = {
                         },
                         {
                               "label": "Quan điểm, Lý do & Đề xuất",
-                              "text": "Personally, I think meeting on Saturday morning is ideal because everyone is free. Moreover, we can suggest a cozy garden cafe. What do you think?"
+                              "text": "Personally, I think meeting on Saturday morning is ideal because everyone is free. Moreover, we can suggest a cozy garden cafe. What do you think? Hope to hear from you soon."
                         },
                         {
                               "label": "Ký tên",
@@ -1051,9 +1051,9 @@ export const part4Data = {
       "samples": [
             {
                   "title": "Bài mẫu chuẩn Band B2+",
-                  "wordCount": 52,
-                  "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our club plans a picnic event. I was delighted to hear it!\n\nPersonally, I think the riverside park is perfect because of fresh air. Moreover, we should bring some badminton rackets. What do you think?\n\nTake care,\nKato",
-                  "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin CLB đang lên kế hoạch dã ngoại ngoài trời. Mình rất vui khi nghe tin này!\n\nCá nhân mình thấy công viên ven sông rất lý tưởng vì không khí trong lành. Hơn nữa, chúng mình nên mang theo vài cây vợt cầu lông. Bạn nghĩ sao?\n\nBảo trọng nhé,\nKato",
+                  "wordCount": 58,
+                  "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our club plans a picnic event. I was delighted to hear it!\n\nPersonally, I think the riverside park is perfect because of fresh air. Moreover, we should bring some badminton rackets. What do you think? Hope to hear from you soon.\n\nTake care,\nKato",
+                  "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin CLB đang lên kế hoạch dã ngoại ngoài trời. Mình rất vui khi nghe tin này!\n\nCá nhân mình thấy công viên ven sông rất lý tưởng vì không khí trong lành. Hơn nữa, chúng mình nên mang theo vài cây vợt cầu lông. Bạn nghĩ sao? Mong sớm nhận được tin từ bạn.\n\nBảo trọng nhé,\nKato",
                   "analysis": [
                         {
                               "label": "Chào hỏi & Tin tức",
@@ -1061,7 +1061,7 @@ export const part4Data = {
                         },
                         {
                               "label": "Quan điểm, Lý do & Đề xuất",
-                              "text": "Personally, I think the riverside park is perfect because of fresh air. Moreover, we should bring some badminton rackets. What do you think?"
+                              "text": "Personally, I think the riverside park is perfect because of fresh air. Moreover, we should bring some badminton rackets. What do you think? Hope to hear from you soon."
                         },
                         {
                               "label": "Ký tên",
@@ -1210,9 +1210,9 @@ export const part4Data = {
       "samples": [
             {
                   "title": "Bài mẫu chuẩn Band B2+",
-                  "wordCount": 52,
-                  "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our club plans a consultation session. I was thrilled about it!\n\nPersonally, I think getting expert interior advice is great for small apartments. Moreover, we should bring our living room photos. What do you think?\n\nTake care,\nKato",
-                  "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin CLB dự định tổ chức buổi tư vấn nội thất. Mình rất hào hứng về tin này!\n\nCá nhân mình thấy nhận lời khuyên từ chuyên gia rất tuyệt cho căn hộ nhỏ. Hơn nữa, chúng mình nên mang theo ảnh phòng khách. Bạn nghĩ sao?\n\nBảo trọng nhé,\nKato",
+                  "wordCount": 58,
+                  "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our club plans a consultation session. I was thrilled about it!\n\nPersonally, I think getting expert interior advice is great for small apartments. Moreover, we should bring our living room photos. What do you think? Hope to hear from you soon.\n\nTake care,\nKato",
+                  "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin CLB dự định tổ chức buổi tư vấn nội thất. Mình rất hào hứng về tin này!\n\nCá nhân mình thấy nhận lời khuyên từ chuyên gia rất tuyệt cho căn hộ nhỏ. Hơn nữa, chúng mình nên mang theo ảnh phòng khách. Bạn nghĩ sao? Mong sớm nhận được tin từ bạn.\n\nBảo trọng nhé,\nKato",
                   "analysis": [
                         {
                               "label": "Chào hỏi & Tin tức",
@@ -1220,7 +1220,7 @@ export const part4Data = {
                         },
                         {
                               "label": "Quan điểm, Lý do & Đề xuất",
-                              "text": "Personally, I think getting expert interior advice is great for small apartments. Moreover, we should bring our living room photos. What do you think?"
+                              "text": "Personally, I think getting expert interior advice is great for small apartments. Moreover, we should bring our living room photos. What do you think? Hope to hear from you soon."
                         },
                         {
                               "label": "Ký tên",
@@ -1365,9 +1365,9 @@ export const part4Data = {
       "samples": [
             {
                   "title": "Bài mẫu chuẩn Band B2+",
-                  "wordCount": 50,
-                  "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our club is raising monthly fees. I was concerned about it!\n\nPersonally, I think this increase is reasonable if maintenance is improved. Moreover, we should ask for a breakdown. What do you think?\n\nTake care,\nKato",
-                  "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ muốn biết tin CLB của chúng mình đang tăng phí tháng. Mình khá lo lắng về tin này!\n\nCá nhân mình thấy việc tăng phí là hợp lý nếu bảo trì được cải thiện. Hơn nữa, chúng mình nên yêu cầu bảng giải trình chi phí. Bạn nghĩ sao?\n\nBảo trọng nhé,\nKato",
+                  "wordCount": 56,
+                  "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our club is raising monthly fees. I was concerned about it!\n\nPersonally, I think this increase is reasonable if maintenance is improved. Moreover, we should ask for a breakdown. What do you think? Hope to hear from you soon.\n\nTake care,\nKato",
+                  "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ muốn biết tin CLB của chúng mình đang tăng phí tháng. Mình khá lo lắng về tin này!\n\nCá nhân mình thấy việc tăng phí là hợp lý nếu bảo trì được cải thiện. Hơn nữa, chúng mình nên yêu cầu bảng giải trình chi phí. Bạn nghĩ sao? Mong sớm nhận được tin từ bạn.\n\nBảo trọng nhé,\nKato",
                   "analysis": [
                         {
                               "label": "Chào hỏi & Tin tức",
@@ -1375,7 +1375,7 @@ export const part4Data = {
                         },
                         {
                               "label": "Quan điểm, Lý do & Đề xuất",
-                              "text": "Personally, I think this increase is reasonable if maintenance is improved. Moreover, we should ask for a breakdown. What do you think?"
+                              "text": "Personally, I think this increase is reasonable if maintenance is improved. Moreover, we should ask for a breakdown. What do you think? Hope to hear from you soon."
                         },
                         {
                               "label": "Ký tên",
@@ -1520,9 +1520,9 @@ export const part4Data = {
       "samples": [
             {
                   "title": "Bài mẫu chuẩn Band B2+",
-                  "wordCount": 51,
-                  "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our club plans garden tours. I was delighted to hear it!\n\nPersonally, I think visiting private gardens is wonderful for practical landscaping ideas. Moreover, we could take lots of photos. What do you think?\n\nTake care,\nKato",
-                  "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin CLB dự định tổ chức các chuyến tham quan vườn. Mình rất vui khi nghe tin này!\n\nCá nhân mình thấy tham quan vườn tư nhân thật tuyệt để học hỏi ý tưởng tạo cảnh quan. Hơn nữa, chúng mình có thể chụp thật nhiều ảnh. Bạn nghĩ sao?\n\nBảo trọng nhé,\nKato",
+                  "wordCount": 57,
+                  "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our club plans garden tours. I was delighted to hear it!\n\nPersonally, I think visiting private gardens is wonderful for practical landscaping ideas. Moreover, we could take lots of photos. What do you think? Hope to hear from you soon.\n\nTake care,\nKato",
+                  "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin CLB dự định tổ chức các chuyến tham quan vườn. Mình rất vui khi nghe tin này!\n\nCá nhân mình thấy tham quan vườn tư nhân thật tuyệt để học hỏi ý tưởng tạo cảnh quan. Hơn nữa, chúng mình có thể chụp thật nhiều ảnh. Bạn nghĩ sao? Mong sớm nhận được tin từ bạn.\n\nBảo trọng nhé,\nKato",
                   "analysis": [
                         {
                               "label": "Chào hỏi & Tin tức",
@@ -1530,7 +1530,7 @@ export const part4Data = {
                         },
                         {
                               "label": "Quan điểm, Lý do & Đề xuất",
-                              "text": "Personally, I think visiting private gardens is wonderful for practical landscaping ideas. Moreover, we could take lots of photos. What do you think?"
+                              "text": "Personally, I think visiting private gardens is wonderful for practical landscaping ideas. Moreover, we could take lots of photos. What do you think? Hope to hear from you soon."
                         },
                         {
                               "label": "Ký tên",
@@ -1675,9 +1675,9 @@ export const part4Data = {
       "samples": [
             {
                   "title": "Bài mẫu chuẩn Band B2+",
-                  "wordCount": 51,
-                  "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our club plans a flower festival. I was thrilled about it!\n\nPersonally, I think the rose garden is great because blooming flowers look amazing. Moreover, we should help design booths. What do you think?\n\nTake care,\nKato",
-                  "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin CLB dự định tổ chức lễ hội hoa. Mình rất phấn khởi về tin này!\n\nCá nhân mình thấy vườn hoa hồng rất tuyệt vì hoa nở rộ tuyệt đẹp. Hơn nữa, chúng mình nên giúp thiết kế gian hàng. Bạn nghĩ sao?\n\nBảo trọng nhé,\nKato",
+                  "wordCount": 57,
+                  "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our club plans a flower festival. I was thrilled about it!\n\nPersonally, I think the rose garden is great because blooming flowers look amazing. Moreover, we should help design booths. What do you think? Hope to hear from you soon.\n\nTake care,\nKato",
+                  "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin CLB dự định tổ chức lễ hội hoa. Mình rất phấn khởi về tin này!\n\nCá nhân mình thấy vườn hoa hồng rất tuyệt vì hoa nở rộ tuyệt đẹp. Hơn nữa, chúng mình nên giúp thiết kế gian hàng. Bạn nghĩ sao? Mong sớm nhận được tin từ bạn.\n\nBảo trọng nhé,\nKato",
                   "analysis": [
                         {
                               "label": "Chào hỏi & Tin tức",
@@ -1685,7 +1685,7 @@ export const part4Data = {
                         },
                         {
                               "label": "Quan điểm, Lý do & Đề xuất",
-                              "text": "Personally, I think the rose garden is great because blooming flowers look amazing. Moreover, we should help design booths. What do you think?"
+                              "text": "Personally, I think the rose garden is great because blooming flowers look amazing. Moreover, we should help design booths. What do you think? Hope to hear from you soon."
                         },
                         {
                               "label": "Ký tên",
@@ -1830,9 +1830,9 @@ export const part4Data = {
       "samples": [
             {
                   "title": "Bài mẫu chuẩn Band B2+",
-                  "wordCount": 50,
-                  "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our club plans a tournament. I was thrilled about it!\n\nPersonally, I think holding a badminton cup is great because it promotes team spirit. Moreover, we should practice together. What do you think?\n\nTake care,\nKato",
-                  "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin CLB dự định tổ chức giải đấu thể thao. Mình rất hào hứng về tin này!\n\nCá nhân mình thấy tổ chức giải cầu lông rất tuyệt vì nâng cao tinh thần đồng đội. Hơn nữa, chúng mình nên tập luyện cùng nhau. Bạn nghĩ sao?\n\nBảo trọng nhé,\nKato",
+                  "wordCount": 56,
+                  "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our club plans a tournament. I was thrilled about it!\n\nPersonally, I think holding a badminton cup is great because it promotes team spirit. Moreover, we should practice together. What do you think? Hope to hear from you soon.\n\nTake care,\nKato",
+                  "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin CLB dự định tổ chức giải đấu thể thao. Mình rất hào hứng về tin này!\n\nCá nhân mình thấy tổ chức giải cầu lông rất tuyệt vì nâng cao tinh thần đồng đội. Hơn nữa, chúng mình nên tập luyện cùng nhau. Bạn nghĩ sao? Mong sớm nhận được tin từ bạn.\n\nBảo trọng nhé,\nKato",
                   "analysis": [
                         {
                               "label": "Chào hỏi & Tin tức",
@@ -1840,7 +1840,7 @@ export const part4Data = {
                         },
                         {
                               "label": "Quan điểm, Lý do & Đề xuất",
-                              "text": "Personally, I think holding a badminton cup is great because it promotes team spirit. Moreover, we should practice together. What do you think?"
+                              "text": "Personally, I think holding a badminton cup is great because it promotes team spirit. Moreover, we should practice together. What do you think? Hope to hear from you soon."
                         },
                         {
                               "label": "Ký tên",
@@ -1985,9 +1985,9 @@ export const part4Data = {
       "samples": [
             {
                   "title": "Bài mẫu chuẩn Band B2+",
-                  "wordCount": 49,
-                  "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our club plans outdoor screenings. I was thrilled about it!\n\nPersonally, I think classic films are fantastic because everyone loves nostalgia. Moreover, we should bring blankets and popcorn. What do you think?\n\nTake care,\nKato",
-                  "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin CLB dự định chiếu phim ngoài trời. Mình rất phấn khởi về tin này!\n\nCá nhân mình thấy các bộ phim kinh điển rất tuyệt vì ai cũng thích sự hoài niệm. Hơn nữa, chúng mình nên mang theo chăn ấm và bắp rang. Bạn nghĩ sao?\n\nBảo trọng nhé,\nKato",
+                  "wordCount": 55,
+                  "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our club plans outdoor screenings. I was thrilled about it!\n\nPersonally, I think classic films are fantastic because everyone loves nostalgia. Moreover, we should bring blankets and popcorn. What do you think? Hope to hear from you soon.\n\nTake care,\nKato",
+                  "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin CLB dự định chiếu phim ngoài trời. Mình rất phấn khởi về tin này!\n\nCá nhân mình thấy các bộ phim kinh điển rất tuyệt vì ai cũng thích sự hoài niệm. Hơn nữa, chúng mình nên mang theo chăn ấm và bắp rang. Bạn nghĩ sao? Mong sớm nhận được tin từ bạn.\n\nBảo trọng nhé,\nKato",
                   "analysis": [
                         {
                               "label": "Chào hỏi & Tin tức",
@@ -1995,7 +1995,7 @@ export const part4Data = {
                         },
                         {
                               "label": "Quan điểm, Lý do & Đề xuất",
-                              "text": "Personally, I think classic films are fantastic because everyone loves nostalgia. Moreover, we should bring blankets and popcorn. What do you think?"
+                              "text": "Personally, I think classic films are fantastic because everyone loves nostalgia. Moreover, we should bring blankets and popcorn. What do you think? Hope to hear from you soon."
                         },
                         {
                               "label": "Ký tên",
@@ -2140,9 +2140,9 @@ export const part4Data = {
       "samples": [
             {
                   "title": "Bài mẫu chuẩn Band B2+",
-                  "wordCount": 49,
-                  "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our club plans a maintenance workshop. I was excited about it!\n\nPersonally, I think practical auto tips are great for beginners. Moreover, we should bring our repair tools. What do you think?\n\nTake care,\nKato",
-                  "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin CLB dự định tổ chức hội thảo bảo dưỡng xe. Mình rất hào hứng về tin này!\n\nCá nhân mình thấy các mẹo thực tế rất hữu ích cho người mới. Hơn nữa, chúng mình nên mang theo bộ dụng cụ sửa chữa. Bạn nghĩ sao?\n\nBảo trọng nhé,\nKato",
+                  "wordCount": 55,
+                  "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our club plans a maintenance workshop. I was excited about it!\n\nPersonally, I think practical auto tips are great for beginners. Moreover, we should bring our repair tools. What do you think? Hope to hear from you soon.\n\nTake care,\nKato",
+                  "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin CLB dự định tổ chức hội thảo bảo dưỡng xe. Mình rất hào hứng về tin này!\n\nCá nhân mình thấy các mẹo thực tế rất hữu ích cho người mới. Hơn nữa, chúng mình nên mang theo bộ dụng cụ sửa chữa. Bạn nghĩ sao? Mong sớm nhận được tin từ bạn.\n\nBảo trọng nhé,\nKato",
                   "analysis": [
                         {
                               "label": "Chào hỏi & Tin tức",
@@ -2150,7 +2150,7 @@ export const part4Data = {
                         },
                         {
                               "label": "Quan điểm, Lý do & Đề xuất",
-                              "text": "Personally, I think practical auto tips are great for beginners. Moreover, we should bring our repair tools. What do you think?"
+                              "text": "Personally, I think practical auto tips are great for beginners. Moreover, we should bring our repair tools. What do you think? Hope to hear from you soon."
                         },
                         {
                               "label": "Ký tên",
@@ -2295,9 +2295,9 @@ export const part4Data = {
       "samples": [
             {
                   "title": "Bài mẫu chuẩn Band B2+",
-                  "wordCount": 50,
-                  "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our club plans charity activities. I was delighted to hear it!\n\nPersonally, I think supporting local shelters is meaningful because it helps underprivileged children. Moreover, we should donate textbooks. What do you think?\n\nTake care,\nKato",
-                  "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin CLB dự định tổ chức các hoạt động từ thiện. Mình rất vui khi nghe tin này!\n\nCá nhân mình thấy hỗ trợ mái ấm địa phương rất ý nghĩa vì giúp đỡ trẻ em khó khăn. Hơn nữa, chúng mình nên quyên góp sách giáo khoa. Bạn nghĩ sao?\n\nBảo trọng nhé,\nKato",
+                  "wordCount": 56,
+                  "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our club plans charity activities. I was delighted to hear it!\n\nPersonally, I think supporting local shelters is meaningful because it helps underprivileged children. Moreover, we should donate textbooks. What do you think? Hope to hear from you soon.\n\nTake care,\nKato",
+                  "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin CLB dự định tổ chức các hoạt động từ thiện. Mình rất vui khi nghe tin này!\n\nCá nhân mình thấy hỗ trợ mái ấm địa phương rất ý nghĩa vì giúp đỡ trẻ em khó khăn. Hơn nữa, chúng mình nên quyên góp sách giáo khoa. Bạn nghĩ sao? Mong sớm nhận được tin từ bạn.\n\nBảo trọng nhé,\nKato",
                   "analysis": [
                         {
                               "label": "Chào hỏi & Tin tức",
@@ -2305,7 +2305,7 @@ export const part4Data = {
                         },
                         {
                               "label": "Quan điểm, Lý do & Đề xuất",
-                              "text": "Personally, I think supporting local shelters is meaningful because it helps underprivileged children. Moreover, we should donate textbooks. What do you think?"
+                              "text": "Personally, I think supporting local shelters is meaningful because it helps underprivileged children. Moreover, we should donate textbooks. What do you think? Hope to hear from you soon."
                         },
                         {
                               "label": "Ký tên",
@@ -2450,9 +2450,9 @@ export const part4Data = {
       "samples": [
             {
                   "title": "Bài mẫu chuẩn Band B2+",
-                  "wordCount": 50,
-                  "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our club plans an acoustic concert. I was thrilled about it!\n\nPersonally, I think live acoustic shows are wonderful for intimate member bonding. Moreover, we should perform a duet. What do you think?\n\nTake care,\nKato",
-                  "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin CLB dự định tổ chức đêm nhạc mộc acoustic. Mình rất phấn khởi về tin này!\n\nCá nhân mình thấy các buổi biểu diễn acoustic rất tuyệt để hội viên gắn kết gần gũi. Hơn nữa, chúng mình nên song ca một bài. Bạn nghĩ sao?\n\nBảo trọng nhé,\nKato",
+                  "wordCount": 56,
+                  "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our club plans an acoustic concert. I was thrilled about it!\n\nPersonally, I think live acoustic shows are wonderful for intimate member bonding. Moreover, we should perform a duet. What do you think? Hope to hear from you soon.\n\nTake care,\nKato",
+                  "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin CLB dự định tổ chức đêm nhạc mộc acoustic. Mình rất phấn khởi về tin này!\n\nCá nhân mình thấy các buổi biểu diễn acoustic rất tuyệt để hội viên gắn kết gần gũi. Hơn nữa, chúng mình nên song ca một bài. Bạn nghĩ sao? Mong sớm nhận được tin từ bạn.\n\nBảo trọng nhé,\nKato",
                   "analysis": [
                         {
                               "label": "Chào hỏi & Tin tức",
@@ -2460,7 +2460,7 @@ export const part4Data = {
                         },
                         {
                               "label": "Quan điểm, Lý do & Đề xuất",
-                              "text": "Personally, I think live acoustic shows are wonderful for intimate member bonding. Moreover, we should perform a duet. What do you think?"
+                              "text": "Personally, I think live acoustic shows are wonderful for intimate member bonding. Moreover, we should perform a duet. What do you think? Hope to hear from you soon."
                         },
                         {
                               "label": "Ký tên",
@@ -2605,9 +2605,9 @@ export const part4Data = {
       "samples": [
             {
                   "title": "Bài mẫu chuẩn Band B2+",
-                  "wordCount": 50,
-                  "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our club plans native speaker debates. I was thrilled about it!\n\nPersonally, I think debate sessions are great because they sharpen speaking fluency. Moreover, we should form a team. What do you think?\n\nTake care,\nKato",
-                  "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin CLB dự định tổ chức tranh luận cùng người bản xứ. Mình rất hào hứng về tin này!\n\nCá nhân mình thấy các buổi tranh luận rất tuyệt vì giúp tăng phản xạ nói trôi chảy. Hơn nữa, chúng mình nên lập một đội. Bạn nghĩ sao?\n\nBảo trọng nhé,\nKato",
+                  "wordCount": 56,
+                  "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our club plans native speaker debates. I was thrilled about it!\n\nPersonally, I think debate sessions are great because they sharpen speaking fluency. Moreover, we should form a team. What do you think? Hope to hear from you soon.\n\nTake care,\nKato",
+                  "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin CLB dự định tổ chức tranh luận cùng người bản xứ. Mình rất hào hứng về tin này!\n\nCá nhân mình thấy các buổi tranh luận rất tuyệt vì giúp tăng phản xạ nói trôi chảy. Hơn nữa, chúng mình nên lập một đội. Bạn nghĩ sao? Mong sớm nhận được tin từ bạn.\n\nBảo trọng nhé,\nKato",
                   "analysis": [
                         {
                               "label": "Chào hỏi & Tin tức",
@@ -2615,7 +2615,7 @@ export const part4Data = {
                         },
                         {
                               "label": "Quan điểm, Lý do & Đề xuất",
-                              "text": "Personally, I think debate sessions are great because they sharpen speaking fluency. Moreover, we should form a team. What do you think?"
+                              "text": "Personally, I think debate sessions are great because they sharpen speaking fluency. Moreover, we should form a team. What do you think? Hope to hear from you soon."
                         },
                         {
                               "label": "Ký tên",
@@ -2760,9 +2760,9 @@ export const part4Data = {
       "samples": [
             {
                   "title": "Bài mẫu chuẩn Band B2+",
-                  "wordCount": 50,
-                  "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our club plans a presentation contest. I was thrilled about it!\n\nPersonally, I think public speaking is fantastic because it builds confidence. Moreover, we should register as a duo. What do you think?\n\nTake care,\nKato",
-                  "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin CLB dự định tổ chức cuộc thi thuyết trình. Mình rất phấn khởi về tin này!\n\nCá nhân mình thấy thuyết trình trước công chúng thật tuyệt vì rèn sự tự tin. Hơn nữa, chúng mình nên đăng ký cặp đôi. Bạn nghĩ sao?\n\nBảo trọng nhé,\nKato",
+                  "wordCount": 56,
+                  "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our club plans a presentation contest. I was thrilled about it!\n\nPersonally, I think public speaking is fantastic because it builds confidence. Moreover, we should register as a duo. What do you think? Hope to hear from you soon.\n\nTake care,\nKato",
+                  "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin CLB dự định tổ chức cuộc thi thuyết trình. Mình rất phấn khởi về tin này!\n\nCá nhân mình thấy thuyết trình trước công chúng thật tuyệt vì rèn sự tự tin. Hơn nữa, chúng mình nên đăng ký cặp đôi. Bạn nghĩ sao? Mong sớm nhận được tin từ bạn.\n\nBảo trọng nhé,\nKato",
                   "analysis": [
                         {
                               "label": "Chào hỏi & Tin tức",
@@ -2770,7 +2770,7 @@ export const part4Data = {
                         },
                         {
                               "label": "Quan điểm, Lý do & Đề xuất",
-                              "text": "Personally, I think public speaking is fantastic because it builds confidence. Moreover, we should register as a duo. What do you think?"
+                              "text": "Personally, I think public speaking is fantastic because it builds confidence. Moreover, we should register as a duo. What do you think? Hope to hear from you soon."
                         },
                         {
                               "label": "Ký tên",
@@ -2915,9 +2915,9 @@ export const part4Data = {
       "samples": [
             {
                   "title": "Bài mẫu chuẩn Band B2+",
-                  "wordCount": 49,
-                  "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our club plans an author exchange. I was thrilled about it!\n\nPersonally, I think meeting the author is wonderful for literary appreciation. Moreover, we should prepare questions beforehand. What do you think?\n\nTake care,\nKato",
-                  "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin CLB dự định tổ chức buổi giao lưu tác giả. Mình rất phấn khởi về tin này!\n\nCá nhân mình thấy gặp tác giả rất tuyệt để hiểu sâu thêm tác phẩm. Hơn nữa, chúng mình nên chuẩn bị câu hỏi từ trước. Bạn nghĩ sao?\n\nBảo trọng nhé,\nKato",
+                  "wordCount": 55,
+                  "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our club plans an author exchange. I was thrilled about it!\n\nPersonally, I think meeting the author is wonderful for literary appreciation. Moreover, we should prepare questions beforehand. What do you think? Hope to hear from you soon.\n\nTake care,\nKato",
+                  "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin CLB dự định tổ chức buổi giao lưu tác giả. Mình rất phấn khởi về tin này!\n\nCá nhân mình thấy gặp tác giả rất tuyệt để hiểu sâu thêm tác phẩm. Hơn nữa, chúng mình nên chuẩn bị câu hỏi từ trước. Bạn nghĩ sao? Mong sớm nhận được tin từ bạn.\n\nBảo trọng nhé,\nKato",
                   "analysis": [
                         {
                               "label": "Chào hỏi & Tin tức",
@@ -2925,7 +2925,7 @@ export const part4Data = {
                         },
                         {
                               "label": "Quan điểm, Lý do & Đề xuất",
-                              "text": "Personally, I think meeting the author is wonderful for literary appreciation. Moreover, we should prepare questions beforehand. What do you think?"
+                              "text": "Personally, I think meeting the author is wonderful for literary appreciation. Moreover, we should prepare questions beforehand. What do you think? Hope to hear from you soon."
                         },
                         {
                               "label": "Ký tên",
@@ -3070,9 +3070,9 @@ export const part4Data = {
       "samples": [
             {
                   "title": "Bài mẫu chuẩn Band B2+",
-                  "wordCount": 49,
-                  "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our club plans a reading month. I was thrilled about it!\n\nPersonally, I think a collective reading goal is great for motivation. Moreover, we should exchange favorite novels. What do you think?\n\nTake care,\nKato",
-                  "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin CLB dự định tổ chức tháng đọc sách. Mình rất phấn khởi về tin này!\n\nCá nhân mình thấy mục tiêu đọc chung rất tuyệt để tạo động lực. Hơn nữa, chúng mình nên đổi tiểu thuyết yêu thích cho nhau. Bạn nghĩ sao?\n\nBảo trọng nhé,\nKato",
+                  "wordCount": 55,
+                  "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our club plans a reading month. I was thrilled about it!\n\nPersonally, I think a collective reading goal is great for motivation. Moreover, we should exchange favorite novels. What do you think? Hope to hear from you soon.\n\nTake care,\nKato",
+                  "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin CLB dự định tổ chức tháng đọc sách. Mình rất phấn khởi về tin này!\n\nCá nhân mình thấy mục tiêu đọc chung rất tuyệt để tạo động lực. Hơn nữa, chúng mình nên đổi tiểu thuyết yêu thích cho nhau. Bạn nghĩ sao? Mong sớm nhận được tin từ bạn.\n\nBảo trọng nhé,\nKato",
                   "analysis": [
                         {
                               "label": "Chào hỏi & Tin tức",
@@ -3080,7 +3080,7 @@ export const part4Data = {
                         },
                         {
                               "label": "Quan điểm, Lý do & Đề xuất",
-                              "text": "Personally, I think a collective reading goal is great for motivation. Moreover, we should exchange favorite novels. What do you think?"
+                              "text": "Personally, I think a collective reading goal is great for motivation. Moreover, we should exchange favorite novels. What do you think? Hope to hear from you soon."
                         },
                         {
                               "label": "Ký tên",

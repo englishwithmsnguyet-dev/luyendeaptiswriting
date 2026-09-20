@@ -61,7 +61,7 @@ export const renderSampleWithHighlights = (text, emailType) => {
   };
 
   if (emailType === 'email1') {
-    const email1Regex = /^(Dear Kim,[\s\n]+How is it going\? I thought you would like to know that\s+)([\s\S]+?)(\.\s*I was\s+)([\s\S]+?)(\s+(?:about it!|about it\.|to hear it!|to hear about it\.)[\s\n]+Personally, I think\s+)([\s\S]+?)(\.\s*Moreover,\s+)([\s\S]+?)(\.\s*What do you think\?[\s\n]+Take care,[\s\n]+Kato)$/;
+    const email1Regex = /^(Dear Kim,[\s\n]+How is it going\? I thought you would like to know that\s+)([\s\S]+?)(\.\s*I was\s+)([\s\S]+?)(\s+(?:about it!|about it\.|to hear it!|to hear about it\.)[\s\n]+Personally, I think\s+)([\s\S]+?)(\.\s*Moreover,\s+)([\s\S]+?)(\.\s*What do you think\?(?:[\s\n]+Hope to hear from you soon\.)?[\s\n]+Take care,[\s\n]+Kato)$/;
     const m = text.match(email1Regex);
     if (m) {
       return (
@@ -572,7 +572,7 @@ const Part4 = () => {
   const email1Count = getWordCount(answers.email1);
   const email2Count = getWordCount(answers.email2);
 
-  const isEmail1InRange = email1Count >= 40 && email1Count <= 55;
+  const isEmail1InRange = email1Count >= 40 && email1Count <= 60;
   const isEmail1TooShort = email1Count > 0 && email1Count < 40;
   const isEmail1TooLong = email1Count > 60;
 
@@ -594,7 +594,7 @@ const Part4 = () => {
 
 How is it going? I thought you would like to know that [thông tin trong đề bài]. I was [cảm xúc] to hear about it.
 
-Personally, I think [ý kiến & lý do]. Moreover, [phát triển thêm ý]. What do you think?
+Personally, I think [ý kiến & lý do]. Moreover, [phát triển thêm ý]. What do you think? Hope to hear from you soon.
 
 Take care,
 Kato`;
@@ -1305,7 +1305,7 @@ Kato`;
                         {email1Count} từ
                       </span>
                       <span style={{ fontSize: '0.78rem', color: isEmail1InRange ? '#059669' : '#64748b', fontWeight: 600 }}>
-                        {isEmail1InRange ? '✅ Chuẩn số từ' : (isEmail1TooShort ? '⚠️ Quá ngắn (<45)' : (isEmail1TooLong ? '⚠️ Quá dài (>65)' : 'Cần: 45-65 từ'))}
+                        {isEmail1InRange ? '✅ Chuẩn số từ' : (isEmail1TooShort ? '⚠️ Quá ngắn (<40)' : (isEmail1TooLong ? '⚠️ Quá dài (>60)' : 'Cần: 40-60 từ'))}
                       </span>
                     </div>
                   </div>
@@ -1315,14 +1315,14 @@ Kato`;
                     <div style={{ width: '100%', height: '6px', backgroundColor: '#e2e8f0', borderRadius: '3px', overflow: 'hidden' }}>
                       <div style={{ 
                         height: '100%', 
-                        width: `${Math.min(100, (email1Count / 55) * 100)}%`, 
-                        backgroundColor: isEmail1InRange ? '#059669' : (email1Count > 65 ? '#f59e0b' : '#38bdf8'),
+                        width: `${Math.min(100, (email1Count / 58) * 100)}%`, 
+                        backgroundColor: isEmail1InRange ? '#059669' : (email1Count > 60 ? '#f59e0b' : '#38bdf8'),
                         transition: 'width 0.3s'
                       }} />
                     </div>
                     <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.74rem', color: '#94a3b8', marginTop: '0.25rem' }}>
                       <span>0 từ</span>
-                      <span>Mục tiêu Aptis: 40 - 50 từ (chuẩn 48 - 52 từ)</span>
+                      <span>Mục tiêu Aptis: 40 - 50 từ (chuẩn 48 - 58 từ)</span>
                       <span>Tối đa: 60 từ</span>
                     </div>
                   </div>
