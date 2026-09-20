@@ -1532,17 +1532,17 @@ export const part4Data = {
       "samples": [
             {
                   "title": "Bài mẫu chuẩn Band B2+",
-                  "wordCount": 57,
-                  "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our club plans garden tours. I was delighted to hear it!\n\nPersonally, I think visiting private gardens is wonderful for practical landscaping ideas. Moreover, we could take lots of photos. What do you think? Hope to hear from you soon.\n\nTake care,\nKato",
-                  "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin CLB dự định tổ chức các chuyến tham quan vườn. Mình rất vui khi nghe tin này!\n\nCá nhân mình thấy tham quan vườn tư nhân thật tuyệt để học hỏi ý tưởng tạo cảnh quan. Hơn nữa, chúng mình nên chụp thật nhiều ảnh. Bạn nghĩ sao? Mong sớm nhận được tin từ bạn.\n\nBảo trọng nhé,\nKato",
+                  "wordCount": 61,
+                  "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that Mr. Seiko's Japanese garden talk has been canceled and Mr. Jones will speak instead. I was quite disappointed about it!\n\nPersonally, I think we should still attend to support Mr. Jones. Moreover, we could bring some plant cuttings to swap. What do you think? Hope to hear from you soon.\n\nTake care,\nKato",
+                  "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ muốn biết tin buổi nói chuyện về Vườn Nhật Bản của ông Seiko đã bị hủy và ông Jones sẽ nói thay. Mình khá thất vọng khi nghe tin này!\n\nCá nhân mình thấy chúng mình vẫn nên đi dự để ủng hộ ông Jones. Hơn nữa, chúng mình có thể mang theo một số cành giâm để trao đổi. Bạn nghĩ sao? Mong sớm nhận được tin từ bạn.\n\nBảo trọng nhé,\nKato",
                   "analysis": [
                         {
                               "label": "Chào hỏi & Tin tức",
-                              "text": "Dear Kim, How is it going? I thought you would like to know that our club plans garden tours. I was delighted to hear it!"
+                              "text": "Dear Kim, How is it going? I thought you would like to know that Mr. Seiko's Japanese garden talk has been canceled and Mr. Jones will speak instead. I was quite disappointed about it!"
                         },
                         {
                               "label": "Quan điểm, Lý do & Đề xuất",
-                              "text": "Personally, I think visiting private gardens is wonderful for practical landscaping ideas. Moreover, we could take lots of photos. What do you think? Hope to hear from you soon."
+                              "text": "Personally, I think we should still attend to support Mr. Jones. Moreover, we could bring some plant cuttings to swap. What do you think? Hope to hear from you soon."
                         },
                         {
                               "label": "Ký tên",
@@ -1616,17 +1616,17 @@ export const part4Data = {
       "samples": [
             {
                   "title": "Bài mẫu chuẩn Band B2+",
-                  "wordCount": 138,
-                  "en": "Dear Club Manager,\n\nMy name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the upcoming seasonal garden excursions and member itinerary. I believe this is an excellent initiative that will foster botanical knowledge.\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, we should arrange weekend visits to award-winning community botanical gardens and organic nurseries.\nSecond, hiring an experienced horticulturist as our tour guide will provide invaluable plant care techniques.\nFinally, we could organize a seed exchange table where members swap heirloom plant cuttings.\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
-                  "vi": "Kính gửi Quản lý Câu lạc bộ,\n\nTên tôi là Kato, và tôi đã là một hội viên tích cực của câu lạc bộ chúng ta được hai năm. Trong thời gian này, tôi đã tham gia vào nhiều hoạt động ý nghĩa. Tôi viết thư này để chia sẻ góc nhìn và đưa ra một vài đề xuất mang tính xây dựng liên quan đến chuyến dã ngoại tham quan vườn theo mùa và lịch trình cho hội viên. Tôi tin chắc rằng đây là một sáng kiến tuyệt vời giúp bồi đắp kiến thức thực vật.\n\nĐể giúp đạt được kết quả tốt nhất, tôi xin phép đưa ra ba đề xuất thực tế.\nThứ nhất, chúng ta nên sắp xếp các chuyến tham quan cuối tuần tới các vườn thực vật cộng đồng và vườn ươm hữu cơ đạt giải.\nThứ hai, việc thuê một chuyên gia làm vườn giàu kinh nghiệm làm hướng dẫn viên sẽ mang lại các kỹ thuật chăm sóc cây vô giá.\nCuối cùng, chúng ta có thể tổ chức bàn trao đổi hạt giống nơi các hội viên đổi nhánh cây giống quý cho nhau.\n\nCảm ơn bạn đã dành thời gian xem xét thư. Tôi rất mong sớm nhận được phản hồi từ bạn.\n\nTrân trọng,\nKato",
+                  "wordCount": 144,
+                  "en": "Dear Club President,\n\nMy name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the cancellation of Mr. Seiko's talk and the replacement session by Mr. Jones. I believe inviting Mr. Jones as a substitute speaker is a reasonable temporary decision.\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, we should ask Mr. Jones to share new gardening tips for small home gardens.\nSecond, the club should organize a 20-minute Q&A session for members to ask gardening questions.\nFinally, the club should send flowers and a get-well card wishing Mr. Seiko a speedy recovery.\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
+                  "vi": "Kính gửi Chủ tịch Câu lạc bộ,\n\nTên tôi là Kato, và tôi đã là một hội viên tích cực của câu lạc bộ chúng ta được hai năm. Trong thời gian này, tôi đã tham gia vào nhiều hoạt động ý nghĩa. Tôi viết thư này để chia sẻ góc nhìn và đưa ra một vài đề xuất mang tính xây dựng liên quan đến việc hủy buổi nói chuyện của ông Seiko và buổi thuyết trình thay thế của ông Jones. Tôi tin rằng việc mời ông Jones làm diễn giả thay thế là một quyết định tạm thời hợp lý.\n\nĐể giúp đạt được kết quả tốt nhất, tôi xin phép đưa ra ba đề xuất thực tế.\nThứ nhất, chúng ta nên đề nghị ông Jones chia sẻ những mẹo làm vườn mới cho vườn nhà diện tích nhỏ.\nThứ hai, câu lạc bộ nên tổ chức phần hỏi đáp 20 phút để các hội viên đặt câu hỏi về làm vườn.\nCuối cùng, câu lạc bộ nên gửi hoa và thiệp chúc sức khỏe mong ông Seiko mau chóng bình phục.\n\nCảm ơn bạn đã dành thời gian xem xét thư. Tôi rất mong sớm nhận được phản hồi từ bạn.\n\nTrân trọng,\nKato",
                   "analysis": [
                         {
                               "label": "Mở đầu, Mục đích & Quan điểm",
-                              "text": "My name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the upcoming seasonal garden excursions and member itinerary. I believe this is an excellent initiative that will foster botanical knowledge."
+                              "text": "My name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the cancellation of Mr. Seiko's talk and the replacement session by Mr. Jones. I believe inviting Mr. Jones as a substitute speaker is a reasonable temporary decision."
                         },
                         {
                               "label": "3 Đề xuất thực tế",
-                              "text": "To help achieve the best outcome, I would like to make some practical proposals. First, we should arrange weekend visits to award-winning community botanical gardens and organic nurseries. Second, hiring an experienced horticulturist as our tour guide will provide invaluable plant care techniques. Finally, we could organize a seed exchange table where members swap heirloom plant cuttings."
+                              "text": "To help achieve the best outcome, I would like to make some practical proposals. First, we should ask Mr. Jones to share new gardening tips for small home gardens. Second, the club should organize a 20-minute Q&A session for members to ask gardening questions. Finally, the club should send flowers and a get-well card wishing Mr. Seiko a speedy recovery."
                         },
                         {
                               "label": "Cảm ơn & Ký tên",

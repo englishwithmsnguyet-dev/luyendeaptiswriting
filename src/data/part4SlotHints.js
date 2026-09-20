@@ -40,8 +40,8 @@ export const part4SlotHints = {
     positive: true
   },
   "Garden club": {
-    e1Topic: { en: "the talk on The Gardens of Japan was canceled due to the speaker illness and replaced by Mr. Jones talk", vi: "bài nói về Vườn Nhật Bản bị hủy do diễn giả ốm và thay bằng bài nói của ông Jones" },
-    e2Topic: { en: "the unexpected cancellation of the Japanese gardens talk and the replacement session", vi: "việc hủy bất ngờ bài nói về vườn Nhật Bản và buổi thuyết trình thay thế" },
+    e1Topic: { en: "Mr. Seiko's Japanese garden talk has been canceled and Mr. Jones will speak instead", vi: "bài nói về Vườn Nhật Bản của ông Seiko bị hủy và ông Jones sẽ nói thay" },
+    e2Topic: { en: "the cancellation of Mr. Seiko's talk and the replacement session by Mr. Jones", vi: "việc hủy bài nói của ông Seiko và buổi thuyết trình thay thế của ông Jones" },
     positive: false
   },
   "Garden club 2": {
