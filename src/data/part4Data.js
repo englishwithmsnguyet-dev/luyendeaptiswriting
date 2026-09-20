@@ -410,8 +410,8 @@ export const part4Data = {
                               "vi": "chúng mình nên gia hạn thẻ tập sớm trước khi biểu phí mới có hiệu lực"
                         },
                         {
-                              "en": "we can suggest that the club offer student discount packages",
-                              "vi": "chúng mình có thể đề xuất CLB áp dụng các gói giảm giá cho sinh viên"
+                              "en": "the club should offer discounts for students",
+                              "vi": "CLB nên áp dụng chính sách giảm giá cho sinh viên"
                         }
                   ]
             }
