@@ -478,6 +478,10 @@ export const part4Data = {
                   "name": "3. Đề xuất 3: [đề xuất thứ ba] (Mệnh đề hoàn chỉnh)",
                   "items": [
                         {
+                              "en": "we could offer free yoga classes at weekends",
+                              "vi": "chúng ta có thể tổ chức các lớp yoga miễn phí vào cuối tuần"
+                        },
+                        {
                               "en": "we could introduce complimentary weekend yoga and spinning classes to add value to our memberships",
                               "vi": "chúng ta có thể bổ sung các lớp yoga và đạp xe nhóm miễn phí cuối tuần để tăng giá trị thẻ tập"
                         },
