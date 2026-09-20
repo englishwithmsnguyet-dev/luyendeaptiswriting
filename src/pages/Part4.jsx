@@ -87,11 +87,11 @@ const Part4 = () => {
   const [showPromptAnalysis, setShowPromptAnalysis] = useState(false);
 
   const [showEmail1InstructionVi, setShowEmail1InstructionVi] = useState(false);
-  const [showEmail1Template, setShowEmail1Template] = useState(false);
+  const [showEmail1Template, setShowEmail1Template] = useState(true);
   const [showEmail1Sample, setShowEmail1Sample] = useState(false);
 
   const [showEmail2InstructionVi, setShowEmail2InstructionVi] = useState(false);
-  const [showEmail2Template, setShowEmail2Template] = useState(false);
+  const [showEmail2Template, setShowEmail2Template] = useState(true);
   const [showEmail2Sample, setShowEmail2Sample] = useState(false);
 
   // Copied toast state
@@ -252,7 +252,7 @@ const Part4 = () => {
   const isEmail2TooLong = email2Count > 165;
 
   return (
-    <div className="part-container" style={{ maxWidth: '1080px', margin: '0 auto', padding: '1.5rem 1rem' }}>
+    <div className="part-container" style={{ width: '100%', margin: '0 auto' }}>
       {/* Toast Notification */}
       {toastMessage && (
         <div style={{
@@ -602,292 +602,353 @@ const Part4 = () => {
           {/* SECTION 2: TASK 1 - EMAIL TO FRIEND (INFORMAL) */}
           {/* ======================================================== */}
           {(workspaceMode === 'all' || workspaceMode === 'email1') && (
-            <div className="card" style={{ marginBottom: '2rem', borderLeft: '4px solid #10b981' }}>
-              {/* Task 1 Header */}
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.75rem', flexWrap: 'wrap', gap: '0.5rem' }}>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+            <div className="card" style={{ marginBottom: '2.5rem', borderLeft: '4px solid #10b981', padding: '1.5rem' }}>
+              {/* Task 1 Top Header */}
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.25rem', paddingBottom: '0.75rem', borderBottom: '1px solid #e2e8f0', flexWrap: 'wrap', gap: '0.75rem' }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
                   <div style={{ width: '32px', height: '32px', borderRadius: '50%', backgroundColor: '#059669', color: 'white', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold' }}>
                     1
                   </div>
                   <div>
-                    <strong style={{ color: '#065f46', fontSize: '1.05rem' }}>{clubData.email1.title}</strong>
-                    <span style={{ marginLeft: '0.6rem', fontSize: '0.75rem', backgroundColor: '#d1fae5', color: '#065f46', padding: '0.15rem 0.5rem', borderRadius: '12px', fontWeight: 700 }}>
-                      Mục tiêu: 45 - 55 từ
+                    <strong style={{ color: '#065f46', fontSize: '1.1rem' }}>{clubData.email1.title}</strong>
+                    <span style={{ marginLeft: '0.6rem', fontSize: '0.78rem', backgroundColor: '#d1fae5', color: '#065f46', padding: '0.2rem 0.6rem', borderRadius: '12px', fontWeight: 700 }}>
+                      Mục tiêu: 45 - 55 từ (Tối đa 65 từ)
                     </span>
                   </div>
                 </div>
+                <div style={{ fontSize: '0.84rem', color: '#64748b' }}>
+                  Phong cách: <strong>Thân mật (Informal)</strong> • Thời gian gợi ý: ~8 - 10 phút
+                </div>
+              </div>
 
-                {/* Word counter */}
-                <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
-                  <span style={{ 
-                    fontSize: '0.92rem', 
-                    fontWeight: 800, 
-                    color: isEmail1InRange ? '#059669' : (email1Count === 0 ? '#64748b' : '#d97706') 
+              {/* 2-Column Grid */}
+              <div className="part4-split-grid">
+                {/* CỘT TRÁI: ĐỀ BÀI & GỢI Ý */}
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '0.85rem' }}>
+                  {/* Đề bài (Prompt Box) */}
+                  <div style={{ 
+                    backgroundColor: '#f8fafc', 
+                    padding: '1rem 1.15rem', 
+                    borderRadius: '8px', 
+                    border: '1.5px solid #e2e8f0',
+                    borderLeft: '4px solid #059669' 
                   }}>
-                    {email1Count} từ
-                  </span>
-                  <span style={{ fontSize: '0.8rem', color: isEmail1InRange ? '#059669' : '#64748b' }}>
-                    {isEmail1InRange ? '✅ Chuẩn số từ' : (isEmail1TooShort ? '⚠️ Quá ngắn (<45 từ)' : (isEmail1TooLong ? '⚠️ Hơi dài (>65 từ)' : 'Cần: 45-65 từ'))}
-                  </span>
-                </div>
-              </div>
-
-              {/* Task 1 Instruction Bubble */}
-              <div style={{ backgroundColor: '#F1F5F9', padding: '0.85rem 1rem', borderRadius: '0 8px 8px 8px', borderLeft: '4px solid #059669', marginBottom: '0.75rem', fontSize: '0.95rem', color: '#1e293b' }}>
-                {clubData.email1.instruction}
-              </div>
-
-              {/* Action Buttons like Part 3 */}
-              <div style={{ display: 'flex', justifyContent: 'flex-start', gap: '0.5rem', marginBottom: '0.75rem', flexWrap: 'wrap' }}>
-                <button 
-                  className={`btn-translate ${showEmail1Template ? 'active' : ''}`}
-                  onClick={() => setShowEmail1Template(!showEmail1Template)}
-                  title="Gợi ý cấu trúc & Từ vựng B2-C1"
-                >
-                  {showEmail1Template ? 'Ẩn cấu trúc' : '💡 Gợi ý cấu trúc & Từ vựng'}
-                </button>
-                {clubData.email1.instructionVi && (
-                  <button 
-                    className={`btn-translate ${showEmail1InstructionVi ? 'active' : ''}`}
-                    onClick={() => setShowEmail1InstructionVi(!showEmail1InstructionVi)}
-                    title="Dịch yêu cầu bài viết"
-                  >
-                    {showEmail1InstructionVi ? 'Ẩn dịch' : '🇻🇳 Dịch đề'}
-                  </button>
-                )}
-                <button 
-                  className={`btn-translate ${showEmail1Sample ? 'active' : ''}`}
-                  onClick={() => setShowEmail1Sample(!showEmail1Sample)}
-                  title="Xem bài mẫu chuẩn và phân tích câu"
-                >
-                  {showEmail1Sample ? 'Ẩn bài mẫu' : '📝 Bài mẫu chuẩn'}
-                </button>
-              </div>
-
-              {/* Vietnamese translation of Instruction */}
-              {showEmail1InstructionVi && clubData.email1.instructionVi && (
-                <div style={{ color: 'var(--text-muted)', fontSize: '0.9rem', fontStyle: 'italic', marginBottom: '1rem', marginLeft: '0.5rem' }}>
-                  🇻🇳 {clubData.email1.instructionVi}
-                </div>
-              )}
-
-              {/* Gợi ý cấu trúc & Từ vựng Box (Style exactly like Part 3) */}
-              {showEmail1Template && (
-                <div style={{ 
-                  marginBottom: '1rem', 
-                  padding: '1rem', 
-                  backgroundColor: '#F8FAFC', 
-                  border: '1px dashed #94A3B8',
-                  borderRadius: '6px',
-                  color: 'var(--primary)',
-                  fontSize: '0.95rem',
-                  lineHeight: '1.6'
-                }}>
-                  {/* Highlighted Template */}
-                  <div style={{ marginBottom: '1rem' }}>
                     <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.5rem' }}>
-                      <div style={{ fontWeight: '700', color: '#B45309', fontSize: '0.95rem' }}>
-                        🎯 KHUNG ĐÁP ÁN GỢI Ý (CÁC CHỖ ✏️ [ ... ] CẦN THAY THẾ TỪ ĐỀ BÀI):
+                      <span style={{ fontSize: '0.82rem', fontWeight: 800, color: '#065f46', textTransform: 'uppercase', letterSpacing: '0.5px' }}>
+                        📋 Đề bài Email 1:
+                      </span>
+                      {clubData.email1.instructionVi && (
+                        <button 
+                          className={`btn-translate ${showEmail1InstructionVi ? 'active' : ''}`}
+                          onClick={() => setShowEmail1InstructionVi(!showEmail1InstructionVi)}
+                          style={{ fontSize: '0.78rem', padding: '0.25rem 0.55rem' }}
+                          title="Dịch yêu cầu bài viết"
+                        >
+                          {showEmail1InstructionVi ? 'Ẩn dịch' : '🇻🇳 Dịch đề'}
+                        </button>
+                      )}
+                    </div>
+                    <div style={{ fontSize: '0.96rem', color: '#1e293b', lineHeight: '1.6', fontWeight: 500 }}>
+                      {clubData.email1.instruction}
+                    </div>
+                    {showEmail1InstructionVi && clubData.email1.instructionVi && (
+                      <div style={{ 
+                        marginTop: '0.65rem', 
+                        paddingTop: '0.65rem', 
+                        borderTop: '1px dashed #cbd5e1', 
+                        color: '#065f46', 
+                        fontSize: '0.9rem', 
+                        fontStyle: 'italic',
+                        lineHeight: '1.5'
+                      }}>
+                        🇻🇳 {clubData.email1.instructionVi}
                       </div>
-                      <button
-                        type="button"
-                        onClick={() => insertTemplateToEditor('email1', clubData.email1.template)}
-                        style={{
-                          backgroundColor: '#d1fae5',
-                          color: '#065f46',
-                          border: '1px solid #a7f3d0',
-                          borderRadius: '4px',
-                          padding: '0.25rem 0.6rem',
-                          fontSize: '0.78rem',
-                          fontWeight: 700,
-                          cursor: 'pointer',
-                          display: 'flex',
-                          alignItems: 'center',
-                          gap: '0.3rem'
-                        }}
-                      >
-                        <Copy size={13} /> Dán khung sườn vào ô làm bài
-                      </button>
-                    </div>
-
-                    <div style={{ 
-                      backgroundColor: '#ffffff', 
-                      padding: '0.85rem 1rem', 
-                      borderRadius: '6px', 
-                      border: '1px solid #e2e8f0',
-                      lineHeight: '1.8',
-                      fontSize: '0.96rem',
-                      whiteSpace: 'pre-wrap'
-                    }}>
-                      {renderHighlightedText(clubData.email1.template)}
-                    </div>
+                    )}
                   </div>
 
-                  {/* Từ vựng hữu ích with audio buttons */}
-                  {clubData.email1.vocabCategories && clubData.email1.vocabCategories.length > 0 && (
-                    <div style={{ paddingTop: '0.75rem', borderTop: '2px solid rgba(180, 83, 9, 0.1)' }}>
-                      <div style={{ fontWeight: '700', marginBottom: '0.6rem', color: '#B45309', fontSize: '0.95rem' }}>
-                        TỪ VỰNG & Ý TƯỞNG ĂN ĐIỂM (BẤM LOA ĐỂ NGHE PHÁT ÂM 🔊):
-                      </div>
-                      <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
-                        {clubData.email1.vocabCategories.map((cat, idx) => (
-                          <div key={idx}>
-                            <div style={{ fontWeight: '600', marginBottom: '0.35rem', fontSize: '0.88rem', color: '#1e293b' }}>
-                              ✨ <span style={{ color: '#D97706' }}>{cat.name}</span>:
-                            </div>
-                            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.45rem' }}>
-                              {cat.items.map((item, i) => (
-                                <div
-                                  key={i}
-                                  style={{
-                                    display: 'inline-flex',
-                                    alignItems: 'center',
-                                    backgroundColor: '#ffffff',
-                                    border: '1px solid #cbd5e1',
-                                    borderRadius: '6px',
-                                    overflow: 'hidden',
-                                    boxShadow: '0 1px 2px rgba(0,0,0,0.03)'
-                                  }}
-                                >
-                                  <button 
-                                    type="button"
-                                    onClick={() => playAudio(item.en)}
-                                    style={{ 
-                                      background: 'rgba(217, 119, 6, 0.1)', 
-                                      border: 'none', 
-                                      borderRight: '1px solid #e2e8f0',
-                                      cursor: 'pointer', 
-                                      padding: '0.3rem 0.5rem', 
-                                      fontSize: '0.82rem',
-                                      display: 'flex', 
-                                      alignItems: 'center', 
-                                      justifyContent: 'center'
-                                    }}
-                                    title={`Nghe phát âm: ${item.en}`}
-                                  >
-                                    🔊
-                                  </button>
-                                  <button
-                                    type="button"
-                                    onClick={() => insertPhrase('email1', item.en)}
-                                    style={{
-                                      background: 'transparent',
-                                      border: 'none',
-                                      padding: '0.3rem 0.6rem',
-                                      fontSize: '0.85rem',
-                                      cursor: 'pointer',
-                                      textAlign: 'left'
-                                    }}
-                                    title={`Chèn cụm từ vào bài: "${item.en}"`}
-                                  >
-                                    <strong style={{ color: '#0f172a' }}>{item.en}</strong> <span style={{ color: '#64748b' }}>({item.vi})</span>
-                                  </button>
-                                </div>
-                              ))}
-                            </div>
+                  {/* Action Buttons */}
+                  <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap' }}>
+                    <button 
+                      className={`btn-translate ${showEmail1Template ? 'active' : ''}`}
+                      onClick={() => setShowEmail1Template(!showEmail1Template)}
+                      title="Xem gợi ý cấu trúc & từ vựng B2-C1"
+                    >
+                      {showEmail1Template ? 'Ẩn gợi ý cấu trúc' : '💡 Gợi ý cấu trúc & Từ vựng'}
+                    </button>
+                    <button 
+                      className={`btn-translate ${showEmail1Sample ? 'active' : ''}`}
+                      onClick={() => setShowEmail1Sample(!showEmail1Sample)}
+                      title="Xem bài mẫu chuẩn band B2-C1 và phân tích"
+                    >
+                      {showEmail1Sample ? 'Ẩn bài mẫu' : '📝 Bài mẫu chuẩn (B2-C1)'}
+                    </button>
+                  </div>
+
+                  {/* Gợi ý cấu trúc & Từ vựng Box */}
+                  {showEmail1Template && (
+                    <div style={{ 
+                      padding: '1rem', 
+                      backgroundColor: '#F8FAFC', 
+                      border: '1px dashed #94A3B8',
+                      borderRadius: '8px',
+                      color: 'var(--primary)',
+                      fontSize: '0.92rem',
+                      lineHeight: '1.6'
+                    }}>
+                      {/* Highlighted Template */}
+                      <div style={{ marginBottom: '1rem' }}>
+                        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.45rem', flexWrap: 'wrap', gap: '0.4rem' }}>
+                          <div style={{ fontWeight: '700', color: '#B45309', fontSize: '0.88rem' }}>
+                            🎯 KHUNG ĐÁP ÁN GỢI Ý (THAY THẾ CHỖ ✏️ [ ... ]):
                           </div>
-                        ))}
+                          <button
+                            type="button"
+                            onClick={() => insertTemplateToEditor('email1', clubData.email1.template)}
+                            style={{
+                              backgroundColor: '#d1fae5',
+                              color: '#065f46',
+                              border: '1px solid #a7f3d0',
+                              borderRadius: '4px',
+                              padding: '0.25rem 0.55rem',
+                              fontSize: '0.78rem',
+                              fontWeight: 700,
+                              cursor: 'pointer',
+                              display: 'flex',
+                              alignItems: 'center',
+                              gap: '0.3rem'
+                            }}
+                            title="Dán khung sườn này sang khung gõ đáp án bên phải"
+                          >
+                            <Copy size={13} /> Dán vào ô làm bài 👉
+                          </button>
+                        </div>
+
+                        <div style={{ 
+                          backgroundColor: '#ffffff', 
+                          padding: '0.85rem 1rem', 
+                          borderRadius: '6px', 
+                          border: '1px solid #e2e8f0',
+                          lineHeight: '1.75',
+                          fontSize: '0.93rem',
+                          whiteSpace: 'pre-wrap'
+                        }}>
+                          {renderHighlightedText(clubData.email1.template)}
+                        </div>
+                      </div>
+
+                      {/* Từ vựng hữu ích with audio buttons */}
+                      {clubData.email1.vocabCategories && clubData.email1.vocabCategories.length > 0 && (
+                        <div style={{ paddingTop: '0.75rem', borderTop: '1.5px solid rgba(180, 83, 9, 0.15)' }}>
+                          <div style={{ fontWeight: '700', marginBottom: '0.5rem', color: '#B45309', fontSize: '0.88rem' }}>
+                            TỪ VỰNG & Ý TƯỞNG ĂN ĐIỂM (BẤM LOA ĐỂ NGHE 🔊):
+                          </div>
+                          <div style={{ display: 'flex', flexDirection: 'column', gap: '0.65rem' }}>
+                            {clubData.email1.vocabCategories.map((cat, idx) => (
+                              <div key={idx}>
+                                <div style={{ fontWeight: '600', marginBottom: '0.3rem', fontSize: '0.84rem', color: '#1e293b' }}>
+                                  ✨ <span style={{ color: '#D97706' }}>{cat.name}</span>:
+                                </div>
+                                <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.4rem' }}>
+                                  {cat.items.map((item, i) => (
+                                    <div
+                                      key={i}
+                                      style={{
+                                        display: 'inline-flex',
+                                        alignItems: 'center',
+                                        backgroundColor: '#ffffff',
+                                        border: '1px solid #cbd5e1',
+                                        borderRadius: '6px',
+                                        overflow: 'hidden',
+                                        boxShadow: '0 1px 2px rgba(0,0,0,0.03)'
+                                      }}
+                                    >
+                                      <button 
+                                        type="button"
+                                        onClick={() => playAudio(item.en)}
+                                        style={{ 
+                                          background: 'rgba(217, 119, 6, 0.1)', 
+                                          border: 'none', 
+                                          borderRight: '1px solid #e2e8f0',
+                                          cursor: 'pointer', 
+                                          padding: '0.25rem 0.45rem', 
+                                          fontSize: '0.78rem',
+                                          display: 'flex', 
+                                          alignItems: 'center', 
+                                          justifyContent: 'center'
+                                        }}
+                                        title={`Nghe phát âm: ${item.en}`}
+                                      >
+                                        🔊
+                                      </button>
+                                      <button
+                                        type="button"
+                                        onClick={() => insertPhrase('email1', item.en)}
+                                        style={{
+                                          background: 'transparent',
+                                          border: 'none',
+                                          padding: '0.25rem 0.5rem',
+                                          fontSize: '0.82rem',
+                                          cursor: 'pointer',
+                                          textAlign: 'left'
+                                        }}
+                                        title={`Chèn cụm từ vào bài: "${item.en}"`}
+                                      >
+                                        <strong style={{ color: '#0f172a' }}>{item.en}</strong> <span style={{ color: '#64748b' }}>({item.vi})</span>
+                                      </button>
+                                    </div>
+                                  ))}
+                                </div>
+                              </div>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+                    </div>
+                  )}
+
+                  {/* Bài mẫu chuẩn Box */}
+                  {showEmail1Sample && clubData.email1.samples && clubData.email1.samples.length > 0 && (
+                    <div style={{ 
+                      padding: '1rem', 
+                      backgroundColor: '#ffffff', 
+                      border: '1.5px solid #bbf7d0',
+                      borderRadius: '8px'
+                    }}>
+                      <div style={{ fontWeight: 700, color: '#065f46', marginBottom: '0.5rem', display: 'flex', justifyContent: 'space-between' }}>
+                        <span>📝 BÀI MẪU CHUẨN (EMAIL 1):</span>
+                        <span style={{ fontSize: '0.82rem', color: '#047857' }}>Độ dài: {clubData.email1.samples[0].wordCount} từ</span>
+                      </div>
+                      <pre style={{ 
+                        fontFamily: 'inherit', 
+                        fontSize: '0.92rem', 
+                        lineHeight: '1.65', 
+                        color: '#0f172a', 
+                        whiteSpace: 'pre-wrap',
+                        backgroundColor: '#f8fafc',
+                        padding: '0.85rem',
+                        borderRadius: '6px',
+                        border: '1px solid #e2e8f0',
+                        margin: '0 0 0.65rem 0'
+                      }}>
+                        {clubData.email1.samples[0].en}
+                      </pre>
+                      <div style={{ 
+                        fontSize: '0.86rem', 
+                        color: '#065f46', 
+                        backgroundColor: '#ecfdf5', 
+                        padding: '0.65rem 0.85rem', 
+                        borderRadius: '6px', 
+                        borderLeft: '3px solid #10b981', 
+                        lineHeight: '1.55', 
+                        whiteSpace: 'pre-line' 
+                      }}>
+                        <strong style={{ display: 'block', marginBottom: '0.2rem' }}>🇻🇳 Bản dịch đối chiếu:</strong>
+                        {clubData.email1.samples[0].vi}
                       </div>
                     </div>
                   )}
                 </div>
-              )}
 
-              {/* Bài mẫu chuẩn */}
-              {showEmail1Sample && clubData.email1.samples && clubData.email1.samples.length > 0 && (
+                {/* CỘT PHẢI: KHUNG ĐÁNH ĐÁP ÁN */}
                 <div style={{ 
-                  marginBottom: '1rem', 
-                  padding: '1rem', 
-                  backgroundColor: '#ffffff', 
-                  border: '1px solid #bbf7d0',
-                  borderRadius: '6px'
+                  position: 'sticky', 
+                  top: '1rem', 
+                  backgroundColor: '#ffffff',
+                  border: '1.5px solid #cbd5e1',
+                  borderRadius: '10px',
+                  padding: '1.15rem',
+                  boxShadow: '0 2px 6px rgba(0,0,0,0.04)',
+                  display: 'flex',
+                  flexDirection: 'column',
+                  gap: '0.65rem'
                 }}>
-                  <div style={{ fontWeight: 700, color: '#065f46', marginBottom: '0.5rem', display: 'flex', justifyContent: 'space-between' }}>
-                    <span>📝 BÀI MẪU CHUẨN (EMAIL 1):</span>
-                    <span style={{ fontSize: '0.82rem', color: '#047857' }}>Độ dài: {clubData.email1.samples[0].wordCount} từ</span>
-                  </div>
-                  <pre style={{ 
-                    fontFamily: 'inherit', 
-                    fontSize: '0.95rem', 
-                    lineHeight: '1.65', 
-                    color: '#0f172a', 
-                    whiteSpace: 'pre-wrap',
-                    backgroundColor: '#f8fafc',
-                    padding: '0.85rem',
-                    borderRadius: '6px',
-                    border: '1px solid #e2e8f0',
-                    margin: '0 0 0.75rem 0'
-                  }}>
-                    {clubData.email1.samples[0].en}
-                  </pre>
-                  <div style={{ 
-                    fontSize: '0.88rem', 
-                    color: '#065f46', 
-                    backgroundColor: '#ecfdf5', 
-                    padding: '0.75rem', 
-                    borderRadius: '6px', 
-                    borderLeft: '3px solid #10b981', 
-                    lineHeight: '1.6', 
-                    whiteSpace: 'pre-line' 
-                  }}>
-                    <strong style={{ display: 'block', marginBottom: '0.2rem' }}>🇻🇳 Bản dịch đối chiếu:</strong>
-                    {clubData.email1.samples[0].vi}
-                  </div>
-                </div>
-              )}
+                  {/* Editor Top Bar: Title & Word Count */}
+                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '0.5rem' }}>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
+                      <span style={{ fontSize: '0.92rem', fontWeight: 800, color: '#0f172a' }}>
+                        ✍️ Ô ĐÁNH ĐÁP ÁN (EMAIL 1)
+                      </span>
+                    </div>
 
-              {/* Writing Area */}
-              <div style={{ marginTop: '0.5rem' }}>
-                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.4rem' }}>
-                  <span style={{ fontSize: '0.85rem', fontWeight: 700, color: '#475569' }}>
-                    Ô viết bài Email 1:
-                  </span>
-                  <button
-                    type="button"
-                    onClick={() => insertTemplateToEditor('email1', clubData.email1.template)}
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                      <span style={{ 
+                        fontSize: '0.92rem', 
+                        fontWeight: 800, 
+                        color: isEmail1InRange ? '#059669' : (email1Count === 0 ? '#64748b' : '#d97706') 
+                      }}>
+                        {email1Count} từ
+                      </span>
+                      <span style={{ fontSize: '0.78rem', color: isEmail1InRange ? '#059669' : '#64748b', fontWeight: 600 }}>
+                        {isEmail1InRange ? '✅ Chuẩn số từ' : (isEmail1TooShort ? '⚠️ Quá ngắn (<45)' : (isEmail1TooLong ? '⚠️ Quá dài (>65)' : 'Cần: 45-65 từ'))}
+                      </span>
+                    </div>
+                  </div>
+
+                  {/* Action bar on top of textarea */}
+                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                    <span style={{ fontSize: '0.8rem', color: '#64748b' }}>
+                      Nhập bài làm bằng tiếng Anh:
+                    </span>
+                    <button
+                      type="button"
+                      onClick={() => insertTemplateToEditor('email1', clubData.email1.template)}
+                      style={{
+                        background: '#ecfdf5',
+                        border: '1px solid #a7f3d0',
+                        color: '#065f46',
+                        fontSize: '0.78rem',
+                        fontWeight: 700,
+                        padding: '0.25rem 0.55rem',
+                        borderRadius: '4px',
+                        cursor: 'pointer',
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: '0.3rem'
+                      }}
+                      title="Dán khung sườn mẫu vào ô làm bài"
+                    >
+                      <Copy size={12} /> Dán khung sườn mẫu
+                    </button>
+                  </div>
+
+                  {/* Textarea */}
+                  <textarea
+                    value={answers.email1}
+                    onChange={(e) => handleAnswerChange('email1', e.target.value)}
+                    placeholder="Viết email thân mật gửi bạn tại đây...&#10;(Ví dụ: Dear Kim,&#10;How's it going? I hope you're doing well.&#10;I thought you'd be interested to hear that...)"
+                    rows={11}
                     style={{
-                      background: 'none',
-                      border: 'none',
-                      color: '#059669',
-                      fontSize: '0.8rem',
-                      fontWeight: 700,
-                      cursor: 'pointer',
-                      display: 'flex',
-                      alignItems: 'center',
-                      gap: '0.3rem'
+                      width: '100%',
+                      minHeight: '260px',
+                      padding: '0.9rem 1rem',
+                      fontSize: '0.98rem',
+                      lineHeight: '1.65',
+                      borderRadius: '8px',
+                      border: `2px solid ${isEmail1InRange ? '#10b981' : (email1Count > 0 ? '#fbbf24' : '#cbd5e1')}`,
+                      outline: 'none',
+                      fontFamily: 'inherit',
+                      resize: 'vertical',
+                      backgroundColor: '#ffffff',
+                      boxSizing: 'border-box'
                     }}
-                  >
-                    <Copy size={13} /> Dán khung sườn vào ô làm bài
-                  </button>
-                </div>
+                  />
 
-                <textarea
-                  value={answers.email1}
-                  onChange={(e) => handleAnswerChange('email1', e.target.value)}
-                  placeholder="Viết email thân mật gửi bạn tại đây... (Ví dụ: Dear Kim, How's it going? ...)"
-                  rows={8}
-                  style={{
-                    width: '100%',
-                    padding: '0.85rem 1rem',
-                    fontSize: '0.98rem',
-                    lineHeight: '1.6',
-                    borderRadius: '8px',
-                    border: `2px solid ${isEmail1InRange ? '#10b981' : (email1Count > 0 ? '#fbbf24' : '#cbd5e1')}`,
-                    outline: 'none',
-                    fontFamily: 'inherit',
-                    resize: 'vertical',
-                    backgroundColor: '#ffffff'
-                  }}
-                />
-
-                {/* Progress bar */}
-                <div style={{ width: '100%', height: '5px', backgroundColor: '#e2e8f0', borderRadius: '3px', marginTop: '0.5rem', overflow: 'hidden' }}>
-                  <div style={{ 
-                    height: '100%', 
-                    width: `${Math.min(100, (email1Count / 55) * 100)}%`, 
-                    backgroundColor: isEmail1InRange ? '#10b981' : (email1Count > 65 ? '#f59e0b' : '#38bdf8'),
-                    transition: 'width 0.3s'
-                  }} />
+                  {/* Progress bar */}
+                  <div>
+                    <div style={{ width: '100%', height: '6px', backgroundColor: '#e2e8f0', borderRadius: '3px', overflow: 'hidden' }}>
+                      <div style={{ 
+                        height: '100%', 
+                        width: `${Math.min(100, (email1Count / 55) * 100)}%`, 
+                        backgroundColor: isEmail1InRange ? '#10b981' : (email1Count > 65 ? '#f59e0b' : '#38bdf8'),
+                        transition: 'width 0.3s'
+                      }} />
+                    </div>
+                    <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.74rem', color: '#94a3b8', marginTop: '0.25rem' }}>
+                      <span>0 từ</span>
+                      <span>Mục tiêu: 45 - 55 từ</span>
+                      <span>Tối đa: 65 từ</span>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -897,313 +958,373 @@ const Part4 = () => {
           {/* SECTION 3: TASK 2 - EMAIL TO CLUB MANAGER (FORMAL) */}
           {/* ======================================================== */}
           {(workspaceMode === 'all' || workspaceMode === 'email2') && (
-            <div className="card" style={{ marginBottom: '2rem', borderLeft: '4px solid #2563eb' }}>
-              {/* Task 2 Header */}
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.75rem', flexWrap: 'wrap', gap: '0.5rem' }}>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+            <div className="card" style={{ marginBottom: '2.5rem', borderLeft: '4px solid #2563eb', padding: '1.5rem' }}>
+              {/* Task 2 Top Header */}
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.25rem', paddingBottom: '0.75rem', borderBottom: '1px solid #e2e8f0', flexWrap: 'wrap', gap: '0.75rem' }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
                   <div style={{ width: '32px', height: '32px', borderRadius: '50%', backgroundColor: '#2563eb', color: 'white', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold' }}>
                     2
                   </div>
                   <div>
-                    <strong style={{ color: '#1e3a8a', fontSize: '1.05rem' }}>{clubData.email2.title}</strong>
-                    <span style={{ marginLeft: '0.6rem', fontSize: '0.75rem', backgroundColor: '#dbeafe', color: '#1e40af', padding: '0.15rem 0.5rem', borderRadius: '12px', fontWeight: 700 }}>
-                      Mục tiêu: 120 - 150 từ
+                    <strong style={{ color: '#1e3a8a', fontSize: '1.1rem' }}>{clubData.email2.title}</strong>
+                    <span style={{ marginLeft: '0.6rem', fontSize: '0.78rem', backgroundColor: '#dbeafe', color: '#1e40af', padding: '0.2rem 0.6rem', borderRadius: '12px', fontWeight: 700 }}>
+                      Mục tiêu: 120 - 150 từ (Tối đa 165 từ)
                     </span>
                   </div>
                 </div>
+                <div style={{ fontSize: '0.84rem', color: '#64748b' }}>
+                  Phong cách: <strong>Trang trọng (Formal B2-C1)</strong> • Không dùng từ viết tắt
+                </div>
+              </div>
 
-                {/* Word counter */}
-                <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
-                  <span style={{ 
-                    fontSize: '0.92rem', 
-                    fontWeight: 800, 
-                    color: isEmail2InRange ? '#2563eb' : (email2Count === 0 ? '#64748b' : '#d97706') 
+              {/* 2-Column Grid */}
+              <div className="part4-split-grid">
+                {/* CỘT TRÁI: ĐỀ BÀI & GỢI Ý */}
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '0.85rem' }}>
+                  {/* Đề bài (Prompt Box) */}
+                  <div style={{ 
+                    backgroundColor: '#f8fafc', 
+                    padding: '1rem 1.15rem', 
+                    borderRadius: '8px', 
+                    border: '1.5px solid #e2e8f0',
+                    borderLeft: '4px solid #2563eb' 
                   }}>
-                    {email2Count} từ
-                  </span>
-                  <span style={{ fontSize: '0.8rem', color: isEmail2InRange ? '#2563eb' : '#64748b' }}>
-                    {isEmail2InRange ? '✅ Chuẩn số từ' : (isEmail2TooShort ? '⚠️ Quá ngắn (<120 từ)' : (isEmail2TooLong ? '⚠️ Hơi dài (>165 từ)' : 'Cần: 120-165 từ'))}
-                  </span>
-                </div>
-              </div>
-
-              {/* Task 2 Instruction Bubble */}
-              <div style={{ backgroundColor: '#F1F5F9', padding: '0.85rem 1rem', borderRadius: '0 8px 8px 8px', borderLeft: '4px solid #2563eb', marginBottom: '0.75rem', fontSize: '0.95rem', color: '#1e293b' }}>
-                {clubData.email2.instruction}
-              </div>
-
-              {/* Action Buttons like Part 3 */}
-              <div style={{ display: 'flex', justifyContent: 'flex-start', gap: '0.5rem', marginBottom: '0.75rem', flexWrap: 'wrap' }}>
-                <button 
-                  className={`btn-translate ${showEmail2Template ? 'active' : ''}`}
-                  onClick={() => setShowEmail2Template(!showEmail2Template)}
-                  title="Gợi ý cấu trúc & 3 Đề xuất giải pháp B2-C1"
-                >
-                  {showEmail2Template ? 'Ẩn cấu trúc' : '💡 Gợi ý cấu trúc & 3 Đề xuất'}
-                </button>
-                {clubData.email2.instructionVi && (
-                  <button 
-                    className={`btn-translate ${showEmail2InstructionVi ? 'active' : ''}`}
-                    onClick={() => setShowEmail2InstructionVi(!showEmail2InstructionVi)}
-                    title="Dịch yêu cầu bài viết"
-                  >
-                    {showEmail2InstructionVi ? 'Ẩn dịch' : '🇻🇳 Dịch đề'}
-                  </button>
-                )}
-                <button 
-                  className={`btn-translate ${showEmail2Sample ? 'active' : ''}`}
-                  onClick={() => setShowEmail2Sample(!showEmail2Sample)}
-                  title="Xem bài mẫu chuẩn và phân tích câu"
-                >
-                  {showEmail2Sample ? 'Ẩn bài mẫu' : '📝 Bài mẫu chuẩn'}
-                </button>
-              </div>
-
-              {/* Vietnamese translation of Instruction */}
-              {showEmail2InstructionVi && clubData.email2.instructionVi && (
-                <div style={{ color: 'var(--text-muted)', fontSize: '0.9rem', fontStyle: 'italic', marginBottom: '1rem', marginLeft: '0.5rem' }}>
-                  🇻🇳 {clubData.email2.instructionVi}
-                </div>
-              )}
-
-              {/* Gợi ý cấu trúc & 3 Đề xuất Box (Style exactly like Part 3) */}
-              {showEmail2Template && (
-                <div style={{ 
-                  marginBottom: '1rem', 
-                  padding: '1rem', 
-                  backgroundColor: '#F8FAFC', 
-                  border: '1px dashed #94A3B8',
-                  borderRadius: '6px',
-                  color: 'var(--primary)',
-                  fontSize: '0.95rem',
-                  lineHeight: '1.6'
-                }}>
-                  {/* Highlighted Template */}
-                  <div style={{ marginBottom: '1rem' }}>
                     <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.5rem' }}>
-                      <div style={{ fontWeight: '700', color: '#B45309', fontSize: '0.95rem' }}>
-                        🎯 KHUNG ĐÁP ÁN GỢI Ý (CÁC CHỖ ✏️ [ ... ] CẦN THAY THẾ TỪ ĐỀ BÀI):
+                      <span style={{ fontSize: '0.82rem', fontWeight: 800, color: '#1e40af', textTransform: 'uppercase', letterSpacing: '0.5px' }}>
+                        📋 Đề bài Email 2:
+                      </span>
+                      {clubData.email2.instructionVi && (
+                        <button 
+                          className={`btn-translate ${showEmail2InstructionVi ? 'active' : ''}`}
+                          onClick={() => setShowEmail2InstructionVi(!showEmail2InstructionVi)}
+                          style={{ fontSize: '0.78rem', padding: '0.25rem 0.55rem' }}
+                          title="Dịch yêu cầu bài viết"
+                        >
+                          {showEmail2InstructionVi ? 'Ẩn dịch' : '🇻🇳 Dịch đề'}
+                        </button>
+                      )}
+                    </div>
+                    <div style={{ fontSize: '0.96rem', color: '#1e293b', lineHeight: '1.6', fontWeight: 500 }}>
+                      {clubData.email2.instruction}
+                    </div>
+                    {showEmail2InstructionVi && clubData.email2.instructionVi && (
+                      <div style={{ 
+                        marginTop: '0.65rem', 
+                        paddingTop: '0.65rem', 
+                        borderTop: '1px dashed #cbd5e1', 
+                        color: '#1e40af', 
+                        fontSize: '0.9rem', 
+                        fontStyle: 'italic',
+                        lineHeight: '1.5'
+                      }}>
+                        🇻🇳 {clubData.email2.instructionVi}
                       </div>
-                      <button
-                        type="button"
-                        onClick={() => insertTemplateToEditor('email2', clubData.email2.template)}
-                        style={{
-                          backgroundColor: '#dbeafe',
-                          color: '#1e40af',
-                          border: '1px solid #bfdbfe',
-                          borderRadius: '4px',
-                          padding: '0.25rem 0.6rem',
-                          fontSize: '0.78rem',
-                          fontWeight: 700,
-                          cursor: 'pointer',
-                          display: 'flex',
-                          alignItems: 'center',
-                          gap: '0.3rem'
-                        }}
-                      >
-                        <Copy size={13} /> Dán khung sườn vào ô làm bài
-                      </button>
-                    </div>
-
-                    <div style={{ 
-                      backgroundColor: '#ffffff', 
-                      padding: '0.85rem 1rem', 
-                      borderRadius: '6px', 
-                      border: '1px solid #e2e8f0',
-                      lineHeight: '1.8',
-                      fontSize: '0.96rem',
-                      whiteSpace: 'pre-wrap'
-                    }}>
-                      {renderHighlightedText(clubData.email2.template)}
-                    </div>
+                    )}
                   </div>
 
-                  {/* 3 Đề xuất & Từ vựng hữu ích with audio buttons */}
-                  {clubData.email2.vocabCategories && clubData.email2.vocabCategories.length > 0 && (
-                    <div style={{ paddingTop: '0.75rem', borderTop: '2px solid rgba(180, 83, 9, 0.1)' }}>
-                      <div style={{ fontWeight: '700', marginBottom: '0.6rem', color: '#B45309', fontSize: '0.95rem' }}>
-                        3 ĐỀ XUẤT THỰC TẾ & TỪ VỰNG HỌC THUẬT B2-C1 (BẤM LOA ĐỂ NGHE PHÁT ÂM 🔊):
-                      </div>
-                      <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
-                        {clubData.email2.vocabCategories.map((cat, idx) => (
-                          <div key={idx}>
-                            <div style={{ fontWeight: '600', marginBottom: '0.35rem', fontSize: '0.88rem', color: '#1e293b' }}>
-                              ✨ <span style={{ color: '#D97706' }}>{cat.name}</span>:
-                            </div>
-                            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.45rem' }}>
-                              {cat.items.map((item, i) => (
-                                <div
-                                  key={i}
-                                  style={{
-                                    display: 'inline-flex',
-                                    alignItems: 'center',
-                                    backgroundColor: '#ffffff',
-                                    border: '1px solid #cbd5e1',
-                                    borderRadius: '6px',
-                                    overflow: 'hidden',
-                                    boxShadow: '0 1px 2px rgba(0,0,0,0.03)'
-                                  }}
-                                >
-                                  <button 
-                                    type="button"
-                                    onClick={() => playAudio(item.en)}
-                                    style={{ 
-                                      background: 'rgba(217, 119, 6, 0.1)', 
-                                      border: 'none', 
-                                      borderRight: '1px solid #e2e8f0',
-                                      cursor: 'pointer', 
-                                      padding: '0.3rem 0.5rem', 
-                                      fontSize: '0.82rem',
-                                      display: 'flex', 
-                                      alignItems: 'center', 
-                                      justifyContent: 'center'
-                                    }}
-                                    title={`Nghe phát âm: ${item.en}`}
-                                  >
-                                    🔊
-                                  </button>
-                                  <button
-                                    type="button"
-                                    onClick={() => insertPhrase('email2', item.en)}
-                                    style={{
-                                      background: 'transparent',
-                                      border: 'none',
-                                      padding: '0.3rem 0.6rem',
-                                      fontSize: '0.85rem',
-                                      cursor: 'pointer',
-                                      textAlign: 'left'
-                                    }}
-                                    title={`Chèn cụm từ vào bài: "${item.en}"`}
-                                  >
-                                    <strong style={{ color: '#0f172a' }}>{item.en}</strong> <span style={{ color: '#64748b' }}>({item.vi})</span>
-                                  </button>
-                                </div>
-                              ))}
-                            </div>
+                  {/* Action Buttons */}
+                  <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap' }}>
+                    <button 
+                      className={`btn-translate ${showEmail2Template ? 'active' : ''}`}
+                      onClick={() => setShowEmail2Template(!showEmail2Template)}
+                      title="Xem gợi ý cấu trúc & 3 đề xuất thực tế B2-C1"
+                    >
+                      {showEmail2Template ? 'Ẩn gợi ý cấu trúc' : '💡 Gợi ý cấu trúc & 3 Đề xuất'}
+                    </button>
+                    <button 
+                      className={`btn-translate ${showEmail2Sample ? 'active' : ''}`}
+                      onClick={() => setShowEmail2Sample(!showEmail2Sample)}
+                      title="Xem bài mẫu chuẩn band B2-C1 và phân tích"
+                    >
+                      {showEmail2Sample ? 'Ẩn bài mẫu' : '📝 Bài mẫu chuẩn (B2-C1)'}
+                    </button>
+                  </div>
+
+                  {/* Gợi ý cấu trúc & 3 Đề xuất Box */}
+                  {showEmail2Template && (
+                    <div style={{ 
+                      padding: '1rem', 
+                      backgroundColor: '#F8FAFC', 
+                      border: '1px dashed #94A3B8',
+                      borderRadius: '8px',
+                      color: 'var(--primary)',
+                      fontSize: '0.92rem',
+                      lineHeight: '1.6'
+                    }}>
+                      {/* Highlighted Template */}
+                      <div style={{ marginBottom: '1rem' }}>
+                        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.45rem', flexWrap: 'wrap', gap: '0.4rem' }}>
+                          <div style={{ fontWeight: '700', color: '#B45309', fontSize: '0.88rem' }}>
+                            🎯 KHUNG ĐÁP ÁN GỢI Ý (THAY THẾ CHỖ ✏️ [ ... ]):
                           </div>
-                        ))}
+                          <button
+                            type="button"
+                            onClick={() => insertTemplateToEditor('email2', clubData.email2.template)}
+                            style={{
+                              backgroundColor: '#dbeafe',
+                              color: '#1e40af',
+                              border: '1px solid #bfdbfe',
+                              borderRadius: '4px',
+                              padding: '0.25rem 0.55rem',
+                              fontSize: '0.78rem',
+                              fontWeight: 700,
+                              cursor: 'pointer',
+                              display: 'flex',
+                              alignItems: 'center',
+                              gap: '0.3rem'
+                            }}
+                            title="Dán khung sườn này sang khung gõ đáp án bên phải"
+                          >
+                            <Copy size={13} /> Dán vào ô làm bài 👉
+                          </button>
+                        </div>
+
+                        <div style={{ 
+                          backgroundColor: '#ffffff', 
+                          padding: '0.85rem 1rem', 
+                          borderRadius: '6px', 
+                          border: '1px solid #e2e8f0',
+                          lineHeight: '1.75',
+                          fontSize: '0.93rem',
+                          whiteSpace: 'pre-wrap'
+                        }}>
+                          {renderHighlightedText(clubData.email2.template)}
+                        </div>
+                      </div>
+
+                      {/* 3 Đề xuất thực tế & Từ vựng hữu ích with audio buttons */}
+                      {clubData.email2.vocabCategories && clubData.email2.vocabCategories.length > 0 && (
+                        <div style={{ paddingTop: '0.75rem', borderTop: '1.5px solid rgba(180, 83, 9, 0.15)' }}>
+                          <div style={{ fontWeight: '700', marginBottom: '0.5rem', color: '#B45309', fontSize: '0.88rem' }}>
+                            3 ĐỀ XUẤT THỰC TẾ & TỪ VỰNG HỌC THUẬT B2-C1 (BẤM LOA ĐỂ NGHE 🔊):
+                          </div>
+                          <div style={{ display: 'flex', flexDirection: 'column', gap: '0.65rem' }}>
+                            {clubData.email2.vocabCategories.map((cat, idx) => (
+                              <div key={idx}>
+                                <div style={{ fontWeight: '600', marginBottom: '0.3rem', fontSize: '0.84rem', color: '#1e293b' }}>
+                                  ✨ <span style={{ color: '#D97706' }}>{cat.name}</span>:
+                                </div>
+                                <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.4rem' }}>
+                                  {cat.items.map((item, i) => (
+                                    <div
+                                      key={i}
+                                      style={{
+                                        display: 'inline-flex',
+                                        alignItems: 'center',
+                                        backgroundColor: '#ffffff',
+                                        border: '1px solid #cbd5e1',
+                                        borderRadius: '6px',
+                                        overflow: 'hidden',
+                                        boxShadow: '0 1px 2px rgba(0,0,0,0.03)'
+                                      }}
+                                    >
+                                      <button 
+                                        type="button"
+                                        onClick={() => playAudio(item.en)}
+                                        style={{ 
+                                          background: 'rgba(217, 119, 6, 0.1)', 
+                                          border: 'none', 
+                                          borderRight: '1px solid #e2e8f0',
+                                          cursor: 'pointer', 
+                                          padding: '0.25rem 0.45rem', 
+                                          fontSize: '0.78rem',
+                                          display: 'flex', 
+                                          alignItems: 'center', 
+                                          justifyContent: 'center'
+                                        }}
+                                        title={`Nghe phát âm: ${item.en}`}
+                                      >
+                                        🔊
+                                      </button>
+                                      <button
+                                        type="button"
+                                        onClick={() => insertPhrase('email2', item.en)}
+                                        style={{
+                                          background: 'transparent',
+                                          border: 'none',
+                                          padding: '0.25rem 0.5rem',
+                                          fontSize: '0.82rem',
+                                          cursor: 'pointer',
+                                          textAlign: 'left'
+                                        }}
+                                        title={`Chèn cụm từ vào bài: "${item.en}"`}
+                                      >
+                                        <strong style={{ color: '#0f172a' }}>{item.en}</strong> <span style={{ color: '#64748b' }}>({item.vi})</span>
+                                      </button>
+                                    </div>
+                                  ))}
+                                </div>
+                              </div>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+                    </div>
+                  )}
+
+                  {/* Bài mẫu chuẩn Box */}
+                  {showEmail2Sample && clubData.email2.samples && clubData.email2.samples.length > 0 && (
+                    <div style={{ 
+                      padding: '1rem', 
+                      backgroundColor: '#ffffff', 
+                      border: '1.5px solid #bfdbfe',
+                      borderRadius: '8px'
+                    }}>
+                      <div style={{ fontWeight: 700, color: '#1e40af', marginBottom: '0.5rem', display: 'flex', justifyContent: 'space-between' }}>
+                        <span>📝 BÀI MẪU CHUẨN (EMAIL 2):</span>
+                        <span style={{ fontSize: '0.82rem', color: '#2563eb' }}>Độ dài: {clubData.email2.samples[0].wordCount} từ</span>
+                      </div>
+                      <pre style={{ 
+                        fontFamily: 'inherit', 
+                        fontSize: '0.92rem', 
+                        lineHeight: '1.65', 
+                        color: '#0f172a', 
+                        whiteSpace: 'pre-wrap',
+                        backgroundColor: '#f8fafc',
+                        padding: '0.85rem',
+                        borderRadius: '6px',
+                        border: '1px solid #e2e8f0',
+                        margin: '0 0 0.65rem 0'
+                      }}>
+                        {clubData.email2.samples[0].en}
+                      </pre>
+                      <div style={{ 
+                        fontSize: '0.86rem', 
+                        color: '#1e40af', 
+                        backgroundColor: '#eff6ff', 
+                        padding: '0.65rem 0.85rem', 
+                        borderRadius: '6px', 
+                        borderLeft: '3px solid #2563eb', 
+                        lineHeight: '1.55', 
+                        whiteSpace: 'pre-line' 
+                      }}>
+                        <strong style={{ display: 'block', marginBottom: '0.2rem' }}>🇻🇳 Bản dịch đối chiếu:</strong>
+                        {clubData.email2.samples[0].vi}
                       </div>
                     </div>
                   )}
                 </div>
-              )}
 
-              {/* Bài mẫu chuẩn */}
-              {showEmail2Sample && clubData.email2.samples && clubData.email2.samples.length > 0 && (
+                {/* CỘT PHẢI: KHUNG ĐÁNH ĐÁP ÁN */}
                 <div style={{ 
-                  marginBottom: '1rem', 
-                  padding: '1rem', 
-                  backgroundColor: '#ffffff', 
-                  border: '1px solid #bfdbfe',
-                  borderRadius: '6px'
+                  position: 'sticky', 
+                  top: '1rem', 
+                  backgroundColor: '#ffffff',
+                  border: '1.5px solid #cbd5e1',
+                  borderRadius: '10px',
+                  padding: '1.15rem',
+                  boxShadow: '0 2px 6px rgba(0,0,0,0.04)',
+                  display: 'flex',
+                  flexDirection: 'column',
+                  gap: '0.65rem'
                 }}>
-                  <div style={{ fontWeight: 700, color: '#1e40af', marginBottom: '0.5rem', display: 'flex', justifyContent: 'space-between' }}>
-                    <span>📝 BÀI MẪU CHUẨN (EMAIL 2):</span>
-                    <span style={{ fontSize: '0.82rem', color: '#2563eb' }}>Độ dài: {clubData.email2.samples[0].wordCount} từ</span>
-                  </div>
-                  <pre style={{ 
-                    fontFamily: 'inherit', 
-                    fontSize: '0.95rem', 
-                    lineHeight: '1.65', 
-                    color: '#0f172a', 
-                    whiteSpace: 'pre-wrap',
-                    backgroundColor: '#f8fafc',
-                    padding: '0.85rem',
-                    borderRadius: '6px',
-                    border: '1px solid #e2e8f0',
-                    margin: '0 0 0.75rem 0'
-                  }}>
-                    {clubData.email2.samples[0].en}
-                  </pre>
-                  <div style={{ 
-                    fontSize: '0.88rem', 
-                    color: '#1e40af', 
-                    backgroundColor: '#eff6ff', 
-                    padding: '0.75rem', 
-                    borderRadius: '6px', 
-                    borderLeft: '3px solid #2563eb', 
-                    lineHeight: '1.6', 
-                    whiteSpace: 'pre-line' 
-                  }}>
-                    <strong style={{ display: 'block', marginBottom: '0.2rem' }}>🇻🇳 Bản dịch đối chiếu:</strong>
-                    {clubData.email2.samples[0].vi}
-                  </div>
-                </div>
-              )}
+                  {/* Editor Top Bar: Title & Word Count */}
+                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '0.5rem' }}>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
+                      <span style={{ fontSize: '0.92rem', fontWeight: 800, color: '#0f172a' }}>
+                        ✍️ Ô ĐÁNH ĐÁP ÁN (EMAIL 2)
+                      </span>
+                    </div>
 
-              {/* Writing Area */}
-              <div style={{ marginTop: '0.5rem' }}>
-                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.4rem' }}>
-                  <span style={{ fontSize: '0.85rem', fontWeight: 700, color: '#475569' }}>
-                    Ô viết bài Email 2:
-                  </span>
-                  <button
-                    type="button"
-                    onClick={() => insertTemplateToEditor('email2', clubData.email2.template)}
-                    style={{
-                      background: 'none',
-                      border: 'none',
-                      color: '#2563eb',
-                      fontSize: '0.8rem',
-                      fontWeight: 700,
-                      cursor: 'pointer',
-                      display: 'flex',
-                      alignItems: 'center',
-                      gap: '0.3rem'
-                    }}
-                  >
-                    <Copy size={13} /> Dán khung sườn vào ô làm bài
-                  </button>
-                </div>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                      <span style={{ 
+                        fontSize: '0.92rem', 
+                        fontWeight: 800, 
+                        color: isEmail2InRange ? '#2563eb' : (email2Count === 0 ? '#64748b' : '#d97706') 
+                      }}>
+                        {email2Count} từ
+                      </span>
+                      <span style={{ fontSize: '0.78rem', color: isEmail2InRange ? '#2563eb' : '#64748b', fontWeight: 600 }}>
+                        {isEmail2InRange ? '✅ Chuẩn số từ' : (isEmail2TooShort ? '⚠️ Quá ngắn (<120)' : (isEmail2TooLong ? '⚠️ Quá dài (>165)' : 'Cần: 120-165 từ'))}
+                      </span>
+                    </div>
+                  </div>
 
-                {/* Contraction warning */}
-                {email2Contractions.length > 0 && (
-                  <div style={{ 
-                    marginBottom: '0.5rem', 
-                    backgroundColor: '#fffbeb', 
-                    border: '1px solid #fde68a', 
-                    borderRadius: '6px', 
-                    padding: '0.4rem 0.65rem', 
-                    display: 'flex', 
-                    alignItems: 'center', 
-                    gap: '0.4rem', 
-                    fontSize: '0.8rem', 
-                    color: '#b45309' 
-                  }}>
-                    <AlertTriangle size={15} color="#d97706" />
-                    <span>
-                      <strong>Lưu ý thư trang trọng:</strong> Bạn đang dùng từ viết tắt ({email2Contractions.join(', ')}). Hãy đổi sang dạng đầy đủ để không bị trừ điểm!
+                  {/* Contraction warning if any */}
+                  {email2Contractions.length > 0 && (
+                    <div style={{ 
+                      backgroundColor: '#fffbeb', 
+                      border: '1px solid #fde68a', 
+                      borderRadius: '6px', 
+                      padding: '0.4rem 0.65rem', 
+                      display: 'flex', 
+                      alignItems: 'center', 
+                      gap: '0.4rem', 
+                      fontSize: '0.8rem', 
+                      color: '#b45309' 
+                    }}>
+                      <AlertTriangle size={15} color="#d97706" />
+                      <span>
+                        <strong>Lưu ý thư trang trọng:</strong> Đang dùng từ viết tắt ({email2Contractions.join(', ')}). Hãy đổi sang dạng đầy đủ!
+                      </span>
+                    </div>
+                  )}
+
+                  {/* Action bar on top of textarea */}
+                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                    <span style={{ fontSize: '0.8rem', color: '#64748b' }}>
+                      Nhập bài làm bằng tiếng Anh (Trang trọng):
                     </span>
+                    <button
+                      type="button"
+                      onClick={() => insertTemplateToEditor('email2', clubData.email2.template)}
+                      style={{
+                        background: '#eff6ff',
+                        border: '1px solid #bfdbfe',
+                        color: '#1e40af',
+                        fontSize: '0.78rem',
+                        fontWeight: 700,
+                        padding: '0.25rem 0.55rem',
+                        borderRadius: '4px',
+                        cursor: 'pointer',
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: '0.3rem'
+                      }}
+                      title="Dán khung sườn mẫu vào ô làm bài"
+                    >
+                      <Copy size={12} /> Dán khung sườn mẫu
+                    </button>
                   </div>
-                )}
 
-                <textarea
-                  value={answers.email2}
-                  onChange={(e) => handleAnswerChange('email2', e.target.value)}
-                  placeholder="Viết email trang trọng gửi Quản lý CLB tại đây... (Dear Club Manager, My name is ..., and I have been a member ...)"
-                  rows={12}
-                  style={{
-                    width: '100%',
-                    padding: '0.85rem 1rem',
-                    fontSize: '0.98rem',
-                    lineHeight: '1.6',
-                    borderRadius: '8px',
-                    border: `2px solid ${isEmail2InRange ? '#2563eb' : (email2Count > 0 ? '#fbbf24' : '#cbd5e1')}`,
-                    outline: 'none',
-                    fontFamily: 'inherit',
-                    resize: 'vertical',
-                    backgroundColor: '#ffffff'
-                  }}
-                />
+                  {/* Textarea */}
+                  <textarea
+                    value={answers.email2}
+                    onChange={(e) => handleAnswerChange('email2', e.target.value)}
+                    placeholder="Viết email trang trọng gửi Quản lý CLB tại đây...&#10;(Ví dụ: Dear Club Manager,&#10;My name is ..., and I have been a member of the club for two years...)"
+                    rows={16}
+                    style={{
+                      width: '100%',
+                      minHeight: '380px',
+                      padding: '0.9rem 1rem',
+                      fontSize: '0.98rem',
+                      lineHeight: '1.65',
+                      borderRadius: '8px',
+                      border: `2px solid ${isEmail2InRange ? '#2563eb' : (email2Count > 0 ? '#fbbf24' : '#cbd5e1')}`,
+                      outline: 'none',
+                      fontFamily: 'inherit',
+                      resize: 'vertical',
+                      backgroundColor: '#ffffff',
+                      boxSizing: 'border-box'
+                    }}
+                  />
 
-                {/* Progress bar */}
-                <div style={{ width: '100%', height: '5px', backgroundColor: '#e2e8f0', borderRadius: '3px', marginTop: '0.5rem', overflow: 'hidden' }}>
-                  <div style={{ 
-                    height: '100%', 
-                    width: `${Math.min(100, (email2Count / 150) * 100)}%`, 
-                    backgroundColor: isEmail2InRange ? '#2563eb' : (email2Count > 165 ? '#f59e0b' : '#38bdf8'),
-                    transition: 'width 0.3s'
-                  }} />
+                  {/* Progress bar */}
+                  <div>
+                    <div style={{ width: '100%', height: '6px', backgroundColor: '#e2e8f0', borderRadius: '3px', overflow: 'hidden' }}>
+                      <div style={{ 
+                        height: '100%', 
+                        width: `${Math.min(100, (email2Count / 150) * 100)}%`, 
+                        backgroundColor: isEmail2InRange ? '#2563eb' : (email2Count > 165 ? '#f59e0b' : '#38bdf8'),
+                        transition: 'width 0.3s'
+                      }} />
+                    </div>
+                    <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.74rem', color: '#94a3b8', marginTop: '0.25rem' }}>
+                      <span>0 từ</span>
+                      <span>Mục tiêu: 120 - 150 từ</span>
+                      <span>Tối đa: 165 từ</span>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
