@@ -974,16 +974,16 @@ Best regards,
                     <button 
                       className={`btn-translate ${email1HelperTab === 'template' ? 'active' : ''}`}
                       onClick={() => setEmail1HelperTab(email1HelperTab === 'template' ? 'none' : 'template')}
-                      title="Xem gợi ý cấu trúc & từ vựng B1-B2"
+                      title="Xem gợi ý cấu trúc & từ vựng B2+"
                     >
                       💡 Gợi ý cấu trúc & Từ vựng
                     </button>
                     <button 
                       className={`btn-translate ${email1HelperTab === 'sample' ? 'active' : ''}`}
                       onClick={() => setEmail1HelperTab(email1HelperTab === 'sample' ? 'none' : 'sample')}
-                      title="Xem bài mẫu chuẩn band B1-B2 và phân tích"
+                      title="Xem bài mẫu chuẩn band B2+ và phân tích"
                     >
-                      📝 Bài mẫu chuẩn (B1-B2)
+                      📝 Bài mẫu chuẩn (B2+)
                     </button>
                     {email1HelperTab !== 'none' && (
                       <button
@@ -1509,9 +1509,9 @@ Best regards,
                     <button 
                       className={`btn-translate ${email2HelperTab === 'sample' ? 'active' : ''}`}
                       onClick={() => setEmail2HelperTab(email2HelperTab === 'sample' ? 'none' : 'sample')}
-                      title="Xem bài mẫu chuẩn band B2-C1 và phân tích"
+                      title="Xem bài mẫu chuẩn band B2+ và phân tích"
                     >
-                      📝 Bài mẫu chuẩn (B2-C1)
+                      📝 Bài mẫu chuẩn (B2+)
                     </button>
                     {email2HelperTab !== 'none' && (
                       <button
