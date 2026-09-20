@@ -268,6 +268,94 @@ export const gradeEmail = async (taskKey, rawText, clubData) => {
     score -= 0.5;
   }
 
+  // Look forward to + V-ing check
+  if (/\blook forward to\s+(hear|receive|see|meet|get)\b/i.test(text)) {
+    issues.push({
+      type: 'grammar',
+      message: 'Sau cụm "look forward to" bắt buộc dùng V-ing (danh động từ).',
+      suggestion: 'Sửa thành: "look forward to hearing", "look forward to receiving"'
+    });
+    score -= 0.5;
+  }
+
+  // Because... so... Vietnamese interference check
+  if (/\bbecause\b[\s\S]{5,80}\bso\b/i.test(text)) {
+    issues.push({
+      type: 'grammar',
+      message: 'Lỗi dùng cả "Because" và "so" trong cùng một câu (ảnh hưởng từ tiếng Việt "vì... nên...").',
+      suggestion: 'Chỉ chọn một: dùng "Because [nguyên nhân], [kết quả]" hoặc "[nguyên nhân], so [kết quả]".'
+    });
+    score -= 0.5;
+  }
+
+  // Although... but... Vietnamese interference check
+  if (/\balthough\b[\s\S]{5,80}\bbut\b/i.test(text)) {
+    issues.push({
+      type: 'grammar',
+      message: 'Lỗi dùng cả "Although" và "but" trong cùng một câu (ảnh hưởng từ tiếng Việt "mặc dù... nhưng...").',
+      suggestion: 'Chỉ chọn một: dùng "Although [vế 1], [vế 2]" hoặc "[vế 1], but [vế 2]".'
+    });
+    score -= 0.5;
+  }
+
+  // Suggest to V error check
+  if (/\bsuggest\s+to\s+[a-z]+/i.test(text)) {
+    issues.push({
+      type: 'grammar',
+      message: 'Không dùng "suggest to V". Cấu trúc chuẩn là "suggest + V-ing" hoặc "suggest that S + (should) + V".',
+      suggestion: 'Ví dụ: "suggest organizing..." hoặc "suggest that we should organize..."'
+    });
+    score -= 0.5;
+  }
+
+  // Check comma after transitions (First, Second, Finally, Moreover, Personally, However)
+  const transitionNoCommaRegex = /(?:^|\.\s+|\n\s*)(First|Second|Finally|Moreover|Personally|Furthermore|However|Besides)\s+([a-z])/;
+  const transMatch = text.match(transitionNoCommaRegex);
+  if (transMatch) {
+    issues.push({
+      type: 'format',
+      message: `Thiếu dấu phẩy sau từ nối "${transMatch[1]}". Trong bài viết học thuật, các từ nối đầu câu bắt buộc phải có dấu phẩy theo sau.`,
+      suggestion: `Sửa thành: "${transMatch[1]}, ${transMatch[2]}..."`
+    });
+    score -= 0.3;
+  }
+
+  // Signer name check (Kato)
+  if (!/\bKato\b/i.test(text)) {
+    issues.push({
+      type: 'format',
+      message: 'Bài viết chưa có tên người ký tên "Kato" ở cuối bài theo đúng quy chuẩn.',
+      suggestion: 'Hãy ký tên "Kato" ở dòng cuối cùng (Ví dụ: "Take care,\\nKato" hoặc "Best regards,\\nKato").'
+    });
+    score -= 0.3;
+  }
+
+  // Cohesion check: Transitions in Email 2
+  if (!isEmail1) {
+    const hasTransitions = /\bfirst\b/i.test(text) && /\bsecond\b/i.test(text);
+    if (!hasTransitions) {
+      issues.push({
+        type: 'cohesion',
+        message: 'Thư trang trọng đề xuất ý kiến cần dùng các từ nối mạch lạc để phân tách 3 đề xuất rõ ràng.',
+        suggestion: 'Nên dùng các từ nối chuẩn: "First, ...", "Second, ...", "Finally, ..."'
+      });
+      score -= 0.5;
+    }
+  }
+
+  // Cohesion check: Interactive prompt in Email 1
+  if (isEmail1) {
+    const hasFriendInteraction = /(\?|what do you think|how about you|hope to hear from you)/i.test(text);
+    if (!hasFriendInteraction) {
+      issues.push({
+        type: 'cohesion',
+        message: 'Thư gửi bạn bè nên có câu hỏi ý kiến hoặc lời nhắn thân mật ở cuối bài.',
+        suggestion: 'Thêm câu: "What do you think? Hope to hear from you soon."'
+      });
+      score -= 0.3;
+    }
+  }
+
   // 4. LanguageTool API Check
   try {
     const response = await fetch('https://api.languagetoolplus.com/v2/check', {
