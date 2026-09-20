@@ -17,26 +17,19 @@ export const renderHighlightedText = (text) => {
   return parts.map((part, idx) => {
     if (part.startsWith('[') && part.endsWith(']')) {
       return (
-        <mark
+        <span
           key={idx}
           style={{
-            backgroundColor: '#fef08a', // Vibrant highlighter yellow
-            color: '#78350f',          // Dark amber text for maximum contrast
-            border: '1.5px dashed #d97706',
-            borderRadius: '6px',
-            padding: '0.15rem 0.55rem',
-            margin: '0.1rem 0.2rem',
-            fontWeight: 800,
-            fontSize: '0.92em',
-            boxShadow: '0 2px 5px rgba(217, 119, 6, 0.2)',
-            display: 'inline-block',
-            lineHeight: '1.35',
-            verticalAlign: 'baseline'
+            backgroundColor: '#fef08a',
+            color: '#854d0e',
+            padding: '1px 5px',
+            borderRadius: '3px',
+            fontWeight: '600',
+            borderBottom: '2px solid #eab308'
           }}
-          title="Chỗ cần thay thế thông tin từ đề bài"
         >
-          ✏️ {part}
-        </mark>
+          {part}
+        </span>
       );
     }
     return <span key={idx}>{part}</span>;
@@ -699,7 +692,7 @@ const Part4 = () => {
                       <div style={{ marginBottom: '1rem' }}>
                         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.45rem', flexWrap: 'wrap', gap: '0.4rem' }}>
                           <div style={{ fontWeight: '700', color: '#B45309', fontSize: '0.88rem' }}>
-                            🎯 KHUNG ĐÁP ÁN GỢI Ý (THAY THẾ CHỖ ✏️ [ ... ]):
+                            💡 KHUNG ĐÁP ÁN GỢI Ý:
                           </div>
                           <button
                             type="button"
@@ -719,7 +712,7 @@ const Part4 = () => {
                             }}
                             title="Dán khung sườn này sang khung gõ đáp án bên phải"
                           >
-                            <Copy size={13} /> Dán vào ô làm bài 👉
+                            <Copy size={13} /> Dán vào ô làm bài
                           </button>
                         </div>
 
@@ -1055,7 +1048,7 @@ const Part4 = () => {
                       <div style={{ marginBottom: '1rem' }}>
                         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.45rem', flexWrap: 'wrap', gap: '0.4rem' }}>
                           <div style={{ fontWeight: '700', color: '#B45309', fontSize: '0.88rem' }}>
-                            🎯 KHUNG ĐÁP ÁN GỢI Ý (THAY THẾ CHỖ ✏️ [ ... ]):
+                            💡 KHUNG ĐÁP ÁN GỢI Ý:
                           </div>
                           <button
                             type="button"
@@ -1075,7 +1068,7 @@ const Part4 = () => {
                             }}
                             title="Dán khung sườn này sang khung gõ đáp án bên phải"
                           >
-                            <Copy size={13} /> Dán vào ô làm bài 👉
+                            <Copy size={13} /> Dán vào ô làm bài
                           </button>
                         </div>
 
