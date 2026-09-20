@@ -118,11 +118,13 @@ export const standardMembershipTimes = [
 export const standardPerspectivesPositive = [
   { en: "this is an excellent initiative", vi: "đây là một sáng kiến tuyệt vời" },
   { en: "this is a great idea", vi: "đây là một ý tưởng rất hay" },
+  { en: "this is a reasonable decision", vi: "đây là một quyết định hợp lý" },
   { en: "this project will bring great benefits to all members", vi: "dự án này sẽ mang lại lợi ích lớn cho các hội viên" }
 ];
 
 export const standardPerspectivesConcern = [
+  { en: "this is a reasonable decision", vi: "đây là một quyết định hợp lý" },
   { en: "this is an important issue that requires careful consideration", vi: "đây là vấn đề quan trọng cần cân nhắc kỹ lưỡng" },
-  { en: "canceling the entire event is quite regrettable", vi: "việc hủy bỏ sự kiện là điều khá đáng tiếc" },
+  { en: "this decision is quite regrettable", vi: "quyết định này là điều khá đáng tiếc" },
   { en: "this decision has caused considerable concern among members", vi: "quyết định này đã gây ra nhiều lo ngại trong hội viên" }
 ];
