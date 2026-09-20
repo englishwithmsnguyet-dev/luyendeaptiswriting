@@ -1967,26 +1967,26 @@ export const part4Data = {
                               "vi": "khách mời nên nói về điều gì làm nên một bộ phim thành công vì chủ đề này sẽ rất thú vị và hữu ích cho các thành viên CLB"
                         },
                         {
+                              "en": "he should share how to make good movies because many members love filmmaking",
+                              "vi": "anh ấy nên chia sẻ cách làm phim hay vì nhiều hội viên thích làm phim"
+                        },
+                        {
+                              "en": "he should talk about famous movies and actors because everyone loves this topic",
+                              "vi": "anh ấy nên nói về các bộ phim và diễn viên nổi tiếng vì ai cũng thích chủ đề này"
+                        },
+                        {
                               "en": "he should talk about behind-the-scenes secrets of blockbuster movies because everyone loves film stories",
                               "vi": "anh ấy nên nói về các bí mật hậu trường của phim bom tấn vì ai cũng thích chuyện làm phim"
-                        },
-                        {
-                              "en": "the speaker should share filmmaking tips because many members want to produce short films",
-                              "vi": "diễn giả nên chia sẻ các mẹo làm phim thực tế vì nhiều hội viên muốn tự sản xuất phim ngắn"
-                        },
-                        {
-                              "en": "listening to an acclaimed film critic is fantastic because it helps us understand cinematic directing secrets",
-                              "vi": "lắng nghe nhà phê bình phim nổi tiếng rất tuyệt vì giúp chúng ta hiểu bí quyết đạo diễn điện ảnh"
-                        },
-                        {
-                              "en": "analyzing hidden symbols in movies will deepen our appreciation for classic cinema masterpieces",
-                              "vi": "phân tích biểu tượng ẩn trong phim sẽ giúp chúng ta thưởng thức các kiệt tác sâu sắc hơn"
                         }
                   ]
             },
             {
                   "name": "3. [phát triển thêm ý] (Mệnh đề hoàn chỉnh)",
                   "items": [
+                        {
+                              "en": "we could organize a short movie quiz and give small gifts to the winners",
+                              "vi": "chúng mình có thể tổ chức đố vui ngắn về phim và tặng quà nhỏ cho người thắng"
+                        },
                         {
                               "en": "we should reserve our seats early, so we can sit in the front rows",
                               "vi": "chúng mình nên đặt chỗ sớm để có vị trí ngồi hàng đầu"
@@ -2048,10 +2048,6 @@ export const part4Data = {
                         {
                               "en": "the speaker should share practical filmmaking tips and scriptwriting techniques",
                               "vi": "diễn giả nên chia sẻ các mẹo làm phim thực tế và kỹ thuật viết kịch bản"
-                        },
-                        {
-                              "en": "the lecture should focus on 'Deciphering Hidden Cinematic Symbols in Oscar-Winning Masterpieces'",
-                              "vi": "buổi nói chuyện nên tập trung vào chủ đề giải mã biểu tượng ẩn trong các kiệt tác Oscar"
                         }
                   ]
             },
@@ -2071,6 +2067,10 @@ export const part4Data = {
             {
                   "name": "3. Đề xuất 3: [đề xuất thứ ba] (Mệnh đề hoàn chỉnh)",
                   "items": [
+                        {
+                              "en": "the club should organize a short movie quiz and give small gifts to the winners",
+                              "vi": "CLB nên tổ chức một trò chơi đố vui ngắn về phim và trao quà nhỏ cho người thắng"
+                        },
                         {
                               "en": "we could organize a 20-minute cinema trivia quiz during the intermission, gifting free movie tickets to winners",
                               "vi": "chúng ta có thể tổ chức trò chơi đố vui điện ảnh giữa giờ và tặng vé xem phim cho người thắng"
