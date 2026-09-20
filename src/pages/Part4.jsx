@@ -512,9 +512,9 @@ const Part4 = () => {
   const email1Count = getWordCount(answers.email1);
   const email2Count = getWordCount(answers.email2);
 
-  const isEmail1InRange = email1Count >= 45 && email1Count <= 55;
-  const isEmail1TooShort = email1Count > 0 && email1Count < 45;
-  const isEmail1TooLong = email1Count > 65;
+  const isEmail1InRange = email1Count >= 40 && email1Count <= 55;
+  const isEmail1TooShort = email1Count > 0 && email1Count < 40;
+  const isEmail1TooLong = email1Count > 60;
 
   const isEmail2InRange = email2Count >= 120 && email2Count <= 150;
   const isEmail2TooShort = email2Count > 0 && email2Count < 120;
@@ -532,27 +532,26 @@ const Part4 = () => {
 
   const email1Template = `Dear Kim,
 
-How's it going? I hope you're doing well. I thought you'd be interested to hear that [thông tin trong đề bài]. I was [cảm xúc] when I found out about it.
+How is it going? I thought you would like to know that [thông tin trong đề bài]. I was [cảm xúc] to hear about it.
 
-Personally, I think [ý kiến & lý do]. Moreover, [phát triển thêm ý].
-
-I would love to know what you think about this. Hope to hear from you soon.
+Personally, I think [ý kiến & lý do]. Moreover, [phát triển thêm ý]. What do you think?
 
 Take care,
-[Tên của bạn]`;
+Kato`;
 
   const email2Template = `Dear Club Manager,
 
-My name is [Tên của bạn], and I have been a member of the club for [thời gian tham gia]. During this time, I have had the opportunity to participate in a wide range of meaningful activities, which have greatly enriched my experience and personal development.
+My name is Kato, and I have been an active member of our club for [thời gian tham gia]. I am writing to share my views and put forward several constructive suggestions regarding [thông tin trong đề bài]. I firmly believe [nêu quan điểm về vấn đề đó].
 
-I am writing in response to your email to share my thoughts and offer several practical suggestions regarding [thông tin trong đề bài]. I think [nêu quan điểm về vấn đề đó].
+To help achieve the best outcome, I would like to make three practical proposals.
+First, [đề xuất thứ nhất].
+Second, [đề xuất thứ hai].
+Finally, [đề xuất thứ ba].
 
-To help make this initiative successful and beneficial for everyone, I would like to make a few suggestions. First, [đề xuất thứ nhất]. Second, [đề xuất thứ hai]. Finally, [đề xuất thứ ba]. Overall, I am confident that these suggestions would make a positive difference and help the club achieve its objectives.
+Thank you for your time and consideration. I look forward to hearing your response.
 
-Thank you for taking the time to consider my suggestions. I sincerely hope they will be taken into consideration, and I look forward to your response.
-
-Best regards,
-[Tên của bạn]`;
+Yours sincerely,
+Kato`;
 
   return (
     <div className="part-container" style={{ width: '100%', margin: '0 auto' }}>
@@ -1241,8 +1240,8 @@ Best regards,
                     </div>
                     <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.74rem', color: '#94a3b8', marginTop: '0.25rem' }}>
                       <span>0 từ</span>
-                      <span>Mục tiêu: 45 - 55 từ</span>
-                      <span>Tối đa: 65 từ</span>
+                      <span>Mục tiêu Aptis: 40 - 50 từ (chuẩn 48 - 52 từ)</span>
+                      <span>Tối đa: 60 từ</span>
                     </div>
                   </div>
 
