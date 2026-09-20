@@ -336,12 +336,10 @@ const Part4 = () => {
   const [showPromptAnalysis, setShowPromptAnalysis] = useState(false);
 
   const [showEmail1InstructionVi, setShowEmail1InstructionVi] = useState(false);
-  const [showEmail1Template, setShowEmail1Template] = useState(true);
-  const [showEmail1Sample, setShowEmail1Sample] = useState(false);
+  const [email1HelperTab, setEmail1HelperTab] = useState('template'); // 'template' | 'sample' | 'none'
 
   const [showEmail2InstructionVi, setShowEmail2InstructionVi] = useState(false);
-  const [showEmail2Template, setShowEmail2Template] = useState(true);
-  const [showEmail2Sample, setShowEmail2Sample] = useState(false);
+  const [email2HelperTab, setEmail2HelperTab] = useState('template'); // 'template' | 'sample' | 'none'
 
   // Copied toast state
   const [copiedKey, setCopiedKey] = useState(null);
@@ -971,26 +969,44 @@ Best regards,
                     )}
                   </div>
 
-                  {/* Action Buttons */}
-                  <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap' }}>
+                  {/* Action Tabs for Left Column */}
+                  <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap', alignItems: 'center' }}>
                     <button 
-                      className={`btn-translate ${showEmail1Template ? 'active' : ''}`}
-                      onClick={() => setShowEmail1Template(!showEmail1Template)}
-                      title="Xem gợi ý cấu trúc & từ vựng B2-C1"
+                      className={`btn-translate ${email1HelperTab === 'template' ? 'active' : ''}`}
+                      onClick={() => setEmail1HelperTab(email1HelperTab === 'template' ? 'none' : 'template')}
+                      title="Xem gợi ý cấu trúc & từ vựng B1-B2"
                     >
-                      {showEmail1Template ? 'Ẩn gợi ý cấu trúc' : '💡 Gợi ý cấu trúc & Từ vựng'}
+                      💡 Gợi ý cấu trúc & Từ vựng
                     </button>
                     <button 
-                      className={`btn-translate ${showEmail1Sample ? 'active' : ''}`}
-                      onClick={() => setShowEmail1Sample(!showEmail1Sample)}
-                      title="Xem bài mẫu chuẩn band B2-C1 và phân tích"
+                      className={`btn-translate ${email1HelperTab === 'sample' ? 'active' : ''}`}
+                      onClick={() => setEmail1HelperTab(email1HelperTab === 'sample' ? 'none' : 'sample')}
+                      title="Xem bài mẫu chuẩn band B1-B2 và phân tích"
                     >
-                      {showEmail1Sample ? 'Ẩn bài mẫu' : '📝 Bài mẫu chuẩn (B2-C1)'}
+                      📝 Bài mẫu chuẩn (B1-B2)
                     </button>
+                    {email1HelperTab !== 'none' && (
+                      <button
+                        type="button"
+                        onClick={() => setEmail1HelperTab('none')}
+                        style={{
+                          background: 'none',
+                          border: 'none',
+                          color: '#64748b',
+                          fontSize: '0.8rem',
+                          cursor: 'pointer',
+                          padding: '0.25rem 0.5rem',
+                          textDecoration: 'underline'
+                        }}
+                        title="Đóng phần gợi ý / bài mẫu"
+                      >
+                        Ẩn
+                      </button>
+                    )}
                   </div>
 
                   {/* Gợi ý cấu trúc & Từ vựng Box */}
-                  {showEmail1Template && (
+                  {email1HelperTab === 'template' && (
                     <div style={{ 
                       padding: '1rem 1.15rem', 
                       backgroundColor: '#f8fafc', 
@@ -1121,7 +1137,7 @@ Best regards,
                   )}
 
                   {/* Bài mẫu chuẩn Box */}
-                  {showEmail1Sample && clubData.email1.samples && clubData.email1.samples.length > 0 && (
+                  {email1HelperTab === 'sample' && clubData.email1.samples && clubData.email1.samples.length > 0 && (
                     <div style={{ 
                       padding: '1rem', 
                       backgroundColor: '#ffffff', 
@@ -1481,26 +1497,44 @@ Best regards,
                     )}
                   </div>
 
-                  {/* Action Buttons */}
-                  <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap' }}>
+                  {/* Action Tabs for Left Column */}
+                  <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap', alignItems: 'center' }}>
                     <button 
-                      className={`btn-translate ${showEmail2Template ? 'active' : ''}`}
-                      onClick={() => setShowEmail2Template(!showEmail2Template)}
+                      className={`btn-translate ${email2HelperTab === 'template' ? 'active' : ''}`}
+                      onClick={() => setEmail2HelperTab(email2HelperTab === 'template' ? 'none' : 'template')}
                       title="Xem gợi ý cấu trúc & 3 đề xuất thực tế B2-C1"
                     >
-                      {showEmail2Template ? 'Ẩn gợi ý cấu trúc' : '💡 Gợi ý cấu trúc & 3 Đề xuất'}
+                      💡 Gợi ý cấu trúc & 3 Đề xuất
                     </button>
                     <button 
-                      className={`btn-translate ${showEmail2Sample ? 'active' : ''}`}
-                      onClick={() => setShowEmail2Sample(!showEmail2Sample)}
+                      className={`btn-translate ${email2HelperTab === 'sample' ? 'active' : ''}`}
+                      onClick={() => setEmail2HelperTab(email2HelperTab === 'sample' ? 'none' : 'sample')}
                       title="Xem bài mẫu chuẩn band B2-C1 và phân tích"
                     >
-                      {showEmail2Sample ? 'Ẩn bài mẫu' : '📝 Bài mẫu chuẩn (B2-C1)'}
+                      📝 Bài mẫu chuẩn (B2-C1)
                     </button>
+                    {email2HelperTab !== 'none' && (
+                      <button
+                        type="button"
+                        onClick={() => setEmail2HelperTab('none')}
+                        style={{
+                          background: 'none',
+                          border: 'none',
+                          color: '#64748b',
+                          fontSize: '0.8rem',
+                          cursor: 'pointer',
+                          padding: '0.25rem 0.5rem',
+                          textDecoration: 'underline'
+                        }}
+                        title="Đóng phần gợi ý / bài mẫu"
+                      >
+                        Ẩn
+                      </button>
+                    )}
                   </div>
 
                   {/* Gợi ý cấu trúc & 3 Đề xuất Box */}
-                  {showEmail2Template && (
+                  {email2HelperTab === 'template' && (
                     <div style={{ 
                       padding: '1rem 1.15rem', 
                       backgroundColor: '#f8fafc', 
@@ -1670,7 +1704,7 @@ Best regards,
                   )}
 
                   {/* Bài mẫu chuẩn Box */}
-                  {showEmail2Sample && clubData.email2.samples && clubData.email2.samples.length > 0 && (
+                  {email2HelperTab === 'sample' && clubData.email2.samples && clubData.email2.samples.length > 0 && (
                     <div style={{ 
                       padding: '1rem', 
                       backgroundColor: '#ffffff', 
