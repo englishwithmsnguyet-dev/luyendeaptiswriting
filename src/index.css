@@ -174,9 +174,9 @@ body {
 /* Part 4: 2-column split layout */
 .part4-split-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   gap: 1.5rem;
-  align-items: start;
+  align-items: stretch;
 }
 
 @media (max-width: 960px) {

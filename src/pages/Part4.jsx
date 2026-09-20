@@ -451,7 +451,7 @@ Best regards,
       {activeTab === 'practice' && (
         <div>
           {/* Section 1: Official Club Notice */}
-          <div className="card" style={{ marginBottom: '1.5rem', borderLeft: '4px solid #2563eb' }}>
+          <div className="card" style={{ marginBottom: '1.5rem', borderLeft: '4px solid #2563eb', padding: '1.5rem' }}>
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.75rem', flexWrap: 'wrap', gap: '0.5rem' }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
                 <Mail size={20} color="#2563eb" />
@@ -701,9 +701,11 @@ Best regards,
                       padding: '1rem 1.15rem', 
                       backgroundColor: '#f8fafc', 
                       borderRadius: '8px',
+                      border: '1.5px solid #e2e8f0',
                       borderLeft: '4px solid #f59e0b',
                       fontSize: '0.92rem',
-                      lineHeight: '1.6'
+                      lineHeight: '1.6',
+                      boxSizing: 'border-box'
                     }}>
                       {/* Highlighted Template - KHÔNG TẠO KHUNG BẢNG LỒNG NHAU */}
                       <div style={{ marginBottom: '1.25rem' }}>
@@ -918,16 +920,16 @@ Best regards,
 
                 {/* CỘT PHẢI: KHUNG ĐÁNH ĐÁP ÁN */}
                 <div style={{ 
-                  position: 'sticky', 
-                  top: '1rem', 
                   backgroundColor: '#ffffff',
-                  border: '1.5px solid #cbd5e1',
-                  borderRadius: '10px',
-                  padding: '1.15rem',
-                  boxShadow: '0 2px 6px rgba(0,0,0,0.04)',
+                  border: '1.5px solid #e2e8f0',
+                  borderLeft: '4px solid #059669',
+                  borderRadius: '8px',
+                  padding: '1rem 1.15rem',
                   display: 'flex',
                   flexDirection: 'column',
-                  gap: '0.65rem'
+                  gap: '0.65rem',
+                  height: '100%',
+                  boxSizing: 'border-box'
                 }}>
                   {/* Editor Top Bar: Title & Word Count */}
                   <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '0.5rem' }}>
@@ -961,14 +963,14 @@ Best regards,
                     value={answers.email1}
                     onChange={(e) => handleAnswerChange('email1', e.target.value)}
                     placeholder="Viết email thân mật gửi bạn tại đây...&#10;(Ví dụ: Dear Kim,&#10;How's it going? I hope you're doing well.&#10;I thought you'd be interested to hear that...)"
-                    rows={11}
                     style={{
                       width: '100%',
-                      minHeight: '260px',
-                      padding: '0.9rem 1rem',
+                      flex: 1,
+                      minHeight: '280px',
+                      padding: '0.85rem 1rem',
                       fontSize: '0.98rem',
                       lineHeight: '1.65',
-                      borderRadius: '8px',
+                      borderRadius: '6px',
                       border: `2px solid ${isEmail1InRange ? '#10b981' : (email1Count > 0 ? '#fbbf24' : '#cbd5e1')}`,
                       outline: 'none',
                       fontFamily: 'inherit',
@@ -1090,10 +1092,12 @@ Best regards,
                     <div style={{ 
                       padding: '1rem 1.15rem', 
                       backgroundColor: '#f8fafc', 
-                      borderRadius: '8px',
+                      border: '1.5px solid #e2e8f0',
                       borderLeft: '4px solid #2563eb',
+                      borderRadius: '8px',
                       fontSize: '0.92rem',
-                      lineHeight: '1.6'
+                      lineHeight: '1.6',
+                      boxSizing: 'border-box'
                     }}>
                       {/* Highlighted Template - KHÔNG TẠO KHUNG BẢNG LỒNG NHAU */}
                       <div style={{ marginBottom: '1.25rem' }}>
@@ -1361,16 +1365,16 @@ Best regards,
 
                 {/* CỘT PHẢI: KHUNG ĐÁNH ĐÁP ÁN */}
                 <div style={{ 
-                  position: 'sticky', 
-                  top: '1rem', 
                   backgroundColor: '#ffffff',
-                  border: '1.5px solid #cbd5e1',
-                  borderRadius: '10px',
-                  padding: '1.15rem',
-                  boxShadow: '0 2px 6px rgba(0,0,0,0.04)',
+                  border: '1.5px solid #e2e8f0',
+                  borderLeft: '4px solid #2563eb',
+                  borderRadius: '8px',
+                  padding: '1rem 1.15rem',
                   display: 'flex',
                   flexDirection: 'column',
-                  gap: '0.65rem'
+                  gap: '0.65rem',
+                  height: '100%',
+                  boxSizing: 'border-box'
                 }}>
                   {/* Editor Top Bar: Title & Word Count */}
                   <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '0.5rem' }}>
@@ -1427,11 +1431,12 @@ Best regards,
                     rows={16}
                     style={{
                       width: '100%',
+                      flex: 1,
                       minHeight: '380px',
                       padding: '0.9rem 1rem',
                       fontSize: '0.98rem',
                       lineHeight: '1.65',
-                      borderRadius: '8px',
+                      borderRadius: '6px',
                       border: `2px solid ${isEmail2InRange ? '#2563eb' : (email2Count > 0 ? '#fbbf24' : '#cbd5e1')}`,
                       outline: 'none',
                       fontFamily: 'inherit',
