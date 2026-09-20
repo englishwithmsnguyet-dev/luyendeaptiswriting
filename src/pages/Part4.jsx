@@ -43,43 +43,29 @@ export const renderHighlightedText = (text) => {
   });
 };
 
-// Grouping 19 clubs into logical sets for optgroup
-export const clubGroups = [
-  {
-    group: "📘 BỘ 1: LUYỆN ĐỀ APTIS (11 ĐỀ)",
-    clubs: [
-      { id: "Film club", name: "1. Film Club (Nhà phê bình phim & Thu hút người dự)" },
-      { id: "Car club", name: "2. Car Club (Chuyến đi Châu Âu & Cử 2 đại diện)" },
-      { id: "Garden club 2", name: "3. Garden Club (Trồng 50 cây ở công viên vs Dạy kỹ năng làm vườn)" },
-      { id: "Community club", name: "4. Community Club (Tuyển thành viên & Ý tưởng hoạt động)" },
-      { id: "Music club", name: "5. Music Club (Khiếu nại tiếng ồn từ các buổi hòa nhạc)" },
-      { id: "English club 1", name: "6.1 English Club (Talk Show bị hủy do khách mời bận)" },
-      { id: "English club 2", name: "6.2 English Club (Tài trợ Talk Show về lợi ích tiếng Anh)" },
-      { id: "Book club 1", name: "7.1 Book Club (Mời tác giả nổi tiếng & Thu hút mọi lứa tuổi)" },
-      { id: "Book club 2", name: "7.2 Book Club (Đóng cửa thư viện vì xu hướng đọc online)" },
-      { id: "Living home club", name: "8. Living Home Club (Lời khuyên cho người trẻ mua nhà sớm)" },
-      { id: "Social club 2", name: "9. Social Club (Địa điểm họp mặt & Trong nhà vs Ngoài trời)" }
-    ]
-  },
-  {
-    group: "📙 BỘ 2: CÂU HỎI ÔN TẬP (6 ĐỀ)",
-    clubs: [
-      { id: "Art club", name: "Art Club (Mời họa sĩ nói chuyện trước công chúng)" },
-      { id: "Food club", name: "Food Club (Tình nguyện làm diễn giả cùng đầu bếp nổi tiếng)" },
-      { id: "Social club", name: "Social Club (Gặp mặt trực tiếp hàng tháng cho mọi lứa tuổi)" },
-      { id: "Beautiful homes club", name: "Beautiful Homes Club (Phá dỡ công trình cũ xây chung cư)" },
-      { id: "Garden club", name: "Garden Club (Hủy nói chuyện Vườn Nhật, thay bằng Vườn Anh)" },
-      { id: "Sports club", name: "Sports Club (Tổ chức thi đấu thể thao cho thành viên trẻ)" }
-    ]
-  },
-  {
-    group: "📗 BỘ 3: ĐỀ MẪU GIÁO TRÌNH (2 ĐỀ)",
-    clubs: [
-      { id: "Walking club", name: "Walking Club (Sự kiện đi bộ hàng tháng - Đề chuẩn Cô Nguyệt)" },
-      { id: "Fitness club", name: "Fitness Club (Nâng cấp thiết bị tập & Tăng phí hội viên 15%)" }
-    ]
-  }
+// Flat list of 19 Part 4 clubs
+export const clubList = [
+  { id: "Walking club", name: "Walking Club (Sự kiện đi bộ hàng tháng)" },
+  { id: "Fitness club", name: "Fitness Club (Nâng cấp thiết bị tập & Tăng phí hội viên)" },
+  { id: "Film club", name: "Film Club (Nhà phê bình phim & Thu hút người dự)" },
+  { id: "Car club", name: "Car Club (Chuyến đi Châu Âu & Cử 2 đại diện)" },
+  { id: "Garden club", name: "Garden Club 1 (Hủy nói chuyện Vườn Nhật, thay bằng Vườn Anh)" },
+  { id: "Garden club 2", name: "Garden Club 2 (Trồng 50 cây ở công viên & Dạy kỹ năng làm vườn)" },
+  { id: "Community club", name: "Community Club (Tuyển thành viên & Ý tưởng hoạt động)" },
+  { id: "Music club", name: "Music Club (Khiếu nại tiếng ồn từ các buổi hòa nhạc)" },
+  { id: "English club 1", name: "English Club 1 (Talk Show bị hủy do khách mời bận)" },
+  { id: "English club 2", name: "English Club 2 (Tài trợ Talk Show về lợi ích tiếng Anh)" },
+  { id: "Book club 1", name: "Book Club 1 (Mời tác giả nổi tiếng & Thu hút mọi lứa tuổi)" },
+  { id: "Book club 2", name: "Book Club 2 (Đóng cửa thư viện vì xu hướng đọc online)" },
+  { id: "Living home club", name: "Living Home Club (Lời khuyên cho người trẻ mua nhà sớm)" },
+  { id: "Social club", name: "Social Club 1 (Gặp mặt trực tiếp hàng tháng cho mọi lứa tuổi)" },
+  { id: "Social club 2", name: "Social Club 2 (Địa điểm họp mặt & Trong nhà vs Ngoài trời)" },
+  { id: "Art club", name: "Art Club (Mời họa sĩ nói chuyện trước công chúng)" },
+  { id: "Food club", name: "Food Club (Tình nguyện làm diễn giả cùng đầu bếp nổi tiếng)" },
+  { id: "Beautiful homes club", name: "Beautiful Homes Club (Phá dỡ công trình cũ xây chung cư)" },
+  { id: "Sports club", name: "Sports Club (Tổ chức thi đấu thể thao cho thành viên trẻ)" }
 ];
+
 
 const Part4 = () => {
   const [selectedClub, setSelectedClub] = useState('Walking club');
@@ -344,14 +330,10 @@ const Part4 = () => {
                 boxShadow: '0 1px 3px rgba(0,0,0,0.05)'
               }}
             >
-              {clubGroups.map((grp, gIdx) => (
-                <optgroup key={gIdx} label={grp.group}>
-                  {grp.clubs.map(c => (
-                    <option key={c.id} value={c.id}>
-                      {completedClubs.includes(c.id) ? `✅ ${c.name}` : c.name}
-                    </option>
-                  ))}
-                </optgroup>
+              {clubList.map(c => (
+                <option key={c.id} value={c.id}>
+                  {completedClubs.includes(c.id) ? `✅ ${c.name}` : c.name}
+                </option>
               ))}
             </select>
             <ChevronDown 
