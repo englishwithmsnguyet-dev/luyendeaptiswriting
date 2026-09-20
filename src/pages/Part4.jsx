@@ -13,7 +13,8 @@ import PracticeActionBar from '../components/PracticeActionBar';
 import { 
   ChevronDown, Mail, User, ShieldCheck, BookOpen, 
   Sparkles, Copy, Check, AlertTriangle, HelpCircle, Columns, 
-  CheckCircle2, Volume2, Award, Info, FileText
+  CheckCircle2, Award, Info, FileText,
+  Save, Send, CheckCircle, AlertCircle, XCircle, RotateCcw
 } from 'lucide-react';
 import { exportToWord } from '../utils/exportToWord';
 
@@ -42,6 +43,253 @@ export const renderHighlightedText = (text) => {
     }
     return <span key={idx}>{part}</span>;
   });
+};
+
+// Comprehensive Grading & Error Detection Engine for Aptis Part 4
+export const gradeEmail = async (taskKey, rawText, clubData) => {
+  const text = (rawText || '').trim();
+  const wordCount = text ? text.split(/\s+/).filter(Boolean).length : 0;
+
+  if (!text || wordCount === 0) {
+    return {
+      score: 0,
+      band: 'Chưa có bài',
+      status: 'error',
+      wordCount: 0,
+      wordFeedback: 'Bạn chưa nhập nội dung bài làm.',
+      registerFeedback: '',
+      issues: [{ type: 'format', message: 'Vui lòng viết bài trước khi bấm nộp bài và chấm điểm.' }],
+      summary: 'Bài làm đang để trống.'
+    };
+  }
+
+  const isEmail1 = taskKey === 'email1';
+  let score = 5.0;
+  let wordCountPenalty = 0;
+  let wordFeedback = '';
+  let registerFeedback = '';
+  const issues = [];
+
+  // 1. Word Count Evaluation
+  if (isEmail1) {
+    if (wordCount < 35) {
+      wordCountPenalty = 2.0;
+      wordFeedback = `Độ dài quá ngắn (${wordCount} từ). Mục tiêu chuẩn là 45-55 từ (tối thiểu 40 từ).`;
+    } else if (wordCount < 45) {
+      wordCountPenalty = 0.5;
+      wordFeedback = `Độ dài hơi ngắn (${wordCount} từ). Bạn nên viết thêm 1-2 câu để đạt khoảng 45-55 từ.`;
+    } else if (wordCount > 65) {
+      wordCountPenalty = 0.5;
+      wordFeedback = `Độ dài hơi dài (${wordCount} từ). Tránh viết quá 65 từ để giữ bài gọn gàng và không mất thời gian.`;
+    } else {
+      wordFeedback = `Độ dài hoàn hảo (${wordCount} từ, đạt chuẩn 45-55 từ).`;
+    }
+  } else {
+    if (wordCount < 95) {
+      wordCountPenalty = 2.0;
+      wordFeedback = `Độ dài quá ngắn (${wordCount} từ). Thư trang trọng Part 4 yêu cầu 120-150 từ.`;
+    } else if (wordCount < 120) {
+      wordCountPenalty = 0.5;
+      wordFeedback = `Độ dài hơi ngắn (${wordCount} từ). Nên bổ sung giải thích hoặc đề xuất cụ thể để đạt 120-150 từ.`;
+    } else if (wordCount > 165) {
+      wordCountPenalty = 0.5;
+      wordFeedback = `Độ dài hơi dài (${wordCount} từ). Nên giữ trong khoảng 120-165 từ để kiểm soát độ súc tích.`;
+    } else {
+      wordFeedback = `Độ dài xuất sắc (${wordCount} từ, chuẩn band B2-C1: 120-150 từ).`;
+    }
+  }
+
+  // 2. Register & Tone Evaluation
+  if (isEmail1) {
+    const hasGreeting = /(dear\s+[a-z]+|hi\s+[a-z]+|hello\s+[a-z]+|hey\s+[a-z]+)/i.test(text);
+    if (!hasGreeting) {
+      issues.push({
+        type: 'register',
+        message: 'Thiếu lời chào thân mật ở đầu thư.',
+        suggestion: 'Mở đầu bằng: "Dear Kim," hoặc "Hi Sam,"'
+      });
+      score -= 0.5;
+    }
+
+    const hasSignOff = /(take care|best regards|best|warmly|see you|cheers|yours|love)\b/i.test(text);
+    if (!hasSignOff) {
+      issues.push({
+        type: 'register',
+        message: 'Thiếu lời kết thư thân mật ở cuối bài.',
+        suggestion: 'Kết thúc bằng: "Take care," hoặc "Hope to hear from you soon. Best,"'
+      });
+      score -= 0.5;
+    }
+
+    registerFeedback = 'Văn phong thân mật (Informal) gửi bạn bè: Chia sẻ cảm xúc cá nhân và rủ bạn cùng tham gia.';
+  } else {
+    // Contractions check for Formal Email
+    const contractionsRegex = /\b([a-z]+'t|i'm|you're|he's|she's|it's|we're|they're|i've|you've|we've|they've|i'll|you'll|he'll|she'll|we'll|they'll|i'd|you'd|he'd|she'd|we'd|they'd)\b/gi;
+    const matches = text.match(contractionsRegex) || [];
+    const uniqueContractions = [...new Set(matches.map(m => m.toLowerCase()))];
+    
+    if (uniqueContractions.length > 0) {
+      const penalty = Math.min(1.5, uniqueContractions.length * 0.5);
+      score -= penalty;
+      issues.push({
+        type: 'register',
+        message: `Thư trang trọng dùng từ viết tắt: "${uniqueContractions.join(', ')}". Trong thư gửi Quản lý CLB (Formal B2-C1), tuyệt đối không được viết tắt!`,
+        suggestion: `Hãy đổi sang dạng viết đầy đủ (Ví dụ: "do not", "cannot", "I am", "it is", "I would",...).`
+      });
+      registerFeedback = `⚠️ Phát hiện ${uniqueContractions.length} từ viết tắt cần đổi sang dạng đầy đủ.`;
+    } else {
+      registerFeedback = '✅ Văn phong trang trọng chuẩn B2-C1 (không dùng từ viết tắt, cấu trúc lịch sự).';
+    }
+
+    const hasFormalGreeting = /(dear\s+(club\s+manager|manager|sir|madam|mr|ms|mrs|committee))/i.test(text);
+    if (!hasFormalGreeting) {
+      issues.push({
+        type: 'register',
+        message: 'Thiếu lời chào trang trọng gửi ban quản lý ở đầu thư.',
+        suggestion: 'Mở đầu bằng: "Dear Club Manager," hoặc "Dear Sir/Madam,"'
+      });
+      score -= 0.5;
+    }
+
+    const hasFormalSignOff = /(best regards|sincerely|yours sincerely|yours faithfully|warm regards)/i.test(text);
+    if (!hasFormalSignOff) {
+      issues.push({
+        type: 'register',
+        message: 'Thiếu lời kết thư trang trọng ở cuối thư.',
+        suggestion: 'Kết thúc bằng: "Best regards," hoặc "Yours sincerely,"'
+      });
+      score -= 0.5;
+    }
+  }
+
+  // 3. Rule-based Grammar & Vocabulary Checks
+  if (/\b(it|this|that|he|she)\s+(really\s+|always\s+|usually\s+|often\s+|sometimes\s+|never\s+)?(help|allow|make|give|take|improve|boost|widen|expand|create|think|want|need)\b/i.test(text)) {
+    issues.push({
+      type: 'grammar',
+      message: 'Lỗi chia động từ số ít: Sau he/she/it/this/that cần thêm "s" hoặc "es".',
+      suggestion: 'Ví dụ: "it helps", "this allows", "she thinks"'
+    });
+    score -= 0.5;
+  }
+
+  if (/\b(can|could|will|would|should|must)\s+(to)\b/i.test(text)) {
+    issues.push({
+      type: 'grammar',
+      message: 'Không dùng "to" sau động từ khuyết thiếu (can, could, will, would, should, must).',
+      suggestion: 'Sửa thành: "can do", "would make" (thay vì "can to do")'
+    });
+    score -= 0.5;
+  }
+
+  if (/\b(want|decide|need|hope)\s+(really\s+|always\s+)?(play|go|join|learn|improve|make|do|take|have|build|boost|expand)\b/i.test(text)) {
+    issues.push({
+      type: 'grammar',
+      message: 'Cần thêm "to" giữa 2 động từ thường liền nhau (want to V, decide to V).',
+      suggestion: 'Ví dụ: "want to join", "hope to hear"'
+    });
+    score -= 0.5;
+  }
+
+  if (/\bam\s+(really\s+|very\s+)?agree\b/i.test(text)) {
+    issues.push({
+      type: 'grammar',
+      message: 'Không dùng "am agree" vì "agree" là động từ thường.',
+      suggestion: 'Sửa thành: "I agree" hoặc "I completely agree"'
+    });
+    score -= 0.5;
+  }
+
+  if (/\bvery\s+(like|love|enjoy|hate)\b/i.test(text)) {
+    issues.push({
+      type: 'grammar',
+      message: 'Không dùng "very" trực tiếp trước động từ (very like).',
+      suggestion: 'Nên dùng: "really like" hoặc "like ... very much"'
+    });
+    score -= 0.5;
+  }
+
+  // 4. LanguageTool API Check
+  try {
+    const response = await fetch('https://api.languagetoolplus.com/v2/check', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/x-www-form-urlencoded',
+        'Accept': 'application/json'
+      },
+      body: new URLSearchParams({
+        text: text,
+        language: 'en-US'
+      })
+    });
+
+    if (response.ok) {
+      const data = await response.json();
+      if (data.matches && data.matches.length > 0) {
+        data.matches.slice(0, 5).forEach(match => {
+          let msg = match.message;
+          const contextSnippet = match.context?.text || '';
+          const suggestion = match.replacements && match.replacements.length > 0 
+            ? match.replacements.slice(0, 3).map(r => r.value).join(', ') 
+            : null;
+
+          msg = msg.replace('Possible spelling mistake found.', 'Có thể bị lỗi chính tả')
+                   .replace('Possible typo', 'Lỗi đánh máy')
+                   .replace('This sentence does not start with an uppercase letter', 'Đầu câu chưa viết hoa chữ cái đầu');
+
+          issues.push({
+            type: match.rule?.issueType === 'misspelling' ? 'spelling' : 'grammar',
+            message: `${msg}${contextSnippet ? ` (ngữ cảnh: "...${contextSnippet}...")` : ''}`,
+            suggestion: suggestion ? `Gợi ý thay thế: "${suggestion}"` : undefined
+          });
+          score -= 0.5;
+        });
+      }
+    }
+  } catch (err) {
+    console.warn("LanguageTool offline or unavailable, continuing with rule checks:", err);
+  }
+
+  score -= wordCountPenalty;
+  if (score < 1.0) score = 1.0;
+  score = Math.round(score * 10) / 10;
+
+  let band = 'Band B2';
+  let status = 'success';
+
+  if (isEmail1) {
+    if (score >= 4.5) band = 'Band B2 (Xuất sắc)';
+    else if (score >= 3.5) band = 'Band B1 (Đạt chuẩn)';
+    else band = 'Band A2 (Cần luyện thêm)';
+  } else {
+    if (score >= 4.5) band = 'Band C1 (Xuất sắc)';
+    else if (score >= 3.5) band = 'Band B2 (Đạt chuẩn)';
+    else if (score >= 2.5) band = 'Band B1 (Khá)';
+    else band = 'Band A2 (Cần cải thiện)';
+  }
+
+  if (score >= 4.0) status = 'success';
+  else if (score >= 2.5) status = 'warning';
+  else status = 'error';
+
+  let summary = '';
+  if (issues.length === 0 && wordCountPenalty === 0) {
+    summary = isEmail1 
+      ? 'Bài làm xuất sắc! Đúng chuẩn số từ, văn phong thân mật tự nhiên và ngữ pháp chính xác.'
+      : 'Bài làm xuất sắc! Đúng chuẩn số từ, văn phong trang trọng B2-C1, lập luận chặt chẽ và không phát hiện lỗi ngữ pháp.';
+  } else {
+    summary = `Hệ thống ghi nhận bài làm của bạn đạt ${score}/5 điểm (${band}). Bạn hãy xem chi tiết các góp ý và sửa lỗi bên dưới để hoàn thiện bài.`;
+  }
+
+  return {
+    score,
+    band,
+    status,
+    wordCount,
+    wordFeedback,
+    registerFeedback,
+    issues,
+    summary
+  };
 };
 
 // Flat list of 19 Part 4 clubs
@@ -98,32 +346,9 @@ const Part4 = () => {
   // Copied toast state
   const [copiedKey, setCopiedKey] = useState(null);
 
-  // Audio pronunciation like Part 3
-  const playAudio = (word) => {
-    if (window.speechSynthesis) {
-      window.speechSynthesis.cancel();
-      const utterance = new SpeechSynthesisUtterance(word);
-      utterance.lang = 'en-US';
-      utterance.rate = 0.85;
-      utterance.pitch = 1.05;
-      
-      const voices = window.speechSynthesis.getVoices();
-      const preferredVoices = voices.filter(voice => 
-        (voice.name.includes('Google') || voice.name.includes('Premium') || voice.name.includes('Natural')) && 
-        voice.lang.startsWith('en')
-      );
-      
-      if (preferredVoices.length > 0) {
-        const bestVoice = preferredVoices.find(v => v.name.includes('Female') || v.name.includes('US')) || preferredVoices[0];
-        utterance.voice = bestVoice;
-      } else {
-        const fallback = voices.find(v => v.lang.startsWith('en') && (v.name === 'Samantha' || v.name === 'Alex' || v.name === 'Daniel'));
-        if (fallback) utterance.voice = fallback;
-      }
-
-      window.speechSynthesis.speak(utterance);
-    }
-  };
+  // Detailed Grading & Correction State for Part 4
+  const [gradingResults, setGradingResults] = useState({ email1: null, email2: null });
+  const [isGrading, setIsGrading] = useState({ email1: false, email2: false });
 
   const showToast = (text, type = 'success') => {
     setToastMessage({ text, type });
@@ -142,7 +367,7 @@ const Part4 = () => {
     return () => window.removeEventListener('progressUpdate', loadCompleted);
   }, []);
 
-  // When selected club changes, load saved answers
+  // When selected club changes, load saved answers and grades
   useEffect(() => {
     const data = part4Data[selectedClub];
     if (data) {
@@ -162,6 +387,17 @@ const Part4 = () => {
     } else {
       setAnswers({ email1: '', email2: '' });
     }
+
+    const savedGrades = localStorage.getItem(`aptis_p4_grades_${selectedClub}`);
+    if (savedGrades) {
+      try {
+        setGradingResults(JSON.parse(savedGrades));
+      } catch {
+        setGradingResults({ email1: null, email2: null });
+      }
+    } else {
+      setGradingResults({ email1: null, email2: null });
+    }
   }, [selectedClub]);
 
   const getWordCount = (text) => {
@@ -179,6 +415,54 @@ const Part4 = () => {
     } else {
       localStorage.removeItem(`aptis_p4_answers_${selectedClub}`);
     }
+  };
+
+  // Student proactively clicks Save for a single email
+  const handleSaveEmail = (emailKey) => {
+    const updated = { ...answers };
+    localStorage.setItem(`aptis_p4_answers_${selectedClub}`, JSON.stringify(updated));
+    const time = saveClubHistory(4, selectedClub, updated);
+    setLastSavedTime(time);
+    showToast(`Đã lưu bài làm ${emailKey === 'email1' ? 'Email 1 (Gửi bạn)' : 'Email 2 (Gửi Quản lý)'} thành công! (${time || 'Vừa xong'})`, 'success');
+  };
+
+  // Submit and grade a single email with detailed correction
+  const handleGradeEmail = async (emailKey) => {
+    setIsGrading(prev => ({ ...prev, [emailKey]: true }));
+    try {
+      const res = await gradeEmail(emailKey, answers[emailKey], clubData);
+      setGradingResults(prev => {
+        const updated = { ...prev, [emailKey]: res };
+        localStorage.setItem(`aptis_p4_grades_${selectedClub}`, JSON.stringify(updated));
+        return updated;
+      });
+
+      const count1 = getWordCount(answers.email1);
+      const count2 = getWordCount(answers.email2);
+      if (count1 >= 40 && count2 >= 100) {
+        const completed = getSafeJSON('aptis_p4_completed', []);
+        if (!completed.includes(selectedClub)) {
+          completed.push(selectedClub);
+          localStorage.setItem('aptis_p4_completed', JSON.stringify(completed));
+          window.dispatchEvent(new Event('progressUpdate'));
+        }
+      }
+
+      showToast(`Đã chấm ${emailKey === 'email1' ? 'Email 1' : 'Email 2'}: ${res.score}/5 điểm (${res.band})!`, res.status === 'error' ? 'warning' : 'success');
+    } catch (err) {
+      console.error("Grading error:", err);
+      showToast('Có lỗi xảy ra khi chấm bài. Vui lòng thử lại!', 'warning');
+    } finally {
+      setIsGrading(prev => ({ ...prev, [emailKey]: false }));
+    }
+  };
+
+  const handleResetEmailGrade = (emailKey) => {
+    setGradingResults(prev => {
+      const updated = { ...prev, [emailKey]: null };
+      localStorage.setItem(`aptis_p4_grades_${selectedClub}`, JSON.stringify(updated));
+      return updated;
+    });
   };
 
   // Student proactively clicks Save
@@ -205,6 +489,8 @@ const Part4 = () => {
   const handleClearCurrentClub = () => {
     clearClubHistory(4, selectedClub);
     setAnswers({ email1: '', email2: '' });
+    setGradingResults({ email1: null, email2: null });
+    localStorage.removeItem(`aptis_p4_grades_${selectedClub}`);
     setLastSavedTime(null);
     showToast(`Đã xoá bài làm của "${clubData.title}". Bạn có thể làm lại từ đầu!`, 'warning');
   };
@@ -613,7 +899,7 @@ Best regards,
             </div>
 
             <div style={{ fontSize: '0.84rem', color: '#64748b' }}>
-              💡 Mẹo: Bấm <strong>"Gợi ý cấu trúc"</strong> để xem khung sườn mẫu & từ vựng có loa phát âm 🔊
+              💡 Mẹo: Bấm <strong>"Gợi ý cấu trúc"</strong> để xem khung sườn mẫu & từ vựng gợi ý theo đề bài
             </div>
           </div>
 
@@ -756,34 +1042,14 @@ Best regards,
                                 backgroundColor: '#ffffff',
                                 border: '1px solid #cbd5e1',
                                 borderRadius: '6px',
-                                overflow: 'hidden',
+                                padding: '0.35rem 0.65rem',
                                 boxShadow: '0 1px 2px rgba(0,0,0,0.03)'
                               }}
                             >
-                              <button 
-                                type="button"
-                                onClick={() => playAudio(activeClubHints.e1Topic.en)}
-                                style={{ 
-                                  background: 'rgba(217, 119, 6, 0.1)', 
-                                  border: 'none', 
-                                  borderRight: '1px solid #e2e8f0',
-                                  cursor: 'pointer', 
-                                  padding: '0.3rem 0.5rem', 
-                                  fontSize: '0.82rem',
-                                  display: 'flex', 
-                                  alignItems: 'center', 
-                                  justifyContent: 'center'
-                                }}
-                                title={`Nghe phát âm: ${activeClubHints.e1Topic.en}`}
-                              >
-                                🔊
-                              </button>
-                              <div style={{ padding: '0.35rem 0.65rem', fontSize: '0.86rem' }}>
-                                <span className="p4-en-hint" style={{ fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif", fontWeight: 800, color: '#0f172a' }}>
-                                  {activeClubHints.e1Topic.en}
-                                </span>{' '}
-                                <span style={{ color: '#64748b', fontWeight: 400 }}>({activeClubHints.e1Topic.vi})</span>
-                              </div>
+                              <span className="p4-en-hint" style={{ fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif", fontWeight: 800, color: '#0f172a' }}>
+                                {activeClubHints.e1Topic.en}
+                              </span>{' '}
+                              <span style={{ color: '#64748b', fontWeight: 400, marginLeft: '0.35rem' }}>({activeClubHints.e1Topic.vi})</span>
                             </div>
                           </div>
                         </div>
@@ -803,34 +1069,14 @@ Best regards,
                                   backgroundColor: '#ffffff',
                                   border: '1px solid #cbd5e1',
                                   borderRadius: '6px',
-                                  overflow: 'hidden',
+                                  padding: '0.35rem 0.65rem',
                                   boxShadow: '0 1px 2px rgba(0,0,0,0.03)'
                                 }}
                               >
-                                <button 
-                                  type="button"
-                                  onClick={() => playAudio(item.en)}
-                                  style={{ 
-                                    background: 'rgba(217, 119, 6, 0.1)', 
-                                    border: 'none', 
-                                    borderRight: '1px solid #e2e8f0',
-                                    cursor: 'pointer', 
-                                    padding: '0.3rem 0.5rem', 
-                                    fontSize: '0.82rem',
-                                    display: 'flex', 
-                                    alignItems: 'center', 
-                                    justifyContent: 'center'
-                                  }}
-                                  title={`Nghe phát âm: ${item.en}`}
-                                >
-                                  🔊
-                                </button>
-                                <div style={{ padding: '0.35rem 0.65rem', fontSize: '0.86rem' }}>
-                                  <span className="p4-en-hint" style={{ fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif", fontWeight: 800, color: '#0f172a' }}>
-                                    {item.en}
-                                  </span>{' '}
-                                  <span style={{ color: '#64748b', fontWeight: 400 }}>({item.vi})</span>
-                                </div>
+                                <span className="p4-en-hint" style={{ fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif", fontWeight: 800, color: '#0f172a' }}>
+                                  {item.en}
+                                </span>{' '}
+                                <span style={{ color: '#64748b', fontWeight: 400, marginLeft: '0.35rem' }}>({item.vi})</span>
                               </div>
                             ))}
                           </div>
@@ -856,34 +1102,14 @@ Best regards,
                                       backgroundColor: '#ffffff',
                                       border: '1px solid #cbd5e1',
                                       borderRadius: '6px',
-                                      overflow: 'hidden',
+                                      padding: '0.35rem 0.65rem',
                                       boxShadow: '0 1px 2px rgba(0,0,0,0.03)'
                                     }}
                                   >
-                                    <button 
-                                      type="button"
-                                      onClick={() => playAudio(item.en)}
-                                      style={{ 
-                                        background: 'rgba(217, 119, 6, 0.1)', 
-                                        border: 'none', 
-                                        borderRight: '1px solid #e2e8f0',
-                                        cursor: 'pointer', 
-                                        padding: '0.3rem 0.5rem', 
-                                        fontSize: '0.82rem',
-                                        display: 'flex', 
-                                        alignItems: 'center', 
-                                        justifyContent: 'center'
-                                      }}
-                                      title={`Nghe phát âm: ${item.en}`}
-                                    >
-                                      🔊
-                                    </button>
-                                    <div style={{ padding: '0.35rem 0.65rem', fontSize: '0.86rem' }}>
-                                      <span className="p4-en-hint" style={{ fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif", fontWeight: 800, color: '#0f172a' }}>
-                                        {item.en}
-                                      </span>{' '}
-                                      {item.vi && <span style={{ color: '#64748b', fontWeight: 400 }}>({item.vi})</span>}
-                                    </div>
+                                    <span className="p4-en-hint" style={{ fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif", fontWeight: 800, color: '#0f172a' }}>
+                                      {item.en}
+                                    </span>{' '}
+                                    {item.vi && <span style={{ color: '#64748b', fontWeight: 400, marginLeft: '0.35rem' }}>({item.vi})</span>}
                                   </div>
                                 ))}
                               </div>
@@ -1015,6 +1241,160 @@ Best regards,
                       <span>Tối đa: 65 từ</span>
                     </div>
                   </div>
+
+                  {/* Action Buttons: LƯU BÀI & NỘP BÀI / CHẤM ĐIỂM */}
+                  <div style={{ display: 'flex', gap: '0.6rem', marginTop: '0.5rem', flexWrap: 'wrap' }}>
+                    <button
+                      type="button"
+                      onClick={() => handleSaveEmail('email1')}
+                      style={{
+                        flex: 1,
+                        display: 'inline-flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        gap: '0.4rem',
+                        backgroundColor: '#f1f5f9',
+                        color: '#0f172a',
+                        border: '1px solid #cbd5e1',
+                        padding: '0.55rem 0.9rem',
+                        borderRadius: '6px',
+                        fontSize: '0.86rem',
+                        fontWeight: 700,
+                        cursor: 'pointer',
+                        transition: 'all 0.2s'
+                      }}
+                    >
+                      <Save size={16} color="#059669" />
+                      Lưu bài
+                    </button>
+
+                    <button
+                      type="button"
+                      onClick={() => handleGradeEmail('email1')}
+                      disabled={isGrading.email1}
+                      style={{
+                        flex: 2,
+                        display: 'inline-flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        gap: '0.4rem',
+                        backgroundColor: '#059669',
+                        color: '#ffffff',
+                        border: 'none',
+                        padding: '0.55rem 0.9rem',
+                        borderRadius: '6px',
+                        fontSize: '0.86rem',
+                        fontWeight: 700,
+                        cursor: isGrading.email1 ? 'not-allowed' : 'pointer',
+                        opacity: isGrading.email1 ? 0.75 : 1,
+                        transition: 'all 0.2s',
+                        boxShadow: '0 2px 4px rgba(5, 150, 105, 0.2)'
+                      }}
+                    >
+                      <Send size={16} />
+                      {isGrading.email1 ? 'Đang chấm bài...' : (gradingResults.email1 ? 'Chấm lại' : 'Nộp bài & Chấm điểm')}
+                    </button>
+
+                    {gradingResults.email1 && (
+                      <button
+                        type="button"
+                        onClick={() => handleResetEmailGrade('email1')}
+                        title="Xóa kết quả chấm và làm lại"
+                        style={{
+                          display: 'inline-flex',
+                          alignItems: 'center',
+                          justifyContent: 'center',
+                          gap: '0.3rem',
+                          backgroundColor: '#ffffff',
+                          color: '#64748b',
+                          border: '1px solid #cbd5e1',
+                          padding: '0.55rem 0.75rem',
+                          borderRadius: '6px',
+                          fontSize: '0.82rem',
+                          fontWeight: 600,
+                          cursor: 'pointer'
+                        }}
+                      >
+                        <RotateCcw size={14} />
+                        Làm lại
+                      </button>
+                    )}
+                  </div>
+
+                  {/* DETAILED GRADING & CORRECTION FEEDBACK CARD */}
+                  {gradingResults.email1 && (
+                    <div style={{
+                      backgroundColor: gradingResults.email1.status === 'success' ? '#f0fdf4' : (gradingResults.email1.status === 'warning' ? '#fffbeb' : '#fef2f2'),
+                      border: `1.5px solid ${gradingResults.email1.status === 'success' ? '#86efac' : (gradingResults.email1.status === 'warning' ? '#fde68a' : '#fecaca')}`,
+                      borderRadius: '8px',
+                      padding: '0.95rem 1rem',
+                      marginTop: '0.4rem',
+                      display: 'flex',
+                      flexDirection: 'column',
+                      gap: '0.6rem',
+                      fontSize: '0.88rem',
+                      lineHeight: '1.55'
+                    }}>
+                      {/* Score & Band Header */}
+                      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '0.4rem', borderBottom: '1px solid rgba(0,0,0,0.08)', paddingBottom: '0.45rem' }}>
+                        <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
+                          {gradingResults.email1.status === 'success' && <CheckCircle size={18} color="#16a34a" />}
+                          {gradingResults.email1.status === 'warning' && <AlertCircle size={18} color="#d97706" />}
+                          {gradingResults.email1.status === 'error' && <XCircle size={18} color="#dc2626" />}
+                          <strong style={{ fontSize: '1rem', color: gradingResults.email1.status === 'success' ? '#166534' : (gradingResults.email1.status === 'warning' ? '#92400e' : '#991b1b') }}>
+                            Điểm số: {gradingResults.email1.score} / 5
+                          </strong>
+                        </div>
+                        <span style={{ 
+                          backgroundColor: '#ffffff', 
+                          padding: '0.2rem 0.6rem', 
+                          borderRadius: '12px', 
+                          fontSize: '0.78rem', 
+                          fontWeight: 700, 
+                          border: '1px solid rgba(0,0,0,0.1)',
+                          color: '#0f172a' 
+                        }}>
+                          🏆 {gradingResults.email1.band}
+                        </span>
+                      </div>
+
+                      {/* Summary */}
+                      <div style={{ fontWeight: 600, color: '#334155' }}>
+                        {gradingResults.email1.summary}
+                      </div>
+
+                      {/* Rubric Breakdown */}
+                      <div style={{ display: 'flex', flexDirection: 'column', gap: '0.35rem', backgroundColor: '#ffffff', padding: '0.55rem 0.75rem', borderRadius: '6px', border: '1px solid rgba(0,0,0,0.06)' }}>
+                        <div>
+                          <strong>📏 Số từ:</strong> {gradingResults.email1.wordFeedback}
+                        </div>
+                        <div>
+                          <strong>👔 Văn phong:</strong> {gradingResults.email1.registerFeedback}
+                        </div>
+                      </div>
+
+                      {/* Detailed Issues List */}
+                      {gradingResults.email1.issues && gradingResults.email1.issues.length > 0 && (
+                        <div>
+                          <div style={{ fontWeight: 700, color: '#b91c1c', marginBottom: '0.35rem' }}>
+                            🔍 Chi tiết lỗi & Gợi ý sửa ({gradingResults.email1.issues.length} điểm cần lưu ý):
+                          </div>
+                          <ul style={{ listStyleType: 'none', paddingLeft: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '0.4rem' }}>
+                            {gradingResults.email1.issues.map((iss, i) => (
+                              <li key={i} style={{ backgroundColor: '#ffffff', padding: '0.45rem 0.65rem', borderRadius: '4px', borderLeft: '3px solid #ef4444', fontSize: '0.84rem' }}>
+                                <div style={{ color: '#991b1b', fontWeight: 600 }}>• {iss.message}</div>
+                                {iss.suggestion && (
+                                  <div style={{ color: '#047857', marginTop: '0.15rem', fontWeight: 600 }}>
+                                    👉 {iss.suggestion}
+                                  </div>
+                                )}
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      )}
+                    </div>
+                  )}
                 </div>
               </div>
             </div>
@@ -1161,34 +1541,15 @@ Best regards,
                                   backgroundColor: '#ffffff',
                                   border: '1px solid #cbd5e1',
                                   borderRadius: '6px',
-                                  overflow: 'hidden',
+                                  padding: '0.35rem 0.65rem',
+                                  fontSize: '0.86rem',
                                   boxShadow: '0 1px 2px rgba(0,0,0,0.03)'
                                 }}
                               >
-                                <button 
-                                  type="button"
-                                  onClick={() => playAudio(item.en)}
-                                  style={{ 
-                                    background: 'rgba(37, 99, 235, 0.1)', 
-                                    border: 'none', 
-                                    borderRight: '1px solid #e2e8f0',
-                                    cursor: 'pointer', 
-                                    padding: '0.3rem 0.5rem', 
-                                    fontSize: '0.82rem',
-                                    display: 'flex', 
-                                    alignItems: 'center', 
-                                    justifyContent: 'center'
-                                  }}
-                                  title={`Nghe phát âm: ${item.en}`}
-                                >
-                                  🔊
-                                </button>
-                                <div style={{ padding: '0.35rem 0.65rem', fontSize: '0.86rem' }}>
-                                  <span className="p4-en-hint" style={{ fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif", fontWeight: 800, color: '#0f172a' }}>
-                                    {item.en}
-                                  </span>{' '}
-                                  <span style={{ color: '#64748b', fontWeight: 400 }}>({item.vi})</span>
-                                </div>
+                                <span className="p4-en-hint" style={{ fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif", fontWeight: 800, color: '#0f172a' }}>
+                                  {item.en}
+                                </span>{' '}
+                                <span style={{ color: '#64748b', fontWeight: 400, marginLeft: '0.35rem' }}>({item.vi})</span>
                               </div>
                             ))}
                           </div>
@@ -1207,34 +1568,15 @@ Best regards,
                                 backgroundColor: '#ffffff',
                                 border: '1px solid #cbd5e1',
                                 borderRadius: '6px',
-                                overflow: 'hidden',
+                                padding: '0.35rem 0.65rem',
+                                fontSize: '0.86rem',
                                 boxShadow: '0 1px 2px rgba(0,0,0,0.03)'
                               }}
                             >
-                              <button 
-                                type="button"
-                                onClick={() => playAudio(activeClubHints.e2Topic.en)}
-                                style={{ 
-                                  background: 'rgba(37, 99, 235, 0.1)', 
-                                  border: 'none', 
-                                  borderRight: '1px solid #e2e8f0',
-                                  cursor: 'pointer', 
-                                  padding: '0.3rem 0.5rem', 
-                                  fontSize: '0.82rem',
-                                  display: 'flex', 
-                                  alignItems: 'center', 
-                                  justifyContent: 'center'
-                                }}
-                                title={`Nghe phát âm: ${activeClubHints.e2Topic.en}`}
-                              >
-                                🔊
-                              </button>
-                              <div style={{ padding: '0.35rem 0.65rem', fontSize: '0.86rem' }}>
-                                <span className="p4-en-hint" style={{ fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif", fontWeight: 800, color: '#0f172a' }}>
-                                  {activeClubHints.e2Topic.en}
-                                </span>{' '}
-                                <span style={{ color: '#64748b', fontWeight: 400 }}>({activeClubHints.e2Topic.vi})</span>
-                              </div>
+                              <span className="p4-en-hint" style={{ fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif", fontWeight: 800, color: '#0f172a' }}>
+                                {activeClubHints.e2Topic.en}
+                              </span>{' '}
+                              <span style={{ color: '#64748b', fontWeight: 400, marginLeft: '0.35rem' }}>({activeClubHints.e2Topic.vi})</span>
                             </div>
                           </div>
                         </div>
@@ -1254,34 +1596,15 @@ Best regards,
                                   backgroundColor: '#ffffff',
                                   border: '1px solid #cbd5e1',
                                   borderRadius: '6px',
-                                  overflow: 'hidden',
+                                  padding: '0.35rem 0.65rem',
+                                  fontSize: '0.86rem',
                                   boxShadow: '0 1px 2px rgba(0,0,0,0.03)'
                                 }}
                               >
-                                <button 
-                                  type="button"
-                                  onClick={() => playAudio(item.en)}
-                                  style={{ 
-                                    background: 'rgba(37, 99, 235, 0.1)', 
-                                    border: 'none', 
-                                    borderRight: '1px solid #e2e8f0',
-                                    cursor: 'pointer', 
-                                    padding: '0.3rem 0.5rem', 
-                                    fontSize: '0.82rem',
-                                    display: 'flex', 
-                                    alignItems: 'center', 
-                                    justifyContent: 'center'
-                                  }}
-                                  title={`Nghe phát âm: ${item.en}`}
-                                >
-                                  🔊
-                                </button>
-                                <div style={{ padding: '0.35rem 0.65rem', fontSize: '0.86rem' }}>
-                                  <span className="p4-en-hint" style={{ fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif", fontWeight: 800, color: '#0f172a' }}>
-                                    {item.en}
-                                  </span>{' '}
-                                  <span style={{ color: '#64748b', fontWeight: 400 }}>({item.vi})</span>
-                                </div>
+                                <span className="p4-en-hint" style={{ fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif", fontWeight: 800, color: '#0f172a' }}>
+                                  {item.en}
+                                </span>{' '}
+                                <span style={{ color: '#64748b', fontWeight: 400, marginLeft: '0.35rem' }}>({item.vi})</span>
                               </div>
                             ))}
                           </div>
@@ -1314,34 +1637,15 @@ Best regards,
                                       backgroundColor: '#ffffff',
                                       border: '1px solid #cbd5e1',
                                       borderRadius: '6px',
-                                      overflow: 'hidden',
+                                      padding: '0.35rem 0.65rem',
+                                      fontSize: '0.86rem',
                                       boxShadow: '0 1px 2px rgba(0,0,0,0.03)'
                                     }}
                                   >
-                                    <button 
-                                      type="button"
-                                      onClick={() => playAudio(item.en)}
-                                      style={{ 
-                                        background: 'rgba(37, 99, 235, 0.1)', 
-                                        border: 'none', 
-                                        borderRight: '1px solid #e2e8f0',
-                                        cursor: 'pointer', 
-                                        padding: '0.3rem 0.5rem', 
-                                        fontSize: '0.82rem',
-                                        display: 'flex', 
-                                        alignItems: 'center', 
-                                        justifyContent: 'center'
-                                      }}
-                                      title={`Nghe phát âm: ${item.en}`}
-                                    >
-                                      🔊
-                                    </button>
-                                    <div style={{ padding: '0.35rem 0.65rem', fontSize: '0.86rem' }}>
-                                      <span className="p4-en-hint" style={{ fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif", fontWeight: 800, color: '#0f172a' }}>
-                                        {item.en}
-                                      </span>{' '}
-                                      {item.vi && <span style={{ color: '#64748b', fontWeight: 400 }}>({item.vi})</span>}
-                                    </div>
+                                    <span className="p4-en-hint" style={{ fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif", fontWeight: 800, color: '#0f172a' }}>
+                                      {item.en}
+                                    </span>{' '}
+                                    {item.vi && <span style={{ color: '#64748b', fontWeight: 400, marginLeft: '0.35rem' }}>({item.vi})</span>}
                                   </div>
                                 ))}
                               </div>
@@ -1494,6 +1798,160 @@ Best regards,
                       <span>Tối đa: 165 từ</span>
                     </div>
                   </div>
+
+                  {/* Action Buttons: LƯU BÀI & NỘP BÀI / CHẤM ĐIỂM */}
+                  <div style={{ display: 'flex', gap: '0.6rem', marginTop: '0.5rem', flexWrap: 'wrap' }}>
+                    <button
+                      type="button"
+                      onClick={() => handleSaveEmail('email2')}
+                      style={{
+                        flex: 1,
+                        display: 'inline-flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        gap: '0.4rem',
+                        backgroundColor: '#f1f5f9',
+                        color: '#0f172a',
+                        border: '1px solid #cbd5e1',
+                        padding: '0.55rem 0.9rem',
+                        borderRadius: '6px',
+                        fontSize: '0.86rem',
+                        fontWeight: 700,
+                        cursor: 'pointer',
+                        transition: 'all 0.2s'
+                      }}
+                    >
+                      <Save size={16} color="#2563eb" />
+                      Lưu bài
+                    </button>
+
+                    <button
+                      type="button"
+                      onClick={() => handleGradeEmail('email2')}
+                      disabled={isGrading.email2}
+                      style={{
+                        flex: 2,
+                        display: 'inline-flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        gap: '0.4rem',
+                        backgroundColor: '#2563eb',
+                        color: '#ffffff',
+                        border: 'none',
+                        padding: '0.55rem 0.9rem',
+                        borderRadius: '6px',
+                        fontSize: '0.86rem',
+                        fontWeight: 700,
+                        cursor: isGrading.email2 ? 'not-allowed' : 'pointer',
+                        opacity: isGrading.email2 ? 0.75 : 1,
+                        transition: 'all 0.2s',
+                        boxShadow: '0 2px 4px rgba(37, 99, 235, 0.2)'
+                      }}
+                    >
+                      <Send size={16} />
+                      {isGrading.email2 ? 'Đang chấm bài...' : (gradingResults.email2 ? 'Chấm lại' : 'Nộp bài & Chấm điểm')}
+                    </button>
+
+                    {gradingResults.email2 && (
+                      <button
+                        type="button"
+                        onClick={() => handleResetEmailGrade('email2')}
+                        title="Xóa kết quả chấm và làm lại"
+                        style={{
+                          display: 'inline-flex',
+                          alignItems: 'center',
+                          justifyContent: 'center',
+                          gap: '0.3rem',
+                          backgroundColor: '#ffffff',
+                          color: '#64748b',
+                          border: '1px solid #cbd5e1',
+                          padding: '0.55rem 0.75rem',
+                          borderRadius: '6px',
+                          fontSize: '0.82rem',
+                          fontWeight: 600,
+                          cursor: 'pointer'
+                        }}
+                      >
+                        <RotateCcw size={14} />
+                        Làm lại
+                      </button>
+                    )}
+                  </div>
+
+                  {/* DETAILED GRADING & CORRECTION FEEDBACK CARD */}
+                  {gradingResults.email2 && (
+                    <div style={{
+                      backgroundColor: gradingResults.email2.status === 'success' ? '#f0fdf4' : (gradingResults.email2.status === 'warning' ? '#fffbeb' : '#fef2f2'),
+                      border: `1.5px solid ${gradingResults.email2.status === 'success' ? '#86efac' : (gradingResults.email2.status === 'warning' ? '#fde68a' : '#fecaca')}`,
+                      borderRadius: '8px',
+                      padding: '0.95rem 1rem',
+                      marginTop: '0.4rem',
+                      display: 'flex',
+                      flexDirection: 'column',
+                      gap: '0.6rem',
+                      fontSize: '0.88rem',
+                      lineHeight: '1.55'
+                    }}>
+                      {/* Score & Band Header */}
+                      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '0.4rem', borderBottom: '1px solid rgba(0,0,0,0.08)', paddingBottom: '0.45rem' }}>
+                        <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
+                          {gradingResults.email2.status === 'success' && <CheckCircle size={18} color="#16a34a" />}
+                          {gradingResults.email2.status === 'warning' && <AlertCircle size={18} color="#d97706" />}
+                          {gradingResults.email2.status === 'error' && <XCircle size={18} color="#dc2626" />}
+                          <strong style={{ fontSize: '1rem', color: gradingResults.email2.status === 'success' ? '#166534' : (gradingResults.email2.status === 'warning' ? '#92400e' : '#991b1b') }}>
+                            Điểm số: {gradingResults.email2.score} / 5
+                          </strong>
+                        </div>
+                        <span style={{ 
+                          backgroundColor: '#ffffff', 
+                          padding: '0.2rem 0.6rem', 
+                          borderRadius: '12px', 
+                          fontSize: '0.78rem', 
+                          fontWeight: 700, 
+                          border: '1px solid rgba(0,0,0,0.1)',
+                          color: '#0f172a' 
+                        }}>
+                          🏆 {gradingResults.email2.band}
+                        </span>
+                      </div>
+
+                      {/* Summary */}
+                      <div style={{ fontWeight: 600, color: '#334155' }}>
+                        {gradingResults.email2.summary}
+                      </div>
+
+                      {/* Rubric Breakdown */}
+                      <div style={{ display: 'flex', flexDirection: 'column', gap: '0.35rem', backgroundColor: '#ffffff', padding: '0.55rem 0.75rem', borderRadius: '6px', border: '1px solid rgba(0,0,0,0.06)' }}>
+                        <div>
+                          <strong>📏 Số từ:</strong> {gradingResults.email2.wordFeedback}
+                        </div>
+                        <div>
+                          <strong>👔 Văn phong:</strong> {gradingResults.email2.registerFeedback}
+                        </div>
+                      </div>
+
+                      {/* Detailed Issues List */}
+                      {gradingResults.email2.issues && gradingResults.email2.issues.length > 0 && (
+                        <div>
+                          <div style={{ fontWeight: 700, color: '#b91c1c', marginBottom: '0.35rem' }}>
+                            🔍 Chi tiết lỗi & Gợi ý sửa ({gradingResults.email2.issues.length} điểm cần lưu ý):
+                          </div>
+                          <ul style={{ listStyleType: 'none', paddingLeft: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '0.4rem' }}>
+                            {gradingResults.email2.issues.map((iss, i) => (
+                              <li key={i} style={{ backgroundColor: '#ffffff', padding: '0.45rem 0.65rem', borderRadius: '4px', borderLeft: '3px solid #ef4444', fontSize: '0.84rem' }}>
+                                <div style={{ color: '#991b1b', fontWeight: 600 }}>• {iss.message}</div>
+                                {iss.suggestion && (
+                                  <div style={{ color: '#047857', marginTop: '0.15rem', fontWeight: 600 }}>
+                                    👉 {iss.suggestion}
+                                  </div>
+                                )}
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      )}
+                    </div>
+                  )}
                 </div>
               </div>
             </div>
