@@ -293,7 +293,7 @@ export const part4Data = {
                   "name": "1. Đề xuất 1: [đề xuất thứ nhất] (Mệnh đề hoàn chỉnh)",
                   "items": [
                         {
-                              "en": "we should choose safe and scenic walking routes so participants can enjoy nature",
+                              "en": "we should choose safe and scenic walking routes, so participants can enjoy nature",
                               "vi": "chúng ta nên chọn các tuyến đường an toàn, có cảnh quan đẹp để người tham gia ngắm cảnh"
                         },
                         {
@@ -333,7 +333,7 @@ export const part4Data = {
             {
                   "title": "Bài mẫu chuẩn Band B2+",
                   "wordCount": 140,
-                  "en": "Dear Club Manager,\n\nMy name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the monthly walking event to attract more members. I believe this is an excellent initiative that will foster community solidarity.\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, we should select safe and scenic walking trails so participants can fully enjoy nature.\nSecond, it would be highly beneficial to organize simple team games after the walk to encourage friendly interaction.\nFinally, we could prepare healthy refreshments and fresh fruit for all attendees.\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
+                  "en": "Dear Club Manager,\n\nMy name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the monthly walking event to attract more members. I believe this is an excellent initiative that will foster community solidarity.\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, we should select safe and scenic walking trails, so participants can fully enjoy nature.\nSecond, it would be highly beneficial to organize simple team games after the walk to encourage friendly interaction.\nFinally, we could prepare healthy refreshments and fresh fruit for all attendees.\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
                   "vi": "Kính gửi Quản lý Câu lạc bộ,\n\nTên tôi là Kato, và tôi đã là một hội viên tích cực của câu lạc bộ chúng ta được hai năm. Trong thời gian này, tôi đã tham gia vào nhiều hoạt động ý nghĩa. Tôi viết thư này để chia sẻ góc nhìn và đưa ra một vài đề xuất mang tính xây dựng liên quan đến sự kiện đi bộ hàng tháng nhằm thu hút thêm hội viên. Tôi tin chắc rằng đây là một sáng kiến tuyệt vời giúp thắt chặt tình đoàn kết cộng đồng.\n\nĐể giúp đạt được kết quả tốt nhất, tôi xin phép đưa ra ba đề xuất thực tế.\nThứ nhất, chúng ta nên lựa chọn các cung đường đi bộ an toàn và có cảnh quan đẹp để người tham gia tận hưởng trọn vẹn thiên nhiên.\nThứ hai, sẽ rất có lợi nếu tổ chức các trò chơi đồng đội đơn giản sau buổi đi bộ để khuyến khích sự tương tác thân thiện.\nCuối cùng, chúng ta có thể chuẩn bị đồ giải khát lành mạnh và hoa quả tươi cho toàn thể người tham dự.\n\nCảm ơn bạn đã dành thời gian xem xét thư. Tôi rất mong sớm nhận được phản hồi từ bạn.\n\nTrân trọng,\nKato",
                   "analysis": [
                         {
@@ -342,7 +342,7 @@ export const part4Data = {
                         },
                         {
                               "label": "3 Đề xuất thực tế",
-                              "text": "To help achieve the best outcome, I would like to make some practical proposals. First, we should select safe and scenic walking trails so participants can fully enjoy nature. Second, it would be highly beneficial to organize simple team games after the walk to encourage friendly interaction. Finally, we could prepare healthy refreshments and fresh fruit for all attendees."
+                              "text": "To help achieve the best outcome, I would like to make some practical proposals. First, we should select safe and scenic walking trails, so participants can fully enjoy nature. Second, it would be highly beneficial to organize simple team games after the walk to encourage friendly interaction. Finally, we could prepare healthy refreshments and fresh fruit for all attendees."
                         },
                         {
                               "label": "Cảm ơn & Ký tên",
@@ -565,7 +565,7 @@ export const part4Data = {
                   "name": "3. [phát triển thêm ý] (Mệnh đề hoàn chỉnh)",
                   "items": [
                         {
-                              "en": "we should register early so we can secure front-row seats",
+                              "en": "we should register early, so we can secure front-row seats",
                               "vi": "chúng mình nên đăng ký sớm để giữ được vị trí ở hàng ghế đầu"
                         },
                         {
@@ -605,7 +605,7 @@ export const part4Data = {
       "wordTarget": "120 - 150 từ (chuẩn 120 - 165 từ)",
       "minWords": 120,
       "maxWords": 165,
-      "template": "Dear Club President,\nMy name is [tên người gửi], and I have been a member of the club for [thời gian: two years]. During this time, I have had the opportunity to participate in a wide range of meaningful activities, which have greatly enriched my experience and personal development.\nI am writing in response to your email to share my thoughts and offer several practical suggestions regarding the public talk and guest artist invitation. I think this is a great idea.\nTo help attract both young and elderly members to the talk, I would like to make a few suggestions. First, we should invite a renowned local artist who specializes in blending traditional techniques with contemporary styles. Second, it would be better to focus the discussion on \"Art for Everyday Wellbeing\", which resonates across all generations. Finally, we could set up a 30-minute hands-on sketching session so attendees can practice alongside the speaker. Overall, I am confident that these suggestions would make a positive difference and help the club achieve its objectives.\nThank you for taking the time to consider my suggestions. I sincerely hope they will be taken into consideration, and I look forward to your response.\nBest regards,\n[Tên của bạn]",
+      "template": "Dear Club President,\nMy name is [tên người gửi], and I have been a member of the club for [thời gian: two years]. During this time, I have had the opportunity to participate in a wide range of meaningful activities, which have greatly enriched my experience and personal development.\nI am writing in response to your email to share my thoughts and offer several practical suggestions regarding the public talk and guest artist invitation. I think this is a great idea.\nTo help attract both young and elderly members to the talk, I would like to make a few suggestions. First, we should invite a renowned local artist who specializes in blending traditional techniques with contemporary styles. Second, it would be better to focus the discussion on \"Art for Everyday Wellbeing\", which resonates across all generations. Finally, we could set up a 30-minute hands-on sketching session, so attendees can practice alongside the speaker. Overall, I am confident that these suggestions would make a positive difference and help the club achieve its objectives.\nThank you for taking the time to consider my suggestions. I sincerely hope they will be taken into consideration, and I look forward to your response.\nBest regards,\n[Tên của bạn]",
       "vocabCategories": [
             {
                   "name": "1. Đề xuất 1: [đề xuất thứ nhất] (Mệnh đề hoàn chỉnh)",
@@ -1042,7 +1042,7 @@ export const part4Data = {
                               "vi": "chúng mình có thể tổ chức buổi dã ngoại gia đình với trò chơi tiếp sức ở công viên"
                         },
                         {
-                              "en": "we should bring our younger siblings along so they can socialize and play together",
+                              "en": "we should bring our younger siblings along, so they can socialize and play together",
                               "vi": "chúng mình nên rủ các em nhỏ đi cùng để chúng cùng làm quen và vui chơi"
                         }
                   ]
@@ -1392,7 +1392,7 @@ export const part4Data = {
       "wordTarget": "120 - 150 từ (chuẩn 120 - 165 từ)",
       "minWords": 120,
       "maxWords": 165,
-      "template": "Dear Club Manager,\nMy name is [tên người gửi], and I have been a member of the club for [thời gian: two years]. During this time, I have had the opportunity to participate in a wide range of meaningful activities, which have greatly enriched my experience and personal development.\nI am writing in response to your email to share my perspective and offer constructive recommendations regarding homeownership for young adults. I think this is an important issue.\nTo support young members in making prudent housing decisions, I would like to make a few suggestions. First, our club should organize a workshop on personal financial literacy and mortgage planning so youngsters understand long-term debt obligations. Second, it would be better to advise them to begin with smaller, affordable studio apartments rather than stretching beyond their budget for spacious houses. Finally, we could compile a legal checklist covering title deeds and contract verifications to protect first-time buyers. Overall, I am confident that these suggestions would make a positive difference and help the club achieve its objectives.\nThank you for taking the time to consider my suggestions. I sincerely hope they will be taken into consideration, and I look forward to your response.\nBest regards,\n[Tên của bạn]",
+      "template": "Dear Club Manager,\nMy name is [tên người gửi], and I have been a member of the club for [thời gian: two years]. During this time, I have had the opportunity to participate in a wide range of meaningful activities, which have greatly enriched my experience and personal development.\nI am writing in response to your email to share my perspective and offer constructive recommendations regarding homeownership for young adults. I think this is an important issue.\nTo support young members in making prudent housing decisions, I would like to make a few suggestions. First, our club should organize a workshop on personal financial literacy and mortgage planning, so youngsters understand long-term debt obligations. Second, it would be better to advise them to begin with smaller, affordable studio apartments rather than stretching beyond their budget for spacious houses. Finally, we could compile a legal checklist covering title deeds and contract verifications to protect first-time buyers. Overall, I am confident that these suggestions would make a positive difference and help the club achieve its objectives.\nThank you for taking the time to consider my suggestions. I sincerely hope they will be taken into consideration, and I look forward to your response.\nBest regards,\n[Tên của bạn]",
       "vocabCategories": [
             {
                   "name": "1. Đề xuất 1: [đề xuất thứ nhất] (Mệnh đề hoàn chỉnh)",
@@ -1867,7 +1867,7 @@ export const part4Data = {
                               "vi": "CLB nên tổ chức các môn dễ tiếp cận như bóng đá 5 người, bóng rổ và cầu lông"
                         },
                         {
-                              "en": "we should divide tournaments into age categories so participants compete on equal and fair footing",
+                              "en": "we should divide tournaments into age categories, so participants compete on equal and fair footing",
                               "vi": "chúng ta nên phân bảng theo lứa tuổi để các bạn thi đấu công bằng"
                         }
                   ]
@@ -1972,7 +1972,7 @@ export const part4Data = {
                   "name": "3. [phát triển thêm ý] (Mệnh đề hoàn chỉnh)",
                   "items": [
                         {
-                              "en": "we should reserve our seats early so we can sit in the front rows",
+                              "en": "we should reserve our seats early, so we can sit in the front rows",
                               "vi": "chúng mình nên đặt chỗ sớm để có vị trí ngồi hàng đầu"
                         },
                         {
@@ -2203,7 +2203,7 @@ export const part4Data = {
                               "vi": "chúng ta có thể trang bị cho phái đoàn thiết bị định vị vệ tinh, hộp đồ nghề và bảo hiểm y tế toàn diện"
                         },
                         {
-                              "en": "the club should establish a daily live check-in vlog so members back home can track their journey across Europe",
+                              "en": "the club should establish a daily live check-in vlog, so members back home can track their journey across Europe",
                               "vi": "CLB nên lập kênh nhật ký hành trình trực tuyến mỗi ngày để hội viên ở nhà cùng theo dõi"
                         }
                   ]
@@ -2596,7 +2596,7 @@ export const part4Data = {
                               "vi": "chúng mình có thể gặp nhau ở quán cà phê yên tĩnh để cùng luyện nói các chủ đề IELTS"
                         },
                         {
-                              "en": "I can bring some interesting conversation flashcards so we can debate in English for two hours",
+                              "en": "I can bring some interesting conversation flashcards, so we can debate in English for two hours",
                               "vi": "mình có thể mang vài bộ thẻ câu hỏi thú vị để chúng mình cùng tranh luận bằng tiếng Anh trong 2 tiếng"
                         }
                   ]
@@ -2747,7 +2747,7 @@ export const part4Data = {
                   "name": "3. [phát triển thêm ý] (Mệnh đề hoàn chỉnh)",
                   "items": [
                         {
-                              "en": "we should register early so we do not miss out on complimentary seminar seats",
+                              "en": "we should register early, so we do not miss out on complimentary seminar seats",
                               "vi": "chúng mình nên đăng ký sớm để không bị lỡ mất chỗ ngồi miễn phí trong hội thảo"
                         },
                         {
@@ -2906,7 +2906,7 @@ export const part4Data = {
                               "vi": "chúng mình nên mang theo những cuốn sách yêu thích để xin chữ ký và chụp ảnh kỷ niệm"
                         },
                         {
-                              "en": "we can reread our favorite chapters beforehand so we can share our thoughts during the Q&A",
+                              "en": "we can reread our favorite chapters beforehand, so we can share our thoughts during the Q&A",
                               "vi": "chúng mình có thể đọc lại những chương truyện hay nhất trước để chia sẻ trong phần hỏi đáp"
                         }
                   ]
@@ -3143,7 +3143,7 @@ export const part4Data = {
             {
                   "title": "Bài mẫu chuẩn Band B2+",
                   "wordCount": 144,
-                  "en": "Dear Club Manager,\n\nMy name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the monthly book selection and discussion formats. I believe this is an excellent initiative that will encourage reading habits.\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, we should select books through online voting so members can read genres they genuinely enjoy.\nSecond, organizing small breakout discussion groups of five members will ensure everyone has the opportunity to speak.\nFinally, we could establish a mini community library where members can freely borrow and exchange popular paperbacks.\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
+                  "en": "Dear Club Manager,\n\nMy name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the monthly book selection and discussion formats. I believe this is an excellent initiative that will encourage reading habits.\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, we should select books through online voting, so members can read genres they genuinely enjoy.\nSecond, organizing small breakout discussion groups of five members will ensure everyone has the opportunity to speak.\nFinally, we could establish a mini community library where members can freely borrow and exchange popular paperbacks.\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
                   "vi": "Kính gửi Quản lý Câu lạc bộ,\n\nTên tôi là Kato, và tôi đã là một hội viên tích cực của câu lạc bộ chúng ta được hai năm. Trong thời gian này, tôi đã tham gia vào nhiều hoạt động ý nghĩa. Tôi viết thư này để chia sẻ góc nhìn và đưa ra một vài đề xuất mang tính xây dựng liên quan đến việc bình chọn sách tháng và hình thức thảo luận. Tôi tin chắc rằng đây là một sáng kiến tuyệt vời giúp hình thành thói quen đọc sách.\n\nĐể giúp đạt được kết quả tốt nhất, tôi xin phép đưa ra ba đề xuất thực tế.\nThứ nhất, chúng ta nên lựa chọn sách thông qua bình chọn trực tuyến để các hội viên được đọc những thể loại thực sự yêu thích.\nThứ hai, việc tổ chức các nhóm thảo luận nhỏ gồm 5 người sẽ đảm bảo tất cả mọi người đều có cơ hội phát biểu.\nCuối cùng, chúng ta có thể xây dựng tủ sách cộng đồng nhỏ nơi các thành viên có thể tự do mượn và trao đổi sách giấy hay.\n\nCảm ơn bạn đã dành thời gian xem xét thư. Tôi rất mong sớm nhận được phản hồi từ bạn.\n\nTrân trọng,\nKato",
                   "analysis": [
                         {
@@ -3152,7 +3152,7 @@ export const part4Data = {
                         },
                         {
                               "label": "3 Đề xuất thực tế",
-                              "text": "To help achieve the best outcome, I would like to make some practical proposals. First, we should select books through online voting so members can read genres they genuinely enjoy. Second, organizing small breakout discussion groups of five members will ensure everyone has the opportunity to speak. Finally, we could establish a mini community library where members can freely borrow and exchange popular paperbacks."
+                              "text": "To help achieve the best outcome, I would like to make some practical proposals. First, we should select books through online voting, so members can read genres they genuinely enjoy. Second, organizing small breakout discussion groups of five members will ensure everyone has the opportunity to speak. Finally, we could establish a mini community library where members can freely borrow and exchange popular paperbacks."
                         },
                         {
                               "label": "Cảm ơn & Ký tên",
