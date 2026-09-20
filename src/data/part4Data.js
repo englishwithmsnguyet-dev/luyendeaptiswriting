@@ -1960,8 +1960,16 @@ export const part4Data = {
                   ]
             },
             {
-                  "name": "2. [ý kiến & lý do] (Mệnh đề hoàn chỉnh)",
+                  "name": "2. [ý kiến & lý do: gợi ý chủ đề - Topic] (Mệnh đề hoàn chỉnh)",
                   "items": [
+                        {
+                              "en": "he should talk about behind-the-scenes secrets of blockbuster movies because everyone loves film stories",
+                              "vi": "anh ấy nên nói về các bí mật hậu trường của phim bom tấn vì ai cũng thích chuyện làm phim"
+                        },
+                        {
+                              "en": "the speaker should share filmmaking tips because many members want to produce short films",
+                              "vi": "diễn giả nên chia sẻ các mẹo làm phim thực tế vì nhiều hội viên muốn tự sản xuất phim ngắn"
+                        },
                         {
                               "en": "listening to an acclaimed film critic is fantastic because it helps us understand cinematic directing secrets",
                               "vi": "lắng nghe nhà phê bình phim nổi tiếng rất tuyệt vì giúp chúng ta hiểu bí quyết đạo diễn điện ảnh"
@@ -2019,15 +2027,23 @@ export const part4Data = {
       "template": "Dear Club Manager,\nMy name is [tên người gửi], and I have been a member of the club for [thời gian: two years]. During this time, I have had the opportunity to participate in a wide range of meaningful activities, which have greatly enriched my experience and personal development.\nI am writing in response to your email to share my thoughts and offer several practical suggestions regarding the upcoming talk by the famous film critic. I think this is a great idea.\nTo help attract a large and diverse audience, I would like to make a few suggestions. First, we should select the topic \"The Secret Art of Visual Storytelling in Modern Cinema\", which appeals to both casual moviegoers and film students. Second, it would be better to promote the event via short video teasers on university student fanpages and social media groups. Finally, we could organize an interactive Q&A session with free cinema vouchers awarded for the most thought-provoking questions. Overall, I am confident that these suggestions would make a positive difference and help the club achieve its objectives.\nThank you for taking the time to consider my suggestions. I sincerely hope they will be taken into consideration, and I look forward to your response.\nBest regards,\n[Tên của bạn]",
       "vocabCategories": [
             {
-                  "name": "1. Đề xuất 1: [đề xuất thứ nhất] (Mệnh đề hoàn chỉnh)",
+                  "name": "1. Đề xuất 1: [chủ đề bài nói chuyện - Topic] (Mệnh đề hoàn chỉnh)",
                   "items": [
+                        {
+                              "en": "the guest speaker should focus on behind-the-scenes secrets of famous blockbuster movies",
+                              "vi": "diễn giả khách mời nên tập trung vào những bí mật hậu trường của các bộ phim bom tấn nổi tiếng"
+                        },
+                        {
+                              "en": "the lecture should center on the art of visual storytelling in modern cinema",
+                              "vi": "buổi nói chuyện nên xoay quanh nghệ thuật kể chuyện bằng hình ảnh trong điện ảnh hiện đại"
+                        },
+                        {
+                              "en": "the speaker should share practical filmmaking tips and scriptwriting techniques",
+                              "vi": "diễn giả nên chia sẻ các mẹo làm phim thực tế và kỹ thuật viết kịch bản"
+                        },
                         {
                               "en": "the lecture should focus on 'Deciphering Hidden Cinematic Symbols in Oscar-Winning Masterpieces'",
                               "vi": "buổi nói chuyện nên tập trung vào chủ đề giải mã biểu tượng ẩn trong các kiệt tác Oscar"
-                        },
-                        {
-                              "en": "we should request the speaker to illustrate theoretical insights with famous movie video excerpts",
-                              "vi": "chúng ta nên đề nghị diễn giả minh họa kiến thức bằng các trích đoạn phim nổi tiếng"
                         }
                   ]
             },
