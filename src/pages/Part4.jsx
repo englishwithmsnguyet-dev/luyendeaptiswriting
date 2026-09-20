@@ -532,9 +532,9 @@ const Part4 = () => {
 
   const email1Template = `Dear Kim,
 
-How's it going? I hope you're doing well. I thought you'd be interested to hear that [thông tin trong đề bài]. I was quite [cảm xúc] when I found out about it.
+How's it going? I hope you're doing well. I thought you'd be interested to hear that [thông tin trong đề bài]. I was [cảm xúc] when I found out about it.
 
-Personally, I think [ý kiến của bạn] because [lý do]. Moreover, [phát triển thêm ý].
+Personally, I think [ý kiến & lý do]. Moreover, [phát triển thêm ý].
 
 I would love to know what you think about this. Hope to hear from you soon.
 
@@ -1098,10 +1098,12 @@ Best regards,
                           </div>
                         </div>
 
-                        {/* Chỗ thay 3 & 4: Ý kiến & Lý do, Hoạt động đề xuất */}
-                        {clubData.email1.vocabCategories && clubData.email1.vocabCategories.map((cat, idx) => {
-                          const isOpinion = cat.name.toLowerCase().includes('quan điểm') || cat.name.toLowerCase().includes('lý do') || cat.name.toLowerCase().includes('opinion') || idx === 0;
-                          const slotLabel = isOpinion ? '[ý kiến của bạn] & [lý do]' : '[phát triển thêm ý]';
+                        {/* Chỗ thay 3 & 4: Ý kiến & Lý do, Phát triển thêm ý (Mệnh đề hoàn chỉnh) */}
+                        {clubData.email1.vocabCategories && clubData.email1.vocabCategories
+                          .filter(cat => !cat.name.toLowerCase().includes('cảm xúc') && !cat.name.toLowerCase().includes('emotion'))
+                          .map((cat, idx) => {
+                            const isOpinion = cat.name.toLowerCase().includes('ý kiến') || cat.name.toLowerCase().includes('quan điểm') || cat.name.toLowerCase().includes('lý do') || idx === 0;
+                            const slotLabel = isOpinion ? '[ý kiến & lý do]' : '[phát triển thêm ý]';
 
                           return (
                             <div key={idx} style={{ display: 'flex', flexDirection: 'column', gap: '0.35rem' }}>
@@ -1657,17 +1659,15 @@ Best regards,
                           </div>
                         </div>
 
-                        {/* Chỗ thay 4, 5, 6: 3 Đề xuất từ clubData.email2.vocabCategories */}
-                        {clubData.email2.vocabCategories && clubData.email2.vocabCategories.map((cat, idx) => {
-                          let slotLabel = `[đề xuất thứ ${idx + 1}]`;
-                          const lower = cat.name.toLowerCase();
-                          if (lower.includes('đề xuất 1') || lower.includes('đề xuất thứ nhất')) slotLabel = '[đề xuất thứ nhất]';
-                          else if (lower.includes('đề xuất 2') || lower.includes('đề xuất thứ hai')) slotLabel = '[đề xuất thứ hai]';
-                          else if (lower.includes('đề xuất 3') || lower.includes('đề xuất thứ ba')) slotLabel = '[đề xuất thứ ba]';
-                          else if (lower.includes('giới thiệu')) slotLabel = '[giới thiệu bản thân & gắn bó]';
-                          else if (idx === 0) slotLabel = '[đề xuất thứ nhất]';
-                          else if (idx === 1) slotLabel = '[đề xuất thứ hai]';
-                          else if (idx === 2) slotLabel = '[đề xuất thứ ba]';
+                        {/* Chỗ thay 4, 5, 6: 3 Đề xuất từ clubData.email2.vocabCategories (Mệnh đề hoàn chỉnh) */}
+                        {clubData.email2.vocabCategories && clubData.email2.vocabCategories
+                          .filter(cat => !cat.name.toLowerCase().includes('giới thiệu'))
+                          .map((cat, idx) => {
+                            let slotLabel = `[đề xuất thứ ${idx + 1}]`;
+                            const lower = cat.name.toLowerCase();
+                            if (lower.includes('đề xuất 1') || lower.includes('đề xuất thứ nhất') || idx === 0) slotLabel = '[đề xuất thứ nhất]';
+                            else if (lower.includes('đề xuất 2') || lower.includes('đề xuất thứ hai') || idx === 1) slotLabel = '[đề xuất thứ hai]';
+                            else if (lower.includes('đề xuất 3') || lower.includes('đề xuất thứ ba') || idx === 2) slotLabel = '[đề xuất thứ ba]';
 
                           return (
                             <div key={idx} style={{ display: 'flex', flexDirection: 'column', gap: '0.35rem' }}>

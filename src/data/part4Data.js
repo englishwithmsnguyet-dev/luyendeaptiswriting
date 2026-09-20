@@ -230,69 +230,57 @@ export const part4Data = {
       "maxWords": 65,
       "template": "Dear Kim,\nHow's it going? I hope you're doing well.\nI thought you'd be interested to hear that [thông tin trong đề bài]. I was quite [cảm xúc: excited / surprised] when I found out about it.\nPersonally, I think [ý kiến của bạn] because [lý do]. Moreover, [phát triển thêm ý].\nI would love to know what you think about this. Hope to hear from you soon.\nTake care,\n[Tên của bạn]",
       "vocabCategories": [
-        {
-          "name": "1. Bày tỏ Cảm xúc (Emotions)",
-          "icon": "Sparkles",
-          "items": [
             {
-              "en": "quite excited",
-              "vi": "khá hào hứng",
-              "example": "I was quite excited when I heard about the monthly walking event."
+                  "name": "1. Bày tỏ Cảm xúc (Emotions)",
+                  "items": [
+                        {
+                              "en": "quite excited",
+                              "vi": "khá hào hứng"
+                        },
+                        {
+                              "en": "absolutely thrilled",
+                              "vi": "cực kỳ phấn khích"
+                        },
+                        {
+                              "en": "pleasantly surprised",
+                              "vi": "ngạc nhiên một cách thích thú"
+                        }
+                  ]
             },
             {
-              "en": "absolutely thrilled",
-              "vi": "cực kỳ phấn khích",
-              "example": "I was absolutely thrilled to find out about this initiative."
+                  "name": "2. [ý kiến & lý do] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "it is a great idea because it encourages people to exercise together",
+                              "vi": "đây là ý tưởng tuyệt vời vì nó khuyến khích mọi người cùng rèn luyện thể chất"
+                        },
+                        {
+                              "en": "this event is very beneficial because regular walking helps members stay active and healthy",
+                              "vi": "sự kiện này rất bổ ích vì đi bộ thường xuyên giúp hội viên năng động và khỏe mạnh"
+                        },
+                        {
+                              "en": "this is a wonderful opportunity because it helps us socialize and make new friends",
+                              "vi": "đây là cơ hội tuyệt vời vì giúp chúng ta giao lưu và kết thêm bạn mới"
+                        }
+                  ]
             },
             {
-              "en": "pleasantly surprised",
-              "vi": "ngạc nhiên một cách thích thú",
-              "example": "I was pleasantly surprised by the club's announcement."
+                  "name": "3. [phát triển thêm ý] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "we could organize some fun team games after the walk",
+                              "vi": "chúng mình có thể tổ chức một số trò chơi đồng đội vui nhộn sau khi đi bộ"
+                        },
+                        {
+                              "en": "we can bring light snacks and have a small picnic together in the park",
+                              "vi": "chúng mình có thể mang đồ ăn nhẹ và cùng nhau dã ngoại trong công viên"
+                        },
+                        {
+                              "en": "we should take lots of scenic group photos along the walking route",
+                              "vi": "chúng mình nên chụp thật nhiều ảnh kỷ niệm đẹp trên suốt cung đường"
+                        }
+                  ]
             }
-          ]
-        },
-        {
-          "name": "2. Nêu Quan điểm & Lý do (Opinion & Reasons)",
-          "icon": "CheckCircle2",
-          "items": [
-            {
-              "en": "it encourages people to exercise together",
-              "vi": "khuyến khích mọi người cùng nhau vận động thể chất",
-              "example": "Personally, I think it is great because it encourages people to exercise together."
-            },
-            {
-              "en": "it helps members stay active and healthy",
-              "vi": "giúp hội viên duy trì lối sống năng động và khỏe mạnh",
-              "example": "Regular walking helps members stay active and healthy."
-            },
-            {
-              "en": "it creates a great opportunity to make new friends",
-              "vi": "tạo cơ hội tuyệt vời để kết thêm bạn bè mới",
-              "example": "It creates a great opportunity to socialize and make new friends."
-            }
-          ]
-        },
-        {
-          "name": "3. Hoạt động đề xuất vui nhộn (Fun Activities)",
-          "icon": "BookOpen",
-          "items": [
-            {
-              "en": "organize some fun games after the walk",
-              "vi": "tổ chức một số trò chơi vui nhộn sau khi đi bộ",
-              "example": "Moreover, we could organize some fun games after the walk."
-            },
-            {
-              "en": "have a small picnic in the park",
-              "vi": "cùng dã ngoại nhẹ trong công viên",
-              "example": "We could bring some light snacks and have a picnic together."
-            },
-            {
-              "en": "take group photos at scenic viewpoints",
-              "vi": "chụp ảnh lưu niệm tại những điểm ngắm cảnh đẹp",
-              "example": "We could take lots of beautiful photos along the route."
-            }
-          ]
-        }
       ],
       "samples": [
             {
@@ -334,90 +322,45 @@ export const part4Data = {
       "maxWords": 165,
       "template": "Dear Club Manager,\nMy name is [Tên của bạn], and I have been a member of the club for [thời gian tham gia]. During this time, I have had the opportunity to participate in a wide range of meaningful activities, which have greatly enriched my experience and personal development.\nI am writing in response to your email to share my thoughts and offer several practical suggestions regarding [thông tin trong đề bài]. I think [nêu quan điểm về vấn đề đó].\nTo help attract more members and make the event more enjoyable, I would like to make a few suggestions. First, [đề xuất thứ nhất]. Second, [đề xuất thứ hai]. Finally, [đề xuất thứ ba]. Overall, I am confident that these suggestions would make a positive difference and help the club achieve its objectives.\nThank you for taking the time to consider my suggestions. I sincerely hope they will be taken into consideration, and I look forward to your response.\nBest regards,\n[Tên của bạn]",
       "vocabCategories": [
-        {
-          "name": "1. Giới thiệu bản thân & Gắn bó",
-          "icon": "ShieldCheck",
-          "items": [
             {
-              "en": "I have been a member of the club for two years",
-              "vi": "tôi đã là thành viên CLB được hai năm",
-              "example": "My name is Kato, and I have been a member of the club for two years."
+                  "name": "1. Đề xuất 1: [đề xuất thứ nhất] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "we should choose safe and scenic walking routes so participants can enjoy nature",
+                              "vi": "chúng ta nên chọn các tuyến đường an toàn, có cảnh quan đẹp để người tham gia ngắm cảnh"
+                        },
+                        {
+                              "en": "the club should select gentle walking trails suitable for members of all fitness levels",
+                              "vi": "CLB nên chọn cung đường bằng phẳng, vừa sức với mọi thể lực của hội viên"
+                        }
+                  ]
             },
             {
-              "en": "a wide range of meaningful activities",
-              "vi": "nhiều hoạt động ý nghĩa phong phú",
-              "example": "I have had the opportunity to participate in a wide range of meaningful activities."
+                  "name": "2. Đề xuất 2: [đề xuất thứ hai] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "it would be better to organize simple team games after the walk to encourage interaction",
+                              "vi": "sẽ tốt hơn nếu tổ chức các trò chơi đồng đội đơn giản sau buổi đi để tăng tương tác"
+                        },
+                        {
+                              "en": "we ought to pair newcomers with experienced members to create a welcoming atmosphere",
+                              "vi": "chúng ta nên ghép người mới với hội viên kỳ cựu để tạo không khí thân thiện, gần gũi"
+                        }
+                  ]
             },
             {
-              "en": "greatly enriched my experience and personal development",
-              "vi": "làm phong phú rất nhiều trải nghiệm và sự phát triển bản thân",
-              "example": "These events have greatly enriched my experience and personal development."
+                  "name": "3. Đề xuất 3: [đề xuất thứ ba] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "we could prepare healthy drinks and fresh fruit for all participants",
+                              "vi": "chúng ta có thể chuẩn bị đồ uống lành mạnh và hoa quả tươi cho toàn thể người tham gia"
+                        },
+                        {
+                              "en": "the club could award small souvenir badges to members who join consistently",
+                              "vi": "CLB có thể trao tặng huy hiệu lưu niệm cho những hội viên tham gia tích cực"
+                        }
+                  ]
             }
-          ]
-        },
-        {
-          "name": "2. Đề xuất 1: Tuyến đường an toàn (Route Selection)",
-          "icon": "Sparkles",
-          "items": [
-            {
-              "en": "choose safe and scenic walking routes",
-              "vi": "chọn các cung đường đi bộ an toàn và cảnh quan tươi đẹp",
-              "example": "First, we should choose safe and scenic walking routes around local lakes."
-            },
-            {
-              "en": "enjoy the natural surroundings",
-              "vi": "tận hưởng khung cảnh thiên nhiên trong lành",
-              "example": "This allows participants to enjoy the natural surroundings and breathe fresh air."
-            },
-            {
-              "en": "suitable for participants of all fitness levels",
-              "vi": "phù hợp cho mọi người ở các cấp độ thể lực khác nhau",
-              "example": "The route should be gentle and suitable for participants of all fitness levels."
-            }
-          ]
-        },
-        {
-          "name": "3. Đề xuất 2: Hoạt động gắn kết (Interactive Activities)",
-          "icon": "CheckCircle2",
-          "items": [
-            {
-              "en": "organize some simple team games or fitness challenges",
-              "vi": "tổ chức các trò chơi đồng đội đơn giản hoặc thử thách thể lực",
-              "example": "Second, it would be better to organize some simple team games after the walk."
-            },
-            {
-              "en": "encourage interaction among members",
-              "vi": "khuyến khích tương tác giao lưu giữa các hội viên",
-              "example": "Team challenges encourage interaction and friendly conversation."
-            },
-            {
-              "en": "pair newcomers with experienced members",
-              "vi": "ghép cặp người mới với các thành viên kỳ cựu",
-              "example": "We could pair newcomers with experienced members to create a welcoming vibe."
-            }
-          ]
-        },
-        {
-          "name": "4. Đề xuất 3: Hậu cần & Khích lệ (Logistics & Incentives)",
-          "icon": "BookOpen",
-          "items": [
-            {
-              "en": "prepare healthy drinks and snacks for everyone",
-              "vi": "chuẩn bị đồ uống tốt cho sức khỏe và đồ ăn nhẹ bồi dưỡng",
-              "example": "Finally, we could prepare healthy drinks and fresh fruit for everyone."
-            },
-            {
-              "en": "award certificates or small souvenir badges",
-              "vi": "trao chứng nhận hoặc huy hiệu kỷ niệm lưu niệm",
-              "example": "We could award completion badges to members who join consistently."
-            },
-            {
-              "en": "make a positive difference and help the club achieve its objectives",
-              "vi": "tạo nên sự khác biệt tích cực và giúp CLB đạt được mục tiêu",
-              "example": "Overall, I am confident that these measures will make a positive difference."
-            }
-          ]
-        }
       ],
       "samples": [
             {
@@ -474,48 +417,49 @@ export const part4Data = {
       "maxWords": 65,
       "template": "Dear Alex,\nHow's it going? I hope you're doing well.\nI thought you'd be interested to hear that our Fitness Club is planning to increase the membership fee by 15% to upgrade equipment. I was quite surprised when I found out about it. Personally, I think it is reasonable because our current machines are quite outdated. Moreover, we should renew our annual pass together to get a discount.\nI would love to know what you think about this. Hope to hear from you soon.\nTake care,\n[Tên của bạn]",
       "vocabCategories": [
-        {
-          "name": "1. Bày tỏ Cảm xúc (Emotions)",
-          "icon": "Sparkles",
-          "items": [
             {
-              "en": "quite surprised",
-              "vi": "khá bất ngờ",
-              "example": "I was quite surprised by the 15% fee increase."
+                  "name": "1. Bày tỏ Cảm xúc (Emotions)",
+                  "items": [
+                        {
+                              "en": "quite surprised and concerned",
+                              "vi": "khá ngạc nhiên và lo lắng"
+                        },
+                        {
+                              "en": "a bit worried",
+                              "vi": "hơi lo lắng một chút"
+                        },
+                        {
+                              "en": "deeply concerned",
+                              "vi": "rất băn khoăn và quan ngại"
+                        }
+                  ]
             },
             {
-              "en": "a bit concerned",
-              "vi": "hơi băn khoăn một chút",
-              "example": "I was a bit concerned about our monthly budget."
+                  "name": "2. [ý kiến & lý do] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "this price adjustment is reasonable because upgrading gym equipment requires funding",
+                              "vi": "việc điều chỉnh phí là hợp lý vì nâng cấp máy tập chất lượng đòi hỏi chi phí"
+                        },
+                        {
+                              "en": "an immediate 15% increase is too steep because many students have tight budgets",
+                              "vi": "tăng ngay 15% là quá cao vì nhiều học sinh sinh viên có ngân sách eo hẹp"
+                        }
+                  ]
             },
             {
-              "en": "excited about new equipment",
-              "vi": "hào hứng với các máy tập mới",
-              "example": "However, I am excited about testing the new cardio machines."
+                  "name": "3. [phát triển thêm ý] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "we should renew our memberships early before the new fee takes effect",
+                              "vi": "chúng mình nên gia hạn thẻ tập sớm trước khi biểu phí mới có hiệu lực"
+                        },
+                        {
+                              "en": "we can suggest that the club offer student discount packages",
+                              "vi": "chúng mình có thể đề xuất CLB áp dụng các gói giảm giá cho sinh viên"
+                        }
+                  ]
             }
-          ]
-        },
-        {
-          "name": "2. Quan điểm & Lý do (Opinion & Reasons)",
-          "icon": "CheckCircle2",
-          "items": [
-            {
-              "en": "it is totally reasonable",
-              "vi": "điều đó hoàn toàn hợp lý",
-              "example": "Personally, I think the fee rise is totally reasonable because the old machines break down often."
-            },
-            {
-              "en": "worth the extra money",
-              "vi": "rất xứng đáng với số tiền bỏ thêm",
-              "example": "Better facilities are definitely worth the extra money."
-            },
-            {
-              "en": "renew our membership early for discounts",
-              "vi": "gia hạn thẻ tập sớm để nhận chiết khấu",
-              "example": "Moreover, we should renew our package together for a discount."
-            }
-          ]
-        }
       ],
       "samples": [
             {
@@ -535,54 +479,45 @@ export const part4Data = {
       "maxWords": 165,
       "template": "Dear Club Manager,\nMy name is [tên người gửi], and I have been a member of the club for [thời gian: two years]. During this time, I have had the opportunity to participate in a wide range of meaningful activities, which have greatly enriched my experience and personal development.\nI am writing in response to your email to share my thoughts and offer several practical suggestions regarding [vấn đề: the proposed 15% fee increase and equipment upgrade]. I think [quan điểm: this is an important issue].\nTo help [mục tiêu: maintain member satisfaction and ensure high retention], I would like to make a few suggestions. First, we should [đề xuất 1: prioritize modern cardio machines and multi-functional weight racks]. Second, it would be better to [đề xuất 2: offer loyalty discounts for existing members before applying the new rate]. Finally, we could [đề xuất 3: introduce complimentary weekend yoga or group fitness classes]. Overall, I am confident that these suggestions would make a positive difference and help the club achieve its objectives.\nThank you for taking the time to consider my suggestions. I sincerely hope they will be taken into consideration, and I look forward to your response.\nBest regards,\n[Tên của bạn]",
       "vocabCategories": [
-        {
-          "name": "1. Đề xuất về Thiết bị (Equipment)",
-          "icon": "Sparkles",
-          "items": [
             {
-              "en": "prioritize modern cardio machines",
-              "vi": "ưu tiên sắm các máy tập tim mạch hiện đại",
-              "example": "First, we should prioritize modern cardio machines such as smart treadmills."
+                  "name": "1. Đề xuất 1: [đề xuất thứ nhất] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "the club should prioritize modern cardio machines and replace outdated treadmills first",
+                              "vi": "CLB nên ưu tiên nâng cấp máy cardio hiện đại và thay thế máy chạy bộ đã cũ trước"
+                        },
+                        {
+                              "en": "we should conduct a member survey to determine which workout equipment needs urgent replacement",
+                              "vi": "chúng ta nên khảo sát hội viên để xem thiết bị tập luyện nào cần thay thế gấp nhất"
+                        }
+                  ]
             },
             {
-              "en": "replace outdated treadmills and weights",
-              "vi": "thay thế máy chạy bộ và tạ đã quá cũ",
-              "example": "Replacing outdated machines ensures member safety and workout efficiency."
-            }
-          ]
-        },
-        {
-          "name": "2. Đề xuất về Chính sách Phí (Pricing Policies)",
-          "icon": "CheckCircle2",
-          "items": [
-            {
-              "en": "offer loyalty discounts for long-term members",
-              "vi": "dành chiết khấu tri ân cho hội viên lâu năm",
-              "example": "Second, it would be better to offer loyalty discounts for existing members."
+                  "name": "2. Đề xuất 2: [đề xuất thứ hai] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "it would be highly beneficial to offer a 10% loyalty discount for existing long-term members",
+                              "vi": "sẽ rất có lợi nếu dành mức chiết khấu tri ân 10% cho các hội viên lâu năm"
+                        },
+                        {
+                              "en": "the management should implement a gradual fee transition instead of an abrupt increase",
+                              "vi": "ban quản lý nên áp dụng lộ trình tăng phí từng bước thay vì tăng đột ngột"
+                        }
+                  ]
             },
             {
-              "en": "implement a gradual price transition",
-              "vi": "áp dụng lộ trình tăng giá dần dần theo từng giai đoạn",
-              "example": "A gradual price transition helps members adjust comfortably."
+                  "name": "3. Đề xuất 3: [đề xuất thứ ba] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "we could introduce complimentary weekend yoga and spinning classes to add value to our memberships",
+                              "vi": "chúng ta có thể bổ sung các lớp yoga và đạp xe nhóm miễn phí cuối tuần để tăng giá trị thẻ tập"
+                        },
+                        {
+                              "en": "the club could provide free monthly body composition assessments with certified trainers",
+                              "vi": "CLB có thể đo chỉ số thể hình miễn phí hàng tháng với huấn luyện viên chuyên nghiệp"
+                        }
+                  ]
             }
-          ]
-        },
-        {
-          "name": "3. Đề xuất về Giá trị cộng thêm (Added Value)",
-          "icon": "BookOpen",
-          "items": [
-            {
-              "en": "introduce complimentary group fitness classes",
-              "vi": "bổ sung các lớp tập nhóm miễn phí (Yoga, Zumba)",
-              "example": "Finally, we could introduce complimentary group classes every weekend."
-            },
-            {
-              "en": "provide free body composition assessments",
-              "vi": "cung cấp dịch vụ đo chỉ số cơ thể định kỳ miễn phí",
-              "example": "Providing free body composition assessments creates immense added value."
-            }
-          ]
-        }
       ],
       "samples": [
             {
@@ -613,48 +548,49 @@ export const part4Data = {
       "maxWords": 65,
       "template": "Dear [Tên bạn],\nHow's it going? I hope you're doing well.\nI thought you'd be interested to hear that our Art Club is organizing a public talk with a guest artist. I was quite excited when I found out about it. Personally, I think we should invite painter Minh to talk about watercolor painting because his art appeals to all ages. Moreover, let's attend the talk together next weekend.\nI would love to know what you think about this. Hope to hear from you soon.\nTake care,\n[Tên của bạn]",
       "vocabCategories": [
-        {
-          "name": "1. Bày tỏ Cảm xúc (Emotions)",
-          "icon": "Sparkles",
-          "items": [
             {
-              "en": "quite excited",
-              "vi": "khá hào hứng",
-              "example": "I was quite excited when I heard about the upcoming public art talk."
+                  "name": "1. Bày tỏ Cảm xúc (Emotions)",
+                  "items": [
+                        {
+                              "en": "quite excited",
+                              "vi": "khá hào hứng"
+                        },
+                        {
+                              "en": "absolutely thrilled",
+                              "vi": "cực kỳ phấn khích"
+                        },
+                        {
+                              "en": "truly delighted",
+                              "vi": "thực sự rất vui mừng"
+                        }
+                  ]
             },
             {
-              "en": "delighted",
-              "vi": "rất vui mừng",
-              "example": "I am delighted that our club is inviting a guest artist."
+                  "name": "2. [ý kiến & lý do] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "inviting a professional artist is wonderful because it will inspire our creative passion",
+                              "vi": "mời họa sĩ chuyên nghiệp là rất tuyệt vì sẽ truyền cảm hứng sáng tạo cho chúng mình"
+                        },
+                        {
+                              "en": "this public talk is very practical because we can learn real-world oil painting techniques",
+                              "vi": "buổi nói chuyện rất thực tế vì chúng mình có thể học kỹ thuật vẽ sơn dầu thực tế"
+                        }
+                  ]
             },
             {
-              "en": "truly inspired",
-              "vi": "thực sự được truyền cảm hứng",
-              "example": "I feel truly inspired by this creative initiative."
+                  "name": "3. [phát triển thêm ý] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "we should register early so we can secure front-row seats",
+                              "vi": "chúng mình nên đăng ký sớm để giữ được vị trí ở hàng ghế đầu"
+                        },
+                        {
+                              "en": "we can prepare a sketchbook to join the hands-on drawing session",
+                              "vi": "chúng mình có thể mang sổ phác thảo để tham gia vẽ trực tiếp"
+                        }
+                  ]
             }
-          ]
-        },
-        {
-          "name": "2. Gợi ý Nghệ sĩ & Chủ đề (Artist & Topic)",
-          "icon": "CheckCircle2",
-          "items": [
-            {
-              "en": "watercolor and oil painting",
-              "vi": "tranh màu nước và sơn dầu",
-              "example": "He could share his techniques in watercolor and oil painting."
-            },
-            {
-              "en": "bridge the gap between traditional and modern art",
-              "vi": "thu hẹp khoảng cách giữa nghệ thuật truyền thống và hiện đại",
-              "example": "The talk can bridge the gap between traditional and contemporary art."
-            },
-            {
-              "en": "appeal to both youngsters and seniors",
-              "vi": "thu hút cả giới trẻ và người lớn tuổi",
-              "example": "Watercolor landscapes easily appeal to both youngsters and seniors."
-            }
-          ]
-        }
       ],
       "samples": [
             {
@@ -674,54 +610,45 @@ export const part4Data = {
       "maxWords": 165,
       "template": "Dear Club President,\nMy name is [tên người gửi], and I have been a member of the club for [thời gian: two years]. During this time, I have had the opportunity to participate in a wide range of meaningful activities, which have greatly enriched my experience and personal development.\nI am writing in response to your email to share my thoughts and offer several practical suggestions regarding the public talk and guest artist invitation. I think this is a great idea.\nTo help attract both young and elderly members to the talk, I would like to make a few suggestions. First, we should invite a renowned local artist who specializes in blending traditional techniques with contemporary styles. Second, it would be better to focus the discussion on \"Art for Everyday Wellbeing\", which resonates across all generations. Finally, we could set up a 30-minute hands-on sketching session so attendees can practice alongside the speaker. Overall, I am confident that these suggestions would make a positive difference and help the club achieve its objectives.\nThank you for taking the time to consider my suggestions. I sincerely hope they will be taken into consideration, and I look forward to your response.\nBest regards,\n[Tên của bạn]",
       "vocabCategories": [
-        {
-          "name": "1. Đề xuất 1: Nghệ sĩ khách mời (Guest Artist)",
-          "icon": "Sparkles",
-          "items": [
             {
-              "en": "invite a renowned local artist",
-              "vi": "mời một nghệ sĩ địa phương danh tiếng",
-              "example": "First, we should invite a renowned local artist with great public charisma."
+                  "name": "1. Đề xuất 1: [đề xuất thứ nhất] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "we should invite an acclaimed local painter who specializes in contemporary watercolor art",
+                              "vi": "chúng ta nên mời họa sĩ địa phương nổi tiếng chuyên về tranh màu nước đương đại"
+                        },
+                        {
+                              "en": "the club should invite a versatile artist who can bridge classical and modern painting styles",
+                              "vi": "CLB nên mời nghệ sĩ có khả năng kết nối phong cách hội họa cổ điển và hiện đại"
+                        }
+                  ]
             },
             {
-              "en": "blend traditional techniques with contemporary styles",
-              "vi": "kết hợp kỹ thuật truyền thống với phong cách đương đại",
-              "example": "Blending traditional methods with modern themes attracts both generations."
-            }
-          ]
-        },
-        {
-          "name": "2. Đề xuất 2: Chủ đề nói chuyện (Topic Selection)",
-          "icon": "CheckCircle2",
-          "items": [
-            {
-              "en": "focus on Art for Everyday Wellbeing",
-              "vi": "tập trung vào chủ đề Nghệ thuật cho Sức khỏe Tinh thần Hàng ngày",
-              "example": "Second, it would be better to focus on Art for Everyday Wellbeing."
+                  "name": "2. Đề xuất 2: [đề xuất thứ hai] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "the presentation should focus on practical painting methods and daily artistic wellbeing",
+                              "vi": "bài nói chuyện nên tập trung vào phương pháp vẽ thực hành và nghệ thuật thư giãn hàng ngày"
+                        },
+                        {
+                              "en": "it would be ideal to explore how beginner painters can discover their unique artistic voices",
+                              "vi": "sẽ rất lý tưởng nếu chia sẻ cách người mới bắt đầu có thể tìm ra phong cách hội họa riêng"
+                        }
+                  ]
             },
             {
-              "en": "resonate across all generations",
-              "vi": "tạo được sự đồng cảm sâu sắc ở mọi lứa tuổi",
-              "example": "Mental relaxation through painting resonates strongly across all age groups."
+                  "name": "3. Đề xuất 3: [đề xuất thứ ba] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "we could dedicate the final 45 minutes to a hands-on live sketching workshop",
+                              "vi": "chúng ta có thể dành 45 phút cuối cho buổi thực hành phác thảo trực tiếp"
+                        },
+                        {
+                              "en": "the club could hold a mini exhibition displaying attendees' artwork right after the talk",
+                              "vi": "CLB có thể tổ chức triển lãm nhỏ trưng bày tranh của người tham dự ngay sau sự kiện"
+                        }
+                  ]
             }
-          ]
-        },
-        {
-          "name": "3. Đề xuất 3: Trải nghiệm thực tế (Interactive Workshop)",
-          "icon": "BookOpen",
-          "items": [
-            {
-              "en": "set up a hands-on sketching session",
-              "vi": "tổ chức một phần thực hành phác thảo trực tiếp",
-              "example": "Finally, we could set up a hands-on sketching session for participants."
-            },
-            {
-              "en": "encourage active creative participation",
-              "vi": "khuyến khích sự tham gia sáng tạo tích cực",
-              "example": "Hands-on activities turn passive listeners into active participants."
-            }
-          ]
-        }
       ],
       "samples": [
             {
@@ -752,43 +679,49 @@ export const part4Data = {
       "maxWords": 65,
       "template": "Dear [Tên bạn],\nHow's it going? I hope you're doing well.\nI thought you'd be interested to hear that our Food Club needs volunteer speakers for a talk show with a famous chef. I was quite excited when I found out about it. Personally, I think I will volunteer to talk about quick healthy home-cooked meals because students need practical nutrition tips. Moreover, could you help me prepare my presentation slides?\nI would love to know what you think about this. Hope to hear from you soon.\nTake care,\n[Tên của bạn]",
       "vocabCategories": [
-        {
-          "name": "1. Bày tỏ Cảm xúc (Emotions)",
-          "icon": "Sparkles",
-          "items": [
             {
-              "en": "quite excited",
-              "vi": "khá hào hứng",
-              "example": "I was quite excited to hear about the chef talk show."
+                  "name": "1. Bày tỏ Cảm xúc (Emotions)",
+                  "items": [
+                        {
+                              "en": "quite excited",
+                              "vi": "khá hào hứng"
+                        },
+                        {
+                              "en": "absolutely thrilled",
+                              "vi": "cực kỳ phấn khích"
+                        },
+                        {
+                              "en": "eager to participate",
+                              "vi": "rất hào hứng muốn tham gia ngay"
+                        }
+                  ]
             },
             {
-              "en": "eager to participate",
-              "vi": "rất háo hức được tham gia",
-              "example": "I am extremely eager to volunteer as a speaker."
+                  "name": "2. [ý kiến & lý do] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "this is an incredible opportunity because we can share our favorite culinary recipes",
+                              "vi": "đây là cơ hội tuyệt vời vì chúng mình có thể chia sẻ công thức nấu ăn yêu thích"
+                        },
+                        {
+                              "en": "sharing tips on healthy meal prep on a budget is ideal because it helps all students",
+                              "vi": "chia sẻ cách nấu ăn đủ chất tiết kiệm rất lý tưởng vì giúp ích cho sinh viên"
+                        }
+                  ]
+            },
+            {
+                  "name": "3. [phát triển thêm ý] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "we could team up and register as volunteer speakers together",
+                              "vi": "chúng mình có thể lập nhóm và cùng đăng ký làm diễn giả tình nguyện"
+                        },
+                        {
+                              "en": "we can prepare some homemade pastries to treat other attendees",
+                              "vi": "chúng mình có thể làm một vài món bánh tự nướng để mời mọi người thưởng thức"
+                        }
+                  ]
             }
-          ]
-        },
-        {
-          "name": "2. Chủ đề Ẩm thực đề xuất (Cooking Topics)",
-          "icon": "CheckCircle2",
-          "items": [
-            {
-              "en": "quick healthy home-cooked meals",
-              "vi": "bữa ăn gia đình nấu nhanh và lành mạnh",
-              "example": "I plan to share tips on quick healthy home-cooked meals."
-            },
-            {
-              "en": "practical nutrition on a tight budget",
-              "vi": "dinh dưỡng thực tế với chi phí tiết kiệm",
-              "example": "Students appreciate practical nutrition on a tight budget."
-            },
-            {
-              "en": "traditional family recipes with a modern twist",
-              "vi": "công thức gia truyền biến tấu theo phong cách hiện đại",
-              "example": "We can cook traditional family recipes with a modern twist."
-            }
-          ]
-        }
       ],
       "samples": [
             {
@@ -808,54 +741,45 @@ export const part4Data = {
       "maxWords": 165,
       "template": "Dear Club Manager,\nMy name is [tên người gửi], and I have been a member of the club for [thời gian: two years]. During this time, I have had the opportunity to participate in a wide range of meaningful activities, which have greatly enriched my experience and personal development.\nI am writing in response to your email to express my enthusiasm to volunteer as a guest speaker alongside the guest chef. I think this is a great idea.\nTo help make the talk show informative and engaging, I would like to make a few suggestions. First, I would love to present on \"Nutritious Family Meals on a Modest Budget\", which directly addresses our members' everyday needs. Second, it would be better to include a short 15-minute live cooking challenge where the chef and I prepare a dish using identical seasonal ingredients. Finally, we could organize a small tasting corner for the audience to evaluate the dishes. Overall, I am confident that these suggestions would make a positive difference and help the club achieve its objectives.\nThank you for taking the time to consider my suggestions. I sincerely hope they will be taken into consideration, and I look forward to your response.\nBest regards,\n[Tên của bạn]",
       "vocabCategories": [
-        {
-          "name": "1. Đề xuất 1: Đăng ký chủ đề thuyết trình (Topic)",
-          "icon": "Sparkles",
-          "items": [
             {
-              "en": "Nutritious Family Meals on a Modest Budget",
-              "vi": "Bữa cơm gia đình giàu dinh dưỡng với ngân sách tiết kiệm",
-              "example": "First, I would love to present on Nutritious Family Meals on a Modest Budget."
+                  "name": "1. Đề xuất 1: [đề xuất thứ nhất] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "I would like to volunteer as a speaker presenting 'Nutritious Family Meals on a Modest Budget'",
+                              "vi": "tôi xin tình nguyện làm diễn giả chia sẻ chủ đề 'Bữa ăn gia đình đủ chất với chi phí vừa phải'"
+                        },
+                        {
+                              "en": "the presentations should center on quick and wholesome recipes suitable for busy working people",
+                              "vi": "các bài nói nên tập trung vào công thức nấu nhanh và lành mạnh cho người bận rộn"
+                        }
+                  ]
             },
             {
-              "en": "address members' everyday culinary challenges",
-              "vi": "giải quyết những khó khăn nấu nướng hàng ngày của hội viên",
-              "example": "This topic directly addresses our members' everyday culinary challenges."
-            }
-          ]
-        },
-        {
-          "name": "2. Đề xuất 2: Nấu ăn biểu diễn trực tiếp (Live Demo)",
-          "icon": "CheckCircle2",
-          "items": [
-            {
-              "en": "include a live cooking demonstration",
-              "vi": "kết hợp phần biểu diễn nấu nướng trực tiếp",
-              "example": "Second, it would be better to include a 15-minute live cooking demonstration."
+                  "name": "2. Đề xuất 2: [đề xuất thứ hai] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "we should include a 30-minute live cooking demonstration by the celebrity chef",
+                              "vi": "chúng ta nên có phần nấu ăn biểu diễn trực tiếp 30 phút từ đầu bếp nổi tiếng"
+                        },
+                        {
+                              "en": "it would be fantastic to invite several audience members on stage to cook alongside the chef",
+                              "vi": "sẽ rất tuyệt nếu mời một vài hội viên lên sân khấu cùng nấu ăn với đầu bếp"
+                        }
+                  ]
             },
             {
-              "en": "prepare a signature dish with seasonal ingredients",
-              "vi": "chế biến món ăn đặc trưng bằng nguyên liệu theo mùa",
-              "example": "Using seasonal ingredients highlights freshness and affordability."
+                  "name": "3. Đề xuất 3: [đề xuất thứ ba] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "we could organize a tasting corner where attendees can sample freshly cooked dishes",
+                              "vi": "chúng ta có thể tổ chức góc nếm thử để mọi người thưởng thức món ăn vừa chế biến"
+                        },
+                        {
+                              "en": "the club could distribute printed recipe cards and cooking vouchers to all participants",
+                              "vi": "CLB có thể phát tờ công thức in màu và phiếu giảm giá nấu ăn cho người tham gia"
+                        }
+                  ]
             }
-          ]
-        },
-        {
-          "name": "3. Đề xuất 3: Hoạt động nếm thử (Tasting Session)",
-          "icon": "BookOpen",
-          "items": [
-            {
-              "en": "organize a tasting corner for the audience",
-              "vi": "bố trí góc nếm thử thức ăn cho khán giả",
-              "example": "Finally, we could organize a tasting corner for the audience to sample dishes."
-            },
-            {
-              "en": "create an interactive culinary experience",
-              "vi": "tạo nên trải nghiệm ẩm thực tương tác sinh động",
-              "example": "Tasting sessions always generate enthusiastic feedback."
-            }
-          ]
-        }
       ],
       "samples": [
             {
@@ -886,43 +810,49 @@ export const part4Data = {
       "maxWords": 65,
       "template": "Dear [Tên bạn],\nHow's it going? I hope you're doing well.\nI thought you'd be interested to hear that our Social Club is planning monthly face-to-face meetings for all ages. I was quite excited when I found out about it. Personally, I think Saturday mornings at a spacious garden café would be ideal because it is peaceful and accessible. Moreover, let's attend the first meetup together!\nI would love to know what you think about this. Hope to hear from you soon.\nTake care,\n[Tên của bạn]",
       "vocabCategories": [
-        {
-          "name": "1. Bày tỏ Cảm xúc (Emotions)",
-          "icon": "Sparkles",
-          "items": [
             {
-              "en": "quite excited",
-              "vi": "khá hào hứng",
-              "example": "I was quite excited about meeting everyone in person."
+                  "name": "1. Bày tỏ Cảm xúc (Emotions)",
+                  "items": [
+                        {
+                              "en": "quite excited",
+                              "vi": "khá hào hứng"
+                        },
+                        {
+                              "en": "absolutely thrilled",
+                              "vi": "cực kỳ phấn khích"
+                        },
+                        {
+                              "en": "delighted",
+                              "vi": "vui mừng"
+                        }
+                  ]
             },
             {
-              "en": "delighted",
-              "vi": "rất vui mừng",
-              "example": "I am delighted that we can finally meet face-to-face."
+                  "name": "2. [ý kiến & lý do] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "holding gatherings on Saturday mornings is ideal because members are free and relaxed",
+                              "vi": "gặp mặt sáng thứ Bảy rất lý tưởng vì hội viên rảnh rỗi và tinh thần thoải mái"
+                        },
+                        {
+                              "en": "meeting in person is much better than chatting online because it builds genuine friendships",
+                              "vi": "gặp trực tiếp tốt hơn nhắn tin online nhiều vì tạo dựng tình bạn gắn kết thực sự"
+                        }
+                  ]
+            },
+            {
+                  "name": "3. [phát triển thêm ý] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "we can suggest a cozy garden cafe near the city center with convenient parking",
+                              "vi": "chúng mình có thể đề xuất một quán cà phê sân vườn ấm cúng gần trung tâm có bãi đỗ xe"
+                        },
+                        {
+                              "en": "we should bring some popular board games like Uno to break the ice quickly",
+                              "vi": "chúng mình nên mang theo vài trò chơi như Uno để làm quen gắn kết nhanh chóng"
+                        }
+                  ]
             }
-          ]
-        },
-        {
-          "name": "2. Thời gian & Địa điểm (Time & Venue)",
-          "icon": "CheckCircle2",
-          "items": [
-            {
-              "en": "Saturday morning at a garden cafe",
-              "vi": "sáng thứ Bảy tại quán cà phê sân vườn",
-              "example": "Saturday mornings at a garden cafe offer plenty of natural light and fresh air."
-            },
-            {
-              "en": "convenient transport links and parking",
-              "vi": "giao thông thuận tiện và chỗ đỗ xe thoải mái",
-              "example": "The venue should have convenient transport links and ample parking."
-            },
-            {
-              "en": "relaxing atmosphere for all generations",
-              "vi": "bầu không khí thư giãn cho mọi thế hệ",
-              "example": "It provides a relaxing atmosphere for both students and retirees."
-            }
-          ]
-        }
       ],
       "samples": [
             {
@@ -942,54 +872,45 @@ export const part4Data = {
       "maxWords": 165,
       "template": "Dear Club President,\nMy name is [tên người gửi], and I have been a member of the club for [thời gian: two years]. During this time, I have had the opportunity to participate in a wide range of meaningful activities, which have greatly enriched my experience and personal development.\nI am writing in response to your email to share my thoughts and offer several practical suggestions regarding the monthly face-to-face meetings. I think this is a great idea.\nTo help make these meetings enjoyable and inclusive for both young and older members, I would like to make a few suggestions. First, we should schedule the gatherings on Saturday mornings from 9:00 AM to 11:00 AM, avoiding late hours. Second, it would be better to book the local community cultural center, as it features comfortable seating, wheelchair ramps, and spacious gardens. Finally, we could organize an intergenerational storytelling circle accompanied by tea and light refreshments. Overall, I am confident that these suggestions would make a positive difference and help the club achieve its objectives.\nThank you for taking the time to consider my suggestions. I sincerely hope they will be taken into consideration, and I look forward to your response.\nBest regards,\n[Tên của bạn]",
       "vocabCategories": [
-        {
-          "name": "1. Đề xuất 1: Thời gian lý tưởng (Optimal Timing)",
-          "icon": "Sparkles",
-          "items": [
             {
-              "en": "schedule gatherings on Saturday mornings",
-              "vi": "xếp lịch sinh hoạt vào sáng thứ Bảy",
-              "example": "First, we should schedule gatherings on Saturday mornings between 9:00 and 11:00 AM."
+                  "name": "1. Đề xuất 1: [đề xuất thứ nhất] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "we should schedule gatherings on Saturday mornings from 9:00 AM to 11:30 AM",
+                              "vi": "chúng ta nên tổ chức gặp mặt vào sáng thứ Bảy từ 9:00 đến 11:30 sáng"
+                        },
+                        {
+                              "en": "the club should avoid weekday evenings because many working members face heavy traffic",
+                              "vi": "CLB nên tránh tối ngày thường vì nhiều hội viên đi làm hay gặp kẹt xe"
+                        }
+                  ]
             },
             {
-              "en": "avoid late evening hours",
-              "vi": "tránh khung giờ muộn buổi tối",
-              "example": "Morning slots are convenient for families and older participants."
-            }
-          ]
-        },
-        {
-          "name": "2. Đề xuất 2: Địa điểm hòa nhập (Inclusive Venue)",
-          "icon": "CheckCircle2",
-          "items": [
-            {
-              "en": "local community cultural center",
-              "vi": "nhà văn hóa cộng đồng địa phương",
-              "example": "Second, it would be better to rent a hall at the local community cultural center."
+                  "name": "2. Đề xuất 2: [đề xuất thứ hai] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "it would be best to choose a community cultural hall with ample parking and wheelchair access",
+                              "vi": "tốt nhất nên chọn nhà văn hóa cộng đồng có bãi đỗ xe rộng và lối đi cho xe lăn"
+                        },
+                        {
+                              "en": "we should select a quiet cafe with outdoor garden seating to facilitate friendly conversations",
+                              "vi": "chúng ta nên chọn quán cà phê có sân vườn yên tĩnh để dễ trò chuyện kết nối"
+                        }
+                  ]
             },
             {
-              "en": "wheelchair ramps and peaceful garden seating",
-              "vi": "đường dốc cho xe lăn và chỗ ngồi sân vườn yên bình",
-              "example": "This venue provides accessibility ramps and peaceful garden seating."
+                  "name": "3. Đề xuất 3: [đề xuất thứ ba] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "we could host intergenerational storytelling circles where seniors and youth share life experiences",
+                              "vi": "chúng ta có thể tổ chức vòng tròn kể chuyện để người cao tuổi và giới trẻ chia sẻ trải nghiệm"
+                        },
+                        {
+                              "en": "the club could arrange structured icebreaker games and tea tastings to help newcomers integrate",
+                              "vi": "CLB có thể chuẩn bị trò chơi khởi động và tiệc trà để người mới dễ dàng hòa nhập"
+                        }
+                  ]
             }
-          ]
-        },
-        {
-          "name": "3. Đề xuất 3: Hoạt động gắn kết (Intergenerational Activities)",
-          "icon": "BookOpen",
-          "items": [
-            {
-              "en": "intergenerational storytelling circle",
-              "vi": "vòng tròn sẻ chia kể chuyện kết nối hai thế hệ",
-              "example": "Finally, we could organize an intergenerational storytelling circle over tea."
-            },
-            {
-              "en": "foster mutual understanding and genuine companionship",
-              "vi": "thúc đẩy sự thấu hiểu lẫn nhau và tình bạn chân thành",
-              "example": "Shared activities foster mutual understanding and genuine companionship."
-            }
-          ]
-        }
       ],
       "samples": [
             {
@@ -1020,22 +941,45 @@ export const part4Data = {
       "maxWords": 65,
       "template": "Dear [Tên bạn],\nHow's it going? I hope you're doing well.\nI thought you'd be interested to hear that our Social Club is planning face-to-face meetings for both kids and adults next month. I was quite excited when I found out about it. Personally, I think combining indoor and outdoor activities at an eco-park is the best choice because children can run around while adults chat comfortably inside. Moreover, let's bring our families along!\nI would love to know what you think about this. Hope to hear from you soon.\nTake care,\n[Tên của bạn]",
       "vocabCategories": [
-        {
-          "name": "1. Bày tỏ Cảm xúc & Quan điểm",
-          "icon": "Sparkles",
-          "items": [
             {
-              "en": "quite excited",
-              "vi": "khá hào hứng",
-              "example": "I was quite excited about bringing the whole family."
+                  "name": "1. Bày tỏ Cảm xúc (Emotions)",
+                  "items": [
+                        {
+                              "en": "quite excited",
+                              "vi": "khá hào hứng"
+                        },
+                        {
+                              "en": "absolutely thrilled",
+                              "vi": "cực kỳ phấn khích"
+                        }
+                  ]
             },
             {
-              "en": "combining both indoor and outdoor activities",
-              "vi": "kết hợp cả hoạt động trong nhà lẫn ngoài trời",
-              "example": "Combining both indoor and outdoor activities satisfies diverse preferences."
+                  "name": "2. [ý kiến & lý do] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "inviting both adults and children is wonderful because entire families can bond together",
+                              "vi": "mời cả người lớn và trẻ em rất tuyệt vì cả gia đình có thể cùng nhau gắn kết"
+                        },
+                        {
+                              "en": "an outdoor venue is the best choice because children need spacious green areas to play",
+                              "vi": "địa điểm ngoài trời là tốt nhất vì các bé cần không gian xanh rộng rãi để vui chơi"
+                        }
+                  ]
+            },
+            {
+                  "name": "3. [phát triển thêm ý] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "we could organize a family picnic with outdoor relay games in the central park",
+                              "vi": "chúng mình có thể tổ chức buổi dã ngoại gia đình với trò chơi tiếp sức ở công viên"
+                        },
+                        {
+                              "en": "we should bring our younger siblings along so they can socialize and play together",
+                              "vi": "chúng mình nên rủ các em nhỏ đi cùng để chúng cùng làm quen và vui chơi"
+                        }
+                  ]
             }
-          ]
-        }
       ],
       "samples": [
             {
@@ -1055,54 +999,45 @@ export const part4Data = {
       "maxWords": 165,
       "template": "Dear Club Manager,\nMy name is [tên người gửi], and I have been a member of the club for [thời gian: two years]. During this time, I have had the opportunity to participate in a wide range of meaningful activities, which have greatly enriched my experience and personal development.\nI am writing in response to your email to share my thoughts and offer several practical suggestions regarding our upcoming face-to-face gatherings. I believe that organizing both indoor and outdoor activities would be a much better choice.\nTo help make these events successful and inclusive for both children and adults, I would like to make a few suggestions. First, we should reserve a municipal botanical garden pavilion that offers both expansive lawns and a weather-proof indoor hall. Second, it would be better to divide the schedule: outdoor team games and sports for children and youth, alongside indoor discussions and workshops for adults. Finally, we could arrange healthy buffet refreshments and have a contingency plan for unexpected rain. Overall, I am confident that these suggestions would make a positive difference and help the club achieve its objectives.\nThank you for taking the time to consider my suggestions. I sincerely hope they will be taken into consideration, and I look forward to your response.\nBest regards,\n[Tên của bạn]",
       "vocabCategories": [
-        {
-          "name": "1. Đề xuất 1: Địa điểm tích hợp (Hybrid Venue)",
-          "icon": "Sparkles",
-          "items": [
             {
-              "en": "reserve a botanical garden pavilion",
-              "vi": "đặt trước một khu nhà chòi tại vườn bách thảo",
-              "example": "First, we should reserve a botanical garden pavilion with indoor and outdoor access."
+                  "name": "1. Đề xuất 1: [đề xuất thứ nhất] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "the club should select a hybrid community park that offers both shaded pavilions and safe lawns",
+                              "vi": "CLB nên chọn công viên có cả mái che râm mát lẫn thảm cỏ an toàn cho trẻ em"
+                        },
+                        {
+                              "en": "we should choose a community center adjacent to a public playground for maximum convenience",
+                              "vi": "chúng ta nên chọn nhà sinh hoạt cộng đồng liền kề sân chơi để thuận tiện nhất"
+                        }
+                  ]
             },
             {
-              "en": "offer expansive lawns and weather-proof indoor halls",
-              "vi": "có bãi cỏ rộng rãi và hội trường trong nhà tránh mưa nắng",
-              "example": "This venue offers expansive lawns and a weather-proof indoor hall."
-            }
-          ]
-        },
-        {
-          "name": "2. Đề xuất 2: Phân chia hoạt động theo lứa tuổi (Age-tailored Activities)",
-          "icon": "CheckCircle2",
-          "items": [
-            {
-              "en": "outdoor team games and sports for children",
-              "vi": "trò chơi đồng đội và thể thao ngoài trời cho trẻ em",
-              "example": "Second, it would be better to schedule outdoor team games for children."
+                  "name": "2. Đề xuất 2: [đề xuất thứ hai] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "it would be highly beneficial to organize separate activity corners for children while parents converse",
+                              "vi": "sẽ rất hữu ích nếu mở các góc hoạt động riêng cho bé trong khi phụ huynh trò chuyện"
+                        },
+                        {
+                              "en": "we ought to designate volunteer supervisors to host drawing contests and treasure hunts for kids",
+                              "vi": "chúng ta nên cử tình nguyện viên phụ trách thi vẽ tranh và truy tìm kho báu cho các bé"
+                        }
+                  ]
             },
             {
-              "en": "indoor workshops and networking for adults",
-              "vi": "hội thảo và giao lưu trong nhà cho người lớn",
-              "example": "Meanwhile, adults can participate in indoor workshops and calm discussions."
+                  "name": "3. Đề xuất 3: [đề xuất thứ ba] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "we could prepare a comprehensive first-aid kit and establish a sheltered indoor backup plan",
+                              "vi": "chúng ta có thể chuẩn bị sẵn hộp y tế và phương án phòng trong nhà dự phòng khi mưa"
+                        },
+                        {
+                              "en": "the club could encourage each family to bring a signature homemade snack for a communal potluck",
+                              "vi": "CLB có thể khuyến khích mỗi gia đình mang một món ăn nhẹ để tiệc ngọt thêm phong phú"
+                        }
+                  ]
             }
-          ]
-        },
-        {
-          "name": "3. Đề xuất 3: Hậu cần & Kế hoạch dự phòng (Logistics & Contingency)",
-          "icon": "BookOpen",
-          "items": [
-            {
-              "en": "prepare contingency plans for adverse weather",
-              "vi": "chuẩn bị kế hoạch dự phòng khi thời tiết bất lợi",
-              "example": "Finally, we must prepare contingency plans for adverse weather."
-            },
-            {
-              "en": "cater healthy finger food and refreshments",
-              "vi": "phục vụ đồ ăn nhẹ lành mạnh và nước giải khát",
-              "example": "Catering healthy finger foods keeps both youngsters and seniors energized."
-            }
-          ]
-        }
       ],
       "samples": [
             {
@@ -1133,27 +1068,49 @@ export const part4Data = {
       "maxWords": 65,
       "template": "Dear [Tên bạn],\nHow's it going? I hope you're doing well.\nI thought you'd be interested to hear that the government is proposing to demolish historic buildings for modern blocks. I was quite disappointed when I found out about it. Personally, I think old buildings give our city unique soul and cultural heritage that modern concrete blocks cannot replace. Moreover, we should start a petition to preserve them.\nI would love to know what you think about this. Hope to hear from you soon.\nTake care,\n[Tên của bạn]",
       "vocabCategories": [
-        {
-          "name": "1. Cảm xúc & Di sản văn hóa",
-          "icon": "Sparkles",
-          "items": [
             {
-              "en": "quite disappointed",
-              "vi": "khá thất vọng",
-              "example": "I was quite disappointed by the demolition plan."
+                  "name": "1. Bày tỏ Cảm xúc (Emotions)",
+                  "items": [
+                        {
+                              "en": "quite shocked and upset",
+                              "vi": "khá sốc và bức xúc"
+                        },
+                        {
+                              "en": "deeply concerned",
+                              "vi": "vô cùng lo ngại"
+                        },
+                        {
+                              "en": "quite surprised and saddened",
+                              "vi": "khá bất ngờ và buồn bã"
+                        }
+                  ]
             },
             {
-              "en": "unique soul and cultural heritage",
-              "vi": "cái hồn độc đáo và di sản văn hóa",
-              "example": "Old buildings give our city its unique soul and cultural heritage."
+                  "name": "2. [ý kiến & lý do] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "these historic buildings hold great cultural value because they represent our architectural identity",
+                              "vi": "các công trình này có giá trị văn hóa lớn vì đại diện cho bản sắc kiến trúc thành phố"
+                        },
+                        {
+                              "en": "demolishing our architectural heritage is a tragic mistake because historic charm cannot be rebuilt",
+                              "vi": "phá bỏ di sản kiến trúc là sai lầm đáng tiếc vì nét cổ kính không thể xây dựng lại"
+                        }
+                  ]
             },
             {
-              "en": "modern concrete blocks",
-              "vi": "những khối bê tông hiện đại",
-              "example": "Modern concrete blocks lack character and charm."
+                  "name": "3. [phát triển thêm ý] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "we should sign the petition to urge the authorities to preserve and renovate them instead",
+                              "vi": "chúng mình nên ký vào đơn thỉnh nguyện kêu gọi chính quyền bảo tồn và tu sửa thay vì phá bỏ"
+                        },
+                        {
+                              "en": "we could visit the historic street this weekend to take commemorative photographs",
+                              "vi": "chúng mình có thể đến khu phố cổ cuối tuần này để chụp ảnh kỷ niệm"
+                        }
+                  ]
             }
-          ]
-        }
       ],
       "samples": [
             {
@@ -1173,54 +1130,45 @@ export const part4Data = {
       "maxWords": 165,
       "template": "Dear Club President,\nMy name is [tên người gửi], and I have been a member of the club for [thời gian: two years]. During this time, I have had the opportunity to participate in a wide range of meaningful activities, which have greatly enriched my experience and personal development.\nI am writing in response to your email to share my perspective regarding the government's proposal to replace old buildings with modern high-rises. I think this is an important issue.\nTo help balance urban development with heritage conservation, I would like to make a few suggestions. First, we should conduct a thorough architectural assessment to preserve buildings with significant historical and artistic value. Second, it would be better to advocate for adaptive reuse, upgrading old interiors with modern energy-efficient amenities while retaining vintage facades. Finally, we could advise the authorities to direct large modern apartment projects toward designated suburban zones. Overall, I am confident that these suggestions would make a positive difference and help the club achieve its objectives.\nThank you for taking the time to consider my suggestions. I sincerely hope they will be taken into consideration, and I look forward to your response.\nBest regards,\n[Tên của bạn]",
       "vocabCategories": [
-        {
-          "name": "1. Đề xuất 1: Đánh giá phân loại di sản (Assessment)",
-          "icon": "Sparkles",
-          "items": [
             {
-              "en": "conduct a thorough architectural assessment",
-              "vi": "tiến hành đánh giá kiến trúc kỹ lưỡng",
-              "example": "First, we should conduct a thorough architectural assessment before any demolition."
+                  "name": "1. Đề xuất 1: [đề xuất thứ nhất] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "the club should submit an official petition to evaluate and protect buildings with historic value",
+                              "vi": "CLB nên gửi văn bản kiến nghị chính thức để đánh giá và bảo vệ các công trình có giá trị lịch sử"
+                        },
+                        {
+                              "en": "we should consult urban conservation architects before any demolition decisions are finalized",
+                              "vi": "chúng ta nên tham vấn các kiến trúc sư bảo tồn đô thị trước khi ra quyết định phá dỡ"
+                        }
+                  ]
             },
             {
-              "en": "preserve buildings with significant historical value",
-              "vi": "bảo tồn các công trình có giá trị lịch sử quan trọng",
-              "example": "Preserving historical landmarks protects the cultural soul of the city."
-            }
-          ]
-        },
-        {
-          "name": "2. Đề xuất 2: Cải tạo thích ứng (Adaptive Reuse)",
-          "icon": "CheckCircle2",
-          "items": [
-            {
-              "en": "advocate for adaptive reuse and interior renovation",
-              "vi": "vận động cải tạo thích ứng và làm mới nội thất",
-              "example": "Second, it would be better to advocate for adaptive reuse rather than total destruction."
+                  "name": "2. Đề xuất 2: [đề xuất thứ hai] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "it would be better to promote adaptive reuse, modernizing interior utilities while preserving historic facades",
+                              "vi": "sẽ tốt hơn nếu áp dụng cải tạo thích ứng: hiện đại hóa nội thất nhưng giữ nguyên mặt tiền cổ kính"
+                        },
+                        {
+                              "en": "the city should convert vintage structures into community cultural spaces, museums, or heritage cafes",
+                              "vi": "thành phố nên chuyển đổi các tòa nhà cổ thành không gian văn hóa, bảo tàng hoặc quán cà phê"
+                        }
+                  ]
             },
             {
-              "en": "retain vintage facades while upgrading amenities",
-              "vi": "giữ lại mặt tiền cổ kính trong khi nâng cấp tiện nghi hiện đại",
-              "example": "Retaining vintage facades preserves aesthetic charm while ensuring safety."
+                  "name": "3. Đề xuất 3: [đề xuất thứ ba] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "we could recommend that high-density modern residential blocks be prioritized in newly developing suburban areas",
+                              "vi": "chúng ta có thể đề xuất xây chung cư cao tầng tại các khu đô thị mới ven thành phố"
+                        },
+                        {
+                              "en": "the club should organize public photo exhibitions to raise civic awareness regarding architectural preservation",
+                              "vi": "CLB nên tổ chức triển lãm ảnh để nâng cao nhận thức cộng đồng về bảo tồn kiến trúc"
+                        }
+                  ]
             }
-          ]
-        },
-        {
-          "name": "3. Đề xuất 3: Quy hoạch phát triển (Zoning Policy)",
-          "icon": "BookOpen",
-          "items": [
-            {
-              "en": "direct high-density modern blocks toward suburban zones",
-              "vi": "hướng các khối chung cư hiện đại mật độ cao về vùng ngoại ô",
-              "example": "Finally, modern high-rises should be built in designated expansion zones."
-            },
-            {
-              "en": "balance urban modernization with cultural conservation",
-              "vi": "cân bằng giữa hiện đại hóa đô thị với bảo tồn văn hóa",
-              "example": "We must strike a balance between modernization and conservation."
-            }
-          ]
-        }
       ],
       "samples": [
             {
@@ -1251,27 +1199,45 @@ export const part4Data = {
       "maxWords": 65,
       "template": "Dear [Tên bạn],\nHow's it going? I hope you're doing well.\nI thought you'd be interested to hear that our Living Home Club is discussing advice for young homebuyers. I was quite interested when I found out about it. Personally, I think youngsters should avoid heavy mortgage debt and build a stable emergency fund before buying. Moreover, renting first allows them greater flexibility to explore careers.\nI would love to know what you think about this. Hope to hear from you soon.\nTake care,\n[Tên của bạn]",
       "vocabCategories": [
-        {
-          "name": "1. Lời khuyên tài chính cho người trẻ",
-          "icon": "Sparkles",
-          "items": [
             {
-              "en": "avoid heavy mortgage debt",
-              "vi": "tránh gánh nặng nợ vay mua nhà quá lớn",
-              "example": "Youngsters should avoid heavy mortgage debt early in their careers."
+                  "name": "1. Bày tỏ Cảm xúc (Emotions)",
+                  "items": [
+                        {
+                              "en": "quite intrigued",
+                              "vi": "khá tò mò và hứng thú"
+                        },
+                        {
+                              "en": "quite interested",
+                              "vi": "rất quan tâm"
+                        }
+                  ]
             },
             {
-              "en": "build a stable emergency fund",
-              "vi": "xây dựng quỹ dự phòng tài chính ổn định",
-              "example": "It is essential to build an emergency fund before making large purchases."
+                  "name": "2. [ý kiến & lý do] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "buying a house too early carries high risks because mortgage payments create huge financial stress",
+                              "vi": "mua nhà quá sớm mang lại rủi ro lớn vì nợ vay ngân hàng gây áp lực tài chính đè nặng"
+                        },
+                        {
+                              "en": "renting an apartment gives young people flexibility because they can relocate easily for career growth",
+                              "vi": "thuê nhà mang lại sự linh hoạt cho người trẻ vì dễ chuyển chỗ ở khi có cơ hội thăng tiến"
+                        }
+                  ]
             },
             {
-              "en": "career and geographic flexibility",
-              "vi": "sự linh hoạt trong sự nghiệp và địa điểm sinh sống",
-              "example": "Renting offers valuable career and geographic flexibility."
+                  "name": "3. [phát triển thêm ý] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "we should attend this seminar together to learn how to manage our personal savings wisely",
+                              "vi": "chúng mình nên cùng đi dự tọa đàm này để học cách quản lý tiền tiết kiệm thông minh"
+                        },
+                        {
+                              "en": "we can share some practical financial planning articles with each other",
+                              "vi": "chúng mình có thể chia sẻ cho nhau một vài bài viết hay về kế hoạch tài chính"
+                        }
+                  ]
             }
-          ]
-        }
       ],
       "samples": [
             {
@@ -1291,54 +1257,45 @@ export const part4Data = {
       "maxWords": 165,
       "template": "Dear Club Manager,\nMy name is [tên người gửi], and I have been a member of the club for [thời gian: two years]. During this time, I have had the opportunity to participate in a wide range of meaningful activities, which have greatly enriched my experience and personal development.\nI am writing in response to your email to share my perspective and offer constructive recommendations regarding homeownership for young adults. I think this is an important issue.\nTo support young members in making prudent housing decisions, I would like to make a few suggestions. First, our club should organize a workshop on personal financial literacy and mortgage planning so youngsters understand long-term debt obligations. Second, it would be better to advise them to begin with smaller, affordable studio apartments rather than stretching beyond their budget for spacious houses. Finally, we could compile a legal checklist covering title deeds and contract verifications to protect first-time buyers. Overall, I am confident that these suggestions would make a positive difference and help the club achieve its objectives.\nThank you for taking the time to consider my suggestions. I sincerely hope they will be taken into consideration, and I look forward to your response.\nBest regards,\n[Tên của bạn]",
       "vocabCategories": [
-        {
-          "name": "1. Đề xuất 1: Hội thảo quản lý tài chính (Financial Literacy)",
-          "icon": "Sparkles",
-          "items": [
             {
-              "en": "organize a workshop on personal financial literacy",
-              "vi": "tổ chức hội thảo về quản lý tài chính cá nhân",
-              "example": "First, our club should organize a workshop on personal financial literacy."
+                  "name": "1. Đề xuất 1: [đề xuất thứ nhất] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "the club should invite certified financial advisors to host workshops on managing debt and mortgage interest",
+                              "vi": "CLB nên mời chuyên gia tài chính tổ chức hội thảo về quản lý nợ và tính lãi vay mua nhà"
+                        },
+                        {
+                              "en": "we should guide young members to maintain an emergency savings fund before committing to home loans",
+                              "vi": "chúng ta nên hướng dẫn người trẻ duy trì quỹ dự phòng khẩn cấp trước khi vay mua nhà"
+                        }
+                  ]
             },
             {
-              "en": "understand long-term mortgage obligations",
-              "vi": "hiểu rõ nghĩa vụ trả nợ vay mua nhà dài hạn",
-              "example": "Youngsters must understand long-term mortgage obligations before signing contracts."
-            }
-          ]
-        },
-        {
-          "name": "2. Đề xuất 2: Bắt đầu vừa sức (Affordable Starter Homes)",
-          "icon": "CheckCircle2",
-          "items": [
-            {
-              "en": "start with smaller, affordable studio apartments",
-              "vi": "bắt đầu với căn hộ studio nhỏ, vừa túi tiền",
-              "example": "Second, it would be better to advise them to start with affordable starter homes."
+                  "name": "2. Đề xuất 2: [đề xuất thứ hai] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "it would be better to encourage young buyers to target affordable starter apartments rather than luxury homes",
+                              "vi": "sẽ tốt hơn nếu khuyên người trẻ chọn các căn hộ vừa sức thay vì vay mượn mua nhà sang trọng"
+                        },
+                        {
+                              "en": "we ought to explain the benefits of renting while investing in personal skills during early career stages",
+                              "vi": "chúng ta nên phân tích lợi ích của việc thuê nhà để đầu tư phát triển kỹ năng bản thân"
+                        }
+                  ]
             },
             {
-              "en": "avoid stretching financial limits",
-              "vi": "tránh kéo căng giới hạn tài chính quá mức",
-              "example": "Stretching beyond budget leads to chronic financial stress."
+                  "name": "3. Đề xuất 3: [đề xuất thứ ba] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "we could publish a comprehensive legal guide on land titles, contracts, and property taxes for first-time buyers",
+                              "vi": "chúng ta có thể phát hành cẩm nang pháp lý về sổ đỏ, hợp đồng và thuế cho người mua lần đầu"
+                        },
+                        {
+                              "en": "the club could establish a peer mentorship group where experienced homeowners share practical lessons",
+                              "vi": "CLB có thể lập nhóm chia sẻ kinh nghiệm thực tế giữa những người đã mua nhà thành công"
+                        }
+                  ]
             }
-          ]
-        },
-        {
-          "name": "3. Đề xuất 3: Cẩm nang pháp lý (Legal Guidance)",
-          "icon": "BookOpen",
-          "items": [
-            {
-              "en": "compile a legal checklist for first-time buyers",
-              "vi": "biên soạn bảng kiểm tra pháp lý cho người mua nhà lần đầu",
-              "example": "Finally, we could compile a legal checklist covering property ownership rights."
-            },
-            {
-              "en": "protect buyers from hidden property risks",
-              "vi": "bảo vệ người mua khỏi các rủi ro pháp lý tiềm ẩn",
-              "example": "Legal advice prevents costly disputes in real estate transactions."
-            }
-          ]
-        }
       ],
       "samples": [
             {
@@ -1369,27 +1326,45 @@ export const part4Data = {
       "maxWords": 65,
       "template": "Dear [Tên bạn],\nHow's it going? I hope you're doing well.\nI thought you'd be interested to hear that Mr. Seiko's talk on Japanese gardens has been canceled due to illness, and Mr. Jones will present English gardens again. I was quite disappointed when I found out about it because I was eager to learn about bonsai. Personally, I think we should still attend to support Mr. Jones. Moreover, let's bring some garden seeds to swap!\nI would love to know what you think about this. Hope to hear from you soon.\nTake care,\n[Tên của bạn]",
       "vocabCategories": [
-        {
-          "name": "1. Cảm xúc & Sự thay đổi kế hoạch",
-          "icon": "Sparkles",
-          "items": [
             {
-              "en": "quite disappointed",
-              "vi": "khá thất vọng",
-              "example": "I was quite disappointed that the Japanese garden talk was canceled."
+                  "name": "1. Bày tỏ Cảm xúc (Emotions)",
+                  "items": [
+                        {
+                              "en": "quite disappointed",
+                              "vi": "khá thất vọng"
+                        },
+                        {
+                              "en": "a bit surprised and sad",
+                              "vi": "hơi bất ngờ và tiếc nuối"
+                        }
+                  ]
             },
             {
-              "en": "still attend to show support",
-              "vi": "vẫn tham dự để thể hiện sự ủng hộ",
-              "example": "We should still attend to show support for Mr. Jones."
+                  "name": "2. [ý kiến & lý do] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "we should still attend because Mr. Jones is an exceptional expert on English rose gardens",
+                              "vi": "chúng mình vẫn nên đi dự vì ông Jones là một chuyên gia rất giỏi về hoa hồng Anh"
+                        },
+                        {
+                              "en": "learning practical pruning skills is very useful because we can apply them to our home gardens",
+                              "vi": "học kỹ thuật cắt tỉa thực tế rất hữu ích vì chúng mình có thể áp dụng cho vườn nhà"
+                        }
+                  ]
             },
             {
-              "en": "swap flower seeds and plant cuttings",
-              "vi": "trao đổi hạt giống hoa và cành giâm cây",
-              "example": "We could swap plant cuttings and seeds after the presentation."
+                  "name": "3. [phát triển thêm ý] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "we could bring some healthy plant cuttings to swap with other garden members",
+                              "vi": "chúng mình có thể mang vài cành giâm khỏe mạnh để trao đổi với các hội viên khác"
+                        },
+                        {
+                              "en": "we should sign a get-well card wishing Mr. Seiko a speedy recovery",
+                              "vi": "chúng mình nên cùng ký thiệp chúc ông Seiko mau chóng bình phục sức khỏe"
+                        }
+                  ]
             }
-          ]
-        }
       ],
       "samples": [
             {
@@ -1409,54 +1384,45 @@ export const part4Data = {
       "maxWords": 165,
       "template": "Dear Club President,\nMy name is [tên người gửi], and I have been a member of the club for [thời gian: two years]. During this time, I have had the opportunity to participate in a wide range of meaningful activities, which have greatly enriched my experience and personal development.\nI am writing in response to your email regarding the cancellation of Mr. Seiko's lecture and the substitute talk by Mr. Jones. I think this is an appropriate temporary solution.\nTo help make Mr. Jones's presentation engaging for members who have attended his previous session, I would like to make a few suggestions. First, we could kindly ask Mr. Jones to focus on new practical tips for modern urban gardening and English cottage plants. Second, it would be better to dedicate 20 minutes for an open gardening Q&A and a seed exchange among members. Finally, the club should prepare a warm get-well card for Mr. Seiko wishing him a rapid recovery. Overall, I am confident that these suggestions would make a positive difference and help the club achieve its objectives.\nThank you for taking the time to consider my suggestions. I sincerely hope they will be taken into consideration, and I look forward to your response.\nBest regards,\n[Tên của bạn]",
       "vocabCategories": [
-        {
-          "name": "1. Đề xuất 1: Cập nhật nội dung mới (Fresh Practical Content)",
-          "icon": "Sparkles",
-          "items": [
             {
-              "en": "focus on practical tips for modern urban gardens",
-              "vi": "tập trung vào mẹo thực tế cho vườn đô thị hiện đại",
-              "example": "First, Mr. Jones could focus on practical tips for small urban spaces."
+                  "name": "1. Đề xuất 1: [đề xuất thứ nhất] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "the club should ask Mr. Jones to highlight practical pruning techniques and organic pest control methods",
+                              "vi": "CLB nên đề nghị ông Jones nhấn mạnh kỹ thuật cắt tỉa thực tế và trừ sâu sinh học"
+                        },
+                        {
+                              "en": "we should ensure the replacement presentation provides fresh insights rather than repeating last year's content",
+                              "vi": "chúng ta nên đảm bảo bài thuyết trình thay thế mang lại kiến thức mới lạ"
+                        }
+                  ]
             },
             {
-              "en": "introduce new slide photographs and seasonal techniques",
-              "vi": "bổ sung thêm hình ảnh mới và kỹ thuật chăm sóc theo mùa",
-              "example": "New slide photographs will keep the presentation fresh and engaging."
-            }
-          ]
-        },
-        {
-          "name": "2. Đề xuất 2: Trao đổi cây giống & Hỏi đáp (Interactive Exchange)",
-          "icon": "CheckCircle2",
-          "items": [
-            {
-              "en": "host a plant and seed swap session",
-              "vi": "tổ chức buổi trao đổi cây giống và hạt hoa",
-              "example": "Second, it would be better to host a plant and seed swap session."
+                  "name": "2. Đề xuất 2: [đề xuất thứ hai] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "it would be highly beneficial to set up an informal plant and seed exchange table after the lecture",
+                              "vi": "sẽ rất bổ ích nếu bố trí một bàn trao đổi cây giống và hạt giống sau buổi nói chuyện"
+                        },
+                        {
+                              "en": "the committee could host an extended 30-minute interactive Q&A session for members to ask plant care advice",
+                              "vi": "ban tổ chức có thể kéo dài phần hỏi đáp 30 phút để giải đáp thắc mắc chăm sóc cây"
+                        }
+                  ]
             },
             {
-              "en": "allot time for interactive member inquiries",
-              "vi": "dành thời lượng giải đáp thắc mắc tương tác của hội viên",
-              "example": "Allocating time for live Q&A fosters rich community interaction."
+                  "name": "3. Đề xuất 3: [đề xuất thứ ba] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "we could send a get-well gift basket and sincere card from the club wishing Mr. Seiko a swift recovery",
+                              "vi": "chúng ta có thể gửi giỏ quà và thiệp chúc từ CLB chúc ông Seiko mau khỏi bệnh"
+                        },
+                        {
+                              "en": "the club should reschedule the Japanese garden talk as soon as the speaker's health is restored",
+                              "vi": "CLB nên lên lịch lại buổi thuyết trình vườn Nhật Bản ngay khi sức khỏe diễn giả ổn định"
+                        }
+                  ]
             }
-          ]
-        },
-        {
-          "name": "3. Đề xuất 3: Thăm hỏi diễn giả ốm (Get-well Wishes)",
-          "icon": "BookOpen",
-          "items": [
-            {
-              "en": "prepare a warm get-well card for Mr. Seiko",
-              "vi": "chuẩn bị một tấm thiệp chúc mau khỏe gửi ông Seiko",
-              "example": "Finally, the club should send a heartfelt get-well card to Mr. Seiko."
-            },
-            {
-              "en": "reschedule the Japanese garden talk in the future",
-              "vi": "sắp xếp lại buổi nói chuyện vườn Nhật trong tương lai",
-              "example": "We look forward to rescheduling the lecture when he has fully recovered."
-            }
-          ]
-        }
       ],
       "samples": [
             {
@@ -1487,27 +1453,45 @@ export const part4Data = {
       "maxWords": 65,
       "template": "Dear [Tên bạn],\nHow's it going? I hope you're doing well.\nI thought you'd be interested to hear that our city is encouraging tree planting, and our Garden Club has two proposals. I was quite excited when I found out about it. Personally, I think the gardening skills workshop is the better choice because teaching people how to grow plants creates long-lasting green spaces at home. Moreover, let's attend the workshop together this weekend!\nI would love to know what you think about this. Hope to hear from you soon.\nTake care,\n[Tên của bạn]",
       "vocabCategories": [
-        {
-          "name": "1. Lựa chọn & Lý do bền vững",
-          "icon": "Sparkles",
-          "items": [
             {
-              "en": "the gardening skills workshop",
-              "vi": "buổi workshop dạy kỹ năng làm vườn",
-              "example": "I believe the gardening skills workshop yields greater benefits."
+                  "name": "1. Bày tỏ Cảm xúc (Emotions)",
+                  "items": [
+                        {
+                              "en": "quite excited",
+                              "vi": "khá hào hứng"
+                        },
+                        {
+                              "en": "absolutely thrilled",
+                              "vi": "cực kỳ phấn khích"
+                        }
+                  ]
             },
             {
-              "en": "creates long-lasting green spaces",
-              "vi": "tạo ra những không gian xanh lâu dài bền vững",
-              "example": "Teaching skills empowers citizens to create sustainable green areas."
+                  "name": "2. [ý kiến & lý do] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "hosting a gardening skills workshop is the superior choice because it empowers residents to green their balconies",
+                              "vi": "mở lớp dạy làm vườn là lựa chọn tối ưu vì giúp người dân tự phủ xanh ban công nhà mình"
+                        },
+                        {
+                              "en": "practical workshops provide long-term educational value because members can teach gardening skills to their children",
+                              "vi": "lớp học thực hành có giá trị lâu dài vì hội viên có thể dạy lại kỹ năng làm vườn cho con cái"
+                        }
+                  ]
             },
             {
-              "en": "green balcony and rooftop gardens",
-              "vi": "vườn ban công và vườn sân thượng xanh mát",
-              "example": "Members can easily grow balcony herbs and flowers."
+                  "name": "3. [phát triển thêm ý] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "we should sign up together to learn how to cultivate organic herbs on our window sills",
+                              "vi": "chúng mình nên đăng ký cùng nhau để học cách trồng thảo mộc sạch bên bậu cửa sổ"
+                        },
+                        {
+                              "en": "we could volunteer to help the organizers prepare planting soil and flowerpots",
+                              "vi": "chúng mình có thể tình nguyện giúp ban tổ chức chuẩn bị đất trồng và chậu cây"
+                        }
+                  ]
             }
-          ]
-        }
       ],
       "samples": [
             {
@@ -1527,54 +1511,45 @@ export const part4Data = {
       "maxWords": 165,
       "template": "Dear Club Manager,\nMy name is [tên người gửi], and I have been a member of the club for [thời gian: two years]. During this time, I have had the opportunity to participate in a wide range of meaningful activities, which have greatly enriched my experience and personal development.\nI am writing in response to your email regarding the city's green initiative and the two proposed projects. In my view, organizing a gardening skills workshop would be a far more impactful choice.\nTo maximize the benefits of this educational campaign, I would like to make a few suggestions. First, we should design hands-on training sessions focused on cultivating balcony gardens and caring for indoor purifying plants. Second, it would be better to distribute free starter seed kits and nutrient soil packets to all attendees. Finally, the club could initiate an online \"Green Living Challenge\" where participants share weekly progress photos of their homegrown plants. Overall, I am confident that these suggestions would make a positive difference and help the club achieve its objectives.\nThank you for taking the time to consider my suggestions. I sincerely hope they will be taken into consideration, and I look forward to your response.\nBest regards,\n[Tên của bạn]",
       "vocabCategories": [
-        {
-          "name": "1. Đề xuất 1: Khóa đào tạo thực hành (Hands-on Training)",
-          "icon": "Sparkles",
-          "items": [
             {
-              "en": "design hands-on training sessions",
-              "vi": "thiết kế các buổi đào tạo thực hành trực quan",
-              "example": "First, we should design hands-on training sessions for beginners."
+                  "name": "1. Đề xuất 1: [đề xuất thứ nhất] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "the club should organize hands-on gardening workshops guiding residents on balcony vegetable cultivation and composting",
+                              "vi": "CLB nên tổ chức các lớp thực hành hướng dẫn cư dân trồng rau ban công và ủ phân hữu cơ"
+                        },
+                        {
+                              "en": "we should invite experienced arborists to deliver practical demonstrations on soil mixing and organic pest prevention",
+                              "vi": "chúng ta nên mời chuyên gia làm vườn biểu diễn cách trộn đất và ngừa sâu bọ sinh học"
+                        }
+                  ]
             },
             {
-              "en": "cultivating balcony gardens and purifying plants",
-              "vi": "trồng vườn ban công và các loại cây lọc không khí",
-              "example": "Focusing on purifying plants is ideal for city apartments."
-            }
-          ]
-        },
-        {
-          "name": "2. Đề xuất 2: Bộ quà tặng cây giống (Starter Seed Kits)",
-          "icon": "CheckCircle2",
-          "items": [
-            {
-              "en": "distribute free starter seed kits and soil packets",
-              "vi": "phát tặng miễn phí bộ hạt giống khởi đầu và gói đất dinh dưỡng",
-              "example": "Second, it would be better to distribute free starter seed kits."
+                  "name": "2. Đề xuất 2: [đề xuất thứ hai] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "it would be highly effective to distribute free starter seed kits and nutrient soil packets to all attendees",
+                              "vi": "sẽ rất hiệu quả nếu phát tặng bộ hạt giống khởi đầu và túi đất dinh dưỡng cho người tham gia"
+                        },
+                        {
+                              "en": "the club could partner with local nurseries to provide members with discounted gardening tools and fertilizers",
+                              "vi": "CLB có thể liên kết với vườn ươm để giảm giá dụng cụ làm vườn và phân bón"
+                        }
+                  ]
             },
             {
-              "en": "encourage immediate gardening at home",
-              "vi": "khuyến khích việc bắt tay làm vườn ngay tại nhà",
-              "example": "Starter kits motivate participants to apply their knowledge right away."
+                  "name": "3. Đề xuất 3: [đề xuất thứ ba] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "we could initiate an online 'Green Living Challenge' encouraging members to share weekly growth photos on social media",
+                              "vi": "chúng ta có thể phát động thử thách 'Sống Xanh' kêu gọi hội viên chia sẻ ảnh cây lớn mỗi tuần"
+                        },
+                        {
+                              "en": "the club should arrange a weekend exhibition showcasing the best home-grown produce and miniature bonsai",
+                              "vi": "CLB nên tổ chức triển lãm cuối tuần trưng bày nông sản sạch và cây cảnh đẹp tự trồng"
+                        }
+                  ]
             }
-          ]
-        },
-        {
-          "name": "3. Đề xuất 3: Thử thách sống xanh trên mạng (Online Challenge)",
-          "icon": "BookOpen",
-          "items": [
-            {
-              "en": "initiate an online Green Living Challenge",
-              "vi": "khởi xướng thử thách Sống Xanh trực tuyến",
-              "example": "Finally, the club could initiate an online Green Living Challenge."
-            },
-            {
-              "en": "share weekly growth milestones and tips",
-              "vi": "chia sẻ hình ảnh quá trình lớn lên của cây và mẹo chăm sóc hàng tuần",
-              "example": "Weekly milestones keep participants deeply connected and motivated."
-            }
-          ]
-        }
       ],
       "samples": [
             {
@@ -1605,27 +1580,45 @@ export const part4Data = {
       "maxWords": 65,
       "template": "Dear [Tên bạn],\nHow's it going? I hope you're doing well.\nI thought you'd be interested to hear that our Sports Club is planning a sports competition for young members. I was quite excited when I found out about it. Personally, I think we should include 5-a-side football and badminton because they are popular and thrilling. Moreover, let's form a team together and start practicing!\nI would love to know what you think about this. Hope to hear from you soon.\nTake care,\n[Tên của bạn]",
       "vocabCategories": [
-        {
-          "name": "1. Môn thể thao & Tinh thần đồng đội",
-          "icon": "Sparkles",
-          "items": [
             {
-              "en": "5-a-side football and badminton",
-              "vi": "bóng đá 5 người và cầu lông",
-              "example": "We could organize 5-a-side football and badminton matches."
+                  "name": "1. Bày tỏ Cảm xúc (Emotions)",
+                  "items": [
+                        {
+                              "en": "quite excited",
+                              "vi": "khá hào hứng"
+                        },
+                        {
+                              "en": "absolutely thrilled",
+                              "vi": "cực kỳ phấn khích"
+                        }
+                  ]
             },
             {
-              "en": "form a competitive team together",
-              "vi": "cùng nhau lập một đội thi đấu",
-              "example": "Let's form a competitive team together and register early."
+                  "name": "2. [ý kiến & lý do] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "organizing badminton and mini football is brilliant because these sports foster intense teamwork",
+                              "vi": "tổ chức cầu lông và bóng đá mini rất tuyệt vì kích thích tinh thần đồng đội cao"
+                        },
+                        {
+                              "en": "competing in sports tournaments boosts our stamina and relieves study pressure effectively",
+                              "vi": "thi đấu thể thao giúp tăng sức bền thể lực và giải tỏa áp lực học tập rất tốt"
+                        }
+                  ]
             },
             {
-              "en": "boost physical health and team spirit",
-              "vi": "nâng cao thể lực và tinh thần đồng đội",
-              "example": "The tournament will boost physical health and team spirit."
+                  "name": "3. [phát triển thêm ý] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "we should form a doubles badminton team and practice together this Saturday",
+                              "vi": "chúng mình nên lập đội đánh đôi cầu lông và cùng nhau tập luyện vào thứ Bảy này"
+                        },
+                        {
+                              "en": "we can invite our classmates to come along and cheer for our club matches",
+                              "vi": "chúng mình có thể rủ thêm bạn cùng lớp đến cổ vũ cho các trận đấu của CLB"
+                        }
+                  ]
             }
-          ]
-        }
       ],
       "samples": [
             {
@@ -1645,54 +1638,45 @@ export const part4Data = {
       "maxWords": 165,
       "template": "Dear Club Manager,\nMy name is [tên người gửi], and I have been a member of the club for [thời gian: two years]. During this time, I have had the opportunity to participate in a wide range of meaningful activities, which have greatly enriched my experience and personal development.\nI am writing in response to your email to share my thoughts and offer several practical suggestions regarding the organization of the sports competition for youth members. I think this is a great idea.\nTo help make this competition vibrant and safe, I would like to make a few suggestions. First, we should select accessible and popular sports such as badminton, table tennis, and 5-a-side football. Second, it would be better to invite qualified physical education teachers to referee matches and ensure a dedicated medical team is on standby. Finally, we could award medals and certificates to all participants, along with fair-play trophies to encourage sportsmanship. Overall, I am confident that these suggestions would make a positive difference and help the club achieve its objectives.\nThank you for taking the time to consider my suggestions. I sincerely hope they will be taken into consideration, and I look forward to your response.\nBest regards,\n[Tên của bạn]",
       "vocabCategories": [
-        {
-          "name": "1. Đề xuất 1: Lựa chọn môn thi đấu (Sports Selection)",
-          "icon": "Sparkles",
-          "items": [
             {
-              "en": "select accessible sports like badminton and mini football",
-              "vi": "chọn các môn dễ tiếp cận như cầu lông và bóng đá mini",
-              "example": "First, we should feature accessible sports like badminton and mini football."
+                  "name": "1. Đề xuất 1: [đề xuất thứ nhất] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "the club should feature accessible team sports such as five-a-side football, basketball, and badminton",
+                              "vi": "CLB nên tổ chức các môn dễ tiếp cận như bóng đá 5 người, bóng rổ và cầu lông"
+                        },
+                        {
+                              "en": "we should divide tournaments into age categories so participants compete on equal and fair footing",
+                              "vi": "chúng ta nên phân bảng theo lứa tuổi để các bạn thi đấu công bằng"
+                        }
+                  ]
             },
             {
-              "en": "cater to various athletic abilities",
-              "vi": "đáp ứng nhiều trình độ thể lực khác nhau",
-              "example": "Offering diverse sports caters to various athletic abilities."
-            }
-          ]
-        },
-        {
-          "name": "2. Đề xuất 2: An toàn y tế & Trọng tài (Safety & Refereeing)",
-          "icon": "CheckCircle2",
-          "items": [
-            {
-              "en": "have a dedicated first-aid station and trained referee",
-              "vi": "bố trí trạm sơ cứu chuyên dụng và trọng tài đào tạo bài bản",
-              "example": "Second, it would be better to have a dedicated first-aid station on site."
+                  "name": "2. Đề xuất 2: [đề xuất thứ hai] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "it would be crucial to set up a professional medical station with certified first-aid personnel on site",
+                              "vi": "điều tối quan trọng là lập trạm y tế chuyên nghiệp có nhân viên sơ cấp cứu túc trực"
+                        },
+                        {
+                              "en": "the committee should invite certified referees to ensure fair play, strict rules, and participant safety",
+                              "vi": "ban tổ chức nên mời trọng tài có chứng chỉ để đảm bảo tính công bằng và an toàn"
+                        }
+                  ]
             },
             {
-              "en": "ensure fair competition and participant safety",
-              "vi": "đảm bảo tính công bằng và sự an toàn cho người thi đấu",
-              "example": "Certified referees ensure fair play and reduce injury risks."
+                  "name": "3. Đề xuất 3: [đề xuất thứ ba] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "we could award trophies, medals, and fair-play sportsmanship certificates to inspire all athletes",
+                              "vi": "chúng ta có thể trao cúp, huy chương và chứng nhận phong cách thi đấu đẹp để khích lệ vận động viên"
+                        },
+                        {
+                              "en": "the club could arrange complimentary healthy refreshments, energy drinks, and fresh fruit throughout match days",
+                              "vi": "CLB có thể chuẩn bị nước tăng lực, trái cây và đồ uống bổ dưỡng miễn phí suốt giải đấu"
+                        }
+                  ]
             }
-          ]
-        },
-        {
-          "name": "3. Đề xuất 3: Khen thưởng & Cổ vũ (Awards & Fair Play)",
-          "icon": "BookOpen",
-          "items": [
-            {
-              "en": "award medals, certificates, and fair-play trophies",
-              "vi": "trao huy chương, giấy khen và cúp phong cách fair-play",
-              "example": "Finally, we could award medals and fair-play trophies to all teams."
-            },
-            {
-              "en": "instill values of sportsmanship and perseverance",
-              "vi": "bồi dưỡng tinh thần thể thao cao thượng và sự kiên trì",
-              "example": "Recognizing all participants instills true sportsmanship."
-            }
-          ]
-        }
       ],
       "samples": [
             {
@@ -1723,27 +1707,45 @@ export const part4Data = {
       "maxWords": 65,
       "template": "Dear [Tên bạn],\nHow's it going? I hope you're doing well.\nI thought you'd be interested to hear that our Film Club is inviting a famous film critic next week. I was quite excited when I found out about it. Personally, I think he should talk about behind-the-scenes secrets of blockbuster movies because everyone loves film production stories. Moreover, we must reserve front-row seats together early!\nI would love to know what you think about this. Hope to hear from you soon.\nTake care,\n[Tên của bạn]",
       "vocabCategories": [
-        {
-          "name": "1. Điện ảnh & Sự kiện",
-          "icon": "Sparkles",
-          "items": [
             {
-              "en": "behind-the-scenes secrets of blockbuster movies",
-              "vi": "những bí mật hậu trường của các bộ phim bom tấn",
-              "example": "He could reveal behind-the-scenes secrets of blockbuster movies."
+                  "name": "1. Bày tỏ Cảm xúc (Emotions)",
+                  "items": [
+                        {
+                              "en": "quite excited",
+                              "vi": "khá hào hứng"
+                        },
+                        {
+                              "en": "absolutely thrilled",
+                              "vi": "cực kỳ phấn khích"
+                        }
+                  ]
             },
             {
-              "en": "cinematic storytelling and directing tips",
-              "vi": "nghệ thuật kể chuyện bằng hình ảnh và mẹo đạo diễn",
-              "example": "I want to learn more about cinematic storytelling."
+                  "name": "2. [ý kiến & lý do] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "listening to an acclaimed film critic is fantastic because it helps us understand cinematic directing secrets",
+                              "vi": "lắng nghe nhà phê bình phim nổi tiếng rất tuyệt vì giúp chúng ta hiểu bí quyết đạo diễn điện ảnh"
+                        },
+                        {
+                              "en": "analyzing hidden symbols in movies will deepen our appreciation for classic cinema masterpieces",
+                              "vi": "phân tích biểu tượng ẩn trong phim sẽ giúp chúng ta thưởng thức các kiệt tác sâu sắc hơn"
+                        }
+                  ]
             },
             {
-              "en": "reserve front-row seats together",
-              "vi": "cùng nhau đặt sớm những ghế hàng đầu",
-              "example": "Let's reserve front-row seats before tickets run out."
+                  "name": "3. [phát triển thêm ý] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "we should reserve our seats early so we can sit in the front rows",
+                              "vi": "chúng mình nên đặt chỗ sớm để có vị trí ngồi hàng đầu"
+                        },
+                        {
+                              "en": "we can prepare some thoughtful questions about screenplay writing to ask the guest speaker",
+                              "vi": "chúng mình có thể chuẩn bị vài câu hỏi sâu sắc về viết kịch bản để giao lưu với diễn giả"
+                        }
+                  ]
             }
-          ]
-        }
       ],
       "samples": [
             {
@@ -1763,54 +1765,45 @@ export const part4Data = {
       "maxWords": 165,
       "template": "Dear Club Manager,\nMy name is [tên người gửi], and I have been a member of the club for [thời gian: two years]. During this time, I have had the opportunity to participate in a wide range of meaningful activities, which have greatly enriched my experience and personal development.\nI am writing in response to your email to share my thoughts and offer several practical suggestions regarding the upcoming talk by the famous film critic. I think this is a great idea.\nTo help attract a large and diverse audience, I would like to make a few suggestions. First, we should select the topic \"The Secret Art of Visual Storytelling in Modern Cinema\", which appeals to both casual moviegoers and film students. Second, it would be better to promote the event via short video teasers on university student fanpages and social media groups. Finally, we could organize an interactive Q&A session with free cinema vouchers awarded for the most thought-provoking questions. Overall, I am confident that these suggestions would make a positive difference and help the club achieve its objectives.\nThank you for taking the time to consider my suggestions. I sincerely hope they will be taken into consideration, and I look forward to your response.\nBest regards,\n[Tên của bạn]",
       "vocabCategories": [
-        {
-          "name": "1. Đề xuất 1: Chủ đề hấp dẫn (Captivating Topic)",
-          "icon": "Sparkles",
-          "items": [
             {
-              "en": "The Secret Art of Visual Storytelling in Modern Cinema",
-              "vi": "Nghệ thuật Kể chuyện bằng Hình ảnh trong Điện ảnh Hiện đại",
-              "example": "First, the critic should explore Visual Storytelling in Modern Cinema."
+                  "name": "1. Đề xuất 1: [đề xuất thứ nhất] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "the lecture should focus on 'Deciphering Hidden Cinematic Symbols in Oscar-Winning Masterpieces'",
+                              "vi": "buổi nói chuyện nên tập trung vào chủ đề giải mã biểu tượng ẩn trong các kiệt tác Oscar"
+                        },
+                        {
+                              "en": "we should request the speaker to illustrate theoretical insights with famous movie video excerpts",
+                              "vi": "chúng ta nên đề nghị diễn giả minh họa kiến thức bằng các trích đoạn phim nổi tiếng"
+                        }
+                  ]
             },
             {
-              "en": "appeal to casual moviegoers and film students alike",
-              "vi": "thu hút cả người xem phim đại chúng lẫn sinh viên điện ảnh",
-              "example": "This theme bridges entertainment and academic insight."
-            }
-          ]
-        },
-        {
-          "name": "2. Đề xuất 2: Truyền thông đa kênh (Multi-channel Promotion)",
-          "icon": "CheckCircle2",
-          "items": [
-            {
-              "en": "promote the event via short video teasers on social media",
-              "vi": "quảng bá sự kiện bằng các đoạn video ngắn trên mạng xã hội",
-              "example": "Second, it would be better to share short video teasers on youth forums."
+                  "name": "2. Đề xuất 2: [đề xuất thứ hai] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "it would be highly effective to launch short video teasers on social media and partner with campus film societies",
+                              "vi": "sẽ rất hiệu quả nếu làm video ngắn quảng bá trên mạng xã hội và liên kết với CLB phim trường học"
+                        },
+                        {
+                              "en": "the club should design attractive visual posters and distribute invitations across university campuses",
+                              "vi": "CLB nên thiết kế áp phích ấn tượng và phát thư mời tại các trường đại học"
+                        }
+                  ]
             },
             {
-              "en": "partner with local university media clubs",
-              "vi": "liên kết với câu lạc bộ truyền thông các trường đại học",
-              "example": "Campus outreach ensures high student attendance."
+                  "name": "3. Đề xuất 3: [đề xuất thứ ba] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "we could organize a 20-minute cinema trivia quiz during the intermission, gifting free movie tickets to winners",
+                              "vi": "chúng ta có thể tổ chức trò chơi đố vui điện ảnh giữa giờ và tặng vé xem phim cho người thắng"
+                        },
+                        {
+                              "en": "the club could hold a relaxed post-talk coffee gathering where members discuss favorite directors with the speaker",
+                              "vi": "CLB có thể tổ chức buổi uống cà phê thân mật sau tọa đàm để giao lưu cùng diễn giả"
+                        }
+                  ]
             }
-          ]
-        },
-        {
-          "name": "3. Đề xuất 3: Giao lưu & Quà tặng (Interactive Incentives)",
-          "icon": "BookOpen",
-          "items": [
-            {
-              "en": "organize an interactive Q&A session with cinema vouchers",
-              "vi": "tổ chức phần hỏi đáp tương tác kèm voucher vé xem phim",
-              "example": "Finally, we could award cinema vouchers for insightful questions."
-            },
-            {
-              "en": "encourage spirited critical debate",
-              "vi": "khuyến khích các cuộc tranh luận phản biện sôi nổi",
-              "example": "Live interaction creates a memorable experience."
-            }
-          ]
-        }
       ],
       "samples": [
             {
@@ -1841,27 +1834,45 @@ export const part4Data = {
       "maxWords": 65,
       "template": "Dear [Tên bạn],\nHow's it going? I hope you're doing well.\nI thought you'd be interested to hear that our Car Club is invited to send two skilled representatives on a European cross-country road trip. I was quite thrilled when I found out about it. Personally, I think we should nominate Alex and David because they both have over ten years of driving experience and mechanical expertise. Moreover, let's attend the club meeting to vote for them!\nI would love to know what you think about this. Hope to hear from you soon.\nTake care,\n[Tên của bạn]",
       "vocabCategories": [
-        {
-          "name": "1. Kỹ năng lái xe & Đề cử",
-          "icon": "Sparkles",
-          "items": [
             {
-              "en": "European cross-country road trip",
-              "vi": "chuyến đi phượt xuyên Châu Âu bằng xe hơi",
-              "example": "Participating in a European road trip is a dream experience."
+                  "name": "1. Bày tỏ Cảm xúc (Emotions)",
+                  "items": [
+                        {
+                              "en": "quite excited",
+                              "vi": "khá hào hứng"
+                        },
+                        {
+                              "en": "absolutely thrilled",
+                              "vi": "cực kỳ phấn khích"
+                        }
+                  ]
             },
             {
-              "en": "extensive long-distance driving experience",
-              "vi": "kinh nghiệm lái xe đường trường dày dạn",
-              "example": "Both drivers have extensive long-distance driving experience."
+                  "name": "2. [ý kiến & lý do] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "nominating experienced drivers like Robert and Elena is ideal because both possess international driving permits",
+                              "vi": "đề cử lái xe kinh nghiệm như Robert và Elena là chuẩn xác vì cả hai đều có bằng lái quốc tế"
+                        },
+                        {
+                              "en": "this trans-European road trip is a historic milestone because it puts our club on the international map",
+                              "vi": "chuyến xuyên Âu này là cột mốc lịch sử vì khẳng định tên tuổi CLB trên trường quốc tế"
+                        }
+                  ]
             },
             {
-              "en": "basic mechanical troubleshooting skills",
-              "vi": "kỹ năng xử lý sự cố máy móc cơ bản",
-              "example": "Mechanical troubleshooting skills are crucial on remote highways."
+                  "name": "3. [phát triển thêm ý] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "we could help them inspect the car engine and pack essential emergency repair kits this weekend",
+                              "vi": "chúng mình có thể giúp kiểm tra động cơ xe và đóng gói dụng cụ sửa xe khẩn cấp cuối tuần này"
+                        },
+                        {
+                              "en": "we should design custom club bumper decals and small flags for their vehicle",
+                              "vi": "chúng mình nên thiết kế logo dán xe và cờ lưu niệm của CLB cho chuyến đi"
+                        }
+                  ]
             }
-          ]
-        }
       ],
       "samples": [
             {
@@ -1881,54 +1892,45 @@ export const part4Data = {
       "maxWords": 165,
       "template": "Dear Club Manager,\nMy name is [tên người gửi], and I have been a member of the club for [thời gian: two years]. During this time, I have had the opportunity to participate in a wide range of meaningful activities, which have greatly enriched my experience and personal development.\nI am writing in response to your email to share my nominations and practical suggestions regarding the European road tour representatives. I think this is a prestigious honor for our club.\nTo ensure our club is represented safely and successfully, I would like to make a few suggestions. First, I strongly recommend Mr. Michael as the primary driver, given his fifteen years of cross-border driving and valid international license. Second, it would be better to select Ms. Sarah as the co-pilot because she is fluent in European languages and possesses sound mechanical troubleshooting knowledge. Finally, we should arrange comprehensive travel insurance, vehicle diagnostics, and emergency satellite equipment prior to departure. Overall, I am confident that these suggestions would make a positive difference and help the club achieve its objectives.\nThank you for taking the time to consider my suggestions. I sincerely hope they will be taken into consideration, and I look forward to your response.\nBest regards,\n[Tên của bạn]",
       "vocabCategories": [
-        {
-          "name": "1. Đề xuất 1: Đề cử lái chính (Lead Driver)",
-          "icon": "Sparkles",
-          "items": [
             {
-              "en": "possess fifteen years of cross-border driving experience",
-              "vi": "có 15 năm kinh nghiệm lái xe đường trường xuyên biên giới",
-              "example": "First, Michael possesses fifteen years of cross-border driving experience."
+                  "name": "1. Đề xuất 1: [đề xuất thứ nhất] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "I respectfully nominate Mr. Robert as the lead driver because he holds an international license and has completed alpine rallies",
+                              "vi": "tôi xin đề cử anh Robert làm lái chính vì anh có bằng quốc tế và từng hoàn thành các giải đua đường đèo"
+                        },
+                        {
+                              "en": "the lead driver should possess over a decade of manual transmission experience and flawless safety records",
+                              "vi": "lái chính nên có hơn 10 năm kinh nghiệm xe số sàn và lý lịch lái xe an toàn tuyệt đối"
+                        }
+                  ]
             },
             {
-              "en": "hold a valid international driving permit",
-              "vi": "sở hữu giấy phép lái xe quốc tế còn thời hạn",
-              "example": "He holds a clean record and valid international driving credentials."
-            }
-          ]
-        },
-        {
-          "name": "2. Đề xuất 2: Đề cử hoa tiêu (Co-pilot / Passenger)",
-          "icon": "CheckCircle2",
-          "items": [
-            {
-              "en": "fluent in languages and expert in route navigation",
-              "vi": "thông thạo ngoại ngữ và chuyên gia dẫn đường",
-              "example": "Second, Sarah is fluent in French and German and expert in navigation."
+                  "name": "2. Đề xuất 2: [đề xuất thứ hai] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "it would be ideal to appoint Ms. Elena as his co-pilot because she is a skilled automotive technician and speaks multiple languages",
+                              "vi": "rất lý tưởng nếu cử chị Elena làm hoa tiêu vì chị am hiểu kỹ thuật xe và thông thạo ngoại ngữ"
+                        },
+                        {
+                              "en": "the co-pilot must be proficient in international GPS navigation tools, customs formalities, and mechanical diagnostics",
+                              "vi": "hoa tiêu cần thành thạo định vị GPS, thủ tục hải quan và chẩn đoán sự cố máy móc"
+                        }
+                  ]
             },
             {
-              "en": "sound mechanical troubleshooting skills",
-              "vi": "kỹ năng chẩn đoán sự cố cơ khí thành thạo",
-              "example": "Her mechanical knowledge allows immediate roadside repairs if necessary."
+                  "name": "3. Đề xuất 3: [đề xuất thứ ba] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "we could equip the delegation with high-grade satellite tracking gear, emergency toolkits, and comprehensive medical insurance",
+                              "vi": "chúng ta có thể trang bị cho phái đoàn thiết bị định vị vệ tinh, hộp đồ nghề và bảo hiểm y tế toàn diện"
+                        },
+                        {
+                              "en": "the club should establish a daily live check-in vlog so members back home can track their journey across Europe",
+                              "vi": "CLB nên lập kênh nhật ký hành trình trực tuyến mỗi ngày để hội viên ở nhà cùng theo dõi"
+                        }
+                  ]
             }
-          ]
-        },
-        {
-          "name": "3. Đề xuất 3: An toàn & Hậu cần (Safety & Logistics)",
-          "icon": "BookOpen",
-          "items": [
-            {
-              "en": "arrange comprehensive insurance and satellite GPS",
-              "vi": "thu xếp bảo hiểm toàn diện và thiết bị định vị vệ tinh",
-              "example": "Finally, we must secure comprehensive travel insurance and satellite GPS."
-            },
-            {
-              "en": "conduct full vehicle inspection before departure",
-              "vi": "kiểm tra kỹ thuật xe hơi toàn diện trước ngày khởi hành",
-              "example": "A rigorous vehicle check guarantees flawless reliability."
-            }
-          ]
-        }
       ],
       "samples": [
             {
@@ -1959,27 +1961,45 @@ export const part4Data = {
       "maxWords": 65,
       "template": "Dear [Tên bạn],\nHow's it going? I hope you're doing well.\nI thought you'd be interested to hear that our Community Club is recruiting new members and seeking creative project ideas. I was quite excited when I found out about it. Personally, I think we should organize a neighborhood recycling drive and charity garage sale because they directly help vulnerable families. Moreover, would you like to join the club with me?\nI would love to know what you think about this. Hope to hear from you soon.\nTake care,\n[Tên của bạn]",
       "vocabCategories": [
-        {
-          "name": "1. Hoạt động tình nguyện & Ý tưởng",
-          "icon": "Sparkles",
-          "items": [
             {
-              "en": "neighborhood recycling drive and garage sale",
-              "vi": "ngày hội thu gom rác tái chế và bán đồ cũ từ thiện",
-              "example": "A recycling drive and garage sale raises funds quickly."
+                  "name": "1. Bày tỏ Cảm xúc (Emotions)",
+                  "items": [
+                        {
+                              "en": "quite excited",
+                              "vi": "khá hào hứng"
+                        },
+                        {
+                              "en": "absolutely thrilled",
+                              "vi": "cực kỳ phấn khích"
+                        }
+                  ]
             },
             {
-              "en": "support disadvantaged children and elderly residents",
-              "vi": "hỗ trợ trẻ em có hoàn cảnh khó khăn và người già neo đơn",
-              "example": "These projects support disadvantaged local residents."
+                  "name": "2. [ý kiến & lý do] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "launching a neighborhood recycling campaign is meaningful because it protects our local environment directly",
+                              "vi": "tổ chức phong trào tái chế khu phố rất ý nghĩa vì trực tiếp bảo vệ môi trường địa phương"
+                        },
+                        {
+                              "en": "community volunteering brings immense fulfillment because we can support disadvantaged children and lonely seniors",
+                              "vi": "làm tình nguyện mang lại niềm vui lớn vì có thể hỗ trợ trẻ em khó khăn và người già neo đơn"
+                        }
+                  ]
             },
             {
-              "en": "meaningful community impact",
-              "vi": "tác động cộng đồng đầy ý nghĩa",
-              "example": "Volunteering brings meaningful community impact."
+                  "name": "3. [phát triển thêm ý] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "we could register as core volunteer mentors together to help coordinate community projects",
+                              "vi": "chúng mình có thể cùng đăng ký làm tình nguyện viên nòng cốt để điều phối các dự án"
+                        },
+                        {
+                              "en": "we can donate some of our gently used books and warm clothes to the upcoming charity drive",
+                              "vi": "chúng mình có thể quyên góp sách cũ và quần áo ấm cho đợt thiện nguyện sắp tới"
+                        }
+                  ]
             }
-          ]
-        }
       ],
       "samples": [
             {
@@ -1999,54 +2019,45 @@ export const part4Data = {
       "maxWords": 165,
       "template": "Dear Club Manager,\nMy name is [tên người gửi], and I have been a member of the club for [thời gian: two years]. During this time, I have had the opportunity to participate in a wide range of meaningful activities, which have greatly enriched my experience and personal development.\nI am writing in response to your email to share my thoughts and offer several practical suggestions regarding member recruitment and innovative community initiatives. I think this is an essential step forward.\nTo help expand our membership and enhance our community impact, I would like to make a few suggestions. First, we should partner with local high schools and universities to establish youth volunteer chapters, offering certificates of recognition. Second, it would be better to launch an \"Eco-Exchange\" program where citizens trade recyclable plastics and paper for potted plants. Finally, we could organize monthly family community dinners to connect residents and raise charitable funds. Overall, I am confident that these suggestions would make a positive difference and help the club achieve its objectives.\nThank you for taking the time to consider my suggestions. I sincerely hope they will be taken into consideration, and I look forward to your response.\nBest regards,\n[Tên của bạn]",
       "vocabCategories": [
-        {
-          "name": "1. Đề xuất 1: Liên kết trường học (Youth Outreach)",
-          "icon": "Sparkles",
-          "items": [
             {
-              "en": "partner with local schools and universities",
-              "vi": "hợp tác với các trường phổ thông và đại học địa phương",
-              "example": "First, we should partner with universities to recruit energetic youth."
+                  "name": "1. Đề xuất 1: [đề xuất thứ nhất] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "the club should establish partnerships with local high schools and universities to recruit energetic youth volunteers",
+                              "vi": "CLB nên hợp tác với các trường học địa phương để tuyển tình nguyện viên trẻ nhiệt huyết"
+                        },
+                        {
+                              "en": "we should award official community service certificates to students who contribute over twenty voluntary hours",
+                              "vi": "chúng ta nên cấp chứng nhận giờ tình nguyện chính quy cho các bạn cống hiến trên 20 giờ"
+                        }
+                  ]
             },
             {
-              "en": "award official certificates of community service",
-              "vi": "trao giấy chứng nhận hoạt động cộng đồng chính thức",
-              "example": "Certificates help students boost their university and job applications."
-            }
-          ]
-        },
-        {
-          "name": "2. Đề xuất 2: Đổi rác lấy cây (Eco-Exchange Initiative)",
-          "icon": "CheckCircle2",
-          "items": [
-            {
-              "en": "launch an Eco-Exchange program trading waste for plants",
-              "vi": "phát động chương trình đổi phế liệu lấy cây xanh",
-              "example": "Second, it would be better to launch an Eco-Exchange program."
+                  "name": "2. Đề xuất 2: [đề xuất thứ hai] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "it would be highly effective to launch an 'Eco-Exchange Program' where residents trade recyclable plastics for potted herbs",
+                              "vi": "sẽ rất hiệu quả nếu mở chương trình 'Đổi Rác Lấy Cây' để bà con đổi rác nhựa lấy thảo mộc"
+                        },
+                        {
+                              "en": "the club should organize weekly elderly companionship visits and free basic computer tutoring for seniors",
+                              "vi": "CLB nên tổ chức thăm hỏi người cao tuổi hàng tuần và dạy máy tính cơ bản miễn phí"
+                        }
+                  ]
             },
             {
-              "en": "raise environmental awareness among citizens",
-              "vi": "nâng cao nhận thức bảo vệ môi trường trong cộng đồng",
-              "example": "Trading plastic for plants engages thousands of residents."
+                  "name": "3. Đề xuất 3: [đề xuất thứ ba] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "we could host monthly community charity banquets where neighbors cook together to raise charitable funds",
+                              "vi": "chúng ta có thể tổ chức tiệc ẩm thực thiện nguyện hàng tháng nơi bà con cùng nấu ăn gây quỹ"
+                        },
+                        {
+                              "en": "the club should establish structured mentorship circles pairing senior volunteers with newly enrolled members",
+                              "vi": "CLB nên ghép đôi các tình nguyện viên kỳ cựu hướng dẫn người mới tham gia"
+                        }
+                  ]
             }
-          ]
-        },
-        {
-          "name": "3. Đề xuất 3: Bữa tối thiện nguyện gia đình (Charity Dinners)",
-          "icon": "BookOpen",
-          "items": [
-            {
-              "en": "organize monthly community charity banquets",
-              "vi": "tổ chức tiệc tối cộng đồng gây quỹ từ thiện hàng tháng",
-              "example": "Finally, we could organize monthly charity banquets."
-            },
-            {
-              "en": "foster strong neighborhood solidarity and funding",
-              "vi": "thúc đẩy tình đoàn kết xóm giềng và nguồn quỹ dồi dào",
-              "example": "Shared meals build lasting neighborhood solidarity."
-            }
-          ]
-        }
       ],
       "samples": [
             {
@@ -2077,27 +2088,45 @@ export const part4Data = {
       "maxWords": 65,
       "template": "Dear [Tên bạn],\nHow's it going? I hope you're doing well.\nI thought you'd be interested to hear that neighbors have complained about noise from our evening concerts, and they might be canceled. I was quite concerned when I found out about it. Personally, I think we should switch to acoustic unplugged music and wrap up by 9:00 PM to respect local residents. Moreover, let's attend the emergency club meeting together!\nI would love to know what you think about this. Hope to hear from you soon.\nTake care,\n[Tên của bạn]",
       "vocabCategories": [
-        {
-          "name": "1. Tiếng ồn & Giải pháp âm nhạc",
-          "icon": "Sparkles",
-          "items": [
             {
-              "en": "switch to acoustic unplugged music",
-              "vi": "chuyển sang biểu diễn nhạc mộc không cắm điện công suất lớn",
-              "example": "Switching to acoustic music significantly lowers volume levels."
+                  "name": "1. Bày tỏ Cảm xúc (Emotions)",
+                  "items": [
+                        {
+                              "en": "quite surprised and concerned",
+                              "vi": "khá ngạc nhiên và lo lắng"
+                        },
+                        {
+                              "en": "quite worried",
+                              "vi": "khá lo lắng"
+                        }
+                  ]
             },
             {
-              "en": "wrap up performances before 9:00 PM",
-              "vi": "kết thúc các màn biểu diễn trước 9:00 tối",
-              "example": "Finishing early avoids disturbing residents' sleep."
+                  "name": "2. [ý kiến & lý do] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "switching to unplugged acoustic music is sensible because loud electric amplifiers disturb the neighborhood",
+                              "vi": "chuyển sang chơi nhạc mộc là hợp lý vì loa điện tử công suất lớn gây phiền xóm làng"
+                        },
+                        {
+                              "en": "we must respect our neighbors because keeping a peaceful environment ensures the club can operate long-term",
+                              "vi": "chúng ta phải tôn trọng hàng xóm vì môi trường yên tĩnh giúp CLB hoạt động lâu dài"
+                        }
+                  ]
             },
             {
-              "en": "respect neighbors and avoid noise pollution",
-              "vi": "tôn trọng cư dân láng giềng và tránh ô nhiễm tiếng ồn",
-              "example": "We must respect neighbors and minimize sound leakage."
+                  "name": "3. [phát triển thêm ý] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "we could rehearse some gentle acoustic ballad arrangements for our next session",
+                              "vi": "chúng mình có thể tập trước vài bản phối ballad acoustic nhẹ nhàng cho buổi tới"
+                        },
+                        {
+                              "en": "we should invite our local neighbors to attend a free tea-tasting afternoon concert",
+                              "vi": "chúng mình nên mời bà con xung quanh đến dự một buổi hòa nhạc thưởng trà miễn phí"
+                        }
+                  ]
             }
-          ]
-        }
       ],
       "samples": [
             {
@@ -2117,54 +2146,45 @@ export const part4Data = {
       "maxWords": 165,
       "template": "Dear Club Manager,\nMy name is [tên người gửi], and I have been a member of the club for [thời gian: two years]. During this time, I have had the opportunity to participate in a wide range of meaningful activities, which have greatly enriched my experience and personal development.\nI am writing in response to your email regarding the recent noise complaints from nearby residents. I fully acknowledge that this is a critical issue that requires prompt remediation.\nTo preserve our musical performances while maintaining harmonious neighborhood relations, I would like to make a few suggestions. First, we should install soundproofing acoustic curtains and foam panels around our performance hall to prevent sound leakage. Second, it would be better to reschedule all live performances to conclude no later than 9:30 PM on weekdays. Finally, we could introduce unplugged acoustic genres and invite neighboring residents to complimentary coffee recitals. Overall, I am confident that these suggestions would make a positive difference and help the club achieve its objectives.\nThank you for taking the time to consider my suggestions. I sincerely hope they will be taken into consideration, and I look forward to your response.\nBest regards,\n[Tên của bạn]",
       "vocabCategories": [
-        {
-          "name": "1. Đề xuất 1: Cách âm phòng hòa nhạc (Soundproofing)",
-          "icon": "Sparkles",
-          "items": [
             {
-              "en": "install soundproofing acoustic foam and heavy curtains",
-              "vi": "lắp đặt mút tiêu âm và rèm dày cản tiếng ồn",
-              "example": "First, we should install acoustic foam and heavy soundproof curtains."
+                  "name": "1. Đề xuất 1: [đề xuất thứ nhất] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "the club should immediately install acoustic soundproofing panels and dense curtains on rehearsing room walls",
+                              "vi": "CLB nên lập tức lắp mút tiêu âm và rèm cách âm dày trên các vách phòng tập"
+                        },
+                        {
+                              "en": "we should replace vibrating acoustic drum kits with electronic drum sets connected directly to individual headphones",
+                              "vi": "chúng ta nên thay trống cơ bằng trống điện tử kết nối tai nghe để giảm tối đa rung chấn"
+                        }
+                  ]
             },
             {
-              "en": "prevent severe sound leakage through walls",
-              "vi": "ngăn chặn tình trạng rò rỉ âm thanh qua các bức tường",
-              "example": "Proper insulation drastically reduces decibel levels outside."
-            }
-          ]
-        },
-        {
-          "name": "2. Đề xuất 2: Giờ giấc hợp lý (Adjust Showtime)",
-          "icon": "CheckCircle2",
-          "items": [
-            {
-              "en": "conclude all performances before 9:30 PM",
-              "vi": "kết thúc tất cả các buổi biểu diễn trước 9:30 tối",
-              "example": "Second, it would be better to conclude all concerts before 9:30 PM."
+                  "name": "2. Đề xuất 2: [đề xuất thứ hai] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "it would be better to enforce strict volume limits on all amplifiers and conclude all performances by 9:00 PM",
+                              "vi": "sẽ tốt hơn nếu siết chặt âm lượng loa đài và kết thúc mọi buổi biểu diễn trước 9:00 tối"
+                        },
+                        {
+                              "en": "the management should reschedule heavy percussion rehearsals to Saturday afternoons rather than late weekday nights",
+                              "vi": "ban quản lý nên dời lịch tập trống gõ nặng sang chiều thứ Bảy thay vì tối muộn trong tuần"
+                        }
+                  ]
             },
             {
-              "en": "respect residents' rest and nighttime tranquility",
-              "vi": "tôn trọng thời gian nghỉ ngơi và sự yên tĩnh về đêm của cư dân",
-              "example": "Ending early shows our consideration for families with small children."
+                  "name": "3. Đề xuất 3: [đề xuất thứ ba] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "we could transition towards soothing unplugged acoustic sets and classical chamber music for evening shows",
+                              "vi": "chúng ta có thể chuyển hướng sang biểu diễn nhạc mộc nhẹ nhàng và nhạc thính phòng vào buổi tối"
+                        },
+                        {
+                              "en": "the club should host a friendly community open-house concert on Sunday afternoons to foster goodwill with neighbors",
+                              "vi": "CLB nên tổ chức buổi hòa nhạc giao lưu thân thiện vào chiều chủ nhật để gắn kết với cư dân láng giềng"
+                        }
+                  ]
             }
-          ]
-        },
-        {
-          "name": "3. Đề xuất 3: Nhạc mộc & Hòa giải (Acoustic Sets & Outreach)",
-          "icon": "BookOpen",
-          "items": [
-            {
-              "en": "transition to acoustic and classical unplugged sets",
-              "vi": "chuyển sang các bài diễn nhạc mộc acoustic và cổ điển",
-              "example": "Finally, we could feature softer acoustic and jazz sets."
-            },
-            {
-              "en": "invite neighbors to complimentary tea concerts",
-              "vi": "mời người dân hàng xóm đến thưởng thức các buổi hòa nhạc tiệc trà miễn phí",
-              "example": "Goodwill gestures transform dissatisfied neighbors into loyal club supporters."
-            }
-          ]
-        }
       ],
       "samples": [
             {
@@ -2195,27 +2215,45 @@ export const part4Data = {
       "maxWords": 65,
       "template": "Dear [Tên bạn],\nHow's it going? I hope you're doing well.\nI thought you'd be interested to hear that our English Club's talk show has been canceled because the speakers are busy, and there's no meeting this week. I was quite disappointed when I found out about it. Personally, I think we should meet at our favorite coffee shop to practice English conversation together anyway. Moreover, let's invite two other club members!\nI would love to know what you think about this. Hope to hear from you soon.\nTake care,\n[Tên của bạn]",
       "vocabCategories": [
-        {
-          "name": "1. Cảm xúc & Kế hoạch tự luyện",
-          "icon": "Sparkles",
-          "items": [
             {
-              "en": "quite disappointed",
-              "vi": "khá thất vọng",
-              "example": "I was quite disappointed when the talk show was called off."
+                  "name": "1. Bày tỏ Cảm xúc (Emotions)",
+                  "items": [
+                        {
+                              "en": "quite disappointed",
+                              "vi": "khá thất vọng"
+                        },
+                        {
+                              "en": "a bit surprised and sad",
+                              "vi": "hơi bất ngờ và tiếc nuối"
+                        }
+                  ]
             },
             {
-              "en": "meet at a coffee shop for conversation",
-              "vi": "gặp nhau ở quán cà phê để luyện hội thoại",
-              "example": "Let's meet at a cozy cafe to practice speaking."
+                  "name": "2. [ý kiến & lý do] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "canceling the entire session is unfortunate because we had spent hours preparing presentation topics",
+                              "vi": "hủy toàn bộ buổi sinh hoạt là điều đáng tiếc vì chúng mình đã dành hàng giờ chuẩn bị chủ đề"
+                        },
+                        {
+                              "en": "we should not waste our free weekend because consistent English speaking practice is vital for progress",
+                              "vi": "chúng mình không nên lãng phí cuối tuần vì duy trì luyện nói tiếng Anh thường xuyên rất quan trọng"
+                        }
+                  ]
             },
             {
-              "en": "keep our study momentum alive",
-              "vi": "giữ vững động lực học tập liên tục",
-              "example": "Practicing regularly keeps our study momentum alive."
+                  "name": "3. [phát triển thêm ý] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "we could meet up at a quiet coffee shop to practice IELTS speaking topics together",
+                              "vi": "chúng mình có thể gặp nhau ở quán cà phê yên tĩnh để cùng luyện nói các chủ đề IELTS"
+                        },
+                        {
+                              "en": "I can bring some interesting conversation flashcards so we can debate in English for two hours",
+                              "vi": "mình có thể mang vài bộ thẻ câu hỏi thú vị để chúng mình cùng tranh luận bằng tiếng Anh trong 2 tiếng"
+                        }
+                  ]
             }
-          ]
-        }
       ],
       "samples": [
             {
@@ -2235,54 +2273,45 @@ export const part4Data = {
       "maxWords": 165,
       "template": "Dear Club Manager,\nMy name is [tên người gửi], and I have been a member of the club for [thời gian: two years]. During this time, I have had the opportunity to participate in a wide range of meaningful activities, which have greatly enriched my experience and personal development.\nI am writing in response to your email regarding the sudden cancellation of this week's Talk Show. While I understand that unexpected scheduling conflicts arise, I believe that canceling the entire meeting is regrettable.\nTo prevent similar disruptions in the future and maintain active club participation, I would like to make a few suggestions. First, our management team should always maintain a roster of backup speakers from our senior alumni or university lecturers. Second, it would be better to organize peer-led English debates or vocabulary games whenever a guest speaker cancels, ensuring members still benefit from practice. Finally, the club should establish a prompt SMS or instant-messaging notification channel to alert members well in advance. Overall, I am confident that these suggestions would make a positive difference and help the club achieve its objectives.\nThank you for taking the time to consider my suggestions. I sincerely hope they will be taken into consideration, and I look forward to your response.\nBest regards,\n[Tên của bạn]",
       "vocabCategories": [
-        {
-          "name": "1. Đề xuất 1: Danh sách diễn giả dự bị (Backup Roster)",
-          "icon": "Sparkles",
-          "items": [
             {
-              "en": "maintain a roster of standby guest speakers",
-              "vi": "duy trì một danh sách các diễn giả dự phòng",
-              "example": "First, the club should maintain a roster of standby guest speakers."
+                  "name": "1. Đề xuất 1: [đề xuất thứ nhất] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "the organizing committee should maintain a standby roster of competent club seniors and local English lecturers",
+                              "vi": "ban tổ chức nên lập danh sách dự phòng gồm các hội viên kỳ cựu và giảng viên tiếng Anh địa phương"
+                        },
+                        {
+                              "en": "we should ensure every major event has a qualified backup speaker prepared at least three days in advance",
+                              "vi": "chúng ta nên đảm bảo mỗi sự kiện lớn đều có diễn giả dự bị được chuẩn bị trước 3 ngày"
+                        }
+                  ]
             },
             {
-              "en": "invite competent senior club alumni",
-              "vi": "mời các cựu hội viên xuất sắc có năng lực",
-              "example": "Senior alumni are always ready to share practical experiences."
-            }
-          ]
-        },
-        {
-          "name": "2. Đề xuất 2: Hoạt động thay thế (Alternative Sessions)",
-          "icon": "CheckCircle2",
-          "items": [
-            {
-              "en": "organize peer-led debates and language games",
-              "vi": "tổ chức các buổi tranh biện và trò chơi ngôn ngữ do thành viên chủ trì",
-              "example": "Second, it would be better to run peer-led debates instead of canceling."
+                  "name": "2. Đề xuất 2: [đề xuất thứ hai] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "it would be highly effective to replace canceled formal talks with structured debates or interactive English board games",
+                              "vi": "sẽ rất hiệu quả nếu thay các buổi tọa đàm bị hủy bằng các phiên tranh luận hoặc trò chơi tiếng Anh"
+                        },
+                        {
+                              "en": "the club should never cancel a weekend session outright, but instead empower members to lead peer discussion circles",
+                              "vi": "CLB không nên hủy hẳn buổi học mà hãy để hội viên tự điều phối các nhóm thảo luận tự do"
+                        }
+                  ]
             },
             {
-              "en": "prevent wasting members' scheduled weekend time",
-              "vi": "tránh lãng phí thời gian cuối tuần đã lên lịch của hội viên",
-              "example": "Alternative activities ensure members continue speaking English."
+                  "name": "3. Đề xuất 3: [đề xuất thứ ba] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "we could establish an instant SMS or Telegram notification channel to alert members promptly when schedules change",
+                              "vi": "chúng ta có thể lập kênh thông báo khẩn qua SMS hoặc Telegram để báo sớm cho hội viên khi có thay đổi"
+                        },
+                        {
+                              "en": "the club could offer affected members complimentary workshop materials or priority seating for the next talk show",
+                              "vi": "CLB có thể tặng tài liệu bổ trợ hoặc ưu tiên đặt chỗ hàng đầu trong buổi tọa đàm kế tiếp"
+                        }
+                  ]
             }
-          ]
-        },
-        {
-          "name": "3. Đề xuất 3: Quy trình thông báo khẩn (Communication Protocol)",
-          "icon": "BookOpen",
-          "items": [
-            {
-              "en": "establish a dedicated instant notification channel",
-              "vi": "thiết lập kênh thông báo khẩn tức thì",
-              "example": "Finally, we need an instant notification channel for urgent news."
-            },
-            {
-              "en": "apologize professionally and offer compensation credits",
-              "vi": "xin lỗi chuyên nghiệp và có chính sách bù đắp phù hợp",
-              "example": "Timely updates demonstrate professional event management."
-            }
-          ]
-        }
       ],
       "samples": [
             {
@@ -2313,27 +2342,45 @@ export const part4Data = {
       "maxWords": 65,
       "template": "Dear [Tên bạn],\nHow's it going? I hope you're doing well.\nI thought you'd be interested to hear that our English Club is sponsoring a talk show about the benefits of English to attract new members. I was quite excited when I found out about it. Personally, I think the speaker should focus on global job opportunities and overseas study scholarships. Moreover, let's invite our classmates to attend together!\nI would love to know what you think about this. Hope to hear from you soon.\nTake care,\n[Tên của bạn]",
       "vocabCategories": [
-        {
-          "name": "1. Lợi ích tiếng Anh & Cơ hội",
-          "icon": "Sparkles",
-          "items": [
             {
-              "en": "global career opportunities and scholarships",
-              "vi": "cơ hội việc làm toàn cầu và học bổng du học",
-              "example": "English unlocks global career opportunities and scholarships."
+                  "name": "1. Bày tỏ Cảm xúc (Emotions)",
+                  "items": [
+                        {
+                              "en": "quite excited",
+                              "vi": "khá hào hứng"
+                        },
+                        {
+                              "en": "absolutely thrilled",
+                              "vi": "cực kỳ phấn khích"
+                        }
+                  ]
             },
             {
-              "en": "overcome communication hesitation",
-              "vi": "vượt qua sự e ngại, rụt rè trong giao tiếp",
-              "example": "A good talk show helps beginners overcome communication hesitation."
+                  "name": "2. [ý kiến & lý do] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "learning about real-world English benefits is crucial because English opens up lucrative multinational career prospects",
+                              "vi": "học về lợi ích tiếng Anh rất thiết thực vì tiếng Anh mở ra cơ hội làm việc tại tập đoàn đa quốc gia"
+                        },
+                        {
+                              "en": "strong language fluency gives graduates a decisive competitive advantage in international scholarship applications",
+                              "vi": "thành thạo ngoại ngữ giúp sinh viên có lợi thế cạnh tranh vượt trội khi xin học bổng quốc tế"
+                        }
+                  ]
             },
             {
-              "en": "gain competitive edge in job market",
-              "vi": "có được lợi thế cạnh tranh trên thị trường tuyển dụng",
-              "example": "Fluency gives graduates a competitive edge."
+                  "name": "3. [phát triển thêm ý] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "we should register early so we do not miss out on complimentary seminar seats",
+                              "vi": "chúng mình nên đăng ký sớm để không bị lỡ mất chỗ ngồi miễn phí trong hội thảo"
+                        },
+                        {
+                              "en": "we can prepare some questions regarding job interviews in English to ask the guest keynote speaker",
+                              "vi": "chúng mình có thể chuẩn bị vài câu hỏi về phỏng vấn xin việc bằng tiếng Anh để giao lưu với diễn giả"
+                        }
+                  ]
             }
-          ]
-        }
       ],
       "samples": [
             {
@@ -2353,54 +2400,45 @@ export const part4Data = {
       "maxWords": 165,
       "template": "Dear Club Manager,\nMy name is [tên người gửi], and I have been a member of the club for [thời gian: two years]. During this time, I have had the opportunity to participate in a wide range of meaningful activities, which have greatly enriched my experience and personal development.\nI am writing in response to your email to share my perspective regarding the upcoming talk show on the benefits of mastering English. I think this is an excellent initiative to recruit new members.\nTo ensure the event achieves outstanding engagement, I would like to make a few suggestions. First, I propose the lecture topic \"English as a Passport to Global Careers and Academic Excellence\", focusing on tangible career advantages. Second, it would be better to invite a dynamic bilingual guest speaker who possesses proven international experience and engaging storytelling abilities rather than pure academic theory. Finally, we could incorporate an interactive networking segment where attendees test their pronunciation with AI tools and win trial club memberships. Overall, I am confident that these suggestions would make a positive difference and help the club achieve its objectives.\nThank you for taking the time to consider my suggestions. I sincerely hope they will be taken into consideration, and I look forward to your response.\nBest regards,\n[Tên của bạn]",
       "vocabCategories": [
-        {
-          "name": "1. Đề xuất 1: Chủ đề bài nói (Practical Lecture Theme)",
-          "icon": "Sparkles",
-          "items": [
             {
-              "en": "English as a Passport to Global Careers",
-              "vi": "Tiếng Anh như tấm hộ chiếu đến với sự nghiệp toàn cầu",
-              "example": "First, the lecture should explore English as a Passport to Global Careers."
+                  "name": "1. Đề xuất 1: [đề xuất thứ nhất] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "the presentation should focus on 'English as a Strategic Career Accelerator in Modern Multinational Corporations'",
+                              "vi": "bài thuyết trình nên tập trung vào chủ đề 'Tiếng Anh - Đòn bẩy thăng tiến tại các tập đoàn đa quốc gia'"
+                        },
+                        {
+                              "en": "we should highlight concrete salary statistics and overseas employment opportunities to inspire university attendees",
+                              "vi": "chúng ta nên nêu các con số thống kê mức lương thực tế và cơ hội việc làm nước ngoài"
+                        }
+                  ]
             },
             {
-              "en": "focus on tangible professional and financial advantages",
-              "vi": "tập trung vào lợi ích cụ thể về sự nghiệp và thu nhập",
-              "example": "Highlighting tangible benefits persuades young people to invest in learning."
-            }
-          ]
-        },
-        {
-          "name": "2. Đề xuất 2: Tiêu chí chọn diễn giả (Speaker Criteria)",
-          "icon": "CheckCircle2",
-          "items": [
-            {
-              "en": "dynamic bilingual professional with engaging storytelling",
-              "vi": "chuyên gia song ngữ năng động với khả năng kể chuyện cuốn hút",
-              "example": "Second, the guest speaker should be a dynamic bilingual professional."
+                  "name": "2. Đề xuất 2: [đề xuất thứ hai] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "it would be ideal to invite an energetic bilingual executive who conquered language barriers from humble beginnings",
+                              "vi": "sẽ rất lý tưởng nếu mời một lãnh đạo song ngữ từng tự học vượt khó từ mất gốc"
+                        },
+                        {
+                              "en": "the guest speaker should deliver actionable daily habit roadmaps rather than generic motivational advice",
+                              "vi": "diễn giả nên chia sẻ lộ trình rèn luyện thói quen mỗi ngày thay vì những lời khuyên chung chung"
+                        }
+                  ]
             },
             {
-              "en": "inspire confidence and authentic personal anecdotes",
-              "vi": "truyền cảm hứng tự tin và chia sẻ câu chuyện người thật việc thật",
-              "example": "Relatable stories break down language barriers."
+                  "name": "3. Đề xuất 3: [đề xuất thứ ba] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "we could incorporate interactive pronunciation mini-games and gift complimentary club memberships to winners",
+                              "vi": "chúng ta có thể lồng ghép các trò chơi phát âm vui nhộn và tặng thẻ sinh hoạt CLB cho người thắng"
+                        },
+                        {
+                              "en": "the club could distribute structured self-study toolkits and curated podcast recommendation lists to all participants",
+                              "vi": "CLB có thể phát cẩm nang tự học và danh sách podcast chất lượng cho toàn bộ người tham dự"
+                        }
+                  ]
             }
-          ]
-        },
-        {
-          "name": "3. Đề xuất 3: Tương tác & Khuyến khích (Interactive Engagement)",
-          "icon": "BookOpen",
-          "items": [
-            {
-              "en": "incorporate interactive pronunciation games and prizes",
-              "vi": "kết hợp trò chơi phát âm tương tác và trao quà",
-              "example": "Finally, we could feature pronunciation mini-games with free club passes."
-            },
-            {
-              "en": "convert casual attendees into committed members",
-              "vi": "chuyển đổi người tham dự vãng lai thành hội viên gắn bó",
-              "example": "Engaging activities convert casual listeners into regular members."
-            }
-          ]
-        }
       ],
       "samples": [
             {
@@ -2431,27 +2469,45 @@ export const part4Data = {
       "maxWords": 65,
       "template": "Dear [Tên bạn],\nHow's it going? I hope you're doing well.\nI thought you'd be interested to hear that our Book Club is inviting a famous author to host an event for both youth and seniors. I was quite excited when I found out about it. Personally, I think we should invite author Nguyen Nhat Anh to talk about childhood memories and family bonds because his heartwarming books touch all generations. Moreover, let's bring our copies to get them signed!\nI would love to know what you think about this. Hope to hear from you soon.\nTake care,\n[Tên của bạn]",
       "vocabCategories": [
-        {
-          "name": "1. Sách & Gắn kết thế hệ",
-          "icon": "Sparkles",
-          "items": [
             {
-              "en": "heartwarming books touching all generations",
-              "vi": "những cuốn sách ấm áp chạm đến trái tim của mọi thế hệ",
-              "example": "His heartwarming stories touch readers of all ages."
+                  "name": "1. Bày tỏ Cảm xúc (Emotions)",
+                  "items": [
+                        {
+                              "en": "quite excited",
+                              "vi": "khá hào hứng"
+                        },
+                        {
+                              "en": "absolutely thrilled",
+                              "vi": "cực kỳ phấn khích"
+                        }
+                  ]
             },
             {
-              "en": "childhood memories and family nostalgia",
-              "vi": "ký ức tuổi thơ và tình cảm gia đình hoài niệm",
-              "example": "Childhood memories resonate strongly across generations."
+                  "name": "2. [ý kiến & lý do] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "inviting writer Nguyen Nhat Anh is wonderful because his nostalgic childhood stories resonate across all generations",
+                              "vi": "mời nhà văn Nguyễn Nhật Ánh rất tuyệt vời vì truyện tuổi thơ của ông chạm đến mọi thế hệ"
+                        },
+                        {
+                              "en": "meeting an acclaimed author in person will ignite our love for creative reading and imaginative writing",
+                              "vi": "gặp gỡ tác giả nổi tiếng ngoài đời sẽ thổi bùng niềm say mê đọc sách và sáng tác"
+                        }
+                  ]
             },
             {
-              "en": "get our favorite copies personally signed",
-              "vi": "được tác giả ký tặng trực tiếp vào cuốn sách yêu thích",
-              "example": "We can bring our books to get them personally signed."
+                  "name": "3. [phát triển thêm ý] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "we should bring our beloved copies to get author autographs and take souvenir photos",
+                              "vi": "chúng mình nên mang theo những cuốn sách yêu thích để xin chữ ký và chụp ảnh kỷ niệm"
+                        },
+                        {
+                              "en": "we can reread our favorite chapters beforehand so we can share our thoughts during the Q&A",
+                              "vi": "chúng mình có thể đọc lại những chương truyện hay nhất trước để chia sẻ trong phần hỏi đáp"
+                        }
+                  ]
             }
-          ]
-        }
       ],
       "samples": [
             {
@@ -2471,54 +2527,45 @@ export const part4Data = {
       "maxWords": 165,
       "template": "Dear Club Manager,\nMy name is [tên người gửi], and I have been a member of the club for [thời gian: two years]. During this time, I have had the opportunity to participate in a wide range of meaningful activities, which have greatly enriched my experience and personal development.\nI am writing in response to your email to share my recommendations regarding the author invitation event designed for both young and senior readers. I think this is a great idea.\nTo foster deep intergenerational engagement, I would like to make a few suggestions. First, we should invite an acclaimed author known for emotional life memoirs and coming-of-age literature, which naturally appeal to adolescents and grandparents alike. Second, it would be better to select the topic \"The Timeless Joy of Reading and Bridging Generational Divides\". Finally, we could organize an exclusive book-signing session alongside an informal tea circle where attendees share favorite excerpts. Overall, I am confident that these suggestions would make a positive difference and help the club achieve its objectives.\nThank you for taking the time to consider my suggestions. I sincerely hope they will be taken into consideration, and I look forward to your response.\nBest regards,\n[Tên của bạn]",
       "vocabCategories": [
-        {
-          "name": "1. Đề xuất 1: Đề cử tác giả (Beloved Author)",
-          "icon": "Sparkles",
-          "items": [
             {
-              "en": "invite an acclaimed author of life memoirs",
-              "vi": "mời một nhà văn danh tiếng chuyên viết hồi ký cuộc đời",
-              "example": "First, we should invite an author celebrated for touching life memoirs."
+                  "name": "1. Đề xuất 1: [đề xuất thứ nhất] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "the club should invite a beloved novelist whose evocative works appeal to both adolescents and senior citizens",
+                              "vi": "CLB nên mời một nhà văn có những tác phẩm giàu cảm xúc cuốn hút cả thiếu niên lẫn người cao tuổi"
+                        },
+                        {
+                              "en": "we should invite celebrated authors such as Nguyen Nhat Anh to share memorable childhood memories and writing inspiration",
+                              "vi": "chúng ta nên mời các tác giả được yêu thích như Nguyễn Nhật Ánh để chia sẻ ký ức tuổi thơ"
+                        }
+                  ]
             },
             {
-              "en": "appeal to adolescents and grandparents alike",
-              "vi": "thu hút từ thanh thiếu niên đến ông bà lớn tuổi",
-              "example": "Memoir literature effortlessly connects diverse age demographics."
-            }
-          ]
-        },
-        {
-          "name": "2. Đề xuất 2: Chủ đề kết nối (Intergenerational Topic)",
-          "icon": "CheckCircle2",
-          "items": [
-            {
-              "en": "The Timeless Joy of Reading across Generations",
-              "vi": "Niềm vui bất tận của việc đọc sách qua các thế hệ",
-              "example": "Second, the topic should explore reading as a bridge across generations."
+                  "name": "2. Đề xuất 2: [đề xuất thứ hai] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "it would be wonderful to center the discussion on 'The Timeless Power of Literature in Bridging Generational Divides'",
+                              "vi": "sẽ rất tuyệt nếu tọa đàm xoay quanh chủ đề 'Sức mạnh của văn học trong việc kết nối các thế hệ'"
+                        },
+                        {
+                              "en": "the presentation should explore how timeless literary classics foster empathy, emotional resilience, and family bonding",
+                              "vi": "bài nói chuyện nên khám phá cách các tác phẩm văn học nuôi dưỡng sự thấu cảm và tình cảm gia đình"
+                        }
+                  ]
             },
             {
-              "en": "bridge generational divides through storytelling",
-              "vi": "xóa nhòa khoảng cách thế hệ thông qua nghệ thuật kể chuyện",
-              "example": "Storytelling fosters empathy between parents and teenagers."
+                  "name": "3. Đề xuất 3: [đề xuất thứ ba] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "we could organize an interactive book-signing session accompanied by an intimate tea and coffee reception",
+                              "vi": "chúng ta có thể tổ chức buổi ký tặng sách kết hợp tiệc trà ấm cúng"
+                        },
+                        {
+                              "en": "the club could arrange a communal book swap corner where young readers and seniors exchange cherished volumes",
+                              "vi": "CLB có thể bố trí góc đổi sách nơi các bạn trẻ và người cao tuổi tặng nhau những cuốn sách hay"
+                        }
+                  ]
             }
-          ]
-        },
-        {
-          "name": "3. Đề xuất 3: Ký tặng & Trà đàm (Book-signing & Tea)",
-          "icon": "BookOpen",
-          "items": [
-            {
-              "en": "organize a book-signing session and tea circle",
-              "vi": "tổ chức buổi ký tặng sách và vòng tròn trà đàm giao lưu",
-              "example": "Finally, we could host an intimate book-signing and tea circle."
-            },
-            {
-              "en": "share memorable excerpts and personal life lessons",
-              "vi": "chia sẻ những trích đoạn đáng nhớ và bài học cuộc sống",
-              "example": "Sharing excerpts deepens reader connection with the author."
-            }
-          ]
-        }
       ],
       "samples": [
             {
@@ -2549,27 +2596,45 @@ export const part4Data = {
       "maxWords": 65,
       "template": "Dear [Tên bạn],\nHow's it going? I hope you're doing well.\nI thought you'd be interested to hear that local authorities are planning to shut down our library next year because of online e-books. I was quite shocked and upset when I found out about it. Personally, I think the library is an irreplaceable quiet sanctuary that screens cannot replace. Moreover, let's sign the community petition to save it!\nI would love to know what you think about this. Hope to hear from you soon.\nTake care,\n[Tên của bạn]",
       "vocabCategories": [
-        {
-          "name": "1. Cảm xúc & Giá trị thư viện truyền thống",
-          "icon": "Sparkles",
-          "items": [
             {
-              "en": "quite shocked and upset",
-              "vi": "khá sốc và buồn bã",
-              "example": "I was quite shocked and upset by the closure news."
+                  "name": "1. Bày tỏ Cảm xúc (Emotions)",
+                  "items": [
+                        {
+                              "en": "quite shocked and saddened",
+                              "vi": "khá sốc và buồn bã"
+                        },
+                        {
+                              "en": "deeply distressed",
+                              "vi": "vô cùng lo lắng và phiền lòng"
+                        }
+                  ]
             },
             {
-              "en": "an irreplaceable community sanctuary",
-              "vi": "một chốn tĩnh lặng vô giá của cộng đồng",
-              "example": "The library is an irreplaceable quiet sanctuary."
+                  "name": "2. [ý kiến & lý do] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "closing the municipal library is a tragic loss because it is an essential quiet sanctuary for students and seniors",
+                              "vi": "đóng cửa thư viện là mất mát lớn vì đó là không gian yên tĩnh thiết yếu cho học sinh và người già"
+                        },
+                        {
+                              "en": "physical paper books offer an irreplaceable reading experience that digital screens can never fully replicate",
+                              "vi": "sách giấy truyền thống mang lại trải nghiệm đọc vô giá mà màn hình điện tử không thể thay thế"
+                        }
+                  ]
             },
             {
-              "en": "screens cannot replace physical books",
-              "vi": "màn hình điện tử không thể thay thế sách in truyền thống",
-              "example": "Screens cannot replace the authentic tactile joy of physical books."
+                  "name": "3. [phát triển thêm ý] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "we should join the public petition campaign to urge the city council to keep the library open",
+                              "vi": "chúng mình nên tham gia chiến dịch ký đơn thỉnh nguyện kêu gọi hội đồng thành phố giữ lại thư viện"
+                        },
+                        {
+                              "en": "we can organize a collective study session at the library this Saturday to demonstrate community support",
+                              "vi": "chúng mình có thể cùng đến thư viện học nhóm vào thứ Bảy này để thể hiện sự ủng hộ"
+                        }
+                  ]
             }
-          ]
-        }
       ],
       "samples": [
             {
@@ -2589,54 +2654,45 @@ export const part4Data = {
       "maxWords": 165,
       "template": "Dear Club Manager,\nMy name is [tên người gửi], and I have been a member of the club for [thời gian: two years]. During this time, I have had the opportunity to participate in a wide range of meaningful activities, which have greatly enriched my experience and personal development.\nI am writing in response to your email regarding the municipal authority's plan to close down our public library. I firmly believe that this decision is short-sighted and deeply regrettable.\nTo preserve and modernize this vital cultural institution, I would like to make a few suggestions. First, our club should advocate for transforming the library into a modern hybrid learning hub equipped with free Wi-Fi, computer workstations, and digital archives alongside traditional book stacks. Second, it would be better to integrate a community coffee lounge and silent study pods to attract freelance workers and students. Finally, we could organize weekly literary storytelling sessions and coding clubs for children to demonstrate high community utility. Overall, I am confident that these suggestions would make a positive difference and help the club achieve its objectives.\nThank you for taking the time to consider my suggestions. I sincerely hope they will be taken into consideration, and I look forward to your response.\nBest regards,\n[Tên của bạn]",
       "vocabCategories": [
-        {
-          "name": "1. Đề xuất 1: Mô hình thư viện lai (Hybrid Learning Hub)",
-          "icon": "Sparkles",
-          "items": [
             {
-              "en": "transform into a modern hybrid learning hub",
-              "vi": "chuyển đổi thành không gian học tập tích hợp hiện đại",
-              "example": "First, we should transform the building into a modern hybrid learning hub."
+                  "name": "1. Đề xuất 1: [đề xuất thứ nhất] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "the city should modernize the library into a dynamic hybrid learning center combining physical books with digital databases",
+                              "vi": "thành phố nên hiện đại hóa thư viện thành trung tâm học tập tích hợp sách giấy và cơ sở dữ liệu số"
+                        },
+                        {
+                              "en": "the club should petition local authorities to install modern workstations, high-speed Wi-Fi, and e-reader lending services",
+                              "vi": "CLB nên kiến nghị chính quyền lắp đặt máy tính hiện đại, Wi-Fi tốc độ cao và dịch vụ mượn máy đọc sách"
+                        }
+                  ]
             },
             {
-              "en": "integrate digital e-book databases with physical stacks",
-              "vi": "kết hợp cơ sở dữ liệu sách số với kệ sách giấy truyền thống",
-              "example": "Digital databases complement traditional book reading."
-            }
-          ]
-        },
-        {
-          "name": "2. Đề xuất 2: Không gian cà phê & Tự học (Café & Co-working)",
-          "icon": "CheckCircle2",
-          "items": [
-            {
-              "en": "introduce a community cafe and quiet study pods",
-              "vi": "bổ sung quán cà phê cộng đồng và góc tự học yên tĩnh",
-              "example": "Second, it would be better to introduce a cafe and co-working study pods."
+                  "name": "2. Đề xuất 2: [đề xuất thứ hai] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "it would be highly effective to establish a quiet community co-working cafe inside the library to attract students and freelancers",
+                              "vi": "sẽ rất hiệu quả nếu mở một quán cà phê tự học yên tĩnh trong thư viện để thu hút sinh viên"
+                        },
+                        {
+                              "en": "the facility should create soundproof group study rooms and comfortable lounge areas for collaborative projects",
+                              "vi": "thư viện nên xây dựng các phòng học nhóm cách âm và khu vực nghỉ ngơi thoải mái"
+                        }
+                  ]
             },
             {
-              "en": "attract students, remote workers, and researchers",
-              "vi": "thu hút sinh viên, người làm việc từ xa và nhà nghiên cứu",
-              "example": "Modern amenities rejuvenate community foot traffic."
+                  "name": "3. Đề xuất 3: [đề xuất thứ ba] (Mệnh đề hoàn chỉnh)",
+                  "items": [
+                        {
+                              "en": "we could host regular weekend cultural programs, author talks, and children's reading clubs to increase community patronage",
+                              "vi": "chúng ta có thể tổ chức định kỳ các sự kiện văn hóa, giao lưu tác giả và câu lạc bộ đọc sách thiếu nhi"
+                        },
+                        {
+                              "en": "the club could launch public fundraising book fairs to assist the library with operational and maintenance expenses",
+                              "vi": "CLB có thể phát động hội chợ sách gây quỹ cộng đồng để hỗ trợ chi phí vận hành thư viện"
+                        }
+                  ]
             }
-          ]
-        },
-        {
-          "name": "3. Đề xuất 3: Sự kiện văn hóa thường kỳ (Cultural Events)",
-          "icon": "BookOpen",
-          "items": [
-            {
-              "en": "host weekly author talks and children's story hours",
-              "vi": "tổ chức các buổi tác giả giao lưu và giờ đọc truyện thiếu nhi",
-              "example": "Finally, we could host weekly literary workshops and story hours."
-            },
-            {
-              "en": "prove high social utility to municipal authorities",
-              "vi": "chứng minh giá trị sử dụng cộng đồng cao cho chính quyền",
-              "example": "Active community engagement prevents unjustified municipal closures."
-            }
-          ]
-        }
       ],
       "samples": [
             {
