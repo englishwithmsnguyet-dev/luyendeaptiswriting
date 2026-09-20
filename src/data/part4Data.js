@@ -2105,6 +2105,10 @@ export const part4Data = {
                   "name": "1. Bày tỏ Cảm xúc (Emotions)",
                   "items": [
                         {
+                              "en": "over the moon",
+                              "vi": "vô cùng sung sướng và phấn khởi"
+                        },
+                        {
                               "en": "quite excited",
                               "vi": "khá hào hứng"
                         },
@@ -2118,6 +2122,10 @@ export const part4Data = {
                   "name": "2. [ý kiến & lý do] (Mệnh đề hoàn chỉnh)",
                   "items": [
                         {
+                              "en": "we should nominate Alex and David because they are both excellent and safe drivers",
+                              "vi": "chúng mình nên đề cử Alex và David vì cả hai đều là những tay lái xuất sắc và an toàn"
+                        },
+                        {
                               "en": "nominating experienced drivers like Robert and Elena is ideal because both possess international driving permits",
                               "vi": "đề cử lái xe kinh nghiệm như Robert và Elena là chuẩn xác vì cả hai đều có bằng lái quốc tế"
                         },
@@ -2130,6 +2138,10 @@ export const part4Data = {
             {
                   "name": "3. [phát triển thêm ý] (Mệnh đề hoàn chỉnh)",
                   "items": [
+                        {
+                              "en": "we should check their car carefully before the long journey",
+                              "vi": "chúng mình nên kiểm tra xe của họ thật cẩn thận trước chuyến đi dài"
+                        },
                         {
                               "en": "we could help them inspect the car engine and pack essential emergency repair kits this weekend",
                               "vi": "chúng mình có thể giúp kiểm tra động cơ xe và đóng gói dụng cụ sửa xe khẩn cấp cuối tuần này"
@@ -2177,6 +2189,10 @@ export const part4Data = {
                   "name": "1. Đề xuất 1: [đề xuất thứ nhất] (Mệnh đề hoàn chỉnh)",
                   "items": [
                         {
+                              "en": "the main driver must have an international driving license and excellent driving skills",
+                              "vi": "người lái chính phải có bằng lái quốc tế và kỹ năng lái xe xuất sắc"
+                        },
+                        {
                               "en": "I respectfully nominate Mr. Robert as the lead driver because he holds an international license and has completed alpine rallies",
                               "vi": "tôi xin đề cử anh Robert làm lái chính vì anh có bằng quốc tế và từng hoàn thành các giải đua đường đèo"
                         },
@@ -2190,6 +2206,10 @@ export const part4Data = {
                   "name": "2. Đề xuất 2: [đề xuất thứ hai] (Mệnh đề hoàn chỉnh)",
                   "items": [
                         {
+                              "en": "the accompanying passenger should be fluent in English and possess basic car repair skills",
+                              "vi": "người đồng hành nên thông thạo tiếng Anh và có kỹ năng sửa xe cơ bản"
+                        },
+                        {
                               "en": "it would be ideal to appoint Ms. Elena as his co-pilot because she is a skilled automotive technician and speaks multiple languages",
                               "vi": "rất lý tưởng nếu cử chị Elena làm hoa tiêu vì chị am hiểu kỹ thuật xe và thông thạo ngoại ngữ"
                         },
@@ -2202,6 +2222,10 @@ export const part4Data = {
             {
                   "name": "3. Đề xuất 3: [đề xuất thứ ba] (Mệnh đề hoàn chỉnh)",
                   "items": [
+                        {
+                              "en": "the club should provide comprehensive travel insurance and emergency repair tools for the team",
+                              "vi": "CLB nên trang bị bảo hiểm du lịch toàn diện và dụng cụ sửa xe khẩn cấp cho đội"
+                        },
                         {
                               "en": "we could equip the delegation with high-grade satellite tracking gear, emergency toolkits, and comprehensive medical insurance",
                               "vi": "chúng ta có thể trang bị cho phái đoàn thiết bị định vị vệ tinh, hộp đồ nghề và bảo hiểm y tế toàn diện"
