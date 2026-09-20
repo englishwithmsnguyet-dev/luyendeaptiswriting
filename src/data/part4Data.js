@@ -1498,6 +1498,10 @@ export const part4Data = {
                   "name": "2. [ý kiến & lý do] (Mệnh đề hoàn chỉnh)",
                   "items": [
                         {
+                              "en": "we should still attend because Mr. Jones is an excellent speaker and we can learn a lot from him",
+                              "vi": "chúng mình vẫn nên đi vì ông Jones là diễn giả xuất sắc và chúng mình có thể học được nhiều điều từ ông ấy"
+                        },
+                        {
                               "en": "we should still attend because Mr. Jones is an exceptional expert on English rose gardens",
                               "vi": "chúng mình vẫn nên đi dự vì ông Jones là một chuyên gia rất giỏi về hoa hồng Anh"
                         },
@@ -1510,6 +1514,10 @@ export const part4Data = {
             {
                   "name": "3. [phát triển thêm ý] (Mệnh đề hoàn chỉnh)",
                   "items": [
+                        {
+                              "en": "we should bring our notebooks to write down useful gardening tips",
+                              "vi": "chúng mình nên mang theo sổ tay để ghi lại những mẹo làm vườn bổ ích"
+                        },
                         {
                               "en": "we could bring some healthy plant cuttings to swap with other garden members",
                               "vi": "chúng mình có thể mang vài cành giâm khỏe mạnh để trao đổi với các hội viên khác"
@@ -1526,7 +1534,7 @@ export const part4Data = {
                   "title": "Bài mẫu chuẩn Band B2+",
                   "wordCount": 57,
                   "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our club plans garden tours. I was delighted to hear it!\n\nPersonally, I think visiting private gardens is wonderful for practical landscaping ideas. Moreover, we could take lots of photos. What do you think? Hope to hear from you soon.\n\nTake care,\nKato",
-                  "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin CLB dự định tổ chức các chuyến tham quan vườn. Mình rất vui khi nghe tin này!\n\nCá nhân mình thấy tham quan vườn tư nhân thật tuyệt để học hỏi ý tưởng tạo cảnh quan. Hơn nữa, chúng mình có thể chụp thật nhiều ảnh. Bạn nghĩ sao? Mong sớm nhận được tin từ bạn.\n\nBảo trọng nhé,\nKato",
+                  "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin CLB dự định tổ chức các chuyến tham quan vườn. Mình rất vui khi nghe tin này!\n\nCá nhân mình thấy tham quan vườn tư nhân thật tuyệt để học hỏi ý tưởng tạo cảnh quan. Hơn nữa, chúng mình nên chụp thật nhiều ảnh. Bạn nghĩ sao? Mong sớm nhận được tin từ bạn.\n\nBảo trọng nhé,\nKato",
                   "analysis": [
                         {
                               "label": "Chào hỏi & Tin tức",
@@ -1557,6 +1565,10 @@ export const part4Data = {
                   "name": "1. Đề xuất 1: [đề xuất thứ nhất] (Mệnh đề hoàn chỉnh)",
                   "items": [
                         {
+                              "en": "we should ask Mr. Jones to share new gardening tips for small home gardens",
+                              "vi": "chúng ta nên đề nghị ông Jones chia sẻ những mẹo làm vườn mới cho vườn nhà diện tích nhỏ"
+                        },
+                        {
                               "en": "the club should ask Mr. Jones to highlight practical pruning techniques and organic pest control methods",
                               "vi": "CLB nên đề nghị ông Jones nhấn mạnh kỹ thuật cắt tỉa thực tế và trừ sâu sinh học"
                         },
@@ -1570,6 +1582,10 @@ export const part4Data = {
                   "name": "2. Đề xuất 2: [đề xuất thứ hai] (Mệnh đề hoàn chỉnh)",
                   "items": [
                         {
+                              "en": "the club should organize a 20-minute Q&A session for members to ask gardening questions",
+                              "vi": "CLB nên tổ chức phần hỏi đáp 20 phút để hội viên đặt câu hỏi về làm vườn"
+                        },
+                        {
                               "en": "it would be highly beneficial to set up an informal plant and seed exchange table after the lecture",
                               "vi": "sẽ rất bổ ích nếu bố trí một bàn trao đổi cây giống và hạt giống sau buổi nói chuyện"
                         },
@@ -1582,6 +1598,10 @@ export const part4Data = {
             {
                   "name": "3. Đề xuất 3: [đề xuất thứ ba] (Mệnh đề hoàn chỉnh)",
                   "items": [
+                        {
+                              "en": "the club should send flowers and a get-well card wishing Mr. Seiko a speedy recovery",
+                              "vi": "CLB nên gửi hoa và thiệp chúc ông Seiko mau chóng bình phục sức khỏe"
+                        },
                         {
                               "en": "we could send a get-well gift basket and sincere card from the club wishing Mr. Seiko a swift recovery",
                               "vi": "chúng ta có thể gửi giỏ quà và thiệp chúc từ CLB chúc ông Seiko mau khỏi bệnh"
@@ -1653,6 +1673,14 @@ export const part4Data = {
                   "name": "2. [ý kiến & lý do] (Mệnh đề hoàn chỉnh)",
                   "items": [
                         {
+                              "en": "we should choose the workshop because learning gardening skills helps us grow plants at home easily",
+                              "vi": "chúng mình nên chọn workshop vì học kỹ năng làm vườn giúp chúng mình tự trồng cây tại nhà dễ dàng"
+                        },
+                        {
+                              "en": "planting trees at the park is a great choice because it makes our neighborhood greener and cleaner",
+                              "vi": "trồng cây ở công viên là lựa chọn tuyệt vời vì giúp khu phố chúng mình xanh và sạch hơn"
+                        },
+                        {
                               "en": "hosting a gardening skills workshop is the superior choice because it empowers residents to green their balconies",
                               "vi": "mở lớp dạy làm vườn là lựa chọn tối ưu vì giúp người dân tự phủ xanh ban công nhà mình"
                         },
@@ -1665,6 +1693,10 @@ export const part4Data = {
             {
                   "name": "3. [phát triển thêm ý] (Mệnh đề hoàn chỉnh)",
                   "items": [
+                        {
+                              "en": "we should wear protective gloves and comfortable clothes when planting trees",
+                              "vi": "chúng mình nên đeo găng tay bảo hộ và mặc quần áo thoải mái khi tham gia trồng cây"
+                        },
                         {
                               "en": "we should sign up together to learn how to cultivate organic herbs on our window sills",
                               "vi": "chúng mình nên đăng ký cùng nhau để học cách trồng thảo mộc sạch bên bậu cửa sổ"
@@ -1712,6 +1744,10 @@ export const part4Data = {
                   "name": "1. Đề xuất 1: [đề xuất thứ nhất] (Mệnh đề hoàn chỉnh)",
                   "items": [
                         {
+                              "en": "the club should organize hands-on workshops teaching members how to grow trees and vegetables at home",
+                              "vi": "CLB nên tổ chức các buổi thực hành hướng dẫn hội viên cách trồng cây và rau sạch tại nhà"
+                        },
+                        {
                               "en": "the club should organize hands-on gardening workshops guiding residents on balcony vegetable cultivation and composting",
                               "vi": "CLB nên tổ chức các lớp thực hành hướng dẫn cư dân trồng rau ban công và ủ phân hữu cơ"
                         },
@@ -1725,6 +1761,10 @@ export const part4Data = {
                   "name": "2. Đề xuất 2: [đề xuất thứ hai] (Mệnh đề hoàn chỉnh)",
                   "items": [
                         {
+                              "en": "the club should provide free seeds and small potted plants for all participants",
+                              "vi": "CLB nên tặng hạt giống miễn phí và chậu cây nhỏ cho tất cả người tham gia"
+                        },
+                        {
                               "en": "it would be highly effective to distribute free starter seed kits and nutrient soil packets to all attendees",
                               "vi": "sẽ rất hiệu quả nếu phát tặng bộ hạt giống khởi đầu và túi đất dinh dưỡng cho người tham gia"
                         },
@@ -1737,6 +1777,10 @@ export const part4Data = {
             {
                   "name": "3. Đề xuất 3: [đề xuất thứ ba] (Mệnh đề hoàn chỉnh)",
                   "items": [
+                        {
+                              "en": "the organizers must provide proper gardening tools and protective gloves to ensure safety for all volunteers",
+                              "vi": "ban tổ chức cần trang bị đầy đủ dụng cụ làm vườn và găng tay bảo hộ để đảm bảo an toàn cho các tình nguyện viên"
+                        },
                         {
                               "en": "we could initiate an online 'Green Living Challenge' encouraging members to share weekly growth photos on social media",
                               "vi": "chúng ta có thể phát động thử thách 'Sống Xanh' kêu gọi hội viên chia sẻ ảnh cây lớn mỗi tuần"
