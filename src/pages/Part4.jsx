@@ -45,6 +45,66 @@ export const renderHighlightedText = (text) => {
   });
 };
 
+// Helper to render model sample essay with vivid highlights for substituted slots
+export const renderSampleWithHighlights = (text, emailType) => {
+  if (!text) return null;
+
+  const highlightStyle = {
+    backgroundColor: '#fef08a',
+    color: '#854d0e',
+    padding: '2px 6px',
+    borderRadius: '4px',
+    fontWeight: 700,
+    borderBottom: '2px solid #eab308',
+    boxShadow: '0 1px 2px rgba(234, 179, 8, 0.15)',
+    display: 'inline'
+  };
+
+  if (emailType === 'email1') {
+    const email1Regex = /^(Dear Kim,[\s\n]+How is it going\? I thought you would like to know that\s+)([\s\S]+?)(\.\s*I was\s+)([\s\S]+?)(\s+(?:about it!|about it\.|to hear it!|to hear about it\.)[\s\n]+Personally, I think\s+)([\s\S]+?)(\.\s*Moreover,\s+)([\s\S]+?)(\.\s*What do you think\?[\s\n]+Take care,[\s\n]+Kato)$/;
+    const m = text.match(email1Regex);
+    if (m) {
+      return (
+        <span>
+          {m[1]}
+          <span style={highlightStyle} title="Ý thế vào từ Gợi ý: [thông tin trong đề bài]">{m[2]}</span>
+          {m[3]}
+          <span style={highlightStyle} title="Ý thế vào từ Gợi ý: [cảm xúc]">{m[4]}</span>
+          {m[5]}
+          <span style={highlightStyle} title="Ý thế vào từ Gợi ý: [ý kiến & lý do]">{m[6]}</span>
+          {m[7]}
+          <span style={highlightStyle} title="Ý thế vào từ Gợi ý: [phát triển thêm ý]">{m[8]}</span>
+          {m[9]}
+        </span>
+      );
+    }
+  } else if (emailType === 'email2') {
+    const email2Regex = /^(Dear Club (?:Manager|President),[\s\n]+My name is Kato, and I have been an active member of our club for\s+)([\s\S]+?)(\.\s*I am writing to share my views and put forward several constructive suggestions regarding\s+)([\s\S]+?)(\.\s*I firmly believe\s+)([\s\S]+?)(\.\s*\n\s*To help achieve the best outcome, I would like to make three practical proposals\.\s*\n\s*First,\s+)([\s\S]+?)(\.\s*\n\s*Second,\s+)([\s\S]+?)(\.\s*\n\s*Finally,\s+)([\s\S]+?)(\.\s*\n\s*Thank you for your time and consideration\.\s*I look forward to hearing your response\.\s*\n\s*Yours sincerely,\s*\n\s*Kato)$/;
+    const m = text.match(email2Regex);
+    if (m) {
+      return (
+        <span>
+          {m[1]}
+          <span style={highlightStyle} title="Ý thế vào từ Gợi ý: [thời gian tham gia]">{m[2]}</span>
+          {m[3]}
+          <span style={highlightStyle} title="Ý thế vào từ Gợi ý: [thông tin trong đề bài]">{m[4]}</span>
+          {m[5]}
+          <span style={highlightStyle} title="Ý thế vào từ Gợi ý: [nêu quan điểm về vấn đề đó]">{m[6]}</span>
+          {m[7]}
+          <span style={highlightStyle} title="Ý thế vào từ Gợi ý: [đề xuất thứ nhất]">{m[8]}</span>
+          {m[9]}
+          <span style={highlightStyle} title="Ý thế vào từ Gợi ý: [đề xuất thứ hai]">{m[10]}</span>
+          {m[11]}
+          <span style={highlightStyle} title="Ý thế vào từ Gợi ý: [đề xuất thứ ba]">{m[12]}</span>
+          {m[13]}
+        </span>
+      );
+    }
+  }
+
+  return renderHighlightedText(text);
+};
+
 // Comprehensive Grading & Error Detection Engine for Aptis Part 4
 export const gradeEmail = async (taskKey, rawText, clubData) => {
   const text = (rawText || '').trim();
@@ -1145,24 +1205,46 @@ Kato`;
                       border: '1.5px solid #bbf7d0',
                       borderRadius: '8px'
                     }}>
-                      <div style={{ fontWeight: 700, color: '#065f46', marginBottom: '0.5rem', display: 'flex', justifyContent: 'space-between' }}>
-                        <span>📝 BÀI MẪU CHUẨN (EMAIL 1):</span>
-                        <span style={{ fontSize: '0.82rem', color: '#047857' }}>Độ dài: {clubData.email1.samples[0].wordCount} từ</span>
+                      <div style={{ fontWeight: 700, color: '#065f46', marginBottom: '0.6rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                        <span>📝 BÀI MẪU CHUẨN (EMAIL 1 - THÂN MẬT):</span>
+                        <span style={{ fontSize: '0.82rem', color: '#047857', backgroundColor: '#dcfce7', padding: '0.15rem 0.5rem', borderRadius: '4px', fontWeight: 600 }}>
+                          Độ dài: {clubData.email1.samples[0].wordCount} từ
+                        </span>
                       </div>
-                      <pre style={{ 
+
+                      {/* Chú thích các chỗ thế vào */}
+                      <div style={{
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: '0.45rem',
+                        padding: '0.45rem 0.75rem',
+                        backgroundColor: '#fefce8',
+                        border: '1px solid #fef08a',
+                        borderRadius: '6px',
+                        fontSize: '0.82rem',
+                        color: '#854d0e',
+                        marginBottom: '0.65rem',
+                        lineHeight: '1.45'
+                      }}>
+                        <span style={{ fontSize: '1rem' }}>💡</span>
+                        <span><strong>Chú thích:</strong> Các cụm từ <span style={{ backgroundColor: '#fef08a', color: '#854d0e', padding: '1px 5px', borderRadius: '3px', fontWeight: 700, borderBottom: '2px solid #eab308' }}>được tô vàng</span> là nội dung lấy từ Gợi ý thế vào các vị trí <strong>[ ... ]</strong> của Template.</span>
+                      </div>
+
+                      <div style={{ 
                         fontFamily: 'inherit', 
-                        fontSize: '0.92rem', 
-                        lineHeight: '1.65', 
+                        fontSize: '0.94rem', 
+                        lineHeight: '1.8', 
                         color: '#0f172a', 
                         whiteSpace: 'pre-wrap',
                         backgroundColor: '#f8fafc',
-                        padding: '0.85rem',
+                        padding: '0.9rem 1rem',
                         borderRadius: '6px',
                         border: '1px solid #e2e8f0',
-                        margin: '0 0 0.65rem 0'
+                        margin: '0 0 0.65rem 0',
+                        textAlign: 'justify'
                       }}>
-                        {clubData.email1.samples[0].en}
-                      </pre>
+                        {renderSampleWithHighlights(clubData.email1.samples[0].en, 'email1')}
+                      </div>
                       <div style={{ 
                         fontSize: '0.86rem', 
                         color: '#065f46', 
@@ -1710,24 +1792,46 @@ Kato`;
                       border: '1.5px solid #bfdbfe',
                       borderRadius: '8px'
                     }}>
-                      <div style={{ fontWeight: 700, color: '#1e40af', marginBottom: '0.5rem', display: 'flex', justifyContent: 'space-between' }}>
-                        <span>📝 BÀI MẪU CHUẨN (EMAIL 2):</span>
-                        <span style={{ fontSize: '0.82rem', color: '#2563eb' }}>Độ dài: {clubData.email2.samples[0].wordCount} từ</span>
+                      <div style={{ fontWeight: 700, color: '#1e40af', marginBottom: '0.6rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                        <span>📝 BÀI MẪU CHUẨN (EMAIL 2 - TRANG TRỌNG):</span>
+                        <span style={{ fontSize: '0.82rem', color: '#1d4ed8', backgroundColor: '#dbeafe', padding: '0.15rem 0.5rem', borderRadius: '4px', fontWeight: 600 }}>
+                          Độ dài: {clubData.email2.samples[0].wordCount} từ
+                        </span>
                       </div>
-                      <pre style={{ 
+
+                      {/* Chú thích các chỗ thế vào */}
+                      <div style={{
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: '0.45rem',
+                        padding: '0.45rem 0.75rem',
+                        backgroundColor: '#fefce8',
+                        border: '1px solid #fef08a',
+                        borderRadius: '6px',
+                        fontSize: '0.82rem',
+                        color: '#854d0e',
+                        marginBottom: '0.65rem',
+                        lineHeight: '1.45'
+                      }}>
+                        <span style={{ fontSize: '1rem' }}>💡</span>
+                        <span><strong>Chú thích:</strong> Các cụm từ <span style={{ backgroundColor: '#fef08a', color: '#854d0e', padding: '1px 5px', borderRadius: '3px', fontWeight: 700, borderBottom: '2px solid #eab308' }}>được tô vàng</span> là nội dung lấy từ Gợi ý thế vào các vị trí <strong>[ ... ]</strong> của Template.</span>
+                      </div>
+
+                      <div style={{ 
                         fontFamily: 'inherit', 
-                        fontSize: '0.92rem', 
-                        lineHeight: '1.65', 
+                        fontSize: '0.94rem', 
+                        lineHeight: '1.8', 
                         color: '#0f172a', 
                         whiteSpace: 'pre-wrap',
                         backgroundColor: '#f8fafc',
-                        padding: '0.85rem',
+                        padding: '0.9rem 1rem',
                         borderRadius: '6px',
                         border: '1px solid #e2e8f0',
-                        margin: '0 0 0.65rem 0'
+                        margin: '0 0 0.65rem 0',
+                        textAlign: 'justify'
                       }}>
-                        {clubData.email2.samples[0].en}
-                      </pre>
+                        {renderSampleWithHighlights(clubData.email2.samples[0].en, 'email2')}
+                      </div>
                       <div style={{ 
                         fontSize: '0.86rem', 
                         color: '#1e40af', 
