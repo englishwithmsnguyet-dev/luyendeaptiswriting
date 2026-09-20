@@ -79,7 +79,7 @@ export const renderSampleWithHighlights = (text, emailType) => {
       );
     }
   } else if (emailType === 'email2') {
-    const email2Regex = /^(Dear Club (?:Manager|President),[\s\n]+My name is Kato, and I have been an active member of our club for\s+)([\s\S]+?)(\.\s*(?:During this time, I have participated in many meaningful activities\.\s*)?I am writing to share my views and put forward several constructive suggestions regarding\s+)([\s\S]+?)(\.\s*I firmly believe\s+)([\s\S]+?)(\.\s*\n\s*To help achieve the best outcome, I would like to make three practical proposals\.\s*\n\s*First,\s+)([\s\S]+?)(\.\s*\n\s*Second,\s+)([\s\S]+?)(\.\s*\n\s*Finally,\s+)([\s\S]+?)(\.\s*\n\s*Thank you for your time and consideration\.\s*I look forward to hearing your response\.\s*\n\s*Yours sincerely,\s*\n\s*Kato)$/;
+    const email2Regex = /^(Dear Club (?:Manager|President),[\s\n]+My name is Kato, and I have been an active member of our club for\s+)([\s\S]+?)(\.\s*(?:During this time, I have participated in many meaningful activities\.\s*)?I am writing to share my views and offer several practical suggestions regarding\s+)([\s\S]+?)(\.\s*I firmly believe\s+)([\s\S]+?)(\.\s*\n\s*To help achieve the best outcome, I would like to make three practical proposals\.\s*\n\s*First,\s+)([\s\S]+?)(\.\s*\n\s*Second,\s+)([\s\S]+?)(\.\s*\n\s*Finally,\s+)([\s\S]+?)(\.\s*\n\s*Thank you for your time and consideration\.\s*I look forward to hearing your response\.\s*\n\s*Yours sincerely,\s*\n\s*Kato)$/;
     const m = text.match(email2Regex);
     if (m) {
       return (
@@ -601,7 +601,7 @@ Kato`;
 
   const email2Template = `Dear Club Manager,
 
-My name is Kato, and I have been an active member of our club for [thời gian tham gia]. During this time, I have participated in many meaningful activities. I am writing to share my views and put forward several constructive suggestions regarding [thông tin trong đề bài]. I firmly believe [nêu quan điểm về vấn đề đó].
+My name is Kato, and I have been an active member of our club for [thời gian tham gia]. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding [thông tin trong đề bài]. I firmly believe [nêu quan điểm về vấn đề đó].
 
 To help achieve the best outcome, I would like to make three practical proposals.
 First, [đề xuất thứ nhất].
