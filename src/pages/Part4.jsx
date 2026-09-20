@@ -1185,6 +1185,19 @@ Best regards,
                     </div>
 
                     <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                      {gradingResults.email1 && (
+                        <span style={{ 
+                          backgroundColor: '#d1fae5', 
+                          color: '#065f46', 
+                          padding: '0.2rem 0.6rem', 
+                          borderRadius: '12px', 
+                          fontWeight: 800, 
+                          fontSize: '0.78rem', 
+                          border: '1px solid #a7f3d0' 
+                        }}>
+                          🏆 {gradingResults.email1.score}/5 ({gradingResults.email1.band})
+                        </span>
+                      )}
                       <span style={{ 
                         fontSize: '0.92rem', 
                         fontWeight: 800, 
@@ -1198,40 +1211,13 @@ Best regards,
                     </div>
                   </div>
 
-                  {/* Header on top of textarea */}
-                  <div style={{ fontSize: '0.82rem', color: '#64748b' }}>
-                    Nhập bài làm bằng tiếng Anh:
-                  </div>
-
-                  {/* Textarea */}
-                  <textarea
-                    value={answers.email1}
-                    onChange={(e) => handleAnswerChange('email1', e.target.value)}
-                    placeholder="Viết email thân mật gửi bạn tại đây...&#10;(Ví dụ: Dear Kim,&#10;How's it going? I hope you're doing well.&#10;I thought you'd be interested to hear that...)"
-                    style={{
-                      width: '100%',
-                      flex: 1,
-                      minHeight: '280px',
-                      padding: '0.85rem 1rem',
-                      fontSize: '0.98rem',
-                      lineHeight: '1.65',
-                      borderRadius: '6px',
-                      border: `2px solid ${isEmail1InRange ? '#10b981' : (email1Count > 0 ? '#fbbf24' : '#cbd5e1')}`,
-                      outline: 'none',
-                      fontFamily: 'inherit',
-                      resize: 'vertical',
-                      backgroundColor: '#ffffff',
-                      boxSizing: 'border-box'
-                    }}
-                  />
-
                   {/* Progress bar */}
                   <div>
                     <div style={{ width: '100%', height: '6px', backgroundColor: '#e2e8f0', borderRadius: '3px', overflow: 'hidden' }}>
                       <div style={{ 
                         height: '100%', 
                         width: `${Math.min(100, (email1Count / 55) * 100)}%`, 
-                        backgroundColor: isEmail1InRange ? '#10b981' : (email1Count > 65 ? '#f59e0b' : '#38bdf8'),
+                        backgroundColor: isEmail1InRange ? '#059669' : (email1Count > 65 ? '#f59e0b' : '#38bdf8'),
                         transition: 'width 0.3s'
                       }} />
                     </div>
@@ -1243,7 +1229,7 @@ Best regards,
                   </div>
 
                   {/* Action Buttons: LƯU BÀI & NỘP BÀI / CHẤM ĐIỂM */}
-                  <div style={{ display: 'flex', gap: '0.6rem', marginTop: '0.5rem', flexWrap: 'wrap' }}>
+                  <div style={{ display: 'flex', gap: '0.6rem', margin: '0.2rem 0', flexWrap: 'wrap' }}>
                     <button
                       type="button"
                       onClick={() => handleSaveEmail('email1')}
@@ -1320,6 +1306,33 @@ Best regards,
                       </button>
                     )}
                   </div>
+
+                  {/* Header on top of textarea */}
+                  <div style={{ fontSize: '0.82rem', color: '#64748b' }}>
+                    Nhập bài làm bằng tiếng Anh:
+                  </div>
+
+                  {/* Textarea */}
+                  <textarea
+                    value={answers.email1}
+                    onChange={(e) => handleAnswerChange('email1', e.target.value)}
+                    placeholder="Viết email thân mật gửi bạn tại đây...&#10;(Ví dụ: Dear Kim,&#10;How's it going? I hope you're doing well.&#10;I thought you'd be interested to hear that...)"
+                    style={{
+                      width: '100%',
+                      flex: 1,
+                      minHeight: '280px',
+                      padding: '0.85rem 1rem',
+                      fontSize: '0.98rem',
+                      lineHeight: '1.65',
+                      borderRadius: '6px',
+                      border: `2px solid ${isEmail1InRange ? '#10b981' : (email1Count > 0 ? '#fbbf24' : '#cbd5e1')}`,
+                      outline: 'none',
+                      fontFamily: 'inherit',
+                      resize: 'vertical',
+                      backgroundColor: '#ffffff',
+                      boxSizing: 'border-box'
+                    }}
+                  />
 
                   {/* DETAILED GRADING & CORRECTION FEEDBACK CARD */}
                   {gradingResults.email1 && (
@@ -1713,6 +1726,7 @@ Best regards,
                   boxSizing: 'border-box'
                 }}>
                   {/* Editor Top Bar: Title & Word Count */}
+                  {/* Editor Top Bar: Title & Word Count */}
                   <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '0.5rem' }}>
                     <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
                       <span style={{ fontSize: '0.92rem', fontWeight: 800, color: '#0f172a' }}>
@@ -1721,6 +1735,19 @@ Best regards,
                     </div>
 
                     <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                      {gradingResults.email2 && (
+                        <span style={{ 
+                          backgroundColor: '#dbeafe', 
+                          color: '#1e40af', 
+                          padding: '0.2rem 0.6rem', 
+                          borderRadius: '12px', 
+                          fontWeight: 800, 
+                          fontSize: '0.78rem', 
+                          border: '1px solid #bfdbfe' 
+                        }}>
+                          🏆 {gradingResults.email2.score}/5 ({gradingResults.email2.band})
+                        </span>
+                      )}
                       <span style={{ 
                         fontSize: '0.92rem', 
                         fontWeight: 800, 
@@ -1733,54 +1760,6 @@ Best regards,
                       </span>
                     </div>
                   </div>
-
-                  {/* Contraction warning if any */}
-                  {email2Contractions.length > 0 && (
-                    <div style={{ 
-                      backgroundColor: '#fffbeb', 
-                      border: '1px solid #fde68a', 
-                      borderRadius: '6px', 
-                      padding: '0.4rem 0.65rem', 
-                      display: 'flex', 
-                      alignItems: 'center', 
-                      gap: '0.4rem', 
-                      fontSize: '0.8rem', 
-                      color: '#b45309' 
-                    }}>
-                      <AlertTriangle size={15} color="#d97706" />
-                      <span>
-                        <strong>Lưu ý thư trang trọng:</strong> Đang dùng từ viết tắt ({email2Contractions.join(', ')}). Hãy đổi sang dạng đầy đủ!
-                      </span>
-                    </div>
-                  )}
-
-                  {/* Header on top of textarea */}
-                  <div style={{ fontSize: '0.82rem', color: '#64748b' }}>
-                    Nhập bài làm bằng tiếng Anh (Trang trọng):
-                  </div>
-
-                  {/* Textarea */}
-                  <textarea
-                    value={answers.email2}
-                    onChange={(e) => handleAnswerChange('email2', e.target.value)}
-                    placeholder="Viết email trang trọng gửi Quản lý CLB tại đây...&#10;(Ví dụ: Dear Club Manager,&#10;My name is ..., and I have been a member of the club for two years...)"
-                    rows={16}
-                    style={{
-                      width: '100%',
-                      flex: 1,
-                      minHeight: '380px',
-                      padding: '0.9rem 1rem',
-                      fontSize: '0.98rem',
-                      lineHeight: '1.65',
-                      borderRadius: '6px',
-                      border: `2px solid ${isEmail2InRange ? '#2563eb' : (email2Count > 0 ? '#fbbf24' : '#cbd5e1')}`,
-                      outline: 'none',
-                      fontFamily: 'inherit',
-                      resize: 'vertical',
-                      backgroundColor: '#ffffff',
-                      boxSizing: 'border-box'
-                    }}
-                  />
 
                   {/* Progress bar */}
                   <div>
@@ -1800,7 +1779,7 @@ Best regards,
                   </div>
 
                   {/* Action Buttons: LƯU BÀI & NỘP BÀI / CHẤM ĐIỂM */}
-                  <div style={{ display: 'flex', gap: '0.6rem', marginTop: '0.5rem', flexWrap: 'wrap' }}>
+                  <div style={{ display: 'flex', gap: '0.6rem', margin: '0.2rem 0', flexWrap: 'wrap' }}>
                     <button
                       type="button"
                       onClick={() => handleSaveEmail('email2')}
@@ -1877,6 +1856,54 @@ Best regards,
                       </button>
                     )}
                   </div>
+
+                  {/* Contraction warning if any */}
+                  {email2Contractions.length > 0 && (
+                    <div style={{ 
+                      backgroundColor: '#fffbeb', 
+                      border: '1px solid #fde68a', 
+                      borderRadius: '6px', 
+                      padding: '0.4rem 0.65rem', 
+                      display: 'flex', 
+                      alignItems: 'center', 
+                      gap: '0.4rem', 
+                      fontSize: '0.8rem', 
+                      color: '#b45309' 
+                    }}>
+                      <AlertTriangle size={15} color="#d97706" />
+                      <span>
+                        <strong>Lưu ý thư trang trọng:</strong> Đang dùng từ viết tắt ({email2Contractions.join(', ')}). Hãy đổi sang dạng đầy đủ!
+                      </span>
+                    </div>
+                  )}
+
+                  {/* Header on top of textarea */}
+                  <div style={{ fontSize: '0.82rem', color: '#64748b' }}>
+                    Nhập bài làm bằng tiếng Anh (Trang trọng):
+                  </div>
+
+                  {/* Textarea */}
+                  <textarea
+                    value={answers.email2}
+                    onChange={(e) => handleAnswerChange('email2', e.target.value)}
+                    placeholder="Viết email trang trọng gửi Quản lý CLB tại đây...&#10;(Ví dụ: Dear Club Manager,&#10;My name is ..., and I have been a member of the club for two years...)"
+                    rows={16}
+                    style={{
+                      width: '100%',
+                      flex: 1,
+                      minHeight: '380px',
+                      padding: '0.9rem 1rem',
+                      fontSize: '0.98rem',
+                      lineHeight: '1.65',
+                      borderRadius: '6px',
+                      border: `2px solid ${isEmail2InRange ? '#2563eb' : (email2Count > 0 ? '#fbbf24' : '#cbd5e1')}`,
+                      outline: 'none',
+                      fontFamily: 'inherit',
+                      resize: 'vertical',
+                      backgroundColor: '#ffffff',
+                      boxSizing: 'border-box'
+                    }}
+                  />
 
                   {/* DETAILED GRADING & CORRECTION FEEDBACK CARD */}
                   {gradingResults.email2 && (
