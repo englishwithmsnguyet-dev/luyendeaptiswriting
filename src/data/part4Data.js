@@ -1963,6 +1963,10 @@ export const part4Data = {
                   "name": "2. [ý kiến & lý do: gợi ý chủ đề - Topic] (Mệnh đề hoàn chỉnh)",
                   "items": [
                         {
+                              "en": "the guest should talk about what makes a movie successful because this topic would be very interesting and useful for club members",
+                              "vi": "khách mời nên nói về điều gì làm nên một bộ phim thành công vì chủ đề này sẽ rất thú vị và hữu ích cho các thành viên CLB"
+                        },
+                        {
                               "en": "he should talk about behind-the-scenes secrets of blockbuster movies because everyone loves film stories",
                               "vi": "anh ấy nên nói về các bí mật hậu trường của phim bom tấn vì ai cũng thích chuyện làm phim"
                         },
@@ -2029,6 +2033,10 @@ export const part4Data = {
             {
                   "name": "1. Đề xuất 1: [chủ đề bài nói chuyện - Topic] (Mệnh đề hoàn chỉnh)",
                   "items": [
+                        {
+                              "en": "the guest should talk about what makes a movie successful because this topic would be very interesting and useful for club members",
+                              "vi": "khách mời nên nói về điều gì làm nên một bộ phim thành công vì chủ đề này rất thú vị và hữu ích cho hội viên"
+                        },
                         {
                               "en": "the guest speaker should focus on behind-the-scenes secrets of famous blockbuster movies",
                               "vi": "diễn giả khách mời nên tập trung vào những bí mật hậu trường của các bộ phim bom tấn nổi tiếng"
