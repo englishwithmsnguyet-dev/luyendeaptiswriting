@@ -247,18 +247,26 @@ const Part4 = () => {
   const activePerspectives = isPositiveClub ? standardPerspectivesPositive : standardPerspectivesConcern;
 
   const email1Template = `Dear Kim,
-How's it going? I hope you're doing well.
-I thought you'd be interested to hear that [thông tin trong đề bài]. I was quite [cảm xúc: excited / surprised / disappointed] when I found out about it.
+
+How's it going? I hope you're doing well. I thought you'd be interested to hear that [thông tin trong đề bài]. I was quite [cảm xúc: excited / surprised / disappointed] when I found out about it.
+
 Personally, I think [ý kiến của bạn] because [lý do]. Moreover, [phát triển thêm ý].
+
 I would love to know what you think about this. Hope to hear from you soon.
+
 Take care,
 [Tên của bạn]`;
 
   const email2Template = `Dear Club Manager,
+
 My name is [Tên của bạn], and I have been a member of the club for [thời gian tham gia]. During this time, I have had the opportunity to participate in a wide range of meaningful activities, which have greatly enriched my experience and personal development.
+
 I am writing in response to your email to share my thoughts and offer several practical suggestions regarding [thông tin trong đề bài]. I think [nêu quan điểm về vấn đề đó].
+
 To help make this initiative successful and beneficial for everyone, I would like to make a few suggestions. First, [đề xuất thứ nhất]. Second, [đề xuất thứ hai]. Finally, [đề xuất thứ ba]. Overall, I am confident that these suggestions would make a positive difference and help the club achieve its objectives.
+
 Thank you for taking the time to consider my suggestions. I sincerely hope they will be taken into consideration, and I look forward to your response.
+
 Best regards,
 [Tên của bạn]`;
 
@@ -707,18 +715,23 @@ Best regards,
                       lineHeight: '1.6',
                       boxSizing: 'border-box'
                     }}>
-                      {/* Highlighted Template - KHÔNG TẠO KHUNG BẢNG LỒNG NHAU */}
+                      {/* Highlighted Template */}
                       <div style={{ marginBottom: '1.25rem' }}>
                         <div style={{ fontWeight: 800, color: '#b45309', fontSize: '0.9rem', marginBottom: '0.6rem' }}>
                           💡 KHUNG CẤU TRÚC MẪU (EMAIL 1 - THÂN MẬT):
                         </div>
 
                         <div style={{ 
+                          backgroundColor: '#ffffff',
+                          border: '1.5px solid #e2e8f0',
+                          borderRadius: '8px',
+                          padding: '1rem 1.15rem',
                           lineHeight: '1.85',
                           fontSize: '0.96rem',
                           color: '#1e293b',
                           whiteSpace: 'pre-wrap',
-                          padding: '0.25rem 0'
+                          textAlign: 'justify',
+                          boxSizing: 'border-box'
                         }}>
                           {renderHighlightedText(email1Template)}
                         </div>
@@ -765,9 +778,11 @@ Best regards,
                               >
                                 🔊
                               </button>
-                              <div style={{ padding: '0.3rem 0.6rem', fontSize: '0.84rem' }}>
-                                <strong style={{ color: '#0f172a' }}>{activeClubHints.e1Topic.en}</strong>{' '}
-                                <span style={{ color: '#64748b' }}>({activeClubHints.e1Topic.vi})</span>
+                              <div style={{ padding: '0.35rem 0.65rem', fontSize: '0.86rem' }}>
+                                <span style={{ fontFamily: "'Inter', sans-serif", fontWeight: 800, color: '#0f172a' }}>
+                                  {activeClubHints.e1Topic.en}
+                                </span>{' '}
+                                <span style={{ color: '#64748b', fontWeight: 400 }}>({activeClubHints.e1Topic.vi})</span>
                               </div>
                             </div>
                           </div>
@@ -810,9 +825,11 @@ Best regards,
                                 >
                                   🔊
                                 </button>
-                                <div style={{ padding: '0.3rem 0.6rem', fontSize: '0.84rem' }}>
-                                  <strong style={{ color: '#0f172a' }}>{item.en}</strong>{' '}
-                                  <span style={{ color: '#64748b' }}>({item.vi})</span>
+                                <div style={{ padding: '0.35rem 0.65rem', fontSize: '0.86rem' }}>
+                                  <span style={{ fontFamily: "'Inter', sans-serif", fontWeight: 800, color: '#0f172a' }}>
+                                    {item.en}
+                                  </span>{' '}
+                                  <span style={{ color: '#64748b', fontWeight: 400 }}>({item.vi})</span>
                                 </div>
                               </div>
                             ))}
@@ -861,9 +878,11 @@ Best regards,
                                     >
                                       🔊
                                     </button>
-                                    <div style={{ padding: '0.3rem 0.6rem', fontSize: '0.84rem' }}>
-                                      <strong style={{ color: '#0f172a' }}>{item.en}</strong>{' '}
-                                      {item.vi && <span style={{ color: '#64748b' }}>({item.vi})</span>}
+                                    <div style={{ padding: '0.35rem 0.65rem', fontSize: '0.86rem' }}>
+                                      <span style={{ fontFamily: "'Inter', sans-serif", fontWeight: 800, color: '#0f172a' }}>
+                                        {item.en}
+                                      </span>{' '}
+                                      {item.vi && <span style={{ color: '#64748b', fontWeight: 400 }}>({item.vi})</span>}
                                     </div>
                                   </div>
                                 ))}
@@ -1099,18 +1118,23 @@ Best regards,
                       lineHeight: '1.6',
                       boxSizing: 'border-box'
                     }}>
-                      {/* Highlighted Template - KHÔNG TẠO KHUNG BẢNG LỒNG NHAU */}
+                      {/* Highlighted Template */}
                       <div style={{ marginBottom: '1.25rem' }}>
                         <div style={{ fontWeight: 800, color: '#1e40af', fontSize: '0.9rem', marginBottom: '0.6rem' }}>
                           💡 KHUNG CẤU TRÚC MẪU (EMAIL 2 - TRANG TRỌNG):
                         </div>
 
                         <div style={{ 
+                          backgroundColor: '#ffffff',
+                          border: '1.5px solid #e2e8f0',
+                          borderRadius: '8px',
+                          padding: '1rem 1.15rem',
                           lineHeight: '1.85',
                           fontSize: '0.96rem',
                           color: '#1e293b',
                           whiteSpace: 'pre-wrap',
-                          padding: '0.25rem 0'
+                          textAlign: 'justify',
+                          boxSizing: 'border-box'
                         }}>
                           {renderHighlightedText(email2Template)}
                         </div>
@@ -1159,9 +1183,11 @@ Best regards,
                                 >
                                   🔊
                                 </button>
-                                <div style={{ padding: '0.3rem 0.6rem', fontSize: '0.84rem' }}>
-                                  <strong style={{ color: '#0f172a' }}>{item.en}</strong>{' '}
-                                  <span style={{ color: '#64748b' }}>({item.vi})</span>
+                                <div style={{ padding: '0.35rem 0.65rem', fontSize: '0.86rem' }}>
+                                  <span style={{ fontFamily: "'Inter', sans-serif", fontWeight: 800, color: '#0f172a' }}>
+                                    {item.en}
+                                  </span>{' '}
+                                  <span style={{ color: '#64748b', fontWeight: 400 }}>({item.vi})</span>
                                 </div>
                               </div>
                             ))}
@@ -1203,9 +1229,11 @@ Best regards,
                               >
                                 🔊
                               </button>
-                              <div style={{ padding: '0.3rem 0.6rem', fontSize: '0.84rem' }}>
-                                <strong style={{ color: '#0f172a' }}>{activeClubHints.e2Topic.en}</strong>{' '}
-                                <span style={{ color: '#64748b' }}>({activeClubHints.e2Topic.vi})</span>
+                              <div style={{ padding: '0.35rem 0.65rem', fontSize: '0.86rem' }}>
+                                <span style={{ fontFamily: "'Inter', sans-serif", fontWeight: 800, color: '#0f172a' }}>
+                                  {activeClubHints.e2Topic.en}
+                                </span>{' '}
+                                <span style={{ color: '#64748b', fontWeight: 400 }}>({activeClubHints.e2Topic.vi})</span>
                               </div>
                             </div>
                           </div>
@@ -1248,9 +1276,11 @@ Best regards,
                                 >
                                   🔊
                                 </button>
-                                <div style={{ padding: '0.3rem 0.6rem', fontSize: '0.84rem' }}>
-                                  <strong style={{ color: '#0f172a' }}>{item.en}</strong>{' '}
-                                  <span style={{ color: '#64748b' }}>({item.vi})</span>
+                                <div style={{ padding: '0.35rem 0.65rem', fontSize: '0.86rem' }}>
+                                  <span style={{ fontFamily: "'Inter', sans-serif", fontWeight: 800, color: '#0f172a' }}>
+                                    {item.en}
+                                  </span>{' '}
+                                  <span style={{ color: '#64748b', fontWeight: 400 }}>({item.vi})</span>
                                 </div>
                               </div>
                             ))}
@@ -1306,9 +1336,11 @@ Best regards,
                                     >
                                       🔊
                                     </button>
-                                    <div style={{ padding: '0.3rem 0.6rem', fontSize: '0.84rem' }}>
-                                      <strong style={{ color: '#0f172a' }}>{item.en}</strong>{' '}
-                                      {item.vi && <span style={{ color: '#64748b' }}>({item.vi})</span>}
+                                    <div style={{ padding: '0.35rem 0.65rem', fontSize: '0.86rem' }}>
+                                      <span style={{ fontFamily: "'Inter', sans-serif", fontWeight: 800, color: '#0f172a' }}>
+                                        {item.en}
+                                      </span>{' '}
+                                      {item.vi && <span style={{ color: '#64748b', fontWeight: 400 }}>({item.vi})</span>}
                                     </div>
                                   </div>
                                 ))}
@@ -1509,12 +1541,14 @@ Best regards,
 
             <pre style={{
               backgroundColor: '#f8fafc',
-              padding: '1rem',
+              padding: '1rem 1.15rem',
               borderRadius: '8px',
-              border: '1px solid #e2e8f0',
+              border: '1.5px solid #e2e8f0',
               fontSize: '0.95rem',
-              lineHeight: '1.8',
+              lineHeight: '1.85',
               whiteSpace: 'pre-wrap',
+              textAlign: 'justify',
+              boxSizing: 'border-box',
               fontFamily: 'inherit',
               color: '#0f172a'
             }}>
@@ -1557,12 +1591,14 @@ Best regards,
 
             <pre style={{
               backgroundColor: '#f8fafc',
-              padding: '1rem',
+              padding: '1rem 1.15rem',
               borderRadius: '8px',
-              border: '1px solid #e2e8f0',
+              border: '1.5px solid #e2e8f0',
               fontSize: '0.95rem',
-              lineHeight: '1.8',
+              lineHeight: '1.85',
               whiteSpace: 'pre-wrap',
+              textAlign: 'justify',
+              boxSizing: 'border-box',
               fontFamily: 'inherit',
               color: '#0f172a'
             }}>
