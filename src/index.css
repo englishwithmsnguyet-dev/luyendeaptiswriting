@@ -39,6 +39,12 @@ b, strong {
   font-weight: 700;
 }
 
+.p4-en-hint {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif !important;
+  font-weight: 800 !important;
+  color: #0f172a !important;
+}
+
 body {
   font-family: 'Roboto Serif', serif;
   font-weight: 400;

@@ -248,7 +248,7 @@ const Part4 = () => {
 
   const email1Template = `Dear Kim,
 
-How's it going? I hope you're doing well. I thought you'd be interested to hear that [thông tin trong đề bài]. I was quite [cảm xúc: excited / surprised / disappointed] when I found out about it.
+How's it going? I hope you're doing well. I thought you'd be interested to hear that [thông tin trong đề bài]. I was quite [cảm xúc] when I found out about it.
 
 Personally, I think [ý kiến của bạn] because [lý do]. Moreover, [phát triển thêm ý].
 
@@ -779,7 +779,7 @@ Best regards,
                                 🔊
                               </button>
                               <div style={{ padding: '0.35rem 0.65rem', fontSize: '0.86rem' }}>
-                                <span style={{ fontFamily: "'Inter', sans-serif", fontWeight: 800, color: '#0f172a' }}>
+                                <span className="p4-en-hint" style={{ fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif", fontWeight: 800, color: '#0f172a' }}>
                                   {activeClubHints.e1Topic.en}
                                 </span>{' '}
                                 <span style={{ color: '#64748b', fontWeight: 400 }}>({activeClubHints.e1Topic.vi})</span>
@@ -788,10 +788,10 @@ Best regards,
                           </div>
                         </div>
 
-                        {/* Chỗ thay 2: [cảm xúc: excited / surprised / disappointed] */}
+                        {/* Chỗ thay 2: [cảm xúc] */}
                         <div style={{ display: 'flex', flexDirection: 'column', gap: '0.35rem' }}>
                           <div style={{ fontWeight: 700, fontSize: '0.86rem', color: '#0f172a' }}>
-                            📍 [cảm xúc: excited / surprised / disappointed]:
+                            📍 [cảm xúc]:
                           </div>
                           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.4rem' }}>
                             {activeEmotions.map((item, idx) => (
@@ -826,7 +826,7 @@ Best regards,
                                   🔊
                                 </button>
                                 <div style={{ padding: '0.35rem 0.65rem', fontSize: '0.86rem' }}>
-                                  <span style={{ fontFamily: "'Inter', sans-serif", fontWeight: 800, color: '#0f172a' }}>
+                                  <span className="p4-en-hint" style={{ fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif", fontWeight: 800, color: '#0f172a' }}>
                                     {item.en}
                                   </span>{' '}
                                   <span style={{ color: '#64748b', fontWeight: 400 }}>({item.vi})</span>
@@ -879,7 +879,7 @@ Best regards,
                                       🔊
                                     </button>
                                     <div style={{ padding: '0.35rem 0.65rem', fontSize: '0.86rem' }}>
-                                      <span style={{ fontFamily: "'Inter', sans-serif", fontWeight: 800, color: '#0f172a' }}>
+                                      <span className="p4-en-hint" style={{ fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif", fontWeight: 800, color: '#0f172a' }}>
                                         {item.en}
                                       </span>{' '}
                                       {item.vi && <span style={{ color: '#64748b', fontWeight: 400 }}>({item.vi})</span>}
@@ -1184,7 +1184,7 @@ Best regards,
                                   🔊
                                 </button>
                                 <div style={{ padding: '0.35rem 0.65rem', fontSize: '0.86rem' }}>
-                                  <span style={{ fontFamily: "'Inter', sans-serif", fontWeight: 800, color: '#0f172a' }}>
+                                  <span className="p4-en-hint" style={{ fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif", fontWeight: 800, color: '#0f172a' }}>
                                     {item.en}
                                   </span>{' '}
                                   <span style={{ color: '#64748b', fontWeight: 400 }}>({item.vi})</span>
@@ -1230,7 +1230,7 @@ Best regards,
                                 🔊
                               </button>
                               <div style={{ padding: '0.35rem 0.65rem', fontSize: '0.86rem' }}>
-                                <span style={{ fontFamily: "'Inter', sans-serif", fontWeight: 800, color: '#0f172a' }}>
+                                <span className="p4-en-hint" style={{ fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif", fontWeight: 800, color: '#0f172a' }}>
                                   {activeClubHints.e2Topic.en}
                                 </span>{' '}
                                 <span style={{ color: '#64748b', fontWeight: 400 }}>({activeClubHints.e2Topic.vi})</span>
@@ -1277,7 +1277,7 @@ Best regards,
                                   🔊
                                 </button>
                                 <div style={{ padding: '0.35rem 0.65rem', fontSize: '0.86rem' }}>
-                                  <span style={{ fontFamily: "'Inter', sans-serif", fontWeight: 800, color: '#0f172a' }}>
+                                  <span className="p4-en-hint" style={{ fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif", fontWeight: 800, color: '#0f172a' }}>
                                     {item.en}
                                   </span>{' '}
                                   <span style={{ color: '#64748b', fontWeight: 400 }}>({item.vi})</span>
@@ -1337,7 +1337,7 @@ Best regards,
                                       🔊
                                     </button>
                                     <div style={{ padding: '0.35rem 0.65rem', fontSize: '0.86rem' }}>
-                                      <span style={{ fontFamily: "'Inter', sans-serif", fontWeight: 800, color: '#0f172a' }}>
+                                      <span className="p4-en-hint" style={{ fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif", fontWeight: 800, color: '#0f172a' }}>
                                         {item.en}
                                       </span>{' '}
                                       {item.vi && <span style={{ color: '#64748b', fontWeight: 400 }}>({item.vi})</span>}

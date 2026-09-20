@@ -21,7 +21,7 @@ export const part4CommonTemplates = {
       {
         step: 3,
         name: "Nhắc tin tức & Bày tỏ cảm xúc",
-        fixed: "I thought you'd be interested to hear that [thông tin trong đề bài]. I was quite [cảm xúc: excited / surprised / disappointed] when I found out about it.",
+        fixed: "I thought you'd be interested to hear that [thông tin trong đề bài]. I was quite [cảm xúc] when I found out about it.",
         note: "Tóm tắt ngắn gọn sự việc trong thông báo và thể hiện ngay cảm xúc cá nhân"
       },
       {
@@ -45,7 +45,7 @@ export const part4CommonTemplates = {
     ],
     templateText: `Dear [tên người nhận],
 How’s it going? I hope you're doing well.
-I thought you'd be interested to hear that [thông tin trong đề bài]. I was quite surprised/ excited/ disappointed when I found out about it.
+I thought you'd be interested to hear that [thông tin trong đề bài]. I was quite [cảm xúc] when I found out about it.
 Personally, I think [ý kiến hoặc câu trả lời cho yêu cầu đầu tiên của đề] because [lý do]. Moreover, [phát triển thêm ý hoặc trả lời yêu cầu thứ hai của đề].
 I would love to know what you think about this. Hope to hear from you soon.
 Take care,
@@ -58,7 +58,7 @@ Take care,
         fixedPrefix: "I thought you'd be interested to hear that ", 
         slot: "[thông tin sự việc trong đề bài]", 
         fixedMid: ". I was quite ", 
-        slot2: "[cảm xúc: excited / surprised / disappointed]", 
+        slot2: "[cảm xúc]", 
         fixedSuffix: " when I found out about it." 
       },
       { 
