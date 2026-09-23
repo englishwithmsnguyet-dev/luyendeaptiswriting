@@ -1779,23 +1779,26 @@ Kato`;
                             📍 [thông tin trong đề bài]:
                           </div>
                           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.4rem' }}>
-                            <div
-                              style={{
-                                display: 'inline-flex',
-                                alignItems: 'center',
-                                backgroundColor: '#ffffff',
-                                border: '1px solid #cbd5e1',
-                                borderRadius: '6px',
-                                padding: '0.35rem 0.65rem',
-                                fontSize: '0.86rem',
-                                boxShadow: '0 1px 2px rgba(0,0,0,0.03)'
-                              }}
-                            >
-                              <span className="p4-en-hint" style={{ fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif", fontWeight: 800, color: '#0f172a' }}>
-                                {activeClubHints.e2Topic.en}
-                              </span>{' '}
-                              <span style={{ color: '#64748b', fontWeight: 400, marginLeft: '0.35rem' }}>({activeClubHints.e2Topic.vi})</span>
-                            </div>
+                            {(Array.isArray(activeClubHints.e2Topic) ? activeClubHints.e2Topic : [activeClubHints.e2Topic]).map((hint, idx) => (
+                              <div
+                                key={idx}
+                                style={{
+                                  display: 'inline-flex',
+                                  alignItems: 'center',
+                                  backgroundColor: '#ffffff',
+                                  border: '1px solid #cbd5e1',
+                                  borderRadius: '6px',
+                                  padding: '0.35rem 0.65rem',
+                                  fontSize: '0.86rem',
+                                  boxShadow: '0 1px 2px rgba(0,0,0,0.03)'
+                                }}
+                              >
+                                <span className="p4-en-hint" style={{ fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif", fontWeight: 800, color: '#0f172a' }}>
+                                  {hint.en}
+                                </span>{' '}
+                                <span style={{ color: '#64748b', fontWeight: 400, marginLeft: '0.35rem' }}>({hint.vi})</span>
+                              </div>
+                            ))}
                           </div>
                         </div>
 
