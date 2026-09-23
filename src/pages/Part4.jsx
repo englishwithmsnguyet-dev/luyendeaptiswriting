@@ -1202,13 +1202,16 @@ Kato`;
                               style={{
                                 display: 'inline-flex',
                                 alignItems: 'center',
-                                backgroundColor: '#ffffff',
-                                border: '1px solid #cbd5e1',
+                                backgroundColor: '#f0fdf4',
+                                border: '1.5px solid #86efac',
                                 borderRadius: '6px',
                                 padding: '0.35rem 0.65rem',
-                                boxShadow: '0 1px 2px rgba(0,0,0,0.03)'
+                                boxShadow: '0 1px 3px rgba(34, 197, 94, 0.12)'
                               }}
                             >
+                              <span style={{ backgroundColor: '#dcfce7', color: '#166534', fontSize: '0.72rem', fontWeight: 700, padding: '1px 6px', borderRadius: '4px', marginRight: '0.45rem', border: '1px solid #86efac', display: 'inline-flex', alignItems: 'center', gap: '2px', whiteSpace: 'nowrap' }}>
+                                🛡️ An toàn B2
+                              </span>
                               <span className="p4-en-hint" style={{ fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif", fontWeight: 800, color: '#0f172a' }}>
                                 {activeClubHints.e1Topic.en}
                               </span>{' '}
@@ -1223,25 +1226,33 @@ Kato`;
                             📍 [cảm xúc]:
                           </div>
                           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.4rem' }}>
-                            {activeEmotions.map((item, idx) => (
-                              <div
-                                key={idx}
-                                style={{
-                                  display: 'inline-flex',
-                                  alignItems: 'center',
-                                  backgroundColor: '#ffffff',
-                                  border: '1px solid #cbd5e1',
-                                  borderRadius: '6px',
-                                  padding: '0.35rem 0.65rem',
-                                  boxShadow: '0 1px 2px rgba(0,0,0,0.03)'
-                                }}
-                              >
-                                <span className="p4-en-hint" style={{ fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif", fontWeight: 800, color: '#0f172a' }}>
-                                  {item.en}
-                                </span>{' '}
-                                <span style={{ color: '#64748b', fontWeight: 400, marginLeft: '0.35rem' }}>({item.vi})</span>
-                              </div>
-                            ))}
+                            {activeEmotions.map((item, idx) => {
+                              const isSafe = idx === 0;
+                              return (
+                                <div
+                                  key={idx}
+                                  style={{
+                                    display: 'inline-flex',
+                                    alignItems: 'center',
+                                    backgroundColor: isSafe ? '#f0fdf4' : '#ffffff',
+                                    border: isSafe ? '1.5px solid #86efac' : '1px solid #cbd5e1',
+                                    borderRadius: '6px',
+                                    padding: '0.35rem 0.65rem',
+                                    boxShadow: isSafe ? '0 1px 3px rgba(34, 197, 94, 0.12)' : '0 1px 2px rgba(0,0,0,0.03)'
+                                  }}
+                                >
+                                  {isSafe && (
+                                    <span style={{ backgroundColor: '#dcfce7', color: '#166534', fontSize: '0.72rem', fontWeight: 700, padding: '1px 6px', borderRadius: '4px', marginRight: '0.45rem', border: '1px solid #86efac', display: 'inline-flex', alignItems: 'center', gap: '2px', whiteSpace: 'nowrap' }}>
+                                      🛡️ An toàn B2
+                                    </span>
+                                  )}
+                                  <span className="p4-en-hint" style={{ fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif", fontWeight: 800, color: '#0f172a' }}>
+                                    {item.en}
+                                  </span>{' '}
+                                  <span style={{ color: '#64748b', fontWeight: 400, marginLeft: '0.35rem' }}>({item.vi})</span>
+                                </div>
+                              );
+                            })}
                           </div>
                         </div>
 
@@ -1258,25 +1269,33 @@ Kato`;
                                 📍 {slotLabel}: <span style={{ color: '#d97706', fontWeight: 600 }}>{cat.name.replace(/^[0-9.]+\s*/, '')}</span>
                               </div>
                               <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.4rem' }}>
-                                {cat.items.map((item, i) => (
-                                  <div
-                                    key={i}
-                                    style={{
-                                      display: 'inline-flex',
-                                      alignItems: 'center',
-                                      backgroundColor: '#ffffff',
-                                      border: '1px solid #cbd5e1',
-                                      borderRadius: '6px',
-                                      padding: '0.35rem 0.65rem',
-                                      boxShadow: '0 1px 2px rgba(0,0,0,0.03)'
-                                    }}
-                                  >
-                                    <span className="p4-en-hint" style={{ fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif", fontWeight: 800, color: '#0f172a' }}>
-                                      {item.en}
-                                    </span>{' '}
-                                    {item.vi && <span style={{ color: '#64748b', fontWeight: 400, marginLeft: '0.35rem' }}>({item.vi})</span>}
-                                  </div>
-                                ))}
+                                {cat.items.map((item, i) => {
+                                  const isSafe = i === 0;
+                                  return (
+                                    <div
+                                      key={i}
+                                      style={{
+                                        display: 'inline-flex',
+                                        alignItems: 'center',
+                                        backgroundColor: isSafe ? '#f0fdf4' : '#ffffff',
+                                        border: isSafe ? '1.5px solid #86efac' : '1px solid #cbd5e1',
+                                        borderRadius: '6px',
+                                        padding: '0.35rem 0.65rem',
+                                        boxShadow: isSafe ? '0 1px 3px rgba(34, 197, 94, 0.12)' : '0 1px 2px rgba(0,0,0,0.03)'
+                                      }}
+                                    >
+                                      {isSafe && (
+                                        <span style={{ backgroundColor: '#dcfce7', color: '#166534', fontSize: '0.72rem', fontWeight: 700, padding: '1px 6px', borderRadius: '4px', marginRight: '0.45rem', border: '1px solid #86efac', display: 'inline-flex', alignItems: 'center', gap: '2px', whiteSpace: 'nowrap' }}>
+                                          🛡️ An toàn B2
+                                        </span>
+                                      )}
+                                      <span className="p4-en-hint" style={{ fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif", fontWeight: 800, color: '#0f172a' }}>
+                                        {item.en}
+                                      </span>{' '}
+                                      {item.vi && <span style={{ color: '#64748b', fontWeight: 400, marginLeft: '0.35rem' }}>({item.vi})</span>}
+                                    </div>
+                                  );
+                                })}
                               </div>
                             </div>
                           );
@@ -1750,26 +1769,34 @@ Kato`;
                             📍 [thời gian tham gia]:
                           </div>
                           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.4rem' }}>
-                            {standardMembershipTimes.map((item, idx) => (
-                              <div
-                                key={idx}
-                                style={{
-                                  display: 'inline-flex',
-                                  alignItems: 'center',
-                                  backgroundColor: '#ffffff',
-                                  border: '1px solid #cbd5e1',
-                                  borderRadius: '6px',
-                                  padding: '0.35rem 0.65rem',
-                                  fontSize: '0.86rem',
-                                  boxShadow: '0 1px 2px rgba(0,0,0,0.03)'
-                                }}
-                              >
-                                <span className="p4-en-hint" style={{ fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif", fontWeight: 800, color: '#0f172a' }}>
-                                  {item.en}
-                                </span>{' '}
-                                <span style={{ color: '#64748b', fontWeight: 400, marginLeft: '0.35rem' }}>({item.vi})</span>
-                              </div>
-                            ))}
+                            {standardMembershipTimes.map((item, idx) => {
+                              const isSafe = idx === 0;
+                              return (
+                                <div
+                                  key={idx}
+                                  style={{
+                                    display: 'inline-flex',
+                                    alignItems: 'center',
+                                    backgroundColor: isSafe ? '#f0fdf4' : '#ffffff',
+                                    border: isSafe ? '1.5px solid #86efac' : '1px solid #cbd5e1',
+                                    borderRadius: '6px',
+                                    padding: '0.35rem 0.65rem',
+                                    fontSize: '0.86rem',
+                                    boxShadow: isSafe ? '0 1px 3px rgba(34, 197, 94, 0.12)' : '0 1px 2px rgba(0,0,0,0.03)'
+                                  }}
+                                >
+                                  {isSafe && (
+                                    <span style={{ backgroundColor: '#dcfce7', color: '#166534', fontSize: '0.72rem', fontWeight: 700, padding: '1px 6px', borderRadius: '4px', marginRight: '0.45rem', border: '1px solid #86efac', display: 'inline-flex', alignItems: 'center', gap: '2px', whiteSpace: 'nowrap' }}>
+                                      🛡️ An toàn B2
+                                    </span>
+                                  )}
+                                  <span className="p4-en-hint" style={{ fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif", fontWeight: 800, color: '#0f172a' }}>
+                                    {item.en}
+                                  </span>{' '}
+                                  <span style={{ color: '#64748b', fontWeight: 400, marginLeft: '0.35rem' }}>({item.vi})</span>
+                                </div>
+                              );
+                            })}
                           </div>
                         </div>
 
@@ -1785,14 +1812,17 @@ Kato`;
                                 style={{
                                   display: 'inline-flex',
                                   alignItems: 'center',
-                                  backgroundColor: '#ffffff',
-                                  border: '1px solid #cbd5e1',
+                                  backgroundColor: '#f0fdf4',
+                                  border: '1.5px solid #86efac',
                                   borderRadius: '6px',
                                   padding: '0.35rem 0.65rem',
                                   fontSize: '0.86rem',
-                                  boxShadow: '0 1px 2px rgba(0,0,0,0.03)'
+                                  boxShadow: '0 1px 3px rgba(34, 197, 94, 0.12)'
                                 }}
                               >
+                                <span style={{ backgroundColor: '#dcfce7', color: '#166534', fontSize: '0.72rem', fontWeight: 700, padding: '1px 6px', borderRadius: '4px', marginRight: '0.45rem', border: '1px solid #86efac', display: 'inline-flex', alignItems: 'center', gap: '2px', whiteSpace: 'nowrap' }}>
+                                  🛡️ An toàn B2
+                                </span>
                                 <span className="p4-en-hint" style={{ fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif", fontWeight: 800, color: '#0f172a' }}>
                                   {hint.en}
                                 </span>{' '}
@@ -1808,26 +1838,34 @@ Kato`;
                             📍 [nêu quan điểm về vấn đề đó]:
                           </div>
                           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.4rem' }}>
-                            {activePerspectives.map((item, idx) => (
-                              <div
-                                key={idx}
-                                style={{
-                                  display: 'inline-flex',
-                                  alignItems: 'center',
-                                  backgroundColor: '#ffffff',
-                                  border: '1px solid #cbd5e1',
-                                  borderRadius: '6px',
-                                  padding: '0.35rem 0.65rem',
-                                  fontSize: '0.86rem',
-                                  boxShadow: '0 1px 2px rgba(0,0,0,0.03)'
-                                }}
-                              >
-                                <span className="p4-en-hint" style={{ fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif", fontWeight: 800, color: '#0f172a' }}>
-                                  {item.en}
-                                </span>{' '}
-                                <span style={{ color: '#64748b', fontWeight: 400, marginLeft: '0.35rem' }}>({item.vi})</span>
-                              </div>
-                            ))}
+                            {activePerspectives.map((item, idx) => {
+                              const isSafe = idx === 0;
+                              return (
+                                <div
+                                  key={idx}
+                                  style={{
+                                    display: 'inline-flex',
+                                    alignItems: 'center',
+                                    backgroundColor: isSafe ? '#f0fdf4' : '#ffffff',
+                                    border: isSafe ? '1.5px solid #86efac' : '1px solid #cbd5e1',
+                                    borderRadius: '6px',
+                                    padding: '0.35rem 0.65rem',
+                                    fontSize: '0.86rem',
+                                    boxShadow: isSafe ? '0 1px 3px rgba(34, 197, 94, 0.12)' : '0 1px 2px rgba(0,0,0,0.03)'
+                                  }}
+                                >
+                                  {isSafe && (
+                                    <span style={{ backgroundColor: '#dcfce7', color: '#166534', fontSize: '0.72rem', fontWeight: 700, padding: '1px 6px', borderRadius: '4px', marginRight: '0.45rem', border: '1px solid #86efac', display: 'inline-flex', alignItems: 'center', gap: '2px', whiteSpace: 'nowrap' }}>
+                                      🛡️ An toàn B2
+                                    </span>
+                                  )}
+                                  <span className="p4-en-hint" style={{ fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif", fontWeight: 800, color: '#0f172a' }}>
+                                    {item.en}
+                                  </span>{' '}
+                                  <span style={{ color: '#64748b', fontWeight: 400, marginLeft: '0.35rem' }}>({item.vi})</span>
+                                </div>
+                              );
+                            })}
                           </div>
                         </div>
 
@@ -1847,26 +1885,34 @@ Kato`;
                                 📍 {slotLabel}: <span style={{ color: '#2563eb', fontWeight: 600 }}>{cat.name.replace(/^[0-9.]+\s*/, '')}</span>
                               </div>
                               <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.4rem' }}>
-                                {cat.items.map((item, i) => (
-                                  <div
-                                    key={i}
-                                    style={{
-                                      display: 'inline-flex',
-                                      alignItems: 'center',
-                                      backgroundColor: '#ffffff',
-                                      border: '1px solid #cbd5e1',
-                                      borderRadius: '6px',
-                                      padding: '0.35rem 0.65rem',
-                                      fontSize: '0.86rem',
-                                      boxShadow: '0 1px 2px rgba(0,0,0,0.03)'
-                                    }}
-                                  >
-                                    <span className="p4-en-hint" style={{ fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif", fontWeight: 800, color: '#0f172a' }}>
-                                      {item.en}
-                                    </span>{' '}
-                                    {item.vi && <span style={{ color: '#64748b', fontWeight: 400, marginLeft: '0.35rem' }}>({item.vi})</span>}
-                                  </div>
-                                ))}
+                                {cat.items.map((item, i) => {
+                                  const isSafe = i === 0;
+                                  return (
+                                    <div
+                                      key={i}
+                                      style={{
+                                        display: 'inline-flex',
+                                        alignItems: 'center',
+                                        backgroundColor: isSafe ? '#f0fdf4' : '#ffffff',
+                                        border: isSafe ? '1.5px solid #86efac' : '1px solid #cbd5e1',
+                                        borderRadius: '6px',
+                                        padding: '0.35rem 0.65rem',
+                                        fontSize: '0.86rem',
+                                        boxShadow: isSafe ? '0 1px 3px rgba(34, 197, 94, 0.12)' : '0 1px 2px rgba(0,0,0,0.03)'
+                                      }}
+                                    >
+                                      {isSafe && (
+                                        <span style={{ backgroundColor: '#dcfce7', color: '#166534', fontSize: '0.72rem', fontWeight: 700, padding: '1px 6px', borderRadius: '4px', marginRight: '0.45rem', border: '1px solid #86efac', display: 'inline-flex', alignItems: 'center', gap: '2px', whiteSpace: 'nowrap' }}>
+                                          🛡️ An toàn B2
+                                        </span>
+                                      )}
+                                      <span className="p4-en-hint" style={{ fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif", fontWeight: 800, color: '#0f172a' }}>
+                                        {item.en}
+                                      </span>{' '}
+                                      {item.vi && <span style={{ color: '#64748b', fontWeight: 400, marginLeft: '0.35rem' }}>({item.vi})</span>}
+                                    </div>
+                                  );
+                                })}
                               </div>
                             </div>
                           );
