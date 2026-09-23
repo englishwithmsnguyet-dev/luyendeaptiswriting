@@ -93,6 +93,11 @@ export const part4SlotHints = {
     e1Topic: { en: "our public library faces closure next year as people shift to online reading", vi: "thư viện công cộng có nguy cơ bị đóng cửa vào năm sau do xu hướng đọc sách online" },
     e2Topic: { en: "the plan to close the local public library next year", vi: "kế hoạch đóng cửa thư viện công cộng địa phương vào năm tới" },
     positive: false
+  },
+  "Museum club": {
+    e1Topic: { en: "our Museum Club is discussing whether to collect admission tickets from visitors to cover repairs and staff costs", vi: "CLB Bảo tàng đang thảo luận về việc có nên thu vé vào cửa đối với khách tham quan để trang trải chi phí sửa chữa và trả lương cho nhân viên hay không" },
+    e2Topic: { en: "the plan to collect admission tickets from visitors to fund repairs and staff salaries", vi: "kế hoạch thu vé vào cửa đối với khách tham quan để có kinh phí sửa chữa và trả lương nhân viên" },
+    positive: false
   }
 };
 

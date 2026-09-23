@@ -440,7 +440,7 @@ export const gradeEmail = async (taskKey, rawText, clubData) => {
   };
 };
 
-// Flat list of 19 Part 4 clubs
+// Flat list of 20 Part 4 clubs
 export const clubList = [
   { id: "Walking club", name: "Walking Club (Sự kiện đi bộ hàng tháng)" },
   { id: "Fitness club", name: "Fitness Club (Nâng cấp thiết bị tập & Tăng phí hội viên)" },
@@ -460,7 +460,8 @@ export const clubList = [
   { id: "Art club", name: "Art Club (Mời họa sĩ nói chuyện trước công chúng)" },
   { id: "Food club", name: "Food Club (Tình nguyện làm diễn giả cùng đầu bếp nổi tiếng)" },
   { id: "Beautiful homes club", name: "Beautiful Homes Club (Phá dỡ công trình cũ xây chung cư)" },
-  { id: "Sports club", name: "Sports Club (Tổ chức thi đấu thể thao cho thành viên trẻ)" }
+  { id: "Sports club", name: "Sports Club (Tổ chức thi đấu thể thao cho thành viên trẻ)" },
+  { id: "Museum club", name: "Museum Club (Bảo tàng miễn phí & Chính sách thu vé)" }
 ];
 
 

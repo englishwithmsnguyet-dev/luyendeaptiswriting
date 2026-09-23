@@ -3558,5 +3558,185 @@ export const part4Data = {
         }
       ]
     }
+  },
+
+  "Museum club": {
+    "title": "Museum club (Free Admission & Ticket Policy)",
+    "badge": "Đề mới cập nhật",
+    "notice": "Dear members,\nCurrently the museums in the city are free, in order to have more money to repair and pay the carers, should we collect tickets from passengers? Give your opinion? Why?",
+    "noticeVi": "Kính gửi các thành viên,\nHiện tại các bảo tàng trong thành phố đều mở cửa miễn phí. Để có thêm kinh phí sửa chữa và trả lương cho nhân viên trông coi, chúng ta có nên thu tiền vé từ khách tham quan không? Hãy cho biết ý kiến của bạn và giải thích lý do tại sao?",
+    "promptAnalysis": {
+      "topic": "Thu phí vé vào cửa bảo tàng để có kinh phí sửa chữa và chi trả cho nhân viên",
+      "task1": "Viết email cho bạn (Kim): Bày tỏ cảm xúc bất ngờ/lo lắng về việc thu vé, nêu quan điểm về mức phí và đề xuất giữ miễn phí cho học sinh sinh viên (~50 từ)",
+      "task2": "Viết email cho Quản lý CLB: Nêu quan điểm về việc thu phí và đề xuất 3 giải pháp thực tế (thu mức phí tượng trưng rất thấp, bán đồ lưu niệm và sách nghệ thuật, tìm nguồn tài trợ văn hóa) (120 - 150 từ)"
+    },
+    "email1": {
+      "title": "Email 1: Gửi bạn bè (Kim)",
+      "instruction": "Write a short email to your friend (about 50 words). Tell your friend your feelings about the museum ticket policy and what you think should be done.",
+      "instructionVi": "Viết một email ngắn cho bạn của bạn (khoảng 50 từ). Cho bạn ấy biết cảm xúc của bạn về chính sách thu vé bảo tàng và suy nghĩ của bạn về việc nên làm gì.",
+      "wordTarget": "Khoảng 50 từ (45 - 60 từ)",
+      "minWords": 45,
+      "maxWords": 65,
+      "template": "Dear Kim,\nHow's it going? I hope you're doing well.\nI thought you'd be interested to hear that our Museum Club is discussing whether to collect admission tickets from visitors. I was quite surprised when I found out about it.\nPersonally, I think [ý kiến & lý do]. Moreover, [phát triển thêm ý].\nI would love to know what you think about this. Hope to hear from you soon.\nTake care,\n[Tên của bạn]",
+      "vocabCategories": [
+        {
+          "name": "1. Bày tỏ Cảm xúc (Emotions)",
+          "items": [
+            {
+              "en": "quite surprised",
+              "vi": "khá bất ngờ"
+            },
+            {
+              "en": "a bit concerned",
+              "vi": "hơi lo lắng một chút"
+            },
+            {
+              "en": "deeply worried",
+              "vi": "vô cùng lo lắng"
+            }
+          ]
+        },
+        {
+          "name": "2. [ý kiến & lý do] (Mệnh đề hoàn chỉnh)",
+          "items": [
+            {
+              "en": "a small fee is reasonable because the museum needs maintenance funds",
+              "vi": "thu một khoản phí nhỏ là hợp lý vì bảo tàng cần kinh phí bảo trì"
+            },
+            {
+              "en": "museums should stay free because everyone deserves access to culture",
+              "vi": "bảo tàng nên giữ miễn phí vì mọi người đều xứng đáng tiếp cận văn hóa"
+            },
+            {
+              "en": "charging high ticket prices is not good because it will discourage visitors",
+              "vi": "thu giá vé cao là không tốt vì sẽ làm nản lòng khách tham quan"
+            }
+          ]
+        },
+        {
+          "name": "3. [phát triển thêm ý] (Mệnh đề hoàn chỉnh)",
+          "items": [
+            {
+              "en": "entry should remain free for students and children",
+              "vi": "vé vào cửa nên tiếp tục miễn phí cho học sinh và trẻ em"
+            },
+            {
+              "en": "we should offer discounted tickets on weekdays to attract visitors",
+              "vi": "chúng ta nên giảm giá vé vào các ngày trong tuần để thu hút khách"
+            },
+            {
+              "en": "the museum can organize fundraising events instead of charging high tickets",
+              "vi": "bảo tàng có thể tổ chức sự kiện gây quỹ thay vì thu vé cao"
+            }
+          ]
+        }
+      ],
+      "samples": [
+        {
+          "title": "Bài mẫu chuẩn Band B2+",
+          "wordCount": 64,
+          "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our museum plans to charge admission. I was quite surprised to hear about it.\n\nPersonally, I think a small fee is reasonable because the museum needs maintenance funds. Moreover, entry should remain free for students and children. What do you think? Hope to hear from you soon.\n\nTake care,\nKato",
+          "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ muốn biết tin bảo tàng của chúng ta dự định thu phí vào cửa. Mình khá bất ngờ khi nghe tin này.\n\nCá nhân mình thấy một mức phí nhỏ là hợp lý vì bảo tàng cần kinh phí bảo trì. Hơn nữa, vé vào cửa nên tiếp tục miễn phí cho học sinh và trẻ em. Bạn nghĩ sao? Mong sớm nhận được tin từ bạn.\n\nBảo trọng nhé,\nKato",
+          "analysis": [
+            {
+              "label": "Chào hỏi & Tin tức",
+              "text": "Dear Kim, How is it going? I thought you would like to know that our museum plans to charge admission. I was quite surprised to hear about it."
+            },
+            {
+              "label": "Quan điểm, Lý do & Đề xuất",
+              "text": "Personally, I think a small fee is reasonable because the museum needs maintenance funds. Moreover, entry should remain free for students and children. What do you think? Hope to hear from you soon."
+            },
+            {
+              "label": "Ký tên",
+              "text": "Take care, Kato"
+            }
+          ]
+        }
+      ]
+    },
+    "email2": {
+      "title": "Email 2: Gửi Quản lý Câu lạc bộ",
+      "instruction": "Write an email to the president/manager of the club (about 120–150 words). Express your opinion on collecting ticket fees and suggest practical solutions to maintain funding while keeping museums accessible.",
+      "instructionVi": "Viết một email cho chủ tịch/quản lý câu lạc bộ (khoảng 120–150 từ). Bày tỏ ý kiến về việc thu tiền vé và đề xuất các giải pháp thực tế để vừa duy trì kinh phí vừa đảm bảo bảo tàng dễ tiếp cận với công chúng.",
+      "wordTarget": "120 - 150 từ (chuẩn 120 - 165 từ)",
+      "minWords": 120,
+      "maxWords": 165,
+      "template": "Dear Club Manager,\nMy name is Kato, and I have been an active member of our club for [thời gian tham gia: two years]. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding [thông tin trong đề bài]. I believe [nêu quan điểm về vấn đề đó].\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, [đề xuất thứ nhất].\nSecond, [đề xuất thứ hai].\nFinally, [đề xuất thứ ba].\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
+      "vocabCategories": [
+        {
+          "name": "1. Đề xuất 1: [đề xuất thứ nhất] (Mệnh đề hoàn chỉnh)",
+          "items": [
+            {
+              "en": "the club should apply a very low ticket fee, so it will not discourage local visitors",
+              "vi": "CLB nên áp dụng mức giá vé rất thấp để không làm nản lòng khách địa phương"
+            },
+            {
+              "en": "the city should continue offering completely free admission for students and senior citizens",
+              "vi": "thành phố nên tiếp tục miễn phí vé hoàn toàn cho học sinh sinh viên và người cao tuổi"
+            },
+            {
+              "en": "we should keep entry free on weekends to encourage family visits",
+              "vi": "chúng ta nên giữ miễn phí vé vào cuối tuần để khuyến khích các gia đình đi tham quan"
+            }
+          ]
+        },
+        {
+          "name": "2. Đề xuất 2: [đề xuất thứ hai] (Mệnh đề hoàn chỉnh)",
+          "items": [
+            {
+              "en": "we could sell souvenirs and art books to generate additional income",
+              "vi": "chúng ta có thể bán đồ lưu niệm và sách nghệ thuật để tạo thêm nguồn thu"
+            },
+            {
+              "en": "the museum could open a small coffee shop inside to earn extra revenue for repairs",
+              "vi": "bảo tàng có thể mở một quán cà phê nhỏ bên trong để tăng doanh thu sửa chữa"
+            },
+            {
+              "en": "we ought to organize special guided workshops with a small participation fee",
+              "vi": "chúng ta nên tổ chức các buổi hội thảo hướng dẫn đặc biệt có thu phí nhỏ"
+            }
+          ]
+        },
+        {
+          "name": "3. Đề xuất 3: [đề xuất thứ ba] (Mệnh đề hoàn chỉnh)",
+          "items": [
+            {
+              "en": "the management should seek sponsorships from local cultural organizations",
+              "vi": "ban quản lý nên tìm kiếm tài trợ từ các tổ chức văn hóa địa phương"
+            },
+            {
+              "en": "we should place voluntary donation boxes at the entrance to encourage public support",
+              "vi": "chúng ta nên đặt các hòm quyên góp tự nguyện ở lối vào để khuyến khích ủng hộ"
+            },
+            {
+              "en": "the club could launch an online fundraising campaign to support our museum carers",
+              "vi": "CLB có thể phát động chiến dịch gây quỹ trực tuyến để hỗ trợ nhân viên bảo tàng"
+            }
+          ]
+        }
+      ],
+      "samples": [
+        {
+          "title": "Bài mẫu chuẩn Band B2+",
+          "wordCount": 143,
+          "en": "Dear Club Manager,\n\nMy name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the plan to collect admission tickets from visitors to fund repairs and staff salaries. I believe charging a small fee is necessary, but we must keep museums accessible to everyone.\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, the club should apply a very low ticket fee, so it will not discourage local visitors.\nSecond, we could sell souvenirs and art books to generate additional income.\nFinally, the management should seek sponsorships from local cultural organizations.\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
+          "vi": "Kính gửi Quản lý Câu lạc bộ,\n\nTên tôi là Kato, và tôi đã là một hội viên tích cực của câu lạc bộ chúng ta được hai năm. Trong thời gian này, tôi đã tham gia vào nhiều hoạt động ý nghĩa. Tôi viết thư này để chia sẻ góc nhìn và đưa ra một vài đề xuất mang tính xây dựng liên quan đến kế hoạch thu vé vào cửa đối với khách tham quan để có kinh phí sửa chữa và trả lương nhân viên. Tôi tin chắc rằng việc thu một khoản phí nhỏ là cần thiết, nhưng chúng ta cần giữ cho bảo tàng luôn dễ tiếp cận với mọi người.\n\nĐể giúp đạt được kết quả tốt nhất, tôi xin phép đưa ra ba đề xuất thực tế.\nThứ nhất, câu lạc bộ nên áp dụng mức giá vé rất thấp để không làm nản lòng khách địa phương.\nThứ hai, chúng ta có thể bán đồ lưu niệm và sách nghệ thuật để tạo thêm nguồn thu.\nCuối cùng, ban quản lý nên tìm kiếm tài trợ từ các tổ chức văn hóa địa phương.\n\nCảm ơn bạn đã dành thời gian xem xét thư. Tôi rất mong sớm nhận được phản hồi từ bạn.\n\nTrân trọng,\nKato",
+          "analysis": [
+            {
+              "label": "Mở đầu, Mục đích & Quan điểm",
+              "text": "My name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the plan to collect admission tickets from visitors to fund repairs and staff salaries. I believe charging a small fee is necessary, but we must keep museums accessible to everyone."
+            },
+            {
+              "label": "3 Đề xuất thực tế",
+              "text": "To help achieve the best outcome, I would like to make some practical proposals. First, the club should apply a very low ticket fee, so it will not discourage local visitors. Second, we could sell souvenirs and art books to generate additional income. Finally, the management should seek sponsorships from local cultural organizations."
+            },
+            {
+              "label": "Cảm ơn & Ký tên",
+              "text": "Thank you for your time and consideration. I look forward to hearing your response. Best regards, Kato"
+            }
+          ]
+        }
+      ]
+    }
   }
 };
