@@ -171,9 +171,9 @@ export const standardMembershipTimes = [
 ];
 
 export const standardPerspectivesPositive = [
-  { en: "this is an excellent initiative", vi: "đây là một sáng kiến tuyệt vời" },
   { en: "this is a great idea", vi: "đây là một ý tưởng rất hay" },
   { en: "this is a reasonable decision", vi: "đây là một quyết định hợp lý" },
+  { en: "this is a wonderful plan", vi: "đây là một kế hoạch tuyệt vời" },
   { en: "this project will bring great benefits to all members", vi: "dự án này sẽ mang lại lợi ích lớn cho các hội viên" }
 ];
 
