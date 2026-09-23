@@ -3738,5 +3738,1805 @@ export const part4Data = {
         }
       ]
     }
+  },
+
+  "Photography club": {
+  "title": "Photography club (Photo Competition & Categories)",
+  "badge": "Đề mới cập nhật",
+  "notice": "Dear members,\nHello all the members of our club, we are going to organize a competition to pick out the best photograph, since we have many genres of photos, we would like to ask for your opinion that whether we should divide it into different sections and have a section for children under 16 years old. Let us know your opinions and explain why.",
+  "noticeVi": "Kính gửi các thành viên,\nXin chào toàn thể hội viên câu lạc bộ, chúng ta sắp tổ chức một cuộc thi để chọn ra bức ảnh đẹp nhất. Vì chúng ta có rất nhiều thể loại ảnh, ban quản lý muốn hỏi ý kiến của các bạn về việc có nên chia cuộc thi thành các bảng khác nhau và có riêng một bảng dành cho trẻ em dưới 16 tuổi hay không. Hãy cho chúng tôi biết ý kiến của bạn và giải thích lý do tại sao.",
+  "promptAnalysis": {
+    "topic": "Tổ chức cuộc thi ảnh, phân chia bảng thi theo thể loại và độ tuổi dưới 16",
+    "task1": "Viết email cho bạn (Kim): Bày tỏ sự hào hứng về cuộc thi, nêu ý kiến ủng hộ chia bảng thi để công bằng và rủ bạn cùng nộp ảnh tham gia (~50 từ)",
+    "task2": "Viết email cho Quản lý CLB: Nêu quan điểm ủng hộ và đề xuất 3 giải pháp thực tế (bảng riêng cho dưới 16, chia theo thể loại phong cảnh/chân dung, mời nhiếp ảnh gia kỳ cựu chấm giải) (120 - 150 từ)"
+  },
+  "email1": {
+    "title": "Email 1: Gửi bạn bè (Kim)",
+    "instruction": "Write a short email to your friend (about 50 words). Tell your friend your feelings about the photo competition and what categories you suggest.",
+    "instructionVi": "Viết một email ngắn cho bạn của bạn (khoảng 50 từ). Cho bạn ấy biết cảm xúc về cuộc thi ảnh và bạn đề xuất những bảng thi nào.",
+    "wordTarget": "Khoảng 50 từ (45 - 60 từ)",
+    "minWords": 45,
+    "maxWords": 65,
+    "template": "Dear Kim,\nHow's it going? I hope you're doing well.\nI thought you'd be interested to hear that our photography club is planning a photo contest with separate categories. I was quite excited when I found out about it.\nPersonally, I think [ý kiến & lý do]. Moreover, [phát triển thêm ý].\nI would love to know what you think about this. Hope to hear from you soon.\nTake care,\n[Tên của bạn]",
+    "vocabCategories": [
+      {
+        "name": "1. Bày tỏ Cảm xúc (Emotions)",
+        "items": [
+          {
+            "en": "quite excited",
+            "vi": "khá hào hứng"
+          },
+          {
+            "en": "absolutely thrilled",
+            "vi": "cực kỳ phấn khích"
+          },
+          {
+            "en": "pleasantly surprised",
+            "vi": "ngạc nhiên một cách thích thú"
+          }
+        ]
+      },
+      {
+        "name": "2. [ý kiến & lý do] (Mệnh đề hoàn chỉnh)",
+        "items": [
+          {
+            "en": "dividing the contest is reasonable because it creates a fair playground for everyone",
+            "vi": "chia bảng thi là hợp lý vì tạo sân chơi công bằng cho mọi người"
+          },
+          {
+            "en": "having a junior category is wonderful because it encourages young photography enthusiasts",
+            "vi": "có bảng thi thiếu nhi là điều tuyệt vời vì khuyến khích các bạn trẻ đam mê nhiếp ảnh"
+          },
+          {
+            "en": "separating genres is essential because each photo style requires distinct technical criteria",
+            "vi": "tách riêng thể loại là cần thiết vì mỗi phong cách ảnh có tiêu chí kỹ thuật riêng"
+          }
+        ]
+      },
+      {
+        "name": "3. [phát triển thêm ý] (Mệnh đề hoàn chỉnh)",
+        "items": [
+          {
+            "en": "we should prepare small commemorative medals for young participants",
+            "vi": "chúng ta nên chuẩn bị huy chương lưu niệm nhỏ cho các thí sinh nhỏ tuổi"
+          },
+          {
+            "en": "we should select our best holiday pictures to submit together this weekend",
+            "vi": "chúng mình nên chọn những bức ảnh đi chơi đẹp nhất để cùng nộp vào cuối tuần này"
+          },
+          {
+            "en": "the club could display all nominated photos in an open gallery",
+            "vi": "CLB có thể trưng bày tất cả ảnh được đề cử trong một phòng tranh mở"
+          }
+        ]
+      }
+    ],
+    "samples": [
+      {
+        "title": "Bài mẫu chuẩn Band B2+",
+        "wordCount": 63,
+        "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our photography club is planning a photo contest with separate categories. I was quite excited to hear about it.\n\nPersonally, I think dividing the contest is reasonable because it creates a fair playground for everyone. Moreover, we should prepare small commemorative medals for young participants. What do you think? Hope to hear from you soon.\n\nTake care,\nKato",
+        "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin CLB nhiếp ảnh của chúng ta đang lên kế hoạch tổ chức cuộc thi ảnh với các bảng thi riêng. Mình khá hào hứng khi nghe tin này.\n\nCá nhân mình thấy việc chia bảng thi là hợp lý vì nó tạo ra sân chơi công bằng cho mọi người. Hơn nữa, chúng ta nên chuẩn bị huy chương lưu niệm nhỏ cho các thí sinh nhỏ tuổi. Bạn nghĩ sao? Mong sớm nhận được tin từ bạn.\n\nBảo trọng nhé,\nKato",
+        "analysis": [
+          {
+            "label": "Chào hỏi & Tin tức",
+            "text": "Dear Kim, How is it going? I thought you would like to know that our photography club is planning a photo contest with separate categories. I was quite excited to hear about it."
+          },
+          {
+            "label": "Quan điểm, Lý do & Đề xuất",
+            "text": "Personally, I think dividing the contest is reasonable because it creates a fair playground for everyone. Moreover, we should prepare small commemorative medals for young participants. What do you think? Hope to hear from you soon."
+          },
+          {
+            "label": "Ký tên",
+            "text": "Take care, Kato"
+          }
+        ]
+      }
+    ]
+  },
+  "email2": {
+    "title": "Email 2: Gửi Quản lý Câu lạc bộ",
+    "instruction": "Write an email to the club manager (about 120–150 words). Give your opinion on dividing the competition and propose 3 constructive suggestions.",
+    "instructionVi": "Viết email gửi quản lý CLB (khoảng 120–150 từ). Trình bày quan điểm về việc chia bảng cuộc thi và đưa ra 3 đề xuất mang tính xây dựng.",
+    "wordTarget": "120 - 150 từ (chuẩn 120 - 165 từ)",
+    "minWords": 120,
+    "maxWords": 165,
+    "template": "Dear Club Manager,\nMy name is Kato, and I have been an active member of our club for [thời gian tham gia: two years]. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding [thông tin trong đề bài]. I believe [nêu quan điểm về vấn đề đó].\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, [đề xuất thứ nhất].\nSecond, [đề xuất thứ hai].\nFinally, [đề xuất thứ ba].\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
+    "vocabCategories": [
+      {
+        "name": "1. Đề xuất 1: [đề xuất thứ nhất] (Mệnh đề hoàn chỉnh)",
+        "items": [
+          {
+            "en": "the club should create a dedicated junior division for members under sixteen",
+            "vi": "CLB nên tạo một bảng thi thiếu nhi riêng cho các hội viên dưới mười sáu tuổi"
+          },
+          {
+            "en": "we should establish separate age categories to ensure fair evaluation between juniors and veterans",
+            "vi": "chúng ta nên lập các bảng tuổi riêng để chấm điểm công bằng giữa người mới và kỳ cựu"
+          },
+          {
+            "en": "the organizers ought to simplify submission guidelines for young students",
+            "vi": "ban tổ chức nên đơn giản hóa hướng dẫn nộp bài cho học sinh nhỏ tuổi"
+          }
+        ]
+      },
+      {
+        "name": "2. Đề xuất 2: [đề xuất thứ hai] (Mệnh đề hoàn chỉnh)",
+        "items": [
+          {
+            "en": "we could introduce diverse themes such as landscape, portrait, and street life",
+            "vi": "chúng ta có thể giới thiệu các chủ đề đa dạng như phong cảnh, chân dung và đời sống đường phố"
+          },
+          {
+            "en": "the club should open distinct categories for wildlife and architectural photography",
+            "vi": "CLB nên mở các hạng mục riêng cho nhiếp ảnh động vật hoang dã và kiến trúc"
+          },
+          {
+            "en": "we could encourage smartphone photography entries to attract more beginners",
+            "vi": "chúng ta có thể khuyến khích các bài dự thi chụp bằng điện thoại để thu hút người mới bắt đầu"
+          }
+        ]
+      },
+      {
+        "name": "3. Đề xuất 3: [đề xuất thứ ba] (Mệnh đề hoàn chỉnh)",
+        "items": [
+          {
+            "en": "the organizers should invite experienced local photographers to serve as judges",
+            "vi": "ban tổ chức nên mời các nhiếp ảnh gia địa phương giàu kinh nghiệm làm giám khảo"
+          },
+          {
+            "en": "we could organize an exhibition hall where the public can vote for their favorite photos",
+            "vi": "chúng ta có thể tổ chức phòng triển lãm nơi công chúng bình chọn bức ảnh yêu thích"
+          },
+          {
+            "en": "the club should award certificates and practical camera accessories to winning participants",
+            "vi": "CLB nên trao chứng nhận và phụ kiện máy ảnh thiết thực cho các thí sinh đạt giải"
+          }
+        ]
+      }
+    ],
+    "samples": [
+      {
+        "title": "Bài mẫu chuẩn Band B2+",
+        "wordCount": 141,
+        "en": "Dear Club Manager,\n\nMy name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the plan to divide our upcoming photo contest into different age and genre categories. I believe categorizing the competition will ensure fairness and encourage wider participation.\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, the club should create a dedicated junior division for members under sixteen.\nSecond, we could introduce diverse themes such as landscape, portrait, and street life.\nFinally, the organizers should invite experienced local photographers to serve as judges.\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
+        "vi": "Kính gửi Quản lý Câu lạc bộ,\n\nTên tôi là Kato, và tôi đã là một hội viên tích cực của câu lạc bộ chúng ta được hai năm. Trong thời gian này, tôi đã tham gia vào nhiều hoạt động ý nghĩa. Tôi viết thư này để chia sẻ góc nhìn và đưa ra một vài đề xuất mang tính xây dựng liên quan đến kế hoạch phân chia cuộc thi ảnh sắp tới thành các bảng theo độ tuổi và thể loại. Tôi tin chắc rằng việc phân loại cuộc thi sẽ đảm bảo tính công bằng và khuyến khích đông đảo hội viên tham gia.\n\nĐể giúp đạt được kết quả tốt nhất, tôi xin phép đưa ra ba đề xuất thực tế.\nThứ nhất, câu lạc bộ nên tạo một bảng thi thiếu nhi riêng cho các hội viên dưới mười sáu tuổi.\nThứ hai, chúng ta có thể giới thiệu các chủ đề đa dạng như phong cảnh, chân dung và đời sống đường phố.\nCuối cùng, ban tổ chức nên mời các nhiếp ảnh gia địa phương giàu kinh nghiệm làm giám khảo.\n\nCảm ơn bạn đã dành thời gian xem xét thư. Tôi rất mong sớm nhận được phản hồi từ bạn.\n\nTrân trọng,\nKato",
+        "analysis": [
+          {
+            "label": "Mở đầu, Mục đích & Quan điểm",
+            "text": "My name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the plan to divide our upcoming photo contest into different age and genre categories. I believe categorizing the competition will ensure fairness and encourage wider participation."
+          },
+          {
+            "label": "3 Đề xuất thực tế",
+            "text": "To help achieve the best outcome, I would like to make some practical proposals. First, the club should create a dedicated junior division for members under sixteen. Second, we could introduce diverse themes such as landscape, portrait, and street life. Finally, the organizers should invite experienced local photographers to serve as judges."
+          },
+          {
+            "label": "Cảm ơn & Ký tên",
+            "text": "Thank you for your time and consideration. I look forward to hearing your response. Best regards, Kato"
+          }
+        ]
+      }
+    ]
   }
+},
+
+  "Science club": {
+  "title": "Science club (Town Hall Exhibition & Free Tickets)",
+  "badge": "Đề mới cập nhật",
+  "notice": "Dear members,\nI am writing to inform you that the science club is preparing to organize the science exhibition at the local town hall next month. Both young people and elderly people can take part in our activities in the exhibition. We are planning for our exhibition. Could you contribute some ideas for our event team? What should we display at that exhibition? Whether our club issues free tickets for participants? I would like to hear your contribution.\nThe manager.",
+  "noticeVi": "Kính gửi các thành viên,\nTôi viết thư này để thông báo rằng câu lạc bộ khoa học đang chuẩn bị tổ chức triển lãm khoa học tại tòa thị chính địa phương vào tháng tới. Cả người trẻ và người cao tuổi đều có thể tham gia vào các hoạt động của chúng ta tại triển lãm. Chúng tôi đang lên kế hoạch cho sự kiện. Bạn có thể đóng góp một số ý tưởng cho ban tổ chức không? Chúng ta nên trưng bày những gì tại triển lãm đó? Liệu câu lạc bộ của chúng ta có nên phát vé miễn phí cho người tham gia không? Tôi rất mong nhận được đóng góp của bạn.\nQuản lý.",
+  "promptAnalysis": {
+    "topic": "Tổ chức triển lãm khoa học tại tòa thị chính địa phương và chính sách vé vào cửa",
+    "task1": "Viết email cho bạn (Kim): Chia sẻ sự phấn khởi về triển lãm, nêu gợi ý về các thí nghiệm tương tác và rủ bạn cùng tham gia (~50 từ)",
+    "task2": "Viết email cho Quản lý CLB: Đóng góp ý kiến về việc phát vé miễn phí và gợi ý 3 đề xuất (trưng bày mô hình robot tương tác, miễn phí vé cho học sinh sinh viên, tuyển tình nguyện viên hướng dẫn) (120 - 150 từ)"
+  },
+  "email1": {
+    "title": "Email 1: Gửi bạn bè (Kim)",
+    "instruction": "Write a short email to your friend (about 50 words). Tell your friend your feelings about the science exhibition and what experiments you suggest.",
+    "instructionVi": "Viết một email ngắn cho bạn của bạn (khoảng 50 từ). Cho bạn ấy biết cảm xúc về triển lãm khoa học và gợi ý thí nghiệm nào.",
+    "wordTarget": "Khoảng 50 từ (45 - 60 từ)",
+    "minWords": 45,
+    "maxWords": 65,
+    "template": "Dear Kim,\nHow's it going? I hope you're doing well.\nI thought you'd be interested to hear that our science club is preparing an exhibition at the local town hall. I was quite excited when I found out about it.\nPersonally, I think [ý kiến & lý do]. Moreover, [phát triển thêm ý].\nI would love to know what you think about this. Hope to hear from you soon.\nTake care,\n[Tên của bạn]",
+    "vocabCategories": [
+      {
+        "name": "1. Bày tỏ Cảm xúc (Emotions)",
+        "items": [
+          {
+            "en": "quite excited",
+            "vi": "khá hào hứng"
+          },
+          {
+            "en": "absolutely delighted",
+            "vi": "vô cùng vui mừng"
+          },
+          {
+            "en": "pleasantly surprised",
+            "vi": "ngạc nhiên một cách thích thú"
+          }
+        ]
+      },
+      {
+        "name": "2. [ý kiến & lý do] (Mệnh đề hoàn chỉnh)",
+        "items": [
+          {
+            "en": "hosting this exhibition is great because it sparks scientific curiosity in children",
+            "vi": "tổ chức triển lãm này rất tuyệt vì khơi dậy trí tò mò khoa học ở trẻ nhỏ"
+          },
+          {
+            "en": "this event is wonderful because it brings science closer to ordinary residents",
+            "vi": "sự kiện này thật tuyệt vời vì đưa khoa học đến gần hơn với người dân bình thường"
+          },
+          {
+            "en": "offering interactive science stations is beneficial because learning by doing is effective",
+            "vi": "tạo các góc khoa học tương tác rất bổ ích vì vừa học vừa thực hành rất hiệu quả"
+          }
+        ]
+      },
+      {
+        "name": "3. [phát triển thêm ý] (Mệnh đề hoàn chỉnh)",
+        "items": [
+          {
+            "en": "we should prepare simple interactive experiments for visitors to try",
+            "vi": "chúng ta nên chuẩn bị các thí nghiệm tương tác đơn giản để khách thử nghiệm"
+          },
+          {
+            "en": "we could demonstrate easy chemical reactions that produce colorful lights",
+            "vi": "chúng mình có thể biểu diễn các phản ứng hóa học dễ làm tạo ánh sáng nhiều màu"
+          },
+          {
+            "en": "we ought to go there together on opening day to explore the booths",
+            "vi": "chúng mình nên cùng nhau đến vào ngày khai mạc để khám phá các gian hàng"
+          }
+        ]
+      }
+    ],
+    "samples": [
+      {
+        "title": "Bài mẫu chuẩn Band B2+",
+        "wordCount": 64,
+        "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our science club is preparing an exhibition at the local town hall. I was quite excited to hear about it.\n\nPersonally, I think hosting this exhibition is great because it sparks scientific curiosity in children. Moreover, we should prepare simple interactive experiments for visitors to try. What do you think? Hope to hear from you soon.\n\nTake care,\nKato",
+        "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ muốn biết tin CLB khoa học của chúng ta đang chuẩn bị một buổi triển lãm tại tòa thị chính địa phương. Mình khá hào hứng khi nghe tin này.\n\nCá nhân mình thấy việc tổ chức triển lãm này rất tuyệt vì nó khơi dậy trí tò mò khoa học ở trẻ nhỏ. Hơn nữa, chúng ta nên chuẩn bị các thí nghiệm tương tác đơn giản để khách tự tay thử nghiệm. Bạn nghĩ sao? Mong sớm nhận được tin từ bạn.\n\nBảo trọng nhé,\nKato",
+        "analysis": [
+          {
+            "label": "Chào hỏi & Tin tức",
+            "text": "Dear Kim, How is it going? I thought you would like to know that our science club is preparing an exhibition at the local town hall. I was quite excited to hear about it."
+          },
+          {
+            "label": "Quan điểm, Lý do & Đề xuất",
+            "text": "Personally, I think hosting this exhibition is great because it sparks scientific curiosity in children. Moreover, we should prepare simple interactive experiments for visitors to try. What do you think? Hope to hear from you soon."
+          },
+          {
+            "label": "Ký tên",
+            "text": "Take care, Kato"
+          }
+        ]
+      }
+    ]
+  },
+  "email2": {
+    "title": "Email 2: Gửi Quản lý Câu lạc bộ",
+    "instruction": "Write an email to the club manager (about 120–150 words). Share your views on the town hall exhibition and suggest 3 practical ideas for displays and ticketing.",
+    "instructionVi": "Viết email gửi quản lý CLB (khoảng 120–150 từ). Trình bày quan điểm về triển lãm tại tòa thị chính và đề xuất 3 ý tưởng trưng bày và phát vé.",
+    "wordTarget": "120 - 150 từ (chuẩn 120 - 165 từ)",
+    "minWords": 120,
+    "maxWords": 165,
+    "template": "Dear Club Manager,\nMy name is Kato, and I have been an active member of our club for [thời gian tham gia: two years]. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding [thông tin trong đề bài]. I believe [nêu quan điểm về vấn đề đó].\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, [đề xuất thứ nhất].\nSecond, [đề xuất thứ hai].\nFinally, [đề xuất thứ ba].\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
+    "vocabCategories": [
+      {
+        "name": "1. Đề xuất 1: [đề xuất thứ nhất] (Mệnh đề hoàn chỉnh)",
+        "items": [
+          {
+            "en": "we should provide completely free entrance tickets for local students and families",
+            "vi": "chúng ta nên phát vé vào cửa hoàn toàn miễn phí cho học sinh và các gia đình địa phương"
+          },
+          {
+            "en": "the club should offer complimentary admission to encourage maximum public attendance",
+            "vi": "CLB nên mở cửa miễn phí để khuyến khích đông đảo công chúng đến tham quan"
+          },
+          {
+            "en": "we ought to distribute free e-tickets through schools and community centers",
+            "vi": "chúng ta nên phân phối vé điện tử miễn phí qua các trường học và trung tâm cộng đồng"
+          }
+        ]
+      },
+      {
+        "name": "2. Đề xuất 2: [đề xuất thứ hai] (Mệnh đề hoàn chỉnh)",
+        "items": [
+          {
+            "en": "the club could showcase hands-on robotics models and simple physics experiments",
+            "vi": "CLB có thể trưng bày các mô hình robot thực hành và thí nghiệm vật lý đơn giản"
+          },
+          {
+            "en": "we should feature interactive astronomy displays and virtual reality headsets",
+            "vi": "chúng ta nên có khu trưng bày thiên văn tương tác và kính thực tế ảo"
+          },
+          {
+            "en": "the exhibition should include practical green energy innovations like mini solar panels",
+            "vi": "triển lãm nên bao gồm các sáng chế năng lượng xanh thiết thực như pin năng lượng mặt trời mini"
+          }
+        ]
+      },
+      {
+        "name": "3. Đề xuất 3: [đề xuất thứ ba] (Mệnh đề hoàn chỉnh)",
+        "items": [
+          {
+            "en": "we ought to recruit student volunteers to guide guests through the exhibition booths",
+            "vi": "chúng ta nên tuyển tình nguyện viên học sinh sinh viên để hướng dẫn khách qua các gian trưng bày"
+          },
+          {
+            "en": "the organizers could hold a short science quiz with fun souvenir rewards",
+            "vi": "ban tổ chức có thể tổ chức trò chơi đố vui khoa học ngắn với phần thưởng lưu niệm vui nhộn"
+          },
+          {
+            "en": "the club should collaborate with local science teachers to host informative discussions",
+            "vi": "CLB nên hợp tác với các giáo viên khoa học địa phương để tổ chức các buổi trao đổi bổ ích"
+          }
+        ]
+      }
+    ],
+    "samples": [
+      {
+        "title": "Bài mẫu chuẩn Band B2+",
+        "wordCount": 141,
+        "en": "Dear Club Manager,\n\nMy name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the plan to organize a science exhibition at the local town hall next month. I believe this community exhibition will promote science education and inspire young learners.\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, we should provide completely free entrance tickets for local students and families.\nSecond, the club could showcase hands-on robotics models and simple physics experiments.\nFinally, we ought to recruit student volunteers to guide guests through the exhibition booths.\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
+        "vi": "Kính gửi Quản lý Câu lạc bộ,\n\nTên tôi là Kato, và tôi đã là một hội viên tích cực của câu lạc bộ chúng ta được hai năm. Trong thời gian này, tôi đã tham gia vào nhiều hoạt động ý nghĩa. Tôi viết thư này để chia sẻ góc nhìn và đưa ra một vài đề xuất mang tính xây dựng liên quan đến kế hoạch tổ chức triển lãm khoa học tại tòa thị chính địa phương vào tháng tới. Tôi tin chắc rằng buổi triển lãm cộng đồng này sẽ thúc đẩy giáo dục khoa học và truyền cảm hứng cho thế hệ trẻ.\n\nĐể giúp đạt được kết quả tốt nhất, tôi xin phép đưa ra ba đề xuất thực tế.\nThứ nhất, chúng ta nên phát vé vào cửa hoàn toàn miễn phí cho học sinh và các gia đình địa phương.\nThứ hai, câu lạc bộ có thể trưng bày các mô hình robot thực hành và các thí nghiệm vật lý đơn giản.\nCuối cùng, chúng ta nên tuyển các tình nguyện viên học sinh sinh viên để hướng dẫn khách qua các gian trưng bày.\n\nCảm ơn bạn đã dành thời gian xem xét thư. Tôi rất mong sớm nhận được phản hồi từ bạn.\n\nTrân trọng,\nKato",
+        "analysis": [
+          {
+            "label": "Mở đầu, Mục đích & Quan điểm",
+            "text": "My name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the plan to organize a science exhibition at the local town hall next month. I believe this community exhibition will promote science education and inspire young learners."
+          },
+          {
+            "label": "3 Đề xuất thực tế",
+            "text": "To help achieve the best outcome, I would like to make some practical proposals. First, we should provide completely free entrance tickets for local students and families. Second, the club could showcase hands-on robotics models and simple physics experiments. Finally, we ought to recruit student volunteers to guide guests through the exhibition booths."
+          },
+          {
+            "label": "Cảm ơn & Ký tên",
+            "text": "Thank you for your time and consideration. I look forward to hearing your response. Best regards, Kato"
+          }
+        ]
+      }
+    ]
+  }
+},
+
+  "Nature club": {
+  "title": "Nature club (Wildlife Park vs Community Tree Planting)",
+  "badge": "Đề mới cập nhật",
+  "notice": "Dear members,\nThe club received two invitations for local project support and can only choose one. The first option is to create a plan for a park where members can publicly observe animal behaviors. The second option is a tree-planting support project where everyone works together. Which project is more suitable and give your suggestions?\nManager.",
+  "noticeVi": "Kính gửi các thành viên,\nCâu lạc bộ đã nhận được hai lời mời hỗ trợ dự án địa phương và chỉ có thể chọn một. Lựa chọn thứ nhất là lập kế hoạch cho một công viên nơi các thành viên có thể quan sát tập tính động vật ngoài trời. Lựa chọn thứ hai là dự án hỗ trợ trồng cây nơi mọi người cùng chung tay làm việc. Dự án nào phù hợp hơn và hãy cho biết những đề xuất của bạn?\nQuản lý.",
+  "promptAnalysis": {
+    "topic": "Lựa chọn giữa công viên quan sát động vật và dự án chung tay trồng cây gây rừng",
+    "task1": "Viết email cho bạn (Kim): Nêu lý do bạn ủng hộ dự án trồng cây và rủ bạn cùng tham gia trồng cây cuối tuần (~50 từ)",
+    "task2": "Viết email cho Quản lý CLB: Nêu quan điểm ủng hộ dự án trồng cây và đề xuất 3 giải pháp thực tế (chọn cây bản địa dễ sống, hợp tác với trường học, chuẩn bị chu đáo dụng cụ và hậu cần) (120 - 150 từ)"
+  },
+  "email1": {
+    "title": "Email 1: Gửi bạn bè (Kim)",
+    "instruction": "Write a short email to your friend (about 50 words). Tell your friend your preference between the two projects and what you plan to do.",
+    "instructionVi": "Viết một email ngắn cho bạn của bạn (khoảng 50 từ). Cho bạn ấy biết bạn ưu tiên dự án nào giữa hai lựa chọn và dự định làm gì.",
+    "wordTarget": "Khoảng 50 từ (45 - 60 từ)",
+    "minWords": 45,
+    "maxWords": 65,
+    "template": "Dear Kim,\nHow's it going? I hope you're doing well.\nI thought you'd be interested to hear that our club is choosing a community environmental project. I was quite excited when I found out about it.\nPersonally, I think [ý kiến & lý do]. Moreover, [phát triển thêm ý].\nI would love to know what you think about this. Hope to hear from you soon.\nTake care,\n[Tên của bạn]",
+    "vocabCategories": [
+      {
+        "name": "1. Bày tỏ Cảm xúc (Emotions)",
+        "items": [
+          {
+            "en": "quite excited",
+            "vi": "khá hào hứng"
+          },
+          {
+            "en": "absolutely delighted",
+            "vi": "vô cùng hài lòng"
+          },
+          {
+            "en": "very passionate",
+            "vi": "rất tâm huyết"
+          }
+        ]
+      },
+      {
+        "name": "2. [ý kiến & lý do] (Mệnh đề hoàn chỉnh)",
+        "items": [
+          {
+            "en": "tree planting is ideal because it directly improves our green environment",
+            "vi": "trồng cây là lý tưởng vì nó trực tiếp cải thiện môi trường xanh của chúng ta"
+          },
+          {
+            "en": "the tree planting campaign is better because it unites the whole local community",
+            "vi": "chiến dịch trồng cây tốt hơn vì nó đoàn kết toàn bộ cộng đồng địa phương"
+          },
+          {
+            "en": "reforesting our neighborhood is essential because trees clean the air and fight climate change",
+            "vi": "phủ xanh khu dân cư là thiết yếu vì cây xanh lọc sạch không khí và chống biến đổi khí hậu"
+          }
+        ]
+      },
+      {
+        "name": "3. [phát triển thêm ý] (Mệnh đề hoàn chỉnh)",
+        "items": [
+          {
+            "en": "we should invite our families to plant trees together",
+            "vi": "chúng ta nên rủ gia đình cùng nhau đi trồng cây"
+          },
+          {
+            "en": "we should bring gardening gloves and cameras to take meaningful photos",
+            "vi": "chúng mình nên mang găng tay làm vườn và máy ảnh để lưu lại những bức hình ý nghĩa"
+          },
+          {
+            "en": "the club could organize a fun picnic lunch after completing the planting",
+            "vi": "CLB có thể tổ chức bữa trưa dã ngoại vui vẻ sau khi hoàn thành buổi trồng cây"
+          }
+        ]
+      }
+    ],
+    "samples": [
+      {
+        "title": "Bài mẫu chuẩn Band B2+",
+        "wordCount": 62,
+        "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our club is choosing a community environmental project. I was quite excited to hear about it.\n\nPersonally, I think tree planting is ideal because it directly improves our green environment. Moreover, we should invite our families to plant trees together. What do you think? Hope to hear from you soon.\n\nTake care,\nKato",
+        "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin CLB của chúng ta đang lựa chọn một dự án môi trường cộng đồng. Mình khá hào hứng khi nghe tin này.\n\nCá nhân mình thấy việc trồng cây là lý tưởng vì nó trực tiếp cải thiện môi trường xanh của chúng ta. Hơn nữa, chúng ta nên rủ gia đình cùng nhau đi trồng cây. Bạn nghĩ sao? Mong sớm nhận được tin từ bạn.\n\nBảo trọng nhé,\nKato",
+        "analysis": [
+          {
+            "label": "Chào hỏi & Tin tức",
+            "text": "Dear Kim, How is it going? I thought you would like to know that our club is choosing a community environmental project. I was quite excited to hear about it."
+          },
+          {
+            "label": "Quan điểm, Lý do & Đề xuất",
+            "text": "Personally, I think tree planting is ideal because it directly improves our green environment. Moreover, we should invite our families to plant trees together. What do you think? Hope to hear from you soon."
+          },
+          {
+            "label": "Ký tên",
+            "text": "Take care, Kato"
+          }
+        ]
+      }
+    ]
+  },
+  "email2": {
+    "title": "Email 2: Gửi Quản lý Câu lạc bộ",
+    "instruction": "Write an email to the club manager (about 120–150 words). State which project you prefer and recommend 3 practical proposals for successful implementation.",
+    "instructionVi": "Viết email gửi quản lý CLB (khoảng 120–150 từ). Nêu dự án bạn ưu tiên và đề xuất 3 giải pháp thực tế để triển khai thành công.",
+    "wordTarget": "120 - 150 từ (chuẩn 120 - 165 từ)",
+    "minWords": 120,
+    "maxWords": 165,
+    "template": "Dear Club Manager,\nMy name is Kato, and I have been an active member of our club for [thời gian tham gia: two years]. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding [thông tin trong đề bài]. I believe [nêu quan điểm về vấn đề đó].\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, [đề xuất thứ nhất].\nSecond, [đề xuất thứ hai].\nFinally, [đề xuất thứ ba].\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
+    "vocabCategories": [
+      {
+        "name": "1. Đề xuất 1: [đề xuất thứ nhất] (Mệnh đề hoàn chỉnh)",
+        "items": [
+          {
+            "en": "the club should select native shade trees that thrive in our local soil conditions",
+            "vi": "CLB nên chọn các loại cây bóng mát bản địa phát triển tốt trong điều kiện đất địa phương"
+          },
+          {
+            "en": "we should choose fast-growing evergreen trees that require minimal watering",
+            "vi": "chúng ta nên chọn các giống cây xanh quanh năm phát triển nhanh và ít tốn công tưới nước"
+          },
+          {
+            "en": "the management ought to consult local botanists before buying tree saplings",
+            "vi": "ban quản lý nên tham vấn các nhà thực vật học địa phương trước khi mua cây giống"
+          }
+        ]
+      },
+      {
+        "name": "2. Đề xuất 2: [đề xuất thứ hai] (Mệnh đề hoàn chỉnh)",
+        "items": [
+          {
+            "en": "we could partner with local schools to engage enthusiastic student volunteers",
+            "vi": "chúng ta có thể hợp tác với các trường học địa phương để thu hút học sinh tình nguyện nhiệt tình"
+          },
+          {
+            "en": "the club should invite neighborhood youth organizations to join our planting campaign",
+            "vi": "CLB nên mời các đoàn thể thanh niên trong khu dân cư cùng tham gia chiến dịch trồng cây"
+          },
+          {
+            "en": "we could assign each club group to look after specific tree plots after planting",
+            "vi": "chúng ta có thể phân công mỗi nhóm hội viên chăm sóc các khoảnh cây cụ thể sau khi trồng"
+          }
+        ]
+      },
+      {
+        "name": "3. Đề xuất 3: [đề xuất thứ ba] (Mệnh đề hoàn chỉnh)",
+        "items": [
+          {
+            "en": "the team ought to prepare adequate gardening tools and drinking water for participants",
+            "vi": "ban tổ chức nên chuẩn bị đầy đủ dụng cụ làm vườn và nước uống cho người tham gia"
+          },
+          {
+            "en": "the club could provide basic safety gloves and organic fertilizers for all attendees",
+            "vi": "CLB có thể cung cấp găng tay bảo hộ cơ bản và phân bón hữu cơ cho toàn thể người tham dự"
+          },
+          {
+            "en": "we should organize a clear schedule with briefing sessions before commencing work",
+            "vi": "chúng ta nên lập lịch trình rõ ràng kèm các buổi hướng dẫn trước khi bắt tay vào làm"
+          }
+        ]
+      }
+    ],
+    "samples": [
+      {
+        "title": "Bài mẫu chuẩn Band B2+",
+        "wordCount": 141,
+        "en": "Dear Club Manager,\n\nMy name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the plan to select a community environmental project for our club. I believe supporting the communal tree-planting campaign will deliver long-lasting environmental benefits.\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, the club should select native shade trees that thrive in our local soil conditions.\nSecond, we could partner with local schools to engage enthusiastic student volunteers.\nFinally, the team ought to prepare adequate gardening tools and drinking water for participants.\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
+        "vi": "Kính gửi Quản lý Câu lạc bộ,\n\nTên tôi là Kato, và tôi đã là một hội viên tích cực của câu lạc bộ chúng ta được hai năm. Trong thời gian này, tôi đã tham gia vào nhiều hoạt động ý nghĩa. Tôi viết thư này để chia sẻ góc nhìn và đưa ra một vài đề xuất mang tính xây dựng liên quan đến kế hoạch lựa chọn dự án môi trường cộng đồng cho CLB của chúng ta. Tôi tin chắc rằng việc ủng hộ chiến dịch trồng cây chung sẽ mang lại những lợi ích môi trường lâu dài.\n\nĐể giúp đạt được kết quả tốt nhất, tôi xin phép đưa ra ba đề xuất thực tế.\nThứ nhất, câu lạc bộ nên lựa chọn các giống cây bóng mát bản địa phát triển tốt trong điều kiện đất địa phương.\nThứ hai, chúng ta có thể hợp tác với các trường học địa phương để thu hút các tình nguyện viên học sinh sinh viên nhiệt huyết.\nCuối cùng, đội ngũ tổ chức nên chuẩn bị đầy đủ dụng cụ làm vườn và nước uống cho toàn thể người tham gia.\n\nCảm ơn bạn đã dành thời gian xem xét thư. Tôi rất mong sớm nhận được phản hồi từ bạn.\n\nTrân trọng,\nKato",
+        "analysis": [
+          {
+            "label": "Mở đầu, Mục đích & Quan điểm",
+            "text": "My name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the plan to select a community environmental project for our club. I believe supporting the communal tree-planting campaign will deliver long-lasting environmental benefits."
+          },
+          {
+            "label": "3 Đề xuất thực tế",
+            "text": "To help achieve the best outcome, I would like to make some practical proposals. First, the club should select native shade trees that thrive in our local soil conditions. Second, we could partner with local schools to engage enthusiastic student volunteers. Finally, the team ought to prepare adequate gardening tools and drinking water for participants."
+          },
+          {
+            "label": "Cảm ơn & Ký tên",
+            "text": "Thank you for your time and consideration. I look forward to hearing your response. Best regards, Kato"
+          }
+        ]
+      }
+    ]
+  }
+},
+
+  "Business club": {
+  "title": "Business club (Startup Support: Hotline vs University Courses)",
+  "badge": "Đề mới cập nhật",
+  "notice": "Dear member,\nCurrently our club is planning to support local individuals who want to start up a small business. The club has 2 proposals: First, create a call center where customers can call to ask questions and request help. Second, create free courses to support local universities nearby. Let us know which option you would use and why.\n1. Write a letter to a friend about your choice and the idea\n2. Write a letter to the club manager about your choice and why.",
+  "noticeVi": "Kính gửi các thành viên,\nHiện tại câu lạc bộ của chúng ta đang lên kế hoạch hỗ trợ các cá nhân địa phương muốn khởi sự kinh doanh nhỏ. Câu lạc bộ có 2 đề xuất: Thứ nhất, lập một tổng đài cuộc gọi nơi khách hàng có thể gọi đến đặt câu hỏi và yêu cầu trợ giúp. Thứ hai, tạo các khóa học miễn phí để hỗ trợ các trường đại học lân cận. Hãy cho chúng tôi biết bạn sẽ chọn phương án nào và giải thích lý do tại sao.",
+  "promptAnalysis": {
+    "topic": "Hỗ trợ khởi nghiệp địa phương: Tổng đài tư vấn hay Khóa học đào tạo miễn phí",
+    "task1": "Viết email cho bạn (Kim): Nêu lý do bạn chọn khóa đào tạo đại học và rủ bạn cùng tham gia đăng ký hỗ trợ (~50 từ)",
+    "task2": "Viết email cho Quản lý CLB: Nêu quan điểm lựa chọn và đề xuất 3 giải pháp thực tế (liên kết đại học xây dựng giáo trình, tổ chức cố vấn 1-1 với doanh nhân thành đạt, lập hotline giải đáp pháp lý tài chính) (120 - 150 từ)"
+  },
+  "email1": {
+    "title": "Email 1: Gửi bạn bè (Kim)",
+    "instruction": "Write a short email to your friend (about 50 words). Tell your friend which proposal you prefer and what ideas you suggest.",
+    "instructionVi": "Viết một email ngắn cho bạn của bạn (khoảng 50 từ). Cho bạn ấy biết bạn ủng hộ đề xuất nào và gợi ý ý tưởng gì.",
+    "wordTarget": "Khoảng 50 từ (45 - 60 từ)",
+    "minWords": 45,
+    "maxWords": 65,
+    "template": "Dear Kim,\nHow's it going? I hope you're doing well.\nI thought you'd be interested to hear that our club plans to support local entrepreneurs. I was quite excited when I found out about it.\nPersonally, I think [ý kiến & lý do]. Moreover, [phát triển thêm ý].\nI would love to know what you think about this. Hope to hear from you soon.\nTake care,\n[Tên của bạn]",
+    "vocabCategories": [
+      {
+        "name": "1. Bày tỏ Cảm xúc (Emotions)",
+        "items": [
+          {
+            "en": "quite excited",
+            "vi": "khá hào hứng"
+          },
+          {
+            "en": "absolutely delighted",
+            "vi": "rất vui mừng"
+          },
+          {
+            "en": "truly impressed",
+            "vi": "thực sự ấn tượng"
+          }
+        ]
+      },
+      {
+        "name": "2. [ý kiến & lý do] (Mệnh đề hoàn chỉnh)",
+        "items": [
+          {
+            "en": "offering free training courses is best because it provides structured business knowledge",
+            "vi": "mở các khóa học miễn phí là tốt nhất vì cung cấp kiến thức kinh doanh bài bản"
+          },
+          {
+            "en": "partnering with universities is superior because students can acquire practical entrepreneurial skills",
+            "vi": "hợp tác với các trường đại học vượt trội hơn vì sinh viên có thể tiếp thu kỹ năng khởi nghiệp thực tế"
+          },
+          {
+            "en": "interactive workshops are more valuable because participants learn directly from real case studies",
+            "vi": "các buổi hội thảo tương tác có giá trị hơn vì người học được tiếp cận trực tiếp từ các tình huống thực tế"
+          }
+        ]
+      },
+      {
+        "name": "3. [phát triển thêm ý] (Mệnh đề hoàn chỉnh)",
+        "items": [
+          {
+            "en": "we can invite successful local founders to share practical experiences",
+            "vi": "chúng ta có thể mời các nhà sáng lập địa phương thành công đến chia sẻ kinh nghiệm thực tế"
+          },
+          {
+            "en": "we should sign up together to mentor aspiring student entrepreneurs",
+            "vi": "chúng mình nên cùng nhau đăng ký để làm cố vấn cho các bạn sinh viên muốn khởi nghiệp"
+          },
+          {
+            "en": "the club could offer small seed funding awards for the best startup pitches",
+            "vi": "CLB có thể trao các phần thưởng vốn mồi nhỏ cho những bài thuyết trình dự án xuất sắc nhất"
+          }
+        ]
+      }
+    ],
+    "samples": [
+      {
+        "title": "Bài mẫu chuẩn Band B2+",
+        "wordCount": 62,
+        "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our club plans to support local entrepreneurs. I was quite excited to hear about it.\n\nPersonally, I think offering free training courses is best because it provides structured business knowledge. Moreover, we can invite successful local founders to share practical experiences. What do you think? Hope to hear from you soon.\n\nTake care,\nKato",
+        "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ muốn biết tin CLB của chúng ta dự định hỗ trợ người khởi nghiệp địa phương. Mình khá hào hứng khi nghe tin này.\n\nCá nhân mình thấy việc mở các khóa học miễn phí là tốt nhất vì nó cung cấp kiến thức kinh doanh bài bản. Hơn nữa, chúng ta có thể mời các nhà sáng lập địa phương thành công đến chia sẻ kinh nghiệm thực tế. Bạn nghĩ sao? Mong sớm nhận được tin từ bạn.\n\nBảo trọng nhé,\nKato",
+        "analysis": [
+          {
+            "label": "Chào hỏi & Tin tức",
+            "text": "Dear Kim, How is it going? I thought you would like to know that our club plans to support local entrepreneurs. I was quite excited to hear about it."
+          },
+          {
+            "label": "Quan điểm, Lý do & Đề xuất",
+            "text": "Personally, I think offering free training courses is best because it provides structured business knowledge. Moreover, we can invite successful local founders to share practical experiences. What do you think? Hope to hear from you soon."
+          },
+          {
+            "label": "Ký tên",
+            "text": "Take care, Kato"
+          }
+        ]
+      }
+    ]
+  },
+  "email2": {
+    "title": "Email 2: Gửi Quản lý Câu lạc bộ",
+    "instruction": "Write an email to the club manager (about 120–150 words). State your preferred initiative and propose 3 constructive suggestions to foster local startup success.",
+    "instructionVi": "Viết email gửi quản lý CLB (khoảng 120–150 từ). Nêu sáng kiến bạn ưu tiên và đề xuất 3 giải pháp thực tế để thúc đẩy thành công cho người khởi nghiệp.",
+    "wordTarget": "120 - 150 từ (chuẩn 120 - 165 từ)",
+    "minWords": 120,
+    "maxWords": 165,
+    "template": "Dear Club Manager,\nMy name is Kato, and I have been an active member of our club for [thời gian tham gia: two years]. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding [thông tin trong đề bài]. I believe [nêu quan điểm về vấn đề đó].\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, [đề xuất thứ nhất].\nSecond, [đề xuất thứ hai].\nFinally, [đề xuất thứ ba].\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
+    "vocabCategories": [
+      {
+        "name": "1. Đề xuất 1: [đề xuất thứ nhất] (Mệnh đề hoàn chỉnh)",
+        "items": [
+          {
+            "en": "we should collaborate with nearby universities to design comprehensive business workshops",
+            "vi": "chúng ta nên hợp tác với các trường đại học lân cận để thiết kế các workshop kinh doanh toàn diện"
+          },
+          {
+            "en": "the club should offer hands-on business planning and digital marketing classes",
+            "vi": "CLB nên mở các lớp lập kế hoạch kinh doanh và tiếp thị kỹ thuật số mang tính thực hành cao"
+          },
+          {
+            "en": "we ought to organize free evening seminars covering basic accounting and taxation",
+            "vi": "chúng ta nên tổ chức các hội thảo buổi tối miễn phí về kế toán cơ bản và thuế"
+          }
+        ]
+      },
+      {
+        "name": "2. Đề xuất 2: [đề xuất thứ hai] (Mệnh đề hoàn chỉnh)",
+        "items": [
+          {
+            "en": "the club could arrange one-on-one mentoring sessions with experienced entrepreneurs",
+            "vi": "CLB có thể sắp xếp các buổi cố vấn trực tiếp 1-1 với những doanh nhân giàu kinh nghiệm"
+          },
+          {
+            "en": "we could create a network connecting novice founders with experienced angel investors",
+            "vi": "chúng ta có thể tạo mạng lưới kết nối các nhà sáng lập mới với những nhà đầu tư thiên thần"
+          },
+          {
+            "en": "the organizers should invite seasoned corporate executives to review business pitch decks",
+            "vi": "ban tổ chức nên mời các chuyên gia quản lý doanh nghiệp kỳ cựu đến nhận xét bài gọi vốn"
+          }
+        ]
+      },
+      {
+        "name": "3. Đề xuất 3: [đề xuất thứ ba] (Mệnh đề hoàn chỉnh)",
+        "items": [
+          {
+            "en": "we ought to create a digital hotline where founders can receive legal and financial guidance",
+            "vi": "chúng ta nên lập đường dây nóng trực tuyến nơi người khởi nghiệp có thể nhận tư vấn pháp lý và tài chính"
+          },
+          {
+            "en": "the management could set up an online resource hub with free business plan templates",
+            "vi": "ban quản lý có thể xây dựng kho tài nguyên trực tuyến với các biểu mẫu kế hoạch kinh doanh miễn phí"
+          },
+          {
+            "en": "the club could host quarterly startup networking events to showcase new products",
+            "vi": "CLB có thể tổ chức các sự kiện kết nối khởi nghiệp định kỳ hàng quý để giới thiệu sản phẩm mới"
+          }
+        ]
+      }
+    ],
+    "samples": [
+      {
+        "title": "Bài mẫu chuẩn Band B2+",
+        "wordCount": 141,
+        "en": "Dear Club Manager,\n\nMy name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the plan to support local individuals who want to start up a business. I believe organizing practical business courses will empower local founders to build sustainable startups.\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, we should collaborate with nearby universities to design comprehensive business workshops.\nSecond, the club could arrange one-on-one mentoring sessions with experienced entrepreneurs.\nFinally, we ought to create a digital hotline where founders can receive legal and financial guidance.\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
+        "vi": "Kính gửi Quản lý Câu lạc bộ,\n\nTên tôi là Kato, và tôi đã là một hội viên tích cực của câu lạc bộ chúng ta được hai năm. Trong thời gian này, tôi đã tham gia vào nhiều hoạt động ý nghĩa. Tôi viết thư này để chia sẻ góc nhìn và đưa ra một vài đề xuất mang tính xây dựng liên quan đến kế hoạch hỗ trợ các cá nhân địa phương có nguyện vọng khởi nghiệp. Tôi tin chắc rằng việc tổ chức các khóa học kinh doanh thực tế sẽ tiếp thêm sức mạnh cho các nhà sáng lập địa phương xây dựng doanh nghiệp bền vững.\n\nĐể giúp đạt được kết quả tốt nhất, tôi xin phép đưa ra ba đề xuất thực tế.\nThứ nhất, chúng ta nên hợp tác với các trường đại học lân cận để thiết kế các workshop kinh doanh toàn diện.\nThứ hai, câu lạc bộ có thể sắp xếp các buổi cố vấn trực tiếp 1-1 với những doanh nhân giàu kinh nghiệm.\nCuối cùng, chúng ta nên lập đường dây nóng trực tuyến nơi người khởi nghiệp có thể nhận tư vấn pháp lý và tài chính.\n\nCảm ơn bạn đã dành thời gian xem xét thư. Tôi rất mong sớm nhận được phản hồi từ bạn.\n\nTrân trọng,\nKato",
+        "analysis": [
+          {
+            "label": "Mở đầu, Mục đích & Quan điểm",
+            "text": "My name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the plan to support local individuals who want to start up a business. I believe organizing practical business courses will empower local founders to build sustainable startups."
+          },
+          {
+            "label": "3 Đề xuất thực tế",
+            "text": "To help achieve the best outcome, I would like to make some practical proposals. First, we should collaborate with nearby universities to design comprehensive business workshops. Second, the club could arrange one-on-one mentoring sessions with experienced entrepreneurs. Finally, we ought to create a digital hotline where founders can receive legal and financial guidance."
+          },
+          {
+            "label": "Cảm ơn & Ký tên",
+            "text": "Thank you for your time and consideration. I look forward to hearing your response. Best regards, Kato"
+          }
+        ]
+      }
+    ]
+  }
+},
+
+  "Debate club": {
+  "title": "Debate club (Benefits of Debating & Engaging Youth)",
+  "badge": "Đề mới cập nhật",
+  "notice": "Dear members,\n\"We want to encourage more young people to join the club. Unfortunately, young people often think that argument is not for them. What do you think is the benefit of learning debating skills and public speaking? Give two benefits that you think are the most important and why?\"\nQ1: Write an email to your friend, who is also a member of our club. Tell your friend what suggestions you will make and why. Write about 50 words.\nQ2: Write an email to the manager of the club. Write about your ideas and what you think about the situation. Write about 120-150 words.",
+  "noticeVi": "Kính gửi các thành viên,\n\"Chúng tôi muốn khuyến khích thêm nhiều bạn trẻ tham gia câu lạc bộ. Thật không may, người trẻ thường nghĩ rằng tranh luận không dành cho họ. Theo bạn lợi ích của việc học kỹ năng tranh biện và nói trước công chúng là gì? Hãy nêu hai lợi ích mà bạn cho là quan trọng nhất và giải thích lý do?\"\nQ1: Viết email cho bạn của bạn (khoảng 50 từ).\nQ2: Viết email cho quản lý câu lạc bộ (120-150 từ).",
+  "promptAnalysis": {
+    "topic": "Khuyến khích giới trẻ tham gia tranh biện & Lợi ích của kỹ năng tranh luận và diễn thuyết",
+    "task1": "Viết email cho bạn (Kim): Nêu 2 lợi ích cốt lõi (tư duy phản biện, sự tự tin giao tiếp) và rủ bạn cùng tham gia câu lạc bộ (~50 từ)",
+    "task2": "Viết email cho Quản lý CLB: Trình bày tầm quan trọng của kỹ năng tranh biện và đề xuất 3 giải pháp thực tế (workshop cho người mới bắt đầu, chọn chủ đề xã hội gần gũi, tổ chức mini-debate đồng đội giải tỏa áp lực) (120 - 150 từ)"
+  },
+  "email1": {
+    "title": "Email 1: Gửi bạn bè (Kim)",
+    "instruction": "Write a short email to your friend (about 50 words). Tell your friend the benefits of debating skills and how to attract more young people.",
+    "instructionVi": "Viết một email ngắn cho bạn của bạn (khoảng 50 từ). Cho bạn ấy biết lợi ích của kỹ năng tranh biện và cách thu hút người trẻ.",
+    "wordTarget": "Khoảng 50 từ (45 - 60 từ)",
+    "minWords": 45,
+    "maxWords": 65,
+    "template": "Dear Kim,\nHow's it going? I hope you're doing well.\nI thought you'd be interested to hear that our debate club is promoting debating skills to attract more young members. I was quite excited when I found out about it.\nPersonally, I think [ý kiến & lý do]. Moreover, [phát triển thêm ý].\nI would love to know what you think about this. Hope to hear from you soon.\nTake care,\n[Tên của bạn]",
+    "vocabCategories": [
+      {
+        "name": "1. Bày tỏ Cảm xúc (Emotions)",
+        "items": [
+          {
+            "en": "quite excited",
+            "vi": "khá hào hứng"
+          },
+          {
+            "en": "really passionate",
+            "vi": "rất hào hứng và tâm huyết"
+          },
+          {
+            "en": "pleasantly surprised",
+            "vi": "ngạc nhiên một cách thích thú"
+          }
+        ]
+      },
+      {
+        "name": "2. [ý kiến & lý do] (Mệnh đề hoàn chỉnh)",
+        "items": [
+          {
+            "en": "learning debate is crucial because it sharpens critical thinking and communication skills",
+            "vi": "học tranh biện rất quan trọng vì rèn giũa tư duy phản biện và kỹ năng giao tiếp"
+          },
+          {
+            "en": "public speaking is valuable because it boosts self-confidence in school and career",
+            "vi": "nói trước công chúng rất giá trị vì nâng cao sự tự tin trong học tập và sự nghiệp"
+          },
+          {
+            "en": "debating is beneficial because it teaches us how to respect diverse viewpoints",
+            "vi": "tranh biện rất bổ ích vì dạy chúng ta cách tôn trọng những quan điểm đa chiều"
+          }
+        ]
+      },
+      {
+        "name": "3. [phát triển thêm ý] (Mệnh đề hoàn chỉnh)",
+        "items": [
+          {
+            "en": "we should organize friendly debate matches with interesting trending topics",
+            "vi": "chúng ta nên tổ chức các trận tranh biện giao lưu với chủ đề theo xu hướng thú vị"
+          },
+          {
+            "en": "we could join a practice session together this weekend to improve our skills",
+            "vi": "chúng mình có thể cùng tham gia một buổi luyện tập cuối tuần này để nâng cao kỹ năng"
+          },
+          {
+            "en": "the club could film short tutorial clips and share them on social media",
+            "vi": "CLB có thể quay các clip hướng dẫn ngắn và chia sẻ lên mạng xã hội"
+          }
+        ]
+      }
+    ],
+    "samples": [
+      {
+        "title": "Bài mẫu chuẩn Band B2+",
+        "wordCount": 64,
+        "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our debate club is promoting debating skills to attract more young members. I was quite excited to hear about it.\n\nPersonally, I think learning debate is crucial because it sharpens critical thinking and communication skills. Moreover, we should organize friendly debate matches with interesting trending topics. What do you think? Hope to hear from you soon.\n\nTake care,\nKato",
+        "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ muốn biết tin CLB tranh biện của chúng ta đang quảng bá kỹ năng tranh luận để thu hút thêm bạn trẻ. Mình khá hào hứng khi nghe tin này.\n\nCá nhân mình thấy việc học tranh biện rất quan trọng vì nó rèn giũa tư duy phản biện và kỹ năng giao tiếp. Hơn nữa, chúng ta nên tổ chức các trận tranh biện giao lưu với chủ đề theo xu hướng thú vị. Bạn nghĩ sao? Mong sớm nhận được tin từ bạn.\n\nBảo trọng nhé,\nKato",
+        "analysis": [
+          {
+            "label": "Chào hỏi & Tin tức",
+            "text": "Dear Kim, How is it going? I thought you would like to know that our debate club is promoting debating skills to attract more young members. I was quite excited to hear about it."
+          },
+          {
+            "label": "Quan điểm, Lý do & Đề xuất",
+            "text": "Personally, I think learning debate is crucial because it sharpens critical thinking and communication skills. Moreover, we should organize friendly debate matches with interesting trending topics. What do you think? Hope to hear from you soon."
+          },
+          {
+            "label": "Ký tên",
+            "text": "Take care, Kato"
+          }
+        ]
+      }
+    ]
+  },
+  "email2": {
+    "title": "Email 2: Gửi Quản lý Câu lạc bộ",
+    "instruction": "Write an email to the club manager (about 120–150 words). Discuss the core benefits of debating and propose 3 practical solutions to draw more young participants.",
+    "instructionVi": "Viết email gửi quản lý CLB (khoảng 120–150 từ). Trình bày các lợi ích cốt lõi của tranh biện và đề xuất 3 giải pháp thực tế để thu hút thêm người trẻ.",
+    "wordTarget": "120 - 150 từ (chuẩn 120 - 165 từ)",
+    "minWords": 120,
+    "maxWords": 165,
+    "template": "Dear Club Manager,\nMy name is Kato, and I have been an active member of our club for [thời gian tham gia: two years]. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding [thông tin trong đề bài]. I believe [nêu quan điểm về vấn đề đó].\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, [đề xuất thứ nhất].\nSecond, [đề xuất thứ hai].\nFinally, [đề xuất thứ ba].\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
+    "vocabCategories": [
+      {
+        "name": "1. Đề xuất 1: [đề xuất thứ nhất] (Mệnh đề hoàn chỉnh)",
+        "items": [
+          {
+            "en": "the club should host beginner workshops focusing on public speaking and presentation skills",
+            "vi": "CLB nên tổ chức các buổi workshop cho người mới bắt đầu tập trung vào kỹ năng diễn thuyết và thuyết trình"
+          },
+          {
+            "en": "we should offer introductory speech sessions to help newcomers overcome nervousness",
+            "vi": "chúng ta nên mở các buổi luyện nói nhập môn giúp người mới vượt qua sự lo lắng"
+          },
+          {
+            "en": "the organizers ought to provide structured debate templates for first-time participants",
+            "vi": "ban tổ chức nên cung cấp dàn ý tranh biện mẫu cho các bạn tham gia lần đầu"
+          }
+        ]
+      },
+      {
+        "name": "2. Đề xuất 2: [đề xuất thứ hai] (Mệnh đề hoàn chỉnh)",
+        "items": [
+          {
+            "en": "we could choose engaging social topics that resonate with students and young adults",
+            "vi": "chúng ta có thể chọn các chủ đề xã hội hấp dẫn, gần gũi với học sinh sinh viên"
+          },
+          {
+            "en": "the club should debate lighthearted cultural topics like technology habits and pop music",
+            "vi": "CLB nên tranh biện các đề tài văn hóa nhẹ nhàng như thói quen công nghệ và âm nhạc đại chúng"
+          },
+          {
+            "en": "we could let young members vote online for their preferred tournament topics",
+            "vi": "chúng ta có thể cho các hội viên trẻ bình chọn trực tuyến các chủ đề giải đấu yêu thích"
+          }
+        ]
+      },
+      {
+        "name": "3. Đề xuất 3: [đề xuất thứ ba] (Mệnh đề hoàn chỉnh)",
+        "items": [
+          {
+            "en": "the management ought to introduce friendly team mini-debates to remove stage fright",
+            "vi": "ban quản lý nên đưa vào các trận tranh biện đồng đội nhỏ thân thiện để xóa tan nỗi sợ sân khấu"
+          },
+          {
+            "en": "the club could invite university debate champions to mentor student speakers",
+            "vi": "CLB có thể mời các quán quân tranh biện đại học đến cố vấn cho các diễn giả trẻ"
+          },
+          {
+            "en": "we should award certificates and book vouchers to encourage active contest participation",
+            "vi": "chúng ta nên trao chứng nhận và phiếu mua sách để khuyến khích tinh thần tham gia nhiệt tình"
+          }
+        ]
+      }
+    ],
+    "samples": [
+      {
+        "title": "Bài mẫu chuẩn Band B2+",
+        "wordCount": 141,
+        "en": "Dear Club Manager,\n\nMy name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the plan to promote debate and public speaking skills among young people. I believe mastering debate enhances logical thinking and boosts public speaking confidence enormously.\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, the club should host beginner workshops focusing on public speaking and presentation skills.\nSecond, we could choose engaging social topics that resonate with students and young adults.\nFinally, the management ought to introduce friendly team mini-debates to remove stage fright.\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
+        "vi": "Kính gửi Quản lý Câu lạc bộ,\n\nTên tôi là Kato, và tôi đã là một hội viên tích cực của câu lạc bộ chúng ta được hai năm. Trong thời gian này, tôi đã tham gia vào nhiều hoạt động ý nghĩa. Tôi viết thư này để chia sẻ góc nhìn và đưa ra một vài đề xuất mang tính xây dựng liên quan đến kế hoạch thúc đẩy kỹ năng tranh biện và nói trước công chúng cho giới trẻ. Tôi tin chắc rằng việc nắm vững kỹ năng tranh biện sẽ nâng cao tư duy logic và gia tăng sự tự tin diễn thuyết rất lớn.\n\nĐể giúp đạt được kết quả tốt nhất, tôi xin phép đưa ra ba đề xuất thực tế.\nThứ nhất, câu lạc bộ nên tổ chức các buổi workshop cho người mới bắt đầu tập trung vào kỹ năng diễn thuyết và thuyết trình.\nThứ hai, chúng ta có thể chọn các chủ đề xã hội hấp dẫn, gần gũi với học sinh sinh viên.\nCuối cùng, ban quản lý nên đưa vào các trận tranh biện đồng đội nhỏ thân thiện để xóa tan nỗi sợ sân khấu.\n\nCảm ơn bạn đã dành thời gian xem xét thư. Tôi rất mong sớm nhận được phản hồi từ bạn.\n\nTrân trọng,\nKato",
+        "analysis": [
+          {
+            "label": "Mở đầu, Mục đích & Quan điểm",
+            "text": "My name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the plan to promote debate and public speaking skills among young people. I believe mastering debate enhances logical thinking and boosts public speaking confidence enormously."
+          },
+          {
+            "label": "3 Đề xuất thực tế",
+            "text": "To help achieve the best outcome, I would like to make some practical proposals. First, the club should host beginner workshops focusing on public speaking and presentation skills. Second, we could choose engaging social topics that resonate with students and young adults. Finally, the management ought to introduce friendly team mini-debates to remove stage fright."
+          },
+          {
+            "label": "Cảm ơn & Ký tên",
+            "text": "Thank you for your time and consideration. I look forward to hearing your response. Best regards, Kato"
+          }
+        ]
+      }
+    ]
+  }
+},
+
+  "Fashion club": {
+  "title": "Fashion club (Inviting Renowned Designers & Engaging Youth)",
+  "badge": "Đề mới cập nhật",
+  "notice": "Dear member,\nOur club is going to invite some famous designers to come to our club. This event is organized in order to attract more youngsters joining our club. What do you think about this idea and do you have any other ideas?\nQ1: Write an email to your friend, who is also a member of our club. Tell your friend what suggestions you will make and why. Write about 50 words.\nQ2: Write an email to the manager of the club. Write about your ideas and what you think about the situation. Write about 120-150 words.",
+  "noticeVi": "Kính gửi các thành viên,\nCâu lạc bộ của chúng ta sắp mời một số nhà thiết kế nổi tiếng đến giao lưu tại câu lạc bộ. Sự kiện này được tổ chức nhằm thu hút thêm các bạn trẻ tham gia câu lạc bộ. Bạn nghĩ gì về ý tưởng này và bạn có ý tưởng nào khác không?\nQ1: Viết email cho bạn của bạn (khoảng 50 từ).\nQ2: Viết email cho quản lý câu lạc bộ (120-150 từ).",
+  "promptAnalysis": {
+    "topic": "Mời nhà thiết kế thời trang nổi tiếng đến giao lưu để thu hút giới trẻ",
+    "task1": "Viết email cho bạn (Kim): Bày tỏ sự hào hứng về việc mời nhà thiết kế, gợi ý tổ chức trình diễn thời trang nhỏ và rủ bạn cùng dự (~50 từ)",
+    "task2": "Viết email cho Quản lý CLB: Nêu quan điểm ủng hộ và đề xuất 3 giải pháp thực tế (workshop phối đồ thực hành, giao lưu hỏi đáp định hướng nghề nghiệp, phát trực tiếp trên mạng xã hội) (120 - 150 từ)"
+  },
+  "email1": {
+    "title": "Email 1: Gửi bạn bè (Kim)",
+    "instruction": "Write a short email to your friend (about 50 words). Tell your friend your feelings about inviting famous designers and what activities you suggest.",
+    "instructionVi": "Viết một email ngắn cho bạn của bạn (khoảng 50 từ). Cho bạn ấy biết cảm xúc về việc mời nhà thiết kế và gợi ý hoạt động gì.",
+    "wordTarget": "Khoảng 50 từ (45 - 60 từ)",
+    "minWords": 45,
+    "maxWords": 65,
+    "template": "Dear Kim,\nHow's it going? I hope you're doing well.\nI thought you'd be interested to hear that our fashion club plans to invite prominent designers to attract young members. I was quite excited when I found out about it.\nPersonally, I think [ý kiến & lý do]. Moreover, [phát triển thêm ý].\nI would love to know what you think about this. Hope to hear from you soon.\nTake care,\n[Tên của bạn]",
+    "vocabCategories": [
+      {
+        "name": "1. Bày tỏ Cảm xúc (Emotions)",
+        "items": [
+          {
+            "en": "quite excited",
+            "vi": "khá hào hứng"
+          },
+          {
+            "en": "absolutely thrilled",
+            "vi": "vô cùng phấn khích"
+          },
+          {
+            "en": "pleasantly surprised",
+            "vi": "ngạc nhiên một cách thích thú"
+          }
+        ]
+      },
+      {
+        "name": "2. [ý kiến & lý do] (Mệnh đề hoàn chỉnh)",
+        "items": [
+          {
+            "en": "inviting famous designers is fantastic because it inspires young fashion lovers greatly",
+            "vi": "mời các nhà thiết kế nổi tiếng rất tuyệt vời vì truyền cảm hứng to lớn cho người yêu thời trang trẻ"
+          },
+          {
+            "en": "having celebrity guests is wonderful because it raises the prestige of our fashion club",
+            "vi": "có khách mời nổi tiếng là điều tuyệt vời vì nâng tầm uy tín của CLB thời trang"
+          },
+          {
+            "en": "this initiative is effective because young people are keen on practical fashion trends",
+            "vi": "sáng kiến này rất hiệu quả vì giới trẻ rất hào hứng với các xu hướng thời trang thực tế"
+          }
+        ]
+      },
+      {
+        "name": "3. [phát triển thêm ý] (Mệnh đề hoàn chỉnh)",
+        "items": [
+          {
+            "en": "we should hold a mini fashion show to display creative outfits",
+            "vi": "chúng ta nên tổ chức một buổi trình diễn thời trang nhỏ để trưng bày các trang phục sáng tạo"
+          },
+          {
+            "en": "we could wear our best casual outfits together to attend the meeting",
+            "vi": "chúng mình có thể mặc những bộ trang phục đẹp nhất để cùng nhau tham dự buổi gặp"
+          },
+          {
+            "en": "the club should organize a photo booth with professional studio lighting",
+            "vi": "CLB nên bố trí một góc chụp ảnh với ánh sáng phòng studio chuyên nghiệp"
+          }
+        ]
+      }
+    ],
+    "samples": [
+      {
+        "title": "Bài mẫu chuẩn Band B2+",
+        "wordCount": 65,
+        "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our fashion club plans to invite prominent designers to attract young members. I was quite excited to hear about it.\n\nPersonally, I think inviting famous designers is fantastic because it inspires young fashion lovers greatly. Moreover, we should hold a mini fashion show to display creative outfits. What do you think? Hope to hear from you soon.\n\nTake care,\nKato",
+        "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ muốn biết tin CLB thời trang của chúng ta dự định mời các nhà thiết kế nổi tiếng để thu hút thành viên trẻ. Mình khá hào hứng khi nghe tin này.\n\nCá nhân mình thấy việc mời các nhà thiết kế nổi tiếng rất tuyệt vời vì nó truyền cảm hứng to lớn cho người yêu thời trang trẻ. Hơn nữa, chúng ta nên tổ chức một buổi trình diễn thời trang nhỏ để trưng bày các trang phục sáng tạo. Bạn nghĩ sao? Mong sớm nhận được tin từ bạn.\n\nBảo trọng nhé,\nKato",
+        "analysis": [
+          {
+            "label": "Chào hỏi & Tin tức",
+            "text": "Dear Kim, How is it going? I thought you would like to know that our fashion club plans to invite prominent designers to attract young members. I was quite excited to hear about it."
+          },
+          {
+            "label": "Quan điểm, Lý do & Đề xuất",
+            "text": "Personally, I think inviting famous designers is fantastic because it inspires young fashion lovers greatly. Moreover, we should hold a mini fashion show to display creative outfits. What do you think? Hope to hear from you soon."
+          },
+          {
+            "label": "Ký tên",
+            "text": "Take care, Kato"
+          }
+        ]
+      }
+    ]
+  },
+  "email2": {
+    "title": "Email 2: Gửi Quản lý Câu lạc bộ",
+    "instruction": "Write an email to the club manager (about 120–150 words). Express your thoughts on inviting famous designers and suggest 3 practical ideas to maximize member participation.",
+    "instructionVi": "Viết email gửi quản lý CLB (khoảng 120–150 từ). Bày tỏ suy nghĩ về việc mời nhà thiết kế nổi tiếng và đề xuất 3 ý tưởng thực tế để thu hút hội viên.",
+    "wordTarget": "120 - 150 từ (chuẩn 120 - 165 từ)",
+    "minWords": 120,
+    "maxWords": 165,
+    "template": "Dear Club Manager,\nMy name is Kato, and I have been an active member of our club for [thời gian tham gia: two years]. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding [thông tin trong đề bài]. I believe [nêu quan điểm về vấn đề đó].\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, [đề xuất thứ nhất].\nSecond, [đề xuất thứ hai].\nFinally, [đề xuất thứ ba].\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
+    "vocabCategories": [
+      {
+        "name": "1. Đề xuất 1: [đề xuất thứ nhất] (Mệnh đề hoàn chỉnh)",
+        "items": [
+          {
+            "en": "we should organize a hands-on styling workshop alongside the guest designer's keynote talk",
+            "vi": "chúng ta nên tổ chức một workshop phối đồ thực hành bên cạnh bài thuyết trình của nhà thiết kế"
+          },
+          {
+            "en": "the club should host a live garment design demonstration by the guest speaker",
+            "vi": "CLB nên tổ chức buổi thị phạm thiết kế trang phục trực tiếp từ diễn giả khách mời"
+          },
+          {
+            "en": "we ought to arrange an exhibition showcasing sustainable fashion created by members",
+            "vi": "chúng ta nên bố trí một khu trưng bày các mẫu thời trang bền vững do hội viên sáng tạo"
+          }
+        ]
+      },
+      {
+        "name": "2. Đề xuất 2: [đề xuất thứ hai] (Mệnh đề hoàn chỉnh)",
+        "items": [
+          {
+            "en": "the club could arrange an interactive question and answer session about fashion careers",
+            "vi": "CLB có thể sắp xếp buổi hỏi đáp tương tác định hướng nghề nghiệp trong ngành thời trang"
+          },
+          {
+            "en": "we could let young attendees seek personalized styling feedback from the guest designer",
+            "vi": "chúng ta có thể cho các bạn trẻ nhận nhận xét định hình phong cách cá nhân từ nhà thiết kế"
+          },
+          {
+            "en": "the organizers should hold a design contest where the winner receives a brief internship",
+            "vi": "ban tổ chức nên tổ chức cuộc thi thiết kế với giải thưởng là một kỳ thực tập ngắn"
+          }
+        ]
+      },
+      {
+        "name": "3. Đề xuất 3: [đề xuất thứ ba] (Mệnh đề hoàn chỉnh)",
+        "items": [
+          {
+            "en": "we ought to livestream the event on social media platforms to reach wider audiences",
+            "vi": "chúng ta nên phát trực tiếp sự kiện trên các nền tảng mạng xã hội để tiếp cận đông đảo công chúng"
+          },
+          {
+            "en": "the club could create trendy short videos on TikTok to generate buzz among young people",
+            "vi": "CLB có thể tạo các video ngắn theo xu hướng trên TikTok để tạo hiệu ứng trong giới trẻ"
+          },
+          {
+            "en": "we should provide decorative photo backdrops so members can share stylish photos online",
+            "vi": "chúng ta nên dựng phông nền chụp ảnh bắt mắt để hội viên chia sẻ ảnh thời trang lên mạng"
+          }
+        ]
+      }
+    ],
+    "samples": [
+      {
+        "title": "Bài mẫu chuẩn Band B2+",
+        "wordCount": 143,
+        "en": "Dear Club Manager,\n\nMy name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the plan to invite renowned fashion designers to speak at our club. I believe collaborating with industry experts will raise our club profile and attract youthful talent.\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, we should organize a hands-on styling workshop alongside the guest designer's keynote talk.\nSecond, the club could arrange an interactive question and answer session about fashion careers.\nFinally, we ought to livestream the event on social media platforms to reach wider audiences.\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
+        "vi": "Kính gửi Quản lý Câu lạc bộ,\n\nTên tôi là Kato, và tôi đã là một hội viên tích cực của câu lạc bộ chúng ta được hai năm. Trong thời gian này, tôi đã tham gia vào nhiều hoạt động ý nghĩa. Tôi viết thư này để chia sẻ góc nhìn và đưa ra một vài đề xuất mang tính xây dựng liên quan đến kế hoạch mời các nhà thiết kế thời trang nổi tiếng đến thuyết trình tại CLB. Tôi tin chắc rằng việc hợp tác với các chuyên gia trong ngành sẽ nâng cao vị thế câu lạc bộ và thu hút nhiều tài năng trẻ.\n\nĐể giúp đạt được kết quả tốt nhất, tôi xin phép đưa ra ba đề xuất thực tế.\nThứ nhất, chúng ta nên tổ chức một workshop phối đồ thực hành bên cạnh bài thuyết trình của nhà thiết kế.\nThứ hai, câu lạc bộ có thể sắp xếp buổi hỏi đáp tương tác định hướng nghề nghiệp trong ngành thời trang.\nCuối cùng, chúng ta nên phát trực tiếp sự kiện trên các nền tảng mạng xã hội để tiếp cận đông đảo công chúng.\n\nCảm ơn bạn đã dành thời gian xem xét thư. Tôi rất mong sớm nhận được phản hồi từ bạn.\n\nTrân trọng,\nKato",
+        "analysis": [
+          {
+            "label": "Mở đầu, Mục đích & Quan điểm",
+            "text": "My name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the plan to invite renowned fashion designers to speak at our club. I believe collaborating with industry experts will raise our club profile and attract youthful talent."
+          },
+          {
+            "label": "3 Đề xuất thực tế",
+            "text": "To help achieve the best outcome, I would like to make some practical proposals. First, we should organize a hands-on styling workshop alongside the guest designer's keynote talk. Second, the club could arrange an interactive question and answer session about fashion careers. Finally, we ought to livestream the event on social media platforms to reach wider audiences."
+          },
+          {
+            "label": "Cảm ơn & Ký tên",
+            "text": "Thank you for your time and consideration. I look forward to hearing your response. Best regards, Kato"
+          }
+        ]
+      }
+    ]
+  }
+},
+
+  "Television club": {
+  "title": "Television club (Annual Offline Conference & Global Meetup)",
+  "badge": "Đề mới cập nhật",
+  "notice": "Dear members,\nThe club is about to hold a meeting to celebrate our television programs. There are many members connecting with each other online but we are looking to organize an annual conference. We can meet other members in different countries. Please suggest places and activities for the club.\nQ1: Write an email to your friend, who is also a member of our club. Tell your friend what suggestions you will make and why. Write about 50 words.\nQ2: Write an email to the manager of the club. Write about your ideas and what you think about the situation. Write about 120-150 words.",
+  "noticeVi": "Kính gửi các thành viên,\nCâu lạc bộ sắp tổ chức một buổi gặp gỡ để kỷ niệm các chương trình truyền hình của chúng ta. Hiện có rất nhiều thành viên đang kết nối với nhau trực tuyến, nhưng chúng tôi đang hướng tới tổ chức một hội nghị thường niên. Chúng ta có thể gặp gỡ các hội viên ở các quốc gia khác nhau. Xin vui lòng gợi ý địa điểm và các hoạt động cho câu lạc bộ.\nQ1: Viết email cho bạn của bạn (khoảng 50 từ).\nQ2: Viết email cho quản lý câu lạc bộ (120-150 từ).",
+  "promptAnalysis": {
+    "topic": "Tổ chức hội nghị thường niên kỷ niệm các chương trình truyền hình & Giao lưu quốc tế",
+    "task1": "Viết email cho bạn (Kim): Nêu sự phấn khởi về buổi gặp mặt trực tiếp, gợi ý địa điểm khu nghỉ dưỡng và rủ bạn cùng tham gia (~50 từ)",
+    "task2": "Viết email cho Quản lý CLB: Đóng góp ý kiến và đề xuất 3 giải pháp thực tế (chọn địa điểm rộng rãi gần sân bay quốc tế, tổ chức team-building và tiệc tối ẩm thực văn hóa, dựng gian hàng chiếu lại các chương trình truyền hình kinh điển) (120 - 150 từ)"
+  },
+  "email1": {
+    "title": "Email 1: Gửi bạn bè (Kim)",
+    "instruction": "Write a short email to your friend (about 50 words). Tell your friend your feelings about the annual television conference and what places and activities you suggest.",
+    "instructionVi": "Viết một email ngắn cho bạn của bạn (khoảng 50 từ). Cho bạn ấy biết cảm xúc về hội nghị truyền hình thường niên và gợi ý địa điểm, hoạt động.",
+    "wordTarget": "Khoảng 50 từ (45 - 60 từ)",
+    "minWords": 45,
+    "maxWords": 65,
+    "template": "Dear Kim,\nHow's it going? I hope you're doing well.\nI thought you'd be interested to hear that our television club is planning an annual offline conference for international members. I was quite excited when I found out about it.\nPersonally, I think [ý kiến & lý do]. Moreover, [phát triển thêm ý].\nI would love to know what you think about this. Hope to hear from you soon.\nTake care,\n[Tên của bạn]",
+    "vocabCategories": [
+      {
+        "name": "1. Bày tỏ Cảm xúc (Emotions)",
+        "items": [
+          {
+            "en": "quite excited",
+            "vi": "khá hào hứng"
+          },
+          {
+            "en": "absolutely delighted",
+            "vi": "vô cùng vui sướng"
+          },
+          {
+            "en": "pleasantly surprised",
+            "vi": "ngạc nhiên một cách thích thú"
+          }
+        ]
+      },
+      {
+        "name": "2. [ý kiến & lý do] (Mệnh đề hoàn chỉnh)",
+        "items": [
+          {
+            "en": "meeting in person is wonderful because members from different countries can connect directly",
+            "vi": "gặp mặt trực tiếp thật tuyệt vời vì các hội viên từ nhiều quốc gia có thể kết nối trực tiếp"
+          },
+          {
+            "en": "hosting an annual conference is great because it strengthens friendships across borders",
+            "vi": "tổ chức hội nghị thường niên rất tuyệt vì thắt chặt tình bạn bè xuyên biên giới"
+          },
+          {
+            "en": "celebrating television shows together is meaningful because it honors popular entertainment programs",
+            "vi": "cùng nhau tôn vinh các chương trình truyền hình rất ý nghĩa vì trân trọng các tác phẩm giải trí"
+          }
+        ]
+      },
+      {
+        "name": "3. [phát triển thêm ý] (Mệnh đề hoàn chỉnh)",
+        "items": [
+          {
+            "en": "we should arrange outdoor team building games and a buffet dinner",
+            "vi": "chúng ta nên sắp xếp các trò chơi xây dựng đội ngũ ngoài trời và tiệc buffet tối"
+          },
+          {
+            "en": "we could book a shared resort room to save travel expenses together",
+            "vi": "chúng mình có thể đặt chung phòng khu nghỉ dưỡng để cùng tiết kiệm chi phí"
+          },
+          {
+            "en": "the club could host a fun trivia contest about legendary TV characters",
+            "vi": "CLB có thể tổ chức cuộc thi đố vui về các nhân vật truyền hình huyền thoại"
+          }
+        ]
+      }
+    ],
+    "samples": [
+      {
+        "title": "Bài mẫu chuẩn Band B2+",
+        "wordCount": 66,
+        "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our television club is planning an annual offline conference for international members. I was quite excited to hear about it.\n\nPersonally, I think meeting in person is wonderful because members from different countries can connect directly. Moreover, we should arrange outdoor team building games and a buffet dinner. What do you think? Hope to hear from you soon.\n\nTake care,\nKato",
+        "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ muốn biết tin CLB truyền hình của chúng ta đang lên kế hoạch tổ chức hội nghị thường niên gặp mặt cho hội viên quốc tế. Mình khá hào hứng khi nghe tin này.\n\nCá nhân mình thấy việc gặp mặt trực tiếp thật tuyệt vời vì các hội viên từ nhiều quốc gia có thể kết nối trực tiếp. Hơn nữa, chúng ta nên sắp xếp các trò chơi xây dựng đội ngũ ngoài trời và tiệc buffet tối. Bạn nghĩ sao? Mong sớm nhận được tin từ bạn.\n\nBảo trọng nhé,\nKato",
+        "analysis": [
+          {
+            "label": "Chào hỏi & Tin tức",
+            "text": "Dear Kim, How is it going? I thought you would like to know that our television club is planning an annual offline conference for international members. I was quite excited to hear about it."
+          },
+          {
+            "label": "Quan điểm, Lý do & Đề xuất",
+            "text": "Personally, I think meeting in person is wonderful because members from different countries can connect directly. Moreover, we should arrange outdoor team building games and a buffet dinner. What do you think? Hope to hear from you soon."
+          },
+          {
+            "label": "Ký tên",
+            "text": "Take care, Kato"
+          }
+        ]
+      }
+    ]
+  },
+  "email2": {
+    "title": "Email 2: Gửi Quản lý Câu lạc bộ",
+    "instruction": "Write an email to the club manager (about 120–150 words). Give your suggestions on location and activities for the international television conference.",
+    "instructionVi": "Viết email gửi quản lý CLB (khoảng 120–150 từ). Đưa ra các gợi ý về địa điểm và hoạt động cho hội nghị truyền hình quốc tế.",
+    "wordTarget": "120 - 150 từ (chuẩn 120 - 165 từ)",
+    "minWords": 120,
+    "maxWords": 165,
+    "template": "Dear Club Manager,\nMy name is Kato, and I have been an active member of our club for [thời gian tham gia: two years]. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding [thông tin trong đề bài]. I believe [nêu quan điểm về vấn đề đó].\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, [đề xuất thứ nhất].\nSecond, [đề xuất thứ hai].\nFinally, [đề xuất thứ ba].\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
+    "vocabCategories": [
+      {
+        "name": "1. Đề xuất 1: [đề xuất thứ nhất] (Mệnh đề hoàn chỉnh)",
+        "items": [
+          {
+            "en": "the club should choose a spacious venue close to the international airport for easy transit",
+            "vi": "CLB nên chọn một địa điểm rộng rãi gần sân bay quốc tế để thuận tiện đi lại"
+          },
+          {
+            "en": "we should select a modern convention hotel with adequate conference facilities",
+            "vi": "chúng ta nên chọn khách sạn hội nghị hiện đại có đầy đủ tiện nghi hội thảo"
+          },
+          {
+            "en": "the organizers ought to arrange shuttle buses between hotels and the main venue",
+            "vi": "ban tổ chức nên bố trí xe buýt đưa đón giữa khách sạn và địa điểm chính"
+          }
+        ]
+      },
+      {
+        "name": "2. Đề xuất 2: [đề xuất thứ hai] (Mệnh đề hoàn chỉnh)",
+        "items": [
+          {
+            "en": "we could host outdoor team-building games followed by a cultural gala dinner",
+            "vi": "chúng ta có thể tổ chức trò chơi gắn kết ngoài trời sau đó là bữa tiệc gala văn hóa"
+          },
+          {
+            "en": "the club should organize interactive workshops exploring television production and scriptwriting",
+            "vi": "CLB nên tổ chức các buổi hội thảo tương tác tìm hiểu về sản xuất truyền hình và biên kịch"
+          },
+          {
+            "en": "we could arrange a panel discussion with prominent television directors and actors",
+            "vi": "chúng ta có thể tổ chức buổi tọa đàm với các đạo diễn và diễn viên truyền hình nổi tiếng"
+          }
+        ]
+      },
+      {
+        "name": "3. Đề xuất 3: [đề xuất thứ ba] (Mệnh đề hoàn chỉnh)",
+        "items": [
+          {
+            "en": "the organizers ought to set up screening booths showcasing classic television highlights",
+            "vi": "ban tổ chức nên dựng các gian chiếu phim giới thiệu những thước phim truyền hình kinh điển"
+          },
+          {
+            "en": "the club could present recognition awards to dedicated international community contributors",
+            "vi": "CLB có thể trao giải thưởng tri ân cho các thành viên đóng góp tích cực quốc tế"
+          },
+          {
+            "en": "we should provide multilingual guidebooks and translation headsets for overseas guests",
+            "vi": "chúng ta nên chuẩn bị cẩm nang đa ngôn ngữ và tai nghe phiên dịch cho khách nước ngoài"
+          }
+        ]
+      }
+    ],
+    "samples": [
+      {
+        "title": "Bài mẫu chuẩn Band B2+",
+        "wordCount": 141,
+        "en": "Dear Club Manager,\n\nMy name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the plan to hold an annual conference to celebrate our television programs. I believe organizing this gathering will strengthen bonds among members across different nations.\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, the club should choose a spacious venue close to the international airport for easy transit.\nSecond, we could host outdoor team-building games followed by a cultural gala dinner.\nFinally, the organizers ought to set up screening booths showcasing classic television highlights.\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
+        "vi": "Kính gửi Quản lý Câu lạc bộ,\n\nTên tôi là Kato, và tôi đã là một hội viên tích cực của câu lạc bộ chúng ta được hai năm. Trong thời gian này, tôi đã tham gia vào nhiều hoạt động ý nghĩa. Tôi viết thư này để chia sẻ góc nhìn và đưa ra một vài đề xuất mang tính xây dựng liên quan đến kế hoạch tổ chức hội nghị thường niên nhằm kỷ niệm các chương trình truyền hình. Tôi tin chắc rằng việc tổ chức cuộc gặp gỡ này sẽ thắt chặt tình gắn kết giữa các thành viên ở các quốc gia khác nhau.\n\nĐể giúp đạt được kết quả tốt nhất, tôi xin phép đưa ra ba đề xuất thực tế.\nThứ nhất, câu lạc bộ nên chọn một địa điểm rộng rãi gần sân bay quốc tế để thuận tiện đi lại.\nThứ hai, chúng ta có thể tổ chức các trò chơi gắn kết ngoài trời sau đó là bữa tiệc gala văn hóa.\nCuối cùng, ban tổ chức nên dựng các gian chiếu phim giới thiệu những thước phim truyền hình kinh điển.\n\nCảm ơn bạn đã dành thời gian xem xét thư. Tôi rất mong sớm nhận được phản hồi từ bạn.\n\nTrân trọng,\nKato",
+        "analysis": [
+          {
+            "label": "Mở đầu, Mục đích & Quan điểm",
+            "text": "My name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the plan to hold an annual conference to celebrate our television programs. I believe organizing this gathering will strengthen bonds among members across different nations."
+          },
+          {
+            "label": "3 Đề xuất thực tế",
+            "text": "To help achieve the best outcome, I would like to make some practical proposals. First, the club should choose a spacious venue close to the international airport for easy transit. Second, we could host outdoor team-building games followed by a cultural gala dinner. Finally, the organizers ought to set up screening booths showcasing classic television highlights."
+          },
+          {
+            "label": "Cảm ơn & Ký tên",
+            "text": "Thank you for your time and consideration. I look forward to hearing your response. Best regards, Kato"
+          }
+        ]
+      }
+    ]
+  }
+},
+
+  "Computer club": {
+  "title": "Computer club (Website Upgrade & Attracting Members)",
+  "badge": "Đề mới cập nhật",
+  "notice": "Dear members,\n“We are making some changes to the website because we want more people to join us. As you know, the website at this moment is very simple, and we would like to hear some ideas on how to make it more attractive and why you think it will attract more visitors.”\nQ1: Write an email to your friend, who is also a member of our club. Tell your friend what suggestions you will make and why. Write about 50 words.\nQ2: Write an email to the manager of the club. Write about your ideas and what you think about the situation. Write about 120-150 words.",
+  "noticeVi": "Kính gửi các thành viên,\n“Chúng tôi đang thực hiện một số thay đổi đối với trang web vì chúng tôi muốn có thêm nhiều người tham gia cùng chúng ta. Như các bạn đã biết, trang web hiện tại rất đơn giản, và chúng tôi muốn lắng nghe một số ý tưởng về cách làm cho nó hấp dẫn hơn và lý do tại sao bạn nghĩ nó sẽ thu hút thêm khách truy cập.”\nQ1: Viết email cho bạn của bạn (khoảng 50 từ).\nQ2: Viết email cho quản lý câu lạc bộ (120-150 từ).",
+  "promptAnalysis": {
+    "topic": "Nâng cấp và cải tiến trang web CLB để trở nên hấp dẫn và thu hút thêm thành viên",
+    "task1": "Viết email cho bạn (Kim): Nêu lý do trang web cần đổi mới và gợi ý thêm video hướng dẫn, diễn đàn thảo luận (~50 từ)",
+    "task2": "Viết email cho Quản lý CLB: Nêu quan điểm về tầm quan trọng của trang web và đề xuất 3 giải pháp thực tế (tối ưu hóa giao diện di động, xây dựng diễn đàn hỏi đáp công nghệ, đăng tải mẹo máy tính hàng tuần) (120 - 150 từ)"
+  },
+  "email1": {
+    "title": "Email 1: Gửi bạn bè (Kim)",
+    "instruction": "Write a short email to your friend (about 50 words). Tell your friend your feelings about updating the club website and what features you suggest.",
+    "instructionVi": "Viết một email ngắn cho bạn của bạn (khoảng 50 từ). Cho bạn ấy biết cảm xúc về việc nâng cấp web CLB và gợi ý tính năng nào.",
+    "wordTarget": "Khoảng 50 từ (45 - 60 từ)",
+    "minWords": 45,
+    "maxWords": 65,
+    "template": "Dear Kim,\nHow's it going? I hope you're doing well.\nI thought you'd be interested to hear that our computer club is redesigning our website to make it more attractive. I was quite excited when I found out about it.\nPersonally, I think [ý kiến & lý do]. Moreover, [phát triển thêm ý].\nI would love to know what you think about this. Hope to hear from you soon.\nTake care,\n[Tên của bạn]",
+    "vocabCategories": [
+      {
+        "name": "1. Bày tỏ Cảm xúc (Emotions)",
+        "items": [
+          {
+            "en": "quite excited",
+            "vi": "khá hào hứng"
+          },
+          {
+            "en": "absolutely delighted",
+            "vi": "vô cùng hài lòng"
+          },
+          {
+            "en": "pleasantly surprised",
+            "vi": "ngạc nhiên một cách thích thú"
+          }
+        ]
+      },
+      {
+        "name": "2. [ý kiến & lý do] (Mệnh đề hoàn chỉnh)",
+        "items": [
+          {
+            "en": "modernizing the website is essential because a friendly layout attracts more visitors",
+            "vi": "hiện đại hóa trang web là cần thiết vì giao diện thân thiện sẽ thu hút nhiều khách truy cập"
+          },
+          {
+            "en": "redesigning the site is great because the current interface is too plain and outdated",
+            "vi": "thiết kế lại web là rất tốt vì giao diện hiện tại quá đơn điệu và lỗi thời"
+          },
+          {
+            "en": "improving user experience is key because visitors expect smooth navigation on computers and phones",
+            "vi": "cải thiện trải nghiệm người dùng là then chốt vì khách truy cập kỳ vọng thao tác mượt mà trên máy tính và điện thoại"
+          }
+        ]
+      },
+      {
+        "name": "3. [phát triển thêm ý] (Mệnh đề hoàn chỉnh)",
+        "items": [
+          {
+            "en": "we should add video tutorials and an interactive tech discussion forum",
+            "vi": "chúng ta nên bổ sung video hướng dẫn và diễn đàn thảo luận công nghệ tương tác"
+          },
+          {
+            "en": "we could write some useful computer troubleshooting tips for the homepage",
+            "vi": "chúng mình có thể viết một số mẹo khắc phục sự cố máy tính hữu ích cho trang chủ"
+          },
+          {
+            "en": "the club should create a modern dark mode theme for programmer members",
+            "vi": "CLB nên tạo giao diện chế độ tối hiện đại cho các hội viên lập trình viên"
+          }
+        ]
+      }
+    ],
+    "samples": [
+      {
+        "title": "Bài mẫu chuẩn Band B2+",
+        "wordCount": 65,
+        "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our computer club is redesigning our website to make it more attractive. I was quite excited to hear about it.\n\nPersonally, I think modernizing the website is essential because a friendly layout attracts more visitors. Moreover, we should add video tutorials and an interactive tech discussion forum. What do you think? Hope to hear from you soon.\n\nTake care,\nKato",
+        "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ muốn biết tin CLB tin học của chúng ta đang thiết kế lại trang web để giao diện hấp dẫn hơn. Mình khá hào hứng khi nghe tin này.\n\nCá nhân mình thấy việc hiện đại hóa trang web là cần thiết vì giao diện thân thiện sẽ thu hút nhiều khách truy cập. Hơn nữa, chúng ta nên bổ sung video hướng dẫn và diễn đàn thảo luận công nghệ tương tác. Bạn nghĩ sao? Mong sớm nhận được tin từ bạn.\n\nBảo trọng nhé,\nKato",
+        "analysis": [
+          {
+            "label": "Chào hỏi & Tin tức",
+            "text": "Dear Kim, How is it going? I thought you would like to know that our computer club is redesigning our website to make it more attractive. I was quite excited to hear about it."
+          },
+          {
+            "label": "Quan điểm, Lý do & Đề xuất",
+            "text": "Personally, I think modernizing the website is essential because a friendly layout attracts more visitors. Moreover, we should add video tutorials and an interactive tech discussion forum. What do you think? Hope to hear from you soon."
+          },
+          {
+            "label": "Ký tên",
+            "text": "Take care, Kato"
+          }
+        ]
+      }
+    ]
+  },
+  "email2": {
+    "title": "Email 2: Gửi Quản lý Câu lạc bộ",
+    "instruction": "Write an email to the club manager (about 120–150 words). Provide constructive suggestions on how to make the website appealing and functional.",
+    "instructionVi": "Viết email gửi quản lý CLB (khoảng 120–150 từ). Đưa ra các đề xuất mang tính xây dựng về cách làm cho trang web hấp dẫn và hữu ích.",
+    "wordTarget": "120 - 150 từ (chuẩn 120 - 165 từ)",
+    "minWords": 120,
+    "maxWords": 165,
+    "template": "Dear Club Manager,\nMy name is Kato, and I have been an active member of our club for [thời gian tham gia: two years]. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding [thông tin trong đề bài]. I believe [nêu quan điểm về vấn đề đó].\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, [đề xuất thứ nhất].\nSecond, [đề xuất thứ hai].\nFinally, [đề xuất thứ ba].\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
+    "vocabCategories": [
+      {
+        "name": "1. Đề xuất 1: [đề xuất thứ nhất] (Mệnh đề hoàn chỉnh)",
+        "items": [
+          {
+            "en": "we should optimize the website layout for seamless navigation on mobile devices",
+            "vi": "chúng ta nên tối ưu hóa bố cục trang web để duyệt mượt mà trên các thiết bị di động"
+          },
+          {
+            "en": "the club should implement a clean responsive interface with vivid color schemes",
+            "vi": "CLB nên triển khai giao diện tương thích trực quan với màu sắc sinh động"
+          },
+          {
+            "en": "we ought to improve site loading speed by compressing media graphics",
+            "vi": "chúng ta nên cải thiện tốc độ tải trang bằng cách nén đồ họa hình ảnh"
+          }
+        ]
+      },
+      {
+        "name": "2. Đề xuất 2: [đề xuất thứ hai] (Mệnh đề hoàn chỉnh)",
+        "items": [
+          {
+            "en": "the club could introduce a vibrant discussion forum for troubleshooting technical questions",
+            "vi": "CLB có thể đưa vào một diễn đàn thảo luận sôi nổi để giải đáp các thắc mắc kỹ thuật"
+          },
+          {
+            "en": "we could set up an interactive live chat where experienced members assist newcomers",
+            "vi": "chúng ta có thể thiết lập khung trò chuyện trực tiếp nơi hội viên kỳ cựu hỗ trợ người mới"
+          },
+          {
+            "en": "the developers should integrate an online registration portal with automated confirmation emails",
+            "vi": "các nhà phát triển nên tích hợp cổng đăng ký trực tuyến với email xác nhận tự động"
+          }
+        ]
+      },
+      {
+        "name": "3. Đề xuất 3: [đề xuất thứ ba] (Mệnh đề hoàn chỉnh)",
+        "items": [
+          {
+            "en": "we ought to publish weekly technology tips and short video guides for beginners",
+            "vi": "chúng ta nên xuất bản các mẹo công nghệ hàng tuần và video hướng dẫn ngắn cho người mới"
+          },
+          {
+            "en": "the club could feature monthly showcase articles highlighting outstanding member software projects",
+            "vi": "CLB có thể giới thiệu các bài viết tiêu điểm hàng tháng về những dự án phần mềm nổi bật của hội viên"
+          },
+          {
+            "en": "we should include a calendar section announcing upcoming offline workshops and hackathons",
+            "vi": "chúng ta nên đưa vào mục lịch sự kiện thông báo các buổi workshop và hackathon sắp diễn ra"
+          }
+        ]
+      }
+    ],
+    "samples": [
+      {
+        "title": "Bài mẫu chuẩn Band B2+",
+        "wordCount": 141,
+        "en": "Dear Club Manager,\n\nMy name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the plan to upgrade our club website to attract more visitors and members. I believe a modern and intuitive website interface will significantly enhance member engagement.\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, we should optimize the website layout for seamless navigation on mobile devices.\nSecond, the club could introduce a vibrant discussion forum for troubleshooting technical questions.\nFinally, we ought to publish weekly technology tips and short video guides for beginners.\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
+        "vi": "Kính gửi Quản lý Câu lạc bộ,\n\nTên tôi là Kato, và tôi đã là một hội viên tích cực của câu lạc bộ chúng ta được hai năm. Trong thời gian này, tôi đã tham gia vào nhiều hoạt động ý nghĩa. Tôi viết thư này để chia sẻ góc nhìn và đưa ra một vài đề xuất mang tính xây dựng liên quan đến kế hoạch nâng cấp trang web CLB để thu hút thêm khách truy cập và hội viên. Tôi tin chắc rằng một giao diện trang web hiện đại và trực quan sẽ nâng cao đáng kể sự gắn kết của các thành viên.\n\nĐể giúp đạt được kết quả tốt nhất, tôi xin phép đưa ra ba đề xuất thực tế.\nThứ nhất, chúng ta nên tối ưu hóa bố cục trang web để duyệt mượt mà trên các thiết bị di động.\nThứ hai, câu lạc bộ có thể đưa vào một diễn đàn thảo luận sôi nổi để giải đáp các thắc mắc kỹ thuật.\nCuối cùng, chúng ta nên xuất bản các mẹo công nghệ hàng tuần và các video hướng dẫn ngắn cho người mới bắt đầu.\n\nCảm ơn bạn đã dành thời gian xem xét thư. Tôi rất mong sớm nhận được phản hồi từ bạn.\n\nTrân trọng,\nKato",
+        "analysis": [
+          {
+            "label": "Mở đầu, Mục đích & Quan điểm",
+            "text": "My name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the plan to upgrade our club website to attract more visitors and members. I believe a modern and intuitive website interface will significantly enhance member engagement."
+          },
+          {
+            "label": "3 Đề xuất thực tế",
+            "text": "To help achieve the best outcome, I would like to make some practical proposals. First, we should optimize the website layout for seamless navigation on mobile devices. Second, the club could introduce a vibrant discussion forum for troubleshooting technical questions. Finally, we ought to publish weekly technology tips and short video guides for beginners."
+          },
+          {
+            "label": "Cảm ơn & Ký tên",
+            "text": "Thank you for your time and consideration. I look forward to hearing your response. Best regards, Kato"
+          }
+        ]
+      }
+    ]
+  }
+},
+
+  "Technology club": {
+  "title": "Technology club (Technology Fair & Guest Speaker Criteria)",
+  "badge": "Đề mới cập nhật",
+  "notice": "Dear members,\nOur club is going to organize a technology fair next year. We want all the young people to be aware of the benefit of technology and we want a guest speaker to share about this. What do you think and What makes a good guest speaker?\nManager.\nQ1: Write an email to your friend, who is also a member of our club. Tell your friend what suggestions you will make and why. Write about 50 words.\nQ2: Write an email to the manager of the club. Write about your ideas and what you think about the situation. Write about 120-150 words.",
+  "noticeVi": "Kính gửi các thành viên,\nCâu lạc bộ của chúng ta sắp tổ chức một hội chợ công nghệ vào năm tới. Chúng tôi muốn tất cả các bạn trẻ nhận thức được lợi ích của công nghệ và chúng tôi muốn một diễn giả khách mời chia sẻ về điều này. Bạn nghĩ gì và điều gì làm nên một diễn giả khách mời giỏi?\nQuản lý.\nQ1: Viết email cho bạn của bạn (khoảng 50 từ).\nQ2: Viết email cho quản lý câu lạc bộ (120-150 từ).",
+  "promptAnalysis": {
+    "topic": "Tổ chức hội chợ công nghệ vào năm tới & Tiêu chuẩn của diễn giả khách mời giỏi",
+    "task1": "Viết email cho bạn (Kim): Nêu sự phấn khởi về hội chợ công nghệ, gợi ý mời chuyên gia AI có tài ăn nói và rủ bạn cùng tham gia (~50 từ)",
+    "task2": "Viết email cho Quản lý CLB: Nêu quan điểm về vai trò của hội chợ và đề xuất 3 giải pháp thực tế (mời chuyên gia công nghệ có tài kể chuyện lôi cuốn, bố trí gian hàng trải nghiệm AI thực tế, dành thời lượng cho khán giả hỏi đáp giao lưu) (120 - 150 từ)"
+  },
+  "email1": {
+    "title": "Email 1: Gửi bạn bè (Kim)",
+    "instruction": "Write a short email to your friend (about 50 words). Tell your friend your feelings about the technology fair and what makes an inspiring speaker.",
+    "instructionVi": "Viết một email ngắn cho bạn của bạn (khoảng 50 từ). Cho bạn ấy biết cảm xúc về hội chợ công nghệ và yếu tố làm nên diễn giả lôi cuốn.",
+    "wordTarget": "Khoảng 50 từ (45 - 60 từ)",
+    "minWords": 45,
+    "maxWords": 65,
+    "template": "Dear Kim,\nHow's it going? I hope you're doing well.\nI thought you'd be interested to hear that our technology club is organizing a tech fair and inviting an inspiring speaker. I was quite excited when I found out about it.\nPersonally, I think [ý kiến & lý do]. Moreover, [phát triển thêm ý].\nI would love to know what you think about this. Hope to hear from you soon.\nTake care,\n[Tên của bạn]",
+    "vocabCategories": [
+      {
+        "name": "1. Bày tỏ Cảm xúc (Emotions)",
+        "items": [
+          {
+            "en": "quite excited",
+            "vi": "khá hào hứng"
+          },
+          {
+            "en": "absolutely thrilled",
+            "vi": "vô cùng hào hứng"
+          },
+          {
+            "en": "pleasantly surprised",
+            "vi": "ngạc nhiên một cách thích thú"
+          }
+        ]
+      },
+      {
+        "name": "2. [ý kiến & lý do] (Mệnh đề hoàn chỉnh)",
+        "items": [
+          {
+            "en": "hosting a tech fair is brilliant because it introduces modern innovations to youth",
+            "vi": "tổ chức hội chợ công nghệ rất tuyệt vời vì giới thiệu những đổi mới hiện đại cho giới trẻ"
+          },
+          {
+            "en": "inviting a guest speaker is essential because inspiring real stories motivate young learners",
+            "vi": "mời diễn giả khách mời là thiết yếu vì những câu chuyện thực tế truyền cảm hứng mạnh mẽ cho người học trẻ"
+          },
+          {
+            "en": "raising tech awareness is vital because digital skills are indispensable for future careers",
+            "vi": "nâng cao nhận thức công nghệ là sống còn vì kỹ năng số không thể thiếu cho sự nghiệp tương lai"
+          }
+        ]
+      },
+      {
+        "name": "3. [phát triển thêm ý] (Mệnh đề hoàn chỉnh)",
+        "items": [
+          {
+            "en": "we should invite an AI entrepreneur with engaging public speaking abilities",
+            "vi": "chúng ta nên mời một doanh nhân trí tuệ nhân tạo có khả năng diễn thuyết lôi cuốn"
+          },
+          {
+            "en": "we should volunteer together at the registration desk on the event day",
+            "vi": "chúng mình nên cùng nhau làm tình nguyện viên tại bàn đăng ký vào ngày diễn ra sự kiện"
+          },
+          {
+            "en": "the fair should include hands-on product test zones for the audience",
+            "vi": "hội chợ nên có các khu vực trải nghiệm dùng thử sản phẩm thực tế cho khán giả"
+          }
+        ]
+      }
+    ],
+    "samples": [
+      {
+        "title": "Bài mẫu chuẩn Band B2+",
+        "wordCount": 66,
+        "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our technology club is organizing a tech fair and inviting an inspiring speaker. I was quite excited to hear about it.\n\nPersonally, I think hosting a tech fair is brilliant because it introduces modern innovations to youth. Moreover, we should invite an AI entrepreneur with engaging public speaking abilities. What do you think? Hope to hear from you soon.\n\nTake care,\nKato",
+        "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ muốn biết tin CLB công nghệ của chúng ta đang tổ chức hội chợ công nghệ và mời diễn giả truyền cảm hứng. Mình khá hào hứng khi nghe tin này.\n\nCá nhân mình thấy việc tổ chức hội chợ công nghệ rất tuyệt vời vì nó giới thiệu những đổi mới hiện đại cho giới trẻ. Hơn nữa, chúng ta nên mời một doanh nhân trí tuệ nhân tạo có khả năng diễn thuyết lôi cuốn. Bạn nghĩ sao? Mong sớm nhận được tin từ bạn.\n\nBảo trọng nhé,\nKato",
+        "analysis": [
+          {
+            "label": "Chào hỏi & Tin tức",
+            "text": "Dear Kim, How is it going? I thought you would like to know that our technology club is organizing a tech fair and inviting an inspiring speaker. I was quite excited to hear about it."
+          },
+          {
+            "label": "Quan điểm, Lý do & Đề xuất",
+            "text": "Personally, I think hosting a tech fair is brilliant because it introduces modern innovations to youth. Moreover, we should invite an AI entrepreneur with engaging public speaking abilities. What do you think? Hope to hear from you soon."
+          },
+          {
+            "label": "Ký tên",
+            "text": "Take care, Kato"
+          }
+        ]
+      }
+    ]
+  },
+  "email2": {
+    "title": "Email 2: Gửi Quản lý Câu lạc bộ",
+    "instruction": "Write an email to the club manager (about 120–150 words). Give your perspective on the technology fair and outline 3 qualities of an effective guest speaker.",
+    "instructionVi": "Viết email gửi quản lý CLB (khoảng 120–150 từ). Trình bày góc nhìn về hội chợ công nghệ và nêu 3 phẩm chất/đề xuất cho diễn giả khách mời.",
+    "wordTarget": "120 - 150 từ (chuẩn 120 - 165 từ)",
+    "minWords": 120,
+    "maxWords": 165,
+    "template": "Dear Club Manager,\nMy name is Kato, and I have been an active member of our club for [thời gian tham gia: two years]. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding [thông tin trong đề bài]. I believe [nêu quan điểm về vấn đề đó].\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, [đề xuất thứ nhất].\nSecond, [đề xuất thứ hai].\nFinally, [đề xuất thứ ba].\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
+    "vocabCategories": [
+      {
+        "name": "1. Đề xuất 1: [đề xuất thứ nhất] (Mệnh đề hoàn chỉnh)",
+        "items": [
+          {
+            "en": "the club should invite a renowned tech pioneer with strong storytelling abilities",
+            "vi": "CLB nên mời một nhà tiên phong công nghệ nổi tiếng có tài kể chuyện lôi cuốn"
+          },
+          {
+            "en": "we should select a speaker who has proven hands-on experience in emerging technologies",
+            "vi": "chúng ta nên chọn một diễn giả có kinh nghiệm thực tế sâu rộng về các công nghệ mới nổi"
+          },
+          {
+            "en": "the organizers ought to choose an engaging speaker who uses accessible language for all ages",
+            "vi": "ban tổ chức nên chọn một diễn giả hấp dẫn biết dùng ngôn từ dễ hiểu cho mọi lứa tuổi"
+          }
+        ]
+      },
+      {
+        "name": "2. Đề xuất 2: [đề xuất thứ hai] (Mệnh đề hoàn chỉnh)",
+        "items": [
+          {
+            "en": "we could arrange interactive demo booths where attendees experience artificial intelligence firsthand",
+            "vi": "chúng ta có thể bố trí các gian hàng mô phỏng tương tác nơi người dự trải nghiệm trí tuệ nhân tạo trực tiếp"
+          },
+          {
+            "en": "the fair should feature hands-on coding games and smart gadget showcases",
+            "vi": "hội chợ nên có các trò chơi lập trình thực tế và khu trưng bày thiết bị thông minh"
+          },
+          {
+            "en": "we could organize live technology workshops tailored for high school and university students",
+            "vi": "chúng ta có thể tổ chức các workshop công nghệ trực tiếp phù hợp với học sinh và sinh viên"
+          }
+        ]
+      },
+      {
+        "name": "3. Đề xuất 3: [đề xuất thứ ba] (Mệnh đề hoàn chỉnh)",
+        "items": [
+          {
+            "en": "the organizers ought to allocate dedicated time for audience questions and networking",
+            "vi": "ban tổ chức nên dành thời lượng thỏa đáng cho phần hỏi đáp khán giả và giao lưu kết nối"
+          },
+          {
+            "en": "the club could prepare a summary booklet highlighting practical tech resources for attendees",
+            "vi": "CLB có thể chuẩn bị cẩm nang tóm tắt nêu bật các tài nguyên công nghệ hữu ích cho người tham dự"
+          },
+          {
+            "en": "we should live stream the keynote presentation to allow remote viewers to participate",
+            "vi": "chúng ta nên phát trực tiếp bài thuyết trình chính để khán giả ở xa cũng có thể theo dõi"
+          }
+        ]
+      }
+    ],
+    "samples": [
+      {
+        "title": "Bài mẫu chuẩn Band B2+",
+        "wordCount": 141,
+        "en": "Dear Club Manager,\n\nMy name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the plan to organize a technology fair and invite an expert guest speaker. I believe this fair will raise technological awareness and inspire young people toward tech careers.\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, the club should invite a renowned tech pioneer with strong storytelling abilities.\nSecond, we could arrange interactive demo booths where attendees experience artificial intelligence firsthand.\nFinally, the organizers ought to allocate dedicated time for audience questions and networking.\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
+        "vi": "Kính gửi Quản lý Câu lạc bộ,\n\nTên tôi là Kato, và tôi đã là một hội viên tích cực của câu lạc bộ chúng ta được hai năm. Trong thời gian này, tôi đã tham gia vào nhiều hoạt động ý nghĩa. Tôi viết thư này để chia sẻ góc nhìn và đưa ra một vài đề xuất mang tính xây dựng liên quan đến kế hoạch tổ chức hội chợ công nghệ và mời diễn giả chuyên gia. Tôi tin chắc rằng hội chợ này sẽ nâng cao nhận thức công nghệ và truyền cảm hứng cho giới trẻ theo đuổi sự nghiệp công nghệ.\n\nĐể giúp đạt được kết quả tốt nhất, tôi xin phép đưa ra ba đề xuất thực tế.\nThứ nhất, câu lạc bộ nên mời một nhà tiên phong công nghệ nổi tiếng có tài kể chuyện lôi cuốn.\nThứ hai, chúng ta có thể bố trí các gian hàng mô phỏng tương tác nơi người dự trải nghiệm trí tuệ nhân tạo trực tiếp.\nCuối cùng, ban tổ chức nên dành thời lượng thỏa đáng cho phần hỏi đáp khán giả và giao lưu kết nối.\n\nCảm ơn bạn đã dành thời gian xem xét thư. Tôi rất mong sớm nhận được phản hồi từ bạn.\n\nTrân trọng,\nKato",
+        "analysis": [
+          {
+            "label": "Mở đầu, Mục đích & Quan điểm",
+            "text": "My name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the plan to organize a technology fair and invite an expert guest speaker. I believe this fair will raise technological awareness and inspire young people toward tech careers."
+          },
+          {
+            "label": "3 Đề xuất thực tế",
+            "text": "To help achieve the best outcome, I would like to make some practical proposals. First, the club should invite a renowned tech pioneer with strong storytelling abilities. Second, we could arrange interactive demo booths where attendees experience artificial intelligence firsthand. Finally, the organizers ought to allocate dedicated time for audience questions and networking."
+          },
+          {
+            "label": "Cảm ơn & Ký tên",
+            "text": "Thank you for your time and consideration. I look forward to hearing your response. Best regards, Kato"
+          }
+        ]
+      }
+    ]
+  }
+},
+
+  "Travel club 3": {
+  "title": "Travel club 3 (Overseas Travel Advice & Skills)",
+  "badge": "Đề mới cập nhật",
+  "notice": "Dear members,\nIt is now summer holiday and there are many people in our country wanting to spend their holiday in foreign countries. However, they still lack travelling knowledge and skills. Could you give the travellers some advice?\nThe manager\nQ1: Write an email to your friend, who is also a member of our club. Tell your friend what suggestions you will make and why. Write about 50 words.\nQ2: Write an email to the manager of the club. Write about your ideas and what you think about the situation. Write about 120-150 words.",
+  "noticeVi": "Kính gửi các thành viên,\nHiện đang là kỳ nghỉ hè và có rất nhiều người ở nước ta muốn đi nghỉ dưỡng ở nước ngoài. Tuy nhiên, họ vẫn còn thiếu kiến thức và kỹ năng du lịch. Bạn có thể cho những du khách này một số lời khuyên không?\nQuản lý.\nQ1: Viết email cho bạn của bạn (khoảng 50 từ).\nQ2: Viết email cho quản lý câu lạc bộ (120-150 từ).",
+  "promptAnalysis": {
+    "topic": "Tư vấn kiến thức, kỹ năng và lời khuyên an toàn cho người dân đi du lịch nước ngoài vào kỳ nghỉ hè",
+    "task1": "Viết email cho bạn (Kim): Nêu sự cần thiết của việc trang bị kiến thức du lịch, gợi ý lập sổ tay kinh nghiệm và rủ bạn cùng soạn thảo (~50 từ)",
+    "task2": "Viết email cho Quản lý CLB: Nêu tầm quan trọng của kỹ năng du lịch và đề xuất 3 giải pháp thực tế (mua bảo hiểm du lịch & lưu liên hệ khẩn cấp, xuất bản infographic về phong tục văn hóa bản địa, tổ chức tọa đàm trực tuyến về quản lý chi tiêu và đóng gói hành lý) (120 - 150 từ)"
+  },
+  "email1": {
+    "title": "Email 1: Gửi bạn bè (Kim)",
+    "instruction": "Write a short email to your friend (about 50 words). Tell your friend your advice for overseas travellers and what materials our club should prepare.",
+    "instructionVi": "Viết một email ngắn cho bạn của bạn (khoảng 50 từ). Cho bạn ấy biết lời khuyên du lịch nước ngoài và tài liệu nào CLB nên chuẩn bị.",
+    "wordTarget": "Khoảng 50 từ (45 - 60 từ)",
+    "minWords": 45,
+    "maxWords": 65,
+    "template": "Dear Kim,\nHow's it going? I hope you're doing well.\nI thought you'd be interested to hear that our travel club is sharing essential travel advice for summer overseas trips. I was quite excited when I found out about it.\nPersonally, I think [ý kiến & lý do]. Moreover, [phát triển thêm ý].\nI would love to know what you think about this. Hope to hear from you soon.\nTake care,\n[Tên của bạn]",
+    "vocabCategories": [
+      {
+        "name": "1. Bày tỏ Cảm xúc (Emotions)",
+        "items": [
+          {
+            "en": "quite excited",
+            "vi": "khá hào hứng"
+          },
+          {
+            "en": "absolutely delighted",
+            "vi": "vô cùng hào hứng"
+          },
+          {
+            "en": "pleasantly surprised",
+            "vi": "ngạc nhiên một cách thích thú"
+          }
+        ]
+      },
+      {
+        "name": "2. [ý kiến & lý do] (Mệnh đề hoàn chỉnh)",
+        "items": [
+          {
+            "en": "providing travel tips is helpful because many tourists lack safety knowledge abroad",
+            "vi": "cung cấp mẹo du lịch rất hữu ích vì nhiều du khách thiếu kiến thức an toàn khi ở nước ngoài"
+          },
+          {
+            "en": "sharing practical skills is essential because overseas trips require thorough preparation",
+            "vi": "chia sẻ kỹ năng thực tế là thiết yếu vì các chuyến đi nước ngoài đòi hỏi sự chuẩn bị kỹ lưỡng"
+          },
+          {
+            "en": "guiding travelers is wonderful because it prevents unexpected cultural misunderstandings",
+            "vi": "hướng dẫn du khách là điều tuyệt vời vì giúp tránh những hiểu lầm văn hóa bất ngờ"
+          }
+        ]
+      },
+      {
+        "name": "3. [phát triển thêm ý] (Mệnh đề hoàn chỉnh)",
+        "items": [
+          {
+            "en": "we should compile a practical handbook on packing and local customs",
+            "vi": "chúng ta nên biên soạn một cuốn sổ tay thiết thực về cách đóng gói hành lý và phong tục địa phương"
+          },
+          {
+            "en": "we could share our personal overseas travel experiences on the club website",
+            "vi": "chúng mình có thể chia sẻ những trải nghiệm du lịch nước ngoài của chính mình lên trang web CLB"
+          },
+          {
+            "en": "the club should warn travelers against carrying excessive amounts of cash",
+            "vi": "CLB nên cảnh báo du khách không nên mang theo quá nhiều tiền mặt"
+          }
+        ]
+      }
+    ],
+    "samples": [
+      {
+        "title": "Bài mẫu chuẩn Band B2+",
+        "wordCount": 66,
+        "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our travel club is sharing essential travel advice for summer overseas trips. I was quite excited to hear about it.\n\nPersonally, I think providing travel tips is helpful because many tourists lack safety knowledge abroad. Moreover, we should compile a practical handbook on packing and local customs. What do you think? Hope to hear from you soon.\n\nTake care,\nKato",
+        "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ muốn biết tin CLB du lịch của chúng ta đang chia sẻ các lời khuyên cần thiết cho những chuyến đi nước ngoài mùa hè. Mình khá hào hứng khi nghe tin này.\n\nCá nhân mình thấy việc cung cấp mẹo du lịch rất hữu ích vì nhiều du khách thiếu kiến thức an toàn khi ở nước ngoài. Hơn nữa, chúng ta nên biên soạn một cuốn sổ tay thiết thực về cách đóng gói hành lý và phong tục địa phương. Bạn nghĩ sao? Mong sớm nhận được tin từ bạn.\n\nBảo trọng nhé,\nKato",
+        "analysis": [
+          {
+            "label": "Chào hỏi & Tin tức",
+            "text": "Dear Kim, How is it going? I thought you would like to know that our travel club is sharing essential travel advice for summer overseas trips. I was quite excited to hear about it."
+          },
+          {
+            "label": "Quan điểm, Lý do & Đề xuất",
+            "text": "Personally, I think providing travel tips is helpful because many tourists lack safety knowledge abroad. Moreover, we should compile a practical handbook on packing and local customs. What do you think? Hope to hear from you soon."
+          },
+          {
+            "label": "Ký tên",
+            "text": "Take care, Kato"
+          }
+        ]
+      }
+    ]
+  },
+  "email2": {
+    "title": "Email 2: Gửi Quản lý Câu lạc bộ",
+    "instruction": "Write an email to the club manager (about 120–150 words). Offer 3 constructive suggestions to educate and assist members travelling abroad.",
+    "instructionVi": "Viết email gửi quản lý CLB (khoảng 120–150 từ). Đưa ra 3 đề xuất mang tính xây dựng để hướng dẫn và hỗ trợ hội viên đi du lịch nước ngoài.",
+    "wordTarget": "120 - 150 từ (chuẩn 120 - 165 từ)",
+    "minWords": 120,
+    "maxWords": 165,
+    "template": "Dear Club Manager,\nMy name is Kato, and I have been an active member of our club for [thời gian tham gia: two years]. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding [thông tin trong đề bài]. I believe [nêu quan điểm về vấn đề đó].\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, [đề xuất thứ nhất].\nSecond, [đề xuất thứ hai].\nFinally, [đề xuất thứ ba].\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
+    "vocabCategories": [
+      {
+        "name": "1. Đề xuất 1: [đề xuất thứ nhất] (Mệnh đề hoàn chỉnh)",
+        "items": [
+          {
+            "en": "we should advise travellers to purchase comprehensive insurance and prepare emergency contacts",
+            "vi": "chúng ta nên khuyên du khách mua bảo hiểm toàn diện và chuẩn bị danh bạ liên hệ khẩn cấp"
+          },
+          {
+            "en": "the club should educate holidaymakers on carrying duplicate digital copies of passports",
+            "vi": "CLB nên hướng dẫn người đi nghỉ dưỡng lưu sẵn bản sao kỹ thuật số hộ chiếu"
+          },
+          {
+            "en": "we ought to remind members to verify visa validity and mandatory vaccination requirements",
+            "vi": "chúng ta nên nhắc nhở hội viên kiểm tra thời hạn thị thực và các yêu cầu tiêm phòng bắt buộc"
+          }
+        ]
+      },
+      {
+        "name": "2. Đề xuất 2: [đề xuất thứ hai] (Mệnh đề hoàn chỉnh)",
+        "items": [
+          {
+            "en": "the club could publish an infographic highlighting essential local customs and laws",
+            "vi": "CLB có thể xuất bản một infographic nêu bật các phong tục và luật lệ địa phương thiết yếu"
+          },
+          {
+            "en": "we could create a concise pocket guide on tipping etiquette and basic foreign phrases",
+            "vi": "chúng ta có thể tạo cuốn cẩm nang bỏ túi ngắn gọn về văn hóa tiền boa và câu giao tiếp cơ bản"
+          },
+          {
+            "en": "the organizers should share warnings about common tourist scams in popular destinations",
+            "vi": "ban tổ chức nên chia sẻ các cảnh báo về những chiêu trò lừa đảo du khách phổ biến tại các điểm đến nổi tiếng"
+          }
+        ]
+      },
+      {
+        "name": "3. Đề xuất 3: [đề xuất thứ ba] (Mệnh đề hoàn chỉnh)",
+        "items": [
+          {
+            "en": "we ought to organize an online seminar on budget management and smart packing",
+            "vi": "chúng ta nên tổ chức một buổi tọa đàm trực tuyến về quản lý ngân sách và đóng gói hành lý thông minh"
+          },
+          {
+            "en": "the club could host an interactive workshop sharing mobile navigation and translation apps",
+            "vi": "CLB có thể tổ chức workshop tương tác chia sẻ các ứng dụng bản đồ và dịch thuật trên điện thoại"
+          },
+          {
+            "en": "we should provide a community discussion group where experienced travelers answer questions",
+            "vi": "chúng ta nên tạo nhóm thảo luận cộng đồng nơi những người du lịch kỳ cựu giải đáp thắc mắc"
+          }
+        ]
+      }
+    ],
+    "samples": [
+      {
+        "title": "Bài mẫu chuẩn Band B2+",
+        "wordCount": 141,
+        "en": "Dear Club Manager,\n\nMy name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the plan to provide travel guidance and advice for overseas holidaymakers. I believe offering practical travel advice will help holidaymakers travel safely and enjoyably.\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, we should advise travellers to purchase comprehensive insurance and prepare emergency contacts.\nSecond, the club could publish an infographic highlighting essential local customs and laws.\nFinally, we ought to organize an online seminar on budget management and smart packing.\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
+        "vi": "Kính gửi Quản lý Câu lạc bộ,\n\nTên tôi là Kato, và tôi đã là một hội viên tích cực của câu lạc bộ chúng ta được hai năm. Trong thời gian này, tôi đã tham gia vào nhiều hoạt động ý nghĩa. Tôi viết thư này để chia sẻ góc nhìn và đưa ra một vài đề xuất mang tính xây dựng liên quan đến kế hoạch cung cấp định hướng và lời khuyên du lịch cho du khách đi nghỉ ở nước ngoài. Tôi tin chắc rằng việc đưa ra các lời khuyên du lịch thực tế sẽ giúp du khách có những chuyến đi an toàn và vui vẻ.\n\nĐể giúp đạt được kết quả tốt nhất, tôi xin phép đưa ra ba đề xuất thực tế.\nThứ nhất, chúng ta nên khuyên du khách mua bảo hiểm toàn diện và chuẩn bị danh bạ liên hệ khẩn cấp.\nThứ hai, câu lạc bộ có thể xuất bản một infographic nêu bật các phong tục và luật lệ địa phương thiết yếu.\nCuối cùng, chúng ta nên tổ chức một buổi tọa đàm trực tuyến về quản lý ngân sách và đóng gói hành lý thông minh.\n\nCảm ơn bạn đã dành thời gian xem xét thư. Tôi rất mong sớm nhận được phản hồi từ bạn.\n\nTrân trọng,\nKato",
+        "analysis": [
+          {
+            "label": "Mở đầu, Mục đích & Quan điểm",
+            "text": "My name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the plan to provide travel guidance and advice for overseas holidaymakers. I believe offering practical travel advice will help holidaymakers travel safely and enjoyably."
+          },
+          {
+            "label": "3 Đề xuất thực tế",
+            "text": "To help achieve the best outcome, I would like to make some practical proposals. First, we should advise travellers to purchase comprehensive insurance and prepare emergency contacts. Second, the club could publish an infographic highlighting essential local customs and laws. Finally, we ought to organize an online seminar on budget management and smart packing."
+          },
+          {
+            "label": "Cảm ơn & Ký tên",
+            "text": "Thank you for your time and consideration. I look forward to hearing your response. Best regards, Kato"
+          }
+        ]
+      }
+    ]
+  }
+}
 };

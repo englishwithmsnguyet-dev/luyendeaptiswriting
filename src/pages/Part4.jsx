@@ -440,7 +440,7 @@ export const gradeEmail = async (taskKey, rawText, clubData) => {
   };
 };
 
-// Flat list of 20 Part 4 clubs
+// Flat list of 30 Part 4 clubs
 export const clubList = [
   { id: "Walking club", name: "Walking Club (Sự kiện đi bộ hàng tháng)" },
   { id: "Fitness club", name: "Fitness Club (Nâng cấp thiết bị tập & Tăng phí hội viên)" },
@@ -461,7 +461,17 @@ export const clubList = [
   { id: "Food club", name: "Food Club (Tình nguyện làm diễn giả cùng đầu bếp nổi tiếng)" },
   { id: "Beautiful homes club", name: "Beautiful Homes Club (Phá dỡ công trình cũ xây chung cư)" },
   { id: "Sports club", name: "Sports Club (Tổ chức thi đấu thể thao cho thành viên trẻ)" },
-  { id: "Museum club", name: "Museum Club (Bảo tàng miễn phí & Chính sách thu vé)" }
+  { id: "Museum club", name: "Museum Club (Bảo tàng miễn phí & Chính sách thu vé)" },
+  { id: "Photography club", name: "Photography Club (Cuộc thi ảnh & Phân chia bảng thi)" },
+  { id: "Science club", name: "Science Club (Triển lãm khoa học tại tòa thị chính & Vé miễn phí)" },
+  { id: "Nature club", name: "Nature Club (Quan sát động vật vs Trồng cây gây rừng)" },
+  { id: "Business club", name: "Business Club (Hỗ trợ khởi nghiệp: Tổng đài tư vấn vs Khóa học)" },
+  { id: "Debate club", name: "Debate Club (Lợi ích kỹ năng tranh biện & Thu hút người trẻ)" },
+  { id: "Fashion club", name: "Fashion Club (Mời nhà thiết kế nổi tiếng & Thu hút giới trẻ)" },
+  { id: "Television club", name: "Television Club (Họp mặt thường niên & Giao lưu quốc tế)" },
+  { id: "Computer club", name: "Computer Club (Nâng cấp trang web & Thu hút thành viên mới)" },
+  { id: "Technology club", name: "Technology Club (Hội chợ công nghệ & Mời diễn giả truyền cảm hứng)" },
+  { id: "Travel club 3", name: "Travel Club 3 (Tư vấn kỹ năng & Lời khuyên du lịch nước ngoài)" }
 ];
 
 

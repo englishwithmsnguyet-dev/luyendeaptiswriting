@@ -98,6 +98,56 @@ export const part4SlotHints = {
     e1Topic: { en: "our Museum Club is discussing whether to collect admission tickets from visitors to cover repairs and staff costs", vi: "CLB Bảo tàng đang thảo luận về việc có nên thu vé vào cửa đối với khách tham quan để trang trải chi phí sửa chữa và trả lương cho nhân viên hay không" },
     e2Topic: { en: "the plan to collect admission tickets from visitors to fund repairs and staff salaries", vi: "kế hoạch thu vé vào cửa đối với khách tham quan để có kinh phí sửa chữa và trả lương nhân viên" },
     positive: false
+  },
+  "Photography club": {
+    e1Topic: {"en":"our photography club is planning a photo contest with separate categories","vi":"CLB nhiếp ảnh của chúng ta đang lên kế hoạch tổ chức cuộc thi ảnh với các bảng thi riêng"},
+    e2Topic: {"en":"the plan to divide our upcoming photo contest into different age and genre categories","vi":"kế hoạch phân chia cuộc thi ảnh sắp tới thành các bảng theo độ tuổi và thể loại"},
+    positive: true
+  },
+  "Science club": {
+    e1Topic: {"en":"our science club is preparing an exhibition at the local town hall","vi":"CLB khoa học của chúng ta đang chuẩn bị một buổi triển lãm tại tòa thị chính địa phương"},
+    e2Topic: {"en":"the plan to organize a science exhibition at the local town hall next month","vi":"kế hoạch tổ chức triển lãm khoa học tại tòa thị chính địa phương vào tháng tới"},
+    positive: true
+  },
+  "Nature club": {
+    e1Topic: {"en":"our club is choosing a community environmental project","vi":"CLB của chúng ta đang lựa chọn một dự án môi trường cộng đồng"},
+    e2Topic: {"en":"the plan to select a community environmental project for our club","vi":"kế hoạch lựa chọn dự án môi trường cộng đồng cho CLB của chúng ta"},
+    positive: true
+  },
+  "Business club": {
+    e1Topic: {"en":"our club plans to support local entrepreneurs","vi":"CLB của chúng ta dự định hỗ trợ người khởi nghiệp địa phương"},
+    e2Topic: {"en":"the plan to support local individuals who want to start up a business","vi":"kế hoạch hỗ trợ các cá nhân địa phương có nguyện vọng khởi nghiệp"},
+    positive: true
+  },
+  "Debate club": {
+    e1Topic: {"en":"our debate club is promoting debating skills to attract more young members","vi":"CLB tranh biện của chúng ta đang quảng bá kỹ năng tranh luận để thu hút thêm bạn trẻ"},
+    e2Topic: {"en":"the plan to promote debate and public speaking skills among young people","vi":"kế hoạch thúc đẩy kỹ năng tranh biện và nói trước công chúng cho giới trẻ"},
+    positive: true
+  },
+  "Fashion club": {
+    e1Topic: {"en":"our fashion club plans to invite prominent designers to attract young members","vi":"CLB thời trang dự định mời các nhà thiết kế nổi tiếng để thu hút thành viên trẻ"},
+    e2Topic: {"en":"the plan to invite renowned fashion designers to speak at our club","vi":"kế hoạch mời các nhà thiết kế thời trang nổi tiếng đến thuyết trình tại CLB"},
+    positive: true
+  },
+  "Television club": {
+    e1Topic: {"en":"our television club is planning an annual offline conference for international members","vi":"CLB truyền hình đang lên kế hoạch tổ chức hội nghị thường niên gặp mặt cho hội viên quốc tế"},
+    e2Topic: {"en":"the plan to hold an annual conference to celebrate our television programs","vi":"kế hoạch tổ chức hội nghị thường niên nhằm kỷ niệm các chương trình truyền hình"},
+    positive: true
+  },
+  "Computer club": {
+    e1Topic: {"en":"our computer club is redesigning our website to make it more attractive","vi":"CLB tin học đang thiết kế lại trang web để giao diện hấp dẫn hơn"},
+    e2Topic: {"en":"the plan to upgrade our club website to attract more visitors and members","vi":"kế hoạch nâng cấp trang web CLB để thu hút thêm khách truy cập và hội viên"},
+    positive: true
+  },
+  "Technology club": {
+    e1Topic: {"en":"our technology club is organizing a tech fair and inviting an inspiring speaker","vi":"CLB công nghệ đang tổ chức hội chợ công nghệ và mời diễn giả truyền cảm hứng"},
+    e2Topic: {"en":"the plan to organize a technology fair and invite an expert guest speaker","vi":"kế hoạch tổ chức hội chợ công nghệ và mời diễn giả chuyên gia"},
+    positive: true
+  },
+  "Travel club 3": {
+    e1Topic: {"en":"our travel club is sharing essential travel advice for summer overseas trips","vi":"CLB du lịch đang chia sẻ các lời khuyên cần thiết cho những chuyến đi nước ngoài mùa hè"},
+    e2Topic: {"en":"the plan to provide travel guidance and advice for overseas holidaymakers","vi":"kế hoạch cung cấp định hướng và lời khuyên du lịch cho du khách đi nghỉ ở nước ngoài"},
+    positive: true
   }
 };
 
