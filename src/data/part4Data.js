@@ -1442,8 +1442,8 @@ export const part4Data = {
     "noticeVi": "Kính gửi các thành viên,\nNgày nay, nhiều người trẻ mong muốn sở hữu một ngôi nhà hoặc căn hộ ngay từ khi còn trẻ, bạn có lời khuyên nào dành cho họ không? Tại sao?",
     "promptAnalysis": {
       "topic": "Lời khuyên và lý do dành cho các bạn trẻ có nguyện vọng sở hữu nhà hoặc căn hộ riêng từ sớm",
-      "task1": "Viết email ngắn cho bạn (~50 từ): Bày tỏ sự quan tâm về chủ đề mua nhà sớm, khuyên bạn nên tích lũy quỹ tiết kiệm trước vì nợ vay ngân hàng gây áp lực lớn, và rủ bạn cùng tham gia workshop của CLB",
-      "task2": "Viết email cho Quản lý CLB (120-150 từ): Khẳng định việc định hướng là rất cần thiết giúp người trẻ quyết định thông minh, đề xuất 3 lời khuyên/giải pháp thực tế (xây dựng quỹ tiết kiệm và quản lý nợ vay, chọn căn hộ nhỏ vừa túi tiền thay vì nhà đắt đỏ, mời chuyên gia chia sẻ cẩm nang pháp lý hợp đồng)"
+      "task1": "Viết email ngắn cho bạn (~50 từ): Chia sẻ tin nhiều bạn trẻ muốn mua nhà sớm, khuyên nên tiết kiệm đủ tiền vì đây là quyết định lớn, và cần có công việc ổn định để chi trả sinh hoạt phí",
+      "task2": "Viết email cho Quản lý CLB (120-150 từ): Nêu quan điểm cần chuẩn bị cẩn thận, đề xuất 3 lời khuyên thực tế (lập kế hoạch tài chính rõ ràng, có việc làm ổn định và tiền tiết kiệm, bắt đầu từ căn hộ nhỏ thay vì nhà đắt đỏ)"
     },
     "email1": {
       "title": "Email 1: Gửi bạn bè (Informal)",
@@ -1452,7 +1452,7 @@ export const part4Data = {
       "wordTarget": "Khoảng 50 từ (45 - 60 từ)",
       "minWords": 45,
       "maxWords": 65,
-      "template": "Dear Kim,\nHow is it going? I thought you would like to know that our Living Home Club is discussing advice for young adults who want to buy a house early. I was quite interested to hear about it.\nPersonally, I think youngsters should build a stable savings fund before buying because mortgage debts create huge financial pressure. Moreover, we should attend the club workshop this weekend to learn useful financial tips together. What do you think?\nHope to hear from you soon.\nTake care,\nKato",
+      "template": "Dear Kim,\nHow is it going? I thought you would like to know that many young people nowadays want to have a house or an apartment early in their life. I was quite interested to hear about it.\nPersonally, I think they should save enough money before buying a home because it is a big financial decision. Moreover, they should have a stable job so they can pay for their daily expenses and monthly payments. What do you think?\nHope to hear from you soon.\nTake care,\nKato",
       "vocabCategories": [
         {
           "name": "1. Bày tỏ Cảm xúc (Emotions)",
@@ -1467,7 +1467,7 @@ export const part4Data = {
             },
             {
               "en": "delighted",
-              "vi": "rất vui vẻ và phấn khởi"
+              "vi": "rất vui vẻ và hào hứng"
             }
           ]
         },
@@ -1475,20 +1475,20 @@ export const part4Data = {
           "name": "2. [ý kiến & lý do] (Mệnh đề hoàn chỉnh)",
           "items": [
             {
-              "en": "youngsters should build a stable savings fund before buying because mortgage debts create huge financial pressure",
-              "vi": "người trẻ nên xây dựng quỹ tiết kiệm vững chắc trước khi mua vì nợ vay ngân hàng tạo ra áp lực tài chính rất lớn (Theo bài mẫu)"
+              "en": "they should save enough money before buying a home because it is a big financial decision",
+              "vi": "họ nên tiết kiệm đủ tiền trước khi mua nhà vì đây là một quyết định tài chính lớn (Theo bài mẫu)"
             },
             {
-              "en": "young people should avoid heavy mortgage debt because high monthly payments limit career choices",
-              "vi": "người trẻ nên tránh nợ vay mua nhà quá lớn vì khoản trả hàng tháng sẽ hạn chế các lựa chọn sự nghiệp"
+              "en": "youngsters should build a stable savings fund before buying because mortgage debts create huge financial pressure",
+              "vi": "người trẻ nên xây dựng quỹ tiết kiệm vững chắc trước khi mua vì nợ vay ngân hàng tạo áp lực lớn"
             },
             {
               "en": "renting an apartment in the early years is a wise choice because it offers great career mobility",
               "vi": "thuê căn hộ trong những năm đầu là lựa chọn khôn ngoan vì mang lại sự linh hoạt khi phát triển sự nghiệp"
             },
             {
-              "en": "buying a home too early carries risks because maintenance costs and interest rates can fluctuate significantly",
-              "vi": "mua nhà quá sớm tiềm ẩn rủi ro vì chi phí bảo trì và lãi suất có thể biến động lớn"
+              "en": "young buyers must carefully consider interest rates because property prices can fluctuate significantly",
+              "vi": "người mua trẻ phải cân nhắc cẩn thận lãi suất vì giá nhà đất có thể biến động lớn"
             }
           ]
         },
@@ -1496,8 +1496,12 @@ export const part4Data = {
           "name": "3. [phát triển thêm ý] (Mệnh đề hoàn chỉnh)",
           "items": [
             {
+              "en": "they should have a stable job so they can pay for their daily expenses and monthly payments",
+              "vi": "họ nên có một công việc ổn định để có thể chi trả cho các sinh hoạt phí hàng ngày và các khoản trả góp hàng tháng (Theo bài mẫu)"
+            },
+            {
               "en": "we should attend the club workshop this weekend to learn useful financial tips together",
-              "vi": "chúng mình nên tham dự buổi workshop của CLB cuối tuần này để cùng học các mẹo tài chính bổ ích (Theo bài mẫu)"
+              "vi": "chúng mình nên tham dự buổi workshop của CLB cuối tuần này để cùng học các mẹo tài chính bổ ích"
             },
             {
               "en": "let's join the upcoming seminar on homebuying advice to understand mortgage calculations better",
@@ -1506,10 +1510,6 @@ export const part4Data = {
             {
               "en": "we could read a few practical books about personal finance and investing before making any big decisions",
               "vi": "chúng mình có thể đọc vài cuốn sách thực tế về tài chính cá nhân và đầu tư trước khi ra quyết định lớn"
-            },
-            {
-              "en": "we should talk to an experienced financial advisor to evaluate our current monthly budget",
-              "vi": "chúng mình nên trò chuyện với một chuyên gia tư vấn tài chính có kinh nghiệm để đánh giá ngân sách hiện tại"
             }
           ]
         }
@@ -1517,17 +1517,17 @@ export const part4Data = {
       "samples": [
         {
           "title": "Bài mẫu chuẩn Band B2+",
-          "wordCount": 86,
-          "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our Living Home Club is discussing advice for young adults who want to buy a house early. I was quite interested to hear about it.\n\nPersonally, I think youngsters should build a stable savings fund before buying because mortgage debts create huge financial pressure. Moreover, we should attend the club workshop this weekend to learn useful financial tips together. What do you think?\nHope to hear from you soon.\n\nTake care,\nKato",
-          "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin CLB Living Home của chúng mình đang thảo luận về lời khuyên cho người trẻ muốn mua nhà sớm. Mình khá quan tâm khi nghe tin này.\n\nCá nhân mình thấy người trẻ nên xây dựng quỹ tiết kiệm vững chắc trước khi mua vì các khoản nợ vay mua nhà tạo áp lực tài chính rất lớn. Hơn nữa, chúng mình nên tham gia buổi hội thảo của CLB cuối tuần này để cùng học các mẹo tài chính hữu ích nhé. Bạn nghĩ sao?\nMong sớm nhận được tin từ bạn.\n\nBảo trọng nhé,\nKato",
+          "wordCount": 90,
+          "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that many young people nowadays want to have a house or an apartment early in their life. I was quite interested to hear about it.\n\nPersonally, I think they should save enough money before buying a home because it is a big financial decision. Moreover, they should have a stable job so they can pay for their daily expenses and monthly payments. What do you think?\nHope to hear from you soon.\n\nTake care,\nKato",
+          "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin ngày nay có rất nhiều bạn trẻ muốn sở hữu một ngôi nhà hoặc căn hộ riêng từ sớm. Mình khá quan tâm khi nghe tin này.\n\nCá nhân mình thấy các bạn nên tiết kiệm đủ tiền trước khi mua nhà vì đây là một quyết định tài chính lớn. Hơn nữa, các bạn cần có một công việc ổn định để có thể chi trả các chi phí hàng ngày và tiền trả góp hàng tháng. Bạn nghĩ sao về ý tưởng này?\nMong sớm nhận được tin từ bạn.\n\nBảo trọng nhé,\nKato",
           "analysis": [
             {
               "label": "Chào hỏi & Tin tức",
-              "text": "Dear Kim, How is it going? I thought you would like to know that our Living Home Club is discussing advice for young adults who want to buy a house early. I was quite interested to hear about it."
+              "text": "Dear Kim, How is it going? I thought you would like to know that many young people nowadays want to have a house or an apartment early in their life. I was quite interested to hear about it."
             },
             {
               "label": "Quan điểm, Lý do & Đề xuất",
-              "text": "Personally, I think youngsters should build a stable savings fund before buying because mortgage debts create huge financial pressure. Moreover, we should attend the club workshop this weekend to learn useful financial tips together. What do you think? Hope to hear from you soon."
+              "text": "Personally, I think they should save enough money before buying a home because it is a big financial decision. Moreover, they should have a stable job so they can pay for their daily expenses and monthly payments. What do you think? Hope to hear from you soon."
             },
             {
               "label": "Ký tên",
@@ -1547,11 +1547,15 @@ export const part4Data = {
       "template": "Dear Club Manager,\nMy name is Kato, and I have been an active member of our club for [thời gian tham gia: two years]. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding [thông tin trong đề bài]. I believe [nêu quan điểm về vấn đề đó].\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, [đề xuất thứ nhất].\nSecond, [đề xuất thứ hai].\nFinally, [đề xuất thứ ba].\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
       "vocabCategories": [
         {
-          "name": "1. Đề xuất 1: [đề xuất thứ nhất] - Kế hoạch tiết kiệm & Quản lý nợ vay (Savings & Loans)",
+          "name": "1. Đề xuất 1: [đề xuất thứ nhất] - Lập kế hoạch tài chính rõ ràng (Clear financial plan)",
           "items": [
             {
+              "en": "they should make a clear financial plan before buying a home",
+              "vi": "họ nên lập kế hoạch tài chính rõ ràng trước khi mua nhà (Theo bài mẫu)"
+            },
+            {
               "en": "the club should advise youngsters to build a solid savings fund and manage bank loans carefully",
-              "vi": "CLB nên khuyên các bạn trẻ xây dựng quỹ tiết kiệm vững chắc và quản lý các khoản vay ngân hàng cẩn thận (Theo bài mẫu)"
+              "vi": "CLB nên khuyên các bạn trẻ xây dựng quỹ tiết kiệm vững chắc và quản lý các khoản vay ngân hàng cẩn thận"
             },
             {
               "en": "the club should host financial literacy seminars on calculating interest rates and mortgage debt obligations",
@@ -1560,52 +1564,48 @@ export const part4Data = {
             {
               "en": "young people should create a clear monthly budget and save at least twenty percent of their income before buying",
               "vi": "người trẻ nên lập ngân sách chi tiêu hàng tháng rõ ràng và tiết kiệm ít nhất 20% thu nhập trước khi mua"
-            },
-            {
-              "en": "first-time buyers ought to prepare an emergency fund covering six months of living costs before taking a loan",
-              "vi": "người mua nhà lần đầu nên chuẩn bị quỹ dự phòng khẩn cấp đủ sống trong 6 tháng trước khi vay tiền"
             }
           ]
         },
         {
-          "name": "2. Đề xuất 2: [đề xuất thứ hai] - Chọn loại hình nhà ở phù hợp (Căn hộ nhỏ vừa túi tiền hoặc thuê nhà)",
+          "name": "2. Đề xuất 2: [đề xuất thứ hai] - Công việc ổn định & Quỹ dự phòng chi tiêu (Stable job & Savings)",
           "items": [
             {
+              "en": "they should have a stable job and enough savings for their daily expenses",
+              "vi": "họ nên có một công việc ổn định và đủ tiền tiết kiệm cho các khoản chi tiêu hàng ngày (Theo bài mẫu)"
+            },
+            {
+              "en": "first-time buyers ought to prepare an emergency fund covering six months of living costs before taking a loan",
+              "vi": "người mua nhà lần đầu nên chuẩn bị quỹ dự phòng khẩn cấp đủ sống trong 6 tháng trước khi vay tiền"
+            },
+            {
+              "en": "young buyers should ensure that monthly mortgage payments never exceed thirty percent of their steady income",
+              "vi": "người mua trẻ nên đảm bảo tiền trả góp mua nhà hàng tháng không vượt quá 30% thu nhập ổn định"
+            },
+            {
+              "en": "they ought to build strong job security and professional skills before committing to long-term property debt",
+              "vi": "họ nên củng cố vị trí công việc vững chắc và kỹ năng nghề nghiệp trước khi gánh nợ mua nhà dài hạn"
+            }
+          ]
+        },
+        {
+          "name": "3. Đề xuất 3: [đề xuất thứ ba] - Bắt đầu từ căn hộ nhỏ vừa sức (Small apartment first)",
+          "items": [
+            {
+              "en": "they could start with a small apartment instead of buying an expensive home",
+              "vi": "họ có thể bắt đầu với một căn hộ nhỏ thay vì mua một ngôi nhà đắt đỏ (Theo bài mẫu)"
+            },
+            {
               "en": "we should encourage them to choose a small, affordable apartment rather than an expensive house",
-              "vi": "chúng ta nên khuyến khích các bạn trẻ chọn một căn hộ nhỏ, vừa túi tiền hơn là một ngôi nhà đắt đỏ (Theo bài mẫu)"
+              "vi": "chúng ta nên khuyến khích các bạn trẻ chọn một căn hộ nhỏ, vừa túi tiền hơn là một ngôi nhà đắt đỏ"
             },
             {
               "en": "youngsters should consider renting for a few years to maintain flexibility while exploring career opportunities",
               "vi": "người trẻ nên cân nhắc thuê nhà vài năm để duy trì sự linh hoạt trong khi tìm kiếm cơ hội thăng tiến"
             },
             {
-              "en": "it is wiser to start with a compact studio apartment that matches their current earning capacity",
-              "vi": "sẽ khôn ngoan hơn nếu bắt đầu bằng một căn hộ studio nhỏ gọn phù hợp với khả năng kiếm tiền hiện tại"
-            },
-            {
-              "en": "young buyers should prioritize homes near public transit and essential facilities rather than luxury properties",
-              "vi": "người mua trẻ nên ưu tiên nhà gần phương tiện công cộng và tiện ích thiết yếu hơn là nhà sang trọng trung tâm"
-            }
-          ]
-        },
-        {
-          "name": "3. Đề xuất 3: [đề xuất thứ ba] - Tư vấn pháp lý & Hướng dẫn thủ tục (Legal guidance & Expert advice)",
-          "items": [
-            {
               "en": "the club could invite experts to share a legal checklist on property contracts and titles",
-              "vi": "CLB có thể mời các chuyên gia chia sẻ danh mục kiểm tra pháp lý về hợp đồng và quyền sở hữu nhà (Theo bài mẫu)"
-            },
-            {
-              "en": "the club should publish a practical property guidebook covering land laws, taxes, and hidden maintenance costs",
-              "vi": "CLB nên phát hành một cẩm nang bất động sản thực tế về luật đất đai, thuế và chi phí bảo trì ẩn"
-            },
-            {
-              "en": "we could organize a consultation day where experienced homeowners share real-life lessons with young buyers",
-              "vi": "chúng ta có thể tổ chức ngày tư vấn nơi những người mua nhà có kinh nghiệm chia sẻ bài học thực tế với người trẻ"
-            },
-            {
-              "en": "the committee could provide a list of reliable real estate agencies and certified notary offices for members",
-              "vi": "ban tổ chức có thể cung cấp danh sách các công ty môi giới uy tín và văn phòng công chứng đáng tin cậy"
+              "vi": "CLB có thể mời các chuyên gia chia sẻ danh mục kiểm tra pháp lý về hợp đồng và quyền sở hữu nhà"
             }
           ]
         }
@@ -1613,17 +1613,17 @@ export const part4Data = {
       "samples": [
         {
           "title": "Bài mẫu chuẩn Band B2+",
-          "wordCount": 149,
-          "en": "Dear Club Manager,\n\nMy name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the advice for young people wishing to buy a home early. I believe providing practical guidance is essential because it helps them make smart financial decisions.\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, the club should advise youngsters to build a solid savings fund and manage bank loans carefully.\nSecond, we should encourage them to choose a small, affordable apartment rather than an expensive house.\nFinally, the club could invite experts to share a legal checklist on property contracts and titles.\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
-          "vi": "Kính gửi Quản lý Câu lạc bộ,\n\nTên tôi là Kato, và tôi đã là một hội viên tích cực của câu lạc bộ chúng ta được hai năm. Trong thời gian này, tôi đã tham gia vào nhiều hoạt động ý nghĩa. Tôi viết thư này để chia sẻ góc nhìn và đưa ra một vài đề xuất mang tính xây dựng liên quan đến lời khuyên cho các bạn trẻ có nguyện vọng mua nhà sớm. Tôi tin rằng việc đưa ra những hướng dẫn thực tế là rất thiết yếu vì nó giúp các bạn đưa ra những quyết định tài chính thông minh.\n\nĐể giúp đạt được kết quả tốt nhất, tôi xin phép đưa ra ba đề xuất thực tế.\nThứ nhất, câu lạc bộ nên khuyên các bạn trẻ xây dựng quỹ tiết kiệm vững chắc và quản lý các khoản vay ngân hàng một cách cẩn trọng.\nThứ hai, chúng ta nên khuyến khích các bạn lựa chọn một căn hộ nhỏ, vừa túi tiền thay vì một ngôi nhà đắt đỏ.\nCuối cùng, câu lạc bộ có thể mời các chuyên gia chia sẻ danh mục kiểm tra pháp lý về hợp đồng bất động sản và giấy tờ sở hữu.\n\nCảm ơn bạn đã dành thời gian xem xét thư. Tôi rất mong sớm nhận được phản hồi từ bạn.\n\nTrân trọng,\nKato",
+          "wordCount": 136,
+          "en": "Dear Club Manager,\n\nMy name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the advice for young people wishing to buy a home early. I believe they should prepare carefully before making this important decision.\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, they should make a clear financial plan before buying a home.\nSecond, they should have a stable job and enough savings for their daily expenses.\nFinally, they could start with a small apartment instead of buying an expensive home.\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
+          "vi": "Kính gửi Quản lý Câu lạc bộ,\n\nTên tôi là Kato, và tôi đã là một hội viên tích cực của câu lạc bộ chúng ta được hai năm. Trong thời gian này, tôi đã tham gia vào nhiều hoạt động ý nghĩa. Tôi viết thư này để chia sẻ góc nhìn và đưa ra một vài đề xuất mang tính xây dựng liên quan đến lời khuyên cho các bạn trẻ có nguyện vọng mua nhà sớm. Tôi tin rằng các bạn nên chuẩn bị cẩn thận trước khi đưa ra quyết định quan trọng này.\n\nĐể giúp đạt được kết quả tốt nhất, tôi xin phép đưa ra ba đề xuất thực tế.\nThứ nhất, các bạn nên lập một kế hoạch tài chính rõ ràng trước khi mua nhà.\nThứ hai, các bạn nên có một công việc ổn định và đủ tiền tiết kiệm cho các khoản chi tiêu hàng ngày.\nCuối cùng, các bạn có thể bắt đầu với một căn hộ nhỏ thay vì mua một ngôi nhà đắt đỏ.\n\nCảm ơn bạn đã dành thời gian xem xét thư. Tôi rất mong sớm nhận được phản hồi từ bạn.\n\nTrân trọng,\nKato",
           "analysis": [
             {
               "label": "Mở đầu, Mục đích & Quan điểm",
-              "text": "My name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the advice for young people wishing to buy a home early. I believe providing practical guidance is essential because it helps them make smart financial decisions."
+              "text": "My name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the advice for young people wishing to buy a home early. I believe they should prepare carefully before making this important decision."
             },
             {
               "label": "3 Đề xuất thực tế",
-              "text": "To help achieve the best outcome, I would like to make some practical proposals. First, the club should advise youngsters to build a solid savings fund and manage bank loans carefully. Second, we should encourage them to choose a small, affordable apartment rather than an expensive house. Finally, the club could invite experts to share a legal checklist on property contracts and titles."
+              "text": "To help achieve the best outcome, I would like to make some practical proposals. First, they should make a clear financial plan before buying a home. Second, they should have a stable job and enough savings for their daily expenses. Finally, they could start with a small apartment instead of buying an expensive home."
             },
             {
               "label": "Cảm ơn & Ký tên",
