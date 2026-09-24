@@ -133,8 +133,16 @@ export const part4SlotHints = {
     positive: true
   },
   "Book club 2": {
-    e1Topic: { en: "our public library faces closure next year as people shift to online reading", vi: "thư viện công cộng có nguy cơ bị đóng cửa vào năm sau do xu hướng đọc sách online" },
-    e2Topic: { en: "the plan to close the local public library next year", vi: "kế hoạch đóng cửa thư viện công cộng địa phương vào năm tới" },
+    e1Topic: { en: "local authorities plan to close our library next year because many people read online books", vi: "chính quyền địa phương dự định đóng cửa thư viện vào năm tới vì nhiều người đọc sách online" },
+    e2Topic: [
+      { en: "the plan to close the local library next year", vi: "kế hoạch đóng cửa thư viện địa phương vào năm tới (Theo bài mẫu)" },
+      { en: "the local authorities' decision to close down our public library next year", vi: "quyết định của chính quyền địa phương về việc đóng cửa thư viện công cộng vào năm tới" }
+    ],
+    perspectives: [
+      { isSafe: true, en: "closing the library is very regrettable because it plays a vital role in our community", vi: "việc đóng cửa thư viện là rất đáng tiếc vì nơi đây đóng vai trò thiết yếu trong cộng đồng (Theo bài mẫu)" },
+      { en: "closing the library is an extremely regrettable decision because digital screens cannot replace physical libraries", vi: "đóng cửa thư viện là quyết định vô cùng đáng tiếc vì sách điện tử không thể thay thế thư viện truyền thống" },
+      { en: "this decision is truly unfortunate and we must find practical ways to save and keep the library open", vi: "quyết định này thực sự đáng tiếc và chúng ta phải tìm các giải pháp thực tế để giữ lại thư viện" }
+    ],
     positive: false
   },
   "Museum club": {

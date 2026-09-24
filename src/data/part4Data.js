@@ -3543,9 +3543,9 @@ export const part4Data = {
     "notice": "Dear members,\nThe local authorities will close the library next year because many people prefer reading online books. The club wants members to give their opinions and suggestions on this matter.",
     "noticeVi": "Kính gửi các thành viên,\nChính quyền địa phương sẽ đóng cửa thư viện vào năm tới vì nhiều người hiện nay thích đọc sách điện tử trực tuyến hơn. Câu lạc bộ muốn các thành viên đưa ra ý kiến và đề xuất về vấn đề này.",
     "promptAnalysis": {
-      "topic": "Chính quyền địa phương dự định đóng cửa thư viện công cộng do xu hướng đọc sách điện tử trực tuyến",
-      "task1": "Viết email ngắn cho bạn (~50 từ): Bày tỏ sự sốc/tiếc nuối khi thư viện có nguy cơ bị đóng cửa, nhấn mạnh giá trị của không gian đọc sách giấy và rủ bạn ký đơn kiến nghị giữ lại thư viện",
-      "task2": "Viết email cho Quản lý CLB (120-150 từ): Bày tỏ sự phản đối việc đóng cửa vội vàng và đề xuất 3 giải pháp thực tế (nâng cấp thư viện thành mô hình kết hợp số hóa và sách giấy, bổ sung quán cà phê sách và phòng học nhóm, tổ chức câu lạc bộ đọc sách và workshop cuối tuần)"
+      "topic": "Nguy cơ đóng cửa thư viện công cộng do xu hướng đọc sách điện tử trực tuyến: Bày tỏ sự tiếc nuối và đề xuất các cách thiết thực để giữ lại thư viện",
+      "task1": "Viết email ngắn cho bạn (~50 từ): Bày tỏ sự tiếc nuối/thất vọng khi thư viện sắp bị đóng cửa, giải thích vì sao thư viện giấy vẫn cần thiết và rủ bạn cùng ký đơn giữ thư viện",
+      "task2": "Viết email cho Quản lý CLB (120-150 từ): Khẳng định việc đóng cửa là rất đáng tiếc, đưa ra 3 giải pháp thực tế để giữ thư viện (hiện đại hóa thêm máy tính và sách số, mở quán cà phê tự học, tổ chức sự kiện đọc sách và gây quỹ)"
     },
     "email1": {
       "title": "Email 1: Gửi bạn bè (Informal)",
@@ -3554,18 +3554,26 @@ export const part4Data = {
       "wordTarget": "Khoảng 50 từ (45 - 60 từ)",
       "minWords": 45,
       "maxWords": 65,
-      "template": "Dear [Tên bạn],\nHow's it going? I hope you're doing well.\nI thought you'd be interested to hear that local authorities are planning to shut down our library next year because of online e-books. I was quite shocked and upset when I found out about it. Personally, I think the library is an irreplaceable quiet sanctuary that screens cannot replace. Moreover, let's sign the community petition to save it!\nI would love to know what you think about this. Hope to hear from you soon.\nTake care,\n[Tên của bạn]",
+      "template": "Dear Kim,\nHow is it going? I thought you would like to know that local authorities plan to close our library next year because many people read online books. I was quite disappointed to hear about it.\nPersonally, I think closing the library is very regrettable because it provides an essential quiet space for students and book lovers. Moreover, we should sign the petition to save the library and visit it more often this weekend. What do you think?\nHope to hear from you soon.\nTake care,\nKato",
       "vocabCategories": [
         {
           "name": "1. Bày tỏ Cảm xúc (Emotions)",
           "items": [
             {
-              "en": "quite shocked and saddened",
-              "vi": "khá sốc và buồn bã"
+              "en": "quite disappointed",
+              "vi": "khá thất vọng (Theo bài mẫu)"
             },
             {
-              "en": "deeply distressed",
-              "vi": "vô cùng lo lắng và phiền lòng"
+              "en": "deeply saddened",
+              "vi": "vô cùng buồn bã"
+            },
+            {
+              "en": "really upset",
+              "vi": "rất buồn và phiền lòng"
+            },
+            {
+              "en": "quite shocked",
+              "vi": "khá bàng hoàng"
             }
           ]
         },
@@ -3573,16 +3581,20 @@ export const part4Data = {
           "name": "2. [ý kiến & lý do] (Mệnh đề hoàn chỉnh)",
           "items": [
             {
-              "en": "closing the local library is very sad because it provides a quiet space for people to study and read",
-              "vi": "đóng cửa thư viện thật buồn vì nơi đây mang lại không gian yên tĩnh để học và đọc sách"
+              "en": "closing the library is very regrettable because it provides an essential quiet space for students and book lovers",
+              "vi": "đóng cửa thư viện là rất đáng tiếc vì nơi đây mang lại không gian yên tĩnh thiết yếu cho học sinh và người yêu sách (Theo bài mẫu)"
             },
             {
-              "en": "closing the municipal library is a tragic loss because it is an essential quiet sanctuary for students and seniors",
-              "vi": "đóng cửa thư viện là mất mát lớn vì đó là không gian yên tĩnh thiết yếu cho học sinh và người già"
+              "en": "closing our local library is a huge loss because reading paper books helps us concentrate much better",
+              "vi": "đóng cửa thư viện là mất mát lớn vì đọc sách giấy giúp chúng mình tập trung tốt hơn nhiều"
             },
             {
-              "en": "physical paper books offer an irreplaceable reading experience that digital screens can never fully replicate",
-              "vi": "sách giấy truyền thống mang lại trải nghiệm đọc vô giá mà màn hình điện tử không thể thay thế"
+              "en": "the library is an irreplaceable place where community members of all ages can read and learn together",
+              "vi": "thư viện là nơi không thể thay thế, nơi mọi thế hệ trong cộng đồng có thể cùng đọc và học tập"
+            },
+            {
+              "en": "we should not let the library close because many low-income students rely on its free books and study desks",
+              "vi": "chúng mình không nên để thư viện đóng cửa vì nhiều bạn học sinh cần sách và bàn học miễn phí ở đây"
             }
           ]
         },
@@ -3590,16 +3602,20 @@ export const part4Data = {
           "name": "3. [phát triển thêm ý] (Mệnh đề hoàn chỉnh)",
           "items": [
             {
-              "en": "we should visit the library this weekend to read books and show our support",
-              "vi": "chúng mình nên đến thư viện cuối tuần này để đọc sách và thể hiện sự ủng hộ"
+              "en": "we should sign the petition to save the library and visit it more often this weekend",
+              "vi": "chúng mình nên cùng ký đơn kiến nghị giữ thư viện và đến đó thường xuyên hơn cuối tuần này (Theo bài mẫu)"
             },
             {
-              "en": "we should join the public petition campaign to urge the city council to keep the library open",
-              "vi": "chúng mình nên tham gia chiến dịch ký đơn thỉnh nguyện kêu gọi hội đồng thành phố giữ lại thư viện"
+              "en": "we should meet up at the library this Saturday to show our support and study together",
+              "vi": "chúng mình nên hẹn nhau đến thư viện vào thứ Bảy này để thể hiện sự ủng hộ và cùng học bài nhé"
             },
             {
-              "en": "we can organize a collective study session at the library this Saturday to demonstrate community support",
-              "vi": "chúng mình có thể cùng đến thư viện học nhóm vào thứ Bảy này để thể hiện sự ủng hộ"
+              "en": "we could write a letter to the local council asking them to keep the library open for the community",
+              "vi": "chúng mình có thể viết một lá thư gửi hội đồng địa phương đề nghị giữ lại thư viện cho cộng đồng"
+            },
+            {
+              "en": "we should share information on social media to raise awareness and encourage everyone to visit the library",
+              "vi": "chúng mình hãy cùng chia sẻ thông tin lên mạng xã hội để kêu gọi mọi người cùng đến thư viện"
             }
           ]
         }
@@ -3607,17 +3623,17 @@ export const part4Data = {
       "samples": [
         {
           "title": "Bài mẫu chuẩn Band B2+",
-          "wordCount": 55,
-          "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our club plans a reading month. I was thrilled about it!\n\nPersonally, I think a collective reading goal is great for motivation. Moreover, we should exchange favorite novels. What do you think? Hope to hear from you soon.\n\nTake care,\nKato",
-          "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin CLB dự định tổ chức tháng đọc sách. Mình rất phấn khởi về tin này!\n\nCá nhân mình thấy mục tiêu đọc chung rất tuyệt để tạo động lực. Hơn nữa, chúng mình nên đổi tiểu thuyết yêu thích cho nhau. Bạn nghĩ sao? Mong sớm nhận được tin từ bạn.\n\nBảo trọng nhé,\nKato",
+          "wordCount": 89,
+          "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that local authorities plan to close our library next year because many people read online books. I was quite disappointed to hear about it.\n\nPersonally, I think closing the library is very regrettable because it provides an essential quiet space for students and book lovers. Moreover, we should sign the petition to save the library and visit it more often this weekend. What do you think?\nHope to hear from you soon.\n\nTake care,\nKato",
+          "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin chính quyền địa phương dự định đóng cửa thư viện vào năm tới vì nhiều người đọc sách trực tuyến. Mình khá thất vọng khi nghe tin này.\n\nCá nhân mình thấy việc đóng cửa thư viện là rất đáng tiếc vì nơi đây mang lại không gian yên tĩnh thiết yếu cho học sinh và những người yêu sách. Hơn nữa, chúng mình nên cùng ký đơn thỉnh nguyện giữ lại thư viện và đến đây nhiều hơn vào cuối tuần này. Bạn nghĩ sao?\nMong sớm nhận được tin từ bạn.\n\nBảo trọng nhé,\nKato",
           "analysis": [
             {
               "label": "Chào hỏi & Tin tức",
-              "text": "Dear Kim, How is it going? I thought you would like to know that our club plans a reading month. I was thrilled about it!"
+              "text": "Dear Kim, How is it going? I thought you would like to know that local authorities plan to close our library next year because many people read online books. I was quite disappointed to hear about it."
             },
             {
               "label": "Quan điểm, Lý do & Đề xuất",
-              "text": "Personally, I think a collective reading goal is great for motivation. Moreover, we should exchange favorite novels. What do you think? Hope to hear from you soon."
+              "text": "Personally, I think closing the library is very regrettable because it provides an essential quiet space for students and book lovers. Moreover, we should sign the petition to save the library and visit it more often this weekend. What do you think? Hope to hear from you soon."
             },
             {
               "label": "Ký tên",
@@ -3634,56 +3650,72 @@ export const part4Data = {
       "wordTarget": "120 - 150 từ (chuẩn 120 - 165 từ)",
       "minWords": 120,
       "maxWords": 165,
-      "template": "Dear Club Manager,\nMy name is [tên người gửi], and I have been a member of the club for [thời gian: two years]. During this time, I have had the opportunity to participate in a wide range of meaningful activities, which have greatly enriched my experience and personal development.\nI am writing in response to your email regarding the municipal authority's plan to close down our public library. I believe that this decision is short-sighted and deeply regrettable.\nTo preserve and modernize this vital cultural institution, I would like to make a few suggestions. First, our club should advocate for transforming the library into a modern hybrid learning hub equipped with free Wi-Fi, computer workstations, and digital archives alongside traditional book stacks. Second, it would be better to integrate a community coffee lounge and silent study pods to attract freelance workers and students. Finally, we could organize weekly literary storytelling sessions and coding clubs for children to demonstrate high community utility. Overall, I am confident that these suggestions would make a positive difference and help the club achieve its objectives.\nThank you for taking the time to consider my suggestions. I sincerely hope they will be taken into consideration, and I look forward to your response.\nBest regards,\n[Tên của bạn]",
+      "template": "Dear Club Manager,\nMy name is Kato, and I have been an active member of our club for [thời gian tham gia: two years]. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding [thông tin trong đề bài]. I believe [nêu quan điểm về vấn đề đó].\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, [đề xuất thứ nhất].\nSecond, [đề xuất thứ hai].\nFinally, [đề xuất thứ ba].\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
       "vocabCategories": [
         {
-          "name": "1. Đề xuất 1: [đề xuất thứ nhất] (Mệnh đề hoàn chỉnh)",
+          "name": "1. Đề xuất 1: [đề xuất thứ nhất] - Hiện đại hóa trang thiết bị & Tích hợp sách số để giữ thư viện",
           "items": [
             {
-              "en": "the library should add computers and free Wi-Fi so people can read both paper and electronic books",
-              "vi": "thư viện nên bổ sung máy tính và Wi-Fi miễn phí để mọi người đọc cả sách giấy lẫn sách điện tử"
+              "en": "the library should add computers and free Wi-Fi so people can access both physical and digital books",
+              "vi": "thư viện nên bổ sung máy tính và Wi-Fi miễn phí để mọi người đọc cả sách giấy lẫn tài liệu số (Theo bài mẫu)"
             },
             {
-              "en": "the city should modernize the library into a dynamic hybrid learning center combining physical books with digital databases",
-              "vi": "thành phố nên hiện đại hóa thư viện thành trung tâm học tập tích hợp sách giấy và cơ sở dữ liệu số"
+              "en": "the management should install high-speed Wi-Fi and modern computers to support online research and digital reading",
+              "vi": "ban quản lý nên lắp đặt Wi-Fi tốc độ cao và máy tính hiện đại để hỗ trợ tra cứu trực tuyến và đọc sách điện tử"
             },
             {
-              "en": "the club should petition local authorities to install modern workstations, high-speed Wi-Fi, and e-reader lending services",
-              "vi": "CLB nên kiến nghị chính quyền lắp đặt máy tính hiện đại, Wi-Fi tốc độ cao và dịch vụ mượn máy đọc sách"
+              "en": "the library could provide e-reader lending services alongside printed books to meet modern reading habits",
+              "vi": "thư viện có thể cung cấp dịch vụ mượn máy đọc sách song song với sách in để đáp ứng thói quen đọc hiện đại"
+            },
+            {
+              "en": "we should modernize the library catalog online so members can easily search and reserve books from home",
+              "vi": "chúng ta nên số hóa danh mục thư viện trực tuyến để hội viên dễ dàng tra cứu và đặt sách từ nhà"
             }
           ]
         },
         {
-          "name": "2. Đề xuất 2: [đề xuất thứ hai] (Mệnh đề hoàn chỉnh)",
+          "name": "2. Đề xuất 2: [đề xuất thứ hai] - Cải tạo không gian học tập & Mở quán cà phê sách thu hút bạn trẻ",
           "items": [
             {
-              "en": "we should open a small coffee corner inside the library to attract more young students",
-              "vi": "chúng ta nên mở một góc cà phê nhỏ trong thư viện để thu hút thêm học sinh sinh viên"
+              "en": "we should open a small study cafe inside the library to attract more young students",
+              "vi": "chúng ta nên mở một quán cà phê tự học nhỏ trong thư viện để thu hút thêm học sinh sinh viên (Theo bài mẫu)"
             },
             {
-              "en": "it would be highly effective to establish a quiet community co-working cafe inside the library to attract students and freelancers",
-              "vi": "sẽ rất hiệu quả nếu mở một quán cà phê tự học yên tĩnh trong thư viện để thu hút sinh viên"
+              "en": "it would be better to create quiet co-working zones and group study rooms with comfortable seating",
+              "vi": "sẽ tốt hơn nếu tạo các khu vực làm việc chung yên tĩnh và phòng tự học nhóm với chỗ ngồi thoải mái"
             },
             {
-              "en": "the facility should create soundproof group study rooms and comfortable lounge areas for collaborative projects",
-              "vi": "thư viện nên xây dựng các phòng học nhóm cách âm và khu vực nghỉ ngơi thoải mái"
+              "en": "the library could partner with a local cafe to create a cozy reading lounge for visitors",
+              "vi": "thư viện có thể hợp tác với một quán cà phê địa phương để tạo không gian đọc sách ấm cúng cho độc giả"
+            },
+            {
+              "en": "we ought to renovate the reading rooms to make them brighter and more welcoming for people of all ages",
+              "vi": "chúng ta nên cải tạo các phòng đọc để không gian sáng sủa và thân thiện hơn với mọi lứa tuổi"
             }
           ]
         },
         {
-          "name": "3. Đề xuất 3: [đề xuất thứ ba] (Mệnh đề hoàn chỉnh)",
+          "name": "3. Đề xuất 3: [đề xuất thứ ba] - Tổ chức sự kiện cộng đồng & Gây quỹ để duy trì thư viện",
           "items": [
             {
-              "en": "the club should host weekend reading events and book discussions for children and families",
-              "vi": "CLB nên tổ chức các sự kiện đọc sách cuối tuần và thảo luận sách cho trẻ em và gia đình"
+              "en": "the club could organize weekly reading workshops and book fairs to attract more visitors",
+              "vi": "CLB có thể tổ chức các buổi hội thảo đọc sách hàng tuần và hội chợ sách để thu hút thêm khách tham quan (Theo bài mẫu)"
             },
             {
-              "en": "we could host regular weekend cultural programs, author talks, and children's reading clubs to increase community patronage",
-              "vi": "chúng ta có thể tổ chức định kỳ các sự kiện văn hóa, giao lưu tác giả và câu lạc bộ đọc sách thiếu nhi"
+              "en": "the club should host weekend storytelling sessions and book exchange events for families and children",
+              "vi": "CLB nên tổ chức các buổi kể chuyện cuối tuần và ngày hội đổi sách cho các gia đình và trẻ em"
             },
             {
-              "en": "the club could launch public fundraising book fairs to assist the library with operational and maintenance expenses",
-              "vi": "CLB có thể phát động hội chợ sách gây quỹ cộng đồng để hỗ trợ chi phí vận hành thư viện"
+              "en": "we could launch a community fundraising campaign and book donations to help cover operational expenses",
+              "vi": "chúng ta có thể phát động chiến dịch gây quỹ cộng đồng và quyên góp sách để hỗ trợ chi phí vận hành"
+            },
+            {
+              "en": "we should collect signatures from local residents to petition the town council to keep the library open",
+              "vi": "chúng ta nên thu thập chữ ký của người dân địa phương để kiến nghị hội đồng thành phố duy trì thư viện"
+            },
+            {
+              "en": "the club could organize monthly author talks and book clubs to keep the library vibrant and active",
+              "vi": "CLB có thể tổ chức giao lưu tác giả hàng tháng và câu lạc bộ sách để thư viện luôn sôi động"
             }
           ]
         }
@@ -3691,17 +3723,17 @@ export const part4Data = {
       "samples": [
         {
           "title": "Bài mẫu chuẩn Band B2+",
-          "wordCount": 144,
-          "en": "Dear Club Manager,\n\nMy name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the monthly book selection and discussion formats. I believe this is a great idea that will encourage reading habits.\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, we should select books through online voting, so members can read genres they genuinely enjoy.\nSecond, organizing small breakout discussion groups of five members will ensure everyone has the opportunity to speak.\nFinally, we could establish a mini community library where members can freely borrow and exchange popular paperbacks.\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
-          "vi": "Kính gửi Quản lý Câu lạc bộ,\n\nTên tôi là Kato, và tôi đã là một hội viên tích cực của câu lạc bộ chúng ta được hai năm. Trong thời gian này, tôi đã tham gia vào nhiều hoạt động ý nghĩa. Tôi viết thư này để chia sẻ góc nhìn và đưa ra một vài đề xuất mang tính xây dựng liên quan đến việc bình chọn sách tháng và hình thức thảo luận. Tôi tin chắc rằng đây là một ý tưởng rất hay giúp hình thành thói quen đọc sách.\n\nĐể giúp đạt được kết quả tốt nhất, tôi xin phép đưa ra ba đề xuất thực tế.\nThứ nhất, chúng ta nên lựa chọn sách thông qua bình chọn trực tuyến để các hội viên được đọc những thể loại thực sự yêu thích.\nThứ hai, việc tổ chức các nhóm thảo luận nhỏ gồm 5 người sẽ đảm bảo tất cả mọi người đều có cơ hội phát biểu.\nCuối cùng, chúng ta có thể xây dựng tủ sách cộng đồng nhỏ nơi các thành viên có thể tự do mượn và trao đổi sách giấy hay.\n\nCảm ơn bạn đã dành thời gian xem xét thư. Tôi rất mong sớm nhận được phản hồi từ bạn.\n\nTrân trọng,\nKato",
+          "wordCount": 149,
+          "en": "Dear Club Manager,\n\nMy name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the plan to close the local library next year. I believe closing the library is very regrettable because it plays a vital role in our community.\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, the library should add computers and free Wi-Fi so people can access both physical and digital books.\nSecond, we should open a small study cafe inside the library to attract more young students.\nFinally, the club could organize weekly reading workshops and book fairs to attract more visitors.\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
+          "vi": "Kính gửi Quản lý Câu lạc bộ,\n\nTên tôi là Kato, và tôi đã là một hội viên tích cực của câu lạc bộ chúng ta được hai năm. Trong thời gian này, tôi đã tham gia vào nhiều hoạt động ý nghĩa. Tôi viết thư này để chia sẻ góc nhìn và đưa ra một vài đề xuất mang tính xây dựng liên quan đến kế hoạch đóng cửa thư viện địa phương vào năm tới. Tôi tin rằng việc đóng cửa thư viện là rất đáng tiếc vì nơi đây đóng vai trò thiết yếu trong cộng đồng của chúng ta.\n\nĐể giúp đạt được kết quả tốt nhất, tôi xin phép đưa ra ba đề xuất thực tế.\nThứ nhất, thư viện nên bổ sung máy tính và Wi-Fi miễn phí để mọi người có thể tiếp cận cả sách giấy lẫn tài liệu điện tử.\nThứ hai, chúng ta nên mở một quán cà phê tự học nhỏ bên trong thư viện để thu hút thêm học sinh sinh viên.\nCuối cùng, câu lạc bộ có thể tổ chức các buổi hội thảo đọc sách hàng tuần và hội chợ sách để thu hút thêm nhiều người ghé thăm.\n\nCảm ơn bạn đã dành thời gian xem xét thư. Tôi rất mong sớm nhận được phản hồi từ bạn.\n\nTrân trọng,\nKato",
           "analysis": [
             {
               "label": "Mở đầu, Mục đích & Quan điểm",
-              "text": "My name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the monthly book selection and discussion formats. I believe this is a great idea that will encourage reading habits."
+              "text": "My name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the plan to close the local library next year. I believe closing the library is very regrettable because it plays a vital role in our community."
             },
             {
-              "label": "3 Đề xuất thực tế",
-              "text": "To help achieve the best outcome, I would like to make some practical proposals. First, we should select books through online voting, so members can read genres they genuinely enjoy. Second, organizing small breakout discussion groups of five members will ensure everyone has the opportunity to speak. Finally, we could establish a mini community library where members can freely borrow and exchange popular paperbacks."
+              "label": "3 Đề xuất thực tế để giữ thư viện",
+              "text": "To help achieve the best outcome, I would like to make some practical proposals. First, the library should add computers and free Wi-Fi so people can access both physical and digital books. Second, we should open a small study cafe inside the library to attract more young students. Finally, the club could organize weekly reading workshops and book fairs to attract more visitors."
             },
             {
               "label": "Cảm ơn & Ký tên",
