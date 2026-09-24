@@ -93,8 +93,17 @@ export const part4SlotHints = {
     positive: false
   },
   "English club 1": {
-    e1Topic: { en: "this weeks English talk show was abruptly canceled due to busy guest speakers", vi: "buổi tọa đàm của CLB Tiếng Anh tuần này bị hủy đột xuất do diễn giả bận" },
-    e2Topic: { en: "the plan to organize alternative activities for the canceled talk show", vi: "kế hoạch tổ chức các hoạt động thay thế cho buổi tọa đàm bị hủy" },
+    e1Topic: { en: "the guest speaker is busy so our talk show and weekly meeting have been canceled", vi: "diễn giả bận đột xuất nên buổi tọa đàm và sinh hoạt tuần này bị hủy" },
+    e2Topic: [
+      { en: "the cancellation of the Talk Show", vi: "việc hủy buổi Talk Show (Theo bài mẫu)" },
+      { en: "the sudden cancellation of this week's English talk show", vi: "việc bất ngờ hủy buổi tọa đàm tiếng Anh tuần này" },
+      { en: "the plan to cancel our meeting due to absent guest speakers", vi: "kế hoạch hủy buổi sinh hoạt do thiếu diễn giả khách mời" }
+    ],
+    perspectives: [
+      { isSafe: true, en: "the club should organize another activity instead of canceling the meeting", vi: "CLB nên tổ chức hoạt động khác thay vì hủy luôn buổi sinh hoạt (Theo bài mẫu)" },
+      { en: "canceling the entire meeting is quite regrettable for enthusiastic members", vi: "việc hủy toàn bộ buổi sinh hoạt là điều rất đáng tiếc cho các hội viên nhiệt tình" },
+      { en: "this is an important issue that requires careful contingency planning", vi: "đây là vấn đề quan trọng cần có kế hoạch dự phòng chu đáo" }
+    ],
     positive: false
   },
   "English club 2": {

@@ -2895,8 +2895,8 @@ export const part4Data = {
     "noticeVi": "Kính gửi các thành viên,\nChúng tôi rất tiếc phải thông báo rằng buổi Talk Show đã bị hủy do các khách mời đột xuất bận việc. Chúng tôi không có kế hoạch dự phòng nào, do đó tuần này sẽ không có buổi sinh hoạt nào diễn ra. Chúng tôi sẽ thông báo về việc mở lại buổi Talk Show sớm nhất có thể. Thành thật xin lỗi vì sự bất tiện này.",
     "promptAnalysis": {
       "topic": "Sự cố hủy buổi Talk Show tiếng Anh vào phút chót do khách mời bận việc đột xuất và câu lạc bộ không có kế hoạch dự phòng",
-      "task1": "Viết email ngắn cho bạn (~50 từ): Bày tỏ sự hụt hẫng khi buổi Talk Show bị hủy đột ngột, rủ bạn cùng đến quán cà phê để tự luyện nói tiếng Anh",
-      "task2": "Viết email cho Quản lý CLB (120-150 từ): Thông cảm với sự cố bất khả kháng nhưng thẳng thắn góp ý về việc thiếu phương án dự phòng và đề xuất 3 giải pháp thực tế (thành lập nhóm diễn giả dự bị, tổ chức buổi tranh biện/trò chơi tiếng Anh giữa các thành viên thay vì hủy bỏ hoàn toàn, xây dựng quy trình thông báo sớm)"
+      "task1": "Viết email ngắn cho bạn (~50 từ): Bày tỏ sự tiếc nuối khi buổi Talk Show bị hủy, đề xuất CLB nên tổ chức hoạt động luyện nói thay vì hủy, rủ bạn cùng ra quán cà phê luyện tiếng Anh",
+      "task2": "Viết email cho Quản lý CLB (120-150 từ): Nêu quan điểm CLB nên tổ chức hoạt động khác thay vì hủy buổi sinh hoạt, đề xuất 3 giải pháp thực tế (tổ chức buổi luyện nói, bổ sung chủ đề thảo luận & trò chơi tranh biện, thông báo sớm cho hội viên)"
     },
     "email1": {
       "title": "Email 1: Gửi bạn bè (Informal)",
@@ -2905,7 +2905,7 @@ export const part4Data = {
       "wordTarget": "Khoảng 50 từ (45 - 60 từ)",
       "minWords": 45,
       "maxWords": 65,
-      "template": "Dear [Tên bạn],\nHow's it going? I hope you're doing well.\nI thought you'd be interested to hear that our English Club's talk show has been canceled because the speakers are busy, and there's no meeting this week. I was quite disappointed when I found out about it. Personally, I think we should meet at our favorite coffee shop to practice English conversation together anyway. Moreover, let's invite two other club members!\nI would love to know what you think about this. Hope to hear from you soon.\nTake care,\n[Tên của bạn]",
+      "template": "Dear Kim,\nHow is it going? I thought you would like to know that our talk show has been canceled because the guests are busy. I was quite disappointed to hear about it.\nPersonally, I think the club should organize an English speaking session instead of canceling the meeting. Moreover, we should meet at a coffee shop this weekend to practice speaking English together. What do you think?\nHope to hear from you soon.\nTake care,\nKato",
       "vocabCategories": [
         {
           "name": "1. Bày tỏ Cảm xúc (Emotions)",
@@ -2915,8 +2915,8 @@ export const part4Data = {
               "vi": "khá thất vọng"
             },
             {
-              "en": "a bit surprised and sad",
-              "vi": "hơi bất ngờ và tiếc nuối"
+              "en": "a bit surprised and upset",
+              "vi": "hơi ngạc nhiên và buồn"
             }
           ]
         },
@@ -2924,16 +2924,16 @@ export const part4Data = {
           "name": "2. [ý kiến & lý do] (Mệnh đề hoàn chỉnh)",
           "items": [
             {
-              "en": "canceling the talk show is regrettable because we were looking forward to practicing English speaking",
-              "vi": "hủy buổi tọa đàm thật đáng tiếc vì chúng mình rất mong chờ được luyện nói tiếng Anh"
+              "en": "the club should organize an English speaking session instead of canceling the meeting",
+              "vi": "CLB nên tổ chức buổi luyện nói thay vì hủy luôn buổi sinh hoạt (Theo bài mẫu)"
             },
             {
-              "en": "canceling the entire session is unfortunate because we had spent hours preparing presentation topics",
-              "vi": "hủy toàn bộ buổi sinh hoạt là điều đáng tiếc vì chúng mình đã dành hàng giờ chuẩn bị chủ đề"
+              "en": "canceling the whole meeting is regrettable because regular English practice is essential",
+              "vi": "hủy cả buổi họp là điều đáng tiếc vì việc duy trì luyện tiếng Anh là rất cần thiết"
             },
             {
-              "en": "we should not waste our free weekend because consistent English speaking practice is vital for progress",
-              "vi": "chúng mình không nên lãng phí cuối tuần vì duy trì luyện nói tiếng Anh thường xuyên rất quan trọng"
+              "en": "we should not waste our free weekend because we can still practice speaking together",
+              "vi": "chúng mình không nên lãng phí cuối tuần vì vẫn có thể cùng nhau luyện nói"
             }
           ]
         },
@@ -2945,12 +2945,12 @@ export const part4Data = {
               "vi": "chúng mình nên hẹn nhau ra quán cà phê cuối tuần này để cùng luyện nói tiếng Anh"
             },
             {
-              "en": "we could meet up at a quiet coffee shop to practice IELTS speaking topics together",
-              "vi": "chúng mình có thể gặp nhau ở quán cà phê yên tĩnh để cùng luyện nói các chủ đề IELTS"
+              "en": "we could organize a small study group online to discuss interesting topics",
+              "vi": "chúng mình có thể lập nhóm học trực tuyến nhỏ để thảo luận chủ đề hay"
             },
             {
-              "en": "I can bring some interesting conversation flashcards, so we can debate in English for two hours",
-              "vi": "mình có thể mang vài bộ thẻ câu hỏi thú vị để chúng mình cùng tranh luận bằng tiếng Anh trong 2 tiếng"
+              "en": "let's invite two other friends to join our English practice session on Sunday",
+              "vi": "chúng mình hãy rủ thêm hai người bạn nữa cùng tham gia luyện tiếng Anh vào Chủ nhật nhé"
             }
           ]
         }
@@ -2958,17 +2958,17 @@ export const part4Data = {
       "samples": [
         {
           "title": "Bài mẫu chuẩn Band B2+",
-          "wordCount": 56,
-          "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our club plans native speaker debates. I was thrilled about it!\n\nPersonally, I think debate sessions are great because they sharpen speaking fluency. Moreover, we should form a team. What do you think? Hope to hear from you soon.\n\nTake care,\nKato",
-          "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin CLB dự định tổ chức tranh luận cùng người bản xứ. Mình rất hào hứng về tin này!\n\nCá nhân mình thấy các buổi tranh luận rất tuyệt vì giúp tăng phản xạ nói trôi chảy. Hơn nữa, chúng mình nên lập một đội. Bạn nghĩ sao? Mong sớm nhận được tin từ bạn.\n\nBảo trọng nhé,\nKato",
+          "wordCount": 77,
+          "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our talk show has been canceled because the guests are busy. I was quite disappointed to hear about it.\n\nPersonally, I think the club should organize an English speaking session instead of canceling the meeting. Moreover, we should meet at a coffee shop this weekend to practice speaking English together. What do you think?\nHope to hear from you soon.\n\nTake care,\nKato",
+          "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin buổi tọa đàm của chúng mình đã bị hủy do khách mời bận việc. Mình khá thất vọng khi nghe tin này.\n\nCá nhân mình thấy CLB nên tổ chức một buổi luyện nói tiếng Anh thay vì hủy luôn buổi sinh hoạt. Hơn nữa, chúng mình nên hẹn nhau ra quán cà phê cuối tuần này để cùng luyện nói tiếng Anh nhé. Bạn nghĩ sao?\nMong sớm nhận được tin từ bạn.\n\nBảo trọng nhé,\nKato",
           "analysis": [
             {
               "label": "Chào hỏi & Tin tức",
-              "text": "Dear Kim, How is it going? I thought you would like to know that our club plans native speaker debates. I was thrilled about it!"
+              "text": "Dear Kim, How is it going? I thought you would like to know that our talk show has been canceled because the guests are busy. I was quite disappointed to hear about it."
             },
             {
               "label": "Quan điểm, Lý do & Đề xuất",
-              "text": "Personally, I think debate sessions are great because they sharpen speaking fluency. Moreover, we should form a team. What do you think? Hope to hear from you soon."
+              "text": "Personally, I think the club should organize an English speaking session instead of canceling the meeting. Moreover, we should meet at a coffee shop this weekend to practice speaking English together. What do you think? Hope to hear from you soon."
             },
             {
               "label": "Ký tên",
@@ -2985,56 +2985,56 @@ export const part4Data = {
       "wordTarget": "120 - 150 từ (chuẩn 120 - 165 từ)",
       "minWords": 120,
       "maxWords": 165,
-      "template": "Dear Club Manager,\nMy name is [tên người gửi], and I have been a member of the club for [thời gian: two years]. During this time, I have had the opportunity to participate in a wide range of meaningful activities, which have greatly enriched my experience and personal development.\nI am writing in response to your email regarding the sudden cancellation of this week's Talk Show. While I understand that unexpected scheduling conflicts arise, I believe that canceling the entire meeting is regrettable.\nTo prevent similar disruptions in the future and maintain active club participation, I would like to make a few suggestions. First, our management team should always maintain a roster of backup speakers from our senior alumni or university lecturers. Second, it would be better to organize peer-led English debates or vocabulary games whenever a guest speaker cancels, ensuring members still benefit from practice. Finally, the club should establish a prompt SMS or instant-messaging notification channel to alert members well in advance. Overall, I am confident that these suggestions would make a positive difference and help the club achieve its objectives.\nThank you for taking the time to consider my suggestions. I sincerely hope they will be taken into consideration, and I look forward to your response.\nBest regards,\n[Tên của bạn]",
+      "template": "Dear Club Manager,\nMy name is Kato, and I have been an active member of our club for [thời gian tham gia: two years]. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding [thông tin trong đề bài]. I believe [nêu quan điểm về vấn đề đó].\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, [đề xuất thứ nhất].\nSecond, [đề xuất thứ hai].\nFinally, [đề xuất thứ ba].\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
       "vocabCategories": [
         {
-          "name": "1. Đề xuất 1: [đề xuất thứ nhất] (Mệnh đề hoàn chỉnh)",
+          "name": "1. Đề xuất 1: [đề xuất thứ nhất] - Tổ chức hoạt động thay thế (Luyện nói)",
           "items": [
             {
-              "en": "the club should prepare backup speakers in advance to avoid unexpected cancellations",
-              "vi": "CLB nên chuẩn bị sẵn diễn giả dự phòng để tránh việc hủy đột xuất"
+              "en": "the club could hold an English speaking session for members",
+              "vi": "CLB có thể tổ chức một buổi luyện nói tiếng Anh cho các hội viên (Theo bài mẫu)"
             },
             {
-              "en": "the organizing committee should maintain a standby roster of competent club seniors and local English lecturers",
-              "vi": "ban tổ chức nên lập danh sách dự phòng gồm các hội viên kỳ cựu và giảng viên tiếng Anh địa phương"
+              "en": "we should organize a peer-led English conversation circle instead of canceling the meeting",
+              "vi": "chúng ta nên tổ chức vòng tròn giao tiếp tiếng Anh do hội viên tự điều phối thay vì hủy buổi sinh hoạt"
             },
             {
-              "en": "we should ensure every major event has a qualified backup speaker prepared at least three days in advance",
-              "vi": "chúng ta nên đảm bảo mỗi sự kiện lớn đều có diễn giả dự bị được chuẩn bị trước 3 ngày"
+              "en": "the committee could invite senior members to share their English learning experiences",
+              "vi": "ban tổ chức có thể mời các hội viên kỳ cựu chia sẻ kinh nghiệm học tiếng Anh"
             }
           ]
         },
         {
-          "name": "2. Đề xuất 2: [đề xuất thứ hai] (Mệnh đề hoàn chỉnh)",
+          "name": "2. Đề xuất 2: [đề xuất thứ hai] - Trò chơi & Tranh biện thú vị",
           "items": [
             {
-              "en": "we should organize English debate games among members instead of canceling the event",
-              "vi": "chúng ta nên tổ chức các trò chơi tranh biện tiếng Anh giữa các hội viên thay vì hủy sự kiện"
+              "en": "we should include some interesting topics and debate games to make it more enjoyable",
+              "vi": "chúng ta nên đưa vào các chủ đề thú vị và trò chơi tranh biện để buổi sinh hoạt vui hơn (Theo bài mẫu)"
             },
             {
-              "en": "it would be highly effective to replace canceled formal talks with structured debates or interactive English board games",
-              "vi": "sẽ rất hiệu quả nếu thay các buổi tọa đàm bị hủy bằng các phiên tranh luận hoặc trò chơi tiếng Anh"
+              "en": "the club could organize interactive English vocabulary games and mini debate contests",
+              "vi": "CLB có thể tổ chức các trò chơi từ vựng tiếng Anh tương tác và cuộc thi tranh biện nhỏ"
             },
             {
-              "en": "the club should never cancel a weekend session outright, but instead empower members to lead peer discussion circles",
-              "vi": "CLB không nên hủy hẳn buổi học mà hãy để hội viên tự điều phối các nhóm thảo luận tự do"
+              "en": "it would be highly beneficial to arrange group discussions on popular cultural and technology topics",
+              "vi": "sẽ rất bổ ích nếu sắp xếp các buổi thảo luận nhóm về chủ đề văn hóa và công nghệ"
             }
           ]
         },
         {
-          "name": "3. Đề xuất 3: [đề xuất thứ ba] (Mệnh đề hoàn chỉnh)",
+          "name": "3. Đề xuất 3: [đề xuất thứ ba] - Thông báo sớm & Kế hoạch dự phòng",
           "items": [
             {
-              "en": "the club should send advance notifications via email or text messages whenever changes happen",
-              "vi": "CLB nên gửi thông báo sớm qua email hoặc tin nhắn mỗi khi có thay đổi lịch"
+              "en": "the club should inform everyone about the new plan as soon as possible",
+              "vi": "CLB nên thông báo cho mọi người về kế hoạch mới càng sớm càng tốt (Theo bài mẫu)"
             },
             {
-              "en": "we could establish an instant SMS or Telegram notification channel to alert members promptly when schedules change",
-              "vi": "chúng ta có thể lập kênh thông báo khẩn qua SMS hoặc Telegram để báo sớm cho hội viên khi có thay đổi"
+              "en": "we ought to send instant text messages or emails to alert members about the alternative schedule",
+              "vi": "chúng ta nên gửi tin nhắn hoặc email khẩn để thông báo cho hội viên về lịch trình thay thế"
             },
             {
-              "en": "the club could offer affected members complimentary workshop materials or priority seating for the next talk show",
-              "vi": "CLB có thể tặng tài liệu bổ trợ hoặc ưu tiên đặt chỗ hàng đầu trong buổi tọa đàm kế tiếp"
+              "en": "the management should prepare a standby list of backup speakers to avoid cancellations in the future",
+              "vi": "ban quản lý nên chuẩn bị sẵn danh sách diễn giả dự bị để tránh việc hủy trong tương lai"
             }
           ]
         }
@@ -3042,17 +3042,17 @@ export const part4Data = {
       "samples": [
         {
           "title": "Bài mẫu chuẩn Band B2+",
-          "wordCount": 142,
-          "en": "Dear Club President,\n\nMy name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the weekly English debate workshops and discussion topics. I believe this is a great idea that will boost communicative confidence.\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, we should invite certified native English teachers to moderate debates and offer individualized pronunciation feedback.\nSecond, selecting contemporary global topics such as technology and environmental conservation will stimulate lively discussions.\nFinally, we could introduce mini-presentation sessions allowing novice learners to practice public speaking in small groups.\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
-          "vi": "Kính gửi Chủ tịch Câu lạc bộ,\n\nTên tôi là Kato, và tôi đã là một hội viên tích cực của câu lạc bộ chúng ta được hai năm. Trong thời gian này, tôi đã tham gia vào nhiều hoạt động ý nghĩa. Tôi viết thư này để chia sẻ góc nhìn và đưa ra một vài đề xuất mang tính xây dựng liên quan đến các buổi hội thảo tranh luận tiếng Anh hàng tuần và chủ đề thảo luận. Tôi tin chắc rằng đây là một ý tưởng rất hay giúp nâng cao sự tự tin khi giao tiếp.\n\nĐể giúp đạt được kết quả tốt nhất, tôi xin phép đưa ra ba đề xuất thực tế.\nThứ nhất, chúng ta nên mời giáo viên bản xứ có chứng chỉ chuyên môn điều phối tranh luận và sửa phát âm cho từng cá nhân.\nThứ hai, việc lựa chọn các chủ đề toàn cầu đương đại như công nghệ và bảo vệ môi trường sẽ khơi dậy các cuộc thảo luận sôi nổi.\nCuối cùng, chúng ta có thể bổ sung các phần thuyết trình ngắn giúp các học viên mới làm quen tự tin nói trước đám đông theo nhóm nhỏ.\n\nCảm ơn bạn đã dành thời gian xem xét thư. Tôi rất mong sớm nhận được phản hồi từ bạn.\n\nTrân trọng,\nKato",
+          "wordCount": 136,
+          "en": "Dear Club Manager,\n\nMy name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the cancellation of the Talk Show. I believe the club should organize another activity instead of canceling the meeting.\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, the club could hold an English speaking session for members.\nSecond, we should include some interesting topics and debate games to make it more enjoyable.\nFinally, the club should inform everyone about the new plan as soon as possible.\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
+          "vi": "Kính gửi Quản lý Câu lạc bộ,\n\nTên tôi là Kato, và tôi đã là một hội viên tích cực của câu lạc bộ chúng ta được hai năm. Trong thời gian này, tôi đã tham gia vào nhiều hoạt động ý nghĩa. Tôi viết thư này để chia sẻ góc nhìn và đưa ra một vài đề xuất mang tính xây dựng liên quan đến việc hủy buổi Tọa đàm (Talk Show). Tôi tin rằng câu lạc bộ nên tổ chức một hoạt động khác thay vì hủy luôn buổi sinh hoạt.\n\nĐể giúp đạt được kết quả tốt nhất, tôi xin phép đưa ra ba đề xuất thực tế.\nThứ nhất, câu lạc bộ có thể tổ chức một buổi luyện nói tiếng Anh cho các hội viên.\nThứ hai, chúng ta nên đưa vào một số chủ đề thú vị và các trò chơi tranh biện để buổi sinh hoạt hấp dẫn hơn.\nCuối cùng, câu lạc bộ nên thông báo cho mọi người về kế hoạch mới càng sớm càng tốt.\n\nCảm ơn bạn đã dành thời gian xem xét thư. Tôi rất mong sớm nhận được phản hồi từ bạn.\n\nTrân trọng,\nKato",
           "analysis": [
             {
               "label": "Mở đầu, Mục đích & Quan điểm",
-              "text": "My name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the weekly English debate workshops and discussion topics. I believe this is a great idea that will boost communicative confidence."
+              "text": "My name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the cancellation of the Talk Show. I believe the club should organize another activity instead of canceling the meeting."
             },
             {
               "label": "3 Đề xuất thực tế",
-              "text": "To help achieve the best outcome, I would like to make some practical proposals. First, we should invite certified native English teachers to moderate debates and offer individualized pronunciation feedback. Second, selecting contemporary global topics such as technology and environmental conservation will stimulate lively discussions. Finally, we could introduce mini-presentation sessions allowing novice learners to practice public speaking in small groups."
+              "text": "To help achieve the best outcome, I would like to make some practical proposals. First, the club could hold an English speaking session for members. Second, we should include some interesting topics and debate games to make it more enjoyable. Finally, the club should inform everyone about the new plan as soon as possible."
             },
             {
               "label": "Cảm ơn & Ký tên",
