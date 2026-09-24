@@ -35,8 +35,16 @@ export const part4SlotHints = {
     positive: false
   },
   "Living home club": {
-    e1Topic: { en: "our Living Home Club is discussing advice for young adults who want to buy a house early", vi: "CLB Nhà ở đang thảo luận lời khuyên cho người trẻ muốn mua nhà sớm" },
-    e2Topic: { en: "the plan to provide housing guidance and financial advice for young homebuyers", vi: "kế hoạch cung cấp định hướng nhà ở và lời khuyên tài chính cho người mua nhà trẻ tuổi" },
+    e1Topic: { en: "our Living Home Club is discussing advice for young adults who want to buy a house early", vi: "CLB Living Home đang thảo luận lời khuyên cho người trẻ muốn mua nhà sớm (Theo bài mẫu)" },
+    e2Topic: [
+      { en: "the advice for young people wishing to buy a home early", vi: "lời khuyên cho các bạn trẻ có nguyện vọng mua nhà sớm (Theo bài mẫu)" },
+      { en: "the plan to provide housing guidance and financial advice for young homebuyers", vi: "kế hoạch cung cấp định hướng nhà ở và lời khuyên tài chính cho người mua nhà trẻ tuổi" }
+    ],
+    perspectives: [
+      { isSafe: true, en: "providing practical guidance is essential because it helps them make smart financial decisions", vi: "việc đưa ra hướng dẫn thực tế là rất thiết yếu vì giúp các bạn đưa ra quyết định tài chính thông minh (Theo bài mẫu)" },
+      { en: "young adults should plan carefully because buying a house too early can cause heavy financial pressure", vi: "người trẻ nên lên kế hoạch cẩn thận vì mua nhà quá sớm có thể gây áp lực tài chính nặng nề" },
+      { en: "this discussion is extremely beneficial because homeownership is a major milestone in life", vi: "buổi thảo luận này cực kỳ bổ ích vì sở hữu nhà là một cột mốc quan trọng trong cuộc đời" }
+    ],
     positive: true
   },
   "Garden club": {
