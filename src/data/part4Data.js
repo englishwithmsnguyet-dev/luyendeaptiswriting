@@ -1547,19 +1547,23 @@ export const part4Data = {
       "template": "Dear Club Manager,\nMy name is Kato, and I have been an active member of our club for [thời gian tham gia: two years]. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding [thông tin trong đề bài]. I believe [nêu quan điểm về vấn đề đó].\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, [đề xuất thứ nhất].\nSecond, [đề xuất thứ hai].\nFinally, [đề xuất thứ ba].\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
       "vocabCategories": [
         {
-          "name": "1. Đề xuất 1: [đề xuất thứ nhất] - Lập kế hoạch tài chính rõ ràng (Clear financial plan)",
+          "name": "1. Đề xuất 1: [đề xuất thứ nhất] - Lập kế hoạch tài chính & CLB tổ chức Workshop",
           "items": [
             {
-              "en": "they should make a clear financial plan before buying a home",
-              "vi": "họ nên lập kế hoạch tài chính rõ ràng trước khi mua nhà (Theo bài mẫu)"
+              "en": "the club should organize a workshop to help young members make a clear financial plan before buying a home",
+              "vi": "CLB nên tổ chức một buổi workshop để giúp các hội viên trẻ lập kế hoạch tài chính rõ ràng trước khi mua nhà (Theo bài mẫu)"
             },
             {
-              "en": "the club should advise youngsters to build a solid savings fund and manage bank loans carefully",
-              "vi": "CLB nên khuyên các bạn trẻ xây dựng quỹ tiết kiệm vững chắc và quản lý các khoản vay ngân hàng cẩn thận"
+              "en": "they should make a clear financial plan before buying a home",
+              "vi": "họ nên lập kế hoạch tài chính rõ ràng trước khi mua nhà (Bản ngắn gọn)"
+            },
+            {
+              "en": "the club should organize a workshop on personal finance and bank loan management",
+              "vi": "CLB nên tổ chức workshop về tài chính cá nhân và quản lý vay vốn ngân hàng"
             },
             {
               "en": "the club should host financial literacy seminars on calculating interest rates and mortgage debt obligations",
-              "vi": "CLB nên tổ chức các buổi hội thảo về tài chính để hướng dẫn tính lãi suất và nghĩa vụ nợ vay mua nhà"
+              "vi": "CLB nên tổ chức các buổi tọa đàm tài chính để hướng dẫn tính lãi suất và nghĩa vụ nợ vay mua nhà"
             },
             {
               "en": "young people should create a clear monthly budget and save at least twenty percent of their income before buying",
@@ -1596,6 +1600,10 @@ export const part4Data = {
               "vi": "họ có thể bắt đầu với một căn hộ nhỏ thay vì mua một ngôi nhà đắt đỏ (Theo bài mẫu)"
             },
             {
+              "en": "the club should organize a workshop where experienced homeowners share practical lessons with young buyers",
+              "vi": "CLB nên tổ chức một buổi workshop nơi những người đã mua nhà chia sẻ bài học thực tế cho người trẻ"
+            },
+            {
               "en": "we should encourage them to choose a small, affordable apartment rather than an expensive house",
               "vi": "chúng ta nên khuyến khích các bạn trẻ chọn một căn hộ nhỏ, vừa túi tiền hơn là một ngôi nhà đắt đỏ"
             },
@@ -1613,9 +1621,9 @@ export const part4Data = {
       "samples": [
         {
           "title": "Bài mẫu chuẩn Band B2+",
-          "wordCount": 136,
-          "en": "Dear Club Manager,\n\nMy name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the advice for young people wishing to buy a home early. I believe they should prepare carefully before making this important decision.\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, they should make a clear financial plan before buying a home.\nSecond, they should have a stable job and enough savings for their daily expenses.\nFinally, they could start with a small apartment instead of buying an expensive home.\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
-          "vi": "Kính gửi Quản lý Câu lạc bộ,\n\nTên tôi là Kato, và tôi đã là một hội viên tích cực của câu lạc bộ chúng ta được hai năm. Trong thời gian này, tôi đã tham gia vào nhiều hoạt động ý nghĩa. Tôi viết thư này để chia sẻ góc nhìn và đưa ra một vài đề xuất mang tính xây dựng liên quan đến lời khuyên cho các bạn trẻ có nguyện vọng mua nhà sớm. Tôi tin rằng các bạn nên chuẩn bị cẩn thận trước khi đưa ra quyết định quan trọng này.\n\nĐể giúp đạt được kết quả tốt nhất, tôi xin phép đưa ra ba đề xuất thực tế.\nThứ nhất, các bạn nên lập một kế hoạch tài chính rõ ràng trước khi mua nhà.\nThứ hai, các bạn nên có một công việc ổn định và đủ tiền tiết kiệm cho các khoản chi tiêu hàng ngày.\nCuối cùng, các bạn có thể bắt đầu với một căn hộ nhỏ thay vì mua một ngôi nhà đắt đỏ.\n\nCảm ơn bạn đã dành thời gian xem xét thư. Tôi rất mong sớm nhận được phản hồi từ bạn.\n\nTrân trọng,\nKato",
+          "wordCount": 144,
+          "en": "Dear Club Manager,\n\nMy name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the advice for young people wishing to buy a home early. I believe they should prepare carefully before making this important decision.\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, the club should organize a workshop to help young members make a clear financial plan before buying a home.\nSecond, they should have a stable job and enough savings for their daily expenses.\nFinally, they could start with a small apartment instead of buying an expensive home.\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
+          "vi": "Kính gửi Quản lý Câu lạc bộ,\n\nTên tôi là Kato, và tôi đã là một hội viên tích cực của câu lạc bộ chúng ta được hai năm. Trong thời gian này, tôi đã tham gia vào nhiều hoạt động ý nghĩa. Tôi viết thư này để chia sẻ góc nhìn và đưa ra một vài đề xuất mang tính xây dựng liên quan đến lời khuyên cho các bạn trẻ có nguyện vọng mua nhà sớm. Tôi tin rằng các bạn nên chuẩn bị cẩn thận trước khi đưa ra quyết định quan trọng này.\n\nĐể giúp đạt được kết quả tốt nhất, tôi xin phép đưa ra ba đề xuất thực tế.\nThứ nhất, câu lạc bộ nên tổ chức một buổi workshop để giúp các hội viên trẻ lập kế hoạch tài chính rõ ràng trước khi mua nhà.\nThứ hai, các bạn nên có một công việc ổn định và đủ tiền tiết kiệm cho các khoản chi tiêu hàng ngày.\nCuối cùng, các bạn có thể bắt đầu với một căn hộ nhỏ thay vì mua một ngôi nhà đắt đỏ.\n\nCảm ơn bạn đã dành thời gian xem xét thư. Tôi rất mong sớm nhận được phản hồi từ bạn.\n\nTrân trọng,\nKato",
           "analysis": [
             {
               "label": "Mở đầu, Mục đích & Quan điểm",
@@ -1623,7 +1631,7 @@ export const part4Data = {
             },
             {
               "label": "3 Đề xuất thực tế",
-              "text": "To help achieve the best outcome, I would like to make some practical proposals. First, they should make a clear financial plan before buying a home. Second, they should have a stable job and enough savings for their daily expenses. Finally, they could start with a small apartment instead of buying an expensive home."
+              "text": "To help achieve the best outcome, I would like to make some practical proposals. First, the club should organize a workshop to help young members make a clear financial plan before buying a home. Second, they should have a stable job and enough savings for their daily expenses. Finally, they could start with a small apartment instead of buying an expensive home."
             },
             {
               "label": "Cảm ơn & Ký tên",
