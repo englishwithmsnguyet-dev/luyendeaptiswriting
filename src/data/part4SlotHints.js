@@ -120,8 +120,16 @@ export const part4SlotHints = {
     positive: true
   },
   "Book club 1": {
-    e1Topic: { en: "our Book Club plans to host a meet-and-greet with a celebrated author for all ages", vi: "CLB Sách dự kiến tổ chức buổi giao lưu tác giả nổi tiếng cho mọi lứa tuổi" },
-    e2Topic: { en: "the plan to invite a famous book author to speak at our club", vi: "kế hoạch mời một tác giả sách nổi tiếng đến chia sẻ tại CLB" },
+    e1Topic: { en: "our club is going to organize an event and invite a famous book author", vi: "CLB của chúng ta sắp tổ chức sự kiện và mời một tác giả sách nổi tiếng (Theo bài mẫu)" },
+    e2Topic: [
+      { en: "the plan to organize an event and invite a famous book author", vi: "kế hoạch tổ chức sự kiện và mời một tác giả sách nổi tiếng (Theo bài mẫu)" },
+      { en: "the plan to host an author event to attract both young and elderly members", vi: "kế hoạch tổ chức buổi giao lưu tác giả để thu hút cả hội viên trẻ và cao tuổi" }
+    ],
+    perspectives: [
+      { isSafe: true, en: "this is a great idea because it can encourage people of different ages to enjoy reading", vi: "đây là một ý tưởng rất hay vì có thể khuyến khích mọi người ở các lứa tuổi khác nhau cùng yêu thích đọc sách (Theo bài mẫu)" },
+      { en: "this is a wonderful initiative that will connect different generations through the love of reading", vi: "đây là một kế hoạch tuyệt vời giúp kết nối các thế hệ thông qua tình yêu đọc sách" },
+      { en: "this event will significantly promote community reading culture and attract new members", vi: "sự kiện này sẽ thúc đẩy mạnh mẽ văn hóa đọc trong cộng đồng và thu hút thêm hội viên mới" }
+    ],
     positive: true
   },
   "Book club 2": {

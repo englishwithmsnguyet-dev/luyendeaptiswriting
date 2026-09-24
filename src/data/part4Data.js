@@ -3328,9 +3328,9 @@ export const part4Data = {
     "notice": "Dear members,\nOur club is going to organize an event and invite a famous book author. What topic should he share about and who should we invite. Our club especially wants to attract both young and elderly members.",
     "noticeVi": "Kính gửi các thành viên,\nCâu lạc bộ của chúng ta sắp tổ chức một sự kiện và mời một tác giả sách nổi tiếng. Tác giả nên chia sẻ về chủ đề gì và chúng ta nên mời ai? Câu lạc bộ đặc biệt muốn thu hút cả thành viên trẻ tuổi lẫn người cao tuổi.",
     "promptAnalysis": {
-      "topic": "Mời một tác giả sách nổi tiếng và lựa chọn chủ đề buổi giao lưu để kết nối, thu hút cả giới trẻ lẫn người lớn tuổi",
-      "task1": "Viết email ngắn cho bạn (~50 từ): Chia sẻ cảm xúc vui mừng khi CLB mời nhà văn nổi tiếng, gợi ý nhà văn chuyên viết về tình cảm gia đình và tuổi thơ, rủ bạn mang sách đi xin chữ ký",
-      "task2": "Viết email cho Quản lý CLB (120-150 từ): Nêu quan điểm ủng hộ và đề xuất 3 giải pháp thực tế (mời nhà văn được mọi thế hệ yêu mến, chủ đề 'Nuôi dưỡng thói quen đọc sách suốt đời và kết nối các thế hệ', tổ chức bàn ký tặng sách và trà đàm giao lưu)"
+      "topic": "Tổ chức sự kiện giao lưu tác giả sách nổi tiếng: Lựa chọn chủ đề chia sẻ và tác giả phù hợp để thu hút cả giới trẻ lẫn người lớn tuổi",
+      "task1": "Viết email ngắn cho bạn (~50 từ): Chia sẻ tin CLB sắp mời tác giả nổi tiếng, nêu ý kiến về chủ đề đọc sách cải thiện cuộc sống và đề xuất mời tác giả viết cho mọi lứa tuổi",
+      "task2": "Viết email cho Quản lý CLB (120-150 từ): Khẳng định đây là ý tưởng tuyệt vời giúp khuyến khích mọi lứa tuổi đọc sách, đề xuất 3 giải pháp thực tế (chủ đề cải thiện cuộc sống, mời tác giả viết cho thanh thiếu niên và người cao tuổi, quảng bá trên mạng xã hội và báo địa phương)"
     },
     "email1": {
       "title": "Email 1: Gửi bạn bè (Informal)",
@@ -3339,18 +3339,22 @@ export const part4Data = {
       "wordTarget": "Khoảng 50 từ (45 - 60 từ)",
       "minWords": 45,
       "maxWords": 65,
-      "template": "Dear [Tên bạn],\nHow's it going? I hope you're doing well.\nI thought you'd be interested to hear that our Book Club is inviting a famous author to host an event for both youth and seniors. I was quite excited when I found out about it. Personally, I think we should invite author Nguyen Nhat Anh to talk about childhood memories and family bonds because his heartwarming books touch all generations. Moreover, let's bring our copies to get them signed!\nI would love to know what you think about this. Hope to hear from you soon.\nTake care,\n[Tên của bạn]",
+      "template": "Dear Kim,\nHow is it going? I thought you would like to know that our club is going to organize an event and invite a famous book author. I was excited to hear about it.\nPersonally, I think the author should talk about how reading can improve our lives because this topic is useful for people of different ages. Moreover, we should invite a popular author who has written books for both young and elderly readers. What do you think?\nHope to hear from you soon.\nTake care,\nKato",
       "vocabCategories": [
         {
           "name": "1. Bày tỏ Cảm xúc (Emotions)",
           "items": [
             {
-              "en": "quite excited",
-              "vi": "khá hào hứng"
+              "en": "excited",
+              "vi": "hào hứng / phấn khởi (Theo bài mẫu)"
             },
             {
-              "en": "absolutely thrilled",
-              "vi": "cực kỳ phấn khích"
+              "en": "quite thrilled",
+              "vi": "rất vui mừng và hào hứng"
+            },
+            {
+              "en": "delighted",
+              "vi": "vô cùng hài lòng và vui vẻ"
             }
           ]
         },
@@ -3358,16 +3362,20 @@ export const part4Data = {
           "name": "2. [ý kiến & lý do] (Mệnh đề hoàn chỉnh)",
           "items": [
             {
-              "en": "inviting a famous author is wonderful because we can learn how to write better stories",
-              "vi": "mời một tác giả nổi tiếng thật tuyệt vì chúng mình có thể học cách viết truyện hay hơn"
+              "en": "the author should talk about how reading can improve our lives because this topic is useful for people of different ages",
+              "vi": "tác giả nên chia sẻ về việc đọc sách có thể cải thiện cuộc sống ra sao vì chủ đề này hữu ích cho mọi lứa tuổi (Theo bài mẫu)"
             },
             {
-              "en": "inviting writer Nguyen Nhat Anh is wonderful because his nostalgic childhood stories resonate across all generations",
-              "vi": "mời nhà văn Nguyễn Nhật Ánh rất tuyệt vời vì truyện tuổi thơ của ông chạm đến mọi thế hệ"
+              "en": "meeting a famous author will inspire us to read more books and improve our daily writing skills",
+              "vi": "gặp một tác giả nổi tiếng sẽ truyền cảm hứng cho chúng mình đọc nhiều sách hơn và cải thiện kỹ năng viết"
             },
             {
-              "en": "meeting an acclaimed author in person will ignite our love for creative reading and imaginative writing",
-              "vi": "gặp gỡ tác giả nổi tiếng ngoài đời sẽ thổi bùng niềm say mê đọc sách và sáng tác"
+              "en": "the event is wonderful because good literature helps connect young people and seniors together",
+              "vi": "sự kiện này rất tuyệt vì văn học hay giúp kết nối các bạn trẻ và người cao tuổi lại với nhau"
+            },
+            {
+              "en": "learning directly from a successful writer will give us valuable insights into creative storytelling",
+              "vi": "học hỏi trực tiếp từ một nhà văn thành công sẽ cho chúng mình những góc nhìn quý giá về nghệ thuật kể chuyện"
             }
           ]
         },
@@ -3375,16 +3383,20 @@ export const part4Data = {
           "name": "3. [phát triển thêm ý] (Mệnh đề hoàn chỉnh)",
           "items": [
             {
-              "en": "we should bring our books so the author can sign them for us",
-              "vi": "chúng mình nên mang theo sách để tác giả ký tặng"
+              "en": "we should invite a popular author who has written books for both young and elderly readers",
+              "vi": "chúng mình nên mời một tác giả nổi tiếng từng viết sách cho cả độc giả trẻ và người lớn tuổi (Theo bài mẫu)"
             },
             {
-              "en": "we should bring our beloved copies to get author autographs and take souvenir photos",
-              "vi": "chúng mình nên mang theo những cuốn sách yêu thích để xin chữ ký và chụp ảnh kỷ niệm"
+              "en": "we should bring our favorite books so that the author can sign them for us",
+              "vi": "chúng mình nên mang theo những cuốn sách yêu thích để tác giả ký tặng nhé"
             },
             {
-              "en": "we can reread our favorite chapters beforehand, so we can share our thoughts during the Q&A",
-              "vi": "chúng mình có thể đọc lại những chương truyện hay nhất trước để chia sẻ trong phần hỏi đáp"
+              "en": "we could prepare a few thoughtful questions to ask the author during the discussion",
+              "vi": "chúng mình có thể chuẩn bị sẵn vài câu hỏi hay để hỏi tác giả trong buổi thảo luận"
+            },
+            {
+              "en": "we should arrive thirty minutes early so that we can grab good front-row seats together",
+              "vi": "chúng mình nên đến sớm 30 phút để cùng giành được chỗ ngồi hàng ghế đầu thật đẹp nhé"
             }
           ]
         }
@@ -3392,17 +3404,17 @@ export const part4Data = {
       "samples": [
         {
           "title": "Bài mẫu chuẩn Band B2+",
-          "wordCount": 55,
-          "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our club plans an author exchange. I was thrilled about it!\n\nPersonally, I think meeting the author is wonderful for literary appreciation. Moreover, we should prepare questions beforehand. What do you think? Hope to hear from you soon.\n\nTake care,\nKato",
-          "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin CLB dự định tổ chức buổi giao lưu tác giả. Mình rất phấn khởi về tin này!\n\nCá nhân mình thấy gặp tác giả rất tuyệt để hiểu sâu thêm tác phẩm. Hơn nữa, chúng mình nên chuẩn bị câu hỏi từ trước. Bạn nghĩ sao? Mong sớm nhận được tin từ bạn.\n\nBảo trọng nhé,\nKato",
+          "wordCount": 89,
+          "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our club is going to organize an event and invite a famous book author. I was excited to hear about it.\n\nPersonally, I think the author should talk about how reading can improve our lives because this topic is useful for people of different ages. Moreover, we should invite a popular author who has written books for both young and elderly readers. What do you think?\nHope to hear from you soon.\n\nTake care,\nKato",
+          "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin CLB của chúng mình sắp tổ chức một sự kiện và mời một tác giả sách nổi tiếng. Mình rất hào hứng khi nghe tin này.\n\nCá nhân mình thấy tác giả nên chia sẻ về việc đọc sách có thể cải thiện cuộc sống của chúng mình ra sao vì chủ đề này hữu ích cho mọi lứa tuổi. Hơn nữa, chúng mình nên mời một tác giả nổi tiếng từng viết sách cho cả độc giả trẻ và người cao tuổi. Bạn nghĩ sao về ý tưởng này?\nMong sớm nhận được tin từ bạn.\n\nBảo trọng nhé,\nKato",
           "analysis": [
             {
               "label": "Chào hỏi & Tin tức",
-              "text": "Dear Kim, How is it going? I thought you would like to know that our club plans an author exchange. I was thrilled about it!"
+              "text": "Dear Kim, How is it going? I thought you would like to know that our club is going to organize an event and invite a famous book author. I was excited to hear about it."
             },
             {
               "label": "Quan điểm, Lý do & Đề xuất",
-              "text": "Personally, I think meeting the author is wonderful for literary appreciation. Moreover, we should prepare questions beforehand. What do you think? Hope to hear from you soon."
+              "text": "Personally, I think the author should talk about how reading can improve our lives because this topic is useful for people of different ages. Moreover, we should invite a popular author who has written books for both young and elderly readers. What do you think? Hope to hear from you soon."
             },
             {
               "label": "Ký tên",
@@ -3419,56 +3431,84 @@ export const part4Data = {
       "wordTarget": "120 - 150 từ (chuẩn 120 - 165 từ)",
       "minWords": 120,
       "maxWords": 165,
-      "template": "Dear Club Manager,\nMy name is [tên người gửi], and I have been a member of the club for [thời gian: two years]. During this time, I have had the opportunity to participate in a wide range of meaningful activities, which have greatly enriched my experience and personal development.\nI am writing in response to your email to share my recommendations regarding the author invitation event designed for both young and senior readers. I think this is a great idea.\nTo foster deep intergenerational engagement, I would like to make a few suggestions. First, we should invite an acclaimed author known for emotional life memoirs and coming-of-age literature, which naturally appeal to adolescents and grandparents alike. Second, it would be better to select the topic \"The Timeless Joy of Reading and Bridging Generational Divides\". Finally, we could organize an exclusive book-signing session alongside an informal tea circle where attendees share favorite excerpts. Overall, I am confident that these suggestions would make a positive difference and help the club achieve its objectives.\nThank you for taking the time to consider my suggestions. I sincerely hope they will be taken into consideration, and I look forward to your response.\nBest regards,\n[Tên của bạn]",
+      "template": "Dear Club Manager,\nMy name is Kato, and I have been an active member of our club for [thời gian tham gia: two years]. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding [thông tin trong đề bài]. I believe [nêu quan điểm về vấn đề đó].\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, [đề xuất thứ nhất].\nSecond, [đề xuất thứ hai].\nFinally, [đề xuất thứ ba].\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
       "vocabCategories": [
         {
-          "name": "1. Đề xuất 1: [đề xuất thứ nhất] (Mệnh đề hoàn chỉnh)",
+          "name": "1. Đề xuất 1: [đề xuất thứ nhất] - Chủ đề chia sẻ của tác giả (Topic to share)",
           "items": [
             {
-              "en": "the club should invite an author whose books appeal to both young readers and older people",
-              "vi": "CLB nên mời một tác giả có tác phẩm thu hút cả độc giả trẻ và người lớn tuổi"
+              "en": "the author should talk about how reading can improve our lives",
+              "vi": "tác giả nên chia sẻ về việc đọc sách có thể cải thiện cuộc sống của chúng ta ra sao (Theo bài mẫu)"
             },
             {
-              "en": "the club should invite a beloved novelist whose evocative works appeal to both adolescents and senior citizens",
-              "vi": "CLB nên mời một nhà văn có những tác phẩm giàu cảm xúc cuốn hút cả thiếu niên lẫn người cao tuổi"
+              "en": "the author should discuss how reading books enriches our knowledge and inspires positive daily habits",
+              "vi": "tác giả nên thảo luận cách việc đọc sách làm giàu tri thức và truyền cảm hứng cho các thói quen tích cực"
             },
             {
-              "en": "we should invite celebrated authors such as Nguyen Nhat Anh to share memorable childhood memories and writing inspiration",
-              "vi": "chúng ta nên mời các tác giả được yêu thích như Nguyễn Nhật Ánh để chia sẻ ký ức tuổi thơ"
+              "en": "the presentation should focus on how literature helps bridge generational gaps and connect family members",
+              "vi": "bài chia sẻ nên tập trung vào cách văn học giúp thu hẹp khoảng cách thế hệ và gắn kết các thành viên gia đình"
+            },
+            {
+              "en": "the speaker could share personal journeys and the creative inspiration behind memorable book characters",
+              "vi": "diễn giả có thể chia sẻ hành trình cá nhân và nguồn cảm hứng sáng tác đằng sau các nhân vật đáng nhớ"
+            },
+            {
+              "en": "the talk should highlight the timeless joy of reading and effective tips for nurturing lifelong reading habits",
+              "vi": "buổi nói chuyện nên nêu bật niềm vui bất tận của việc đọc sách và mẹo nuôi dưỡng thói quen đọc suốt đời"
             }
           ]
         },
         {
-          "name": "2. Đề xuất 2: [đề xuất thứ hai] (Mệnh đề hoàn chỉnh)",
+          "name": "2. Đề xuất 2: [đề xuất thứ hai] - Tác giả nên mời (Who to invite - Young & Elderly appeal)",
           "items": [
             {
-              "en": "the speaker should share practical tips on reading habits and writing inspiration",
-              "vi": "diễn giả nên chia sẻ những mẹo thực tế về thói quen đọc sách và cảm hứng viết lách"
+              "en": "we should invite a popular author who has written books for both young and elderly readers",
+              "vi": "chúng ta nên mời một tác giả nổi tiếng từng viết sách cho cả độc giả trẻ và người lớn tuổi (Theo bài mẫu)"
             },
             {
-              "en": "it would be wonderful to center the discussion on 'The Timeless Power of Literature in Bridging Generational Divides'",
-              "vi": "sẽ rất tuyệt nếu tọa đàm xoay quanh chủ đề 'Sức mạnh của văn học trong việc kết nối các thế hệ'"
+              "en": "we ought to invite a renowned storyteller known for heartwarming family memoirs and nostalgic stories",
+              "vi": "chúng ta nên mời một người kể chuyện tên tuổi nổi tiếng với những hồi ký gia đình ấm áp và câu chuyện hoài niệm"
             },
             {
-              "en": "the presentation should explore how timeless literary classics foster empathy, emotional resilience, and family bonding",
-              "vi": "bài nói chuyện nên khám phá cách các tác phẩm văn học nuôi dưỡng sự thấu cảm và tình cảm gia đình"
+              "en": "the club should invite an inspiring novelist whose books have touched multiple generations of readers",
+              "vi": "CLB nên mời một tiểu thuyết gia truyền cảm hứng có tác phẩm chạm đến nhiều thế hệ độc giả"
+            },
+            {
+              "en": "we could invite an acclaimed author who is skilled at delivering engaging, interactive talks for diverse audiences",
+              "vi": "chúng ta có thể mời một tác giả được yêu mến, có kỹ năng thuyết trình lôi cuốn và tương tác với nhiều đối tượng người nghe"
+            },
+            {
+              "en": "we should consider inviting an award-winning writer who actively advocates for community reading culture",
+              "vi": "chúng ta nên cân nhắc mời một nhà văn từng đạt giải thưởng, tích cực thúc đẩy văn hóa đọc cộng đồng"
             }
           ]
         },
         {
-          "name": "3. Đề xuất 3: [đề xuất thứ ba] (Mệnh đề hoàn chỉnh)",
+          "name": "3. Đề xuất 3: [đề xuất thứ ba] - Quảng bá sự kiện & Hoạt động thu hút (Attract members & ensure success)",
           "items": [
             {
-              "en": "the club should organize a book signing session and a small book swap corner",
-              "vi": "CLB nên tổ chức buổi ký tặng sách và một góc nhỏ để trao đổi sách"
+              "en": "the club could advertise the event on social media and local newspapers to attract more members",
+              "vi": "CLB có thể quảng bá sự kiện trên mạng xã hội và báo địa phương để thu hút thêm thành viên (Chuẩn 149 từ)"
             },
             {
-              "en": "we could organize an interactive book-signing session accompanied by an intimate tea and coffee reception",
-              "vi": "chúng ta có thể tổ chức buổi ký tặng sách kết hợp tiệc trà ấm cúng"
+              "en": "the club could advertise the event on social media and in local newspapers to get more people to join",
+              "vi": "CLB có thể quảng bá sự kiện trên mạng xã hội và trong các tờ báo địa phương để có thêm nhiều người tham gia (Theo bài mẫu)"
             },
             {
-              "en": "the club could arrange a communal book swap corner where young readers and seniors exchange cherished volumes",
-              "vi": "CLB có thể bố trí góc đổi sách nơi các bạn trẻ và người cao tuổi tặng nhau những cuốn sách hay"
+              "en": "we should distribute informative flyers at community centers, local libraries, and high schools",
+              "vi": "chúng ta nên phát tờ rơi thông tin tại các trung tâm cộng đồng, thư viện địa phương và trường học"
+            },
+            {
+              "en": "the club could organize an exclusive book-signing session and a small book-swapping corner for attendees",
+              "vi": "CLB có thể tổ chức buổi ký tặng sách độc quyền và một góc đổi sách nhỏ cho người tham dự"
+            },
+            {
+              "en": "we could arrange a cozy tea and coffee reception where readers can chat informally with the author",
+              "vi": "chúng ta có thể sắp xếp một tiệc trà và cà phê ấm cúng nơi độc giả có thể trò chuyện thân mật với tác giả"
+            },
+            {
+              "en": "the organizers could livestream the talk on our fanpage so people unable to attend can still watch",
+              "vi": "ban tổ chức có thể phát trực tiếp buổi nói chuyện trên fanpage để những người không thể đến vẫn theo dõi được"
             }
           ]
         }
@@ -3476,17 +3516,17 @@ export const part4Data = {
       "samples": [
         {
           "title": "Bài mẫu chuẩn Band B2+",
-          "wordCount": 145,
-          "en": "Dear Club President,\n\nMy name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the upcoming author exchange and book signing ceremony. I believe this is a great idea that will deepen our literary passion.\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, we should invite a renowned novelist whose recent bestseller explores historical fiction and human emotions.\nSecond, hosting an interactive Q&A session will allow readers to directly discuss creative writing techniques with the author.\nFinally, we could organize an autograph corner accompanied by complimentary tea and snacks for attendees.\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
-          "vi": "Kính gửi Chủ tịch Câu lạc bộ,\n\nTên tôi là Kato, và tôi đã là một hội viên tích cực của câu lạc bộ chúng ta được hai năm. Trong thời gian này, tôi đã tham gia vào nhiều hoạt động ý nghĩa. Tôi viết thư này để chia sẻ góc nhìn và đưa ra một vài đề xuất mang tính xây dựng liên quan đến buổi giao lưu tác giả và ký tặng sách sắp tới. Tôi tin chắc rằng đây là một ý tưởng rất hay giúp bồi đắp niềm đam mê văn học.\n\nĐể giúp đạt được kết quả tốt nhất, tôi xin phép đưa ra ba đề xuất thực tế.\nThứ nhất, chúng ta nên mời một tiểu thuyết gia tên tuổi có tác phẩm bán chạy gần đây khám phá về tiểu thuyết lịch sử và cảm xúc con người.\nThứ hai, việc tổ chức phần hỏi đáp tương tác sẽ giúp độc giả trực tiếp trao đổi kỹ thuật sáng tác cùng tác giả.\nCuối cùng, chúng ta có thể bố trí một góc ký tặng đi kèm trà và bánh ngọt miễn phí cho người tham dự.\n\nCảm ơn bạn đã dành thời gian xem xét thư. Tôi rất mong sớm nhận được phản hồi từ bạn.\n\nTrân trọng,\nKato",
+          "wordCount": 149,
+          "en": "Dear Club Manager,\n\nMy name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the plan to organize an event and invite a famous book author. I believe this is a great idea because it encourages people of different ages to enjoy reading.\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, the author should talk about how reading can improve our lives.\nSecond, we should invite a popular author who has written books for both young and elderly readers.\nFinally, the club could advertise the event on social media and local newspapers to attract more members.\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
+          "vi": "Kính gửi Quản lý Câu lạc bộ,\n\nTên tôi là Kato, và tôi đã là một hội viên tích cực của câu lạc bộ chúng ta được hai năm. Trong thời gian này, tôi đã tham gia vào nhiều hoạt động ý nghĩa. Tôi viết thư này để chia sẻ góc nhìn và đưa ra một vài đề xuất mang tính xây dựng liên quan đến kế hoạch tổ chức một sự kiện và mời một tác giả sách nổi tiếng. Tôi tin rằng đây là một ý tưởng rất hay vì nó khuyến khích mọi người ở các lứa tuổi khác nhau cùng yêu thích đọc sách.\n\nĐể giúp đạt được kết quả tốt nhất, tôi xin phép đưa ra ba đề xuất thực tế.\nThứ nhất, tác giả nên chia sẻ về việc đọc sách có thể cải thiện cuộc sống của chúng ta ra sao.\nThứ hai, chúng ta nên mời một tác giả nổi tiếng từng viết sách cho cả độc giả trẻ và người lớn tuổi.\nCuối cùng, câu lạc bộ có thể quảng bá sự kiện trên mạng xã hội và báo địa phương để thu hút thêm nhiều thành viên.\n\nCảm ơn bạn đã dành thời gian xem xét thư. Tôi rất mong sớm nhận được phản hồi từ bạn.\n\nTrân trọng,\nKato",
           "analysis": [
             {
               "label": "Mở đầu, Mục đích & Quan điểm",
-              "text": "My name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the upcoming author exchange and book signing ceremony. I believe this is a great idea that will deepen our literary passion."
+              "text": "My name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the plan to organize an event and invite a famous book author. I believe this is a great idea because it encourages people of different ages to enjoy reading."
             },
             {
               "label": "3 Đề xuất thực tế",
-              "text": "To help achieve the best outcome, I would like to make some practical proposals. First, we should invite a renowned novelist whose recent bestseller explores historical fiction and human emotions. Second, hosting an interactive Q&A session will allow readers to directly discuss creative writing techniques with the author. Finally, we could organize an autograph corner accompanied by complimentary tea and snacks for attendees."
+              "text": "To help achieve the best outcome, I would like to make some practical proposals. First, the author should talk about how reading can improve our lives. Second, we should invite a popular author who has written books for both young and elderly readers. Finally, the club could advertise the event on social media and local newspapers to attract more members."
             },
             {
               "label": "Cảm ơn & Ký tên",
