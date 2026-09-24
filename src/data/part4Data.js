@@ -3001,6 +3001,14 @@ export const part4Data = {
             {
               "en": "the committee could invite senior members to share their English learning experiences",
               "vi": "ban tổ chức có thể mời các hội viên kỳ cựu chia sẻ kinh nghiệm học tiếng Anh"
+            },
+            {
+              "en": "the club could host an English movie discussion night where members analyze short film clips",
+              "vi": "CLB có thể tổ chức buổi xem và thảo luận phim tiếng Anh nơi hội viên cùng phân tích các trích đoạn ngắn"
+            },
+            {
+              "en": "we could arrange casual speaking corners where members freely converse in small groups",
+              "vi": "chúng ta có thể sắp xếp các góc luyện nói thân mật để các hội viên tự do trò chuyện theo nhóm nhỏ"
             }
           ]
         },
@@ -3018,6 +3026,14 @@ export const part4Data = {
             {
               "en": "it would be highly beneficial to arrange group discussions on popular cultural and technology topics",
               "vi": "sẽ rất bổ ích nếu sắp xếp các buổi thảo luận nhóm về chủ đề văn hóa và công nghệ"
+            },
+            {
+              "en": "we could organize team-based role-play games simulating real-world conversational scenarios",
+              "vi": "chúng ta có thể tổ chức trò chơi nhập vai theo đội mô phỏng các tình huống giao tiếp thực tế"
+            },
+            {
+              "en": "the organizers could introduce interactive language board games to encourage natural participation",
+              "vi": "ban tổ chức có thể giới thiệu các trò chơi board game ngôn ngữ tương tác để khuyến khích sự tham gia tự nhiên"
             }
           ]
         },
@@ -3035,6 +3051,14 @@ export const part4Data = {
             {
               "en": "the management should prepare a standby list of backup speakers to avoid cancellations in the future",
               "vi": "ban quản lý nên chuẩn bị sẵn danh sách diễn giả dự bị để tránh việc hủy trong tương lai"
+            },
+            {
+              "en": "we should immediately post an update on the club official Facebook group and website",
+              "vi": "chúng ta nên đăng cập nhật ngay lập tức trên nhóm Facebook và trang web chính thức của CLB"
+            },
+            {
+              "en": "the organizers could provide attendees with complimentary study handouts to show good hospitality",
+              "vi": "ban tổ chức có thể tặng tài liệu học miễn phí cho người tham dự để thể hiện sự chu đáo"
             }
           ]
         }
@@ -3109,6 +3133,14 @@ export const part4Data = {
             {
               "en": "the talk show is meaningful because it inspires learners to improve their daily communication skills",
               "vi": "buổi tọa đàm rất ý nghĩa vì truyền cảm hứng cho người học cải thiện kỹ năng giao tiếp hàng ngày"
+            },
+            {
+              "en": "the talk show will provide practical advice to help us overcome our fear of speaking English",
+              "vi": "buổi talk show sẽ mang lại lời khuyên thực tế giúp chúng mình vượt qua nỗi sợ nói tiếng Anh"
+            },
+            {
+              "en": "mastering English opens up fantastic opportunities to study abroad and connect globally",
+              "vi": "làm chủ tiếng Anh mở ra nhiều cơ hội tuyệt vời để du học và kết nối với bạn bè toàn cầu"
             }
           ]
         },
@@ -3126,6 +3158,14 @@ export const part4Data = {
             {
               "en": "we could prepare some questions about learning methods to ask the guest speaker",
               "vi": "chúng mình có thể chuẩn bị sẵn một số câu hỏi về phương pháp học để hỏi diễn giả"
+            },
+            {
+              "en": "we should arrive thirty minutes early so that we can grab good front-row seats together",
+              "vi": "chúng mình nên đến sớm 30 phút để cùng giành được chỗ ngồi hàng ghế đầu thật đẹp nhé"
+            },
+            {
+              "en": "we can take notes during the talk show and review the useful tips over coffee afterwards",
+              "vi": "chúng mình có thể ghi chép trong buổi talk show rồi sau đó cùng ra quán cà phê xem lại"
             }
           ]
         }
@@ -3176,6 +3216,18 @@ export const part4Data = {
             {
               "en": "the speaker should explain practical communication skills needed in international working environments",
               "vi": "diễn giả nên giải thích các kỹ năng giao tiếp thực tế cần thiết trong môi trường làm việc quốc tế"
+            },
+            {
+              "en": "the lecture could focus on effective self-study methods and useful digital tools for English learners",
+              "vi": "bài thuyết trình có thể tập trung vào các phương pháp tự học hiệu quả và công cụ số hữu ích cho người học tiếng Anh"
+            },
+            {
+              "en": "the talk show should share practical tips to build confidence when speaking English in public",
+              "vi": "buổi talk show nên chia sẻ các mẹo thực tế để xây dựng sự tự tin khi nói tiếng Anh trước đám đông"
+            },
+            {
+              "en": "the presentation could show how daily English practice broadens cultural knowledge and worldwide connections",
+              "vi": "bài nói có thể chỉ ra việc luyện tiếng Anh hàng ngày giúp mở rộng kiến thức văn hóa và kết nối toàn cầu"
             }
           ]
         },
@@ -3197,6 +3249,18 @@ export const part4Data = {
             {
               "en": "the guest speaker should possess engaging storytelling skills and practical teaching experience",
               "vi": "diễn giả khách mời nên có phong cách kể chuyện lôi cuốn và kinh nghiệm giảng dạy thực tế"
+            },
+            {
+              "en": "we should invite a successful professional working in a multinational corporation to share real experiences",
+              "vi": "chúng ta nên mời một chuyên gia thành đạt đang làm việc tại tập đoàn đa quốc gia để chia sẻ trải nghiệm thực tế"
+            },
+            {
+              "en": "the speaker ought to be an enthusiastic youth mentor who can easily relate to students and keep the session lively",
+              "vi": "diễn giả nên là một người truyền cảm hứng trẻ tuổi nhiệt huyết, dễ dàng đồng cảm với học viên và tạo không khí sôi nổi"
+            },
+            {
+              "en": "we could invite a popular content creator who specializes in creative English learning tips and techniques",
+              "vi": "chúng ta có thể mời một nhà sáng tạo nội dung nổi tiếng chuyên chia sẻ các mẹo và phương pháp học tiếng Anh sáng tạo"
             }
           ]
         },
@@ -3218,6 +3282,18 @@ export const part4Data = {
             {
               "en": "the club could offer complimentary learning materials and interactive mini-game prizes for attendees",
               "vi": "CLB có thể tặng tài liệu học miễn phí và phần thưởng mini-game giao lưu cho người tham dự"
+            },
+            {
+              "en": "we could organize an interactive English trivia quiz with fun souvenirs to engage participants",
+              "vi": "chúng ta có thể tổ chức trò chơi đố vui tiếng Anh có quà lưu niệm để người tham gia hào hứng hơn"
+            },
+            {
+              "en": "the club should provide a free one-month trial membership for all attendees registering on the event day",
+              "vi": "CLB nên tặng một tháng trải nghiệm sinh hoạt miễn phí cho tất cả người tham dự đăng ký trong ngày sự kiện"
+            },
+            {
+              "en": "we ought to livestream the talk show on our Facebook page so more learners can watch online",
+              "vi": "chúng ta nên phát trực tiếp buổi tọa đàm trên Facebook để nhiều bạn học có thể xem trực tuyến"
             }
           ]
         }
