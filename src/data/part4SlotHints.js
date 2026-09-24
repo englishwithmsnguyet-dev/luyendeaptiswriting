@@ -107,8 +107,16 @@ export const part4SlotHints = {
     positive: false
   },
   "English club 2": {
-    e1Topic: { en: "our English Club is hosting a sponsored seminar discussing the benefits of English proficiency", vi: "CLB Tiếng Anh đang tài trợ hội thảo chia sẻ về lợi ích của tiếng Anh" },
-    e2Topic: { en: "the plan to sponsor a talk show discussing the benefits of learning English", vi: "kế hoạch tài trợ buổi tọa đàm về lợi ích của việc học tiếng Anh" },
+    e1Topic: { en: "our English Club is sponsoring a talk show about the benefits of English to attract new members", vi: "CLB Tiếng Anh sắp tài trợ buổi talk show về lợi ích của tiếng Anh để thu hút hội viên mới" },
+    e2Topic: [
+      { en: "the plan to sponsor a talk show about the benefits of English", vi: "kế hoạch tài trợ buổi talk show về lợi ích của tiếng Anh (Theo bài mẫu)" },
+      { en: "the plan to sponsor a talk show discussing the benefits of learning English", vi: "kế hoạch tài trợ buổi tọa đàm về lợi ích của việc học tiếng Anh" }
+    ],
+    perspectives: [
+      { isSafe: true, en: "this is a great idea because it helps people understand the importance of learning English", vi: "đây là một ý tưởng rất hay vì giúp mọi người hiểu tầm quan trọng của việc học tiếng Anh (Theo bài mẫu)" },
+      { en: "this is a wonderful plan to attract more members and promote English learning", vi: "đây là kế hoạch tuyệt vời để thu hút thêm thành viên và đẩy mạnh phong trào học tiếng Anh" },
+      { en: "this project will bring great benefits to all students and young professionals", vi: "dự án này sẽ mang lại lợi ích lớn cho học sinh sinh viên và người đi làm" }
+    ],
     positive: true
   },
   "Book club 1": {

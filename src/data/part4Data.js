@@ -3069,9 +3069,9 @@ export const part4Data = {
     "notice": "Dear members,\nOur club is going to sponsor a talk show to share about the benefits of English and attract more members. What lecture should the talk show offer and what makes you think a good guest speaker? Give your opinions.",
     "noticeVi": "Kính gửi các thành viên,\nCâu lạc bộ của chúng ta sắp tài trợ cho một buổi talk show nhằm chia sẻ về lợi ích của tiếng Anh và thu hút thêm thành viên. Buổi talk show nên có bài thuyết trình về chủ đề gì và theo bạn điều gì làm nên một diễn giả khách mời tốt? Hãy nêu ý kiến của bạn.",
     "promptAnalysis": {
-      "topic": "Lựa chọn chủ đề bài thuyết trình về lợi ích của tiếng Anh và các tiêu chí đánh giá một diễn giả khách mời xuất sắc để thu hút thành viên mới",
-      "task1": "Viết email ngắn cho bạn (~50 từ): Chia sẻ sự ủng hộ về buổi talk show, gợi ý chủ đề 'Tiếng Anh mở ra cơ hội làm việc quốc tế và học bổng', rủ bạn cùng đăng ký tham gia",
-      "task2": "Viết email cho Quản lý CLB (120-150 từ): Nêu quan điểm ủng hộ và đề xuất 3 giải pháp thực tế (chủ đề bài nói 'Tiếng Anh - Tấm hộ chiếu toàn cầu', tiêu chí diễn giả truyền cảm hứng có phong cách hài hước và giàu kinh nghiệm thực tế, bổ sung mini-game giao lưu tương tác nhận học bổng)"
+      "topic": "Tài trợ buổi talk show về lợi ích của tiếng Anh: Chủ đề bài nói và tiêu chí lựa chọn diễn giả khách mời tốt để thu hút thêm thành viên",
+      "task1": "Viết email ngắn cho bạn (~50 từ): Chia sẻ tin CLB tài trợ buổi talk show, gợi ý chủ đề tiếng Anh giúp ích cho học tập và sự nghiệp, rủ bạn cùng tham gia",
+      "task2": "Viết email cho Quản lý CLB (120-150 từ): Khẳng định đây là ý tưởng tuyệt vời giúp mọi người hiểu tầm quan trọng của tiếng Anh, đề xuất 3 giải pháp thực tế (chủ đề bài nói về học tập và sự nghiệp, mời giáo viên giàu kinh nghiệm và giao tiếp tốt, quảng bá sự kiện trên mạng xã hội)"
     },
     "email1": {
       "title": "Email 1: Gửi bạn bè (Informal)",
@@ -3080,7 +3080,7 @@ export const part4Data = {
       "wordTarget": "Khoảng 50 từ (45 - 60 từ)",
       "minWords": 45,
       "maxWords": 65,
-      "template": "Dear [Tên bạn],\nHow's it going? I hope you're doing well.\nI thought you'd be interested to hear that our English Club is sponsoring a talk show about the benefits of English to attract new members. I was quite excited when I found out about it. Personally, I think the speaker should focus on global job opportunities and overseas study scholarships. Moreover, let's invite our classmates to attend together!\nI would love to know what you think about this. Hope to hear from you soon.\nTake care,\n[Tên của bạn]",
+      "template": "Dear Kim,\nHow is it going? I thought you would like to know that our English Club is sponsoring a talk show about the benefits of English. I was quite excited to hear about it.\nPersonally, I think the speaker should talk about how English can help people in their studies and careers. Moreover, we should invite our friends to join the talk show this weekend. What do you think?\nHope to hear from you soon.\nTake care,\nKato",
       "vocabCategories": [
         {
           "name": "1. Bày tỏ Cảm xúc (Emotions)",
@@ -3099,16 +3099,16 @@ export const part4Data = {
           "name": "2. [ý kiến & lý do] (Mệnh đề hoàn chỉnh)",
           "items": [
             {
+              "en": "the speaker should talk about how English can help people in their studies and careers",
+              "vi": "diễn giả nên chia sẻ về việc tiếng Anh giúp ích cho học tập và công việc ra sao (Theo bài mẫu)"
+            },
+            {
               "en": "learning about the benefits of English is important because good English helps us get better jobs",
               "vi": "học về lợi ích tiếng Anh rất quan trọng vì tiếng Anh tốt giúp chúng mình có công việc tốt hơn"
             },
             {
-              "en": "learning about real-world English benefits is crucial because English opens up lucrative multinational career prospects",
-              "vi": "học về lợi ích tiếng Anh rất thiết thực vì tiếng Anh mở ra cơ hội làm việc tại tập đoàn đa quốc gia"
-            },
-            {
-              "en": "strong language fluency gives graduates a decisive competitive advantage in international scholarship applications",
-              "vi": "thành thạo ngoại ngữ giúp sinh viên có lợi thế cạnh tranh vượt trội khi xin học bổng quốc tế"
+              "en": "the talk show is meaningful because it inspires learners to improve their daily communication skills",
+              "vi": "buổi tọa đàm rất ý nghĩa vì truyền cảm hứng cho người học cải thiện kỹ năng giao tiếp hàng ngày"
             }
           ]
         },
@@ -3120,12 +3120,12 @@ export const part4Data = {
               "vi": "chúng mình nên rủ bạn bè cùng tham gia buổi tọa đàm cuối tuần này"
             },
             {
-              "en": "we should register early, so we do not miss out on complimentary seminar seats",
-              "vi": "chúng mình nên đăng ký sớm để không bị lỡ mất chỗ ngồi miễn phí trong hội thảo"
+              "en": "we should register early so we do not miss out on good seats in the seminar",
+              "vi": "chúng mình nên đăng ký sớm để không bỏ lỡ chỗ ngồi tốt trong buổi hội thảo"
             },
             {
-              "en": "we can prepare some questions regarding job interviews in English to ask the guest keynote speaker",
-              "vi": "chúng mình có thể chuẩn bị vài câu hỏi về phỏng vấn xin việc bằng tiếng Anh để giao lưu với diễn giả"
+              "en": "we could prepare some questions about learning methods to ask the guest speaker",
+              "vi": "chúng mình có thể chuẩn bị sẵn một số câu hỏi về phương pháp học để hỏi diễn giả"
             }
           ]
         }
@@ -3133,17 +3133,17 @@ export const part4Data = {
       "samples": [
         {
           "title": "Bài mẫu chuẩn Band B2+",
-          "wordCount": 56,
-          "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our club plans a presentation contest. I was thrilled about it!\n\nPersonally, I think public speaking is fantastic because it builds confidence. Moreover, we should register as a duo. What do you think? Hope to hear from you soon.\n\nTake care,\nKato",
-          "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin CLB dự định tổ chức cuộc thi thuyết trình. Mình rất phấn khởi về tin này!\n\nCá nhân mình thấy thuyết trình trước công chúng thật tuyệt vì rèn sự tự tin. Hơn nữa, chúng mình nên đăng ký cặp đôi. Bạn nghĩ sao? Mong sớm nhận được tin từ bạn.\n\nBảo trọng nhé,\nKato",
+          "wordCount": 75,
+          "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our English Club is sponsoring a talk show about the benefits of English. I was quite excited to hear about it.\n\nPersonally, I think the speaker should talk about how English can help people in their studies and careers. Moreover, we should invite our friends to join the talk show this weekend. What do you think?\nHope to hear from you soon.\n\nTake care,\nKato",
+          "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin CLB Tiếng Anh của chúng mình sắp tài trợ một buổi talk show về lợi ích của tiếng Anh. Mình khá hào hứng khi nghe tin này.\n\nCá nhân mình thấy diễn giả nên chia sẻ về việc tiếng Anh có thể giúp ích cho mọi người trong học tập và công việc ra sao. Hơn nữa, chúng mình nên rủ bạn bè cùng tham gia buổi tọa đàm cuối tuần này nhé. Bạn nghĩ sao?\nMong sớm nhận được tin từ bạn.\n\nBảo trọng nhé,\nKato",
           "analysis": [
             {
               "label": "Chào hỏi & Tin tức",
-              "text": "Dear Kim, How is it going? I thought you would like to know that our club plans a presentation contest. I was thrilled about it!"
+              "text": "Dear Kim, How is it going? I thought you would like to know that our English Club is sponsoring a talk show about the benefits of English. I was quite excited to hear about it."
             },
             {
               "label": "Quan điểm, Lý do & Đề xuất",
-              "text": "Personally, I think public speaking is fantastic because it builds confidence. Moreover, we should register as a duo. What do you think? Hope to hear from you soon."
+              "text": "Personally, I think the speaker should talk about how English can help people in their studies and careers. Moreover, we should invite our friends to join the talk show this weekend. What do you think? Hope to hear from you soon."
             },
             {
               "label": "Ký tên",
@@ -3160,56 +3160,64 @@ export const part4Data = {
       "wordTarget": "120 - 150 từ (chuẩn 120 - 165 từ)",
       "minWords": 120,
       "maxWords": 165,
-      "template": "Dear Club Manager,\nMy name is [tên người gửi], and I have been a member of the club for [thời gian: two years]. During this time, I have had the opportunity to participate in a wide range of meaningful activities, which have greatly enriched my experience and personal development.\nI am writing in response to your email to share my perspective regarding the upcoming talk show on the benefits of mastering English. I think this is a great idea to recruit new members.\nTo ensure the event achieves outstanding engagement, I would like to make a few suggestions. First, I propose the lecture topic \"English as a Passport to Global Careers and Academic Excellence\", focusing on tangible career advantages. Second, it would be better to invite a dynamic bilingual guest speaker who possesses proven international experience and engaging storytelling abilities rather than pure academic theory. Finally, we could incorporate an interactive networking segment where attendees test their pronunciation with AI tools and win trial club memberships. Overall, I am confident that these suggestions would make a positive difference and help the club achieve its objectives.\nThank you for taking the time to consider my suggestions. I sincerely hope they will be taken into consideration, and I look forward to your response.\nBest regards,\n[Tên của bạn]",
+      "template": "Dear Club Manager,\nMy name is Kato, and I have been an active member of our club for [thời gian tham gia: two years]. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding [thông tin trong đề bài]. I believe [nêu quan điểm về vấn đề đó].\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, [đề xuất thứ nhất].\nSecond, [đề xuất thứ hai].\nFinally, [đề xuất thứ ba].\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
       "vocabCategories": [
         {
-          "name": "1. Đề xuất 1: [đề xuất thứ nhất] (Mệnh đề hoàn chỉnh)",
+          "name": "1. Đề xuất 1: [đề xuất thứ nhất] - Chủ đề bài thuyết trình (Học tập & Sự nghiệp)",
           "items": [
             {
-              "en": "the speaker should explain how English fluency helps graduates find well-paid jobs",
-              "vi": "diễn giả nên giải thích tiếng Anh thành thạo giúp sinh viên ra trường kiếm việc lương cao ra sao"
+              "en": "the speaker should talk about how English can help people in their studies and careers",
+              "vi": "diễn giả nên chia sẻ về việc tiếng Anh có thể giúp ích cho mọi người trong học tập và công việc (Theo bài mẫu)"
             },
             {
-              "en": "the presentation should focus on 'English as a Strategic Career Accelerator in Modern Multinational Corporations'",
-              "vi": "bài thuyết trình nên tập trung vào chủ đề 'Tiếng Anh - Đòn bẩy thăng tiến tại các tập đoàn đa quốc gia'"
+              "en": "the lecture should highlight how English fluency opens up global career opportunities and scholarships",
+              "vi": "bài thuyết trình nên nêu bật tiếng Anh thành thạo mở ra cơ hội nghề nghiệp toàn cầu và học bổng"
             },
             {
-              "en": "we should highlight concrete salary statistics and overseas employment opportunities to inspire university attendees",
-              "vi": "chúng ta nên nêu các con số thống kê mức lương thực tế và cơ hội việc làm nước ngoài"
+              "en": "the speaker should explain practical communication skills needed in international working environments",
+              "vi": "diễn giả nên giải thích các kỹ năng giao tiếp thực tế cần thiết trong môi trường làm việc quốc tế"
             }
           ]
         },
         {
-          "name": "2. Đề xuất 2: [đề xuất thứ hai] (Mệnh đề hoàn chỉnh)",
+          "name": "2. Đề xuất 2: [đề xuất thứ hai] - Tiêu chí diễn giả tốt (Giàu kinh nghiệm & Giao tiếp giỏi)",
           "items": [
             {
-              "en": "the club should invite an inspiring speaker who learned English successfully from the beginning",
-              "vi": "CLB nên mời một diễn giả truyền cảm hứng từng tự học tiếng Anh thành công từ đầu"
+              "en": "we should invite an experienced English teacher who has good communication skills and gives useful advice",
+              "vi": "chúng ta nên mời một giáo viên tiếng Anh giàu kinh nghiệm có kỹ năng giao tiếp tốt và đưa ra lời khuyên hữu ích (Chuẩn 150 từ)"
             },
             {
-              "en": "it would be ideal to invite an energetic bilingual executive who conquered language barriers from humble beginnings",
-              "vi": "sẽ rất lý tưởng nếu mời một lãnh đạo song ngữ từng tự học vượt khó từ mất gốc"
+              "en": "we should invite an experienced English teacher because they have good communication skills and give useful advice to learners",
+              "vi": "chúng ta nên mời một giáo viên tiếng Anh giàu kinh nghiệm vì họ có kỹ năng giao tiếp tốt và đưa ra lời khuyên hữu ích cho người học (Theo bài mẫu)"
             },
             {
-              "en": "the guest speaker should deliver actionable daily habit roadmaps rather than generic motivational advice",
-              "vi": "diễn giả nên chia sẻ lộ trình rèn luyện thói quen mỗi ngày thay vì những lời khuyên chung chung"
+              "en": "we ought to invite an inspiring bilingual speaker who achieved English fluency from the beginning",
+              "vi": "chúng ta nên mời một diễn giả truyền cảm hứng từng tự học tiếng Anh thành công từ đầu"
+            },
+            {
+              "en": "the guest speaker should possess engaging storytelling skills and practical teaching experience",
+              "vi": "diễn giả khách mời nên có phong cách kể chuyện lôi cuốn và kinh nghiệm giảng dạy thực tế"
             }
           ]
         },
         {
-          "name": "3. Đề xuất 3: [đề xuất thứ ba] (Mệnh đề hoàn chỉnh)",
+          "name": "3. Đề xuất 3: [đề xuất thứ ba] - Quảng bá sự kiện để thu hút thêm người tham gia",
           "items": [
             {
-              "en": "we could offer free English learning materials and small gifts to attendees",
-              "vi": "chúng ta có thể tặng tài liệu học tiếng Anh miễn phí và quà nhỏ cho người tham dự"
+              "en": "the club could advertise the event on social media to attract more members",
+              "vi": "CLB có thể quảng bá sự kiện trên mạng xã hội để thu hút thêm nhiều thành viên (Chuẩn 150 từ)"
             },
             {
-              "en": "we could incorporate interactive pronunciation mini-games and gift complimentary club memberships to winners",
-              "vi": "chúng ta có thể lồng ghép các trò chơi phát âm vui nhộn và tặng thẻ sinh hoạt CLB cho người thắng"
+              "en": "the club could advertise the event on social media to get more people to join",
+              "vi": "CLB có thể quảng bá sự kiện trên mạng xã hội để thu hút thêm nhiều người tham gia (Theo bài mẫu)"
             },
             {
-              "en": "the club could distribute structured self-study toolkits and curated podcast recommendation lists to all participants",
-              "vi": "CLB có thể phát cẩm nang tự học và danh sách podcast chất lượng cho toàn bộ người tham dự"
+              "en": "we should distribute eye-catching posters at local universities to attract prospective members",
+              "vi": "chúng ta nên phát áp phích bắt mắt tại các trường đại học để thu hút hội viên tiềm năng"
+            },
+            {
+              "en": "the club could offer complimentary learning materials and interactive mini-game prizes for attendees",
+              "vi": "CLB có thể tặng tài liệu học miễn phí và phần thưởng mini-game giao lưu cho người tham dự"
             }
           ]
         }
@@ -3217,17 +3225,17 @@ export const part4Data = {
       "samples": [
         {
           "title": "Bài mẫu chuẩn Band B2+",
-          "wordCount": 140,
-          "en": "Dear Club Manager,\n\nMy name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the upcoming annual English speech competition. I believe this is a great idea that will inspire members' oratory skills.\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, we should offer mentoring workshops led by senior speakers before the final presentation round.\nSecond, providing clear evaluation rubrics covering pronunciation, body language, and slide structure will ensure fair scoring.\nFinally, we could offer book vouchers and language course scholarships as motivational prizes for winners.\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
-          "vi": "Kính gửi Quản lý Câu lạc bộ,\n\nTên tôi là Kato, và tôi đã là một hội viên tích cực của câu lạc bộ chúng ta được hai năm. Trong thời gian này, tôi đã tham gia vào nhiều hoạt động ý nghĩa. Tôi viết thư này để chia sẻ góc nhìn và đưa ra một vài đề xuất mang tính xây dựng liên quan đến cuộc thi hùng biện tiếng Anh thường niên sắp tới. Tôi tin chắc rằng đây là một ý tưởng rất hay giúp khơi nguồn kỹ năng diễn thuyết của hội viên.\n\nĐể giúp đạt được kết quả tốt nhất, tôi xin phép đưa ra ba đề xuất thực tế.\nThứ nhất, chúng ta nên mở các buổi hướng dẫn kỹ năng do các diễn giả nhiều kinh nghiệm dẫn dắt trước vòng chung kết.\nThứ hai, việc ban hành tiêu chí đánh giá rõ ràng bao gồm phát âm, ngôn ngữ cơ thể và bố cục bài trình chiếu sẽ đảm bảo chấm điểm công bằng.\nCuối cùng, chúng ta có thể trao tặng các phiếu mua sách và học bổng khóa học ngoại ngữ làm phần thưởng khích lệ người chiến thắng.\n\nCảm ơn bạn đã dành thời gian xem xét thư. Tôi rất mong sớm nhận được phản hồi từ bạn.\n\nTrân trọng,\nKato",
+          "wordCount": 150,
+          "en": "Dear Club Manager,\n\nMy name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the plan to sponsor a talk show about the benefits of English. I believe this is a great idea because it helps people understand the importance of learning English.\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, the speaker should talk about how English can help people in their studies and careers.\nSecond, we should invite an experienced English teacher who has good communication skills and gives useful advice.\nFinally, the club could advertise the event on social media to attract more members.\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
+          "vi": "Kính gửi Quản lý Câu lạc bộ,\n\nTên tôi là Kato, và tôi đã là một hội viên tích cực của câu lạc bộ chúng ta được hai năm. Trong thời gian này, tôi đã tham gia vào nhiều hoạt động ý nghĩa. Tôi viết thư này để chia sẻ góc nhìn và đưa ra một vài đề xuất mang tính xây dựng liên quan đến kế hoạch tài trợ một buổi talk show về lợi ích của tiếng Anh. Tôi tin rằng đây là một ý tưởng rất hay vì nó giúp mọi người hiểu được tầm quan trọng của việc học tiếng Anh.\n\nĐể giúp đạt được kết quả tốt nhất, tôi xin phép đưa ra ba đề xuất thực tế.\nThứ nhất, diễn giả nên chia sẻ về việc tiếng Anh có thể giúp ích cho mọi người trong học tập và công việc ra sao.\nThứ hai, chúng ta nên mời một giáo viên tiếng Anh giàu kinh nghiệm có kỹ năng giao tiếp tốt và đưa ra lời khuyên hữu ích.\nCuối cùng, câu lạc bộ có thể quảng bá sự kiện trên mạng xã hội để thu hút thêm nhiều thành viên.\n\nCảm ơn bạn đã dành thời gian xem xét thư. Tôi rất mong sớm nhận được phản hồi từ bạn.\n\nTrân trọng,\nKato",
           "analysis": [
             {
               "label": "Mở đầu, Mục đích & Quan điểm",
-              "text": "My name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the upcoming annual English speech competition. I believe this is a great idea that will inspire members' oratory skills."
+              "text": "My name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the plan to sponsor a talk show about the benefits of English. I believe this is a great idea because it helps people understand the importance of learning English."
             },
             {
               "label": "3 Đề xuất thực tế",
-              "text": "To help achieve the best outcome, I would like to make some practical proposals. First, we should offer mentoring workshops led by senior speakers before the final presentation round. Second, providing clear evaluation rubrics covering pronunciation, body language, and slide structure will ensure fair scoring. Finally, we could offer book vouchers and language course scholarships as motivational prizes for winners."
+              "text": "To help achieve the best outcome, I would like to make some practical proposals. First, the speaker should talk about how English can help people in their studies and careers. Second, we should invite an experienced English teacher who has good communication skills and gives useful advice. Finally, the club could advertise the event on social media to attract more members."
             },
             {
               "label": "Cảm ơn & Ký tên",
