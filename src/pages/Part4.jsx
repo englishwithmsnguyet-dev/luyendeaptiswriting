@@ -687,7 +687,7 @@ const Part4 = () => {
   };
   const isPositiveClub = activeClubHints.positive;
   const activeEmotions = isPositiveClub ? standardEmotionsPositive : standardEmotionsConcern;
-  const activePerspectives = isPositiveClub ? standardPerspectivesPositive : standardPerspectivesConcern;
+  const activePerspectives = activeClubHints.perspectives || (isPositiveClub ? standardPerspectivesPositive : standardPerspectivesConcern);
 
   const email1Template = `Dear Kim,
 
@@ -1295,7 +1295,17 @@ Kato`;
                                         boxShadow: isSafe ? '0 1px 3px rgba(34, 197, 94, 0.12)' : '0 1px 2px rgba(0,0,0,0.03)'
                                       }}
                                     >
-                                      {isSafe && (
+                                      {item.choice === 'first' && (
+                                        <span style={{ backgroundColor: '#ecfdf5', color: '#047857', fontSize: '0.72rem', fontWeight: 700, padding: '1px 6px', borderRadius: '4px', marginRight: '0.45rem', border: '1px solid #a7f3d0', display: 'inline-flex', alignItems: 'center', whiteSpace: 'nowrap' }}>
+                                          🌿 First Choice
+                                        </span>
+                                      )}
+                                      {item.choice === 'second' && (
+                                        <span style={{ backgroundColor: '#eff6ff', color: '#1d4ed8', fontSize: '0.72rem', fontWeight: 700, padding: '1px 6px', borderRadius: '4px', marginRight: '0.45rem', border: '1px solid #bfdbfe', display: 'inline-flex', alignItems: 'center', whiteSpace: 'nowrap' }}>
+                                          🏡 Second Choice
+                                        </span>
+                                      )}
+                                      {isSafe && !item.choice && (
                                         <span style={{ backgroundColor: '#dcfce7', color: '#166534', fontSize: '0.72rem', fontWeight: 700, padding: '1px 6px', borderRadius: '4px', marginRight: '0.45rem', border: '1px solid #86efac', display: 'inline-flex', alignItems: 'center', gap: '2px', whiteSpace: 'nowrap' }}>
                                           🛡️ An toàn B2
                                         </span>
@@ -1796,7 +1806,17 @@ Kato`;
                                     boxShadow: isSafe ? '0 1px 3px rgba(34, 197, 94, 0.12)' : '0 1px 2px rgba(0,0,0,0.03)'
                                   }}
                                 >
-                                  {isSafe && (
+                                  {hint.choice === 'first' && (
+                                    <span style={{ backgroundColor: '#ecfdf5', color: '#047857', fontSize: '0.72rem', fontWeight: 700, padding: '1px 6px', borderRadius: '4px', marginRight: '0.45rem', border: '1px solid #a7f3d0', display: 'inline-flex', alignItems: 'center', whiteSpace: 'nowrap' }}>
+                                      🌿 First Choice
+                                    </span>
+                                  )}
+                                  {hint.choice === 'second' && (
+                                    <span style={{ backgroundColor: '#eff6ff', color: '#1d4ed8', fontSize: '0.72rem', fontWeight: 700, padding: '1px 6px', borderRadius: '4px', marginRight: '0.45rem', border: '1px solid #bfdbfe', display: 'inline-flex', alignItems: 'center', whiteSpace: 'nowrap' }}>
+                                      🏡 Second Choice
+                                    </span>
+                                  )}
+                                  {isSafe && !hint.choice && (
                                     <span style={{ backgroundColor: '#dcfce7', color: '#166534', fontSize: '0.72rem', fontWeight: 700, padding: '1px 6px', borderRadius: '4px', marginRight: '0.45rem', border: '1px solid #86efac', display: 'inline-flex', alignItems: 'center', gap: '2px', whiteSpace: 'nowrap' }}>
                                       🛡️ An toàn B2
                                     </span>
@@ -1833,7 +1853,17 @@ Kato`;
                                     boxShadow: isSafe ? '0 1px 3px rgba(34, 197, 94, 0.12)' : '0 1px 2px rgba(0,0,0,0.03)'
                                   }}
                                 >
-                                  {isSafe && (
+                                  {item.choice === 'first' && (
+                                    <span style={{ backgroundColor: '#ecfdf5', color: '#047857', fontSize: '0.72rem', fontWeight: 700, padding: '1px 6px', borderRadius: '4px', marginRight: '0.45rem', border: '1px solid #a7f3d0', display: 'inline-flex', alignItems: 'center', whiteSpace: 'nowrap' }}>
+                                      🌿 First Choice
+                                    </span>
+                                  )}
+                                  {item.choice === 'second' && (
+                                    <span style={{ backgroundColor: '#eff6ff', color: '#1d4ed8', fontSize: '0.72rem', fontWeight: 700, padding: '1px 6px', borderRadius: '4px', marginRight: '0.45rem', border: '1px solid #bfdbfe', display: 'inline-flex', alignItems: 'center', whiteSpace: 'nowrap' }}>
+                                      🏡 Second Choice
+                                    </span>
+                                  )}
+                                  {isSafe && !item.choice && (
                                     <span style={{ backgroundColor: '#dcfce7', color: '#166534', fontSize: '0.72rem', fontWeight: 700, padding: '1px 6px', borderRadius: '4px', marginRight: '0.45rem', border: '1px solid #86efac', display: 'inline-flex', alignItems: 'center', gap: '2px', whiteSpace: 'nowrap' }}>
                                       🛡️ An toàn B2
                                     </span>
@@ -1855,22 +1885,32 @@ Kato`;
                           </div>
                           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.4rem' }}>
                             {activePerspectives.map((item, idx) => {
-                              const isSafe = idx === 0;
+                              const isSafe = item.isSafe !== undefined ? item.isSafe : (idx === 0);
                               return (
                                 <div
                                   key={idx}
                                   style={{
                                     display: 'inline-flex',
                                     alignItems: 'center',
-                                    backgroundColor: isSafe ? '#f0fdf4' : '#ffffff',
-                                    border: isSafe ? '1.5px solid #86efac' : '1px solid #cbd5e1',
+                                    backgroundColor: item.choice === 'first' ? '#f0fdf4' : item.choice === 'second' ? '#eff6ff' : isSafe ? '#f0fdf4' : '#ffffff',
+                                    border: item.choice === 'first' ? '1.5px solid #86efac' : item.choice === 'second' ? '1.5px solid #bfdbfe' : isSafe ? '1.5px solid #86efac' : '1px solid #cbd5e1',
                                     borderRadius: '6px',
                                     padding: '0.35rem 0.65rem',
                                     fontSize: '0.86rem',
                                     boxShadow: isSafe ? '0 1px 3px rgba(34, 197, 94, 0.12)' : '0 1px 2px rgba(0,0,0,0.03)'
                                   }}
                                 >
-                                  {isSafe && (
+                                  {item.choice === 'first' && (
+                                    <span style={{ backgroundColor: '#ecfdf5', color: '#047857', fontSize: '0.72rem', fontWeight: 700, padding: '1px 6px', borderRadius: '4px', marginRight: '0.45rem', border: '1px solid #a7f3d0', display: 'inline-flex', alignItems: 'center', whiteSpace: 'nowrap' }}>
+                                      🌿 First Choice
+                                    </span>
+                                  )}
+                                  {item.choice === 'second' && (
+                                    <span style={{ backgroundColor: '#eff6ff', color: '#1d4ed8', fontSize: '0.72rem', fontWeight: 700, padding: '1px 6px', borderRadius: '4px', marginRight: '0.45rem', border: '1px solid #bfdbfe', display: 'inline-flex', alignItems: 'center', whiteSpace: 'nowrap' }}>
+                                      🏡 Second Choice
+                                    </span>
+                                  )}
+                                  {isSafe && !item.choice && (
                                     <span style={{ backgroundColor: '#dcfce7', color: '#166534', fontSize: '0.72rem', fontWeight: 700, padding: '1px 6px', borderRadius: '4px', marginRight: '0.45rem', border: '1px solid #86efac', display: 'inline-flex', alignItems: 'center', gap: '2px', whiteSpace: 'nowrap' }}>
                                       🛡️ An toàn B2
                                     </span>

@@ -47,8 +47,15 @@ export const part4SlotHints = {
   "Garden club 2": {
     e1Topic: { en: "our Garden Club is deciding between planting 50 park trees and hosting a gardening workshop", vi: "CLB Làm vườn đang cân nhắc giữa việc trồng 50 cây tại công viên và mở lớp dạy làm vườn" },
     e2Topic: [
-      { en: "the plan to plant 50 trees and flowers at the local park", vi: "kế hoạch trồng 50 cây xanh và hoa tại công viên địa phương (Lựa chọn 1: Trồng cây)" },
-      { en: "the plan to organize a gardening skills workshop for local residents", vi: "kế hoạch tổ chức khóa học kỹ năng làm vườn cho cư dân (Lựa chọn 2: Workshop)" }
+      { choice: "first", en: "the plan to plant 50 trees and flowers at the local park", vi: "kế hoạch trồng 50 cây xanh và hoa tại công viên (Nếu chọn First Choice)" },
+      { choice: "second", en: "the plan to organize a gardening skills workshop for local residents", vi: "kế hoạch tổ chức khóa học kỹ năng làm vườn cho cư dân (Nếu chọn Second Choice)" },
+      { en: "the plan to encourage tree planting across our city", vi: "kế hoạch khuyến khích phong trào trồng cây trong thành phố (Dùng chung)" }
+    ],
+    perspectives: [
+      { choice: "first", en: "the first choice is better because it directly creates green spaces and shade for the community", vi: "phương án 1 tốt hơn vì trực tiếp tạo không gian xanh và bóng mát cho cộng đồng" },
+      { choice: "second", en: "the second choice is better because teaching practical skills empowers residents to grow plants sustainably", vi: "phương án 2 tốt hơn vì dạy kỹ năng thực tế giúp cư dân tự trồng cây bền vững" },
+      { isSafe: true, en: "this is a great idea that will make our city much greener and cleaner", vi: "đây là một ý tưởng rất hay sẽ giúp thành phố của chúng ta xanh và sạch hơn (Dùng chung an toàn B2)" },
+      { en: "this project will bring great benefits to all members and local residents", vi: "dự án này sẽ mang lại lợi ích to lớn cho hội viên và người dân địa phương" }
     ],
     positive: true
   },
