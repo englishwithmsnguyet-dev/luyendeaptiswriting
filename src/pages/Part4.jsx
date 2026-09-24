@@ -1817,29 +1817,34 @@ Kato`;
                             📍 [thông tin trong đề bài]:
                           </div>
                           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.4rem' }}>
-                            {(Array.isArray(activeClubHints.e2Topic) ? activeClubHints.e2Topic : [activeClubHints.e2Topic]).map((hint, idx) => (
-                              <div
-                                key={idx}
-                                style={{
-                                  display: 'inline-flex',
-                                  alignItems: 'center',
-                                  backgroundColor: '#f0fdf4',
-                                  border: '1.5px solid #86efac',
-                                  borderRadius: '6px',
-                                  padding: '0.35rem 0.65rem',
-                                  fontSize: '0.86rem',
-                                  boxShadow: '0 1px 3px rgba(34, 197, 94, 0.12)'
-                                }}
-                              >
-                                <span style={{ backgroundColor: '#dcfce7', color: '#166534', fontSize: '0.72rem', fontWeight: 700, padding: '1px 6px', borderRadius: '4px', marginRight: '0.45rem', border: '1px solid #86efac', display: 'inline-flex', alignItems: 'center', gap: '2px', whiteSpace: 'nowrap' }}>
-                                  🛡️ An toàn B2
-                                </span>
-                                <span className="p4-en-hint" style={{ fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif", fontWeight: 800, color: '#0f172a' }}>
-                                  {hint.en}
-                                </span>{' '}
-                                <span style={{ color: '#64748b', fontWeight: 400, marginLeft: '0.35rem' }}>({hint.vi})</span>
-                              </div>
-                            ))}
+                            {(Array.isArray(activeClubHints.e2Topic) ? activeClubHints.e2Topic : [activeClubHints.e2Topic]).map((hint, idx) => {
+                              const isSafe = idx === 0;
+                              return (
+                                <div
+                                  key={idx}
+                                  style={{
+                                    display: 'inline-flex',
+                                    alignItems: 'center',
+                                    backgroundColor: isSafe ? '#f0fdf4' : '#ffffff',
+                                    border: isSafe ? '1.5px solid #86efac' : '1px solid #cbd5e1',
+                                    borderRadius: '6px',
+                                    padding: '0.35rem 0.65rem',
+                                    fontSize: '0.86rem',
+                                    boxShadow: isSafe ? '0 1px 3px rgba(34, 197, 94, 0.12)' : '0 1px 2px rgba(0,0,0,0.03)'
+                                  }}
+                                >
+                                  {isSafe && (
+                                    <span style={{ backgroundColor: '#dcfce7', color: '#166534', fontSize: '0.72rem', fontWeight: 700, padding: '1px 6px', borderRadius: '4px', marginRight: '0.45rem', border: '1px solid #86efac', display: 'inline-flex', alignItems: 'center', gap: '2px', whiteSpace: 'nowrap' }}>
+                                      🛡️ An toàn B2
+                                    </span>
+                                  )}
+                                  <span className="p4-en-hint" style={{ fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif", fontWeight: 800, color: '#0f172a' }}>
+                                    {hint.en}
+                                  </span>{' '}
+                                  <span style={{ color: '#64748b', fontWeight: 400, marginLeft: '0.35rem' }}>({hint.vi})</span>
+                                </div>
+                              );
+                            })}
                           </div>
                         </div>
 

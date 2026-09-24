@@ -46,7 +46,10 @@ export const part4SlotHints = {
   },
   "Garden club 2": {
     e1Topic: { en: "our Garden Club is deciding between planting 50 park trees and hosting a gardening workshop", vi: "CLB Làm vườn đang cân nhắc giữa việc trồng 50 cây tại công viên và mở lớp dạy làm vườn" },
-    e2Topic: { en: "the plan to organize a gardening skills workshop for local residents", vi: "kế hoạch tổ chức khóa học kỹ năng làm vườn cho cư dân địa phương" },
+    e2Topic: [
+      { en: "the plan to plant 50 trees and flowers at the local park", vi: "kế hoạch trồng 50 cây xanh và hoa tại công viên địa phương (Lựa chọn 1: Trồng cây)" },
+      { en: "the plan to organize a gardening skills workshop for local residents", vi: "kế hoạch tổ chức khóa học kỹ năng làm vườn cho cư dân (Lựa chọn 2: Workshop)" }
+    ],
     positive: true
   },
   "Sports club": {

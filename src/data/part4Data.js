@@ -1792,8 +1792,8 @@ export const part4Data = {
     "noticeVi": "Kính gửi các thành viên,\nChính quyền thành phố đang khuyến khích người dân trồng thêm nhiều cây xanh. Có hai đề xuất:\nLựa chọn thứ nhất là thực hiện dự án trồng cây nơi mọi người cùng chung tay với mục tiêu trồng 50 cây xanh và hoa tại công viên. Điều này sẽ giúp thành phố xanh hơn.\nLựa chọn thứ hai là tổ chức sự kiện dạy kỹ năng làm vườn cho hội viên để giúp họ tự trồng thêm nhiều cây xung quanh khu vực sinh sống của mình. Điều này sẽ dần dần thay đổi thành phố từ nơi có ít cây xanh thành nơi có nhiều cây xanh.\nBạn sẽ chọn phương án nào? Hãy đưa ra các gợi ý của bạn.",
     "promptAnalysis": {
       "topic": "Chương trình trồng cây xanh của thành phố: Trồng 50 cây ở công viên hay Mở workshop dạy kỹ năng làm vườn tại nhà",
-      "task1": "Viết email ngắn cho bạn (~50 từ): Chọn phương án dạy kỹ năng làm vườn (hoặc trồng cây công viên), giải thích lý do vì mang lại tác động bền vững lâu dài, rủ bạn cùng tham gia",
-      "task2": "Viết email cho Quản lý CLB (120-150 từ): Chọn phương án 2 (workshop làm vườn) và đề xuất 3 giải pháp thực tế (tổ chức workshop thực hành hướng dẫn chăm sóc cây trong chậu/ban công, tặng cây giống miễn phí cho học viên mang về, tổ chức thử thách chụp ảnh theo dõi quá trình lớn của cây trên mạng xã hội)"
+      "task1": "Viết email ngắn cho bạn (~50 từ): Chọn phương án trồng cây ở công viên (hoặc dạy kỹ năng làm vườn), giải thích lý do vì làm xanh sạch khu phố, rủ bạn cùng tham gia",
+      "task2": "Viết email cho Quản lý CLB (120-150 từ): Nêu quan điểm lựa chọn (trồng 50 cây ở công viên hoặc workshop) và đề xuất 3 giải pháp thực tế (tổ chức ngày hội trồng cây, huy động tình nguyện viên trẻ, chuẩn bị đầy đủ dụng cụ và đồ bảo hộ)"
     },
     "email1": {
       "title": "Email 1: Gửi bạn bè (Informal)",
@@ -1802,7 +1802,7 @@ export const part4Data = {
       "wordTarget": "Khoảng 50 từ (45 - 60 từ)",
       "minWords": 45,
       "maxWords": 65,
-      "template": "Dear [Tên bạn],\nHow's it going? I hope you're doing well.\nI thought you'd be interested to hear that our city is encouraging tree planting, and our Garden Club has two proposals. I was quite excited when I found out about it. Personally, I think the gardening skills workshop is the better choice because teaching people how to grow plants creates long-lasting green spaces at home. Moreover, let's attend the workshop together this weekend!\nI would love to know what you think about this. Hope to hear from you soon.\nTake care,\n[Tên của bạn]",
+      "template": "Dear Kim,\nHow is it going? I thought you would like to know that our Garden Club is deciding between planting 50 park trees and hosting a gardening workshop. I was quite excited to hear about it.\nPersonally, I think planting trees at the park is a great choice because it makes our neighborhood greener and cleaner. Moreover, we should wear protective gloves and comfortable clothes when planting trees. What do you think?\nHope to hear from you soon.\nTake care,\nKato",
       "vocabCategories": [
         {
           "name": "1. Bày tỏ Cảm xúc (Emotions)",
@@ -1821,20 +1821,20 @@ export const part4Data = {
           "name": "2. [ý kiến & lý do] (Mệnh đề hoàn chỉnh)",
           "items": [
             {
-              "en": "we should choose the workshop because learning gardening skills helps us grow plants at home easily",
-              "vi": "chúng mình nên chọn workshop vì học kỹ năng làm vườn giúp chúng mình tự trồng cây tại nhà dễ dàng"
+              "en": "planting trees at the park is a great choice because it makes our neighborhood greener and cleaner",
+              "vi": "trồng cây ở công viên là lựa chọn tuyệt vời vì giúp khu phố chúng mình xanh và sạch hơn (Trồng cây)"
             },
             {
-              "en": "planting trees at the park is a great choice because it makes our neighborhood greener and cleaner",
-              "vi": "trồng cây ở công viên là lựa chọn tuyệt vời vì giúp khu phố chúng mình xanh và sạch hơn"
+              "en": "we should choose the workshop because learning gardening skills helps us grow plants at home easily",
+              "vi": "chúng mình nên chọn workshop vì học kỹ năng làm vườn giúp chúng mình tự trồng cây tại nhà dễ dàng (Workshop)"
             },
             {
               "en": "hosting a gardening skills workshop is the superior choice because it empowers residents to green their balconies",
-              "vi": "mở lớp dạy làm vườn là lựa chọn tối ưu vì giúp người dân tự phủ xanh ban công nhà mình"
+              "vi": "mở lớp dạy làm vườn là lựa chọn tối ưu vì giúp người dân tự phủ xanh ban công nhà mình (Workshop)"
             },
             {
               "en": "practical workshops provide long-term educational value because members can teach gardening skills to their children",
-              "vi": "lớp học thực hành có giá trị lâu dài vì hội viên có thể dạy lại kỹ năng làm vườn cho con cái"
+              "vi": "lớp học thực hành có giá trị lâu dài vì hội viên có thể dạy lại kỹ năng làm vườn cho con cái (Workshop)"
             }
           ]
         },
@@ -1846,12 +1846,12 @@ export const part4Data = {
               "vi": "chúng mình nên đeo găng tay bảo hộ và mặc quần áo thoải mái khi tham gia trồng cây"
             },
             {
-              "en": "we should sign up together to learn how to cultivate organic herbs on our window sills",
-              "vi": "chúng mình nên đăng ký cùng nhau để học cách trồng thảo mộc sạch bên bậu cửa sổ"
+              "en": "we could volunteer to help the organizers prepare saplings and flowerpots",
+              "vi": "chúng mình có thể tình nguyện giúp ban tổ chức chuẩn bị cây giống và chậu cây"
             },
             {
-              "en": "we could volunteer to help the organizers prepare planting soil and flowerpots",
-              "vi": "chúng mình có thể tình nguyện giúp ban tổ chức chuẩn bị đất trồng và chậu cây"
+              "en": "we should sign up together to learn how to cultivate organic herbs on our window sills",
+              "vi": "chúng mình nên đăng ký cùng nhau để học cách trồng thảo mộc sạch bên bậu cửa sổ"
             }
           ]
         }
@@ -1859,17 +1859,17 @@ export const part4Data = {
       "samples": [
         {
           "title": "Bài mẫu chuẩn Band B2+",
-          "wordCount": 57,
-          "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our club plans a flower festival. I was thrilled about it!\n\nPersonally, I think the rose garden is great because blooming flowers look amazing. Moreover, we should help design booths. What do you think? Hope to hear from you soon.\n\nTake care,\nKato",
-          "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin CLB dự định tổ chức lễ hội hoa. Mình rất phấn khởi về tin này!\n\nCá nhân mình thấy vườn hoa hồng rất tuyệt vì hoa nở rộ tuyệt đẹp. Hơn nữa, chúng mình nên giúp thiết kế gian hàng. Bạn nghĩ sao? Mong sớm nhận được tin từ bạn.\n\nBảo trọng nhé,\nKato",
+          "wordCount": 72,
+          "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our Garden Club is deciding between planting 50 park trees and hosting a gardening workshop. I was quite excited to hear about it.\n\nPersonally, I think planting trees at the park is a great choice because it makes our neighborhood greener and cleaner. Moreover, we should wear protective gloves and comfortable clothes when planting trees. What do you think?\nHope to hear from you soon.\n\nTake care,\nKato",
+          "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin CLB Làm vườn của chúng ta đang cân nhắc giữa việc trồng 50 cây ở công viên và mở lớp dạy làm vườn. Mình khá hào hứng khi nghe tin này.\n\nCá nhân mình thấy việc trồng cây ở công viên là lựa chọn tuyệt vời vì giúp khu phố chúng mình xanh và sạch hơn. Hơn nữa, chúng mình nên đeo găng tay bảo hộ và mặc quần áo thoải mái khi tham gia trồng cây. Bạn nghĩ sao?\nMong sớm nhận được tin từ bạn.\n\nBảo trọng nhé,\nKato",
           "analysis": [
             {
               "label": "Chào hỏi & Tin tức",
-              "text": "Dear Kim, How is it going? I thought you would like to know that our club plans a flower festival. I was thrilled about it!"
+              "text": "Dear Kim, How is it going? I thought you would like to know that our Garden Club is deciding between planting 50 park trees and hosting a gardening workshop. I was quite excited to hear about it."
             },
             {
               "label": "Quan điểm, Lý do & Đề xuất",
-              "text": "Personally, I think the rose garden is great because blooming flowers look amazing. Moreover, we should help design booths. What do you think? Hope to hear from you soon."
+              "text": "Personally, I think planting trees at the park is a great choice because it makes our neighborhood greener and cleaner. Moreover, we should wear protective gloves and comfortable clothes when planting trees. What do you think? Hope to hear from you soon."
             },
             {
               "label": "Ký tên",
@@ -1886,22 +1886,26 @@ export const part4Data = {
       "wordTarget": "120 - 150 từ (chuẩn 120 - 165 từ)",
       "minWords": 120,
       "maxWords": 165,
-      "template": "Dear Club Manager,\nMy name is [tên người gửi], and I have been a member of the club for [thời gian: two years]. During this time, I have had the opportunity to participate in a wide range of meaningful activities, which have greatly enriched my experience and personal development.\nI am writing in response to your email regarding the city's green project and the two proposed projects. In my view, organizing a gardening skills workshop would be a far more impactful choice.\nTo maximize the benefits of this educational campaign, I would like to make a few suggestions. First, we should design hands-on training sessions focused on cultivating balcony gardens and caring for indoor purifying plants. Second, it would be better to distribute free starter seed kits and nutrient soil packets to all attendees. Finally, the club could initiate an online \"Green Living Challenge\" where participants share weekly progress photos of their homegrown plants. Overall, I am confident that these suggestions would make a positive difference and help the club achieve its objectives.\nThank you for taking the time to consider my suggestions. I sincerely hope they will be taken into consideration, and I look forward to your response.\nBest regards,\n[Tên của bạn]",
+      "template": "Dear Club Manager,\nMy name is Kato, and I have been an active member of our club for [thời gian tham gia: two years]. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding [thông tin trong đề bài]. I believe [nêu quan điểm về vấn đề đó].\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, [đề xuất thứ nhất].\nSecond, [đề xuất thứ hai].\nFinally, [đề xuất thứ ba].\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
       "vocabCategories": [
         {
           "name": "1. Đề xuất 1: [đề xuất thứ nhất] (Mệnh đề hoàn chỉnh)",
           "items": [
             {
+              "en": "the club should organize a community tree-planting day at the local park",
+              "vi": "CLB nên tổ chức một ngày hội trồng cây cộng đồng tại công viên địa phương (Trồng cây)"
+            },
+            {
+              "en": "we should select native shade trees and blooming flowers suitable for the park soil",
+              "vi": "chúng ta nên chọn các loại cây bóng mát bản địa và hoa tươi phù hợp với đất công viên (Trồng cây)"
+            },
+            {
               "en": "the club should organize hands-on workshops teaching members how to grow trees and vegetables at home",
-              "vi": "CLB nên tổ chức các buổi thực hành hướng dẫn hội viên cách trồng cây và rau sạch tại nhà"
+              "vi": "CLB nên tổ chức các buổi thực hành hướng dẫn hội viên cách trồng cây và rau sạch tại nhà (Workshop)"
             },
             {
-              "en": "the club should organize hands-on gardening workshops guiding residents on balcony vegetable cultivation and composting",
-              "vi": "CLB nên tổ chức các lớp thực hành hướng dẫn cư dân trồng rau ban công và ủ phân hữu cơ"
-            },
-            {
-              "en": "we should invite experienced arborists to deliver practical demonstrations on soil mixing and organic pest prevention",
-              "vi": "chúng ta nên mời chuyên gia làm vườn biểu diễn cách trộn đất và ngừa sâu bọ sinh học"
+              "en": "we should invite experienced arborists to deliver practical demonstrations on plant care and composting",
+              "vi": "chúng ta nên mời chuyên gia làm vườn biểu diễn cách chăm sóc cây và ủ phân hữu cơ (Workshop)"
             }
           ]
         },
@@ -1909,16 +1913,20 @@ export const part4Data = {
           "name": "2. Đề xuất 2: [đề xuất thứ hai] (Mệnh đề hoàn chỉnh)",
           "items": [
             {
-              "en": "the club should provide free seeds and small potted plants for all participants",
-              "vi": "CLB nên tặng hạt giống miễn phí và chậu cây nhỏ cho tất cả người tham gia"
+              "en": "we could mobilize enthusiastic student volunteers and club members to plant trees together",
+              "vi": "chúng ta có thể huy động học sinh tình nguyện và các hội viên CLB nhiệt tình cùng nhau trồng cây (Trồng cây)"
             },
             {
-              "en": "it would be highly effective to distribute free starter seed kits and nutrient soil packets to all attendees",
-              "vi": "sẽ rất hiệu quả nếu phát tặng bộ hạt giống khởi đầu và túi đất dinh dưỡng cho người tham gia"
+              "en": "the club should collaborate with local schools to invite young volunteers to join the planting activity",
+              "vi": "CLB nên liên kết với các trường học địa phương để mời tình nguyện viên trẻ cùng tham gia trồng cây (Trồng cây)"
             },
             {
-              "en": "the club could partner with local nurseries to provide members with discounted gardening tools and fertilizers",
-              "vi": "CLB có thể liên kết với vườn ươm để giảm giá dụng cụ làm vườn và phân bón"
+              "en": "the club should provide free starter seeds and small potted plants for all participants",
+              "vi": "CLB nên tặng hạt giống và chậu cây nhỏ miễn phí cho tất cả người tham gia (Workshop)"
+            },
+            {
+              "en": "it would be highly effective to distribute nutrient soil packets and care guides to attendees",
+              "vi": "sẽ rất hiệu quả nếu phát tặng túi đất dinh dưỡng và tài liệu hướng dẫn cho người tham dự (Workshop)"
             }
           ]
         },
@@ -1926,16 +1934,16 @@ export const part4Data = {
           "name": "3. Đề xuất 3: [đề xuất thứ ba] (Mệnh đề hoàn chỉnh)",
           "items": [
             {
-              "en": "the organizers must provide proper gardening tools and protective gloves to ensure safety for all volunteers",
-              "vi": "ban tổ chức cần trang bị đầy đủ dụng cụ làm vườn và găng tay bảo hộ để đảm bảo an toàn cho các tình nguyện viên"
+              "en": "the organizers must provide proper gardening tools, watering cans, and protective gloves for all participants",
+              "vi": "ban tổ chức cần trang bị đầy đủ dụng cụ làm vườn, bình tưới nước và găng tay bảo hộ cho mọi người"
+            },
+            {
+              "en": "the club ought to set up a regular watering schedule to care for the newly planted trees",
+              "vi": "CLB nên lập lịch tưới nước định kỳ để chăm sóc các cây mới trồng (Trồng cây)"
             },
             {
               "en": "we could initiate an online 'Green Living Challenge' encouraging members to share weekly growth photos on social media",
-              "vi": "chúng ta có thể phát động thử thách 'Sống Xanh' kêu gọi hội viên chia sẻ ảnh cây lớn mỗi tuần"
-            },
-            {
-              "en": "the club should arrange a weekend exhibition showcasing the best home-grown produce and miniature bonsai",
-              "vi": "CLB nên tổ chức triển lãm cuối tuần trưng bày nông sản sạch và cây cảnh đẹp tự trồng"
+              "vi": "chúng ta có thể phát động thử thách 'Sống Xanh' kêu gọi hội viên chia sẻ ảnh cây lớn mỗi tuần (Workshop)"
             }
           ]
         }
@@ -1943,17 +1951,17 @@ export const part4Data = {
       "samples": [
         {
           "title": "Bài mẫu chuẩn Band B2+",
-          "wordCount": 138,
-          "en": "Dear Club President,\n\nMy name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the annual spring flower festival and exhibition. I believe this is a great idea that will celebrate horticultural beauty.\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, we should hold the festival at the municipal rose pavilion to ensure spacious exhibition booths.\nSecond, establishing interactive floral arrangement competitions for amateur gardeners will stimulate community participation.\nFinally, we could sell homemade compost and organic fertilizers to fund our future gardening projects.\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
-          "vi": "Kính gửi Chủ tịch Câu lạc bộ,\n\nTên tôi là Kato, và tôi đã là một hội viên tích cực của câu lạc bộ chúng ta được hai năm. Trong thời gian này, tôi đã tham gia vào nhiều hoạt động ý nghĩa. Tôi viết thư này để chia sẻ góc nhìn và đưa ra một vài đề xuất mang tính xây dựng liên quan đến lễ hội hoa và triển lãm mùa xuân thường niên. Tôi tin chắc rằng đây là một ý tưởng rất hay tôn vinh vẻ đẹp nghề làm vườn.\n\nĐể giúp đạt được kết quả tốt nhất, tôi xin phép đưa ra ba đề xuất thực tế.\nThứ nhất, chúng ta nên tổ chức lễ hội tại khu nhà triển lãm hoa hồng thành phố để đảm bảo các gian trưng bày rộng rãi.\nThứ hai, việc thiết lập các cuộc thi cắm hoa tương tác cho người làm vườn nghiệp dư sẽ khích lệ sự tham gia của cộng đồng.\nCuối cùng, chúng ta có thể bán phân hữu cơ tự ủ để gây quỹ cho các dự án làm vườn tương lai.\n\nCảm ơn bạn đã dành thời gian xem xét thư. Tôi rất mong sớm nhận được phản hồi từ bạn.\n\nTrân trọng,\nKato",
+          "wordCount": 140,
+          "en": "Dear Club Manager,\n\nMy name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the plan to plant 50 trees and flowers at the local park. I believe this is a great idea that will make our city much greener and cleaner.\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, the club should organize a community tree-planting day at the local park.\nSecond, we could mobilize enthusiastic student volunteers and club members to plant trees together.\nFinally, the organizers must provide proper gardening tools, watering cans, and protective gloves for all participants.\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
+          "vi": "Kính gửi Quản lý Câu lạc bộ,\n\nTên tôi là Kato, và tôi đã là một hội viên tích cực của câu lạc bộ chúng ta được hai năm. Trong thời gian này, tôi đã tham gia vào nhiều hoạt động ý nghĩa. Tôi viết thư này để chia sẻ góc nhìn và đưa ra một vài đề xuất mang tính xây dựng liên quan đến kế hoạch trồng 50 cây xanh và hoa tại công viên địa phương. Tôi tin chắc rằng đây là một ý tưởng rất hay sẽ giúp thành phố của chúng ta xanh và sạch hơn rất nhiều.\n\nĐể giúp đạt được kết quả tốt nhất, tôi xin phép đưa ra ba đề xuất thực tế.\nThứ nhất, câu lạc bộ nên tổ chức một ngày hội trồng cây cộng đồng tại công viên địa phương.\nThứ hai, chúng ta có thể huy động học sinh tình nguyện và các hội viên câu lạc bộ nhiệt tình cùng nhau trồng cây.\nCuối cùng, ban tổ chức cần trang bị đầy đủ dụng cụ làm vườn, bình tưới nước và găng tay bảo hộ cho mọi người tham gia.\n\nCảm ơn bạn đã dành thời gian xem xét thư. Tôi rất mong sớm nhận được phản hồi từ bạn.\n\nTrân trọng,\nKato",
           "analysis": [
             {
               "label": "Mở đầu, Mục đích & Quan điểm",
-              "text": "My name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the annual spring flower festival and exhibition. I believe this is a great idea that will celebrate horticultural beauty."
+              "text": "My name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the plan to plant 50 trees and flowers at the local park. I believe this is a great idea that will make our city much greener and cleaner."
             },
             {
               "label": "3 Đề xuất thực tế",
-              "text": "To help achieve the best outcome, I would like to make some practical proposals. First, we should hold the festival at the municipal rose pavilion to ensure spacious exhibition booths. Second, establishing interactive floral arrangement competitions for amateur gardeners will stimulate community participation. Finally, we could sell homemade compost and organic fertilizers to fund our future gardening projects."
+              "text": "To help achieve the best outcome, I would like to make some practical proposals. First, the club should organize a community tree-planting day at the local park. Second, we could mobilize enthusiastic student volunteers and club members to plant trees together. Finally, the organizers must provide proper gardening tools, watering cans, and protective gloves for all participants."
             },
             {
               "label": "Cảm ơn & Ký tên",
