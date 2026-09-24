@@ -2544,9 +2544,9 @@ export const part4Data = {
     "notice": "Dear members,\nThe club needs support from everyone around us for many activities this year. First, we need more members so we can continue to participate in and organize upcoming events and projects. Additionally, we are looking for creative ideas to develop the club's activities. Can you give us some suggestions?",
     "noticeVi": "Kính gửi các thành viên,\nCâu lạc bộ cần sự ủng hộ từ mọi người xung quanh cho nhiều hoạt động trong năm nay. Trước hết, chúng ta cần thêm thành viên để có thể tiếp tục tham gia và tổ chức các sự kiện và dự án sắp tới. Ngoài ra, chúng tôi đang tìm kiếm những ý tưởng sáng tạo để phát triển các hoạt động của câu lạc bộ. Bạn có thể cho chúng tôi một số gợi ý không?",
     "promptAnalysis": {
-      "topic": "Kế hoạch thu hút thành viên mới và phát triển các ý tưởng hoạt động cộng đồng sáng tạo, ý nghĩa trong năm",
-      "task1": "Viết email ngắn cho bạn (~50 từ): Chia sẻ về chiến dịch tuyển hội viên và phát triển dự án thiện nguyện, rủ bạn cùng đăng ký và gợi ý dự án thu gom rác tái chế",
-      "task2": "Viết email cho Quản lý CLB (120-150 từ): Nêu quan điểm ủng hộ và đề xuất 3 giải pháp thực tế (chiến dịch truyền thông tuyển thành viên tại các trường học, dự án gây quỹ 'Đổi rác lấy cây xanh', ngày hội gia đình tình nguyện cuối tuần)"
+      "topic": "Kế hoạch thu hút thêm thành viên mới và phát triển các ý tưởng hoạt động cộng đồng sáng tạo, ý nghĩa trong năm",
+      "task1": "Viết email ngắn cho bạn (~50 từ): Báo tin CLB đang tuyển thêm thành viên và tìm ý tưởng mới, rủ bạn cùng đăng ký tham gia hoạt động cuối tuần",
+      "task2": "Viết email cho Quản lý CLB (120-150 từ): Nêu quan điểm ủng hộ việc tuyển thêm hội viên & tổ chức hoạt động thú vị, đề xuất 3 giải pháp thực tế (quảng bá trên mạng xã hội, tổ chức sự kiện thể thao/từ thiện, họp định kỳ thu thập ý tưởng)"
     },
     "email1": {
       "title": "Email 1: Gửi bạn bè (Informal)",
@@ -2555,7 +2555,7 @@ export const part4Data = {
       "wordTarget": "Khoảng 50 từ (45 - 60 từ)",
       "minWords": 45,
       "maxWords": 65,
-      "template": "Dear [Tên bạn],\nHow's it going? I hope you're doing well.\nI thought you'd be interested to hear that our Community Club is recruiting new members and seeking creative project ideas. I was quite excited when I found out about it. Personally, I think we should organize a neighborhood recycling drive and charity garage sale because they directly help vulnerable families. Moreover, would you like to join the club with me?\nI would love to know what you think about this. Hope to hear from you soon.\nTake care,\n[Tên của bạn]",
+      "template": "Dear Kim,\nHow is it going? I thought you would like to know that our Community Club is recruiting new members and looking for creative ideas. I was quite excited to hear about it.\nPersonally, I think attracting new members is great because we can organize many exciting sports and charity projects together. Moreover, we should sign up together to help organize charity activities this Sunday. What do you think?\nHope to hear from you soon.\nTake care,\nKato",
       "vocabCategories": [
         {
           "name": "1. Bày tỏ Cảm xúc (Emotions)",
@@ -2574,16 +2574,16 @@ export const part4Data = {
           "name": "2. [ý kiến & lý do] (Mệnh đề hoàn chỉnh)",
           "items": [
             {
-              "en": "recruiting more volunteers is great because we can help many disadvantaged people in our area",
-              "vi": "tuyển thêm tình nguyện viên rất tuyệt vì chúng ta có thể giúp nhiều người khó khăn quanh vùng"
+              "en": "attracting new members is great because we can organize many exciting sports and charity projects together",
+              "vi": "thu hút thêm thành viên rất tuyệt vì chúng mình có thể cùng nhau tổ chức nhiều hoạt động thể thao và từ thiện sôi nổi"
             },
             {
-              "en": "launching a neighborhood recycling campaign is meaningful because it protects our local environment directly",
-              "vi": "tổ chức phong trào tái chế khu phố rất ý nghĩa vì trực tiếp bảo vệ môi trường địa phương"
+              "en": "recruiting more volunteers is meaningful because we can help many disadvantaged people in our area",
+              "vi": "tuyển thêm tình nguyện viên rất ý nghĩa vì chúng ta có thể giúp nhiều người khó khăn quanh vùng"
             },
             {
-              "en": "community volunteering brings immense fulfillment because we can support disadvantaged children and lonely seniors",
-              "vi": "làm tình nguyện mang lại niềm vui lớn vì có thể hỗ trợ trẻ em khó khăn và người già neo đơn"
+              "en": "launching creative community activities brings immense joy and connects local residents together",
+              "vi": "tổ chức các hoạt động cộng đồng sáng tạo mang lại niềm vui lớn và gắn kết cư dân địa phương"
             }
           ]
         },
@@ -2595,12 +2595,12 @@ export const part4Data = {
               "vi": "chúng mình nên cùng nhau đăng ký giúp tổ chức hoạt động từ thiện Chủ nhật này"
             },
             {
-              "en": "we could register as core volunteer mentors together to help coordinate community projects",
-              "vi": "chúng mình có thể cùng đăng ký làm tình nguyện viên nòng cốt để điều phối các dự án"
+              "en": "we could invite our classmates to join the club and brainstorm new ideas",
+              "vi": "chúng mình có thể rủ các bạn cùng lớp tham gia CLB và cùng đóng góp ý tưởng mới"
             },
             {
-              "en": "we can donate some of our gently used books and warm clothes to the upcoming charity drive",
-              "vi": "chúng mình có thể quyên góp sách cũ và quần áo ấm cho đợt thiện nguyện sắp tới"
+              "en": "we can donate some used books and warm clothes for the upcoming community project",
+              "vi": "chúng mình có thể quyên góp sách cũ và quần áo ấm cho dự án cộng đồng sắp tới"
             }
           ]
         }
@@ -2608,17 +2608,17 @@ export const part4Data = {
       "samples": [
         {
           "title": "Bài mẫu chuẩn Band B2+",
-          "wordCount": 56,
-          "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our club plans charity activities. I was delighted to hear it!\n\nPersonally, I think supporting local shelters is meaningful because it helps underprivileged children. Moreover, we should donate textbooks. What do you think? Hope to hear from you soon.\n\nTake care,\nKato",
-          "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin CLB dự định tổ chức các hoạt động từ thiện. Mình rất vui khi nghe tin này!\n\nCá nhân mình thấy hỗ trợ mái ấm địa phương rất ý nghĩa vì giúp đỡ trẻ em khó khăn. Hơn nữa, chúng mình nên quyên góp sách giáo khoa. Bạn nghĩ sao? Mong sớm nhận được tin từ bạn.\n\nBảo trọng nhé,\nKato",
+          "wordCount": 73,
+          "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our Community Club is recruiting new members and looking for creative ideas. I was quite excited to hear about it.\n\nPersonally, I think attracting new members is great because we can organize many exciting sports and charity projects together. Moreover, we should sign up together to help organize charity activities this Sunday. What do you think?\nHope to hear from you soon.\n\nTake care,\nKato",
+          "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin CLB Cộng đồng của chúng mình đang tuyển thêm thành viên và tìm kiếm các ý tưởng sáng tạo. Mình khá hào hứng khi nghe tin này.\n\nCá nhân mình thấy việc thu hút thêm thành viên mới rất tuyệt vì chúng mình có thể cùng nhau tổ chức nhiều dự án thể thao và từ thiện sôi nổi. Hơn nữa, chúng mình nên cùng nhau đăng ký giúp tổ chức hoạt động từ thiện Chủ nhật này nhé. Bạn nghĩ sao?\nMong sớm nhận được tin từ bạn.\n\nBảo trọng nhé,\nKato",
           "analysis": [
             {
               "label": "Chào hỏi & Tin tức",
-              "text": "Dear Kim, How is it going? I thought you would like to know that our club plans charity activities. I was delighted to hear it!"
+              "text": "Dear Kim, How is it going? I thought you would like to know that our Community Club is recruiting new members and looking for creative ideas. I was quite excited to hear about it."
             },
             {
               "label": "Quan điểm, Lý do & Đề xuất",
-              "text": "Personally, I think supporting local shelters is meaningful because it helps underprivileged children. Moreover, we should donate textbooks. What do you think? Hope to hear from you soon."
+              "text": "Personally, I think attracting new members is great because we can organize many exciting sports and charity projects together. Moreover, we should sign up together to help organize charity activities this Sunday. What do you think? Hope to hear from you soon."
             },
             {
               "label": "Ký tên",
@@ -2635,56 +2635,56 @@ export const part4Data = {
       "wordTarget": "120 - 150 từ (chuẩn 120 - 165 từ)",
       "minWords": 120,
       "maxWords": 165,
-      "template": "Dear Club Manager,\nMy name is [tên người gửi], and I have been a member of the club for [thời gian: two years]. During this time, I have had the opportunity to participate in a wide range of meaningful activities, which have greatly enriched my experience and personal development.\nI am writing in response to your email to share my thoughts and offer several practical suggestions regarding member recruitment and creative community activities. I think this is an essential step forward.\nTo help expand our membership and enhance our community impact, I would like to make a few suggestions. First, we should partner with local high schools and universities to establish youth volunteer chapters, offering certificates of recognition. Second, it would be better to launch an \"Eco-Exchange\" program where citizens trade recyclable plastics and paper for potted plants. Finally, we could organize monthly family community dinners to connect residents and raise charitable funds. Overall, I am confident that these suggestions would make a positive difference and help the club achieve its objectives.\nThank you for taking the time to consider my suggestions. I sincerely hope they will be taken into consideration, and I look forward to your response.\nBest regards,\n[Tên của bạn]",
+      "template": "Dear Club Manager,\nMy name is Kato, and I have been an active member of our club for [thời gian tham gia: two years]. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding [thông tin trong đề bài]. I believe [nêu quan điểm về vấn đề đó].\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, [đề xuất thứ nhất].\nSecond, [đề xuất thứ hai].\nFinally, [đề xuất thứ ba].\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
       "vocabCategories": [
         {
-          "name": "1. Đề xuất 1: [đề xuất thứ nhất] (Mệnh đề hoàn chỉnh)",
+          "name": "1. Đề xuất 1: [đề xuất thứ nhất] - Tuyển thêm thành viên mới",
           "items": [
             {
-              "en": "the club should cooperate with local high schools and universities to recruit young volunteers",
-              "vi": "CLB nên hợp tác với trường học để tuyển tình nguyện viên trẻ"
+              "en": "the club should advertise its activities on social media to attract new members",
+              "vi": "CLB nên quảng bá hoạt động trên mạng xã hội để thu hút thành viên mới (Theo bài mẫu)"
             },
             {
-              "en": "the club should establish partnerships with local high schools and universities to recruit energetic youth volunteers",
-              "vi": "CLB nên hợp tác với các trường học địa phương để tuyển tình nguyện viên trẻ nhiệt huyết"
+              "en": "we should cooperate with local high schools and universities to recruit energetic young volunteers",
+              "vi": "chúng ta nên hợp tác với các trường học địa phương để tuyển tình nguyện viên trẻ nhiệt huyết"
             },
             {
-              "en": "we should award official community service certificates to students who contribute over twenty voluntary hours",
-              "vi": "chúng ta nên cấp chứng nhận giờ tình nguyện chính quy cho các bạn cống hiến trên 20 giờ"
+              "en": "the club could design attractive recruitment posters and share them in local community centers",
+              "vi": "CLB có thể thiết kế áp phích tuyển thành viên bắt mắt và dán tại nhà văn hóa địa phương"
             }
           ]
         },
         {
-          "name": "2. Đề xuất 2: [đề xuất thứ hai] (Mệnh đề hoàn chỉnh)",
+          "name": "2. Đề xuất 2: [đề xuất thứ hai] - Các sự kiện & Hoạt động sáng tạo, hấp dẫn",
           "items": [
             {
-              "en": "we should organize environmental clean-up days in local parks and residential areas",
-              "vi": "chúng ta nên tổ chức các ngày dọn vệ sinh môi trường tại công viên và khu dân cư"
+              "en": "we could organize more interesting events, such as sports activities and charity projects",
+              "vi": "chúng ta có thể tổ chức các sự kiện hấp dẫn hơn, chẳng hạn như hoạt động thể thao và dự án từ thiện (Theo bài mẫu)"
             },
             {
-              "en": "it would be highly effective to launch an 'Eco-Exchange Program' where residents trade recyclable plastics for potted herbs",
-              "vi": "sẽ rất hiệu quả nếu mở chương trình 'Đổi Rác Lấy Cây' để bà con đổi rác nhựa lấy thảo mộc"
+              "en": "the club should organize practical environmental clean-up days and tree-planting campaigns",
+              "vi": "CLB nên tổ chức các ngày dọn vệ sinh môi trường thực tế và chiến dịch trồng cây xanh"
             },
             {
-              "en": "the club should organize weekly elderly companionship visits and free basic computer tutoring for seniors",
-              "vi": "CLB nên tổ chức thăm hỏi người cao tuổi hàng tuần và dạy máy tính cơ bản miễn phí"
+              "en": "it would be highly effective to launch an eco-exchange program where residents trade recyclables for small plants",
+              "vi": "sẽ rất hiệu quả nếu mở chương trình đổi rác tái chế lấy chậu cây cảnh nhỏ"
             }
           ]
         },
         {
-          "name": "3. Đề xuất 3: [đề xuất thứ ba] (Mệnh đề hoàn chỉnh)",
+          "name": "3. Đề xuất 3: [đề xuất thứ ba] - Thu thập & Phát triển ý tưởng từ hội viên",
           "items": [
             {
-              "en": "the club should arrange a book and clothing donation drive for poor families",
-              "vi": "CLB nên tổ chức đợt quyên góp sách vở và quần áo cho các gia đình nghèo"
+              "en": "the club could hold a monthly meeting to collect new ideas from members",
+              "vi": "CLB có thể tổ chức buổi họp hàng tháng để thu thập ý tưởng mới từ hội viên (Theo bài mẫu)"
             },
             {
-              "en": "we could host monthly community charity banquets where neighbors cook together to raise charitable funds",
-              "vi": "chúng ta có thể tổ chức tiệc ẩm thực thiện nguyện hàng tháng nơi bà con cùng nấu ăn gây quỹ"
+              "en": "we ought to create an online suggestion box where members can freely propose creative project ideas",
+              "vi": "chúng ta nên lập hòm thư góp ý trực tuyến để hội viên tự do đề xuất ý tưởng dự án"
             },
             {
-              "en": "the club should establish structured mentorship circles pairing senior volunteers with newly enrolled members",
-              "vi": "CLB nên ghép đôi các tình nguyện viên kỳ cựu hướng dẫn người mới tham gia"
+              "en": "the management should organize quarterly brainstorming workshops to plan upcoming community events",
+              "vi": "ban quản lý nên tổ chức các buổi hội thảo lên ý tưởng hàng quý để lên kế hoạch sự kiện"
             }
           ]
         }
@@ -2692,17 +2692,17 @@ export const part4Data = {
       "samples": [
         {
           "title": "Bài mẫu chuẩn Band B2+",
-          "wordCount": 143,
-          "en": "Dear Club President,\n\nMy name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the upcoming neighborhood volunteer day and community projects. I believe this is a great idea that will strengthen local solidarity.\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, we should initiate a book and clothing donation drive targeting disadvantaged families in our ward.\nSecond, organizing clean-up campaigns across local public parks and water canals will markedly improve our shared environment.\nFinally, we could establish weekend tutoring circles where member volunteers teach English to underprivileged youngsters.\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
-          "vi": "Kính gửi Chủ tịch Câu lạc bộ,\n\nTên tôi là Kato, và tôi đã là một hội viên tích cực của câu lạc bộ chúng ta được hai năm. Trong thời gian này, tôi đã tham gia vào nhiều hoạt động ý nghĩa. Tôi viết thư này để chia sẻ góc nhìn và đưa ra một vài đề xuất mang tính xây dựng liên quan đến ngày hội tình nguyện khu dân cư và các dự án cộng đồng. Tôi tin chắc rằng đây là một ý tưởng rất hay giúp củng cố tinh thần đoàn kết địa phương.\n\nĐể giúp đạt được kết quả tốt nhất, tôi xin phép đưa ra ba đề xuất thực tế.\nThứ nhất, chúng ta nên phát động đợt quyên góp sách vở và quần áo hướng tới các gia đình có hoàn cảnh khó khăn trong phường.\nThứ hai, việc tổ chức các chiến dịch dọn vệ sinh công viên và kênh rạch địa phương sẽ cải thiện đáng kể môi trường chung.\nCuối cùng, chúng ta có thể thành lập các lớp gia sư cuối tuần nơi hội viên tình nguyện dạy tiếng Anh cho trẻ em nghèo.\n\nCảm ơn bạn đã dành thời gian xem xét thư. Tôi rất mong sớm nhận được phản hồi từ bạn.\n\nTrân trọng,\nKato",
+          "wordCount": 141,
+          "en": "Dear Club Manager,\n\nMy name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the need for more members and creative ideas for club activities. I believe we should attract more members and organize more interesting activities.\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, the club should advertise its activities on social media to attract new members.\nSecond, we could organize more interesting events, such as sports activities and charity projects.\nFinally, the club could hold a monthly meeting to collect new ideas from members.\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
+          "vi": "Kính gửi Quản lý Câu lạc bộ,\n\nTên tôi là Kato, và tôi đã là một hội viên tích cực của câu lạc bộ chúng ta được hai năm. Trong thời gian này, tôi đã tham gia vào nhiều hoạt động ý nghĩa. Tôi viết thư này để chia sẻ góc nhìn và đưa ra một vài đề xuất mang tính xây dựng liên quan đến nhu cầu tuyển thêm hội viên và ý tưởng sáng tạo cho các hoạt động của câu lạc bộ. Tôi tin rằng chúng ta nên thu hút thêm hội viên và tổ chức các hoạt động thú vị hơn.\n\nĐể giúp đạt được kết quả tốt nhất, tôi xin phép đưa ra ba đề xuất thực tế.\nThứ nhất, câu lạc bộ nên quảng bá các hoạt động trên mạng xã hội để thu hút thành viên mới.\nThứ hai, chúng ta có thể tổ chức nhiều sự kiện hấp dẫn hơn, chẳng hạn như các hoạt động thể thao và các dự án từ thiện.\nCuối cùng, câu lạc bộ có thể tổ chức một buổi họp hàng tháng để thu thập các ý tưởng mới từ hội viên.\n\nCảm ơn bạn đã dành thời gian xem xét thư. Tôi rất mong sớm nhận được phản hồi từ bạn.\n\nTrân trọng,\nKato",
           "analysis": [
             {
               "label": "Mở đầu, Mục đích & Quan điểm",
-              "text": "My name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the upcoming neighborhood volunteer day and community projects. I believe this is a great idea that will strengthen local solidarity."
+              "text": "My name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the need for more members and creative ideas for club activities. I believe we should attract more members and organize more interesting activities."
             },
             {
               "label": "3 Đề xuất thực tế",
-              "text": "To help achieve the best outcome, I would like to make some practical proposals. First, we should initiate a book and clothing donation drive targeting disadvantaged families in our ward. Second, organizing clean-up campaigns across local public parks and water canals will markedly improve our shared environment. Finally, we could establish weekend tutoring circles where member volunteers teach English to underprivileged youngsters."
+              "text": "To help achieve the best outcome, I would like to make some practical proposals. First, the club should advertise its activities on social media to attract new members. Second, we could organize more interesting events, such as sports activities and charity projects. Finally, the club could hold a monthly meeting to collect new ideas from members."
             },
             {
               "label": "Cảm ơn & Ký tên",

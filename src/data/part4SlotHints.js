@@ -75,8 +75,16 @@ export const part4SlotHints = {
     positive: true
   },
   "Community club": {
-    e1Topic: { en: "our Community Club is seeking more members and creative ideas for upcoming activities", vi: "CLB Cộng đồng đang tìm kiếm thêm thành viên và ý tưởng sáng tạo cho hoạt động" },
-    e2Topic: { en: "the plan to recruit new members and organize creative community activities", vi: "kế hoạch tuyển thêm hội viên mới và tổ chức các hoạt động cộng đồng sáng tạo" },
+    e1Topic: { en: "our Community Club is recruiting new members and looking for creative ideas", vi: "CLB Cộng đồng đang tuyển thêm thành viên và tìm kiếm ý tưởng sáng tạo" },
+    e2Topic: [
+      { en: "the need for more members and creative ideas for club activities", vi: "nhu cầu tuyển thêm hội viên và ý tưởng sáng tạo cho các hoạt động của CLB" },
+      { en: "the plan to attract new members and develop creative community activities", vi: "kế hoạch thu hút thành viên mới và phát triển các hoạt động cộng đồng sáng tạo" }
+    ],
+    perspectives: [
+      { isSafe: true, en: "we should attract more members and organize more interesting activities", vi: "chúng ta nên thu hút thêm hội viên và tổ chức các hoạt động thú vị hơn" },
+      { en: "this is a great idea that will help our club grow and thrive", vi: "đây là một ý tưởng rất hay sẽ giúp CLB phát triển mạnh mẽ" },
+      { en: "attracting enthusiastic members will bring fresh energy to our community projects", vi: "thu hút thành viên nhiệt huyết sẽ mang lại luồng sinh khí mới cho các dự án cộng đồng" }
+    ],
     positive: true
   },
   "Music club": {
