@@ -1806,17 +1806,7 @@ Kato`;
                                     boxShadow: isSafe ? '0 1px 3px rgba(34, 197, 94, 0.12)' : '0 1px 2px rgba(0,0,0,0.03)'
                                   }}
                                 >
-                                  {hint.choice === 'first' && (
-                                    <span style={{ backgroundColor: '#ecfdf5', color: '#047857', fontSize: '0.72rem', fontWeight: 700, padding: '1px 6px', borderRadius: '4px', marginRight: '0.45rem', border: '1px solid #a7f3d0', display: 'inline-flex', alignItems: 'center', whiteSpace: 'nowrap' }}>
-                                      🌿 First Choice
-                                    </span>
-                                  )}
-                                  {hint.choice === 'second' && (
-                                    <span style={{ backgroundColor: '#eff6ff', color: '#1d4ed8', fontSize: '0.72rem', fontWeight: 700, padding: '1px 6px', borderRadius: '4px', marginRight: '0.45rem', border: '1px solid #bfdbfe', display: 'inline-flex', alignItems: 'center', whiteSpace: 'nowrap' }}>
-                                      🏡 Second Choice
-                                    </span>
-                                  )}
-                                  {isSafe && !hint.choice && (
+                                  {isSafe && (
                                     <span style={{ backgroundColor: '#dcfce7', color: '#166534', fontSize: '0.72rem', fontWeight: 700, padding: '1px 6px', borderRadius: '4px', marginRight: '0.45rem', border: '1px solid #86efac', display: 'inline-flex', alignItems: 'center', gap: '2px', whiteSpace: 'nowrap' }}>
                                       🛡️ An toàn B2
                                     </span>
@@ -1853,17 +1843,17 @@ Kato`;
                                     boxShadow: isSafe ? '0 1px 3px rgba(34, 197, 94, 0.12)' : '0 1px 2px rgba(0,0,0,0.03)'
                                   }}
                                 >
-                                  {item.choice === 'first' && (
+                                  {hint.choice === 'first' && (
                                     <span style={{ backgroundColor: '#ecfdf5', color: '#047857', fontSize: '0.72rem', fontWeight: 700, padding: '1px 6px', borderRadius: '4px', marginRight: '0.45rem', border: '1px solid #a7f3d0', display: 'inline-flex', alignItems: 'center', whiteSpace: 'nowrap' }}>
                                       🌿 First Choice
                                     </span>
                                   )}
-                                  {item.choice === 'second' && (
+                                  {hint.choice === 'second' && (
                                     <span style={{ backgroundColor: '#eff6ff', color: '#1d4ed8', fontSize: '0.72rem', fontWeight: 700, padding: '1px 6px', borderRadius: '4px', marginRight: '0.45rem', border: '1px solid #bfdbfe', display: 'inline-flex', alignItems: 'center', whiteSpace: 'nowrap' }}>
                                       🏡 Second Choice
                                     </span>
                                   )}
-                                  {isSafe && !item.choice && (
+                                  {isSafe && !hint.choice && (
                                     <span style={{ backgroundColor: '#dcfce7', color: '#166534', fontSize: '0.72rem', fontWeight: 700, padding: '1px 6px', borderRadius: '4px', marginRight: '0.45rem', border: '1px solid #86efac', display: 'inline-flex', alignItems: 'center', gap: '2px', whiteSpace: 'nowrap' }}>
                                       🛡️ An toàn B2
                                     </span>
