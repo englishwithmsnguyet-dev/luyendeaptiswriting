@@ -730,8 +730,8 @@ export const part4Data = {
     "noticeVi": "Kính gửi các thành viên,\nCâu lạc bộ đang cần các tình nguyện viên làm diễn giả khách mời cho buổi talk show cùng một đầu bếp nổi tiếng. Vui lòng cho biết nguyện vọng làm diễn giả của bạn và bạn sẽ chia sẻ về chủ đề gì?",
     "promptAnalysis": {
       "topic": "Tình nguyện đăng ký làm diễn giả khách mời trong buổi tọa đàm cùng đầu bếp nổi tiếng",
-      "task1": "Viết email ngắn cho bạn (~50 từ): Kể về ý định đăng ký làm diễn giả, chủ đề món ăn gia đình lành mạnh và rủ bạn cùng tham gia chuẩn bị",
-      "task2": "Viết email cho Quản lý CLB (120-150 từ): Chính thức đăng ký làm diễn giả khách mời và đề xuất 3 ý tưởng cụ thể (chủ đề Bữa ăn gia đình dinh dưỡng tiết kiệm, phần trình diễn nấu ăn trực tiếp, hoạt động nếm thử món ăn cùng đầu bếp)"
+      "task1": "Viết email ngắn cho bạn (~50 từ): Kể về việc CLB cần diễn giả, bạn muốn đăng ký vì yêu thích nấu ăn và dự định chia sẻ công thức món ăn đơn giản, lành mạnh",
+      "task2": "Viết email cho Quản lý CLB (120-150 từ): Bày tỏ mong muốn làm diễn giả vì yêu thích nấu ăn, đề xuất 3 ý tưởng cụ thể (chia sẻ công thức nấu ăn đơn giản, hướng dẫn mẹo nấu nướng dễ áp dụng, biểu diễn nấu ăn ngắn giúp buổi nói chuyện thú vị)"
     },
     "email1": {
       "title": "Email 1: Gửi bạn bè (Informal)",
@@ -740,11 +740,15 @@ export const part4Data = {
       "wordTarget": "Khoảng 50 từ (45 - 60 từ)",
       "minWords": 45,
       "maxWords": 65,
-      "template": "Dear [Tên bạn],\nHow's it going? I hope you're doing well.\nI thought you'd be interested to hear that our Food Club needs volunteer speakers for a talk show with a famous chef. I was quite excited when I found out about it. Personally, I think I will volunteer to talk about quick healthy home-cooked meals because students need practical nutrition tips. Moreover, could you help me prepare my presentation slides?\nI would love to know what you think about this. Hope to hear from you soon.\nTake care,\n[Tên của bạn]",
+      "template": "Dear Kim,\nHow is it going? I thought you would like to know that the club needs volunteers to be guest speakers for a talk show with a famous chef. I was excited to hear about it.\nPersonally, I think I should volunteer as a guest speaker because I am interested in cooking. Moreover, I could talk about some simple and healthy recipes because they are useful for daily life. What do you think?\nHope to hear from you soon.\nTake care,\nKato",
       "vocabCategories": [
         {
           "name": "1. Bày tỏ Cảm xúc (Emotions)",
           "items": [
+            {
+              "en": "excited",
+              "vi": "hào hứng / phấn khởi (Theo bài mẫu)"
+            },
             {
               "en": "quite excited",
               "vi": "khá hào hứng"
@@ -754,8 +758,8 @@ export const part4Data = {
               "vi": "cực kỳ phấn khích"
             },
             {
-              "en": "eager to participate",
-              "vi": "rất hào hứng muốn tham gia ngay"
+              "en": "delighted",
+              "vi": "rất vui mừng"
             }
           ]
         },
@@ -763,16 +767,20 @@ export const part4Data = {
           "name": "2. [ý kiến & lý do] (Mệnh đề hoàn chỉnh)",
           "items": [
             {
-              "en": "volunteering as speakers is great because we can share our favorite recipes",
+              "en": "I should volunteer as a guest speaker because I am interested in cooking",
+              "vi": "tôi nên tình nguyện làm diễn giả khách mời vì tôi rất thích nấu ăn (Dễ - Theo bài mẫu)"
+            },
+            {
+              "en": "volunteering as a speaker is great because we can share our favorite recipes",
               "vi": "tình nguyện làm diễn giả rất tuyệt vì chúng mình có thể chia sẻ các công thức nấu ăn yêu thích"
             },
             {
-              "en": "this is an incredible opportunity because we can share our favorite culinary recipes",
-              "vi": "đây là cơ hội tuyệt vời vì chúng mình có thể chia sẻ công thức nấu ăn yêu thích"
+              "en": "I would love to be a guest speaker because I want to inspire other members to cook at home",
+              "vi": "mình rất muốn làm diễn giả vì muốn truyền cảm hứng cho mọi người tự nấu ăn tại nhà"
             },
             {
-              "en": "sharing tips on healthy meal prep on a budget is ideal because it helps all students",
-              "vi": "chia sẻ cách nấu ăn đủ chất tiết kiệm rất lý tưởng vì giúp ích cho sinh viên"
+              "en": "sharing simple cooking tips is useful because many students want to eat healthier",
+              "vi": "chia sẻ mẹo nấu ăn đơn giản rất hữu ích vì nhiều bạn sinh viên muốn ăn uống lành mạnh hơn"
             }
           ]
         },
@@ -780,16 +788,20 @@ export const part4Data = {
           "name": "3. [phát triển thêm ý] (Mệnh đề hoàn chỉnh)",
           "items": [
             {
-              "en": "we should sign up together to talk about simple and healthy daily meals",
-              "vi": "chúng mình nên cùng nhau đăng ký để nói về những bữa ăn đơn giản và lành mạnh hàng ngày"
+              "en": "I could talk about some simple and healthy recipes because they are useful for daily life",
+              "vi": "mình có thể chia sẻ về một số công thức nấu ăn đơn giản và bổ dưỡng vì chúng rất hữu ích cho cuộc sống hàng ngày (Dễ - Theo bài mẫu)"
             },
             {
-              "en": "we could team up and register as volunteer speakers together",
-              "vi": "chúng mình có thể lập nhóm và cùng đăng ký làm diễn giả tình nguyện"
+              "en": "I could demonstrate some easy cooking techniques with fresh vegetables",
+              "vi": "mình có thể biểu diễn vài kỹ thuật nấu ăn đơn giản với rau củ tươi"
             },
             {
-              "en": "we can prepare some homemade pastries to treat other attendees",
-              "vi": "chúng mình có thể làm một vài món bánh tự nướng để mời mọi người thưởng thức"
+              "en": "we should practice our presentation together this weekend to prepare well",
+              "vi": "chúng mình nên cùng nhau luyện tập bài nói vào cuối tuần này để chuẩn bị thật tốt"
+            },
+            {
+              "en": "could you help me prepare some nice slides for my presentation?",
+              "vi": "bạn có thể giúp mình chuẩn bị vài trang slide thật đẹp cho bài thuyết trình không?"
             }
           ]
         }
@@ -797,17 +809,17 @@ export const part4Data = {
       "samples": [
         {
           "title": "Bài mẫu chuẩn Band B2+",
-          "wordCount": 57,
-          "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our club needs guest speakers. I was really excited about it!\n\nPersonally, I think this opportunity is fantastic because we can share recipes. Moreover, we could volunteer as speakers together. What do you think? Hope to hear from you soon.\n\nTake care,\nKato",
-          "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin CLB của chúng mình cần diễn giả khách mời. Mình thực sự hào hứng về tin này!\n\nCá nhân mình thấy cơ hội này thật tuyệt vời vì chúng mình có thể chia sẻ công thức nấu ăn. Hơn nữa, chúng mình có thể cùng nhau đăng ký làm diễn giả. Bạn nghĩ sao? Mong sớm nhận được tin từ bạn.\n\nBảo trọng nhé,\nKato",
+          "wordCount": 83,
+          "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that the club needs volunteers to be guest speakers for a talk show with a famous chef. I was excited to hear about it.\n\nPersonally, I think I should volunteer as a guest speaker because I am interested in cooking. Moreover, I could talk about some simple and healthy recipes because they are useful for daily life. What do you think?\nHope to hear from you soon.\n\nTake care,\nKato",
+          "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin CLB đang cần tình nguyện viên làm diễn giả khách mời cho buổi tọa đàm cùng một đầu bếp nổi tiếng. Mình rất hào hứng khi nghe tin này.\n\nCá nhân mình thấy mình nên đăng ký làm diễn giả vì mình rất thích nấu ăn. Hơn nữa, mình có thể chia sẻ về một số công thức nấu ăn đơn giản và lành mạnh vì chúng rất hữu ích cho cuộc sống hàng ngày. Bạn nghĩ sao về ý tưởng này?\nMong sớm nhận được tin từ bạn.\n\nBảo trọng nhé,\nKato",
           "analysis": [
             {
               "label": "Chào hỏi & Tin tức",
-              "text": "Dear Kim, How is it going? I thought you would like to know that our club needs guest speakers. I was really excited about it!"
+              "text": "Dear Kim, How is it going? I thought you would like to know that the club needs volunteers to be guest speakers for a talk show with a famous chef. I was excited to hear about it."
             },
             {
               "label": "Quan điểm, Lý do & Đề xuất",
-              "text": "Personally, I think this opportunity is fantastic because we can share recipes. Moreover, we could volunteer as speakers together. What do you think? Hope to hear from you soon."
+              "text": "Personally, I think I should volunteer as a guest speaker because I am interested in cooking. Moreover, I could talk about some simple and healthy recipes because they are useful for daily life. What do you think? Hope to hear from you soon."
             },
             {
               "label": "Ký tên",
@@ -824,56 +836,68 @@ export const part4Data = {
       "wordTarget": "120 - 150 từ (chuẩn 120 - 165 từ)",
       "minWords": 120,
       "maxWords": 165,
-      "template": "Dear Club Manager,\nMy name is [tên người gửi], and I have been a member of the club for [thời gian: two years]. During this time, I have had the opportunity to participate in a wide range of meaningful activities, which have greatly enriched my experience and personal development.\nI am writing in response to your email to express my enthusiasm to volunteer as a guest speaker alongside the guest chef. I think this is a great idea.\nTo help make the talk show informative and engaging, I would like to make a few suggestions. First, I would love to present on \"Nutritious Family Meals on a Modest Budget\", which directly addresses our members' everyday needs. Second, it would be better to include a short 15-minute live cooking challenge where the chef and I prepare a dish using identical seasonal ingredients. Finally, we could organize a small tasting corner for the audience to evaluate the dishes. Overall, I am confident that these suggestions would make a positive difference and help the club achieve its objectives.\nThank you for taking the time to consider my suggestions. I sincerely hope they will be taken into consideration, and I look forward to your response.\nBest regards,\n[Tên của bạn]",
+      "template": "Dear Club Manager,\nMy name is Kato, and I have been an active member of our club for [thời gian tham gia: two years]. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding [thông tin trong đề bài]. I believe [nêu quan điểm về vấn đề đó].\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, [đề xuất thứ nhất].\nSecond, [đề xuất thứ hai].\nFinally, [đề xuất thứ ba].\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
       "vocabCategories": [
         {
-          "name": "1. Đề xuất 1: [đề xuất thứ nhất] (Mệnh đề hoàn chỉnh)",
+          "name": "1. Đề xuất 1: [đề xuất thứ nhất] - Chủ đề bài nói (Công thức món ăn đơn giản & lành mạnh)",
           "items": [
             {
-              "en": "the club should invite members to share simple and healthy home-cooking recipes",
-              "vi": "CLB nên mời các hội viên chia sẻ những công thức nấu ăn tại nhà đơn giản và bổ dưỡng"
+              "en": "I could talk about some simple and healthy recipes",
+              "vi": "tôi có thể chia sẻ về một số công thức nấu ăn đơn giản và bổ dưỡng (Dễ - Theo bài mẫu)"
             },
             {
-              "en": "I would like to volunteer as a speaker presenting 'Nutritious Family Meals on a Modest Budget'",
+              "en": "I could talk about some quick and nutritious meals that anyone can cook at home",
+              "vi": "tôi có thể nói về các bữa ăn nhanh gọn và đủ chất mà ai cũng có thể tự nấu ở nhà"
+            },
+            {
+              "en": "I would like to volunteer as a speaker presenting nutritious family meals on a modest budget",
               "vi": "tôi xin tình nguyện làm diễn giả chia sẻ chủ đề 'Bữa ăn gia đình đủ chất với chi phí vừa phải'"
             },
             {
-              "en": "the presentations should center on quick and wholesome recipes suitable for busy working people",
-              "vi": "các bài nói nên tập trung vào công thức nấu nhanh và lành mạnh cho người bận rộn"
+              "en": "the club should invite members to share practical recipes using affordable local ingredients",
+              "vi": "CLB nên mời các hội viên chia sẻ những công thức nấu ăn thực tế bằng nguyên liệu địa phương giá rẻ"
             }
           ]
         },
         {
-          "name": "2. Đề xuất 2: [đề xuất thứ hai] (Mệnh đề hoàn chỉnh)",
+          "name": "2. Đề xuất 2: [đề xuất thứ hai] - Mẹo nấu nướng dễ áp dụng (Easy cooking tips)",
           "items": [
             {
-              "en": "we should arrange a 30-minute cooking demonstration by the guest chef",
-              "vi": "chúng ta nên sắp xếp 30 phút biểu diễn nấu ăn của đầu bếp khách mời"
+              "en": "I could share some easy cooking tips with the audience",
+              "vi": "tôi có thể chia sẻ một số mẹo nấu ăn dễ áp dụng cho khán giả (Dễ - Theo bài mẫu)"
             },
             {
-              "en": "we should include a 30-minute live cooking demonstration by the celebrity chef",
-              "vi": "chúng ta nên có phần nấu ăn biểu diễn trực tiếp 30 phút từ đầu bếp nổi tiếng"
+              "en": "I could share practical tips on food safety and how to save cooking time on busy days",
+              "vi": "tôi có thể chia sẻ mẹo thực tế về an toàn thực phẩm và cách tiết kiệm thời gian nấu nướng vào những ngày bận rộn"
             },
             {
-              "en": "it would be fantastic to invite several audience members on stage to cook alongside the chef",
-              "vi": "sẽ rất tuyệt nếu mời một vài hội viên lên sân khấu cùng nấu ăn với đầu bếp"
+              "en": "we should include a thirty-minute live cooking demonstration by the celebrity chef",
+              "vi": "chúng ta nên có phần nấu ăn biểu diễn 30 phút từ đầu bếp nổi tiếng"
+            },
+            {
+              "en": "we could invite several audience members on stage to practice basic cooking skills with the chef",
+              "vi": "chúng ta có thể mời vài khán giả lên sân khấu thực hành kỹ năng nấu nướng cơ bản cùng đầu bếp"
             }
           ]
         },
         {
-          "name": "3. Đề xuất 3: [đề xuất thứ ba] (Mệnh đề hoàn chỉnh)",
+          "name": "3. Đề xuất 3: [đề xuất thứ ba] - Biểu diễn nấu ăn & Trải nghiệm thực tế (Short cooking demonstration)",
           "items": [
             {
-              "en": "the club should prepare small food samples, so attendees can taste the dishes",
-              "vi": "CLB nên chuẩn bị các phần thử món ăn nhỏ để người tham dự nếm thử"
+              "en": "I could prepare a short cooking demonstration to make the talk more interesting",
+              "vi": "tôi có thể chuẩn bị một phần biểu diễn nấu ăn ngắn để buổi nói chuyện thú vị hơn (Dễ - Theo bài mẫu)"
             },
             {
-              "en": "we could organize a tasting corner where attendees can sample freshly cooked dishes",
-              "vi": "chúng ta có thể tổ chức góc nếm thử để mọi người thưởng thức món ăn vừa chế biến"
+              "en": "the club could organize a tasting corner where attendees can sample freshly cooked dishes",
+              "vi": "CLB có thể tổ chức một góc nếm thử để người tham dự thưởng thức các món ăn vừa chế biến"
             },
             {
-              "en": "the club could distribute printed recipe cards and cooking vouchers to all participants",
-              "vi": "CLB có thể phát tờ công thức in màu và phiếu giảm giá nấu ăn cho người tham gia"
+              "en": "the club should prepare small food samples so attendees can taste the healthy dishes",
+              "vi": "CLB nên chuẩn bị các phần ăn thử nhỏ để người tham dự nếm các món ăn lành mạnh"
+            },
+            {
+              "en": "the club could distribute printed recipe cards and cooking souvenirs to all participants",
+              "vi": "CLB có thể phát thẻ công thức in màu và quà lưu niệm nấu ăn cho người tham gia"
             }
           ]
         }
@@ -881,17 +905,17 @@ export const part4Data = {
       "samples": [
         {
           "title": "Bài mẫu chuẩn Band B2+",
-          "wordCount": 140,
-          "en": "Dear Club Manager,\n\nMy name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the upcoming talk show and live cooking demonstration. I believe this is a great idea that will greatly inspire our members.\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, I would like to volunteer as a speaker presenting nutritious family meals on a modest budget.\nSecond, we should include a 30-minute live cooking demonstration by the celebrity chef.\nFinally, we could organize a tasting corner where attendees can sample freshly cooked dishes.\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
-          "vi": "Kính gửi Quản lý Câu lạc bộ,\n\nTên tôi là Kato, và tôi đã là một hội viên tích cực của câu lạc bộ chúng ta được hai năm. Trong thời gian này, tôi đã tham gia vào nhiều hoạt động ý nghĩa. Tôi viết thư này để chia sẻ góc nhìn và đưa ra một vài đề xuất mang tính xây dựng liên quan đến buổi tọa đàm sắp tới và phần nấu ăn biểu diễn. Tôi tin chắc rằng đây là một ý tưởng rất hay sẽ truyền cảm hứng lớn cho các hội viên.\n\nĐể giúp đạt được kết quả tốt nhất, tôi xin phép đưa ra ba đề xuất thực tế.\nThứ nhất, tôi xin tình nguyện làm diễn giả chia sẻ về bữa ăn gia đình đủ chất với chi phí vừa phải.\nThứ hai, chúng ta nên có phần nấu ăn biểu diễn 30 phút từ đầu bếp nổi tiếng.\nCuối cùng, chúng ta có thể tổ chức góc nếm thử để người tham dự thưởng thức các món ăn vừa chế biến.\n\nCảm ơn bạn đã dành thời gian xem xét thư. Tôi rất mong sớm nhận được phản hồi từ bạn.\n\nTrân trọng,\nKato",
+          "wordCount": 132,
+          "en": "Dear Club Manager,\n\nMy name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the talk show with a famous chef. I believe I can volunteer as a guest speaker because I am very interested in cooking.\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, I could talk about some simple and healthy recipes.\nSecond, I could share some easy cooking tips with the audience.\nFinally, I could prepare a short cooking demonstration to make the talk more interesting.\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
+          "vi": "Kính gửi Quản lý Câu lạc bộ,\n\nTên tôi là Kato, và tôi đã là một hội viên tích cực của câu lạc bộ chúng ta được hai năm. Trong thời gian này, tôi đã tham gia vào nhiều hoạt động ý nghĩa. Tôi viết thư này để chia sẻ góc nhìn và đưa ra một vài đề xuất mang tính xây dựng liên quan đến buổi tọa đàm cùng một đầu bếp nổi tiếng. Tôi tin rằng mình có thể tình nguyện làm diễn giả khách mời vì tôi rất yêu thích nấu ăn.\n\nĐể giúp đạt được kết quả tốt nhất, tôi xin phép đưa ra ba đề xuất thực tế.\nThứ nhất, tôi có thể chia sẻ về một số công thức nấu ăn đơn giản và lành mạnh.\nThứ hai, tôi có thể chia sẻ một số mẹo nấu ăn dễ áp dụng với khán giả.\nCuối cùng, tôi có thể chuẩn bị một phần biểu diễn nấu ăn ngắn để buổi nói chuyện trở nên thú vị hơn.\n\nCảm ơn bạn đã dành thời gian xem xét thư. Tôi rất mong sớm nhận được phản hồi từ bạn.\n\nTrân trọng,\nKato",
           "analysis": [
             {
               "label": "Mở đầu, Mục đích & Quan điểm",
-              "text": "My name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the upcoming talk show and live cooking demonstration. I believe this is a great idea that will greatly inspire our members."
+              "text": "My name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the talk show with a famous chef. I believe I can volunteer as a guest speaker because I am very interested in cooking."
             },
             {
               "label": "3 Đề xuất thực tế",
-              "text": "To help achieve the best outcome, I would like to make some practical proposals. First, I would like to volunteer as a speaker presenting nutritious family meals on a modest budget. Second, we should include a 30-minute live cooking demonstration by the celebrity chef. Finally, we could organize a tasting corner where attendees can sample freshly cooked dishes."
+              "text": "To help achieve the best outcome, I would like to make some practical proposals. First, I could talk about some simple and healthy recipes. Second, I could share some easy cooking tips with the audience. Finally, I could prepare a short cooking demonstration to make the talk more interesting."
             },
             {
               "label": "Cảm ơn & Ký tên",

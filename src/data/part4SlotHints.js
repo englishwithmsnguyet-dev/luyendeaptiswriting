@@ -15,8 +15,16 @@ export const part4SlotHints = {
     positive: true
   },
   "Food club": {
-    e1Topic: { en: "our Food Club is seeking volunteer speakers for an upcoming talk show with a celebrity chef", vi: "CLB Ẩm thực đang tìm diễn giả tình nguyện cho buổi trò chuyện cùng đầu bếp nổi tiếng" },
-    e2Topic: { en: "the plan to recruit volunteer speakers for the talk show with a famous chef", vi: "kế hoạch tuyển diễn giả tình nguyện cho buổi tọa đàm cùng đầu bếp nổi tiếng" },
+    e1Topic: { en: "the club needs volunteers to be guest speakers for a talk show with a famous chef", vi: "CLB cần tình nguyện viên làm diễn giả khách mời cho buổi talk show cùng đầu bếp nổi tiếng (Theo bài mẫu)" },
+    e2Topic: [
+      { en: "the talk show with a famous chef", vi: "buổi tọa đàm cùng đầu bếp nổi tiếng (Theo bài mẫu)" },
+      { en: "the plan to recruit volunteer speakers for the talk show with a famous chef", vi: "kế hoạch tuyển diễn giả tình nguyện cho buổi tọa đàm cùng đầu bếp nổi tiếng" }
+    ],
+    perspectives: [
+      { isSafe: true, en: "I can volunteer as a guest speaker because I am very interested in cooking", vi: "tôi có thể tình nguyện làm diễn giả khách mời vì tôi rất yêu thích nấu ăn (Theo bài mẫu)" },
+      { en: "this is a wonderful opportunity for members to learn practical cooking skills from a renowned chef", vi: "đây là cơ hội tuyệt vời để hội viên học hỏi kỹ năng nấu ăn thực tế từ đầu bếp danh tiếng" },
+      { en: "this talk show will inspire our members to cook more nutritious meals at home", vi: "buổi tọa đàm này sẽ truyền cảm hứng cho các thành viên tự nấu những bữa ăn đủ chất tại nhà" }
+    ],
     positive: true
   },
   "Social club": {
