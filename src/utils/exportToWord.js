@@ -113,13 +113,31 @@ export const exportToWord = async ({ clubName: targetClub = null, part: targetPa
     })
   );
 
+  // Helper to split multi-line text into TextRuns with Word line breaks (<w:br/>)
+  const formatTextRuns = (text, defaultOptions = {}) => {
+    if (!text) return [new TextRun({ text: "", ...defaultOptions })];
+    const lines = String(text).split(/\r?\n/);
+    const runs = [];
+    lines.forEach((line, index) => {
+      runs.push(
+        new TextRun({
+          text: line,
+          break: index > 0 ? 1 : undefined,
+          ...defaultOptions,
+        })
+      );
+    });
+    return runs;
+  };
+
   // Helper to add question, answer, word count, and grading feedback
   const addQA = (questionText, answerText, gradeInfo = null) => {
+    // 1. Question (supports multi-line prompt/questions)
     children.push(
       new Paragraph({
         children: [
           new TextRun({ text: "Câu hỏi: ", bold: true, color: "0f172a" }),
-          new TextRun({ text: questionText, italics: true, color: "334155" }),
+          ...formatTextRuns(questionText, { italics: true, color: "334155" }),
         ],
         spacing: { before: 200, after: 100 },
       })
@@ -127,17 +145,58 @@ export const exportToWord = async ({ clubName: targetClub = null, part: targetPa
     
     const count = answerText ? answerText.trim().split(/\s+/).filter(Boolean).length : 0;
     
-    children.push(
-      new Paragraph({
-        children: [
+    // 2. Answer (properly preserves all newlines and paragraphs in Word)
+    if (!answerText || !answerText.trim()) {
+      children.push(
+        new Paragraph({
+          children: [
+            new TextRun({ text: "Bài làm: ", bold: true, color: "047857" }),
+            new TextRun({ text: "(Chưa có câu trả lời)", color: "94a3b8" }),
+            new TextRun({ text: "   [Số từ: 0 từ]", italics: true, color: "64748b" }),
+          ],
+          spacing: { after: gradeInfo && gradeInfo.feedback ? 100 : 300 },
+        })
+      );
+    } else {
+      const lines = answerText.trim().split(/\r?\n/);
+      if (lines.length === 1) {
+        // Single-line answer (Part 1, short answers)
+        children.push(
+          new Paragraph({
+            children: [
+              new TextRun({ text: "Bài làm: ", bold: true, color: "047857" }),
+              new TextRun({ text: lines[0], color: "000000" }),
+              new TextRun({ text: `   [Số từ: ${count} từ]`, italics: true, color: "64748b" }),
+            ],
+            spacing: { after: gradeInfo && gradeInfo.feedback ? 100 : 300 },
+          })
+        );
+      } else {
+        // Multi-line answer (Part 4 emails, multi-paragraph essays)
+        const answerRuns = [
           new TextRun({ text: "Bài làm: ", bold: true, color: "047857" }),
-          new TextRun({ text: answerText || "(Chưa có câu trả lời)", color: answerText ? "000000" : "94a3b8" }),
           new TextRun({ text: `   [Số từ: ${count} từ]`, italics: true, color: "64748b" }),
-        ],
-        spacing: { after: gradeInfo && gradeInfo.feedback ? 100 : 300 },
-      })
-    );
+        ];
+        lines.forEach(line => {
+          answerRuns.push(
+            new TextRun({
+              text: line,
+              break: 1,
+              color: "000000",
+            })
+          );
+        });
 
+        children.push(
+          new Paragraph({
+            children: answerRuns,
+            spacing: { after: gradeInfo && gradeInfo.feedback ? 100 : 300 },
+          })
+        );
+      }
+    }
+
+    // 3. Feedback & Grade
     if (gradeInfo && gradeInfo.feedback) {
       children.push(
         new Paragraph({
@@ -147,7 +206,7 @@ export const exportToWord = async ({ clubName: targetClub = null, part: targetPa
               bold: true, 
               color: gradeInfo.status === 'success' ? "059669" : (gradeInfo.status === 'warning' ? "d97706" : "dc2626") 
             }),
-            new TextRun({ text: gradeInfo.feedback, italics: true, color: "475569" }),
+            ...formatTextRuns(gradeInfo.feedback, { italics: true, color: "475569" }),
           ],
           spacing: { after: 300 },
         })
@@ -277,7 +336,7 @@ export const exportToWord = async ({ clubName: targetClub = null, part: targetPa
           new Paragraph({
             children: [
               new TextRun({ text: "Thông báo từ CLB: ", bold: true, color: "1e40af" }),
-              new TextRun({ text: club.notice, italics: true, color: "334155" })
+              ...formatTextRuns(club.notice, { italics: true, color: "334155" }),
             ],
             spacing: { after: 200 }
           })
