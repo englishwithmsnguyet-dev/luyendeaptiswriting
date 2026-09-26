@@ -1,17 +1,41 @@
 export const part4SlotHints = {
   "Walking club": {
-    e1Topic: { en: "our Walking Club is planning to organize a monthly walking event", vi: "CLB Đi bộ đang lên kế hoạch tổ chức sự kiện đi bộ hàng tháng" },
-    e2Topic: { en: "the plan to organize a monthly walking event to attract more members", vi: "kế hoạch tổ chức sự kiện đi bộ hàng tháng nhằm thu hút thêm hội viên" },
+    e1Topic: { en: "our Walking Club is planning to organize a monthly walking event to attract more members", vi: "CLB Đi bộ đang lên kế hoạch tổ chức sự kiện đi bộ hàng tháng để thu hút thêm hội viên" },
+    e2Topic: [
+      { en: "the plan to organize a monthly walking event to attract more members", vi: "kế hoạch tổ chức sự kiện đi bộ hàng tháng nhằm thu hút thêm hội viên" },
+      { en: "the monthly walking event", vi: "sự kiện đi bộ hàng tháng (Ngắn gọn)" }
+    ],
+    perspectives: [
+      { isSafe: true, en: "this is a wonderful idea that will encourage members to stay active and healthy", vi: "đây là một ý tưởng tuyệt vời giúp khuyến khích các hội viên rèn luyện sức khỏe (Dùng an toàn B2)" },
+      { en: "organizing a monthly walk is a great way to attract new members and foster community spirit", vi: "tổ chức đi bộ hàng tháng là cách rất hay để thu hút hội viên mới và xây dựng tinh thần cộng đồng" },
+      { en: "this event will bring great health benefits and help members unwind outdoors", vi: "sự kiện này sẽ mang lại lợi ích sức khỏe lớn và giúp hội viên thư giãn ngoài trời" }
+    ],
     positive: true
   },
   "Fitness club": {
-    e1Topic: { en: "our Fitness Club is planning to increase the membership fee by 15% to upgrade workout equipment", vi: "CLB Thể hình dự định tăng 15% phí hội viên để nâng cấp thiết bị tập" },
-    e2Topic: { en: "the plan to upgrade workout equipment and adjust membership fees", vi: "kế hoạch nâng cấp thiết bị tập và điều chỉnh phí hội viên" },
+    e1Topic: { en: "our Fitness Club is planning to upgrade workout equipment and adjust membership fees by 15%", vi: "CLB Thể hình dự định nâng cấp thiết bị tập và điều chỉnh phí hội viên thêm 15%" },
+    e2Topic: [
+      { en: "the plan to upgrade workout equipment and adjust membership fees by 15%", vi: "kế hoạch nâng cấp thiết bị tập và điều chỉnh phí hội viên thêm 15%" },
+      { en: "the proposed fee adjustment and facility upgrade", vi: "việc điều chỉnh phí và nâng cấp cơ sở vật chất" }
+    ],
+    perspectives: [
+      { isSafe: true, en: "upgrading our workout facilities is necessary, but the fee increase should be handled carefully", vi: "nâng cấp cơ sở vật chất là cần thiết, nhưng việc tăng phí cần được xử lý cẩn trọng (An toàn B2)" },
+      { en: "this fee adjustment is reasonable if the club provides modern equipment and improved services", vi: "việc điều chỉnh phí là hợp lý nếu CLB đầu tư máy móc hiện đại và cải thiện dịch vụ" },
+      { en: "an immediate 15% increase might cause financial difficulty for students and budget-conscious members", vi: "tăng ngay 15% có thể gây khó khăn tài chính cho học sinh sinh viên" }
+    ],
     positive: false
   },
   "Art club": {
-    e1Topic: { en: "our Art Club is organizing a public talk with a guest artist", vi: "CLB Mỹ thuật đang tổ chức buổi nói chuyện công chúng với nghệ sĩ khách mời" },
-    e2Topic: { en: "the plan to invite a guest artist for the upcoming public talk", vi: "kế hoạch mời một nghệ sĩ khách mời cho buổi nói chuyện trước công chúng sắp tới" },
+    e1Topic: { en: "our Art Club is organizing a public talk with an artist to attract both young and elderly members", vi: "CLB Mỹ thuật đang tổ chức buổi nói chuyện công chúng với nghệ sĩ để thu hút cả hội viên trẻ và cao tuổi" },
+    e2Topic: [
+      { en: "the plan to organize a public talk with an artist to attract both young and elderly members", vi: "kế hoạch tổ chức buổi nói chuyện công chúng với nghệ sĩ nhằm thu hút cả người trẻ và người cao tuổi" },
+      { en: "the public talk with a guest artist", vi: "buổi nói chuyện công chúng với nghệ sĩ khách mời (Ngắn gọn)" }
+    ],
+    perspectives: [
+      { isSafe: true, en: "this is a wonderful initiative that will help attract members of all generations to our club", vi: "đây là một sáng kiến tuyệt vời sẽ giúp thu hút hội viên thuộc mọi thế hệ đến với CLB (An toàn B2)" },
+      { en: "inviting a guest artist is a great way to inspire our members and raise the club's profile", vi: "mời nghệ sĩ khách mời là cách rất hay để truyền cảm hứng cho hội viên và nâng cao danh tiếng CLB" },
+      { en: "this talk show will encourage more local residents to appreciate art and develop creative hobbies", vi: "buổi tọa đàm sẽ khuyến khích nhiều cư dân địa phương yêu thích nghệ thuật và phát triển sở thích sáng tạo" }
+    ],
     positive: true
   },
   "Food club": {
@@ -28,18 +52,42 @@ export const part4SlotHints = {
     positive: true
   },
   "Social club": {
-    e1Topic: { en: "our Social Club is going to organize monthly in-person gatherings", vi: "CLB Xã hội sẽ tổ chức các buổi gặp mặt trực tiếp hàng tháng" },
-    e2Topic: { en: "the plan to organize monthly face-to-face meetings for club members", vi: "kế hoạch tổ chức các buổi gặp mặt trực tiếp hàng tháng cho hội viên" },
+    e1Topic: { en: "our Social Club is going to organize monthly face-to-face meetings for both young and older members", vi: "CLB Xã hội sẽ tổ chức các buổi gặp mặt trực tiếp hàng tháng cho cả người trẻ và người lớn tuổi" },
+    e2Topic: [
+      { en: "the plan to organize monthly face-to-face meetings for both young and older members", vi: "kế hoạch tổ chức các buổi gặp mặt trực tiếp hàng tháng cho cả người trẻ và người lớn tuổi" },
+      { en: "the monthly face-to-face meetings", vi: "các buổi gặp gỡ trực tiếp hàng tháng (Ngắn gọn)" }
+    ],
+    perspectives: [
+      { isSafe: true, en: "this is a wonderful initiative that will help connect younger and older members", vi: "đây là một sáng kiến tuyệt vời giúp gắn kết các hội viên trẻ và lớn tuổi (An toàn B2)" },
+      { en: "holding regular in-person meetings is a great way to foster genuine friendships across generations", vi: "tổ chức gặp mặt trực tiếp định kỳ là cách rất hay để thắt chặt tình bạn giữa các thế hệ" },
+      { en: "this is an excellent idea to help members unwind, socialize, and overcome digital isolation", vi: "đây là ý tưởng tuyệt vời giúp hội viên thư giãn, giao lưu và tránh cảm giác cô lập trên mạng" }
+    ],
     positive: true
   },
   "Social club 2": {
-    e1Topic: { en: "our Social Club is organizing in-person gatherings for both adults and children next month", vi: "CLB Xã hội tổ chức các buổi gặp gỡ trực tiếp cho cả người lớn và trẻ em" },
-    e2Topic: { en: "the plan to organize face-to-face gatherings with indoor and outdoor activities", vi: "kế hoạch tổ chức các buổi gặp gỡ trực tiếp với các hoạt động trong nhà và ngoài trời" },
+    e1Topic: { en: "our Social Club is organizing face-to-face meetings for both adults and children next month", vi: "CLB Xã hội tổ chức các buổi gặp gỡ trực tiếp cho cả người lớn và trẻ em vào tháng tới" },
+    e2Topic: [
+      { en: "the plan to organize face-to-face meetings for both adults and children", vi: "kế hoạch tổ chức các buổi gặp mặt trực tiếp cho cả người lớn và trẻ em" },
+      { en: "the upcoming face-to-face meetings with indoor and outdoor activities", vi: "các buổi gặp mặt trực tiếp sắp tới với các hoạt động trong nhà và ngoài trời" }
+    ],
+    perspectives: [
+      { isSafe: true, en: "organizing both indoor and outdoor activities is the best option because it satisfies members of all ages", vi: "tổ chức cả hoạt động trong nhà và ngoài trời là lựa chọn tốt nhất vì đáp ứng nhu cầu mọi lứa tuổi (An toàn B2)" },
+      { en: "combining indoor and outdoor activities will make the event exciting and family-friendly", vi: "kết hợp hoạt động trong nhà và ngoài trời sẽ làm sự kiện hấp dẫn và thân thiện với các gia đình" },
+      { en: "offering varied activities ensures that every attendee finds something engaging to participate in", vi: "cung cấp các hoạt động đa dạng đảm bảo mọi người tham gia đều tìm thấy điều bổ ích" }
+    ],
     positive: true
   },
   "Beautiful homes club": {
     e1Topic: { en: "the government has a proposal to knock down old buildings and build modern blocks", vi: "chính quyền có đề xuất phá bỏ các tòa nhà cũ để xây chung cư hiện đại" },
-    e2Topic: { en: "the plan to replace old buildings with modern apartment blocks", vi: "kế hoạch thay thế các tòa nhà cũ bằng các khu chung cư hiện đại" },
+    e2Topic: [
+      { en: "the government proposal to demolish old buildings and build modern blocks", vi: "đề xuất của chính quyền về việc phá dỡ các công trình cổ để xây chung cư hiện đại" },
+      { en: "the plan to replace old buildings with modern apartment blocks", vi: "kế hoạch thay thế các tòa nhà cổ bằng các khu chung cư hiện đại" }
+    ],
+    perspectives: [
+      { isSafe: true, en: "this proposal is quite regrettable because old buildings possess great historical and cultural value", vi: "đề xuất này là điều khá đáng tiếc vì các công trình cổ mang giá trị lịch sử và văn hóa to lớn (An toàn B2)" },
+      { en: "preserving architectural heritage is essential because historic charm cannot be rebuilt once lost", vi: "bảo tồn di sản kiến trúc là thiết yếu vì nét đẹp cổ kính một khi mất đi sẽ không thể xây lại" },
+      { en: "we must carefully balance urban modernization with the conservation of our historic architecture", vi: "chúng ta cần cân bằng cẩn thận giữa hiện đại hóa đô thị và bảo tồn kiến trúc lịch sử" }
+    ],
     positive: false
   },
   "Living home club": {
@@ -56,8 +104,16 @@ export const part4SlotHints = {
     positive: true
   },
   "Garden club": {
-    e1Topic: { en: "Mr. Seiko's Japanese garden talk has been canceled and Mr. Jones will speak instead", vi: "bài nói về Vườn Nhật Bản của ông Seiko bị hủy và ông Jones sẽ nói thay" },
-    e2Topic: { en: "the plan to invite Mr. Jones as a replacement speaker for Mr. Seiko", vi: "kế hoạch mời ông Jones làm diễn giả thay thế cho ông Seiko" },
+    e1Topic: { en: "Mr. Seiko's Japanese garden talk has been canceled because he is ill, and Mr. Jones will speak instead", vi: "bài nói về Vườn Nhật Bản của ông Seiko bị hủy do ông bị ốm, và ông Jones sẽ nói thay" },
+    e2Topic: [
+      { en: "the plan to invite Mr. Jones as a substitute speaker for Mr. Seiko", vi: "kế hoạch mời ông Jones làm diễn giả thay thế cho ông Seiko" },
+      { en: "the cancellation of Mr. Seiko's talk and the replacement session by Mr. Jones", vi: "việc hủy buổi nói chuyện của ông Seiko và buổi nói chuyện thay thế của ông Jones" }
+    ],
+    perspectives: [
+      { isSafe: true, en: "inviting Mr. Jones as a substitute speaker is a reasonable temporary decision", vi: "mời ông Jones làm diễn giả thay thế là một quyết định tạm thời hợp lý (An toàn B2)" },
+      { en: "this is an understandable change, but we should make the session engaging since many members have heard Mr. Jones before", vi: "đây là thay đổi dễ hiểu, nhưng nên làm buổi nói chuyện thú vị vì nhiều người đã nghe ông Jones trước đó" },
+      { en: "I am sorry to hear about Mr. Seiko's illness and hope he makes a rapid recovery", vi: "tôi rất tiếc khi biết tin ông Seiko bị ốm và mong ông sớm bình phục" }
+    ],
     positive: false
   },
   "Garden club 2": {
