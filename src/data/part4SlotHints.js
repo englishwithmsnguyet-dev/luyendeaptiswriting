@@ -133,17 +133,41 @@ export const part4SlotHints = {
   },
   "Sports club": {
     e1Topic: { en: "our Sports Club is planning to organize a sports competition for young members", vi: "CLB Thể thao đang lên kế hoạch tổ chức giải đấu thể thao cho hội viên trẻ" },
-    e2Topic: { en: "the plan to organize a sports competition for young members", vi: "kế hoạch tổ chức cuộc thi thể thao dành cho các hội viên trẻ" },
+    e2Topic: [
+      { en: "the plan to organize a sports competition for young members", vi: "kế hoạch tổ chức cuộc thi thể thao dành cho các hội viên trẻ" },
+      { en: "the youth sports competition", vi: "cuộc thi thể thao thanh thiếu niên (Ngắn gọn)" }
+    ],
+    perspectives: [
+      { isSafe: true, en: "this is a wonderful initiative that will encourage members to stay active and healthy", vi: "đây là một sáng kiến tuyệt vời giúp khuyến khích các hội viên rèn luyện sức khỏe (An toàn B2)" },
+      { en: "organizing a sports competition is a great way to foster teamwork and attract young members", vi: "tổ chức thi đấu thể thao là cách rất hay để nâng cao tinh thần đồng đội và thu hút người trẻ" },
+      { en: "this event will bring great excitement and promote a healthy lifestyle among our youth", vi: "sự kiện này sẽ mang lại không khí sôi nổi và lan tỏa lối sống lành mạnh cho thanh thiếu niên" }
+    ],
     positive: true
   },
   "Film club": {
-    e1Topic: { en: "a renowned film critic is speaking at our Film Club next week", vi: "một nhà phê bình phim nổi tiếng sẽ đến nói chuyện tại CLB Điện ảnh vào tuần tới" },
-    e2Topic: { en: "the plan to invite a famous film critic to deliver a talk", vi: "kế hoạch mời một nhà phê bình phim nổi tiếng đến thuyết trình" },
+    e1Topic: { en: "our Film Club is going to invite a famous film critic next week", vi: "CLB Điện ảnh sắp mời một nhà phê bình phim nổi tiếng vào tuần tới" },
+    e2Topic: [
+      { en: "the upcoming talk by the famous film critic", vi: "buổi nói chuyện sắp tới của nhà phê bình phim nổi tiếng" },
+      { en: "the plan to invite a famous film critic to deliver a talk", vi: "kế hoạch mời nhà phê bình phim nổi tiếng đến thuyết trình" }
+    ],
+    perspectives: [
+      { isSafe: true, en: "this is a wonderful initiative that will enrich our cinematic knowledge", vi: "đây là một sáng kiến tuyệt vời sẽ làm phong phú thêm kiến thức điện ảnh của chúng ta (An toàn B2)" },
+      { en: "inviting a renowned film critic is a great way to inspire our members and attract movie enthusiasts", vi: "mời một nhà phê bình phim tên tuổi là cách rất hay để truyền cảm hứng cho hội viên và thu hút người yêu điện ảnh" },
+      { en: "this talk show will provide valuable insights into filmmaking and movie critique", vi: "buổi tọa đàm sẽ đem lại những hiểu biết quý giá về nghệ thuật làm phim và phê bình điện ảnh" }
+    ],
     positive: true
   },
   "Car club": {
-    e1Topic: { en: "our Car Club has been invited to send two representatives on a road trip across Europe", vi: "CLB Xe hơi được mời cử 2 đại diện tham gia chuyến lái xe xuyên châu Âu" },
-    e2Topic: { en: "the plan to select two club representatives for the European road trip", vi: "kế hoạch tuyển chọn hai đại diện CLB tham gia chuyến đi xuyên châu Âu" },
+    e1Topic: { en: "our Car Club is invited to send two representatives on a road trip across Europe", vi: "CLB Xe hơi được mời cử 2 đại diện tham gia chuyến lái xe xuyên châu Âu" },
+    e2Topic: [
+      { en: "the selection of two club representatives for the European road trip", vi: "việc tuyển chọn hai đại diện CLB tham gia chuyến đi xuyên châu Âu" },
+      { en: "the plan to send two skilled representatives on the trans-European road trip", vi: "kế hoạch cử hai đại diện có kỹ năng tham gia hành trình xuyên châu Âu" }
+    ],
+    perspectives: [
+      { isSafe: true, en: "this is a prestigious opportunity that will promote our club's reputation", vi: "đây là một cơ hội danh giá giúp nâng cao uy tín của câu lạc bộ chúng ta (An toàn B2)" },
+      { en: "sending skilled representatives to this international road trip will bring great pride to our club", vi: "cử đại diện tài năng tham gia hành trình quốc tế này sẽ mang lại niềm tự hào lớn cho CLB" },
+      { en: "this cross-country journey requires careful candidate selection to guarantee absolute road safety", vi: "hành trình xuyên quốc gia này đòi hỏi sự tuyển chọn kỹ lưỡng để đảm bảo an toàn giao thông tuyệt đối" }
+    ],
     positive: true
   },
   "Community club": {
@@ -160,8 +184,16 @@ export const part4SlotHints = {
     positive: true
   },
   "Music club": {
-    e1Topic: { en: "local residents have complained about noise during our evening concerts", vi: "người dân xung quanh phàn nàn về tiếng ồn trong các buổi hòa nhạc buổi tối" },
-    e2Topic: { en: "the plan to address noise complaints from neighbors regarding evening concerts", vi: "kế hoạch giải quyết khiếu nại tiếng ồn từ hàng xóm về các buổi hòa nhạc buổi tối" },
+    e1Topic: { en: "neighbors have complained about noise from our evening concerts, so they might be canceled", vi: "hàng xóm phàn nàn về tiếng ồn từ các buổi hòa nhạc buổi tối nên có thể sự kiện sẽ bị hủy" },
+    e2Topic: [
+      { en: "the noise complaints from neighbors about our evening concerts", vi: "khiếu nại tiếng ồn từ hàng xóm về các buổi hòa nhạc buổi tối" },
+      { en: "the plan to address noise complaints from neighbors regarding evening concerts", vi: "kế hoạch giải quyết khiếu nại tiếng ồn từ hàng xóm đối với các buổi biểu diễn tối" }
+    ],
+    perspectives: [
+      { isSafe: true, en: "resolving this noise issue is essential to keep our concerts running", vi: "giải quyết vấn đề tiếng ồn này là điều thiết yếu để các buổi hòa nhạc tiếp tục diễn ra (An toàn B2)" },
+      { en: "this is an urgent situation that requires immediate soundproofing measures to protect neighbor relations", vi: "đây là tình huống cấp bách cần các biện pháp cách âm ngay lập tức để giữ gìn quan hệ xóm giềng" },
+      { en: "we must find practical compromises so members can perform without disturbing the local neighborhood", vi: "chúng ta phải tìm giải pháp dung hòa để hội viên được biểu diễn mà không làm phiền khu dân cư" }
+    ],
     positive: false
   },
   "English club 1": {
@@ -219,7 +251,15 @@ export const part4SlotHints = {
   },
   "Museum club": {
     e1Topic: { en: "our Museum Club is discussing whether to collect admission tickets from visitors to cover repairs and staff costs", vi: "CLB Bảo tàng đang thảo luận về việc có nên thu vé vào cửa đối với khách tham quan để trang trải chi phí sửa chữa và trả lương cho nhân viên hay không" },
-    e2Topic: { en: "the plan to collect admission tickets from visitors to fund repairs and staff salaries", vi: "kế hoạch thu vé vào cửa đối với khách tham quan để có kinh phí sửa chữa và trả lương nhân viên" },
+    e2Topic: [
+      { en: "the plan to collect admission tickets from visitors to fund repairs and staff salaries", vi: "kế hoạch thu vé vào cửa đối với khách tham quan để có kinh phí sửa chữa và trả lương nhân viên" },
+      { en: "the proposed museum admission fee policy", vi: "chính sách đề xuất thu phí vé vào cửa bảo tàng" }
+    ],
+    perspectives: [
+      { isSafe: true, en: "charging a small fee is necessary, but we must keep museums accessible to everyone", vi: "thu một khoản phí nhỏ là cần thiết, nhưng chúng ta phải giữ cho bảo tàng dễ tiếp cận với mọi người (An toàn B2)" },
+      { en: "this ticket policy is reasonable because maintaining historic artifacts requires significant funding", vi: "chính sách bán vé này là hợp lý vì bảo tồn hiện vật lịch sử đòi hỏi nguồn kinh phí đáng kể" },
+      { en: "we should balance generating operational revenue with keeping free access for young students", vi: "chúng ta nên cân bằng giữa việc tạo nguồn thu vận hành và giữ miễn phí vé cho học sinh sinh viên" }
+    ],
     positive: false
   },
   "Photography club": {

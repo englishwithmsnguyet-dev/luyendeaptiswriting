@@ -270,7 +270,7 @@ export const part4Data = {
         {
           "title": "Bài mẫu chuẩn Band B2+",
           "wordCount": 142,
-          "en": "Dear Club Manager,\n\nMy name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the monthly walking event to attract more members. I believe this is a wonderful idea that will encourage members to stay active.\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, we should select safe, scenic, and gentle walking trails so participants of all fitness levels can participate.\nSecond, the club should organize fun mini-games or photo contests along the route to make the walk more enjoyable.\nFinally, we could promote the event on social media and prepare fresh water and light snacks for all participants.\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
+          "en": "Dear Club Manager,\n\nMy name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the monthly walking event to attract more members. I believe this is a wonderful idea that will encourage members to stay active.\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, we should select safe and scenic walking trails so participants of all fitness levels can participate.\nSecond, the club should organize fun mini-games or photo contests along the route to make the walk more enjoyable.\nFinally, we could promote the event on social media and prepare light snacks for all participants.\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
           "vi": "Kính gửi Quản lý Câu lạc bộ,\n\nTên tôi là Kato, và tôi đã là một hội viên tích cực của câu lạc bộ chúng ta được hai năm. Trong thời gian này, tôi đã tham gia vào nhiều hoạt động ý nghĩa. Tôi viết thư này để chia sẻ góc nhìn và đưa ra một vài đề xuất mang tính xây dựng liên quan đến kế hoạch tổ chức sự kiện đi bộ hàng tháng nhằm thu hút thêm hội viên. Tôi tin chắc rằng đây là một ý tưởng tuyệt vời giúp khuyến khích các hội viên rèn luyện sức khỏe.\n\nĐể giúp sự kiện thành công, tôi xin phép đưa ra một vài đề xuất.\nThứ nhất, chúng ta nên lựa chọn các cung đường đi bộ an toàn, có cảnh quan đẹp và vừa sức để người tham gia ở mọi thể lực đều có thể tận hưởng sự kiện.\nThứ hai, câu lạc bộ nên tổ chức các trò chơi nhỏ vui nhộn hoặc cuộc thi chụp ảnh dọc đường để buổi đi bộ thêm phần thú vị.\nCuối cùng, chúng ta có thể quảng bá sự kiện trên mạng xã hội và chuẩn bị nước uống mát cùng đồ ăn nhẹ tốt cho sức khỏe cho toàn thể người tham gia.\n\nCảm ơn bạn đã dành thời gian xem xét thư. Tôi rất mong sớm nhận được phản hồi từ bạn.\n\nTrân trọng,\nKato",
           "analysis": [
             { "label": "Mở đầu, Mục đích & Quan điểm", "text": "My name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the plan to organize a monthly walking event to attract more members. I believe this is a wonderful idea that will encourage members to stay active and healthy." },
@@ -484,7 +484,7 @@ export const part4Data = {
         {
           "title": "Bài mẫu chuẩn Band B2+",
           "wordCount": 144,
-          "en": "Dear Club Manager,\n\nMy name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the public talk to attract both young and elderly members. I believe this is a wonderful idea that will benefit our club.\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, we should invite a popular local artist who has experience working with both youth and senior citizens.\nSecond, the speaker should talk about how art and painting can improve our mental well-being and bring joy to daily life.\nFinally, the club could promote the event on social media and at community centers to reach people of all ages.\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
+          "en": "Dear Club Manager,\n\nMy name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the public talk to attract both young and elderly members. I believe this is a wonderful idea that will benefit our club.\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, we should invite a popular local artist who has experience working with both youth and senior citizens.\nSecond, the speaker should talk about how painting can improve mental well-being and bring joy to daily life.\nFinally, the club could promote the event on social media and community centers to attract visitors.\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
           "vi": "Kính gửi Quản lý Câu lạc bộ,\n\nTên tôi là Kato, và tôi đã là một hội viên tích cực của câu lạc bộ chúng ta được hai năm. Trong thời gian này, tôi đã tham gia vào nhiều hoạt động ý nghĩa. Tôi viết thư này để chia sẻ góc nhìn và đưa ra một vài đề xuất mang tính xây dựng liên quan đến kế hoạch tổ chức buổi nói chuyện công chúng với nghệ sĩ nhằm thu hút cả hội viên trẻ và người cao tuổi. Tôi tin rằng đây là một sáng kiến tuyệt vời giúp thu hút hội viên thuộc mọi thế hệ đến với CLB.\n\nĐể giúp sự kiện thành công, tôi xin phép đưa ra một vài đề xuất.\nThứ nhất, chúng ta nên mời một họa sĩ địa phương nổi tiếng có kinh nghiệm làm việc với cả thanh thiếu niên và người cao tuổi.\nThứ hai, diễn giả nên nói về cách nghệ thuật và hội họa có thể cải thiện sức khỏe tinh thần và mang lại niềm vui cho cuộc sống hàng ngày.\nCuối cùng, câu lạc bộ có thể quảng bá sự kiện trên mạng xã hội và tại các trung tâm văn hóa cộng đồng để tiếp cận người dân ở mọi lứa tuổi.\n\nCảm ơn bạn đã dành thời gian xem xét thư. Tôi rất mong sớm nhận được phản hồi từ bạn.\n\nTrân trọng,\nKato",
           "analysis": [
             { "label": "Mở đầu, Mục đích & Quan điểm", "text": "My name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the plan to organize a public talk with an artist to attract both young and elderly members. I believe this is a wonderful initiative that will help attract members of all generations to our club." },
@@ -1623,17 +1623,17 @@ export const part4Data = {
       "samples": [
         {
           "title": "Bài mẫu chuẩn Band B2+",
-          "wordCount": 56,
-          "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our club plans a tournament. I was thrilled about it!\n\nPersonally, I think holding a badminton cup is great because it promotes team spirit. Moreover, we should practice together. What do you think? Hope to hear from you soon.\n\nTake care,\nKato",
-          "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin CLB dự định tổ chức giải đấu thể thao. Mình rất hào hứng về tin này!\n\nCá nhân mình thấy tổ chức giải cầu lông rất tuyệt vì nâng cao tinh thần đồng đội. Hơn nữa, chúng mình nên tập luyện cùng nhau. Bạn nghĩ sao? Mong sớm nhận được tin từ bạn.\n\nBảo trọng nhé,\nKato",
+          "wordCount": 59,
+          "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our Sports Club is planning a sports competition for young members. I was thrilled about it!\n\nPersonally, I think holding mini football and badminton is great because these sports foster teamwork. Moreover, we should form a team to practice together. What do you think? Hope to hear from you soon.\n\nTake care,\nKato",
+          "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin CLB Thể thao của chúng mình đang lên kế hoạch tổ chức một giải đấu thể thao cho hội viên trẻ. Mình rất hào hứng về tin này!\n\nCá nhân mình thấy tổ chức bóng đá mini và cầu lông rất tuyệt vì các môn này giúp nâng cao tinh thần đồng đội. Hơn nữa, chúng mình nên lập một đội để tập luyện cùng nhau. Bạn nghĩ sao? Mong sớm nhận được tin từ bạn.\n\nBảo trọng nhé,\nKato",
           "analysis": [
             {
               "label": "Chào hỏi & Tin tức",
-              "text": "Dear Kim, How is it going? I thought you would like to know that our club plans a tournament. I was thrilled about it!"
+              "text": "Dear Kim, How is it going? I thought you would like to know that our Sports Club is planning a sports competition for young members. I was thrilled about it!"
             },
             {
               "label": "Quan điểm, Lý do & Đề xuất",
-              "text": "Personally, I think holding a badminton cup is great because it promotes team spirit. Moreover, we should practice together. What do you think? Hope to hear from you soon."
+              "text": "Personally, I think holding mini football and badminton is great because these sports foster teamwork. Moreover, we should form a team to practice together. What do you think? Hope to hear from you soon."
             },
             {
               "label": "Ký tên",
@@ -1707,17 +1707,17 @@ export const part4Data = {
       "samples": [
         {
           "title": "Bài mẫu chuẩn Band B2+",
-          "wordCount": 141,
-          "en": "Dear Club Manager,\n\nMy name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the upcoming annual sports tournament and facility schedule. I believe this is a great idea that will promote athleticism.\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, we should include multi-sport categories such as badminton, table tennis, and five-a-side football to engage all members.\nSecond, partnering with local sports brands could secure subsidized equipment and attractive prizes.\nFinally, we should ensure professional medical assistance and hydration stations are available throughout each match day.\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
-          "vi": "Kính gửi Quản lý Câu lạc bộ,\n\nTên tôi là Kato, và tôi đã là một hội viên tích cực của câu lạc bộ chúng ta được hai năm. Trong thời gian này, tôi đã tham gia vào nhiều hoạt động ý nghĩa. Tôi viết thư này để chia sẻ góc nhìn và đưa ra một vài đề xuất mang tính xây dựng liên quan đến giải đấu thể thao thường niên và lịch sử dụng sân bãi. Tôi tin chắc rằng đây là một ý tưởng rất hay giúp thúc đẩy tinh thần thể thao.\n\nĐể giúp đạt được kết quả tốt nhất, tôi xin phép đưa ra ba đề xuất thực tế.\nThứ nhất, chúng ta nên bao gồm nhiều bộ môn như cầu lông, bóng bàn và bóng đá mini 5 người để thu hút mọi hội viên.\nThứ hai, việc hợp tác với các nhãn hàng thể thao địa phương có thể giúp tài trợ dụng cụ và giải thưởng hấp dẫn.\nCuối cùng, chúng ta nên đảm bảo có hỗ trợ y tế chuyên nghiệp và các trạm tiếp nước suốt các ngày thi đấu.\n\nCảm ơn bạn đã dành thời gian xem xét thư. Tôi rất mong sớm nhận được phản hồi từ bạn.\n\nTrân trọng,\nKato",
+          "wordCount": 142,
+          "en": "Dear Club Manager,\n\nMy name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the plan to organize a sports competition for young members. I believe this is a wonderful initiative that will encourage members to stay active and healthy.\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, the club should select popular sports such as badminton, table tennis, and mini football.\nSecond, we should arrange first-aid medical assistance and hydration stations to ensure player safety.\nFinally, the club could partner with local sports shops to sponsor medals and attractive prizes.\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
+          "vi": "Kính gửi Quản lý Câu lạc bộ,\n\nTên tôi là Kato, và tôi đã là một hội viên tích cực của câu lạc bộ chúng ta được hai năm. Trong thời gian này, tôi đã tham gia vào nhiều hoạt động ý nghĩa. Tôi viết thư này để chia sẻ góc nhìn và đưa ra một vài đề xuất mang tính xây dựng liên quan đến kế hoạch tổ chức cuộc thi thể thao dành cho các hội viên trẻ. Tôi tin chắc rằng đây là một sáng kiến tuyệt vời giúp khuyến khích các hội viên rèn luyện sức khỏe.\n\nĐể giúp đạt được kết quả tốt nhất, tôi xin phép đưa ra ba đề xuất thực tế.\nThứ nhất, câu lạc bộ nên chọn các môn thể thao phổ biến như cầu lông, bóng bàn và bóng đá mini.\nThứ hai, chúng ta nên bố trí hỗ trợ y tế sơ cứu và các trạm tiếp nước để đảm bảo an toàn cho vận động viên.\nCuối cùng, câu lạc bộ có thể hợp tác với các cửa hàng thể thao địa phương để tài trợ huy chương và giải thưởng hấp dẫn.\n\nCảm ơn bạn đã dành thời gian xem xét thư. Tôi rất mong sớm nhận được phản hồi từ bạn.\n\nTrân trọng,\nKato",
           "analysis": [
             {
               "label": "Mở đầu, Mục đích & Quan điểm",
-              "text": "My name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the upcoming annual sports tournament and facility schedule. I believe this is a great idea that will promote athleticism."
+              "text": "My name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the plan to organize a sports competition for young members. I believe this is a wonderful initiative that will encourage members to stay active and healthy."
             },
             {
               "label": "3 Đề xuất thực tế",
-              "text": "To help achieve the best outcome, I would like to make some practical proposals. First, we should include multi-sport categories such as badminton, table tennis, and five-a-side football to engage all members. Second, partnering with local sports brands could secure subsidized equipment and attractive prizes. Finally, we should ensure professional medical assistance and hydration stations are available throughout each match day."
+              "text": "To help achieve the best outcome, I would like to make some practical proposals. First, the club should select popular sports such as badminton, table tennis, and mini football. Second, we should arrange first-aid medical assistance and hydration stations to ensure player safety. Finally, the club could partner with local sports shops to sponsor medals and attractive prizes."
             },
             {
               "label": "Cảm ơn & Ký tên",
@@ -1764,7 +1764,7 @@ export const part4Data = {
           "name": "2. [ý kiến & lý do: gợi ý chủ đề - Topic] (Mệnh đề hoàn chỉnh)",
           "items": [
             {
-              "en": "the guest should talk about what makes a movie successful because this topic would be very interesting and useful for club members",
+              "en": "the speaker should talk about what makes a movie successful and share behind-the-scenes secrets",
               "vi": "khách mời nên nói về điều gì làm nên một bộ phim thành công vì chủ đề này sẽ rất thú vị và hữu ích cho các thành viên CLB"
             },
             {
@@ -1802,17 +1802,17 @@ export const part4Data = {
       "samples": [
         {
           "title": "Bài mẫu chuẩn Band B2+",
-          "wordCount": 55,
-          "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our club plans outdoor screenings. I was thrilled about it!\n\nPersonally, I think classic films are fantastic because everyone loves nostalgia. Moreover, we should bring blankets and popcorn. What do you think? Hope to hear from you soon.\n\nTake care,\nKato",
-          "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin CLB dự định chiếu phim ngoài trời. Mình rất phấn khởi về tin này!\n\nCá nhân mình thấy các bộ phim kinh điển rất tuyệt vì ai cũng thích sự hoài niệm. Hơn nữa, chúng mình nên mang theo chăn ấm và bắp rang. Bạn nghĩ sao? Mong sớm nhận được tin từ bạn.\n\nBảo trọng nhé,\nKato",
+          "wordCount": 59,
+          "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our Film Club will invite a famous film critic next week. I was excited about it!\n\nPersonally, I think he should talk about what makes a movie successful. Moreover, we should reserve seats early to sit in the front rows. What do you think? Hope to hear from you soon.\n\nTake care,\nKato",
+          "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin CLB Điện ảnh của chúng mình sẽ mời một nhà phê bình phim nổi tiếng vào tuần tới. Mình rất hào hứng khi nghe tin này!\n\nCá nhân mình thấy anh ấy nên chia sẻ về điều làm nên một bộ phim thành công. Hơn nữa, chúng mình nên đặt chỗ sớm để ngồi hàng ghế đầu. Bạn nghĩ sao? Mong sớm nhận được tin từ bạn.\n\nBảo trọng nhé,\nKato",
           "analysis": [
             {
               "label": "Chào hỏi & Tin tức",
-              "text": "Dear Kim, How is it going? I thought you would like to know that our club plans outdoor screenings. I was thrilled about it!"
+              "text": "Dear Kim, How is it going? I thought you would like to know that our Film Club will invite a famous film critic next week. I was excited about it!"
             },
             {
               "label": "Quan điểm, Lý do & Đề xuất",
-              "text": "Personally, I think classic films are fantastic because everyone loves nostalgia. Moreover, we should bring blankets and popcorn. What do you think? Hope to hear from you soon."
+              "text": "Personally, I think he should talk about what makes a movie successful. Moreover, we should reserve seats early to sit in the front rows. What do you think? Hope to hear from you soon."
             },
             {
               "label": "Ký tên",
@@ -1886,17 +1886,17 @@ export const part4Data = {
       "samples": [
         {
           "title": "Bài mẫu chuẩn Band B2+",
-          "wordCount": 138,
-          "en": "Dear Club President,\n\nMy name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the outdoor weekend movie screenings and film selection. I believe this is a great idea that will enrich cinematic culture.\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, we should feature timeless classic movies and award-winning international cinema on alternate weekends.\nSecond, investing in high-definition projection equipment and quality outdoor audio will guarantee an immersive experience.\nFinally, we could organize post-screening discussion circles where film enthusiasts critique cinematography and themes.\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
-          "vi": "Kính gửi Chủ tịch Câu lạc bộ,\n\nTên tôi là Kato, và tôi đã là một hội viên tích cực của câu lạc bộ chúng ta được hai năm. Trong thời gian này, tôi đã tham gia vào nhiều hoạt động ý nghĩa. Tôi viết thư này để chia sẻ góc nhìn và đưa ra một vài đề xuất mang tính xây dựng liên quan đến các buổi chiếu phim cuối tuần ngoài trời và việc lựa chọn phim. Tôi tin chắc rằng đây là một ý tưởng rất hay làm phong phú văn hóa điện ảnh.\n\nĐể giúp đạt được kết quả tốt nhất, tôi xin phép đưa ra ba đề xuất thực tế.\nThứ nhất, chúng ta nên luân phiên trình chiếu các bộ phim kinh điển vượt thời gian và phim điện ảnh quốc tế đạt giải.\nThứ hai, đầu tư máy chiếu độ nét cao và âm thanh ngoài trời chất lượng sẽ đảm bảo trải nghiệm sống động.\nCuối cùng, chúng ta có thể tổ chức các vòng tròn thảo luận sau buổi chiếu để người yêu điện ảnh phân tích góc quay và chủ đề phim.\n\nCảm ơn bạn đã dành thời gian xem xét thư. Tôi rất mong sớm nhận được phản hồi từ bạn.\n\nTrân trọng,\nKato",
+          "wordCount": 142,
+          "en": "Dear Club Manager,\n\nMy name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the upcoming talk by the famous film critic. I believe this is a wonderful initiative that will enrich our cinematic knowledge.\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, the speaker should talk about what makes a movie successful and share behind-the-scenes secrets.\nSecond, the club should advertise the event on social media and partner with campus film societies to attract attendees.\nFinally, we could organize a short movie quiz with free cinema vouchers for the winners.\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
+          "vi": "Kính gửi Quản lý Câu lạc bộ,\n\nTên tôi là Kato, và tôi đã là một hội viên tích cực của câu lạc bộ chúng ta được hai năm. Trong thời gian này, tôi đã tham gia vào nhiều hoạt động ý nghĩa. Tôi viết thư này để chia sẻ góc nhìn và đưa ra một vài đề xuất mang tính xây dựng liên quan đến buổi nói chuyện sắp tới của nhà phê bình phim nổi tiếng. Tôi tin chắc rằng đây là một sáng kiến tuyệt vời sẽ làm phong phú thêm kiến thức điện ảnh của chúng ta.\n\nĐể giúp đạt được kết quả tốt nhất, tôi xin phép đưa ra ba đề xuất thực tế.\nThứ nhất, diễn giả nên nói về điều làm nên một bộ phim thành công và chia sẻ những bí mật hậu trường.\nThứ hai, câu lạc bộ nên quảng bá sự kiện trên mạng xã hội và liên kết với các CLB phim sinh viên để thu hút người tham dự.\nCuối cùng, chúng ta có thể tổ chức đố vui ngắn về phim với vé xem phim miễn phí cho người chiến thắng.\n\nCảm ơn bạn đã dành thời gian xem xét thư. Tôi rất mong sớm nhận được phản hồi từ bạn.\n\nTrân trọng,\nKato",
           "analysis": [
             {
               "label": "Mở đầu, Mục đích & Quan điểm",
-              "text": "My name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the outdoor weekend movie screenings and film selection. I believe this is a great idea that will enrich cinematic culture."
+              "text": "My name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the upcoming talk by the famous film critic. I believe this is a wonderful initiative that will enrich our cinematic knowledge."
             },
             {
               "label": "3 Đề xuất thực tế",
-              "text": "To help achieve the best outcome, I would like to make some practical proposals. First, we should feature timeless classic movies and award-winning international cinema on alternate weekends. Second, investing in high-definition projection equipment and quality outdoor audio will guarantee an immersive experience. Finally, we could organize post-screening discussion circles where film enthusiasts critique cinematography and themes."
+              "text": "To help achieve the best outcome, I would like to make some practical proposals. First, the speaker should talk about what makes a movie successful and share behind-the-scenes secrets. Second, the club should advertise the event on social media and partner with campus film societies to attract attendees. Finally, we could organize a short movie quiz with free cinema vouchers for the winners."
             },
             {
               "label": "Cảm ơn & Ký tên",
@@ -1981,17 +1981,17 @@ export const part4Data = {
       "samples": [
         {
           "title": "Bài mẫu chuẩn Band B2+",
-          "wordCount": 55,
-          "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our club plans a maintenance workshop. I was excited about it!\n\nPersonally, I think practical auto tips are great for beginners. Moreover, we should bring our repair tools. What do you think? Hope to hear from you soon.\n\nTake care,\nKato",
-          "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin CLB dự định tổ chức hội thảo bảo dưỡng xe. Mình rất hào hứng về tin này!\n\nCá nhân mình thấy các mẹo thực tế rất hữu ích cho người mới. Hơn nữa, chúng mình nên mang theo bộ dụng cụ sửa chữa. Bạn nghĩ sao? Mong sớm nhận được tin từ bạn.\n\nBảo trọng nhé,\nKato",
+          "wordCount": 59,
+          "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our Car Club is invited to send two representatives on a European road trip. I was thrilled about it!\n\nPersonally, I think Alex and David are great choices because they have excellent driving skills. Moreover, we should help them inspect the car. What do you think? Hope to hear from you soon.\n\nTake care,\nKato",
+          "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin CLB Xe hơi được mời cử hai đại diện tham gia chuyến đi xuyên Châu Âu. Mình rất phấn khởi khi nghe tin này!\n\nCá nhân mình thấy Alex và David là lựa chọn tuyệt vời vì họ có kỹ năng lái xe xuất sắc. Hơn nữa, chúng mình nên giúp họ kiểm tra xe trước chuyến đi. Bạn nghĩ sao? Mong sớm nhận được tin từ bạn.\n\nBảo trọng nhé,\nKato",
           "analysis": [
             {
               "label": "Chào hỏi & Tin tức",
-              "text": "Dear Kim, How is it going? I thought you would like to know that our club plans a maintenance workshop. I was excited about it!"
+              "text": "Dear Kim, How is it going? I thought you would like to know that our Car Club is invited to send two representatives on a European road trip. I was thrilled about it!"
             },
             {
               "label": "Quan điểm, Lý do & Đề xuất",
-              "text": "Personally, I think practical auto tips are great for beginners. Moreover, we should bring our repair tools. What do you think? Hope to hear from you soon."
+              "text": "Personally, I think Alex and David are great choices because they have excellent driving skills. Moreover, we should help them inspect the car. What do you think? Hope to hear from you soon."
             },
             {
               "label": "Ký tên",
@@ -2014,7 +2014,7 @@ export const part4Data = {
           "name": "1. Đề xuất 1: [đề xuất thứ nhất] (Mệnh đề hoàn chỉnh)",
           "items": [
             {
-              "en": "the main driver must have an international driving license and excellent driving skills",
+              "en": "the main driver must hold an international driving license and have extensive long-distance experience",
               "vi": "người lái chính phải có bằng lái quốc tế và kỹ năng lái xe xuất sắc"
             },
             {
@@ -2031,7 +2031,7 @@ export const part4Data = {
           "name": "2. Đề xuất 2: [đề xuất thứ hai] (Mệnh đề hoàn chỉnh)",
           "items": [
             {
-              "en": "the accompanying passenger should be fluent in English and possess basic car repair skills",
+              "en": "the accompanying passenger should be fluent in English and possess basic vehicle repair skills",
               "vi": "người đồng hành nên thông thạo tiếng Anh và có kỹ năng sửa xe cơ bản"
             },
             {
@@ -2048,7 +2048,7 @@ export const part4Data = {
           "name": "3. Đề xuất 3: [đề xuất thứ ba] (Mệnh đề hoàn chỉnh)",
           "items": [
             {
-              "en": "the club should provide comprehensive travel insurance and emergency repair tools for the team",
+              "en": "the club should provide comprehensive travel insurance and emergency repair toolkits for the journey",
               "vi": "CLB nên trang bị bảo hiểm du lịch toàn diện và dụng cụ sửa xe khẩn cấp cho đội"
             },
             {
@@ -2065,17 +2065,17 @@ export const part4Data = {
       "samples": [
         {
           "title": "Bài mẫu chuẩn Band B2+",
-          "wordCount": 141,
-          "en": "Dear Club Manager,\n\nMy name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the upcoming automotive maintenance workshop and road safety seminars. I believe this is a great idea that will enhance vehicle safety.\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, the workshop should offer hands-on training for essential procedures like tire changes and brake inspections.\nSecond, partnering with certified mechanics will guarantee expert guidance and professional safety standards.\nFinally, we could organize a cross-country weekend driving tour to put members' handling skills into practice.\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
-          "vi": "Kính gửi Quản lý Câu lạc bộ,\n\nTên tôi là Kato, và tôi đã là một hội viên tích cực của câu lạc bộ chúng ta được hai năm. Trong thời gian này, tôi đã tham gia vào nhiều hoạt động ý nghĩa. Tôi viết thư này để chia sẻ góc nhìn và đưa ra một vài đề xuất mang tính xây dựng liên quan đến buổi hướng dẫn bảo dưỡng xe và hội thảo an toàn giao thông sắp tới. Tôi tin chắc rằng đây là một ý tưởng rất hay giúp nâng cao an toàn xe.\n\nĐể giúp đạt được kết quả tốt nhất, tôi xin phép đưa ra ba đề xuất thực tế.\nThứ nhất, buổi hội thảo nên có phần thực hành các thao tác thiết yếu như thay lốp và kiểm tra phanh xe.\nThứ hai, hợp tác với thợ máy có chứng chỉ chuyên môn sẽ đảm bảo hướng dẫn chuẩn mực và an toàn tuyệt đối.\nCuối cùng, chúng ta có thể tổ chức một chuyến lái xe dã ngoại cuối tuần để hội viên thực hành kỹ năng xử lý tình huống.\n\nCảm ơn bạn đã dành thời gian xem xét thư. Tôi rất mong sớm nhận được phản hồi từ bạn.\n\nTrân trọng,\nKato",
+          "wordCount": 138,
+          "en": "Dear Club Manager,\n\nMy name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the selection of two club representatives for the European road trip. I believe this is a prestigious opportunity that will promote our club's reputation.\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, the main driver must hold an international driving license and have extensive long-distance experience.\nSecond, the accompanying passenger should be fluent in English and possess basic vehicle repair skills.\nFinally, the club should provide comprehensive travel insurance and emergency repair toolkits for the journey.\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
+          "vi": "Kính gửi Quản lý Câu lạc bộ,\n\nTên tôi là Kato, và tôi đã là một hội viên tích cực của câu lạc bộ chúng ta được hai năm. Trong thời gian này, tôi đã tham gia vào nhiều hoạt động ý nghĩa. Tôi viết thư này để chia sẻ góc nhìn và đưa ra một vài đề xuất mang tính xây dựng liên quan đến việc tuyển chọn hai đại diện CLB tham gia chuyến đi xuyên châu Âu. Tôi tin chắc rằng đây là một cơ hội danh giá giúp nâng cao uy tín của câu lạc bộ chúng ta.\n\nĐể giúp đạt được kết quả tốt nhất, tôi xin phép đưa ra ba đề xuất thực tế.\nThứ nhất, người lái chính phải có bằng lái quốc tế và có nhiều kinh nghiệm lái đường dài.\nThứ hai, hành khách đồng hành nên thông thạo tiếng Anh và có kỹ năng sửa xe cơ bản.\nCuối cùng, câu lạc bộ nên trang bị bảo hiểm du lịch toàn diện và dụng cụ sửa xe khẩn cấp cho chuyến đi.\n\nCảm ơn bạn đã dành thời gian xem xét thư. Tôi rất mong sớm nhận được phản hồi từ bạn.\n\nTrân trọng,\nKato",
           "analysis": [
             {
               "label": "Mở đầu, Mục đích & Quan điểm",
-              "text": "My name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the upcoming automotive maintenance workshop and road safety seminars. I believe this is a great idea that will enhance vehicle safety."
+              "text": "My name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the selection of two club representatives for the European road trip. I believe this is a prestigious opportunity that will promote our club's reputation."
             },
             {
               "label": "3 Đề xuất thực tế",
-              "text": "To help achieve the best outcome, I would like to make some practical proposals. First, the workshop should offer hands-on training for essential procedures like tire changes and brake inspections. Second, partnering with certified mechanics will guarantee expert guidance and professional safety standards. Finally, we could organize a cross-country weekend driving tour to put members' handling skills into practice."
+              "text": "To help achieve the best outcome, I would like to make some practical proposals. First, the main driver must hold an international driving license and have extensive long-distance experience. Second, the accompanying passenger should be fluent in English and possess basic vehicle repair skills. Finally, the club should provide comprehensive travel insurance and emergency repair toolkits for the journey."
             },
             {
               "label": "Cảm ơn & Ký tên",
@@ -2331,17 +2331,17 @@ export const part4Data = {
       "samples": [
         {
           "title": "Bài mẫu chuẩn Band B2+",
-          "wordCount": 56,
-          "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our club plans an acoustic concert. I was thrilled about it!\n\nPersonally, I think live acoustic shows are wonderful for intimate member bonding. Moreover, we should perform a duet. What do you think? Hope to hear from you soon.\n\nTake care,\nKato",
-          "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin CLB dự định tổ chức đêm nhạc mộc acoustic. Mình rất phấn khởi về tin này!\n\nCá nhân mình thấy các buổi biểu diễn acoustic rất tuyệt để hội viên gắn kết gần gũi. Hơn nữa, chúng mình nên song ca một bài. Bạn nghĩ sao? Mong sớm nhận được tin từ bạn.\n\nBảo trọng nhé,\nKato",
+          "wordCount": 59,
+          "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that neighbors complained about noise from our evening concerts. I was quite concerned about it!\n\nPersonally, I think we should lower the volume and finish concerts before 9:00 PM. Moreover, we should attend the upcoming club meeting. What do you think? Hope to hear from you soon.\n\nTake care,\nKato",
+          "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin hàng xóm đã phàn nàn về tiếng ồn từ các buổi hòa nhạc buổi tối. Mình khá lo lắng về tin này!\n\nCá nhân mình thấy chúng mình nên giảm âm lượng và kết thúc các buổi diễn trước 9:00 tối. Hơn nữa, chúng mình nên tham gia buổi họp CLB sắp tới. Bạn nghĩ sao? Mong sớm nhận được tin từ bạn.\n\nBảo trọng nhé,\nKato",
           "analysis": [
             {
               "label": "Chào hỏi & Tin tức",
-              "text": "Dear Kim, How is it going? I thought you would like to know that our club plans an acoustic concert. I was thrilled about it!"
+              "text": "Dear Kim, How is it going? I thought you would like to know that neighbors complained about noise from our evening concerts. I was quite concerned about it!"
             },
             {
               "label": "Quan điểm, Lý do & Đề xuất",
-              "text": "Personally, I think live acoustic shows are wonderful for intimate member bonding. Moreover, we should perform a duet. What do you think? Hope to hear from you soon."
+              "text": "Personally, I think we should lower the volume and finish concerts before 9:00 PM. Moreover, we should attend the upcoming club meeting. What do you think? Hope to hear from you soon."
             },
             {
               "label": "Ký tên",
@@ -2364,7 +2364,7 @@ export const part4Data = {
           "name": "1. Đề xuất 1: [đề xuất thứ nhất] (Mệnh đề hoàn chỉnh)",
           "items": [
             {
-              "en": "the club should install soundproof curtains and foam panels in the rehearsal room",
+              "en": "the club should install soundproof acoustic curtains and foam panels in the rehearsal hall",
               "vi": "CLB nên lắp rèm cách âm và mút tiêu âm trong phòng tập"
             },
             {
@@ -2381,7 +2381,7 @@ export const part4Data = {
           "name": "2. Đề xuất 2: [đề xuất thứ hai] (Mệnh đề hoàn chỉnh)",
           "items": [
             {
-              "en": "we should end all evening performances before 9:30 PM to avoid disturbing neighbors",
+              "en": "we should reschedule all evening performances to conclude no later than 9:30 PM",
               "vi": "chúng ta nên kết thúc các buổi diễn buổi tối trước 9:30 để tránh làm phiền hàng xóm"
             },
             {
@@ -2398,7 +2398,7 @@ export const part4Data = {
           "name": "3. Đề xuất 3: [đề xuất thứ ba] (Mệnh đề hoàn chỉnh)",
           "items": [
             {
-              "en": "the club could switch to soft acoustic music and invite neighbors to enjoy free tea",
+              "en": "the club could switch to soft acoustic instruments and invite neighbors to enjoy free tea",
               "vi": "CLB có thể chuyển sang nhạc acoustic nhẹ nhàng và mời hàng xóm uống trà miễn phí"
             },
             {
@@ -2415,17 +2415,17 @@ export const part4Data = {
       "samples": [
         {
           "title": "Bài mẫu chuẩn Band B2+",
-          "wordCount": 142,
-          "en": "Dear Club Manager,\n\nMy name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the upcoming seasonal acoustic concert and stage performance. I believe this is a great idea that will showcase members' talent.\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, we should feature diverse genres encompassing acoustic folk, pop ballads, and classical instrumental performances.\nSecond, securing high-quality microphones and warm ambient acoustic lighting will significantly enhance the audience's auditory experience.\nFinally, we could record live performance videos to promote our club musical activities across social media.\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
-          "vi": "Kính gửi Quản lý Câu lạc bộ,\n\nTên tôi là Kato, và tôi đã là một hội viên tích cực của câu lạc bộ chúng ta được hai năm. Trong thời gian này, tôi đã tham gia vào nhiều hoạt động ý nghĩa. Tôi viết thư này để chia sẻ góc nhìn và đưa ra một vài đề xuất mang tính xây dựng liên quan đến đêm nhạc acoustic theo mùa và buổi biểu diễn trên sân khấu sắp tới. Tôi tin chắc rằng đây là một ý tưởng rất hay để tôn vinh tài năng của hội viên.\n\nĐể giúp đạt được kết quả tốt nhất, tôi xin phép đưa ra ba đề xuất thực tế.\nThứ nhất, chúng ta nên giới thiệu các thể loại đa dạng bao gồm dân ca mộc mạc, pop ballad và độc tấu nhạc cụ cổ điển.\nThứ hai, việc trang bị micro chất lượng cao và ánh sáng sân khấu ấm cúng sẽ cải thiện đáng kể trải nghiệm nghe của khán giả.\nCuối cùng, chúng ta có thể ghi hình các video biểu diễn trực tiếp để quảng bá hoạt động âm nhạc của CLB trên mạng xã hội.\n\nCảm ơn bạn đã dành thời gian xem xét thư. Tôi rất mong sớm nhận được phản hồi từ bạn.\n\nTrân trọng,\nKato",
+          "wordCount": 136,
+          "en": "Dear Club Manager,\n\nMy name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the noise complaints from neighbors about our evening concerts. I believe resolving this noise issue is essential to keep our concerts running.\n\nTo help achieve the best outcome, I would like to make some practical proposals.\nFirst, the club should install soundproof acoustic curtains and foam panels in the rehearsal hall.\nSecond, we should reschedule all evening performances to conclude no later than 9:30 PM.\nFinally, the club could switch to soft acoustic instruments and invite neighbors to enjoy free tea.\n\nThank you for your time and consideration. I look forward to hearing your response.\n\nBest regards,\nKato",
+          "vi": "Kính gửi Quản lý Câu lạc bộ,\n\nTên tôi là Kato, và tôi đã là một hội viên tích cực của câu lạc bộ chúng ta được hai năm. Trong thời gian này, tôi đã tham gia vào nhiều hoạt động ý nghĩa. Tôi viết thư này để chia sẻ góc nhìn và đưa ra một vài đề xuất mang tính xây dựng liên quan đến khiếu nại tiếng ồn từ hàng xóm về các buổi hòa nhạc buổi tối. Tôi tin chắc rằng việc giải quyết vấn đề tiếng ồn này là điều thiết yếu để các buổi hòa nhạc tiếp tục diễn ra.\n\nĐể giúp đạt được kết quả tốt nhất, tôi xin phép đưa ra ba đề xuất thực tế.\nThứ nhất, câu lạc bộ nên lắp rèm cách âm và mút tiêu âm trong phòng biểu diễn.\nThứ hai, chúng ta nên điều chỉnh lại giờ diễn để kết thúc muộn nhất là 9:30 tối.\nCuối cùng, câu lạc bộ có thể chuyển sang các nhạc cụ mộc nhẹ nhàng và mời bà con hàng xóm đến thưởng trà miễn phí.\n\nCảm ơn bạn đã dành thời gian xem xét thư. Tôi rất mong sớm nhận được phản hồi từ bạn.\n\nTrân trọng,\nKato",
           "analysis": [
             {
               "label": "Mở đầu, Mục đích & Quan điểm",
-              "text": "My name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the upcoming seasonal acoustic concert and stage performance. I believe this is a great idea that will showcase members' talent."
+              "text": "My name is Kato, and I have been an active member of our club for two years. During this time, I have participated in many meaningful activities. I am writing to share my views and offer several practical suggestions regarding the noise complaints from neighbors about our evening concerts. I believe resolving this noise issue is essential to keep our concerts running."
             },
             {
               "label": "3 Đề xuất thực tế",
-              "text": "To help achieve the best outcome, I would like to make some practical proposals. First, we should feature diverse genres encompassing acoustic folk, pop ballads, and classical instrumental performances. Second, securing high-quality microphones and warm ambient acoustic lighting will significantly enhance the audience's auditory experience. Finally, we could record live performance videos to promote our club musical activities across social media."
+              "text": "To help achieve the best outcome, I would like to make some practical proposals. First, the club should install soundproof acoustic curtains and foam panels in the rehearsal hall. Second, we should reschedule all evening performances to conclude no later than 9:30 PM. Finally, the club could switch to soft acoustic instruments and invite neighbors to enjoy free tea."
             },
             {
               "label": "Cảm ơn & Ký tên",
@@ -2506,17 +2506,17 @@ export const part4Data = {
       "samples": [
         {
           "title": "Bài mẫu chuẩn Band B2+",
-          "wordCount": 77,
-          "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our talk show has been canceled because the guests are busy. I was quite disappointed to hear about it.\n\nPersonally, I think the club should organize an English speaking session instead of canceling the meeting. Moreover, we should meet at a coffee shop this weekend to practice speaking English together. What do you think?\nHope to hear from you soon.\n\nTake care,\nKato",
-          "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin buổi tọa đàm của chúng mình đã bị hủy do khách mời bận việc. Mình khá thất vọng khi nghe tin này.\n\nCá nhân mình thấy CLB nên tổ chức một buổi luyện nói tiếng Anh thay vì hủy luôn buổi sinh hoạt. Hơn nữa, chúng mình nên hẹn nhau ra quán cà phê cuối tuần này để cùng luyện nói tiếng Anh nhé. Bạn nghĩ sao?\nMong sớm nhận được tin từ bạn.\n\nBảo trọng nhé,\nKato",
+          "wordCount": 61,
+          "en": "Dear Kim,\n\nHow is it going? I thought you would like to know that our talk show was canceled because the guests are busy. I was quite disappointed about it!\n\nPersonally, I think the club should organize a speaking session instead of canceling. Moreover, let's practice English together at a cafe this weekend. What do you think? Hope to hear from you soon.\n\nTake care,\nKato",
+          "vi": "Chào Kim,\n\nDạo này bạn thế nào? Mình nghĩ bạn sẽ thích biết tin buổi tọa đàm của chúng mình đã bị hủy do khách mời bận việc. Mình khá thất vọng khi nghe tin này!\n\nCá nhân mình thấy CLB nên tổ chức một buổi luyện nói thay vì hủy luôn. Hơn nữa, chúng mình hãy cùng nhau luyện tiếng Anh tại một quán cà phê cuối tuần này nhé. Bạn nghĩ sao? Mong sớm nhận được tin từ bạn.\n\nBảo trọng nhé,\nKato",
           "analysis": [
             {
               "label": "Chào hỏi & Tin tức",
-              "text": "Dear Kim, How is it going? I thought you would like to know that our talk show has been canceled because the guests are busy. I was quite disappointed to hear about it."
+              "text": "Dear Kim, How is it going? I thought you would like to know that our talk show was canceled because the guests are busy. I was quite disappointed about it!"
             },
             {
               "label": "Quan điểm, Lý do & Đề xuất",
-              "text": "Personally, I think the club should organize an English speaking session instead of canceling the meeting. Moreover, we should meet at a coffee shop this weekend to practice speaking English together. What do you think? Hope to hear from you soon."
+              "text": "Personally, I think the club should organize a speaking session instead of canceling. Moreover, let's practice English together at a cafe this weekend. What do you think? Hope to hear from you soon."
             },
             {
               "label": "Ký tên",
